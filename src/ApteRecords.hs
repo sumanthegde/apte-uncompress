@@ -89,13 +89,15 @@ instance FromJSON Location where
 instance ToJSONKey Location
 instance FromJSONKey Location
 
--- Left is used for (yet) unprocessed data
--- Right is used for the processed data
--- Nothing is used when respective field does not exist
--- In a patch, Right is used for value update
--- In a patch, Left is invalid. (Earlier, it was imagined to be useful for key update)
--- In a patch, Nothing is used for leaving the field unchanged
--- In a mask, Nothing is used for deleting the field
+-- Term is the basic unit of the dictionary: Essentially, it's a title (aka _banner) along with the meaning list.
+-- Attributes _morphisms & _samasas are added to capture the recursive structure.
+-- By morphism we mean a minor change to title (e.g. gender) but possibly having a different meaning.
+-- _samasas are self evident.
+-- _gram captures grammatical info given before starting the meaning list.
+-- Other attributes do bookkeeping.
+-- __line captures the line number of the term in ap90.txt 
+-- _bannerExp is populated with "full compound word" while _banner stores the original shorthand.
+-- _ancestry stores "address", i.e. titles of enclosing terms.
 data Term = Term
   { __line :: Maybe Int
   , _ancestry :: Maybe [Location]
