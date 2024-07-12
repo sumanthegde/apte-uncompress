@@ -22,7 +22,7 @@ Access the list of words through the following options:
 
 ## Contributing
 If you want to generate the [table.txt](apteDir.nosync/output/table.txt) using the code, follow these steps:
-1. Install stack: `stack curl -sSL https://get.haskellstack.org/ | sh`
+1. Install stack: `curl -sSL https://get.haskellstack.org/ | sh`
 2. In the project directory, run `stack run`.
    This generates [table.txt](apteDir.nosync/output/table.txt).
 
