@@ -96,9 +96,9 @@ surjectivishJoin prev parentOpts selfOpts = let
 parserError msg = pure $ [Left $ "Parser error: "++ msg]
 
 hypSlps' :: String -> R.ReadP [String]
-hypSlps' alt = lit "{#" 
-             *> (lit "--" <++ lit alt) 
-             *> chainMaximal1 (slpStr1 : repeat (manyGreedy1 (satisfy (`elem` ",- ")) *> slpStr1)) 
+hypSlps' alt = lit "{#"
+             *> (lit "--" <++ lit alt)
+             *> chainMaximal1 (slpStr1 : repeat (manyGreedy1 (satisfy (`elem` ",- ")) *> slpStr1))
              <* lit "#}"
 
 -- To catch {#--parikri-zkri-yA#} etc
@@ -136,7 +136,7 @@ anusvarafy = reverse . go "" where
 -- | todo(?) Move special cases to Envt config
 sandhiE :: String -> String -> String
 sandhiE purva = go (unvibhakti purva) where
-  go "aMguli" ('s':ys) = go "aMguli" ('z':ys) -- 8/3/80
+  go "aMguli" ('s':'a':'M':'g':ys) = go "aMgulizaMg" ys -- 8/3/80
   go "agni"   ('s':'t':'u':'t':ys) = "agnizwut"++ys -- 8/3/82
   go "agni"   ('s':'t':'o':'m':ys) = "agnizwom"++ys -- 8/3/82
   go "jyotis" ('s':'t':'o':'m':ys) = "jyotizwom"++ys -- 8/3/83
@@ -349,7 +349,7 @@ getDsal = do
   let anunasikafyS = uncanon . e2s . anunasikafy . s2e . canon
   let nFix = filter (/= 'ऩ')
   let badMap = fmap $ \x -> fromMaybe x (lookup x (zip "ᳲ:ढ़" "ःःढ"))
-  dsal <- (fmap (fmap (anunasikafyS . badMap . nFix . rephaFix))) <$> load (apteDir  </> "dsal/dsal.json") ([]::[[String]])
+  dsal <- fmap (fmap (anunasikafyS . badMap . nFix . rephaFix)) <$> load (apteDir  </> "dsal/dsal.json") ([]::[[String]])
   --let validChar c = c `elem` ('्': Aaz.sans ++ catMaybes (fmap (`lookup` sigMap) (tail vowelsReal)))
   --forM (zip [1..] dsal) (\(i,css) -> if any (not.validChar) (concat css) then printu (filter (not.validChar) (concat css)) >> void getChar else pure ())
   let dsalE = fmap (s2e . canon) <$> dsal
