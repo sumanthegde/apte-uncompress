@@ -152,14 +152,21 @@ regular = catManyGreedy1 (manyGreedy1sat bracketFree R.<++ bracketed)
 regularButOuter condP = catManyGreedy1 (manyGreedy1 (R.satisfy bracketFree) R.<++ guard' condP bracketed)
 
 -- | Like regularButOuter, but the constraint is not applicable to the maximal bracketed part if it
---   starts with {#° and is preceded by "so " or "see " or "= ". This odd-looking function is to handle:
---   - the kinds of "so {#°...". Example: kawu --graMTi "so {#°BaMgaH#}"
---   - the kinds of "see {#°...". Example: go --tra "see {#°sKalita#} below"
---   - the kinds of "= {#°...". Example: patraM --AvalI {1}... {2} = {#°Avali#}
-regularButOuterSoSeeEq condBlack = catManyGreedy1 $
-  manyGreedy1 (aheadSatisfy (\s -> not $ any (`L.isPrefixOf` s) ["so {#°","see {#°","= {#°"]) >> R.satisfy bracketFree)
-  R.<++ pJoin [lit "so "<++ lit "see "<++ lit "= ", lookAhead "{#°" >> bracketed]
-  R.<++ pJoin [lit "so " <++ lit "see " <++ lit "= " <++ pure "", guard' condBlack bracketed]
+--   starts with {#° and is preceded by "so " or "see " etc. This odd-looking function is to handle the kinds of:
+--   - "so {#°...". Example: kawu --graMTi "so {#°BaMgaH#} {#°BadraH}"
+--   - "see {#°...". Example: go --tra "see {#°sKalita#} below"
+--   - "= {#°...". Example: patraM --AvalI {1}... {2} = {#°Avali#}
+--   - "<ab>cf.</ab> {#°". Example: kara --pallava cf. kisalaya#}.
+regularButOuterSoSee condBlack = let
+  soSee = ["so","see","=","<ab>cf.</ab>"]
+  soSeePref = soSee <&> (++ " {#°")
+  litSoSee = s_ $ foldr1 (<++) (s1'_.lit <$> soSee)
+  jamMidSpaces xs = takeWhile isSpace xs ++ (unwords . words . unwords . lines) (dropWhile isSpace xs)
+  optLit s = lit s <++ pure ""
+  in catManyGreedy1 $
+        manyGreedy1 (aheadSatisfy (\s -> not $ any (`L.isPrefixOf` jamMidSpaces s) soSeePref) >> R.satisfy bracketFree)
+        R.<++ pJoin [litSoSee, catManyGreedy1 (s_ (optLit "or " >> lookAhead "{#°" >> bracketed))]
+        R.<++ pJoin [litSoSee <++ pure "", guard' condBlack bracketed]
 
 computelNum :: Envt -> Int -> Int
 computelNum envt linesLeft = (mapLnu envt M.! loc (head $ locations envt)) + 1 + nLines envt - linesLeft
@@ -323,7 +330,7 @@ parseMeaningsWithinSamasa envt = let
   degContdToMorphismAtEnd = degSentenceContd <++ degSentence2Contd <++ degSlpLsContd
   degSlpSentence = concat <$> chainMaximal1 (inBraceHashDeg: repeat (s_ inBraceHash))
   meaningDegLsContd = pJoin [s1'_ degSlpSentence, lookAhead "<ls>" >> meaningPlusMorphism]
-  meaningPlusMorphism = regularButOuterSoSeeEq (prefixOfNoneOf allStarters) ++/ (degContdToMorphismAtEnd <++ morphismAtEnd)
+  meaningPlusMorphism = regularButOuterSoSee (prefixOfNoneOf allStarters) ++/ (degContdToMorphismAtEnd <++ morphismAtEnd)
   postNumeric = s_ ((parenAlso <++ inParen) /++ meaningPlusMorphism) -- eka cityA … {2} ({#--yaH#}, {#--yanaH#}); eka kara {2} ({#--rA#}); ahan {#--rAtraH#} ({#--traM#} also)
   numeric i = chains (pure (++)) [lit "{", lit (show i), lit "}"]
   subnumeric = (pJoin [lit "{#°", slpStr, lit "#}"] ++/ lit ",") -- aMtar yAmaH …{2} {#॰pAtraM#}, …
@@ -523,7 +530,8 @@ abbrHypInSamasaMap =
   ,(29065,"satya")
   ,(886,"adriH")
   ]
-  
+
+th k = take 1 . drop k  
 
 makeInline :: (String -> String) -> [FilePath] -> FilePath -> FilePath -> IO [String]
 makeInline lineCurator patchPaths inPath outPath = do

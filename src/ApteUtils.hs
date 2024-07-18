@@ -12,6 +12,7 @@ import Text.ParserCombinators.ReadP
 import qualified Data.Map as M
 import qualified Data.List as L
 import Control.Monad
+import SEncode
 
 takeEnd k = reverse . take k . reverse
 devanagari="अआइईउऊ"++"ऋॠऌॡ"++"एऐओऔंः"++"ँऽ"++"कखगघङ"++"चछजझञ"++"टठडढण"++ "तथदधनपफबभमयरलव"++"शषसहळ"
@@ -86,6 +87,15 @@ loadEnvtSubsamasaMorphisms e rs = let
   fixLabel rev@(end:S_M_S_ _:rest) = S_M_S_M_ (loc end): tail rev 
   extendLocProper = reverse . fixLabel . reverse . extendLocHasty
   in e {subsamasaMorphismLocs = fmap extendLocProper subsamasaMorphisms}
+
+
+braceHashToDevanagari :: String -> String
+braceHashToDevanagari = go "" where
+  go ac ('{':'#':rest) = go' ac "" rest
+  go ac (c:rest) = go (ac++[c]) rest
+  go ac "" = ac
+  go' ac b ('#':'}':rest) = go (ac++ uncanon (reverse b)) rest
+  go' ac b (c:rest) = go' ac (e2s' [c]++b) rest
 
 rmLine t = t {__line = Nothing}
 rmSamasa t = t {_samasas = Nothing}
