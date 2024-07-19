@@ -567,6 +567,14 @@ makeInline lineCurator patchPaths inPath outPath = do
 --rec1Path = apteOutput </> "1.json"
 store' path structure = putStrLn ("store: "++path) >> store path structure >> return structure
 
+patchOverlapCheck :: IO ()
+patchOverlapCheck = do
+  patchesAll <- fmap (ap90</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90
+  patches <- traverse (`load` M.empty) patchesAll :: IO [M.Map Integer String]
+  let lineNumsGrouped = (L.group . L.sort. concat) (M.keys <$> patches)
+  let dups = filter (not.null.tail) lineNumsGrouped
+  if null dups then putStrLn "No overlaps." else putStrLn $ "OVERLAPS: " ++ L.intercalate ", " (show.head <$> dups)
+
 -- | To be run in ghci
 type EditPath = FilePath
 makeNewPatch :: EditPath -> FilePath -> IO (M.Map Integer String)

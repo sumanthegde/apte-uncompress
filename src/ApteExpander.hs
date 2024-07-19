@@ -271,6 +271,14 @@ appender expEnv prev (S_ s) = do
   let samasta = sandhiE prev uttaraWithNatva
   return samasta
 
+-- | Simpler than subsamasa parser: S_M_S_ complexity is not present
+appender expEnv prev (S_S_ s) = do
+  let nonSlps = munch1 (`notElem` slpCharSet)
+  let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
+  let z = Right <$> (parse' slpss s) 
+  uttara <- ExceptT z
+  let samasta = sandhiE prev uttara
+  return samasta
 --appender _ prev (S_M_ _) = ExceptT [Right ""] -- temp pass
 
 appender _ prev cur = ExceptT [Left $ "Default Folder error: " ++ prev ++ " " ++ show cur]
