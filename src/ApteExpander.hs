@@ -15,7 +15,7 @@ import qualified Data.Map as M
 import qualified Data.List.Split as LS
 import qualified Data.List as L
 import Text.ParserCombinators.ReadP as R
-import Control.Lens
+import Control.Lens ( (&), (^..), (^.), _Just, _Right )
 import Data.Either
 import Control.Monad
 import System.FilePath
@@ -28,7 +28,7 @@ import Data.Bifunctor
 import Control.Applicative
 
 parse' p =  fst . head . parse p
-parseEither p s = case parse p s of [(parsed,"")] -> parsed; _ -> Left ("Parser error: " ++ s)
+--parseEither p s = case parse p s of [(parsed,"")] -> parsed; _ -> Left ("Parser error: " ++ s)
 
 
 sylReplaceOnCompatEnd :: String -> String -> Either String String
@@ -167,6 +167,7 @@ sandhiE purva = go (unvibhakti purva) where
   go xs ys = go2 xs ys
   go2 xs ys = s2e $ sandhiApte (e2s xs) (e2s ys)
 
+strictPrefixOf xs ys = case L.stripPrefix xs ys of Just (_:_) -> True; _ -> False
 --sandhiXmw :: M.Map String String -> String -> String -> Either String String
 --sandhiXmw mwComps x y = do
 --  let deva = (' ':).uncanon . e2s
@@ -180,6 +181,7 @@ data ExpEnv = ExpEnv
   , thisTerm :: Term
 --  , mwDict :: M.Map String String
   , unparenMap :: M.Map String [String]
+  , preservingSM :: [[Location]]
   }
 
 -- | Expands feminine forms that are enclosed in 'gram' attribute. (Recall: gram is a list)
@@ -271,15 +273,41 @@ appender expEnv prev (S_ s) = do
   let samasta = sandhiE prev uttaraWithNatva
   return samasta
 
--- | Simpler than subsamasa parser: S_M_S_ complexity is not present
-appender expEnv prev (S_S_ s) = do
+-- | Simple slp parsing suffices
+appender _ prev (S_S_ s) = do
   let nonSlps = munch1 (`notElem` slpCharSet)
   let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
-  let z = Right <$> (parse' slpss s) 
-  uttara <- ExceptT z
+  uttara <- ExceptT $ Right <$> (parse' slpss s) 
   let samasta = sandhiE prev uttara
   return samasta
---appender _ prev (S_M_ _) = ExceptT [Right ""] -- temp pass
+
+-- | S_M_ values are of two kinds.
+--   For the `<ab>f.</ab>` kind, the final word is the upstream value (S_) itself.
+--   For the ः,ा,ी kind, the final word is derived via align-replace.
+--   However, if the present term is a S_M_S_*, then here we are supposed to
+--   pass not the final word but the "forepart" of the prospective comound.
+--   The forepart is usually the S_ value itself (e.g. गो-त्र-(त्रा)-कर्तृ),
+--   unless S_M_ is in preservingSM (e.g. क्षण-(द)-दा-करः)
+appender expEnv prev l@(S_M_ m) 
+  | any (`L.isPrefixOf` (thisTerm expEnv ^. ancestry . _Just)) (preservingSM expEnv)
+    || l == last (thisTerm expEnv ^. ancestry . _Just) = do
+         let nonSlps = munch1 (`elem` "({#--° ,}")
+         let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
+         let gramVariant = abbrhyp *> return [prev]
+         let err i = Left $ "S_M_ " ++ show i ++ " error: " ++ prev ++ " " ++ m          
+         let errorOnEmpty ts = if null ts then [err 0] else Right <$> (fst . head $ ts)
+         cur <- ExceptT $ errorOnEmpty (parse (slpss <++ gramVariant) m) 
+         let ans = maybe (err 1) Right (sylReplaceOn1Align' prev cur) -- todo: try 1Align <|> CompatEnd (e.g. jalaja)
+         ExceptT [ans]
+  | otherwise = return prev
+
+-- | Same as for S_S_
+appender _ prev (S_M_S_ s) = do
+  let nonSlps = munch1 (`notElem` slpCharSet)
+  let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
+  uttara <- ExceptT $ Right <$> (parse' slpss s) 
+  let samasta = sandhiE prev uttara
+  return samasta
 
 appender _ prev cur = ExceptT [Left $ "Default Folder error: " ++ prev ++ " " ++ show cur]
 
@@ -403,6 +431,7 @@ run start len = do
 --  mwCompounds <- pure M.empty -- M.fromList <$> readCompPairs mwXmlPath
   d <- getDsalBoth
   rs <- load (apteOutput</>"0.json") recordMNil
+  pSM <- load (apteDir </> "preserve_S_M.json") ([]::[[Location]])
   let tks = (\r -> (r ^. term & fromJust, r^. k1 . _Just)) <$> M.elems rs -- rs ^.. traverse . term . _Just
   let tks1 = L.sortOn (\(t,k) -> let (L_ l:_) = t^. ancestry . _Just in (read l:: Float)) tks
   let ts1 = map fst tks1
@@ -413,7 +442,14 @@ run start len = do
   let ts6 = filter (\t -> let a= (t^. ancestry . _Just) in (case a of (L_ _: B_ _: S_ _:S_M_ _:[])-> True; _ -> False)) ts2
 --  morphismsFolder k mwCompounds ts3
 --  collectBanners k ts1 d
-  let traverseTermE (t,k) = traverseTerm (ExpEnv {topK1 = k, parentTerm = termNil, thisTerm = t, unparenMap = d}) t
+  let expEnv t k = ExpEnv 
+        { topK1 = k
+        , parentTerm = termNil
+        , thisTerm = t
+        , unparenMap = d
+        , preservingSM = pSM
+        }
+  let traverseTermE (t,k) = traverseTerm (expEnv t k) t
   forM (take len $ drop start tks1) traverseTermE
 
 expanderMain :: IO [Term]
@@ -428,12 +464,30 @@ tabulate :: [Term] -> IO ()
 tabulate es = do
   let esFlat = concat $ tToList <$> es
       --showAncestry e = unwords.lines $ showLocs (e ^. ancestry . _Just)
-      devanagari = uncanon . e2s'
-      unbracehash = filter (`notElem` "{#}")
-      eToExps e = (fmap devanagari . rights) (e ^.. bannerExp . _Just . traverse)
-      eToAncestor e = ((devanagari . unbracehash) (loc ((e ^. ancestry . _Just)!!1)))
-      eToRows e = [[exp, a] | exp <- eToExps e, let a = eToAncestor e]
+--      toDevanagari = uncanon . e2s'
+      stripAndSqueeze = unwords . words . unwords . lines 
+      eToExps e = (fmap (uncanon . e2s') . rights) (e ^.. bannerExp . _Just . traverse)
+      eToAncestor e = ((braceHashToDevanagari) (loc ((e ^. ancestry . _Just)!!1)))
+      eToAncestry e = braceHashToDevanagari ((stripAndSqueeze . showLocs) (e ^. ancestry . _Just))
+      eToLineNum e =  show (fromJust $ __line $ e)
+      eExpToRow e exp = [eToLineNum e, exp, eToAncestry e]
+      eToRows e = eExpToRow e <$> (eToExps e) -- [[exp, a] | exp <- eToExps e, let a = eToAncestor e, l=eToLineNum e, as = eToAncestry e]
       table = unlines $ stableUndup $ fmap (L.intercalate " : ") $ concat $ eToRows <$> esFlat
       tablePath = apteOutput </> "table.txt"
   writeFile tablePath table
   putStrLn $ "Successfully stored the mapping at " ++ tablePath
+
+tabSimple :: [Term] -> FilePath -> IO ()
+tabSimple es k1ReverseMapPath = do
+  k1ReverseMap <- load k1ReverseMapPath (M.empty :: M.Map String String)
+  let esFlat = concat $ tToList <$> es
+      --showAncestry e = unwords.lines $ showLocs (e ^. ancestry . _Just)
+--      toDevanagari = uncanon . e2s'
+      stripAndSqueeze = unwords . words . unwords . lines 
+      isDevanagari c = ord c >= 0x0900 && ord c <= 0x097F
+      eToExps e = (fmap (uncanon . e2s') . rights) (e ^.. bannerExp . _Just . traverse)
+      eToAncestor e = ((takeWhile isDevanagari . removeParenthesized . braceHashToDevanagari) (loc ((e ^. ancestry . _Just)!!1)))
+      overrideK1 k = maybe k (uncanon.e2s) (k1ReverseMap M.!? (s2e.canon) k)
+      eToRows e = [[exp, a] | exp <- eToExps e, let a = (overrideK1 . eToAncestor) e]
+      table = concat $ eToRows <$> esFlat
+  store (apteOutput</>"simpleTable.json") table

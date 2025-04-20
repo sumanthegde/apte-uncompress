@@ -97,6 +97,15 @@ braceHashToDevanagari = go "" where
   go' ac b ('#':'}':rest) = go (ac++ uncanon (reverse b)) rest
   go' ac b (c:rest) = go' ac (e2s' [c]++b) rest
 
+removeParenthesized :: String -> String
+removeParenthesized = go "" where
+  go ac ('(':rest) = go' ac rest
+  go ac (c:rest) = go (ac++[c]) rest
+  go ac "" = ac
+  go' ac (')':rest) = go ac rest
+  go' ac (c:rest) = go' ac rest
+
+
 rmLine t = t {__line = Nothing}
 rmSamasa t = t {_samasas = Nothing}
 rmMorphism t = t {_morphisms = Nothing}
