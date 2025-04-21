@@ -3,7 +3,7 @@ module Main (main) where
 import Utils
 import JsonUtils
 import ApteParser (parserMain)
-import ApteExpander (expanderMain, tabulate)
+import ApteExpander (expanderMain, tabulate, shardAndStore)
 import qualified Data.List as L
 import System.FilePath
 
@@ -13,7 +13,10 @@ main = do
   parserMain
   putStrLn "\nParsing complete.\nExpanding compounds.."
   es <- expanderMain
-  putStrLn "\nExpanding complete.\nTabulating.."
+  putStrLn "\nExpanding complete."
+  putStrLn "\nSharding.."
+  shardAndStore es
+  putStrLn "Tabulating.."
   tabulate es
   putStrLn "\nDone."
 

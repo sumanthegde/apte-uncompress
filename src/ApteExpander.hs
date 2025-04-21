@@ -19,6 +19,7 @@ import Control.Lens ( (&), (^..), (^.), _Just, _Right )
 import Data.Either
 import Control.Monad
 import System.FilePath
+import System.Directory (createDirectoryIfMissing)
 import System.Environment
 import System.IO
 import Control.Monad.Trans.Except
@@ -378,8 +379,6 @@ traverseTerm e t = do
           tss <- case _samasas t of Nothing -> pure Nothing; Just ss -> Just <$> forM ss (traverseTerm e')
           return $ tb {_samasas = tss, _morphisms = tmm}
 
-storeO p = store (apteOutput </> p)
-
 getDsal = do
   let rephaFix xs = map (\c -> if c == 'ऱ' then 'र' else c) xs
   let anunasikafyS = uncanon . e2s . anunasikafy . s2e . canon
@@ -451,6 +450,13 @@ run start len = do
         }
   let traverseTermE (t,k) = traverseTerm (expEnv t k) t
   forM (take len $ drop start tks1) traverseTermE
+
+shardAndStore :: [Term] -> IO ()
+shardAndStore es = do
+  createDirectoryIfMissing True (apteOutput </> "sharded")
+  forM_ es $ \e -> do
+    let numL = loc $ head (e ^. ancestry . _Just)
+    store (apteOutput </> "sharded" </> (numL ++ ".json")) e
 
 expanderMain :: IO [Term]
 expanderMain = run 0 33333
