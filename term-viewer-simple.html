@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Term Viewer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .term-row {
+            background-color: white;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+
+        .line-number {
+            display: inline-block;
+            color: #666;
+            font-size: 0.9em;
+            margin-right: 10px;
+            background-color: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .ancestry {
+            display: inline-block;
+            color: #555;
+            font-style: italic;
+            margin-right: 10px;
+        }
+
+        .banner {
+            display: inline-block;
+            font-weight: bold;
+            margin-right: 10px;
+            position: relative;
+            cursor: help;
+        }
+
+        /* Tooltip for banner */
+        .banner::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s, visibility 0.2s;
+            z-index: 100;
+        }
+
+        .banner:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .gram {
+            display: inline-block;
+            color: #0066cc;
+            margin-right: 10px;
+        }
+
+        .meaning {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .meaning-number {
+            font-weight: bold;
+        }
+
+        .special-text {
+            color: #9c27b0;
+            font-style: italic;
+        }
+
+        .warning-symbol {
+            color: red;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Nested term sections */
+        .nested-term {
+            display: inline;
+            position: relative;
+            border-radius: 3px;
+            border: 1px solid transparent;
+            padding: 1px 2px;
+            margin: 0 1px;
+            cursor: pointer;
+        }
+
+        /* Left border only for nested terms */
+        .nested-morphism {
+            border-color: transparent;
+            border-left: 3px solid rgba(0, 100, 200, 0.3);
+            background-color: transparent;
+            padding-left: 4px;
+        }
+
+        .nested-samasa {
+            border-color: transparent;
+            border-left: 3px solid rgba(150, 0, 200, 0.3);
+            background-color: transparent;
+            padding-left: 4px;
+        }
+
+        /* Nested items within morphisms and samasas get slightly darker left borders */
+        .nested-morphism .nested-morphism {
+            border-left: 3px solid rgba(0, 100, 200, 0.5);
+            background-color: transparent;
+            margin-left: 2px;
+        }
+
+        .nested-samasa .nested-samasa {
+            border-left: 3px solid rgba(150, 0, 200, 0.5);
+            background-color: transparent;
+            margin-left: 2px;
+        }
+
+        /* Cross-nested items (morphism in samasa or vice versa) */
+        .nested-morphism .nested-samasa {
+            margin-left: 2px;
+        }
+
+        .nested-samasa .nested-morphism {
+            margin-left: 2px;
+        }
+
+        /* Hover effect - slightly darker left border */
+        .nested-morphism:hover {
+            border-left-color: rgba(0, 100, 200, 0.8);
+        }
+
+        .nested-samasa:hover {
+            border-left-color: rgba(150, 0, 200, 0.8);
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .pagination button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .pagination button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .pagination-info {
+            margin: 0 15px;
+            line-height: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Term Viewer</h1>
+
+        <div id="file-selector" style="text-align: center; margin-bottom: 20px;">
+            <p>Select the es.json file:</p>
+            <input type="file" id="file-input" accept=".json">
+            <p>Or load from: <button id="load-default-path">Default Path</button></p>
+        </div>
+
+        <div id="loading" class="loading">Loading... If this takes too long, try running the server with 'node serve.js' and accessing http://localhost:8080/</div>
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="terms-container"></div>
+
+        <div class="pagination">
+            <button id="prev-page" disabled>Previous</button>
+            <span class="pagination-info" id="pagination-info">Page 1</span>
+            <button id="next-page">Next</button>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const PAGE_SIZE = 20;
+        let currentPage = 0;
+        let termsData = [];
+
+        // Function to process special text formatting
+        function processSpecialText(text) {
+            if (!text) return '';
+
+            // Remove {# #} brackets but style the content differently
+            text = text.replace(/\{#(.*?)#\}/g, '<span class="special-text">$1</span>');
+
+            // Remove {% %} brackets but style the content differently
+            text = text.replace(/\{%(.*?)%\}/g, '<span class="special-text">$1</span>');
+
+            // Remove <ab> </ab> tags but style the content differently
+            text = text.replace(/<ab>(.*?)<\/ab>/g, '<span class="special-text">$1</span>');
+
+            return text;
+        }
+
+        // Function to process special text formatting without special styling (for banner text)
+        function processPlainText(text) {
+            if (!text) return '';
+
+            // Remove {# #} brackets without special styling
+            text = text.replace(/\{#(.*?)#\}/g, '$1');
+
+            // Remove {% %} brackets without special styling
+            text = text.replace(/\{%(.*?)%\}/g, '$1');
+
+            // Remove <ab> </ab> tags without special styling
+            text = text.replace(/<ab>(.*?)<\/ab>/g, '$1');
+
+            return text;
+        }
+
+        // Function to process meaning text with numbered meanings
+        function processMeaning(text) {
+            if (!text) return '';
+
+            // Handle {@--n@} format at the beginning of meanings
+            text = text.replace(/\{@--(\d+)@\}/g, '<span class="meaning-number">$1</span> ');
+
+            // Handle {n} format at the beginning of meanings
+            text = text.replace(/^\{(\d+)\}\s*/g, '<span class="meaning-number">$1</span> ');
+
+            return text;
+        }
+
+        // Function to process banner expansion
+        function processBannerExp(term) {
+            // If no _bannerExp, return the _banner
+            if (!term._bannerExp || !term._bannerExp.length) {
+                if (term._banner) {
+                    // Process special formatting but keep the text in black
+                    return {
+                        text: processPlainText(term._banner),
+                        tooltip: '',
+                        isExpanded: false
+                    };
+                }
+                return { text: '', tooltip: '', isExpanded: false };
+            }
+
+            // Extract all 'Right' values from _bannerExp
+            const rightValues = term._bannerExp
+                .filter(item => item.Right)
+                .map(item => item.Right);
+
+            // If there are Right values, use them
+            if (rightValues.length > 0) {
+                return {
+                    text: rightValues.join(', '),
+                    tooltip: term._banner ? `Originally: ${processPlainText(term._banner)}` : '',
+                    isExpanded: true
+                };
+            }
+
+            // If all are Left values, use _banner with warning symbol
+            if (term._banner) {
+                // Process special formatting but keep the text in black
+                // Only the warning symbol is red
+                return {
+                    text: processPlainText(term._banner) + ' <span class="warning-symbol">⚠️</span>',
+                    tooltip: 'Couldn\'t expand',
+                    isExpanded: false
+                };
+            }
+
+            // Fallback
+            return { text: '', tooltip: '', isExpanded: false };
+        }
+
+        // Function to flatten a term and all its nested terms into a single row
+        function flattenTerm(term) {
+            let result = '';
+
+            // Line number
+            if (term.__line) {
+                result += `<span class="line-number">${term.__line}</span>`;
+            }
+
+            // Process banner/bannerExp
+            const bannerInfo = processBannerExp(term);
+            if (bannerInfo.text) {
+                result += `<span class="banner" data-tooltip="${bannerInfo.tooltip}">${bannerInfo.text}</span>`;
+            }
+
+            // Grammar info
+            if (term._gram && term._gram.length) {
+                result += `<span class="gram">${term._gram.map(processSpecialText).join(' ')}</span>`;
+            }
+
+            // Meanings
+            if (term._meanings && term._meanings.length) {
+                term._meanings.forEach(meaning => {
+                    result += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
+                });
+            }
+
+            // Process morphisms (recursively)
+            if (term._morphisms && term._morphisms.length) {
+                term._morphisms.forEach(morphism => {
+                    // Create a container for the morphism with appropriate data attributes
+                    let morphismContent = '';
+
+                    // Process banner/bannerExp for morphism
+                    const morphismBannerInfo = processBannerExp(morphism);
+                    if (morphismBannerInfo.text) {
+                        morphismContent += `<span class="banner" data-tooltip="${morphismBannerInfo.tooltip}">${morphismBannerInfo.text}</span>`;
+                    }
+
+                    if (morphism._gram && morphism._gram.length) {
+                        morphismContent += `<span class="gram">${morphism._gram.map(processSpecialText).join(' ')}</span>`;
+                    }
+
+                    if (morphism._meanings && morphism._meanings.length) {
+                        morphism._meanings.forEach(meaning => {
+                            morphismContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
+                        });
+                    }
+
+                    // Handle nested morphisms if needed
+                    if (morphism._morphisms && morphism._morphisms.length) {
+                        morphism._morphisms.forEach(nestedMorphism => {
+                            // Create a container for the nested morphism
+                            let nestedContent = '';
+
+                            // Process banner/bannerExp for nested morphism
+                            const nestedMorphismBannerInfo = processBannerExp(nestedMorphism);
+                            if (nestedMorphismBannerInfo.text) {
+                                nestedContent += `<span class="banner" data-tooltip="${nestedMorphismBannerInfo.tooltip}">${nestedMorphismBannerInfo.text}</span>`;
+                            }
+
+                            if (nestedMorphism._gram && nestedMorphism._gram.length) {
+                                nestedContent += `<span class="gram">${nestedMorphism._gram.map(processSpecialText).join(' ')}</span>`;
+                            }
+
+                            if (nestedMorphism._meanings && nestedMorphism._meanings.length) {
+                                nestedMorphism._meanings.forEach(meaning => {
+                                    nestedContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
+                                });
+                            }
+
+                            // Add the nested morphism content to the parent morphism content
+                            if (nestedContent) {
+                                morphismContent += `<span class="nested-term nested-morphism" data-type="Nested Morphism">${nestedContent}</span>`;
+                            }
+                        });
+                    }
+
+                    // Add the morphism content to the result
+                    if (morphismContent) {
+                        // Get ancestry info if available
+                        let ancestryInfo = '';
+                        if (morphism._ancestry && morphism._ancestry.length) {
+                            ancestryInfo = morphism._ancestry.join(' / ');
+                        }
+
+                        result += `<span class="nested-term nested-morphism" data-type="Morphism" data-ancestry="${ancestryInfo}">${morphismContent}</span>`;
+                    }
+                });
+            }
+
+            // Process samasas (recursively)
+            if (term._samasas && term._samasas.length) {
+                term._samasas.forEach(samasa => {
+                    // Create a container for the samasa with appropriate data attributes
+                    let samasaContent = '';
+
+                    // Process banner/bannerExp for samasa
+                    const samasaBannerInfo = processBannerExp(samasa);
+                    if (samasaBannerInfo.text) {
+                        samasaContent += `<span class="banner" data-tooltip="${samasaBannerInfo.tooltip}">${samasaBannerInfo.text}</span>`;
+                    }
+
+                    if (samasa._gram && samasa._gram.length) {
+                        samasaContent += `<span class="gram">${samasa._gram.map(processSpecialText).join(' ')}</span>`;
+                    }
+
+                    if (samasa._meanings && samasa._meanings.length) {
+                        samasa._meanings.forEach(meaning => {
+                            samasaContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
+                        });
+                    }
+
+                    // Handle nested structures if needed
+                    if (samasa._samasas && samasa._samasas.length) {
+                        samasa._samasas.forEach(nestedSamasa => {
+                            // Create a container for the nested samasa
+                            let nestedContent = '';
+
+                            // Process banner/bannerExp for nested samasa
+                            const nestedSamasaBannerInfo = processBannerExp(nestedSamasa);
+                            if (nestedSamasaBannerInfo.text) {
+                                nestedContent += `<span class="banner" data-tooltip="${nestedSamasaBannerInfo.tooltip}">${nestedSamasaBannerInfo.text}</span>`;
+                            }
+
+                            if (nestedSamasa._gram && nestedSamasa._gram.length) {
+                                nestedContent += `<span class="gram">${nestedSamasa._gram.map(processSpecialText).join(' ')}</span>`;
+                            }
+
+                            if (nestedSamasa._meanings && nestedSamasa._meanings.length) {
+                                nestedSamasa._meanings.forEach(meaning => {
+                                    nestedContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
+                                });
+                            }
+
+                            // Add the nested samasa content to the parent samasa content
+                            if (nestedContent) {
+                                samasaContent += `<span class="nested-term nested-samasa" data-type="Nested Samasa">${nestedContent}</span>`;
+                            }
+                        });
+                    }
+
+                    // Add the samasa content to the result
+                    if (samasaContent) {
+                        // Get ancestry info if available
+                        let ancestryInfo = '';
+                        if (samasa._ancestry && samasa._ancestry.length) {
+                            ancestryInfo = samasa._ancestry.join(' / ');
+                        }
+
+                        result += `<span class="nested-term nested-samasa" data-type="Samasa" data-ancestry="${ancestryInfo}">${samasaContent}</span>`;
+                    }
+                });
+            }
+
+            return result;
+        }
+
+        // Function to render a term row
+        function renderTermRow(term) {
+            const rowContent = flattenTerm(term);
+            return `<div class="term-row">${rowContent}</div>`;
+        }
+
+        // Function to render the current page of terms
+        function renderCurrentPage() {
+            const termsContainer = document.getElementById('terms-container');
+            termsContainer.innerHTML = '';
+
+            const startIndex = currentPage * PAGE_SIZE;
+            const endIndex = Math.min(startIndex + PAGE_SIZE, termsData.length);
+
+            for (let i = startIndex; i < endIndex; i++) {
+                termsContainer.innerHTML += renderTermRow(termsData[i]);
+            }
+
+            // Update pagination info
+            document.getElementById('pagination-info').textContent =
+                `Page ${currentPage + 1} of ${Math.ceil(termsData.length / PAGE_SIZE)} (${startIndex + 1}-${endIndex} of ${termsData.length})`;
+
+            // Update button states
+            document.getElementById('prev-page').disabled = currentPage === 0;
+            document.getElementById('next-page').disabled = endIndex >= termsData.length;
+        }
+
+        // Function to load the JSON data
+        async function loadTermsData(jsonPath) {
+            try {
+                // Use the provided path or default
+                const path = jsonPath || '/es.json';
+
+                let response;
+                try {
+                    response = await fetch(path);
+                } catch (e) {
+                    console.error('Error fetching from path:', path, e);
+                    throw new Error(`Could not fetch from ${path}: ${e.message}`);
+                }
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                termsData = await response.json();
+
+                // Hide loading message
+                document.getElementById('loading').style.display = 'none';
+
+                // Render the first page
+                renderCurrentPage();
+            } catch (error) {
+                console.error('Error loading terms data:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error loading data: ${error.message}`;
+            }
+        }
+
+        // Event listeners for pagination
+        document.getElementById('prev-page').addEventListener('click', () => {
+            if (currentPage > 0) {
+                currentPage--;
+                renderCurrentPage();
+                window.scrollTo(0, 0);
+            }
+        });
+
+        document.getElementById('next-page').addEventListener('click', () => {
+            if ((currentPage + 1) * PAGE_SIZE < termsData.length) {
+                currentPage++;
+                renderCurrentPage();
+                window.scrollTo(0, 0);
+            }
+        });
+
+        // Handle file input
+        document.getElementById('file-input').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        termsData = JSON.parse(e.target.result);
+                        document.getElementById('loading').style.display = 'none';
+                        renderCurrentPage();
+                    } catch (error) {
+                        console.error('Error parsing JSON:', error);
+                        document.getElementById('loading').style.display = 'none';
+                        document.getElementById('error').style.display = 'block';
+                        document.getElementById('error').textContent = `Error parsing JSON: ${error.message}`;
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // Default path for the JSON file
+        const DEFAULT_JSON_PATH = '/es.json'; // When using the server, this will be served from apteDir.nosync/output/es.json
+
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            const results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Event listener for the default path button
+        document.getElementById('load-default-path').addEventListener('click', function() {
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loading').textContent = 'Loading from default path...';
+            loadTermsData(DEFAULT_JSON_PATH);
+        });
+
+        // Load data when the page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if path is provided in URL
+            const jsonPath = getUrlParameter('path') || DEFAULT_JSON_PATH;
+            loadTermsData(jsonPath);
+        });
+    </script>
+</body>
+</html>
