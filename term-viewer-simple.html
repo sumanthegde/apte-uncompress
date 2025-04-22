@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Term Viewer</title>
+    <script src="sanscript.js"></script>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -101,6 +102,12 @@
         .special-text {
             color: #9c27b0;
             font-style: italic;
+        }
+
+        .devanagari {
+            font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
+            font-size: 1.1em;
+            color: #9c27b0;
         }
 
         .warning-symbol {
@@ -237,8 +244,17 @@
         function processSpecialText(text) {
             if (!text) return '';
 
-            // Remove {# #} brackets but style the content differently
-            text = text.replace(/\{#(.*?)#\}/g, '<span class="special-text">$1</span>');
+            // Convert SLP1 encoded Sanskrit text in {# #} brackets to Devanagari
+            text = text.replace(/\{#(.*?)#\}/g, function(match, p1) {
+                try {
+                    // Convert SLP1 to Devanagari
+                    const devanagari = Sanscript.t(p1, 'slp1', 'devanagari');
+                    return `<span class="devanagari">${devanagari}</span>`;
+                } catch (e) {
+                    // If conversion fails, just return the original text with special styling
+                    return `<span class="special-text">${p1}</span>`;
+                }
+            });
 
             // Remove {% %} brackets but style the content differently
             text = text.replace(/\{%(.*?)%\}/g, '<span class="special-text">$1</span>');
@@ -253,8 +269,16 @@
         function processPlainText(text) {
             if (!text) return '';
 
-            // Remove {# #} brackets without special styling
-            text = text.replace(/\{#(.*?)#\}/g, '$1');
+            // Convert SLP1 encoded Sanskrit text in {# #} brackets to Devanagari
+            text = text.replace(/\{#(.*?)#\}/g, function(match, p1) {
+                try {
+                    // Convert SLP1 to Devanagari
+                    return Sanscript.t(p1, 'slp1', 'devanagari');
+                } catch (e) {
+                    // If conversion fails, just return the original text
+                    return p1;
+                }
+            });
 
             // Remove {% %} brackets without special styling
             text = text.replace(/\{%(.*?)%\}/g, '$1');
@@ -268,6 +292,9 @@
         // Function to process meaning text with numbered meanings
         function processMeaning(text) {
             if (!text) return '';
+
+            // Normalize all whitespace (including newlines) to a single space
+            text = text.replace(/\s+/g, ' ');
 
             // Handle {@--n@} format at the beginning of meanings
             text = text.replace(/\{@--(\d+)@\}/g, '<span class="meaning-number">$1</span> ');
@@ -300,9 +327,25 @@
 
             // If there are Right values, use them
             if (rightValues.length > 0) {
+                // Convert SLP1 to Devanagari for each Right value
+                const convertedValues = rightValues.map(value => {
+                    try {
+                        // Check if the value looks like Sanskrit (contains SLP1 characters)
+                        // This regex checks for common SLP1 characters that indicate Sanskrit
+                        if (/[AIUFXEOMNHSZR]|[kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzshL]/.test(value)) {
+                            return `<span class="devanagari">${Sanscript.t(value, 'slp1', 'devanagari')}</span>`;
+                        } else {
+                            return value; // Not Sanskrit, return as is
+                        }
+                    } catch (e) {
+                        return value; // If conversion fails, return original
+                    }
+                });
+
                 return {
-                    text: rightValues.join(', '),
-                    tooltip: term._banner ? `Originally: ${processPlainText(term._banner)}` : '',
+                    text: convertedValues.join(', '),
+                    //tooltip: term._banner ? `Originally: ${processPlainText(term._banner)}` : '',
+                    tooltip: term._banner ? `${processPlainText(term._banner)}` : '',
                     isExpanded: true
                 };
             }
