@@ -17,6 +17,7 @@
         .container {
             max-width: 1200px;
             margin: 0 auto;
+            padding-left: 40px; /* Make room for term IDs */
         }
 
         h1 {
@@ -35,34 +36,17 @@
             hyphens: auto;
         }
 
-        .line-number {
-            display: inline-block;
-            color: #666;
-            font-size: 0.9em;
-            margin-right: 10px;
-            background-color: #f0f0f0;
-            padding: 2px 6px;
-            border-radius: 3px;
-        }
-
-        .line-number a {
-            color: #4285f4;
-            text-decoration: none;
-        }
-
-        .line-number a:hover {
-            text-decoration: underline;
-        }
+        /* Line number styling removed */
 
         .ancestry {
-            display: inline-block;
+            display: inline;
             color: #555;
             font-style: italic;
             margin-right: 10px;
         }
 
         .banner {
-            display: inline-block;
+            display: inline;
             font-weight: bold;
             margin-right: 10px;
             position: relative;
@@ -94,13 +78,13 @@
         }
 
         .gram {
-            display: inline-block;
+            display: inline;
             color: #0066cc;
             margin-right: 10px;
         }
 
         .meaning {
-            display: inline-block;
+            display: inline;
             margin-right: 10px;
         }
 
@@ -249,28 +233,50 @@
             margin: 0 15px;
             line-height: 32px;
         }
+
+        /* Styling for infinite scroll */
+        .term-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .term-container::before {
+            content: attr(data-term-id);
+            position: absolute;
+            left: -40px;
+            top: 15px;
+            color: #999;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div id="file-selector" style="text-align: center; margin-bottom: 20px;">
-            <div style="padding: 15px;">
+        <div id="header" style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 100;">
+            <div id="file-selector" style="text-align: center; padding: 15px;">
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <input type="number" id="term-id-input" placeholder="Enter Term ID (e.g., 9091)" style="padding: 8px; width: 250px; margin-right: 10px;">
                     <button id="load-term-id" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load Term</button>
                 </div>
             </div>
+            <!-- Pagination removed as requested -->
+            <div style="display: none;">
+                <span id="pagination-info">Page 1</span>
+                <button id="prev-page" disabled>Previous</button>
+                <button id="next-page">Next</button>
+            </div>
         </div>
+
+        <!-- Spacer to push content below the fixed header -->
+        <div id="header-spacer" style="height: 80px;"></div>
 
         <div id="loading" class="loading">Loading term data... Please wait.</div>
         <div id="error" class="error" style="display: none;"></div>
 
         <div id="terms-container"></div>
 
-        <div class="pagination">
-            <button id="prev-page" disabled>Previous</button>
-            <span class="pagination-info" id="pagination-info">Page 1</span>
-            <button id="next-page">Next</button>
+        <div id="keyboard-hint" style="text-align: center; margin-top: 10px; font-size: 0.9em; color: #666; display: none;">
+            <span>Use ← and → arrow keys to navigate between terms</span>
         </div>
     </div>
 
@@ -281,6 +287,14 @@
         let termsData = [];
         let pagemarks = {}; // Will store the pagemarks data
         let sortedPagemarkKeys = []; // Will store the sorted keys for binary search
+        let currentTermId = null; // Current term ID being viewed
+        let isLoading = false; // Flag to prevent multiple simultaneous loads
+
+        // Infinite scroll configuration
+        const WINDOW_SIZE = 21; // Current term + 10 before + 10 after
+        const WINDOW_HALF = Math.floor(WINDOW_SIZE / 2); // 10 terms on each side
+        let loadedTerms = {}; // Map of termId -> term data
+        let loadedTermIds = new Set(); // Set of loaded term IDs
 
         // Base URL for page links
         const PAGE_URL_BASE = "https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=AP90&page=";
@@ -510,15 +524,7 @@
         function flattenTerm(term) {
             let result = '';
 
-            // Line number with page link
-            if (term.__line) {
-                const pageInfo = getPageInfo(term.__line);
-                if (pageInfo && pageInfo.url) {
-                    result += `<span class="line-number">${term.__line} <a href="${pageInfo.url}" target="_blank" title="View page">Page ${pageInfo.pageNumber}</a></span>`;
-                } else {
-                    result += `<span class="line-number">${term.__line}</span>`;
-                }
-            }
+            // Line number and page link removed
 
             // Process the term's own content
             result += processTermContent(term);
@@ -555,12 +561,34 @@
             }
 
             // Update pagination info
-            document.getElementById('pagination-info').textContent =
-                `Page ${currentPage + 1} of ${Math.ceil(termsData.length / PAGE_SIZE)} (${startIndex + 1}-${endIndex} of ${termsData.length})`;
+            if (currentTermId) {
+                document.getElementById('pagination-info').textContent = `Term ID: ${currentTermId}`;
+                // Show keyboard navigation hint
+                document.getElementById('keyboard-hint').style.display = 'block';
+            } else {
+                document.getElementById('pagination-info').textContent =
+                    `Page ${currentPage + 1} of ${Math.ceil(termsData.length / PAGE_SIZE)} (${startIndex + 1}-${endIndex} of ${termsData.length})`;
+                // Hide keyboard navigation hint
+                document.getElementById('keyboard-hint').style.display = 'none';
+            }
 
             // Update button states
-            document.getElementById('prev-page').disabled = currentPage === 0;
-            document.getElementById('next-page').disabled = endIndex >= termsData.length;
+            updateButtonStates();
+        }
+
+        // Function to update button states based on current context
+        function updateButtonStates() {
+            if (currentTermId) {
+                // We're viewing a specific term, so prev/next navigate between terms
+                document.getElementById('prev-page').disabled = currentTermId <= 1;
+                document.getElementById('next-page').disabled = false; // Always allow going to next term
+            } else {
+                // We're viewing a regular page of terms (e.g., from es.json)
+                const startIndex = currentPage * PAGE_SIZE;
+                const endIndex = Math.min(startIndex + PAGE_SIZE, termsData.length);
+                document.getElementById('prev-page').disabled = currentPage === 0;
+                document.getElementById('next-page').disabled = endIndex >= termsData.length;
+            }
         }
 
         // Function to load pagemarks data
@@ -629,14 +657,168 @@
             return null; // Return null if no valid page info could be determined
         }
 
-        // Function to load the JSON data
+        // Function to load a single term
+        async function loadSingleTerm(termId) {
+            try {
+                // Check if term is already loaded
+                if (loadedTermIds.has(termId)) {
+                    return loadedTerms[termId];
+                }
+
+                const response = await fetch(`/${termId}.json`);
+
+                if (!response.ok) {
+                    // If we get a 404, it might be a gap in the term numbering
+                    if (response.status === 404) {
+                        console.warn(`Term ${termId} not found, treating as empty`);
+                        // Create a placeholder term
+                        const placeholderTerm = {
+                            __placeholder: true,
+                            __termId: termId,
+                            _banner: `Term ${termId} not available`
+                        };
+
+                        // Store in loaded terms
+                        loadedTerms[termId] = [placeholderTerm];
+                        loadedTermIds.add(termId);
+
+                        return [placeholderTerm];
+                    } else {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                }
+
+                const termData = await response.json();
+
+                // Store in loaded terms
+                loadedTerms[termId] = termData;
+                loadedTermIds.add(termId);
+
+                return termData;
+            } catch (error) {
+                console.error(`Error loading term ${termId}:`, error);
+                return null;
+            }
+        }
+
+        // Function to load a term and its context (n-10 to n+10)
+        async function loadTermWithContext(termId) {
+            try {
+                isLoading = true;
+
+                // First load pagemarks if not already loaded
+                if (Object.keys(pagemarks).length === 0) {
+                    await loadPagemarks();
+                }
+
+                // Set current term ID
+                currentTermId = termId;
+
+                // Calculate the range of terms to load
+                const startTermId = Math.max(1, termId - WINDOW_HALF);
+                const endTermId = termId + WINDOW_HALF;
+
+                // Show loading message
+                document.getElementById('error').style.display = 'none';
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('loading').textContent = `Loading terms ${startTermId} to ${endTermId}...`;
+
+                // Load all terms in the range
+                const loadPromises = [];
+                for (let id = startTermId; id <= endTermId; id++) {
+                    loadPromises.push(loadSingleTerm(id));
+                }
+
+                await Promise.all(loadPromises);
+
+                // Hide loading message
+                document.getElementById('loading').style.display = 'none';
+
+                // Render the terms
+                renderTermsInRange(startTermId, endTermId);
+
+                // Update pagination info
+                document.getElementById('pagination-info').textContent = `Term ID: ${currentTermId}`;
+
+                // Show keyboard navigation hint
+                document.getElementById('keyboard-hint').style.display = 'block';
+
+                // Update button states
+                updateButtonStates();
+
+                // Add scroll event listener if not already added
+                if (!window.hasScrollListener) {
+                    window.addEventListener('scroll', handleScroll);
+                    window.hasScrollListener = true;
+                }
+
+                isLoading = false;
+            } catch (error) {
+                console.error('Error loading terms:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error loading terms: ${error.message}`;
+                isLoading = false;
+            }
+        }
+
+        // Function to render terms in a specific range
+        function renderTermsInRange(startTermId, endTermId) {
+            const termsContainer = document.getElementById('terms-container');
+            termsContainer.innerHTML = '';
+
+            for (let id = startTermId; id <= endTermId; id++) {
+                if (loadedTermIds.has(id)) {
+                    const termData = loadedTerms[id];
+
+                    // Create a container for this term
+                    const termContainer = document.createElement('div');
+                    termContainer.className = 'term-container';
+                    termContainer.dataset.termId = id;
+
+                    // No highlighting for current term
+
+                    // Check if it's a placeholder
+                    if (termData[0].__placeholder) {
+                        termContainer.innerHTML = `<div class="term-row"><em>Term ${id} not available</em></div>`;
+                    } else {
+                        // Render the term
+                        termContainer.innerHTML = termData.map(term => renderTermRow(term)).join('');
+                    }
+
+                    termsContainer.appendChild(termContainer);
+                }
+            }
+
+            // Scroll to the current term
+            const currentTermElement = document.querySelector(`.term-container[data-term-id="${currentTermId}"]`);
+            if (currentTermElement) {
+                currentTermElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+
+        // Function to load the JSON data (for backward compatibility)
         async function loadTermsData(jsonPath) {
             try {
+                isLoading = true;
+
                 // First load pagemarks
                 await loadPagemarks();
 
                 // Use the provided path or default
                 const path = jsonPath || '/es.json';
+
+                // Extract term ID from path if it's a numeric path
+                const termIdMatch = path.match(/\/([0-9]+)\.json$/);
+                if (termIdMatch) {
+                    // If it's a term ID, use the new loading method
+                    const termId = parseInt(termIdMatch[1], 10);
+                    await loadTermWithContext(termId);
+                    return;
+                } else {
+                    // For non-term paths (e.g., es.json), use the old method
+                    currentTermId = null;
+                }
 
                 let response;
                 try {
@@ -645,6 +827,7 @@
                     console.error('Error fetching from path:', path, e);
                     throw new Error(`Could not fetch from ${path}: ${e.message}`);
                 }
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -656,17 +839,26 @@
 
                 // Render the first page
                 renderCurrentPage();
+
+                isLoading = false;
             } catch (error) {
                 console.error('Error loading terms data:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error').style.display = 'block';
                 document.getElementById('error').textContent = `Error loading data: ${error.message}`;
+                isLoading = false;
             }
         }
 
         // Event listeners for pagination
         document.getElementById('prev-page').addEventListener('click', () => {
-            if (currentPage > 0) {
+            if (currentTermId) {
+                // We're viewing a specific term, so go to the previous term
+                if (currentTermId > 1 && !isLoading) {
+                    navigateToTerm(currentTermId - 1);
+                }
+            } else if (currentPage > 0) {
+                // Regular pagination within a page of terms
                 currentPage--;
                 renderCurrentPage();
                 window.scrollTo(0, 0);
@@ -674,12 +866,43 @@
         });
 
         document.getElementById('next-page').addEventListener('click', () => {
-            if ((currentPage + 1) * PAGE_SIZE < termsData.length) {
+            if (currentTermId) {
+                // We're viewing a specific term, so go to the next term
+                if (!isLoading) {
+                    navigateToTerm(currentTermId + 1);
+                }
+            } else if ((currentPage + 1) * PAGE_SIZE < termsData.length) {
+                // Regular pagination within a page of terms
                 currentPage++;
                 renderCurrentPage();
                 window.scrollTo(0, 0);
             }
         });
+
+        // Function to navigate to a specific term
+        function navigateToTerm(termId) {
+            if (isLoading) return;
+
+            // Parse termId as integer
+            termId = parseInt(termId, 10);
+            if (isNaN(termId) || termId <= 0) {
+                alert('Please enter a valid Term ID');
+                return;
+            }
+
+            // Clear any previous errors
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loading').textContent = `Loading Term ID: ${termId}...`;
+
+            // Update URL without reloading the page
+            const newUrl = new URL(window.location.href);
+            newUrl.searchParams.set('path', `/${termId}.json`);
+            window.history.pushState({}, '', newUrl.toString());
+
+            // Load the term and its context
+            loadTermWithContext(termId);
+        }
 
         // No file input handling needed
 
@@ -704,13 +927,8 @@
                 return;
             }
 
-            // Clear any previous errors
-            document.getElementById('error').style.display = 'none';
-            document.getElementById('loading').style.display = 'block';
-            document.getElementById('loading').textContent = `Loading Term ID: ${termId}...`;
-
-            // Load the term from the sharded JSON file
-            loadTermsData(`/${termId}.json`);
+            // Navigate to the term
+            navigateToTerm(termId);
         });
 
         // Also handle Enter key in the input field
@@ -720,6 +938,272 @@
                 document.getElementById('load-term-id').click();
             }
         });
+
+        // Add keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            // Only handle keyboard navigation when viewing a specific term
+            if (!currentTermId) return;
+
+            // Left arrow key - previous term
+            if (event.key === 'ArrowLeft' && currentTermId > 1 && !isLoading) {
+                navigateToTerm(currentTermId - 1);
+            }
+
+            // Right arrow key - next term
+            if (event.key === 'ArrowRight' && !isLoading) {
+                navigateToTerm(currentTermId + 1);
+            }
+        });
+
+        // Scroll event handler for infinite scrolling
+        let scrollTimeout;
+        let lastBottomTermId = null;
+        let lastTopTermId = null;
+
+        function handleScroll() {
+            // Add debug element to show scroll info
+            let debugEl = document.getElementById('scroll-debug');
+            if (!debugEl) {
+                debugEl = document.createElement('div');
+                debugEl.id = 'scroll-debug';
+                debugEl.style.position = 'fixed';
+                debugEl.style.bottom = '10px';
+                debugEl.style.right = '10px';
+                debugEl.style.backgroundColor = 'rgba(0,0,0,0.7)';
+                debugEl.style.color = 'white';
+                debugEl.style.padding = '10px';
+                debugEl.style.borderRadius = '5px';
+                debugEl.style.zIndex = '1000';
+                debugEl.style.fontSize = '12px';
+                document.body.appendChild(debugEl);
+            }
+
+            if (scrollTimeout || isLoading || !currentTermId) {
+                debugEl.innerHTML = `Waiting: timeout=${!!scrollTimeout}, loading=${isLoading}, currentTermId=${currentTermId}`;
+                return;
+            }
+
+            // Get viewport dimensions
+            const scrollPosition = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight;
+            const headerHeight = document.getElementById('header').offsetHeight;
+
+            // Adjust scroll position to account for fixed header
+            const effectiveScrollPosition = scrollPosition + headerHeight;
+
+            // Get all loaded term IDs in order
+            const termContainers = document.querySelectorAll('.term-container');
+            const loadedIds = Array.from(termContainers).map(container =>
+                parseInt(container.dataset.termId, 10)).sort((a, b) => a - b);
+
+            // Find the highest and lowest loaded term IDs
+            const lowestLoadedId = loadedIds.length > 0 ? loadedIds[0] : currentTermId;
+            const highestLoadedId = loadedIds.length > 0 ? loadedIds[loadedIds.length - 1] : currentTermId;
+
+            // Update debug display
+            debugEl.innerHTML = `Scroll: ${scrollPosition}px<br>
+                Effective Scroll: ${effectiveScrollPosition}px<br>
+                Window Height: ${windowHeight}px<br>
+                Document Height: ${documentHeight}px<br>
+                Header Height: ${headerHeight}px<br>
+                Lowest ID: ${lowestLoadedId}<br>
+                Highest ID: ${highestLoadedId}<br>
+                Current ID: ${currentTermId}<br>
+                Near Top: ${scrollPosition < 200}<br>
+                Near Bottom: ${scrollPosition + windowHeight > documentHeight - 500}`;
+
+            scrollTimeout = setTimeout(() => {
+                // Check if we're near the bottom of the page
+                // Use a larger threshold for bottom detection to ensure it triggers properly
+                const nearBottom = scrollPosition + windowHeight > documentHeight - 500;
+
+                // Check if we're near the top of the content (accounting for fixed header)
+                const nearTop = scrollPosition < 200;
+
+                // Near the bottom of the page - load more terms below
+                if (nearBottom) {
+                    const nextTermId = highestLoadedId + 1;
+
+                    // Only load if we haven't loaded this term before or if it's different from the last one we tried to load
+                    if (nextTermId !== lastBottomTermId && !loadedTermIds.has(nextTermId) && nextTermId > 0) {
+                        console.log(`Loading more terms below: ${nextTermId}`);
+                        debugEl.innerHTML += `<br><strong>Loading below: ${nextTermId}</strong>`;
+                        lastBottomTermId = nextTermId;
+                        loadMoreTerms(nextTermId, 'below');
+                    } else {
+                        debugEl.innerHTML += `<br>Not loading below: nextTermId=${nextTermId}, lastBottomTermId=${lastBottomTermId}, already loaded=${loadedTermIds.has(nextTermId)}`;
+                    }
+                }
+
+                // Near the top of the page - load more terms above
+                if (nearTop && lowestLoadedId > 1) {
+                    const prevTermId = lowestLoadedId - 1;
+
+                    // Only load if we haven't loaded this term before or if it's different from the last one we tried to load
+                    if (prevTermId !== lastTopTermId && !loadedTermIds.has(prevTermId) && prevTermId >= 1) {
+                        console.log(`Loading more terms above: ${prevTermId}`);
+                        debugEl.innerHTML += `<br><strong>Loading above: ${prevTermId}</strong>`;
+                        lastTopTermId = prevTermId;
+                        loadMoreTerms(prevTermId, 'above');
+                    } else {
+                        debugEl.innerHTML += `<br>Not loading above: prevTermId=${prevTermId}, lastTopTermId=${lastTopTermId}, already loaded=${loadedTermIds.has(prevTermId)}`;
+                    }
+                }
+
+                // Update current term ID based on scroll position
+                updateCurrentTermIdFromScroll();
+
+                scrollTimeout = null;
+            }, 200);
+        }
+
+        // Function to load more terms in a specific direction
+        async function loadMoreTerms(termId, direction) {
+            if (isLoading || !termId || termId < 1) return;
+
+            // Check if this term is already loaded
+            if (document.querySelector(`.term-container[data-term-id="${termId}"]`)) {
+                console.log(`Term ${termId} is already in the DOM, skipping`);
+                return;
+            }
+
+            try {
+                isLoading = true;
+
+                // Load the term
+                const termData = await loadSingleTerm(termId);
+
+                if (termData) {
+                    // Double-check that the term hasn't been added while we were loading
+                    if (document.querySelector(`.term-container[data-term-id="${termId}"]`)) {
+                        console.log(`Term ${termId} was added while loading, skipping`);
+                        isLoading = false;
+                        return;
+                    }
+
+                    // Get the terms container
+                    const termsContainer = document.getElementById('terms-container');
+
+                    // Create a container for this term
+                    const termContainer = document.createElement('div');
+                    termContainer.className = 'term-container';
+                    termContainer.dataset.termId = termId;
+
+                    // Check if it's a placeholder
+                    if (termData[0].__placeholder) {
+                        termContainer.innerHTML = `<div class="term-row"><em>Term ${termId} not available</em></div>`;
+                    } else {
+                        // Render the term
+                        termContainer.innerHTML = termData.map(term => renderTermRow(term)).join('');
+                    }
+
+                    // Add to the DOM in the appropriate position
+                    if (direction === 'above') {
+                        // Save current scroll position and document height
+                        const oldScrollY = window.scrollY;
+                        const oldDocumentHeight = document.documentElement.scrollHeight;
+
+                        // Add the new term at the top
+                        termsContainer.insertBefore(termContainer, termsContainer.firstChild);
+                        console.log(`Added term ${termId} at the top`);
+
+                        // Wait for the DOM to update
+                        setTimeout(() => {
+                            // Calculate how much the document height changed
+                            const newDocumentHeight = document.documentElement.scrollHeight;
+                            const heightDifference = newDocumentHeight - oldDocumentHeight;
+
+                            // Adjust scroll position to maintain the same view
+                            if (heightDifference > 0) {
+                                window.scrollTo(0, oldScrollY + heightDifference);
+                                console.log(`Adjusted scroll position by ${heightDifference}px (from ${oldScrollY} to ${oldScrollY + heightDifference})`);
+                            }
+                        }, 0);
+                    } else {
+                        termsContainer.appendChild(termContainer);
+                        console.log(`Added term ${termId} at the bottom`);
+                    }
+
+                    // Trim excess terms to maintain the window size
+                    trimExcessTerms();
+                }
+
+                isLoading = false;
+            } catch (error) {
+                console.error(`Error loading more terms:`, error);
+                isLoading = false;
+            }
+        }
+
+        // Function to trim excess terms to maintain the window size
+        function trimExcessTerms() {
+            const termContainers = document.querySelectorAll('.term-container');
+            if (termContainers.length <= WINDOW_SIZE * 2) return; // Keep a buffer
+
+            // Get the current term element
+            const currentTermElement = document.querySelector(`.term-container[data-term-id="${currentTermId}"]`);
+            if (!currentTermElement) return;
+
+            // Calculate which terms to keep
+            const termIds = Array.from(termContainers).map(container => parseInt(container.dataset.termId, 10));
+            const minKeepId = Math.max(1, currentTermId - WINDOW_SIZE);
+            const maxKeepId = currentTermId + WINDOW_SIZE;
+
+            // Remove terms that are too far from the current term
+            for (const container of termContainers) {
+                const termId = parseInt(container.dataset.termId, 10);
+                if (termId < minKeepId || termId > maxKeepId) {
+                    container.remove();
+                }
+            }
+        }
+
+        // Function to update current term ID based on scroll position
+        function updateCurrentTermIdFromScroll() {
+            const termContainers = document.querySelectorAll('.term-container');
+            if (!termContainers.length) return;
+
+            // Get header height to adjust calculations
+            const headerHeight = document.getElementById('header').offsetHeight;
+
+            // Find the term closest to the center of the viewport (adjusted for header)
+            const viewportMiddle = (window.innerHeight - headerHeight) / 2 + headerHeight;
+            let closestTerm = null;
+            let closestDistance = Infinity;
+
+            for (const container of termContainers) {
+                const rect = container.getBoundingClientRect();
+                const termMiddle = rect.top + rect.height / 2;
+                const distance = Math.abs(termMiddle - viewportMiddle);
+
+                if (distance < closestDistance) {
+                    closestDistance = distance;
+                    closestTerm = container;
+                }
+            }
+
+            if (closestTerm) {
+                const newTermId = parseInt(closestTerm.dataset.termId, 10);
+
+                // Only update if it changed
+                if (newTermId !== currentTermId) {
+                    // Update current term ID
+                    currentTermId = newTermId;
+
+                    // Update URL without reloading the page
+                    const newUrl = new URL(window.location.href);
+                    newUrl.searchParams.set('path', `/${currentTermId}.json`);
+                    window.history.pushState({}, '', newUrl.toString());
+
+                    // Update pagination info
+                    document.getElementById('pagination-info').textContent = `Term ID: ${currentTermId}`;
+
+                    // Update button states
+                    updateButtonStates();
+                }
+            }
+        }
 
         // Load data only if path parameter is provided in URL
         document.addEventListener('DOMContentLoaded', function() {
