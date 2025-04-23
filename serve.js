@@ -20,6 +20,23 @@ const MIME_TYPES = {
 // Regular expression to match numeric paths like /12345
 const numericPathRegex = /^\/([0-9]+)$/;
 
+// Load pagemarks data at server startup
+let pagemarks = {};
+let sortedPagemarkKeys = [];
+
+try {
+  const pagemarksPath = path.join(__dirname, 'apteDir.nosync/output/pagemarks.json');
+  const pagemarksData = fs.readFileSync(pagemarksPath, 'utf8');
+  pagemarks = JSON.parse(pagemarksData);
+
+  // Extract and sort keys numerically
+  sortedPagemarkKeys = Object.keys(pagemarks).map(key => parseInt(key, 10)).sort((a, b) => a - b);
+
+  console.log(`Loaded pagemarks data with ${sortedPagemarkKeys.length} entries`);
+} catch (error) {
+  console.error('Error loading pagemarks data:', error.message);
+}
+
 const server = http.createServer((req, res) => {
   console.log(`Request: ${req.url}`);
 
@@ -121,6 +138,23 @@ const server = http.createServer((req, res) => {
   if (req.url === '/es.json') {
     console.log(`Serving es.json from: ${path.join(__dirname, 'apteDir.nosync/output/es.json')}`);
     filePath = path.join(__dirname, 'apteDir.nosync/output/es.json');
+  }
+
+  // Special case for pagemarks.json
+  if (req.url === '/pagemarks.json') {
+    console.log(`Serving pagemarks.json from: ${path.join(__dirname, 'apteDir.nosync/output/pagemarks.json')}`);
+    filePath = path.join(__dirname, 'apteDir.nosync/output/pagemarks.json');
+  }
+
+  // Special case for pagemarks-data.json - serve the pre-loaded and processed pagemarks data
+  if (req.url === '/pagemarks-data.json') {
+    console.log('Serving pre-loaded pagemarks data');
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({
+      pagemarks: pagemarks,
+      sortedKeys: sortedPagemarkKeys
+    }));
+    return;
   }
 
   const extname = String(path.extname(filePath)).toLowerCase();

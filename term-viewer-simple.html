@@ -45,6 +45,15 @@
             border-radius: 3px;
         }
 
+        .line-number a {
+            color: #4285f4;
+            text-decoration: none;
+        }
+
+        .line-number a:hover {
+            text-decoration: underline;
+        }
+
         .ancestry {
             display: inline-block;
             color: #555;
@@ -253,7 +262,7 @@
             </div>
         </div>
 
-        <div id="loading" class="loading">Loading... If this takes too long, try running the server with 'node serve.js' and accessing http://localhost:8081/</div>
+        <div id="loading" class="loading">Loading term data... Please wait.</div>
         <div id="error" class="error" style="display: none;"></div>
 
         <div id="terms-container"></div>
@@ -270,6 +279,11 @@
         const PAGE_SIZE = 20;
         let currentPage = 0;
         let termsData = [];
+        let pagemarks = {}; // Will store the pagemarks data
+        let sortedPagemarkKeys = []; // Will store the sorted keys for binary search
+
+        // Base URL for page links
+        const PAGE_URL_BASE = "https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=AP90&page=";
 
         // Function to process special text formatting
         function processSpecialText(text) {
@@ -496,9 +510,14 @@
         function flattenTerm(term) {
             let result = '';
 
-            // Line number
+            // Line number with page link
             if (term.__line) {
-                result += `<span class="line-number">${term.__line}</span>`;
+                const pageInfo = getPageInfo(term.__line);
+                if (pageInfo && pageInfo.url) {
+                    result += `<span class="line-number">${term.__line} <a href="${pageInfo.url}" target="_blank" title="View page">Page ${pageInfo.pageNumber}</a></span>`;
+                } else {
+                    result += `<span class="line-number">${term.__line}</span>`;
+                }
             }
 
             // Process the term's own content
@@ -544,9 +563,78 @@
             document.getElementById('next-page').disabled = endIndex >= termsData.length;
         }
 
+        // Function to load pagemarks data
+        async function loadPagemarks() {
+            try {
+                const response = await fetch('/pagemarks-data.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                const data = await response.json();
+                pagemarks = data.pagemarks;
+                sortedPagemarkKeys = data.sortedKeys;
+                console.log(`Pagemarks loaded successfully with ${sortedPagemarkKeys.length} sorted keys`);
+                return pagemarks;
+            } catch (error) {
+                console.error('Error loading pagemarks:', error);
+                return {};
+            }
+        }
+
+        // Function to get page info for a line number using binary search
+        function getPageInfo(lineNumber) {
+            // Convert lineNumber to a number if it's a string
+            lineNumber = parseInt(lineNumber, 10);
+
+            // If no sorted keys are available, return null
+            if (!sortedPagemarkKeys || sortedPagemarkKeys.length === 0) {
+                return null;
+            }
+
+            // Binary search to find the largest key less than or equal to lineNumber
+            let left = 0;
+            let right = sortedPagemarkKeys.length - 1;
+            let result = -1;
+
+            while (left <= right) {
+                const mid = Math.floor((left + right) / 2);
+                const midKey = sortedPagemarkKeys[mid];
+
+                if (midKey <= lineNumber) {
+                    // This key is a candidate, but we need to find the largest such key
+                    result = mid;
+                    left = mid + 1;
+                } else {
+                    // This key is too large
+                    right = mid - 1;
+                }
+            }
+
+            // If we found a valid key, extract the page number and create the URL
+            if (result !== -1) {
+                const maxKey = sortedPagemarkKeys[result];
+                const pageMarkValue = pagemarks[maxKey];
+
+                // Extract the page number from the format [Page????-?]...
+                const match = pageMarkValue.match(/\[Page([^\]]+)\]/);
+                if (match && match[1]) {
+                    const pagePart = match[1].split('-')[0].trim();
+                    return {
+                        url: PAGE_URL_BASE + pagePart,
+                        pageNumber: pagePart
+                    };
+                }
+            }
+
+            return null; // Return null if no valid page info could be determined
+        }
+
         // Function to load the JSON data
         async function loadTermsData(jsonPath) {
             try {
+                // First load pagemarks
+                await loadPagemarks();
+
                 // Use the provided path or default
                 const path = jsonPath || '/es.json';
 
@@ -633,11 +721,16 @@
             }
         });
 
-        // Load data when the page loads
+        // Load data only if path parameter is provided in URL
         document.addEventListener('DOMContentLoaded', function() {
             // Check if path is provided in URL
-            const jsonPath = getUrlParameter('path') || DEFAULT_JSON_PATH;
-            loadTermsData(jsonPath);
+            const jsonPath = getUrlParameter('path');
+            if (jsonPath) {
+                loadTermsData(jsonPath);
+            } else {
+                // Hide loading message if no path is provided
+                document.getElementById('loading').style.display = 'none';
+            }
         });
     </script>
 </body>
