@@ -153,25 +153,55 @@
             padding-left: 4px;
         }
 
-        /* Nested items within morphisms and samasas get slightly darker left borders */
-        .nested-morphism .nested-morphism {
-            border-left: 3px solid rgba(0, 100, 200, 0.5);
-            background-color: transparent;
+        /* Nested items with different nesting levels */
+        /* Level 0 (first level) */
+        .nested-morphism[data-nesting-level="0"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.3);
             margin-left: 2px;
         }
 
-        .nested-samasa .nested-samasa {
+        .nested-samasa[data-nesting-level="0"] {
+            border-left: 3px solid rgba(150, 0, 200, 0.3);
+            margin-left: 2px;
+        }
+
+        /* Level 1 (second level) */
+        .nested-morphism[data-nesting-level="1"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.5);
+            margin-left: 2px;
+        }
+
+        .nested-samasa[data-nesting-level="1"] {
             border-left: 3px solid rgba(150, 0, 200, 0.5);
-            background-color: transparent;
+            margin-left: 2px;
+        }
+
+        /* Level 2 (third level) */
+        .nested-morphism[data-nesting-level="2"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.7);
+            margin-left: 2px;
+        }
+
+        .nested-samasa[data-nesting-level="2"] {
+            border-left: 3px solid rgba(150, 0, 200, 0.7);
+            margin-left: 2px;
+        }
+
+        /* Level 3+ (fourth level and beyond) */
+        .nested-morphism[data-nesting-level="3"],
+        .nested-morphism[data-nesting-level="4"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.9);
+            margin-left: 2px;
+        }
+
+        .nested-samasa[data-nesting-level="3"],
+        .nested-samasa[data-nesting-level="4"] {
+            border-left: 3px solid rgba(150, 0, 200, 0.9);
             margin-left: 2px;
         }
 
         /* Cross-nested items (morphism in samasa or vice versa) */
-        .nested-morphism .nested-samasa {
-            margin-left: 2px;
-        }
-
-        .nested-samasa .nested-morphism {
+        .nested-term .nested-term {
             margin-left: 2px;
         }
 
@@ -307,13 +337,14 @@
 
         // Function to process banner expansion
         function processBannerExp(term) {
-            // If no _bannerExp, return the _banner
+            // If no _bannerExp, return the _banner with warning symbol
             if (!term._bannerExp || !term._bannerExp.length) {
                 if (term._banner) {
                     // Process special formatting but keep the text in black
+                    // Add warning symbol since there's no _bannerExp
                     return {
-                        text: processPlainText(term._banner),
-                        tooltip: '',
+                        text: processPlainText(term._banner) + ' <span class="warning-symbol">⚠️</span>',
+                        tooltip: 'No expansion available',
                         isExpanded: false
                     };
                 }
@@ -365,6 +396,101 @@
             return { text: '', tooltip: '', isExpanded: false };
         }
 
+        // Function to process a term's basic content (banner, grammar, meanings)
+        function processTermContent(term) {
+            let content = '';
+
+            // Process banner/bannerExp
+            const bannerInfo = processBannerExp(term);
+            if (bannerInfo.text) {
+                content += `<span class="banner" data-tooltip="${bannerInfo.tooltip}">${bannerInfo.text}</span>`;
+            }
+
+            // Grammar info
+            if (term._gram && term._gram.length) {
+                content += `<span class="gram">${term._gram.map(processSpecialText).join(' ')}</span>`;
+            }
+
+            // Meanings
+            if (term._meanings && term._meanings.length) {
+                term._meanings.forEach(meaning => {
+                    content += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
+                });
+            }
+
+            return content;
+        }
+
+        // Recursive function to process morphisms at any nesting level
+        function processMorphisms(morphisms, nestingLevel = 0) {
+            if (!morphisms || !morphisms.length) return '';
+
+            let result = '';
+
+            morphisms.forEach(morphism => {
+                let morphismContent = processTermContent(morphism);
+
+                // Process nested morphisms recursively
+                if (morphism._morphisms && morphism._morphisms.length) {
+                    morphismContent += processMorphisms(morphism._morphisms, nestingLevel + 1);
+                }
+
+                // Process nested samasas if any
+                if (morphism._samasas && morphism._samasas.length) {
+                    morphismContent += processSamasas(morphism._samasas, nestingLevel + 1);
+                }
+
+                // Add the morphism content to the result if not empty
+                if (morphismContent) {
+                    // Get ancestry info if available
+                    let ancestryInfo = '';
+                    if (morphism._ancestry && morphism._ancestry.length) {
+                        ancestryInfo = morphism._ancestry.join(' / ');
+                    }
+
+                    // Add nesting level as a data attribute for potential styling
+                    result += `<span class="nested-term nested-morphism" data-type="Morphism" data-nesting-level="${nestingLevel}" data-ancestry="${ancestryInfo}">${morphismContent}</span>`;
+                }
+            });
+
+            return result;
+        }
+
+        // Recursive function to process samasas at any nesting level
+        function processSamasas(samasas, nestingLevel = 0) {
+            if (!samasas || !samasas.length) return '';
+
+            let result = '';
+
+            samasas.forEach(samasa => {
+                let samasaContent = processTermContent(samasa);
+
+                // Process nested samasas recursively
+                if (samasa._samasas && samasa._samasas.length) {
+                    samasaContent += processSamasas(samasa._samasas, nestingLevel + 1);
+                }
+
+                // Process nested morphisms if any
+                if (samasa._morphisms && samasa._morphisms.length) {
+                    samasaContent += processMorphisms(samasa._morphisms, nestingLevel + 1);
+                }
+
+                // Add the samasa content to the result if not empty
+                if (samasaContent) {
+                    // Get ancestry info if available
+                    let ancestryInfo = '';
+                    if (samasa._ancestry && samasa._ancestry.length) {
+                        ancestryInfo = samasa._ancestry.join(' / ');
+                    }
+
+                    // Add nesting level as a data attribute for potential styling
+                    result += `<span class="nested-term nested-samasa" data-type="Samasa" data-nesting-level="${nestingLevel}" data-ancestry="${ancestryInfo}">${samasaContent}</span>`;
+                }
+            });
+
+            return result;
+        }
+
         // Function to flatten a term and all its nested terms into a single row
         function flattenTerm(term) {
             let result = '';
@@ -374,150 +500,17 @@
                 result += `<span class="line-number">${term.__line}</span>`;
             }
 
-            // Process banner/bannerExp
-            const bannerInfo = processBannerExp(term);
-            if (bannerInfo.text) {
-                result += `<span class="banner" data-tooltip="${bannerInfo.tooltip}">${bannerInfo.text}</span>`;
-            }
+            // Process the term's own content
+            result += processTermContent(term);
 
-            // Grammar info
-            if (term._gram && term._gram.length) {
-                result += `<span class="gram">${term._gram.map(processSpecialText).join(' ')}</span>`;
-            }
-
-            // Meanings
-            if (term._meanings && term._meanings.length) {
-                term._meanings.forEach(meaning => {
-                    result += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
-                });
-            }
-
-            // Process morphisms (recursively)
+            // Process morphisms with recursive handling for any nesting level
             if (term._morphisms && term._morphisms.length) {
-                term._morphisms.forEach(morphism => {
-                    // Create a container for the morphism with appropriate data attributes
-                    let morphismContent = '';
-
-                    // Process banner/bannerExp for morphism
-                    const morphismBannerInfo = processBannerExp(morphism);
-                    if (morphismBannerInfo.text) {
-                        morphismContent += `<span class="banner" data-tooltip="${morphismBannerInfo.tooltip}">${morphismBannerInfo.text}</span>`;
-                    }
-
-                    if (morphism._gram && morphism._gram.length) {
-                        morphismContent += `<span class="gram">${morphism._gram.map(processSpecialText).join(' ')}</span>`;
-                    }
-
-                    if (morphism._meanings && morphism._meanings.length) {
-                        morphism._meanings.forEach(meaning => {
-                            morphismContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
-                        });
-                    }
-
-                    // Handle nested morphisms if needed
-                    if (morphism._morphisms && morphism._morphisms.length) {
-                        morphism._morphisms.forEach(nestedMorphism => {
-                            // Create a container for the nested morphism
-                            let nestedContent = '';
-
-                            // Process banner/bannerExp for nested morphism
-                            const nestedMorphismBannerInfo = processBannerExp(nestedMorphism);
-                            if (nestedMorphismBannerInfo.text) {
-                                nestedContent += `<span class="banner" data-tooltip="${nestedMorphismBannerInfo.tooltip}">${nestedMorphismBannerInfo.text}</span>`;
-                            }
-
-                            if (nestedMorphism._gram && nestedMorphism._gram.length) {
-                                nestedContent += `<span class="gram">${nestedMorphism._gram.map(processSpecialText).join(' ')}</span>`;
-                            }
-
-                            if (nestedMorphism._meanings && nestedMorphism._meanings.length) {
-                                nestedMorphism._meanings.forEach(meaning => {
-                                    nestedContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
-                                });
-                            }
-
-                            // Add the nested morphism content to the parent morphism content
-                            if (nestedContent) {
-                                morphismContent += `<span class="nested-term nested-morphism" data-type="Nested Morphism">${nestedContent}</span>`;
-                            }
-                        });
-                    }
-
-                    // Add the morphism content to the result
-                    if (morphismContent) {
-                        // Get ancestry info if available
-                        let ancestryInfo = '';
-                        if (morphism._ancestry && morphism._ancestry.length) {
-                            ancestryInfo = morphism._ancestry.join(' / ');
-                        }
-
-                        result += `<span class="nested-term nested-morphism" data-type="Morphism" data-ancestry="${ancestryInfo}">${morphismContent}</span>`;
-                    }
-                });
+                result += processMorphisms(term._morphisms);
             }
 
-            // Process samasas (recursively)
+            // Process samasas with recursive handling for any nesting level
             if (term._samasas && term._samasas.length) {
-                term._samasas.forEach(samasa => {
-                    // Create a container for the samasa with appropriate data attributes
-                    let samasaContent = '';
-
-                    // Process banner/bannerExp for samasa
-                    const samasaBannerInfo = processBannerExp(samasa);
-                    if (samasaBannerInfo.text) {
-                        samasaContent += `<span class="banner" data-tooltip="${samasaBannerInfo.tooltip}">${samasaBannerInfo.text}</span>`;
-                    }
-
-                    if (samasa._gram && samasa._gram.length) {
-                        samasaContent += `<span class="gram">${samasa._gram.map(processSpecialText).join(' ')}</span>`;
-                    }
-
-                    if (samasa._meanings && samasa._meanings.length) {
-                        samasa._meanings.forEach(meaning => {
-                            samasaContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
-                        });
-                    }
-
-                    // Handle nested structures if needed
-                    if (samasa._samasas && samasa._samasas.length) {
-                        samasa._samasas.forEach(nestedSamasa => {
-                            // Create a container for the nested samasa
-                            let nestedContent = '';
-
-                            // Process banner/bannerExp for nested samasa
-                            const nestedSamasaBannerInfo = processBannerExp(nestedSamasa);
-                            if (nestedSamasaBannerInfo.text) {
-                                nestedContent += `<span class="banner" data-tooltip="${nestedSamasaBannerInfo.tooltip}">${nestedSamasaBannerInfo.text}</span>`;
-                            }
-
-                            if (nestedSamasa._gram && nestedSamasa._gram.length) {
-                                nestedContent += `<span class="gram">${nestedSamasa._gram.map(processSpecialText).join(' ')}</span>`;
-                            }
-
-                            if (nestedSamasa._meanings && nestedSamasa._meanings.length) {
-                                nestedSamasa._meanings.forEach(meaning => {
-                                    nestedContent += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
-                                });
-                            }
-
-                            // Add the nested samasa content to the parent samasa content
-                            if (nestedContent) {
-                                samasaContent += `<span class="nested-term nested-samasa" data-type="Nested Samasa">${nestedContent}</span>`;
-                            }
-                        });
-                    }
-
-                    // Add the samasa content to the result
-                    if (samasaContent) {
-                        // Get ancestry info if available
-                        let ancestryInfo = '';
-                        if (samasa._ancestry && samasa._ancestry.length) {
-                            ancestryInfo = samasa._ancestry.join(' / ');
-                        }
-
-                        result += `<span class="nested-term nested-samasa" data-type="Samasa" data-ancestry="${ancestryInfo}">${samasaContent}</span>`;
-                    }
-                });
+                result += processSamasas(term._samasas);
             }
 
             return result;
