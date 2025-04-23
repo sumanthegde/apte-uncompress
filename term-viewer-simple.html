@@ -244,15 +244,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>Term Viewer</h1>
-
         <div id="file-selector" style="text-align: center; margin-bottom: 20px;">
-            <p>Select the es.json file:</p>
-            <input type="file" id="file-input" accept=".json">
-            <p>Or load from: <button id="load-default-path">Default Path</button></p>
+            <div style="padding: 15px;">
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <input type="number" id="term-id-input" placeholder="Enter Term ID (e.g., 9091)" style="padding: 8px; width: 250px; margin-right: 10px;">
+                    <button id="load-term-id" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load Term</button>
+                </div>
+            </div>
         </div>
 
-        <div id="loading" class="loading">Loading... If this takes too long, try running the server with 'node serve.js' and accessing http://localhost:8080/</div>
+        <div id="loading" class="loading">Loading... If this takes too long, try running the server with 'node serve.js' and accessing http://localhost:8081/</div>
         <div id="error" class="error" style="display: none;"></div>
 
         <div id="terms-container"></div>
@@ -592,26 +593,7 @@
             }
         });
 
-        // Handle file input
-        document.getElementById('file-input').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    try {
-                        termsData = JSON.parse(e.target.result);
-                        document.getElementById('loading').style.display = 'none';
-                        renderCurrentPage();
-                    } catch (error) {
-                        console.error('Error parsing JSON:', error);
-                        document.getElementById('loading').style.display = 'none';
-                        document.getElementById('error').style.display = 'block';
-                        document.getElementById('error').textContent = `Error parsing JSON: ${error.message}`;
-                    }
-                };
-                reader.readAsText(file);
-            }
-        });
+        // No file input handling needed
 
         // Default path for the JSON file
         const DEFAULT_JSON_PATH = '/es.json'; // When using the server, this will be served from apteDir.nosync/output/es.json
@@ -624,12 +606,31 @@
             return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
         }
 
-        // Event listener for the default path button
-        document.getElementById('load-default-path').addEventListener('click', function() {
+        // No default path button anymore
+
+        // Event listener for the load term ID button
+        document.getElementById('load-term-id').addEventListener('click', function() {
+            const termId = document.getElementById('term-id-input').value.trim();
+            if (!termId) {
+                alert('Please enter a Term ID');
+                return;
+            }
+
+            // Clear any previous errors
             document.getElementById('error').style.display = 'none';
             document.getElementById('loading').style.display = 'block';
-            document.getElementById('loading').textContent = 'Loading from default path...';
-            loadTermsData(DEFAULT_JSON_PATH);
+            document.getElementById('loading').textContent = `Loading Term ID: ${termId}...`;
+
+            // Load the term from the sharded JSON file
+            loadTermsData(`/${termId}.json`);
+        });
+
+        // Also handle Enter key in the input field
+        document.getElementById('term-id-input').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                document.getElementById('load-term-id').click();
+            }
         });
 
         // Load data when the page loads
