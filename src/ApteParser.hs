@@ -27,6 +27,8 @@ import Control.Applicative (liftA, liftA2)
 import Data.Char
 import ApteRecords
 import ApteUtils
+import qualified Data.List.Split as BS8
+import Control.Arrow (Arrow(second))
 
 type BS8B = BS8.ByteString
 
@@ -533,10 +535,11 @@ abbrHypInSamasaMap =
 
 th k = take 1 . drop k  
 
-makeInline :: (String -> String) -> [FilePath] -> FilePath -> FilePath -> IO [String]
+makeInline :: (String -> String) -> [FilePath] -> FilePath -> FilePath -> IO ([String], M.Map Int String)
 makeInline lineCurator patchPaths inPath outPath = do
   let lend = BS8.pack "<LEND>"
   ls <- BS8.lines <$> BS8.readFile inPath
+  let pageMarks = M.map BS8.unpack $ M.fromList $ filter ((BS8.pack "[Page" `BS8.isPrefixOf`) . snd) (zip [1..] ls)
 --  print patchPath
   patches <- traverse (`load` M.empty) patchPaths :: IO [M.Map Integer String]
   let patchFinal = M.unionsWith (\a b -> tracePrintu (a,b) b) patches
@@ -560,7 +563,7 @@ makeInline lineCurator patchPaths inPath outPath = do
     return curated
   hFlush outH
   hClose outH
-  return inlines
+  return (inlines,pageMarks)
 
 
 --patch1Path = apteOutput </> "1.patch.json"
@@ -640,7 +643,9 @@ main = do
                   . replaceAll (surrLazy "<lbinfo" "/>\n") "\n"
                   . replaceAll (surrLazy "[Page" ("]\n")) "\n"
   patchesAll <- fmap (ap90</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90
-  inlines <- makeInline lineCurator patchesAll originalPath inlineTxtPath
+
+  (inlines,pageMarks) <- makeInline lineCurator patchesAll originalPath inlineTxtPath
+  _ <- store' pageMarkPath pageMarks
   -- $ (regularButOuter (const True)>>eof)) <++ (Just <$> munch (const True)) ) <$> inlines
 --  _ <- store' (ap90</>"_irreg.json") danglingBrackets
   mapLnu' <- getMapLnu

@@ -109,6 +109,7 @@ apteOutput = apteDir </> "output"
 dsalDir = apteDir </> "dsal"
 inlineTxtPath = apteOutput </> "inline.txt"
 rec0Path = apteOutput </> "0.json"
+pageMarkPath = apteOutput </> "pagemarks.json"
 {-
 ऀ	ँ	ं	ः	ऄ	अ	आ	इ	ई	उ	ऊ	ऋ	ऌ	ऍ	ऎ	ए
 U+091x	ऐ	ऑ	ऒ	ओ	औ	क	ख	ग	घ	ङ	च	छ	ज	झ	ञ	ट
