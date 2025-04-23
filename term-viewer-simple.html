@@ -14,6 +14,36 @@
             background-color: #f5f5f5;
         }
 
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .scroll-loading-indicator {
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            text-align: center;
+            padding: 8px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid #4CAF50;
+            font-size: 14px;
+            color: #333;
+            z-index: 90;
+            display: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 20px;
+        }
+
+        #loading-top {
+            top: 80px; /* Just below the header */
+        }
+
+        #loading-bottom {
+            bottom: 20px;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -27,10 +57,8 @@
 
         .term-row {
             background-color: white;
-            border-radius: 4px;
-            padding: 15px;
-            margin-bottom: 10px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 12px;
+            margin-bottom: 0;
             overflow-wrap: break-word;
             word-wrap: break-word;
             hyphens: auto;
@@ -236,8 +264,57 @@
 
         /* Styling for infinite scroll */
         .term-container {
-            margin-bottom: 20px;
+            margin-bottom: 0;
             position: relative;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .term-container:first-child {
+            border-top: none;
+        }
+
+        /* Highlighting for the looked-up term */
+        .term-container.highlighted {
+            background: linear-gradient(to right, rgba(235, 248, 255, 0.3) 0%, rgba(240, 249, 255, 0.1) 100%); /* Subtle gradient background */
+            border-left: 2px solid rgba(49, 130, 206, 0.5); /* Subtle blue left border */
+            margin-left: -2px; /* Offset the border to maintain alignment */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+            position: relative;
+            padding-top: 3px; /* Reduced padding */
+            padding-bottom: 3px; /* Reduced padding */
+            margin-top: 2px; /* Reduced space above */
+            margin-bottom: 2px; /* Reduced space below */
+            border-radius: 2px; /* Subtle rounded corners */
+        }
+
+        .term-container.highlighted .term-row {
+            background: transparent; /* Make the row background transparent to show the container gradient */
+        }
+
+        .term-container.highlighted .banner {
+            font-weight: 500; /* Semi-bold instead of bold */
+            color: #2b6cb0; /* Brighter blue for the banner */
+            text-decoration: none; /* No underline */
+            font-size: 1em; /* Normal font size */
+        }
+
+        .term-container.highlighted .meaning {
+            color: #2d3748; /* Slightly darker than normal text */
+            font-weight: normal; /* Normal weight */
+        }
+
+        /* Specific highlighting for nested elements that match the search */
+        .nested-term.search-match {
+            background-color: rgba(254, 243, 199, 0.4); /* Very light yellow background */
+            padding: 2px 4px;
+            margin: 0 2px;
+            border-radius: 2px;
+        }
+
+        .nested-term.search-match .banner,
+        .nested-term.search-match .meaning {
+            color: #7c2d12; /* Dark orange-brown */
+            font-weight: 500; /* Semi-bold instead of bold */
         }
 
         .term-container::before {
@@ -255,8 +332,10 @@
         <div id="header" style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 100;">
             <div id="file-selector" style="text-align: center; padding: 15px;">
                 <div style="display: flex; justify-content: center; align-items: center;">
-                    <input type="number" id="term-id-input" placeholder="Enter Term ID (e.g., 9091)" style="padding: 8px; width: 250px; margin-right: 10px;">
-                    <button id="load-term-id" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load Term</button>
+                    <div style="display: flex; align-items: center;">
+                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 250px; margin-right: 10px;">
+                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Lookup Word</button>
+                    </div>
                 </div>
             </div>
             <!-- Pagination removed as requested -->
@@ -275,9 +354,15 @@
 
         <div id="terms-container"></div>
 
-        <div id="keyboard-hint" style="text-align: center; margin-top: 10px; font-size: 0.9em; color: #666; display: none;">
-            <span>Use ← and → arrow keys to navigate between terms</span>
+        <!-- Scroll loading indicators -->
+        <div id="loading-top" class="scroll-loading-indicator">
+            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> Loading previous terms...
         </div>
+        <div id="loading-bottom" class="scroll-loading-indicator">
+            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> Loading more terms...
+        </div>
+
+        <!-- Keyboard hint removed as requested -->
     </div>
 
     <script>
@@ -288,11 +373,14 @@
         let pagemarks = {}; // Will store the pagemarks data
         let sortedPagemarkKeys = []; // Will store the sorted keys for binary search
         let currentTermId = null; // Current term ID being viewed
+        let requestedTermId = null; // Track the term that was specifically requested
+        let searchedWord = null; // Store the Devanagari word that was searched
         let isLoading = false; // Flag to prevent multiple simultaneous loads
 
         // Infinite scroll configuration
-        const WINDOW_SIZE = 21; // Current term + 10 before + 10 after
-        const WINDOW_HALF = Math.floor(WINDOW_SIZE / 2); // 10 terms on each side
+        const WINDOW_SIZE = 16; // Current term + 1 before + 14 after
+        const WINDOW_BEFORE = 1; // 1 term before
+        const WINDOW_AFTER = 14; // 14 terms after
         let loadedTerms = {}; // Map of termId -> term data
         let loadedTermIds = new Set(); // Set of loaded term IDs
 
@@ -366,18 +454,19 @@
 
         // Function to process banner expansion
         function processBannerExp(term) {
-            // If no _bannerExp, return the _banner with warning symbol
+            // If no _bannerExp, return just the _banner
             if (!term._bannerExp || !term._bannerExp.length) {
                 if (term._banner) {
                     // Process special formatting but keep the text in black
-                    // Add warning symbol since there's no _bannerExp
+                    // No warning symbol, keeping it minimal
                     return {
-                        text: processPlainText(term._banner) + ' <span class="warning-symbol">⚠️</span>',
+                        text: processPlainText(term._banner),
                         tooltip: 'No expansion available',
-                        isExpanded: false
+                        isExpanded: false,
+                        matchesSearch: false
                     };
                 }
-                return { text: '', tooltip: '', isExpanded: false };
+                return { text: '', tooltip: '', isExpanded: false, matchesSearch: false };
             }
 
             // Extract all 'Right' values from _bannerExp
@@ -387,14 +476,28 @@
 
             // If there are Right values, use them
             if (rightValues.length > 0) {
-                // Convert SLP1 to Devanagari for each Right value
+                // Convert SLP1 to Devanagari for each Right value and check for matches
+                let matchesSearch = false;
                 const convertedValues = rightValues.map(value => {
                     try {
                         // Check if the value looks like Sanskrit (contains SLP1 characters)
                         // This regex checks for common SLP1 characters that indicate Sanskrit
                         if (/[AIUFXEOMNHSZR]|[kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzshL]/.test(value)) {
-                            return `<span class="devanagari">${Sanscript.t(value, 'slp1', 'devanagari')}</span>`;
+                            const devanagari = Sanscript.t(value, 'slp1', 'devanagari');
+
+                            // Check if this matches the searched word
+                            if (searchedWord && devanagari === searchedWord) {
+                                matchesSearch = true;
+                                console.log(`Found match for '${searchedWord}' in term:`, term);
+                            }
+
+                            return `<span class="devanagari">${devanagari}</span>`;
                         } else {
+                            // Check if this matches the searched word (for non-Sanskrit)
+                            if (searchedWord && value === searchedWord) {
+                                matchesSearch = true;
+                                console.log(`Found match for '${searchedWord}' in term:`, term);
+                            }
                             return value; // Not Sanskrit, return as is
                         }
                     } catch (e) {
@@ -404,35 +507,38 @@
 
                 return {
                     text: convertedValues.join(', '),
-                    //tooltip: term._banner ? `Originally: ${processPlainText(term._banner)}` : '',
                     tooltip: term._banner ? `${processPlainText(term._banner)}` : '',
-                    isExpanded: true
+                    isExpanded: true,
+                    matchesSearch: matchesSearch
                 };
             }
 
-            // If all are Left values, use _banner with warning symbol
+            // If all are Left values, use just the _banner
             if (term._banner) {
                 // Process special formatting but keep the text in black
-                // Only the warning symbol is red
+                // No warning symbol, keeping it minimal
                 return {
-                    text: processPlainText(term._banner) + ' <span class="warning-symbol">⚠️</span>',
+                    text: processPlainText(term._banner),
                     tooltip: 'Couldn\'t expand',
-                    isExpanded: false
+                    isExpanded: false,
+                    matchesSearch: false
                 };
             }
 
             // Fallback
-            return { text: '', tooltip: '', isExpanded: false };
+            return { text: '', tooltip: '', isExpanded: false, matchesSearch: false };
         }
 
         // Function to process a term's basic content (banner, grammar, meanings)
         function processTermContent(term) {
             let content = '';
+            let matchesSearch = false;
 
             // Process banner/bannerExp
             const bannerInfo = processBannerExp(term);
             if (bannerInfo.text) {
                 content += `<span class="banner" data-tooltip="${bannerInfo.tooltip}">${bannerInfo.text}</span>`;
+                matchesSearch = bannerInfo.matchesSearch;
             }
 
             // Grammar info
@@ -447,105 +553,141 @@
                 });
             }
 
-            return content;
+            return { content, matchesSearch };
         }
 
         // Recursive function to process morphisms at any nesting level
         function processMorphisms(morphisms, nestingLevel = 0) {
-            if (!morphisms || !morphisms.length) return '';
+            if (!morphisms || !morphisms.length) return { html: '', hasMatch: false };
 
             let result = '';
+            let hasMatch = false;
 
             morphisms.forEach(morphism => {
-                let morphismContent = processTermContent(morphism);
+                const { content: morphismContent, matchesSearch } = processTermContent(morphism);
+                let nestedContent = '';
+                let nestedHasMatch = false;
 
                 // Process nested morphisms recursively
                 if (morphism._morphisms && morphism._morphisms.length) {
-                    morphismContent += processMorphisms(morphism._morphisms, nestingLevel + 1);
+                    const nestedMorphisms = processMorphisms(morphism._morphisms, nestingLevel + 1);
+                    nestedContent += nestedMorphisms.html;
+                    if (nestedMorphisms.hasMatch) nestedHasMatch = true;
                 }
 
                 // Process nested samasas if any
                 if (morphism._samasas && morphism._samasas.length) {
-                    morphismContent += processSamasas(morphism._samasas, nestingLevel + 1);
+                    const nestedSamasas = processSamasas(morphism._samasas, nestingLevel + 1);
+                    nestedContent += nestedSamasas.html;
+                    if (nestedSamasas.hasMatch) nestedHasMatch = true;
                 }
 
                 // Add the morphism content to the result if not empty
-                if (morphismContent) {
+                if (morphismContent || nestedContent) {
                     // Get ancestry info if available
                     let ancestryInfo = '';
                     if (morphism._ancestry && morphism._ancestry.length) {
                         ancestryInfo = morphism._ancestry.join(' / ');
                     }
 
+                    // Determine if this morphism or any of its children match the search
+                    const thisMatchesSearch = matchesSearch || nestedHasMatch;
+                    if (thisMatchesSearch) hasMatch = true;
+
+                    // Add appropriate classes based on search match
+                    const searchMatchClass = thisMatchesSearch ? ' search-match' : '';
+
                     // Add nesting level as a data attribute for potential styling
-                    result += `<span class="nested-term nested-morphism" data-type="Morphism" data-nesting-level="${nestingLevel}" data-ancestry="${ancestryInfo}">${morphismContent}</span>`;
+                    result += `<span class="nested-term nested-morphism${searchMatchClass}" data-type="Morphism" data-nesting-level="${nestingLevel}" data-ancestry="${ancestryInfo}">${morphismContent}${nestedContent}</span>`;
                 }
             });
 
-            return result;
+            return { html: result, hasMatch };
         }
 
         // Recursive function to process samasas at any nesting level
         function processSamasas(samasas, nestingLevel = 0) {
-            if (!samasas || !samasas.length) return '';
+            if (!samasas || !samasas.length) return { html: '', hasMatch: false };
 
             let result = '';
+            let hasMatch = false;
 
             samasas.forEach(samasa => {
-                let samasaContent = processTermContent(samasa);
+                const { content: samasaContent, matchesSearch } = processTermContent(samasa);
+                let nestedContent = '';
+                let nestedHasMatch = false;
 
                 // Process nested samasas recursively
                 if (samasa._samasas && samasa._samasas.length) {
-                    samasaContent += processSamasas(samasa._samasas, nestingLevel + 1);
+                    const nestedSamasas = processSamasas(samasa._samasas, nestingLevel + 1);
+                    nestedContent += nestedSamasas.html;
+                    if (nestedSamasas.hasMatch) nestedHasMatch = true;
                 }
 
                 // Process nested morphisms if any
                 if (samasa._morphisms && samasa._morphisms.length) {
-                    samasaContent += processMorphisms(samasa._morphisms, nestingLevel + 1);
+                    const nestedMorphisms = processMorphisms(samasa._morphisms, nestingLevel + 1);
+                    nestedContent += nestedMorphisms.html;
+                    if (nestedMorphisms.hasMatch) nestedHasMatch = true;
                 }
 
                 // Add the samasa content to the result if not empty
-                if (samasaContent) {
+                if (samasaContent || nestedContent) {
                     // Get ancestry info if available
                     let ancestryInfo = '';
                     if (samasa._ancestry && samasa._ancestry.length) {
                         ancestryInfo = samasa._ancestry.join(' / ');
                     }
 
+                    // Determine if this samasa or any of its children match the search
+                    const thisMatchesSearch = matchesSearch || nestedHasMatch;
+                    if (thisMatchesSearch) hasMatch = true;
+
+                    // Add appropriate classes based on search match
+                    const searchMatchClass = thisMatchesSearch ? ' search-match' : '';
+
                     // Add nesting level as a data attribute for potential styling
-                    result += `<span class="nested-term nested-samasa" data-type="Samasa" data-nesting-level="${nestingLevel}" data-ancestry="${ancestryInfo}">${samasaContent}</span>`;
+                    result += `<span class="nested-term nested-samasa${searchMatchClass}" data-type="Samasa" data-nesting-level="${nestingLevel}" data-ancestry="${ancestryInfo}">${samasaContent}${nestedContent}</span>`;
                 }
             });
 
-            return result;
+            return { html: result, hasMatch };
         }
 
         // Function to flatten a term and all its nested terms into a single row
         function flattenTerm(term) {
             let result = '';
+            let hasMatch = false;
 
             // Line number and page link removed
 
             // Process the term's own content
-            result += processTermContent(term);
+            const { content: termContent, matchesSearch } = processTermContent(term);
+            result += termContent;
+            if (matchesSearch) hasMatch = true;
 
             // Process morphisms with recursive handling for any nesting level
             if (term._morphisms && term._morphisms.length) {
-                result += processMorphisms(term._morphisms);
+                const morphismsResult = processMorphisms(term._morphisms);
+                result += morphismsResult.html;
+                if (morphismsResult.hasMatch) hasMatch = true;
             }
 
             // Process samasas with recursive handling for any nesting level
             if (term._samasas && term._samasas.length) {
-                result += processSamasas(term._samasas);
+                const samasasResult = processSamasas(term._samasas);
+                result += samasasResult.html;
+                if (samasasResult.hasMatch) hasMatch = true;
             }
 
-            return result;
+            return { content: result, hasMatch };
         }
 
         // Function to render a term row
         function renderTermRow(term) {
-            const rowContent = flattenTerm(term);
-            return `<div class="term-row">${rowContent}</div>`;
+            const { content: rowContent, hasMatch } = flattenTerm(term);
+            const matchClass = hasMatch ? ' has-match' : '';
+            return `<div class="term-row${matchClass}">${rowContent}</div>`;
         }
 
         // Function to render the current page of terms
@@ -701,22 +843,50 @@
             }
         }
 
+        // Function to reset scroll and loading states
+        function resetScrollStates() {
+            // Reset all scroll and loading related variables
+            scrollTimeout = null;
+            lastBottomTermId = null;
+            lastTopTermId = null;
+            isLoadingTop = false;
+            isLoadingBottom = false;
+
+            // Debug mode constant (should match the one in handleScroll)
+            const DEBUG_MODE = false;
+
+            // Clear any existing debug info
+            const debugEl = document.getElementById('scroll-debug');
+            if (DEBUG_MODE && debugEl) {
+                debugEl.innerHTML = 'Scroll states reset';
+            } else if (debugEl) {
+                // Remove debug element if debug mode is off
+                debugEl.remove();
+            }
+
+            console.log('All scroll states have been reset');
+        }
+
         // Function to load a term and its context (n-10 to n+10)
         async function loadTermWithContext(termId) {
             try {
                 isLoading = true;
+
+                // Reset scroll states at the beginning of loading a new term
+                resetScrollStates();
 
                 // First load pagemarks if not already loaded
                 if (Object.keys(pagemarks).length === 0) {
                     await loadPagemarks();
                 }
 
-                // Set current term ID
+                // Set current term ID and requested term ID
                 currentTermId = termId;
+                requestedTermId = termId; // This is the term the user specifically requested
 
                 // Calculate the range of terms to load
-                const startTermId = Math.max(1, termId - WINDOW_HALF);
-                const endTermId = termId + WINDOW_HALF;
+                const startTermId = Math.max(1, termId - WINDOW_BEFORE);
+                const endTermId = termId + WINDOW_AFTER;
 
                 // Show loading message
                 document.getElementById('error').style.display = 'none';
@@ -740,8 +910,7 @@
                 // Update pagination info
                 document.getElementById('pagination-info').textContent = `Term ID: ${currentTermId}`;
 
-                // Show keyboard navigation hint
-                document.getElementById('keyboard-hint').style.display = 'block';
+                // Keyboard navigation hint has been removed
 
                 // Update button states
                 updateButtonStates();
@@ -776,7 +945,10 @@
                     termContainer.className = 'term-container';
                     termContainer.dataset.termId = id;
 
-                    // No highlighting for current term
+                    // Add highlighting class if this is the requested term
+                    if (id === requestedTermId) {
+                        termContainer.classList.add('highlighted');
+                    }
 
                     // Check if it's a placeholder
                     if (termData[0].__placeholder) {
@@ -790,11 +962,11 @@
                 }
             }
 
-            // Scroll to the current term
-            const currentTermElement = document.querySelector(`.term-container[data-term-id="${currentTermId}"]`);
-            if (currentTermElement) {
-                currentTermElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
+            // Scroll to the most granular highlighted element after a short delay
+            // to ensure all DOM updates are complete
+            setTimeout(() => {
+                scrollToHighlightedElement(currentTermId);
+            }, 50);
         }
 
         // Function to load the JSON data (for backward compatibility)
@@ -879,6 +1051,80 @@
             }
         });
 
+        // Function to scroll to the most granular highlighted element
+        function scrollToHighlightedElement(termId) {
+            // Cancel any existing scroll timeout to prevent conflicts
+            if (scrollTimeout) {
+                clearTimeout(scrollTimeout);
+                scrollTimeout = null;
+            }
+
+            // Wait a short time to ensure the DOM is fully updated
+            setTimeout(() => {
+                const termElement = document.querySelector(`.term-container[data-term-id="${termId}"]`);
+                if (!termElement) {
+                    console.log(`Term element ${termId} not found in DOM, can't scroll`);
+                    return;
+                }
+
+                // Look for a search match within this term
+                const searchMatch = termElement.querySelector('.search-match');
+
+                // Get header height to adjust calculations
+                const headerHeight = document.getElementById('header').offsetHeight;
+
+                // Reset scroll position to the top of the term first to avoid compounding errors
+                // This ensures we're starting from a clean state
+                termElement.scrollIntoView({ behavior: 'auto', block: 'start' });
+
+                // Wait a tiny bit for the scroll to complete
+                setTimeout(() => {
+                    // Now calculate the proper center position
+                    if (searchMatch) {
+                        // If there's a search match, scroll to it
+                        console.log('Scrolling to search match within term', termId);
+
+                        // Get fresh coordinates after the initial scroll
+                        const rect = searchMatch.getBoundingClientRect();
+                        const elementHeight = rect.height;
+                        const windowHeight = window.innerHeight;
+
+                        // Calculate absolute position without using current scroll position
+                        // This avoids compounding errors from previous scrolls
+                        const targetScrollY = window.scrollY + rect.top - (windowHeight / 2) + (elementHeight / 2) - headerHeight;
+
+                        console.log(`Scrolling to Y=${targetScrollY}, element top=${rect.top}, window height=${windowHeight}`);
+
+                        // Smooth scroll to the calculated position
+                        window.scrollTo({
+                            top: targetScrollY,
+                            behavior: 'smooth'
+                        });
+                    } else {
+                        // Otherwise, scroll to the term itself
+                        console.log('Scrolling to term', termId);
+
+                        // Get fresh coordinates after the initial scroll
+                        const rect = termElement.getBoundingClientRect();
+                        const elementHeight = rect.height;
+                        const windowHeight = window.innerHeight;
+
+                        // Calculate absolute position without using current scroll position
+                        // This avoids compounding errors from previous scrolls
+                        const targetScrollY = window.scrollY + rect.top - (windowHeight / 2) + (elementHeight / 2) - headerHeight;
+
+                        console.log(`Scrolling to Y=${targetScrollY}, element top=${rect.top}, window height=${windowHeight}`);
+
+                        // Smooth scroll to the calculated position
+                        window.scrollTo({
+                            top: targetScrollY,
+                            behavior: 'smooth'
+                        });
+                    }
+                }, 50); // Short delay to ensure the initial scroll is complete
+            }, 100); // Wait for DOM updates to complete
+        }
+
         // Function to navigate to a specific term
         function navigateToTerm(termId) {
             if (isLoading) return;
@@ -889,6 +1135,12 @@
                 alert('Please enter a valid Term ID');
                 return;
             }
+
+            // Reset scroll states to prevent incorrect scrolling
+            resetScrollStates();
+
+            // Force scroll to top to reset view
+            window.scrollTo(0, 0);
 
             // Clear any previous errors
             document.getElementById('error').style.display = 'none';
@@ -919,67 +1171,128 @@
 
         // No default path button anymore
 
-        // Event listener for the load term ID button
-        document.getElementById('load-term-id').addEventListener('click', function() {
-            const termId = document.getElementById('term-id-input').value.trim();
-            if (!termId) {
-                alert('Please enter a Term ID');
+        // Function to lookup a Devanagari word in table2.txt
+        async function lookupDevanagariWord(word) {
+            if (isLoading) return;
+
+            if (!word) {
+                alert('Please enter a Devanagari word');
                 return;
             }
 
-            // Navigate to the term
-            navigateToTerm(termId);
+            // Reset scroll states to prevent incorrect scrolling
+            resetScrollStates();
+
+            // Force scroll to top to reset view
+            window.scrollTo(0, 0);
+
+            // Store the searched word for highlighting nested elements
+            searchedWord = word.trim();
+
+            // Show loading message
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loading').textContent = `Looking up word: ${word}...`;
+
+            try {
+                // Fetch table2.txt
+                const response = await fetch('/table2.txt');
+                if (!response.ok) {
+                    throw new Error(`Failed to load table2.txt: ${response.status} ${response.statusText}`);
+                }
+
+                const text = await response.text();
+                const lines = text.split('\n');
+
+                // Search for the word
+                let termId = null;
+                for (const line of lines) {
+                    const parts = line.split(' : ');
+                    if (parts.length >= 2 && parts[0].trim() === word.trim()) {
+                        // Found a match, extract the L_ number
+                        const match = parts[1].match(/L_\s*(\d+)/);
+                        if (match && match[1]) {
+                            termId = parseInt(match[1], 10);
+                            break;
+                        }
+                    }
+                }
+
+                if (termId) {
+                    // Navigate to the term
+                    navigateToTerm(termId);
+                } else {
+                    // Word not found
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('error').style.display = 'block';
+                    document.getElementById('error').textContent = `Word "${word}" not found in dictionary.`;
+                }
+            } catch (error) {
+                console.error('Error looking up word:', error);
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = `Error looking up word: ${error.message}`;
+            }
+        }
+
+        // Term ID input feature has been removed
+
+        // Event listener for the lookup Devanagari word button
+        document.getElementById('lookup-devanagari').addEventListener('click', function() {
+            const word = document.getElementById('devanagari-input').value.trim();
+            lookupDevanagariWord(word);
         });
 
-        // Also handle Enter key in the input field
-        document.getElementById('term-id-input').addEventListener('keypress', function(event) {
+        // Handle Enter key in the Devanagari input field
+        document.getElementById('devanagari-input').addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
                 event.preventDefault();
-                document.getElementById('load-term-id').click();
+                document.getElementById('lookup-devanagari').click();
             }
         });
 
-        // Add keyboard navigation
-        document.addEventListener('keydown', function(event) {
-            // Only handle keyboard navigation when viewing a specific term
-            if (!currentTermId) return;
-
-            // Left arrow key - previous term
-            if (event.key === 'ArrowLeft' && currentTermId > 1 && !isLoading) {
-                navigateToTerm(currentTermId - 1);
-            }
-
-            // Right arrow key - next term
-            if (event.key === 'ArrowRight' && !isLoading) {
-                navigateToTerm(currentTermId + 1);
-            }
-        });
+        // Keyboard navigation has been removed as requested
 
         // Scroll event handler for infinite scrolling
         let scrollTimeout;
         let lastBottomTermId = null;
         let lastTopTermId = null;
+        const BATCH_SIZE = 7; // Load half the WINDOW_AFTER size at once
+        const SCROLL_TIMEOUT = 300; // Increased timeout for larger payloads
+        let isLoadingTop = false; // Flag to track loading state for top indicator
+        let isLoadingBottom = false; // Flag to track loading state for bottom indicator
 
         function handleScroll() {
-            // Add debug element to show scroll info
+            // Debug element code is kept but disabled
+            // To re-enable, set DEBUG_MODE to true
+            const DEBUG_MODE = false;
+
             let debugEl = document.getElementById('scroll-debug');
-            if (!debugEl) {
-                debugEl = document.createElement('div');
-                debugEl.id = 'scroll-debug';
-                debugEl.style.position = 'fixed';
-                debugEl.style.bottom = '10px';
-                debugEl.style.right = '10px';
-                debugEl.style.backgroundColor = 'rgba(0,0,0,0.7)';
-                debugEl.style.color = 'white';
-                debugEl.style.padding = '10px';
-                debugEl.style.borderRadius = '5px';
-                debugEl.style.zIndex = '1000';
-                debugEl.style.fontSize = '12px';
-                document.body.appendChild(debugEl);
+            if (DEBUG_MODE) {
+                if (!debugEl) {
+                    debugEl = document.createElement('div');
+                    debugEl.id = 'scroll-debug';
+                    debugEl.style.position = 'fixed';
+                    debugEl.style.bottom = '10px';
+                    debugEl.style.right = '10px';
+                    debugEl.style.backgroundColor = 'rgba(0,0,0,0.7)';
+                    debugEl.style.color = 'white';
+                    debugEl.style.padding = '10px';
+                    debugEl.style.borderRadius = '5px';
+                    debugEl.style.zIndex = '1000';
+                    debugEl.style.fontSize = '12px';
+                    document.body.appendChild(debugEl);
+                }
+            } else if (debugEl) {
+                // Remove debug element if it exists and debug mode is off
+                debugEl.remove();
+                debugEl = null;
             }
 
             if (scrollTimeout || isLoading || !currentTermId) {
-                debugEl.innerHTML = `Waiting: timeout=${!!scrollTimeout}, loading=${isLoading}, currentTermId=${currentTermId}`;
+                if (DEBUG_MODE && debugEl) {
+                    debugEl.innerHTML = `Waiting: timeout=${!!scrollTimeout}, loading=${isLoading}, currentTermId=${currentTermId}`;
+                }
                 return;
             }
 
@@ -1001,17 +1314,19 @@
             const lowestLoadedId = loadedIds.length > 0 ? loadedIds[0] : currentTermId;
             const highestLoadedId = loadedIds.length > 0 ? loadedIds[loadedIds.length - 1] : currentTermId;
 
-            // Update debug display
-            debugEl.innerHTML = `Scroll: ${scrollPosition}px<br>
-                Effective Scroll: ${effectiveScrollPosition}px<br>
-                Window Height: ${windowHeight}px<br>
-                Document Height: ${documentHeight}px<br>
-                Header Height: ${headerHeight}px<br>
-                Lowest ID: ${lowestLoadedId}<br>
-                Highest ID: ${highestLoadedId}<br>
-                Current ID: ${currentTermId}<br>
-                Near Top: ${scrollPosition < 200}<br>
-                Near Bottom: ${scrollPosition + windowHeight > documentHeight - 500}`;
+            // Update debug display if debug mode is enabled
+            if (DEBUG_MODE && debugEl) {
+                debugEl.innerHTML = `Scroll: ${scrollPosition}px<br>
+                    Effective Scroll: ${effectiveScrollPosition}px<br>
+                    Window Height: ${windowHeight}px<br>
+                    Document Height: ${documentHeight}px<br>
+                    Header Height: ${headerHeight}px<br>
+                    Lowest ID: ${lowestLoadedId}<br>
+                    Highest ID: ${highestLoadedId}<br>
+                    Current ID: ${currentTermId}<br>
+                    Near Top: ${scrollPosition < 200}<br>
+                    Near Bottom: ${scrollPosition + windowHeight > documentHeight - 500}`;
+            }
 
             scrollTimeout = setTimeout(() => {
                 // Check if we're near the bottom of the page
@@ -1025,14 +1340,57 @@
                 if (nearBottom) {
                     const nextTermId = highestLoadedId + 1;
 
+                    // Check if the next term is actually in the DOM
+                    const nextTermInDOM = document.querySelector(`.term-container[data-term-id="${nextTermId}"]`);
+
                     // Only load if we haven't loaded this term before or if it's different from the last one we tried to load
-                    if (nextTermId !== lastBottomTermId && !loadedTermIds.has(nextTermId) && nextTermId > 0) {
-                        console.log(`Loading more terms below: ${nextTermId}`);
-                        debugEl.innerHTML += `<br><strong>Loading below: ${nextTermId}</strong>`;
+                    // Also check if the term is actually in the DOM, not just in the loadedTermIds set
+                    if ((nextTermId !== lastBottomTermId) && (!loadedTermIds.has(nextTermId) || !nextTermInDOM) && nextTermId > 0) {
+                        // Show loading indicator at the bottom
+                        document.getElementById('loading-bottom').style.display = 'block';
+                        isLoadingBottom = true;
+
+                        // If the term is in loadedTermIds but not in DOM, remove it from loadedTermIds
+                        if (loadedTermIds.has(nextTermId) && !nextTermInDOM) {
+                            loadedTermIds.delete(nextTermId);
+                            console.log(`Term ${nextTermId} was in loadedTermIds but not in DOM, removed from tracking`);
+                        }
+
+                        // Load a batch of terms instead of just one
+                        const batchEndId = nextTermId + BATCH_SIZE - 1;
+                        console.log(`Loading more terms below: ${nextTermId} to ${batchEndId}`);
+                        if (DEBUG_MODE && debugEl) {
+                            debugEl.innerHTML += `<br><strong>Loading below: ${nextTermId} to ${batchEndId}</strong>`;
+                        }
                         lastBottomTermId = nextTermId;
-                        loadMoreTerms(nextTermId, 'below');
+
+                        // Load each term in the batch
+                        const loadPromises = [];
+                        for (let id = nextTermId; id <= batchEndId; id++) {
+                            loadPromises.push(loadMoreTerms(id, 'below'));
+                        }
+
+                        // Hide loading indicator when all terms are loaded
+                        Promise.all(loadPromises).finally(() => {
+                            setTimeout(() => {
+                                document.getElementById('loading-bottom').style.display = 'none';
+                                isLoadingBottom = false;
+                                lastBottomTermId = null; // Reset to allow loading more if needed
+                            }, 300); // Short delay to ensure user sees the indicator
+                        });
                     } else {
-                        debugEl.innerHTML += `<br>Not loading below: nextTermId=${nextTermId}, lastBottomTermId=${lastBottomTermId}, already loaded=${loadedTermIds.has(nextTermId)}`;
+                        if (DEBUG_MODE && debugEl) {
+                            debugEl.innerHTML += `<br>Not loading below: nextTermId=${nextTermId}, lastBottomTermId=${lastBottomTermId}, already loaded=${loadedTermIds.has(nextTermId)}, in DOM=${!!nextTermInDOM}`;
+                        }
+
+                        // If we're at the bottom but can't load more, reset lastBottomTermId after a delay
+                        // This helps recover from stuck states
+                        if (lastBottomTermId !== null) {
+                            setTimeout(() => {
+                                lastBottomTermId = null;
+                                console.log('Reset lastBottomTermId to allow loading more terms');
+                            }, 2000); // Wait 2 seconds before allowing another attempt
+                        }
                     }
                 }
 
@@ -1040,14 +1398,57 @@
                 if (nearTop && lowestLoadedId > 1) {
                     const prevTermId = lowestLoadedId - 1;
 
+                    // Check if the previous term is actually in the DOM
+                    const prevTermInDOM = document.querySelector(`.term-container[data-term-id="${prevTermId}"]`);
+
                     // Only load if we haven't loaded this term before or if it's different from the last one we tried to load
-                    if (prevTermId !== lastTopTermId && !loadedTermIds.has(prevTermId) && prevTermId >= 1) {
-                        console.log(`Loading more terms above: ${prevTermId}`);
-                        debugEl.innerHTML += `<br><strong>Loading above: ${prevTermId}</strong>`;
+                    // Also check if the term is actually in the DOM, not just in the loadedTermIds set
+                    if ((prevTermId !== lastTopTermId) && (!loadedTermIds.has(prevTermId) || !prevTermInDOM) && prevTermId >= 1) {
+                        // Show loading indicator at the top
+                        document.getElementById('loading-top').style.display = 'block';
+                        isLoadingTop = true;
+
+                        // If the term is in loadedTermIds but not in DOM, remove it from loadedTermIds
+                        if (loadedTermIds.has(prevTermId) && !prevTermInDOM) {
+                            loadedTermIds.delete(prevTermId);
+                            console.log(`Term ${prevTermId} was in loadedTermIds but not in DOM, removed from tracking`);
+                        }
+
+                        // Load a batch of terms instead of just one
+                        const batchStartId = Math.max(1, prevTermId - BATCH_SIZE + 1);
+                        console.log(`Loading more terms above: ${batchStartId} to ${prevTermId}`);
+                        if (DEBUG_MODE && debugEl) {
+                            debugEl.innerHTML += `<br><strong>Loading above: ${batchStartId} to ${prevTermId}</strong>`;
+                        }
                         lastTopTermId = prevTermId;
-                        loadMoreTerms(prevTermId, 'above');
+
+                        // Load each term in the batch
+                        const loadPromises = [];
+                        for (let id = prevTermId; id >= batchStartId; id--) {
+                            loadPromises.push(loadMoreTerms(id, 'above'));
+                        }
+
+                        // Hide loading indicator when all terms are loaded
+                        Promise.all(loadPromises).finally(() => {
+                            setTimeout(() => {
+                                document.getElementById('loading-top').style.display = 'none';
+                                isLoadingTop = false;
+                                lastTopTermId = null; // Reset to allow loading more if needed
+                            }, 300); // Short delay to ensure user sees the indicator
+                        });
                     } else {
-                        debugEl.innerHTML += `<br>Not loading above: prevTermId=${prevTermId}, lastTopTermId=${lastTopTermId}, already loaded=${loadedTermIds.has(prevTermId)}`;
+                        if (DEBUG_MODE && debugEl) {
+                            debugEl.innerHTML += `<br>Not loading above: prevTermId=${prevTermId}, lastTopTermId=${lastTopTermId}, already loaded=${loadedTermIds.has(prevTermId)}, in DOM=${!!prevTermInDOM}`;
+                        }
+
+                        // If we're at the top but can't load more, reset lastTopTermId after a delay
+                        // This helps recover from stuck states
+                        if (lastTopTermId !== null) {
+                            setTimeout(() => {
+                                lastTopTermId = null;
+                                console.log('Reset lastTopTermId to allow loading more terms');
+                            }, 2000); // Wait 2 seconds before allowing another attempt
+                        }
                     }
                 }
 
@@ -1055,17 +1456,48 @@
                 updateCurrentTermIdFromScroll();
 
                 scrollTimeout = null;
-            }, 200);
+
+                // Add a recovery mechanism for when scrolling gets stuck
+                // If we're near the top or bottom but couldn't load more terms, check if we have enough terms in the DOM
+                const visibleTerms = document.querySelectorAll('.term-container').length;
+                if ((nearTop || nearBottom) && visibleTerms < WINDOW_SIZE) {
+                    console.log(`Possible stuck state detected: only ${visibleTerms} terms visible. Attempting recovery...`);
+                    if (DEBUG_MODE && debugEl) {
+                        debugEl.innerHTML += `<br><strong>Recovery: Only ${visibleTerms} terms visible, forcing reload</strong>`;
+                    }
+
+                    // Force reset tracking variables
+                    lastTopTermId = null;
+                    lastBottomTermId = null;
+
+                    // Force reload around current term
+                    const recoveryStart = Math.max(1, currentTermId - WINDOW_BEFORE);
+                    const recoveryEnd = currentTermId + WINDOW_AFTER;
+
+                    // Clear loadedTermIds for terms that should be visible but aren't in the DOM
+                    for (let id = recoveryStart; id <= recoveryEnd; id++) {
+                        if (loadedTermIds.has(id) && !document.querySelector(`.term-container[data-term-id="${id}"]`)) {
+                            loadedTermIds.delete(id);
+                            console.log(`Recovery: Removed term ${id} from tracking as it's not in the DOM`);
+                        }
+                    }
+
+                    // Force reload the current window of terms
+                    setTimeout(() => {
+                        renderTermsInRange(recoveryStart, recoveryEnd);
+                    }, 500);
+                }
+            }, SCROLL_TIMEOUT);
         }
 
         // Function to load more terms in a specific direction
         async function loadMoreTerms(termId, direction) {
-            if (isLoading || !termId || termId < 1) return;
+            if (isLoading || !termId || termId < 1) return Promise.resolve();
 
             // Check if this term is already loaded
             if (document.querySelector(`.term-container[data-term-id="${termId}"]`)) {
                 console.log(`Term ${termId} is already in the DOM, skipping`);
-                return;
+                return Promise.resolve();
             }
 
             try {
@@ -1089,6 +1521,11 @@
                     const termContainer = document.createElement('div');
                     termContainer.className = 'term-container';
                     termContainer.dataset.termId = termId;
+
+                    // Add highlighting class if this is the requested term
+                    if (termId === requestedTermId) {
+                        termContainer.classList.add('highlighted');
+                    }
 
                     // Check if it's a placeholder
                     if (termData[0].__placeholder) {
@@ -1130,16 +1567,18 @@
                 }
 
                 isLoading = false;
+                return Promise.resolve();
             } catch (error) {
                 console.error(`Error loading more terms:`, error);
                 isLoading = false;
+                return Promise.reject(error);
             }
         }
 
         // Function to trim excess terms to maintain the window size
         function trimExcessTerms() {
             const termContainers = document.querySelectorAll('.term-container');
-            if (termContainers.length <= WINDOW_SIZE * 2) return; // Keep a buffer
+            if (termContainers.length <= WINDOW_SIZE * 4) return; // Keep a larger buffer (4x instead of 2x)
 
             // Get the current term element
             const currentTermElement = document.querySelector(`.term-container[data-term-id="${currentTermId}"]`);
@@ -1147,14 +1586,28 @@
 
             // Calculate which terms to keep
             const termIds = Array.from(termContainers).map(container => parseInt(container.dataset.termId, 10));
-            const minKeepId = Math.max(1, currentTermId - WINDOW_SIZE);
-            const maxKeepId = currentTermId + WINDOW_SIZE;
+            const minKeepId = Math.max(1, currentTermId - WINDOW_BEFORE);
+            const maxKeepId = currentTermId + WINDOW_AFTER;
 
             // Remove terms that are too far from the current term
             for (const container of termContainers) {
                 const termId = parseInt(container.dataset.termId, 10);
                 if (termId < minKeepId || termId > maxKeepId) {
+                    // Remove from DOM
                     container.remove();
+
+                    // Also remove from loadedTermIds set to allow reloading if needed
+                    loadedTermIds.delete(termId);
+
+                    // Reset lastTopTermId and lastBottomTermId if they match the removed term
+                    if (termId === lastTopTermId) {
+                        lastTopTermId = null;
+                    }
+                    if (termId === lastBottomTermId) {
+                        lastBottomTermId = null;
+                    }
+
+                    console.log(`Removed term ${termId} from DOM and tracking`);
                 }
             }
         }
@@ -1207,6 +1660,10 @@
 
         // Load data only if path parameter is provided in URL
         document.addEventListener('DOMContentLoaded', function() {
+            // Make sure loading indicators are hidden initially
+            document.getElementById('loading-top').style.display = 'none';
+            document.getElementById('loading-bottom').style.display = 'none';
+
             // Check if path is provided in URL
             const jsonPath = getUrlParameter('path');
             if (jsonPath) {

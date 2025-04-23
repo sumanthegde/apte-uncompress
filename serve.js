@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8081;
+const PORT = 8082;
 
 const MIME_TYPES = {
   '.html': 'text/html',
@@ -157,6 +157,12 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Special case for table2.txt
+  if (req.url === '/table2.txt') {
+    console.log(`Serving table2.txt from: ${path.join(__dirname, 'apteDir.nosync/output/table2.txt')}`);
+    filePath = path.join(__dirname, 'apteDir.nosync/output/table2.txt');
+  }
+
   const extname = String(path.extname(filePath)).toLowerCase();
   const contentType = MIME_TYPES[extname] || 'application/octet-stream';
 
@@ -185,3 +191,9 @@ server.listen(PORT, () => {
   console.log(`Access individual terms at http://localhost:${PORT}/<number>`);
   console.log(`For example: http://localhost:${PORT}/9091`);
 });
+
+server.on('error', (error) => {
+  console.error('Server error:', error);
+});
+
+console.log('Starting server...');
