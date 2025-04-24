@@ -474,8 +474,17 @@ tabulate es = do
       eToRows e = eExpToRow e <$> (eToExps e) -- [[exp, a] | exp <- eToExps e, let a = eToAncestor e, l=eToLineNum e, as = eToAncestry e]
       table = unlines $ stableUndup $ fmap (L.intercalate " : ") $ concat $ eToRows <$> esFlat
       tablePath = apteOutput </> "table.txt"
+      eToL e = (loc ((e ^. ancestry . _Just)!!0))
+      eToTag e = (head . words . showLoc . last) (e ^. ancestry . _Just)
+      eToExps_new e = (fmap e2s' . rights) (e ^.. bannerExp . _Just . traverse)
+      eExpToRow_new e exp = [exp, eToL e, eToTag e]
+      eToRows_new e = eExpToRow_new e <$> (eToExps_new e)
+      table_new = unlines $ stableUndup $ fmap (L.intercalate " : ") $ concat $ eToRows_new <$> esFlat
+      tablePath_new = apteOutput </> "table_new.txt"
   writeFile tablePath table
   putStrLn $ "Successfully stored the mapping at " ++ tablePath
+  writeFile tablePath_new table_new
+  putStrLn $ "Successfully stored new mapping at " ++ tablePath_new
 
 tabSimple :: [Term] -> FilePath -> IO ()
 tabSimple es k1ReverseMapPath = do
