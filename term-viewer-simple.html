@@ -121,14 +121,20 @@
         }
 
         .special-text {
-            color: #9c27b0;
+            color: #9c7c38; /* Teak wood color - matching Devanagari */
             font-style: italic;
         }
 
         .devanagari {
             font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
             font-size: 1.1em;
-            color: #9c27b0;
+            color: #9c7c38; /* Teak wood color - warm golden brown */
+            font-weight: 500; /* Slightly bolder for better readability */
+        }
+
+        /* Smaller font for Devanagari text within meaning elements */
+        .meaning .devanagari {
+            font-size: 0.95em;
         }
 
         .warning-symbol {
@@ -334,7 +340,7 @@
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <div style="display: flex; align-items: center;">
                         <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 250px; margin-right: 10px;">
-                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Lookup Word</button>
+                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
                     </div>
                 </div>
             </div>
@@ -355,11 +361,15 @@
         <div id="terms-container"></div>
 
         <!-- Scroll loading indicators -->
+        <div id="load-more-top-button" style="text-align: center; margin: 10px 0; display: none;">
+            <button id="load-more-top" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load More Above ▲</button>
+        </div>
+
         <div id="loading-top" class="scroll-loading-indicator">
-            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> Loading previous terms...
+            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> 
         </div>
         <div id="loading-bottom" class="scroll-loading-indicator">
-            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> Loading more terms...
+            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> 
         </div>
 
         <!-- Keyboard hint removed as requested -->
@@ -800,7 +810,8 @@
         }
 
         // Function to load a single term
-        async function loadSingleTerm(termId) {
+        // Make it globally accessible
+        window.loadSingleTerm = async function(termId) {
             try {
                 // Check if term is already loaded
                 if (loadedTermIds.has(termId)) {
@@ -853,7 +864,7 @@
             isLoadingBottom = false;
 
             // Debug mode constant (should match the one in handleScroll)
-            const DEBUG_MODE = false;
+            const DEBUG_MODE = true;
 
             // Clear any existing debug info
             const debugEl = document.getElementById('scroll-debug');
@@ -919,6 +930,100 @@
                 if (!window.hasScrollListener) {
                     window.addEventListener('scroll', handleScroll);
                     window.hasScrollListener = true;
+
+                    // Helper function to load more terms above when at the top
+                    function loadMoreTermsAbove() {
+                        // Log detailed information about the function call
+                        const rebounceLog = `REBOUNCE LOG - loadMoreTermsAbove() called:\n` +
+                            `  scrollY: ${window.scrollY}\n` +
+                            `  lowestLoadedId: ${lowestLoadedId}\n` +
+                            `  isLoadingTop: ${isLoadingTop}\n` +
+                            `  lastTopTermId: ${lastTopTermId}\n` +
+                            `  currentTermId: ${currentTermId}\n` +
+                            `  Will proceed with loading: ${lowestLoadedId > 1 && !isLoadingTop}`;
+
+                        // Log to console
+                        console.log(rebounceLog);
+
+                        // Create or update a visible log element on the page
+                        let visibleLog = document.getElementById('visible-log');
+                        if (!visibleLog) {
+                            visibleLog = document.createElement('div');
+                            visibleLog.id = 'visible-log';
+                            visibleLog.style.position = 'fixed';
+                            visibleLog.style.bottom = '10px';
+                            visibleLog.style.left = '10px';
+                            visibleLog.style.width = '80%';
+                            visibleLog.style.maxHeight = '200px';
+                            visibleLog.style.overflow = 'auto';
+                            visibleLog.style.backgroundColor = 'rgba(0,0,0,0.8)';
+                            visibleLog.style.color = 'white';
+                            visibleLog.style.padding = '10px';
+                            visibleLog.style.borderRadius = '5px';
+                            visibleLog.style.zIndex = '9999';
+                            visibleLog.style.fontSize = '12px';
+                            visibleLog.style.fontFamily = 'monospace';
+                            document.body.appendChild(visibleLog);
+                        }
+
+                        // Add the log to the visible log element
+                        visibleLog.innerHTML = rebounceLog.replace(/\n/g, '<br>');
+
+                        // Don't clear the log automatically for this function
+
+                        if (lowestLoadedId <= 1 || isLoadingTop) {
+                            const errorMsg = 'Cannot load more terms above: ' +
+                                (lowestLoadedId <= 1 ? 'already at first term' : 'already loading');
+                            console.log(errorMsg);
+
+                            // Update the visible log with the error
+                            if (visibleLog) {
+                                visibleLog.innerHTML += '<br><br><strong style="color:red">' + errorMsg + '</strong>';
+
+                                // Clear after error
+                                setTimeout(() => {
+                                    if (visibleLog) {
+                                        visibleLog.innerHTML = '';
+                                    }
+                                }, 5000);
+                            }
+
+                            return;
+                        }
+
+                        console.log('Loading more terms above from top boundary');
+
+                        // Trigger loading of previous terms
+                        const prevTermId = lowestLoadedId - 1;
+                        const batchStartId = Math.max(1, prevTermId - BATCH_SIZE + 1);
+
+                        // Show loading indicator
+                        document.getElementById('loading-top').style.display = 'block';
+                        isLoadingTop = true;
+
+                        // Reset lastTopTermId to allow loading
+                        lastTopTermId = null;
+
+                        console.log(`Loading more terms above: ${batchStartId} to ${prevTermId}`);
+
+                        // Load each term in the batch
+                        const loadPromises = [];
+                        for (let id = prevTermId; id >= batchStartId; id--) {
+                            loadPromises.push(loadMoreTerms(id, 'above'));
+                        }
+
+                        // Hide loading indicator when all terms are loaded
+                        Promise.all(loadPromises).finally(() => {
+                            setTimeout(() => {
+                                document.getElementById('loading-top').style.display = 'none';
+                                isLoadingTop = false;
+                            }, 300);
+                        });
+                    }
+
+                    // Local wheel event listener removed - using global wheel event listener instead
+
+                    // Local keyboard event listener removed - using global keyboard event listener instead
                 }
 
                 isLoading = false;
@@ -1239,15 +1344,21 @@
 
         // Event listener for the lookup Devanagari word button
         document.getElementById('lookup-devanagari').addEventListener('click', function() {
-            const word = document.getElementById('devanagari-input').value.trim();
+            const inputField = document.getElementById('devanagari-input');
+            const word = inputField.value.trim();
             lookupDevanagariWord(word);
+            // Defocus the input field to allow normal scrolling with arrow keys
+            inputField.blur();
         });
 
         // Handle Enter key in the Devanagari input field
         document.getElementById('devanagari-input').addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
                 event.preventDefault();
+                // Click the lookup button
                 document.getElementById('lookup-devanagari').click();
+                // Defocus (blur) the input field to allow normal scrolling with arrow keys
+                this.blur();
             }
         });
 
@@ -1263,9 +1374,9 @@
         let isLoadingBottom = false; // Flag to track loading state for bottom indicator
 
         function handleScroll() {
-            // Debug element code is kept but disabled
-            // To re-enable, set DEBUG_MODE to true
-            const DEBUG_MODE = false;
+            // Debug element code is now enabled
+            // Set to false to disable
+            const DEBUG_MODE = true;
 
             let debugEl = document.getElementById('scroll-debug');
             if (DEBUG_MODE) {
@@ -1313,6 +1424,11 @@
             // Find the highest and lowest loaded term IDs
             const lowestLoadedId = loadedIds.length > 0 ? loadedIds[0] : currentTermId;
             const highestLoadedId = loadedIds.length > 0 ? loadedIds[loadedIds.length - 1] : currentTermId;
+
+            // Update global state
+            window.termViewerState.lowestLoadedId = lowestLoadedId;
+            window.termViewerState.isLoadingTop = isLoadingTop;
+            console.log(`Updated global state: lowestLoadedId=${window.termViewerState.lowestLoadedId}, isLoadingTop=${window.termViewerState.isLoadingTop}`);
 
             // Update debug display if debug mode is enabled
             if (DEBUG_MODE && debugEl) {
@@ -1396,6 +1512,11 @@
 
                 // Near the top of the page - load more terms above
                 if (nearTop && lowestLoadedId > 1) {
+                    // If we're at the absolute top (scrollY === 0), make sure we can load more terms
+                    if (window.scrollY === 0) {
+                        console.log('At absolute top of page, forcing reset of lastTopTermId');
+                        lastTopTermId = null;
+                    }
                     const prevTermId = lowestLoadedId - 1;
 
                     // Check if the previous term is actually in the DOM
@@ -1414,18 +1535,38 @@
                             console.log(`Term ${prevTermId} was in loadedTermIds but not in DOM, removed from tracking`);
                         }
 
+                        // Check if the terms immediately before the lowest loaded term are already in the DOM
+                        let adjustedPrevTermId = prevTermId;
+
+                        // If the previous terms are already loaded, go back further
+                        while (adjustedPrevTermId > 1 && document.querySelector(`.term-container[data-term-id="${adjustedPrevTermId}"]`)) {
+                            adjustedPrevTermId--;
+                        }
+
                         // Load a batch of terms instead of just one
-                        const batchStartId = Math.max(1, prevTermId - BATCH_SIZE + 1);
+                        const batchStartId = Math.max(1, adjustedPrevTermId - BATCH_SIZE + 1);
+
+                        // Log what we're doing
+                        if (adjustedPrevTermId !== prevTermId) {
+                            console.log(`Adjusted loading range: ${batchStartId} to ${adjustedPrevTermId} (original: ${Math.max(1, prevTermId - BATCH_SIZE + 1)} to ${prevTermId})`);
+                            prevTermId = adjustedPrevTermId;
+                        }
                         console.log(`Loading more terms above: ${batchStartId} to ${prevTermId}`);
                         if (DEBUG_MODE && debugEl) {
                             debugEl.innerHTML += `<br><strong>Loading above: ${batchStartId} to ${prevTermId}</strong>`;
                         }
                         lastTopTermId = prevTermId;
+                        window.termViewerState.lastTopTermId = lastTopTermId;
 
-                        // Load each term in the batch
+                        // Load each term in the batch, but only if it's not already in the DOM
                         const loadPromises = [];
                         for (let id = prevTermId; id >= batchStartId; id--) {
-                            loadPromises.push(loadMoreTerms(id, 'above'));
+                            // Skip terms that are already in the DOM
+                            if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
+                                loadPromises.push(loadMoreTerms(id, 'above'));
+                            } else {
+                                console.log(`Term ${id} is already in the DOM, skipping`);
+                            }
                         }
 
                         // Hide loading indicator when all terms are loaded
@@ -1434,6 +1575,7 @@
                                 document.getElementById('loading-top').style.display = 'none';
                                 isLoadingTop = false;
                                 lastTopTermId = null; // Reset to allow loading more if needed
+                                window.termViewerState.lastTopTermId = null;
                             }, 300); // Short delay to ensure user sees the indicator
                         });
                     } else {
@@ -1446,6 +1588,7 @@
                         if (lastTopTermId !== null) {
                             setTimeout(() => {
                                 lastTopTermId = null;
+                                window.termViewerState.lastTopTermId = null;
                                 console.log('Reset lastTopTermId to allow loading more terms');
                             }, 2000); // Wait 2 seconds before allowing another attempt
                         }
@@ -1460,15 +1603,39 @@
                 // Add a recovery mechanism for when scrolling gets stuck
                 // If we're near the top or bottom but couldn't load more terms, check if we have enough terms in the DOM
                 const visibleTerms = document.querySelectorAll('.term-container').length;
-                if ((nearTop || nearBottom) && visibleTerms < WINDOW_SIZE) {
+                // Check if we have fewer terms than expected OR if we're at the edge of the loaded terms
+                if ((nearTop || nearBottom) && (visibleTerms < WINDOW_SIZE ||
+                    (nearBottom && highestLoadedId === currentTermId + WINDOW_AFTER - 1) ||
+                    (nearTop && lowestLoadedId === Math.max(1, currentTermId - WINDOW_BEFORE + 1)))) {
                     console.log(`Possible stuck state detected: only ${visibleTerms} terms visible. Attempting recovery...`);
                     if (DEBUG_MODE && debugEl) {
                         debugEl.innerHTML += `<br><strong>Recovery: Only ${visibleTerms} terms visible, forcing reload</strong>`;
                     }
 
+                    // Show a temporary recovery message to the user
+                    const recoveryMessage = document.createElement('div');
+                    recoveryMessage.style.position = 'fixed';
+                    recoveryMessage.style.top = '50%';
+                    recoveryMessage.style.left = '50%';
+                    recoveryMessage.style.transform = 'translate(-50%, -50%)';
+                    recoveryMessage.style.backgroundColor = 'rgba(0,0,0,0.7)';
+                    recoveryMessage.style.color = 'white';
+                    recoveryMessage.style.padding = '20px';
+                    recoveryMessage.style.borderRadius = '5px';
+                    recoveryMessage.style.zIndex = '2000';
+                    recoveryMessage.style.fontSize = '16px';
+                    recoveryMessage.textContent = 'Recovering from scroll issue...';
+                    document.body.appendChild(recoveryMessage);
+
+                    // Remove the message after the recovery is complete
+                    setTimeout(() => {
+                        document.body.removeChild(recoveryMessage);
+                    }, 2000);
+
                     // Force reset tracking variables
                     lastTopTermId = null;
                     lastBottomTermId = null;
+                    window.termViewerState.lastTopTermId = null;
 
                     // Force reload around current term
                     const recoveryStart = Math.max(1, currentTermId - WINDOW_BEFORE);
@@ -1483,15 +1650,37 @@
                     }
 
                     // Force reload the current window of terms
-                    setTimeout(() => {
+                    setTimeout(async () => {
+                        // First, try to load any missing terms
+                        const loadPromises = [];
+                        for (let id = recoveryStart; id <= recoveryEnd; id++) {
+                            if (!loadedTermIds.has(id)) {
+                                loadPromises.push(loadSingleTerm(id));
+                            }
+                        }
+
+                        if (loadPromises.length > 0) {
+                            console.log(`Recovery: Loading ${loadPromises.length} missing terms`);
+                            await Promise.all(loadPromises);
+                        }
+
+                        // Then render all terms in the range
                         renderTermsInRange(recoveryStart, recoveryEnd);
+
+                        // Reset loading flags
+                        isLoadingTop = false;
+                        isLoadingBottom = false;
+                        window.termViewerState.isLoadingTop = false;
+                        document.getElementById('loading-top').style.display = 'none';
+                        document.getElementById('loading-bottom').style.display = 'none';
                     }, 500);
                 }
             }, SCROLL_TIMEOUT);
         }
 
         // Function to load more terms in a specific direction
-        async function loadMoreTerms(termId, direction) {
+        // Make it globally accessible
+        window.loadMoreTerms = async function(termId, direction) {
             if (isLoading || !termId || termId < 1) return Promise.resolve();
 
             // Check if this term is already loaded
@@ -1553,8 +1742,15 @@
 
                             // Adjust scroll position to maintain the same view
                             if (heightDifference > 0) {
-                                window.scrollTo(0, oldScrollY + heightDifference);
-                                console.log(`Adjusted scroll position by ${heightDifference}px (from ${oldScrollY} to ${oldScrollY + heightDifference})`);
+                                // Special case: if we were at the top (scrollY === 0), don't adjust scroll position
+                                // This allows the user to see the newly loaded content at the top
+                                if (oldScrollY === 0) {
+                                    console.log('At top of page, not adjusting scroll position to show new content');
+                                } else {
+                                    // Otherwise, maintain the same view by adjusting scroll position
+                                    window.scrollTo(0, oldScrollY + heightDifference);
+                                    console.log(`Adjusted scroll position by ${heightDifference}px (from ${oldScrollY} to ${oldScrollY + heightDifference})`);
+                                }
                             }
                         }, 0);
                     } else {
@@ -1578,16 +1774,16 @@
         // Function to trim excess terms to maintain the window size
         function trimExcessTerms() {
             const termContainers = document.querySelectorAll('.term-container');
-            if (termContainers.length <= WINDOW_SIZE * 4) return; // Keep a larger buffer (4x instead of 2x)
+            if (termContainers.length <= WINDOW_SIZE * 6) return; // Keep an even larger buffer (6x instead of 4x)
 
             // Get the current term element
             const currentTermElement = document.querySelector(`.term-container[data-term-id="${currentTermId}"]`);
             if (!currentTermElement) return;
 
-            // Calculate which terms to keep
+            // Calculate which terms to keep - use a wider range than the normal window
             const termIds = Array.from(termContainers).map(container => parseInt(container.dataset.termId, 10));
-            const minKeepId = Math.max(1, currentTermId - WINDOW_BEFORE);
-            const maxKeepId = currentTermId + WINDOW_AFTER;
+            const minKeepId = Math.max(1, currentTermId - WINDOW_BEFORE * 2); // Double the keep range
+            const maxKeepId = currentTermId + WINDOW_AFTER * 2; // Double the keep range
 
             // Remove terms that are too far from the current term
             for (const container of termContainers) {
@@ -1657,6 +1853,158 @@
                 }
             }
         }
+
+        // Make lowestLoadedId and lastTopTermId globally accessible
+        window.termViewerState = {
+            lowestLoadedId: null,
+            lastTopTermId: null,
+            isLoadingTop: false
+        };
+
+        // Global wheel event listener for top scrolling
+        window.addEventListener('wheel', function(event) {
+            // Only handle when we're at the top and trying to scroll up
+            if (window.scrollY === 0 && event.deltaY < 0) {
+                console.log('Global wheel event: Detected attempt to scroll up at the top boundary');
+                console.log(`Global state check: lowestLoadedId=${window.termViewerState.lowestLoadedId}, isLoadingTop=${window.termViewerState.isLoadingTop}`);
+
+                // Check if we're in a term view context
+                if (window.termViewerState.lowestLoadedId && window.termViewerState.lowestLoadedId > 1 && !window.termViewerState.isLoadingTop) {
+                    console.log('Global wheel event: In term view context, forcing load of more terms above');
+
+                    // Force reset lastTopTermId to allow loading
+                    window.termViewerState.lastTopTermId = null;
+
+                    // Force loading of previous terms
+                    // Check if the terms immediately before the lowest loaded term are already in the DOM
+                    const lowestLoadedId = window.termViewerState.lowestLoadedId;
+                    let prevTermId = lowestLoadedId - 1;
+
+                    // If the previous terms are already loaded, go back further
+                    while (prevTermId > 1 && document.querySelector(`.term-container[data-term-id="${prevTermId}"]`)) {
+                        prevTermId--;
+                    }
+
+                    // Calculate batch start, ensuring we don't go below 1
+                    const batchStartId = Math.max(1, prevTermId - 7 + 1); // Use BATCH_SIZE (7)
+
+                    // Log what we're doing
+                    console.log(`Adjusted loading range: ${batchStartId} to ${prevTermId} (original lowest: ${lowestLoadedId})`);
+
+                    console.log(`Global wheel event: Loading more terms above: ${batchStartId} to ${prevTermId}`);
+
+                    // Show loading indicator
+                    document.getElementById('loading-top').style.display = 'block';
+                    window.termViewerState.isLoadingTop = true;
+
+                    // Check if loadMoreTerms is available
+                    console.log(`loadMoreTerms function check: ${typeof window.loadMoreTerms === 'function' ? 'Available' : 'Not available'}`);
+
+                    // Load each term in the batch, but only if it's not already in the DOM
+                    const loadPromises = [];
+                    for (let id = prevTermId; id >= batchStartId; id--) {
+                        // Skip terms that are already in the DOM
+                        if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
+                            if (typeof window.loadMoreTerms === 'function') {
+                                loadPromises.push(window.loadMoreTerms(id, 'above'));
+                            } else {
+                                console.error(`Cannot load term ${id}: loadMoreTerms function not available`);
+                            }
+                        } else {
+                            console.log(`Term ${id} is already in the DOM, skipping`);
+                        }
+                    }
+
+                    // Hide loading indicator when all terms are loaded
+                    if (loadPromises.length > 0) {
+                        Promise.all(loadPromises).finally(() => {
+                            setTimeout(() => {
+                                document.getElementById('loading-top').style.display = 'none';
+                                window.termViewerState.isLoadingTop = false;
+                            }, 300);
+                        });
+                    } else {
+                        // If no terms were loaded, hide the indicator
+                        setTimeout(() => {
+                            document.getElementById('loading-top').style.display = 'none';
+                            window.termViewerState.isLoadingTop = false;
+                        }, 300);
+                    }
+                }
+            }
+        });
+
+        // Global keyboard event listener for arrow keys
+        window.addEventListener('keydown', function(event) {
+            // Only handle up arrow key when at the top
+            if (window.scrollY === 0 && (event.key === 'ArrowUp' || event.key === 'Up')) {
+                console.log('Global keyboard event: Detected up arrow key at the top boundary');
+
+                // Check if we're in a term view context
+                if (window.termViewerState.lowestLoadedId && window.termViewerState.lowestLoadedId > 1 && !window.termViewerState.isLoadingTop) {
+                    console.log('Global keyboard event: In term view context, forcing load of more terms above');
+
+                    // Force reset lastTopTermId to allow loading
+                    window.termViewerState.lastTopTermId = null;
+
+                    // Force loading of previous terms
+                    // Check if the terms immediately before the lowest loaded term are already in the DOM
+                    const lowestLoadedId = window.termViewerState.lowestLoadedId;
+                    let prevTermId = lowestLoadedId - 1;
+
+                    // If the previous terms are already loaded, go back further
+                    while (prevTermId > 1 && document.querySelector(`.term-container[data-term-id="${prevTermId}"]`)) {
+                        prevTermId--;
+                    }
+
+                    // Calculate batch start, ensuring we don't go below 1
+                    const batchStartId = Math.max(1, prevTermId - 7 + 1); // Use BATCH_SIZE (7)
+
+                    // Log what we're doing
+                    console.log(`Adjusted loading range: ${batchStartId} to ${prevTermId} (original lowest: ${lowestLoadedId})`);
+
+                    console.log(`Global keyboard event: Loading more terms above: ${batchStartId} to ${prevTermId}`);
+
+                    // Show loading indicator
+                    document.getElementById('loading-top').style.display = 'block';
+                    window.termViewerState.isLoadingTop = true;
+
+                    // Check if loadMoreTerms is available
+                    console.log(`loadMoreTerms function check: ${typeof window.loadMoreTerms === 'function' ? 'Available' : 'Not available'}`);
+
+                    // Load each term in the batch, but only if it's not already in the DOM
+                    const loadPromises = [];
+                    for (let id = prevTermId; id >= batchStartId; id--) {
+                        // Skip terms that are already in the DOM
+                        if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
+                            if (typeof window.loadMoreTerms === 'function') {
+                                loadPromises.push(window.loadMoreTerms(id, 'above'));
+                            } else {
+                                console.error(`Cannot load term ${id}: loadMoreTerms function not available`);
+                            }
+                        } else {
+                            console.log(`Term ${id} is already in the DOM, skipping`);
+                        }
+                    }
+
+                    // Hide loading indicator when all terms are loaded
+                    if (loadPromises.length > 0) {
+                        Promise.all(loadPromises).finally(() => {
+                            setTimeout(() => {
+                                document.getElementById('loading-top').style.display = 'none';
+                                window.termViewerState.isLoadingTop = false;
+                            }, 300);
+                        });
+                    } else {
+                        // If no terms were loaded, hide the indicator
+                        setTimeout(() => {
+                            document.getElementById('loading-top').style.display = 'none';
+                            window.termViewerState.isLoadingTop = false;
+                        }, 300);
+                    }
+                }
+            }
+        });
 
         // Load data only if path parameter is provided in URL
         document.addEventListener('DOMContentLoaded', function() {
