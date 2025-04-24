@@ -376,8 +376,8 @@
             <div id="file-selector" style="text-align: center;">
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <div style="display: flex; align-items: center;">
-                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 250px; margin-right: 10px;">
-                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
+                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari or SLP1 Word (e.g., अंकः or aMkaH)" style="padding: 8px; width: 300px; margin-right: 10px;">
+                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Look Up</button>
                     </div>
                 </div>
             </div>
@@ -1346,14 +1346,66 @@
 
         // No default path button anymore
 
-        // Function to lookup a Devanagari word in table2.txt
+        // Devanagari dependent vowel marks to independent vowels mapping
+        const VOWEL_MARKS_TO_VOWELS = {
+            '\u093e': '\u0906', // ा -> आ
+            '\u093f': '\u0907', // ि -> इ
+            '\u0940': '\u0908', // ी -> ई
+            '\u0941': '\u0909', // ु -> उ
+            '\u0942': '\u090a', // ू -> ऊ
+            '\u0943': '\u090b', // ृ -> ऋ
+            '\u0944': '\u0960', // ॄ -> ॠ
+            '\u0962': '\u090c', // ॢ -> ऌ
+            '\u0963': '\u0961', // ॣ -> ॡ
+            '\u0945': '\u090f', // ॅ -> ए
+            '\u0947': '\u090f', // े -> ए
+            '\u0948': '\u0910', // ै -> ऐ
+            '\u0949': '\u0913', // ॉ -> ओ
+            '\u094b': '\u0913', // ो -> ओ
+            '\u094c': '\u0914'  // ौ -> औ
+        };
+
+        // Function to convert Devanagari to intermediate form
+        function devanagariToIntermediate(text) {
+            // Result buffer
+            let result = '';
+
+            // Process each character
+            for (let i = 0; i < text.length; i++) {
+                const char = text[i];
+
+                // Check if it's a dependent vowel mark
+                if (VOWEL_MARKS_TO_VOWELS[char]) {
+                    // Convert to independent vowel
+                    result += VOWEL_MARKS_TO_VOWELS[char];
+                }
+                // Check if it's a virama (्)
+                else if (char === '\u094d') {
+                    // Skip the virama - we don't include it in the intermediate form
+                    continue;
+                }
+                // For all other characters, just add them as is
+                else {
+                    result += char;
+                }
+            }
+
+            return result;
+        }
+
+        // Function to check if text contains SLP1 characters
+        function containsSLP1(text) {
+            return /[AIUFXEOMNHSZR]|[kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzshL]/.test(text);
+        }
+
+        // Function to lookup a word in table_new.txt
         // Returns a Promise that resolves when the lookup is complete
         async function lookupDevanagariWord(word) {
             return new Promise(async (resolve, reject) => {
                 if (isLoading) return resolve();
 
                 if (!word) {
-                    alert('Please enter a Devanagari word');
+                    alert('Please enter a word');
                     return resolve();
                 }
 
@@ -1381,25 +1433,112 @@
                 }, 5000); // 5 second timeout
 
                 try {
-                    // Fetch table2.txt
-                    const response = await fetch('/table2.txt');
+                    // Fetch table_new.txt
+                    const response = await fetch('/table_new.txt');
                     if (!response.ok) {
                         clearTimeout(safetyTimeout);
-                        throw new Error(`Failed to load table2.txt: ${response.status} ${response.statusText}`);
+                        throw new Error(`Failed to load table_new.txt: ${response.status} ${response.statusText}`);
                     }
 
                     const text = await response.text();
                     const lines = text.split('\n');
 
-                    // Search for the word
+                    // Determine if the input is SLP1 or Devanagari
+                    const isSLP1 = containsSLP1(word);
+
+                    // Convert to intermediate form if needed
+                    let lookupKey = word.trim();
+                    let intermediateForm = lookupKey;
+
+                    if (isSLP1) {
+                        // If it's SLP1, convert to Devanagari intermediate form using Sanscript
+                        try {
+                            intermediateForm = '';
+                            for (let i = 0; i < lookupKey.length; i++) {
+                                const char = lookupKey[i];
+                                // Map SLP1 characters to Devanagari
+                                if (char === 'a') intermediateForm += 'अ';
+                                else if (char === 'A') intermediateForm += 'आ';
+                                else if (char === 'i') intermediateForm += 'इ';
+                                else if (char === 'I') intermediateForm += 'ई';
+                                else if (char === 'u') intermediateForm += 'उ';
+                                else if (char === 'U') intermediateForm += 'ऊ';
+                                else if (char === 'f') intermediateForm += 'ऋ';
+                                else if (char === 'F') intermediateForm += 'ॠ';
+                                else if (char === 'x') intermediateForm += 'ऌ';
+                                else if (char === 'X') intermediateForm += 'ॡ';
+                                else if (char === 'e') intermediateForm += 'ए';
+                                else if (char === 'E') intermediateForm += 'ऐ';
+                                else if (char === 'o') intermediateForm += 'ओ';
+                                else if (char === 'O') intermediateForm += 'औ';
+                                else if (char === 'M') intermediateForm += 'ं';
+                                else if (char === 'H') intermediateForm += 'ः';
+                                else if (char === '~') intermediateForm += 'ँ';
+                                else if (char === 'k') intermediateForm += 'क';
+                                else if (char === 'K') intermediateForm += 'ख';
+                                else if (char === 'g') intermediateForm += 'ग';
+                                else if (char === 'G') intermediateForm += 'घ';
+                                else if (char === 'N') intermediateForm += 'ङ';
+                                else if (char === 'c') intermediateForm += 'च';
+                                else if (char === 'C') intermediateForm += 'छ';
+                                else if (char === 'j') intermediateForm += 'ज';
+                                else if (char === 'J') intermediateForm += 'झ';
+                                else if (char === 'Y') intermediateForm += 'ञ';
+                                else if (char === 'w') intermediateForm += 'ट';
+                                else if (char === 'W') intermediateForm += 'ठ';
+                                else if (char === 'q') intermediateForm += 'ड';
+                                else if (char === 'Q') intermediateForm += 'ढ';
+                                else if (char === 'R') intermediateForm += 'ण';
+                                else if (char === 't') intermediateForm += 'त';
+                                else if (char === 'T') intermediateForm += 'थ';
+                                else if (char === 'd') intermediateForm += 'द';
+                                else if (char === 'D') intermediateForm += 'ध';
+                                else if (char === 'n') intermediateForm += 'न';
+                                else if (char === 'p') intermediateForm += 'प';
+                                else if (char === 'P') intermediateForm += 'फ';
+                                else if (char === 'b') intermediateForm += 'ब';
+                                else if (char === 'B') intermediateForm += 'भ';
+                                else if (char === 'm') intermediateForm += 'म';
+                                else if (char === 'y') intermediateForm += 'य';
+                                else if (char === 'r') intermediateForm += 'र';
+                                else if (char === 'l') intermediateForm += 'ल';
+                                else if (char === 'v') intermediateForm += 'व';
+                                else if (char === 'S') intermediateForm += 'श';
+                                else if (char === 'z') intermediateForm += 'ष';
+                                else if (char === 's') intermediateForm += 'स';
+                                else if (char === 'h') intermediateForm += 'ह';
+                                else if (char === 'L') intermediateForm += 'ळ';
+                                else intermediateForm += char; // Pass through other characters
+                            }
+                            console.log(`Converted SLP1 "${lookupKey}" to intermediate form: "${intermediateForm}"`);
+                        } catch (e) {
+                            console.error('Error converting SLP1 to intermediate form:', e);
+                            // Fall back to the original word
+                            intermediateForm = lookupKey;
+                        }
+                    } else {
+                        // If it's Devanagari, convert to intermediate form
+                        intermediateForm = devanagariToIntermediate(lookupKey);
+                        console.log(`Converted Devanagari "${lookupKey}" to intermediate form: "${intermediateForm}"`);
+                    }
+
+                    // Use the intermediate form for lookup
+                    lookupKey = intermediateForm;
+
+                    // Search for the word in table_new.txt
                     let termId = null;
+                    let intermediateFormFound = false;
+
                     for (const line of lines) {
-                        const parts = line.split(' : ');
-                        if (parts.length >= 2 && parts[0].trim() === word.trim()) {
-                            // Found a match, extract the L_ number
-                            const match = parts[1].match(/L_\s*(\d+)/);
-                            if (match && match[1]) {
-                                termId = parseInt(match[1], 10);
+                        if (!line.trim()) continue;
+
+                        const parts = line.split(':').map(part => part.trim());
+                        if (parts.length >= 2 && parts[0] === lookupKey) {
+                            // Found a match, extract the term ID (second field)
+                            const id = parseInt(parts[1], 10);
+                            if (!isNaN(id)) {
+                                termId = id;
+                                intermediateFormFound = true;
                                 break;
                             }
                         }
@@ -1419,16 +1558,43 @@
                         newUrl.searchParams.set('word', word.trim());
                         window.history.pushState({word: word.trim(), termId: termId}, '', newUrl.toString());
 
+                        // Store the intermediate form for display
+                        window.lastIntermediateForm = intermediateForm;
+
                         // Navigate to the term
                         navigateToTerm(termId).finally(() => {
+                            // Display the intermediate form if available
+                            if (window.lastIntermediateForm && intermediateFormFound) {
+                                const infoDiv = document.createElement('div');
+                                infoDiv.id = 'intermediate-form-info';
+                                infoDiv.style.textAlign = 'center';
+                                infoDiv.style.margin = '10px 0';
+                                infoDiv.style.padding = '5px';
+                                infoDiv.style.fontSize = '14px';
+                                infoDiv.style.color = '#666';
+                                infoDiv.innerHTML = `Intermediate form: <span style="font-family: 'Noto Sans Devanagari', sans-serif; color: #9c7c38;">${window.lastIntermediateForm}</span>`;
+
+                                // Insert after the loading div
+                                const loadingDiv = document.getElementById('loading');
+                                if (loadingDiv && loadingDiv.parentNode) {
+                                    loadingDiv.parentNode.insertBefore(infoDiv, loadingDiv.nextSibling);
+                                }
+                            }
                             resolve();
                         });
                     } else {
                         // Word not found
                         clearTimeout(safetyTimeout);
                         document.getElementById('loading').style.display = 'none';
+
+                        // Show error with intermediate form if available
+                        let errorMessage = `Word "${word}" not found in dictionary.`;
+                        if (intermediateForm !== word) {
+                            errorMessage += ` Intermediate form: <span style="font-family: 'Noto Sans Devanagari', sans-serif; color: #9c7c38;">${intermediateForm}</span>`;
+                        }
+
                         document.getElementById('error').style.display = 'block';
-                        document.getElementById('error').textContent = `Word "${word}" not found in dictionary.`;
+                        document.getElementById('error').innerHTML = errorMessage;
                         document.getElementById('keyboard-hint-top').style.display = 'none';
                         document.getElementById('keyboard-hint-bottom').style.display = 'none';
                         resolve();

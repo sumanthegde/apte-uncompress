@@ -157,7 +157,13 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // Special case for table2.txt
+  // Special case for table_new.txt
+  if (req.url === '/table_new.txt') {
+    console.log(`Serving table_new.txt from: ${path.join(__dirname, 'apteDir.nosync/output/table_new.txt')}`);
+    filePath = path.join(__dirname, 'apteDir.nosync/output/table_new.txt');
+  }
+
+  // Special case for table2.txt (for backward compatibility)
   if (req.url === '/table2.txt') {
     console.log(`Serving table2.txt from: ${path.join(__dirname, 'apteDir.nosync/output/table2.txt')}`);
     filePath = path.join(__dirname, 'apteDir.nosync/output/table2.txt');
