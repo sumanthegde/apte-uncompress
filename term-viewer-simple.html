@@ -377,7 +377,7 @@
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <div style="display: flex; align-items: center;">
                         <input type="text" id="devanagari-input" placeholder="Enter Devanagari or SLP1 Word (e.g., अंकः or aMkaH)" style="padding: 8px; width: 300px; margin-right: 10px;">
-                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Look Up</button>
+                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
                     </div>
                 </div>
             </div>
@@ -573,7 +573,7 @@
                 });
 
                 return {
-                    text: convertedValues.join(', '),
+                    text: convertedValues.sort().join(', '),
                     tooltip: term._banner ? `${processPlainText(term._banner)}` : '',
                     isExpanded: true,
                     matchesSearch: matchesSearch
