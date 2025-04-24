@@ -23,9 +23,10 @@
             position: fixed;
             left: 50%;
             transform: translateX(-50%);
-            width: 200px;
+            width: auto; /* Auto width to fit content */
+            min-width: 40px; /* Minimum width */
             text-align: center;
-            padding: 8px;
+            padding: 6px 10px; /* Reduced padding */
             background-color: rgba(255, 255, 255, 0.95);
             border: 1px solid #4CAF50;
             font-size: 14px;
@@ -78,7 +79,7 @@
             font-weight: bold;
             margin-right: 10px;
             position: relative;
-            cursor: help;
+            cursor: default; /* Use default cursor instead of help */
         }
 
         /* Tooltip for banner */
@@ -114,6 +115,13 @@
         .meaning {
             display: inline;
             margin-right: 10px;
+            cursor: default; /* Use default cursor instead of pointer */
+        }
+
+        /* Add hover effect for banner and meaning */
+        .banner:hover, .meaning:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Mild highlight on hover */
+            border-radius: 2px;
         }
 
         .meaning-number {
@@ -144,14 +152,29 @@
 
         .loading {
             text-align: center;
-            padding: 20px;
-            font-size: 1.2em;
+            padding: 10px;
+            font-size: 1.1em;
+            width: auto;
+            max-width: 300px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid #4CAF50;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
         .error {
-            color: red;
+            color: #d32f2f;
             text-align: center;
-            padding: 20px;
+            padding: 10px;
+            font-size: 1.1em;
+            width: auto;
+            max-width: 300px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid #d32f2f;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
         /* Nested term sections */
@@ -162,7 +185,12 @@
             border: 1px solid transparent;
             padding: 1px 2px;
             margin: 0 1px;
-            cursor: pointer;
+            cursor: default; /* Use default cursor instead of pointer */
+        }
+
+        /* Add hover effect for nested terms */
+        .nested-term:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Mild highlight on hover */
         }
 
         /* Left border only for nested terms */
@@ -311,7 +339,7 @@
 
         /* Specific highlighting for nested elements that match the search */
         .nested-term.search-match {
-            background-color: rgba(254, 243, 199, 0.4); /* Very light yellow background */
+            background-color: rgba(252, 241, 184, 0.657); /* Very light yellow background */
             padding: 2px 4px;
             margin: 0 2px;
             border-radius: 2px;
@@ -335,8 +363,9 @@
 </head>
 <body>
     <div class="container">
-        <div id="header" style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 100;">
-            <div id="file-selector" style="text-align: center; padding: 15px;">
+        <!-- Header with search functionality - fixed at top -->
+        <div id="header" style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; z-index: 100;">
+            <div id="file-selector" style="text-align: center;">
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <div style="display: flex; align-items: center;">
                         <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 250px; margin-right: 10px;">
@@ -344,7 +373,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Pagination removed as requested -->
+            <!-- Hidden pagination controls -->
             <div style="display: none;">
                 <span id="pagination-info">Page 1</span>
                 <button id="prev-page" disabled>Previous</button>
@@ -353,26 +382,44 @@
         </div>
 
         <!-- Spacer to push content below the fixed header -->
-        <div id="header-spacer" style="height: 80px;"></div>
+        <div id="header-spacer"></div>
 
-        <div id="loading" class="loading">Loading term data... Please wait.</div>
-        <div id="error" class="error" style="display: none;"></div>
+        <!-- Main content area -->
+        <div id="content-area">
+            <!-- Loading indicator -->
+            <div id="loading" class="loading">
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
+                <span>Loading dictionary...</span>
+            </div>
 
-        <div id="terms-container"></div>
+            <!-- Error message -->
+            <div id="error" class="error" style="display: none;"></div>
 
-        <!-- Scroll loading indicators -->
-        <div id="load-more-top-button" style="text-align: center; margin: 10px 0; display: none;">
-            <button id="load-more-top" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load More Above ▲</button>
+            <!-- Keyboard navigation hint for top of page -->
+            <div id="keyboard-hint-top" style="text-align: center; margin: 5px 0; font-size: 12px; color: #777; display: none;">
+                Hit the ↑ key to see previous entries
+            </div>
+
+            <!-- Terms container -->
+            <div id="terms-container"></div>
+
+            <!-- Scroll loading indicators -->
+            <div id="load-more-top-button" style="text-align: center; margin: 10px 0; display: none;">
+                <button id="load-more-top" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load More Above ▲</button>
+            </div>
+
+            <div id="loading-top" class="scroll-loading-indicator">
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px;">⟳</div>
+            </div>
+            <div id="loading-bottom" class="scroll-loading-indicator">
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px;">⟳</div>
+            </div>
+
+            <!-- Keyboard navigation hint for bottom of page -->
+            <div id="keyboard-hint-bottom" style="text-align: center; margin: 5px 0; font-size: 12px; color: #777; display: none;">
+                Hit the ↓ key to see more entries
+            </div>
         </div>
-
-        <div id="loading-top" class="scroll-loading-indicator">
-            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> 
-        </div>
-        <div id="loading-bottom" class="scroll-loading-indicator">
-            <div style="display: inline-block; margin-right: 10px; animation: spin 1s linear infinite;">⟳</div> 
-        </div>
-
-        <!-- Keyboard hint removed as requested -->
     </div>
 
     <script>
@@ -387,10 +434,10 @@
         let searchedWord = null; // Store the Devanagari word that was searched
         let isLoading = false; // Flag to prevent multiple simultaneous loads
 
-        // Infinite scroll configuration
-        const WINDOW_SIZE = 16; // Current term + 1 before + 14 after
-        const WINDOW_BEFORE = 1; // 1 term before
-        const WINDOW_AFTER = 14; // 14 terms after
+        // Infinite scroll configuration`
+        const WINDOW_SIZE = 16; // Current term + 15 after
+        const WINDOW_BEFORE = 0; // 0 terms before
+        const WINDOW_AFTER = 15; // 15 terms after
         let loadedTerms = {}; // Map of termId -> term data
         let loadedTermIds = new Set(); // Set of loaded term IDs
 
@@ -716,12 +763,14 @@
             if (currentTermId) {
                 document.getElementById('pagination-info').textContent = `Term ID: ${currentTermId}`;
                 // Show keyboard navigation hint
-                document.getElementById('keyboard-hint').style.display = 'block';
+                document.getElementById('keyboard-hint-top').style.display = 'block';
+                document.getElementById('keyboard-hint-bottom').style.display = 'block';
             } else {
                 document.getElementById('pagination-info').textContent =
                     `Page ${currentPage + 1} of ${Math.ceil(termsData.length / PAGE_SIZE)} (${startIndex + 1}-${endIndex} of ${termsData.length})`;
-                // Hide keyboard navigation hint
-                document.getElementById('keyboard-hint').style.display = 'none';
+                // Hide keyboard navigation hints
+                document.getElementById('keyboard-hint-top').style.display = 'none';
+                document.getElementById('keyboard-hint-bottom').style.display = 'none';
             }
 
             // Update button states
@@ -879,161 +928,154 @@
         }
 
         // Function to load a term and its context (n-10 to n+10)
+        // Returns a Promise that resolves when loading is complete
         async function loadTermWithContext(termId) {
-            try {
-                isLoading = true;
+            return new Promise(async (resolve, reject) => {
+                try {
+                    isLoading = true;
 
-                // Reset scroll states at the beginning of loading a new term
-                resetScrollStates();
+                    // Reset scroll states at the beginning of loading a new term
+                    resetScrollStates();
 
-                // First load pagemarks if not already loaded
-                if (Object.keys(pagemarks).length === 0) {
-                    await loadPagemarks();
-                }
-
-                // Set current term ID and requested term ID
-                currentTermId = termId;
-                requestedTermId = termId; // This is the term the user specifically requested
-
-                // Calculate the range of terms to load
-                const startTermId = Math.max(1, termId - WINDOW_BEFORE);
-                const endTermId = termId + WINDOW_AFTER;
-
-                // Show loading message
-                document.getElementById('error').style.display = 'none';
-                document.getElementById('loading').style.display = 'block';
-                document.getElementById('loading').textContent = `Loading terms ${startTermId} to ${endTermId}...`;
-
-                // Load all terms in the range
-                const loadPromises = [];
-                for (let id = startTermId; id <= endTermId; id++) {
-                    loadPromises.push(loadSingleTerm(id));
-                }
-
-                await Promise.all(loadPromises);
-
-                // Hide loading message
-                document.getElementById('loading').style.display = 'none';
-
-                // Render the terms
-                renderTermsInRange(startTermId, endTermId);
-
-                // Update pagination info
-                document.getElementById('pagination-info').textContent = `Term ID: ${currentTermId}`;
-
-                // Keyboard navigation hint has been removed
-
-                // Update button states
-                updateButtonStates();
-
-                // Add scroll event listener if not already added
-                if (!window.hasScrollListener) {
-                    window.addEventListener('scroll', handleScroll);
-                    window.hasScrollListener = true;
-
-                    // Helper function to load more terms above when at the top
-                    function loadMoreTermsAbove() {
-                        // Log detailed information about the function call
-                        const rebounceLog = `REBOUNCE LOG - loadMoreTermsAbove() called:\n` +
-                            `  scrollY: ${window.scrollY}\n` +
-                            `  lowestLoadedId: ${lowestLoadedId}\n` +
-                            `  isLoadingTop: ${isLoadingTop}\n` +
-                            `  lastTopTermId: ${lastTopTermId}\n` +
-                            `  currentTermId: ${currentTermId}\n` +
-                            `  Will proceed with loading: ${lowestLoadedId > 1 && !isLoadingTop}`;
-
-                        // Log to console
-                        console.log(rebounceLog);
-
-                        // Create or update a visible log element on the page
-                        let visibleLog = document.getElementById('visible-log');
-                        if (!visibleLog) {
-                            visibleLog = document.createElement('div');
-                            visibleLog.id = 'visible-log';
-                            visibleLog.style.position = 'fixed';
-                            visibleLog.style.bottom = '10px';
-                            visibleLog.style.left = '10px';
-                            visibleLog.style.width = '80%';
-                            visibleLog.style.maxHeight = '200px';
-                            visibleLog.style.overflow = 'auto';
-                            visibleLog.style.backgroundColor = 'rgba(0,0,0,0.8)';
-                            visibleLog.style.color = 'white';
-                            visibleLog.style.padding = '10px';
-                            visibleLog.style.borderRadius = '5px';
-                            visibleLog.style.zIndex = '9999';
-                            visibleLog.style.fontSize = '12px';
-                            visibleLog.style.fontFamily = 'monospace';
-                            document.body.appendChild(visibleLog);
-                        }
-
-                        // Add the log to the visible log element
-                        visibleLog.innerHTML = rebounceLog.replace(/\n/g, '<br>');
-
-                        // Don't clear the log automatically for this function
-
-                        if (lowestLoadedId <= 1 || isLoadingTop) {
-                            const errorMsg = 'Cannot load more terms above: ' +
-                                (lowestLoadedId <= 1 ? 'already at first term' : 'already loading');
-                            console.log(errorMsg);
-
-                            // Update the visible log with the error
-                            if (visibleLog) {
-                                visibleLog.innerHTML += '<br><br><strong style="color:red">' + errorMsg + '</strong>';
-
-                                // Clear after error
-                                setTimeout(() => {
-                                    if (visibleLog) {
-                                        visibleLog.innerHTML = '';
-                                    }
-                                }, 5000);
-                            }
-
-                            return;
-                        }
-
-                        console.log('Loading more terms above from top boundary');
-
-                        // Trigger loading of previous terms
-                        const prevTermId = lowestLoadedId - 1;
-                        const batchStartId = Math.max(1, prevTermId - BATCH_SIZE + 1);
-
-                        // Show loading indicator
-                        document.getElementById('loading-top').style.display = 'block';
-                        isLoadingTop = true;
-
-                        // Reset lastTopTermId to allow loading
-                        lastTopTermId = null;
-
-                        console.log(`Loading more terms above: ${batchStartId} to ${prevTermId}`);
-
-                        // Load each term in the batch
-                        const loadPromises = [];
-                        for (let id = prevTermId; id >= batchStartId; id--) {
-                            loadPromises.push(loadMoreTerms(id, 'above'));
-                        }
-
-                        // Hide loading indicator when all terms are loaded
-                        Promise.all(loadPromises).finally(() => {
-                            setTimeout(() => {
-                                document.getElementById('loading-top').style.display = 'none';
-                                isLoadingTop = false;
-                            }, 300);
-                        });
+                    // First load pagemarks if not already loaded
+                    if (Object.keys(pagemarks).length === 0) {
+                        await loadPagemarks();
                     }
 
-                    // Local wheel event listener removed - using global wheel event listener instead
+                    // Set current term ID and requested term ID
+                    currentTermId = termId;
+                    requestedTermId = termId; // This is the term the user specifically requested
 
-                    // Local keyboard event listener removed - using global keyboard event listener instead
+                    // Calculate the range of terms to load
+                    const startTermId = termId; // Start from the current term (no terms before)
+                    const endTermId = termId + WINDOW_AFTER; // Load 15 terms after
+
+                    // Show loading message
+                    document.getElementById('error').style.display = 'none';
+                    document.getElementById('loading').style.display = 'block';
+                    document.getElementById('loading').innerHTML = `
+                        <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
+                        <span>Loading dictionary...</span>
+                    `;
+
+                    // Set a safety timeout to ensure the loading message doesn't get stuck
+                    const loadingTimeout = setTimeout(() => {
+                        console.warn('Safety timeout reached for term loading, clearing loading message');
+                        document.getElementById('loading').style.display = 'none';
+                    }, 10000); // 10 second timeout
+
+                    // Load all terms in the range
+                    const loadPromises = [];
+                    for (let id = startTermId; id <= endTermId; id++) {
+                        loadPromises.push(loadSingleTerm(id));
+                    }
+
+                    await Promise.all(loadPromises);
+
+                    // Clear the safety timeout
+                    clearTimeout(loadingTimeout);
+
+                    // Hide loading message
+                    document.getElementById('loading').style.display = 'none';
+
+                    // Render the terms
+                    renderTermsInRange(startTermId, endTermId);
+
+                    // Update pagination info - don't show term IDs to the user
+                    document.getElementById('pagination-info').textContent = `Dictionary entry`;
+
+                    // Show keyboard navigation hints
+                    document.getElementById('keyboard-hint-top').style.display = 'block';
+                    document.getElementById('keyboard-hint-bottom').style.display = 'block';
+
+                    // Update button states
+                    updateButtonStates();
+
+                    // Add scroll event listener if not already added
+                    if (!window.hasScrollListener) {
+                        window.addEventListener('scroll', handleScroll);
+                        window.hasScrollListener = true;
+
+                        // Helper function to load more terms above when at the top
+                        function loadMoreTermsAbove() {
+                            // Log detailed information about the function call
+                            const rebounceLog = `REBOUNCE LOG - loadMoreTermsAbove() called:\n` +
+                                `  scrollY: ${window.scrollY}\n` +
+                                `  lowestLoadedId: ${lowestLoadedId}\n` +
+                                `  isLoadingTop: ${isLoadingTop}\n` +
+                                `  lastTopTermId: ${lastTopTermId}\n` +
+                                `  currentTermId: ${currentTermId}\n` +
+                                `  Will proceed with loading: ${lowestLoadedId > 1 && !isLoadingTop}`;
+
+                            // Log to console
+                            console.log(rebounceLog);
+
+                            // Visible log removed to clean up UI
+
+                            if (lowestLoadedId <= 1 || isLoadingTop) {
+                                const errorMsg = 'Cannot load more terms above: ' +
+                                    (lowestLoadedId <= 1 ? 'already at first term' : 'already loading');
+                                console.log(errorMsg);
+
+                                // Visible log error handling removed
+
+                                return;
+                            }
+
+                            console.log('Loading more terms above from top boundary');
+
+                            // Trigger loading of previous terms
+                            const prevTermId = lowestLoadedId - 1;
+                            const batchStartId = Math.max(1, prevTermId - BATCH_SIZE + 1);
+
+                            // Show loading indicator
+                            document.getElementById('loading-top').style.display = 'block';
+                            isLoadingTop = true;
+
+                            // Reset lastTopTermId to allow loading
+                            lastTopTermId = null;
+
+                            console.log(`Loading more terms above: ${batchStartId} to ${prevTermId}`);
+
+                            // Load each term in the batch
+                            const loadPromises = [];
+                            for (let id = prevTermId; id >= batchStartId; id--) {
+                                loadPromises.push(loadMoreTerms(id, 'above'));
+                            }
+
+                            // Hide loading indicator when all terms are loaded
+                            Promise.all(loadPromises).finally(() => {
+                                setTimeout(() => {
+                                    document.getElementById('loading-top').style.display = 'none';
+                                    isLoadingTop = false;
+                                }, 300);
+                            });
+                        }
+
+                        // Local wheel event listener removed - using global wheel event listener instead
+
+                        // Local keyboard event listener removed - using global keyboard event listener instead
+                    }
+
+                    isLoading = false;
+                    resolve();
+                } catch (error) {
+                    console.error('Error loading terms:', error);
+
+                    // Make sure to clear any loading timeouts
+                    if (typeof loadingTimeout !== 'undefined') {
+                        clearTimeout(loadingTimeout);
+                    }
+
+                    // Hide loading message and show error
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('error').style.display = 'block';
+                    document.getElementById('error').textContent = `Error loading terms: ${error.message}`;
+                    document.getElementById('keyboard-hint').style.display = 'none';
+                    isLoading = false;
+                    reject(error);
                 }
-
-                isLoading = false;
-            } catch (error) {
-                console.error('Error loading terms:', error);
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('error').style.display = 'block';
-                document.getElementById('error').textContent = `Error loading terms: ${error.message}`;
-                isLoading = false;
-            }
+        });
         }
 
         // Function to render terms in a specific range
@@ -1082,6 +1124,38 @@
                 // First load pagemarks
                 await loadPagemarks();
 
+                // Check if there's a word parameter in the URL
+                const wordParam = getUrlParameter('word');
+                if (wordParam) {
+                    // If there's a word parameter, look it up
+                    await lookupDevanagariWord(wordParam);
+                    return;
+                }
+
+                // Check if there's a path parameter in the URL
+                const pathParam = getUrlParameter('path');
+                if (pathParam) {
+                    // Extract term ID from path if it's a numeric path
+                    const termIdMatch = pathParam.match(/\/([0-9]+)\.json$/);
+                    if (termIdMatch) {
+                        // If it's a term ID, use the new loading method
+                        const termId = parseInt(termIdMatch[1], 10);
+
+                        // Update URL to remove the path parameter
+                        const newUrl = new URL(window.location.href);
+                        // Clear any existing parameters
+                        Array.from(newUrl.searchParams.keys()).forEach(key => {
+                            newUrl.searchParams.delete(key);
+                        });
+                        // Store the term ID in a hidden state for internal use
+                        window.currentTermState = { termId: termId };
+                        window.history.replaceState(window.currentTermState, '', newUrl.toString());
+
+                        await loadTermWithContext(termId);
+                        return;
+                    }
+                }
+
                 // Use the provided path or default
                 const path = jsonPath || '/es.json';
 
@@ -1114,6 +1188,9 @@
                 // Hide loading message
                 document.getElementById('loading').style.display = 'none';
 
+                // Hide keyboard hint
+                document.getElementById('keyboard-hint').style.display = 'none';
+
                 // Render the first page
                 renderCurrentPage();
 
@@ -1123,6 +1200,7 @@
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('error').style.display = 'block';
                 document.getElementById('error').textContent = `Error loading data: ${error.message}`;
+                document.getElementById('keyboard-hint').style.display = 'none';
                 isLoading = false;
             }
         }
@@ -1172,93 +1250,71 @@
                     return;
                 }
 
-                // Look for a search match within this term
-                const searchMatch = termElement.querySelector('.search-match');
+                // Simply scroll to the top of the page
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'auto'
+                });
 
-                // Get header height to adjust calculations
-                const headerHeight = document.getElementById('header').offsetHeight;
-
-                // Reset scroll position to the top of the term first to avoid compounding errors
-                // This ensures we're starting from a clean state
-                termElement.scrollIntoView({ behavior: 'auto', block: 'start' });
-
-                // Wait a tiny bit for the scroll to complete
-                setTimeout(() => {
-                    // Now calculate the proper center position
-                    if (searchMatch) {
-                        // If there's a search match, scroll to it
-                        console.log('Scrolling to search match within term', termId);
-
-                        // Get fresh coordinates after the initial scroll
-                        const rect = searchMatch.getBoundingClientRect();
-                        const elementHeight = rect.height;
-                        const windowHeight = window.innerHeight;
-
-                        // Calculate absolute position without using current scroll position
-                        // This avoids compounding errors from previous scrolls
-                        const targetScrollY = window.scrollY + rect.top - (windowHeight / 2) + (elementHeight / 2) - headerHeight;
-
-                        console.log(`Scrolling to Y=${targetScrollY}, element top=${rect.top}, window height=${windowHeight}`);
-
-                        // Smooth scroll to the calculated position
-                        window.scrollTo({
-                            top: targetScrollY,
-                            behavior: 'smooth'
-                        });
-                    } else {
-                        // Otherwise, scroll to the term itself
-                        console.log('Scrolling to term', termId);
-
-                        // Get fresh coordinates after the initial scroll
-                        const rect = termElement.getBoundingClientRect();
-                        const elementHeight = rect.height;
-                        const windowHeight = window.innerHeight;
-
-                        // Calculate absolute position without using current scroll position
-                        // This avoids compounding errors from previous scrolls
-                        const targetScrollY = window.scrollY + rect.top - (windowHeight / 2) + (elementHeight / 2) - headerHeight;
-
-                        console.log(`Scrolling to Y=${targetScrollY}, element top=${rect.top}, window height=${windowHeight}`);
-
-                        // Smooth scroll to the calculated position
-                        window.scrollTo({
-                            top: targetScrollY,
-                            behavior: 'smooth'
-                        });
-                    }
-                }, 50); // Short delay to ensure the initial scroll is complete
+                console.log('Scrolled to top of page for term', termId);
             }, 100); // Wait for DOM updates to complete
         }
 
         // Function to navigate to a specific term
+        // Returns a Promise that resolves when navigation is complete
         function navigateToTerm(termId) {
-            if (isLoading) return;
+            return new Promise((resolve, reject) => {
+                if (isLoading) return resolve();
 
-            // Parse termId as integer
-            termId = parseInt(termId, 10);
-            if (isNaN(termId) || termId <= 0) {
-                alert('Please enter a valid Term ID');
-                return;
-            }
+                // Parse termId as integer
+                termId = parseInt(termId, 10);
+                if (isNaN(termId) || termId <= 0) {
+                    alert('Please enter a valid Term ID');
+                    return resolve();
+                }
 
-            // Reset scroll states to prevent incorrect scrolling
-            resetScrollStates();
+                // Reset scroll states to prevent incorrect scrolling
+                resetScrollStates();
 
-            // Force scroll to top to reset view
-            window.scrollTo(0, 0);
+                // Force scroll to top to reset view
+                window.scrollTo(0, 0);
 
-            // Clear any previous errors
-            document.getElementById('error').style.display = 'none';
-            document.getElementById('loading').style.display = 'block';
-            document.getElementById('loading').textContent = `Loading Term ID: ${termId}...`;
+                // Clear any previous errors
+                document.getElementById('error').style.display = 'none';
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('loading').innerHTML = `
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
+                <span>Loading dictionary entry...</span>
+            `;
 
-            // Update URL without reloading the page
-            const newUrl = new URL(window.location.href);
-            newUrl.searchParams.set('path', `/${termId}.json`);
-            window.history.pushState({}, '', newUrl.toString());
+                // Set a safety timeout to ensure the loading message doesn't get stuck
+                const navTimeout = setTimeout(() => {
+                    console.warn('Safety timeout reached for term navigation, clearing loading message');
+                    document.getElementById('loading').style.display = 'none';
+                }, 10000); // 10 second timeout
 
-            // Load the term and its context
-            loadTermWithContext(termId);
+                // Update URL without reloading the page, but don't expose term IDs
+                // Instead, use a more user-friendly URL format
+                const newUrl = new URL(window.location.href);
+                // Clear any existing parameters
+                Array.from(newUrl.searchParams.keys()).forEach(key => {
+                    newUrl.searchParams.delete(key);
+                });
+                // Store the term ID in a hidden state for internal use
+                window.currentTermState = { termId: termId };
+                window.history.pushState(window.currentTermState, '', newUrl.toString());
+
+                // Load the term and its context
+                loadTermWithContext(termId).then(() => {
+                    // Clear the navigation timeout when loading completes
+                    clearTimeout(navTimeout);
+                    resolve();
+                }).catch(error => {
+                    // Clear the navigation timeout when loading fails
+                    clearTimeout(navTimeout);
+                    reject(error);
+                });
+            });
         }
 
         // No file input handling needed
@@ -1277,67 +1333,103 @@
         // No default path button anymore
 
         // Function to lookup a Devanagari word in table2.txt
+        // Returns a Promise that resolves when the lookup is complete
         async function lookupDevanagariWord(word) {
-            if (isLoading) return;
+            return new Promise(async (resolve, reject) => {
+                if (isLoading) return resolve();
 
-            if (!word) {
-                alert('Please enter a Devanagari word');
-                return;
-            }
-
-            // Reset scroll states to prevent incorrect scrolling
-            resetScrollStates();
-
-            // Force scroll to top to reset view
-            window.scrollTo(0, 0);
-
-            // Store the searched word for highlighting nested elements
-            searchedWord = word.trim();
-
-            // Show loading message
-            document.getElementById('error').style.display = 'none';
-            document.getElementById('loading').style.display = 'block';
-            document.getElementById('loading').textContent = `Looking up word: ${word}...`;
-
-            try {
-                // Fetch table2.txt
-                const response = await fetch('/table2.txt');
-                if (!response.ok) {
-                    throw new Error(`Failed to load table2.txt: ${response.status} ${response.statusText}`);
+                if (!word) {
+                    alert('Please enter a Devanagari word');
+                    return resolve();
                 }
 
-                const text = await response.text();
-                const lines = text.split('\n');
+                // Reset scroll states to prevent incorrect scrolling
+                resetScrollStates();
 
-                // Search for the word
-                let termId = null;
-                for (const line of lines) {
-                    const parts = line.split(' : ');
-                    if (parts.length >= 2 && parts[0].trim() === word.trim()) {
-                        // Found a match, extract the L_ number
-                        const match = parts[1].match(/L_\s*(\d+)/);
-                        if (match && match[1]) {
-                            termId = parseInt(match[1], 10);
-                            break;
+                // Force scroll to top to reset view
+                window.scrollTo(0, 0);
+
+                // Store the searched word for highlighting nested elements
+                searchedWord = word.trim();
+
+                // Show loading message
+                document.getElementById('error').style.display = 'none';
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('loading').innerHTML = `
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
+                <span>Looking up "${word}"...</span>
+            `;
+
+                // Set a safety timeout to ensure the loading message doesn't get stuck
+                const safetyTimeout = setTimeout(() => {
+                    console.warn('Safety timeout reached for word lookup, clearing loading message');
+                    document.getElementById('loading').style.display = 'none';
+                }, 5000); // 5 second timeout
+
+                try {
+                    // Fetch table2.txt
+                    const response = await fetch('/table2.txt');
+                    if (!response.ok) {
+                        clearTimeout(safetyTimeout);
+                        throw new Error(`Failed to load table2.txt: ${response.status} ${response.statusText}`);
+                    }
+
+                    const text = await response.text();
+                    const lines = text.split('\n');
+
+                    // Search for the word
+                    let termId = null;
+                    for (const line of lines) {
+                        const parts = line.split(' : ');
+                        if (parts.length >= 2 && parts[0].trim() === word.trim()) {
+                            // Found a match, extract the L_ number
+                            const match = parts[1].match(/L_\s*(\d+)/);
+                            if (match && match[1]) {
+                                termId = parseInt(match[1], 10);
+                                break;
+                            }
                         }
                     }
-                }
 
-                if (termId) {
-                    // Navigate to the term
-                    navigateToTerm(termId);
-                } else {
-                    // Word not found
+                    if (termId) {
+                        // Clear the safety timeout since we're navigating to the term
+                        clearTimeout(safetyTimeout);
+
+                        // Update URL to show the word being looked up
+                        const newUrl = new URL(window.location.href);
+                        // Clear any existing parameters
+                        Array.from(newUrl.searchParams.keys()).forEach(key => {
+                            newUrl.searchParams.delete(key);
+                        });
+                        // Add the word as a parameter
+                        newUrl.searchParams.set('word', word.trim());
+                        window.history.pushState({word: word.trim(), termId: termId}, '', newUrl.toString());
+
+                        // Navigate to the term
+                        navigateToTerm(termId).finally(() => {
+                            resolve();
+                        });
+                    } else {
+                        // Word not found
+                        clearTimeout(safetyTimeout);
+                        document.getElementById('loading').style.display = 'none';
+                        document.getElementById('error').style.display = 'block';
+                        document.getElementById('error').textContent = `Word "${word}" not found in dictionary.`;
+                        document.getElementById('keyboard-hint-top').style.display = 'none';
+                        document.getElementById('keyboard-hint-bottom').style.display = 'none';
+                        resolve();
+                    }
+                } catch (error) {
+                    clearTimeout(safetyTimeout);
+                    console.error('Error looking up word:', error);
                     document.getElementById('loading').style.display = 'none';
                     document.getElementById('error').style.display = 'block';
-                    document.getElementById('error').textContent = `Word "${word}" not found in dictionary.`;
+                    document.getElementById('error').textContent = `Error looking up word: ${error.message}`;
+                    document.getElementById('keyboard-hint-top').style.display = 'none';
+                    document.getElementById('keyboard-hint-bottom').style.display = 'none';
+                    reject(error);
                 }
-            } catch (error) {
-                console.error('Error looking up word:', error);
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('error').style.display = 'block';
-                document.getElementById('error').textContent = `Error looking up word: ${error.message}`;
-            }
+            });
         }
 
         // Term ID input feature has been removed
@@ -1346,7 +1438,9 @@
         document.getElementById('lookup-devanagari').addEventListener('click', function() {
             const inputField = document.getElementById('devanagari-input');
             const word = inputField.value.trim();
-            lookupDevanagariWord(word);
+            lookupDevanagariWord(word).catch(error => {
+                console.error('Error in word lookup:', error);
+            });
             // Defocus the input field to allow normal scrolling with arrow keys
             inputField.blur();
         });
@@ -1355,8 +1449,11 @@
         document.getElementById('devanagari-input').addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
                 event.preventDefault();
-                // Click the lookup button
-                document.getElementById('lookup-devanagari').click();
+                // Get the word and look it up directly
+                const word = this.value.trim();
+                lookupDevanagariWord(word).catch(error => {
+                    console.error('Error in word lookup:', error);
+                });
                 // Defocus (blur) the input field to allow normal scrolling with arrow keys
                 this.blur();
             }
@@ -1374,9 +1471,9 @@
         let isLoadingBottom = false; // Flag to track loading state for bottom indicator
 
         function handleScroll() {
-            // Debug element code is now enabled
-            // Set to false to disable
-            const DEBUG_MODE = true;
+            // Debug element code is now disabled
+            // Set to true to enable
+            const DEBUG_MODE = false;
 
             let debugEl = document.getElementById('scroll-debug');
             if (DEBUG_MODE) {
@@ -1411,10 +1508,9 @@
             const scrollPosition = window.scrollY;
             const windowHeight = window.innerHeight;
             const documentHeight = document.documentElement.scrollHeight;
-            const headerHeight = document.getElementById('header').offsetHeight;
 
-            // Adjust scroll position to account for fixed header
-            const effectiveScrollPosition = scrollPosition + headerHeight;
+            // No need to adjust for header since it's now in the normal document flow
+            const effectiveScrollPosition = scrollPosition;
 
             // Get all loaded term IDs in order
             const termContainers = document.querySelectorAll('.term-container');
@@ -1428,7 +1524,6 @@
             // Update global state
             window.termViewerState.lowestLoadedId = lowestLoadedId;
             window.termViewerState.isLoadingTop = isLoadingTop;
-            console.log(`Updated global state: lowestLoadedId=${window.termViewerState.lowestLoadedId}, isLoadingTop=${window.termViewerState.isLoadingTop}`);
 
             // Update debug display if debug mode is enabled
             if (DEBUG_MODE && debugEl) {
@@ -1436,7 +1531,6 @@
                     Effective Scroll: ${effectiveScrollPosition}px<br>
                     Window Height: ${windowHeight}px<br>
                     Document Height: ${documentHeight}px<br>
-                    Header Height: ${headerHeight}px<br>
                     Lowest ID: ${lowestLoadedId}<br>
                     Highest ID: ${highestLoadedId}<br>
                     Current ID: ${currentTermId}<br>
@@ -1445,236 +1539,9 @@
             }
 
             scrollTimeout = setTimeout(() => {
-                // Check if we're near the bottom of the page
-                // Use a larger threshold for bottom detection to ensure it triggers properly
-                const nearBottom = scrollPosition + windowHeight > documentHeight - 500;
-
-                // Check if we're near the top of the content (accounting for fixed header)
-                const nearTop = scrollPosition < 200;
-
-                // Near the bottom of the page - load more terms below
-                if (nearBottom) {
-                    const nextTermId = highestLoadedId + 1;
-
-                    // Check if the next term is actually in the DOM
-                    const nextTermInDOM = document.querySelector(`.term-container[data-term-id="${nextTermId}"]`);
-
-                    // Only load if we haven't loaded this term before or if it's different from the last one we tried to load
-                    // Also check if the term is actually in the DOM, not just in the loadedTermIds set
-                    if ((nextTermId !== lastBottomTermId) && (!loadedTermIds.has(nextTermId) || !nextTermInDOM) && nextTermId > 0) {
-                        // Show loading indicator at the bottom
-                        document.getElementById('loading-bottom').style.display = 'block';
-                        isLoadingBottom = true;
-
-                        // If the term is in loadedTermIds but not in DOM, remove it from loadedTermIds
-                        if (loadedTermIds.has(nextTermId) && !nextTermInDOM) {
-                            loadedTermIds.delete(nextTermId);
-                            console.log(`Term ${nextTermId} was in loadedTermIds but not in DOM, removed from tracking`);
-                        }
-
-                        // Load a batch of terms instead of just one
-                        const batchEndId = nextTermId + BATCH_SIZE - 1;
-                        console.log(`Loading more terms below: ${nextTermId} to ${batchEndId}`);
-                        if (DEBUG_MODE && debugEl) {
-                            debugEl.innerHTML += `<br><strong>Loading below: ${nextTermId} to ${batchEndId}</strong>`;
-                        }
-                        lastBottomTermId = nextTermId;
-
-                        // Load each term in the batch
-                        const loadPromises = [];
-                        for (let id = nextTermId; id <= batchEndId; id++) {
-                            loadPromises.push(loadMoreTerms(id, 'below'));
-                        }
-
-                        // Hide loading indicator when all terms are loaded
-                        Promise.all(loadPromises).finally(() => {
-                            setTimeout(() => {
-                                document.getElementById('loading-bottom').style.display = 'none';
-                                isLoadingBottom = false;
-                                lastBottomTermId = null; // Reset to allow loading more if needed
-                            }, 300); // Short delay to ensure user sees the indicator
-                        });
-                    } else {
-                        if (DEBUG_MODE && debugEl) {
-                            debugEl.innerHTML += `<br>Not loading below: nextTermId=${nextTermId}, lastBottomTermId=${lastBottomTermId}, already loaded=${loadedTermIds.has(nextTermId)}, in DOM=${!!nextTermInDOM}`;
-                        }
-
-                        // If we're at the bottom but can't load more, reset lastBottomTermId after a delay
-                        // This helps recover from stuck states
-                        if (lastBottomTermId !== null) {
-                            setTimeout(() => {
-                                lastBottomTermId = null;
-                                console.log('Reset lastBottomTermId to allow loading more terms');
-                            }, 2000); // Wait 2 seconds before allowing another attempt
-                        }
-                    }
-                }
-
-                // Near the top of the page - load more terms above
-                if (nearTop && lowestLoadedId > 1) {
-                    // If we're at the absolute top (scrollY === 0), make sure we can load more terms
-                    if (window.scrollY === 0) {
-                        console.log('At absolute top of page, forcing reset of lastTopTermId');
-                        lastTopTermId = null;
-                    }
-                    const prevTermId = lowestLoadedId - 1;
-
-                    // Check if the previous term is actually in the DOM
-                    const prevTermInDOM = document.querySelector(`.term-container[data-term-id="${prevTermId}"]`);
-
-                    // Only load if we haven't loaded this term before or if it's different from the last one we tried to load
-                    // Also check if the term is actually in the DOM, not just in the loadedTermIds set
-                    if ((prevTermId !== lastTopTermId) && (!loadedTermIds.has(prevTermId) || !prevTermInDOM) && prevTermId >= 1) {
-                        // Show loading indicator at the top
-                        document.getElementById('loading-top').style.display = 'block';
-                        isLoadingTop = true;
-
-                        // If the term is in loadedTermIds but not in DOM, remove it from loadedTermIds
-                        if (loadedTermIds.has(prevTermId) && !prevTermInDOM) {
-                            loadedTermIds.delete(prevTermId);
-                            console.log(`Term ${prevTermId} was in loadedTermIds but not in DOM, removed from tracking`);
-                        }
-
-                        // Check if the terms immediately before the lowest loaded term are already in the DOM
-                        let adjustedPrevTermId = prevTermId;
-
-                        // If the previous terms are already loaded, go back further
-                        while (adjustedPrevTermId > 1 && document.querySelector(`.term-container[data-term-id="${adjustedPrevTermId}"]`)) {
-                            adjustedPrevTermId--;
-                        }
-
-                        // Load a batch of terms instead of just one
-                        const batchStartId = Math.max(1, adjustedPrevTermId - BATCH_SIZE + 1);
-
-                        // Log what we're doing
-                        if (adjustedPrevTermId !== prevTermId) {
-                            console.log(`Adjusted loading range: ${batchStartId} to ${adjustedPrevTermId} (original: ${Math.max(1, prevTermId - BATCH_SIZE + 1)} to ${prevTermId})`);
-                            prevTermId = adjustedPrevTermId;
-                        }
-                        console.log(`Loading more terms above: ${batchStartId} to ${prevTermId}`);
-                        if (DEBUG_MODE && debugEl) {
-                            debugEl.innerHTML += `<br><strong>Loading above: ${batchStartId} to ${prevTermId}</strong>`;
-                        }
-                        lastTopTermId = prevTermId;
-                        window.termViewerState.lastTopTermId = lastTopTermId;
-
-                        // Load each term in the batch, but only if it's not already in the DOM
-                        const loadPromises = [];
-                        for (let id = prevTermId; id >= batchStartId; id--) {
-                            // Skip terms that are already in the DOM
-                            if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
-                                loadPromises.push(loadMoreTerms(id, 'above'));
-                            } else {
-                                console.log(`Term ${id} is already in the DOM, skipping`);
-                            }
-                        }
-
-                        // Hide loading indicator when all terms are loaded
-                        Promise.all(loadPromises).finally(() => {
-                            setTimeout(() => {
-                                document.getElementById('loading-top').style.display = 'none';
-                                isLoadingTop = false;
-                                lastTopTermId = null; // Reset to allow loading more if needed
-                                window.termViewerState.lastTopTermId = null;
-                            }, 300); // Short delay to ensure user sees the indicator
-                        });
-                    } else {
-                        if (DEBUG_MODE && debugEl) {
-                            debugEl.innerHTML += `<br>Not loading above: prevTermId=${prevTermId}, lastTopTermId=${lastTopTermId}, already loaded=${loadedTermIds.has(prevTermId)}, in DOM=${!!prevTermInDOM}`;
-                        }
-
-                        // If we're at the top but can't load more, reset lastTopTermId after a delay
-                        // This helps recover from stuck states
-                        if (lastTopTermId !== null) {
-                            setTimeout(() => {
-                                lastTopTermId = null;
-                                window.termViewerState.lastTopTermId = null;
-                                console.log('Reset lastTopTermId to allow loading more terms');
-                            }, 2000); // Wait 2 seconds before allowing another attempt
-                        }
-                    }
-                }
-
                 // Update current term ID based on scroll position
                 updateCurrentTermIdFromScroll();
-
                 scrollTimeout = null;
-
-                // Add a recovery mechanism for when scrolling gets stuck
-                // If we're near the top or bottom but couldn't load more terms, check if we have enough terms in the DOM
-                const visibleTerms = document.querySelectorAll('.term-container').length;
-                // Check if we have fewer terms than expected OR if we're at the edge of the loaded terms
-                if ((nearTop || nearBottom) && (visibleTerms < WINDOW_SIZE ||
-                    (nearBottom && highestLoadedId === currentTermId + WINDOW_AFTER - 1) ||
-                    (nearTop && lowestLoadedId === Math.max(1, currentTermId - WINDOW_BEFORE + 1)))) {
-                    console.log(`Possible stuck state detected: only ${visibleTerms} terms visible. Attempting recovery...`);
-                    if (DEBUG_MODE && debugEl) {
-                        debugEl.innerHTML += `<br><strong>Recovery: Only ${visibleTerms} terms visible, forcing reload</strong>`;
-                    }
-
-                    // Show a temporary recovery message to the user
-                    const recoveryMessage = document.createElement('div');
-                    recoveryMessage.style.position = 'fixed';
-                    recoveryMessage.style.top = '50%';
-                    recoveryMessage.style.left = '50%';
-                    recoveryMessage.style.transform = 'translate(-50%, -50%)';
-                    recoveryMessage.style.backgroundColor = 'rgba(0,0,0,0.7)';
-                    recoveryMessage.style.color = 'white';
-                    recoveryMessage.style.padding = '20px';
-                    recoveryMessage.style.borderRadius = '5px';
-                    recoveryMessage.style.zIndex = '2000';
-                    recoveryMessage.style.fontSize = '16px';
-                    recoveryMessage.textContent = 'Recovering from scroll issue...';
-                    document.body.appendChild(recoveryMessage);
-
-                    // Remove the message after the recovery is complete
-                    setTimeout(() => {
-                        document.body.removeChild(recoveryMessage);
-                    }, 2000);
-
-                    // Force reset tracking variables
-                    lastTopTermId = null;
-                    lastBottomTermId = null;
-                    window.termViewerState.lastTopTermId = null;
-
-                    // Force reload around current term
-                    const recoveryStart = Math.max(1, currentTermId - WINDOW_BEFORE);
-                    const recoveryEnd = currentTermId + WINDOW_AFTER;
-
-                    // Clear loadedTermIds for terms that should be visible but aren't in the DOM
-                    for (let id = recoveryStart; id <= recoveryEnd; id++) {
-                        if (loadedTermIds.has(id) && !document.querySelector(`.term-container[data-term-id="${id}"]`)) {
-                            loadedTermIds.delete(id);
-                            console.log(`Recovery: Removed term ${id} from tracking as it's not in the DOM`);
-                        }
-                    }
-
-                    // Force reload the current window of terms
-                    setTimeout(async () => {
-                        // First, try to load any missing terms
-                        const loadPromises = [];
-                        for (let id = recoveryStart; id <= recoveryEnd; id++) {
-                            if (!loadedTermIds.has(id)) {
-                                loadPromises.push(loadSingleTerm(id));
-                            }
-                        }
-
-                        if (loadPromises.length > 0) {
-                            console.log(`Recovery: Loading ${loadPromises.length} missing terms`);
-                            await Promise.all(loadPromises);
-                        }
-
-                        // Then render all terms in the range
-                        renderTermsInRange(recoveryStart, recoveryEnd);
-
-                        // Reset loading flags
-                        isLoadingTop = false;
-                        isLoadingBottom = false;
-                        window.termViewerState.isLoadingTop = false;
-                        document.getElementById('loading-top').style.display = 'none';
-                        document.getElementById('loading-bottom').style.display = 'none';
-                    }, 500);
-                }
             }, SCROLL_TIMEOUT);
         }
 
@@ -1782,8 +1649,8 @@
 
             // Calculate which terms to keep - use a wider range than the normal window
             const termIds = Array.from(termContainers).map(container => parseInt(container.dataset.termId, 10));
-            const minKeepId = Math.max(1, currentTermId - WINDOW_BEFORE * 2); // Double the keep range
-            const maxKeepId = currentTermId + WINDOW_AFTER * 2; // Double the keep range
+            const minKeepId = currentTermId; // Start from the current term (no terms before)
+            const maxKeepId = currentTermId + WINDOW_AFTER * 2; // Double the keep range for terms after
 
             // Remove terms that are too far from the current term
             for (const container of termContainers) {
@@ -1813,11 +1680,10 @@
             const termContainers = document.querySelectorAll('.term-container');
             if (!termContainers.length) return;
 
-            // Get header height to adjust calculations
-            const headerHeight = document.getElementById('header').offsetHeight;
+            // No need to get header height since it's in the normal document flow
 
-            // Find the term closest to the center of the viewport (adjusted for header)
-            const viewportMiddle = (window.innerHeight - headerHeight) / 2 + headerHeight;
+            // Find the term closest to the center of the viewport
+            const viewportMiddle = window.innerHeight / 2;
             let closestTerm = null;
             let closestDistance = Infinity;
 
@@ -1840,13 +1706,11 @@
                     // Update current term ID
                     currentTermId = newTermId;
 
-                    // Update URL without reloading the page
-                    const newUrl = new URL(window.location.href);
-                    newUrl.searchParams.set('path', `/${currentTermId}.json`);
-                    window.history.pushState({}, '', newUrl.toString());
+                    // Store the term ID in a hidden state for internal use
+                    window.currentTermState = { termId: currentTermId };
 
-                    // Update pagination info
-                    document.getElementById('pagination-info').textContent = `Term ID: ${currentTermId}`;
+                    // Update pagination info - don't show term IDs to the user
+                    document.getElementById('pagination-info').textContent = `Dictionary entry`;
 
                     // Update button states
                     updateButtonStates();
@@ -1861,82 +1725,12 @@
             isLoadingTop: false
         };
 
-        // Global wheel event listener for top scrolling
-        window.addEventListener('wheel', function(event) {
-            // Only handle when we're at the top and trying to scroll up
-            if (window.scrollY === 0 && event.deltaY < 0) {
-                console.log('Global wheel event: Detected attempt to scroll up at the top boundary');
-                console.log(`Global state check: lowestLoadedId=${window.termViewerState.lowestLoadedId}, isLoadingTop=${window.termViewerState.isLoadingTop}`);
-
-                // Check if we're in a term view context
-                if (window.termViewerState.lowestLoadedId && window.termViewerState.lowestLoadedId > 1 && !window.termViewerState.isLoadingTop) {
-                    console.log('Global wheel event: In term view context, forcing load of more terms above');
-
-                    // Force reset lastTopTermId to allow loading
-                    window.termViewerState.lastTopTermId = null;
-
-                    // Force loading of previous terms
-                    // Check if the terms immediately before the lowest loaded term are already in the DOM
-                    const lowestLoadedId = window.termViewerState.lowestLoadedId;
-                    let prevTermId = lowestLoadedId - 1;
-
-                    // If the previous terms are already loaded, go back further
-                    while (prevTermId > 1 && document.querySelector(`.term-container[data-term-id="${prevTermId}"]`)) {
-                        prevTermId--;
-                    }
-
-                    // Calculate batch start, ensuring we don't go below 1
-                    const batchStartId = Math.max(1, prevTermId - 7 + 1); // Use BATCH_SIZE (7)
-
-                    // Log what we're doing
-                    console.log(`Adjusted loading range: ${batchStartId} to ${prevTermId} (original lowest: ${lowestLoadedId})`);
-
-                    console.log(`Global wheel event: Loading more terms above: ${batchStartId} to ${prevTermId}`);
-
-                    // Show loading indicator
-                    document.getElementById('loading-top').style.display = 'block';
-                    window.termViewerState.isLoadingTop = true;
-
-                    // Check if loadMoreTerms is available
-                    console.log(`loadMoreTerms function check: ${typeof window.loadMoreTerms === 'function' ? 'Available' : 'Not available'}`);
-
-                    // Load each term in the batch, but only if it's not already in the DOM
-                    const loadPromises = [];
-                    for (let id = prevTermId; id >= batchStartId; id--) {
-                        // Skip terms that are already in the DOM
-                        if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
-                            if (typeof window.loadMoreTerms === 'function') {
-                                loadPromises.push(window.loadMoreTerms(id, 'above'));
-                            } else {
-                                console.error(`Cannot load term ${id}: loadMoreTerms function not available`);
-                            }
-                        } else {
-                            console.log(`Term ${id} is already in the DOM, skipping`);
-                        }
-                    }
-
-                    // Hide loading indicator when all terms are loaded
-                    if (loadPromises.length > 0) {
-                        Promise.all(loadPromises).finally(() => {
-                            setTimeout(() => {
-                                document.getElementById('loading-top').style.display = 'none';
-                                window.termViewerState.isLoadingTop = false;
-                            }, 300);
-                        });
-                    } else {
-                        // If no terms were loaded, hide the indicator
-                        setTimeout(() => {
-                            document.getElementById('loading-top').style.display = 'none';
-                            window.termViewerState.isLoadingTop = false;
-                        }, 300);
-                    }
-                }
-            }
-        });
+        // Global wheel event listener for top scrolling - DISABLED
+        // We no longer load terms on mouse-based scroll events
 
         // Global keyboard event listener for arrow keys
         window.addEventListener('keydown', function(event) {
-            // Only handle up arrow key when at the top
+            // Handle up arrow key when at the top
             if (window.scrollY === 0 && (event.key === 'ArrowUp' || event.key === 'Up')) {
                 console.log('Global keyboard event: Detected up arrow key at the top boundary');
 
@@ -2004,21 +1798,106 @@
                     }
                 }
             }
+
+            // Handle down arrow key when at the bottom
+            if ((window.innerHeight + window.scrollY >= document.body.offsetHeight - 5) &&
+                (event.key === 'ArrowDown' || event.key === 'Down')) {
+                console.log('Global keyboard event: Detected down arrow key at the bottom boundary');
+
+                // Check if we're in a term view context and not already loading
+                const termContainers = document.querySelectorAll('.term-container');
+                if (termContainers.length > 0 && !isLoadingBottom) {
+                    // Get the highest loaded term ID
+                    const loadedIds = Array.from(termContainers).map(container =>
+                        parseInt(container.dataset.termId, 10)).sort((a, b) => a - b);
+                    const highestLoadedId = loadedIds.length > 0 ? loadedIds[loadedIds.length - 1] : currentTermId;
+
+                    console.log('Global keyboard event: In term view context, forcing load of more terms below');
+
+                    // Force reset lastBottomTermId to allow loading
+                    lastBottomTermId = null;
+
+                    // Force loading of next terms
+                    const nextTermId = highestLoadedId + 1;
+                    const batchEndId = nextTermId + BATCH_SIZE - 1;
+
+                    console.log(`Global keyboard event: Loading more terms below: ${nextTermId} to ${batchEndId}`);
+
+                    // Show loading indicator
+                    document.getElementById('loading-bottom').style.display = 'block';
+                    isLoadingBottom = true;
+
+                    // Load each term in the batch
+                    const loadPromises = [];
+                    for (let id = nextTermId; id <= batchEndId; id++) {
+                        // Skip terms that are already in the DOM
+                        if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
+                            if (typeof window.loadMoreTerms === 'function') {
+                                loadPromises.push(window.loadMoreTerms(id, 'below'));
+                            } else {
+                                console.error(`Cannot load term ${id}: loadMoreTerms function not available`);
+                            }
+                        } else {
+                            console.log(`Term ${id} is already in the DOM, skipping`);
+                        }
+                    }
+
+                    // Hide loading indicator when all terms are loaded
+                    if (loadPromises.length > 0) {
+                        Promise.all(loadPromises).finally(() => {
+                            setTimeout(() => {
+                                document.getElementById('loading-bottom').style.display = 'none';
+                                isLoadingBottom = false;
+                            }, 300);
+                        });
+                    } else {
+                        // If no terms were loaded, hide the indicator
+                        setTimeout(() => {
+                            document.getElementById('loading-bottom').style.display = 'none';
+                            isLoadingBottom = false;
+                        }, 300);
+                    }
+                }
+            }
         });
 
-        // Load data only if path parameter is provided in URL
+        // Load data based on URL parameters
         document.addEventListener('DOMContentLoaded', function() {
+            // Set header-spacer height to match the header height
+            const headerHeight = document.getElementById('header').offsetHeight;
+            document.getElementById('header-spacer').style.height = headerHeight + 'px';
+
+            // Update header-spacer height on window resize
+            window.addEventListener('resize', function() {
+                const headerHeight = document.getElementById('header').offsetHeight;
+                document.getElementById('header-spacer').style.height = headerHeight + 'px';
+            });
+
             // Make sure loading indicators are hidden initially
             document.getElementById('loading-top').style.display = 'none';
             document.getElementById('loading-bottom').style.display = 'none';
+            document.getElementById('keyboard-hint-top').style.display = 'none';
+            document.getElementById('keyboard-hint-bottom').style.display = 'none';
 
-            // Check if path is provided in URL
+            // Check if word parameter is provided in URL
+            const wordParam = getUrlParameter('word');
+            if (wordParam) {
+                // If there's a word parameter, look it up
+                lookupDevanagariWord(wordParam).catch(error => {
+                    console.error('Error in word lookup:', error);
+                });
+                return;
+            }
+
+            // Check if path is provided in URL (for backward compatibility)
             const jsonPath = getUrlParameter('path');
             if (jsonPath) {
                 loadTermsData(jsonPath);
             } else {
-                // Hide loading message if no path is provided
+                // Hide loading message if no parameters are provided
                 document.getElementById('loading').style.display = 'none';
+                document.getElementById('keyboard-hint-top').style.display = 'none';
+                document.getElementById('keyboard-hint-bottom').style.display = 'none';
             }
         });
     </script>
