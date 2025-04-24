@@ -1367,28 +1367,41 @@
 
         // Function to convert Devanagari to intermediate form
         function devanagariToIntermediate(text) {
+            // Debug logs for conversion input
+            console.log('DEBUG: devanagariToIntermediate input:', text);
+            console.log('DEBUG: Input character codes:', Array.from(text).map(c => c.charCodeAt(0)));
+
             // Result buffer
             let result = '';
 
             // Process each character
             for (let i = 0; i < text.length; i++) {
                 const char = text[i];
+                const charCode = char.charCodeAt(0);
 
                 // Check if it's a dependent vowel mark
                 if (VOWEL_MARKS_TO_VOWELS[char]) {
                     // Convert to independent vowel
-                    result += VOWEL_MARKS_TO_VOWELS[char];
+                    const independentVowel = VOWEL_MARKS_TO_VOWELS[char];
+                    result += independentVowel;
+                    console.log(`DEBUG: Converted dependent vowel ${char} (${charCode}) to independent vowel ${independentVowel} (${independentVowel.charCodeAt(0)})`);
                 }
                 // Check if it's a virama (्)
                 else if (char === '\u094d') {
                     // Skip the virama - we don't include it in the intermediate form
+                    console.log(`DEBUG: Skipping virama ${char} (${charCode})`);
                     continue;
                 }
                 // For all other characters, just add them as is
                 else {
                     result += char;
+                    console.log(`DEBUG: Keeping character as is: ${char} (${charCode})`);
                 }
             }
+
+            // Debug logs for conversion output
+            console.log('DEBUG: devanagariToIntermediate output:', result);
+            console.log('DEBUG: Output character codes:', Array.from(result).map(c => c.charCodeAt(0)));
 
             return result;
         }
@@ -1434,14 +1447,30 @@
 
                 try {
                     // Fetch table_new.txt
+                    console.log('DEBUG: Fetching table_new.txt');
+                    const startTime = performance.now();
+
                     const response = await fetch('/table_new.txt');
                     if (!response.ok) {
                         clearTimeout(safetyTimeout);
+                        console.error('DEBUG: Failed to load table_new.txt:', response.status, response.statusText);
                         throw new Error(`Failed to load table_new.txt: ${response.status} ${response.statusText}`);
                     }
 
+                    console.log(`DEBUG: Fetch response received in ${(performance.now() - startTime).toFixed(2)}ms`);
+                    console.log('DEBUG: Response status:', response.status);
+                    console.log('DEBUG: Response headers:', [...response.headers.entries()]);
+
+                    const textStartTime = performance.now();
                     const text = await response.text();
+                    console.log(`DEBUG: Response text extracted in ${(performance.now() - textStartTime).toFixed(2)}ms`);
+                    console.log(`DEBUG: Text length: ${text.length} characters`);
+
+                    const splitStartTime = performance.now();
                     const lines = text.split('\n');
+                    console.log(`DEBUG: Text split into lines in ${(performance.now() - splitStartTime).toFixed(2)}ms`);
+                    console.log(`DEBUG: Total lines: ${lines.length}`);
+                    console.log(`DEBUG: Total table_new.txt processing time: ${(performance.now() - startTime).toFixed(2)}ms`);
 
                     // Determine if the input is SLP1 or Devanagari
                     const isSLP1 = containsSLP1(word);
@@ -1529,20 +1558,50 @@
                     let termId = null;
                     let intermediateFormFound = false;
 
+                    // Debug logs for lookup
+                    console.log('DEBUG: Starting lookup in table_new.txt');
+                    console.log('DEBUG: Looking for key:', lookupKey);
+                    console.log('DEBUG: Key character codes:', Array.from(lookupKey).map(c => c.charCodeAt(0)));
+                    console.log('DEBUG: Total lines in table_new.txt:', lines.length);
+
+                    // Count for logging purposes
+                    let linesChecked = 0;
+                    let matchAttempts = 0;
+
                     for (const line of lines) {
+                        linesChecked++;
                         if (!line.trim()) continue;
 
                         const parts = line.split(':').map(part => part.trim());
-                        if (parts.length >= 2 && parts[0] === lookupKey) {
-                            // Found a match, extract the term ID (second field)
-                            const id = parseInt(parts[1], 10);
-                            if (!isNaN(id)) {
-                                termId = id;
-                                intermediateFormFound = true;
-                                break;
+                        if (parts.length >= 2) {
+                            matchAttempts++;
+
+                            // Log every 10000th attempt to avoid console flooding
+                            if (matchAttempts % 10000 === 0) {
+                                console.log(`DEBUG: Checked ${matchAttempts} potential matches so far...`);
+                            }
+
+                            // For debugging, log some sample entries
+                            if (matchAttempts <= 5) {
+                                console.log(`DEBUG: Sample entry ${matchAttempts}: '${parts[0]}' (${Array.from(parts[0]).map(c => c.charCodeAt(0))}) => ${parts[1]}`);
+                            }
+
+                            if (parts[0] === lookupKey) {
+                                // Found a match, extract the term ID (second field)
+                                const id = parseInt(parts[1], 10);
+                                if (!isNaN(id)) {
+                                    termId = id;
+                                    intermediateFormFound = true;
+                                    console.log(`DEBUG: MATCH FOUND! '${parts[0]}' => Term ID: ${id}`);
+                                    break;
+                                }
                             }
                         }
                     }
+
+                    console.log(`DEBUG: Lookup complete. Checked ${linesChecked} lines, ${matchAttempts} potential matches.`);
+                    console.log(`DEBUG: Result: ${intermediateFormFound ? 'Found' : 'Not found'}, Term ID: ${termId}`);
+
 
                     if (termId) {
                         // Clear the safety timeout since we're navigating to the term
@@ -1618,6 +1677,14 @@
         document.getElementById('lookup-devanagari').addEventListener('click', function() {
             const inputField = document.getElementById('devanagari-input');
             const word = inputField.value.trim();
+
+            // Debug logs for lookup submission
+            console.log('DEBUG: Lookup button clicked');
+            console.log('DEBUG: Input word:', word);
+            console.log('DEBUG: Input field value:', inputField.value);
+            console.log('DEBUG: Input field type:', typeof inputField.value);
+            console.log('DEBUG: Character codes:', Array.from(word).map(c => c.charCodeAt(0)));
+
             lookupDevanagariWord(word).catch(error => {
                 console.error('Error in word lookup:', error);
             });
@@ -1631,6 +1698,14 @@
                 event.preventDefault();
                 // Get the word and look it up directly
                 const word = this.value.trim();
+
+                // Debug logs for Enter key lookup submission
+                console.log('DEBUG: Enter key pressed for lookup');
+                console.log('DEBUG: Input word:', word);
+                console.log('DEBUG: Input field value:', this.value);
+                console.log('DEBUG: Input field type:', typeof this.value);
+                console.log('DEBUG: Character codes:', Array.from(word).map(c => c.charCodeAt(0)));
+
                 lookupDevanagariWord(word).catch(error => {
                     console.error('Error in word lookup:', error);
                 });
