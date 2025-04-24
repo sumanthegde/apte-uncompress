@@ -929,18 +929,14 @@
             isLoadingBottom = false;
 
             // Debug mode constant (should match the one in handleScroll)
-            const DEBUG_MODE = true;
+            const DEBUG_MODE = false;
 
             // Clear any existing debug info
             const debugEl = document.getElementById('scroll-debug');
-            if (DEBUG_MODE && debugEl) {
-                debugEl.innerHTML = 'Scroll states reset';
-            } else if (debugEl) {
-                // Remove debug element if debug mode is off
+            if (debugEl) {
+                // Remove debug element
                 debugEl.remove();
             }
-
-            console.log('All scroll states have been reset');
         }
 
         // Function to load a term and its context (n-10 to n+10)
@@ -1017,31 +1013,9 @@
 
                         // Helper function to load more terms above when at the top
                         function loadMoreTermsAbove() {
-                            // Log detailed information about the function call
-                            const rebounceLog = `REBOUNCE LOG - loadMoreTermsAbove() called:\n` +
-                                `  scrollY: ${window.scrollY}\n` +
-                                `  lowestLoadedId: ${lowestLoadedId}\n` +
-                                `  isLoadingTop: ${isLoadingTop}\n` +
-                                `  lastTopTermId: ${lastTopTermId}\n` +
-                                `  currentTermId: ${currentTermId}\n` +
-                                `  Will proceed with loading: ${lowestLoadedId > 1 && !isLoadingTop}`;
-
-                            // Log to console
-                            console.log(rebounceLog);
-
-                            // Visible log removed to clean up UI
-
                             if (lowestLoadedId <= 1 || isLoadingTop) {
-                                const errorMsg = 'Cannot load more terms above: ' +
-                                    (lowestLoadedId <= 1 ? 'already at first term' : 'already loading');
-                                console.log(errorMsg);
-
-                                // Visible log error handling removed
-
                                 return;
                             }
-
-                            console.log('Loading more terms above from top boundary');
 
                             // Trigger loading of previous terms
                             const prevTermId = lowestLoadedId - 1;
@@ -1053,8 +1027,6 @@
 
                             // Reset lastTopTermId to allow loading
                             lastTopTermId = null;
-
-                            console.log(`Loading more terms above: ${batchStartId} to ${prevTermId}`);
 
                             // Load each term in the batch
                             const loadPromises = [];
@@ -1265,7 +1237,6 @@
             setTimeout(() => {
                 const termElement = document.querySelector(`.term-container[data-term-id="${termId}"]`);
                 if (!termElement) {
-                    console.log(`Term element ${termId} not found in DOM, can't scroll`);
                     return;
                 }
 
@@ -1278,8 +1249,6 @@
                 // In case top=0 already and hence handleScroll didn't trigger
                 if(!window.termViewerState.lowestLoadedId)
                     window.termViewerState.lowestLoadedId = termId;
-
-                console.log('Scrolled to top of page for term', termId);
             }, 100); // Wait for DOM updates to complete
         }
 
@@ -1409,11 +1378,6 @@
             return result;
         }
 
-        // Function to check if text contains SLP1 characters
-        function containsSLP1(text) {
-            return /[AIUFXEOMNHSZR]|[kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzshL]/.test(text);
-        }
-
         // Function to lookup a word in table_new.txt
         // Returns a Promise that resolves when the lookup is complete
         async function lookupDevanagariWord(word) {
@@ -1485,84 +1449,10 @@
                     const text = await response.text();
                     const lines = text.split('\n');
 
-                    // Determine if the input is SLP1 or Devanagari
-                    const isSLP1 = containsSLP1(word);
-
-                    // Convert to intermediate form if needed
+                    // Convert Devanagari to intermediate form
                     let lookupKey = word.trim();
-                    let intermediateForm = lookupKey;
-
-                    if (isSLP1) {
-                        // If it's SLP1, convert to Devanagari intermediate form using Sanscript
-                        try {
-                            intermediateForm = '';
-                            for (let i = 0; i < lookupKey.length; i++) {
-                                const char = lookupKey[i];
-                                // Map SLP1 characters to Devanagari
-                                if (char === 'a') intermediateForm += 'अ';
-                                else if (char === 'A') intermediateForm += 'आ';
-                                else if (char === 'i') intermediateForm += 'इ';
-                                else if (char === 'I') intermediateForm += 'ई';
-                                else if (char === 'u') intermediateForm += 'उ';
-                                else if (char === 'U') intermediateForm += 'ऊ';
-                                else if (char === 'f') intermediateForm += 'ऋ';
-                                else if (char === 'F') intermediateForm += 'ॠ';
-                                else if (char === 'x') intermediateForm += 'ऌ';
-                                else if (char === 'X') intermediateForm += 'ॡ';
-                                else if (char === 'e') intermediateForm += 'ए';
-                                else if (char === 'E') intermediateForm += 'ऐ';
-                                else if (char === 'o') intermediateForm += 'ओ';
-                                else if (char === 'O') intermediateForm += 'औ';
-                                else if (char === 'M') intermediateForm += 'ं';
-                                else if (char === 'H') intermediateForm += 'ः';
-                                else if (char === '~') intermediateForm += 'ँ';
-                                else if (char === 'k') intermediateForm += 'क';
-                                else if (char === 'K') intermediateForm += 'ख';
-                                else if (char === 'g') intermediateForm += 'ग';
-                                else if (char === 'G') intermediateForm += 'घ';
-                                else if (char === 'N') intermediateForm += 'ङ';
-                                else if (char === 'c') intermediateForm += 'च';
-                                else if (char === 'C') intermediateForm += 'छ';
-                                else if (char === 'j') intermediateForm += 'ज';
-                                else if (char === 'J') intermediateForm += 'झ';
-                                else if (char === 'Y') intermediateForm += 'ञ';
-                                else if (char === 'w') intermediateForm += 'ट';
-                                else if (char === 'W') intermediateForm += 'ठ';
-                                else if (char === 'q') intermediateForm += 'ड';
-                                else if (char === 'Q') intermediateForm += 'ढ';
-                                else if (char === 'R') intermediateForm += 'ण';
-                                else if (char === 't') intermediateForm += 'त';
-                                else if (char === 'T') intermediateForm += 'थ';
-                                else if (char === 'd') intermediateForm += 'द';
-                                else if (char === 'D') intermediateForm += 'ध';
-                                else if (char === 'n') intermediateForm += 'न';
-                                else if (char === 'p') intermediateForm += 'प';
-                                else if (char === 'P') intermediateForm += 'फ';
-                                else if (char === 'b') intermediateForm += 'ब';
-                                else if (char === 'B') intermediateForm += 'भ';
-                                else if (char === 'm') intermediateForm += 'म';
-                                else if (char === 'y') intermediateForm += 'य';
-                                else if (char === 'r') intermediateForm += 'र';
-                                else if (char === 'l') intermediateForm += 'ल';
-                                else if (char === 'v') intermediateForm += 'व';
-                                else if (char === 'S') intermediateForm += 'श';
-                                else if (char === 'z') intermediateForm += 'ष';
-                                else if (char === 's') intermediateForm += 'स';
-                                else if (char === 'h') intermediateForm += 'ह';
-                                else if (char === 'L') intermediateForm += 'ळ';
-                                else intermediateForm += char; // Pass through other characters
-                            }
-                            console.log(`Converted SLP1 "${lookupKey}" to intermediate form: "${intermediateForm}"`);
-                        } catch (e) {
-                            console.error('Error converting SLP1 to intermediate form:', e);
-                            // Fall back to the original word
-                            intermediateForm = lookupKey;
-                        }
-                    } else {
-                        // If it's Devanagari, convert to intermediate form
-                        intermediateForm = devanagariToIntermediate(lookupKey);
-                        console.log(`Converted Devanagari "${lookupKey}" to intermediate form: "${intermediateForm}"`);
-                    }
+                    let intermediateForm = devanagariToIntermediate(lookupKey);
+                    console.log(`Converted Devanagari "${lookupKey}" to intermediate form: "${intermediateForm}"`);
 
                     // Use the intermediate form for lookup
                     lookupKey = intermediateForm;
@@ -1946,12 +1836,8 @@
         window.addEventListener('keydown', function(event) {
             // Handle up arrow key when at the top
             if (window.scrollY === 0 && (event.key === 'ArrowUp' || event.key === 'Up')) {
-                console.log(`Up key, Y=0. ${window.termViewerState.lowestLoadedId}. ${!window.termViewerState.isLoadingTop}`);
-
                 // Check if we're in a term view context
                 if (window.termViewerState.lowestLoadedId && window.termViewerState.lowestLoadedId > 1 && !window.termViewerState.isLoadingTop) {
-                    console.log('Load more');
-
                     // Force reset lastTopTermId to allow loading
                     window.termViewerState.lastTopTermId = null;
 
@@ -1968,17 +1854,9 @@
                     // Calculate batch start, ensuring we don't go below 1
                     const batchStartId = Math.max(1, prevTermId - 7 + 1); // Use BATCH_SIZE (7)
 
-                    // Log what we're doing
-                    console.log(`Adjusted loading range: ${batchStartId} to ${prevTermId} (original lowest: ${lowestLoadedId})`);
-
-                    console.log(`Global keyboard event: Loading more terms above: ${batchStartId} to ${prevTermId}`);
-
                     // Show loading indicator
                     document.getElementById('loading-top').style.display = 'block';
                     window.termViewerState.isLoadingTop = true;
-
-                    // Check if loadMoreTerms is available
-                    console.log(`loadMoreTerms function check: ${typeof window.loadMoreTerms === 'function' ? 'Available' : 'Not available'}`);
 
                     // Load each term in the batch, but only if it's not already in the DOM
                     const loadPromises = [];
@@ -1987,11 +1865,7 @@
                         if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
                             if (typeof window.loadMoreTerms === 'function') {
                                 loadPromises.push(window.loadMoreTerms(id, 'above'));
-                            } else {
-                                console.error(`Cannot load term ${id}: loadMoreTerms function not available`);
                             }
-                        } else {
-                            console.log(`Term ${id} is already in the DOM, skipping`);
                         }
                     }
 
@@ -2016,8 +1890,6 @@
             // Handle down arrow key when at the bottom
             if ((window.innerHeight + window.scrollY >= document.body.offsetHeight - 5) &&
                 (event.key === 'ArrowDown' || event.key === 'Down')) {
-                // console.log('Global keyboard event: Detected down arrow key at the bottom boundary');
-
                 // Check if we're in a term view context and not already loading
                 const termContainers = document.querySelectorAll('.term-container');
                 if (termContainers.length > 0 && !isLoadingBottom) {
@@ -2026,16 +1898,12 @@
                         parseInt(container.dataset.termId, 10)).sort((a, b) => a - b);
                     const highestLoadedId = loadedIds.length > 0 ? loadedIds[loadedIds.length - 1] : currentTermId;
 
-                    //  console.log('Global keyboard event: In term view context, forcing load of more terms below');
-
                     // Force reset lastBottomTermId to allow loading
                     lastBottomTermId = null;
 
                     // Force loading of next terms
                     const nextTermId = highestLoadedId + 1;
                     const batchEndId = nextTermId + BATCH_SIZE - 1;
-
-                    console.log(`Global keyboard event: Loading more terms below: ${nextTermId} to ${batchEndId}`);
 
                     // Show loading indicator
                     document.getElementById('loading-bottom').style.display = 'block';
@@ -2048,11 +1916,7 @@
                         if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
                             if (typeof window.loadMoreTerms === 'function') {
                                 loadPromises.push(window.loadMoreTerms(id, 'below'));
-                            } else {
-                                console.error(`Cannot load term ${id}: loadMoreTerms function not available`);
                             }
-                        } else {
-                            console.log(`Term ${id} is already in the DOM, skipping`);
                         }
                     }
 
