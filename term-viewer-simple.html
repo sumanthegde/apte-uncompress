@@ -152,15 +152,23 @@
 
         .loading {
             text-align: center;
-            padding: 10px;
-            font-size: 1.1em;
+            padding: 5px;
+            font-size: 0.9em;
+            color: #666;
             width: auto;
-            max-width: 300px;
-            margin: 20px auto;
-            background-color: rgba(255, 255, 255, 0.95);
-            border: 1px solid #4CAF50;
-            border-radius: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            max-width: 200px;
+            margin: 10px auto;
+        }
+
+        .scroll-loading-indicator {
+            text-align: center;
+            padding: 3px;
+            font-size: 0.8em;
+            color: #888;
+            width: auto;
+            max-width: 100px;
+            margin: 5px auto;
+            display: none;
         }
 
         .error {
@@ -388,8 +396,8 @@
         <div id="content-area">
             <!-- Loading indicator -->
             <div id="loading" class="loading">
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
-                <span>Loading dictionary...</span>
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
+                <span>Loading...</span>
             </div>
 
             <!-- Error message -->
@@ -409,10 +417,12 @@
             </div>
 
             <div id="loading-top" class="scroll-loading-indicator">
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px;">⟳</div>
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 14px; margin-right: 3px;">⟳</div>
+                <span>Loading...</span>
             </div>
             <div id="loading-bottom" class="scroll-loading-indicator">
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px;">⟳</div>
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 14px; margin-right: 3px;">⟳</div>
+                <span>Loading...</span>
             </div>
 
             <!-- Keyboard navigation hint for bottom of page -->
@@ -1256,6 +1266,10 @@
                     behavior: 'auto'
                 });
 
+                // In case top=0 already and hence handleScroll didn't trigger
+                if(!window.termViewerState.lowestLoadedId)
+                    window.termViewerState.lowestLoadedId = termId;
+
                 console.log('Scrolled to top of page for term', termId);
             }, 100); // Wait for DOM updates to complete
         }
@@ -1283,8 +1297,8 @@
                 document.getElementById('error').style.display = 'none';
                 document.getElementById('loading').style.display = 'block';
                 document.getElementById('loading').innerHTML = `
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
-                <span>Loading dictionary entry...</span>
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
+                <span>Loading...</span>
             `;
 
                 // Set a safety timeout to ensure the loading message doesn't get stuck
@@ -1356,7 +1370,7 @@
                 document.getElementById('error').style.display = 'none';
                 document.getElementById('loading').style.display = 'block';
                 document.getElementById('loading').innerHTML = `
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
                 <span>Looking up "${word}"...</span>
             `;
 
@@ -1732,11 +1746,11 @@
         window.addEventListener('keydown', function(event) {
             // Handle up arrow key when at the top
             if (window.scrollY === 0 && (event.key === 'ArrowUp' || event.key === 'Up')) {
-                console.log('Global keyboard event: Detected up arrow key at the top boundary');
+                console.log(`Up key, Y=0. ${window.termViewerState.lowestLoadedId}. ${!window.termViewerState.isLoadingTop}`);
 
                 // Check if we're in a term view context
                 if (window.termViewerState.lowestLoadedId && window.termViewerState.lowestLoadedId > 1 && !window.termViewerState.isLoadingTop) {
-                    console.log('Global keyboard event: In term view context, forcing load of more terms above');
+                    console.log('Load more');
 
                     // Force reset lastTopTermId to allow loading
                     window.termViewerState.lastTopTermId = null;
