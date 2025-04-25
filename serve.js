@@ -103,13 +103,7 @@ const server = http.createServer((req, res) => {
       }
 
       // Create a script tag with the table data
-      const tableDataScript = `
-      <script>
-      // Pre-loaded table data from table_new.txt
-      const preloadedTableData = ${JSON.stringify(tableNewLines)};
-      console.log("Pre-loaded table data with", preloadedTableData.length, "entries");
-      </script>
-      `;
+      const tableDataScript = `<script>const preloadedTableData = ${JSON.stringify(tableNewLines)};</script>`;
 
       // Insert the script tag before the closing </head> tag
       const modifiedContent = content.replace('</head>', `${tableDataScript}\n</head>`);

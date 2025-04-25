@@ -367,6 +367,33 @@
             color: #999;
             font-size: 0.9em;
         }
+
+        /* Suggestion item styling */
+        .suggestion-item {
+            padding: 8px 12px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
+
+        .suggestion-item:hover {
+            background-color: #f5f5f5;
+        }
+
+        .suggestion-text {
+            font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
+            color: #9c7c38;
+            font-weight: 500;
+        }
+
+        .suggestion-label {
+            font-size: 0.8em;
+            color: #666;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
@@ -375,8 +402,9 @@
         <div id="header" style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; z-index: 100;">
             <div id="file-selector" style="text-align: center;">
                 <div style="display: flex; justify-content: center; align-items: center;">
-                    <div style="display: flex; align-items: center;">
+                    <div style="display: flex; align-items: center; position: relative;">
                         <input type="text" id="devanagari-input" placeholder="Enter Devanagari or SLP1 Word (e.g., अंकः or aMkaH)" style="padding: 8px; width: 300px; margin-right: 10px;">
+                        <div id="suggestions-container" style="display: none; position: absolute; top: 100%; left: 0; width: 300px; max-height: 300px; overflow-y: auto; background-color: white; border: 1px solid #ddd; border-radius: 4px; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2);"></div>
                         <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
                     </div>
                 </div>
@@ -450,6 +478,12 @@
         const WINDOW_AFTER = 15; // 15 terms after
         let loadedTerms = {}; // Map of termId -> term data
         let loadedTermIds = new Set(); // Set of loaded term IDs
+
+        // Predictive text configuration
+        let parsedTableData = []; // Will store the parsed table data as arrays
+        const INITIAL_SUGGESTIONS_COUNT = 15; // Initial number of suggestions to collect
+        const MAX_SUGGESTIONS = 7; // Maximum number of suggestions to show after filtering
+        window.suggestionToEntryMap = new Map(); // Map from suggestion text to entry ID and label
 
         // Base URL for page links
         const PAGE_URL_BASE = "https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=AP90&page=";
@@ -1378,9 +1412,165 @@
             return result;
         }
 
+        // Mapping from Devanagari to SLP1
+        const DEVANAGARI_TO_SLP1 = {
+            // Vowels
+            'अ': 'a', 'आ': 'A', 'इ': 'i', 'ई': 'I',
+            'उ': 'u', 'ऊ': 'U', 'ऋ': 'f', 'ॠ': 'F',
+            'ऌ': 'x', 'ॡ': 'X', 'ए': 'e', 'ऐ': 'E',
+            'ओ': 'o', 'औ': 'O',
+
+            // Consonants
+            'क': 'k', 'ख': 'K', 'ग': 'g', 'घ': 'G', 'ङ': 'N',
+            'च': 'c', 'छ': 'C', 'ज': 'j', 'झ': 'J', 'ञ': 'Y',
+            'ट': 'w', 'ठ': 'W', 'ड': 'q', 'ढ': 'Q', 'ण': 'R',
+            'त': 't', 'थ': 'T', 'द': 'd', 'ध': 'D', 'न': 'n',
+            'प': 'p', 'फ': 'P', 'ब': 'b', 'भ': 'B', 'म': 'm',
+            'य': 'y', 'र': 'r', 'ल': 'l', 'व': 'v',
+            'श': 'S', 'ष': 'z', 'स': 's', 'ह': 'h', 'ळ': 'L',
+
+            // Other marks
+            'ं': 'M', 'ः': 'H', 'ँ': '~',
+
+            // Digits
+            '०': '0', '१': '1', '२': '2', '३': '3', '४': '4',
+            '५': '5', '६': '6', '७': '7', '८': '8', '९': '9'
+        };
+
+        // Function to convert intermediate form back to regular Devanagari
+        function intermediateToDevanagari(text) {
+            if (!text) return '';
+
+            // Convert intermediate Devanagari to SLP1
+            let slp1 = '';
+            for (let i = 0; i < text.length; i++) {
+                const char = text[i];
+                if (DEVANAGARI_TO_SLP1[char]) {
+                    slp1 += DEVANAGARI_TO_SLP1[char];
+                } else {
+                    // Pass through any character not in our mapping
+                    slp1 += char;
+                }
+            }
+
+            // Use sanscript.js to convert SLP1 to Devanagari
+            try {
+                return Sanscript.t(slp1, 'slp1', 'devanagari');
+            } catch (e) {
+                console.error('Error converting to Devanagari:', e);
+                return text; // Return original text if conversion fails
+            }
+        }
+
+        // Function to find the index of the first entry that is lexicographically equal to or greater than the input
+        function findFirstGreaterOrEqual(input) {
+            if (!parsedTableData || parsedTableData.length === 0) {
+                return -1;
+            }
+
+            // Binary search using the (left + 1 < right) pattern
+            let left = 0;
+            let right = parsedTableData.length - 1;
+
+            // Handle edge cases first
+            if (parsedTableData[left][0] >= input) {
+                return left; // First element is already >= input
+            }
+
+            if (parsedTableData[right][0] < input) {
+                return -1; // All elements are < input
+            }
+
+            // Main binary search loop
+            while (left + 1 < right) {
+                const mid = Math.floor(left + (right - left) / 2); // Avoid potential overflow
+                const midValue = parsedTableData[mid][0]; // First field (Devanagari text)
+
+                if (midValue >= input) {
+                    // This could be our answer or there might be a smaller index
+                    right = mid;
+                } else {
+                    // This is definitely not our answer, look in the right half
+                    left = mid;
+                }
+            }
+
+            // At this point, right is our candidate for the first element >= input
+            return right;
+        }
+
+        // Function to get suggestions based on input text
+        function getSuggestions(input, filterLabel = null) {
+            if (!input || input.length === 0) {
+                return [];
+            }
+
+            // Convert input to intermediate form if it's Devanagari
+            const intermediateInput = devanagariToIntermediate(input);
+
+            // Find the first entry that is lexicographically equal to or greater than the input
+            const startIndex = findFirstGreaterOrEqual(intermediateInput);
+            if (startIndex === -1) {
+                return [];
+            }
+
+            // Collect initial suggestions (more than we'll eventually show)
+            const initialSuggestions = [];
+            const seenIntermediateTexts = []; // For tracking duplicates while preserving order
+
+            // Collect up to INITIAL_SUGGESTIONS_COUNT entries
+            for (let i = startIndex; i < parsedTableData.length && initialSuggestions.length < INITIAL_SUGGESTIONS_COUNT; i++) {
+                const entry = parsedTableData[i];
+                const intermediateText = entry[0];
+                const entryId = entry[1];
+                const entryLabel = entry[2];
+
+                // Skip entries with labels ending with 'M_'
+                if (entryLabel && entryLabel.endsWith('M_')) {
+                    continue;
+                }
+
+                // // If filterLabel is provided, only include entries with matching label
+                // if (filterLabel && entryLabel !== filterLabel) {
+                //     continue;
+                // }
+
+                // Skip duplicates (check intermediate text to maintain order)
+                if (seenIntermediateTexts.includes(intermediateText)) {
+                    continue;
+                }
+
+                // Add to our collection and mark as seen
+                initialSuggestions.push({
+                    intermediateText,
+                    entryId,
+                    entryLabel
+                });
+                seenIntermediateTexts.push(intermediateText);
+            }
+
+            // Limit to MAX_SUGGESTIONS
+            const finalSuggestions = initialSuggestions.slice(0, MAX_SUGGESTIONS);
+
+            // Now convert to Devanagari and store mappings
+            return finalSuggestions.map(item => {
+                // Convert the intermediate form back to regular Devanagari
+                const suggestion = intermediateToDevanagari(item.intermediateText);
+
+                // Store the mapping from suggestion to entry ID for lookup
+                window.suggestionToEntryMap.set(suggestion, {
+                    id: item.entryId,
+                    label: item.entryLabel
+                });
+
+                return suggestion;
+            });
+        }
+
         // Function to lookup a word in table_new.txt
         // Returns a Promise that resolves when the lookup is complete
-        async function lookupDevanagariWord(word) {
+        // isAlternativeAttempt tracks if this is an alternative form lookup
+        async function lookupDevanagariWord(word, isAlternativeAttempt = false) {
             return new Promise(async (resolve, reject) => {
                 if (isLoading) return resolve();
 
@@ -1443,10 +1633,26 @@
                     // Use the intermediate form for lookup
                     lookupKey = intermediateForm;
 
-                    // Check if we have preloaded table data
-                    if (typeof preloadedTableData !== 'undefined') {
+                    // Check if we have parsed table data
+                    if (parsedTableData && parsedTableData.length > 0) {
+                        // Log 2: Using parsed table data
+                        console.log('2. Using parsed table data for lookup');
+
+                        // Use binary search to find the exact match
+                        const startIndex = findFirstGreaterOrEqual(lookupKey);
+                        if (startIndex !== -1 && parsedTableData[startIndex][0] === lookupKey) {
+                            // Found an exact match
+                            termId = parsedTableData[startIndex][1];
+                            intermediateFormFound = true;
+                            // Log 3: Term ID found
+                            console.log('3. Term ID found:', termId);
+                        } else {
+                            console.log('No exact match found in parsed table data');
+                        }
+                    } else if (typeof preloadedTableData !== 'undefined') {
+                        // Fallback to the original string-based search if parsed data is not available
                         // Log 2: Using preloaded table data
-                        console.log('2. Using preloaded table data for lookup');
+                        console.log('2. Using preloaded table data for lookup (string-based search)');
 
                         // Search for the word in the preloaded table data
                         for (const line of preloadedTableData) {
@@ -1500,8 +1706,7 @@
                             }
                         }
                     }
-
-
+                    console.log(`termId  ${termId}`);
                     if (termId) {
                         // Clear the safety timeout since we're navigating to the term
                         clearTimeout(safetyTimeout);
@@ -1525,14 +1730,16 @@
                         clearTimeout(safetyTimeout);
                         document.getElementById('loading').style.display = 'none';
 
-                        // Show error message
-                        let errorMessage = `Word "${word}" not found in dictionary.`;
-
-                        document.getElementById('error').style.display = 'block';
-                        document.getElementById('error').innerHTML = errorMessage;
+                        // Hide keyboard hints
                         document.getElementById('keyboard-hint-top').style.display = 'none';
                         document.getElementById('keyboard-hint-bottom').style.display = 'none';
-                        resolve();
+
+                        // Always reject with information about the attempt
+                        reject({
+                            word: word,
+                            isAlternativeAttempt: isAlternativeAttempt,
+                            message: `Word "${word}" not found in dictionary.`
+                        });
                     }
                 } catch (error) {
                     clearTimeout(safetyTimeout);
@@ -1549,6 +1756,121 @@
 
         // Term ID input feature has been removed
 
+        // Function to render suggestions
+        function renderSuggestions(suggestions) {
+            const suggestionsContainer = document.getElementById('suggestions-container');
+
+            // Clear previous suggestions
+            suggestionsContainer.innerHTML = '';
+
+            // Reset selected suggestion index
+            selectedSuggestionIndex = -1;
+
+            if (suggestions.length === 0) {
+                suggestionsContainer.style.display = 'none';
+                return;
+            }
+
+            // Create suggestion items
+            suggestions.forEach(suggestion => {
+                const item = document.createElement('div');
+                item.className = 'suggestion-item';
+                item.innerHTML = `
+                    <span class="suggestion-text">${suggestion}</span>
+                `;
+
+                // Add click event to select this suggestion
+                item.addEventListener('click', () => {
+                    // Set the input value to the selected suggestion
+                    document.getElementById('devanagari-input').value = suggestion;
+
+                    // Hide suggestions
+                    suggestionsContainer.style.display = 'none';
+
+                    // Check if we have the entry ID for this suggestion
+                    const entryInfo = window.suggestionToEntryMap.get(suggestion);
+                    if (entryInfo && entryInfo.id) {
+                        // Create a custom lookup function for the suggestion
+                        const lookupSuggestion = async () => {
+                            try {
+                                // Show loading message
+                                document.getElementById('error').style.display = 'none';
+                                document.getElementById('loading').style.display = 'block';
+                                document.getElementById('loading').innerHTML = `
+                                    <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
+                                    <span>Looking up "${suggestion}"...</span>
+                                `;
+
+                                // Update URL to show the word being looked up
+                                const newUrl = new URL(window.location.href);
+                                // Clear any existing parameters
+                                Array.from(newUrl.searchParams.keys()).forEach(key => {
+                                    newUrl.searchParams.delete(key);
+                                });
+                                // Add the word as a parameter
+                                newUrl.searchParams.set('word', suggestion);
+                                window.history.pushState({word: suggestion, termId: entryInfo.id}, '', newUrl.toString());
+
+                                // Use the term ID directly from the entry info
+                                await navigateToTerm(entryInfo.id);
+
+                                // Hide loading message
+                                document.getElementById('loading').style.display = 'none';
+                            } catch (error) {
+                                console.error('Error in suggestion lookup:', error);
+                                document.getElementById('loading').style.display = 'none';
+                                document.getElementById('error').style.display = 'block';
+                                document.getElementById('error').textContent = `Error looking up word: ${error.message}`;
+                            }
+                        };
+
+                        lookupSuggestion();
+                    } else {
+                        // Fallback to regular lookup if entry info is not available
+                        lookupDevanagariWord(suggestion).catch(error => {
+                            console.error('Error in word lookup from suggestion:', error);
+                        });
+                    }
+
+                    // Defocus the input field
+                    document.getElementById('devanagari-input').blur();
+                });
+
+                suggestionsContainer.appendChild(item);
+            });
+
+            // Show the suggestions container
+            suggestionsContainer.style.display = 'block';
+        }
+
+        // Event listener for input changes to show suggestions
+        document.getElementById('devanagari-input').addEventListener('input', function() {
+            const input = this.value.trim();
+
+            if (input.length < 1) {
+                // Hide suggestions if input is too short
+                document.getElementById('suggestions-container').style.display = 'none';
+                return;
+            }
+
+            // Get suggestions based on input
+            const suggestions = getSuggestions(input);
+
+
+            // Render suggestions
+            renderSuggestions(suggestions);
+        });
+
+        // Hide suggestions when clicking outside
+        document.addEventListener('click', function(event) {
+            const suggestionsContainer = document.getElementById('suggestions-container');
+            const inputField = document.getElementById('devanagari-input');
+
+            if (!suggestionsContainer.contains(event.target) && event.target !== inputField) {
+                suggestionsContainer.style.display = 'none';
+            }
+        });
+
         // Event listener for the lookup Devanagari word button
         document.getElementById('lookup-devanagari').addEventListener('click', function() {
             const inputField = document.getElementById('devanagari-input');
@@ -1557,25 +1879,166 @@
             // Log 1: Input submitted by user
             console.log('1. Input submitted by user:', word);
 
-            lookupDevanagariWord(word).catch(error => {
-                console.error('Error in word lookup:', error);
+            // Hide suggestions
+            document.getElementById('suggestions-container').style.display = 'none';
+
+            // Try to look up the word as entered (not an alternative attempt)
+            lookupDevanagariWord(word, false).catch(error => {
+                console.error('Initial word lookup failed:', error);
+
+                // Check if this was an original word attempt (not an alternative)
+                if (!error.isAlternativeAttempt) {
+                    // Check if the last character is in the range [अ, ौ]
+                    const lastChar = word.charAt(word.length - 1);
+                    const isInRange = lastChar >= 'अ' && lastChar <= 'ौ';
+
+                    if (isInRange) {
+                        console.log('Last character is in range [अ, ौ], trying with ः and ं appended');
+
+                        // Try with visarga (ः) appended
+                        const wordWithVisarga = word + 'ः';
+                        lookupDevanagariWord(wordWithVisarga, true).catch(visargaError => {
+                            console.error('Word lookup with visarga failed:', visargaError);
+
+                            // Try with anusvara (ं) appended
+                            const wordWithAnusvara = word + 'ं';
+                            lookupDevanagariWord(wordWithAnusvara, true).catch(anusvaraError => {
+                                console.error('Word lookup with anusvara failed:', anusvaraError);
+                                console.error('All lookup attempts failed for word:', word);
+
+                                // All attempts failed - now show the error message
+                                document.getElementById('error').style.display = 'block';
+                                document.getElementById('error').innerHTML = `Word "${word}" not found in dictionary.`;
+                            });
+                        });
+                    } else {
+                        console.error('Last character is not in range [अ, ौ], not trying alternative endings');
+
+                        // Not in range for alternatives - show error immediately
+                        document.getElementById('error').style.display = 'block';
+                        document.getElementById('error').innerHTML = error.message;
+                    }
+                } else {
+                    // This was already an alternative attempt - just log the failure
+                    console.error(`Alternative form "${error.word}" lookup failed`);
+                }
             });
             // Defocus the input field to allow normal scrolling with arrow keys
             inputField.blur();
         });
 
+        // Handle keyboard events in the Devanagari input field
+        let selectedSuggestionIndex = -1;
+
+        document.getElementById('devanagari-input').addEventListener('keydown', function(event) {
+            const suggestionsContainer = document.getElementById('suggestions-container');
+            const suggestionItems = suggestionsContainer.querySelectorAll('.suggestion-item');
+
+            // Only process if suggestions are visible
+            if (suggestionsContainer.style.display === 'block') {
+                if (event.key === 'ArrowDown') {
+                    // Move selection down
+                    event.preventDefault();
+                    selectedSuggestionIndex = Math.min(selectedSuggestionIndex + 1, suggestionItems.length - 1);
+                    updateSelectedSuggestion(suggestionItems);
+                } else if (event.key === 'ArrowUp') {
+                    // Move selection up
+                    event.preventDefault();
+                    selectedSuggestionIndex = Math.max(selectedSuggestionIndex - 1, -1);
+                    updateSelectedSuggestion(suggestionItems);
+                } else if (event.key === 'Escape') {
+                    // Hide suggestions on Escape
+                    event.preventDefault();
+                    suggestionsContainer.style.display = 'none';
+                    selectedSuggestionIndex = -1;
+                }
+            }
+        });
+
+        // Function to update the selected suggestion
+        function updateSelectedSuggestion(suggestionItems) {
+            // Remove highlight from all items
+            suggestionItems.forEach(item => {
+                item.style.backgroundColor = '';
+            });
+
+            // Add highlight to selected item
+            if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestionItems.length) {
+                suggestionItems[selectedSuggestionIndex].style.backgroundColor = '#f0f0f0';
+
+                // Ensure the selected item is visible in the container
+                suggestionItems[selectedSuggestionIndex].scrollIntoView({ block: 'nearest' });
+            }
+        }
+
         // Handle Enter key in the Devanagari input field
         document.getElementById('devanagari-input').addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
                 event.preventDefault();
-                // Get the word and look it up directly
+
+                const suggestionsContainer = document.getElementById('suggestions-container');
+                const suggestionItems = suggestionsContainer.querySelectorAll('.suggestion-item');
+
+                // If suggestions are visible and an item is selected, use that
+                if (suggestionsContainer.style.display === 'block' &&
+                    selectedSuggestionIndex >= 0 &&
+                    selectedSuggestionIndex < suggestionItems.length) {
+
+                    // Simulate click on the selected suggestion
+                    suggestionItems[selectedSuggestionIndex].click();
+                    return;
+                }
+
+                // Otherwise, use the input value directly
                 const word = this.value.trim();
 
                 // Log 1: Input submitted by user
                 console.log('1. INPUT submitted by user:', word);
 
-                lookupDevanagariWord(word).catch(error => {
-                    console.error('Error in word lookup:', error);
+                // Hide suggestions
+                suggestionsContainer.style.display = 'none';
+                selectedSuggestionIndex = -1;
+
+                // Try to look up the word as entered (not an alternative attempt)
+                lookupDevanagariWord(word, false).catch(error => {
+                    console.error('Initial word lookup failed:', error);
+
+                    // Check if this was an original word attempt (not an alternative)
+                    if (!error.isAlternativeAttempt) {
+                        // Check if the last character is in the range [अ, ौ]
+                        const lastChar = word.charAt(word.length - 1);
+                        const isInRange = lastChar >= 'अ' && lastChar <= 'ौ';
+
+                        if (isInRange) {
+                            console.log('Last character is in range [अ, ौ], trying with ः and ं appended');
+
+                            // Try with visarga (ः) appended
+                            const wordWithVisarga = word + 'ः';
+                            lookupDevanagariWord(wordWithVisarga, true).catch(visargaError => {
+                                console.error('Word lookup with visarga failed:', visargaError);
+
+                                // Try with anusvara (ं) appended
+                                const wordWithAnusvara = word + 'ं';
+                                lookupDevanagariWord(wordWithAnusvara, true).catch(anusvaraError => {
+                                    console.error('Word lookup with anusvara failed:', anusvaraError);
+                                    console.error('All lookup attempts failed for word:', word);
+
+                                    // All attempts failed - now show the error message
+                                    document.getElementById('error').style.display = 'block';
+                                    document.getElementById('error').innerHTML = `Word "${word}" not found in dictionary.`;
+                                });
+                            });
+                        } else {
+                            console.error('Last character is not in range [अ, ौ], not trying alternative endings');
+
+                            // Not in range for alternatives - show error immediately
+                            document.getElementById('error').style.display = 'block';
+                            document.getElementById('error').innerHTML = error.message;
+                        }
+                    } else {
+                        // This was already an alternative attempt - just log the failure
+                        console.error(`Alternative form "${error.word}" lookup failed`);
+                    }
                 });
                 // Defocus (blur) the input field to allow normal scrolling with arrow keys
                 this.blur();
@@ -1978,11 +2441,25 @@
             if (typeof preloadedTableData !== 'undefined') {
                 console.log(`Preloaded table data available with ${preloadedTableData.length} entries`);
 
+                // Parse the preloaded table data into arrays
+                parsedTableData = preloadedTableData.map(line => {
+                    if (!line.trim()) return null;
+                    const parts = line.split(':').map(part => part.trim());
+                    if (parts.length >= 3) {
+                        return [parts[0], parseInt(parts[1], 10), parts[2]];
+                    } else if (parts.length >= 2) {
+                        return [parts[0], parseInt(parts[1], 10), ''];
+                    }
+                    return null;
+                }).filter(item => item !== null);
+
+                console.log(`Parsed table data into ${parsedTableData.length} arrays`);
+
                 // Show a brief message that the dictionary is ready
                 document.getElementById('loading').style.display = 'block';
                 document.getElementById('loading').innerHTML = `
                     <div style="display: inline-block; font-size: 16px; margin-right: 5px;">✓</div>
-                    <span>Dictionary data loaded (${preloadedTableData.length} entries)</span>
+                    <span>Dictionary data loaded (${parsedTableData.length} entries)</span>
                 `;
 
                 // Hide the message after a short delay
