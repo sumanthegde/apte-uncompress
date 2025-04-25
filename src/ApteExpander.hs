@@ -277,7 +277,7 @@ appender expEnv prev (S_ s) = do
 appender _ prev (S_S_ s) = do
   let nonSlps = munch1 (`notElem` slpCharSet)
   let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
-  uttara <- ExceptT $ Right <$> (parse' slpss s) 
+  uttara <- ExceptT $ Right <$> (parse' slpss s)
   let samasta = sandhiE prev uttara
   return samasta
 
@@ -288,15 +288,15 @@ appender _ prev (S_S_ s) = do
 --   pass not the final word but the "forepart" of the prospective comound.
 --   The forepart is usually the S_ value itself (e.g. गो-त्र-(त्रा)-कर्तृ),
 --   unless S_M_ is in preservingSM (e.g. क्षण-(द)-दा-करः)
-appender expEnv prev l@(S_M_ m) 
+appender expEnv prev l@(S_M_ m)
   | any (`L.isPrefixOf` (thisTerm expEnv ^. ancestry . _Just)) (preservingSM expEnv)
     || l == last (thisTerm expEnv ^. ancestry . _Just) = do
          let nonSlps = munch1 (`elem` "({#--° ,}")
          let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
          let gramVariant = abbrhyp *> return [prev]
-         let err i = Left $ "S_M_ " ++ show i ++ " error: " ++ prev ++ " " ++ m          
+         let err i = Left $ "S_M_ " ++ show i ++ " error: " ++ prev ++ " " ++ m
          let errorOnEmpty ts = if null ts then [err 0] else Right <$> (fst . head $ ts)
-         cur <- ExceptT $ errorOnEmpty (parse (slpss <++ gramVariant) m) 
+         cur <- ExceptT $ errorOnEmpty (parse (slpss <++ gramVariant) m)
          let ans = maybe (err 1) Right (sylReplaceOn1Align' prev cur) -- todo: try 1Align <|> CompatEnd (e.g. jalaja)
          ExceptT [ans]
   | otherwise = return prev
@@ -305,7 +305,7 @@ appender expEnv prev l@(S_M_ m)
 appender _ prev (S_M_S_ s) = do
   let nonSlps = munch1 (`notElem` slpCharSet)
   let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
-  uttara <- ExceptT $ Right <$> (parse' slpss s) 
+  uttara <- ExceptT $ Right <$> (parse' slpss s)
   let samasta = sandhiE prev uttara
   return samasta
 
@@ -442,7 +442,7 @@ run start len = do
   let ts6 = filter (\t -> let a= (t^. ancestry . _Just) in (case a of (L_ _: B_ _: S_ _:S_M_ _:[])-> True; _ -> False)) ts2
 --  morphismsFolder k mwCompounds ts3
 --  collectBanners k ts1 d
-  let expEnv t k = ExpEnv 
+  let expEnv t k = ExpEnv
         { topK1 = k
         , parentTerm = termNil
         , thisTerm = t
@@ -465,7 +465,7 @@ tabulate es = do
   let esFlat = concat $ tToList <$> es
       --showAncestry e = unwords.lines $ showLocs (e ^. ancestry . _Just)
 --      toDevanagari = uncanon . e2s'
-      stripAndSqueeze = unwords . words . unwords . lines 
+      stripAndSqueeze = unwords . words . unwords . lines
       eToExps e = (fmap (uncanon . e2s') . rights) (e ^.. bannerExp . _Just . traverse)
       eToAncestor e = ((braceHashToDevanagari) (loc ((e ^. ancestry . _Just)!!1)))
       eToAncestry e = braceHashToDevanagari ((stripAndSqueeze . showLocs) (e ^. ancestry . _Just))
@@ -475,11 +475,12 @@ tabulate es = do
       table = unlines $ stableUndup $ fmap (L.intercalate " : ") $ concat $ eToRows <$> esFlat
       tablePath = apteOutput </> "table.txt"
       eToL e = (loc ((e ^. ancestry . _Just)!!0))
-      eToTag e = (head . words . showLoc . last) (e ^. ancestry . _Just)
+      eToTag e = last (e ^. ancestry . _Just)
       eToExps_new e = (fmap e2s' . rights) (e ^.. bannerExp . _Just . traverse)
-      eExpToRow_new e exp = [exp, eToL e, eToTag e]
-      eToRows_new e = eExpToRow_new e <$> (eToExps_new e)
-      table_new = unlines $ stableUndup $ fmap (L.intercalate " : ") $ concat $ eToRows_new <$> esFlat
+      eExpToRow_new e exp = (exp, eToTag e, eToL e)
+      eToRows_new e = eExpToRow_new e <$> eToExps_new e
+      calate_132 (exp,tag,l) = exp ++ ":" ++ l ++ ":" ++ (head . words . showLoc) tag
+      table_new = unlines $ fmap calate_132 $ stableUndup $ L.sort $ concatMap eToRows_new esFlat
       tablePath_new = apteOutput </> "table_new.txt"
   writeFile tablePath table
   putStrLn $ "Successfully stored the mapping at " ++ tablePath
@@ -492,7 +493,7 @@ tabSimple es k1ReverseMapPath = do
   let esFlat = concat $ tToList <$> es
       --showAncestry e = unwords.lines $ showLocs (e ^. ancestry . _Just)
 --      toDevanagari = uncanon . e2s'
-      stripAndSqueeze = unwords . words . unwords . lines 
+      stripAndSqueeze = unwords . words . unwords . lines
       isDevanagari c = ord c >= 0x0900 && ord c <= 0x097F
       eToExps e = (fmap (uncanon . e2s') . rights) (e ^.. bannerExp . _Just . traverse)
       eToAncestor e = ((takeWhile isDevanagari . removeParenthesized . braceHashToDevanagari) (loc ((e ^. ancestry . _Just)!!1)))
