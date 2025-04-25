@@ -136,7 +136,7 @@
         .devanagari {
             font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
             font-size: 1.1em;
-            color: #9c7c38; /* Teak wood color - warm golden brown */
+            color: #74591f; /* Teak wood color - warm golden brown */
             font-weight: 500; /* Slightly bolder for better readability */
         }
 
@@ -368,11 +368,32 @@
             font-size: 0.9em;
         }
 
+        /* Suggestions container styling */
+        .suggestions-container {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 400px;
+            /* No max-height to avoid scrollbar */
+            overflow: visible;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            text-align: left;
+        }
+
         /* Suggestion item styling */
         .suggestion-item {
-            padding: 8px 12px;
+            padding: 3px 6px;
             cursor: pointer;
             border-bottom: 1px solid #eee;
+            font-size: 0.95em;
+            text-align: left;
+            line-height: 1.2;
+            height: auto;
         }
 
         .suggestion-item:last-child {
@@ -387,6 +408,12 @@
             font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
             color: #9c7c38;
             font-weight: 500;
+            font-size: 1.2em;
+            text-align: left;
+            display: block;
+            margin: 0;
+            padding: 0;
+            line-height: 1.2;
         }
 
         .suggestion-label {
@@ -403,8 +430,8 @@
             <div id="file-selector" style="text-align: center;">
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <div style="display: flex; align-items: center; position: relative;">
-                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 300px; margin-right: 10px;">
-                        <div id="suggestions-container" style="display: none; position: absolute; top: 100%; left: 0; width: 300px; max-height: 300px; overflow-y: auto; background-color: white; border: 1px solid #ddd; border-radius: 4px; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2);"></div>
+                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 300px; margin-right: 10px; font-size: 1.2em; font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;">
+                        <div id="suggestions-container" class="suggestions-container"></div>
                         <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
                     </div>
                 </div>
@@ -481,8 +508,8 @@
 
         // Predictive text configuration
         let parsedTableData = []; // Will store the parsed table data as arrays
-        const INITIAL_SUGGESTIONS_COUNT = 15; // Initial number of suggestions to collect
-        const MAX_SUGGESTIONS = 7; // Maximum number of suggestions to show after filtering
+        const INITIAL_SUGGESTIONS_COUNT = 20; // Initial number of suggestions to collect
+        const MAX_SUGGESTIONS = 12; // Maximum number of suggestions to show after filtering
         window.suggestionToEntryMap = new Map(); // Map from suggestion text to entry ID and label
 
         // Base URL for page links
@@ -992,6 +1019,9 @@
                     currentTermId = termId;
                     requestedTermId = termId; // This is the term the user specifically requested
 
+                    // Always force a re-render, even if the term is already loaded
+                    // This ensures highlighting is updated for the current searchedWord
+
                     // Calculate the range of terms to load
                     const startTermId = termId; // Start from the current term (no terms before)
                     const endTermId = termId + WINDOW_AFTER; // Load 15 terms after
@@ -1126,7 +1156,8 @@
                     if (termData[0].__placeholder) {
                         termContainer.innerHTML = `<div class="term-row"><em>Term ${id} not available</em></div>`;
                     } else {
-                        // Render the term
+                        // Always re-render the term to ensure highlighting is updated
+                        // This is important when looking up different words within the same term
                         termContainer.innerHTML = termData.map(term => renderTermRow(term)).join('');
                     }
 
@@ -1563,8 +1594,8 @@
                 const entryId = entry[1];
                 const entryLabel = entry[2];
 
-                // Skip entries with labels ending with 'M_'
-                if (entryLabel && entryLabel.endsWith('M_')) {
+                // Skip entries with labels ending with 'M_' unless it's an exact match
+                if (entryLabel && entryLabel.endsWith('M_') && intermediateInput !== intermediateText) {
                     continue;
                 }
 
@@ -1815,9 +1846,7 @@
             suggestions.forEach(suggestion => {
                 const item = document.createElement('div');
                 item.className = 'suggestion-item';
-                item.innerHTML = `
-                    <span class="suggestion-text">${suggestion}</span>
-                `;
+                item.innerHTML = `<span class="suggestion-text">${suggestion}</span>`;
 
                 // Add click event to select this suggestion
                 item.addEventListener('click', () => {
@@ -1850,6 +1879,9 @@
                                 // Add the word as a parameter
                                 newUrl.searchParams.set('word', suggestion);
                                 window.history.pushState({word: suggestion, termId: entryInfo.id}, '', newUrl.toString());
+
+                                // Update the searchedWord variable to ensure proper highlighting
+                                searchedWord = suggestion.trim();
 
                                 // Use the term ID directly from the entry info
                                 await navigateToTerm(entryInfo.id);
