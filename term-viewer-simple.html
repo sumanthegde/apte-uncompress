@@ -403,7 +403,7 @@
             <div id="file-selector" style="text-align: center;">
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <div style="display: flex; align-items: center; position: relative;">
-                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari or SLP1 Word (e.g., अंकः or aMkaH)" style="padding: 8px; width: 300px; margin-right: 10px;">
+                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 300px; margin-right: 10px;">
                         <div id="suggestions-container" style="display: none; position: absolute; top: 100%; left: 0; width: 300px; max-height: 300px; overflow-y: auto; background-color: white; border: 1px solid #ddd; border-radius: 4px; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2);"></div>
                         <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
                     </div>
@@ -1377,6 +1377,44 @@
             '\u094c': '\u0914'  // ौ -> औ
         };
 
+        // Function to convert nasal consonants to anusvara (ं) when followed by consonants from their group
+        function anusvarafy(text) {
+            if (!text) return '';
+
+            // Define consonant groups
+            const groups = {
+                'ङ': ['क', 'ख', 'ग', 'घ'],
+                'ञ': ['च', 'छ', 'ज', 'झ'],
+                'ण': ['ट', 'ठ', 'ड', 'ढ'],
+                'न': ['त', 'थ', 'द', 'ध'],
+                'म': ['प', 'फ', 'ब', 'भ','म']
+            };
+
+            let result = '';
+
+            for (let i = 0; i < text.length; i++) {
+                const currentChar = text[i];
+                const nextChar = i < text.length - 1 ? text[i + 1] : '';
+
+                // Check if current character is a nasal consonant and next character is in its group
+                let shouldConvert = false;
+
+                if (groups[currentChar] && nextChar) {
+                    shouldConvert = groups[currentChar].includes(nextChar);
+                }
+
+                if (shouldConvert) {
+                    // Replace with anusvara
+                    result += 'ं';
+                } else {
+                    // Keep the original character
+                    result += currentChar;
+                }
+            }
+
+            return result;
+        }
+
         // Function to convert Devanagari to intermediate form
         function devanagariToIntermediate(text) {
             // Result buffer
@@ -1505,8 +1543,8 @@
                 return [];
             }
 
-            // Convert input to intermediate form if it's Devanagari
-            const intermediateInput = devanagariToIntermediate(input);
+            // Convert to intermediate form first, then apply anusvarafy
+            const intermediateInput = anusvarafy(devanagariToIntermediate(input));
 
             // Find the first entry that is lexicographically equal to or greater than the input
             const startIndex = findFirstGreaterOrEqual(intermediateInput);
@@ -1627,8 +1665,10 @@
                     let termId = null;
                     let intermediateFormFound = false;
                     let lookupKey = word.trim();
-                    let intermediateForm = devanagariToIntermediate(lookupKey);
-                    console.log(`Converted Devanagari "${lookupKey}" to intermediate form: "${intermediateForm}"`);
+
+                    // Convert to intermediate form first, then apply anusvarafy
+                    let intermediateForm = anusvarafy(devanagariToIntermediate(lookupKey));
+                    console.log(`Converted Devanagari "${lookupKey}" to intermediate form with anusvarafy: "${intermediateForm}"`);
 
                     // Use the intermediate form for lookup
                     lookupKey = intermediateForm;
