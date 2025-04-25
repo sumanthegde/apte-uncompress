@@ -1433,23 +1433,9 @@
                 }, 5000); // 5 second timeout
 
                 try {
-                    // Fetch table_new.txt
-                    // Log 2: Request sent for table_new
-                    console.log('2. Request sent for table_new.txt');
-
-                    const response = await fetch('/table_new.txt');
-                    if (!response.ok) {
-                        clearTimeout(safetyTimeout);
-                        throw new Error(`Failed to load table_new.txt: ${response.status} ${response.statusText}`);
-                    }
-
-                    // Log 3: table_new received
-                    console.log('3. table_new.txt received');
-
-                    const text = await response.text();
-                    const lines = text.split('\n');
-
-                    // Convert Devanagari to intermediate form
+                    // Variables for lookup
+                    let termId = null;
+                    let intermediateFormFound = false;
                     let lookupKey = word.trim();
                     let intermediateForm = devanagariToIntermediate(lookupKey);
                     console.log(`Converted Devanagari "${lookupKey}" to intermediate form: "${intermediateForm}"`);
@@ -1457,23 +1443,60 @@
                     // Use the intermediate form for lookup
                     lookupKey = intermediateForm;
 
-                    // Search for the word in table_new.txt
-                    let termId = null;
-                    let intermediateFormFound = false;
+                    // Check if we have preloaded table data
+                    if (typeof preloadedTableData !== 'undefined') {
+                        // Log 2: Using preloaded table data
+                        console.log('2. Using preloaded table data for lookup');
 
-                    for (const line of lines) {
-                        if (!line.trim()) continue;
+                        // Search for the word in the preloaded table data
+                        for (const line of preloadedTableData) {
+                            if (!line.trim()) continue;
 
-                        const parts = line.split(':').map(part => part.trim());
-                        if (parts.length >= 2 && parts[0] === lookupKey) {
-                            // Found a match, extract the term ID (second field)
-                            const id = parseInt(parts[1], 10);
-                            if (!isNaN(id)) {
-                                termId = id;
-                                intermediateFormFound = true;
-                                // Log 4: Term ID found
-                                console.log('4. Term ID found:', id);
-                                break;
+                            const parts = line.split(':').map(part => part.trim());
+                            if (parts.length >= 2 && parts[0] === lookupKey) {
+                                // Found a match, extract the term ID (second field)
+                                const id = parseInt(parts[1], 10);
+                                if (!isNaN(id)) {
+                                    termId = id;
+                                    intermediateFormFound = true;
+                                    // Log 3: Term ID found
+                                    console.log('3. Term ID found:', id);
+                                    break;
+                                }
+                            }
+                        }
+                    } else {
+                        // Fallback to fetching table_new.txt if preloaded data is not available
+                        // Log 2: Request sent for table_new
+                        console.log('2. Preloaded data not available, fetching table_new.txt');
+
+                        const response = await fetch('/table_new.txt');
+                        if (!response.ok) {
+                            clearTimeout(safetyTimeout);
+                            throw new Error(`Failed to load table_new.txt: ${response.status} ${response.statusText}`);
+                        }
+
+                        // Log 3: table_new received
+                        console.log('3. table_new.txt received');
+
+                        const text = await response.text();
+                        const lines = text.split('\n');
+
+                        // Search for the word in table_new.txt
+                        for (const line of lines) {
+                            if (!line.trim()) continue;
+
+                            const parts = line.split(':').map(part => part.trim());
+                            if (parts.length >= 2 && parts[0] === lookupKey) {
+                                // Found a match, extract the term ID (second field)
+                                const id = parseInt(parts[1], 10);
+                                if (!isNaN(id)) {
+                                    termId = id;
+                                    intermediateFormFound = true;
+                                    // Log 4: Term ID found
+                                    console.log('4. Term ID found:', id);
+                                    break;
+                                }
                             }
                         }
                     }
@@ -1549,7 +1572,7 @@
                 const word = this.value.trim();
 
                 // Log 1: Input submitted by user
-                console.log('1. Input submitted by user:', word);
+                console.log('1. INPUT submitted by user:', word);
 
                 lookupDevanagariWord(word).catch(error => {
                     console.error('Error in word lookup:', error);
@@ -1950,6 +1973,23 @@
                 const headerHeight = document.getElementById('header').offsetHeight;
                 document.getElementById('header-spacer').style.height = headerHeight + 'px';
             });
+
+            // Check if we have preloaded table data
+            if (typeof preloadedTableData !== 'undefined') {
+                console.log(`Preloaded table data available with ${preloadedTableData.length} entries`);
+
+                // Show a brief message that the dictionary is ready
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('loading').innerHTML = `
+                    <div style="display: inline-block; font-size: 16px; margin-right: 5px;">✓</div>
+                    <span>Dictionary data loaded (${preloadedTableData.length} entries)</span>
+                `;
+
+                // Hide the message after a short delay
+                setTimeout(() => {
+                    document.getElementById('loading').style.display = 'none';
+                }, 1500);
+            }
 
             // Make sure loading indicators are hidden initially
             document.getElementById('loading-top').style.display = 'none';

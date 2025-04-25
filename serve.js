@@ -24,6 +24,9 @@ const numericPathRegex = /^\/([0-9]+)$/;
 let pagemarks = {};
 let sortedPagemarkKeys = [];
 
+// Load table_new.txt data at server startup
+let tableNewLines = [];
+
 try {
   const pagemarksPath = path.join(__dirname, 'apteDir.nosync/output/pagemarks.json');
   const pagemarksData = fs.readFileSync(pagemarksPath, 'utf8');
@@ -35,6 +38,17 @@ try {
   console.log(`Loaded pagemarks data with ${sortedPagemarkKeys.length} entries`);
 } catch (error) {
   console.error('Error loading pagemarks data:', error.message);
+}
+
+// Load table_new.txt
+try {
+  const tableNewPath = path.join(__dirname, 'apteDir.nosync/output/table_new.txt');
+  const tableNewData = fs.readFileSync(tableNewPath, 'utf8');
+  tableNewLines = tableNewData.split('\n').filter(line => line.trim());
+
+  console.log(`Loaded table_new.txt with ${tableNewLines.length} entries`);
+} catch (error) {
+  console.error('Error loading table_new.txt:', error.message);
 }
 
 const server = http.createServer((req, res) => {
@@ -78,9 +92,9 @@ const server = http.createServer((req, res) => {
   // Handle numeric JSON paths (for the redirected requests)
   if (req.url.startsWith('/?path=/') && req.url.endsWith('.json')) {
     // This is the term-viewer-simple.html page with a path parameter
-    // Just serve the HTML page, it will request the JSON file
+    // Serve the HTML page with injected table data
     const htmlPath = path.join(__dirname, 'term-viewer-simple.html');
-    fs.readFile(htmlPath, (error, content) => {
+    fs.readFile(htmlPath, 'utf8', (error, content) => {
       if (error) {
         console.error(`Error reading HTML file: ${error.message}`);
         res.writeHead(500);
@@ -88,9 +102,21 @@ const server = http.createServer((req, res) => {
         return;
       }
 
-      console.log(`Serving term-viewer-simple.html with path parameter: ${req.url}`);
+      // Create a script tag with the table data
+      const tableDataScript = `
+      <script>
+      // Pre-loaded table data from table_new.txt
+      const preloadedTableData = ${JSON.stringify(tableNewLines)};
+      console.log("Pre-loaded table data with", preloadedTableData.length, "entries");
+      </script>
+      `;
+
+      // Insert the script tag before the closing </head> tag
+      const modifiedContent = content.replace('</head>', `${tableDataScript}\n</head>`);
+
+      console.log(`Serving term-viewer-simple.html with path parameter and injected table data: ${req.url}`);
       res.writeHead(200, { 'Content-Type': 'text/html' });
-      res.end(content);
+      res.end(modifiedContent);
     });
     return;
   }
@@ -133,6 +159,38 @@ const server = http.createServer((req, res) => {
   let filePath = req.url === '/'
     ? path.join(__dirname, 'term-viewer-simple.html')
     : path.join(__dirname, req.url);
+
+  // Special case for term-viewer-simple.html - inject table_new.txt data
+  if (req.url === '/' || req.url === '/term-viewer-simple.html') {
+    console.log('Serving term-viewer-simple.html with injected table_new.txt data');
+
+    // Read the HTML file
+    fs.readFile(path.join(__dirname, 'term-viewer-simple.html'), 'utf8', (error, content) => {
+      if (error) {
+        console.error(`Error reading HTML file: ${error.message}`);
+        res.writeHead(500);
+        res.end(`Server Error: ${error.message}`);
+        return;
+      }
+
+      // Create a script tag with the table data
+      const tableDataScript = `
+      <script>
+      // Pre-loaded table data from table_new.txt
+      const preloadedTableData = ${JSON.stringify(tableNewLines)};
+      console.log("Pre-loaded table data with", preloadedTableData.length, "entries");
+      </script>
+      `;
+
+      // Insert the script tag before the closing </head> tag
+      const modifiedContent = content.replace('</head>', `${tableDataScript}\n</head>`);
+
+      // Send the modified HTML
+      res.writeHead(200, { 'Content-Type': 'text/html' });
+      res.end(modifiedContent);
+    });
+    return;
+  }
 
   // Special case for es.json
   if (req.url === '/es.json') {
