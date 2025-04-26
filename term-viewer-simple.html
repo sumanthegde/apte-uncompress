@@ -1744,11 +1744,13 @@
 
                 // Check if the input is likely in SLP1 format
                 const originalWord = word;
+                let isSLP1Input = false;
                 if (isLikelySLP1(word)) {
                     try {
                         // Convert SLP1 to Devanagari
                         word = Sanscript.t(word, 'slp1', 'devanagari');
                         console.log(`Converted SLP1 input "${originalWord}" to Devanagari: "${word}"`);
+                        isSLP1Input = true;
                     } catch (e) {
                         console.error(`Error converting SLP1 to Devanagari: ${e.message}`);
                         // Continue with original input if conversion fails
@@ -1888,8 +1890,10 @@
                         // Always reject with information about the attempt
                         reject({
                             word: word,
+                            originalWord: originalWord,
+                            isSLP1Input: isSLP1Input,
                             isAlternativeAttempt: isAlternativeAttempt,
-                            message: `Word "${word}" not found in dictionary.`
+                            message: `Word "${isSLP1Input ? originalWord : word}" not found in dictionary.`
                         });
                     }
                 } catch (error) {
@@ -2046,38 +2050,33 @@
 
                 // Check if this was an original word attempt (not an alternative)
                 if (!error.isAlternativeAttempt) {
+                    // Use the converted Devanagari word for range check
+                    const wordToCheck = error.word; // This is the converted Devanagari word
+                    const displayWord = error.isSLP1Input ? error.originalWord : error.word;
+
                     // Check if the last character is in the range [अ, ौ]
-                    const lastChar = word.charAt(word.length - 1);
+                    const lastChar = wordToCheck.charAt(wordToCheck.length - 1);
                     const isInRange = lastChar >= 'अ' && lastChar <= 'ौ';
 
                     if (isInRange) {
-
-
                         // Try with visarga (ः) appended
-                        const wordWithVisarga = word + 'ः';
-                        lookupDevanagariWord(wordWithVisarga, true).catch(visargaError => {
-
-
+                        const wordWithVisarga = wordToCheck + 'ः';
+                        lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "H" : wordWithVisarga, true).catch(visargaError => {
                             // Try with anusvara (ं) appended
-                            const wordWithAnusvara = word + 'ं';
-                            lookupDevanagariWord(wordWithAnusvara, true).catch(anusvaraError => {
-
-
+                            const wordWithAnusvara = wordToCheck + 'ं';
+                            lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "M" : wordWithAnusvara, true).catch(anusvaraError => {
                                 // All attempts failed - now show the error message
                                 document.getElementById('error').style.display = 'block';
-                                document.getElementById('error').innerHTML = `Word "${word}" not found in dictionary.`;
+                                document.getElementById('error').innerHTML = `Word "${displayWord}" not found in dictionary.`;
                             });
                         });
                     } else {
-
-
                         // Not in range for alternatives - show error immediately
                         document.getElementById('error').style.display = 'block';
                         document.getElementById('error').innerHTML = error.message;
                     }
                 } else {
                     // This was already an alternative attempt - just log the failure
-
                 }
             });
             // Defocus the input field to allow normal scrolling with arrow keys
@@ -2159,38 +2158,33 @@
 
                     // Check if this was an original word attempt (not an alternative)
                     if (!error.isAlternativeAttempt) {
+                        // Use the converted Devanagari word for range check
+                        const wordToCheck = error.word; // This is the converted Devanagari word
+                        const displayWord = error.isSLP1Input ? error.originalWord : error.word;
+
                         // Check if the last character is in the range [अ, ौ]
-                        const lastChar = word.charAt(word.length - 1);
+                        const lastChar = wordToCheck.charAt(wordToCheck.length - 1);
                         const isInRange = lastChar >= 'अ' && lastChar <= 'ौ';
 
                         if (isInRange) {
-
-
                             // Try with visarga (ः) appended
-                            const wordWithVisarga = word + 'ः';
-                            lookupDevanagariWord(wordWithVisarga, true).catch(visargaError => {
-
-
+                            const wordWithVisarga = wordToCheck + 'ः';
+                            lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "H" : wordWithVisarga, true).catch(visargaError => {
                                 // Try with anusvara (ं) appended
-                                const wordWithAnusvara = word + 'ं';
-                                lookupDevanagariWord(wordWithAnusvara, true).catch(anusvaraError => {
-
-
+                                const wordWithAnusvara = wordToCheck + 'ं';
+                                lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "M" : wordWithAnusvara, true).catch(anusvaraError => {
                                     // All attempts failed - now show the error message
                                     document.getElementById('error').style.display = 'block';
-                                    document.getElementById('error').innerHTML = `Word "${word}" not found in dictionary.`;
+                                    document.getElementById('error').innerHTML = `Word "${displayWord}" not found in dictionary.`;
                                 });
                             });
                         } else {
-
-
                             // Not in range for alternatives - show error immediately
                             document.getElementById('error').style.display = 'block';
                             document.getElementById('error').innerHTML = error.message;
                         }
                     } else {
                         // This was already an alternative attempt - just log the failure
-
                     }
                 });
                 // Defocus (blur) the input field to allow normal scrolling with arrow keys
@@ -2590,6 +2584,20 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Set focus on the input box
             document.getElementById('devanagari-input').focus();
+
+            // Fix cursor position when clicking on the input field
+            document.getElementById('devanagari-input').addEventListener('click', function(event) {
+                // If the click position is after the text content, move cursor to the end
+                const inputRect = this.getBoundingClientRect();
+                const clickX = event.clientX - inputRect.left;
+                const textWidth = this.value.length > 0 ?
+                    this.scrollWidth - (this.offsetWidth - this.clientWidth) : 0;
+
+                // If clicked in the empty space (right side of text), move cursor to the end
+                if (clickX > textWidth) {
+                    this.setSelectionRange(this.value.length, this.value.length);
+                }
+            });
 
             // Set header-spacer height to match the header height
             const headerHeight = document.getElementById('header').offsetHeight;
