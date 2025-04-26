@@ -2,7 +2,23 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8082;
+// Parse command line arguments
+const args = process.argv.slice(2);
+const argMap = {};
+for (let i = 0; i < args.length; i += 2) {
+  if (args[i].startsWith('--') && i + 1 < args.length) {
+    argMap[args[i].slice(2)] = args[i + 1];
+  }
+}
+
+const PORT = parseInt(argMap.port || '8080', 10);
+
+// Define paths based on command line arguments or defaults
+const PUBLIC_DIR = argMap.public ? path.resolve(argMap.public) : path.join(__dirname);
+const DATA_DIR = argMap.data ? path.resolve(argMap.data) : path.join(__dirname, 'apteDir.nosync/output');
+
+console.log(`Using PUBLIC_DIR: ${PUBLIC_DIR}`);
+console.log(`Using DATA_DIR: ${DATA_DIR}`);
 
 const MIME_TYPES = {
   '.html': 'text/html',
@@ -28,7 +44,7 @@ let sortedPagemarkKeys = [];
 let tableNewLines = [];
 
 try {
-  const pagemarksPath = path.join(__dirname, 'apteDir.nosync/output/pagemarks.json');
+  const pagemarksPath = path.join(DATA_DIR, 'pagemarks.json');
   const pagemarksData = fs.readFileSync(pagemarksPath, 'utf8');
   pagemarks = JSON.parse(pagemarksData);
 
@@ -42,7 +58,7 @@ try {
 
 // Load table_new.txt
 try {
-  const tableNewPath = path.join(__dirname, 'apteDir.nosync/output/table_new.txt');
+  const tableNewPath = path.join(DATA_DIR, 'table_new.txt');
   const tableNewData = fs.readFileSync(tableNewPath, 'utf8');
   tableNewLines = tableNewData.split('\n').filter(line => line.trim());
 
@@ -58,7 +74,7 @@ const server = http.createServer((req, res) => {
   const numericMatch = req.url.match(numericPathRegex);
   if (numericMatch) {
     const number = numericMatch[1];
-    const shardedFilePath = path.join(__dirname, `apteDir.nosync/output/sharded/${number}.json`);
+    const shardedFilePath = path.join(DATA_DIR, `sharded/${number}.json`);
 
     console.log(`Handling numeric path: ${req.url}, checking file: ${shardedFilePath}`);
 
@@ -93,7 +109,7 @@ const server = http.createServer((req, res) => {
   if (req.url.startsWith('/?path=/') && req.url.endsWith('.json')) {
     // This is the term-viewer-simple.html page with a path parameter
     // Serve the HTML page with injected table data
-    const htmlPath = path.join(__dirname, 'term-viewer-simple.html');
+    const htmlPath = path.join(PUBLIC_DIR, 'term-viewer-simple.html');
     fs.readFile(htmlPath, 'utf8', (error, content) => {
       if (error) {
         console.error(`Error reading HTML file: ${error.message}`);
@@ -119,7 +135,7 @@ const server = http.createServer((req, res) => {
   const numericJsonMatch = req.url.match(/^\/([0-9]+)\.json$/);
   if (numericJsonMatch) {
     const number = numericJsonMatch[1];
-    const shardedFilePath = path.join(__dirname, `apteDir.nosync/output/sharded/${number}.json`);
+    const shardedFilePath = path.join(DATA_DIR, `sharded/${number}.json`);
 
     console.log(`Handling numeric JSON path: ${req.url}, checking file: ${shardedFilePath}`);
 
@@ -151,15 +167,15 @@ const server = http.createServer((req, res) => {
 
   // Handle root path and other paths
   let filePath = req.url === '/'
-    ? path.join(__dirname, 'term-viewer-simple.html')
-    : path.join(__dirname, req.url);
+    ? path.join(PUBLIC_DIR, 'term-viewer-simple.html')
+    : path.join(PUBLIC_DIR, req.url);
 
   // Special case for term-viewer-simple.html - inject table_new.txt data
   if (req.url === '/' || req.url === '/term-viewer-simple.html') {
     console.log('Serving term-viewer-simple.html with injected table_new.txt data');
 
     // Read the HTML file
-    fs.readFile(path.join(__dirname, 'term-viewer-simple.html'), 'utf8', (error, content) => {
+    fs.readFile(path.join(PUBLIC_DIR, 'term-viewer-simple.html'), 'utf8', (error, content) => {
       if (error) {
         console.error(`Error reading HTML file: ${error.message}`);
         res.writeHead(500);
@@ -188,14 +204,14 @@ const server = http.createServer((req, res) => {
 
   // Special case for es.json
   if (req.url === '/es.json') {
-    console.log(`Serving es.json from: ${path.join(__dirname, 'apteDir.nosync/output/es.json')}`);
-    filePath = path.join(__dirname, 'apteDir.nosync/output/es.json');
+    console.log(`Serving es.json from: ${path.join(DATA_DIR, 'es.json')}`);
+    filePath = path.join(DATA_DIR, 'es.json');
   }
 
   // Special case for pagemarks.json
   if (req.url === '/pagemarks.json') {
-    console.log(`Serving pagemarks.json from: ${path.join(__dirname, 'apteDir.nosync/output/pagemarks.json')}`);
-    filePath = path.join(__dirname, 'apteDir.nosync/output/pagemarks.json');
+    console.log(`Serving pagemarks.json from: ${path.join(DATA_DIR, 'pagemarks.json')}`);
+    filePath = path.join(DATA_DIR, 'pagemarks.json');
   }
 
   // Special case for pagemarks-data.json - serve the pre-loaded and processed pagemarks data
@@ -211,14 +227,20 @@ const server = http.createServer((req, res) => {
 
   // Special case for table_new.txt
   if (req.url === '/table_new.txt') {
-    console.log(`Serving table_new.txt from: ${path.join(__dirname, 'apteDir.nosync/output/table_new.txt')}`);
-    filePath = path.join(__dirname, 'apteDir.nosync/output/table_new.txt');
+    console.log(`Serving table_new.txt from: ${path.join(DATA_DIR, 'table_new.txt')}`);
+    filePath = path.join(DATA_DIR, 'table_new.txt');
   }
 
   // Special case for table2.txt (for backward compatibility)
   if (req.url === '/table2.txt') {
-    console.log(`Serving table2.txt from: ${path.join(__dirname, 'apteDir.nosync/output/table2.txt')}`);
-    filePath = path.join(__dirname, 'apteDir.nosync/output/table2.txt');
+    console.log(`Serving table2.txt from: ${path.join(DATA_DIR, 'table2.txt')}`);
+    filePath = path.join(DATA_DIR, 'table2.txt');
+  }
+
+  // Special case for sanscript.js
+  if (req.url === '/sanscript.js') {
+    console.log(`Serving sanscript.js from: ${path.join(PUBLIC_DIR, 'sanscript.js')}`);
+    filePath = path.join(PUBLIC_DIR, 'sanscript.js');
   }
 
   const extname = String(path.extname(filePath)).toLowerCase();
@@ -243,11 +265,11 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}/`);
-  console.log(`Access the Term Viewer at http://localhost:${PORT}/`);
-  console.log(`Access individual terms at http://localhost:${PORT}/<number>`);
-  console.log(`For example: http://localhost:${PORT}/9091`);
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running at http://0.0.0.0:${PORT}/`);
+  console.log(`Access the Term Viewer at http://0.0.0.0:${PORT}/`);
+  console.log(`Access individual terms at http://0.0.0.0:${PORT}/<number>`);
+  console.log(`For example: http://0.0.0.0:${PORT}/9091`);
 });
 
 server.on('error', (error) => {
