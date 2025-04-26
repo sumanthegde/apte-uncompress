@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Term Viewer</title>
+    <title>Apte Dictionary Expanded</title>
     <script src="sanscript.js"></script>
     <style>
         body {
@@ -444,21 +444,43 @@
             color: #666;
             margin-left: 5px;
         }
+
+        /* Email icon hover effect */
+        #header a:hover svg {
+            fill: #333;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Header with search functionality - fixed at top -->
         <div id="header" style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; z-index: 100;">
-            <div id="file-selector" style="text-align: center;">
-                <div style="display: flex; justify-content: center; align-items: center;">
-                    <div style="display: flex; align-items: center; position: relative;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <!-- Simple two-line title on the left, center-aligned text -->
+                <div id="site-title" style="margin-left: 20px; color: #74591f; text-align: center; width: 180px;">
+                    <div style="font-weight: bold; font-size: 1.2em;">Apte Dictionary</div>
+                    <div style="font-size: 0.8em; color: #666; white-space: nowrap;">with compounds expanded</div>
+                </div>
+
+                <!-- Search in the middle - centered group -->
+                <div style="flex-grow: 1; display: flex; justify-content: center; align-items: center;">
+                    <div style="position: relative; display: flex; align-items: center;">
                         <input type="text" id="devanagari-input" placeholder="" style="padding: 8px; width: 300px; margin-right: 10px; font-size: 1.2em; font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;">
                         <div id="suggestions-container" class="suggestions-container"></div>
                         <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
                     </div>
                 </div>
+
+                <!-- Email feedback link on the right -->
+                <div style="margin-right: 20px;">
+                    <a href="mailto:sumant.sanskrit@gmail.com?subject=Apte Dictionary Feedback" title="Send Feedback" style="transition: opacity 0.2s;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="#666" style="transition: fill 0.2s;">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+                        </svg>
+                    </a>
+                </div>
             </div>
+
             <!-- Hidden pagination controls -->
             <div style="display: none;">
                 <span id="pagination-info">Page 1</span>
@@ -468,7 +490,7 @@
         </div>
 
         <!-- Spacer to push content below the fixed header -->
-        <div id="header-spacer"></div>
+        <div id="header-spacer" style="height: 70px;"></div>
 
         <!-- Main content area -->
         <div id="content-area">
