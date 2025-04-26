@@ -453,7 +453,7 @@
             <div id="file-selector" style="text-align: center;">
                 <div style="display: flex; justify-content: center; align-items: center;">
                     <div style="display: flex; align-items: center; position: relative;">
-                        <input type="text" id="devanagari-input" placeholder="Enter Devanagari Word (e.g., अंकः)" style="padding: 8px; width: 300px; margin-right: 10px; font-size: 1.2em; font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;">
+                        <input type="text" id="devanagari-input" placeholder="" style="padding: 8px; width: 300px; margin-right: 10px; font-size: 1.2em; font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;">
                         <div id="suggestions-container" class="suggestions-container"></div>
                         <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
                     </div>
@@ -633,7 +633,7 @@
                     try {
                         // Check if the value looks like Sanskrit (contains SLP1 characters)
                         // This regex checks for common SLP1 characters that indicate Sanskrit
-                        if (/[AIUFXEOMNHSZR]|[kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzshL]/.test(value)) {
+                        if (/[aAiIuUfFxXeEoOMH~]|[kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzshL]/.test(value)) {
                             const devanagari = Sanscript.t(value, 'slp1', 'devanagari');
 
                             // Check if this matches the searched word
@@ -1407,7 +1407,7 @@
                     return resolve();
                 }
 
-                // Reset scroll states to prevent incorrect scrolling
+                // Reset scroll states to prevent incorrect scrollinge
                 resetScrollStates();
 
                 // Force scroll to top to reset view
@@ -1724,6 +1724,12 @@
             });
         }
 
+        // Function to check if input is likely in SLP1 format
+        function isLikelySLP1(text) {
+            const slp1Markers = /[aAiIuUfFxXeEoOMH~]|[kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzshL]/;
+            return slp1Markers.test(text);
+        }
+
         // Function to lookup a word in table_new.txt
         // Returns a Promise that resolves when the lookup is complete
         // isAlternativeAttempt tracks if this is an alternative form lookup
@@ -1734,6 +1740,20 @@
                 if (!word) {
                     alert('Please enter a word');
                     return resolve();
+                }
+
+                // Check if the input is likely in SLP1 format
+                const originalWord = word;
+                if (isLikelySLP1(word)) {
+                    try {
+                        // Convert SLP1 to Devanagari
+                        word = Sanscript.t(word, 'slp1', 'devanagari');
+                        console.log(`Converted SLP1 input "${originalWord}" to Devanagari: "${word}"`);
+                    } catch (e) {
+                        console.error(`Error converting SLP1 to Devanagari: ${e.message}`);
+                        // Continue with original input if conversion fails
+                        word = originalWord;
+                    }
                 }
 
                 // Reset scroll states to prevent incorrect scrolling
@@ -1982,9 +2002,21 @@
                 return;
             }
 
-            // Get suggestions based on input
-            const suggestions = getSuggestions(input);
+            // Check if input is likely in SLP1 format
+            let processedInput = input;
+            if (isLikelySLP1(input)) {
+                try {
+                    // Convert SLP1 to Devanagari for suggestions
+                    processedInput = Sanscript.t(input, 'slp1', 'devanagari');
+                } catch (e) {
+                    console.error(`Error converting SLP1 to Devanagari for suggestions: ${e.message}`);
+                    // Continue with original input if conversion fails
+                    processedInput = input;
+                }
+            }
 
+            // Get suggestions based on processed input
+            const suggestions = getSuggestions(processedInput);
 
             // Render suggestions
             renderSuggestions(suggestions);
@@ -2004,8 +2036,6 @@
         document.getElementById('lookup-devanagari').addEventListener('click', function() {
             const inputField = document.getElementById('devanagari-input');
             const word = inputField.value.trim();
-
-
 
             // Hide suggestions
             document.getElementById('suggestions-container').style.display = 'none';
@@ -2118,9 +2148,6 @@
 
                 // Otherwise, use the input value directly
                 const word = this.value.trim();
-
-
-
 
                 // Hide suggestions
                 suggestionsContainer.style.display = 'none';
