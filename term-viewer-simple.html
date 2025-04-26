@@ -82,6 +82,22 @@
             cursor: default; /* Use default cursor instead of help */
         }
 
+        .external-link-icon {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-right: 3px;
+            fill: #999;
+            vertical-align: middle;
+            transition: fill 0.2s;
+            position: relative;
+            top: -1px;
+        }
+
+        .external-link-icon:hover {
+            fill: #666;
+        }
+
         /* Tooltip for banner */
         .banner::after {
             content: attr(data-tooltip);
@@ -359,13 +375,20 @@
             font-weight: 500; /* Semi-bold instead of bold */
         }
 
-        .term-container::before {
-            content: attr(data-term-id);
+        /* Term ID link styling */
+        .term-id-link {
             position: absolute;
-            left: -40px;
+            left: -45px; /* Moved further left to create gap */
             top: 15px;
             color: #999;
             font-size: 0.9em;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .term-id-link:hover {
+            color: #4CAF50;
+            text-decoration: underline;
         }
 
         /* Suggestions container styling */
@@ -665,6 +688,15 @@
             // Process banner/bannerExp
             const bannerInfo = processBannerExp(term);
             if (bannerInfo.text) {
+                // Extract plain text from banner for the search URL
+                const plainBannerText = bannerInfo.text.replace(/<[^>]*>/g, '');
+                // Create the sanskritkosha.com search URL
+                const searchUrl = `https://sanskritkosha.com/?search=${encodeURIComponent(plainBannerText)}`;
+
+                // Add the external link icon before the banner
+                content += `<a href="${searchUrl}" target="_blank" title="Search on sanskritkosha.com"><svg class="external-link-icon" viewBox="0 0 768 1024" xmlns="http://www.w3.org/2000/svg"><path d="M640 768H128V257.90599999999995L256 256V128H0v768h768V576H640V768zM384 128l128 128L320 448l128 128 192-192 128 128V128H384z"/></svg></a>`;
+
+                // Add the banner element
                 content += `<span class="banner" data-tooltip="${bannerInfo.tooltip}">${bannerInfo.text}</span>`;
                 matchesSearch = bannerInfo.matchesSearch;
             }
@@ -929,6 +961,43 @@
             return null; // Return null if no valid page info could be determined
         }
 
+        // Function to add a clickable term ID link to a term container
+        function addTermIdLink(termContainer, termId) {
+            // Get the term data
+            if (!loadedTerms[termId] || !loadedTerms[termId][0]) {
+                return; // No term data available
+            }
+
+            const term = loadedTerms[termId][0];
+            const lineNumber = term.__line;
+
+            if (!lineNumber) {
+                return; // No line number available
+            }
+
+            // Create the link element
+            const linkElement = document.createElement('a');
+            linkElement.className = 'term-id-link';
+
+            // Get page info for the line number
+            const pageInfo = getPageInfo(lineNumber);
+
+            if (pageInfo) {
+                // Set the link text to the page number
+                linkElement.textContent = termId;
+                linkElement.href = pageInfo.url;
+                linkElement.title = `See PDF page ${pageInfo.pageNumber}`;
+                linkElement.target = '_blank'; // Open in new tab
+            } else {
+                // If no page info is available, just show the line number without a link
+                linkElement.textContent = lineNumber;
+                linkElement.style.cursor = 'default';
+            }
+
+            // Add the link to the term container
+            termContainer.appendChild(linkElement);
+        }
+
         // Function to load a single term
         // Make it globally accessible
         window.loadSingleTerm = async function(termId) {
@@ -1162,6 +1231,9 @@
                         // This is important when looking up different words within the same term
                         termContainer.innerHTML = termData.map(term => renderTermRow(term)).join('');
                     }
+
+                    // Add term ID as a clickable link
+                    addTermIdLink(termContainer, id);
 
                     termsContainer.appendChild(termContainer);
                 }
@@ -2231,6 +2303,9 @@
                         termContainer.innerHTML = termData.map(term => renderTermRow(term)).join('');
                     }
 
+                    // Add term ID as a clickable link
+                    addTermIdLink(termContainer, termId);
+
                     // Add to the DOM in the appropriate position
                     if (direction === 'above') {
                         // Save current scroll position and document height
@@ -2486,6 +2561,9 @@
 
         // Load data based on URL parameters
         document.addEventListener('DOMContentLoaded', function() {
+            // Set focus on the input box
+            document.getElementById('devanagari-input').focus();
+
             // Set header-spacer height to match the header height
             const headerHeight = document.getElementById('header').offsetHeight;
             document.getElementById('header-spacer').style.height = headerHeight + 'px';
