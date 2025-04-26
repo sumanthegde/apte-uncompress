@@ -13,7 +13,7 @@ of nearly all** compounds, annotated with their respective headwords.
 This allows users to locate the proper headword in the dictionary
 when unsure of a compound’s structure.
 
-** **Note**: Currently, three-word compounds are not listed. Future updates will include these.
+** **Note**: Some three-word compounds are not yet captured. Future updates will include these.
 
 ## How to Use
 Access the expanded dictionary through:
