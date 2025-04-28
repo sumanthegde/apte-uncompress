@@ -22,16 +22,16 @@ Access the expanded dictionary through:
 - Local installation:
   1. Clone this repository: `git clone https://github.com/sumanthegde/apte-uncompress.git`
   2. Checkout the deployment_scripts branch: `git checkout deployment_scripts`
-  3. You must now have the dictionary data in `apteDir.nosync/output/` directory (contains `pagemarks.json`, `table_new.txt`, and `sharded/` folder)
-  4. Run the server: `node serve.js --public . --data apteDir.nosync/output`
+  3. You must now have the dictionary data in `data/output/` directory (symlinked to `haskell/apteDir.nosync/output/`), which contains `pagemarks.json`, `table_new.txt`, and `sharded/` folder
+  4. Run the server: `node web/server/serve.js --public web/public --data data/output`
   5. Access the dictionary at `http://localhost:8080`
 
 ## Contributing
 This project combines Haskell-based dictionary processing with a JavaScript-based web interface:
 
-- **Haskell Backend** (master branch): Parses the original Apte dictionary, expands Sanskrit compounds, and generates sharded JSON files and lookup tables. The sharded output (found in the 'shard' branch under apteDir.nosync/output/sharded/) allows for efficient loading of dictionary entries.
+- **Haskell Backend** (in `haskell/` directory): Parses the original Apte dictionary, expands Sanskrit compounds, and generates sharded JSON files and lookup tables. The sharded output (found in `data/output/sharded/`) allows for efficient loading of dictionary entries.
 
-- **JavaScript Frontend** (deployment_scripts branch): Provides a web interface that consumes the generated JSON data, offering search functionality and a clean presentation of dictionary entries.
+- **JavaScript Frontend** (in `web/` directory): Provides a web interface that consumes the generated JSON data, offering search functionality and a clean presentation of dictionary entries.
 
 To contribute:
 
@@ -41,15 +41,24 @@ To contribute:
 3. Navigate to the project directory: `cd apte-uncompress`
 
 ### Generating dictionary data
-1. Run `stack build` to compile the project
-2. Run `stack run` to generate the processed dictionary files
-   - This will create the expanded dictionary in `apteDir.nosync/output/`
+1. Navigate to the Haskell directory: `cd haskell`
+2. Run `stack build` to compile the project
+3. Run `stack run` to generate the processed dictionary files
+   - This will create the expanded dictionary in `data/output/`
    - The main output includes sharded JSON files and table_new.txt
 
 ### Project structure
-- `src/` - Haskell source code for dictionary processing
-- `app/` - Application entry point
-- `apteDir.nosync/` - Dictionary data and output files
+- `haskell/` - Haskell code for dictionary processing
+  - `src/` - Haskell source code
+  - `app/` - Application entry point
+  - `test/` - Test files
+  - `apteDir.nosync/` - Dictionary data and output files
+- `web/` - JavaScript web interface
+  - `public/` - Static web assets (HTML, CSS, client-side JS)
+  - `server/` - Node.js server code
+- `data/` - Dictionary data (symlink to haskell/apteDir.nosync)
+- `deploy/` - Deployment configuration and scripts
+- `scripts/` - Utility scripts for building and data generation
 
 ## Acknowledgments
 
