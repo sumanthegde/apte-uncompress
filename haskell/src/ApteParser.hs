@@ -38,10 +38,11 @@ type BS8B = BS8.ByteString
 --
 --   Let's call the "dot chain" as 'address'. (Note: it's left-to-right, unlike composition)
 --   Recall that (&) === flip ($).
---   Access:  <object> ^. <address>
---   Update: <object> & <address> .~ <value>
---   Morph: <object> & <address> %~ <function>
---   Morph+view: to (\t -> <address> . to <function>)  
+--   Access field: <object> ^. <address>
+--   Update field: <object> & <address> .~ <value>
+--   Update field: <object> & <address> %~ <function>
+--   Map field:    <object> & <address> . to <function>
+--   Morph+view: to (\t -> <address> . to <function>) 
 
 --updateRecordMBanner :: String -> String -> RecordM -> RecordM
 --updateRecordMBanner key newBanner recordM =
