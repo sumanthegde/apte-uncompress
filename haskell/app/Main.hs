@@ -3,7 +3,7 @@ module Main (main) where
 import Utils
 import JsonUtils
 import ApteParser (parserMain)
-import ApteExpander (expanderMain, tabulate, shardAndStore, koshaFormShardAndStore)
+import ApteExpander (expanderMain, tabulate, shardAndStore, koshaFormShardAndStore, sqliteStore)
 import qualified Data.List as L
 import System.FilePath
 
@@ -20,5 +20,7 @@ main = do
   koshaFormShardAndStore es
   putStrLn "Tabulating.."
   tabulate es
+  putStrLn "Storing to sqlite.."
+  sqliteStore es
   putStrLn "\nDone."
 

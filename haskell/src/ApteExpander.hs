@@ -32,6 +32,7 @@ import Data.Aeson.Key (fromString)
 import Data.Aeson.Encode.Pretty
 import qualified Data.ByteString.Lazy as BL
 import qualified Data.String as DS -- (fromString)
+import SqliteUtil
 
 parse' p =  fst . head . parse p
 --parseEither p s = case parse p s of [(parsed,"")] -> parsed; _ -> Left ("Parser error: " ++ s)
@@ -471,6 +472,31 @@ stableUndup = go where
   go (x:y:zs) = if x==y then y: go zs else x: go (y:zs)
   go xs = xs
 
+stripMeaningNum :: String -> String
+stripMeaningNum s = fst $ head $ flip parse s $ do
+  meaningNum <- surrLazy "{@" "@}" <++ pJoin [lit "{", pInt, lit "}"] <++ pure ""
+  munch (const True)
+
+getLocBannerMeanings :: Term -> (String, String, [String])
+getLocBannerMeanings t = let
+  l = whitespaceFix $ showLocs (t ^. ancestry . _Just)
+  ms = t ^. meanings . _Just
+  whitespaceFix = unwords . words . unwords . lines
+  removeAngularBraces = replaceAll (surrLazy "<" ">") ""
+  curateMeaning m = whitespaceFix $ braceHashToDevanagari $ removeAngularBraces $ stripMeaningNum $ whitespaceFix m
+  bs = whitespaceFix $ L.intercalate "," $ rights (t ^. bannerExp . _Just)
+  in (l, bs, curateMeaning <$> ms)
+
+-- Helper to format metadata for TSV
+formatMetadataTSV :: [(Int, (String, String, [String]))] -> [String]
+formatMetadataTSV indexedLbms =
+ map (\(idx, (locStr, bannerExpStr, _)) -> show idx ++ "\t" ++ locStr ++ "\t" ++ bannerExpStr) indexedLbms
+
+-- Helper to format meanings for TSV
+formatMeaningsTSV :: [(Int, (String, String, [String]))] -> [String]
+formatMeaningsTSV indexedLbms =
+ concatMap (\(idx, (_, _, meaningStrs)) -> map (\m -> show idx ++ "\t" ++ m) meaningStrs) indexedLbms
+
 tabulate :: [Term] -> IO ()
 tabulate es = do
   let esFlat = concat $ tToList <$> es
@@ -497,6 +523,34 @@ tabulate es = do
   putStrLn $ "Successfully stored the mapping at " ++ tablePath
   writeFile tablePath_new table_new
   putStrLn $ "Successfully stored new mapping at " ++ tablePath_new
+
+sqliteStore :: [Term] -> IO ()
+sqliteStore es = do
+  let esFlatWithMeanings = concat $ tToListWithF id <$> es
+      lbms = getLocBannerMeanings <$> esFlatWithMeanings
+      indexedLbms = zip [1..] lbms
+      -- metadataLines = formatMetadataTSV indexedLbms
+      -- meaningsLines = formatMeaningsTSV indexedLbms
+      -- metadataFilePath = apteOutput </> "metadata.tsv"
+      -- meaningsFilePath = apteOutput </> "meanings.tsv"
+      -- mIndexesSorted = L.sortOn fst mIndexes
+      -- mIndexesTable = unlines $ fmap (\(tnum, m) -> tnum ++ "\t" ++ m) mIndexesSorted
+      -- mIndexesTablePath = apteOutput </> "mIndexesTable.txt"  
+      metadataRows = map (\(idx, (locStr, bannerExpStr, _)) -> (fromIntegral idx, locStr, bannerExpStr)) indexedLbms
+      metadataTsvPath = apteOutput </> "metadata.tsv"
+      formatMetadataRow (idx, locStr, bannerExpStr) = show idx ++ "\t" ++ locStr ++ "\t" ++ bannerExpStr
+      metadataContent = unlines $ map formatMetadataRow metadataRows
+      meaningsRows = concatMap (\(idx, (_, _, meaningStrs)) -> map (\m -> (fromIntegral idx, m)) meaningStrs) indexedLbms
+      meaningsTsvPath = apteOutput </> "meanings.tsv"
+      formatMeaningRow (idx, meaningStr) = show idx ++ "\t" ++ meaningStr
+      meaningsContent = unlines $ map formatMeaningRow meaningsRows
+  writeFile metadataTsvPath metadataContent
+  putStrLn $ "Successfully wrote metadata TSV to " ++ metadataTsvPath
+  writeFile meaningsTsvPath meaningsContent
+  putStrLn $ "Successfully wrote meanings TSV to " ++ meaningsTsvPath
+  -- Clear existing data and bulk load using executeMany
+  bulkLoadFromTSV metadataRows meaningsRows
+  putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
 
 koshaFormContent :: Term -> String
 koshaFormContent t = let

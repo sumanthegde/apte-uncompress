@@ -55,13 +55,16 @@ sylReplace = replace `on` (reverse . syllabize . trimNonslp2) where
   go ac (f:fulls) (p:patches) = go (p:ac) fulls patches
   go ac fulls _ = reverse fulls ++ ac
   
-tToList :: Term -> [Term]
-tToList t = let
-  self = t {_morphisms = Nothing, _samasas = Nothing, _meanings = Nothing} 
-  morphs = maybe [] (concatMap tToList) (_morphisms t)
-  sams = maybe [] (concatMap tToList) (_samasas t)
+tToListWithF :: (Term -> Term) -> Term -> [Term]
+tToListWithF f t = let
+  self = f $ t {_morphisms = Nothing, _samasas = Nothing} 
+  morphs = maybe [] (concatMap (tToListWithF f)) (_morphisms t)
+  sams = maybe [] (concatMap (tToListWithF f)) (_samasas t)
   kidsInOrder = case last (t^. ancestry . _Just) of S_ _ -> sams ++ morphs; _ -> morphs ++ sams
   in self: kidsInOrder
+
+tToList :: Term -> [Term]
+tToList = tToListWithF (\t -> t {_meanings = Nothing})
 
 isMorphismWithinSubsamasa :: (Term, Term) -> Bool
 isMorphismWithinSubsamasa (this, next) =
