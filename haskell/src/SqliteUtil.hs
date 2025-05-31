@@ -56,7 +56,7 @@ databaseFile = U.apteOutput </> "apte_data.sqlite"
 --       execute conn "INSERT INTO meanings (meta_id, meaning) VALUES (?, ?)" (i, meaningStr)
 
 
--- | Bulk loads data from TSV files into the metadata and meanings tables.
+-- | Bulk loads data from TSV files into the metadata and meani¸ngs tables.
 -- | Bulk loads data from TSV files into the metadata and meanings tables.
 -- | Bulk loads data into the metadata and meanings tables using executeMany.
 bulkLoadFromTSV :: [(Integer, String, String)] -> [(Integer, String)] -> IO ()
@@ -67,14 +67,14 @@ bulkLoadFromTSV metadataRows meaningsRows = do
   execute_ conn "DELETE FROM metadata"
   execute_ conn "CREATE TABLE IF NOT EXISTS metadata (id INTEGER PRIMARY KEY AUTOINCREMENT, ancestry TEXT, expanded_banner TEXT)"
   execute_ conn "CREATE TABLE IF NOT EXISTS meanings (meta_id INTEGER, meaning TEXT, FOREIGN KEY (meta_id) REFERENCES metadata(id))"
-  execute_ conn "CREATE INDEX idx_metadata_ancestry ON metadata (ancestry);"
-  execute_ conn "CREATE INDEX idx_meanings_meta_id ON meanings (meta_id);"
+  execute_ conn "CREATE INDEX IF NOT EXISTS idx_metadata_ancestry ON metadata (ancestry);"
+  execute_ conn "CREATE INDEX IF NOT EXISTS idx_meanings_meta_id ON meanings (meta_id);"
   execute_ conn "BEGIN TRANSACTION"
 
   -- Insert data using executeMany
   executeMany conn "INSERT INTO metadata (id, ancestry, expanded_banner) VALUES (?, ?, ?)" metadataRows
   executeMany conn "INSERT INTO meanings (meta_id, meaning) VALUES (?, ?)" meaningsRows
-
+  executeMany conn "INSERT INTO meanings_fts (meta_id, meaning_text) VALUES (?, ?)" meaningsRows -- Use meaningsRows here
   execute_ conn "COMMIT"
   close conn
   putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
