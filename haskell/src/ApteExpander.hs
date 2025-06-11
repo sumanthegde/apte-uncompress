@@ -19,7 +19,7 @@ import Control.Lens ( (&), (^..), (^.), _Just, _Right )
 import Data.Either
 import Control.Monad
 import System.FilePath
-import System.Directory (createDirectoryIfMissing)
+import System.Directory (createDirectoryIfMissing, doesFileExist)
 import System.Environment
 import System.IO
 import Control.Monad.Trans.Except
@@ -492,6 +492,39 @@ tabulate es = do
   putStrLn $ "Successfully stored the mapping at " ++ tablePath
   writeFile tablePath_new table_new
   putStrLn $ "Successfully stored new mapping at " ++ tablePath_new
+
+koshaFormContent :: Term -> String
+koshaFormContent t = let
+  stripAndSqueeze = unwords . words . unwords . lines
+  concatBannerGramMeaning t = stripAndSqueeze $ unwords ((t ^. banner . _Just):(t ^. gram . _Just) ++ (t ^. meanings . _Just))
+  concatMorphisms t = stripAndSqueeze $ unwords $ concatBannerGramMeaning <$> (t ^. morphisms . _Just)
+  in braceHashToDevanagari $ unwords [concatBannerGramMeaning t, concatMorphisms t]
+
+koshaFormJsonReady :: M.Map Int String -> [Term] -> [[M.Map String String]]
+koshaFormJsonReady pageMarkMap es = let
+  pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
+  pratipadikafys e = pratipadikafy <$> rights (e ^. bannerExp . _Just)
+  getL e = (loc . head) (e ^. ancestry . _Just)
+  getPnum e = maybe ("-") snd $ M.lookupLE (fromJust $ __line e) pageMarkMap
+  koshaFormObjectsDirect e =  [((uncanon . e2s) w, getL e, koshaFormContent e, getPnum e) | w <- pratipadikafys e]
+  samasas_both_S_and_M_S e = (e ^. samasas . _Just) ++ (e ^. morphisms . _Just . traverse . samasas . _Just)
+  koshaFormObjects e = koshaFormObjectsDirect e ++ concat [koshaFormObjects s | s <- samasas_both_S_and_M_S e]
+  koshaFormObjectss = L.groupBy ((==) `on` fst4) (L.sortOn fst4 . concat $ koshaFormObjects <$> es)
+  mapify (w,e,c,p) = M.fromList [("word", w), ("eid", e), ("pagenum", p), ("content", c)]
+  koshaFormMaps = fmap (fmap mapify) koshaFormObjectss
+  in koshaFormMaps
+
+koshaFormShardAndStore :: [Term] -> IO ()
+koshaFormShardAndStore es = do
+  pageMarkMap <- M.mapKeys read <$> load pageMarkPath M.empty :: IO (M.Map Int String)
+  let dir = apteOutput </> "kosha"
+  createDirectoryIfMissing True dir
+  forM_ (koshaFormJsonReady pageMarkMap es) $ \j -> do
+    let w = head j M.! "word"
+        wpath = dir </> (w ++ ".json")
+    -- fileExists <- doesFileExist wpath
+    -- guard $ not fileExists -- if the directory were empty initially
+    store wpath j
 
 tabSimple :: [Term] -> FilePath -> IO ()
 tabSimple es k1ReverseMapPath = do
