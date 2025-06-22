@@ -63,18 +63,21 @@ bulkLoadFromTSV :: [(Integer, String, String)] -> [(Integer, String)] -> IO ()
 bulkLoadFromTSV metadataRows meaningsRows = do
   conn <- open databaseFile
   -- Clear existing data
+  execute_ conn "DROP TABLE IF EXISTS meanings_fts"
   execute_ conn "DELETE FROM meanings"
   execute_ conn "DELETE FROM metadata"
   execute_ conn "CREATE TABLE IF NOT EXISTS metadata (id INTEGER PRIMARY KEY AUTOINCREMENT, ancestry TEXT, expanded_banner TEXT)"
   execute_ conn "CREATE TABLE IF NOT EXISTS meanings (meta_id INTEGER, meaning TEXT, FOREIGN KEY (meta_id) REFERENCES metadata(id))"
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_metadata_ancestry ON metadata (ancestry);"
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_meanings_meta_id ON meanings (meta_id);"
+  execute_ conn "CREATE VIRTUAL TABLE meanings_fts USING fts5(meta_id UNINDEXED, meaning_text, tokenize='porter unicode61');"
   execute_ conn "BEGIN TRANSACTION"
 
   -- Insert data using executeMany
   executeMany conn "INSERT INTO metadata (id, ancestry, expanded_banner) VALUES (?, ?, ?)" metadataRows
   executeMany conn "INSERT INTO meanings (meta_id, meaning) VALUES (?, ?)" meaningsRows
-  executeMany conn "INSERT INTO meanings_fts (meta_id, meaning_text) VALUES (?, ?)" meaningsRows -- Use meaningsRows here
+  execute_ conn "INSERT INTO meanings_fts(meta_id, meaning_text) SELECT meta_id, meaning FROM meanings;"
   execute_ conn "COMMIT"
+
   close conn
   putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
