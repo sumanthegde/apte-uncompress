@@ -1,0 +1,445 @@
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .scroll-loading-indicator {
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            width: auto; /* Auto width to fit content */
+            min-width: 40px; /* Minimum width */
+            text-align: center;
+            padding: 6px 10px; /* Reduced padding */
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid #4CAF50;
+            font-size: 14px;
+            color: #333;
+            z-index: 90;
+            display: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border-radius: 20px;
+        }
+
+        #loading-top {
+            top: 80px; /* Just below the header */
+        }
+
+        #loading-bottom {
+            bottom: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 40px; /* Make room for term IDs */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .term-row {
+            background-color: white;
+            padding: 12px;
+            margin-bottom: 0;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
+        }
+
+        /* Line number styling removed */
+
+        .ancestry {
+            display: inline;
+            color: #555;
+            font-style: italic;
+            margin-right: 10px;
+        }
+
+        .banner {
+            display: inline;
+            font-weight: bold;
+            margin-right: 10px;
+            position: relative;
+            cursor: default; /* Use default cursor instead of help */
+        }
+
+        .external-link-icon {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-right: 3px;
+            fill: #999;
+            vertical-align: middle;
+            transition: fill 0.2s;
+            position: relative;
+            top: -1px;
+        }
+
+        .external-link-icon:hover {
+            fill: #666;
+        }
+
+        /* Tooltip for banner */
+        .banner::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s, visibility 0.2s;
+            z-index: 100;
+        }
+
+        .banner:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .gram {
+            display: inline;
+            color: #0066cc;
+            margin-right: 10px;
+        }
+
+        .meaning {
+            display: inline;
+            margin-right: 10px;
+            cursor: default; /* Use default cursor instead of pointer */
+        }
+
+        /* Add hover effect for banner and meaning */
+        .banner:hover, .meaning:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Mild highlight on hover */
+            border-radius: 2px;
+        }
+
+        .meaning-number {
+            font-weight: bold;
+        }
+
+        .special-text {
+            color: #9c7c38; /* Teak wood color - matching Devanagari */
+            font-style: italic;
+        }
+
+        .devanagari {
+            font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
+            font-size: 1.1em;
+            color: #74591f; /* Teak wood color - warm golden brown */
+            font-weight: 500; /* Slightly bolder for better readability */
+        }
+
+        /* Smaller font for Devanagari text within meaning elements */
+        .meaning .devanagari {
+            font-size: 0.95em;
+        }
+
+        .warning-symbol {
+            color: red;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 5px;
+            font-size: 0.9em;
+            color: #666;
+            width: auto;
+            max-width: 200px;
+            margin: 10px auto;
+        }
+
+        .scroll-loading-indicator {
+            text-align: center;
+            padding: 3px;
+            font-size: 0.8em;
+            color: #888;
+            width: auto;
+            max-width: 100px;
+            margin: 5px auto;
+            display: none;
+        }
+
+        .error {
+            color: #d32f2f;
+            text-align: center;
+            padding: 10px;
+            font-size: 1.1em;
+            width: auto;
+            max-width: 300px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 1px solid #d32f2f;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        /* Nested term sections */
+        .nested-term {
+            display: inline;
+            position: relative;
+            border-radius: 3px;
+            border: 1px solid transparent;
+            padding: 1px 2px;
+            margin: 0 1px;
+            cursor: default; /* Use default cursor instead of pointer */
+        }
+
+        /* Add hover effect for nested terms */
+        .nested-term:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Mild highlight on hover */
+        }
+
+        /* Left border only for nested terms */
+        .nested-morphism {
+            border-color: transparent;
+            border-left: 3px solid rgba(0, 100, 200, 0.3);
+            background-color: transparent;
+            padding-left: 4px;
+        }
+
+        .nested-samasa {
+            border-color: transparent;
+            border-left: 3px solid rgba(150, 0, 200, 0.3);
+            background-color: transparent;
+            padding-left: 4px;
+        }
+
+        /* Nested items with different nesting levels */
+        /* Level 0 (first level) */
+        .nested-morphism[data-nesting-level="0"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.3);
+            margin-left: 2px;
+        }
+
+        .nested-samasa[data-nesting-level="0"] {
+            border-left: 3px solid rgba(150, 0, 200, 0.3);
+            margin-left: 2px;
+        }
+
+        /* Level 1 (second level) */
+        .nested-morphism[data-nesting-level="1"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.5);
+            margin-left: 2px;
+        }
+
+        .nested-samasa[data-nesting-level="1"] {
+            border-left: 3px solid rgba(150, 0, 200, 0.5);
+            margin-left: 2px;
+        }
+
+        /* Level 2 (third level) */
+        .nested-morphism[data-nesting-level="2"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.7);
+            margin-left: 2px;
+        }
+
+        .nested-samasa[data-nesting-level="2"] {
+            border-left: 3px solid rgba(150, 0, 200, 0.7);
+            margin-left: 2px;
+        }
+
+        /* Level 3+ (fourth level and beyond) */
+        .nested-morphism[data-nesting-level="3"],
+        .nested-morphism[data-nesting-level="4"] {
+            border-left: 3px solid rgba(0, 100, 200, 0.9);
+            margin-left: 2px;
+        }
+
+        .nested-samasa[data-nesting-level="3"],
+        .nested-samasa[data-nesting-level="4"] {
+            border-left: 3px solid rgba(150, 0, 200, 0.9);
+            margin-left: 2px;
+        }
+
+        /* Cross-nested items (morphism in samasa or vice versa) */
+        .nested-term .nested-term {
+            margin-left: 2px;
+        }
+
+        /* Hover effect - slightly darker left border */
+        .nested-morphism:hover {
+            border-left-color: rgba(0, 100, 200, 0.8);
+        }
+
+        .nested-samasa:hover {
+            border-left-color: rgba(150, 0, 200, 0.8);
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .pagination button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .pagination button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .pagination-info {
+            margin: 0 15px;
+            line-height: 32px;
+        }
+
+        /* Styling for infinite scroll */
+        .term-container {
+            margin-bottom: 0;
+            position: relative;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .term-container:first-child {
+            border-top: none;
+        }
+
+        /* Highlighting for the looked-up term */
+        .term-container.highlighted {
+            background: linear-gradient(to right, rgba(235, 248, 255, 0.3) 0%, rgba(240, 249, 255, 0.1) 100%); /* Subtle gradient background */
+            border-left: 2px solid rgba(49, 130, 206, 0.5); /* Subtle blue left border */
+            margin-left: -2px; /* Offset the border to maintain alignment */
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+            position: relative;
+            padding-top: 3px; /* Reduced padding */
+            padding-bottom: 3px; /* Reduced padding */
+            margin-top: 2px; /* Reduced space above */
+            margin-bottom: 2px; /* Reduced space below */
+            border-radius: 2px; /* Subtle rounded corners */
+        }
+
+        .term-container.highlighted .term-row {
+            background: transparent; /* Make the row background transparent to show the container gradient */
+        }
+
+        .term-container.highlighted .banner {
+            font-weight: 500; /* Semi-bold instead of bold */
+            color: #2b6cb0; /* Brighter blue for the banner */
+            text-decoration: none; /* No underline */
+            font-size: 1em; /* Normal font size */
+        }
+
+        .term-container.highlighted .meaning {
+            color: #2d3748; /* Slightly darker than normal text */
+            font-weight: normal; /* Normal weight */
+        }
+
+        /* Specific highlighting for nested elements that match the search */
+        .nested-term.search-match {
+            background-color: rgba(252, 241, 184, 1); /* Very light yellow background */
+            padding: 2px 4px;
+            margin: 0 2px;
+            border-radius: 2px;
+        }
+
+        .nested-term.search-match .banner,
+        .nested-term.search-match .meaning {
+            color: #7c2d12; /* Dark orange-brown */
+            font-weight: 500; /* Semi-bold instead of bold */
+        }
+
+        /* Term ID link styling */
+        .term-id-link {
+            position: absolute;
+            left: -45px; /* Moved further left to create gap */
+            top: 15px;
+            color: #999;
+            font-size: 0.9em;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .term-id-link:hover {
+            color: #4CAF50;
+            text-decoration: underline;
+        }
+
+        /* Suggestions container styling */
+        .suggestions-container {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 400px;
+            /* No max-height to avoid scrollbar */
+            overflow: visible;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            text-align: left;
+        }
+
+        /* Suggestion item styling */
+        .suggestion-item {
+            padding: 3px 6px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95em;
+            text-align: left;
+            line-height: 1.2;
+            height: auto;
+        }
+
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
+
+        .suggestion-item:hover {
+            background-color: #f5f5f5;
+        }
+
+        .suggestion-text {
+            font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
+            color: #9c7c38;
+            font-weight: 500;
+            font-size: 1.2em;
+            text-align: left;
+            display: block;
+            margin: 0;
+            padding: 0;
+            line-height: 1.2;
+        }
+
+        .suggestion-label {
+            font-size: 0.8em;
+            color: #666;
+            margin-left: 5px;
+        }
+
+        /* Email icon hover effect */
+        #header a:hover svg {
+            fill: #333;
+        }
+    
