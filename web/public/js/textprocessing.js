@@ -20,6 +20,12 @@
             // Remove <ab> </ab> tags but style the content differently
             text = text.replace(/<ab>(.*?)<\/ab>/g, '<span class="special-text">$1</span>');
 
+            // Remove {v .v} for numbering of forms of verbs (todo: restrict to gram)
+            text = text.replace(/\{v([IV]*?.)v\}/g, '<span class="meaning-number">$1</span>');
+            
+            // Remove {c c} for class number of verbs (todo: restrict to gram)
+            text = text.replace(/\{c([0-9]*?)c\}/g, '<span class="special-text">$1</span>');
+
             return text;
         }
 

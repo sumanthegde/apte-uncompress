@@ -102,43 +102,6 @@
             return pagemarks;
         }
 
-        // Function to add a clickable term ID link to a term container
-        function addTermIdLink(termContainer, termId) {
-            // Get the term data
-            if (!loadedTerms[termId] || !loadedTerms[termId][0]) {
-                return; // No term data available
-            }
-
-            const term = loadedTerms[termId][0];
-            const lineNumber = term.__line;
-
-            if (!lineNumber) {
-                return; // No line number available
-            }
-
-            // Create the link element
-            const linkElement = document.createElement('a');
-            linkElement.className = 'term-id-link';
-
-            // Get page info for the line number
-            const pageInfo = getPageInfo(lineNumber);
-
-            if (pageInfo) {
-                // Set the link text to the page number
-                linkElement.textContent = termId;
-                linkElement.href = pageInfo.url;
-                linkElement.title = `See PDF page ${pageInfo.pageNumber}`;
-                linkElement.target = '_blank'; // Open in new tab
-            } else {
-                // If no page info is available, just show the line number without a link
-                linkElement.textContent = lineNumber;
-                linkElement.style.cursor = 'default';
-            }
-
-            // Add the link to the term container
-            termContainer.appendChild(linkElement);
-        }
-
         // Function to load a single term
         async function loadSingleTerm(termId) {
             try {
@@ -150,16 +113,7 @@
                 if (!response.ok) {
                     // If we get a 404, it might be a gap in the term numbering
                     if (response.status === 404) {
-                        // Create a placeholder term
-                        const placeholderTerm = {
-                            __placeholder: true,
-                            __termId: termId,
-                            _banner: `Term ${termId} not available`
-                        };
-                        // Store in loaded terms
-                        loadedTerms[termId] = [placeholderTerm];
-                        loadedTermIds.add(termId);
-                        return [placeholderTerm];
+                        return [];
                     } else {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
@@ -288,7 +242,7 @@
                     }
 
                     // Add term ID as a clickable link
-                    addTermIdLink(termContainer, id);
+                    termContainer.appendChild(createPdfLink(termContainer, id));
 
                     termsContainer.appendChild(termContainer);
                 }
@@ -357,70 +311,6 @@
                 });
             });
         }
-
-        // Function to get suggestions based on input text
-        function getSuggestions(input, filterLabel = null) {
-            if (!input || input.length === 0) {
-                return [];
-            }
-
-            // Convert to intermediate form first, then apply anusvarafy
-            const intermediateInput = anusvarafy(devanagariToIntermediate(input));
-
-            // Find the first entry that is lexicographically equal to or greater than the input
-            const startIndex = findFirstGreaterOrEqual(intermediateInput);
-            if (startIndex === -1) {
-                return [];
-            }
-
-            // Collect initial suggestions (more than we'll eventually show)
-            const initialSuggestions = [];
-            const seenIntermediateTexts = []; // For tracking duplicates while preserving order
-
-            // Collect up to INITIAL_SUGGESTIONS_COUNT entries
-            for (let i = startIndex; i < parsedTableData.length && initialSuggestions.length < INITIAL_SUGGESTIONS_COUNT; i++) {
-                const entry = parsedTableData[i];
-                const intermediateText = entry[0];
-                const entryId = entry[1];
-                const entryLabel = entry[2];
-
-                // Skip entries with labels ending with 'M_' unless it's an exact match
-                if (entryLabel && entryLabel.endsWith('M_') && intermediateInput !== intermediateText) {
-                    continue;
-                }
-
-                // Skip duplicates (check intermediate text to maintain order)
-                if (seenIntermediateTexts.includes(intermediateText)) {
-                    continue;
-                }
-
-                // Add to our collection and mark as seen
-                initialSuggestions.push({
-                    intermediateText,
-                    entryId,
-                    entryLabel
-                });
-                seenIntermediateTexts.push(intermediateText);
-            }
-
-            // Limit to MAX_SUGGESTIONS
-            const finalSuggestions = initialSuggestions.slice(0, MAX_SUGGESTIONS);
-
-            // Now convert to Devanagari and store mappings
-            return finalSuggestions.map(item => {
-                // Convert the intermediate form back to regular Devanagari
-                const suggestion = intermediateToDevanagari(item.intermediateText);
-
-                // Store the mapping from suggestion to entry ID for lookup
-                suggestionToEntryMap.set(suggestion, {
-                    id: item.entryId,
-                    label: item.entryLabel
-                });
-
-                return suggestion;
-            });
-        }
-
 
         // Function to lookup a word in table_new.txt
         // Returns a Promise that resolves when the lookup is complete
@@ -662,7 +552,114 @@
             suggestionsContainer.style.display = 'block';
         }
 
-        // Event listener for input changes to show suggestions
+        // Function to update the selected suggestion
+        function updateSelectedSuggestion(suggestionItems) {
+            // Remove highlight from all items
+            suggestionItems.forEach(item => {
+                item.style.backgroundColor = '';
+            });
+
+            // Add highlight to selected item
+            if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestionItems.length) {
+                suggestionItems[selectedSuggestionIndex].style.backgroundColor = '#f0f0f0';
+
+                // Ensure the selected item is visible in the container
+                suggestionItems[selectedSuggestionIndex].scrollIntoView({ block: 'nearest' });
+            }
+        }
+
+        async function loadAndRenderNextTerm(termId, direction) {
+            if (isLoading || !termId || termId < 1) return Promise.resolve();
+
+            // Check if this term is already loaded
+            if (document.querySelector(`.term-container[data-term-id="${termId}"]`)) {
+                return Promise.resolve();
+            }
+
+            try {
+                isLoading = true;
+                // Load the term
+                const termData = await loadSingleTerm(termId);
+                if (termData) {
+                    // Double-check that the term hasn't been added while we were loading
+                    if (document.querySelector(`.term-container[data-term-id="${termId}"]`)) {
+                        // console.log(`Term ${termId} was added while loading, skipping`);
+                        isLoading = false;
+                        return;
+                    }
+
+                    // Get the terms container
+                    const termsContainer = document.getElementById('terms-container');
+
+                    // Create a container for this term
+                    const termContainer = document.createElement('div');
+                    termContainer.className = 'term-container';
+                    termContainer.dataset.termId = termId;
+
+                    // Add highlighting class if this is the requested term
+                    if (termId === requestedTermId) {
+                        termContainer.classList.add('highlighted');
+                    }
+
+                    // Check if it's a placeholder
+                    if (termData[0].__placeholder) {
+                        termContainer.innerHTML = `<div class="term-row"><em>Term ${termId} not available</em></div>`;
+                    } else {
+                        // Render the term
+                        termContainer.innerHTML = termData.map(term => processTerm(term)).join('');
+                    }
+
+                    // Add term ID as a clickable link
+                    termContainer.appendChild(createPdfLink(termContainer, termId));
+
+                    // Add to the DOM in the appropriate position
+                    if (direction === 'above') {
+                        // Save current scroll position and document height
+                        const oldScrollY = window.scrollY;
+                        const oldDocumentHeight = document.documentElement.scrollHeight;
+
+                        // Add the new term at the top
+                        termsContainer.insertBefore(termContainer, termsContainer.firstChild);
+                        // const lowestLoadedId = getLowestLoadedId();
+                        // console.log(`added ${termId}`, { lowestLoadedId, isLoadingTop: window.termViewerState.isLoadingTop }, `loadedTermIds range: ${loadedTermIds.size > 0 ? Math.min(...loadedTermIds) : 'empty'}-${loadedTermIds.size > 0 ? Math.max(...loadedTermIds) : 'empty'}`);
+
+                        // Wait for the DOM to update
+                        setTimeout(() => {
+                            // Calculate how much the document height changed
+                            const newDocumentHeight = document.documentElement.scrollHeight;
+                            const heightDifference = newDocumentHeight - oldDocumentHeight;
+
+                            // Adjust scroll position to maintain the same view
+                            if (heightDifference > 0) {
+                                // Special case: if we were at the top (scrollY === 0), don't adjust scroll position
+                                // This allows the user to see the newly loaded content at the top
+                                if (oldScrollY === 0) {
+                                    // console.log('At top of page, not adjusting scroll position to show new content');
+                                } else {
+                                    // Otherwise, maintain the same view by adjusting scroll position
+                                    window.scrollTo(0, oldScrollY + heightDifference);
+                                    // console.log(`Adjusted scroll position by ${heightDifference}px (from ${oldScrollY} to ${oldScrollY + heightDifference})`);
+                                }
+                            }
+                        }, 0);
+                    } else {
+                        termsContainer.appendChild(termContainer);
+                    }
+
+                    // Trim excess terms to maintain the window size
+                    // trimExcessTerms();
+                }
+
+                isLoading = false;
+                return Promise.resolve();
+            } catch (error) {
+                console.error(`Error loading more terms:`, error);
+                isLoading = false;
+                return Promise.reject(error);
+            }
+        }
+
+        // As user types in, show suggestions
         document.getElementById('devanagari-input').addEventListener('input', function() {
             const input = this.value.trim();
 
@@ -702,7 +699,7 @@
             }
         });
 
-        // Event listener for the lookup Devanagari word button
+        // Search button
         document.getElementById('lookup-devanagari').addEventListener('click', function() {
             const inputField = document.getElementById('devanagari-input');
             const word = inputField.value.trim();
@@ -749,7 +746,7 @@
             inputField.blur();
         });
 
-
+        // Up, down, escape keys in input should navigate/hide suggestions
         document.getElementById('devanagari-input').addEventListener('keydown', function(event) {
             const suggestionsContainer = document.getElementById('suggestions-container');
             const suggestionItems = suggestionsContainer.querySelectorAll('.suggestion-item');
@@ -775,23 +772,7 @@
             }
         });
 
-        // Function to update the selected suggestion
-        function updateSelectedSuggestion(suggestionItems) {
-            // Remove highlight from all items
-            suggestionItems.forEach(item => {
-                item.style.backgroundColor = '';
-            });
-
-            // Add highlight to selected item
-            if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < suggestionItems.length) {
-                suggestionItems[selectedSuggestionIndex].style.backgroundColor = '#f0f0f0';
-
-                // Ensure the selected item is visible in the container
-                suggestionItems[selectedSuggestionIndex].scrollIntoView({ block: 'nearest' });
-            }
-        }
-
-        // Handle Enter key in the Devanagari input field
+        // Enter key should submit
         document.getElementById('devanagari-input').addEventListener('keypress', function(event) {
             if (event.key === 'Enter') {
                 event.preventDefault();
@@ -856,99 +837,7 @@
             }
         });
 
-        // Make it globally accessible
-        async function loadAndRenderNextTerm(termId, direction) {
-            if (isLoading || !termId || termId < 1) return Promise.resolve();
-
-            // Check if this term is already loaded
-            if (document.querySelector(`.term-container[data-term-id="${termId}"]`)) {
-                return Promise.resolve();
-            }
-
-            try {
-                isLoading = true;
-                // Load the term
-                const termData = await loadSingleTerm(termId);
-                if (termData) {
-                    // Double-check that the term hasn't been added while we were loading
-                    if (document.querySelector(`.term-container[data-term-id="${termId}"]`)) {
-                        // console.log(`Term ${termId} was added while loading, skipping`);
-                        isLoading = false;
-                        return;
-                    }
-
-                    // Get the terms container
-                    const termsContainer = document.getElementById('terms-container');
-
-                    // Create a container for this term
-                    const termContainer = document.createElement('div');
-                    termContainer.className = 'term-container';
-                    termContainer.dataset.termId = termId;
-
-                    // Add highlighting class if this is the requested term
-                    if (termId === requestedTermId) {
-                        termContainer.classList.add('highlighted');
-                    }
-
-                    // Check if it's a placeholder
-                    if (termData[0].__placeholder) {
-                        termContainer.innerHTML = `<div class="term-row"><em>Term ${termId} not available</em></div>`;
-                    } else {
-                        // Render the term
-                        termContainer.innerHTML = termData.map(term => processTerm(term)).join('');
-                    }
-
-                    // Add term ID as a clickable link
-                    addTermIdLink(termContainer, termId);
-
-                    // Add to the DOM in the appropriate position
-                    if (direction === 'above') {
-                        // Save current scroll position and document height
-                        const oldScrollY = window.scrollY;
-                        const oldDocumentHeight = document.documentElement.scrollHeight;
-
-                        // Add the new term at the top
-                        termsContainer.insertBefore(termContainer, termsContainer.firstChild);
-                        // const lowestLoadedId = getLowestLoadedId();
-                        // console.log(`added ${termId}`, { lowestLoadedId, isLoadingTop: window.termViewerState.isLoadingTop }, `loadedTermIds range: ${loadedTermIds.size > 0 ? Math.min(...loadedTermIds) : 'empty'}-${loadedTermIds.size > 0 ? Math.max(...loadedTermIds) : 'empty'}`);
-
-                        // Wait for the DOM to update
-                        setTimeout(() => {
-                            // Calculate how much the document height changed
-                            const newDocumentHeight = document.documentElement.scrollHeight;
-                            const heightDifference = newDocumentHeight - oldDocumentHeight;
-
-                            // Adjust scroll position to maintain the same view
-                            if (heightDifference > 0) {
-                                // Special case: if we were at the top (scrollY === 0), don't adjust scroll position
-                                // This allows the user to see the newly loaded content at the top
-                                if (oldScrollY === 0) {
-                                    // console.log('At top of page, not adjusting scroll position to show new content');
-                                } else {
-                                    // Otherwise, maintain the same view by adjusting scroll position
-                                    window.scrollTo(0, oldScrollY + heightDifference);
-                                    // console.log(`Adjusted scroll position by ${heightDifference}px (from ${oldScrollY} to ${oldScrollY + heightDifference})`);
-                                }
-                            }
-                        }, 0);
-                    } else {
-                        termsContainer.appendChild(termContainer);
-                    }
-
-                    // Trim excess terms to maintain the window size
-                    // trimExcessTerms();
-                }
-
-                isLoading = false;
-                return Promise.resolve();
-            } catch (error) {
-                console.error(`Error loading more terms:`, error);
-                isLoading = false;
-                return Promise.reject(error);
-            }
-        }
-
-        // Global keyboard event listener for arrow keys
+        // Up, down keys outside input should scroll the page
         window.addEventListener('keydown', function(event) {
             // Handle up arrow key when at the top
             if (window.scrollY === 0 && (event.key === 'ArrowUp' || event.key === 'Up')) {
