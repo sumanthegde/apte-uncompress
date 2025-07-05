@@ -1,6 +1,24 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const sqlite3 = require('sqlite3').verbose();
+const { open } = require('sqlite');
+
+// Database connection
+let db;
+async function initDb() {
+  const dbPath = path.join(DATA_DIR, 'apte_data.sqlite');
+  try {
+    db = await open({
+      filename: dbPath,
+      driver: sqlite3.Database
+    });
+    console.log('Connected to SQLite database');
+  } catch (error) {
+    console.error('Error connecting to SQLite database:', error);
+    process.exit(1);
+  }
+}
 
 // Parse command line arguments
 const args = process.argv.slice(2);
@@ -68,109 +86,22 @@ try {
 }
 
 const server = http.createServer((req, res) => {
-  console.log(`Request: ${req.url}`);
+  console.log(`Req: ${req.url}`);
 
-  // Handle numeric paths like /12345
-  const numericMatch = req.url.match(numericPathRegex);
-  if (numericMatch) {
-    const number = numericMatch[1];
-    const shardedFilePath = path.join(DATA_DIR, `sharded/${number}.json`);
-
-    console.log(`Handling numeric path: ${req.url}, checking file: ${shardedFilePath}`);
-
-    // Check if file exists
-    if (!fs.existsSync(shardedFilePath)) {
-      console.error(`File not found: ${shardedFilePath}`);
-      res.writeHead(404);
-      res.end(`Term with ID ${number} not found`);
-      return;
-    }
-
-    try {
-      // Read the sharded file
-      const content = fs.readFileSync(shardedFilePath, 'utf8');
-      const termObject = JSON.parse(content);
-
-      console.log(`Successfully read term ${number}: ${termObject._banner}`);
-
-      // Redirect to the index.html with a path parameter
-      res.writeHead(302, { 'Location': `/?path=/${number}.json` });
-      res.end();
-      return;
-    } catch (error) {
-      console.error(`Error processing file: ${error.message}`);
-      res.writeHead(500);
-      res.end(`Server Error: ${error.message}`);
-      return;
-    }
-  }
-
-  // Handle numeric JSON paths (for the redirected requests)
-  if (req.url.startsWith('/?path=/') && req.url.endsWith('.json')) {
-    // This is the index.html page with a path parameter
-    // Serve the HTML page with injected table data
-    const htmlPath = path.join(PUBLIC_DIR, 'index.html');
-    fs.readFile(htmlPath, 'utf8', (error, content) => {
-      if (error) {
-        console.error(`Error reading HTML file: ${error.message}`);
-        res.writeHead(500);
-        res.end(`Server Error: ${error.message}`);
-        return;
-      }
-
-      // Create a script tag with the table data
-      const tableDataScript = `<script>const preloadedTableData = ${JSON.stringify(tableNewLines)};</script>`;
-
-      // Insert the script tag before the closing </head> tag
-      const modifiedContent = content.replace('</head>', `${tableDataScript}\n</head>`);
-
-      console.log(`Serving index.html with path parameter and injected table data: ${req.url}`);
-      res.writeHead(200, { 'Content-Type': 'text/html' });
-      res.end(modifiedContent);
-    });
-    return;
-  }
-
-  // Handle direct requests for numeric JSON files
-  const numericJsonMatch = req.url.match(/^\/([0-9]+)\.json$/);
-  if (numericJsonMatch) {
-    const number = numericJsonMatch[1];
-    const shardedFilePath = path.join(DATA_DIR, `sharded/${number}.json`);
-
-    console.log(`Handling numeric JSON path: ${req.url}, checking file: ${shardedFilePath}`);
-
-    // Check if file exists
-    if (!fs.existsSync(shardedFilePath)) {
-      console.error(`File not found: ${shardedFilePath}`);
-      res.writeHead(404);
-      res.end(`Term with ID ${number} not found`);
-      return;
-    }
-
-    try {
-      // Read the sharded file
-      const content = fs.readFileSync(shardedFilePath, 'utf8');
-      const termObject = JSON.parse(content);
-
-      console.log(`Serving JSON for term ${number}`);
-      const wrappedContent = JSON.stringify([termObject]); // Wrap in array to match es.json format
-      res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(wrappedContent);
-      return;
-    } catch (error) {
-      console.error(`Error processing file: ${error.message}`);
-      res.writeHead(500);
-      res.end(`Server Error: ${error.message}`);
-      return;
-    }
-  }
-
-  // Handle root path and other paths
   let filePath = req.url === '/'
     ? path.join(PUBLIC_DIR, 'index.html')
     : path.join(PUBLIC_DIR, req.url);
 
-  // Special case for index.html - inject table_new.txt data
+  // Security check to prevent directory traversal.
+  // We resolve the path and ensure it's within the PUBLIC_DIR.
+  const resolvedPath = path.resolve(filePath);
+  if (!resolvedPath.startsWith(PUBLIC_DIR)) {
+    console.error(`Directory traversal attempt blocked for: ${req.url}`);
+    res.writeHead(403, { 'Content-Type': 'text/plain' });
+    res.end('Forbidden');
+    return;
+  }
+
   if (req.url === '/' || req.url === '/index.html') {
     console.log('Serving index.html with injected table_new.txt data');
 
@@ -199,88 +130,105 @@ const server = http.createServer((req, res) => {
       res.writeHead(200, { 'Content-Type': 'text/html' });
       res.end(modifiedContent);
     });
-    return;
-  }
-
-  // Redirect /term-viewer-simple.html to /index.html for backward compatibility
-  if (req.url === '/term-viewer-simple.html') {
-    res.writeHead(301, { 'Location': '/' });
-    res.end();
-    return;
-  }
-
-  // Special case for es.json
-  if (req.url === '/es.json') {
-    console.log(`Serving es.json from: ${path.join(DATA_DIR, 'es.json')}`);
-    filePath = path.join(DATA_DIR, 'es.json');
-  }
-
-  // Special case for pagemarks.json
-  if (req.url === '/pagemarks.json') {
-    console.log(`Serving pagemarks.json from: ${path.join(DATA_DIR, 'pagemarks.json')}`);
-    filePath = path.join(DATA_DIR, 'pagemarks.json');
-  }
-
-  // Special case for pagemarks-data.json - serve the pre-loaded and processed pagemarks data
-  if (req.url === '/pagemarks-data.json') {
+  } else if(req.url === '/pagemarks-data.json') {
     console.log('Serving pre-loaded pagemarks data');
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       pagemarks: pagemarks,
       sortedKeys: sortedPagemarkKeys
     }));
-    return;
-  }
-
-  // Special case for table_new.txt
-  if (req.url === '/table_new.txt') {
-    console.log(`Serving table_new.txt from: ${path.join(DATA_DIR, 'table_new.txt')}`);
-    filePath = path.join(DATA_DIR, 'table_new.txt');
-  }
-
-  // Special case for table2.txt (for backward compatibility)
-  if (req.url === '/table2.txt') {
-    console.log(`Serving table2.txt from: ${path.join(DATA_DIR, 'table2.txt')}`);
-    filePath = path.join(DATA_DIR, 'table2.txt');
-  }
-
-  // Special case for sanscript.js
-  if (req.url === '/sanscript.js') {
-    console.log(`Serving sanscript.js from: ${path.join(PUBLIC_DIR, 'js/sanscript.js')}`);
-    filePath = path.join(PUBLIC_DIR, 'js/sanscript.js');
-  }
-
-  const extname = String(path.extname(filePath)).toLowerCase();
-  const contentType = MIME_TYPES[extname] || 'application/octet-stream';
-
-  fs.readFile(filePath, (error, content) => {
-    if (error) {
-      if (error.code === 'ENOENT') {
-        console.error(`File not found: ${filePath}`);
-        res.writeHead(404);
-        res.end('File not found');
+  } else if(req.url.endsWith('.js') || req.url.endsWith('.css')){ 
+    // scripts themselves, or any resource (in public directory)
+    
+    const extname = String(path.extname(filePath)).toLowerCase();
+    const contentType = MIME_TYPES[extname] || 'application/octet-stream';
+  
+    fs.readFile(filePath, (error, content) => {
+      if (error) {
+        if (error.code === 'ENOENT') {
+          console.error(`File not found: ${filePath}`);
+          res.writeHead(404);
+          res.end('File not found');
+        } else {
+          console.error(`Server error: ${error.code}`);
+          res.writeHead(500);
+          res.end(`Server Error: ${error.code}`);
+        }
       } else {
-        console.error(`Server error: ${error.code}`);
-        res.writeHead(500);
-        res.end(`Server Error: ${error.code}`);
+        console.log(`Serving file: ${filePath}`);
+        res.writeHead(200, { 'Content-Type': contentType });
+        res.end(content, 'utf-8');
       }
-    } else {
-      console.log(`Serving file: ${filePath}`);
-      res.writeHead(200, { 'Content-Type': contentType });
-      res.end(content, 'utf-8');
-    }
-  });
-});
+    });  
+  } else if (req.url.startsWith('/text-query')) {
+    handleTextQuery(req, res);
+  } else {
+    res.writeHead(404, { 'Content-Type': 'text/plain' });
+    res.end('Not found');
+  }
 
-server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running at http://0.0.0.0:${PORT}/`);
-  console.log(`Access the Term Viewer at http://0.0.0.0:${PORT}/`);
-  console.log(`Access individual terms at http://0.0.0.0:${PORT}/<number>`);
-  console.log(`For example: http://0.0.0.0:${PORT}/9091`);
 });
 
 server.on('error', (error) => {
   console.error('Server error:', error);
 });
+
+// Initialize database and start server
+initDb().then(() => {
+  server.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server running at http://0.0.0.0:${PORT}/`);
+    console.log(`Access the Term Viewer at http://0.0.0.0:${PORT}/`);
+    console.log(`Access individual terms at http://0.0.0.0:${PORT}/<number>`);
+    console.log(`For example: http://0.0.0.0:${PORT}/9091`);
+  });
+}).catch(err => {
+  console.error('Failed to start server:', err);
+  process.exit(1);
+});
+
+// Handle text search queries
+async function handleTextQuery(req, res) {
+  const url = new URL(req.url, `http://${req.headers.host}`);
+  const searchTerm = url.searchParams.get('q');
+  // Optional pagination offset (?from=NN)
+  let offset = parseInt(url.searchParams.get('from') || '0', 10);
+  if (isNaN(offset) || offset < 0) offset = 0;
+
+  if (!searchTerm) {
+    res.writeHead(400, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ error: 'Search term is required' }));
+    return;
+  }
+
+  try {
+    // snippet(meanings_fts, 1, '<b>', '</b>', '...', 20) as snippet 
+
+    const query = `
+      SELECT id, expanded_banner, meaning_text as snippet, ancestry
+      FROM meanings_fts 
+      JOIN metadata ON meta_id = id 
+      WHERE meaning_text MATCH ?
+      ORDER BY (instr(lower(meaning_text), lower(?)) > 0) DESC,
+                instr(lower(meaning_text), lower(?))
+      LIMIT 50 OFFSET ?`;
+    
+    const results = await db.all(query, [searchTerm, searchTerm, searchTerm, offset]);
+    console.log(query, searchTerm, offset);
+    
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({
+      query: searchTerm,
+      results: results,
+      offset
+    }));
+  } catch (error) {
+    console.error('Error executing search query:', error);
+    res.writeHead(500, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ 
+      error: 'Error executing search',
+      details: error.message 
+    }));
+  }
+}
 
 console.log('Starting server...');

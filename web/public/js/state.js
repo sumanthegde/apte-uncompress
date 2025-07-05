@@ -4,6 +4,7 @@
         let currentTermId = null; // Current term ID being viewed
         let requestedTermId = null; // Track the term that was specifically requested
         let searchedWord = null; // Store the Devanagari word that was searched
+        let textSearchMode = false; // Whether searching the meaning texts
         let isLoading = false; // Flag to prevent multiple simultaneous loads
 
         // Infinite scroll configuration`
@@ -28,3 +29,6 @@
 
         // Base URL for page links
         const PAGE_URL_BASE = "https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=AP90&page=";
+        const TERM_URL_BASE = "https://cdn.jsdelivr.net/gh/sumanthegde/apte-uncompress@latest/kosha-nested";
+
+        const meaningSearchBeginner = '/';

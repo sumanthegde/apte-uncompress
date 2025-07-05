@@ -7,7 +7,7 @@ function processBannerExp(term) {
             // No warning symbol, keeping it minimal
             return {
                 text: processPlainText(term._banner),
-                tooltip: 'Couldn\'t expand',
+                tooltip: 'Could not expand.',
                 isExpanded: false,
                 matchesSearch: false
             };
@@ -65,7 +65,7 @@ function processBannerExp(term) {
         // No warning symbol, keeping it minimal
         return {
             text: processPlainText(term._banner),
-            tooltip: 'Couldn not expand',
+            tooltip: 'Could not expand',
             isExpanded: false,
             matchesSearch: false
         };
@@ -79,6 +79,7 @@ function processBannerExp(term) {
 function processBannerGramMeans(term) {
     let content = '';
     let matchesSearch = false;
+    let meaningTextMatchesSeach = false;
 
     // Process banner/bannerExp
     const bannerInfo = processBannerExp(term);
@@ -102,13 +103,19 @@ function processBannerGramMeans(term) {
     }
 
     // Meanings
-    if (term._meanings && term._meanings.length) {
-        term._meanings.forEach(meaning => {
-            content += `<span class="meaning">${processMeaning(processSpecialText(meaning))}</span>`;
-        });
-    }
+    term._meanings.forEach(meaning => {
+        const processedMeaning = processMeaning(processSpecialText(meaning));
+        // Check if the processed meaning contains the searched word (case-insensitive)
+        let hasMatch = false;
+        if (typeof searchedWord === 'string' && searchedWord.length) {
+            hasMatch = processedMeaning.toLowerCase().includes(searchedWord.toLowerCase());
+            meaningTextMatchesSeach = true;
+        }
+        const spanClass = hasMatch ? 'meaning meaning-match' : 'meaning';
+        content += `<span class="${spanClass}">${processedMeaning}</span>`;
+    });
 
-    return { content, matchesSearch };
+    return { content, matchesSearch, meaningTextMatchesSeach };
 }
 
 // Recursive function to process morphisms at any nesting level
@@ -244,4 +251,3 @@ function processTerm(term) {
     const matchClass = hasMatch ? ' has-match' : '';
     return `<div class="term-row${matchClass}">${rowContent}</div>`;
 }
-

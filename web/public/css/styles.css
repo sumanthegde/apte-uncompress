@@ -1,10 +1,14 @@
-    
+            
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
             background-color: #f5f5f5;
+            /* Always reserve space for vertical scrollbar to prevent horizontal layout shift */
+            overflow-y: scroll;
+            /* For browsers supporting it, ensure stable scrollbar gutter */
+            scrollbar-gutter: stable;
         }
 
         @keyframes spin {
@@ -12,26 +16,27 @@
             100% { transform: rotate(360deg); }
         }
 
+        /* ---------- scroll loading indicators (top / bottom) ----------------- */
         .scroll-loading-indicator {
             position: fixed;
             left: 50%;
             transform: translateX(-50%);
-            width: auto; /* Auto width to fit content */
-            min-width: 40px; /* Minimum width */
+            width: auto;
+            min-width: 40px;
             text-align: center;
-            padding: 6px 10px; /* Reduced padding */
+            padding: 6px 10px;
             background-color: rgba(255, 255, 255, 0.95);
             border: 1px solid #4CAF50;
             font-size: 14px;
             color: #333;
             z-index: 90;
-            display: none;
+            display: none;            /* visible only when JS turns it on */
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
             border-radius: 20px;
         }
 
         #loading-top {
-            top: 80px; /* Just below the header */
+            top: 90px;                /* just below header */
         }
 
         #loading-bottom {
@@ -169,7 +174,7 @@
             margin: 10px auto;
         }
 
-        .scroll-loading-indicator {
+        /* .scroll-loading-indicator {
             text-align: center;
             padding: 3px;
             font-size: 0.8em;
@@ -178,7 +183,7 @@
             max-width: 100px;
             margin: 5px auto;
             display: none;
-        }
+        } */
 
         .error {
             color: #d32f2f;
@@ -289,8 +294,7 @@
         /* Pagination */
         .pagination {
             display: flex;
-            justify-content: center;
-            margin: 20px 0;
+            justify-content: left;
         }
 
         .pagination button {
@@ -442,4 +446,90 @@
         #header a:hover svg {
             fill: #333;
         }
-    
+
+        /* ---- Text Query Results (Paragraph Layout) ---- */
+
+        .result-item {
+            display: inline-block; /* Allow multiple items per line */
+            cursor: pointer;
+            padding: 4px 6px;
+            margin: 4px 8px 4px 0; /* right margin to separate items */
+            border-radius: 4px;
+            transition: background-color 0.15s ease-in-out;
+            vertical-align: top;
+            max-width: 100%;
+            background-color: #ffffff;
+            border: none; /* 1px solid #cbd5e0; /* light border to look like button */
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        }
+
+        .result-item .result-banner,
+        .result-item .result-snippet {
+            white-space: normal;
+        }
+
+        .result-item + .result-item {
+            border-top: none;
+        }
+
+        .result-banner {
+            font-weight: 600;
+            color: #2b6cb0; /* blue */
+            margin-right: 6px;
+            word-break: break-word;
+        }
+
+        .result-snippet {
+            color: #2d3748; /* dark gray */
+            opacity: 0.85;
+            word-break: break-word;
+        }
+
+        /* Ensure each banner-snippet pair is visually distinct */
+        .result-item + .result-item {
+            border-top: 1px solid #e2e8f0;
+        }
+
+        /* Distinct box for query head results */
+        #results-container {
+            display: inline-block; /* shrink to fit */
+            background: #fdfdfd;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 8px 10px;
+            margin-bottom: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+
+        /* Hover / focus effect for the button-like fragment */
+        .result-item:hover {
+            background-color: #f0f7ff; /* light blue tint */
+            border-color: #90cdf4; /* subtle blue border */
+        }
+
+        /* Ensure bookview container establishes a new positioning context */
+        #bookview-container {
+            position: relative;
+        }
+
+        /* Keep loading message at top of its container and span full width */
+        #bookview-container > #loading {
+            display: block;
+            margin: 0 auto 10px auto; /* top of container */
+        }
+            
+        /* Highlight a meaning that contains the searched word */
+        .meaning-match {
+            background: #f8ab04;        
+            border-radius: 2px;
+            padding: 0 2px;
+            font-weight: 600;           /* slightly bolder */
+        }
+
+        .search-tip {
+            margin-right: 6px;
+            cursor: help;
+            font-size: 1.1em;
+            user-select: none;
+        }
+

@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apte Dictionary Expanded</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/state.js"></script>
     <script src="js/sanscript.js"></script>
+    <script src="js/state.js"></script>
     <script src="js/slputils.js"></script>
     <script src="js/textprocessing.js"></script>
     <script src="js/termprocessing.js"></script>
     <script src="js/utils.js"></script>
 
 </head>
+
 <body>
     <div class="container">
         <!-- Header with search functionality - fixed at top -->
-        <div id="header" style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; z-index: 100;">
+        <div id="header"
+            style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; z-index: 100;">
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <!-- Simple two-line title on the left, center-aligned text -->
                 <div id="site-title" style="margin-left: 20px; color: #74591f; text-align: center; width: 180px;">
@@ -26,18 +29,28 @@
 
                 <!-- Search in the middle - centered group -->
                 <div style="flex-grow: 1; display: flex; justify-content: center; align-items: center;">
-                    <div style="position: relative; display: flex; align-items: center;">
-                        <input type="text" id="devanagari-input" placeholder="" style="padding: 8px; width: 300px; margin-right: 10px; font-size: 1.2em; font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;">
+                    <div style="position: relative; display: flex; align-items: flex-start;">
+                        <div style="display:flex; flex-direction:column; align-items:start;">
+                            <input type="text" id="user-input"
+                                style="padding: 8px; width: 300px; margin-right: 10px; font-size: 1.2em; font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;">
+                            <div class="search-instruction" style="text-align: center; margin: 5px 0; font-size: 12px; color: #777;">
+                                Tip: prefix a slash ( / ) to search within meaning texts
+                            </div>
+                        </div>
                         <div id="suggestions-container" class="suggestions-container"></div>
-                        <button id="lookup-devanagari" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Search</button>
+                        <button id="search-button"
+                            style="background-color: #4CAF50; color: white; border: none; padding: 0 16px; height: 40px; cursor: pointer; border-radius: 4px; display: flex; align-items: center;">Search</button>
                     </div>
                 </div>
 
                 <!-- Email feedback link on the right -->
                 <div style="margin-right: 20px;">
-                    <a href="mailto:sumant.sanskrit@gmail.com?subject=Apte Dictionary Feedback" title="Send Feedback" style="transition: opacity 0.2s;">
+                    <a href="mailto:sumant.sanskrit@gmail.com?subject=Apte Dictionary Feedback" title="Send Feedback"
+                        style="transition: opacity 0.2s;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="#666" style="transition: fill 0.2s;">
-                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+                            <path
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z">
+                            </path>
                         </svg>
                     </a>
                 </div>
@@ -49,46 +62,60 @@
 
         <!-- Main content area -->
         <div id="content-area">
-            <!-- Loading indicator -->
-            <div id="loading" class="loading">
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
-                <span>Loading...</span>
+            <div id="text-query-results-container" style="display: none;">
             </div>
 
-            <!-- Error message -->
-            <div id="error" class="error" style="display: none;"></div>
+            <div id="bookview-container">
+                <!-- Loading indicator -->
+                <div id="loading" class="loading">
+                    <div
+                        style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">
+                        ⟳</div>
+                    <span>Loading...</span>
+                </div>
 
-            <!-- Keyboard navigation hint for top of page -->
-            <div id="keyboard-hint-top" style="text-align: center; margin: 5px 0; font-size: 12px; color: #777; display: none;">
-                Hit the ↑ key to see previous entries
-            </div>
+                <!-- Error message -->
+                <div id="error" class="error" style="display: none;"></div>
 
-            <!-- Terms container -->
-            <div id="terms-container"></div>
+                <!-- Keyboard navigation hint for top of page -->
+                <div id="keyboard-hint-top"
+                    style="text-align: center; margin: 5px 0; font-size: 12px; color: #777; display: none;">
+                    Hit the ↑ key to see previous entries
+                </div>
 
-            <!-- Scroll loading indicators -->
-            <div id="load-more-top-button" style="text-align: center; margin: 10px 0; display: none;">
-                <button id="load-more-top" style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load More Above ▲</button>
-            </div>
+                <!-- Terms container -->
+                <div id="terms-container"></div>
 
-            <div id="loading-top" class="scroll-loading-indicator">
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 14px; margin-right: 3px;">⟳</div>
-                <span>Loading...</span>
-            </div>
-            <div id="loading-bottom" class="scroll-loading-indicator">
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 14px; margin-right: 3px;">⟳</div>
-                <span>Loading...</span>
-            </div>
+                <!-- Scroll loading indicators -->
+                <div id="load-more-top-button" style="text-align: center; margin: 10px 0; display: none;">
+                    <button id="load-more-top"
+                        style="background-color: #4CAF50; color: white; border: none; padding: 8px 16px; cursor: pointer; border-radius: 4px;">Load
+                        More Above ▲</button>
+                </div>
 
-            <!-- Keyboard navigation hint for bottom of page -->
-            <div id="keyboard-hint-bottom" style="text-align: center; margin: 5px 0; font-size: 12px; color: #777; display: none;">
-                Hit the ↓ key to see more entries
+                <div id="loading-top" class="scroll-loading-indicator">
+                    <div
+                        style="display: inline-block; animation: spin 1s linear infinite; font-size: 14px; margin-right: 3px;">
+                        ⟳</div>
+                    <span>Loading...</span>
+                </div>
+                <div id="loading-bottom" class="scroll-loading-indicator">
+                    <div
+                        style="display: inline-block; animation: spin 1s linear infinite; font-size: 14px; margin-right: 3px;">
+                        ⟳</div>
+                    <span>Loading...</span>
+                </div>
+
+                <!-- Keyboard navigation hint for bottom of page -->
+                <div id="keyboard-hint-bottom"
+                    style="text-align: center; margin: 5px 0; font-size: 12px; color: #777; display: none;">
+                    Hit the ↓ key to see more entries
+                </div>
             </div>
         </div>
     </div>
 
     <script>
-
 
         // Function to load pagemarks data
         async function loadPagemarks() {
@@ -109,7 +136,7 @@
                 if (loadedTermIds.has(termId)) {
                     return loadedTerms[termId];
                 }
-                const response = await fetch(`/${termId}.json`);
+                const response = await fetch(`${TERM_URL_BASE}/${termId}.json`);
                 if (!response.ok) {
                     // If we get a 404, it might be a gap in the term numbering
                     if (response.status === 404) {
@@ -121,18 +148,17 @@
                 const termData = await response.json();
 
                 // Store in loaded terms
-                loadedTerms[termId] = termData;
+                loadedTerms[termId] = [termData];
                 loadedTermIds.add(termId);
 
-                return termData;
+                return [termData];
             } catch (error) {
-
-                return null;
+                console.error(`${error.message}`);
+                return [];
             }
         }
 
         // Function to load a term and its context (n-10 to n+10)
-        // Returns a Promise that resolves when loading is complete
         async function loadAndRenderTermsFrom(termId) {
             return new Promise(async (resolve, reject) => {
                 try {
@@ -210,7 +236,7 @@
                     isLoading = false;
                     reject(error);
                 }
-        });
+            });
         }
 
         // Function to render terms in a specific range
@@ -218,6 +244,7 @@
             const termsContainer = document.getElementById('terms-container');
             termsContainer.innerHTML = '';
 
+            console.log(`Debug: searchedWord ${searchedWord}`);
             for (let id = startTermId; id <= endTermId; id++) {
                 if (loadedTermIds.has(id)) {
                     const termData = loadedTerms[id];
@@ -251,14 +278,15 @@
         }
 
         // Function to navigate to a specific term
-        // Returns a Promise that resolves when navigation is complete
-        function navigateToTerm(termId, word) {
+        function resetAndLoadAndRenderTermsFrom(termId, word, deleteTextQueryResults=false, textQueryFlow=false) {
+            console.log(`termId ${termId} word ${word} deleteTextQueryResults ${deleteTextQueryResults}`);
             return new Promise((resolve, reject) => {
                 if (isLoading) return resolve();
 
                 // If a word is provided, set it as the searchedWord for highlighting
                 if (word) {
                     searchedWord = word.trim();
+                    textSearchMode = textQueryFlow;
                 }
 
                 // Parse termId as integer
@@ -267,9 +295,6 @@
                     alert('Please enter a valid Term ID');
                     return resolve();
                 }
-
-                // Reset scroll states to prevent incorrect scrollinge
-                // resetScrollStates();
 
                 // Force scroll to top to reset view
                 window.scrollTo(0, 0);
@@ -289,15 +314,22 @@
                 document.getElementById('error').style.display = 'none';
                 document.getElementById('loading').style.display = 'block';
                 document.getElementById('loading').innerHTML = `
-                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
-                <span>Loading...</span>
-            `;
+                    <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
+                    <span>Loading...</span>
+                `;
 
+                // Clear text-results if needed
+                if(deleteTextQueryResults){
+                    const resultsContainer = document.getElementById('text-query-results-container');
+                    resultsContainer.style.display = 'none';
+                    resultsContainer.innerHTML = '';
+                }
                 // Set a safety timeout to ensure the loading message doesn't get stuck
-                const navTimeout = setTimeout(() => {
-
-                    document.getElementById('loading').style.display = 'none';
-                }, 10000); // 10 second timeout
+                const navTimeout = setTimeout(
+                    () => {
+                        document.getElementById('loading').style.display = 'none';
+                    }, 10000
+                ); // 10 second timeout
 
                 // Load the term and its context
                 loadAndRenderTermsFrom(termId).then(() => {
@@ -312,9 +344,7 @@
             });
         }
 
-        // Function to lookup a word in table_new.txt
-        // Returns a Promise that resolves when the lookup is complete
-        // isAlternativeAttempt tracks if this is an alternative form lookup
+        // Lookup a word in table_new.txt. This is convergence point for search-button-click & suggestion-click.
         async function lookupDevanagariWord(word, isAlternativeAttempt = false) {
             return new Promise(async (resolve, reject) => {
                 if (isLoading) return resolve();
@@ -387,9 +417,6 @@
                             intermediateFormFound = true;
                         }
                     } else if (typeof preloadedTableData !== 'undefined') {
-                        // Fallback to the original string-based search if parsed data is not available
-                        // Fallback to the original string-based search if parsed data is not available
-
                         // Search for the word in the preloaded table data
                         for (const line of preloadedTableData) {
                             if (!line.trim()) continue;
@@ -407,32 +434,7 @@
                             }
                         }
                     } else {
-                        // Fallback to fetching table_new.txt if preloaded data is not available
-
-                        const response = await fetch('/table_new.txt');
-                        if (!response.ok) {
-                            clearTimeout(safetyTimeout);
-                            throw new Error(`Failed to load table_new.txt: ${response.status} ${response.statusText}`);
-                        }
-                        const text = await response.text();
-                        const lines = text.split('\n');
-
-                        // Search for the word in table_new.txt
-                        for (const line of lines) {
-                            if (!line.trim()) continue;
-
-                            const parts = line.split(':').map(part => part.trim());
-                            if (parts.length >= 2 && parts[0] === lookupKey) {
-                                // Found a match, extract the term ID (second field)
-                                const id = parseInt(parts[1], 10);
-                                if (!isNaN(id)) {
-                                    termId = id;
-                                    intermediateFormFound = true;
-
-                                    break;
-                                }
-                            }
-                        }
+                        throw new Error('parsedTable or preloadedTable not found');
                     }
 
                     if (termId) {
@@ -445,9 +447,13 @@
                         Array.from(newUrl.searchParams.keys()).forEach(key => {
                             newUrl.searchParams.delete(key);
                         });
+                
+                        //wordDev = r.expanded_banner = Sanscript.t(word, 'slp1', 'devanagari');
 
+
+                        
                         // Navigate to the term
-                        navigateToTerm(termId, word).finally(() => {
+                        resetAndLoadAndRenderTermsFrom(termId, word, deleteTextQueryResults = true).finally(() => {
                             resolve();
                         });
                     } else {
@@ -488,9 +494,6 @@
             // Clear previous suggestions
             suggestionsContainer.innerHTML = '';
 
-            // Reset selected suggestion index
-            selectedSuggestionIndex = -1;
-
             if (suggestions.length === 0) {
                 suggestionsContainer.style.display = 'none';
                 return;
@@ -505,7 +508,7 @@
                 // Add click event to select this suggestion
                 item.addEventListener('click', () => {
                     // Set the input value to the selected suggestion
-                    document.getElementById('devanagari-input').value = suggestion;
+                    document.getElementById('user-input').value = suggestion;
 
                     // Hide suggestions
                     suggestionsContainer.style.display = 'none';
@@ -514,7 +517,7 @@
                     const entryInfo = suggestionToEntryMap.get(suggestion);
                     if (entryInfo && entryInfo.id) {
                         // Create a custom lookup function for the suggestion
-                        async function lookupSuggestion(){
+                        async function lookupSuggestion() {
                             try {
                                 // Show loading message
                                 document.getElementById('error').style.display = 'none';
@@ -525,11 +528,11 @@
                                 `;
 
                                 // Use the term ID directly from the entry info
-                                await navigateToTerm(entryInfo.id, suggestion);
+                                await resetAndLoadAndRenderTermsFrom(entryInfo.id, suggestion, deleteTextQueryResults=true);
 
                                 // Hide loading message
                                 document.getElementById('loading').style.display = 'none';
-                            } 
+                            }
                             catch (error) {
                                 console.error(error.stack);
                             }
@@ -542,7 +545,7 @@
                     }
 
                     // Defocus the input field
-                    document.getElementById('devanagari-input').blur();
+                    document.getElementById('user-input').blur();
                 });
 
                 suggestionsContainer.appendChild(item);
@@ -659,12 +662,118 @@
             }
         }
 
+        // --- Full-text query helpers ---
+        const TEXT_QUERY_PAGE_SIZE = 50;
+        // let currentTextQuery = '';
+
+        async function makeTextQuery(q, offset = 0) {
+            // currentTextQuery = q;
+
+            console.log(`Firing /text-query for: ${q} (offset=${offset})`);
+            fetch(`/text-query?q=${encodeURIComponent(q)}&from=${offset}`)
+                .then(resp => resp.json())
+                .then(json => {
+                    console.log('Text-query response:', json);
+                    json.results.forEach(r => {
+                        r.expanded_banner = Sanscript.t(r.expanded_banner, 'slp1', 'devanagari');
+                        r.nested_term_id = parseInt(r.ancestry.split('L_')[1].split('/')[0].trim());
+                    });
+
+                    renderTextQueryResults(json.results, q, offset);
+                })
+                .catch(err => console.error('Text-query error:', err));
+        }
+
+        // Render full-text search results with pagination
+        function renderTextQueryResults(results, queriedWord, offset) {
+            const resultsContainer = document.getElementById('text-query-results-container');
+            resultsContainer.style.display = 'block'; // Show text-query results container
+            
+            if (!resultsContainer) return;
+            // Clear previous results
+            resultsContainer.innerHTML = '';
+
+            if (!results || results.length === 0) {
+                resultsContainer.innerHTML = `<div class="no-results">No matches found for ${queriedWord}</div>`;
+                return;
+            }
+
+            // Introductory phrase
+            const intro = document.createElement('div');
+            intro.className = 'results-intro';
+            intro.textContent = `Found ${queriedWord} in the following entries:`;
+            resultsContainer.appendChild(intro);
+
+            // Create a fragment to hold all result items
+            const fragment = document.createDocumentFragment();
+
+            results.forEach(r => {
+                // Container for a single result pair
+                const pair = document.createElement('div');
+                pair.className = 'result-item';
+
+                // Expanded banner (highlighted)
+                const bannerSpan = document.createElement('span');
+                bannerSpan.className = 'result-banner';
+                bannerSpan.innerHTML = r.expanded_banner + ' ';
+
+                // Snippet (less prominent)
+                const snippetSpan = document.createElement('span');
+                snippetSpan.className = 'result-snippet';
+                snippetSpan.innerHTML = r.snippet;
+
+                pair.appendChild(bannerSpan);
+                // pair.appendChild(snippetSpan);
+
+                pair.addEventListener('click', () => {
+                    // Navigate directly to the clicked term
+                    resetAndLoadAndRenderTermsFrom(r.nested_term_id, queriedWord, deleteTextQueryResults = false, textQueryFlow=true)
+                        .catch(err => console.error('Navigation error:', err));
+                });
+
+                fragment.appendChild(pair);
+            });
+
+            resultsContainer.appendChild(fragment);
+
+            // --- Pagination controls ---
+            const pagDiv = document.createElement('div');
+            pagDiv.className = 'pagination';
+
+            const prevBtn = document.createElement('button');
+            prevBtn.textContent = '<';
+            prevBtn.disabled = offset === 0;
+            prevBtn.addEventListener('click', () => {
+                if (offset >= TEXT_QUERY_PAGE_SIZE) {
+                    makeTextQuery(queriedWord, offset - TEXT_QUERY_PAGE_SIZE);
+                }
+            });
+
+            const nextBtn = document.createElement('button');
+            nextBtn.textContent = '>';
+            // Disable next if fewer than page size returned (no more pages)
+            nextBtn.disabled = results.length < TEXT_QUERY_PAGE_SIZE;
+            nextBtn.addEventListener('click', () => {
+                if (results.length === TEXT_QUERY_PAGE_SIZE) {
+                    makeTextQuery(queriedWord, offset + TEXT_QUERY_PAGE_SIZE);
+                }
+            });
+
+            const rangeStart = offset + 1;
+            const rangeEnd = offset + results.length;
+            pagDiv.appendChild(prevBtn);
+            pagDiv.appendChild(document.createTextNode(`  ${rangeStart}-${rangeEnd}  `));
+            pagDiv.appendChild(nextBtn);
+
+            resultsContainer.appendChild(pagDiv);
+        }
+
         // As user types in, show suggestions
-        document.getElementById('devanagari-input').addEventListener('input', function() {
+        document.getElementById('user-input').addEventListener('input', function () {
             const input = this.value.trim();
 
-            if (input.length < 1) {
-                // Hide suggestions if input is too short
+            if (input.length < 1 || input.startsWith(meaningSearchBeginner)) {
+                // Hide suggestions if input is too short or is a meanings search
                 document.getElementById('suggestions-container').style.display = 'none';
                 return;
             }
@@ -690,9 +799,9 @@
         });
 
         // Hide suggestions when clicking outside
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             const suggestionsContainer = document.getElementById('suggestions-container');
-            const inputField = document.getElementById('devanagari-input');
+            const inputField = document.getElementById('user-input');
 
             if (!suggestionsContainer.contains(event.target) && event.target !== inputField) {
                 suggestionsContainer.style.display = 'none';
@@ -700,117 +809,29 @@
         });
 
         // Search button
-        document.getElementById('lookup-devanagari').addEventListener('click', function() {
-            const inputField = document.getElementById('devanagari-input');
+        document.getElementById('search-button').addEventListener('click', function () {
+            const inputField = document.getElementById('user-input');
             const word = inputField.value.trim();
 
-            // Hide suggestions
-            document.getElementById('suggestions-container').style.display = 'none';
-
-            // Try to look up the word as entered (not an alternative attempt)
-            lookupDevanagariWord(word, false).catch(error => {
-
-
-                // Check if this was an original word attempt (not an alternative)
-                if (!error.isAlternativeAttempt) {
-                    // Use the converted Devanagari word for range check
-                    const wordToCheck = error.word; // This is the converted Devanagari word
-                    const displayWord = error.isSLP1Input ? error.originalWord : error.word;
-
-                    // Check if the last character is in the range [अ, ौ]
-                    const lastChar = wordToCheck.charAt(wordToCheck.length - 1);
-                    const isInRange = lastChar >= 'अ' && lastChar <= 'ौ';
-
-                    if (isInRange) {
-                        // Try with visarga (ः) appended
-                        const wordWithVisarga = wordToCheck + 'ः';
-                        lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "H" : wordWithVisarga, true).catch(visargaError => {
-                            // Try with anusvara (ं) appended
-                            const wordWithAnusvara = wordToCheck + 'ं';
-                            lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "M" : wordWithAnusvara, true).catch(anusvaraError => {
-                                // All attempts failed - now show the error message
-                                document.getElementById('error').style.display = 'block';
-                                document.getElementById('error').innerHTML = `Word "${displayWord}" not found in dictionary.`;
-                            });
-                        });
-                    } else {
-                        // Not in range for alternatives - show error immediately
-                        document.getElementById('error').style.display = 'block';
-                        document.getElementById('error').innerHTML = error.message;
-                    }
-                } else {
-                    // This was already an alternative attempt - just log the failure
+            // Handle "/"-prefixed full-text search
+            if (word.startsWith(meaningSearchBeginner)) {
+                const q = word.slice(1);
+                if (q.length > 1) {
+                    makeTextQuery(q, 0);
                 }
-            });
-            // Defocus the input field to allow normal scrolling with arrow keys
-            inputField.blur();
-        });
-
-        // Up, down, escape keys in input should navigate/hide suggestions
-        document.getElementById('devanagari-input').addEventListener('keydown', function(event) {
-            const suggestionsContainer = document.getElementById('suggestions-container');
-            const suggestionItems = suggestionsContainer.querySelectorAll('.suggestion-item');
-
-            // Only process if suggestions are visible
-            if (suggestionsContainer.style.display === 'block') {
-                if (event.key === 'ArrowDown') {
-                    // Move selection down
-                    event.preventDefault();
-                    selectedSuggestionIndex = Math.min(selectedSuggestionIndex + 1, suggestionItems.length - 1);
-                    updateSelectedSuggestion(suggestionItems);
-                } else if (event.key === 'ArrowUp') {
-                    // Move selection up
-                    event.preventDefault();
-                    selectedSuggestionIndex = Math.max(selectedSuggestionIndex - 1, -1);
-                    updateSelectedSuggestion(suggestionItems);
-                } else if (event.key === 'Escape') {
-                    // Hide suggestions on Escape
-                    event.preventDefault();
-                    suggestionsContainer.style.display = 'none';
-                    selectedSuggestionIndex = -1;
-                }
-            }
-        });
-
-        // Enter key should submit
-        document.getElementById('devanagari-input').addEventListener('keypress', function(event) {
-            if (event.key === 'Enter') {
-                event.preventDefault();
-
-                const suggestionsContainer = document.getElementById('suggestions-container');
-                const suggestionItems = suggestionsContainer.querySelectorAll('.suggestion-item');
-
-                // If suggestions are visible and an item is selected, use that
-                if (suggestionsContainer.style.display === 'block' &&
-                    selectedSuggestionIndex >= 0 &&
-                    selectedSuggestionIndex < suggestionItems.length) {
-
-                    // Simulate click on the selected suggestion
-                    suggestionItems[selectedSuggestionIndex].click();
-                    return;
-                }
-
-                // Otherwise, use the input value directly
-                const word = this.value.trim();
-
-                // Hide suggestions
-                suggestionsContainer.style.display = 'none';
-                selectedSuggestionIndex = -1;
-
+                // Always hide suggestions
+                document.getElementById('suggestions-container').style.display = 'none';
+            } else {
                 // Try to look up the word as entered (not an alternative attempt)
                 lookupDevanagariWord(word, false).catch(error => {
-
-
                     // Check if this was an original word attempt (not an alternative)
                     if (!error.isAlternativeAttempt) {
                         // Use the converted Devanagari word for range check
                         const wordToCheck = error.word; // This is the converted Devanagari word
                         const displayWord = error.isSLP1Input ? error.originalWord : error.word;
-
                         // Check if the last character is in the range [अ, ौ]
                         const lastChar = wordToCheck.charAt(wordToCheck.length - 1);
                         const isInRange = lastChar >= 'अ' && lastChar <= 'ौ';
-
                         if (isInRange) {
                             // Try with visarga (ः) appended
                             const wordWithVisarga = wordToCheck + 'ः';
@@ -832,17 +853,68 @@
                         // This was already an alternative attempt - just log the failure
                     }
                 });
-                // Defocus (blur) the input field to allow normal scrolling with arrow keys
-                this.blur();
+            }
+            document.getElementById('suggestions-container').style.display = 'none';
+            // Defocus the input field to allow normal scrolling with arrow keys
+            inputField.blur();
+        });
+
+        // Up, down, escape keys in input should navigate/hide suggestions
+        document.getElementById('user-input').addEventListener('keydown',
+            function (event) {
+                const suggestionsContainer = document.getElementById('suggestions-container');
+                const suggestionItems = suggestionsContainer.querySelectorAll('.suggestion-item');
+
+                // Only process if suggestions are visible
+                if (suggestionsContainer.style.display === 'block') {
+                    if (event.key === 'ArrowDown') {
+                        // Move selection down
+                        event.preventDefault();
+                        selectedSuggestionIndex = Math.min(selectedSuggestionIndex + 1, suggestionItems.length - 1);
+                        updateSelectedSuggestion(suggestionItems);
+                    } else if (event.key === 'ArrowUp') {
+                        // Move selection up
+                        event.preventDefault();
+                        selectedSuggestionIndex = Math.max(selectedSuggestionIndex - 1, -1);
+                        updateSelectedSuggestion(suggestionItems);
+                    } else if (event.key === 'Escape') {
+                        // Hide suggestions on Escape
+                        event.preventDefault();
+                        suggestionsContainer.style.display = 'none';
+                        selectedSuggestionIndex = -1;
+                    }
+                }
+            }
+        );
+
+        // Enter key should submit
+        document.getElementById('user-input').addEventListener('keypress', function (event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+
+                const suggestionsContainer = document.getElementById('suggestions-container');
+                const suggestionItems = suggestionsContainer.querySelectorAll('.suggestion-item');
+
+                // If suggestions are visible and an item is selected, use that
+                if (suggestionsContainer.style.display === 'block' &&
+                    selectedSuggestionIndex >= 0 &&
+                    selectedSuggestionIndex < suggestionItems.length) {
+
+                    // Simulate click on the selected suggestion
+                    suggestionItems[selectedSuggestionIndex].click();
+                    return;
+                } else {
+                    // Simulate click on the input itself
+                    document.getElementById('search-button').click();
+                }
+
             }
         });
 
         // Up, down keys outside input should scroll the page
-        window.addEventListener('keydown', function(event) {
+        window.addEventListener('keydown', function (event) {
             // Handle up arrow key when at the top
             if (window.scrollY === 0 && (event.key === 'ArrowUp' || event.key === 'Up')) {
-                //const lowestLoadedId = getLowestLoadedId();
-                // console.log("Up", {isLoadingTop: window.termViewerState.isLoadingTop }, `${loadedTermIds.size > 0 ? Math.min(...loadedTermIds) : '∅'}-${loadedTermIds.size > 0 ? Math.max(...loadedTermIds) : '∅'}`);
 
                 // Check if we're in a term view context
                 if (loadedTermIds.size > 0 && Math.min(...loadedTermIds) > 1 && !isLoadingTop) {
@@ -868,7 +940,7 @@
                     for (let id = prevTermId; id >= batchStartId; id--) {
                         // Skip terms that are already in the DOM
                         if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
-                                loadPromises.push(loadAndRenderNextTerm(id, 'above'));
+                            loadPromises.push(loadAndRenderNextTerm(id, 'above'));
                         }
                     }
 
@@ -917,7 +989,7 @@
                     for (let id = nextTermId; id <= batchEndId; id++) {
                         // Skip terms that are already in the DOM
                         if (!document.querySelector(`.term-container[data-term-id="${id}"]`)) {
-                                loadPromises.push(loadAndRenderNextTerm(id, 'below'));
+                            loadPromises.push(loadAndRenderNextTerm(id, 'below'));
                         }
                     }
 
@@ -941,13 +1013,13 @@
         });
 
         // Load data based on URL parameters
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             console.log('1.0');
             // Set focus on the input box
-            document.getElementById('devanagari-input').focus();
+            document.getElementById('user-input').focus();
 
             // Fix cursor position when clicking on the input field
-            document.getElementById('devanagari-input').addEventListener('click', function(event) {
+            document.getElementById('user-input').addEventListener('click', function (event) {
                 // If the click position is after the text content, move cursor to the end
                 const inputRect = this.getBoundingClientRect();
                 const clickX = event.clientX - inputRect.left;
@@ -965,7 +1037,7 @@
             document.getElementById('header-spacer').style.height = headerHeight + 'px';
 
             // Update header-spacer height on window resize
-            window.addEventListener('resize', function() {
+            window.addEventListener('resize', function () {
                 const headerHeight = document.getElementById('header').offsetHeight;
                 document.getElementById('header-spacer').style.height = headerHeight + 'px';
             });
@@ -1013,4 +1085,5 @@
         });
     </script>
 </body>
+
 </html>
