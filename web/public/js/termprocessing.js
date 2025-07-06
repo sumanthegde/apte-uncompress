@@ -111,7 +111,7 @@ function processBannerGramMeans(term) {
             hasMatch = processedMeaning.toLowerCase().includes(searchedWord.toLowerCase());
             meaningTextMatchesSeach = true;
         }
-        const spanClass = hasMatch ? 'meaning meaning-match' : 'meaning';
+        const spanClass = textSearchMode && hasMatch ? 'meaning meaning-match' : 'meaning';
         content += `<span class="${spanClass}">${processedMeaning}</span>`;
     });
 

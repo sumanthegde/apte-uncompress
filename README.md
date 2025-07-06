@@ -18,7 +18,8 @@ when unsure of a compound’s structure.
 ## How to Use
 Access the expanded dictionary through:
 - Web interface: [Apte Dictionary Expanded](https://apte-dictionary.fly.dev/) - Search for Sanskrit compounds and find their headwords
-- Direct lookup: Use the web interface to search for specific compounds and see where they appear in the dictionary
+  - To search the headword, type it in Devanagari or SLP1
+  - To search the meaning text, prefix your string with a slash (/). For example, "/elephant" (without quotes) gives you all entries which have "elephant" in their meaning texts.
 - Local installation:
   1. Clone this repository: `git clone https://github.com/sumanthegde/apte-uncompress.git`
   2. Checkout the deployment_scripts branch: `git checkout deployment_scripts`
