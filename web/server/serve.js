@@ -201,18 +201,17 @@ async function handleTextQuery(req, res) {
   }
 
   try {
-    // snippet(meanings_fts, 1, '<b>', '</b>', '...', 20) as snippet 
-
     const query = `
-      SELECT id, expanded_banner, meaning_text as snippet, ancestry
-      FROM meanings_fts 
-      JOIN metadata ON meta_id = id 
-      WHERE meaning_text MATCH ?
-      ORDER BY (instr(lower(meaning_text), lower(?)) > 0) DESC,
-                instr(lower(meaning_text), lower(?))
+      SELECT metadata.id, expanded_banner, meaning as snippet, ancestry
+      FROM meanings 
+      JOIN metadata ON meta_id = metadata.id 
+      WHERE meaning LIKE ? COLLATE NOCASE
+      ORDER BY (instr(lower(meaning), lower(?)) > 0) DESC,
+                instr(lower(meaning), lower(?))
       LIMIT 50 OFFSET ?`;
     
-    const results = await db.all(query, [searchTerm, searchTerm, searchTerm, offset]);
+    const searchPattern = `%${searchTerm}%`;
+    const results = await db.all(query, [searchPattern, searchTerm, searchTerm, offset]);
     console.log(query, searchTerm, offset);
     
     res.writeHead(200, { 'Content-Type': 'application/json' });
