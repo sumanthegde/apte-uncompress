@@ -4,7 +4,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: #fefefe;
             /* Always reserve space for vertical scrollbar to prevent horizontal layout shift */
             overflow-y: scroll;
             /* For browsers supporting it, ensure stable scrollbar gutter */
@@ -426,7 +426,7 @@
 
         .suggestion-text {
             font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
-            color: #9c7c38;
+            color: #0b0905;
             font-weight: 500;
             font-size: 1.2em;
             text-align: left;

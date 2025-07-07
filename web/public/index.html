@@ -19,7 +19,7 @@
     <div class="container">
         <!-- Header with search functionality - fixed at top -->
         <div id="header"
-            style="position: fixed; top: 0; left: 0; right: 0; background-color: #f5f5f5; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; z-index: 100;">
+            style="position: fixed; top: 0; left: 0; right: 0; background-color: #fefefe; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; z-index: 100;">
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <!-- Simple two-line title on the left, center-aligned text -->
                 <div id="site-title" style="margin-left: 20px; color: #74591f; text-align: center; width: 180px;">
@@ -303,10 +303,8 @@
                 // Clear the terms container
                 const termsContainer = document.getElementById('terms-container');
                 termsContainer.innerHTML = '';
-
                 // Reset the loadedTermIds set
                 loadedTermIds.clear();
-
                 // Reset the loadedTerms object
                 loadedTerms = {};
 
@@ -693,6 +691,15 @@
             // Clear previous results
             resultsContainer.innerHTML = '';
 
+            // Clear the terms container
+            const termsContainer = document.getElementById('terms-container');
+            termsContainer.innerHTML = '';
+            // Reset the loadedTermIds set
+            loadedTermIds.clear();
+            // Reset the loadedTerms object
+            loadedTerms = {};
+
+
             if (!results || results.length === 0) {
                 resultsContainer.innerHTML = `<div class="no-results">No matches found for ${queriedWord}</div>`;
                 return;
@@ -701,7 +708,7 @@
             // Introductory phrase
             const intro = document.createElement('div');
             intro.className = 'results-intro';
-            intro.textContent = `Found ${queriedWord} in the following entries:`;
+            intro.innerHTML = `Found <b>${queriedWord}</b> in the following entries:`;
             resultsContainer.appendChild(intro);
 
             // Create a fragment to hold all result items
