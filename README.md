@@ -24,6 +24,8 @@ Access the expanded dictionary through:
   1. Clone this repository: `git clone https://github.com/sumanthegde/apte-uncompress.git`
   4. From the project root, run the server: `node web/server/serve.js --public web/public --data data/output`
   5. Access the dictionary at `http://localhost:8080`
+- Programmatic access: Access the dictionary data programmatically via CDN (see [JSON Data Access](#json-data-access) section below)
+
 
 ## Contributing
 This project combines Haskell-based dictionary processing with a JavaScript-based web interface:
