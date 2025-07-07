@@ -22,9 +22,7 @@ Access the expanded dictionary through:
   - To search the meaning text, prefix your string with a slash (/). For example, "/elephant" (without quotes) gives you all entries which have "elephant" in their meaning texts.
 - Local installation:
   1. Clone this repository: `git clone https://github.com/sumanthegde/apte-uncompress.git`
-  2. Checkout the deployment_scripts branch: `git checkout deployment_scripts`
-  3. You must now have the dictionary data in `data/output/` directory (symlinked to `haskell/apteDir.nosync/output/`), which contains `pagemarks.json`, `table_new.txt`, and `sharded/` folder
-  4. Run the server: `node web/server/serve.js --public web/public --data data/output`
+  4. From the project root, run the server: `node web/server/serve.js --public web/public --data data/output`
   5. Access the dictionary at `http://localhost:8080`
 
 ## Contributing
@@ -58,8 +56,19 @@ To contribute:
   - `public/` - Static web assets (HTML, CSS, client-side JS)
   - `server/` - Node.js server code
 - `data/` - Dictionary data (symlink to haskell/apteDir.nosync)
-- `deploy/` - Deployment configuration and scripts
-- `scripts/` - Utility scripts for building and data generation
+- `kosha-flat/` - Contains JSON files with one entry per expanded dictionary entry, making it easy to consume individual entries directly
+- `kosha-nested/` - Contains JSON files that maintain the original nested structure of the dictionary, with one file per headword
+
+### JSON Data Access
+For programmatic access to the dictionary data, we recommend using the flat structure format, which provides one JSON file per expanded entry. You can access these files via CDN using the following pattern:
+
+```
+https://cdn.jsdelivr.net/gh/sumanthegde/apte-uncompress@main/kosha-flat/{entry}.json
+```
+
+Example: `https://cdn.jsdelivr.net/gh/sumanthegde/apte-uncompress@main/kosha-flat/राम.json`
+
+**Note on Nested Structure**: The project also maintains a nested structure format (in the `kosha-nested/` directory) which is primarily used internally by the frontend. This structure is considered an implementation detail and may change in the future for performance optimizations. External consumers should use the flat structure format shown above for stability.
 
 ## Acknowledgments
 
