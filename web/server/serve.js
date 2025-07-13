@@ -86,7 +86,6 @@ try {
 }
 
 const server = http.createServer((req, res) => {
-  console.log(`Req: ${req.url}`);
 
   let filePath = req.url === '/'
     ? path.join(PUBLIC_DIR, 'index.html')
@@ -131,7 +130,7 @@ const server = http.createServer((req, res) => {
       res.end(modifiedContent);
     });
   } else if(req.url === '/pagemarks-data.json') {
-    console.log('Serving pre-loaded pagemarks data');
+    //console.log('Serving pre-loaded pagemarks data');
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       pagemarks: pagemarks,
@@ -155,7 +154,7 @@ const server = http.createServer((req, res) => {
           res.end(`Server Error: ${error.code}`);
         }
       } else {
-        console.log(`Serving file: ${filePath}`);
+        //console.log(`Serving file: ${filePath}`);
         res.writeHead(200, { 'Content-Type': contentType });
         res.end(content, 'utf-8');
       }
@@ -163,6 +162,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url.startsWith('/text-query')) {
     handleTextQuery(req, res);
   } else {
+    console.log(`Req: ${req.url}`);
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Not found');
   }
@@ -199,7 +199,13 @@ async function handleTextQuery(req, res) {
     res.end(JSON.stringify({ error: 'Search term is required' }));
     return;
   }
-
+  console.log(`Text search: "${searchTerm}" (offset: ${offset})`);
+  if (searchTerm.length <= 1) {
+    console.log(`Search term is too short: "${searchTerm}"`);
+    res.writeHead(400, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ error: 'Search term must be at least 2 characters long' }));
+    return;
+  }
   try {
     const query = `
       SELECT metadata.id, expanded_banner, meaning as snippet, ancestry
@@ -212,7 +218,6 @@ async function handleTextQuery(req, res) {
     
     const searchPattern = `%${searchTerm}%`;
     const results = await db.all(query, [searchPattern, searchTerm, searchTerm, offset]);
-    console.log(query, searchTerm, offset);
     
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({

@@ -820,11 +820,17 @@
             const inputField = document.getElementById('user-input');
             const word = inputField.value.trim();
 
+            document.getElementById('error').innerHTML = '';
+            document.getElementById('error').style.display = 'none';
+
             // Handle "/"-prefixed full-text search
             if (word.startsWith(meaningSearchBeginner)) {
                 const q = word.slice(1);
                 if (q.length > 1) {
                     makeTextQuery(q, 0);
+                }else{
+                    document.getElementById('error').style.display = 'block';
+                    document.getElementById('error').innerHTML = `Word "${q}" is too short.`;
                 }
                 // Always hide suggestions
                 document.getElementById('suggestions-container').style.display = 'none';
