@@ -97,21 +97,34 @@ function processBannerGramMeans(term) {
         matchesSearch = bannerInfo.matchesSearch;
     }
 
+    function hasMatch(text) {
+        let hasMatchFlag = false;
+        if (typeof searchedWord === 'string' && searchedWord.length) {
+            hasMatchFlag = text.toLowerCase().includes(searchedWord.toLowerCase());
+            meaningTextMatchesSeach = meaningTextMatchesSeach || hasMatchFlag;
+        }
+        return hasMatchFlag;
+    }
+    
     // Grammar info
     if (term._gram && term._gram.length) {
-        content += `<span class="gram">${term._gram.map(processSpecialText).join(' ')}</span>`;
+        term._gram.forEach(gram => {
+            const processedGram = processSpecialText(gram);
+            const spanClass = textSearchMode && hasMatch(processedGram) ? 'gram meaning-match' : 'gram';
+            content += `<span class="${spanClass}">${processedGram}</span>`;
+            // content += `<span class="gram">${term._gram.map(processSpecialText).join(' ')}</span>`;
+        });
     }
-
     // Meanings
     term._meanings.forEach(meaning => {
         const processedMeaning = processMeaning(processSpecialText(meaning));
         // Check if the processed meaning contains the searched word (case-insensitive)
-        let hasMatch = false;
-        if (typeof searchedWord === 'string' && searchedWord.length) {
-            hasMatch = processedMeaning.toLowerCase().includes(searchedWord.toLowerCase());
-            meaningTextMatchesSeach = true;
-        }
-        const spanClass = textSearchMode && hasMatch ? 'meaning meaning-match' : 'meaning';
+        // let hasMatch = false;
+        // if (typeof searchedWord === 'string' && searchedWord.length) {
+        //     hasMatch = processedMeaning.toLowerCase().includes(searchedWord.toLowerCase());
+        //     meaningTextMatchesSeach = meaningTextMatchesSeach || hasMatch;
+        // }
+        const spanClass = textSearchMode && hasMatch(processedMeaning) ? 'meaning meaning-match' : 'meaning';
         content += `<span class="${spanClass}">${processedMeaning}</span>`;
     });
 

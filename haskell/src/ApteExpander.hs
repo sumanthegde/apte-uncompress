@@ -477,15 +477,17 @@ stripMeaningNum s = fst $ head $ flip parse s $ do
   meaningNum <- surrLazy "{@" "@}" <++ pJoin [lit "{", pInt, lit "}"] <++ pure ""
   munch (const True)
 
-getLocBannerMeanings :: Term -> (String, String, [String])
+getLocBannerMeanings :: Term -> (String, String, [String], [String])
 getLocBannerMeanings t = let
   l = whitespaceFix $ showLocs (t ^. ancestry . _Just)
   ms = t ^. meanings . _Just
+  gs = t ^. gram . _Just
   whitespaceFix = unwords . words . unwords . lines
   removeAngularBraces = replaceAll (surrLazy "<" ">") ""
   curateMeaning m = whitespaceFix $ braceHashToDevanagari $ removeAngularBraces $ stripMeaningNum $ whitespaceFix m
+  curateGrammar g = removeAngularBraces $ braceHashToDevanagari $ whitespaceFix g
   bs = whitespaceFix $ L.intercalate "," $ rights (t ^. bannerExp . _Just)
-  in (l, bs, curateMeaning <$> ms)
+  in (l, bs, curateGrammar <$> gs, curateMeaning <$> ms)
 
 -- Helper to format metadata for TSV
 formatMetadataTSV :: [(Int, (String, String, [String]))] -> [String]
@@ -527,20 +529,13 @@ tabulate es = do
 sqliteStore :: [Term] -> IO ()
 sqliteStore es = do
   let esFlatWithMeanings = concat $ tToListWithF id <$> es
-      lbms = getLocBannerMeanings <$> esFlatWithMeanings
-      indexedLbms = zip [1..] lbms
-      -- metadataLines = formatMetadataTSV indexedLbms
-      -- meaningsLines = formatMeaningsTSV indexedLbms
-      -- metadataFilePath = apteOutput </> "metadata.tsv"
-      -- meaningsFilePath = apteOutput </> "meanings.tsv"
-      -- mIndexesSorted = L.sortOn fst mIndexes
-      -- mIndexesTable = unlines $ fmap (\(tnum, m) -> tnum ++ "\t" ++ m) mIndexesSorted
-      -- mIndexesTablePath = apteOutput </> "mIndexesTable.txt"  
-      metadataRows = map (\(idx, (locStr, bannerExpStr, _)) -> (fromIntegral idx, locStr, bannerExpStr)) indexedLbms
+      lbgms = getLocBannerMeanings <$> esFlatWithMeanings
+      indexedLbgms = zip [1..] lbgms
+      metadataRows = map (\(idx, (locStr, bannerExpStr, _, _)) -> (fromIntegral idx, locStr, bannerExpStr)) indexedLbgms
       metadataTsvPath = apteOutput </> "metadata.tsv"
       formatMetadataRow (idx, locStr, bannerExpStr) = show idx ++ "\t" ++ locStr ++ "\t" ++ bannerExpStr
       metadataContent = unlines $ map formatMetadataRow metadataRows
-      meaningsRows = concatMap (\(idx, (_, _, meaningStrs)) -> map (\m -> (fromIntegral idx, m)) meaningStrs) indexedLbms
+      meaningsRows = concatMap (\(idx, (_, _, grammarStrs, meaningStrs)) -> map (\m -> (fromIntegral idx, m)) (grammarStrs ++ meaningStrs)) indexedLbgms
       meaningsTsvPath = apteOutput </> "meanings.tsv"
       formatMeaningRow (idx, meaningStr) = show idx ++ "\t" ++ meaningStr
       meaningsContent = unlines $ map formatMeaningRow meaningsRows
