@@ -102,7 +102,7 @@ const server = http.createServer((req, res) => {
   }
 
   if (req.url === '/' || req.url === '/index.html') {
-    console.log('Serving index.html with injected table_new.txt data');
+
 
     // Read the HTML file
     fs.readFile(path.join(PUBLIC_DIR, 'index.html'), 'utf8', (error, content) => {
@@ -129,19 +129,19 @@ const server = http.createServer((req, res) => {
       res.writeHead(200, { 'Content-Type': 'text/html' });
       res.end(modifiedContent);
     });
-  } else if(req.url === '/pagemarks-data.json') {
+  } else if (req.url === '/pagemarks-data.json') {
     //console.log('Serving pre-loaded pagemarks data');
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       pagemarks: pagemarks,
       sortedKeys: sortedPagemarkKeys
     }));
-  } else if(req.url.endsWith('.js') || req.url.endsWith('.css')){ 
+  } else if (req.url.endsWith('.js') || req.url.endsWith('.css')) {
     // scripts themselves, or any resource (in public directory)
-    
+
     const extname = String(path.extname(filePath)).toLowerCase();
     const contentType = MIME_TYPES[extname] || 'application/octet-stream';
-  
+
     fs.readFile(filePath, (error, content) => {
       if (error) {
         if (error.code === 'ENOENT') {
@@ -158,11 +158,30 @@ const server = http.createServer((req, res) => {
         res.writeHead(200, { 'Content-Type': contentType });
         res.end(content, 'utf-8');
       }
-    });  
+    });
   } else if (req.url.startsWith('/text-query')) {
     handleTextQuery(req, res);
+  } else if (req.url.startsWith('/log-query')) {
+    const url = new URL(req.url, `http://${req.headers.host}`);
+    const query = url.searchParams.get('q');
+    if (query) {
+      console.log(`User Query: ${query}`);
+    }
+    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.end(JSON.stringify({ status: 'ok' }));
   } else {
-    console.log(`Req: ${req.url}`);
+    const isBotRequest =
+      req.url === '/robots.txt' ||
+      req.url === '/favicon.ico' ||
+      req.url.toLowerCase().includes('sitemap') ||
+      req.url.endsWith('.xml') ||
+      req.url.endsWith('.php') ||
+      req.url.endsWith('.aspx') ||
+      req.url.endsWith('.asp');
+
+    if (!isBotRequest) {
+      console.log(`Req: ${req.url}`);
+    }
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('Not found');
   }
@@ -215,10 +234,10 @@ async function handleTextQuery(req, res) {
       ORDER BY (instr(lower(meaning), lower(?)) > 0) DESC,
                 instr(lower(meaning), lower(?))
       LIMIT 50 OFFSET ?`;
-    
+
     const searchPattern = `%${searchTerm}%`;
     const results = await db.all(query, [searchPattern, searchTerm, searchTerm, offset]);
-    
+
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       query: searchTerm,
@@ -228,9 +247,9 @@ async function handleTextQuery(req, res) {
   } catch (error) {
     console.error('Error executing search query:', error);
     res.writeHead(500, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ 
+    res.end(JSON.stringify({
       error: 'Error executing search',
-      details: error.message 
+      details: error.message
     }));
   }
 }

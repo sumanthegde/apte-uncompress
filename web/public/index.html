@@ -33,7 +33,8 @@
                         <div style="display:flex; flex-direction:column; align-items:start;">
                             <input type="text" id="user-input"
                                 style="padding: 8px; width: 300px; margin-right: 10px; font-size: 1.2em; font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;">
-                            <div class="search-instruction" style="text-align: center; margin: 5px 0; font-size: 12px; color: #777;">
+                            <div class="search-instruction"
+                                style="text-align: center; margin: 5px 0; font-size: 12px; color: #777;">
                                 Tip: prefix a slash ( / ) to search within meaning texts
                             </div>
                         </div>
@@ -278,7 +279,7 @@
         }
 
         // Function to navigate to a specific term
-        function resetAndLoadAndRenderTermsFrom(termId, word, deleteTextQueryResults=false, textQueryFlow=false) {
+        function resetAndLoadAndRenderTermsFrom(termId, word, deleteTextQueryResults = false, textQueryFlow = false) {
             console.log(`termId ${termId} word ${word} deleteTextQueryResults ${deleteTextQueryResults}`);
             return new Promise((resolve, reject) => {
                 if (isLoading) return resolve();
@@ -317,7 +318,7 @@
                 `;
 
                 // Clear text-results if needed
-                if(deleteTextQueryResults){
+                if (deleteTextQueryResults) {
                     const resultsContainer = document.getElementById('text-query-results-container');
                     resultsContainer.style.display = 'none';
                     resultsContainer.innerHTML = '';
@@ -351,6 +352,9 @@
                     alert('Please enter a word');
                     return resolve();
                 }
+
+                // Log the query
+                logUserQuery(word);
 
                 // Check if the input is likely in SLP1 format
                 const originalWord = word;
@@ -445,11 +449,11 @@
                         Array.from(newUrl.searchParams.keys()).forEach(key => {
                             newUrl.searchParams.delete(key);
                         });
-                
+
                         //wordDev = r.expanded_banner = Sanscript.t(word, 'slp1', 'devanagari');
 
 
-                        
+
                         // Navigate to the term
                         resetAndLoadAndRenderTermsFrom(termId, word, deleteTextQueryResults = true).finally(() => {
                             resolve();
@@ -525,8 +529,11 @@
                                     <span>Looking up "${suggestion}"...</span>
                                 `;
 
+                                // Log the query
+                                logUserQuery(suggestion);
+
                                 // Use the term ID directly from the entry info
-                                await resetAndLoadAndRenderTermsFrom(entryInfo.id, suggestion, deleteTextQueryResults=true);
+                                await resetAndLoadAndRenderTermsFrom(entryInfo.id, suggestion, deleteTextQueryResults = true);
 
                                 // Hide loading message
                                 document.getElementById('loading').style.display = 'none';
@@ -660,6 +667,12 @@
             }
         }
 
+        // Function to log user query
+        function logUserQuery(query) {
+            fetch(`/log-query?q=${encodeURIComponent(query)}`)
+                .catch(err => console.error('Error logging query:', err));
+        }
+
         // --- Full-text query helpers ---
         const TEXT_QUERY_PAGE_SIZE = 50;
         // let currentTextQuery = '';
@@ -686,7 +699,7 @@
         function renderTextQueryResults(results, queriedWord, offset) {
             const resultsContainer = document.getElementById('text-query-results-container');
             resultsContainer.style.display = 'block'; // Show text-query results container
-            
+
             if (!resultsContainer) return;
             // Clear previous results
             resultsContainer.innerHTML = '';
@@ -734,7 +747,7 @@
 
                 pair.addEventListener('click', () => {
                     // Navigate directly to the clicked term
-                    resetAndLoadAndRenderTermsFrom(r.nested_term_id, queriedWord, deleteTextQueryResults = false, textQueryFlow=true)
+                    resetAndLoadAndRenderTermsFrom(r.nested_term_id, queriedWord, deleteTextQueryResults = false, textQueryFlow = true)
                         .catch(err => console.error('Navigation error:', err));
                 });
 
@@ -828,7 +841,7 @@
                 const q = word.slice(1);
                 if (q.length > 1) {
                     makeTextQuery(q, 0);
-                }else{
+                } else {
                     document.getElementById('error').style.display = 'block';
                     document.getElementById('error').innerHTML = `Word "${q}" is too short.`;
                 }
