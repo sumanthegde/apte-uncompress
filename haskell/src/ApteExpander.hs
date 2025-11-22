@@ -31,6 +31,7 @@ import Data.Aeson (object, toJSON, Value)
 import Data.Aeson.Key (fromString)
 import Data.Aeson.Encode.Pretty
 import qualified Data.ByteString.Lazy as BL
+import qualified Data.ByteString.Lazy.UTF8 as BLU
 import qualified Data.String as DS -- (fromString)
 import SqliteUtil
 
@@ -579,6 +580,26 @@ koshaFormShardAndStore es = do
         keyConfig = defConfig { confCompare = keyOrder (DS.fromString <$> objKeys)}
         jsonOutput = encodePretty' keyConfig obj
     BL.writeFile wpath jsonOutput
+
+babylon :: [Term] -> [([String], String)]
+babylon es =
+  let pratipadikafy w = if flip any ["aM", "aH", "iH", "IH", "uH", "UH"] (`L.isSuffixOf` w) then init w else w
+      pratipadikafys e = pratipadikafy <$> rights (e ^. bannerExp . _Just)
+      koshaFormObjectsDirect e = [((uncanon . e2s) <$> pratipadikafys e, koshaFormContent e) | w <- take 1 $ pratipadikafys e]
+      samasas_both_S_and_M_S e = (e ^. samasas . _Just) ++ (e ^. morphisms . _Just . traverse . samasas . _Just)
+      koshaFormObjects e = koshaFormObjectsDirect e ++ concat [koshaFormObjects s | s <- samasas_both_S_and_M_S e]
+   in concat $ koshaFormObjects <$> es
+
+babylonPrint :: [Term] -> IO ()
+babylonPrint es = do
+  let b = babylon es
+      babyPath = apteOutput </> "apte-expanded.babylon"      
+      header = "#bookname=apte-1890-expanded-sample (sa-en)\n\
+               \#stripmethod=keep\n\
+               \#sametypesequence=h\n\
+               \#description=Data from https://github.com/sumanthegde/apte-uncompress/blob/babylon_test/haskell/apteDir.nosync/output/apte-expanded.babylon\n\n"
+      content = header ++ (unlines $ map (uncurry (\ws c -> L.intercalate "|" ws ++ "\n" ++ c ++ "\n")) b)
+  BL.writeFile babyPath (BLU.fromString content)
 
 tabSimple :: [Term] -> FilePath -> IO ()
 tabSimple es k1ReverseMapPath = do
