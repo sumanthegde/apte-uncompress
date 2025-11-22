@@ -548,12 +548,14 @@ sqliteStore es = do
   bulkLoadFromTSV metadataRows meaningsRows
   putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
 
-koshaFormContent :: Term -> String
-koshaFormContent t = let
+koshaFormContentF :: (String -> String) -> Term -> String
+koshaFormContentF formatter t = let
   stripAndSqueeze = unwords . words . unwords . lines
-  concatBannerGramMeaning t = stripAndSqueeze $ unwords ((t ^. banner . _Just):(t ^. gram . _Just) ++ (t ^. meanings . _Just))
+  concatBannerGramMeaning t = stripAndSqueeze $ unwords $ fmap formatter $ ((t ^. banner . _Just):(t ^. gram . _Just) ++ (t ^. meanings . _Just))
   concatMorphisms t = stripAndSqueeze $ unwords $ concatBannerGramMeaning <$> (t ^. morphisms . _Just)
   in braceHashToDevanagari $ unwords [concatBannerGramMeaning t, concatMorphisms t]
+
+koshaFormContent = koshaFormContentF id
 
 koshaFormJsonReady :: M.Map Int String -> [Term] -> [[(String, String, String, String)]]
 koshaFormJsonReady pageMarkMap es = let
@@ -581,11 +583,20 @@ koshaFormShardAndStore es = do
         jsonOutput = encodePretty' keyConfig obj
     BL.writeFile wpath jsonOutput
 
+
+removeTag = reverse . go1 "" where
+  go1 ac ('<':rest) = go2 ac rest
+  go1 ac (c:rest) = go1 (c:ac) rest
+  go1 ac "" = ac
+  go2 ac ('>':rest) = go1 ac rest
+  go2 ac (c:rest) = go2 ac rest
+  go2 ac "" = ac
+
 babylon :: [Term] -> [([String], String)]
 babylon es =
   let pratipadikafy w = if flip any ["aM", "aH", "iH", "IH", "uH", "UH"] (`L.isSuffixOf` w) then init w else w
       pratipadikafys e = pratipadikafy <$> rights (e ^. bannerExp . _Just)
-      koshaFormObjectsDirect e = [((uncanon . e2s) <$> pratipadikafys e, koshaFormContent e) | w <- take 1 $ pratipadikafys e]
+      koshaFormObjectsDirect e = [((uncanon . e2s) <$> pratipadikafys e, removeTag $ koshaFormContent e) | w <- take 1 $ pratipadikafys e]
       samasas_both_S_and_M_S e = (e ^. samasas . _Just) ++ (e ^. morphisms . _Just . traverse . samasas . _Just)
       koshaFormObjects e = koshaFormObjectsDirect e ++ concat [koshaFormObjects s | s <- samasas_both_S_and_M_S e]
    in concat $ koshaFormObjects <$> es
