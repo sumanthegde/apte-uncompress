@@ -539,12 +539,17 @@ sqliteStore es = do
       meaningsTsvPath = apteOutput </> "meanings.tsv"
       formatMeaningRow (idx, meaningStr) = show idx ++ "\t" ++ meaningStr
       meaningsContent = unlines $ map formatMeaningRow meaningsRows
+      metadata2Rows = concatMap (\(idx,_,bannerExpStr)->[(idx,w) | w <- LS.splitOn "," bannerExpStr]) metadataRows
+      formatMetadata2Rows (idx, w) = show idx ++ "\t"
+      metadata2TsvPath = apteOutput </> "metadata2.tsv" -- Solely for kridantadarshika
+      metadata2Content = unlines $ map formatMetadata2Rows metadata2Rows
   writeFile metadataTsvPath metadataContent
   putStrLn $ "Successfully wrote metadata TSV to " ++ metadataTsvPath
   writeFile meaningsTsvPath meaningsContent
   putStrLn $ "Successfully wrote meanings TSV to " ++ meaningsTsvPath
-  -- Clear existing data and bulk load using executeMany
-  bulkLoadFromTSV metadataRows meaningsRows
+  writeFile metadata2TsvPath metadata2Content
+  putStrLn $ "Successfully wrote metadata2 TSV to " ++ metadata2TsvPath
+  bulkLoadFromTSV metadataRows meaningsRows metadata2Rows
   putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
 
 koshaFormContent :: Term -> String
