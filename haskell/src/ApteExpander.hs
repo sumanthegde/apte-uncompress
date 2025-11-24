@@ -539,8 +539,8 @@ sqliteStore es = do
       meaningsTsvPath = apteOutput </> "meanings.tsv"
       formatMeaningRow (idx, meaningStr) = show idx ++ "\t" ++ meaningStr
       meaningsContent = unlines $ map formatMeaningRow meaningsRows
-      metadata2Rows = concatMap (\(idx,_,bannerExpStr)->[(idx,w) | w <- LS.splitOn "," bannerExpStr]) metadataRows
-      formatMetadata2Rows (idx, w) = show idx ++ "\t"
+      metadata2Rows = concatMap (\(idx,_,bannerExpStr)->[(idx,(uncanon.e2s.anunasikafy.pratipadikafy) w) | w <- LS.splitOn "," bannerExpStr]) metadataRows
+      formatMetadata2Rows (idx, w) = show idx ++ "\t" ++ w
       metadata2TsvPath = apteOutput </> "metadata2.tsv" -- Solely for kridantadarshika
       metadata2Content = unlines $ map formatMetadata2Rows metadata2Rows
   writeFile metadataTsvPath metadataContent
@@ -559,9 +559,11 @@ koshaFormContent t = let
   concatMorphisms t = stripAndSqueeze $ unwords $ concatBannerGramMeaning <$> (t ^. morphisms . _Just)
   in braceHashToDevanagari $ unwords [concatBannerGramMeaning t, concatMorphisms t]
 
+pratipadikafy :: String -> String
+pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
+
 koshaFormJsonReady :: M.Map Int String -> [Term] -> [[(String, String, String, String)]]
 koshaFormJsonReady pageMarkMap es = let
-  pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
   pratipadikafys e = pratipadikafy <$> rights (e ^. bannerExp . _Just)
   getL e = (loc . head) (e ^. ancestry . _Just)
   getPnum e = maybe ("-") snd $ M.lookupLE (fromJust $ __line e) pageMarkMap
