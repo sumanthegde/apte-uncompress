@@ -27,13 +27,14 @@ import Data.Function
 import Data.Char
 import Data.Bifunctor
 import Control.Applicative
-import Data.Aeson (object, toJSON, Value)
+import Data.Aeson (object, toJSON, Value, encode)
 import Data.Aeson.Key (fromString)
 import Data.Aeson.Encode.Pretty
 import qualified Data.ByteString.Lazy as BL
 import qualified Data.String as DS -- (fromString)
 import SqliteUtil
-
+import SqliteUtilKritDarsh
+import qualified Data.ByteString.Lazy.UTF8 as BLU
 parse' p =  fst . head . parse p
 --parseEither p s = case parse p s of [(parsed,"")] -> parsed; _ -> Left ("Parser error: " ++ s)
 
@@ -551,6 +552,27 @@ sqliteStore es = do
   putStrLn $ "Successfully wrote metadata2 TSV to " ++ metadata2TsvPath
   bulkLoadFromTSV metadataRows meaningsRows metadata2Rows
   putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
+
+-- | make sqlite for Kridantadarshika server
+--   It differs from the sqlite of apte-dictionary server.
+--   Table
+--   Quality | ApteDictServer sqlite | KritDarshServer sqlite
+--   Purpose | reverse search ("/") | Normal fetching of meanings 
+--   Gram & meanings concated, tags (e.g.<ls>) removed | yes | no
+--   Meanings granularity | split into rows | whole _meanings block in one row (as json)
+--   Morphism treatment | as separate entity (but combined during fetch due to pratipadika match) | as sub-json of its parent (why? coz verb's Desid. etc)
+--   Comp treatment | as unrelated separate entity | separate, but planning to add headword-only list in future
+--  sqliteKritDarshStore :: [Term] -> ([(Int,String),(Int,String)])
+sqliteKritDarshPrepare :: [Term] -> ([(Integer, String)], [(Integer, String)])
+sqliteKritDarshPrepare es = let
+      liftSamasas e = e {_samasas = Nothing} : case _samasas e of Nothing -> []; Just sams -> concatMap liftSamasas sams
+      idxLiftedEs = zip [1..] (concatMap liftSamasas es) 
+      wordsTable = uniq $ concatMap (\(idx, e)->[(idx,(uncanon.e2s.anunasikafy.pratipadikafy) w) | w <- rights (e^.bannerExp._Just)]) idxLiftedEs
+      jsonSerialize = BLU.toString . encode
+  in (wordsTable, second jsonSerialize <$> idxLiftedEs)
+
+sqliteKritDarshStore :: [Term] -> IO ()
+sqliteKritDarshStore = uncurry bulkLoadFromTSVKritDarsh . sqliteKritDarshPrepare
 
 koshaFormContent :: Term -> String
 koshaFormContent t = let

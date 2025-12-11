@@ -57,28 +57,23 @@ databaseFile = U.apteOutput </> "apte_data.sqlite"
 
 
 -- | Bulk loads data into the metadata and meanings tables using executeMany.
-bulkLoadFromTSV :: [(Integer, String, String)] -> [(Integer, String)] -> [(Integer,String)] -> IO ()
-bulkLoadFromTSV metadataRows meaningsRows metadata2Rows = do
+bulkLoadFromTSV :: [(Integer, String, String)] -> [(Integer, String)] -> IO ()
+bulkLoadFromTSV metadataRows meaningsRows = do
   conn <- open databaseFile
   -- Clear existing data
   execute_ conn "DROP TABLE IF EXISTS meanings_fts"
   execute_ conn "DROP TABLE IF EXISTS meanings"
   execute_ conn "DROP TABLE IF EXISTS metadata"
-  execute_ conn "DROP TABLE IF EXISTS metadata2"
   execute_ conn "CREATE TABLE IF NOT EXISTS metadata (id INTEGER PRIMARY KEY AUTOINCREMENT, ancestry TEXT, expanded_banner TEXT)"
   execute_ conn "CREATE TABLE IF NOT EXISTS meanings (meta_id INTEGER, meaning TEXT, FOREIGN KEY (meta_id) REFERENCES metadata(id))"
-  execute_ conn "CREATE TABLE IF NOT EXISTS metadata2 (id2 INTEGER, expword TEXT, FOREIGN KEY (id2) REFERENCES metadata(id))" -- Solely for Kridantadarshika
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_metadata_ancestry ON metadata (ancestry);"
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_meanings_meta_id ON meanings (meta_id);"
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_meanings_text_nocase ON meanings (meaning COLLATE NOCASE);"
-  execute_ conn "CREATE INDEX IF NOT EXISTS idx_metadata2_id2 ON metadata2 (id2);"
-  execute_ conn "CREATE INDEX IF NOT EXISTS idx_metadata2_expword ON metadata2 (expword);"
   execute_ conn "BEGIN TRANSACTION"
 
   -- Insert data using executeMany
   executeMany conn "INSERT INTO metadata (id, ancestry, expanded_banner) VALUES (?, ?, ?)" metadataRows
   executeMany conn "INSERT INTO meanings (meta_id, meaning) VALUES (?, ?)" meaningsRows
-  executeMany conn "INSERT INTO metadata2 (id2, expword) VALUES (?, ?)" metadata2Rows
   execute_ conn "COMMIT"
 
   close conn
