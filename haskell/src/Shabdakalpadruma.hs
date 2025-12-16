@@ -38,6 +38,7 @@ import Data.Ord (comparing)
 import Data.ByteString (dropEnd)
 import Data.Bits (Bits(xor))
 import Pratyayas (upasargas)
+import SqliteUtilSkd
 
 
 dataPath = "shabdakalpadruma.data"
@@ -46,6 +47,7 @@ skdPath = dataPath </> "skd2.json"
 skdOut = dataPath </> "skd2.out.json"
 tsvOut = dataPath </> "skd3.out.tsv"
 
+dbPath = dataPath </> "skd.db"
 
 prefixDhatuOverlap = ["कु"]
 upasargasAll = reverse $ L.sortOn length $ upasargas ++ ["आ","निर्","दुर्","सं"] ++ prefixDhatuOverlap
@@ -187,7 +189,7 @@ parseContent dhaList = do
   derivation2 <- maybeP derivationAnywhere
   let headWordFixed = stemFix stemHint headWord
   let derivation = fromMaybe ["","","","",""] (derivation1 <|> derivation2)
-  return $ [headWordFixed, stemHint, genderEtc] ++ derivation ++ [rest]
+  return $ [headWordFixed, stemHint, genderEtc] ++ derivation ++ [rest] ++ [headWord]
 
 dropAtEnd :: Int -> [a] -> [a]
 dropAtEnd k = reverse . drop k . reverse
@@ -272,5 +274,6 @@ main = do
   skd <- (fmap (removeDvitva . deSoftHyphen . head) . M.elems) <$> load skdPath (M.empty :: M.Map String [String])
   let parsed = (fst . head . parse (parseContent dhaList)) <$> skd
   store skdOut parsed
-  let tsv = fmap (\[h,_e,g,i,u,d,p,o,r] -> L.intercalate "\t" [h,g,i,u,d,p,o,r]) parsed
+  let tsv = fmap (\[h,_e,g,i,u,d,p,o,r,_h'] -> L.intercalate "\t" [h,g,i,u,d,p,o,r]) parsed
   writeFile tsvOut (unlines tsv)
+  bulkLoadFromTsvSkd dbPath $ fmap (\[h,_e,g,i,u,d,p,o,_r,h']->(h,g,i,u,d,p,o,h')) parsed
