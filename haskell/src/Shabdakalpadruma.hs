@@ -39,11 +39,15 @@ import Data.ByteString (dropEnd)
 import Data.Bits (Bits(xor))
 import Pratyayas (upasargas)
 import SqliteUtilSkd
-
+import System.Process
+import System.Directory
+import System.FilePath
+import Control.Exception
 
 dataPath = "shabdakalpadruma.data"
 dhatuPath = dataPath </> "dhatu.hsv"
 skdPath = dataPath </> "skd2.json"
+patchPath = dataPath </> "patches"
 skdOut = dataPath </> "skd2.out.json"
 tsvOut = dataPath </> "skd3.out.tsv"
 
@@ -136,19 +140,21 @@ dhatuLookup :: String -> [[String]] -> ReadP String
 dhatuLookup x = go where
   go [] = pfail
   go ([dhatu,aupadeshika,_meaning]:rest)
-    | x == dhatu || x ++ "्" == dhatu = pure aupadeshika
-    | x == aupadeshika || x ++ "ँ" == aupadeshika = pure aupadeshika
+    | x == dhatu = pure x
+    | x ++ "्" == dhatu = pure (x ++ " {" ++ dhatu ++ "}")
+    | x == aupadeshika || x ++ "ँ" == aupadeshika = pure (x ++ " {" ++ dhatu ++ "}")
     | otherwise = go rest
 
 dhatuOptWordLookPlus :: [[String]] -> ReadP String
 dhatuOptWordLookPlus dhaList = do
   candid <- skipSpaces >> R.munch1 isDevanagari
-  aupadeshikaDhatu <- dhatuLookup candid dhaList
+  dhatuWithEdits <- dhatuLookup candid dhaList
   skipSpaces >> phalakas
-  _dhaMeaning <- s_ (R.munch isDevanagari) <++ pure ""
+  dhaMeaning <- s_ (R.munch isDevanagari) <++ pure ""
   aheadSatisfy (("+" `L.isPrefixOf`) . dropWhile isSpace)
-  return $ aupadeshikaDhatu -- ++ " " ++ dhaMeaning
+  return $ dhatuWithEdits ++ " " ++ dhaMeaning
 
+pSankhya :: ReadP String
 pSankhya = s_ $ R.munch1 (`elem` "०१२३४५६७८९")
 pVirama = s_ (lit "।")
 
@@ -267,11 +273,26 @@ removeDvitva = go where
   go (c:cs) = c: go cs
   go [] = []
 
+applyPatchAndLoad :: FilePath -> IO (M.Map String [String])
+applyPatchAndLoad patchesDir =
+  bracket_
+    applyAll
+    restore
+    (load skdPath M.empty)
+  where
+    applyAll = do
+      patchFiles <- listDirectory patchesDir
+      mapM_ (callProcess "git" . ("apply" :) . pure) $
+        map (patchesDir </>) patchFiles
+    restore =
+      callProcess "git" ["restore", skdPath]
+
+
 main :: IO ()
 main = do
   dhaListAll <-  fmap (LS.splitOn "#") . lines <$> readFile dhatuPath 
   let dhaList = filter ((`notElem` prefixDhatuOverlap) . head) dhaListAll
-  skd <- (fmap (removeDvitva . deSoftHyphen . head) . M.elems) <$> load skdPath (M.empty :: M.Map String [String])
+  skd <- (fmap (removeDvitva . deSoftHyphen . head) . M.elems) <$> applyPatchAndLoad patchPath -- load skdPath (M.empty :: M.Map String [String])
   let parsed = (fst . head . parse (parseContent dhaList)) <$> skd
   store skdOut parsed
   let tsv = fmap (\[h,_e,g,i,u,d,p,o,r,_h'] -> L.intercalate "\t" [h,g,i,u,d,p,o,r]) parsed
