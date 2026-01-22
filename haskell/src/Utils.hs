@@ -102,7 +102,7 @@ frh4 = (\(_,_,_,a)->a)
 takeEnd' k = reverse . take k . reverse
 
 apteDir = "apteDir.nosync"
-originalPath = apteDir </> "ap90/txt/ap90.txt"
+originalPath = apteDir </> "ap57/txt/ap.txt"
 ap90 = apteDir </> "patches"
 initialEnvt = apteDir </> "envt.json"
 apteOutput = apteDir </> "output"

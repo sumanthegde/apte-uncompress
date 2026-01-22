@@ -88,17 +88,20 @@ inBraceHashDash = fromTo "{#--" "#}"
 inParenBraceHashDash = fromTo "({#--" "#})"
 inBraceHashParenDash = lookAhead "{#(--" >> bracketed & guard' ("#}" `L.isSuffixOf`)
 inParenAbbrHyp = fromTo "({%--<ab>" "</ab>%})"
-inBraceHashDeg = fromTo "{#°" "#}"
-
+inBraceHashDeg = fromTo "{#˚" "#}"
+inBrAtBrHa = fromTo "{@{#" "#}@}" -- replacement for inBraceHash in headword-like entries 
+inDoBrAtBrHaHy = fromTo ".{@{#-" "#}@}"
+inBrAtBrHaHy = fromTo "{@{#-" "#}@}"
 inSqr = fromTo "[" "]"
 
 nonroots = ("{%<ab>" ++) <$> ["m.","f.","n.","a.","ind."] <&> (++ "</ab>%}")
 padiStrings = ("<ab>"++) <$> ["P","A","U"] <&> (++ ".</ab>") --
 --padiStrings = ["<ab>P.</ab>", "<ab>A.</ab>", "<ab>U.</ab>"]
-rootClasses = manyGreedy $ skipSpaces >> postSkip (pJoin [lit "{c", pInt, lit "c}"]) (lit "," <++ s1_ (lit "or"))
+rootClasses = manyGreedy $ skipSpaces >> postSkip (pJoin [lit "€", pInt]) (lit "," <++ s1_ (lit "or"))
 rootPadi = flip postSkip (lit ",") $ skipSpaces >> foldl1 (<++) (fmap lit padiStrings) -- lit "<ab>P.</ab>" <++ lit "<ab>A.</ab>" <++ lit "<ab>U.</ab>"
 rootClassesPadi = liftA2 (++) rootClasses (sequence [rootPadi])
 romanNumbering = pJoin [lit "{v", munch (`elem` "IV."), lit "v}"]
+samasaStarter = ".--{@<ab>Comp.</ab>@}" -- old was "{@--Comp.@}", got subsumed in "{@--}" checks
 
 rootData :: R.ReadP [String]
 rootData = filter (not.null) <$> chains (pure (++))
@@ -115,7 +118,7 @@ abBrSqr = abbr <++ inBraceHash <++ inSqr
 abBrSqrs1 :: ReadP [String]
 abBrSqrs1 = do
   skipSpaces
-  x <- postSkip abBrSqr (lit "," <++ lit "." <++ (skipSpaces >> lit "or"))
+  x <- postSkip (abbr <++ inBrAtBrHa <++ inSqr) (lit "," <++ lit "." <++ (skipSpaces >> lit "or"))
   rest <- abBrSqrs1 <++ return []
   return $ x:rest
 
@@ -155,41 +158,63 @@ regular = catManyGreedy1 (manyGreedy1sat bracketFree R.<++ bracketed)
 regularButOuter condP = catManyGreedy1 (manyGreedy1 (R.satisfy bracketFree) R.<++ guard' condP bracketed)
 
 -- | Like regularButOuter, but the constraint is not applicable to the maximal bracketed part if it
---   starts with {#° and is preceded by "so " or "see " etc. This odd-looking function is to handle the kinds of:
---   - "so {#°...". Example: kawu --graMTi "so {#°BaMgaH#} {#°BadraH}"
---   - "see {#°...". Example: go --tra "see {#°sKalita#} below"
---   - "= {#°...". Example: patraM --AvalI {1}... {2} = {#°Avali#}
---   - "<ab>cf.</ab> {#°". Example: kara --pallava cf. kisalaya#}.
+--   starts with {#˚ and is preceded by "so " or "see " etc. This odd-looking function is to handle the kinds of:
+--   - "so {#˚...". Example: kawu --graMTi "so {#˚BaMgaH#} {#˚BadraH}"
+--   - "see {#˚...". Example: go --tra "see {#˚sKalita#} below"
+--   - "= {#˚...". Example: patraM --AvalI {1}... {2} = {#˚Avali#}
+--   - "<ab>cf.</ab> {#˚". Example: kara --pallava cf. kisalaya#}.
+regularButOuterSoSee :: (String -> Bool) -> ReadP [Char]
 regularButOuterSoSee condBlack = let
   soSee = ["so","see","=","<ab>cf.</ab>"]
-  soSeePref = soSee <&> (++ " {#°")
+  soSeePref = soSee <&> (++ " {#˚")
   litSoSee = s_ $ foldr1 (<++) (s1'_.lit <$> soSee)
   jamMidSpaces xs = takeWhile isSpace xs ++ (unwords . words . unwords . lines) (dropWhile isSpace xs)
   optLit s = lit s <++ pure ""
   in catManyGreedy1 $
         manyGreedy1 (aheadSatisfy (\s -> not $ any (`L.isPrefixOf` jamMidSpaces s) soSeePref) >> R.satisfy bracketFree)
-        R.<++ pJoin [litSoSee, catManyGreedy1 (s_ (optLit "or " >> lookAhead "{#°" >> bracketed))]
+        R.<++ pJoin [litSoSee, catManyGreedy1 (s_ (optLit "or " >> lookAhead "{#˚" >> bracketed))]
         R.<++ pJoin [litSoSee <++ pure "", guard' condBlack bracketed]
+
+-- | Like regularButOuter, but with constraints on the bracketfree part. Constraints are of not-a-superstring-of type.
+regularButOuter2 prefs = let
+  braChars = ["{","}","(",")","[","]"]
+  notSuperstring css xs =  not $ any (`L.isPrefixOf` xs) css
+  in catManyGreedy1 (manyGreedy1 (getIfRestSatisfy (notSuperstring (prefs ++ braChars))) R.<++ guard' (notSuperstring prefs) bracketed)
+
+regularOuterAllowDisallow breakPrefs continuePs= let
+  braChars = ["{","}","(",")","[","]"]
+  notSuperstring css xs =  not $ any (`L.isPrefixOf` xs) css
+  in catManyGreedy1 $
+     manyGreedy1 (getIfRestSatisfy (notSuperstring (breakPrefs ++ braChars)))
+     R.<++ continuePs
+     R.<++ guard' (notSuperstring breakPrefs) bracketed
 
 computelNum :: Envt -> Int -> Int
 computelNum envt linesLeft = (mapLnu envt M.! loc (head $ locations envt)) + 1 + nLines envt - linesLeft
+
+adjEtc = ["{%a.%}","{%f.%}","{%m.%}","{%n.%}","{%ind.%}"]
+adjEtcPrefHyp = ("--" ++) <$> adjEtc
+adjEtcSuffDot = adjEtc <&> (++ "\n.")
+advEtc = [ "{%<ab>adv.</ab>%}","--{%<ab>Caus.</ab>%}", "--{%<ab>Desid.</ab>%}", "--{%<ab>pass.</ab>%}"
+    , "--{%With%}", "{%Dual%}", "{%dual%}"
+    ]
 
 -- | Problems with the definition of morphism
 --  First, there are several candidate definitions
 --  1: One that has distinct meaning(s)
 --  2: Different spelling, qualifies to be a separate entry (albeit pointing to another entry)
 --  3: Any slp1 string in Apte's dictionary. (so that, searching for it always yields some meaningful context)
---  4. Only those starting with -- (or ° in case of Comp)
+--  4. Only those starting with -- (or ˚ in case of Comp)
 --
 --  3 is simple. But: here, slp1 words in gram (e.g. उणादि) also qualify. They could interfere with actual entry words
 --  2 is hard to parse
 --  1 misses out those that are written _after_ the meaning, as alternative spelling/word for the preceding morphism (& meaning)
---  4 may be hard too, in that post-Comp phrases may have ° used in different situations
+--  4 may be hard too, in that post-Comp phrases may have ˚ used in different situations
 --
 --  How about a combination of 4 & 3?
---  4 misses out some °'s in the pre-Comp part.
+--  4 misses out some ˚'s in the pre-Comp part.
 --  Assuming that they're the only missing ones, we can treat them 2nd class entries & apply 3.
---  Note that उणादि's *usually* don't have ° (Counterex: L<105>) so we don't have false positives
+--  Note that उणादि's *usually* don't have ˚ (Counterex: L<105>) so we don't have false positives
 parseMorphism' :: Envt -> ReadP Term
 parseMorphism' envt = do
   let a = locations envt
@@ -205,20 +230,21 @@ parseMorphism' envt = do
       -- rytsp
   skipSpaces
   linesLeft <- (length . filter (=='\n')) <$> look
-  banner' <- setBanner <$/> inBraceHashDash
+  let morphLabels = adjEtcPrefHyp ++ advEtc
+  banner' <- setBanner <$/> (foldl1 (<++) (fromTo "{@{#-" "#}@}": fromTo ".{@{#" "#}@}": fmap lit morphLabels)) -- inBraceHashDash
   skipSpaces
   gram' <- setGram <$/> (liftM2 (++) (manyGreedy1 (skipSpaces >>abbrhyp)) (abBrSqrParens1 <++ pure []) <++ abBrSqrParens1 <++ rootData) -- 14993
   let bg = setAncestry $ gram' $ banner' $ termNil {__line = Just (computelNum envt linesLeft)}
   let envt' = envt {locations = fromJust (_ancestry bg)}
-  guard $ isJust (_banner bg) || isJust (_gram bg) -- bg's head's prefix is pre-controlled by "morphism-starters" etc
+  guard $ isJust (_banner bg) || isJust (_gram bg) || tracePrintu bg False -- bg's head's prefix is pre-controlled by "morphism-starters" etc
   meanings' <- setMeanings <$.> parseMeanings envt'
   return $ meanings' bg
 
 parseMorphisms' :: Envt -> ReadP [Term]
 parseMorphisms' a = manyGreedy1 (parseMorphism' a)
 
-parseMorphisms :: ReadP [Char]
-parseMorphisms = skipSpaces >> superstringOfNoneOf' ["{@--Comp.@}"]
+-- parseMorphisms :: ReadP [Char]
+-- parseMorphisms = skipSpaces >> superstringOfNoneOf' ["{@--Comp.@}"]
 
 parseParenBraceWithinSamasa' :: Term -> ReadP Term
 parseParenBraceWithinSamasa' t = do
@@ -230,12 +256,12 @@ parseParenBraceWithinSamasa' t = do
       (++.) p q = pJoin [p,q]
   skipSpaces
   lit "("
-  banner' <- setBanner <$/> fmap concat (liftA2 (:) (fmap ('(':) inBraceHashDash ++/ (lit "," <++ s1_ (lit "or"))) (manyGreedy $ s_ inBraceHash))
+  banner' <- setBanner <$/> fmap concat (liftA2 (:) (fmap ('(':) inBrAtBrHaHy ++/ (lit "," <++ s1_ (lit "or"))) (manyGreedy $ s_ inBrAtBrHaHy))
   let myterm = banner' t
   skipSpaces
   gram' <- setGram <$/> (chainMaximal1 [abbrhyp, regular] <++ fmap (:[]) regular)
   let bg = gram' myterm
-  guard $ isJust (_banner bg) || (case _gram bg of (Just  (('{':'%':'-':'-':_):_))-> True; _-> False)
+  guard $ isJust (_banner bg) || (case _gram bg of (Just  (('{':'%':'-':'-':_):_))-> True; _-> False) -- TODO PENDING
   lit ")" -- The '(' was prepended to banner (for ease of distinction from other forms) but this is discarded. Odd but works.
   return bg
 
@@ -256,6 +282,7 @@ parseBraceParenWithinSamasa' t = do
   gram' <- setGram <$/> fmap (:[]) abbr
   return $ gram' $ banner' $ t
 
+-- TODO PENDING
 parseMorphismWithinSamasa' :: Envt -> ReadP Term
 parseMorphismWithinSamasa' envt = do
   linesLeft <- (length . filter (=='\n')) <$> look
@@ -302,41 +329,45 @@ parseMorphismsWithinSubsamasa' envt = do
 --  - Missing a meaning phrase?
 --  - Creating a spurious meaning phrase?
 --  - Missing a morphism phrase?
---    - Sort of. "; {#°" is parsed as Left in parseMorphisms'.
+--    - Sort of. "; {#˚" is parsed as Left in parseMorphisms'.
 --  - Creating a spurious meaning phrase?
 parseMeanings :: Envt -> ReadP [String]
 parseMeanings _ = let
-  meaningStarters = ["{@--", "{v"]
-  morphismStarters = ["{#--", "{%--"]
-  obsoletes = [ "; {#°"] -- Degree handling is delegated to next pass of parsing altogether
-  postNumeric = skipSpaces >> regularButOuter (prefixOfNoneOf (meaningStarters ++ morphismStarters))
-  numeric = chains (pure (++)) [lit "{@--", pInt, lit "@}"]
+  meaningStarters = [".²",".³"] --- ["{@--", "{v"]
+  morphHead = ["{@{#", ".{@{#" -- headword morphs
+    --, "({@{#", "{#˚", "({#˚" -- These are tricky, & relevant in M_, S_, S_S. TODO Check again at B_ carefully
+    ]
+  postNumeric = skipSpaces >> regularButOuter2 (meaningStarters ++ advEtc ++ adjEtcPrefHyp ++ adjEtcSuffDot ++ morphHead ++ [samasaStarter])
+  anyAdjEtc = foldl1 (<++) (lit <$> adjEtc) <++ lit ""
+  initialNonNum = skipSpaces >> pJoin [anyAdjEtc, postNumeric]
+  numeric = pJoin [lit ".²", pInt] <++ pJoin [lit ".³", fromTo "({%" "%})"]
   numbered = skipSpaces >> pJoin [numeric, s1_ postNumeric]
   nilBeforeVI = lookAhead "{v" >> pure [] -- 14883 titfpsati
-  in chainMaximal1 (postNumeric: repeat numbered) <++ manyGreedy1 numbered <++ const (pure []) nilBeforeVI -- 31248
+  in chainMaximal1 (initialNonNum: repeat numbered) <++ manyGreedy1 numbered -- <++ const (pure []) nilBeforeVI -- 31248
 
 parseMeaningsWithinSamasa :: Envt -> ReadP [String]
 parseMeaningsWithinSamasa envt = let
   (/++) p q = pJoin [p <++ pure "", q]
   (++/) p q = pJoin [p, q <++ pure ""]
-  meaningStarters = ('{':).show <$> [1..9] -- ["{1}"]
-  morphismStarters = ["({#--", "({%--"]
-  nextSamasaStarters = ["{#--"] -- 12233?
-  allStarters = meaningStarters ++ morphismStarters ++ nextSamasaStarters ++ ["{#(--"] ++ ["{#°"]
-  obsoletes = [ "; {#°"] -- Todo: handle it
+  meaningStarters = [".²",".³"] -- ('{':).show <$> [1..9] -- ["{1}"]
+  morphismStarters = ["({@{#-"]
+  nextSamasaStarters = [".{@{#-"] -- 12233?
+  allStarters = meaningStarters ++ morphismStarters ++ nextSamasaStarters ++ ["{#(--"]
+  soSeeFreeRuns = (++) <$> foldl1 (<++) [lit (x++" ") | x <-["so","see","=","<ab>cf.</ab>"]] <*> (aheadSatisfy ("{#˚" `L.isPrefixOf`) >> bracketed)
+  obsoletes = [ "; {#˚"] -- Todo: handle it
   parenAlso = pJoin [lit "(", inBraceHashDash ++/ s1_ (lit "also"), lit ")"]
   morphismAtEnd = skipSpaces >> pJoin [parenAlso, lit ".", s_ (pure "")] -- uru gAya ({#--yaH#}) ... {2} ... ({#--yaM#} also).
-  degSentenceContd = pJoin [lit "{#°", s1'_ slpStr, superstringOfNoneOf ["#}"], lit "#}", meaningPlusMorphism] -- arDa caMdra {#°draM dA#}, paScAt tApaM kf
-  braceHashNonDegAhead = aheadSatisfy (\s -> "{#" `L.isPrefixOf` trim s && not ("{#°" `L.isPrefixOf` trim s)) -- antar lIna {#°nasya#} {#duHKAgneH#}
-  degSentence2Contd = pJoin [inBraceHashDeg, braceHashNonDegAhead >> meaningPlusMorphism] -- Todo: Handle: tri daSa {#°aDyakzaH#} {#°ayanaH#}, catur catvAriMSat {#°riMSa#} {#--Sattama#}
-  degSlpLsContd = pJoin [s1'_ inBraceHashDeg, lookAhead "<ls>" >> meaningPlusMorphism] -- kaMWa ASleza {#°upagUQa#} <ls>...
+  degSentenceContd = pJoin [lit "{#˚", s1'_ slpStr, superstringOfNoneOf ["#}"], lit "#}", meaningPlusMorphism] -- arDa caMdra {#˚draM dA#}, paScAt tApaM kf
+  braceHashNonDegAhead = aheadSatisfy (\s -> "{#" `L.isPrefixOf` trim s && not ("{#˚" `L.isPrefixOf` trim s)) -- antar lIna {#˚nasya#} {#duHKAgneH#}
+  degSentence2Contd = pJoin [inBraceHashDeg, braceHashNonDegAhead >> meaningPlusMorphism] -- Todo: Handle: tri daSa {#˚aDyakzaH#} {#˚ayanaH#}, catur catvAriMSat {#˚riMSa#} {#--Sattama#}
+  degSlpLsContd = pJoin [s1'_ inBraceHashDeg, lookAhead "<ls>" >> meaningPlusMorphism] -- kaMWa ASleza {#˚upagUQa#} <ls>...
   degContdToMorphismAtEnd = degSentenceContd <++ degSentence2Contd <++ degSlpLsContd
-  degSlpSentence = concat <$> chainMaximal1 (inBraceHashDeg: repeat (s_ inBraceHash))
-  meaningDegLsContd = pJoin [s1'_ degSlpSentence, lookAhead "<ls>" >> meaningPlusMorphism]
-  meaningPlusMorphism = regularButOuterSoSee (prefixOfNoneOf allStarters) ++/ (degContdToMorphismAtEnd <++ morphismAtEnd)
+  -- degSlpSentence = concat <$> chainMaximal1 (inBraceHashDeg: repeat (s_ inBraceHash))
+  -- meaningDegLsContd = pJoin [s1'_ degSlpSentence, lookAhead "<ls>" >> meaningPlusMorphism]
+  meaningPlusMorphism = regularOuterAllowDisallow allStarters soSeeFreeRuns ++/ (degContdToMorphismAtEnd <++ morphismAtEnd)
   postNumeric = s_ ((parenAlso <++ inParen) /++ meaningPlusMorphism) -- eka cityA … {2} ({#--yaH#}, {#--yanaH#}); eka kara {2} ({#--rA#}); ahan {#--rAtraH#} ({#--traM#} also)
-  numeric i = chains (pure (++)) [lit "{", lit (show i), lit "}"]
-  subnumeric = (pJoin [lit "{#°", slpStr, lit "#}"] ++/ lit ",") -- aMtar yAmaH …{2} {#॰pAtraM#}, …
+  numeric i = pJoin [lit ".²", pInt] <++ pJoin [lit ".³", fromTo "({%" "%})"]
+  subnumeric = (pJoin [lit "{#˚", slpStr, lit "#}"] ++/ lit ",") -- aMtar yAmaH …{2} {#॰pAtraM#}, …
   meaningEmptyAsPerEnv = if locations envt `elem` meaningEmpty envt then pure "" else pfail -- adriH jaH ({#--jA#}) {1}… {2} {#--kanyA…#}.
   numAlpha i = s_$ pJoin [numeric i, s_ (subnumeric /++ postNumeric) <++ s_ meaningEmptyAsPerEnv] -- (irrational) asymmetry: subsamasa is subsumed but morphm is extracted by pruning prev's meaning
   nextSamasaAhead = foldr1 (<++) $ lookAhead <$> nextSamasaStarters
@@ -348,7 +379,7 @@ parseMeaningsWithinSamasa envt = let
 
 parseSubsamasa :: Envt -> ReadP Term
 parseSubsamasa envt = do
-  -- <non so> {#°\w*#} [abbr] [,{#°\w*#} [abbr]]* <non ls, non bracehash>
+  -- <non so> {#˚\w*#} [abbr] [,{#˚\w*#} [abbr]]* <non ls, non bracehash>
   -- <non so> ensured already
   let ancestors = locations envt
       sp_ = (skipSpaces >>)
@@ -362,16 +393,16 @@ parseSubsamasa envt = do
       (++/) p q = pJoin [p, q <++ pure ""]
       (.++.) p q = pJoin [p,q]
       intersperse' _ [] = []; intersperse' d (p:ps) = p: fmap (d .++.) ps -- prevents parsing delims & stopping there
-      pada1InBlock1 = pJoin [lit "°", slpStr]
-      padaInBrackedBlock = s_ $ pJoin [lit "°" <++ lit "--" <++ pure "", slpStr]
+      pada1InBlock1 = pJoin [lit "˚", slpStr]
+      padaInBrackedBlock = s_ $ pJoin [lit "˚" <++ lit "--" <++ pure "", slpStr]
       calateChainMaximal1 delimP = fmap concat . chainMaximal1 . intersperse' delimP
       padasInBracedBlock pada1 = calateChainMaximal1 (s1'_ $ lit ",") (pada1 : repeat padaInBrackedBlock)
       bracedBlock pada1 = pJoin [lit "{#", padasInBracedBlock pada1, lit "#}"] --, s_ abbr <++ pure ""]
-      bracedBlock1 = bracedBlock pada1InBlock1 -- tri kAla {#°jYa, °darSin#} {%<ab>a.</ab>%}
-      bracedBlocksAfter1 = repeat (bracedBlock padaInBrackedBlock) -- prati kUla {#°kArin, --kfta#}, {#--cArin, --vfMtti#}
-      postBannerSanity = aheadSatisfy (\xs -> not $ any (`L.isPrefixOf` trim xs) ["<ls>", "{#"]) -- antar lIna {#°nasya#} {#duHKAgneH#} <ls>
+      bracedBlock1 = bracedBlock pada1InBlock1 -- tri kAla {#˚jYa, ˚darSin#} {%<ab>a.</ab>%}
+      bracedBlocksAfter1 = repeat (bracedBlock padaInBrackedBlock) -- prati kUla {#˚kArin, --kfta#}, {#--cArin, --vfMtti#}
+      postBannerSanity = aheadSatisfy (\xs -> not $ any (`L.isPrefixOf` trim xs) ["<ls>", "{#"]) -- antar lIna {#˚nasya#} {#duHKAgneH#} <ls>
   linesLeft <- (length . filter (=='\n')) <$> look
-  bannerValue <- calateChainMaximal1 (s1'_ (lit ","<++pure "")) (bracedBlock1 : bracedBlocksAfter1 ) --`tri daSa {#°aDyakzaH#} {#°ayanaH#}`
+  bannerValue <- calateChainMaximal1 (s1'_ (lit ","<++pure "")) (bracedBlock1 : bracedBlocksAfter1 ) --`tri daSa {#˚aDyakzaH#} {#˚ayanaH#}`
   let locValue = case last ancestors of (S_ _) -> S_S_; S_M_ _ -> S_M_S_; _ -> undefined
   let ancestryValue = ancestors ++ [locValue bannerValue]
   let envt' = envt {locations = ancestryValue}
@@ -384,7 +415,7 @@ parseSubsamasa envt = do
 parseSubSamasas a = manyGreedy1 (parseSubsamasa a)
 
 parseSamasa :: Envt -> ReadP String -> ReadP Term
-parseSamasa envt braceHashOptDash = do
+parseSamasa envt samasaBannerP = do
   let sp_ = (skipSpaces >>)
       setBanner t term = term {_banner = t}
       setMeanings ms term = term {_meanings = ms}
@@ -396,7 +427,7 @@ parseSamasa envt braceHashOptDash = do
       (++/) p q = pJoin [p, q <++ pure ""]
       -- rytsp
   linesLeft <- (length . filter (=='\n')) <$> look
-  bannerValue <- fmap concat (liftA2 (:) (s_ braceHashOptDash ++/ (lit "," <++ s1_ (lit "or"))) (manyGreedy $ s_ inBraceHash)) -- 10168 puruzaH
+  bannerValue <- fmap concat (liftA2 (:) (s_ samasaBannerP ++/ (lit "," <++ s1_ (lit "or"))) (manyGreedy $ s_ inBraceHash)) -- 10168 puruzaH
   let ancestryValue = locations envt ++ [S_ bannerValue]
   let myterm = termNil {_ancestry = Just ancestryValue, _banner = Just bannerValue, __line = Just (computelNum envt linesLeft)}
   let envt' = envt {locations = ancestryValue}
@@ -409,14 +440,15 @@ parseSamasa envt braceHashOptDash = do
   -- This is the (only) place where samasas precedes morphisms. tToList() takes this into account
   [subsamasas',morphisms'] <- sequence [s'',m''] -- new scheme where each of m'' can have its own subsamasa
 --[morphisms',subsamasas'] <- sequence [m'', opt s''] -- Usual order: m,s
---                           <++ (reverse <$> sequence [s'', opt m'']) -- go --paH {#°vaDUwI#} … ({#--pakaH#})
+--                           <++ (reverse <$> sequence [s'', opt m'']) -- go --paH {#˚vaDUwI#} … ({#--pakaH#})
 --                           <++ return [id,id]
   return $ morphisms' $ subsamasas' $ meanings' $ gram' $ myterm
 
 parseSamasas :: Envt -> ReadP [Term]
 parseSamasas a = do
-  lit "{@--Comp.@}"
-  chainMaximal1 $ parseSamasa a (inBraceHashDash <++ inBraceHash) : repeat (parseSamasa a inBraceHashDash) -- nanAndfpati
+  lit samasaStarter -- "{@--Comp.@}"
+  skipSpaces
+  chainMaximal1 $ parseSamasa a (inDoBrAtBrHaHy <++ inBrAtBrHa) : repeat (parseSamasa a inDoBrAtBrHaHy) -- nanAndfpati
 
 -- | isFirst: Obsolete. Was meant to account for the "¦"
 --   isMorphism: Meant to account for possible absence of any of banner, gram, morphism & samasa.
@@ -493,8 +525,8 @@ makeLBlocks envt xs = fmap M.fromList $ forM xs $ \l -> do
   return (fst $ head desc)
 
 positiveEgMap =
-  [(1003,"Don't consider {#°samADiyogaH#} a morphism")
-  ,(9518,"eka. Meaning should not stop at {@--6@} (ref: {#°pArTiva#}), LATER: --anta, (-taH), viDvaMsin")
+  [(1003,"Don't consider {#˚samADiyogaH#} a morphism")
+  ,(9518,"eka. Meaning should not stop at {@--6@} (ref: {#˚pArTiva#}), LATER: --anta, (-taH), viDvaMsin")
   ,(10007,"kanchukin. {%--<ab>m.</ab>%} {@--1@} is a morphism")
   ,(10010,"{#--jaM#} is a morphism. LATER: Comp. {#--jaMH#} is a typo")
   ,(10593,"kas (verb with multi ganas) {vI.v} {c1c} <ab>P.</ab> ({#kasati, kasita#}) To move, go, approach. {vII.v} {c2c}")
@@ -502,7 +534,7 @@ positiveEgMap =
   ]
 positiveEg = map fst positiveEgMap
 counterEgMap =
-  [(1956,"anuzaMj (verb: starts with parens) ({#°saMj#}). Also note, later, this: {%--<ab>pass.</ab>%} ( {#--zajyate#}) ")
+  [(1956,"anuzaMj (verb: starts with parens) ({#˚saMj#}). Also note, later, this: {%--<ab>pass.</ab>%} ( {#--zajyate#}) ")
   ,(1977,"anuzRa. The '({#-- #} <text>)' pattern: {@--Comp.@} {#--guH#} ({#--go#} ray)")
   ,(2044,"anUpa. ({#--pAH#} <ab>pl.</ab>) -> it's plural, not a new word")
   ,(12225,"gagana. The '(<text> {#-- #})' pattern: (Some suppose {#gagaRa#} ⋯ writer: {#--PAlgune gagane Pene#})")
@@ -632,29 +664,39 @@ helper = do
   let _ms1 = filter (\t -> isJust (_morphisms t) && isJust (_samasas t)) ts1
   return ()
 
+rToList fPath outPath = do
+  rs <- load fPath recordMNil
+  let t = head $ rs ^.. traverse . term . _Just
+  let ancestries = tToList t ^.. traverse . ancestry . _Just
+  let ancestriesStr = fmap showLocs ancestries
+  case outPath of
+    "-" -> printu ancestriesStr
+    _ -> store outPath ancestriesStr
+
 main :: IO ()
 main = do
   let lineCurator = id
-                  . replaceAll (lit "v. {1}") "<ab>v. l.</ab>"
-                  . replaceAll (lit ": {#--") ":-- {#"
-                  . replaceAll (lit "(\n") ("\n(") -- go paH (\n{#--pikA
+                   --- . replaceAll (lit "-{@{#") "{@{#-" -- Just 3 occurrences, maybe just patch.
+                  -- . replaceAll (lit "v. {1}") "<ab>v. l.</ab>" --X
+                  -- . replaceAll (lit ": {#--") ":-- {#" --X
+                  -- . replaceAll (lit "(\n") ("\n(") -- go paH (\n{#--pikA
                --   . replaceAll (lit ("#}"++altLf++"{#")) " "  -- anti: akula
-                  . replaceAll (lit "|") "L" 
-                  . replaceAll (lit "{@1@}") "{@--1@}"
-                  . replaceAll (surrLazy "<lbinfo" "/>\n") "\n"
-                  . replaceAll (surrLazy "[Page" ("]\n")) "\n"
-  patchesAll <- fmap (ap90</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90
-
+                  -- . replaceAll (lit "|") "L"  -- K
+                  -- . replaceAll (lit "{@1@}") "{@--1@}" --X
+                  -- . replaceAll (surrLazy "<lbinfo" "/>\n") "\n" --X
+                  -- . replaceAll (surrLazy "[Page" ("]\n")) "\n"
+  patchesAll <- pure [] -- fmap (ap90</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90
+  
   (inlines,pageMarks) <- makeInline lineCurator patchesAll originalPath inlineTxtPath
   _ <- store' pageMarkPath pageMarks
   -- $ (regularButOuter (const True)>>eof)) <++ (Just <$> munch (const True)) ) <$> inlines
 --  _ <- store' (ap90</>"_irreg.json") danglingBrackets
   mapLnu' <- getMapLnu
   let zeroEnvt = Envt [] [] [] [] (-1) M.empty
-  envt <- load initialEnvt zeroEnvt
-  guard $ nLines envt /= -1 || tracePrintu "ERROR: zeroEnvt" False
-  let envt' = envt {mapLnu = mapLnu'}
-  rec0 <- makeLBlocks envt' inlines
+--  envt <- load initialEnvt zeroEnvt
+--  guard $ nLines envt /= -1 || tracePrintu "ERROR: zeroEnvt" False
+  let envt' = zeroEnvt {mapLnu = mapLnu'}
+  rec0 <- makeLBlocks envt' $ take 1 $ drop 242 $ inlines
   _ <- store' rec0Path rec0
   putStrLn "Done."
 
