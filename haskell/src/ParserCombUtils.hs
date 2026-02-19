@@ -23,9 +23,12 @@ satisfyAny conds = R.satisfy (foldr1 or2 conds)
 surr :: String -> String -> R.ReadP a -> R.ReadP a
 surr open close = R.between (lit open) (lit close)
 
--- | Returns shortest possible match surrounded by open and close
+-- | Returns shortest possible match surrounded by open and close. Todo: depricate in favor of surrLazy'
 surrLazy :: String -> String -> R.ReadP String
 surrLazy open close = R.between (lit open) (lit close) (superstringOfNoneOf [close])
+
+surrLazy' :: String -> String -> R.ReadP String
+surrLazy' open close = R.between (lit open) (lit close) (superstringOfNoneOf [close])
 
 aheadSatisfy p = do
   cs <- R.look
