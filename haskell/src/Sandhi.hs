@@ -257,7 +257,7 @@ kaskAdi purva uttara = let
   kaska2 = canon <$> ["तिरस्","नमस्", "पुरस्"] -- 8/3/40,41
   purvas = kaska ++ kaska2
   apapada = canon <$> ["पाश","कल्प","क","काम्य"] -- 8/3/38
-  atah = canon <$> ["कार","कृत्","काम","कंस","कुंभ","कुशा","कर्णी"] -- 8/3/46. कुम्भ -> कुंभ for Apte
+  atah = canon <$> ["कार","कृत्","काम","कंस","कुंभ","कुशा","कर्णी"] -- 8/3/46. कुम्भ -> कुंभ for Apte. TODO Handle all कृ कमिँ participles
   uttaras = apapada ++ atah
   in (any (`L.isSuffixOf` purva) purvas && uttara `headIn` "कखपफ")
      || (takeEnd' 2 purva == "अस" && any (`L.isPrefixOf` uttara) uttaras)

@@ -103,9 +103,9 @@ takeEnd' k = reverse . take k . reverse
 
 apteDir = "apteDir.nosync"
 originalPath = apteDir </> "ap57/txt/ap.txt"
-ap90 = apteDir </> "patches"
+ap90patches = apteDir </> "patches90"
 ap57patches = apteDir </> "patches57"
-initialEnvt = apteDir </> "envt2.json"
+initialEnvt = apteDir </> "envt57.json"
 apteOutput = apteDir </> "output"
 dsalDir = apteDir </> "dsal"
 inlineTxtPath = apteOutput </> "inline.txt"

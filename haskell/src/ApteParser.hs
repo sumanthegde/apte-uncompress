@@ -94,13 +94,13 @@ inBraceHashDeg = fromTo "{#˚" "#}"
 inBrAtBrHa = fromTo "{@{#" "#}@}" -- replacement for inBraceHash in headword-like entries 
 inDoBrAtBrHaHy = fromTo ".{@{#-" "#}@}"
 inBrAtBrHaHy = fromTo "{@{#-" "#}@}"
-abbr57 = pJoin [lit "{%", munch1 isAlpha, lit ".", munch (/= '%'), lit"%}"]
+abbr57 = pJoin [lit "{%", munch1 isAlpha, lit ".", munch (/= '%'), lit "%}"]
 inSqr = fromTo "[" "]"
 
 nonroots = ("{%<ab>" ++) <$> ["m.","f.","n.","a.","ind."] <&> (++ "</ab>%}")
-padiStrings = ("<ab>"++) <$> ["P","A","U"] <&> (++ ".</ab>") --
+padiStrings = ("<ab>"++) <$> ["P","Ā","U"] <&> (++ ".</ab>") --
 --padiStrings = ["<ab>P.</ab>", "<ab>A.</ab>", "<ab>U.</ab>"]
-rootClasses = manyGreedy $ skipSpaces >> postSkip (pJoin [lit "€", pInt]) (lit "," <++ s1_ (lit "or"))
+rootClasses = manyGreedy $ skipSpaces >> postSkip (pJoin [lit "€", pInt]) (lit "." <++ lit "," <++ s1_ (lit "or"))
 rootPadi = flip postSkip (lit ",") $ skipSpaces >> foldl1 (<++) (fmap lit padiStrings) -- lit "<ab>P.</ab>" <++ lit "<ab>A.</ab>" <++ lit "<ab>U.</ab>"
 rootClassesPadi = liftA2 (++) rootClasses (sequence [rootPadi])
 romanNumbering = foldl1 (<++) $ lit <$> ["I.","--II.","--III.","--IV.","--V.","--VI."] -- pJoin [lit "{v", munch (`elem` "IV."), lit "v}"]
@@ -121,7 +121,8 @@ abBrSqr = abbr <++ abbr57 <++ inBraceHash <++ inSqr
 abBrSqrs1 :: ReadP [String]
 abBrSqrs1 = do
   skipSpaces
-  x <- postSkip (abbr <++ abbr57 <++ inBrAtBrHa <++ inSqr) (lit "," <++ lit "." <++ (skipSpaces >> lit "or"))
+  ---------------------------------- inBraceHashHyphen NEEDED
+  x <- postSkip (abbr <++ abbr57 <++ inBrAtBrHa <++ inBraceHash <++ inSqr) (lit "," <++ lit "." <++ (skipSpaces >> lit "or"))
   rest <- abBrSqrs1 <++ return []
   return $ x:rest
 
@@ -141,8 +142,10 @@ abBrSqrParens1 = do
   rest <- abBrSqrParens1 <++ return []
   return $ x:rest
 
+dot_ p = pJoin [lit "." <++ pure "", p]
+
 abBrSqrParens1' :: ReadP [String]
-abBrSqrParens1' = manyGreedy1 $ postSkip (skipSpaces >> (abbr <++ abbr57 <++ inBraceHash <++ inBrAtBrHaHy <++ inSqr <++ inParen <++ lit "{%dual%}")) (lit "," <++ lit ".") -- dual: 27022
+abBrSqrParens1' = manyGreedy1 $ postSkip (skipSpaces >> (abbr <++ abbr57 <++ inBraceHash <++ dot_ inBrAtBrHa <++ inSqr <++ dot_ inParen <++ lit "{%dual%}")) (lit "," <++ lit ".") -- dual: 27022
 
 optionally parser = ryt parser <++ return Nothing
 
@@ -494,8 +497,11 @@ parseTerm envt = do
   let myterm = termNil {_ancestry = Just ancestryValue, _banner = Just bannerValue, __line = Just (computelNum envt linesLeft)}
   skipSpaces
   let rootDataMany = fmap concat (manyGreedy1 $ postSkip (skipSpaces >> rootData) (lit "," <++ lit "."))
-  let causEtcAsGram = (manyGreedy $ pJoin [foldl1 (<++) (s_.lit <$> advEtc), s_ $ postSkip inBraceHash (lit ";")]) -- DA
-  gram' <- setGram <$/> (abBrSqrParens1' <++ ((++) <$> rootDataMany <*> causEtcAsGram))
+  let causEtcAsGram = manyGreedy $ pJoin [foldl1 (<++) (s_.lit <$> advEtc), s_ $ postSkip inBraceHash (lit ";")] -- DA
+  let add = liftA2 (++)
+  let rootDataCausData = add rootDataMany causEtcAsGram
+  let inSqr_ = fmap pure inSqr <++ pure []
+  gram' <- setGram <$/> (add rootDataCausData inSqr_ <++ add inSqr_ rootDataCausData <++ abBrSqrParens1') -- still misses anuzaYj etc
   let envt' = envt {locations = ancestryValue}
   meanings' <- setMeanings <$?> parseMeanings envt'
   morphisms' <- setMorphisms <$/> parseMorphisms' envt' -- (setMorphisms <$> (parseMorphisms' /// parseMorphisms )) <++ return id
@@ -549,7 +555,7 @@ makeLBlocks' envt xs = M.fromList <$> go xs where
         getChar
         return []
       ((sl,reco),_) : _ -> do
-        let sl_num = reverse $ take 7 $ (++ "0000000") $ reverse sl  
+        let sl_num = reverse $ take 7 $ (++ "0000000") $ reverse sl
         case reco ^. term . _Just . unspent of
           Just unsp -> do
             putStrLn $ "PARSING ERROR IN " ++ show sl_num
@@ -619,7 +625,7 @@ abbrHypInSamasaMap =
   ,(886,"adriH")
   ]
 
-th k = take 1 . drop k  
+th k = take 1 . drop k
 
 makeInline :: (String -> String) -> [FilePath] -> FilePath -> FilePath -> IO ([String], M.Map Int String)
 makeInline lineCurator patchPaths inPath outPath = do
@@ -658,7 +664,7 @@ store' path structure = putStrLn ("store: "++path) >> store path structure >> re
 
 patchOverlapCheck :: IO ()
 patchOverlapCheck = do
-  patchesAll <- fmap (ap90</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90
+  patchesAll <- fmap (ap90patches</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90patches
   patches <- traverse (`load` M.empty) patchesAll :: IO [M.Map Integer String]
   let lineNumsGrouped = (L.group . L.sort. concat) (M.keys <$> patches)
   let dups = filter (not.null.tail) lineNumsGrouped
@@ -669,7 +675,7 @@ type EditPath = FilePath
 makeNewPatch :: EditPath -> FilePath -> IO (M.Map Integer String)
 makeNewPatch editPath outPath = do
   oldLines <- BS8.lines <$> BS8.readFile originalPath
-  patchesAll <- fmap (ap90</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90
+  patchesAll <- fmap (ap90patches</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90patches
   patches <- traverse (`load` M.empty) patchesAll :: IO [M.Map Integer String]
   let patch = M.unionsWith (\a b -> b) patches
   patchedLines <- forM ([1..] `zip` oldLines) $ \(i,l) -> do
@@ -686,7 +692,7 @@ makeNewPatch editPath outPath = do
 resetAndApplyPatches :: FilePath -> IO ()
 resetAndApplyPatches outPath = do
   oldLines <- BS8.lines <$> BS8.readFile originalPath
-  patchesAll <- fmap (ap90</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90
+  patchesAll <- fmap (ap90patches</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap90patches
   patches <- traverse (`load` M.empty) patchesAll  :: IO [M.Map Integer String]
   let patch = M.unionsWith (\a b -> b) patches
   patchedLines <- forM ([1..] `zip` oldLines) $ \(i,l) -> do
@@ -709,8 +715,8 @@ hint t = (briefAnc t, takeEnd 1 (LS.splitOn "--" (t^. spent . _Just)), take 100 
 anc t = termNil {_banner = pure (briefAnc t), _morphisms = fmap anc <$> (t^. morphisms), _samasas = fmap anc <$> (t^. samasas)}
 
 helper = do
-  let store9 fname = store (ap90</>fname)
-  rs <- load (ap90</>"0.json") recordMNil
+  let store9 fname = store (ap90patches</>fname)
+  rs <- load (ap90patches</>"0.json") recordMNil
   let ts = rs ^.. traverse . term . _Just
   let us = filter (\t -> isJust (_unspent t)) ts
   let ts1 = ts ^.. traverse . samasas . _Just . traverse
@@ -729,18 +735,19 @@ anusvarafy :: String -> String
 anusvarafy = reverse . go "" where
   go ac "m" = 'M':ac
   go ac ('m':' ':rest) = go (' ':'M':ac) rest
+  go ac ('m':'#':rest) = go ('#':'M':ac) rest
+  go ac ('m':',':rest) = go (',':'M':ac) rest
   go ac (c1:c2:rest) = go ((if c1/=c2 && anunasikafy ['M',c2] == [c1,c2] then 'M' else c1):ac) (c2:rest)
   go ac xs = reverse xs ++ ac
 
 rToList :: FilePath -> String -> FilePath -> IO ()
 rToList fPath num outPath = do
   rs <- load fPath recordMNil
-  let t = fromJust $ (rs M.! num) ^. term 
+  let t = fromJust $ (rs M.! num) ^. term
   let ancestries = tToList t ^.. traverse . ancestry . _Just
   let ancestriesStr = fmap showLocs ancestries
   let almostAlpha = filter (\c -> isAlpha c || c == ' ' || c == '/' || c == ',' || c == '_')
-  let normalize = anusvarafy . almostAlpha
-
+  let normalize = anusvarafy -- . almostAlpha
   case outPath of
     "-" -> printu $ normalize <$> ancestriesStr
     _ -> store outPath $ normalize <$> ancestriesStr
@@ -748,16 +755,14 @@ rToList fPath num outPath = do
 rsToList :: FilePath -> Int -> FilePath -> IO ()
 rsToList fPath n outPath = do
   rs <- load fPath recordMNil
-  let ts =  take n $ rs ^.. traverse . term . traverse 
-  let ancestries = (mconcat $ tToList <$> ts) ^.. traverse . ancestry . _Just
+  let ts =  take n $ rs ^.. traverse . term . traverse
+  let ancestries = ts ^.. traverse . to tToList . traverse . ancestry . _Just
   let ancestriesStr = fmap showLocs ancestries
   let almostAlpha = filter (\c -> isAlpha c || c == ' ' || c == '/' || c == ',' || c == '_')
-  let normalize = anusvarafy . almostAlpha
-
+  let normalize = anusvarafy -- . almostAlpha
   case outPath of
     "-" -> printu $ normalize <$> ancestriesStr
     _ -> store outPath $ normalize <$> ancestriesStr
-
 
 main :: IO ()
 main = do
@@ -772,11 +777,11 @@ main = do
                   -- . replaceAll (surrLazy "<lbinfo" "/>\n") "\n" --X
                   . replaceAll (surrLazy' "[Page" ("]\n")) "\n"
   patchesAll <- fmap (ap57patches</>) . filter ("patch." `L.isPrefixOf`) <$> listDirectory ap57patches
-  
+
   (inlines,pageMarks) <- makeInline lineCurator patchesAll originalPath inlineTxtPath
   _ <- store' pageMarkPath pageMarks
   -- $ (regularButOuter (const True)>>eof)) <++ (Just <$> munch (const True)) ) <$> inlines
---  _ <- store' (ap90</>"_irreg.json") danglingBrackets
+--  _ <- store' (ap90patches</>"_irreg.json") danglingBrackets
   mapLnu' <- getMapLnu
   let zeroEnvt = Envt [] [] [] [] (-1) M.empty
   envt <- load initialEnvt zeroEnvt
