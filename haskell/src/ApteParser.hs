@@ -267,14 +267,17 @@ parseParenBraceWithinSamasa' t = do
       (++.) p q = pJoin [p,q]
   skipSpaces
   lit "("
-  banner' <- setBanner <$/> fmap concat (liftA2 (:) (fmap ('(':) inBrAtBrHaHy ++/ (lit "," <++ s1_ (lit "or"))) (manyGreedy $ s_ inBrAtBrHaHy))
+  banner' <- setBanner <$/> fmap concat (liftA2 (:) (fmap ('(':) inBrAtBrHaHy ++/ (lit "," <++ s1_ (lit "or"))) (manyGreedy $ s_ inBrAtBrHaHy) )
   let myterm = banner' t
   skipSpaces
   gram' <- setGram <$/> (chainMaximal1 [abbrhyp, regular] <++ fmap (:[]) regular)
   let bg = gram' myterm
   guard $ isJust (_banner bg) || (case _gram bg of (Just  (('{':'%':'-':'-':_):_))-> True; _-> False) -- TODO PENDING
-  lit ")" -- The '(' was prepended to banner (for ease of distinction from other forms) but this is discarded. Odd but works.
-  return bg
+  lit ")"
+  let bg' = case _gram bg of 
+              (Just (g:gs)) -> bg & gram . _Just . _last %~ (++ ")"); 
+              _ -> bg & banner . _Just %~ (++ ")")
+  return bg'
 
 -- | Covers examples (nonexhaustive):
 -- nIla --patraH … {#(--traM) --padmaM#}
