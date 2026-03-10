@@ -20,11 +20,11 @@
             // Remove <ab> </ab> tags but style the content differently
             text = text.replace(/<ab>(.*?)<\/ab>/g, '<span class="special-text">$1</span>');
 
-            // Remove {v .v} for numbering of forms of verbs (todo: restrict to gram)
-            text = text.replace(/\{v([IV]*?.)v\}/g, '<span class="meaning-number">$1</span>');
+            // Handle Roman numeral numbering (e.g., IV.)
+            text = text.replace(/\b([IVX]+\.)/g, '<span class="meaning-number">$1</span>');
             
-            // Remove {c c} for class number of verbs (todo: restrict to gram)
-            text = text.replace(/\{c([0-9]*?)c\}/g, '<span class="special-text">$1</span>');
+            // Handle verb class numbering (e.g., €4)
+            text = text.replace(/€([0-9]+)/g, '<span class="special-text">गण $1</span>');
 
             return text;
         }
@@ -49,6 +49,9 @@
 
             // Remove <ab> </ab> tags without special styling
             text = text.replace(/<ab>(.*?)<\/ab>/g, '$1');
+            
+            // Handle verb class numbering (e.g., €4)
+            text = text.replace(/€([0-9]+)/g, 'गण $1');
 
             return text;
         }
@@ -60,11 +63,8 @@
             // Normalize all whitespace (including newlines) to a single space
             text = text.replace(/\s+/g, ' ');
 
-            // Handle {@--n@} format at the beginning of meanings
-            text = text.replace(/\{@--(\d+)@\}/g, '<span class="meaning-number">$1</span> ');
-
-            // Handle {n} format at the beginning of meanings
-            text = text.replace(/^\{(\d+)\}\s*/g, '<span class="meaning-number">$1</span> ');
+            // Handle .²n format for meaning numbers
+            text = text.replace(/\.²(\d+)/g, '<span class="meaning-number">$1</span>');
 
             return text;
         }

@@ -402,12 +402,12 @@
                     let intermediateFormFound = false;
                     let lookupKey = word.trim();
 
-                    // Convert to intermediate form first, then apply anusvarafy
-                    let intermediateForm = anusvarafy(devanagariToIntermediate(lookupKey));
+                    // Convert to intermediate form first, then apply anunasikafy
+                    const intermediateInput = anunasikafy(devanagariToIntermediate(lookupKey));
 
 
                     // Use the intermediate form for lookup
-                    lookupKey = intermediateForm;
+                    lookupKey = intermediateInput;
 
                     // Check if we have parsed table data
                     if (parsedTableData && parsedTableData.length > 0) {

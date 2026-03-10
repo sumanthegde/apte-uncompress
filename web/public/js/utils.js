@@ -130,8 +130,8 @@ function getSuggestions(input, filterLabel = null) {
         return [];
     }
 
-    // Convert to intermediate form first, then apply anusvarafy
-    const intermediateInput = anusvarafy(devanagariToIntermediate(input));
+    // Convert to intermediate form first, then apply anunasikafy
+    const intermediateInput = anunasikafy(devanagariToIntermediate(input));
 
     // Find the first entry that is lexicographically equal to or greater than the input
     const startIndex = findFirstGreaterOrEqual(intermediateInput);
