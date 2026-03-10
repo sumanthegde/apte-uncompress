@@ -154,7 +154,7 @@
 
                 return [termData];
             } catch (error) {
-                console.error(`${error.message}`);
+                console.error(`Error fetching term ${termId}: ${error.message}`);
                 return [];
             }
         }
@@ -163,19 +163,19 @@
         async function loadAndRenderTermsFrom(termId) {
             return new Promise(async (resolve, reject) => {
                 try {
+                    const startTime = performance.now();
                     isLoading = true;
 
                     // First load pagemarks if not already loaded
                     if (Object.keys(pagemarks).length === 0) {
+                        const pgStart = performance.now();
                         await loadPagemarks();
+                        console.log(`Pagemarks loaded in ${performance.now() - pgStart}ms`);
                     }
 
                     // Set current term ID and requested term ID
                     currentTermId = termId;
                     requestedTermId = termId; // This is the term the user specifically requested
-
-                    // Always force a re-render, even if the term is already loaded
-                    // This ensures highlighting is updated for the current searchedWord
 
                     // Calculate the range of terms to load
                     const startTermId = termId; // Start from the current term (no terms before)
@@ -191,36 +191,62 @@
 
                     // Set a safety timeout to ensure the loading message doesn't get stuck
                     const loadingTimeout = setTimeout(() => {
-
                         document.getElementById('loading').style.display = 'none';
-                    }, 10000); // 10 second timeout
+                    }, 60000); // 60 second timeout (increased for slow connections)
 
                     // Load all terms in the range
+                    const fetchStart = performance.now();
                     const loadPromises = [];
+                    let completed = 0;
+                    const total = endTermId - startTermId + 1;
+
                     for (let id = startTermId; id <= endTermId; id++) {
-                        loadPromises.push(loadSingleTerm(id));
+                        loadPromises.push(loadSingleTerm(id).then(res => {
+                            completed++;
+                            const label = document.querySelector('#loading span');
+                            if (label) label.textContent = `Loading entries (${completed}/${total})...`;
+                            return res;
+                        }));
                     }
 
                     await Promise.all(loadPromises);
+                    console.log(`All network requests for terms completed in ${performance.now() - fetchStart}ms`);
 
                     // Clear the safety timeout
                     clearTimeout(loadingTimeout);
 
+                    // Defer rendering slightly to allow progress display and event loop breathing
+                    setTimeout(() => {
+                        const renderStart = performance.now();
+                        try {
+                            // Check if the source term was actually loaded
+                            if (!loadedTermIds.has(termId)) {
+                                throw new Error(`Term ${termId} could not be loaded from ${TERM_URL_BASE}`);
+                            }
 
-                    // Hide loading message
-                    document.getElementById('loading').style.display = 'none';
+                            // Render the terms
+                            renderTermsInRange(startTermId, endTermId);
+                            console.log(`renderTermsInRange completed in ${performance.now() - renderStart}ms`);
 
-                    // Render the terms
-                    renderTermsInRange(startTermId, endTermId);
+                            // Hide loading message
+                            document.getElementById('loading').style.display = 'none';
 
+                            // Show keyboard navigation hints
+                            document.getElementById('keyboard-hint-top').style.display = 'block';
+                            document.getElementById('keyboard-hint-bottom').style.display = 'block';
 
-                    // Show keyboard navigation hints
-                    document.getElementById('keyboard-hint-top').style.display = 'block';
-                    document.getElementById('keyboard-hint-bottom').style.display = 'block';
-
-
-                    isLoading = false;
-                    resolve();
+                            console.log(`Total loadAndRenderTermsFrom took ${performance.now() - startTime}ms`);
+                            isLoading = false;
+                            resolve();
+                        } catch (renderError) {
+                            console.error('Render error:', renderError);
+                            document.getElementById('loading').style.display = 'none';
+                            document.getElementById('error').style.display = 'block';
+                            document.getElementById('error').textContent = `Error rendering terms: ${renderError.message}`;
+                            isLoading = false;
+                            reject(renderError);
+                        }
+                    }, 5);
                 } catch (error) {
 
 
@@ -327,8 +353,8 @@
                 const navTimeout = setTimeout(
                     () => {
                         document.getElementById('loading').style.display = 'none';
-                    }, 10000
-                ); // 10 second timeout
+                    }, 60000
+                ); // 60 second timeout
 
                 // Load the term and its context
                 loadAndRenderTermsFrom(termId).then(() => {
@@ -392,100 +418,100 @@
 
                 // Set a safety timeout to ensure the loading message doesn't get stuck
                 const safetyTimeout = setTimeout(() => {
-
                     document.getElementById('loading').style.display = 'none';
-                }, 5000); // 5 second timeout
+                }, 60000); // 60 second timeout
 
-                try {
-                    // Variables for lookup
-                    let termId = null;
-                    let intermediateFormFound = false;
-                    let lookupKey = word.trim();
+                // Defer lookup to allow the UI to update
+                setTimeout(() => {
+                    console.log(`Debug lookup: version 1.2 - looking up "${word}"...`);
+                    try {
+                        // Variables for lookup
+                        let termId = null;
+                        let intermediateFormFound = false;
+                        let lookupKey = word.trim();
 
-                    // Convert to intermediate form first, then apply anunasikafy
-                    const intermediateInput = anunasikafy(devanagariToIntermediate(lookupKey));
+                        // Convert to intermediate form first, then apply anunasikafy
+                        const intermediateInput = anunasikafy(devanagariToIntermediate(lookupKey));
 
 
-                    // Use the intermediate form for lookup
-                    lookupKey = intermediateInput;
+                        // Use the intermediate form for lookup
+                        lookupKey = intermediateInput;
 
-                    // Check if we have parsed table data
-                    if (parsedTableData && parsedTableData.length > 0) {
-                        // Use binary search to find the exact match
-                        const startIndex = findFirstGreaterOrEqual(lookupKey);
-                        if (startIndex !== -1 && parsedTableData[startIndex][0] === lookupKey) {
-                            // Found an exact match
-                            termId = parsedTableData[startIndex][1];
-                            intermediateFormFound = true;
-                        }
-                    } else if (typeof preloadedTableData !== 'undefined') {
-                        // Search for the word in the preloaded table data
-                        for (const line of preloadedTableData) {
-                            if (!line.trim()) continue;
+                        // Check if we have parsed table data
+                        if (parsedTableData && parsedTableData.length > 0) {
+                            // Use binary search to find the exact match
+                            const startIndex = findFirstGreaterOrEqual(lookupKey);
+                            if (startIndex !== -1 && parsedTableData[startIndex][0] === lookupKey) {
+                                // Found an exact match
+                                termId = parsedTableData[startIndex][1];
+                                intermediateFormFound = true;
+                            }
+                        } else if (typeof preloadedTableData !== 'undefined') {
+                            // Search for the word in the preloaded table data
+                            for (const line of preloadedTableData) {
+                                if (!line.trim()) continue;
 
-                            const parts = line.split(':').map(part => part.trim());
-                            if (parts.length >= 2 && parts[0] === lookupKey) {
-                                // Found a match, extract the term ID (second field)
-                                const id = parseInt(parts[1], 10);
-                                if (!isNaN(id)) {
-                                    termId = id;
-                                    intermediateFormFound = true;
-
-                                    break;
+                                const parts = line.split(':');
+                                if (parts.length >= 2 && parts[0].trim() === lookupKey) {
+                                    // Found a match, extract the term ID (second field)
+                                    const id = parseInt(parts[1], 10);
+                                    if (!isNaN(id)) {
+                                        termId = id;
+                                        intermediateFormFound = true;
+                                        break;
+                                    }
                                 }
                             }
+                        } else {
+                            throw new Error('parsedTable or preloadedTable not found');
                         }
-                    } else {
-                        throw new Error('parsedTable or preloadedTable not found');
-                    }
 
-                    if (termId) {
-                        // Clear the safety timeout since we're navigating to the term
+                        if (termId) {
+                            console.log(`Lookup successful, term ID: ${termId}`);
+                            // Clear the safety timeout since we're navigating to the term
+                            clearTimeout(safetyTimeout);
+
+                            // Update URL to show the word being looked up
+                            const newUrl = new URL(window.location.href);
+                            // Clear any existing parameters
+                            Array.from(newUrl.searchParams.keys()).forEach(key => {
+                                newUrl.searchParams.delete(key);
+                            });
+
+                            // Navigate to the term
+                            resetAndLoadAndRenderTermsFrom(termId, word, deleteTextQueryResults = true).finally(() => {
+                                resolve();
+                            });
+                        } else {
+                            console.log(`Lookup failed, word not found: "${lookupKey}"`);
+                            // Word not found
+                            clearTimeout(safetyTimeout);
+                            document.getElementById('loading').style.display = 'none';
+
+                            // Hide keyboard hints
+                            document.getElementById('keyboard-hint-top').style.display = 'none';
+                            document.getElementById('keyboard-hint-bottom').style.display = 'none';
+
+                            // Always reject with information about the attempt
+                            reject({
+                                word: word,
+                                originalWord: originalWord,
+                                isSLP1Input: isSLP1Input,
+                                isAlternativeAttempt: isAlternativeAttempt,
+                                message: `Word "${isSLP1Input ? originalWord : word}" not found in dictionary.`
+                            });
+                        }
+                    } catch (error) {
                         clearTimeout(safetyTimeout);
 
-                        // Update URL to show the word being looked up
-                        const newUrl = new URL(window.location.href);
-                        // Clear any existing parameters
-                        Array.from(newUrl.searchParams.keys()).forEach(key => {
-                            newUrl.searchParams.delete(key);
-                        });
-
-                        //wordDev = r.expanded_banner = Sanscript.t(word, 'slp1', 'devanagari');
-
-
-
-                        // Navigate to the term
-                        resetAndLoadAndRenderTermsFrom(termId, word, deleteTextQueryResults = true).finally(() => {
-                            resolve();
-                        });
-                    } else {
-                        // Word not found
-                        clearTimeout(safetyTimeout);
                         document.getElementById('loading').style.display = 'none';
-
-                        // Hide keyboard hints
+                        document.getElementById('error').style.display = 'block';
+                        document.getElementById('error').textContent = `Error looking up word :- ${error.message}`;
                         document.getElementById('keyboard-hint-top').style.display = 'none';
                         document.getElementById('keyboard-hint-bottom').style.display = 'none';
-
-                        // Always reject with information about the attempt
-                        reject({
-                            word: word,
-                            originalWord: originalWord,
-                            isSLP1Input: isSLP1Input,
-                            isAlternativeAttempt: isAlternativeAttempt,
-                            message: `Word "${isSLP1Input ? originalWord : word}" not found in dictionary.`
-                        });
+                        reject(error);
                     }
-                } catch (error) {
-                    clearTimeout(safetyTimeout);
-
-                    document.getElementById('loading').style.display = 'none';
-                    document.getElementById('error').style.display = 'block';
-                    document.getElementById('error').textContent = `Error looking up word :- ${error.message}`;
-                    document.getElementById('keyboard-hint-top').style.display = 'none';
-                    document.getElementById('keyboard-hint-bottom').style.display = 'none';
-                    reject(error);
-                }
+                }, 5);
             });
         }
 
@@ -680,6 +706,14 @@
         async function makeTextQuery(q, offset = 0) {
             // currentTextQuery = q;
 
+            // Show loading message
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loading').innerHTML = `
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
+                <span>Searching for "${q}"...</span>
+            `;
+
             console.log(`Firing /text-query for: ${q} (offset=${offset})`);
             fetch(`/text-query?q=${encodeURIComponent(q)}&from=${offset}`)
                 .then(resp => resp.json())
@@ -691,8 +725,16 @@
                     });
 
                     renderTextQueryResults(json.results, q, offset);
+                    
+                    // Hide loading message
+                    document.getElementById('loading').style.display = 'none';
                 })
-                .catch(err => console.error('Text-query error:', err));
+                .catch(err => {
+                    console.error('Text-query error:', err);
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('error').style.display = 'block';
+                    document.getElementById('error').textContent = `Search error: ${err.message}`;
+                });
         }
 
         // Render full-text search results with pagination
@@ -1040,9 +1082,16 @@
 
         // Load data based on URL parameters
         document.addEventListener('DOMContentLoaded', function () {
-            console.log('1.0');
+            console.log('Dictionary view version 1.2 initialized');
             // Set focus on the input box
             document.getElementById('user-input').focus();
+
+            // Show loading message immediately
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('loading').innerHTML = `
+                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 16px; margin-right: 5px;">⟳</div>
+                <span>Initializing dictionary data...</span>
+            `;
 
             // Fix cursor position when clicking on the input field
             document.getElementById('user-input').addEventListener('click', function (event) {
@@ -1068,39 +1117,42 @@
                 document.getElementById('header-spacer').style.height = headerHeight + 'px';
             });
 
-            // Check if we have preloaded table data
-            if (typeof preloadedTableData !== 'undefined') {
-                console.log(`Preloaded table data available with ${preloadedTableData.length} entries`); // KEEP
+            // Defer heavy parsing to let the UI update
+            setTimeout(() => {
+                // Check if we have preloaded table data
+                if (typeof preloadedTableData !== 'undefined') {
+                    console.log(`Preloaded table data available with ${preloadedTableData.length} entries`); // KEEP
 
-                // Parse the preloaded table data into arrays
-                parsedTableData = preloadedTableData.map(line => {
-                    if (!line.trim()) return null;
-                    const parts = line.split(':').map(part => part.trim());
-                    if (parts.length >= 3) {
-                        return [parts[0], parseInt(parts[1], 10), parts[2]];
-                    } else if (parts.length >= 2) {
-                        return [parts[0], parseInt(parts[1], 10), ''];
-                    }
-                    return null;
-                }).filter(item => item !== null);
+                    const startTime = performance.now();
+                    // Parse the preloaded table data into arrays
+                    parsedTableData = preloadedTableData.map(line => {
+                        if (!line.trim()) return null;
+                        const parts = line.split(':');
+                        if (parts.length >= 2) {
+                            return [parts[0].trim(), parseInt(parts[1], 10), (parts[2] || '').trim()];
+                        }
+                        return null;
+                    }).filter(item => item !== null);
 
-                console.log(`Parsed table data into ${parsedTableData.length} arrays`);//KEEP
+                    const endTime = performance.now();
+                    console.log(`Parsed table data into ${parsedTableData.length} arrays in ${endTime - startTime}ms`);//KEEP
 
-                // Show a brief message that the dictionary is ready
-                document.getElementById('loading').style.display = 'block';
-                document.getElementById('loading').innerHTML = `
-                    <div style="display: inline-block; font-size: 16px; margin-right: 5px;">✓</div>
-                    <span>Dictionary data loaded (${parsedTableData.length} entries)</span>
-                `;
+                    // Show a brief message that the dictionary is ready
+                    document.getElementById('loading').innerHTML = `
+                        <div style="display: inline-block; font-size: 16px; margin-right: 5px;">✓</div>
+                        <span>Dictionary data ready (${parsedTableData.length} entries)</span>
+                    `;
 
-                // Hide the message after a short delay
-                setTimeout(() => {
+                    // Hide the message after a short delay
+                    setTimeout(() => {
+                        document.getElementById('loading').style.display = 'none';
+                    }, 1500);
+                } else {
+                    console.log('Error: preloadedTableData is undefined');
                     document.getElementById('loading').style.display = 'none';
-                }, 1500);
-            } else {
-                console.log('Error: preloadedTableData is undefined');
-                return;
-            }
+                    return;
+                }
+            }, 10);
 
             // Make sure loading indicators are hidden initially
             document.getElementById('loading-top').style.display = 'none';
