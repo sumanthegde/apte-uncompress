@@ -52,7 +52,7 @@ function processBannerExp(term) {
         });
 
         return {
-            text: convertedValues.sort().join(', '),
+            text: convertedValues.join(', '),
             tooltip: term._banner ? `${processPlainText(term._banner)}` : '',
             isExpanded: true,
             matchesSearch: matchesSearch

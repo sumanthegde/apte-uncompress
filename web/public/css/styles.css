@@ -147,6 +147,14 @@
             font-style: italic;
         }
 
+        .ls-reference {
+            color: #777; /* Gray to reduce prominence */
+            font-size: 0.85em; /* Smaller than normal text */
+            font-style: italic;
+            border-bottom: 1px dotted #ccc; /* Hint at future hyperlink */
+            padding: 0 2px;
+        }
+
         .devanagari {
             font-family: 'Noto Sans Devanagari', 'Sanskrit 2003', sans-serif;
             font-size: 1.1em;

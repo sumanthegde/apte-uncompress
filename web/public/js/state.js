@@ -30,5 +30,6 @@
         // Base URL for page links
         const PAGE_URL_BASE = "https://www.sanskrit-lexicon.uni-koeln.de/scans/csl-apidev/servepdf.php?dict=AP&page=";
         const TERM_URL_BASE = "https://cdn.jsdelivr.net/gh/sumanthegde/apte-uncompress@ap57/kosha-nested";
+        //const TERM_URL_BASE = "/kosha-nested";
 
         const meaningSearchBeginner = '/';

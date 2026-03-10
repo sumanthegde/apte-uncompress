@@ -3,7 +3,8 @@
             if (!text) return '';
 
             // Convert SLP1 encoded Sanskrit text in {# #} brackets to Devanagari
-            text = text.replace(/\{#(.*?)#\}/g, function(match, p1) {
+            // Also handle the variant .{@{# #}@}
+            text = text.replace(/(?:\.?{@)?\{#(.*?)#\}(?:@})?/g, function(match, p1) {
                 try {
                     // Convert SLP1 to Devanagari
                     const devanagari = Sanscript.t(p1, 'slp1', 'devanagari');
@@ -26,6 +27,9 @@
             // Handle verb class numbering (e.g., €4)
             text = text.replace(/€([0-9]+)/g, '<span class="special-text">गण $1</span>');
 
+            // Handle <ls> </ls> tags for epic references (e.g., Mb. 12. 7. 33)
+            text = text.replace(/<ls>(.*?)<\/ls>/g, '<span class="ls-reference">$1</span>');
+
             return text;
         }
 
@@ -34,7 +38,8 @@
             if (!text) return '';
 
             // Convert SLP1 encoded Sanskrit text in {# #} brackets to Devanagari
-            text = text.replace(/\{#(.*?)#\}/g, function(match, p1) {
+            // Also handle the variant .{@{# #}@}
+            text = text.replace(/(?:\.?{@)?\{#(.*?)#\}(?:@})?/g, function(match, p1) {
                 try {
                     // Convert SLP1 to Devanagari
                     return Sanscript.t(p1, 'slp1', 'devanagari');
@@ -53,6 +58,9 @@
             // Handle verb class numbering (e.g., €4)
             text = text.replace(/€([0-9]+)/g, 'गण $1');
 
+            // Remove <ls> </ls> tags without special styling
+            text = text.replace(/<ls>(.*?)<\/ls>/g, '$1');
+
             return text;
         }
 
@@ -65,6 +73,9 @@
 
             // Handle .²n format for meaning numbers
             text = text.replace(/\.²(\d+)/g, '<span class="meaning-number">$1</span>');
+
+            // Handle .³ followed by alphabetical numering e.g. .³({%a%}) .³({%b%}) etc
+            text = text.replace(/\.³\(([^)]+)\)/g, '<span class="meaning-number">$1</span>');
 
             return text;
         }
