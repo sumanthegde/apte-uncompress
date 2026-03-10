@@ -1,16 +1,90 @@
 {
-    "__line": 166082,
+    "__line": 178075,
     "_ancestry": [
         "L_ 19833",
-        "B_ {#pratigarjanA#}"
+        "B_ {#patat#}"
     ],
-    "_banner": "{#pratigarjanA#}",
+    "_banner": "{#patat#}",
     "_bannerExp": [
         {
-            "Right": "pratigarjanA"
+            "Right": "patat"
+        },
+        {
+            "Left": "fFromGramCore error: patat  ntI"
         }
     ],
+    "_gram": [
+        "({#-ntI#}|{%f.%})"
+    ],
     "_meanings": [
-        "Roaring against, \nanswering roar."
+        "Flying, descending, alighting, coming down <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 178076,
+            "_ancestry": [
+                "L_ 19833",
+                "B_ {#patat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_meanings": [
+                "A bird; {#paramaH pumAniva patiM patatAm#} <ls>Ki. 6. 1</ls>; {#kvacit paTA saMcarate#}\n {#surARAM kvacidDanAnAM patatAM kvacicca#} <ls>R. 13. 19</ls>; <ls>Śi. 9. 15</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 178080,
+            "_ancestry": [
+                "L_ 19833",
+                "B_ {#patat#}",
+                "S_ .{@{#-grahaH#}@}"
+            ],
+            "_banner": ".{@{#-grahaH#}@}",
+            "_meanings": [
+                ".²1 the reserve of an army.\n",
+                ".²2 a spitting pot, spittoon; {#tamekamARikyamayaM mahonnataM patadgrahaM#}\n {#grAhitavAnnalena saH#} <ls>N. 16. 27</ls>; {#rOpyAn rOkmA~Sca paryaNkAn karaNkA~Sca#}\n {#patadgrahAn#} <ls>Śiva B. 17. 43</ls>.\n"
+            ]
+        },
+        {
+            "__line": 178085,
+            "_ancestry": [
+                "L_ 19833",
+                "B_ {#patat#}",
+                "S_ .{@{#-prakarza#}@}"
+            ],
+            "_banner": ".{@{#-prakarza#}@}",
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(in <ab>rhet.</ab>) illogical; prosaical.\n"
+            ]
+        },
+        {
+            "__line": 178086,
+            "_ancestry": [
+                "L_ 19833",
+                "B_ {#patat#}",
+                "S_ .{@{#-BIruH#}@}"
+            ],
+            "_banner": ".{@{#-BIruH#}@}",
+            "_meanings": [
+                "a hawk, falcon.\n"
+            ]
+        },
+        {
+            "__line": 178087,
+            "_ancestry": [
+                "L_ 19833",
+                "B_ {#patat#}",
+                "S_ .{@{#-vahaH#}@}"
+            ],
+            "_banner": ".{@{#-vahaH#}@}",
+            "_meanings": [
+                "(= {#patadgrahaH#}) {#patadvahatvena kftAtpataNgaH patnyA#}\n {#jaleSasya diSA vahasya#} <ls>Rām. Ch. 6. 15</ls>."
+            ]
+        }
     ]
 }

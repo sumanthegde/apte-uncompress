@@ -1,19 +1,41 @@
 {
-    "__line": 14280,
+    "__line": 12401,
     "_ancestry": [
         "L_ 1324",
-        "B_ {#anAdInava#}"
+        "B_ {#anaparADa#}, {#-Din#}"
     ],
-    "_banner": "{#anAdInava#}",
+    "_banner": "{#anaparADa#}, {#-Din#}",
     "_bannerExp": [
         {
-            "Right": "anAdInava"
+            "Right": "anaparADa"
+        },
+        {
+            "Right": "anaparADin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Faultless;  \n{#yadvAsudevenAdInamanAdInavamIritaM#} <ls>Śi. 2. 22.</ls> "
+        "Innocent, guiltless, harmless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 12403,
+            "_ancestry": [
+                "L_ 1324",
+                "B_ {#anaparADa#}, {#-Din#}",
+                "M_ .{@{#-DaH#}@}"
+            ],
+            "_banner": ".{@{#-DaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anaparADaH"
+                }
+            ],
+            "_meanings": [
+                "Innocence."
+            ]
+        }
     ]
 }

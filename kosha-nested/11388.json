@@ -1,36 +1,56 @@
 {
-    "__line": 95589,
+    "__line": 95215,
     "_ancestry": [
         "L_ 11388",
-        "B_ {#kfkavAkuH#}"
+        "B_ {#kadaraH#}"
     ],
-    "_banner": "{#kfkavAkuH#}",
+    "_banner": "{#kadaraH#}",
     "_bannerExp": [
         {
-            "Right": "kfkavAkuH"
+            "Right": "kadaraH"
         }
     ],
     "_meanings": [
-        "{@--1@} A cock. ",
-        "{@--2@} A \npeacock. ",
-        "{@--3@} A lizard. "
+        ".²1 A saw.\n",
+        ".²2 An iron goad for driving an elephant.\n",
+        ".²3 <ab>N.</ab> of a tree sometimes substituted for Khadira as a sacrificial post.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 95590,
+            "__line": 95219,
             "_ancestry": [
                 "L_ 11388",
-                "B_ {#kfkavAkuH#}",
-                "S_  {#--DvajaH#}"
+                "B_ {#kadaraH#}",
+                "M_ .{@{#-raH, -ram#}@}"
             ],
-            "_banner": " {#--DvajaH#}",
+            "_banner": ".{@{#-raH, -ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kfkavAkuDvajaH"
+                    "Right": "kadaraH"
+                },
+                {
+                    "Right": "kadaram"
                 }
             ],
             "_meanings": [
-                "an epithet of Kārtikeya."
+                "A corn, a callosity of the feet caused by external friction.\n"
+            ]
+        },
+        {
+            "__line": 95220,
+            "_ancestry": [
+                "L_ 11388",
+                "B_ {#kadaraH#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadaram"
+                }
+            ],
+            "_meanings": [
+                "coagulated milk."
             ]
         }
     ]

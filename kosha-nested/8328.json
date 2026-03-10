@@ -1,37 +1,73 @@
 {
-    "__line": 71470,
+    "__line": 69849,
     "_ancestry": [
         "L_ 8328",
-        "B_ {#udvellita#}"
+        "B_ {#Irma#}"
     ],
-    "_banner": "{#udvellita#}",
+    "_banner": "{#Irma#}",
     "_bannerExp": [
         {
-            "Right": "udvellita"
+            "Right": "Irma"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#Ir-mak#}]"
     ],
     "_meanings": [
-        "Shaken, tossed up.\n"
+        ".²1 Agitated.\n",
+        ".²2 Going constantly or instigating everything (<ls>Sāy.</ls>). "
     ],
     "_morphisms": [
         {
-            "__line": 71471,
+            "__line": 69851,
             "_ancestry": [
                 "L_ 8328",
-                "B_ {#udvellita#}",
-                "M_ {#--taM#}"
+                "B_ {#Irma#}",
+                "M_ --{%ind.%}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": "--{%ind.%}",
             "_bannerExp": [
                 {
-                    "Right": "udvellitaM"
+                    "Left": "Parser error: {#Irma#} M_ --{%iMd.%}"
                 }
             ],
             "_meanings": [
-                "Shaking."
+                "Here,\n in or to this place.\n"
+            ]
+        },
+        {
+            "__line": 69853,
+            "_ancestry": [
+                "L_ 8328",
+                "B_ {#Irma#}",
+                "M_ .{@{#-rmaH#}@}"
+            ],
+            "_banner": ".{@{#-rmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IrmaH"
+                }
+            ],
+            "_meanings": [
+                "The arm; the fore-quarter of an animal; {#IrmAByAmayanaM#}\n {#jAtam#} <ls>Av. 10. 10. 21</ls>; {#tasya prAcI dikCiro'sO cAsO cermO#} <ls>Bṛ. Up. 1. 2. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 69855,
+            "_ancestry": [
+                "L_ 8328",
+                "B_ {#Irma#}",
+                "M_ .{@{#-rmam#}@}"
+            ],
+            "_banner": ".{@{#-rmam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Irmam"
+                }
+            ],
+            "_meanings": [
+                "A wound, sore ({%m.%} also)."
             ]
         }
     ]

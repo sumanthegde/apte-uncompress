@@ -1,16 +1,66 @@
 {
-    "__line": 143741,
+    "__line": 148883,
     "_ancestry": [
         "L_ 17094",
-        "B_ {#nivAnyA#}"
+        "B_ {#dal#}"
     ],
-    "_banner": "{#nivAnyA#}",
+    "_banner": "{#dal#}",
     "_bannerExp": [
         {
-            "Right": "nivAnyA"
+            "Right": "dal"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>P.</ab>",
+        "({#dalati, dalita#})"
+    ],
     "_meanings": [
-        "A cow whose calf is\ndead and who is milked by means\nof another calf."
+        ".²1 To burst open, split, cleave, crack; {#dalati hfdayaM gAQodvegaM dviDA#}\n {#tu na Bidyate#} <ls>U. 3. 31</ls>; {#api grAvA rodityapi dalati vajrasya hfdayam#} <ls n=\"U.\">1. 28</ls>;\n <ls>Māl. 9. 12</ls>, <ls n=\"Māl. 9.\">20</ls>; {#dalati na sA hfdi virahaBareRa#} <ls>Gīt. 7</ls>; <ls>Amaru. 43</ls>.\n",
+        ".²2 To expand, bloom, open (as a flower); {#dalannavanIlotpala#} <ls>U. 1</ls>;\n {#svacCandaM daladaravinda te marandaM vindanto vidaDatu guYjitaM milindAH#}\n <ls>Bv. 1. 15</ls>; <ls>Śi. 6. 23</ls>; <ls>Ki. 10. 39</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 148889,
+            "_ancestry": [
+                "L_ 17094",
+                "B_ {#dal#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "dal"
+                }
+            ],
+            "_gram": [
+                "({#da(dA)layati#})"
+            ],
+            "_meanings": [
+                ".²1 To cause to burst, tear asunder.\n",
+                ".²2 To cut, divide, split.\n",
+                ".²3 To dispel, drive or chase away; {#dalayati pariSuzyatprOQatAlIvipARquH#} <ls>Māl. 8. 1</ls>.\n",
+                ".²4 To wither. ",
+                "--{%With%} {#ud#} ({%<ab>caus.</ab>%}) to tear up.\n"
+            ]
+        },
+        {
+            "__line": 148894,
+            "_ancestry": [
+                "L_ 17094",
+                "B_ {#dal#}",
+                "M_ .{@{#-vi#}@}"
+            ],
+            "_banner": ".{@{#-vi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vidal"
+                }
+            ],
+            "_meanings": [
+                ".²1 To break, split, crack; {#tvadizuBirvyadalizyadasAvapi#} <ls>N. 4. 88</ls>.\n",
+                ".²2 to dig up."
+            ]
+        }
     ]
 }

@@ -1,37 +1,39 @@
 {
-    "__line": 132432,
+    "__line": 137408,
     "_ancestry": [
         "L_ 15832",
-        "B_ {#drugDa#}"
+        "B_ {#jvAlin#}"
     ],
-    "_banner": "{#drugDa#}",
+    "_banner": "{#jvAlin#}",
     "_bannerExp": [
         {
-            "Right": "drugDa"
+            "Right": "jvAlin"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#jval-Rini#}]"
     ],
     "_meanings": [
-        "Injured, plotted\nagainst. "
+        ".²1 Flaming, blazing.\n",
+        ".²2 Shining. "
     ],
     "_morphisms": [
         {
-            "__line": 132433,
+            "__line": 137410,
             "_ancestry": [
                 "L_ 15832",
-                "B_ {#drugDa#}",
-                "M_ {#--gDaM#}"
+                "B_ {#jvAlin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--gDaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "drugDaM"
+                    "Left": "Parser error: {#jvAlin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "An offence, injury,\nmalevolent act."
+                "An epithet of Śiva."
             ]
         }
     ]

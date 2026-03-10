@@ -1,22 +1,84 @@
 {
-    "__line": 6549,
+    "__line": 5132,
     "_ancestry": [
         "L_ 445",
-        "B_ {#aMjizWaH --zRuH#}"
+        "B_ {#ajihma#}"
     ],
-    "_banner": "{#aMjizWaH --zRuH#}",
+    "_banner": "{#ajihma#}",
     "_bannerExp": [
         {
-            "Right": "aMjizRuH"
-        },
-        {
-            "Right": "aMjizWaH"
+            "Right": "ajihma"
         }
     ],
     "_gram": [
-        "[{#anakti svakiraREH viSvaM#}; \n{#aMj-izWac-izRuc#} <ls>Uṇ. 4. 2</ls>]"
+        "{%a.%}",
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "The sun."
+        ".²1 Straight.\n",
+        ".²2 Upright, straightforward, honest; {#ajihmAmaSaWAM SudDAM jIvet brAhmaRajIvikAm#}\n <ls>Ms. 4. 11</ls>, <ls n=\"Ms.\">7. 32</ls>; {#˚gAmiBiH#} <ls>Śi. 1. 63</ls> straight and honest, <ls n=\"Śi.\">3. 57</ls>, <ls n=\"Śi.\">9. 62</ls>\n <ab>cf.</ab> {#ajihmaH satkftAvfjO .#} <ls>Nm.</ls>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 5137,
+            "_ancestry": [
+                "L_ 445",
+                "B_ {#ajihma#}",
+                "M_ .{@{#-hmaH#}@}"
+            ],
+            "_banner": ".{@{#-hmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ajihmaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A frog.\n",
+                ".²2 A fish (probably a corruption of {#ajihva#} below).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 5141,
+            "_ancestry": [
+                "L_ 445",
+                "B_ {#ajihma#}",
+                "S_ .{@{#-ga#}@}"
+            ],
+            "_banner": ".{@{#-ga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ajihmaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[<sab>{#upa˚ sa˚#}</sab>]"
+            ],
+            "_meanings": [
+                "going straight on; {#vrajeddiSamajihmagaH#} <ls>Ms. 6. 31</ls>\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 5142,
+                    "_ancestry": [
+                        "L_ 445",
+                        "B_ {#ajihma#}",
+                        "S_ .{@{#-ga#}@}",
+                        "S_M_ ({@{#-gaH#}@}"
+                    ],
+                    "_banner": "({@{#-gaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "ajihmagaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an arrow."
+                    ]
+                }
+            ]
+        }
     ]
 }

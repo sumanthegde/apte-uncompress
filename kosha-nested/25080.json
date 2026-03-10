@@ -1,16 +1,42 @@
 {
-    "__line": 212554,
+    "__line": 225374,
     "_ancestry": [
         "L_ 25080",
-        "B_ {#varuwaH#}"
+        "B_ {#BArika, BArin#}"
     ],
-    "_banner": "{#varuwaH#}",
+    "_banner": "{#BArika, BArin#}",
     "_bannerExp": [
         {
-            "Right": "varuwaH"
+            "Right": "BArika"
+        },
+        {
+            "Right": "BArin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a class of \nMlechchhas."
+        ".²1 Bearing or carrying a load.\n",
+        ".²2 Heavy. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 225376,
+            "_ancestry": [
+                "L_ 25080",
+                "B_ {#BArika, BArin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BArika#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A burden-carrier, porter; <ls>Ms. 2. 188</ls>."
+            ]
+        }
     ]
 }

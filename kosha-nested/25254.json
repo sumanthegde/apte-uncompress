@@ -1,37 +1,572 @@
 {
-    "__line": 213862,
+    "__line": 228034,
     "_ancestry": [
         "L_ 25254",
-        "B_ {#vaSiH#}"
+        "B_ {#BUri#}"
     ],
-    "_banner": "{#vaSiH#}",
+    "_banner": "{#BUri#}",
     "_bannerExp": [
         {
-            "Right": "vaSiH"
+            "Right": "BUri"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#BU-krin#} <ls>Uṇ. 4. 65</ls>]"
+    ],
     "_meanings": [
-        "{@--1@} Subjugation. ",
-        "{@--2@} \nFascinating, bewitching. "
+        "Much, abundant, numerous, copious;\n {#preNKadBUrimayUKa …#} <ls>Māl. 6. 5</ls>. {#BUriBAraBarAkrAnto bADati skanDa#}\n {#eza te . na taTA bADate skanDo yaTA bADati bADate ..#} <ls>Subhāṣ.</ls>\n",
+        ".²2 Great, large. "
     ],
     "_morphisms": [
         {
-            "__line": 213863,
+            "__line": 228037,
             "_ancestry": [
                 "L_ 25254",
-                "B_ {#vaSiH#}",
-                "M_ {%--<ab>n.</ab>%}"
+                "B_ {#BUri#}",
+                "M_ --{%m.%}"
             ],
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "vaSiH"
+                    "Left": "Parser error: {#BUri#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An epithet of Viṣṇu.\n",
+                ".²2 Of Brahman.\n",
+                ".²3 Of Śiva.\n",
+                ".²4 Of Indra. "
+            ]
+        },
+        {
+            "__line": 228041,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BUri#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "Reason, intellect. "
+            ]
+        },
+        {
+            "__line": 228041,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BUri#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Gold. "
+            ]
+        },
+        {
+            "__line": 228041,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BUri#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Very much, exceedingly; {#navAmbuBirBUri vilambino GanAH#} <ls>Ś. 5. 12</ls>.\n",
+                ".²2 Frequently, often, repeatedly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 228045,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-kAlam#}@}"
+            ],
+            "_banner": ".{@{#-kAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrikAlam"
                 }
             ],
             "_gram": [
-                "{%--<ab>n.</ab>%}"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "Subjection."
+                "for a long time.\n"
+            ]
+        },
+        {
+            "__line": 228046,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-kftvas#}@}"
+            ],
+            "_banner": ".{@{#-kftvas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrikftvas"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "many times, repeatedly; {#marmfjmA te tanvaM#}\n {#BUri kftvaH#} <ls>Rv. 3. 18. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 228048,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-ganDA#}@}"
+            ],
+            "_banner": ".{@{#-ganDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriganDA"
+                }
+            ],
+            "_meanings": [
+                "a particular perfume.\n"
+            ]
+        },
+        {
+            "__line": 228049,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-gamaH#}@}"
+            ],
+            "_banner": ".{@{#-gamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrigamaH"
+                }
+            ],
+            "_meanings": [
+                "an ass.\n"
+            ]
+        },
+        {
+            "__line": 228050,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-guRa#}@}"
+            ],
+            "_banner": ".{@{#-guRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriguRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 multiplying greatly.\n",
+                ".²2 bearing manifold fruit.\n"
+            ]
+        },
+        {
+            "__line": 228053,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-tejasa#}@}"
+            ],
+            "_banner": ".{@{#-tejasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUritejasa"
+                }
+            ],
+            "_gram": [
+                ".({@{#-s#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "possessed of great lustre. --({%m.%}) fire.\n"
+            ]
+        },
+        {
+            "__line": 228055,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrida"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "liberal.\n"
+            ]
+        },
+        {
+            "__line": 228056,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-dakziRa#}@}"
+            ],
+            "_banner": ".{@{#-dakziRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUridakziRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 attended with rich presents or rewards.\n",
+                ".²2 giving liberal rewards, munificent.\n"
+            ]
+        },
+        {
+            "__line": 228059,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-RaH#}@}"
+            ],
+            "_banner": ".{@{#-RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriRaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu; {#kapIndro BUridakziRaH#} <ls>V. Sah.</ls>\n"
+            ]
+        },
+        {
+            "__line": 228060,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUridAnam"
+                }
+            ],
+            "_meanings": [
+                "liberality.\n"
+            ]
+        },
+        {
+            "__line": 228061,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-Dana#}@}"
+            ],
+            "_banner": ".{@{#-Dana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriDana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wealthy.\n"
+            ]
+        },
+        {
+            "__line": 228062,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-DAman#}@}"
+            ],
+            "_banner": ".{@{#-DAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriDAman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "possessed of great lustre or energy.\n"
+            ]
+        },
+        {
+            "__line": 228063,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-prayoga#}@}"
+            ],
+            "_banner": ".{@{#-prayoga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriprayoga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "frequently used, in common use (as a word).\n"
+            ]
+        },
+        {
+            "__line": 228064,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-preman#}@}"
+            ],
+            "_banner": ".{@{#-preman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUripreman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the ruddy goose.\n"
+            ]
+        },
+        {
+            "__line": 228065,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-PenA#}@}"
+            ],
+            "_banner": ".{@{#-PenA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriPenA"
+                }
+            ],
+            "_meanings": [
+                "a species of plant, {#saptalA#} (<lang>Mar.</lang> <ns>{#SikekAI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 228066,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-BAga#}@}"
+            ],
+            "_banner": ".{@{#-BAga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriBAga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wealthy, prosperous; {#adyeSa no vasatayaH Kalu BUriBAga .#}\n {#yaH sarvadevapitfBUtanfdevamUrtiH#} <ls>Bhāg. 10. 48. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 228068,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-Boja#}@}"
+            ],
+            "_banner": ".{@{#-Boja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriBoja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many enjoyments.\n"
+            ]
+        },
+        {
+            "__line": 228069,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-mAyaH#}@}"
+            ],
+            "_banner": ".{@{#-mAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrimAyaH"
+                }
+            ],
+            "_meanings": [
+                "a jackal or fox.\n"
+            ]
+        },
+        {
+            "__line": 228070,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-rasaH#}@}"
+            ],
+            "_banner": ".{@{#-rasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrirasaH"
+                }
+            ],
+            "_meanings": [
+                "the sugar-cane.\n"
+            ]
+        },
+        {
+            "__line": 228071,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-rAmaH#}@}"
+            ],
+            "_banner": ".{@{#-rAmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrirAmaH"
+                }
+            ],
+            "_meanings": [
+                "a donkey, ass.\n"
+            ]
+        },
+        {
+            "__line": 228072,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-lABaH#}@}"
+            ],
+            "_banner": ".{@{#-lABaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrilABaH"
+                }
+            ],
+            "_meanings": [
+                "a great gain.\n"
+            ]
+        },
+        {
+            "__line": 228073,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-vikrama#}@}"
+            ],
+            "_banner": ".{@{#-vikrama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrivikrama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very brave, a great warrior.\n"
+            ]
+        },
+        {
+            "__line": 228074,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-dfzwiH#}@}"
+            ],
+            "_banner": ".{@{#-dfzwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUridfzwiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a heavy rain.\n"
+            ]
+        },
+        {
+            "__line": 228075,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-vyaya#}@}"
+            ],
+            "_banner": ".{@{#-vyaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrivyaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "spending much; lavish in expenditure; {#BUrivyayA#}\n {#pracuravittasamAgamA ca veSyANganeva nfpanItiranekarUpA#} <ls>Pt. 1. 425</ls>.\n"
+            ]
+        },
+        {
+            "__line": 228077,
+            "_ancestry": [
+                "L_ 25254",
+                "B_ {#BUri#}",
+                "S_ .{@{#-Sravas#}@}"
+            ],
+            "_banner": ".{@{#-Sravas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUriSravas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a warrior on the Kaurava side slain by Sātyaki."
             ]
         }
     ]

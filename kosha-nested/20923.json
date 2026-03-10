@@ -1,22 +1,74 @@
 {
-    "__line": 173409,
+    "__line": 187396,
     "_ancestry": [
         "L_ 20923",
-        "B_ {#prasfp#}"
+        "B_ {#pAcana#}"
     ],
-    "_banner": "{#prasfp#}",
+    "_banner": "{#pAcana#}",
     "_bannerExp": [
         {
-            "Right": "prasfp"
+            "Right": "pAcana"
+        },
+        {
+            "Right": "pAcanI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#pAcayati kartari lyuH pAcyate'nena karaRe lyuw vA#}]"
     ],
     "_meanings": [
-        "{@--1@} To go forth, \nproceed; <ls>Bk. 14. 20.</ls> ",
-        "{@--2@} To spread,\ncirculate (<ab>fig.</ab>); {#ruDireRa prasarpatA#} <ls>Mb.</ls>;\n{#AlarkaM vizamiva sarvataH prasfptaM#} <ls>U. 1. 40.</ls>\n",
-        "{@--3@} To creep or crawl forth or along."
+        ".²1 Cooking.\n",
+        ".²2 Ripening.\n",
+        ".²3 Digestive.\n",
+        ".²4 Softening, relaxing.\n",
+        ".²5 Suppurative.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 187403,
+            "_ancestry": [
+                "L_ 20923",
+                "B_ {#pAcana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAcanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Fire.\n",
+                ".²2 Sourness, acidity.\n"
+            ]
+        },
+        {
+            "__line": 187406,
+            "_ancestry": [
+                "L_ 20923",
+                "B_ {#pAcana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAcanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The act of cooking.\n",
+                ".²2 The act of ripening.\n",
+                ".²3 A dissolvent, digestive medicine.\n",
+                ".²4 Causing a wound to close.\n",
+                ".²5 Penance, expiation ({#prAyaScitta#}).\n",
+                ".²6 Infusion.\n",
+                ".²7 Decoction.\n",
+                ".²8 Extracting extraneous substances from a wound.\n",
+                ".²9 A cataplasm.\n",
+                ".²10 A substance used in closing wounds or restraining bleeding."
+            ]
+        }
     ]
 }

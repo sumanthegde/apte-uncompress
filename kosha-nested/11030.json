@@ -1,18 +1,45 @@
 {
-    "__line": 92744,
+    "__line": 92139,
     "_ancestry": [
         "L_ 11030",
-        "B_ {#kuwaruH#}"
+        "B_ {#OpAsana#}"
     ],
-    "_banner": "{#kuwaruH#}",
+    "_banner": "{#OpAsana#}",
     "_bannerExp": [
         {
-            "Right": "kuwaruH"
+            "Right": "OpAsana"
+        },
+        {
+            "Right": "OpAsanI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#upAsana-aR#}]"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} A cock. ",
-        "{@--2@} A\ntent."
+        ".²1 Relating to {#gfhyAgni#} or household fire.\n",
+        ".²2 Belonging to worship or service; holy, sacred.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 92142,
+            "_ancestry": [
+                "L_ 11030",
+                "B_ {#OpAsana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "OpAsanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A fire used for domestic worship.\n",
+                ".²2 A small rice-ball ({#piRqa#}) offered to the manes."
+            ]
+        }
     ]
 }

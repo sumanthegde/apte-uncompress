@@ -1,20 +1,41 @@
 {
-    "__line": 173426,
+    "__line": 187431,
     "_ancestry": [
         "L_ 20926",
-        "B_ {#prasarpin#}"
+        "B_ {#pAcala#}"
     ],
-    "_banner": "{#prasarpin#}",
+    "_banner": "{#pAcala#}",
     "_bannerExp": [
         {
-            "Right": "prasarpin"
+            "Right": "pAcala"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Going forth, \nprogressing, advancing. ",
-        "{@--2@} Creeping along."
+        "Cooking, ripening, causing digestion <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 187432,
+            "_ancestry": [
+                "L_ 20926",
+                "B_ {#pAcala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAcalaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cook.\n",
+                ".²2 Fire.\n",
+                ".²3 Wind.\n",
+                ".²4 A thing dressed without the aid of fire."
+            ]
+        }
     ]
 }

@@ -1,19 +1,54 @@
 {
-    "__line": 156035,
+    "__line": 165953,
     "_ancestry": [
         "L_ 18626",
-        "B_ {#pAMqavIya#}"
+        "B_ {#nikazA#}"
     ],
-    "_banner": "{#pAMqavIya#}",
+    "_banner": "{#nikazA#}",
     "_bannerExp": [
         {
-            "Right": "pAMqavIya"
+            "Right": "nikazA"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Belonging to the\nPāṇḍavas."
+        "<ab>N.</ab> of the mother of Rāvaṇa or of imps in general. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 165953,
+            "_ancestry": [
+                "L_ 18626",
+                "B_ {#nikazA#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#nikazA#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Near, hard, close by, at hand (with <ab>acc.</ab>); {#nikazA sODaBittim#} <ls>Dk.</ls>;\n {#vilaNGya laNkAM nikazA hanizyati#} <ls>Śi. 1. 68</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 165957,
+            "_ancestry": [
+                "L_ 18626",
+                "B_ {#nikazA#}",
+                "S_ .{@{#-AtmajaH#}@}"
+            ],
+            "_banner": ".{@{#-AtmajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nikazAtmajaH"
+                }
+            ],
+            "_meanings": [
+                "a demon."
+            ]
+        }
     ]
 }

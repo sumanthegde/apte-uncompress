@@ -1,25 +1,289 @@
 {
-    "__line": 71947,
+    "__line": 70587,
     "_ancestry": [
         "L_ 8399",
-        "B_ {#unmiz#}"
+        "B_ {#ucca#}"
     ],
-    "_banner": "{#unmiz#}",
+    "_banner": "{#ucca#}",
     "_bannerExp": [
         {
-            "Right": "unmiz"
+            "Right": "ucca"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To open the eyes;\n{#unmimeza tadA muniH#} <ls>Bhāg.</ls> <ls>Bg. 5. 9</ls>;  \n<ls>Dk. 111.</ls> ",
-        "{@--2@} To open (as the eyes);\n{#pralayAMtonmizite vilocane#} <ls>Ku. 4. 2.</ls>\n",
-        "{@--3@} To open, bloom, be expanded\n(as lotuses); {#unmizadutpalavana#}  \n<ls>K. 22.</ls> ",
-        "{@--4@} To rise, peep up (as stars);\n{#unmizatsu grahagrAmaRIzu#} <ls>K. 176.</ls> ",
-        "{@--5@} To\nshine, glitter, flash; as {#tejasa#} ",
-        "{@--6@}\nTo arise, originate; {#unmizadromaharza#},\n{#unmizattozaM#} &c."
+        ".²1 High (in all senses); tall; {#kzitiDAraRoccaM#} <ls>Ku. 7. 63</ls>; elevated,\n superior, exalted (family <ab>&c.</ab>)\n",
+        ".²2 Loud, high-sounding; {#uccAH pakzigaRAH#} <ls>Śi. 4. 18</ls>.\n",
+        ".²3 Intense, violent, strong.\n",
+        ".²4 (In <ab>astr.</ab>) Ascendant; see {#uccasaMSraya#} below.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 70593,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "M_ .{@{#-ccaH#}@}"
+            ],
+            "_banner": ".{@{#-ccaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The apex of the orbit of a planet.\n",
+                ".²2 Height, high place; {#jvaraSca maraRaM jantoruccAcca patanaM yaTA#}\n <ls>Mb. 12. 28. 25</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 70598,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-avaca#}@}"
+            ],
+            "_banner": ".{@{#-avaca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccAvaca"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "High and low, great and small; see {#uccAvaca#}.\n"
+            ]
+        },
+        {
+            "__line": 70599,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-gir#}@}"
+            ],
+            "_banner": ".{@{#-gir#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccagir"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Having a loud voice; {#svaguRoccagiro munivratAH#} <ls>Śi. 16. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 70600,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-taruH#}@}"
+            ],
+            "_banner": ".{@{#-taruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccataruH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the cocoa-nut tree.\n",
+                ".²2 a lofty tree in general.\n"
+            ]
+        },
+        {
+            "__line": 70603,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-tAlaH#}@}"
+            ],
+            "_banner": ".{@{#-tAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccatAlaH"
+                }
+            ],
+            "_meanings": [
+                "(heightened) music, dancing <ab>&c.</ab> at a tavern.\n"
+            ]
+        },
+        {
+            "__line": 70604,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-devaH#}@}"
+            ],
+            "_banner": ".{@{#-devaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccadevaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu or kṛṣṇa.\n"
+            ]
+        },
+        {
+            "__line": 70605,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-devatA#}@}"
+            ],
+            "_banner": ".{@{#-devatA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccadevatA"
+                }
+            ],
+            "_meanings": [
+                "time personified, chronos.\n"
+            ]
+        },
+        {
+            "__line": 70606,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-DvajaH#}@}"
+            ],
+            "_banner": ".{@{#-DvajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccaDvajaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śākyamuni.\n"
+            ]
+        },
+        {
+            "__line": 70607,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-nIca#}@}"
+            ],
+            "_banner": ".{@{#-nIca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccanIca"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 high and low.\n",
+                ".²2 various, multiform.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 70610,
+                    "_ancestry": [
+                        "L_ 8399",
+                        "B_ {#ucca#}",
+                        "S_ .{@{#-nIca#}@}",
+                        "S_M_ ({@{#-cam#}@}"
+                    ],
+                    "_banner": "({@{#-cam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: uccanIca ({@{#-caM#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the upper or lower stations of planets.\n",
+                        ".²2 change of accent.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 70613,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-BAzaRam#}@}"
+            ],
+            "_banner": ".{@{#-BAzaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccaBAzaRam"
+                }
+            ],
+            "_meanings": [
+                "speaking aloud, vociferous.\n"
+            ]
+        },
+        {
+            "__line": 70614,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-BAzin#}@}"
+            ],
+            "_banner": ".{@{#-BAzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccaBAzin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "shouting, bawling.\n"
+            ]
+        },
+        {
+            "__line": 70615,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-lalAwA, -wikA#}@}"
+            ],
+            "_banner": ".{@{#-lalAwA, -wikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccalalAwA"
+                },
+                {
+                    "Left": "S error: midAlign wikA lalAwikA"
+                }
+            ],
+            "_meanings": [
+                "a woman with a high or projecting forehead.\n"
+            ]
+        },
+        {
+            "__line": 70616,
+            "_ancestry": [
+                "L_ 8399",
+                "B_ {#ucca#}",
+                "S_ .{@{#-saMSraya#}@}"
+            ],
+            "_banner": ".{@{#-saMSraya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uccasaMSraya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "occupying a high station (said of a planet);\n {#grahEstataH paYcaBiruccasaMSrayEH#} <ls>R. 3. 13</ls>; see <ls>Malli.</ls> thereon."
+            ]
+        }
     ]
 }

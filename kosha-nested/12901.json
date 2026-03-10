@@ -1,20 +1,105 @@
 {
-    "__line": 108405,
+    "__line": 110005,
     "_ancestry": [
         "L_ 12901",
-        "B_ {#GAtaka#}"
+        "B_ {#kesa(Sa)raH, -ram#}"
     ],
-    "_banner": "{#GAtaka#}",
+    "_banner": "{#kesa(Sa)raH, -ram#}",
     "_bannerExp": [
         {
-            "Right": "GAtaka"
+            "Right": "kesaraH"
+        },
+        {
+            "Right": "keSaraH"
+        },
+        {
+            "Right": "kesaram"
+        },
+        {
+            "Right": "keSaram"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#han-Ric Rvul#}]"
-    ],
     "_meanings": [
-        "Killing,\ndestroying, a killer, destroyer, \nmurderer &c."
+        ".²1 The mane (as of a lion); {#na hantyadUre'pi gajAnmfgeSvaro vilolajihvaScalitAgrakesaraH#}\n <ls>Ṛs. 1. 14</ls>; <ls>Ś. 7. 14</ls>.\n",
+        ".²2 The filament of a flower; {#nIpaM dfzwvA haritakapiSaM kesarErarDarUQEH#}\n <ls>Me. 21</ls>; <ls>Ś. 6. 18</ls>; <ls>M. 2. 11</ls>; <ls>R. 4. 67</ls>; <ls>Śi. 9. 47</ls>.\n",
+        ".²3 The Bakula tree; {#raktASokaScalakisalayaH kesaraScAtra kAntaH#} <ls>Me. 80</ls>; <ls>Ku. 3. 55</ls>.\n",
+        ".²4 The Punnāga tree.\n",
+        ".²5 The fibre (as of a mango fruit).\n",
+        ".²6 Saffron.\n",
+        ".²7 The hair.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 110015,
+            "_ancestry": [
+                "L_ 12901",
+                "B_ {#kesa(Sa)raH, -ram#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kesaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A flower of the Bakula tree; {#suraBiganDaparAjitakesaram#} <ls>R. 9. 36</ls>.\n",
+                ".²2 Gold.\n",
+                ".²3 Sulphate of iron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 110020,
+            "_ancestry": [
+                "L_ 12901",
+                "B_ {#kesa(Sa)raH, -ram#}",
+                "S_ .{@{#-acalaH#}@}"
+            ],
+            "_banner": ".{@{#-acalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kesarAcalaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of the mountain Meru; <ls>Bhāg. 5. 17. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 110021,
+            "_ancestry": [
+                "L_ 12901",
+                "B_ {#kesa(Sa)raH, -ram#}",
+                "S_ .{@{#-amlaH#}@}"
+            ],
+            "_banner": ".{@{#-amlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kesarAmlaH"
+                }
+            ],
+            "_meanings": [
+                "the citron.\n"
+            ]
+        },
+        {
+            "__line": 110022,
+            "_ancestry": [
+                "L_ 12901",
+                "B_ {#kesa(Sa)raH, -ram#}",
+                "S_ .{@{#-varam#}@}"
+            ],
+            "_banner": ".{@{#-varam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kesaravaram"
+                }
+            ],
+            "_meanings": [
+                "saffron."
+            ]
+        }
     ]
 }

@@ -1,37 +1,92 @@
 {
-    "__line": 231047,
+    "__line": 253591,
     "_ancestry": [
         "L_ 27482",
-        "B_ {#vrAtaH#}"
+        "B_ {#ripuH#}"
     ],
-    "_banner": "{#vrAtaH#}",
+    "_banner": "{#ripuH#}",
     "_bannerExp": [
         {
-            "Right": "vrAtaH"
+            "Right": "ripuH"
         }
     ],
-    "_meanings": [
-        "A multitude, group, flock,\nan assemblage; {#SvapAkAnAM vrAtEH#}\n<ls>G. L. 29</ls>; <ls>R. 12. 94</ls>; <ls>Śi. 4. 35.</ls> "
+    "_gram": [
+        "[{#rap un pfzo˚#} <ls>Uṇ. 1. 26</ls>]"
     ],
-    "_morphisms": [
+    "_meanings": [
+        ".²1 An enemy, a foe, an opponent.\n",
+        ".²2 A hostile planet.\n",
+        ".²3 <ab>N.</ab> of the sixth astrological house.\n",
+        ".²4 <ab>Ved.</ab> A cheat, rogue.\n"
+    ],
+    "_samasas": [
         {
-            "__line": 231049,
+            "__line": 253597,
             "_ancestry": [
                 "L_ 27482",
-                "B_ {#vrAtaH#}",
-                "M_ {#--taM#}"
+                "B_ {#ripuH#}",
+                "S_ .{@{#-kAlaH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-kAlaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vrAtaM"
+                    "Right": "ripukAlaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Bodily or manual labour. ",
-                "{@--2@} \nDaylabour. ",
-                "{@--3@} Casual employment. ",
-                "{@--4@}\nThe company or attendants at a\nmarriage feast."
+                "the god of death; <ls>Buddh.</ls>\n"
+            ]
+        },
+        {
+            "__line": 253598,
+            "_ancestry": [
+                "L_ 27482",
+                "B_ {#ripuH#}",
+                "S_ .{@{#-GAtin, -Dna, -jaya, nipAtin, -sUdana#}@}"
+            ],
+            "_banner": ".{@{#-GAtin, -Dna, -jaya, nipAtin, -sUdana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ripuGAtin"
+                },
+                {
+                    "Left": "S error: 1 syl GAtin Dna"
+                },
+                {
+                    "Right": "ripujaya"
+                },
+                {
+                    "Right": "ripunipAtin"
+                },
+                {
+                    "Right": "ripusUdana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "killing or vanquishing foes.\n"
+            ]
+        },
+        {
+            "__line": 253599,
+            "_ancestry": [
+                "L_ 27482",
+                "B_ {#ripuH#}",
+                "S_ .{@{#-Bavanam, -sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-Bavanam, -sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ripuBavanam"
+                },
+                {
+                    "Right": "ripusTAnam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the 6th astrological house."
             ]
         }
     ]

@@ -1,17 +1,80 @@
 {
-    "__line": 58072,
+    "__line": 56197,
     "_ancestry": [
         "L_ 6692",
-        "B_ {#ArawwaH#}"
+        "B_ {#AYjana#}"
     ],
-    "_banner": "{#ArawwaH#}",
+    "_banner": "{#AYjana#}",
     "_bannerExp": [
         {
-            "Right": "ArawwaH"
+            "Right": "AYjana"
+        },
+        {
+            "Right": "AYjanI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#aYjanasyedaM-aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of a country to the\nnorth-east of Panjab, famous for\nits breed of horses; (the people of\nGuzarath in Rāvalpinḍi still call\ntheir country Hairat or \n\nAiratdeśa); the inhabitants of this \ncountry (<ab>pl.</ab>). ",
-        "{@--2@} A horse from this\ncountry."
+        "Anointing\n or belonging to ointment.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 56199,
+            "_ancestry": [
+                "L_ 6692",
+                "B_ {#AYjana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AYjanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Ointment, especially for the eyes.\n",
+                ".²2 Fat; {#imA nArIraviDavAH supatnIrAYjanena sarpizA saMviSantu#} <ls>Rv. 10. 18. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 56202,
+            "_ancestry": [
+                "L_ 6692",
+                "B_ {#AYjana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AYjanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Māruti or Hanūmat {#dASaraTibalErivAYjananIlanalaparigataprAntEH#} <ls>K. 58</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 56204,
+            "_ancestry": [
+                "L_ 6692",
+                "B_ {#AYjana#}",
+                "S_ .{@{#-aByaYjanam#}@}"
+            ],
+            "_banner": ".{@{#-aByaYjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AYjanAByaYjanam"
+                }
+            ],
+            "_meanings": [
+                "(<ab>du.</ab>) Ointment for the eyes and for the feet."
+            ]
+        }
     ]
 }

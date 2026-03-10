@@ -1,42 +1,160 @@
 {
-    "__line": 152950,
+    "__line": 161256,
     "_ancestry": [
         "L_ 18163",
-        "B_ {#parimuh#}"
+        "B_ {#DyAna#}"
     ],
-    "_banner": "{#parimuh#}",
+    "_banner": "{#DyAna#}",
     "_bannerExp": [
         {
-            "Right": "parimuh"
+            "Right": "DyAna"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>U.</ab>"
+        "[{#DyE-BAve-lyuw#}]"
     ],
     "_meanings": [
-        "To be bewildered.\nor perplexed. "
+        ".²1 Meditation, reflection, thought; contemplation; {#jYAnAd DyAnaM viSizyate#}\n <ls>Bg. 12. 12</ls>; <ls>Ms. 1. 12</ls>, <ls n=\"Ms.\">6. 72</ls>.\n",
+        ".²2 Especially, abstract contemplation, religious meditation; {#tadEva#}\n {#DyAnAdavagato'smi#} <ls>Ś. 7</ls>; {#DyAnastimitalocanaH#} <ls>R. 1. 73</ls>.\n",
+        ".²3 Divine intuition or discernment.\n",
+        ".²4 Mental representation of the personal attributes of a deity; {#iti DyAnam#}.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 152951,
+            "__line": 161264,
             "_ancestry": [
                 "L_ 18163",
-                "B_ {#parimuh#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#DyAna#}",
+                "S_ .{@{#-gamya#}@}"
             ],
+            "_banner": ".{@{#-gamya#}@}",
             "_bannerExp": [
                 {
-                    "Right": "parimuh"
+                    "Right": "DyAnagamya"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "(<ab>Atm.</ab>) ",
-                "{@--1@}\nTo entice, beguile, allure;  \n<ls>Bk. 8. 63.</ls> ",
-                "{@--2@} (<ab>P.</ab>) To perplex."
+                "attainable by meditation only; {#yogiBirDyAnagamyam#} <ls>Viṣṇustotra.</ls>\n"
+            ]
+        },
+        {
+            "__line": 161265,
+            "_ancestry": [
+                "L_ 18163",
+                "B_ {#DyAna#}",
+                "S_ .{@{#-tatpara, -nizWa, -para#}@}"
+            ],
+            "_banner": ".{@{#-tatpara, -nizWa, -para#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DyAnatatpara"
+                },
+                {
+                    "Right": "DyAnanizWa"
+                },
+                {
+                    "Right": "DyAnapara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lost in thought, absorbed in meditation, contemplative.\n"
+            ]
+        },
+        {
+            "__line": 161266,
+            "_ancestry": [
+                "L_ 18163",
+                "B_ {#DyAna#}",
+                "S_ .{@{#-DizRya#}@}"
+            ],
+            "_banner": ".{@{#-DizRya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DyAnaDizRya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "suitable for {#DyAna#}; {#rUpaM cedaM pOruzaM DyAnaDizRyam#}\n <ls>Bhāg. 10. 3. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 161268,
+            "_ancestry": [
+                "L_ 18163",
+                "B_ {#DyAna#}",
+                "S_ .{@{#-mAtram#}@}"
+            ],
+            "_banner": ".{@{#-mAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DyAnamAtram"
+                }
+            ],
+            "_meanings": [
+                "mere thought or reflection.\n"
+            ]
+        },
+        {
+            "__line": 161269,
+            "_ancestry": [
+                "L_ 18163",
+                "B_ {#DyAna#}",
+                "S_ .{@{#-mudrA#}@}"
+            ],
+            "_banner": ".{@{#-mudrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DyAnamudrA"
+                }
+            ],
+            "_meanings": [
+                "a prescribed attitude in which to meditate on a deity.\n"
+            ]
+        },
+        {
+            "__line": 161270,
+            "_ancestry": [
+                "L_ 18163",
+                "B_ {#DyAna#}",
+                "S_ .{@{#-yogaH#}@}"
+            ],
+            "_banner": ".{@{#-yogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DyAnayogaH"
+                }
+            ],
+            "_meanings": [
+                "profound meditation.\n"
+            ]
+        },
+        {
+            "__line": 161271,
+            "_ancestry": [
+                "L_ 18163",
+                "B_ {#DyAna#}",
+                "S_ .{@{#-sTa#}@}"
+            ],
+            "_banner": ".{@{#-sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DyAnasTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "absorbed in meditation; lost in thought."
             ]
         }
     ]

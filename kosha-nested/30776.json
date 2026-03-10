@@ -1,40 +1,59 @@
 {
-    "__line": 257882,
+    "__line": 284436,
     "_ancestry": [
         "L_ 30776",
-        "B_ {#stuta#}"
+        "B_ {#vegin#}"
     ],
-    "_banner": "{#stuta#}",
+    "_banner": "{#vegin#}",
     "_bannerExp": [
         {
-            "Right": "stuta"
+            "Right": "vegin"
+        },
+        {
+            "Right": "veginI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#stu-karmaRi kta#}]"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} \nPraised, lauded, eulogized. ",
-        "{@--2@} Flattered.\n"
+        "Swift, fleet, impetuous, violent, rapid. "
     ],
     "_morphisms": [
         {
-            "__line": 257884,
+            "__line": 284437,
             "_ancestry": [
                 "L_ 30776",
-                "B_ {#stuta#}",
-                "M_ {#--taH#}"
+                "B_ {#vegin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "stutaH"
+                    "Left": "Parser error: {#vegin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Praising. ",
-                "{@--2@} <ab>N.</ab> of Śiva"
+                ".²1 A courier.\n",
+                ".²2 A hawk.\n"
+            ]
+        },
+        {
+            "__line": 284440,
+            "_ancestry": [
+                "L_ 30776",
+                "B_ {#vegin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veginI"
+                }
+            ],
+            "_meanings": [
+                "A river."
             ]
         }
     ]

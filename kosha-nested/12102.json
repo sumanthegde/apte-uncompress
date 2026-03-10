@@ -1,22 +1,93 @@
 {
-    "__line": 101033,
+    "__line": 102149,
     "_ancestry": [
         "L_ 12102",
-        "B_ {#KarjuH#}"
+        "B_ {#kArmuka#}"
     ],
-    "_banner": "{#KarjuH#}",
+    "_banner": "{#kArmuka#}",
     "_bannerExp": [
         {
-            "Right": "KarjuH"
+            "Right": "kArmuka"
+        },
+        {
+            "Right": "kArmukI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#karmaRe praBavati iti ukaY#}\n <ls>P. V. 1. 103.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Scratching. ",
-        "{@--2@} The\ndate-tree. ",
-        "{@--3@} The Dhattūra tree. ",
-        "{@--4@}\nA worm, a kind of insect."
+        "Fit for or able to do a work, doing it well and completely.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 102151,
+            "_ancestry": [
+                "L_ 12102",
+                "B_ {#kArmuka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArmukam"
+                }
+            ],
+            "_gram": [
+                "[{#kfmukaSabdAt kAzWaviSezavAcinaH, anudAttAdeSca iti sUtrasyApavAdena#},\n {#kopaDAcca iti sUtreRAR pratyayena nizpannaH#}]"
+            ],
+            "_meanings": [
+                ".²1 A bow; {#tatkArmukaM#} {#karmasu yasya SaktiH#} <ls>Ki. 3. 48</ls>; {#tvayi cADijyakArmuke#} <ls>Ś. 1. 6</ls>.\n",
+                ".²2 A bamboo.\n",
+                ".²3 The ninth sign of the zodiac.\n",
+                ".²4 A kind of machine or instrument shaped like a bow.\n",
+                ".²5 A kind of village situated on the bank of a river or sea; <ls>Māna. 9. 3. 459</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 102159,
+            "_ancestry": [
+                "L_ 12102",
+                "B_ {#kArmuka#}",
+                "S_ .{@{#-upanizad#}@}"
+            ],
+            "_banner": ".{@{#-upanizad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArmukopanizad"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the secret of the art of shooting; <ls>B. R.</ls>\n"
+            ]
+        },
+        {
+            "__line": 102160,
+            "_ancestry": [
+                "L_ 12102",
+                "B_ {#kArmuka#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArmukaBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the archer or the sign Sagittarius of the zodiac.\n",
+                ".²2 an archer in general."
+            ]
+        }
     ]
 }

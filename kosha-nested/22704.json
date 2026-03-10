@@ -1,25 +1,40 @@
 {
-    "__line": 190467,
+    "__line": 203686,
     "_ancestry": [
         "L_ 22704",
-        "B_ {#mapa(pu)zwaH --kaH#}"
+        "B_ {#pratisf#}"
     ],
-    "_banner": "{#mapa(pu)zwaH --kaH#}",
+    "_banner": "{#pratisf#}",
     "_bannerExp": [
         {
-            "Right": "mapazwaH"
-        },
-        {
-            "Right": "mapazwakaH"
-        },
-        {
-            "Right": "mapuzwaH"
-        },
-        {
-            "Right": "mapuzwakaH"
+            "Right": "pratisf"
         }
     ],
+    "_gram": [
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "A kind of bean."
+        "²1 To go back, return.\n",
+        ".²2 To go towards, rush upon, attack, assail; {#dEtyaH pratyasaraddevaM#}\n {#matto mattamiva dvipam#} <ls>Hariv.</ls> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 203689,
+            "_ancestry": [
+                "L_ 22704",
+                "B_ {#pratisf#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pratisf"
+                }
+            ],
+            "_meanings": [
+                ".²1 To push backwards, replace; {#kanakavalayaM srastaM srastaM mayA pratisAryate#} <ls>Ś. 3. 12</ls>.\n",
+                ".²2 To repel, drive away or back."
+            ]
+        }
     ]
 }

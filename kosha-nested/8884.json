@@ -1,38 +1,204 @@
 {
-    "__line": 75682,
+    "__line": 74692,
     "_ancestry": [
         "L_ 8884",
-        "B_ {#upavizaH --zaM#}"
+        "B_ {#udac#}, {#-udaYc#}"
     ],
-    "_banner": "{#upavizaH --zaM#}",
+    "_banner": "{#udac#}, {#-udaYc#}",
     "_bannerExp": [
         {
-            "Right": "upavizaH"
+            "Right": "udac"
         },
         {
-            "Right": "upavizaM"
+            "Right": "udaYc"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({%m.%}|{#udaN#}|{%n.%}|{#udak#}|{%f.%}|{#udIcI#})"
+    ],
     "_meanings": [
-        "{@--1@} An artificial poison.\n",
-        "{@--2@} A narcotic, any poisonous drug;\n{#arkakzIraM snuhIkzIraM taTEva kalihArikA . DattUraH#}\n{#karavIraSca paMca copavizAH smftAH ..#} "
+        ".²1 Turned or going upwards.\n",
+        ".²2 Upper, higher; {#˚kUlaH#}; {#˚tIraH#} <ab>&c.</ab>\n",
+        ".²3 Northern, turned towards the north.\n",
+        ".²4 Subsequent.\n"
     ],
     "_morphisms": [
         {
-            "__line": 75685,
+            "__line": 74698,
             "_ancestry": [
                 "L_ 8884",
-                "B_ {#upavizaH --zaM#}",
-                "M_ {#--zA#}"
+                "B_ {#udac#}, {#-udaYc#}",
+                "M_ .{@{#-k#}@}"
             ],
-            "_banner": "{#--zA#}",
+            "_banner": ".{@{#-k#}@}",
             "_bannerExp": [
                 {
-                    "Right": "upavizA"
+                    "Left": "surjectivity error: udac/udaYc k"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Above.\n",
+                ".²2 Northward, to the north of (with <ab>abl.</ab>); {#Acamyodak parAvftya#} <ls>Ms. 3. 217</ls>.\n",
+                ".²3 Subsequently.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 74703,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-adriH#}@}"
+            ],
+            "_banner": ".{@{#-adriH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udagadriH"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab>\nof a plant ({#ativizA#})."
+                "the northen mountain, Himālaya.\n"
+            ]
+        },
+        {
+            "__line": 74704,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-ayanam#}@}"
+            ],
+            "_banner": ".{@{#-ayanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udagayanam"
+                }
+            ],
+            "_meanings": [
+                "the sunʼs progress north of the equator (= {#uttarAyaRam#} <ab>q. v.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 74705,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-AvfttiH#}@}"
+            ],
+            "_banner": ".{@{#-AvfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udagAvfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "return from the north; {#udagAvfttipaTena nAradaH#} <ls>R. 8. 33</ls>.\n"
+            ]
+        },
+        {
+            "__line": 74706,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-daSa#}@}"
+            ],
+            "_banner": ".{@{#-daSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udagdaSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having its skirts or border turned upwards or towards\n the north (as a garment)\n"
+            ]
+        },
+        {
+            "__line": 74708,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udakpaTaH"
+                }
+            ],
+            "_meanings": [
+                "a northern country.\n"
+            ]
+        },
+        {
+            "__line": 74709,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-pravaRa#}@}"
+            ],
+            "_banner": ".{@{#-pravaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udakpravaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 inclining or sloping towards the north.\n",
+                ".²2 proceeding well (as a sacrifice).\n"
+            ]
+        },
+        {
+            "__line": 74712,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-BUmaH, -BUmiH#}@}"
+            ],
+            "_banner": ".{@{#-BUmaH, -BUmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udagBUmaH"
+                },
+                {
+                    "Right": "udagBUmiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 good or fertile soil.\n",
+                ".²2 a land sloping towards the north.\n"
+            ]
+        },
+        {
+            "__line": 74715,
+            "_ancestry": [
+                "L_ 8884",
+                "B_ {#udac#}, {#-udaYc#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udaNmuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "facing the north; {#utpatodaNmuKaH Kam#} <ls>Me. 14</ls>."
             ]
         }
     ]

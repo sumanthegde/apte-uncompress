@@ -1,25 +1,40 @@
 {
-    "__line": 136421,
+    "__line": 140945,
     "_ancestry": [
         "L_ 16249",
-        "B_ {#naMSuka#}"
+        "B_ {#tarjita#}"
     ],
-    "_banner": "{#naMSuka#}",
+    "_banner": "{#tarjita#}",
     "_bannerExp": [
         {
-            "Right": "naMSukI"
-        },
-        {
-            "Right": "naMSuka"
+            "Right": "tarjita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Injurious,\ndestructive. ",
-        "{@--2@} Going astray, being.\nlost. ",
-        "{@--3@} Small, minute, thin."
+        ".²1 Threatened; {#tarjitaH paraSuDArayA mama#} <ls>R. 11. 78</ls>.\n",
+        ".²2 Blamed; scolded; {#tarjitaH sa BayAdeva SabarastaM vyajijYapat#} <ls>Rāj. T. 3. 34</ls>.\n",
+        ".²3 Disgraced.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 140949,
+            "_ancestry": [
+                "L_ 16249",
+                "B_ {#tarjita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tarjitam"
+                }
+            ],
+            "_meanings": [
+                "Threatening, a menace."
+            ]
+        }
     ]
 }

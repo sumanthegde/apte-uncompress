@@ -1,37 +1,141 @@
 {
-    "__line": 118991,
+    "__line": 123197,
     "_ancestry": [
         "L_ 14290",
-        "B_ {#takzaRaM#}"
+        "B_ {#golaH#}, {#-lA, -lam#}"
     ],
-    "_banner": "{#takzaRaM#}",
+    "_banner": "{#golaH#}, {#-lA, -lam#}",
     "_bannerExp": [
         {
-            "Right": "takzaRaM"
+            "Right": "golaH"
+        },
+        {
+            "Right": "golA"
+        },
+        {
+            "Right": "golam"
         }
     ],
     "_gram": [
-        "[{#takz BAve-lyuw#}]"
+        "[{#guq ac qasya laH#}]"
     ],
     "_meanings": [
-        "Paring, \ncutting; {#dAravARAM ca takzaRaM#} <ls>Ms. 5. 115</ls>;\n<ls>Y. 1. 185.</ls> "
+        ".²1 A ball, globe; {#kadambagolAkftimASritaH kaTam#} <ls>Māl. 7. 1</ls>.\n",
+        ".²2 The celestial or terrestrial globe.\n",
+        ".²3 A circle. ",
+        ".²4 A sphere, anything round or globular.\n"
     ],
     "_morphisms": [
         {
-            "__line": 118993,
+            "__line": 123202,
             "_ancestry": [
                 "L_ 14290",
-                "B_ {#takzaRaM#}",
-                "M_ {#--RI#}"
+                "B_ {#golaH#}, {#-lA, -lam#}",
+                "M_ .{@{#-laH#}@}"
             ],
-            "_banner": "{#--RI#}",
+            "_banner": ".{@{#-laH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "takzaRI"
+                    "Right": "golaH"
                 }
             ],
             "_meanings": [
-                "A carpenter's adze."
+                ".²1 A widowʼs bastard; <ab>cf.</ab> {#kuRqa#}; <ls>Y. 1. 222</ls>.\n",
+                ".²2 The conjunction of several planets or the presence of several in one sign.\n",
+                ".²3 Myrrh.\n"
+            ]
+        },
+        {
+            "__line": 123206,
+            "_ancestry": [
+                "L_ 14290",
+                "B_ {#golaH#}, {#-lA, -lam#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "golA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wooden ball with which children play.\n",
+                ".²2 A large globular water-jar.\n",
+                ".²3 Red arsenic.\n",
+                ".²4 Ink.\n",
+                ".²5 A womanʼs female friend.\n",
+                ".²6 <ab>N.</ab> of Durgā.\n\n",
+                ".²7 <ab>N.</ab> of the river Godāvari.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 123216,
+            "_ancestry": [
+                "L_ 14290",
+                "B_ {#golaH#}, {#-lA, -lam#}",
+                "S_ .{@{#-aDyAyaH#}@}"
+            ],
+            "_banner": ".{@{#-aDyAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "golADyAyaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an astronomical work by Bhāskarāchārya.\n"
+            ]
+        },
+        {
+            "__line": 123217,
+            "_ancestry": [
+                "L_ 14290",
+                "B_ {#golaH#}, {#-lA, -lam#}",
+                "S_ .{@{#-Asanam#}@}"
+            ],
+            "_banner": ".{@{#-Asanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "golAsanam"
+                }
+            ],
+            "_meanings": [
+                "‘ball thrower’, a kind of gun.\n"
+            ]
+        },
+        {
+            "__line": 123218,
+            "_ancestry": [
+                "L_ 14290",
+                "B_ {#golaH#}, {#-lA, -lam#}",
+                "S_ .{@{#-krIqA#}@}"
+            ],
+            "_banner": ".{@{#-krIqA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "golakrIqA"
+                }
+            ],
+            "_meanings": [
+                "playing with balls.\n"
+            ]
+        },
+        {
+            "__line": 123219,
+            "_ancestry": [
+                "L_ 14290",
+                "B_ {#golaH#}, {#-lA, -lam#}",
+                "S_ .{@{#-yantram#}@}"
+            ],
+            "_banner": ".{@{#-yantram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "golayantram"
+                }
+            ],
+            "_meanings": [
+                "a kind of astronomical instrument."
             ]
         }
     ]

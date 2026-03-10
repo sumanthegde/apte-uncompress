@@ -1,37 +1,56 @@
 {
-    "__line": 31976,
+    "__line": 29112,
     "_ancestry": [
         "L_ 3410",
-        "B_ {#aBizuta#}"
+        "B_ {#aBitap#}"
     ],
-    "_banner": "{#aBizuta#}",
+    "_banner": "{#aBitap#}",
     "_bannerExp": [
         {
-            "Right": "aBizuta"
+            "Right": "aBitap"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Extracted, pressed\nout, as Soma juice. "
+        "²1 To irradiate with heat, heat, inflame, {#aBitaptamayo'pi mArdavaM Bajate#}\n {#kEva kaTA SarIrizu#} <ls>R. 8. 43</ls>, <ls n=\"R.\">19. 56</ls>.\n",
+        ".²2 To pain, distress, wound, afflict. "
     ],
     "_morphisms": [
         {
-            "__line": 31977,
+            "__line": 29115,
             "_ancestry": [
                 "L_ 3410",
-                "B_ {#aBizuta#}",
-                "M_ {#--taM#}"
+                "B_ {#aBitap#}",
+                "M_ --{%<ab>pass.</ab>%}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": "--{%<ab>pass.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "aBizutaM"
+                    "Right": "aBitap"
                 }
             ],
             "_meanings": [
-                "Sour gruel."
+                "To suffer intensely, be afflicted.\n."
+            ]
+        },
+        {
+            "__line": 29116,
+            "_ancestry": [
+                "L_ 3410",
+                "B_ {#aBitap#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "aBitap"
+                }
+            ],
+            "_meanings": [
+                "To pain, distress, afflict."
             ]
         }
     ]

@@ -1,16 +1,42 @@
 {
-    "__line": 146454,
+    "__line": 152929,
     "_ancestry": [
         "L_ 17417",
-        "B_ {#nEyatyaM#}"
+        "B_ {#dozika#}"
     ],
-    "_banner": "{#nEyatyaM#}",
+    "_banner": "{#dozika#}",
     "_bannerExp": [
         {
-            "Right": "nEyatyaM"
+            "Right": "dozika"
+        },
+        {
+            "Right": "dozikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
+    ],
     "_meanings": [
-        "Restraint, self-command."
+        "Faulty, defective, bad.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 152931,
+            "_ancestry": [
+                "L_ 17417",
+                "B_ {#dozika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dozikaH"
+                }
+            ],
+            "_meanings": [
+                "Sickness, disease."
+            ]
+        }
     ]
 }

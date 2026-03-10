@@ -1,43 +1,209 @@
 {
-    "__line": 224806,
+    "__line": 243786,
     "_ancestry": [
         "L_ 26650",
-        "B_ {#vizwaMB#}"
+        "B_ {#medas#}"
     ],
-    "_banner": "{#vizwaMB#}",
+    "_banner": "{#medas#}",
     "_bannerExp": [
         {
-            "Right": "vizwaMB"
+            "Right": "medas"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "{c9c}",
-        "<ab>P.</ab>"
+        "{%n.%}",
+        "[{#meda-asun#}]"
     ],
     "_meanings": [
-        "{@--1@} To stop, \nobstruct; <ls>Ś. 5. 9.</ls> ",
-        "{@--2@} To fix, plant,\nrest on; {#atyucCrite maMtriRi pArTive ca#}\n{#vizwaBya pAdAvupatizWate SrIH#} <ls>Mu. 4. 13.</ls>\n"
+        ".²1 a Fat, marrow (one of the seven {%dhātus%} of the body and supposed\n to lie in the abdomen); <ls>Ms. 3. 182</ls>; {#medasA tarpayed devAnaTarvANgirasaH#}\n {#paWan#} <ls>Y. 1. 44</ls>; {#pipIlikABirAcIrRamedastvaNmAMsaSoRitam#} <ls>Bhāg. 7. 3. 15</ls>.\n",
+        ".²2 Corpulence, fat of the body; {#medacCedakfSodaraM laGu BavatyutTAnayogyaM#}\n {#vapuH#} <ls>Ś. 2. 5</ls>.\n",
+        ".²3 Excessive fatness, morbid corpulence.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 224810,
+            "__line": 243794,
             "_ancestry": [
                 "L_ 26650",
-                "B_ {#vizwaMB#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#medas#}",
+                "S_ .{@{#-arbudam#}@}"
             ],
+            "_banner": ".{@{#-arbudam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vizwaMB"
+                    "Right": "medo'rbudam"
+                }
+            ],
+            "_meanings": [
+                "a fatty tumour.\n"
+            ]
+        },
+        {
+            "__line": 243795,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medaskft"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%m., n.%}"
             ],
             "_meanings": [
-                "{@--1@} To obstruct. ",
-                "{@--2@} To \nparalyse, benumb."
+                "flesh.\n"
+            ]
+        },
+        {
+            "__line": 243796,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-gaRqaH#}@}"
+            ],
+            "_banner": ".{@{#-gaRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medogaRqaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of fatty excrescence.\n"
+            ]
+        },
+        {
+            "__line": 243797,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-granTiH#}@}"
+            ],
+            "_banner": ".{@{#-granTiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medogranTiH"
+                }
+            ],
+            "_meanings": [
+                "a fatty tumour.\n"
+            ]
+        },
+        {
+            "__line": 243798,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-jam, -tejas#}@}"
+            ],
+            "_banner": ".{@{#-jam, -tejas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medojam"
+                },
+                {
+                    "Right": "medastejas"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a bone.\n"
+            ]
+        },
+        {
+            "__line": 243799,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-dozaH, -rogaH#}@}"
+            ],
+            "_banner": ".{@{#-dozaH, -rogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medodozaH"
+                },
+                {
+                    "Right": "medorogaH"
+                }
+            ],
+            "_meanings": [
+                "excessive fatness.\n"
+            ]
+        },
+        {
+            "__line": 243800,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-DarA#}@}"
+            ],
+            "_banner": ".{@{#-DarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medoDarA"
+                }
+            ],
+            "_meanings": [
+                "a membrane in the abdomen containing the fat.\n"
+            ]
+        },
+        {
+            "__line": 243801,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-piRqaH#}@}"
+            ],
+            "_banner": ".{@{#-piRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medaspiRqaH"
+                }
+            ],
+            "_meanings": [
+                "a lump of fat.\n"
+            ]
+        },
+        {
+            "__line": 243802,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-vaham#}@}"
+            ],
+            "_banner": ".{@{#-vaham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medovaham"
+                }
+            ],
+            "_meanings": [
+                "a lymphatic.\n"
+            ]
+        },
+        {
+            "__line": 243803,
+            "_ancestry": [
+                "L_ 26650",
+                "B_ {#medas#}",
+                "S_ .{@{#-vfdDiH#}@}"
+            ],
+            "_banner": ".{@{#-vfdDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medovfdDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 increase of fat, corpulence.\n",
+                ".²2 enlargement of the scrotum."
             ]
         }
     ]

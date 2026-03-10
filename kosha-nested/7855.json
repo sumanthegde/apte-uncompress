@@ -1,39 +1,55 @@
 {
-    "__line": 67649,
+    "__line": 65599,
     "_ancestry": [
         "L_ 7855",
-        "B_ {#uttaraRa#}"
+        "B_ {#ASvatTa#}"
     ],
-    "_banner": "{#uttaraRa#}",
+    "_banner": "{#ASvatTa#}",
     "_bannerExp": [
         {
-            "Right": "uttaraRa"
+            "Right": "ASvatTa"
+        },
+        {
+            "Right": "ASvatTI"
+        },
+        {
+            "Left": "fFromGramCore error: ASvatTa  kI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-tTI#}|{%f.%})",
+        ".{@{#ASvatTika#}@}",
+        ".({@{#-kI#}@}|{%f.%})",
+        "[{#aSvatTasyedam aR Wak vA#} <ls>P. IV. 2. 22</ls>]"
     ],
     "_meanings": [
-        "Coming out of, \ncrossing. "
+        ".²1 Relating to or made of the holy fig-tree.\n",
+        ".²2 Relating to the fruit-bearing season of this tree, as a {#muhUrta#}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 67650,
+            "__line": 65604,
             "_ancestry": [
                 "L_ 7855",
-                "B_ {#uttaraRa#}",
-                "M_ {#--RaM#}"
+                "B_ {#ASvatTa#}",
+                "M_ .{@{#-tTA#}@}"
             ],
-            "_banner": "{#--RaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "uttaraRaM"
-                }
-            ],
+            "_banner": ".{@{#-tTA#}@}",
             "_meanings": [
-                "{@--1@} Coming forth or out of\n(water &c.). ",
-                "{@--2@} Landing, \ndisembarking. ",
-                "{@--3@} Crossing, passing\nover; {#saMsArasamudra°#}."
+                "The night having the {#aSvatTa#} Nakṣatra.\n"
+            ]
+        },
+        {
+            "__line": 65605,
+            "_ancestry": [
+                "L_ 7855",
+                "B_ {#ASvatTa#}",
+                "M_ .{@{#-tTam#}@}"
+            ],
+            "_banner": ".{@{#-tTam#}@}",
+            "_meanings": [
+                "The fruit of the holy fig-tree."
             ]
         }
     ]

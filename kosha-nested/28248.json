@@ -1,42 +1,679 @@
 {
-    "__line": 237562,
+    "__line": 260857,
     "_ancestry": [
         "L_ 28248",
-        "B_ {#Socis#}"
+        "B_ {#vakra#}"
     ],
-    "_banner": "{#Socis#}",
+    "_banner": "{#vakra#}",
     "_bannerExp": [
         {
-            "Right": "Socis"
+            "Right": "vakra"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}",
-        "[{#Suc-isi#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Light,\nlustre, radiance. ",
-        "{@--2@} A flame. "
+        ".²1 Crooked (<ab>fig.</ab> also), bent, curved, winding, tortuous; {#vakraH panTA#}\n {#yadapi BavataH prasTitasyottarASAm#} <ls>Me. 27</ls>; <ls>Ku. 3. 29</ls>.\n",
+        ".²2 Roundabout, indirect, evasive, circuitous, equivocal, ambiguous (as\n a speech); {#kimetErvakraBaRitEH#} <ls>Ratn. 2</ls>; {#vakravAkyaracanAramaRIyaH#}\n {#… … suBruvAM pravavfte parihAsaH#} <ls>Śi. 10. 12</ls>; see {#vakrokti#} also.\n",
+        ".²3 Curled, curling, crisped (as hair).\n",
+        ".²4 Retrograde (as motion).\n",
+        ".²5 Dishonest, fraudulent, crooked in disposition.\n",
+        ".²6 Cruel, malignant (as a planet); {#vakrAH syuH paYcazazWe'rke ativakrA#}\n {#nagAzwage . navame daSame cEva jAyate sahajA gatiH ..#} <ls>Jyotistattvam.</ls>\n",
+        ".²7 Prosodially long.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 260869,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "M_ .{@{#-kraH#}@}"
+            ],
+            "_banner": ".{@{#-kraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The planet Mars.\n",
+                ".²2 The planet Saturn.\n",
+                ".²3 <ab>N.</ab> of Śiva.\n",
+                ".²4 <ab>N.</ab> of the demon Tripura.\n",
+                ".²5 A nose.\n"
+            ]
+        },
+        {
+            "__line": 260875,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "M_ .{@{#-kram#}@}"
+            ],
+            "_banner": ".{@{#-kram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The bend or arm of a river.\n",
+                ".²2 Retrograde motion (of a planet).\n",
+                ".²3 A form of fracture.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 237563,
+            "__line": 260880,
             "_ancestry": [
                 "L_ 28248",
-                "B_ {#Socis#}",
-                "S_ \n{#--keSaH#}"
+                "B_ {#vakra#}",
+                "S_ .{@{#-aNgam#}@}"
             ],
-            "_banner": "\n{#--keSaH#}",
+            "_banner": ".{@{#-aNgam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SocizkeSaH"
+                    "Right": "vakrANgam"
+                }
+            ],
+            "_meanings": [
+                "a crooked limb.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 260881,
+                    "_ancestry": [
+                        "L_ 28248",
+                        "B_ {#vakra#}",
+                        "S_ .{@{#-aNgam#}@}",
+                        "S_M_ ({@{#-NgaH#}@}"
+                    ],
+                    "_banner": "({@{#-NgaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vakrANgaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a goose.\n",
+                        ".²2 the ruddy goose. ",
+                        ".²3 a snake.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 260884,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-AKyam#}@}"
+            ],
+            "_banner": ".{@{#-AKyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrAKyam"
+                }
+            ],
+            "_meanings": [
+                "tin.\n"
+            ]
+        },
+        {
+            "__line": 260885,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-itara#}@}"
+            ],
+            "_banner": ".{@{#-itara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakretara"
                 }
             ],
             "_gram": [
-                "({#SocizkeSaH#})"
+                "{%a.%}"
             ],
             "_meanings": [
-                "an epithet of fire."
+                "straight.\n"
+            ]
+        },
+        {
+            "__line": 260886,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-uktiH#}@}"
+            ],
+            "_banner": ".{@{#-uktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakroktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a figure of speech consisting in the use of evasive\n speech or reply, either by means of a pun, or by an affected change of\n tone; Mammaṭa thus defines it:-- {#yaduktamanyaTA vAkyamanyaTAnyena yojyate .#}\n {#SlezeRa kAkvA vA jYeyA sA vakroktistaTA dviDA#} <ls>K. P. 9</ls>; for example\n see the opening stanza in <ls>Mu.</ls> ({#DanyA keyaM sTitA te#} <ab>&c.</ab>).\n",
+                ".²2 equivocation, insinuation, innuendo; {#subanDurbARaBawwaSca kavirAja#}\n {#iti trayaH . vakroktimArganipuRAScaturTo vidyate na vA ..#}.\n",
+                ".²3 sarcasm.\n"
+            ]
+        },
+        {
+            "__line": 260894,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-kaRwaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrakaRwaH"
+                }
+            ],
+            "_meanings": [
+                "the jujube tree.\n"
+            ]
+        },
+        {
+            "__line": 260895,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-kaRwakaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRwakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrakaRwakaH"
+                }
+            ],
+            "_meanings": [
+                "the Khadira tree.\n"
+            ]
+        },
+        {
+            "__line": 260896,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-kIlaH#}@}"
+            ],
+            "_banner": ".{@{#-kIlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrakIlaH"
+                }
+            ],
+            "_meanings": [
+                "a curved iron for striking an elephant.\n"
+            ]
+        },
+        {
+            "__line": 260897,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-KaqgaH, -KaqgakaH#}@}"
+            ],
+            "_banner": ".{@{#-KaqgaH, -KaqgakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakraKaqgaH"
+                },
+                {
+                    "Right": "vakraKaqgakaH"
+                }
+            ],
+            "_meanings": [
+                "a sabre, scimitar.\n\n"
+            ]
+        },
+        {
+            "__line": 260899,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-ga, -gata#}@}"
+            ],
+            "_banner": ".{@{#-ga, -gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakraga"
+                },
+                {
+                    "Right": "vakragata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a retrograde motion (as a planet).\n"
+            ]
+        },
+        {
+            "__line": 260900,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-gati, -gAmin#}@}"
+            ],
+            "_banner": ".{@{#-gati, -gAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakragati"
+                },
+                {
+                    "Right": "vakragAmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 winding, meandering.\n",
+                ".²2 fraudulent, dishonest.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 260903,
+                    "_ancestry": [
+                        "L_ 28248",
+                        "B_ {#vakra#}",
+                        "S_ .{@{#-gati, -gAmin#}@}",
+                        "S_M_ ({@{#-tiH#}@}"
+                    ],
+                    "_banner": "({@{#-tiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vakragatiH"
+                        }
+                    ],
+                    "_gram": [
+                        "{%f.%}"
+                    ],
+                    "_meanings": [
+                        "a crooked or tortuous motion, winding gait.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 260904,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-gulPaH, -grIvaH#}@}"
+            ],
+            "_banner": ".{@{#-gulPaH, -grIvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakragulPaH"
+                },
+                {
+                    "Right": "vakragrIvaH"
+                }
+            ],
+            "_meanings": [
+                "a camel.\n"
+            ]
+        },
+        {
+            "__line": 260905,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-caYcuH#}@}"
+            ],
+            "_banner": ".{@{#-caYcuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakracaYcuH"
+                }
+            ],
+            "_meanings": [
+                "a parrot.\n"
+            ]
+        },
+        {
+            "__line": 260906,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-tAlam, -tAlI#}@}"
+            ],
+            "_banner": ".{@{#-tAlam, -tAlI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakratAlam"
+                },
+                {
+                    "Right": "vakratAlI"
+                }
+            ],
+            "_meanings": [
+                "a particular wind-instrument.\n"
+            ]
+        },
+        {
+            "__line": 260907,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-tuRqaH#}@}"
+            ],
+            "_banner": ".{@{#-tuRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakratuRqaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Gaṇeśa.\n",
+                ".²2 a parrot.\n"
+            ]
+        },
+        {
+            "__line": 260910,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-daMzwraH#}@}"
+            ],
+            "_banner": ".{@{#-daMzwraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakradaMzwraH"
+                }
+            ],
+            "_meanings": [
+                "a boar.\n"
+            ]
+        },
+        {
+            "__line": 260911,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakradfS"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "looking obliquely, squinting.\n"
+            ]
+        },
+        {
+            "__line": 260912,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-dfzwi#}@}"
+            ],
+            "_banner": ".{@{#-dfzwi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakradfzwi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 squint-eyed, squinting.\n",
+                ".²2 having a malignant or evil look.\n",
+                ".²3 envious. --({%f.%}) squint, an oblique look.\n"
+            ]
+        },
+        {
+            "__line": 260916,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakraDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dishonest, deceitful.\n"
+            ]
+        },
+        {
+            "__line": 260917,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-nakraH#}@}"
+            ],
+            "_banner": ".{@{#-nakraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakranakraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a parrot.\n",
+                ".²2 a low man.\n"
+            ]
+        },
+        {
+            "__line": 260920,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-nAsikaH#}@}"
+            ],
+            "_banner": ".{@{#-nAsikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakranAsikaH"
+                }
+            ],
+            "_meanings": [
+                "an owl.\n"
+            ]
+        },
+        {
+            "__line": 260921,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrapadam"
+                }
+            ],
+            "_meanings": [
+                "a cloth marked with various patterns.\n"
+            ]
+        },
+        {
+            "__line": 260922,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-pucCaH, -pucCikaH#}@}"
+            ],
+            "_banner": ".{@{#-pucCaH, -pucCikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrapucCaH"
+                },
+                {
+                    "Right": "vakrapucCikaH"
+                }
+            ],
+            "_meanings": [
+                "a dog.\n"
+            ]
+        },
+        {
+            "__line": 260923,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-puzpaH#}@}"
+            ],
+            "_banner": ".{@{#-puzpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrapuzpaH"
+                }
+            ],
+            "_meanings": [
+                "the Palāśa tree.\n"
+            ]
+        },
+        {
+            "__line": 260924,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-pluta#}@}"
+            ],
+            "_banner": ".{@{#-pluta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrapluta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "leaping in curves.\n"
+            ]
+        },
+        {
+            "__line": 260925,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-bAlaDiH, -lANgUlaH#}@}"
+            ],
+            "_banner": ".{@{#-bAlaDiH, -lANgUlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrabAlaDiH"
+                },
+                {
+                    "Left": "S error: midAlign lAMgUlaH bAlAMgUlaH"
+                }
+            ],
+            "_meanings": [
+                "a dog.\n"
+            ]
+        },
+        {
+            "__line": 260926,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-BaRitam#}@}"
+            ],
+            "_banner": ".{@{#-BaRitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakraBaRitam"
+                }
+            ],
+            "_meanings": [
+                "prevarication, evasion.\n"
+            ]
+        },
+        {
+            "__line": 260927,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakraBAvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 crookedness.\n",
+                ".²2 deceit.\n"
+            ]
+        },
+        {
+            "__line": 260930,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-reKA#}@}"
+            ],
+            "_banner": ".{@{#-reKA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrareKA"
+                }
+            ],
+            "_meanings": [
+                "a curved line.\n"
+            ]
+        },
+        {
+            "__line": 260931,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-vaktraH#}@}"
+            ],
+            "_banner": ".{@{#-vaktraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakravaktraH"
+                }
+            ],
+            "_meanings": [
+                "a hog.\n"
+            ]
+        },
+        {
+            "__line": 260932,
+            "_ancestry": [
+                "L_ 28248",
+                "B_ {#vakra#}",
+                "S_ .{@{#-saMsTa#}@}"
+            ],
+            "_banner": ".{@{#-saMsTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakrasaMsTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "placed transversely."
             ]
         }
     ]

@@ -1,20 +1,39 @@
 {
-    "__line": 193970,
+    "__line": 206235,
     "_ancestry": [
         "L_ 23033",
-        "B_ {#mArin#}"
+        "B_ {#pranft#}"
     ],
-    "_banner": "{#mArin#}",
+    "_banner": "{#pranft#}",
     "_bannerExp": [
         {
-            "Right": "mArin"
+            "Right": "pranft"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€4",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Dying. ",
-        "{@--2@} Killing,\nslaying."
+        "To dance. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 206235,
+            "_ancestry": [
+                "L_ 23033",
+                "B_ {#pranft#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pranft"
+                }
+            ],
+            "_meanings": [
+                "To shake, cause to dance, set in motion."
+            ]
+        }
     ]
 }

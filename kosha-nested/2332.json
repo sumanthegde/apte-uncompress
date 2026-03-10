@@ -1,61 +1,98 @@
 {
-    "__line": 23951,
+    "__line": 19908,
     "_ancestry": [
         "L_ 2332",
-        "B_ {#apawI#}"
+        "B_ {#ante#}"
     ],
-    "_banner": "{#apawI#}",
+    "_banner": "{#ante#}",
     "_bannerExp": [
         {
-            "Right": "apawI"
+            "Right": "ante"
         }
     ],
     "_gram": [
-        "[{#alpaH pawaH pawI, na#}. {#ta#}.]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@}\nA screen or wall of cloth, particularly\nthe screen or {%kanāt%} surrounding\na tent. ",
-        "{@--2@} A curtain. "
+        "(<ab>loc.</ab> of {#anta#}; <ab>oft.</ab> used adverbially)\n",
+        ".²1 In the end, at last, at length, lastly, finally.\n",
+        ".²2 Inside.\n",
+        ".²3 In the presence of, near, close by.\n"
     ],
     "_samasas": [
         {
-            "__line": 23954,
+            "__line": 19913,
             "_ancestry": [
                 "L_ 2332",
-                "B_ {#apawI#}",
-                "S_ \n{#--kzepaH#}"
+                "B_ {#ante#}",
+                "S_ .{@{#-vasAyin, -vasAyI#}@}"
             ],
-            "_banner": "\n{#--kzepaH#}",
+            "_banner": ".{@{#-vasAyin, -vasAyI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "apawIkzepaH"
+                    "Right": "antevasAyin"
+                },
+                {
+                    "Right": "antevasAyI"
+                }
+            ],
+            "_meanings": [
+                "a Chāṇḍāla ({#antyaja#}) {#aSOcamanftaM#}\n {#steyaM nAstikyaM SulkavigrahaH . kAmaH kroDaSca tarzaSca svaBAvo'ntevasAyinAm#}\n <ls>Bhāg. 11. 17. 20</ls>, <ls n=\"Bhāg.\">7. 11. 30</ls>.\n"
+            ]
+        },
+        {
+            "__line": 19916,
+            "_ancestry": [
+                "L_ 2332",
+                "B_ {#ante#}",
+                "S_ .{@{#-vAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "antevAsaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a neighbour; companion; {#tava vA ime'ntevAsAstvamevEBiH saMpibasva#} <ls>Ait. Br.</ls>\n",
+                ".²2 a pupil; {#AcAryo'ntevAsinamanuSAsti#} <ls>T. Up. 1. 9</ls>. {#rutAni SfRvanvayasAM#}\n {#gaRo'ntevAsitvamApa sPuwamaNganAnAm#} <ls>Śi. 3. 55</ls>; <ls>Ve. 3. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 19920,
+            "_ancestry": [
+                "L_ 2332",
+                "B_ {#ante#}",
+                "S_ .{@{#-vAsi#}@}"
+            ],
+            "_banner": ".{@{#-vAsi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "antevAsi"
                 }
             ],
             "_gram": [
-                "({#apawakzepaH#})"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "tossing aside\nthe curtain; "
+                "in a state of pupilage, ({%in statu pupillari%}).\n"
+            ]
+        },
+        {
+            "__line": 19921,
+            "_ancestry": [
+                "L_ 2332",
+                "B_ {#ante#}",
+                "S_ .{@{#-vAsin#}@}"
             ],
-            "_samasas": [
+            "_banner": ".{@{#-vAsin#}@}",
+            "_bannerExp": [
                 {
-                    "__line": 23956,
-                    "_ancestry": [
-                        "L_ 2332",
-                        "B_ {#apawI#}",
-                        "S_ \n{#--kzepaH#}",
-                        "S_S_ {#°kzepeRa#}"
-                    ],
-                    "_banner": "{#°kzepeRa#}",
-                    "_bannerExp": [
-                        {
-                            "Right": "apawIkzepakzepeRa"
-                        }
-                    ],
-                    "_meanings": [
-                        "(= {#akasmAt#})\n‘with a (hurried) toss of the\ncurtain’, frequently occurring as a\nstage-direction and denoting \n\nprecipitate entrance on the stage which\narises from fear, hurry, agitation\n&c., as when a character tossing up\nthe curtain suddenly enters \nwithout the usual introduction {#tataH#}\n{#praviSati#} &c."
-                    ]
+                    "Right": "antevAsin"
                 }
+            ],
+            "_meanings": [
+                "= {#antavAsin#} <ab>q. v.</ab> above."
             ]
         }
     ]

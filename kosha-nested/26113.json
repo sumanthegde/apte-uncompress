@@ -1,44 +1,41 @@
 {
-    "__line": 220501,
+    "__line": 238453,
     "_ancestry": [
         "L_ 26113",
-        "B_ {#vipad#}"
+        "B_ {#mAndyam#}"
     ],
-    "_banner": "{#vipad#}",
+    "_banner": "{#mAndyam#}",
     "_bannerExp": [
         {
-            "Right": "vipad"
+            "Right": "mAndyam"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>A.</ab>"
+        "[{#manda-zyaY#}]"
     ],
     "_meanings": [
-        "{@--1@} To go badly; fail,\nmiscarry (as a business &c.). ",
-        "{@--2@}\nTo fall into misfortune or bad\nstate; {#sa baMDuryo vipannAnAmApadudDaraRakzamaH#}\n<ls>H. 1. 31.</ls> ",
-        "{@--3@} To be disabled or \nincapacitated. ",
-        "{@--4@} To die, perish;\n{#nATavaMtastvayA lokAstvamanATA vipatsyase#}\n<ls>U. 1. 44</ls>; {#hA tAta eza te#} \n{#nareMdracittArADanopakaraRaM jano vipadyate#} <ls>Māl. 5</ls>;  \n<ls>Mk. 1. 38.</ls> ",
-        "{@--5@} To obstruct. "
+        ".²1 Dulness, laziness, slowness; {#pravacane mAndyam#} <ls>Pt. 1. 190</ls>.\n",
+        ".²2 Stupidity.\n",
+        ".²3 Weakness, feeble state; {#agnimAndyam#}.\n",
+        ".²4 Apathy.\n",
+        ".²5 Sickness, illness, indisposition.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 220510,
+            "__line": 238460,
             "_ancestry": [
                 "L_ 26113",
-                "B_ {#vipad#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#mAndyam#}",
+                "S_ .{@{#-vyAjaH#}@}"
             ],
+            "_banner": ".{@{#-vyAjaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vipad"
+                    "Right": "mAndyavyAjaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
-            ],
             "_meanings": [
-                "To\ndestroy, kill."
+                "simulation of illness."
             ]
         }
     ]

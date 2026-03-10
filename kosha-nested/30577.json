@@ -1,25 +1,80 @@
 {
-    "__line": 256391,
+    "__line": 282177,
     "_ancestry": [
         "L_ 30577",
-        "B_ {#soQf#}"
+        "B_ {#visram#}"
     ],
-    "_banner": "{#soQf#}",
+    "_banner": "{#visram#}",
     "_bannerExp": [
         {
-            "Right": "soQf"
-        },
-        {
-            "Right": "soQrI"
+            "Right": "visram"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#QrI#}|{%<ab>f.</ab>%})",
-        "[{#sah-tfc#}]"
-    ],
     "_meanings": [
-        "{@--1@} \nEnduring, bearing, patient. ",
-        "{@--2@} \nPowerful, able."
+        "A smell like that of raw meat. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 282177,
+            "_ancestry": [
+                "L_ 30577",
+                "B_ {#visram#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#visraM#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                "Stinking of; ({#SiKiSiKASreRayaH#})\n {#ajasrasrutabahalavasAvAsavisre svananti#} <ls>Nāg. 4. 18</ls>; <ls>N. 22. 50</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 282180,
+            "_ancestry": [
+                "L_ 30577",
+                "B_ {#visram#}",
+                "S_ .{@{#-ganDa, ganDi, ganDin#}@}"
+            ],
+            "_banner": ".{@{#-ganDa, ganDi, ganDin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visraganDa"
+                },
+                {
+                    "Right": "visraganDi"
+                },
+                {
+                    "Right": "visraganDin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "raw smelling; {#ruDiravasAvisraganDiH#}\n {#kuWAraH#} <ls>A. R. 4. 25</ls>; {#jAnuka visragaMDI goDAdI matsyabanDaH eva niHsaMSayam#} <ls>Ś. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 282182,
+            "_ancestry": [
+                "L_ 30577",
+                "B_ {#visram#}",
+                "S_ .{@{#-ganDiH#}@}"
+            ],
+            "_banner": ".{@{#-ganDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visraganDiH"
+                }
+            ],
+            "_meanings": [
+                "yellow orpiment."
+            ]
+        }
     ]
 }

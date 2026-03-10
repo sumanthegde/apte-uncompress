@@ -1,19 +1,68 @@
 {
-    "__line": 91443,
+    "__line": 91076,
     "_ancestry": [
         "L_ 10861",
-        "B_ {#kASizRu#}"
+        "B_ {#odanaH#}, {#-nam#}"
     ],
-    "_banner": "{#kASizRu#}",
+    "_banner": "{#odanaH#}, {#-nam#}",
     "_bannerExp": [
         {
-            "Right": "kASizRu"
+            "Right": "odanaH"
+        },
+        {
+            "Right": "odanam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#und-yuc#} <ls>Uṇ. 2. 76</ls>]"
     ],
     "_meanings": [
-        "Shining, brilliant."
+        ".²1 Food, boiled rice; {%<ab>e. g.</ab>%} {#daDyodanaH, Gfta˚, guqa˚, mAMsa˚#} <ab>&c.</ab>\n",
+        ".²2 Grain mashed and cooked with milk.\n",
+        ".²3 A cloud. [Sometimes {#odana#} is prefixed to the names of pupils to\n denote that the pupilʼs object is more to be fed by his master than be\n taught; {%<ab>e. g.</ab>%} {#odanapARinIyAH#} <ls>P. VI. 2. 69. Sk.</ls>; <ls>Mbh.</ls> on <ls>P. I. 1. 73.</ls>]\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 91083,
+            "_ancestry": [
+                "L_ 10861",
+                "B_ {#odanaH#}, {#-nam#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "odanI"
+                }
+            ],
+            "_meanings": [
+                "The plant ({#balA#}) Sida Cordifolia (<lang>Mar.</lang> <ns>{#cikaRA#}</ns>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 91085,
+            "_ancestry": [
+                "L_ 10861",
+                "B_ {#odanaH#}, {#-nam#}",
+                "S_ .{@{#-AhvayA, -AhvA, -odanikA#}@}"
+            ],
+            "_banner": ".{@{#-AhvayA, -AhvA, -odanikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "odanAhvayA"
+                },
+                {
+                    "Right": "odanAhvA"
+                },
+                {
+                    "Right": "odanOdanikA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a medicinal plant ({#mahAsamaMgAM#})."
+            ]
+        }
     ]
 }

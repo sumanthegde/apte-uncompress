@@ -1,19 +1,62 @@
 {
-    "__line": 144280,
+    "__line": 149748,
     "_ancestry": [
         "L_ 17164",
-        "B_ {#nizad#}"
+        "B_ {#dAnu#}"
     ],
-    "_banner": "{#nizad#}",
+    "_banner": "{#dAnu#}",
     "_bannerExp": [
         {
-            "Right": "nizad"
+            "Right": "dAnu"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#dA-nu#}]"
     ],
     "_meanings": [
-        "Consecration for a \nsacrifice ({#yajYadIkzA#})."
+        ".²1 Valiant.\n",
+        ".²2 Conquering, destroying.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 149751,
+            "_ancestry": [
+                "L_ 17164",
+                "B_ {#dAnu#}",
+                "M_ .{@{#-nuH#}@}"
+            ],
+            "_banner": ".{@{#-nuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dAnuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A donor.\n",
+                ".²2 Prosperity.\n",
+                ".²3 Satisfaction.\n",
+                ".²4 Air, wind.\n",
+                ".²5 A demon. "
+            ]
+        },
+        {
+            "__line": 149756,
+            "_ancestry": [
+                "L_ 17164",
+                "B_ {#dAnu#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#dAnu#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A gift.\n",
+                ".²2 A fluid, drop."
+            ]
+        }
     ]
 }

@@ -1,16 +1,86 @@
 {
-    "__line": 217692,
+    "__line": 233861,
     "_ancestry": [
         "L_ 25742",
-        "B_ {#viGawikA#}"
+        "B_ {#mandara#}"
     ],
-    "_banner": "{#viGawikA#}",
+    "_banner": "{#mandara#}",
     "_bannerExp": [
         {
-            "Right": "viGawikA"
+            "Right": "mandara"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A measure of time\nequal to one-sixtieth part of\na Ghaṭikā (or nearly equal\nto 24 seconds)."
+        ".²1 Slow, tardy, dull.\n",
+        ".²2 Thick, dense; firm.\n",
+        ".²3 Large, bulky.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 233865,
+            "_ancestry": [
+                "L_ 25742",
+                "B_ {#mandara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mandaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a mountain (used by the gods and demons as a churning stick when\n they churned the ocean for nectar); {#pfzatErmandarodDUtEH kzIrormaya#}\n {#ivAcyutam#} <ls>R. 4. 27</ls>; {#aBinavajalasundara Dftamandara e#} <ls>Gīt. 1</ls>; {#SoBEva#}\n {#mandarakzubDakzuBitAmBoDivarRanA#} <ls>Śi. 2. 107</ls>; <ls>Ki. 5. 30</ls>.\n",
+                ".²2 A necklace of pearls (of 8 or 16 strings).\n",
+                ".²3 Heaven.\n",
+                ".²4 A mirror.\n",
+                ".²5 One of the five trees in Indraʼs\n\n paradise; see {#mandAra#}.\n"
+            ]
+        },
+        {
+            "__line": 233876,
+            "_ancestry": [
+                "L_ 25742",
+                "B_ {#mandara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mandaram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Slowly, sluggishly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 233878,
+            "_ancestry": [
+                "L_ 25742",
+                "B_ {#mandara#}",
+                "S_ .{@{#-AvAsA, -vAsinI#}@}"
+            ],
+            "_banner": ".{@{#-AvAsA, -vAsinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mandarAvAsA"
+                },
+                {
+                    "Left": "S error: midAlign vAsinI AvAsinI"
+                }
+            ],
+            "_meanings": [
+                "Durgā."
+            ]
+        }
     ]
 }

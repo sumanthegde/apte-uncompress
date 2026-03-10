@@ -1,19 +1,43 @@
 {
-    "__line": 97427,
+    "__line": 97586,
     "_ancestry": [
         "L_ 11621",
-        "B_ {#kOtukita#}"
+        "B_ {#karRin#}"
     ],
-    "_banner": "{#kOtukita#}",
+    "_banner": "{#karRin#}",
     "_bannerExp": [
         {
-            "Right": "kOtukita"
+            "Right": "karRin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Eager, eagerly \ninterested."
+        ".²1 Having ears; <ls>Av. 10. 1. 2</ls>.\n",
+        ".²2 Long-eared.\n",
+        ".²3 Barbed (as an arrow). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 97589,
+            "_ancestry": [
+                "L_ 11621",
+                "B_ {#karRin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#karRin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An ass.\n",
+                ".²2 A helmsman.\n",
+                ".²3 An arrow furnished with knots <ab>&c.</ab>\n",
+                ".²4 A disease of the uterus."
+            ]
+        }
     ]
 }

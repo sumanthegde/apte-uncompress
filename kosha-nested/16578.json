@@ -1,39 +1,63 @@
 {
-    "__line": 139299,
+    "__line": 143752,
     "_ancestry": [
         "L_ 16578",
-        "B_ {#niHSvasita#}"
+        "B_ {#tur#}"
     ],
-    "_banner": "{#niHSvasita#}",
+    "_banner": "{#tur#}",
     "_bannerExp": [
         {
-            "Right": "niHSvasita"
+            "Right": "tur"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "I.",
+        "€6",
+        "<ab>U.</ab>",
+        "({#turati-te#})"
     ],
     "_meanings": [
-        "{@--1@} Breathed out,\nsighed. ",
-        "{@--2@} Sighing. "
+        ".²1 To hurry, hasten; {#sahaH sahizWa turatasturasya#} <ls>Rv. 6. 18. 4</ls>.\n",
+        ".²2 To overcome.\n",
+        ".²3 To injure.\n\n--II. €3 <ab>P.</ab> ({#tutorti#}) To run.\n"
     ],
     "_morphisms": [
         {
-            "__line": 139300,
+            "__line": 143758,
             "_ancestry": [
                 "L_ 16578",
-                "B_ {#niHSvasita#}",
-                "M_ {#--taM#}"
+                "B_ {#tur#}",
+                "M_ .{@{#-tur#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-tur#}@}",
             "_bannerExp": [
                 {
-                    "Right": "niHSvasitaM"
+                    "Right": "tur"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 Hastening.\n",
+                ".²2 Fighting. "
+            ]
+        },
+        {
+            "__line": 143760,
+            "_ancestry": [
+                "L_ 16578",
+                "B_ {#tur#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tur#} M_ --{%f.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} \nExpiration. ",
-                "{@--2@} A sigh; <ls>V. 2. 19.</ls>"
+                "Speed."
             ]
         }
     ]

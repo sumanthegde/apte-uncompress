@@ -1,16 +1,82 @@
 {
-    "__line": 173068,
+    "__line": 186929,
     "_ancestry": [
         "L_ 20880",
-        "B_ {#prasAhaH#}"
+        "B_ {#paSca#}"
     ],
-    "_banner": "{#prasAhaH#}",
+    "_banner": "{#paSca#}",
     "_bannerExp": [
         {
-            "Right": "prasAhaH"
+            "Right": "paSca"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Overpowering, defeating."
+        ".²1 Being behind.\n",
+        ".²2 Posterior, later.\n",
+        ".²3 Western.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 186933,
+            "_ancestry": [
+                "L_ 20880",
+                "B_ {#paSca#}",
+                "M_ .{@{#-ScA#}@}"
+            ],
+            "_banner": ".{@{#-ScA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paScA"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 Behind, after.\n",
+                ".²2 Afterwards\n",
+                ".²3 Westward.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 186938,
+            "_ancestry": [
+                "L_ 20880",
+                "B_ {#paSca#}",
+                "S_ .{@{#-anutApaH#}@}"
+            ],
+            "_banner": ".{@{#-anutApaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paScAnutApaH"
+                }
+            ],
+            "_meanings": [
+                "repentance, regret.\n"
+            ]
+        },
+        {
+            "__line": 186939,
+            "_ancestry": [
+                "L_ 20880",
+                "B_ {#paSca#}",
+                "S_ .{@{#-anupUrvI#}@}"
+            ],
+            "_banner": ".{@{#-anupUrvI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paScAnupUrvI"
+                }
+            ],
+            "_meanings": [
+                "repeated or recurring series."
+            ]
+        }
     ]
 }

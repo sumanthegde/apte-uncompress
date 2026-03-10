@@ -1,19 +1,62 @@
 {
-    "__line": 132437,
+    "__line": 137415,
     "_ancestry": [
         "L_ 15833",
-        "B_ {#drogDf#}"
+        "B_ {#Ja#}"
     ],
-    "_banner": "{#drogDf#}",
+    "_banner": "{#Ja#}",
     "_bannerExp": [
         {
-            "Right": "drogDf"
+            "Right": "Ja"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Malevolent, hater."
+        ".²1 Asleep, sleeping.\n",
+        ".²2 Lost, destroyed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 137418,
+            "_ancestry": [
+                "L_ 15833",
+                "B_ {#Ja#}",
+                "M_ .{@{#-JaH#}@}"
+            ],
+            "_banner": ".{@{#-JaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "JaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Beating time.\n",
+                ".²2 Jingling, clanking or any similar sound.\n",
+                ".²3 Wind accompanied by rain.\n",
+                ".²4 <ab>N.</ab> of Bṛhaspati.\n",
+                ".²5 A thing lost or mislaid.\n",
+                ".²6 A hurricane.\n",
+                ".²7 Number nine.\n"
+            ]
+        },
+        {
+            "__line": 137426,
+            "_ancestry": [
+                "L_ 15833",
+                "B_ {#Ja#}",
+                "M_ .{@{#-JA#}@}"
+            ],
+            "_banner": ".{@{#-JA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "JA"
+                }
+            ],
+            "_meanings": [
+                "The descent of a cascade, waterfall; <ab>cf.</ab> {#Jo hasto, JA yoniH#}\n and {#JaM mETunamiti smftam#} <ls>Enm.</ls>; <ab>cf.</ab> also {#JaH pumAn SramaRe nazwe#}\n {#pratApe haMsacorayoH#} <ls>Nm.</ls>"
+            ]
+        }
     ]
 }

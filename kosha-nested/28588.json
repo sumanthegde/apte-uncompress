@@ -1,17 +1,58 @@
 {
-    "__line": 240283,
+    "__line": 264344,
     "_ancestry": [
         "L_ 28588",
-        "B_ {#saMrAvaH#}"
+        "B_ {#varRya#}"
     ],
-    "_banner": "{#saMrAvaH#}",
+    "_banner": "{#varRya#}",
     "_bannerExp": [
         {
-            "Right": "saMrAvaH"
+            "Right": "varRya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Clamour, tumult, \nuproar. ",
-        "{@--2@} Sound or noise in general."
+        ".²1 To be described; (often used in rhetorical works like {#prakfta#} or\n {#prastuta#} <ab>q. v.</ab>).\n",
+        ".²2 Relating to colour.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 264348,
+            "_ancestry": [
+                "L_ 28588",
+                "B_ {#varRya#}",
+                "M_ .{@{#-rRyam#}@}"
+            ],
+            "_banner": ".{@{#-rRyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varRyam"
+                }
+            ],
+            "_meanings": [
+                "Saffron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 264350,
+            "_ancestry": [
+                "L_ 28588",
+                "B_ {#varRya#}",
+                "S_ .{@{#-samaH#}@}"
+            ],
+            "_banner": ".{@{#-samaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varRyasamaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of sophism."
+            ]
+        }
     ]
 }

@@ -1,16 +1,140 @@
 {
-    "__line": 100945,
+    "__line": 102079,
     "_ancestry": [
         "L_ 12090",
-        "B_ {#KAnilaH#}"
+        "B_ {#kArpAsa#}"
     ],
-    "_banner": "{#KAnilaH#}",
+    "_banner": "{#kArpAsa#}",
     "_bannerExp": [
         {
-            "Right": "KAnilaH"
+            "Right": "kArpAsa"
+        },
+        {
+            "Right": "kArpAsI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-sI#}|{%f.%})",
+        "[{#karpAsyAH avayavaH aR#}]"
+    ],
     "_meanings": [
-        "A house-breaker."
+        "Made\n of cotton; {#vezwante tasya lANgUlaM jIrREH kArpAsikEH pawEH#} <ls>Rām. 5. 53. 6</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 102081,
+            "_ancestry": [
+                "L_ 12090",
+                "B_ {#kArpAsa#}",
+                "M_ .{@{#-saH, -sam#}@}"
+            ],
+            "_banner": ".{@{#-saH, -sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArpAsaH"
+                },
+                {
+                    "Right": "kArpAsam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Anything made of cotton; {#koYcaH kArpAsikaM hftvA mfto jAyati mAnavaH#}\n <ls>Mb. 13. 111. 106</ls>; <ls>Ms. 8. 326</ls>. {#ayamapi viDirna mfdunAmiva kArpAsAnAM#}\n {#kftaH matizeDavizaya AraByate#} <ls>Mbh.</ls> on <ls>P. IV. 1. 55</ls>.\n",
+                ".²2 Paper.\n"
+            ]
+        },
+        {
+            "__line": 102086,
+            "_ancestry": [
+                "L_ 12090",
+                "B_ {#kArpAsa#}",
+                "M_ .{@{#-sI#}@}"
+            ],
+            "_banner": ".{@{#-sI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArpAsI"
+                }
+            ],
+            "_meanings": [
+                "The cotton plant.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 102088,
+            "_ancestry": [
+                "L_ 12090",
+                "B_ {#kArpAsa#}",
+                "S_ .{@{#-asTi#}@}"
+            ],
+            "_banner": ".{@{#-asTi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArpAsAsTi"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the seed of the cotton plant; <ls>Ms. 4. 78</ls>.\n"
+            ]
+        },
+        {
+            "__line": 102089,
+            "_ancestry": [
+                "L_ 12090",
+                "B_ {#kArpAsa#}",
+                "S_ .{@{#-tAntavam#}@}"
+            ],
+            "_banner": ".{@{#-tAntavam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArpAsatAntavam"
+                }
+            ],
+            "_meanings": [
+                "Texture made of cotton; <ls>Ms. 12. 64</ls>.\n"
+            ]
+        },
+        {
+            "__line": 102090,
+            "_ancestry": [
+                "L_ 12090",
+                "B_ {#kArpAsa#}",
+                "S_ .{@{#-nAsi(li)kA#}@}"
+            ],
+            "_banner": ".{@{#-nAsi(li)kA#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kArpAsa#} S_ .{@{#-nAsi(li)kA#}@}"
+                }
+            ],
+            "_meanings": [
+                "a spindle.\n"
+            ]
+        },
+        {
+            "__line": 102091,
+            "_ancestry": [
+                "L_ 12090",
+                "B_ {#kArpAsa#}",
+                "S_ .{@{#-sOtrika#}@}"
+            ],
+            "_banner": ".{@{#-sOtrika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArpAsasOtrika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "made of cotton thread; <ls>Y. 2. 179</ls>."
+            ]
+        }
     ]
 }

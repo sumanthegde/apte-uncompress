@@ -1,23 +1,260 @@
 {
-    "__line": 88746,
+    "__line": 87919,
     "_ancestry": [
         "L_ 10550",
-        "B_ {#kavalaH, --laM#}"
+        "B_ {#fju#}, {#-fjuka#}"
     ],
-    "_banner": "{#kavalaH, --laM#}",
+    "_banner": "{#fju#}, {#-fjuka#}",
     "_bannerExp": [
         {
-            "Right": "kavalaH"
+            "Right": "fju"
         },
         {
-            "Right": "kavalaM"
+            "Right": "fjuka"
+        },
+        {
+            "Right": "fjvI"
         }
     ],
     "_gram": [
-        "[{#kena jalena valate calati#},\n{#val-ac#} <ls>Tv.</ls>]"
+        "{%a.%}",
+        "[{#arjayati guRAn, arj-u#} <ls>Tv.</ls>]",
+        "({#ju#}|{#jvI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} A mouthful;  \n{#AsvAdavadBiH kavalEstfRAnAM#} <ls>R. 2. 5</ls>; <ls n=\"R.\">9. 59</ls>;\n{#kavalacCedezu saMpAditAH#} <ls>U. 3. 16.</ls> ",
-        "{@--2@}\nA gargle."
+        "(<ab>compar.</ab> {#fjIyas#}, <ab>superl.</ab> {#fjizWa#})\n",
+        ".²1 Straight (<ab>fig.</ab> also); {#umAM sa paSyan fjunEva cakzuzA#} <ls>Ku. 5. 32</ls>;\n <ls>Śi. 10. 13</ls>, <ls n=\"Śi.\">12. 18</ls>, <ls n=\"Śi.\">20. 77</ls>; {#˚praRAma#} <ls>R. 6. 25</ls>.\n",
+        ".²2 Upright, honest, straight-forward; {#fjUnanfjavaH#} <ls>Pt. 1. 415</ls>.\n",
+        ".²3 Simpleminded, plain; <ls>Mk. 5</ls>; <ls>Ratn. 2</ls>, <ls n=\"Ratn.\">3. 4</ls> Favourable, beneficial, good.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 87926,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#fju#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "In the right manner, Correctly; <ls>Rv. 2. 3. 7</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 87928,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-Ayata#}@}"
+            ],
+            "_banner": ".{@{#-Ayata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjvAyata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sitting or being upright and stretched up or distended;\n {#fjvAyataM saMnamitoBayAMsam#} <ls>Ku. 3. 45</ls>; <ls>M. 2. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 87930,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-kAyaH#}@}"
+            ],
+            "_banner": ".{@{#-kAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjukAyaH"
+                }
+            ],
+            "_meanings": [
+                "The sage {#kaSyapa#}.\n"
+            ]
+        },
+        {
+            "__line": 87931,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-kratu#}@}"
+            ],
+            "_banner": ".{@{#-kratu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjukratu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "acting righteously; <ab>N.</ab> of Indra; {#yUTA gavAmfjukratuH#} <ls>Rv. 1. 81. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 87932,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjugaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 one who is honest in his dealings; {#sa no mfqAti tanva fjugaH#} <ls>Av. 1. 12. 1</ls>.\n",
+                ".²2 an arrow.\n"
+            ]
+        },
+        {
+            "__line": 87935,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-gATa#}@}"
+            ],
+            "_banner": ".{@{#-gATa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjugATa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> singing correctly; {#DAravAkezvfjugATa SoBase#} <ls>Rv. 5. 44. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 87936,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-nItiH#}@}"
+            ],
+            "_banner": ".{@{#-nItiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjunItiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> right conduct; guidance; {#fjunItI no varuRo#} <ls>Rv. 1. 90. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 87937,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-mitAkzarA#}@}"
+            ],
+            "_banner": ".{@{#-mitAkzarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjumitAkzarA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a commentary on Yājñavalkyaʼs law-book, generally\n called Mitākṣarā.\n"
+            ]
+        },
+        {
+            "__line": 87939,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-rohitam#}@}"
+            ],
+            "_banner": ".{@{#-rohitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjurohitam"
+                }
+            ],
+            "_meanings": [
+                "the straight red bow of Indra.\n"
+            ]
+        },
+        {
+            "__line": 87940,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-leKa#}@}"
+            ],
+            "_banner": ".{@{#-leKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjuleKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Rectilinear.\n"
+            ]
+        },
+        {
+            "__line": 87941,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-KA#}@}"
+            ],
+            "_banner": ".{@{#-KA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjuKA"
+                }
+            ],
+            "_meanings": [
+                "Straight line.\n"
+            ]
+        },
+        {
+            "__line": 87942,
+            "_ancestry": [
+                "L_ 10550",
+                "B_ {#fju#}, {#-fjuka#}",
+                "S_ .{@{#-vani, -hasta#}@}"
+            ],
+            "_banner": ".{@{#-vani, -hasta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fjuvani"
+                },
+                {
+                    "Right": "fjuhasta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "granting auspicious gifts; {#smat sUriBirfjuhasta#}\n {#fjuvaniH#} <ls>Rv. 5. 41. 15</ls>."
+            ]
+        }
     ]
 }

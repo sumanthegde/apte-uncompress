@@ -1,41 +1,61 @@
 {
-    "__line": 66396,
+    "__line": 64316,
     "_ancestry": [
         "L_ 7708",
-        "B_ {#utka#}"
+        "B_ {#AveSika#}"
     ],
-    "_banner": "{#utka#}",
+    "_banner": "{#AveSika#}",
     "_bannerExp": [
         {
-            "Right": "utka"
+            "Right": "AveSika"
+        },
+        {
+            "Right": "AveSikI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#ud-svArTe kan#}; {#utkaH#} = {#u#}.\n{#tkaMWitaH; utka unmanAH#} <ls>P. V. 2. 80</ls> <ls>Sk.</ls>]"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#AveSa-WaY#}]"
     ],
     "_meanings": [
-        "{@--1@} Desirous\nof, longing for, anxiously wishing\nfor (in <ab>comp.</ab>); {#adrisutAsamAgamotkaH#}\n<ls>Ku. 6. 95</ls>; {#mAnasotkAH#} <ls>Me. 11</ls>; \nsometimes with an <ab>inf.</ab>; <ls>Śi. 4. 18.</ls> ",
-        "{@--2@}\nRegretting, sad, sorrowful. ",
-        "{@--3@} \nAbsent-minded. "
+        ".²1 Peculiar, oneʼs own ({#asADAraRa#}).\n",
+        ".²2 Inherent.\n"
     ],
     "_morphisms": [
         {
-            "__line": 66403,
+            "__line": 64320,
             "_ancestry": [
                 "L_ 7708",
-                "B_ {#utka#}",
-                "M_ {#--tkaH#}"
+                "B_ {#AveSika#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--tkaH#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "utkaH"
+                    "Right": "AveSikaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Desire. ",
-                "{@--2@}\nOpportunity."
+                "A guest, visitor.\n"
+            ]
+        },
+        {
+            "__line": 64321,
+            "_ancestry": [
+                "L_ 7708",
+                "B_ {#AveSika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AveSikam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Entering into.\n",
+                ".²2 Hospitality."
             ]
         }
     ]

@@ -1,16 +1,45 @@
 {
-    "__line": 5770,
+    "__line": 4364,
     "_ancestry": [
         "L_ 361",
-        "B_ {#ajagara#}"
+        "B_ {#acApala, -lya#}"
     ],
-    "_banner": "{#ajagara#}",
+    "_banner": "{#acApala, -lya#}",
     "_bannerExp": [
         {
-            "Right": "ajagara"
+            "Right": "acApala"
+        },
+        {
+            "Right": "cApalya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#bahu˚#}]"
+    ],
     "_meanings": [
-        "See under {#aja#}."
+        "Devoid of fickleness, steady.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 4365,
+            "_ancestry": [
+                "L_ 361",
+                "B_ {#acApala, -lya#}",
+                "M_ .{@{#-lam, -lyam#}@}"
+            ],
+            "_banner": ".{@{#-lam, -lyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "acApalam"
+                }
+            ],
+            "_gram": [
+                "[<sab>{#na˚ ta˚#}</sab>]"
+            ],
+            "_meanings": [
+                "Steadiness."
+            ]
+        }
     ]
 }

@@ -1,24 +1,152 @@
 {
-    "__line": 240387,
+    "__line": 264540,
     "_ancestry": [
         "L_ 28606",
-        "B_ {#saMlI#}"
+        "B_ {#vartman#}"
     ],
-    "_banner": "{#saMlI#}",
+    "_banner": "{#vartman#}",
     "_bannerExp": [
         {
-            "Right": "saMlI"
+            "Right": "vartman"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>A.</ab>"
+        "{%n.%}",
+        "[{#vft-manin#}]"
     ],
     "_meanings": [
-        "{@--1@} To cling, adhere\nor stick to. ",
-        "{@--2@} To lie down or settle\nupon, alight. ",
-        "{@--3@} To lurk. ",
-        "{@--4@} To\nmelt away. ",
-        "{@--5@} To go or enter into."
+        ".²1 A way, road, path, passage, track; {#vartma BAnostyajASu#} <ls>Me. 41</ls>;\n {#pArasIkAMstato jetuM pratasTe sTalavartmanA#} ‘by land’; {#AkASavartmanA#}\n ‘through the air’.\n",
+        ".²2 (<ab>Fig.</ab>) A way, course, an established or prescribed usage, the usual\n manner or course of conduct; {#mama vartmAnuvartante manuzyAH pArTa sarvaSaH#}\n <ls>Bg. 3. 23</ls>; {#reKAmAtramapi kzuRRAdA manorvatmanaH param . na vyatIyuH#}\n {#prajAstasya niyanturnemivfttayaH#} <ls>R. 1. 17</ls> (where the literal sense is\n also intended); {#ahametya pataNgavartmanA punaraNkASrayiRI BavAmi te#}\n <ls>Ku. 4. 20</ls> ‘after the manner of a moth’.\n",
+        ".²4 Room, scope for action; {#na vartma kasmEcidapi pradIyatAm#} <ls>Ki. 14. 14</ls>.\n",
+        ".²5 An eye-lid; {#asmin sarpirvodakaM vA siYcanti vartmanI eva gacCati#}\n <ls>Ch. Up. 4. 15. 1</ls>.\n",
+        ".²6 An edge, a border.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 264555,
+            "_ancestry": [
+                "L_ 28606",
+                "B_ {#vartman#}",
+                "S_ .{@{#-AyAsaH#}@}"
+            ],
+            "_banner": ".{@{#-AyAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartmAyAsaH"
+                }
+            ],
+            "_meanings": [
+                "fatigue of the journey; {#vartmAyAsavinirmuktaM vasantaM#}\n {#susTirAsane#} <ls>Brav. P.</ls>\n\n {#brahmaKaRqa#} <ls n=\"Brav. P.\">1. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 264559,
+            "_ancestry": [
+                "L_ 28606",
+                "B_ {#vartman#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartmakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "‘roadwork’, engineering.\n"
+            ]
+        },
+        {
+            "__line": 264560,
+            "_ancestry": [
+                "L_ 28606",
+                "B_ {#vartman#}",
+                "S_ .{@{#-pAtaH#}@}"
+            ],
+            "_banner": ".{@{#-pAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartmapAtaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 deviation from the road.\n",
+                ".²2 coming into the way.\n"
+            ]
+        },
+        {
+            "__line": 264563,
+            "_ancestry": [
+                "L_ 28606",
+                "B_ {#vartman#}",
+                "S_ .{@{#-pAtanam#}@}"
+            ],
+            "_banner": ".{@{#-pAtanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartmapAtanam"
+                }
+            ],
+            "_meanings": [
+                "waylaying.\n"
+            ]
+        },
+        {
+            "__line": 264564,
+            "_ancestry": [
+                "L_ 28606",
+                "B_ {#vartman#}",
+                "S_ .{@{#-banDaH, -banDakaH#}@}"
+            ],
+            "_banner": ".{@{#-banDaH, -banDakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartmabanDaH"
+                },
+                {
+                    "Right": "vartmabanDakaH"
+                }
+            ],
+            "_meanings": [
+                "an affection of the eye-lids.\n"
+            ]
+        },
+        {
+            "__line": 264565,
+            "_ancestry": [
+                "L_ 28606",
+                "B_ {#vartman#}",
+                "S_ .{@{#-rogaH#}@}"
+            ],
+            "_banner": ".{@{#-rogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartmarogaH"
+                }
+            ],
+            "_meanings": [
+                "a disease of the eyelids.\n"
+            ]
+        },
+        {
+            "__line": 264566,
+            "_ancestry": [
+                "L_ 28606",
+                "B_ {#vartman#}",
+                "S_ .{@{#-SarkarA#}@}"
+            ],
+            "_banner": ".{@{#-SarkarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartmaSarkarA"
+                }
+            ],
+            "_meanings": [
+                "hard excrescences on the eyelids."
+            ]
+        }
     ]
 }

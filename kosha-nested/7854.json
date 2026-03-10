@@ -1,20 +1,46 @@
 {
-    "__line": 67645,
+    "__line": 65587,
     "_ancestry": [
         "L_ 7854",
-        "B_ {#uttara#}"
+        "B_ {#ASva#}"
     ],
-    "_banner": "{#uttara#}",
+    "_banner": "{#ASva#}",
     "_bannerExp": [
         {
-            "Right": "uttara"
+            "Right": "ASva"
+        },
+        {
+            "Right": "ASvI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-SvI#}|{%f.%})",
+        "[{#aSvasyedam aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Crossing over. ",
-        "{@--2@} To be\ncrossed over, as in {#duruttara#}."
+        ".²1 Belonging to or coming from a horse, equestrian; {#ASvaM kaPaharaM#}\n {#mUtraM kfmidadruzu Sasyate#} <ls>Suśr.</ls>\n",
+        ".²2 Drawn by horses (as a chariot).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 65592,
+            "_ancestry": [
+                "L_ 7854",
+                "B_ {#ASva#}",
+                "M_ .{@{#-Svam#}@}"
+            ],
+            "_banner": ".{@{#-Svam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASvam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A number of horses.\n",
+                ".²2 A chariot drawn by horses.\n",
+                ".²3 The state or action of a horse ({#aSvasya BAvaH karma vA#} <ls>Sk.</ls>)."
+            ]
+        }
     ]
 }

@@ -1,23 +1,39 @@
 {
-    "__line": 64006,
+    "__line": 61808,
     "_ancestry": [
         "L_ 7387",
-        "B_ {#inv#}"
+        "B_ {#Ayuta#}"
     ],
-    "_banner": "{#inv#}",
+    "_banner": "{#Ayuta#}",
     "_bannerExp": [
         {
-            "Right": "inv"
+            "Right": "Ayuta"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To go. ",
-        "{@--2@} To \npervade, surround. ",
-        "{@--3@} To seize, take\npossession of. ",
-        "{@--4@} To invigorate,\ngladden; see {#in#} also."
+        ".²1 Mixed, mingled.\n",
+        ".²2 Melted.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 61811,
+            "_ancestry": [
+                "L_ 7387",
+                "B_ {#Ayuta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ayutam"
+                }
+            ],
+            "_meanings": [
+                "Half-melted butter."
+            ]
+        }
     ]
 }

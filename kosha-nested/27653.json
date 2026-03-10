@@ -1,20 +1,84 @@
 {
-    "__line": 232861,
+    "__line": 255178,
     "_ancestry": [
         "L_ 27653",
-        "B_ {#SarawaH#}"
+        "B_ {#rocana#}"
     ],
-    "_banner": "{#SarawaH#}",
+    "_banner": "{#rocana#}",
     "_bannerExp": [
         {
-            "Right": "SarawaH"
+            "Right": "rocana"
+        },
+        {
+            "Right": "rocanI"
         }
     ],
     "_gram": [
-        "[{#SF-awan#}]"
+        "{%a.%}",
+        "({#-nA#}|{#-nI#}|{%f.%})",
+        "[{#ruc-lyu rocayati vA lyu#} <ls>Uṇ. 2. 74</ls>]"
     ],
     "_meanings": [
-        "{@--1@} A chameleon.\n",
-        "{@--2@} A safflower."
+        ".²1 Enlightening, illuminating, irradiating.\n",
+        ".²2 Bright, splendid, beautiful, lovely, pleasing, agreeable; {#kIrtyamAnaM#}\n {#yaSo yasya sakfdAkarRya rocanam#} <ls>Bhāg. 1. 10. 11</ls>; {#rocanErBUzitAM#}\n {#pampAmasmAkaM hfdayAviDam#} <ls>Bk. 6. 73</ls>.\n",
+        ".²3 Stomachic.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255185,
+            "_ancestry": [
+                "L_ 27653",
+                "B_ {#rocana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rocanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A stomachic.\n",
+                ".²2 <ab>N.</ab> of one of the five arrows of Cupid.\n",
+                ".²3 <ab>N.</ab> of several plants:-- {#palARqu, AragvaDa, dAqima, karaYja, aNkozWa#} <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 255189,
+            "_ancestry": [
+                "L_ 27653",
+                "B_ {#rocana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rocanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Raising a desire for; {#nEzkarmyA laBate sidDiM rocanArTA PalaSrutiH#}\n <ls>Bhāg. 11. 3. 46</ls>.\n",
+                ".²2 The bright sky, firmament.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 255194,
+            "_ancestry": [
+                "L_ 27653",
+                "B_ {#rocana#}",
+                "S_ .{@{#-PalaH#}@}"
+            ],
+            "_banner": ".{@{#-PalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rocanaPalaH"
+                }
+            ],
+            "_meanings": [
+                "the citron tree."
+            ]
+        }
     ]
 }

@@ -1,17 +1,116 @@
 {
-    "__line": 237162,
+    "__line": 260174,
     "_ancestry": [
         "L_ 28191",
-        "B_ {#SfMgiRI#}"
+        "B_ {#lomaSa#}"
     ],
-    "_banner": "{#SfMgiRI#}",
+    "_banner": "{#lomaSa#}",
     "_bannerExp": [
         {
-            "Right": "SfMgiRI"
+            "Right": "lomaSa"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#lomAni bAhulyena santyasya Sa#}]"
+    ],
     "_meanings": [
-        "{@--1@} A cow. ",
-        "{@--2@} The Arabian\njasmine."
+        ".²1 Hairy, woolly, shaggy.\n",
+        ".²2 Woollen.\n",
+        ".²3 Containing hair.\n",
+        ".²4 Consisting in sheep (as property).\n",
+        ".²5 Overgrown with grass.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 260180,
+            "_ancestry": [
+                "L_ 28191",
+                "B_ {#lomaSa#}",
+                "M_ .{@{#-SaH#}@}"
+            ],
+            "_banner": ".{@{#-SaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lomaSaH"
+                }
+            ],
+            "_meanings": [
+                "A sheep, ram; {#DAnyaM hftvA tu puruzo lomaSaH saMprajAyate#}.\n"
+            ]
+        },
+        {
+            "__line": 260181,
+            "_ancestry": [
+                "L_ 28191",
+                "B_ {#lomaSa#}",
+                "M_ .{@{#-SA#}@}"
+            ],
+            "_banner": ".{@{#-SA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lomaSA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A fox.\n",
+                ".²2 A female jackal.\n",
+                ".²3 An ape.\n",
+                ".²4 Green vitriol.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 260187,
+            "_ancestry": [
+                "L_ 28191",
+                "B_ {#lomaSa#}",
+                "S_ .{@{#-karRaH#}@}"
+            ],
+            "_banner": ".{@{#-karRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lomaSakarRaH"
+                }
+            ],
+            "_meanings": [
+                "a species of animal living in holes.\n"
+            ]
+        },
+        {
+            "__line": 260188,
+            "_ancestry": [
+                "L_ 28191",
+                "B_ {#lomaSa#}",
+                "S_ .{@{#-puzpakaH#}@}"
+            ],
+            "_banner": ".{@{#-puzpakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lomaSapuzpakaH"
+                }
+            ],
+            "_meanings": [
+                "the Śirīṣa tree.\n"
+            ]
+        },
+        {
+            "__line": 260189,
+            "_ancestry": [
+                "L_ 28191",
+                "B_ {#lomaSa#}",
+                "S_ .{@{#-mArjAraH#}@}"
+            ],
+            "_banner": ".{@{#-mArjAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lomaSamArjAraH"
+                }
+            ],
+            "_meanings": [
+                "the civet-cat."
+            ]
+        }
     ]
 }

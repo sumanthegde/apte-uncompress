@@ -1,29 +1,39 @@
 {
-    "__line": 93560,
+    "__line": 93204,
     "_ancestry": [
         "L_ 11158",
-        "B_ {#kumArika#}"
+        "B_ {#kaccara#}"
     ],
-    "_banner": "{#kumArika#}",
+    "_banner": "{#kaccara#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: kumArika  RI"
-        },
-        {
-            "Right": "kumArikI"
-        },
-        {
-            "Right": "kumArika"
+            "Right": "kaccara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "{#kumArin#}",
-        "({#RI#}|{%<ab>f.</ab>%})",
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Furnished with girls, \nabounding in girls."
+        ".²1 Bad, dirty.\n",
+        ".²2 Wicked, vile, debased.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 93207,
+            "_ancestry": [
+                "L_ 11158",
+                "B_ {#kaccara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaccaram"
+                }
+            ],
+            "_meanings": [
+                "Buttermilk diluted with water."
+            ]
+        }
     ]
 }

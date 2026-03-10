@@ -1,42 +1,118 @@
 {
-    "__line": 242569,
+    "__line": 267349,
     "_ancestry": [
         "L_ 28885",
-        "B_ {#saMkrAMta#}"
+        "B_ {#vAqavaH#}"
     ],
-    "_banner": "{#saMkrAMta#}",
+    "_banner": "{#vAqavaH#}",
     "_bannerExp": [
         {
-            "Right": "saMkrAMta"
+            "Right": "vAqavaH"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "[{#vaqavAyA apatyaM vaqavAnAM samUho vA aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Passed through\nor into, entered into. ",
-        "{@--2@}\nTransferred; devolved, entrusted;\n{#putrasaMkrAMtalakzmIkEryadvfdDekzvAkuBirDftaM#}  \n<ls>U. 1. 22.</ls> ",
-        "{@--3@} Seized, affected. ",
-        "{@--4@} \nReflected, imaged. ",
-        "{@--5@} Depicted. ",
-        "{@--6@}\nHaving Saṃkrānti (in <ab>astr.</ab>). "
+        ".²1 Submarine fire.\n",
+        ".²2 A Brāhmaṇa; {#tasmE bAqavAya pracurataraM DanaM dattvA#}\n\n <ls>Dk. 1. 5</ls>.\n",
+        ".²3 A stud-horse.\n",
+        ".²4 <ab>N.</ab> of a grammarian.\n"
     ],
     "_morphisms": [
         {
-            "__line": 242575,
+            "__line": 267356,
             "_ancestry": [
                 "L_ 28885",
-                "B_ {#saMkrAMta#}",
-                "M_ {#--taM#}"
+                "B_ {#vAqavaH#}",
+                "M_ .{@{#-vaH, -vam#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-vaH, -vam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMkrAMtaM"
+                    "Right": "vAqavaH"
+                },
+                {
+                    "Right": "vAqavam"
                 }
             ],
             "_meanings": [
-                "Property got by a woman from her\nhusband."
+                "The lower world.\n"
+            ]
+        },
+        {
+            "__line": 267357,
+            "_ancestry": [
+                "L_ 28885",
+                "B_ {#vAqavaH#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAqavam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A stud or collection of mares.\n",
+                ".²2 A particular {#muhUrta#}.\n",
+                ".²3 A kind of coitus.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 267362,
+            "_ancestry": [
+                "L_ 28885",
+                "B_ {#vAqavaH#}",
+                "S_ .{@{#-agniH, -analaH#}@}"
+            ],
+            "_banner": ".{@{#-agniH, -analaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAqavAgniH"
+                },
+                {
+                    "Right": "vAqavAnalaH"
+                }
+            ],
+            "_meanings": [
+                "the submarine fire.\n"
+            ]
+        },
+        {
+            "__line": 267363,
+            "_ancestry": [
+                "L_ 28885",
+                "B_ {#vAqavaH#}",
+                "S_ .{@{#-haraRam#}@}"
+            ],
+            "_banner": ".{@{#-haraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAqavaharaRam"
+                }
+            ],
+            "_meanings": [
+                "the fodder given to a stud-horse; <ls>P. VI. 2. 65</ls> <ab>com.</ab>\n"
+            ]
+        },
+        {
+            "__line": 267364,
+            "_ancestry": [
+                "L_ 28885",
+                "B_ {#vAqavaH#}",
+                "S_ .{@{#-hArakaH#}@}"
+            ],
+            "_banner": ".{@{#-hArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAqavahArakaH"
+                }
+            ],
+            "_meanings": [
+                "a sea-monster."
             ]
         }
     ]

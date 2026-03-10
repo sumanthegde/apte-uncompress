@@ -1,95 +1,104 @@
 {
-    "__line": 179072,
+    "__line": 194232,
     "_ancestry": [
         "L_ 21641",
-        "B_ {#bahala#}"
+        "B_ {#puzwa#}"
     ],
-    "_banner": "{#bahala#}",
+    "_banner": "{#puzwa#}",
     "_bannerExp": [
         {
-            "Right": "bahala"
+            "Right": "puzwa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#baMh --kalac nalopaSca#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#puz-kta#}]"
     ],
     "_meanings": [
-        "{@--1@}\nVery much, copious, abundant,\nplentiful, manifold, great, strong;\n<ls>U. 1. 38</ls>; <ls n=\"U.\">3. 23</ls>; <ls>Śi. 9. 8</ls>;  \n<ls>Bv. 4. 27.</ls> ",
-        "{@--2@} Thick, dense. ",
-        "{@--3@} Shaggy\n(as a tail); {#bahalottuMgalAMgUla#} <ls>Māl. 3.</ls>\n",
-        "{@--4@} Hard, firm, compact. ",
-        "{@--5@} Harsh\n(as a sound). "
+        ".²1 Nourished, fed, reared, brought up.\n",
+        ".²2 Thriving, growing, strong, fat.\n",
+        ".²3 Tended, cared for.\n",
+        ".²4 Rich, magnificently provided.\n",
+        ".²5 Complete, perfect.\n",
+        ".²6 Full-sounding, loud; {#svareRa hfzwapuzwena tuzwAva maDusUdanam#} <ls>Mb. 12. 47. 14</ls>.\n",
+        ".²7 Eminent.\n"
     ],
     "_morphisms": [
         {
-            "__line": 179079,
+            "__line": 194240,
             "_ancestry": [
                 "L_ 21641",
-                "B_ {#bahala#}",
-                "M_ {#--laH#}"
+                "B_ {#puzwa#}",
+                "M_ .{@{#-zwaH#}@}"
             ],
-            "_banner": "{#--laH#}",
+            "_banner": ".{@{#-zwaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bahalaH"
+                    "Right": "puzwaH"
                 }
             ],
             "_meanings": [
-                "A kind of\nsugar-cane. "
+                "<ab>N.</ab> of Viṣṇu.\n"
             ]
         },
         {
-            "__line": 179080,
+            "__line": 194241,
             "_ancestry": [
                 "L_ 21641",
-                "B_ {#bahala#}",
-                "M_ {#--lA#}"
+                "B_ {#puzwa#}",
+                "M_ .{@{#-zwam#}@}"
             ],
-            "_banner": "{#--lA#}",
+            "_banner": ".{@{#-zwam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bahalA"
+                    "Right": "puzwam"
                 }
             ],
             "_meanings": [
-                "Large cardamoms.\n"
+                ".²1 Nourishment.\n",
+                ".²2 Acquisition, gain (<ab>Ved.</ab>).\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 179081,
+            "__line": 194245,
             "_ancestry": [
                 "L_ 21641",
-                "B_ {#bahala#}",
-                "S_  {#--gaMDaH#}"
+                "B_ {#puzwa#}",
+                "S_ .{@{#-aNga#}@}"
             ],
-            "_banner": " {#--gaMDaH#}",
+            "_banner": ".{@{#-aNga#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bahalagaMDaH"
+                    "Right": "puzwANga"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "a kind of sandal.\n"
+                "fat-limbed, well-fed.\n"
             ]
         },
         {
-            "__line": 179082,
+            "__line": 194246,
             "_ancestry": [
                 "L_ 21641",
-                "B_ {#bahala#}",
-                "S_ {#--tvacaH#}"
+                "B_ {#puzwa#}",
+                "S_ .{@{#-arTa#}@}"
             ],
-            "_banner": "{#--tvacaH#}",
+            "_banner": ".{@{#-arTa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bahalatvacaH"
+                    "Right": "puzwArTa"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "the white flowering {%lodhra%}."
+                "fully intelligible."
             ]
         }
     ]

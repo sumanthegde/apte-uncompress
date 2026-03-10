@@ -1,23 +1,248 @@
 {
-    "__line": 41829,
+    "__line": 39467,
     "_ancestry": [
         "L_ 4613",
-        "B_ {#avanatiH#}"
+        "B_ {#arvAc#}"
     ],
-    "_banner": "{#avanatiH#}",
+    "_banner": "{#arvAc#}",
     "_bannerExp": [
         {
-            "Right": "avanatiH"
+            "Right": "arvAc"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#avare kAle deSe vA aYcati pfzo˚ arvAdeSaH#}]"
     ],
     "_meanings": [
-        "{@--1@} Bending, bowing\ndown, stooping; {#avanatimavaneH#}  \n<ls>Mu. 1. 2</ls>, <ls n=\"Mu.\">3. 8</ls>; <ls>Śi. 9. 8.</ls> ",
-        "{@--2@} Declining in the\nwest, setting; <ls>Śi. 9. 8.</ls> ",
-        "{@--3@} A bow,\nprostration. ",
-        "{@--4@} Bending (as a bow);\n{#DanuzAmavanatiH#} <ls>K.</ls> (where {#a°#} also\nmeans ‘stooping’). ",
-        "{@--5@} Modesty, \nabsence of insolence, humility."
+        ".²1 Coming hitherward (<ab>opp.</ab> {#parAYc#}).\n",
+        ".²2 Turned towards, coming to meet anyone.\n",
+        ".²3 Being on this side (as the bank of a river); (<ab>opp.</ab> {#para#}).\n",
+        ".²4 Being below or behind (in time or place).\n",
+        ".²5 Following, subsequent.\n\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 39474,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "M_ .{@{#-k#}@}"
+            ],
+            "_banner": ".{@{#-k#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: arvAc k"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Hitherward, on this side.\n",
+                ".²2 From a certain point.\n",
+                ".²3 Before (in time or place); {#yatsfzwerarvAk salilamayaM brahmARqamaBUt#}\n <ls>K. 125</ls>; {#arvAk saMvatsarAtsvAmI hareta parato nfpaH#} <ls>Y. 2. 173</ls>, <ls n=\"Y. 2.\">113</ls>, <ls n=\"Y.\">1. 254</ls>;\n <ls>Ms. 8. 30</ls>, <ls n=\"Ms.\">5. 59</ls>.\n",
+                ".²4 On the lower side, behind, downwards (<ab>opp.</ab> {#UrDvam#}).\n",
+                ".²5 Afterwards, subsequently.\n",
+                ".²6 (With <ab>loc.</ab>) Within, near; {#ete cArvAgupavanaBuvi CinnadarBANkurAyAm#} <ls>Ś. 1. 15</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 39484,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAkkAlaH"
+                }
+            ],
+            "_meanings": [
+                "posterior time.\n"
+            ]
+        },
+        {
+            "__line": 39485,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-kAlika#}@}"
+            ],
+            "_banner": ".{@{#-kAlika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAkkAlika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to proximate time, modern; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 39485,
+                    "_ancestry": [
+                        "L_ 4613",
+                        "B_ {#arvAc#}",
+                        "S_ .{@{#-kAlika#}@}",
+                        "S_S_ {#˚tA#}"
+                    ],
+                    "_banner": "{#˚tA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "arvAkkAlikatA"
+                        }
+                    ],
+                    "_meanings": [
+                        "modernness,\n posterity of time; {#tAnyarvAkkAlikatayA nizPalAnyanftAni ca#} <ls>Ms. 12. 96</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 39487,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-kUlam#}@}"
+            ],
+            "_banner": ".{@{#-kUlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAkkUlam"
+                }
+            ],
+            "_meanings": [
+                "the near bank of a river.\n"
+            ]
+        },
+        {
+            "__line": 39488,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-tana#}@}"
+            ],
+            "_banner": ".{@{#-tana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAktana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Being on this side of, not reaching up to, posterior;\n {#prakftipuruzayorarvAktanABirnAmarUpAkftiBI rUpanirUpaRam#} <ls>Bhāg. 5. 3. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 39490,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-bila#}@}"
+            ],
+            "_banner": ".{@{#-bila#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAgbila"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> having the hole or mouth hitherward; {#arvAgbilaScamasa#}\n {#UDvarbuDnaH#} <ls>Bṛ. Up. 2. 2. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 39492,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-vasu#}@}"
+            ],
+            "_banner": ".{@{#-vasu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAgvasu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "offering riches. <ls>Vāj. 15. 19</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 39493,
+                    "_ancestry": [
+                        "L_ 4613",
+                        "B_ {#arvAc#}",
+                        "S_ .{@{#-vasu#}@}",
+                        "S_M_ ({@{#-suH#}@}"
+                    ],
+                    "_banner": "({@{#-suH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "arvAgvasuH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 rain.\n",
+                        ".²2 a cloud.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 39496,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-sAman#}@}"
+            ],
+            "_banner": ".{@{#-sAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAksAman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> epithet of three days during which the Soma\n sacrifice is performed.\n"
+            ]
+        },
+        {
+            "__line": 39498,
+            "_ancestry": [
+                "L_ 4613",
+                "B_ {#arvAc#}",
+                "S_ .{@{#-srotas#}@}"
+            ],
+            "_banner": ".{@{#-srotas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvAksrotas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a creation of beings in which the current\n of nutriment tends downwards, or where the men are addicted to sensual enjoyments."
+            ]
+        }
     ]
 }

@@ -1,62 +1,68 @@
 {
-    "__line": 69789,
+    "__line": 67601,
     "_ancestry": [
         "L_ 8098",
-        "B_ {#udgata#}"
+        "B_ {#iNgita#}"
     ],
-    "_banner": "{#udgata#}",
+    "_banner": "{#iNgita#}",
     "_bannerExp": [
         {
-            "Right": "udgata"
+            "Right": "iNgita"
         }
     ],
     "_gram": [
         "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Gone up, risen, \nascended. ",
-        "{@--2@} Proceeded forth or from.\n",
-        "{@--3@} Gone, departed. ",
-        "{@--4@} Vomited.\n"
+        "Moved, shaken.\n"
     ],
     "_morphisms": [
         {
-            "__line": 69792,
+            "__line": 67602,
             "_ancestry": [
                 "L_ 8098",
-                "B_ {#udgata#}",
-                "M_ {#--tA#}"
+                "B_ {#iNgita#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--tA#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "udgatA"
+                    "Right": "iNgitam"
                 }
             ],
+            "_gram": [
+                "[{#BAve-kta#}]"
+            ],
             "_meanings": [
-                "<ab>N.</ab> of a metre. "
+                ".²1 Palpitation, shaking.\n",
+                ".²2 Internal thought, inward thought or secret aim, intention, purpose;\n {#˚AkAravediBiH#} <ls>K. 7</ls>; <ls>Pt. 1. 43</ls>; {#agUQasadBAvamitINgitajYayA#} <ls>Ku. 5. 62</ls>;\n {#tasya saMvftamantrasya gUQAkAreNgitasya ca#} <ls>R. 1. 20</ls>; <ls>Śi. 9. 69</ls>.\n",
+                ".²3 A hint, sign, gesture; {#AkArEriNgitErgatyA#} <ls>Pt. 1. 44</ls>.\n",
+                ".²4 Particularly, the gesture or motion of the various limbs of the body\n indicating oneʼs intentions; gesture suited to betray internal feelings;\n {#AkArEriNgitErgatyA gfhyate'ntargataM manaH#} <ls>Ms. 8. 26</ls>. <ab>cf.</ab> {#iNgitaM#}\n {#hfdgato BAvo bahirAkAra AkftiH . sajjanaH#}\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 69792,
+            "__line": 67613,
             "_ancestry": [
                 "L_ 8098",
-                "B_ {#udgata#}",
-                "S_  {#--asu#}"
+                "B_ {#iNgita#}",
+                "S_ .{@{#-kovida, -jYa#}@}"
             ],
-            "_banner": " {#--asu#}",
+            "_banner": ".{@{#-kovida, -jYa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "udgatAsu"
+                    "Right": "iNgitakovida"
+                },
+                {
+                    "Left": "S error: 1 syl kovida jYa"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "deceased, dead."
+                "skilled in the interpretation of internal\n sentiments by external gestures, understanding signs."
             ]
         }
     ]

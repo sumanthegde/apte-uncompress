@@ -1,19 +1,119 @@
 {
-    "__line": 88555,
+    "__line": 87683,
     "_ancestry": [
         "L_ 10522",
-        "B_ {#kalpika#}"
+        "B_ {#fkTam#}"
     ],
-    "_banner": "{#kalpika#}",
+    "_banner": "{#fkTam#}",
     "_bannerExp": [
         {
-            "Right": "kalpika"
+            "Right": "fkTam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#fc-Tak#}]"
     ],
     "_meanings": [
-        "Fit, proper."
+        ".²1 Wealth.\n",
+        ".²2 (Especially) property, possessions, effects (left at death); see {#rikTa#}.\n",
+        ".²3 Gold.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 87688,
+            "_ancestry": [
+                "L_ 10522",
+                "B_ {#fkTam#}",
+                "S_ .{@{#-AdAnaH#}@}"
+            ],
+            "_banner": ".{@{#-AdAnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fkTAdAnaH"
+                }
+            ],
+            "_meanings": [
+                "an inheritor, heir.\n"
+            ]
+        },
+        {
+            "__line": 87689,
+            "_ancestry": [
+                "L_ 10522",
+                "B_ {#fkTam#}",
+                "S_ .{@{#-grahaRam#}@}"
+            ],
+            "_banner": ".{@{#-grahaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fkTagrahaRam"
+                }
+            ],
+            "_meanings": [
+                "receiving or inheriting property.\n"
+            ]
+        },
+        {
+            "__line": 87690,
+            "_ancestry": [
+                "L_ 10522",
+                "B_ {#fkTam#}",
+                "S_ .{@{#-grAhaH#}@}"
+            ],
+            "_banner": ".{@{#-grAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fkTagrAhaH"
+                }
+            ],
+            "_meanings": [
+                "an inheritor or receiver of property.\n"
+            ]
+        },
+        {
+            "__line": 87691,
+            "_ancestry": [
+                "L_ 10522",
+                "B_ {#fkTam#}",
+                "S_ .{@{#-BAgaH#}@}"
+            ],
+            "_banner": ".{@{#-BAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fkTaBAgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 division of property, partition.\n",
+                ".²2 a share, inheritance.\n"
+            ]
+        },
+        {
+            "__line": 87694,
+            "_ancestry": [
+                "L_ 10522",
+                "B_ {#fkTam#}",
+                "S_ .{@{#-BAgin, -hara -hArin#}@}"
+            ],
+            "_banner": ".{@{#-BAgin, -hara -hArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "fkTaBAgin"
+                },
+                {
+                    "Right": "fkTahara"
+                },
+                {
+                    "Right": "fkTahArin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 an heir.\n",
+                ".²2 a co-heir."
+            ]
+        }
     ]
 }

@@ -1,16 +1,652 @@
 {
-    "__line": 266358,
+    "__line": 295299,
     "_ancestry": [
         "L_ 32007",
-        "B_ {#jagannATapaMqita#}"
+        "B_ {#SAstram#}"
     ],
-    "_banner": "{#jagannATapaMqita#}",
+    "_banner": "{#SAstram#}",
     "_bannerExp": [
         {
-            "Right": "jagannATapaMqita"
+            "Right": "SAstram"
         }
     ],
+    "_gram": [
+        "[{#Sizyate'nena SAs-zwran#}]"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a celebrated modern author.\nHis most celebrated work is the {#rasagaMgADara#} a \ntreatise on Rhetoric or Poetics; his other works\nare {#BAminIvilAsa#}, the five {%laharis%} ({#gaMgA, payUza, suDA#},\n{#amfta, karuRA#}), and a few minor works. He is\nsupposed to have flourished during the time of\nthe Emperor Shah Jahan of Delhi. He must\nhave also seen the latter end of Jehangir's reign,\nand the temporary accession of Dārā to the\nthrone in 1658. His date, --at least, his active\ncareer-lay, therefore, between 1620 and 1660 <ab>A. D.</ab>"
+        ".²1 An order, a command, rule, precept; {#atikrAmati yaH SAstraM piturDarmArTadarSinaH#}\n <ls>Mb. 5. 148. 21</ls>.\n",
+        ".²2 A sacred precept or rule, scriptural injunction; {#tasmAcCAstraM pramARaM#}\n {#te kAryAkAryavyavasTitO#} <ls>Bg. 16. 24</ls>.\n",
+        ".²3 A religious or sacred treatise, sacred book, scripture; see <ab>comps.</ab> below.\n",
+        ".²4 Any department of knowledge, science; {#iti guhyatamaM SAstram#} <ls>Bg. 15. 20</ls>;\n {#SAstrezvakuRWitA budDiH#} <ls>R. 1. 19</ls>; often at the end of <ab>comp.</ab>\n after the word denoting the subject, or applied collectively to the whole\n body of teaching on that subject; {#vedAntaSAstra, nyAyaSAstra, tarkaSAstra#},\n {#alaMkAraSAstra#} <ab>&c.</ab>\n",
+        ".²5 What is learnt, knowledge; <ls>Śi. 5. 47</ls>.\n",
+        ".²6 A work, treatise; {#tantrEH paYcaBiretaccakAra sumanoharaM SAstram#} <ls>Pt. 1</ls>.\n",
+        ".²7 Theory (<ab>opp.</ab> {#prayoga#} or practice); {#imaM mAM ca SAstre prayoge#}\n {#ca vimfSatu#} <ls>M. 1</ls>.\n",
+        ".²8 The material and spiritual science together; {#tattvABedena yacCAstraM#}\n {#tatkAryaM nAnyaTAviDam#} <ls>Mb. 12. 267. 9</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 295317,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-atikramaH, -ananuzWAnam#}@}"
+            ],
+            "_banner": ".{@{#-atikramaH, -ananuzWAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrAtikramaH"
+                },
+                {
+                    "Right": "SAstrAnanuzWAnam"
+                }
+            ],
+            "_meanings": [
+                "violation of sacred precepts, disregard\n of religious authority.\n"
+            ]
+        },
+        {
+            "__line": 295319,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-anuzWAnam, -anusAraH#}@}"
+            ],
+            "_banner": ".{@{#-anuzWAnam, -anusAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrAnuzWAnam"
+                },
+                {
+                    "Right": "SAstrAnusAraH"
+                }
+            ],
+            "_meanings": [
+                "conformity to or observance of sacred precepts.\n"
+            ]
+        },
+        {
+            "__line": 295320,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-anvita#}@}"
+            ],
+            "_banner": ".{@{#-anvita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrAnvita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "conformable to doctrine or rule.\n"
+            ]
+        },
+        {
+            "__line": 295321,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-aBijYa#}@}"
+            ],
+            "_banner": ".{@{#-aBijYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrABijYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "versed in the Śāstras.\n"
+            ]
+        },
+        {
+            "__line": 295322,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-arTaH#}@}"
+            ],
+            "_banner": ".{@{#-arTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrArTaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the meaning of the sacred precept.\n",
+                ".²2 a scriptural precept or statement.\n"
+            ]
+        },
+        {
+            "__line": 295325,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-AcaraRam#}@}"
+            ],
+            "_banner": ".{@{#-AcaraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrAcaraRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 observance of sacred precepts.\n",
+                ".²2 the study of Śātras.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 295328,
+                    "_ancestry": [
+                        "L_ 32007",
+                        "B_ {#SAstram#}",
+                        "S_ .{@{#-AcaraRam#}@}",
+                        "S_M_ ({@{#-RaH#}@}"
+                    ],
+                    "_banner": "({@{#-RaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "SAstrAcaraRaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 one versed in scriptures.\n",
+                        ".²2 a student of the Vedas.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 295331,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-AvartalipiH#}@}"
+            ],
+            "_banner": ".{@{#-AvartalipiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrAvartalipiH"
+                }
+            ],
+            "_meanings": [
+                "a particular mode of writing.\n"
+            ]
+        },
+        {
+            "__line": 295332,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-ukta#}@}"
+            ],
+            "_banner": ".{@{#-ukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrokta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "prescribed by sacred laws, enjoined by the Śāstras, lawful, legal.\n"
+            ]
+        },
+        {
+            "__line": 295333,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-kAraH, -kft#}@}"
+            ],
+            "_banner": ".{@{#-kAraH, -kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrakAraH"
+                },
+                {
+                    "Right": "SAstrakft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the author of a Śāstra or sacred book.\n",
+                ".²2 an author in general.\n",
+                ".²3 a sage, saint.\n"
+            ]
+        },
+        {
+            "__line": 295337,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-kovida#}@}"
+            ],
+            "_banner": ".{@{#-kovida#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrakovida"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "versed in the Śāstras.\n"
+            ]
+        },
+        {
+            "__line": 295338,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-gaRqaH#}@}"
+            ],
+            "_banner": ".{@{#-gaRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstragaRqaH"
+                }
+            ],
+            "_meanings": [
+                "a superficial reader of books, superficial scholar.\n"
+            ]
+        },
+        {
+            "__line": 295339,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-cakzus#}@}"
+            ],
+            "_banner": ".{@{#-cakzus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstracakzus"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "grammar (as being the ‘eye’, as it were, with which\n to understand any Śāstra).\n"
+            ]
+        },
+        {
+            "__line": 295341,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-cAraRaH#}@}"
+            ],
+            "_banner": ".{@{#-cAraRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstracAraRaH"
+                }
+            ],
+            "_meanings": [
+                "one who deserves sacred precepts.\n"
+            ]
+        },
+        {
+            "__line": 295342,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-jYa, -darSin, -vid#}@}"
+            ],
+            "_banner": ".{@{#-jYa, -darSin, -vid#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrajYa"
+                },
+                {
+                    "Right": "SAstradarSin"
+                },
+                {
+                    "Right": "SAstravid"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 well-versed in the Śāstras.\n",
+                ".²2 a mere theorist.\n"
+            ]
+        },
+        {
+            "__line": 295345,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-jYAnam#}@}"
+            ],
+            "_banner": ".{@{#-jYAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrajYAnam"
+                }
+            ],
+            "_meanings": [
+                "knowledge of sacred books, conversancy with scriptures.\n"
+            ]
+        },
+        {
+            "__line": 295346,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-tattvam#}@}"
+            ],
+            "_banner": ".{@{#-tattvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstratattvam"
+                }
+            ],
+            "_meanings": [
+                "truth as taught in the Śāstras, scriptural truth. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 295346,
+                    "_ancestry": [
+                        "L_ 32007",
+                        "B_ {#SAstram#}",
+                        "S_ .{@{#-tattvam#}@}",
+                        "S_S_ {#˚jYaH#}"
+                    ],
+                    "_banner": "{#˚jYaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "SAstratattvajYaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an astronomer.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 295347,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-dfzwa#}@}"
+            ],
+            "_banner": ".{@{#-dfzwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstradfzwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "stated or enjoined in sacred books; {#tadahaM prazwumicCAmi#}\n {#SAstradfzwena karmaRA#} <ls>Rām.</ls>\n"
+            ]
+        },
+        {
+            "__line": 295349,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-dfzwiH#}@}"
+            ],
+            "_banner": ".{@{#-dfzwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstradfzwiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "scriptural point of view. --{%m.%} an astrologer.\n"
+            ]
+        },
+        {
+            "__line": 295350,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-prasaMgaH#}@}"
+            ],
+            "_banner": ".{@{#-prasaMgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstraprasaNgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the subject of the Śāstras.\n",
+                ".²2 any discussion on scriptural points.\n"
+            ]
+        },
+        {
+            "__line": 295353,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-yoniH#}@}"
+            ],
+            "_banner": ".{@{#-yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrayoniH"
+                }
+            ],
+            "_meanings": [
+                "the source of the Śāstras.\n"
+            ]
+        },
+        {
+            "__line": 295356,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-vaktf#}@}"
+            ],
+            "_banner": ".{@{#-vaktf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstravaktf"
+                }
+            ],
+            "_meanings": [
+                "an expounder of sacred books or knowledge.\n"
+            ]
+        },
+        {
+            "__line": 295357,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-varjita#}@}"
+            ],
+            "_banner": ".{@{#-varjita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstravarjita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from all rule or law.\n"
+            ]
+        },
+        {
+            "__line": 295358,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-vAdaH#}@}"
+            ],
+            "_banner": ".{@{#-vAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstravAdaH"
+                }
+            ],
+            "_meanings": [
+                "a precept or statement of the Śāstras.\n"
+            ]
+        },
+        {
+            "__line": 295359,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-viDAnam, -viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDAnam, -viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstraviDAnam"
+                },
+                {
+                    "Right": "SAstraviDiH"
+                }
+            ],
+            "_meanings": [
+                "a sacred precept, scriptural injunction.\n"
+            ]
+        },
+        {
+            "__line": 295360,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-vipratizeDaH, -viroDaH#}@}"
+            ],
+            "_banner": ".{@{#-vipratizeDaH, -viroDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstravipratizeDaH"
+                },
+                {
+                    "Right": "SAstraviroDaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 mutual contradiction of sacred precepts, inconsistency of precepts.\n",
+                ".²2 any act contrary to sacred precepts.\n"
+            ]
+        },
+        {
+            "__line": 295363,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-vimuKa#}@}"
+            ],
+            "_banner": ".{@{#-vimuKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstravimuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "averse from study; <ls>Pt. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 295364,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-virudDa#}@}"
+            ],
+            "_banner": ".{@{#-virudDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstravirudDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "contrary to the Śāstras, illegal, unlawful.\n"
+            ]
+        },
+        {
+            "__line": 295365,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-vyutpattiH#}@}"
+            ],
+            "_banner": ".{@{#-vyutpattiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstravyutpattiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "intimate knowledge of the sacred writings,\n proficiency in the Śāstras.\n"
+            ]
+        },
+        {
+            "__line": 295367,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-Silpin#}@}"
+            ],
+            "_banner": ".{@{#-Silpin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstraSilpin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the country of Kāśmīra.\n"
+            ]
+        },
+        {
+            "__line": 295368,
+            "_ancestry": [
+                "L_ 32007",
+                "B_ {#SAstram#}",
+                "S_ .{@{#-sidDa#}@}"
+            ],
+            "_banner": ".{@{#-sidDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SAstrasidDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "established by sacred authority."
+            ]
+        }
     ]
 }

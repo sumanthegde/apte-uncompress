@@ -1,21 +1,606 @@
 {
-    "__line": 154361,
+    "__line": 163746,
     "_ancestry": [
         "L_ 18394",
-        "B_ {#partf#}"
+        "B_ {#nava#}"
     ],
-    "_banner": "{#partf#}",
+    "_banner": "{#nava#}",
     "_bannerExp": [
         {
-            "Right": "partf"
+            "Right": "nava"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} A protector. ",
-        "{@--2@}\nMeans of defence."
+        ".²1 New, fresh, young, recent; {#cittayoniraBavatpunarnavaH#} <ls>R. 19. 46</ls>;\n {#ete vayaM punarnavIkftAH smaH#} <ls>Ś. 5</ls>; {#kleSaH Palena hi punarnavatAM#}\n {#viDatte#} <ls>Ku. 5. 86</ls>; <ls>U. 1. 19</ls>; <ls>R. 1. 83</ls>, <ls n=\"R.\">2. 47</ls>, <ls n=\"R.\">3. 53</ls>, <ls n=\"R.\">4. 3</ls>, <ls n=\"R. 4.\">11</ls>; <ls>Śi. 1. 4</ls>;\n {#navavayasi#} <ls>Mu. 3. 3</ls>; <ls>Śi. 3. 31</ls>; <ls>Ki. 9. 43</ls>.\n",
+        ".²2 Modern.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 163752,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A crow.\n",
+                ".²2 Praise.\n",
+                ".²3 A young monk, novice; Buddha.\n"
+            ]
+        },
+        {
+            "__line": 163756,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navam"
+                }
+            ],
+            "_gram": [
+                "--{%ind.%}"
+            ],
+            "_meanings": [
+                "Recently, newly, lately, not long ago.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 163758,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-aNgI#}@}"
+            ],
+            "_banner": ".{@{#-aNgI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navANgI"
+                }
+            ],
+            "_meanings": [
+                "a woman. {#navANgI kuraNgI dfgaNgIkarotu#} <ls>Jag.</ls>\n"
+            ]
+        },
+        {
+            "__line": 163759,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-annam#}@}"
+            ],
+            "_banner": ".{@{#-annam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navAnnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 new rice or grain.\n\n",
+                ".²2 a ceremony performed on first eating the new rice.\n"
+            ]
+        },
+        {
+            "__line": 163763,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-ambu#}@}"
+            ],
+            "_banner": ".{@{#-ambu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navAmbu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "fresh water.\n"
+            ]
+        },
+        {
+            "__line": 163764,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-ahaH#}@}"
+            ],
+            "_banner": ".{@{#-ahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navAhaH"
+                }
+            ],
+            "_meanings": [
+                "the first day of a fortnight.\n"
+            ]
+        },
+        {
+            "__line": 163765,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-itara#}@}"
+            ],
+            "_banner": ".{@{#-itara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navetara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "old; {#na ca yogaviDernavetaraH sTiraDIrA paramAtmadarSanAt#}\n ({#virarAma#}); <ls>R. 8. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163767,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-udDftam#}@}"
+            ],
+            "_banner": ".{@{#-udDftam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navodDftam"
+                }
+            ],
+            "_meanings": [
+                "fresh butter.\n"
+            ]
+        },
+        {
+            "__line": 163768,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-UQA, -pARigrahaRA#}@}"
+            ],
+            "_banner": ".{@{#-UQA, -pARigrahaRA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navoQA"
+                },
+                {
+                    "Right": "navapARigrahaRA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a newly married woman, a bride; {#AstAM mAnasatuzwaye#}\n {#sukftinAM nItirnavoQeva vaH#} <ls>H. 1. 185</ls>; <ls>Bh. 1. 4</ls>; {#navapARigrahaRAM#}\n {#vaDUmiva#} ({#sadayaM buBuje#}) <ls>R. 8. 7</ls>.\n",
+                ".²2 a kind of heroine (in dramas); {#“lajjABaraparADInaratirnavoQA”#};\n {#balAnnItA pArSvaM muKamanumuKaM nEva kurute, DunAnA mUrDAnaM kzipati#}\n {#vadanaM cumbanaviDO . hfdi nyastaM hastaM kzipati gamanAropitamanA, navoQA#}\n {#boQAraM ramayati ca santApayati ca ..#} <ls>Ras. M.</ls>\n"
+            ]
+        },
+        {
+            "__line": 163775,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-kArikA, -kAlikA, -PalikA#}@}"
+            ],
+            "_banner": ".{@{#-kArikA, -kAlikA, -PalikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navakArikA"
+                },
+                {
+                    "Right": "navakAlikA"
+                },
+                {
+                    "Right": "navaPalikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a woman newly married.\n",
+                ".²2 a woman in whom menstruation has recently commenced.\n"
+            ]
+        },
+        {
+            "__line": 163778,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-CAtraH#}@}"
+            ],
+            "_banner": ".{@{#-CAtraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navacCAtraH"
+                }
+            ],
+            "_meanings": [
+                "a fresh student, novice, tyro.\n"
+            ]
+        },
+        {
+            "__line": 163779,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-dvIpaH#}@}"
+            ],
+            "_banner": ".{@{#-dvIpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navadvIpaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a place (modern Nuddea, at the confluence of {#BAgIraTI#}\n and {#jalaNgI#}).\n"
+            ]
+        },
+        {
+            "__line": 163781,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navanI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-nItam#}@}"
+            ],
+            "_meanings": [
+                "fresh butter; {#aho navanItakalpahfdaya AryaputraH#} <ls>M. 3</ls>.\n {#dugDotTaM navanItaM tu cakzuzyaM raktapittanut#} Āyurveda. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 163783,
+                    "_ancestry": [
+                        "L_ 18394",
+                        "B_ {#nava#}",
+                        "S_ .{@{#-nI#}@}",
+                        "S_S_ {#˚DenuH#}"
+                    ],
+                    "_banner": "{#˚DenuH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "navanIDenuH"
+                        }
+                    ],
+                    "_meanings": [
+                        "A cow made of butter, fit to be offered to a Brahmaṇa.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 163785,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-nItakam, -nItajam#}@}"
+            ],
+            "_banner": ".{@{#-nItakam, -nItajam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navanItakam"
+                },
+                {
+                    "Right": "navanItajam"
+                }
+            ],
+            "_meanings": [
+                ".²1 clarified butter.\n",
+                ".²2 fresh butter.\n"
+            ]
+        },
+        {
+            "__line": 163788,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-pAWakaH#}@}"
+            ],
+            "_banner": ".{@{#-pAWakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navapAWakaH"
+                }
+            ],
+            "_meanings": [
+                "a new teacher.\n"
+            ]
+        },
+        {
+            "__line": 163789,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-prasUtA#}@}"
+            ],
+            "_banner": ".{@{#-prasUtA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navaprasUtA"
+                }
+            ],
+            "_meanings": [
+                "a woman who has lately brought forth (a child).\n"
+            ]
+        },
+        {
+            "__line": 163790,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-prASanam#}@}"
+            ],
+            "_banner": ".{@{#-prASanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navaprASanam"
+                }
+            ],
+            "_meanings": [
+                "eating of new rice.\n"
+            ]
+        },
+        {
+            "__line": 163791,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-mallikA, -mAlikA#}@}"
+            ],
+            "_banner": ".{@{#-mallikA, -mAlikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navamallikA"
+                },
+                {
+                    "Right": "navamAlikA"
+                }
+            ],
+            "_meanings": [
+                "a kind of jasmine.\n"
+            ]
+        },
+        {
+            "__line": 163792,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-yajYaH#}@}"
+            ],
+            "_banner": ".{@{#-yajYaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navayajYaH"
+                }
+            ],
+            "_meanings": [
+                "an offering of the first fruits of the harvest.\n"
+            ]
+        },
+        {
+            "__line": 163793,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-yOvanam#}@}"
+            ],
+            "_banner": ".{@{#-yOvanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navayOvanam"
+                }
+            ],
+            "_meanings": [
+                "fresh youth, bloom or prime of youth.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 163794,
+                    "_ancestry": [
+                        "L_ 18394",
+                        "B_ {#nava#}",
+                        "S_ .{@{#-yOvanam#}@}",
+                        "S_M_ ({@{#-nA#}@}"
+                    ],
+                    "_banner": "({@{#-nA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: navayOvanaM ({@{#-nA#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "a young woman.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 163795,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-rajas#}@}"
+            ],
+            "_banner": ".{@{#-rajas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navarajas"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a girl who has recently menstruated.\n"
+            ]
+        },
+        {
+            "__line": 163796,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-vaDUH, -varikA#}@}"
+            ],
+            "_banner": ".{@{#-vaDUH, -varikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navavaDUH"
+                },
+                {
+                    "Right": "navavarikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a newly-married girl.\n",
+                ".²2 a daughter-in-law.\n"
+            ]
+        },
+        {
+            "__line": 163799,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-vallaBam#}@}"
+            ],
+            "_banner": ".{@{#-vallaBam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navavallaBam"
+                }
+            ],
+            "_meanings": [
+                "a kind of sandal.\n"
+            ]
+        },
+        {
+            "__line": 163800,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-vastram#}@}"
+            ],
+            "_banner": ".{@{#-vastram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navavastram"
+                }
+            ],
+            "_meanings": [
+                "new cloth.\n"
+            ]
+        },
+        {
+            "__line": 163801,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-Sasyam#}@}"
+            ],
+            "_banner": ".{@{#-Sasyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navaSasyam"
+                }
+            ],
+            "_meanings": [
+                "the first fruits of the yearʼs harvest.\n"
+            ]
+        },
+        {
+            "__line": 163802,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-SaSiBft#}@}"
+            ],
+            "_banner": ".{@{#-SaSiBft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navaSaSiBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva; {#rakzAhetornavaSaSiBftA#}\n {#vAsavInAM camUnAmatyAdityaM hutavahamuKe saMBftaM tadDi tejaH#} <ls>Me. 45</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163804,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-SrAdDam#}@}"
+            ],
+            "_banner": ".{@{#-SrAdDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navaSrAdDam"
+                }
+            ],
+            "_meanings": [
+                "a {#SrAdDa#} performed on odd days after death {%<ab>i. e.</ab>%}\n on the third, fifth, seventh, ninth, eleventh.\n"
+            ]
+        },
+        {
+            "__line": 163806,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-sAraH#}@}"
+            ],
+            "_banner": ".{@{#-sAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navasAraH"
+                }
+            ],
+            "_meanings": [
+                "a kind of Āyurvedic decoction; {#navasAro BavecCudDaScUrRatoyErvipAcitaH .#}\n {#dolAyantreRa yatnena BizagBiryogasidDaye ..#} <ls>Vaidyacandrikā.</ls>\n"
+            ]
+        },
+        {
+            "__line": 163808,
+            "_ancestry": [
+                "L_ 18394",
+                "B_ {#nava#}",
+                "S_ .{@{#-sUtiH#}@}"
+            ],
+            "_banner": ".{@{#-sUtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "navasUtiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-sUtikA#}@}"
+            ],
+            "_meanings": [
+                ".²1 a milch-cow.\n",
+                ".²2 a woman recently delivered."
+            ]
+        }
     ]
 }

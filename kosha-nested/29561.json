@@ -1,23 +1,62 @@
 {
-    "__line": 247827,
+    "__line": 273125,
     "_ancestry": [
         "L_ 29561",
-        "B_ {#samudData#}"
+        "B_ {#vid#}"
     ],
-    "_banner": "{#samudData#}",
+    "_banner": "{#vid#}",
     "_bannerExp": [
         {
-            "Right": "samudData"
+            "Right": "vid"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "I.",
+        "€2",
+        "<ab>P.</ab>",
+        "({#vetti#} or {#veda, viveda-vidAMcakAra, avedIt, vetsyati#},\n {#vettum, vidita#}; {%<ab>desid.</ab>%} {#vividizati#})"
     ],
     "_meanings": [
-        "{@--1@} Upraised, \nuplifted, elevated. ",
-        "{@--2@} Excited, \ndrawnup. ",
-        "{@--3@} Puffed up with pride, proud,\narrogant. ",
-        "{@--4@} Ill-mannered, \nill-behaved. ",
-        "{@--5@} Impudent, rude."
+        ".²1 To know, understand, learn, find out, ascertain, discover; {#na cEtadvimaH#}\n {#kataranno garIyo yadvA jayema yadi vA no jayeyuH#} <ls>Bg. 2. 5</ls>; {#taM mohAnDaH#}\n {#kaTamayamamuM vettu devaM purARam#} <ls>Ve. 1. 23</ls>, <ls n=\"Ve.\">3. 39</ls>; <ls>Ś. 5. 27</ls>; <ls>R. 3. 43</ls>;\n <ls>Bg. 4. 34</ls>, <ls n=\"Bg.\">18. 1</ls>.\n",
+        ".²2 To feel, experience; {#parAyattaH prIteH kaTamiva rasaM vetti puruzaH#} <ls>Mu. 3. 4</ls>.\n",
+        ".²3 To look upon, regard, consider, know or take to be; {#ya enaM vetti#}\n {#hantAram#} <ls>Bg. 2. 19</ls>; {#vidDi vyADivyAlagrastaM lokaM SokahataM ca samastam#}\n <ls>Moha M. 5</ls>; <ls>Bg. 2. 17</ls>; <ls>Ms. 1. 33</ls>; <ls>Ku. 6. 30</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 273134,
+            "_ancestry": [
+                "L_ 29561",
+                "B_ {#vid#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vid"
+                }
+            ],
+            "_gram": [
+                "({#vedayati-te#})"
+            ],
+            "_meanings": [
+                ".²1 To make known, communicate, inform, apprise, tell.\n\n",
+                ".²2 To teach, expound; {#vedArTaM svAnavedayat#} <ls>Sk.</ls>\n",
+                ".²3 To feel, experience; {#yena vedayate sarvaM suKaM duHKaM ca janmasu#}\n <ls>Ms. 12. 13</ls>. --II. €4 <ab>Ā.</ab> ({#vidyate, vitta#})\n",
+                ".²1 To be, to exist; {#apApAnAM kule jAte mayi pApaM na vidyate#} <ls>Mk. 9. 37</ls>;\n {#nAsato vidyate BAvo nABAvo vidyate sataH#} <ls>Bg. 2. 16</ls>; (<ab>cf.</ab> the root (1) {#as#}).\n",
+                ".²2 To happen. --III. €6 <ab>U.</ab> ({#vindati-te, vitta#})\n",
+                ".²1 To get, obtain, acquire, gain; {#ekamapyAsTitaH samyaguBayorvindate#}\n {#Palam#} <ls>Bg. 5. 4</ls>; <ls>Y. 3. 192</ls>.\n",
+                ".²2 To find, discover, recognise; {#yaTA Denusahasrezu vatso vindati mAtaram#}\n <ls>Subhāṣ.</ls>; <ls>Ms. 8. 109</ls>.\n",
+                ".²3 To feel, experience; <ls>R. 14. 56</ls>; <ls>Bg. 5. 21</ls>, <ls n=\"Bg.\">11. 24</ls>, <ls n=\"Bg.\">18. 45</ls>.\n",
+                ".²4 To marry; <ls>Ms. 9. 69</ls>. --IV. €7 <ab>Ā.</ab> ({#vintte, vitta#} or {#vinna#})\n",
+                ".²1 To know, understand.\n",
+                ".²2 To consider, regard, take for; {#na tfRehmIti loko'yaM vintte mAM nizparAkramam#} <ls>Bk. 6. 39</ls>.\n",
+                ".²3 To find, meet with.\n",
+                ".²4 To reason, reflect.\n",
+                ".²5 To examine, inquire into. --V. €10 <ab>Ā.</ab> ({#vedayate#})\n",
+                ".²1 To tell, declare, announce, communicate.\n",
+                ".²2 To feel, experience.\n",
+                ".²3 To dwell. (The following verse illustrates the root in some of its\n conjugations:-- {#vetti sarvARi SAstrARi garvastasya na vidyate . vintte#}\n {#DarmaM sadA sadBistezu pUjAM ca vindati ..#} <ab>cf.</ab> also:-- {#sattAyAM vidyate#}\n {#jYAte vetti vintte vicAraRe . vindate vindati prAptO Syanluk SnamSozvidaM#}\n {#kramAt ..#}) [<ab>cf.</ab> <lang>L.</lang> {%video%}; <lang>A. S.</lang> {%witan%}; <lang>Goth.</lang> {%vait%}]."
+            ]
+        }
     ]
 }

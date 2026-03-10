@@ -1,16 +1,88 @@
 {
-    "__line": 35247,
+    "__line": 32472,
     "_ancestry": [
         "L_ 3880",
-        "B_ {#aMbayA#}"
+        "B_ {#aBIru#}"
     ],
-    "_banner": "{#aMbayA#}",
+    "_banner": "{#aBIru#}",
     "_bannerExp": [
         {
-            "Right": "aMbayA"
+            "Right": "aBIru"
+        },
+        {
+            "Right": "aBIruH"
+        },
+        {
+            "Right": "aBIrU"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-ruH, -rU#}|{%f.%})"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> A mother; good \nwoman (as a courteous mode of \naddress); or, conveying water."
+        ".²1 Fearless.\n",
+        ".²2 Unterrific, harmless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 32475,
+            "_ancestry": [
+                "L_ 3880",
+                "B_ {#aBIru#}",
+                "M_ .{@{#-ruH#}@}"
+            ],
+            "_banner": ".{@{#-ruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBIruH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Śiva or Bhairava.\n",
+                ".²2 Name of a prince in the <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 32478,
+            "_ancestry": [
+                "L_ 3880",
+                "B_ {#aBIru#}",
+                "M_ .{@{#-ruH#}@}"
+            ],
+            "_banner": ".{@{#-ruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBIruH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{#-aBIrupatrI#}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant (<lang>Mar.</lang> <ns>{#SatAvarI#}</ns>) Asparagus Racemosus.\n"
+            ]
+        },
+        {
+            "__line": 32480,
+            "_ancestry": [
+                "L_ 3880",
+                "B_ {#aBIru#}",
+                "M_ .{@{#-ru#}@}"
+            ],
+            "_banner": ".{@{#-ru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBIru"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "A place of battle."
+            ]
+        }
     ]
 }

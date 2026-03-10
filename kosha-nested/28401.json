@@ -1,22 +1,36 @@
 {
-    "__line": 238705,
+    "__line": 262346,
     "_ancestry": [
         "L_ 28401",
-        "B_ {#SrIla#}"
+        "B_ {#vaDram#}"
     ],
-    "_banner": "{#SrIla#}",
+    "_banner": "{#vaDram#}",
     "_bannerExp": [
         {
-            "Right": "SrIla"
+            "Right": "vaDram"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Rich, wealthy. ",
-        "{@--2@} \nFortunate, prosperous. ",
-        "{@--3@} Beautiful.\n",
-        "{@--4@} Famous, celebrated."
+        ".²1 A leathern strap or thong; see {#varDram#}.\n",
+        ".²2 Lead.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 262349,
+            "_ancestry": [
+                "L_ 28401",
+                "B_ {#vaDram#}",
+                "M_ .{@{#-DrI#}@}"
+            ],
+            "_banner": ".{@{#-DrI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaDrI"
+                }
+            ],
+            "_meanings": [
+                "A leathern thong."
+            ]
+        }
     ]
 }

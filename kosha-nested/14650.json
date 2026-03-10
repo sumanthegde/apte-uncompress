@@ -1,20 +1,61 @@
 {
-    "__line": 121835,
+    "__line": 126946,
     "_ancestry": [
         "L_ 14650",
-        "B_ {#tijilaH(naH)#}"
+        "B_ {#catura#}"
     ],
-    "_banner": "{#tijilaH(naH)#}",
+    "_banner": "{#catura#}",
     "_bannerExp": [
         {
-            "Right": "tijilaH"
-        },
-        {
-            "Right": "tijinaH"
+            "Right": "catura"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#cat--urac#}]"
+    ],
     "_meanings": [
-        "{@--1@} The moon. ",
-        "{@--2@}\nA Rākṣasa."
+        ".²1 Clever, skilful, ingenious, sharp-witted; {#sarvAtmanA ratikaTAcatureva#}\n {#dUtI#} <ls>Mu. 3. 9</ls>; <ls>Amaru. 15. 44</ls>; {#mfgayA jahAra catureva kAminI#} <ls>R. 9. 69</ls>, <ls n=\"R.\">18. 15</ls>.\n",
+        ".²2 Quick, swift.\n",
+        ".²3 Charming, beautiful, lovely,\n\n agreeable; {#na punareti gataM caturaM vayaH#} <ls>R. 9. 47</ls>; <ls>Ku. 1. 47</ls>, <ls n=\"Ku.\">3. 5</ls>, <ls n=\"Ku.\">5. 49</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 126953,
+            "_ancestry": [
+                "L_ 14650",
+                "B_ {#catura#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A round pillow.\n",
+                ".²2 Crooked gait.\n",
+                ".²3 An elephantʼs stable.\n"
+            ]
+        },
+        {
+            "__line": 126957,
+            "_ancestry": [
+                "L_ 14650",
+                "B_ {#catura#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Cleverness, ingenuity.\n",
+                ".²2 An elephantʼs stable."
+            ]
+        }
     ]
 }

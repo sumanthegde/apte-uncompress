@@ -1,63 +1,165 @@
 {
-    "__line": 214779,
+    "__line": 228972,
     "_ancestry": [
         "L_ 25342",
-        "B_ {#vANmaya#}"
+        "B_ {#Bogin#}"
     ],
-    "_banner": "{#vANmaya#}",
+    "_banner": "{#Bogin#}",
     "_bannerExp": [
         {
-            "Right": "vANmayI"
-        },
-        {
-            "Right": "vANmaya"
+            "Right": "Bogin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#yI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "[{#Boga-ini#}]"
     ],
     "_meanings": [
-        "{@--1@} Consisting\nof words; <ls>R. 3. 28.</ls> ",
-        "{@--2@} Relating to\nspeech or words; <ls>Ms. 12. 6</ls>;  \n<ls>Bg. 17. 15.</ls> ",
-        "{@--3@} Endowed with speech. ",
-        "{@--4@}\nEloquent, rhetorical, oratorical. "
+        ".²1 Eating.\n",
+        ".²2 Enjoying.\n",
+        ".²3 Suffering, experiencing, enduring.\n",
+        ".²4 Using, possessing (at the end of <ab>comp.</ab> in these four senses.)\n",
+        ".²5 Having curves, having large body; {#aBavan pannagAstrastA BoginastatravAsinaH#}\n <ls>Rām. 6. 50. 35</ls> (<ab>com.</ab>).\n",
+        ".²6 Having hoods.\n",
+        ".²7 Devoted to enjoyment, indulging in sensual pleasures; {#BoginaH kaYcukAvizwAH#}\n {#kuwilAH krUracezwitAH . suduzwA mantrasADyASca rAjAnaH pannagA iva ..#}\n <ls>Pt. 1. 65</ls> (where it has sense 6 also).\n",
+        ".²8 Rich, opulent. "
     ],
     "_morphisms": [
         {
-            "__line": 214783,
+            "__line": 228983,
             "_ancestry": [
                 "L_ 25342",
-                "B_ {#vANmaya#}",
-                "M_ {#--yaM#}"
+                "B_ {#Bogin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--yaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "vANmayaM"
+                    "Left": "Parser error: {#Bogin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Speech, language;  \n{#myarastajaBnagErlAMtEreBirdaSaBirakzarEH . samastaM vANmayaM vyAptaM#} \n{#trElokyamiva vizRutA#} Cand. <ls>M. 1</ls>;  \n<ls>Ku. 7. 90</ls>; <ls>Śi. 2. 72.</ls> ",
-                "{@--2@} Eloquence. ",
-                "{@--3@}\nRhetoric. "
+                ".²1 A snake; {#gajAjinAlambi pinadDaBogi vA#} <ls>Ku. 5. 78</ls>; <ls>R. 2. 32</ls>, <ls n=\"R.\">4. 48</ls>, <ls n=\"R.\">10. 7</ls>, <ls n=\"R.\">11. 59</ls>.\n",
+                ".²2 A king.\n",
+                ".²3 A voluptuary.\n",
+                ".²4 A barber.\n",
+                ".²5 The headman of a village.\n",
+                ".²6 The lunar mansion {#ASlezA#}.\n"
             ]
         },
         {
-            "__line": 214788,
+            "__line": 228990,
             "_ancestry": [
                 "L_ 25342",
-                "B_ {#vANmaya#}",
-                "M_ {#--yI#}"
+                "B_ {#Bogin#}",
+                "M_ .{@{#-nI#}@}"
             ],
-            "_banner": "{#--yI#}",
+            "_banner": ".{@{#-nI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vANmayI"
+                    "Right": "BoginI"
                 }
             ],
             "_meanings": [
-                "The goddess \nSarasvatī."
+                ".²1 A woman belonging to the kingʼs harem, but not consecrated with him,\n the concubine of a king.\n",
+                ".²2 A kind of heroine.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 228995,
+            "_ancestry": [
+                "L_ 25342",
+                "B_ {#Bogin#}",
+                "S_ .{@{#-indraH, -ISaH#}@}"
+            ],
+            "_banner": ".{@{#-indraH, -ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BogIndraH"
+                },
+                {
+                    "Right": "BogISaH"
+                }
+            ],
+            "_meanings": [
+                "Śeṣa or Vāsuki.\n"
+            ]
+        },
+        {
+            "__line": 228996,
+            "_ancestry": [
+                "L_ 25342",
+                "B_ {#Bogin#}",
+                "S_ .{@{#-kAntaH#}@}"
+            ],
+            "_banner": ".{@{#-kAntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BogikAntaH"
+                }
+            ],
+            "_meanings": [
+                "wind, air.\n"
+            ]
+        },
+        {
+            "__line": 228997,
+            "_ancestry": [
+                "L_ 25342",
+                "B_ {#Bogin#}",
+                "S_ .{@{#-Buj#}@}"
+            ],
+            "_banner": ".{@{#-Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BogiBuj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 an ichneumon.\n",
+                ".²2 a peacock.\n"
+            ]
+        },
+        {
+            "__line": 229000,
+            "_ancestry": [
+                "L_ 25342",
+                "B_ {#Bogin#}",
+                "S_ .{@{#-rAj#}@}"
+            ],
+            "_banner": ".{@{#-rAj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BogirAj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "Śeṣa, the lord of snakes; {#Buje BogirAjo gale kAlimA ca#}.\n"
+            ]
+        },
+        {
+            "__line": 229001,
+            "_ancestry": [
+                "L_ 25342",
+                "B_ {#Bogin#}",
+                "S_ .{@{#-vallaBam#}@}"
+            ],
+            "_banner": ".{@{#-vallaBam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BogivallaBam"
+                }
+            ],
+            "_meanings": [
+                "sandal."
             ]
         }
     ]

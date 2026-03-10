@@ -1,20 +1,58 @@
 {
-    "__line": 150654,
+    "__line": 157525,
     "_ancestry": [
         "L_ 17810",
-        "B_ {#parAjita#}"
+        "B_ {#dviDA#}"
     ],
-    "_banner": "{#parAjita#}",
+    "_banner": "{#dviDA#}",
     "_bannerExp": [
         {
-            "Right": "parAjita"
+            "Right": "dviDA"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@} Conquered, \nsubjugated, defeated. ",
-        "{@--2@} Condemned\nby law, cast or defeated (as in a\nlaw-suit)."
+        ".²1 In two parts; {#dviDA BinnAH SiKaRqiBiH#} <ls>R. 1. 39</ls>; <ls>Ms. 1. 12</ls>, <ls n=\"Ms. 1.\">32</ls>;\n {#dviDeva hfdayaM tasya duHKitasyABavat tadA#}\n\n <ls>Mb.</ls>\n",
+        ".²2 In two ways.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 157532,
+            "_ancestry": [
+                "L_ 17810",
+                "B_ {#dviDA#}",
+                "S_ .{@{#-karaRam#}@}"
+            ],
+            "_banner": ".{@{#-karaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dviDAkaraRam"
+                }
+            ],
+            "_meanings": [
+                "dividing into two parts, splitting.\n"
+            ]
+        },
+        {
+            "__line": 157533,
+            "_ancestry": [
+                "L_ 17810",
+                "B_ {#dviDA#}",
+                "S_ .{@{#-gatiH#}@}"
+            ],
+            "_banner": ".{@{#-gatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dviDAgatiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an amphibious animal.\n",
+                ".²2 a crab.\n",
+                ".²3 a crocodile."
+            ]
+        }
     ]
 }

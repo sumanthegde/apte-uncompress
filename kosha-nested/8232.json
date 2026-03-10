@@ -1,23 +1,115 @@
 {
-    "__line": 70807,
+    "__line": 69047,
     "_ancestry": [
         "L_ 8232",
-        "B_ {#udBedaH, --danaM#}"
+        "B_ {#ila#}"
     ],
-    "_banner": "{#udBedaH, --danaM#}",
+    "_banner": "{#ila#}",
     "_bannerExp": [
         {
-            "Right": "udBedaH"
-        },
-        {
-            "Right": "udBedanaM"
+            "Right": "ila"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#il-ka#}]"
+    ],
     "_meanings": [
-        "{@--1@} Breaking through or\nout, becoming visible, appearance,\ndisplay, manifestation, growth, \ndevelopment; {#kisalayodBedapratidvaMdviBiH#}  \n<ls>Ś. 4. 4</ls>; {#umAstanodBedamanu pravfdDaH#}  \n<ls>Ku. 7. 24</ls>; {#taM yOvanodBedaviSezakAMtaM#} <ls>R. 5. 38</ls>;\n<ls>Śi. 18. 36</ls>; <ls>Mu. 5. 3.</ls> ",
-        "{@--2@} Breaking,\nsplitting; {#prastarodBadayogyaH#} <ls>U. 3. 25.</ls>\n",
-        "{@--3@} A spring, fountain. ",
-        "{@--4@} \nHorripilation; as in {#pulakodBeda, romodBeda#}. ",
-        "{@--5@}\nTreason, betrayal. "
+        "Sleepy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 69048,
+            "_ancestry": [
+                "L_ 8232",
+                "B_ {#ila#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ilA"
+                }
+            ],
+            "_meanings": [
+                ".²1 The earth; {#puzwikAma ilAM yajet#} <ls>Bhāg. 2. 3. 5</ls>.\n",
+                ".²2 A cow; <ls>Bhāg. 3. 18. 19</ls>.\n",
+                ".²3 Speech; <ls>Bhāg. 10. 13. 64</ls> <ab>&c.</ab>; see {#iqA#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 69053,
+            "_ancestry": [
+                "L_ 8232",
+                "B_ {#ila#}",
+                "S_ .{@{#-golaH, -lam#}@}"
+            ],
+            "_banner": ".{@{#-golaH, -lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ilagolaH"
+                },
+                {
+                    "Right": "ilagolam"
+                }
+            ],
+            "_meanings": [
+                "the earth, the globe.\n"
+            ]
+        },
+        {
+            "__line": 69054,
+            "_ancestry": [
+                "L_ 8232",
+                "B_ {#ila#}",
+                "S_ .{@{#-talam#}@}"
+            ],
+            "_banner": ".{@{#-talam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ilatalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the fourth place in the circle of the zodiac.\n",
+                ".²2 the surface of the earth.\n"
+            ]
+        },
+        {
+            "__line": 69057,
+            "_ancestry": [
+                "L_ 8232",
+                "B_ {#ila#}",
+                "S_ .{@{#-DaraH#}@}"
+            ],
+            "_banner": ".{@{#-DaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ilaDaraH"
+                }
+            ],
+            "_meanings": [
+                "a mountain; {#gaganArRavamantarA sumeroH kulajAnAM garuqErilADarARAm#} <ls>Śi. 20. 54</ls>.\n"
+            ]
+        },
+        {
+            "__line": 69058,
+            "_ancestry": [
+                "L_ 8232",
+                "B_ {#ila#}",
+                "S_ .{@{#-vfttam#}@}"
+            ],
+            "_banner": ".{@{#-vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ilavfttam"
+                }
+            ],
+            "_meanings": [
+                "one of the nine Varṣas or divisions of the known world;\n {#paScAnmAlyavataH prAcyAM ganDamAdanaSElataH . ilAvftaM nIlagireryAmyato#}\n {#nizaDAdudak ..#}"
+            ]
+        }
     ]
 }

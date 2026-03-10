@@ -1,17 +1,63 @@
 {
-    "__line": 76336,
+    "__line": 75676,
     "_ancestry": [
         "L_ 8988",
-        "B_ {#upasarpaH#}"
+        "B_ {#udgata#}"
     ],
-    "_banner": "{#upasarpaH#}",
+    "_banner": "{#udgata#}",
     "_bannerExp": [
         {
-            "Right": "upasarpaH"
+            "Right": "udgata"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Approach, access. ",
-        "{@--2@}\nFollowing a person."
+        ".²1 Gone up, risen, ascended.\n",
+        ".²2 Proceeded forth or from.\n",
+        ".²3 Gone, departed.\n",
+        ".²4 Vomited.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 75681,
+            "_ancestry": [
+                "L_ 8988",
+                "B_ {#udgata#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udgatA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 75683,
+            "_ancestry": [
+                "L_ 8988",
+                "B_ {#udgata#}",
+                "S_ .{@{#-asu#}@}"
+            ],
+            "_banner": ".{@{#-asu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udgatAsu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deceased, dead."
+            ]
+        }
     ]
 }

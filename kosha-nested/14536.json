@@ -1,17 +1,79 @@
 {
-    "__line": 120992,
+    "__line": 125661,
     "_ancestry": [
         "L_ 14536",
-        "B_ {#taskaratA#}"
+        "B_ {#GfRi#}"
     ],
-    "_banner": "{#taskaratA#}",
+    "_banner": "{#GfRi#}",
     "_bannerExp": [
         {
-            "Right": "taskaratA"
+            "Right": "GfRi"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#Gf-nini˚ guRABAvaH#}]"
+    ],
     "_meanings": [
-        "{@--1@} Theft. ",
-        "{@--2@} Hearing."
+        ".²1 Displeasing.\n",
+        ".²2 Shining; {#tasya tyaktasvaBAvasya GfRermAyAvanOkasaH#} <ls>Bhāg. 7. 2. 7</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 125664,
+            "_ancestry": [
+                "L_ 14536",
+                "B_ {#GfRi#}",
+                "M_ .{@{#-RiH#}@}"
+            ],
+            "_banner": ".{@{#-RiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GfRiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Heat, sunshine.\n",
+                ".²2 A ray of light.\n",
+                ".²3 The sun.\n",
+                ".²4 A wave. "
+            ]
+        },
+        {
+            "__line": 125668,
+            "_ancestry": [
+                "L_ 14536",
+                "B_ {#GfRi#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#GfRi#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Water.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 125670,
+            "_ancestry": [
+                "L_ 14536",
+                "B_ {#GfRi#}",
+                "S_ .{@{#-niDiH#}@}"
+            ],
+            "_banner": ".{@{#-niDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GfRiniDiH"
+                }
+            ],
+            "_meanings": [
+                "the sun. ({%f.%}) the Ganges."
+            ]
+        }
     ]
 }

@@ -1,81 +1,34 @@
 {
-    "__line": 100307,
+    "__line": 101320,
     "_ancestry": [
         "L_ 12000",
-        "B_ {#kzmA#}"
+        "B_ {#kAmiH#}"
     ],
-    "_banner": "{#kzmA#}",
+    "_banner": "{#kAmiH#}",
     "_bannerExp": [
         {
-            "Right": "kzmA"
+            "Right": "kAmiH"
         }
     ],
     "_meanings": [
-        "{@--1@} The earth; {#(putraM) kzmAM#}\n{#laMBayitvA kzamayopapannaM#} <ls>R. 18. 9</ls>; {#kiM#} \n{#Sezasya BaravyaTA na vapuzi kzmAM na kzipatyeza#}\n{#yat#} <ls>Mu. 2. 18.</ls> ",
-        "{@--2@} (In math.) The\nnumber ‘one’. "
+        "A libidinous man, lecher. "
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 100311,
+            "__line": 101320,
             "_ancestry": [
                 "L_ 12000",
-                "B_ {#kzmA#}",
-                "S_  {#--jaH#}"
+                "B_ {#kAmiH#}",
+                "M_ --{%f.%}"
             ],
-            "_banner": " {#--jaH#}",
+            "_banner": "--{%f.%}",
             "_bannerExp": [
                 {
-                    "Right": "kzmAjaH"
+                    "Left": "Parser error: {#kAmiH#} M_ --{%f.%}"
                 }
             ],
             "_meanings": [
-                "the\nplanet Mars. "
-            ]
-        },
-        {
-            "__line": 100312,
-            "_ancestry": [
-                "L_ 12000",
-                "B_ {#kzmA#}",
-                "S_ {#--paH, --patiH, --Buj#}"
-            ],
-            "_banner": "{#--paH, --patiH, --Buj#}",
-            "_bannerExp": [
-                {
-                    "Right": "kzmABuj"
-                },
-                {
-                    "Right": "kzmApaH"
-                },
-                {
-                    "Right": "kzmApatiH"
-                }
-            ],
-            "_gram": [
-                "{%<ab>m.</ab>%}"
-            ],
-            "_meanings": [
-                "a king; {#kavikzmApatiH#} <ls>Gīt. 1</ls>;  \n{#deSAnAmupari kzmApAH#} <ls>Pt. 1. 155.</ls> "
-            ]
-        },
-        {
-            "__line": 100314,
-            "_ancestry": [
-                "L_ 12000",
-                "B_ {#kzmA#}",
-                "S_ {#--Bft#}"
-            ],
-            "_banner": "{#--Bft#}",
-            "_bannerExp": [
-                {
-                    "Right": "kzmABft"
-                }
-            ],
-            "_gram": [
-                "{%<ab>m.</ab>%}"
-            ],
-            "_meanings": [
-                "a\nking or mountain."
+                "<ab>N.</ab> of Rati."
             ]
         }
     ]

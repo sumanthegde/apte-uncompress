@@ -1,70 +1,93 @@
 {
-    "__line": 135245,
+    "__line": 139490,
     "_ancestry": [
         "L_ 16106",
-        "B_ {#DUta#}"
+        "B_ {#tanayaH#}"
     ],
-    "_banner": "{#DUta#}",
+    "_banner": "{#tanayaH#}",
     "_bannerExp": [
         {
-            "Right": "DUta"
+            "Right": "tanayaH"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#DU-kta#}]"
+        "[{#tanoti kulaM, tan-kayan#}]"
     ],
     "_meanings": [
-        "{@--1@} Shaken. ",
-        "{@--2@}\nShaken off, removed. ",
-        "{@--3@} Fanned. ",
-        "{@--4@}\nAbandoned, deserted. ",
-        "{@--5@} Reviled.\n",
-        "{@--6@} Judged. ",
-        "{@--7@} Disregarded, treated\nwith contempt. ",
-        "{@--8@} Judged. "
+        ".²1 A son; <ls>Ms. 3. 16</ls>; {#sudakziRAyAM tanayaM yayAce#} <ls>R. 2. 64</ls>.\n",
+        ".²2 A male descendant.\n",
+        ".²3 (In <ab>astrol.</ab>) <ab>N.</ab> of the fifth lunar mansion.\n"
     ],
     "_morphisms": [
         {
-            "__line": 135249,
+            "__line": 139494,
             "_ancestry": [
                 "L_ 16106",
-                "B_ {#DUta#}",
-                "M_ {#--tA#}"
+                "B_ {#tanayaH#}",
+                "M_ .{@{#-yA#}@}"
             ],
-            "_banner": "{#--tA#}",
+            "_banner": ".{@{#-yA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "DUtA"
+                    "Right": "tanayA"
                 }
             ],
             "_meanings": [
-                "A\nwife. "
+                "A daughter; <ls>Ms. 11. 171</ls>. {#˚Bavanam#} The 5th lunar mansion;\n <ls>Bṛ. S. 104. 27</ls>. {#giri˚, kalinda˚#} <ab>&c.</ab>\n"
             ]
-        }
-    ],
-    "_samasas": [
+        },
         {
-            "__line": 135250,
+            "__line": 139496,
             "_ancestry": [
                 "L_ 16106",
-                "B_ {#DUta#}",
-                "S_  {#--kalmaza, --pApa#}"
+                "B_ {#tanayaH#}",
+                "M_ .{@{#-yO#}@}"
             ],
-            "_banner": " {#--kalmaza, --pApa#}",
+            "_banner": ".{@{#-yO#}@}",
             "_bannerExp": [
                 {
-                    "Right": "DUtakalmaza"
-                },
+                    "Right": "tanayO"
+                }
+            ],
+            "_meanings": [
+                "(dual) A son and a daughter.\n"
+            ]
+        },
+        {
+            "__line": 139497,
+            "_ancestry": [
+                "L_ 16106",
+                "B_ {#tanayaH#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
                 {
-                    "Right": "DUtapApa"
+                    "Right": "tanayam"
+                }
+            ],
+            "_meanings": [
+                "Posterity, family, offspring.\n"
+            ]
+        },
+        {
+            "__line": 139498,
+            "_ancestry": [
+                "L_ 16106",
+                "B_ {#tanayaH#}",
+                "M_ .{@{#-tanayIkfta#}@}"
+            ],
+            "_banner": ".{@{#-tanayIkfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanayIkfta"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "who\nhas shaken off his sins, free from\nsin."
+                "made a son; {#mAtAmahasya yo mAtrA dOhitrastanayIkftaH#} <ls>Rāj. T. 4. 8</ls>."
             ]
         }
     ]

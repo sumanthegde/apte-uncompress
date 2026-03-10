@@ -1,39 +1,45 @@
 {
-    "__line": 256227,
+    "__line": 281992,
     "_ancestry": [
         "L_ 30552",
-        "B_ {#sevin#}"
+        "B_ {#visPar#}, {#-visPur#}"
     ],
-    "_banner": "{#sevin#}",
+    "_banner": "{#visPar#}, {#-visPur#}",
     "_bannerExp": [
         {
-            "Right": "sevin"
+            "Right": "visPar"
+        },
+        {
+            "Right": "visPur"
         }
     ],
+    "_gram": [
+        "€6",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "{%a%}, ",
-        "{@--1@} Serving, worshipping.\n",
-        "{@--2@} Following, practising, using. ",
-        "{@--3@}\nInhabiting, dwelling. "
+        "²1 To quiver, palpitate, tremble; <ls>Mb. 1. 52. 5</ls>.\n",
+        ".²2 To move about, struggle; {#visPurantIM yaTAkAmaM mETunAyopacakrame#}\n <ls>Rām. 7. 80. 16</ls>; <ls>Mb. 1. 125. 8</ls>.\n",
+        ".²3 To shine, gleam; {#kiM nAma visPuranti SastrARi#} <ls>U. 4</ls>.\n",
+        ".²4 To draw or twang (as a bow, used in {%<ab>Caus.</ab>%} in the same sense);\n {#eko'pi visPuritamaRqalacApacakaM kaH sinDurAjamaBizeRayituM samarTaH#} <ls>Ve. 2. 26</ls>.\n",
+        ".²5 (<ab>esp.</ab> {#visPar#}) To open wide (eyes). "
     ],
     "_morphisms": [
         {
-            "__line": 256229,
+            "__line": 281999,
             "_ancestry": [
                 "L_ 30552",
-                "B_ {#sevin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#visPar#}, {#-visPur#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "sevin"
+                    "Right": "visPar"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
-            ],
             "_meanings": [
-                "A \nservant."
+                "To draw (a bow);\n {#visPAryamARasya tato BujAByAM BUtAni BartrA Danurantakasya#} <ls>Ki. 17. 24</ls>;\n <ls>Rām. 7. 28. 45</ls>."
             ]
         }
     ]

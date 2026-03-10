@@ -1,39 +1,39 @@
 {
-    "__line": 135049,
+    "__line": 139039,
     "_ancestry": [
         "L_ 16081",
-        "B_ {#DIvan#}"
+        "B_ {#taturi#}"
     ],
-    "_banner": "{#DIvan#}",
+    "_banner": "{#taturi#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: DIvan  rI"
-        },
-        {
-            "Right": "DIvan"
+            "Right": "taturi"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#rI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Clever, skilful.\n"
+        ".²1 Preserving, cherishing.\n",
+        ".²2 Conquering; {#dadaTurmitrAvaruRA taturim#} <ls>Rv. 4. 39. 2</ls>. ",
+        ".²3 Killing, hurting.\n"
     ],
     "_morphisms": [
         {
-            "__line": 135050,
+            "__line": 139042,
             "_ancestry": [
                 "L_ 16081",
-                "B_ {#DIvan#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#taturi#}",
+                "M_ .{@{#-riH#}@}"
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_banner": ".{@{#-riH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taturiH"
+                }
             ],
             "_meanings": [
-                "{@--1@} An artist. ",
-                "{@--2@} A fisherman."
+                "An epithet of Agni and Indra."
             ]
         }
     ]

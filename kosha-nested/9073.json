@@ -1,23 +1,42 @@
 {
-    "__line": 76985,
+    "__line": 76369,
     "_ancestry": [
         "L_ 9073",
-        "B_ {#upAgam#}"
+        "B_ {#uddIpra#}"
     ],
-    "_banner": "{#upAgam#}",
+    "_banner": "{#uddIpra#}",
     "_bannerExp": [
         {
-            "Right": "upAgam"
+            "Right": "uddIpra"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#dIpa-ran#}]"
     ],
     "_meanings": [
-        "{@--1@} To come, approach,\ngo or draw near (a person or place).\n",
-        "{@--2@} ({%a%}) To go to, go to the state of;\n{#paMcatvamupAgataH#} or {#parAM tfptimupAgataH#}; so\n{#kroDaM, mohaM, kzayaM#} &c. ({%b%}) To undergo,\nsuffer, endure. ",
-        "{@--3@} To obtain, get;\n{#dAyAdupAgato dAsaH#} <ls>Mit.</ls>; <ls>Y. 2. 143.</ls>\n",
-        "{@--4@} To occur, fall to the lot of."
+        "<ls>P. III. 2. 147</ls>. Shining, blazing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 76370,
+            "_ancestry": [
+                "L_ 9073",
+                "B_ {#uddIpra#}",
+                "M_ .{@{#-praH, -pram#}@}"
+            ],
+            "_banner": ".{@{#-praH, -pram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uddIpraH"
+                },
+                {
+                    "Right": "uddIpram"
+                }
+            ],
+            "_meanings": [
+                "Bdellium (<lang>Mar.</lang> <ns>{#gugguLa#}</ns>)."
+            ]
+        }
     ]
 }

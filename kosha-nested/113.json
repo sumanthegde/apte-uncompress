@@ -1,37 +1,64 @@
 {
-    "__line": 1870,
+    "__line": 981,
     "_ancestry": [
         "L_ 113",
-        "B_ {#akroDana#}"
+        "B_ {#akfzRa#}"
     ],
-    "_banner": "{#akroDana#}",
+    "_banner": "{#akfzRa#}",
     "_bannerExp": [
         {
-            "Right": "akroDana"
+            "Right": "akfzRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "Free from anger. "
+        "Not black, white, pure.\n"
     ],
     "_morphisms": [
         {
-            "__line": 1870,
+            "__line": 982,
             "_ancestry": [
                 "L_ 113",
-                "B_ {#akroDana#}",
-                "M_ {#--naH#}"
+                "B_ {#akfzRa#}",
+                "M_ .{@{#-zRaH#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-zRaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "akroDanaH"
+                    "Right": "akfzRaH"
                 }
             ],
+            "_gram": [
+                "[{#nAsti kfzRaM male yasya#}]"
+            ],
             "_meanings": [
-                "<ab>N.</ab> of a prince, son of Ayutāyu."
+                ".²1 The spotless moon; {#candramA vE brahmA 'kfzRaH iti SrutiH#}\n",
+                ".²2 Camphor.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 988,
+            "_ancestry": [
+                "L_ 113",
+                "B_ {#akfzRa#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akfzRakarman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "virtuous, free from black deeds, innocent."
             ]
         }
     ]

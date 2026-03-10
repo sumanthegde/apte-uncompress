@@ -1,23 +1,82 @@
 {
-    "__line": 252886,
+    "__line": 279065,
     "_ancestry": [
         "L_ 30260",
-        "B_ {#si#}"
+        "B_ {#vivAdaH#}"
     ],
-    "_banner": "{#si#}",
+    "_banner": "{#vivAdaH#}",
     "_bannerExp": [
         {
-            "Right": "si"
+            "Right": "vivAdaH"
         }
     ],
-    "_gram": [
-        "{c5c}",
-        "{c9c}",
-        "<ab>U.</ab>",
-        "({#sinoti, sinute#}, \n{#sinAti, sinIte#})"
-    ],
     "_meanings": [
-        "{@--1@} To bind, tie, fasten. ",
-        "{@--2@}\nTo ensnare."
+        ".²1\n",
+        ".³({%a%}) A dispute, contest, contention, controversy, discussion, debate,\n quarrel, strife; {#alaM vivAdena#} <ls>Ku. 5. 82</ls>; {#etayorvivAda eva me na#}\n {#rocate#} <ls>M. 1</ls>; {#ekApsaraHprArTitayorvivAdaH#} <ls>R. 7. 53</ls>; {#vikrIte kariRi#}\n {#kimaNkuSe vivAdaH#} <ls>Subhāṣ.</ls>\n",
+        ".³({%b%}) Argument, argumentation, discussion.\n",
+        ".²2 Contradiction; {#eza vivAda eva pratyAyayati#} <ls>Ś. 7</ls>.\n",
+        ".²3 A litigation, law-suit, contest at law; {#sImAvivAdaH, vivAdapadam#}\n <ab>&c.</ab>; (it is thus defined:-- {#fRAdidAyakalahe dvayorbahutarasya vA vivAdo#}\n {#vyavahAraSca#}); see {#vyavahAra#} also.\n",
+        ".²4 Crying aloud, sounding.\n",
+        ".²6 An order, command; {#tasyAnanAduccarito vivAdaScasKAla velAsvapi nArRavAnAm#} <ls>R. 18. 43</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 279079,
+            "_ancestry": [
+                "L_ 30260",
+                "B_ {#vivAdaH#}",
+                "S_ .{@{#-arTin#}@}"
+            ],
+            "_banner": ".{@{#-arTin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivAdArTin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a litigant.\n",
+                ".²2 a plaintiff, complainant, prosecutor.\n"
+            ]
+        },
+        {
+            "__line": 279082,
+            "_ancestry": [
+                "L_ 30260",
+                "B_ {#vivAdaH#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivAdapadam"
+                }
+            ],
+            "_meanings": [
+                "a title of dispute; {#vivAdapadanibanDaH#} <ls>Kau. A. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 279083,
+            "_ancestry": [
+                "L_ 30260",
+                "B_ {#vivAdaH#}",
+                "S_ .{@{#-vastu#}@}"
+            ],
+            "_banner": ".{@{#-vastu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivAdavastu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the subject of dispute, the matter at issue."
+            ]
+        }
     ]
 }

@@ -1,17 +1,612 @@
 {
-    "__line": 122629,
+    "__line": 127959,
     "_ancestry": [
         "L_ 14755",
-        "B_ {#tuMqikerI#}"
+        "B_ {#carman#}"
     ],
-    "_banner": "{#tuMqikerI#}",
+    "_banner": "{#carman#}",
     "_bannerExp": [
         {
-            "Right": "tuMqikerI"
+            "Right": "carman"
         }
     ],
+    "_gram": [
+        "{%n.%}",
+        "[{#car-manin#} <ls>Uṇ. 4. 144</ls>]"
+    ],
     "_meanings": [
-        "{@--1@} The cotton plant. ",
-        "{@--2@} A\nlarge swelling on the palate."
+        "Skin (of the body).\n",
+        ".²2 Leather, hide; <ls>Ms. 2. 41</ls>, <ls n=\"Ms. 2.\">174</ls>.\n",
+        ".²3 The sense of touch.\n",
+        ".²4 A shield; <ls>Śi. 18. 21</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 127964,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-antaH#}@}"
+            ],
+            "_banner": ".{@{#-antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmAntaH"
+                }
+            ],
+            "_meanings": [
+                "a piece or strap of leather.\n"
+            ]
+        },
+        {
+            "__line": 127965,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-amBas#}@}"
+            ],
+            "_banner": ".{@{#-amBas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmAmBas"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "lymph.\n"
+            ]
+        },
+        {
+            "__line": 127966,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-avakartana#}@}"
+            ],
+            "_banner": ".{@{#-avakartana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmAvakartana"
+                }
+            ],
+            "_meanings": [
+                "working in leather.\n"
+            ]
+        },
+        {
+            "__line": 127967,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-avakartin, avakartf#}@}"
+            ],
+            "_banner": ".{@{#-avakartin, avakartf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmAvakartin"
+                },
+                {
+                    "Right": "carmAvakartf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a shoe-maker; {#takzRaScarmAvakartuSca#}\n <ls>Mb. 12. 36. 29</ls>; {#AyuH suvarRakArARAM yaSaScarmAvakartinA#} <ls>Ms. 4. 218</ls>\n"
+            ]
+        },
+        {
+            "__line": 127969,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-kazA#}@}"
+            ],
+            "_banner": ".{@{#-kazA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmakazA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant, Mimosa abstergens (<lang>Mar.</lang> <ns>{#SikekAI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 127970,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-kAraH, -kArin, -kft#}@}"
+            ],
+            "_banner": ".{@{#-kAraH, -kArin, -kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmakAraH"
+                },
+                {
+                    "Right": "carmakArin"
+                },
+                {
+                    "Right": "carmakft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a shoe-maker, currier; {#vaMSacarmakftastaTA#} <ls>Rām.</ls>\n",
+                ".²2 a mixed caste (from a Chāṇḍāla woman and fisherman).\n"
+            ]
+        },
+        {
+            "__line": 127973,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-kArakaH#}@}"
+            ],
+            "_banner": ".{@{#-kArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmakArakaH"
+                }
+            ],
+            "_meanings": [
+                "a worker in leather.\n"
+            ]
+        },
+        {
+            "__line": 127974,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-kIlaH, -lam#}@}"
+            ],
+            "_banner": ".{@{#-kIlaH, -lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmakIlaH"
+                },
+                {
+                    "Right": "carmakIlam"
+                }
+            ],
+            "_meanings": [
+                "a wart.\n"
+            ]
+        },
+        {
+            "__line": 127975,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-cawakaH, -kA, -cawikA, -cawI#}@}"
+            ],
+            "_banner": ".{@{#-cawakaH, -kA, -cawikA, -cawI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmacawakaH"
+                },
+                {
+                    "Right": "carmacawakA"
+                },
+                {
+                    "Right": "carmacawikA"
+                },
+                {
+                    "Right": "carmacawI"
+                }
+            ],
+            "_meanings": [
+                "a bat.\n"
+            ]
+        },
+        {
+            "__line": 127976,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-citrakam#}@}"
+            ],
+            "_banner": ".{@{#-citrakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmacitrakam"
+                }
+            ],
+            "_meanings": [
+                "white leprosy.\n"
+            ]
+        },
+        {
+            "__line": 127977,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmajam"
+                }
+            ],
+            "_meanings": [
+                ".²1 hair.\n",
+                ".²2 blood.\n"
+            ]
+        },
+        {
+            "__line": 127980,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-taraNgaH#}@}"
+            ],
+            "_banner": ".{@{#-taraNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmataraNgaH"
+                }
+            ],
+            "_meanings": [
+                "a wrinkle.\n"
+            ]
+        },
+        {
+            "__line": 127981,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-tila#}@}"
+            ],
+            "_banner": ".{@{#-tila#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmatila"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "covered with pimples.\n"
+            ]
+        },
+        {
+            "__line": 127982,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-daRqaH, -nAlikA, -nAsikA#}@}"
+            ],
+            "_banner": ".{@{#-daRqaH, -nAlikA, -nAsikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmadaRqaH"
+                },
+                {
+                    "Right": "carmanAlikA"
+                },
+                {
+                    "Right": "carmanAsikA"
+                }
+            ],
+            "_meanings": [
+                "a whip.\n"
+            ]
+        },
+        {
+            "__line": 127983,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-dalam, -dUzikA#}@}"
+            ],
+            "_banner": ".{@{#-dalam, -dUzikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmadalam"
+                },
+                {
+                    "Right": "carmadUzikA"
+                }
+            ],
+            "_meanings": [
+                "a kind of leprosy, cutaneous disease.\n"
+            ]
+        },
+        {
+            "__line": 127984,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-dnumaH, -vfkzaH#}@}"
+            ],
+            "_banner": ".{@{#-dnumaH, -vfkzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmadnumaH"
+                },
+                {
+                    "Right": "carmavfkzaH"
+                }
+            ],
+            "_meanings": [
+                "the Bhūrja tree.\n"
+            ]
+        },
+        {
+            "__line": 127985,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-pawwikA#}@}"
+            ],
+            "_banner": ".{@{#-pawwikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmapawwikA"
+                }
+            ],
+            "_meanings": [
+                "a flat piece of leather for playing upon with dice.\n"
+            ]
+        },
+        {
+            "__line": 127986,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-patrA#}@}"
+            ],
+            "_banner": ".{@{#-patrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmapatrA"
+                }
+            ],
+            "_meanings": [
+                "a bat, the small house-bat.\n"
+            ]
+        },
+        {
+            "__line": 127987,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-pAdukA#}@}"
+            ],
+            "_banner": ".{@{#-pAdukA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmapAdukA"
+                }
+            ],
+            "_meanings": [
+                "a leather shoe.\n"
+            ]
+        },
+        {
+            "__line": 127988,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-puwaH, -puwakaH#}@}"
+            ],
+            "_banner": ".{@{#-puwaH, -puwakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmapuwaH"
+                },
+                {
+                    "Right": "carmapuwakaH"
+                }
+            ],
+            "_meanings": [
+                "A leather bag for carrying water. <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 127989,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-praBedikA#}@}"
+            ],
+            "_banner": ".{@{#-praBedikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmapraBedikA"
+                }
+            ],
+            "_meanings": [
+                "a shoe makerʼs awl.\n"
+            ]
+        },
+        {
+            "__line": 127990,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-prasevakaH, -prasevikA#}@}"
+            ],
+            "_banner": ".{@{#-prasevakaH, -prasevikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmaprasevakaH"
+                },
+                {
+                    "Right": "carmaprasevikA"
+                }
+            ],
+            "_meanings": [
+                "a bellows.\n"
+            ]
+        },
+        {
+            "__line": 127991,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-banDaH#}@}"
+            ],
+            "_banner": ".{@{#-banDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmabanDaH"
+                }
+            ],
+            "_meanings": [
+                "a leather band or strap.\n"
+            ]
+        },
+        {
+            "__line": 127992,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-muRqA#}@}"
+            ],
+            "_banner": ".{@{#-muRqA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmamuRqA"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 127993,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-mnaH#}@}"
+            ],
+            "_banner": ".{@{#-mnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmamnaH"
+                }
+            ],
+            "_meanings": [
+                "A warrior using leather-armour; {#carmamRA aBito janAH#} <ls>Rv. 8. 5. 38</ls>.\n"
+            ]
+        },
+        {
+            "__line": 127994,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-yazwiH#}@}"
+            ],
+            "_banner": ".{@{#-yazwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmayazwiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a whip.\n"
+            ]
+        },
+        {
+            "__line": 127995,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-raNgAH#}@}"
+            ],
+            "_banner": ".{@{#-raNgAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmaraNgAH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "({%<ab>pl.</ab>%})"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a people in the north-west of Madhyadeśa;\n {#marukutsacarmaraNgAKyAH#} <ls>Bṛ. S. 14. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 127997,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-vasanaH#}@}"
+            ],
+            "_banner": ".{@{#-vasanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmavasanaH"
+                }
+            ],
+            "_meanings": [
+                "‘clad in skin’, <ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 127998,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-vAdyam#}@}"
+            ],
+            "_banner": ".{@{#-vAdyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmavAdyam"
+                }
+            ],
+            "_meanings": [
+                "a drum tabor <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 127999,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-saMBavA#}@}"
+            ],
+            "_banner": ".{@{#-saMBavA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmasamBavA"
+                }
+            ],
+            "_meanings": [
+                "large cardamoms.\n"
+            ]
+        },
+        {
+            "__line": 128000,
+            "_ancestry": [
+                "L_ 14755",
+                "B_ {#carman#}",
+                "S_ .{@{#-sAraH#}@}"
+            ],
+            "_banner": ".{@{#-sAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carmasAraH"
+                }
+            ],
+            "_meanings": [
+                "lymph, serum."
+            ]
+        }
     ]
 }

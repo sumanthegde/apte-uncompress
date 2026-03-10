@@ -1,19 +1,128 @@
 {
-    "__line": 23713,
+    "__line": 19445,
     "_ancestry": [
         "L_ 2295",
-        "B_ {#apagopura#}"
+        "B_ {#anfta#}"
     ],
-    "_banner": "{#apagopura#}",
+    "_banner": "{#anfta#}",
     "_bannerExp": [
         {
-            "Right": "apagopura"
+            "Right": "anfta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "Deprived of its \ngateways (as a town). "
+        ".²1 Not true, false (words); {#˚taM Danam#} <ls>Ms. 4. 170</ls> wrongly got; {#priyaM#}\n {#ca nAnftaM brUyAt#} <ls n=\"Ms.\">4. 138</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 19448,
+            "_ancestry": [
+                "L_ 2295",
+                "B_ {#anfta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anftam"
+                }
+            ],
+            "_meanings": [
+                "Falsehood, lying, cheating; deception, fraud; {#satyAnfte#}\n {#avapaSyaYjanAnAm#} <ls>Rv. 7. 49. 3</ls>; {#anftaM jIvitasyArTe vadanna spfSyate'nftEH#}\n <ls>Mb. 7. 190. 47</ls>, <ls n=\"Mb.\">1. 74. 105</ls>, <ls n=\"Mb.\">8. 69. 65</ls>. {#ftAnfte#} <ls>Ms. 1. 29</ls>; {#sAkzye'nftaM#}\n {#vadan#} <ls n=\"Ms.\">8. 97</ls>; <ab>oft.</ab> in <ab>comp.</ab>; {#paSu˚, BUmi˚, go˚, puruza˚#} giving false\n evidence in the matter of <ab>&c.</ab>; <ls>Ms. 9. 71</ls>; <ab>cf.</ab> also: {#paYca kanyAnfte#}\n {#hanti daSa hanti gavAnfte . SatamaSvAnfte hanti sahasraM puruzAnfte ..#}\n <ls>Pt. 3. 108</ls>. {#anfta#} personified is the son of {#aDarma#} and {#hiMsA#},\n husband and brother of {#nikfti#}, father of {#Baya, naraka, mAyA#} and\n {#vedanA#}. <ls>V. P.</ls>\n",
+                ".²2 Agriculture ‘{#sevASvavfttiranftaM kfziH’ iti koSAt#}; {#AmizaM yacca pUrvezAM#}\n {#rAjasaM ca malaM BfSam . anftaM nAma tad BUtaM kziptena pfTivItale ..#}\n <ls>Rām. 7. 74. 16</ls>. (<ab>opp.</ab> {#satya#}); Occupation of a Vaiśya ({#vARijya#});\n {#satyAnftaM tu vARijyaM tena cEvApi jIvyate#} <ls>Ms. 4. 5</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 19462,
+            "_ancestry": [
+                "L_ 2295",
+                "B_ {#anfta#}",
+                "S_ .{@{#-deva#}@}"
+            ],
+            "_banner": ".{@{#-deva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anftadeva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "whose gods are not true (<ls>Sāy.</ls>); {#yadi vAhamanftadeva#}\n {#Asa#} <ls>Rv. 7. 104. 14</ls>; not playing fairly (?).\n"
+            ]
+        },
+        {
+            "__line": 19464,
+            "_ancestry": [
+                "L_ 2295",
+                "B_ {#anfta#}",
+                "S_ .{@{#-vadanam, -BAzaRam, -AKyAnam#}@}"
+            ],
+            "_banner": ".{@{#-vadanam, -BAzaRam, -AKyAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anftavadanam"
+                },
+                {
+                    "Right": "anftaBAzaRam"
+                },
+                {
+                    "Right": "anftAKyAnam"
+                }
+            ],
+            "_meanings": [
+                "lying, falsehood.\n"
+            ]
+        },
+        {
+            "__line": 19465,
+            "_ancestry": [
+                "L_ 2295",
+                "B_ {#anfta#}",
+                "S_ .{@{#-vAdin, -vAc#}@}"
+            ],
+            "_banner": ".{@{#-vAdin, -vAc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anftavAdin"
+                },
+                {
+                    "Right": "anftavAc"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "a liar. {#udvijante yaTA sarpAnnarAdanftavAdinaH#}\n <ls>Rām. 2. 109. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 19467,
+            "_ancestry": [
+                "L_ 2295",
+                "B_ {#anfta#}",
+                "S_ .{@{#-vrata#}@}"
+            ],
+            "_banner": ".{@{#-vrata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anftavrata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "false to oneʼs vows or promises."
+            ]
+        }
     ]
 }

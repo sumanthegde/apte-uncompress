@@ -1,28 +1,62 @@
 {
-    "__line": 98992,
+    "__line": 99664,
     "_ancestry": [
         "L_ 11821",
-        "B_ {#kzattf#}"
+        "B_ {#kaza#}"
     ],
-    "_banner": "{#kzattf#}",
+    "_banner": "{#kaza#}",
     "_bannerExp": [
         {
-            "Right": "kzattf"
+            "Right": "kaza"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "[{#kzad saMjYAyAm tfc#}  \n<ls>Uṇ. 2. 91</ls>]"
+        "{%a.%}",
+        "[{#kaz-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} One who cuts or carves \nanything. ",
-        "{@--2@} An attendant, a \ndoorkeeper. ",
-        "{@--3@} A coachman, charioteer.\n",
-        "{@--4@} A man born of a Śūdra man\nand Kṣatriya woman; <ab>cf.</ab>  \n<ls>Ms. 10. 9.</ls> ",
-        "{@--5@} The son of a female slave; ( \n{%<ab>e. g.</ab>%} {#vidura#}). ",
-        "{@--6@} Brahmā. ",
-        "{@--7@} A fish. ",
-        "{@--8@}\nOne who fights from a chariot. ",
-        "{@--9@}\nThe manager of a treasure ({#kozADyakza#})."
+        "Rubbing, scratching.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 99665,
+            "_ancestry": [
+                "L_ 11821",
+                "B_ {#kaza#}",
+                "M_ .{@{#-zaH#}@}"
+            ],
+            "_banner": ".{@{#-zaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kazaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Rubbing.\n",
+                ".²2 A touch-stone; {#Cadahema kazannivAlasatkazapAzARaniBe naBastale#}\n <ls>N. 2. 69</ls>; {#suvarRareKeva kaze niveSitA#} <ls>Mk. 3. 17</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 99670,
+            "_ancestry": [
+                "L_ 11821",
+                "B_ {#kaza#}",
+                "S_ .{@{#-pawwikA, -pAzARaH#}@}"
+            ],
+            "_banner": ".{@{#-pawwikA, -pAzARaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kazapawwikA"
+                },
+                {
+                    "Right": "kazapAzARaH"
+                }
+            ],
+            "_meanings": [
+                "a touch-stone; <ls>Vikr. 1. 3</ls>, <ls n=\"Vikr. 1.\">24</ls>."
+            ]
+        }
     ]
 }

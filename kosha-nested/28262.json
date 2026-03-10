@@ -1,38 +1,121 @@
 {
-    "__line": 237669,
+    "__line": 261020,
     "_ancestry": [
         "L_ 28262",
-        "B_ {#SoDya#}"
+        "B_ {#vakzas#}"
     ],
-    "_banner": "{#SoDya#}",
+    "_banner": "{#vakzas#}",
     "_bannerExp": [
         {
-            "Right": "SoDya"
+            "Right": "vakzas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#SuD-Ric Rya#}]"
+        "{%n.%}",
+        "[{#vah asun suw ca#} <ls>Uṇ. 4. 227-228</ls>]"
     ],
     "_meanings": [
-        "To be \npurified, refined, paid off &c. "
+        ".²1 The breast, bosom, chest; {#kapAwavakzAH pariRadDakanDaraH#} <ls>R. 3. 34</ls>.\n",
+        ".²2 <ab>Ved.</ab> Strength. "
     ],
     "_morphisms": [
         {
-            "__line": 237670,
+            "__line": 261022,
             "_ancestry": [
                 "L_ 28262",
-                "B_ {#SoDya#}",
-                "M_ {#--DyaH#}"
+                "B_ {#vakzas#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--DyaH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "SoDyaH"
+                    "Left": "Parser error: {#vakzas#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "An\naccused person, one who has to clear\nhimself of the charge brought\nagainst him."
+                "An ox, a bull.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 261024,
+            "_ancestry": [
+                "L_ 28262",
+                "B_ {#vakzas#}",
+                "S_ .{@{#-kAraH#}@}"
+            ],
+            "_banner": ".{@{#-kAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakzaskAraH"
+                }
+            ],
+            "_meanings": [
+                "a bag, sack.\n"
+            ]
+        },
+        {
+            "__line": 261025,
+            "_ancestry": [
+                "L_ 28262",
+                "B_ {#vakzas#}",
+                "S_ .{@{#-jaH, -ruh, -ruhaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH, -ruh, -ruhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakzojaH"
+                },
+                {
+                    "Right": "vakzoruh"
+                },
+                {
+                    "Right": "vakzoruhaH"
+                }
+            ],
+            "_meanings": [
+                ", ({@{#vakzojaH, vakzoruh, vakzoruhaH#}@})\n the female breast; {#vakzojAgraM pARinA''spfSya#} <ls>Bv. 2. 17</ls>; {#vakzojayormandatA#}\n <ls>S. D.</ls>; {#mA SabarataruRi pIvaravakzoruhaBareRa Baja#}\n\n {#garvam#} <ls>Āryā. S.</ls>; <ls>Mv. 7. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 261030,
+            "_ancestry": [
+                "L_ 28262",
+                "B_ {#vakzas#}",
+                "S_ .{@{#-maRqalin#}@}"
+            ],
+            "_banner": ".{@{#-maRqalin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakzomaRqalin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a particular position of hands in dancing.\n"
+            ]
+        },
+        {
+            "__line": 261031,
+            "_ancestry": [
+                "L_ 28262",
+                "B_ {#vakzas#}",
+                "S_ .{@{#-sTalam#}@}"
+            ],
+            "_banner": ".{@{#-sTalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vakzaHsTalam"
+                }
+            ],
+            "_gram": [
+                "({@{#vakza#}@}|{@{#vakzaH, -sTalam#}@})"
+            ],
+            "_meanings": [
+                "the breast or bosom."
             ]
         }
     ]

@@ -1,20 +1,59 @@
 {
-    "__line": 103305,
+    "__line": 104907,
     "_ancestry": [
         "L_ 12369",
-        "B_ {#garDaH#}"
+        "B_ {#kuwiH#}"
     ],
-    "_banner": "{#garDaH#}",
+    "_banner": "{#kuwiH#}",
     "_bannerExp": [
         {
-            "Right": "garDaH"
+            "Right": "kuwiH"
         }
     ],
     "_gram": [
-        "[{#gfD-GaY ac vA#}]"
+        "[{#kuw-in#}]"
     ],
     "_meanings": [
-        "{@--1@} Desire,\neagerness. ",
-        "{@--2@} Greediness."
+        ".²1 The body.\n",
+        ".²2 A tree. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 104909,
+            "_ancestry": [
+                "L_ 12369",
+                "B_ {#kuwiH#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kuwiH#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cottage, hut; <ls>Bhāg. 10. 71. 16</ls>.\n",
+                ".²2 A curve, bend.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 104913,
+            "_ancestry": [
+                "L_ 12369",
+                "B_ {#kuwiH#}",
+                "S_ .{@{#-caraH#}@}"
+            ],
+            "_banner": ".{@{#-caraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwicaraH"
+                }
+            ],
+            "_meanings": [
+                "a porpoise."
+            ]
+        }
     ]
 }

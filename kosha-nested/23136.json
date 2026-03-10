@@ -1,26 +1,94 @@
 {
-    "__line": 194693,
+    "__line": 207003,
     "_ancestry": [
         "L_ 23136",
-        "B_ {#mi#}"
+        "B_ {#praBAta#}"
     ],
-    "_banner": "{#mi#}",
+    "_banner": "{#praBAta#}",
     "_bannerExp": [
         {
-            "Right": "mi"
+            "Right": "praBAta"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "<ab>U.</ab>",
-        "({#minoti, minute#}; rarely\nused in classical literature)"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To\nthrow, cast, scatter. ",
-        "{@--2@} To build,\nerect. ",
-        "{@--3@} To measure. ",
-        "{@--4@} To \nestablish. ",
-        "{@--5@} To observe, perceive. ",
-        "{@--6@}\n<ab>Ved.</ab> To fix in the earth."
+        "Begun to become clear or light; {#praBAtAyAM rajanyAM#}\n {#vE idaM yudDaM Bavizyati#} <ls>Mb. 5. 168. 43</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 207005,
+            "_ancestry": [
+                "L_ 23136",
+                "B_ {#praBAta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praBAtam"
+                }
+            ],
+            "_meanings": [
+                "Day-break, dawn; {#akzRoH praBAtamAsIt#} <ls>Ś. 2</ls>; {#praBAte#}\n {#snAtInAM nfpatiramaRInAM kucatawe#} <ls>G. L.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 207008,
+            "_ancestry": [
+                "L_ 23136",
+                "B_ {#praBAta#}",
+                "S_ .{@{#-karaRIyam#}@}"
+            ],
+            "_banner": ".{@{#-karaRIyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praBAtakaraRIyam"
+                }
+            ],
+            "_meanings": [
+                "a morning rite or ceremony.\n"
+            ]
+        },
+        {
+            "__line": 207009,
+            "_ancestry": [
+                "L_ 23136",
+                "B_ {#praBAta#}",
+                "S_ .{@{#-kalpa, -prAya#}@}"
+            ],
+            "_banner": ".{@{#-kalpa, -prAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praBAtakalpa"
+                },
+                {
+                    "Right": "praBAtaprAya"
+                }
+            ],
+            "_meanings": [
+                "approaching dawn (as night).\n"
+            ]
+        },
+        {
+            "__line": 207010,
+            "_ancestry": [
+                "L_ 23136",
+                "B_ {#praBAta#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praBAtakAlaH"
+                }
+            ],
+            "_meanings": [
+                "the time of day break; {#vEdyaH purohito mantrI dEvajYo'Ta#}\n {#caturTakaH . praBAtakAle drazwavyo nityaM svaSriyamicCatA ..#} <ls>Rājavallabha.</ls>"
+            ]
+        }
     ]
 }

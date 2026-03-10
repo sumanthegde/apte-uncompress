@@ -1,47 +1,599 @@
 {
-    "__line": 129563,
+    "__line": 134610,
     "_ancestry": [
         "L_ 15527",
-        "B_ {#dUzaka#}"
+        "B_ {#jAta#}"
     ],
-    "_banner": "{#dUzaka#}",
+    "_banner": "{#jAta#}",
     "_bannerExp": [
         {
-            "Right": "dUzaka"
-        },
-        {
-            "Right": "dUzikA"
+            "Right": "jAta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#zikA#}|{%<ab>f.</ab>%})",
-        "[{#duz-Ric-Rvul#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#jan kartari kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Corrupting, polluting, vitiating,\ndefiling, spoiling. ",
-        "{@--2@} Violating, \ndishonouring, seducing. ",
-        "{@--3@} Offending,\ntrespassing, guilty. ",
-        "{@--4@} Disfiguring.\n",
-        "{@--5@} Sinful, wicked (as an action).\n"
+        ".²1 Brought into existence, engendered, produced.\n",
+        ".²2 Grown, arisen.\n",
+        ".²3 Caused, occasioned.\n",
+        ".²4 Felt, affected by, <ab>oft.</ab> in <ab>comp.</ab>; {#˚duHKa#} <ab>&c.</ab>\n",
+        ".²5 Apparent, clear.\n",
+        ".²6 Become, present.\n",
+        ".²7 Happened.\n",
+        ".²8 Ready at hand, collected; see {#jan#}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 129569,
+            "__line": 134619,
             "_ancestry": [
                 "L_ 15527",
-                "B_ {#dUzaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#jAta#}",
+                "M_ .{@{#-taH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "dUzakaH"
+                    "Right": "jAtaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A seducer, a corrupter. ",
-                "{@--2@}\nAny infamous or wicked person."
+                ".²1 A son, male offspring (in dramas often used as a term of endearment;\n {#ayi jAta kayayitavyaM kaTaya#} <ls>U. 4</ls> ‘dear boy’, ‘oh my darling <ab>&c.</ab>’).\n",
+                ".²2 A living being.\n"
+            ]
+        },
+        {
+            "__line": 134623,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtA"
+                }
+            ],
+            "_meanings": [
+                "A daughter, mostly used in addressing; {#jAte#} ‘dear child’\n"
+            ]
+        },
+        {
+            "__line": 134624,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A creature, living being.\n",
+                ".²2 Production, origin; {#DanyaH kuntImuto rAjA sujAtaM cAsya DImataH#} <ls>Mb. 7. 12. 12</ls>.\n",
+                ".²3 Kind, sort, class, species.\n",
+                ".²4 A collection of things forming a class; {#niHSezaviSrARitakoSajAtam#}\n <ls>R. 5. 1</ls> all that goes to form wealth, {%<ab>i. e.</ab>%} every kind of property;\n so {#karmajAtam#} the whole aggregate of actions; {#suKa˚#} everything\n included under the name of {#suKa#} or pleasure; {#apatyajAtam#} ‘the\n brood of young ones’; <ls>Ś. 5. 22</ls>.\n",
+                ".²5 A child, a young one.\n",
+                ".²6 Individuality, specific condition.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 134636,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-apatyA#}@}"
+            ],
+            "_banner": ".{@{#-apatyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtApatyA"
+                }
+            ],
+            "_meanings": [
+                "a mother.\n"
+            ]
+        },
+        {
+            "__line": 134637,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-amarza#}@}"
+            ],
+            "_banner": ".{@{#-amarza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtAmarza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "vexed, enraged.\n"
+            ]
+        },
+        {
+            "__line": 134638,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-aSru#}@}"
+            ],
+            "_banner": ".{@{#-aSru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtASru"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "shedding tears.\n"
+            ]
+        },
+        {
+            "__line": 134639,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-izwiH#}@}"
+            ],
+            "_banner": ".{@{#-izwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtezwiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a sacrifice performed at the birth of a child. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 134639,
+                    "_ancestry": [
+                        "L_ 15527",
+                        "B_ {#jAta#}",
+                        "S_ .{@{#-izwiH#}@}",
+                        "S_S_ {#˚nyAyaH#}"
+                    ],
+                    "_banner": "{#˚nyAyaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "jAtezwinyAyaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "A rule of interpretation according to which the fruit of an act shall\n accrue to some one else than the performer if it is so directly declared\n by {#Sruti#} (even against the general rule {%<ab>viz.</ab>%} {#SAstraPalaM prayoktari#}).\n From this it follows that such an act must be performed so as not to cause\n destruction of one to whom the fruit is to accrue. This is discussed by\n {#jEmini#} and {#Sabara#} in connection with the {#vESvAnarezwi#}, whose\n fruit accrues to the son and which has to be performed only after the\n performance of the birth-rite to avoid the sonʼs starvation to death. Read\n <ls>MS. 4. 3. 38-39</ls> and {#Sabara#}ʼs {#BAzya#} thereon.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 134649,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-ukzaH#}@}"
+            ],
+            "_banner": ".{@{#-ukzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtokzaH"
+                }
+            ],
+            "_meanings": [
+                "a young bullock.\n"
+            ]
+        },
+        {
+            "__line": 134650,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a ceremony performed at the birth of a child; <ls>Ms. 2. 27</ls>, <ls n=\"Ms. 2.\">29</ls>;\n <ls>R. 3. 18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 134652,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-kalApa#}@}"
+            ],
+            "_banner": ".{@{#-kalApa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtakalApa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a tail (as a peacock).\n"
+            ]
+        },
+        {
+            "__line": 134653,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-kAma#}@}"
+            ],
+            "_banner": ".{@{#-kAma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtakAma"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "enamoured.\n"
+            ]
+        },
+        {
+            "__line": 134654,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-kOtUhala#}@}"
+            ],
+            "_banner": ".{@{#-kOtUhala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtakOtUhala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being eagerly desirous.\n"
+            ]
+        },
+        {
+            "__line": 134655,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-danta#}@}"
+            ],
+            "_banner": ".{@{#-danta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtadanta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having teeth growing; {#jAtadantasya vA kuryurnAmni#}\n {#vApi kfte sati#} <ls>Ms. 5. 70</ls>.\n"
+            ]
+        },
+        {
+            "__line": 134657,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-pakza#}@}"
+            ],
+            "_banner": ".{@{#-pakza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtapakza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having wings; {#ajAtapakza#} unfledged.\n"
+            ]
+        },
+        {
+            "__line": 134658,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-pASa#}@}"
+            ],
+            "_banner": ".{@{#-pASa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtapASa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fettered.\n"
+            ]
+        },
+        {
+            "__line": 134661,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-putrA#}@}"
+            ],
+            "_banner": ".{@{#-putrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtaputrA"
+                }
+            ],
+            "_meanings": [
+                "a woman who has borne a son or sons.\n"
+            ]
+        },
+        {
+            "__line": 134662,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-pratyaya#}@}"
+            ],
+            "_banner": ".{@{#-pratyaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtapratyaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inspired with confidence.\n"
+            ]
+        },
+        {
+            "__line": 134663,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-preta#}@}"
+            ],
+            "_banner": ".{@{#-preta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtapreta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born and dead, <ls>Pt. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 134664,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-manmaTa#}@}"
+            ],
+            "_banner": ".{@{#-manmaTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtamanmaTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fallen in love.\n"
+            ]
+        },
+        {
+            "__line": 134665,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-mAtra#}@}"
+            ],
+            "_banner": ".{@{#-mAtra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtamAtra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "just born.\n"
+            ]
+        },
+        {
+            "__line": 134666,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtarUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "beautiful, brilliant.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 134667,
+                    "_ancestry": [
+                        "L_ 15527",
+                        "B_ {#jAta#}",
+                        "S_ .{@{#-rUpa#}@}",
+                        "S_M_ ({@{#-pam#}@}"
+                    ],
+                    "_banner": "({@{#-pam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "jAtarUpam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 gold; {#punaSca yAcamAnAya jAtarUpamadAt praBuH#} <ls>Bhāg. 1. 17. 39</ls>;\n {#apyAkarasamutpannA maRijAtirasaMskftA . jAtarUpeRa kalyARi na hi saMyogamarhati ..#}\n <ls>M. 5. 18</ls>; <ls>N. 1. 129</ls>.\n",
+                        ".²2 the form in which a person is born, {%<ab>i. e.</ab>%} nakedness.\n",
+                        ".²3 the thorn apple. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 134672,
+                            "_ancestry": [
+                                "L_ 15527",
+                                "B_ {#jAta#}",
+                                "S_ .{@{#-rUpa#}@}",
+                                "S_M_ ({@{#-pam#}@}",
+                                "S_M_S_ {#˚Dara#}"
+                            ],
+                            "_banner": "{#˚Dara#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "jAtarUpaDara"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%a.%} naked.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 134673,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-vidyA#}@}"
+            ],
+            "_banner": ".{@{#-vidyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtavidyA"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> knowledge of the origin and nature of all things.\n"
+            ]
+        },
+        {
+            "__line": 134674,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-viBrama#}@}"
+            ],
+            "_banner": ".{@{#-viBrama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtaviBrama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 confounded.\n",
+                ".²2 precipitate.\n"
+            ]
+        },
+        {
+            "__line": 134677,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-vedas#}@}"
+            ],
+            "_banner": ".{@{#-vedas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtavedas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of fire (or of the sun); {#vipreBirastozwa#}\n {#jAtavedAH#} <ls>Rv. 1. 77. 5</ls>; <ls>Ku. 2. 46</ls>; <ls>Śi. 2. 51</ls>; <ls>R. 12. 104</ls>, <ls n=\"R.\">15. 72</ls>; <ls>Ki. 13. 11</ls>;\n the word is variously explained; <ab>cf.</ab> <ls>Nir.</ls>:-- {#jAtavedAH kasmAt#}\n {#jAtAni veda, jAtAni vE naM viduH, jAte jAte vidyate iti vA, jAtavitto#}\n {#vA jAtaDano, jAtavidyo vA jAtaprajYAno yattajjAtaH paSUnavindateti tajjAtavedaso#}\n {#jAtavedastvamiti brAhmaRam#}.\n"
+            ]
+        },
+        {
+            "__line": 134683,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-vedasI#}@}"
+            ],
+            "_banner": ".{@{#-vedasI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtavedasI"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 134684,
+            "_ancestry": [
+                "L_ 15527",
+                "B_ {#jAta#}",
+                "S_ .{@{#-vAsagfham, -veSman#}@}"
+            ],
+            "_banner": ".{@{#-vAsagfham, -veSman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAtavAsagfham"
+                },
+                {
+                    "Right": "jAtaveSman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the lying-in-chamber."
             ]
         }
     ]

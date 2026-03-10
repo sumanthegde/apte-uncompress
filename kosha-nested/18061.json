@@ -1,24 +1,87 @@
 {
-    "__line": 152336,
+    "__line": 160330,
     "_ancestry": [
         "L_ 18061",
-        "B_ {#paripakva#}"
+        "B_ {#DUta#}"
     ],
-    "_banner": "{#paripakva#}",
+    "_banner": "{#DUta#}",
     "_bannerExp": [
         {
-            "Right": "paripakva"
+            "Right": "DUta"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#DU-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Completely \ncooked. ",
-        "{@--2@} Completely baked or burnt.\n",
-        "{@--3@} Quite ripe, mature, perfected\n(<ab>fig.</ab> also); {#praPullaloBraH paripakvaSAliH#}\n<ls>Rs. 4. 1</ls>; so {#paripakvabudDiH#}. ",
-        "{@--4@} Highly\ncultivated, very sharp or shrewd. ",
-        "{@--5@}\nFully digested. ",
-        "{@--6@} Decaying, on the\npoint of decay or death."
+        ".²1 Shaken.\n",
+        ".²2 Shaken off, removed.\n",
+        ".²3 Fanned.\n",
+        ".²4 Abandoned, deserted.\n",
+        ".²5 Reviled.\n",
+        ".²6 Judged.\n",
+        ".²7 Disregarded, treated with contempt.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 160338,
+            "_ancestry": [
+                "L_ 18061",
+                "B_ {#DUta#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DUtA"
+                }
+            ],
+            "_meanings": [
+                "A wife.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 160340,
+            "_ancestry": [
+                "L_ 18061",
+                "B_ {#DUta#}",
+                "S_ .{@{#-kalmaza, -pApa#}@}"
+            ],
+            "_banner": ".{@{#-kalmaza, -pApa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DUtakalmaza"
+                },
+                {
+                    "Right": "DUtapApa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "who has shaken off his sins, free from sin, pure.\n"
+            ]
+        },
+        {
+            "__line": 160341,
+            "_ancestry": [
+                "L_ 18061",
+                "B_ {#DUta#}",
+                "S_ .{@{#-guRaH#}@}"
+            ],
+            "_banner": ".{@{#-guRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DUtaguRaH"
+                }
+            ],
+            "_meanings": [
+                "an ascetic practice, precept."
+            ]
+        }
     ]
 }

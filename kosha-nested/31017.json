@@ -1,43 +1,95 @@
 {
-    "__line": 260043,
+    "__line": 286282,
     "_ancestry": [
         "L_ 31017",
-        "B_ {#sPurita#}"
+        "B_ {#vEyAkaraRa#}"
     ],
-    "_banner": "{#sPurita#}",
+    "_banner": "{#vEyAkaraRa#}",
     "_bannerExp": [
         {
-            "Right": "sPurita"
+            "Right": "vEyAkaraRa"
+        },
+        {
+            "Right": "vEyAkaraRI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#vyAkaraRaM vettyaDIte vA aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Trembling, \nthrobbing. ",
-        "{@--2@} Shaken. ",
-        "{@--3@} Glittering,\nshining. ",
-        "{@--4@} Unsteady. ",
-        "{@--5@} Swollen.\n",
-        "{@--6@} Manifested, displayed;  \n<ls>Māl. 2. 10.</ls> "
+        "Grammatical.\n"
     ],
     "_morphisms": [
         {
-            "__line": 260047,
+            "__line": 286284,
             "_ancestry": [
                 "L_ 31017",
-                "B_ {#sPurita#}",
-                "M_ {#--taM#}"
+                "B_ {#vEyAkaraRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sPuritaM"
+                    "Right": "vEyAkaraRaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A throb, palpitation, \ntremor. ",
-                "{@--2@} Agitation or emotion of\nthe mind."
+                "A grammarian; {#vEyAkaraRakirAtAdapaSabdamfgAH kva yAntu#}\n {#saMtrastAH#} <ls>Subhāṣ.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 286287,
+            "_ancestry": [
+                "L_ 31017",
+                "B_ {#vEyAkaraRa#}",
+                "S_ .{@{#-KasUciH#}@}"
+            ],
+            "_banner": ".{@{#-KasUciH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEyAkaraRaKasUciH"
+                }
+            ],
+            "_meanings": [
+                "(a grammarian who merely pierces the air with a needle)\n a poor grammarian.\n"
+            ]
+        },
+        {
+            "__line": 286289,
+            "_ancestry": [
+                "L_ 31017",
+                "B_ {#vEyAkaraRa#}",
+                "S_ .{@{#-pASaH#}@}"
+            ],
+            "_banner": ".{@{#-pASaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEyAkaraRapASaH"
+                }
+            ],
+            "_meanings": [
+                "a bad grammarian.\n"
+            ]
+        },
+        {
+            "__line": 286290,
+            "_ancestry": [
+                "L_ 31017",
+                "B_ {#vEyAkaraRa#}",
+                "S_ .{@{#-BAryaH#}@}"
+            ],
+            "_banner": ".{@{#-BAryaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEyAkaraRaBAryaH"
+                }
+            ],
+            "_meanings": [
+                "one whose wife is a grammarian."
             ]
         }
     ]

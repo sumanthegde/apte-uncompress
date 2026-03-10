@@ -1,21 +1,781 @@
 {
-    "__line": 115754,
+    "__line": 118267,
     "_ancestry": [
         "L_ 13832",
-        "B_ {#jaz#}"
+        "B_ {#gata#}"
     ],
-    "_banner": "{#jaz#}",
+    "_banner": "{#gata#}",
     "_bannerExp": [
         {
-            "Right": "jaz"
+            "Right": "gata"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#jazati-te#})"
+        "{%<ab>p. p.</ab>%}",
+        "[{#gam-kta#}]"
     ],
     "_meanings": [
-        "To injure,\nhurt, kill."
+        ".²1 Gone, departed, gone for ever; <ls>Mu. 1. 25</ls>; {#kiM gate salile setubanDena#},\n {#kiM gate vivAhe nakzatraparIkzayA#} <ls>Vb. 4</ls> ‘what is the use of locking\n the stable-door when the steed is stolen?’\n",
+        ".²2 Passed away, elapsed, past; {#gatAyAM rAtrO#}.\n",
+        ".²3 Dead, deceased, departed to the next world; {#gata eva na te nivartate#} <ls>Ku. 4. 30</ls>.\n",
+        ".²4 Gone to, arrived at, reaching to.\n",
+        ".²5 Being in, situated in, resting on, contained in; usually in <ab>comp.</ab>;\n {#prAsAdaprAntagataH#} <ls>Pt. 1</ls> seated on <ab>&c.</ab>; {#sadogataH#} <ls>R. 3. 66</ls> seated\n in the assembly; {#BartAraM gatA#} <ls>Ś. 4. 13</ls> united to a husband; so {#Adya˚#};\n {#sarvagata#} existing everywhere.\n",
+        ".²6 Fallen into, reduced to; {%<ab>e. g.</ab>%} {#ApadgataH#}\n",
+        ".²7 Referring or relating to, with regard to, about, concerning, connected\n with (usually in <ab>comp.</ab>); {#rAjA SakuntalAgatameva cintayati#} <ls>Ś. 5</ls>; {#BartfgatayA#}\n {#cintayA#} <ls>Ś. 4</ls>; {#vayamapi BavatyO saKIgataM kimapi pfcCAmaH#} <ls>Ś. 1</ls>;\n so {#putragataH snehaH#} <ab>&c.</ab>\n",
+        ".²8 Frequented, resorted to; {#suhfd˚#} <ls>Ku. 4. 24</ls>.\n",
+        ".²9 Known, celebrated.\n",
+        ".²10 Directed towards, belonging to.\n",
+        ".²11 Known, understood.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 118287,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Motion, going; {#gatamupari GanAnAM vArigarBodarARAm#} <ls>Ś. 7. 7</ls>; <ls>Śi. 1. 2</ls>, <ls n=\"Śi.\">7. 4</ls>.\n",
+                ".²2 Gait, manner of going; <ls>Ku. 1. 34</ls>; {#haMsa prayacCa me kAntA gatirasyAstvayA#}\n {#hftA#} <ls>V. 4. 16</ls>.\n",
+                ".²3 An event.\n",
+                ".²4 The place where one has gone.\n",
+                ".²5 Celebration, being known, diffusion; {#yAvannAmno gatam#} <ls>Ch. Up. 7. 1. 5</ls>.\n",
+                ".²6 Manner. (As first member of <ab>comp.</ab> translated by ‘free from’, ‘bereft\n of’, ‘deprived of’, ‘without’.)\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 118297,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-akza#}@}"
+            ],
+            "_banner": ".{@{#-akza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatAkza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sightless, blind.\n"
+            ]
+        },
+        {
+            "__line": 118298,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-aDvan#}@}"
+            ],
+            "_banner": ".{@{#-aDvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatADvan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 one who has accomplished or finished a journey; {#balEraDyuzitAstasya#}\n {#vijigIzorgatADvanaH#} <ls>R. 4. 46</ls>, <ls n=\"R.\">11. 33</ls>.\n",
+                ".²2 conversant, familiar (with anything); {#triviDe mokzaDarme'smingatADvA#}\n {#CinnasaMSayaH#} <ls>Mb. 12. 320. 25</ls>. --({%f.%}) the time immediately preceding\n new moon when a small streak of the moon is still visible; ({#caturdaSIyuktA'mAvAsyA#}).\n"
+            ]
+        },
+        {
+            "__line": 118304,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-anugatam#}@}"
+            ],
+            "_banner": ".{@{#-anugatam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatAnugatam"
+                }
+            ],
+            "_meanings": [
+                "following custom or precedent.\n"
+            ]
+        },
+        {
+            "__line": 118305,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-anugatika#}@}"
+            ],
+            "_banner": ".{@{#-anugatika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatAnugatika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "doing as others do, a blind follower; {#gatAnugatiko#}\n {#loko na lokaH pAramArTikaH#} <ls>Pt. 1. 342</ls> ‘people are blind followers or\n servile imitators’; <ls>Mu. 6. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118308,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-anta#}@}"
+            ],
+            "_banner": ".{@{#-anta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatAnta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose end has arrived.\n"
+            ]
+        },
+        {
+            "__line": 118309,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 poor.\n",
+                ".²2 meaningless (the meaning\n\n being already expressed).\n"
+            ]
+        },
+        {
+            "__line": 118314,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-asu, -jIvita, -prARa#}@}"
+            ],
+            "_banner": ".{@{#-asu, -jIvita, -prARa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatAsu"
+                },
+                {
+                    "Right": "gatajIvita"
+                },
+                {
+                    "Right": "gataprARa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "expired, dead; {#gatAsUnagatAsUMSca#}\n {#nAnuSocanti paRqitAH#} <ls>Bg. 2. 11</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118316,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-Agatam#}@}"
+            ],
+            "_banner": ".{@{#-Agatam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatAgatam"
+                }
+            ],
+            "_meanings": [
+                ".²1 going and coming, frequent visits; {#Adityasya gatAgatEraharahaH saMkzIyate#}\n {#jIvitam#} <ls>Bh. 3. 7</ls>; <ls>Bg. 9. 21</ls>; <ls>Mu. 2. 3</ls>, <ls n=\"Mu.\">4. 1</ls>.\n",
+                ".²2 interchange of place; {#kazwaM smarAmi tava tAni gatAgatAni#} <ls>Māl. 9. 47</ls>.\n",
+                ".²3 the flight of a bird backward and forward.\n",
+                ".²4 irregular course of the stars (in astronomy).\n",
+                ".²5 Narration of past and future; {#sa sarvamaKilaM rAjYo vaMSasyAha gatAgatam#}\n <ls>Rām. 7. 51. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118324,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-ADi#}@}"
+            ],
+            "_banner": ".{@{#-ADi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatADi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from anxiety, happy.\n"
+            ]
+        },
+        {
+            "__line": 118325,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-Ayus#}@}"
+            ],
+            "_banner": ".{@{#-Ayus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatAyus"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "decrepit, infirm, very old.\n"
+            ]
+        },
+        {
+            "__line": 118326,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-ArtavA#}@}"
+            ],
+            "_banner": ".{@{#-ArtavA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatArtavA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a woman past her child-bearing.\n",
+                ".²2 a barren woman.\n"
+            ]
+        },
+        {
+            "__line": 118329,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-utsAha#}@}"
+            ],
+            "_banner": ".{@{#-utsAha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatotsAha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "disspirited, dejected.\n"
+            ]
+        },
+        {
+            "__line": 118330,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-ojas#}@}"
+            ],
+            "_banner": ".{@{#-ojas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatOjas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bereft of strength or energy.\n"
+            ]
+        },
+        {
+            "__line": 118331,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-kalmaza#}@}"
+            ],
+            "_banner": ".{@{#-kalmaza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatakalmaza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "freed from crime or sin, purified.\n"
+            ]
+        },
+        {
+            "__line": 118332,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-klama#}@}"
+            ],
+            "_banner": ".{@{#-klama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gataklama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "refreshed; {#saMviSettu yaTAkAlamuttizWecca gataklamaH#} <ls>Ms. 7. 225</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118333,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-cetana#}@}"
+            ],
+            "_banner": ".{@{#-cetana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatacetana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deprived of sense or consciousness, insensible, senseless.\n"
+            ]
+        },
+        {
+            "__line": 118334,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-trapa#}@}"
+            ],
+            "_banner": ".{@{#-trapa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatatrapa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bold, without fear or shame; <ls>Bhāg. 8. 8. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118335,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-dinam, -divasaH#}@}"
+            ],
+            "_banner": ".{@{#-dinam, -divasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatadinam"
+                },
+                {
+                    "Right": "gatadivasaH"
+                }
+            ],
+            "_meanings": [
+                "the past day, yesterday.\n"
+            ]
+        },
+        {
+            "__line": 118336,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-dinam#}@}"
+            ],
+            "_banner": ".{@{#-dinam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatadinam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "yesterday.\n"
+            ]
+        },
+        {
+            "__line": 118337,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-pratyAgata#}@}"
+            ],
+            "_banner": ".{@{#-pratyAgata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatapratyAgata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "returned after having gone away; <ls>Ms. 7. 186</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118338,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-praBa#}@}"
+            ],
+            "_banner": ".{@{#-praBa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatapraBa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bereft of splendour, dim, obscured, faded.\n"
+            ]
+        },
+        {
+            "__line": 118339,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-prARa#}@}"
+            ],
+            "_banner": ".{@{#-prARa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gataprARa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lifeless, dead.\n"
+            ]
+        },
+        {
+            "__line": 118340,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-prAya#}@}"
+            ],
+            "_banner": ".{@{#-prAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gataprAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "almost gone, nearly passed away; {#gataprAyA rajanI#}.\n"
+            ]
+        },
+        {
+            "__line": 118341,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-BartfkA#}@}"
+            ],
+            "_banner": ".{@{#-BartfkA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gataBartfkA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a widow.\n",
+                ".²2 (rarely) a woman whose husband has gone abroad (= {#prozitaBartfkA#});\n {#kimu muhurmuhurgataBartfkAH#} <ls>Śi.</ls>\n"
+            ]
+        },
+        {
+            "__line": 118345,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-manaska#}@}"
+            ],
+            "_banner": ".{@{#-manaska#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatamanaska"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "thinking of (<ab>loc.</ab>); {#sapadi gatamanaskaH#} ({#priyAyAH#}\n {#keSapASe#}) <ls>R. 9. 67</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118347,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-lakzmIka#}@}"
+            ],
+            "_banner": ".{@{#-lakzmIka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatalakzmIka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 bereft of lustre or splendour, faded.\n",
+                ".²2 deprived of wealth, impoverished, suffering losses.\n"
+            ]
+        },
+        {
+            "__line": 118350,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-vayas, -vayaska#}@}"
+            ],
+            "_banner": ".{@{#-vayas, -vayaska#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatavayas"
+                },
+                {
+                    "Right": "gatavayaska"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "advanced in years, aged, old; {#gatavayasAmapi#}\n {#puMsAM yezAmarTA Bavanti te taruRAH#} <ls>Pt. 1. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118352,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-varzaH, -rzam#}@}"
+            ],
+            "_banner": ".{@{#-varzaH, -rzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatavarzaH"
+                },
+                {
+                    "Right": "gatavarzam"
+                }
+            ],
+            "_meanings": [
+                "the past year.\n"
+            ]
+        },
+        {
+            "__line": 118353,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-vEra#}@}"
+            ],
+            "_banner": ".{@{#-vEra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatavEra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "at peace (with), reconciled.\n"
+            ]
+        },
+        {
+            "__line": 118354,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-vyaTa#}@}"
+            ],
+            "_banner": ".{@{#-vyaTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatavyaTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from pain; {#prattAM duhitaraM samrAw sadfkzAya#}\n {#gatavyaTaH#} <ls>Bhāg. 3. 22. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118356,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-SESava#}@}"
+            ],
+            "_banner": ".{@{#-SESava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gataSESava"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "past child-hood.\n"
+            ]
+        },
+        {
+            "__line": 118357,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-Srama#}@}"
+            ],
+            "_banner": ".{@{#-Srama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gataSrama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unmindful of troubles; {#AdityapaTamASritya jagAma#}\n {#sa gataSramaH#} <ls>Rām. 6. 74. 50</ls>.\n"
+            ]
+        },
+        {
+            "__line": 118359,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-saNga#}@}"
+            ],
+            "_banner": ".{@{#-saNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatasaNga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 free from attachment; {#gatasaNgasya yuktasya#} <ls>Bg. 4. 23</ls>.\n",
+                ".²2 adverse or indifferent to.\n"
+            ]
+        },
+        {
+            "__line": 118362,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-sattva#}@}"
+            ],
+            "_banner": ".{@{#-sattva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatasattva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 dead, annihilated, lifeless.\n",
+                ".²2 base.\n"
+            ]
+        },
+        {
+            "__line": 118365,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-sannakaH#}@}"
+            ],
+            "_banner": ".{@{#-sannakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gatasannakaH"
+                }
+            ],
+            "_meanings": [
+                "an elephant out of rut.\n"
+            ]
+        },
+        {
+            "__line": 118366,
+            "_ancestry": [
+                "L_ 13832",
+                "B_ {#gata#}",
+                "S_ .{@{#-spfha#}@}"
+            ],
+            "_banner": ".{@{#-spfha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gataspfha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "indifferent to worldly attachments; {#gataspfho#}\n {#DEryaDaraH kfpAluH#} <ls>Vaidyajīvanam.</ls>"
+            ]
+        }
     ]
 }

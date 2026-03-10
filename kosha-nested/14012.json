@@ -1,19 +1,74 @@
 {
-    "__line": 117231,
+    "__line": 119971,
     "_ancestry": [
         "L_ 14012",
-        "B_ {#juvas#}"
+        "B_ {#gAyatrI#}"
     ],
-    "_banner": "{#juvas#}",
+    "_banner": "{#gAyatrI#}",
     "_bannerExp": [
         {
-            "Right": "juvas"
+            "Right": "gAyatrI"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "<ab>Ved.</ab> Speed, quickness."
+        ".²1 A Vedic metre of 24 syllables; {#gAyatrI CandasAmaham#} <ls>Bg. 10. 35</ls>.\n",
+        ".²2 <ab>N.</ab> of a very sacred verse repeated by every Brāhmaṇa at his Sandhyā\n (morning and evening devotions) and on other occasions also. Great sins\n even are said to be expiated by a pious repetition of this verse, which\n is as follows:-- {#tatsaviturvareRyaM Bargo devasya DImahi Diyo yo naH#}\n {#pracodayAt#} <ls>Rv. 3. 62. 10</ls>.\n",
+        ".²3 A number of mystical verses in Tantra literature.\n",
+        ".²4 <ab>N.</ab> of Durgā, <ls>Ks. 53. 172</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 119980,
+            "_ancestry": [
+                "L_ 14012",
+                "B_ {#gAyatrI#}",
+                "M_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gAyatram"
+                }
+            ],
+            "_meanings": [
+                "A hymn composed and recited in the Gāyatrī metre.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 119982,
+            "_ancestry": [
+                "L_ 14012",
+                "B_ {#gAyatrI#}",
+                "S_ .{@{#-mantraH#}@}"
+            ],
+            "_banner": ".{@{#-mantraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gAyatrImantraH"
+                }
+            ],
+            "_meanings": [
+                "prayers connected with the {#gAyatrI#}.\n"
+            ]
+        },
+        {
+            "__line": 119983,
+            "_ancestry": [
+                "L_ 14012",
+                "B_ {#gAyatrI#}",
+                "S_ .{@{#-vallaBaH#}@}"
+            ],
+            "_banner": ".{@{#-vallaBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gAyatrIvallaBaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva."
+            ]
+        }
     ]
 }

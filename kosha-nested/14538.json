@@ -1,19 +1,61 @@
 {
-    "__line": 120999,
+    "__line": 125684,
     "_ancestry": [
         "L_ 14538",
-        "B_ {#tAkzaRyaH, tAkzRaH#}"
+        "B_ {#GftAcI#}"
     ],
-    "_banner": "{#tAkzaRyaH, tAkzRaH#}",
+    "_banner": "{#GftAcI#}",
     "_bannerExp": [
         {
-            "Right": "tAkzRaH"
-        },
-        {
-            "Right": "tAkzaRyaH"
+            "Right": "GftAcI"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The son of a\ncarpenter."
+        ".²1 Greasy, abounding in ghee.\n",
+        ".²2 Containing water.\n",
+        ".²3 Shining. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 125687,
+            "_ancestry": [
+                "L_ 14538",
+                "B_ {#GftAcI#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#GftAcI#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Night.\n",
+                ".²2 <ab>N.</ab> of Sarasvatī.\n",
+                ".²3 <ab>N.</ab> of an {%apsaras%}; <ls>N. 2. 109</ls> (the following are the principal\n nymphs of Indraʼs heaven; {#GftAcI menakA ramBA urvaSI ca tilottamA .#}\n {#sukeSI maYjuGozAdyAH kaTyante'psaraso buDEH#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 125694,
+            "_ancestry": [
+                "L_ 14538",
+                "B_ {#GftAcI#}",
+                "S_ .{@{#-garBasaMBavA#}@}"
+            ],
+            "_banner": ".{@{#-garBasaMBavA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftAcIgarBasamBavA"
+                }
+            ],
+            "_meanings": [
+                "large cardamoms."
+            ]
+        }
     ]
 }

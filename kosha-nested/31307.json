@@ -1,39 +1,73 @@
 {
-    "__line": 262761,
+    "__line": 288666,
     "_ancestry": [
         "L_ 31307",
-        "B_ {#halA#}"
+        "B_ {#vyAkula#}"
     ],
-    "_banner": "{#halA#}",
+    "_banner": "{#vyAkula#}",
     "_bannerExp": [
         {
-            "Right": "halA"
+            "Right": "vyAkula"
         }
     ],
-    "_meanings": [
-        "{@--1@} A female friend. ",
-        "{@--2@} The\nearth. ",
-        "{@--3@} Water. ",
-        "{@--4@} Spirituous\nliquor. "
+    "_gram": [
+        "{%a.%}"
     ],
-    "_morphisms": [
+    "_meanings": [
+        ".²1 Agitated, perplexed, bewildered, dis tracted; {#SokavyAkula, bAzpa˚#}.\n",
+        ".²2 Alarmed, troubled, frightened; {#vfzwivyAkulagokula#} <ls>Gīt. 4</ls>.\n",
+        ".²3 Full of, overtaken by.\n",
+        ".²4 Intently engaged in, busy with; {#Aloke te nipatati purA sA balivyAkulA vA#} <ls>Me. 87</ls>.\n",
+        ".²5 Flashing, moving about; {#antarvyAkulavidyudambuda iva dyAmaByudasTAdariH#} <ls>U. 3. 43</ls>.\n"
+    ],
+    "_samasas": [
         {
-            "__line": 262763,
+            "__line": 288673,
             "_ancestry": [
                 "L_ 31307",
-                "B_ {#halA#}",
-                "M_ {%--<ab>ind.</ab>%}"
+                "B_ {#vyAkula#}",
+                "S_ .{@{#-Atman, -citta, -cetas, -manas#}@}"
             ],
+            "_banner": ".{@{#-Atman, -citta, -cetas, -manas#}@}",
             "_bannerExp": [
                 {
-                    "Right": "halA"
+                    "Right": "vyAkulAtman"
+                },
+                {
+                    "Right": "vyAkulacitta"
+                },
+                {
+                    "Right": "vyAkulacetas"
+                },
+                {
+                    "Right": "vyAkulamanas"
                 }
             ],
             "_gram": [
-                "{%--<ab>ind.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "A vocative particle\nused in addressing a female friend;\n(only in theatrical language); {#halA#}\n{#SakuMtale atrEva tAvanmuhUrtaM tizWa#} <ls>Ś. 1</ls>;\n<ab>cf.</ab> {#haMqA#} also."
+                "bewildered in mind, having\n a perplexed or distracted mind.\n"
+            ]
+        },
+        {
+            "__line": 288675,
+            "_ancestry": [
+                "L_ 31307",
+                "B_ {#vyAkula#}",
+                "S_ .{@{#-locana#}@}"
+            ],
+            "_banner": ".{@{#-locana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAkulalocana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the eyes dimmed."
             ]
         }
     ]

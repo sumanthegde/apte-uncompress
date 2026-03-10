@@ -1,23 +1,78 @@
 {
-    "__line": 26463,
+    "__line": 23638,
     "_ancestry": [
         "L_ 2671",
-        "B_ {#apAvartanaM, --vfttiH#}"
+        "B_ {#apama#}"
     ],
-    "_banner": "{#apAvartanaM, --vfttiH#}",
+    "_banner": "{#apama#}",
     "_bannerExp": [
         {
-            "Right": "apAvartanaM"
-        },
-        {
-            "Right": "apAvfttiH"
+            "Right": "apama"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#apakfzwaM mIyate, mA bAhu˚ ka#}]"
     ],
     "_meanings": [
-        "{@--1@} Turning away\nor from, retreating, retiring; repulse,\nrejection. ",
-        "{@--2@} Revolution."
+        "<ab>Ved.</ab> The most distant\n or remote, the last, lowest in caste, most degraded ({#jAtyAtinikfzwa#})\n {#yuvaM Bago'nASoScidavitArApamasya cit .#} <ls>Rv. 10. 39. 3</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 23641,
+            "_ancestry": [
+                "L_ 2671",
+                "B_ {#apama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apamaH"
+                }
+            ],
+            "_meanings": [
+                "(In <ab>astr.</ab>) Declination. ({#kalana, krAnti, gati#}) the ecliptic\n ({#krAntivftta#}); {#parisaratAM gaganasadAM calanaM kiMcid BavedapamaH#} <ls>Sid. Śir.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 23644,
+            "_ancestry": [
+                "L_ 2671",
+                "B_ {#apama#}",
+                "S_ .{@{#-jyA#}@}"
+            ],
+            "_banner": ".{@{#-jyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apamajyA"
+                }
+            ],
+            "_meanings": [
+                "the line of the ecliptic; see {#krAntijyA#}.\n"
+            ]
+        },
+        {
+            "__line": 23645,
+            "_ancestry": [
+                "L_ 2671",
+                "B_ {#apama#}",
+                "S_ .{@{#-maRqalam, -vfttam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam, -vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apamamaRqalam"
+                },
+                {
+                    "Right": "apamavfttam"
+                }
+            ],
+            "_meanings": [
+                "the ecliptic."
+            ]
+        }
     ]
 }

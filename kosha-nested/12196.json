@@ -1,16 +1,161 @@
 {
-    "__line": 101534,
+    "__line": 103307,
     "_ancestry": [
         "L_ 12196",
-        "B_ {#Kecara#}"
+        "B_ {#kAsaH#}, {#-sA#}"
     ],
-    "_banner": "{#Kecara#}",
+    "_banner": "{#kAsaH#}, {#-sA#}",
     "_bannerExp": [
         {
-            "Right": "Kecara"
+            "Right": "kAsaH"
+        },
+        {
+            "Right": "kAsA"
         }
     ],
+    "_gram": [
+        "[{#kAs-GaY#}]"
+    ],
     "_meanings": [
-        "See {#Kacara#}."
+        ".²1 Cough, catarrh. {#muYca SIpektTA uta kAsa enam#} <ls>Av. 1. 12. 3</ls>; {#kAsaSvAsakftAyAsaH#}\n {#kaRWe GuraGurAyate#} <ls>Bhāg. 3. 30. 16</ls>.\n",
+        ".²2 Sneezing.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 103313,
+            "_ancestry": [
+                "L_ 12196",
+                "B_ {#kAsaH#}, {#-sA#}",
+                "S_ .{@{#-kuRWa#}@}"
+            ],
+            "_banner": ".{@{#-kuRWa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAsakuRWa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "affected with cough.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 103314,
+                    "_ancestry": [
+                        "L_ 12196",
+                        "B_ {#kAsaH#}, {#-sA#}",
+                        "S_ .{@{#-kuRWa#}@}",
+                        "S_M_ ({@{#-RWaH#}@}"
+                    ],
+                    "_banner": "({@{#-RWaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kAsakuRWaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Yama.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 103315,
+            "_ancestry": [
+                "L_ 12196",
+                "B_ {#kAsaH#}, {#-sA#}",
+                "S_ .{@{#-Gna, -hft#}@}"
+            ],
+            "_banner": ".{@{#-Gna, -hft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAsaGna"
+                },
+                {
+                    "Right": "kAsahft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "removing cough, pectoral.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 103316,
+                    "_ancestry": [
+                        "L_ 12196",
+                        "B_ {#kAsaH#}, {#-sA#}",
+                        "S_ .{@{#-Gna, -hft#}@}",
+                        "S_M_ ({@{#-GnaH#}@}"
+                    ],
+                    "_banner": "({@{#-GnaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kAsaGnaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a medical plant (<lang>Mar.</lang> <ns>{#behaqA#}</ns>) "
+                    ]
+                },
+                {
+                    "__line": 103316,
+                    "_ancestry": [
+                        "L_ 12196",
+                        "B_ {#kAsaH#}, {#-sA#}",
+                        "S_ .{@{#-Gna, -hft#}@}",
+                        "S_M_ ({@{#-GnI#}@}"
+                    ],
+                    "_banner": "({@{#-GnI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kAsaGnI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a sort\n of prickly nightshade, Solanum Jacquini (<lang>Mar.</lang> <ns>{#riMgaRI#}</ns>).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 103318,
+            "_ancestry": [
+                "L_ 12196",
+                "B_ {#kAsaH#}, {#-sA#}",
+                "S_ .{@{#-nASinI#}@}"
+            ],
+            "_banner": ".{@{#-nASinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAsanASinI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of medicinal plant.\n"
+            ]
+        },
+        {
+            "__line": 103321,
+            "_ancestry": [
+                "L_ 12196",
+                "B_ {#kAsaH#}, {#-sA#}",
+                "S_ .{@{#-mardaH#}@}"
+            ],
+            "_banner": ".{@{#-mardaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAsamardaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a cure of cough.\n",
+                ".²2 an acid preparation ({#kAsuMdI#})."
+            ]
+        }
     ]
 }

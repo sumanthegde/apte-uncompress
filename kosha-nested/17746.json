@@ -1,19 +1,60 @@
 {
-    "__line": 149766,
+    "__line": 156619,
     "_ancestry": [
         "L_ 17746",
-        "B_ {#panuH (nUH)#}"
+        "B_ {#druRaH#}"
     ],
-    "_banner": "{#panuH (nUH)#}",
+    "_banner": "{#druRaH#}",
     "_bannerExp": [
         {
-            "Right": "panUH"
-        },
-        {
-            "Right": "panuH"
+            "Right": "druRaH"
         }
     ],
+    "_gram": [
+        "[{#druRa-kta#}]"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> Admiration, praise."
+        ".²1 A scorpion.\n",
+        ".²2 A bee.\n",
+        ".²3 rogue.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 156623,
+            "_ancestry": [
+                "L_ 17746",
+                "B_ {#druRaH#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "druRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A bow.\n",
+                ".²2 A sword.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 156627,
+            "_ancestry": [
+                "L_ 17746",
+                "B_ {#druRaH#}",
+                "S_ .{@{#-haH#}@}"
+            ],
+            "_banner": ".{@{#-haH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "druRahaH"
+                }
+            ],
+            "_meanings": [
+                "a sheath, scabbard."
+            ]
+        }
     ]
 }

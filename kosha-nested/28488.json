@@ -1,134 +1,72 @@
 {
-    "__line": 239387,
+    "__line": 263415,
     "_ancestry": [
         "L_ 28488",
-        "B_ {#Svas#}"
+        "B_ {#varaRam#}"
     ],
-    "_banner": "{#Svas#}",
+    "_banner": "{#varaRam#}",
     "_bannerExp": [
         {
-            "Right": "Svas"
+            "Right": "varaRam"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "[{#vf-lyuw lyu vA#} <ls>Uṇ. 2. 71</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Tomorrow; {#varamadya#}\n{#kapoto na Svo mayUraH#} <ls>Subhāṣ.</ls> ",
-        "{@--2@} Future\n(at the beginning of <ab>comp.</ab>) ",
-        "{@--3@} A\nparticle implying auspiciousness.\n"
+        ".²1 Choosing, selecting.\n",
+        ".²2 Begging, soliciting, requesting.\n",
+        ".²3 Surrounding, encircling.\n",
+        ".²4 Covering, screening, protecting.\n",
+        ".²5 The choice of a bride.\n",
+        ".²6 Worshipping (of priests <ab>&c.</ab>).\n",
+        ".²7 Keeping off, prohibiting, warding.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 263423,
+            "_ancestry": [
+                "L_ 28488",
+                "B_ {#varaRam#}",
+                "M_ .{@{#-RaH#}@}"
+            ],
+            "_banner": ".{@{#-RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varaRaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A rampart, surrounding wall; {#varaRaH kanakasya mAninIM divamaNkAdamarAdrirAgatAm#}\n {#… … uvAsa#} <ls>N. 2. 86</ls>.\n",
+                ".²2 A bridge.\n",
+                ".²3 The tree called Varuṇa; <ls>Rām. 2. 94. 9</ls>; see {#varuRa#} (<lang>Mar.</lang> <ns>{#vAyavarRA#}</ns>).\n",
+                ".²4 A tree in general; {#iha sinDavaSca varaRAvaraRAH kariRAM mude sanaladAnaladAH#} <ls>Ki. 5. 25</ls>.\n",
+                ".²5 A camel.\n",
+                ".²6 A kind of ornament on a bow.\n",
+                ".²7 <ab>N.</ab> of Indra.\n",
+                ".²8 A particular magical formula recited over weapons.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 239391,
+            "__line": 263434,
             "_ancestry": [
                 "L_ 28488",
-                "B_ {#Svas#}",
-                "S_  {#--BUta#}"
+                "B_ {#varaRam#}",
+                "S_ .{@{#-mAlA, -sraj#}@}"
             ],
-            "_banner": " {#--BUta#}",
+            "_banner": ".{@{#-mAlA, -sraj#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SvoBUta"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}",
-                "({#SvoBUta#})"
-            ],
-            "_meanings": [
-                "being\ntomorrow. "
-            ]
-        },
-        {
-            "__line": 239392,
-            "_ancestry": [
-                "L_ 28488",
-                "B_ {#Svas#}",
-                "S_ {#--vasIya, --vasIyas#}"
-            ],
-            "_banner": "{#--vasIya, --vasIyas#}",
-            "_bannerExp": [
-                {
-                    "Right": "SvovasIya"
+                    "Right": "varaRamAlA"
                 },
                 {
-                    "Right": "SvovasIyas"
+                    "Right": "varaRasraj"
                 }
-            ],
-            "_gram": [
-                "({#SvovasIya, SvovasIyas#})",
-                "{%<ab>a.</ab>%}"
             ],
             "_meanings": [
-                "happy, auspicious,\nfortunate. "
-            ],
-            "_morphisms": [
-                {
-                    "__line": 239394,
-                    "_ancestry": [
-                        "L_ 28488",
-                        "B_ {#Svas#}",
-                        "S_ {#--vasIya, --vasIyas#}",
-                        "S_M_ {%--<ab>n.</ab>%}"
-                    ],
-                    "_bannerExp": [
-                        {
-                            "Right": "SvovasIya"
-                        },
-                        {
-                            "Right": "SvovasIyas"
-                        }
-                    ],
-                    "_gram": [
-                        "{%--<ab>n.</ab>%}"
-                    ],
-                    "_meanings": [
-                        "happiness, good\nfortune. "
-                    ]
-                }
-            ]
-        },
-        {
-            "__line": 239395,
-            "_ancestry": [
-                "L_ 28488",
-                "B_ {#Svas#}",
-                "S_ {#--Sreyasa#}"
-            ],
-            "_banner": "{#--Sreyasa#}",
-            "_bannerExp": [
-                {
-                    "Right": "SvaHSreyasa"
-                }
-            ],
-            "_gram": [
-                "({#SvaHSreyasa#})",
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "happy, prosperous. "
-            ],
-            "_morphisms": [
-                {
-                    "__line": 239396,
-                    "_ancestry": [
-                        "L_ 28488",
-                        "B_ {#Svas#}",
-                        "S_ {#--Sreyasa#}",
-                        "S_M_ ({#--saM#}"
-                    ],
-                    "_banner": "({#--saM#}",
-                    "_bannerExp": [
-                        {
-                            "Right": "SvaHSreyasaM"
-                        }
-                    ],
-                    "_meanings": [
-                        "{1} \nhappiness, prosperity. ",
-                        "{2} an epithet\nof Brahman or the Supreme Spirit."
-                    ]
-                }
+                "See {#varasraj#}."
             ]
         }
     ]

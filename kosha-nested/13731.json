@@ -1,19 +1,62 @@
 {
-    "__line": 114820,
+    "__line": 116954,
     "_ancestry": [
         "L_ 13731",
-        "B_ {#janayaMta#}"
+        "B_ {#ga#}"
     ],
-    "_banner": "{#janayaMta#}",
+    "_banner": "{#ga#}",
     "_bannerExp": [
         {
-            "Right": "janayaMta"
+            "Right": "ga"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Generating, producing."
+        "(Used only at the end of <ab>comp.</ab>) Who or what goes, going,\n moving, being, staying, remaining, having sexual intercourse with <ab>&c.</ab>;\n <ab>cf.</ab> <ls>Ms. 4. 120</ls>; <ls>Y. 3. 290</ls>; <ls>R. 3. 13</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 116957,
+            "_ancestry": [
+                "L_ 13731",
+                "B_ {#ga#}",
+                "M_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A Gandharva.\n",
+                ".²2 An epithet of Gaṇeśa.\n",
+                ".²3 A long syllable (used as an abbreviation of {#guru#}, in prosody).\n",
+                ".²4 Śiva.\n",
+                ".²5 Viṣṇu; <ab>cf.</ab> {#gaH prIto BavaH SrIpatiruttamaH#} <ls>Enm.</ls>\n"
+            ]
+        },
+        {
+            "__line": 116963,
+            "_ancestry": [
+                "L_ 13731",
+                "B_ {#ga#}",
+                "M_ .{@{#-gA, -gam#}@}"
+            ],
+            "_banner": ".{@{#-gA, -gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gA"
+                },
+                {
+                    "Right": "gam"
+                }
+            ],
+            "_meanings": [
+                "A song; {#gaM vAditraM SaraRaM varam .#} {%<ab>ibid.</ab>%}"
+            ]
+        }
     ]
 }

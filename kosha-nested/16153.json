@@ -1,58 +1,605 @@
 {
-    "__line": 135709,
+    "__line": 140036,
     "_ancestry": [
         "L_ 16153",
-        "B_ {#Dfzwi#}"
+        "B_ {#tapas#}"
     ],
-    "_banner": "{#Dfzwi#}",
+    "_banner": "{#tapas#}",
     "_bannerExp": [
         {
-            "Right": "Dfzwi"
+            "Right": "tapas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}",
+        "[{#tap-asun#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Bold. "
+        ".²1 Warmth, heat, fire, light; {#ekaH sUryastaMpaso yonirekA#} <ls>Mb. 12. 351. 10</ls>.\n",
+        ".²2 Pain, suffering; {#na tapaH kutaScana#} <ls>Rv. 7. 82. 7</ls>.\n",
+        ".²3 Penance, religious austerity, mortification; {#tapaH kiledaM tadavAptisADanam#} <ls>Ku. 5. 64</ls>.\n",
+        ".²4 Meditation connected with the practice of personal self-denial or bodily\n mortification; {#girA vA''SaMsAmi tapasA hyanantO#} <ls>Mb. 1. 3. 57</ls>; <ls>Bhāg. 12. 11. 24</ls>.\n",
+        ".²5 Moral virtue, merit.\n",
+        ".²6 Special duty or observance (of any particular caste); {#yatsaptAnnAni#}\n {#meDayA tapasAjanayatpitA#} <ls>Bṛ. Up. 1. 5. 1</ls>.\n",
+        ".²7 One of the seven worlds; {%<ab>i. e.</ab>%} the region above the world called {#janas#}.\n",
+        ".²8 The month of religious austerities.\n",
+        ".²9 A long period of time, Kalpa.\n",
+        ".²10 (In <ab>astrol.</ab>) The ninth lunar mansion.\n",
+        ".²11 Chastisement ({#daRqa#}); {#AyuH SaktiM ca kAlaM ca nirdiSya tapa#}\n {#AdiSet#} <ls>Mb. 12. 267. 35</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 135709,
+            "__line": 140050,
             "_ancestry": [
                 "L_ 16153",
-                "B_ {#Dfzwi#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#tapas#}",
+                "M_ --{%m.%}"
             ],
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "Dfzwi"
+                    "Left": "Parser error: {#tapas#} M_ --{%m.%}"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                ".²1 The month of Māgha; {#tapasi mandagaBastiraBIzumAn#} <ls>Śi. 6. 63</ls>.\n",
+                ".²2 An epithet of Agni. --{%m., n.%}\n",
+                ".²1 The cold season; ({#SiSira#}).\n",
+                ".²2 The winter ({#hemanta#}).\n",
+                ".²3 The hot season ({#grIzma#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 140057,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-anuBAvaH#}@}"
+            ],
+            "_banner": ".{@{#-anuBAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapo'nuBAvaH"
+                }
             ],
             "_meanings": [
-                "A pair of\ntongs. "
+                "the influence of religious penance.\n"
             ]
         },
         {
-            "__line": 135710,
+            "__line": 140058,
             "_ancestry": [
                 "L_ 16153",
-                "B_ {#Dfzwi#}",
-                "M_ {%--<ab>f.</ab>%}"
+                "B_ {#tapas#}",
+                "S_ .{@{#-arTIya#}@}"
             ],
+            "_banner": ".{@{#-arTIya#}@}",
             "_bannerExp": [
                 {
-                    "Right": "Dfzwi"
+                    "Right": "tapo'rTIya"
                 }
             ],
             "_gram": [
-                "{%--<ab>f.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "Boldness, bravery."
+                "destined for austerities; {#taporTIyaM brAhmaRI#}\n {#Datta garBam#} <ls>Mb. 11. 26. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140060,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-avawaH#}@}"
+            ],
+            "_banner": ".{@{#-avawaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapo'vawaH"
+                }
+            ],
+            "_meanings": [
+                "the Brahmāvarta country.\n"
+            ]
+        },
+        {
+            "__line": 140061,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaskara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "undergoing penance; also {#tapaskara#}.\n"
+            ]
+        },
+        {
+            "__line": 140062,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaskaraH"
+                }
+            ],
+            "_meanings": [
+                "the mango-fish (Polynemus Risua).\n"
+            ]
+        },
+        {
+            "__line": 140063,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-kfSa#}@}"
+            ],
+            "_banner": ".{@{#-kfSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHkfSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "emaciated by austerities\n"
+            ]
+        },
+        {
+            "__line": 140064,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-kleSaH#}@}"
+            ],
+            "_banner": ".{@{#-kleSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHkleSaH"
+                }
+            ],
+            "_meanings": [
+                "the pain of religious austerity.\n"
+            ]
+        },
+        {
+            "__line": 140065,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-gacCaH#}@}"
+            ],
+            "_banner": ".{@{#-gacCaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapogacCaH"
+                }
+            ],
+            "_meanings": [
+                "(also {#tapAgacCaH#}) the 6th {#gacCa#} of the Śvetāmbara Jainas.\n"
+            ]
+        },
+        {
+            "__line": 140066,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-caraRam, -caryA#}@}"
+            ],
+            "_banner": ".{@{#-caraRam, -caryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaScaraRam"
+                },
+                {
+                    "Right": "tapaScaryA"
+                }
+            ],
+            "_meanings": [
+                "the practice of penance. {@{#takzaH, -taNkaH#}@}\n an epithet of Indra.\n"
+            ]
+        },
+        {
+            "__line": 140068,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-Dana#}@}"
+            ],
+            "_banner": ".{@{#-Dana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapoDana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 rich in religious penance.\n",
+                ".²2 pious, ascetic.\n",
+                ".²3 consisting in penance,\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 140072,
+                    "_ancestry": [
+                        "L_ 16153",
+                        "B_ {#tapas#}",
+                        "S_ .{@{#-Dana#}@}",
+                        "S_M_ ({@{#-naH#}@}"
+                    ],
+                    "_banner": "({@{#-naH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tapoDanaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "‘rich in penance’, an ascetic, devotee; {#ramyAstapoDanAnA#}\n {#kriyAH#} <ls>Ś. 1. 13</ls>; {#SamapraDAnezu tapoDanezu#} <ls n=\"Ś.\">2. 7</ls>, <ls n=\"Ś.\">4. 1</ls>; <ls>Śi. 1. 23</ls>;\n <ls>R. 14. 19</ls>; <ls>Ms. 11. 242</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 140075,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-niDiH#}@}"
+            ],
+            "_banner": ".{@{#-niDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taponiDiH"
+                }
+            ],
+            "_meanings": [
+                "an eminently pious\n\n man, an ascetic; <ls>R. 1. 56</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140078,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-nizWa#}@}"
+            ],
+            "_banner": ".{@{#-nizWa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taponizWa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "performing penance; <ls>Ms. 3. 134</ls>; <ls>Y. 1. 221</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140079,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHpatiH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu; <ls>Bhāg. 4. 24. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140080,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-praBAvaH, -balam#}@}"
+            ],
+            "_banner": ".{@{#-praBAvaH, -balam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHpraBAvaH"
+                },
+                {
+                    "Right": "tapobalam"
+                }
+            ],
+            "_meanings": [
+                "the power acquired by religious austerities;\n efficacy or potency of devotion.\n"
+            ]
+        },
+        {
+            "__line": 140082,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapoBft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ascetic, pious.\n"
+            ]
+        },
+        {
+            "__line": 140083,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-mUrtiH#}@}"
+            ],
+            "_banner": ".{@{#-mUrtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapomUrtiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an ascetic.\n",
+                ".²2 the Supreme spirit.\n"
+            ]
+        },
+        {
+            "__line": 140086,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-mUla#}@}"
+            ],
+            "_banner": ".{@{#-mUla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapomUla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "founded on religious austerity; {#tapomUlamidaM sarvaM#}\n {#dEvamAnuzakaM suKam#} <ls>Ms. 11. 234</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140088,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-yajYaH#}@}"
+            ],
+            "_banner": ".{@{#-yajYaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapoyajYaH"
+                }
+            ],
+            "_meanings": [
+                "sacrificing by austerities; <ls>Bg. 4. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140089,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taporAjaH"
+                }
+            ],
+            "_meanings": [
+                "the moon.\n"
+            ]
+        },
+        {
+            "__line": 140090,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-rASiH#}@}"
+            ],
+            "_banner": ".{@{#-rASiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taporASiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an ascetic.\n",
+                ".²2 <ab>N.</ab> of Viṣṇu ({#puruzottama#}).\n"
+            ]
+        },
+        {
+            "__line": 140093,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapolokaH"
+                }
+            ],
+            "_meanings": [
+                "the region above the world called {#janas#}; <ls>Bhāg. 2. 5. 40</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140094,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-vanam#}@}"
+            ],
+            "_banner": ".{@{#-vanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapovanam"
+                }
+            ],
+            "_meanings": [
+                "a penance-grove, a sacred grove in which ascetics practise\n penance; {#kftaM tvayopavanaM tapovanamiti prekze#} <ls>Ś. 1</ls>; <ls>R. 1. 90</ls>, <ls n=\"R.\">2. 18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140096,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-vAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapovAsaH"
+                }
+            ],
+            "_meanings": [
+                "a place of penance or religious austerities.\n"
+            ]
+        },
+        {
+            "__line": 140097,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-viSezaH#}@}"
+            ],
+            "_banner": ".{@{#-viSezaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapoviSezaH"
+                }
+            ],
+            "_meanings": [
+                "excellence of devotion, pre-eminent religious austerities.\n"
+            ]
+        },
+        {
+            "__line": 140098,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-vfdDa#}@}"
+            ],
+            "_banner": ".{@{#-vfdDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapovfdDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very ascetic or devout.\n"
+            ]
+        },
+        {
+            "__line": 140099,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-SIla#}@}"
+            ],
+            "_banner": ".{@{#-SIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHSIla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inclined to practise penance.\n"
+            ]
+        },
+        {
+            "__line": 140100,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-samADiH#}@}"
+            ],
+            "_banner": ".{@{#-samADiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHsamADiH"
+                }
+            ],
+            "_meanings": [
+                "the practice of penance or religious austerities; {#tapaHsamADeH#}\n {#pratikUlavartI#} <ls>Ku. 3. 24</ls>, <ls n=\"Ku.\">5. 6</ls>, <ls n=\"Ku. 5.\">18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140102,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-sutaH#}@}"
+            ],
+            "_banner": ".{@{#-sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHsutaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Yudhiṣṭhira; <ls>Mb. 3. 313. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140103,
+            "_ancestry": [
+                "L_ 16153",
+                "B_ {#tapas#}",
+                "S_ .{@{#-sTalI#}@}"
+            ],
+            "_banner": ".{@{#-sTalI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaHsTalI"
+                }
+            ],
+            "_meanings": [
+                ".²1 a seat of religious austerity.\n",
+                ".²2 <ab>N.</ab> of Benares."
             ]
         }
     ]

@@ -1,28 +1,38 @@
 {
-    "__line": 6940,
+    "__line": 5614,
     "_ancestry": [
         "L_ 498",
-        "B_ {#ataMdra --drita --n --la#}"
+        "B_ {#akta#}"
     ],
-    "_banner": "{#ataMdra --drita --n --la#}",
+    "_banner": "{#akta#}",
     "_bannerExp": [
         {
-            "Right": "ataMdra"
-        },
-        {
-            "Right": "ataMdrila"
-        },
-        {
-            "Right": "ataMdrin"
-        },
-        {
-            "Right": "ataMdrita"
+            "Right": "akta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Alert, \nunwearied, careful, vigilant; {#ataMdritA sA#} \n{#svayameva vfkzakAn#} <ls>Ku. 5. 14</ls>, <ls>R. 17. 39</ls>,\n<ls>H. Pr. 33.</ls>"
+        "Smeared over, bedaubed, anointed <ab>&c.</ab>; mostly as latter\n part of compounds; {#Gfta˚, tEla˚, SoRita˚#} <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 5616,
+            "_ancestry": [
+                "L_ 498",
+                "B_ {#akta#}",
+                "M_ .{@{#-ktA#}@}"
+            ],
+            "_banner": ".{@{#-ktA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aktA"
+                }
+            ],
+            "_meanings": [
+                "Night."
+            ]
+        }
     ]
 }

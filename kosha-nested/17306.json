@@ -1,21 +1,52 @@
 {
-    "__line": 145576,
+    "__line": 150971,
     "_ancestry": [
         "L_ 17306",
-        "B_ {#nIcakin#}"
+        "B_ {#diS#}"
     ],
-    "_banner": "{#nIcakin#}",
+    "_banner": "{#diS#}",
     "_bannerExp": [
         {
-            "Right": "nIcakin"
+            "Right": "diS"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "€6",
+        "<ab>U.</ab>",
+        "({#diSati-te, dizwa#}; {%<ab>desid.</ab>%} {#didikzati-te#})"
     ],
     "_meanings": [
-        "{@--1@} The top of anything.\n",
-        "{@--2@} The head of an ox. ",
-        "{@--3@} The owner\nof a good cow. "
+        ".²1 To point out, show, exhibit, produce (as a witness); {#sAkziRaH santi#}\n {#metyuktvA diSetyukto diSenna yaH#} <ls>Ms. 8. 57</ls>, <ls n=\"Ms. 8.\">52</ls>, <ls n=\"Ms. 8.\">53</ls>.\n",
+        ".²2 To assign, allot; {#izwAM gatiM tasya surA diSanti#} <ls>Mb.</ls>\n",
+        ".²3 To give, grant, bestow upon, deliver or make over to; {#bARamatraBavate#}\n {#nijaM diSan#} <ls>Ki. 13. 68</ls>; <ls>R. 5. 30</ls>, <ls n=\"R.\">11. 2</ls>, <ls n=\"R.\">16. 72</ls>.\n",
+        ".²4 To pay (as tribute).\n",
+        ".²5 To consent to; {#mftyaBAviM duhituH parigrahAddiSyatAM kulamidaM nimeriti#} <ls>R. 11. 49</ls>.\n",
+        ".²6 To direct, order, command.\n",
+        ".²7 To allow, permit; {#smartuM diSanti na divaH surasundarIByaH#} <ls>Ki. 5. 28</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 150981,
+            "_ancestry": [
+                "L_ 17306",
+                "B_ {#diS#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "diS"
+                }
+            ],
+            "_gram": [
+                "({#deSayati-te#})"
+            ],
+            "_meanings": [
+                ".²1 To show, point out, allot, assign.\n",
+                ".²2 To teach, communicate, tell, inform.\n",
+                ".²3 To direct, order.\n",
+                ".²4 To confer, bestow."
+            ]
+        }
     ]
 }

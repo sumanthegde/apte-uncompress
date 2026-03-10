@@ -1,19 +1,42 @@
 {
-    "__line": 256417,
+    "__line": 282212,
     "_ancestry": [
         "L_ 30581",
-        "B_ {#sotsava#}"
+        "B_ {#visrasta#}"
     ],
-    "_banner": "{#sotsava#}",
+    "_banner": "{#visrasta#}",
     "_bannerExp": [
         {
-            "Right": "sotsava"
+            "Right": "visrasta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Festive, making \nmerry, joyous."
+        ".²1 Loosened.\n",
+        ".²2 Weak, infirm.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 282216,
+            "_ancestry": [
+                "L_ 30581",
+                "B_ {#visrasta#}",
+                "S_ .{@{#-cetas#}@}"
+            ],
+            "_banner": ".{@{#-cetas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visrastacetas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose spirit is dejected."
+            ]
+        }
     ]
 }

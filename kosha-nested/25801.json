@@ -1,21 +1,41 @@
 {
-    "__line": 218130,
+    "__line": 234373,
     "_ancestry": [
         "L_ 25801",
-        "B_ {#vicCur#}"
+        "B_ {#marIcin, marIcimat#}"
     ],
-    "_banner": "{#vicCur#}",
+    "_banner": "{#marIcin, marIcimat#}",
     "_bannerExp": [
         {
-            "Right": "vicCur"
+            "Right": "marIcin"
+        },
+        {
+            "Right": "marIcimat"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To smear, anoint,\ncover, coat; {#manaHSilAvicCuritA nizeduH#}\n<ls>Ku. 1. 55</ls>; <ls>Ch. P. 11</ls>; <ls>V. 4. 42.</ls>\n",
-        "{@--2@} To set, inlay."
+        "Radiant, lustrous. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 234373,
+            "_ancestry": [
+                "L_ 25801",
+                "B_ {#marIcin, marIcimat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#marIcin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The sun."
+            ]
+        }
     ]
 }

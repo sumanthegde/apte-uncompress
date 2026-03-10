@@ -1,27 +1,38 @@
 {
-    "__line": 130651,
+    "__line": 135531,
     "_ancestry": [
         "L_ 15619",
-        "B_ {#dfh, dfMh#}"
+        "B_ {#jigatnu#}"
     ],
-    "_banner": "{#dfh, dfMh#}",
+    "_banner": "{#jigatnu#}",
     "_bannerExp": [
         {
-            "Right": "dfMh"
-        },
-        {
-            "Right": "dfh"
+            "Right": "jigatnu"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#darhati, dfMhati#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To\nbe fixed or firm. ",
-        "{@--2@} To grow, \nincrease. ",
-        "{@--3@} To prosper. ",
-        "{@--4@} To fasten."
+        "Going quickly, fleet; {#viSvasya yAmannAcitA jigatnu#}\n <ls>Rv. 7. 65. 1</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 135532,
+            "_ancestry": [
+                "L_ 15619",
+                "B_ {#jigatnu#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#jigatnu#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "Breath, life."
+            ]
+        }
     ]
 }

@@ -1,25 +1,44 @@
 {
-    "__line": 249338,
+    "__line": 275188,
     "_ancestry": [
         "L_ 29791",
-        "B_ {#saMmfj#}"
+        "B_ {#vinyasta#}"
     ],
-    "_banner": "{#saMmfj#}",
+    "_banner": "{#vinyasta#}",
     "_bannerExp": [
         {
-            "Right": "saMmfj"
+            "Right": "vinyasta"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>",
-        "{c10c}",
-        "<ab>U.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To sweep\nclean, purify. ",
-        "{@--2@} To wipe off or out,\nwipe away, remove. ",
-        "{@--3@} To rub,\nstroke. ",
-        "{@--4@} To strain, filter."
+        ".²1 Placed or put down.\n",
+        ".²2 Inlaid, paved.\n",
+        ".²3 Fixed.\n",
+        ".²4 Arranged.\n",
+        ".²5 Delivered.\n",
+        ".²6 Presented, offered.\n",
+        ".²7 Deposited.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 275196,
+            "_ancestry": [
+                "L_ 29791",
+                "B_ {#vinyasta#}",
+                "M_ .{@{#-stam#}@}"
+            ],
+            "_banner": ".{@{#-stam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinyastam"
+                }
+            ],
+            "_meanings": [
+                "Arrangement, placing; {#dAntatoraRavinyastaM vajrasPawikavedikam#}\n <ls>Rām. 7. 13. 5</ls>."
+            ]
+        }
     ]
 }

@@ -1,40 +1,64 @@
 {
-    "__line": 61368,
+    "__line": 59830,
     "_ancestry": [
         "L_ 7113",
-        "B_ {#AsaH#}"
+        "B_ {#ApUpika#}"
     ],
-    "_banner": "{#AsaH#}",
+    "_banner": "{#ApUpika#}",
     "_bannerExp": [
         {
-            "Right": "AsaH"
+            "Right": "ApUpika"
+        },
+        {
+            "Right": "ApUpikI"
         }
     ],
     "_gram": [
-        "[{#As-GaY#}]"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#apUpa-Wak#}]"
     ],
     "_meanings": [
-        "{@--1@} A seat. ",
-        "{@--2@} A\nbow ({#--saM#} also); {#sa sAsiH sAsusUH#}\n{#sAsaH#} <ls>Ki. 15. 5.</ls> ",
-        "{@--3@} Ashes. "
+        ".²1 A good maker of {#apUpa#} (cakes).\n",
+        ".²2 Accustomed to eat cakes.\n",
+        ".²3 Fond of cakes, eating cakes (with benefit).\n",
+        ".²4 Selling cakes.\n",
+        ".²5 Baking cakes.\n",
+        ".²6 Forming an ingredient of cakes, good for cakes (as {#guqa#}).\n"
     ],
     "_morphisms": [
         {
-            "__line": 61370,
+            "__line": 59838,
             "_ancestry": [
                 "L_ 7113",
-                "B_ {#AsaH#}",
-                "M_ {#--saM#}"
+                "B_ {#ApUpika#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--saM#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AsaM"
+                    "Right": "ApUpikaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Seat\nor lower part of the body. ",
-                "{@--2@}\nProximity."
+                "A baker; confectioner.\n"
+            ]
+        },
+        {
+            "__line": 59839,
+            "_ancestry": [
+                "L_ 7113",
+                "B_ {#ApUpika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApUpikam"
+                }
+            ],
+            "_meanings": [
+                "A multitude of cakes ({#apUpAnAM samUhaH#})."
             ]
         }
     ]

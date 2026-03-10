@@ -1,19 +1,103 @@
 {
-    "__line": 103246,
+    "__line": 104851,
     "_ancestry": [
         "L_ 12361",
-        "B_ {#garjA, garjiH#}"
+        "B_ {#kuwaH#}, {#-wam#}"
     ],
-    "_banner": "{#garjA, garjiH#}",
+    "_banner": "{#kuwaH#}, {#-wam#}",
     "_bannerExp": [
         {
-            "Right": "garjA"
+            "Right": "kuwaH"
         },
         {
-            "Right": "garjiH"
+            "Right": "kuwam"
         }
     ],
+    "_gram": [
+        "[{#kuw--kam#}]"
+    ],
     "_meanings": [
-        "The thundering of\nclouds."
+        "A water pot, a jar, pitcher.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 104853,
+            "_ancestry": [
+                "L_ 12361",
+                "B_ {#kuwaH#}, {#-wam#}",
+                "M_ .{@{#-waH#}@}"
+            ],
+            "_banner": ".{@{#-waH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A fort, strong-hold.\n",
+                ".²2 A hammer.\n",
+                ".²3 A tree.\n",
+                ".²4 A house. ",
+                ".²5 A mountain.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 104859,
+            "_ancestry": [
+                "L_ 12361",
+                "B_ {#kuwaH#}, {#-wam#}",
+                "S_ .{@{#-AmodaH#}@}"
+            ],
+            "_banner": ".{@{#-AmodaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwAmodaH"
+                }
+            ],
+            "_meanings": [
+                "a civet.\n"
+            ]
+        },
+        {
+            "__line": 104860,
+            "_ancestry": [
+                "L_ 12361",
+                "B_ {#kuwaH#}, {#-wam#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwajaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a tree; <ls>Māl. 9. 15</ls>; <ls>Me. 4</ls>; <ls>R. 19. 37</ls>; <ls>Ṛs. 3. 13</ls>; <ls>Bh. 1. 35</ls>.\n",
+                ".²2 <ab>N.</ab> of Agastya.\n",
+                ".²3 <ab>N.</ab> of Droṇa.\n"
+            ]
+        },
+        {
+            "__line": 104864,
+            "_ancestry": [
+                "L_ 12361",
+                "B_ {#kuwaH#}, {#-wam#}",
+                "S_ .{@{#-hArikA, -kArikA#}@}"
+            ],
+            "_banner": ".{@{#-hArikA, -kArikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwahArikA"
+                },
+                {
+                    "Left": "S error: midAlign kArikA hArikArikA"
+                }
+            ],
+            "_meanings": [
+                "a female servant, <ls>Hch.</ls>"
+            ]
+        }
     ]
 }

@@ -1,17 +1,63 @@
 {
-    "__line": 234159,
+    "__line": 257064,
     "_ancestry": [
         "L_ 27831",
-        "B_ {#SAMbarI#}"
+        "B_ {#lambanaH#}"
     ],
-    "_banner": "{#SAMbarI#}",
+    "_banner": "{#lambanaH#}",
     "_bannerExp": [
         {
-            "Right": "SAMbarI"
+            "Right": "lambanaH"
         }
     ],
+    "_gram": [
+        "[{#lamb-lyu lyuw vA#}]"
+    ],
     "_meanings": [
-        "{@--1@} Jugglery, sorcery. ",
-        "{@--2@}\nA sorceress."
+        ".²1 An epithet of Śiva.\n",
+        ".²2 The phlegmatic humour.\n",
+        ".²3 A camp-follower.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 257068,
+            "_ancestry": [
+                "L_ 27831",
+                "B_ {#lambanaH#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Hanging down, depending, descending <ab>&c.</ab>\n",
+                ".²2 Fringe.\n",
+                ".²3 The parallax in longitude (of the moon).\n",
+                ".²4 A sort of long necklace; also {#lambamAnA#}.\n",
+                ".²5 A mode of fighting.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 257075,
+            "_ancestry": [
+                "L_ 27831",
+                "B_ {#lambanaH#}",
+                "S_ .{@{#-viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambanaviDiH"
+                }
+            ],
+            "_meanings": [
+                "(in <ab>astr.</ab>) the rule for calculating the moonʼs parallax in longitude."
+            ]
+        }
     ]
 }

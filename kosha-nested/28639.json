@@ -1,50 +1,103 @@
 {
-    "__line": 240614,
+    "__line": 264808,
     "_ancestry": [
         "L_ 28639",
-        "B_ {#saMvid#}"
+        "B_ {#varvara#}"
     ],
-    "_banner": "{#saMvid#}",
+    "_banner": "{#varvara#}",
     "_bannerExp": [
         {
-            "Right": "saMvid"
+            "Right": "varvara"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#vf-arac vuw ca#}]"
     ],
     "_meanings": [
-        "{@--1@} Knowledge, \nunderstanding, intellect; <ls>Ki. 18. 42.</ls> ",
-        "{@--2@} \nConsciousness, perception; <ls>Māl. 6. 13.</ls>\n",
-        "{@--3@} An agreement, engagement, \ncontract, covenant, promise; {#sa#} \n{#rAjalokaH kftapUrvasaMvit#} <ls>R. 7. 31.</ls> ",
-        "{@--4@} Assent,\nconsent. ",
-        "{@--5@} An established usage, a\nprescribed custom. ",
-        "{@--6@} War, battle,\nfight. ",
-        "{@--7@} A war-cry, watch-word. ",
-        "{@--8@}\nA name, an appellation. ",
-        "{@--9@} A sign,\nsignal. ",
-        "{@--10@} Pleasing, delighting,\ngratification; <ls>Śi. 16. 47.</ls> ",
-        "{@--11@} \nSympathy, participation. ",
-        "{@--12@} Meditation.\n",
-        "{@--13@} Conversation. ",
-        "{@--14@} Hemp. "
+        ".²1 Stammering.\n",
+        ".²2 Curled.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 240627,
+            "__line": 264811,
             "_ancestry": [
                 "L_ 28639",
-                "B_ {#saMvid#}",
-                "S_ \n{#--vyatikramaH#}"
+                "B_ {#varvara#}",
+                "M_ .{@{#-raH#}@}"
             ],
-            "_banner": "\n{#--vyatikramaH#}",
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMvidvyatikramaH"
+                    "Right": "varvaraH"
                 }
             ],
             "_meanings": [
-                "breach of promise, \nviolation of a contract."
+                ".²1 A barbarian.\n",
+                ".²2 A blockhead, babbling fool.\n",
+                ".²3 An outcast.\n",
+                ".²4 Curly hair.\n",
+                ".²5 The clash of weapons.\n",
+                ".²6 A mode of dancing.\n"
+            ]
+        },
+        {
+            "__line": 264818,
+            "_ancestry": [
+                "L_ 28639",
+                "B_ {#varvara#}",
+                "M_ .{@{#-rA, -rI#}@}"
+            ],
+            "_banner": ".{@{#-rA, -rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varvarA"
+                },
+                {
+                    "Right": "varvarI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of fly.\n",
+                ".²2 A kind of basil.\n"
+            ]
+        },
+        {
+            "__line": 264821,
+            "_ancestry": [
+                "L_ 28639",
+                "B_ {#varvara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varvaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Yellow sandal-wood.\n",
+                ".²2 Vermilion.\n",
+                ".²3 Gum-myrrh.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 264826,
+            "_ancestry": [
+                "L_ 28639",
+                "B_ {#varvara#}",
+                "S_ .{@{#-utTam#}@}"
+            ],
+            "_banner": ".{@{#-utTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varvarotTam"
+                }
+            ],
+            "_meanings": [
+                "white sandal-wood."
             ]
         }
     ]

@@ -1,39 +1,64 @@
 {
-    "__line": 155123,
+    "__line": 165099,
     "_ancestry": [
         "L_ 18514",
-        "B_ {#pallavita#}"
+        "B_ {#nAyaka#}"
     ],
-    "_banner": "{#pallavita#}",
+    "_banner": "{#nAyaka#}",
     "_bannerExp": [
         {
-            "Right": "pallavita"
+            "Right": "nAyaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#nI-Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Sprouting, having\nyoung shoots or sprouts. ",
-        "{@--2@} Spread,\nextended; {#alaM pallavitena#} ‘enough of\nfurther amplification or \nexpatiation’. ",
-        "{@--3@} Dyed red with lac. "
+        "Guiding, leading, conducting.\n"
     ],
     "_morphisms": [
         {
-            "__line": 155127,
+            "__line": 165100,
             "_ancestry": [
                 "L_ 18514",
-                "B_ {#pallavita#}",
-                "M_ {#--taH#}"
+                "B_ {#nAyaka#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pallavitaH"
+                    "Right": "nAyakaH"
                 }
             ],
             "_meanings": [
-                "Lac-dye."
+                ".²1 A guide, leader, conductor.\n",
+                ".²2 A chief, master, head, lord.\n",
+                ".²3 A pre-eminent or principal person, distinguished personage; {#sEnyanAyakaH#} <ab>&c.</ab>\n",
+                ".²4 A general, commander.\n",
+                ".²5 (In <ab>Rhet.</ab>) The hero of a poetic composition (a play or drama); (according\n to <ls>S. D.</ls> there are four main kinds of {#nAyaka#}:-- {#DIrodAtta, DIrodData#},\n {#DIralalita#}, and {#DIrapraSAnta#}, <ab>q. v.</ab>; these are again subdivided,\n the total number of kinds being 48; see <ls>S. D. 64-75</ls>. The Rasamañjarī\n mentions 3 classes {#pati, upapati#} and {#vESika#}; <ls n=\"S. D.\">95. 110</ls>).\n",
+                ".²6 The central gem of a necklace; {#‘nAyako netari SrezWe hAramaDyamaRAvapi’ iti viSvaH#}.\n",
+                ".²7 A paradigm or leading example; {#daSEte strIzu nAyakAH#}.\n",
+                ".²8 An epithet of Śākyamuni.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 165114,
+            "_ancestry": [
+                "L_ 18514",
+                "B_ {#nAyaka#}",
+                "S_ .{@{#-aDipaH#}@}"
+            ],
+            "_banner": ".{@{#-aDipaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAyakADipaH"
+                }
+            ],
+            "_meanings": [
+                "a king, sovereign."
             ]
         }
     ]

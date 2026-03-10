@@ -1,47 +1,59 @@
 {
-    "__line": 187167,
+    "__line": 201600,
     "_ancestry": [
         "L_ 22416",
-        "B_ {#BrAmaka#}"
+        "B_ {#pratijYAta#}"
     ],
-    "_banner": "{#BrAmaka#}",
+    "_banner": "{#pratijYAta#}",
     "_bannerExp": [
         {
-            "Right": "BrAmaka"
-        },
-        {
-            "Right": "BrAmikA"
+            "Right": "pratijYAta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#mikA#}|{%<ab>f.</ab>%})",
-        "[{#BrAmayati-Brma#}\n{#Ric Rval#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Causing to move or\nwhirl. ",
-        "{@--2@} Perplexing, deluding, \nmisleading. ",
-        "{@--3@} Deceptive, false. "
+        ".²1 Declared, stated, asserted.\n",
+        ".²2 Promised, agreed.\n",
+        ".²3 Admitted, acknowledged.\n",
+        ".²4 Agreeable, desirable.\n"
     ],
     "_morphisms": [
         {
-            "__line": 187170,
+            "__line": 201605,
             "_ancestry": [
                 "L_ 22416",
-                "B_ {#BrAmaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#pratijYAta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BrAmakaH"
+                    "Right": "pratijYAtam"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nA sun-flower. ",
-                "{@--2@} A kind of loadstone.\n",
-                "{@--3@} A deceiver, rogue, cheat. ",
-                "{@--4@} A\njackal."
+                "A promise.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 201607,
+            "_ancestry": [
+                "L_ 22416",
+                "B_ {#pratijYAta#}",
+                "S_ .{@{#-arTaH#}@}"
+            ],
+            "_banner": ".{@{#-arTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratijYAtArTaH"
+                }
+            ],
+            "_meanings": [
+                "a statement."
             ]
         }
     ]

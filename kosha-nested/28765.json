@@ -1,21 +1,636 @@
 {
-    "__line": 241663,
+    "__line": 265924,
     "_ancestry": [
         "L_ 28765",
-        "B_ {#saMsTApita#}"
+        "B_ {#vasu#}"
     ],
-    "_banner": "{#saMsTApita#}",
+    "_banner": "{#vasu#}",
     "_bannerExp": [
         {
-            "Right": "saMsTApita"
+            "Right": "vasu"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Collected. ",
-        "{@--2@}\nEstablished, fixed. ",
-        "{@--3@} Restrained,\ncurbed, checked."
+        "Sweet.\n",
+        ".²2 Dry.\n",
+        ".²3 <ab>Ved.</ab> Wealthy, rich.\n",
+        ".²4 <ab>Ved.</ab> Good. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 265927,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vasu#} M_ --{%n.%}"
+                }
+            ],
+            "_gram": [
+                "[{#vas-un#} <ls>Uṇ. 1. 10</ls>]"
+            ],
+            "_meanings": [
+                ".²1 Wealth, riches; {#svayaM pradugDe'sya guRErupasnutA vasUpamAnasya vasUni#}\n {#medinI#} <ls>Ki. 1. 18</ls>; <ls>R. 8. 31</ls>, <ls n=\"R.\">9. 6</ls> {#vasvISAd vasunikaraM#} ({#labDvA#})\n {#DftAnurAgA#} <ls>Rām. Ch. 7. 58</ls>.\n",
+                ".²2 A jewel, gem.\n",
+                ".²3 Gold.\n",
+                ".²4 Water; {#vasu kAla upAdatte kAle cAyaM vimuYcati#} <ls>Bhāg. 4. 16. 6</ls>.\n",
+                ".²5 A thing, substance; {#trAtvArTito jagati putrapadaM ca leBe dugDA vasUni#}\n {#vasuDA sakalAni yena#} <ls>Bhāg. 2. 7. 9</ls>; <ls>Mb. 12. 98. 20</ls>.\n",
+                ".²6 A kind of salt.\n",
+                ".²7 A medicinal root ({#vfdDi#}).\n",
+                ".²8 A yellow kind of kidney-bean.\n",
+                ".²9 The ghee ({#Gfta#}); {#viDinA vedadfzwena vasorDArAmivADvare#} <ls>Mb. 13. 2. 35</ls>.\n"
+            ]
+        },
+        {
+            "__line": 265940,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vasu#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a class of deities (usually <ab>pl.</ab> in this sense); {#seyaM BUrivasorvasoriva#}\n {#sutA mftyormuKe vartate#} <ls>Māl. 5. 24</ls>; <ls>Ki. 1. 18</ls>; (the {%Vasus%} are\n eight in number:-- 1 {#Apa#}, 2 {#Druva#}, 3 {#soma#}, 4 {#Dara#} or {#Dava#},\n 5 {#anila#}, 6 {#anala#}, 7 {#pratyUza#}, and 8 {#praBAsa#}; sometimes\n {#aha#} is substituted for {#Apa#}; {#Daro DruvaSca somaSca ahaScEvAnilo'nalaH .#}\n {#pratyUzaSca praBAsaSca basavo'zwAviti smftAH#}).\n",
+                ".²2 The number ‘eight’.\n",
+                ".²3 <ab>N.</ab> of Kubera.\n",
+                ".²4 Of Śiva.\n",
+                ".²5 Of Agni.\n",
+                ".²6 A tree.\n",
+                ".²7 A lake, pond.\n",
+                ".²8 A rein.\n",
+                ".²9 The tie of a yoke.\n",
+                ".²10 A halter.\n",
+                ".²11 A ray of light; {#nirakASayadravimapetavasuM viyadAlayAdaparadiggaRikA#}\n <ls>Śi. 9. 10</ls>; {#SiTilavasumagADe magnamApat payoDO#} <ls>Ki. 1. 46</ls> (in both\n cases {#vasu#} means ‘wealth’ also).\n",
+                ".²12 The sun.\n",
+                ".²13 The distance from the elbow to the closed fist. "
+            ]
+        },
+        {
+            "__line": 265960,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vasu#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A ray of light.\n",
+                ".²2 Light, radiance.\n",
+                ".²3 A medicinal root ({#vfdDi#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 265965,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-uttamaH#}@}"
+            ],
+            "_banner": ".{@{#-uttamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasUttamaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Bhīṣma; {#tAn sametAn mahABAgAnupalaBya vasUttamaH .#}\n {#pUjayAmAsa … …#} <ls>Bhāg. 1. 9. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 265967,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-upamaH#}@}"
+            ],
+            "_banner": ".{@{#-upamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasUpamaH"
+                }
+            ],
+            "_meanings": [
+                "Natron (<lang>Mar.</lang> <ns>{#sajjIKAra#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 265968,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-o(O)kasArA#}@}"
+            ],
+            "_banner": ".{@{#-o(O)kasArA#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vasu#} S_ .{@{#-o(O)kasArA#}@}"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Amarāvatī, the city of Indra.\n",
+                ".²2 of Alakā, the city of Kubera; {#‘vasvOkasArA SrIdasya Sakrasya nalinI#}\n {#purI’ iti hariH#}; {#vasvOkasArAM nalinImatItyEvottarAn kurUn#} <ls>Rām. 2. 94. 26</ls>;\n {#vyaktaM vasvokasAreyam#} <ls>Mb. 7. 67. 16</ls> (<ab>com.</ab> {#vasvokasArA salopa#}\n {#ArzaH . kanakamayAni okAMsi sAro yasyAH sA taTA .#}). ",
+                ".²3 of a river attached\n to Amarāvatī and Alakā.\n"
+            ]
+        },
+        {
+            "__line": 265975,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-kIwaH, -kfmiH#}@}"
+            ],
+            "_banner": ".{@{#-kIwaH, -kfmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasukIwaH"
+                },
+                {
+                    "Right": "vasukfmiH"
+                }
+            ],
+            "_meanings": [
+                "a beggar.\n"
+            ]
+        },
+        {
+            "__line": 265976,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-tA, -tAtiH#}@}"
+            ],
+            "_banner": ".{@{#-tA, -tAtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasutA"
+                },
+                {
+                    "Right": "vasutAtiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> wealth.\n"
+            ]
+        },
+        {
+            "__line": 265977,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-dA#}@}"
+            ],
+            "_banner": ".{@{#-dA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasudA"
+                }
+            ],
+            "_meanings": [
+                "the earth.\n"
+            ]
+        },
+        {
+            "__line": 265978,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-devaH#}@}"
+            ],
+            "_banner": ".{@{#-devaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasudevaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the father of Kṛṣṇa and son of Sūra, a descendant\n of Yadu. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 265979,
+                    "_ancestry": [
+                        "L_ 28765",
+                        "B_ {#vasu#}",
+                        "S_ .{@{#-devaH#}@}",
+                        "S_S_ {#˚BUH, -sutaH#}"
+                    ],
+                    "_banner": "{#˚BUH, -sutaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vasudevaBUH"
+                        },
+                        {
+                            "Right": "vasudevasutaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>&c.</ab> epithets of Kṛṣṇa.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 265980,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-devatA, -devyA#}@}"
+            ],
+            "_banner": ".{@{#-devatA, -devyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasudevatA"
+                },
+                {
+                    "Right": "vasudevyA"
+                }
+            ],
+            "_meanings": [
+                "the asterism called Dhaniṣṭhā.\n"
+            ]
+        },
+        {
+            "__line": 265981,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-devyA#}@}"
+            ],
+            "_banner": ".{@{#-devyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasudevyA"
+                }
+            ],
+            "_meanings": [
+                "the ninth day of a lunar fortnight.\n"
+            ]
+        },
+        {
+            "__line": 265982,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-drumaH#}@}"
+            ],
+            "_banner": ".{@{#-drumaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasudrumaH"
+                }
+            ],
+            "_meanings": [
+                "the Udumbara tree.\n"
+            ]
+        },
+        {
+            "__line": 265983,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-DarmikA#}@}"
+            ],
+            "_banner": ".{@{#-DarmikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuDarmikA"
+                }
+            ],
+            "_meanings": [
+                "crystal.\n"
+            ]
+        },
+        {
+            "__line": 265984,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-DA#}@}"
+            ],
+            "_banner": ".{@{#-DA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuDA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the earth; {#vasuDeyamavekzyatAM tvayA#} <ls>R. 8. 83</ls>; {#purA saptadvIpAM#}\n {#jayati vasuDAmapratiraTaH#} <ls>Ś. 7. 33</ls>, <ls n=\"Ś.\">1. 25</ls>.\n",
+                ".²2 the heaven; {#DarAn DaritrIM vasuDAM BartustizWAmyanantaram#} <ls>Mb. 13. 93. 100</ls>\n (<ab>com.</ab> {#vasUn devAn Datte iti vyutpattyA vasuDAM divam#}).\n",
+                ".²3 the ground; {#vasuDAliNganaDUsarastanI#} <ls>Ku. 4. 4</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 265989,
+                    "_ancestry": [
+                        "L_ 28765",
+                        "B_ {#vasu#}",
+                        "S_ .{@{#-DA#}@}",
+                        "S_S_ {#˚aDipaH#}"
+                    ],
+                    "_banner": "{#˚aDipaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vasuDADipaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a king.\n "
+                    ]
+                },
+                {
+                    "__line": 265990,
+                    "_ancestry": [
+                        "L_ 28765",
+                        "B_ {#vasu#}",
+                        "S_ .{@{#-DA#}@}",
+                        "S_S_ {#˚DaraH#}"
+                    ],
+                    "_banner": "{#˚DaraH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vasuDADaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a mountain; {#vasuDADarakandarABisarpI pratiSabdo'pi harerBinatti#}\n {#nAgAn#} <ls>V. 1. 18</ls>. "
+                    ]
+                },
+                {
+                    "__line": 265991,
+                    "_ancestry": [
+                        "L_ 28765",
+                        "B_ {#vasu#}",
+                        "S_ .{@{#-DA#}@}",
+                        "S_S_ {#˚nagaram#}"
+                    ],
+                    "_banner": "{#˚nagaram#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vasuDAnagaram"
+                        }
+                    ],
+                    "_meanings": [
+                        "the capital of Varuṇa.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 265992,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-DArA, -BArA#}@}"
+            ],
+            "_banner": ".{@{#-DArA, -BArA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuDArA"
+                },
+                {
+                    "Right": "vasuBArA"
+                }
+            ],
+            "_meanings": [
+                "the capital of Kubera. [{#vasorDArA#}\n.²1 a stream of ghee prepared for {%Vasus%}; {#kuqyalagnAM vasorDArAM sapta#}\n {#vArAn Gftena tu . kArayet paYca vArAn vA nAtinIcAM na cocCritAm#} <ls>Chhandogapaddhati.</ls>\n.²2 <ab>N.</ab> of a vessel for pouring ghee\n\n into fire; {#tvayA dvAdaSavarzARi vasorDArAhutaM haviH#} <ls>Mb. 1. 223. 72</ls>.\n.²3 <ab>N.</ab> of the heavenly Ganges ({#mandAkinI#}); <ls>Mb. 13. 80. 5.</ls>].\n"
+            ]
+        },
+        {
+            "__line": 265999,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-DAriRI#}@}"
+            ],
+            "_banner": ".{@{#-DAriRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuDAriRI"
+                }
+            ],
+            "_meanings": [
+                "the earth.\n"
+            ]
+        },
+        {
+            "__line": 266000,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasupAlaH"
+                }
+            ],
+            "_meanings": [
+                "a king.\n"
+            ]
+        },
+        {
+            "__line": 266001,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-praBA#}@}"
+            ],
+            "_banner": ".{@{#-praBA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasupraBA"
+                }
+            ],
+            "_meanings": [
+                "one of the seven tongues of fire.\n"
+            ]
+        },
+        {
+            "__line": 266002,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-prARaH#}@}"
+            ],
+            "_banner": ".{@{#-prARaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuprARaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Agni.\n"
+            ]
+        },
+        {
+            "__line": 266003,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuBam"
+                }
+            ],
+            "_meanings": [
+                "the constellation {#DanizWA#}.\n"
+            ]
+        },
+        {
+            "__line": 266004,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-raRva#}@}"
+            ],
+            "_banner": ".{@{#-raRva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuraRva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "delighted with wealth; {#vasuraRvo viBurasi#} <ls>Mahānār. Up. 17. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 266005,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-retas#}@}"
+            ],
+            "_banner": ".{@{#-retas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuretas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "fire; {#saMprApto yatra sAMniDyaM sadAsId vasuretasaH#}\n <ls>Rām. 7. 31. 7</ls>; <ls>Mb. 1. 13. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 266007,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-rocis#}@}"
+            ],
+            "_banner": ".{@{#-rocis#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasurocis"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 sacrifice; religious ceremony.\n",
+                ".²2 Fire.\n"
+            ]
+        },
+        {
+            "__line": 266010,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuvratam"
+                }
+            ],
+            "_meanings": [
+                "a kind of penance (eating only ground rice for twelve days).\n"
+            ]
+        },
+        {
+            "__line": 266011,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-SrezWam#}@}"
+            ],
+            "_banner": ".{@{#-SrezWam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuSrezWam"
+                }
+            ],
+            "_meanings": [
+                ".²1 wrought gold.\n",
+                ".²2 silver.\n"
+            ]
+        },
+        {
+            "__line": 266014,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-zeRaH#}@}"
+            ],
+            "_banner": ".{@{#-zeRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasuzeRaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Karṇa; {#vasuvarmaDaraM dfzwvA taM bAlaM hemakuRqalam .#}\n {#nAmAsya vasuzeReti tataScakrurdvijAtayaH ..#} <ls>Mb. 3. 309. 13-14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 266016,
+            "_ancestry": [
+                "L_ 28765",
+                "B_ {#vasu#}",
+                "S_ .{@{#-sTalI#}@}"
+            ],
+            "_banner": ".{@{#-sTalI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasusTalI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the city of Kubera."
+            ]
+        }
     ]
 }

@@ -1,40 +1,130 @@
 {
-    "__line": 112681,
+    "__line": 114515,
     "_ancestry": [
         "L_ 13424",
-        "B_ {#codana#}"
+        "B_ {#kzud#} "
     ],
-    "_banner": "{#codana#}",
+    "_banner": "{#kzud#} ",
     "_bannerExp": [
         {
-            "Right": "codana"
+            "Right": "kzud"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#cud-BAve lyuw#}]"
+        "{%f.%}",
+        "{#kzuDA#}"
     ],
     "_meanings": [
-        "Driving,\nimpelling. "
+        "¦\n",
+        ".²1 Hunger; {#sIdati kzuDA#} <ls>Ms. 7. 134</ls>, <ls n=\"Ms.\">4. 187</ls>.\n",
+        ".²2 Food.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 112682,
+            "__line": 114519,
             "_ancestry": [
                 "L_ 13424",
-                "B_ {#codana#}",
-                "M_ {#--naM#}"
+                "B_ {#kzud#} ",
+                "S_ .{@{#-anvita, -Arta, -Avizwa#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-anvita, -Arta, -Avizwa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "codanaM"
+                    "Right": "kzudanvita"
+                },
+                {
+                    "Right": "kzudArta"
+                },
+                {
+                    "Right": "kzudAvizwa"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} The act of driving.\n",
-                "{@--2@} Invitation. ",
-                "{@--3@} Order, rule, \nprecept."
+                "afflicted by hunger.\n"
+            ]
+        },
+        {
+            "__line": 114520,
+            "_ancestry": [
+                "L_ 13424",
+                "B_ {#kzud#} ",
+                "S_ .{@{#-kzAma#}@}"
+            ],
+            "_banner": ".{@{#-kzAma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzutkzAma"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "emaciated by hunger; <ls>Mb. 1. 50. 1</ls>; <ls>Bh. 2. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 114521,
+            "_ancestry": [
+                "L_ 13424",
+                "B_ {#kzud#} ",
+                "S_ .{@{#-pipAsita#}@}"
+            ],
+            "_banner": ".{@{#-pipAsita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzutpipAsita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hungry and thirsty; <ls>Ms. 8. 93</ls>.\n"
+            ]
+        },
+        {
+            "__line": 114522,
+            "_ancestry": [
+                "L_ 13424",
+                "B_ {#kzud#} ",
+                "S_ .{@{#-nivfttiH#}@}"
+            ],
+            "_banner": ".{@{#-nivfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzunnivfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "cessation of hunger, appeasing of appetite (in general).\n"
+            ]
+        },
+        {
+            "__line": 114523,
+            "_ancestry": [
+                "L_ 13424",
+                "B_ {#kzud#} ",
+                "S_ .{@{#-SAntiH#}@}"
+            ],
+            "_banner": ".{@{#-SAntiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzucCAntiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "({#kzuDASAntiH#})"
+            ],
+            "_meanings": [
+                "allaying hunger, satisfaction; <ls>Bh.</ls>"
             ]
         }
     ]

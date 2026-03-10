@@ -1,24 +1,62 @@
 {
-    "__line": 82937,
+    "__line": 82242,
     "_ancestry": [
         "L_ 9836",
-        "B_ {#Opayaja#}"
+        "B_ {#upalaH#}"
     ],
-    "_banner": "{#Opayaja#}",
+    "_banner": "{#upalaH#}",
     "_bannerExp": [
         {
-            "Right": "OpayajI"
-        },
-        {
-            "Right": "Opayaja"
+            "Right": "upalaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#jI#}|{%<ab>f.</ab>%})",
-        "[ \n{#upayaj-aR#}]"
-    ],
     "_meanings": [
-        "Belonging to the sentences\ncalled {#upayaj#}, <ab>q. v.</ab>"
+        ".²1 A stone, rock; {#upalaSakalametad BedakaM gomayAnAm#} <ls>Mu. 3. 15</ls>; {#kAnte#}\n {#kaTaM GawitavAnupalena cetaH#} <ls>Ś. Til. 3</ls>; <ls>Me. 19</ls>; <ls>Ś. 1. 14</ls>.\n",
+        ".²2 A precious stone, jewel. <ls>Y. 3. 36</ls>. {#‘upalaH prastare maRO’ iti viSvaH#}.\n",
+        ".²3 Sand (<ab>Ved.</ab>).\n",
+        ".²4 A cloud.\n",
+        ".²5 A ball thrown from some artifice (as gun); {#kapAwayantradurDarzA#}\n {#baBUvuH sahuqopalAH#} <ls>Mb. 3. 284. 4</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 82250,
+            "_ancestry": [
+                "L_ 9836",
+                "B_ {#upalaH#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upalA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Refined sugar, ({#upalAsitA#} Sugar-candy).\n",
+                ".²2 The upper and smaller millstone which rests on the Dṛṣad. [<ab>cf.</ab> <lang>L.</lang> {%opatus%}.]\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 82254,
+            "_ancestry": [
+                "L_ 9836",
+                "B_ {#upalaH#}",
+                "S_ .{@{#-prakzin#}@}"
+            ],
+            "_banner": ".{@{#-prakzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upalaprakzin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Grinding grain upon millstones; {#kArurahaM tato#}\n {#BizagupalaprakziRI navA#} <ls>Rv. 9. 112. 3</ls>."
+            ]
+        }
     ]
 }

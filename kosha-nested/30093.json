@@ -1,41 +1,83 @@
 {
-    "__line": 251626,
+    "__line": 277673,
     "_ancestry": [
         "L_ 30093",
-        "B_ {#sApavAda#}"
+        "B_ {#virakta#}"
     ],
-    "_banner": "{#sApavAda#}",
+    "_banner": "{#virakta#}",
     "_bannerExp": [
         {
-            "Right": "sApavAda"
+            "Right": "virakta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Spreading or \nindulging in scandal; <ls>U. 1. 6.</ls> ",
-        "{@--2@} Attended\nwith a scandal; <ls>U. 2.</ls> "
+        ".²1 Very red, ruddy; {#viraktasaMDyAkapiSaM purastAt#} <ls>R. 13. 64</ls>.\n",
+        ".²2 Discoloured.\n",
+        ".²3 Changed in mind, disaffected, displeased; {#yAM cintayAmi satataM mayi#}\n {#sA viraktA#} <ls>Bh. 2. 2</ls>.\n",
+        ".²4 Free from passion or worldly attachment, indifferent; {#viraktaH pravrajed#}\n {#DImAn saraktastu gfhe vaset#} <ls>Nāradapari. Up. 3. 14</ls>.\n",
+        ".²5 Impassioned.\n"
     ],
     "_morphisms": [
         {
-            "__line": 251628,
+            "__line": 277681,
             "_ancestry": [
                 "L_ 30093",
-                "B_ {#sApavAda#}",
-                "M_ {#--daM#}"
+                "B_ {#virakta#}",
+                "M_ .{@{#-ktA#}@}"
             ],
-            "_banner": "{#--daM#}",
+            "_banner": ".{@{#-ktA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sApavAdaM"
+                    "Right": "viraktA"
+                }
+            ],
+            "_meanings": [
+                "An unfortunate or unhappy woman.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 277683,
+            "_ancestry": [
+                "L_ 30093",
+                "B_ {#virakta#}",
+                "S_ .{@{#-citta#}@}"
+            ],
+            "_banner": ".{@{#-citta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viraktacitta"
                 }
             ],
             "_gram": [
-                "{%<ab>ind.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "Censuringly."
+                "estranged.\n"
+            ]
+        },
+        {
+            "__line": 277684,
+            "_ancestry": [
+                "L_ 30093",
+                "B_ {#virakta#}",
+                "S_ .{@{#-prakfti#}@}"
+            ],
+            "_banner": ".{@{#-prakfti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viraktaprakfti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having disaffected subjects."
             ]
         }
     ]

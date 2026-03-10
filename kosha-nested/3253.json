@@ -1,38 +1,68 @@
 {
-    "__line": 30933,
+    "__line": 27899,
     "_ancestry": [
         "L_ 3253",
-        "B_ {#aBimeTika#}"
+        "B_ {#abudDiH#}"
     ],
-    "_banner": "{#aBimeTika#}",
+    "_banner": "{#abudDiH#}",
     "_bannerExp": [
         {
-            "Right": "aBimeTika"
+            "Right": "abudDiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> "
+        ".²1 Want of understanding ({#avidyA#}); {#abudDirajYAnakftA prabudDyA#}\n {#kfzyate manaH#} <ls>Mb. 12. 204. 4</ls>.\n",
+        ".²2 Ignorance, stupidity; {#˚mat#} foolish, ignorant. {%a.%} Ignorant,\n dull-witted, stupid.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 30933,
+            "__line": 27905,
             "_ancestry": [
                 "L_ 3253",
-                "B_ {#aBimeTika#}",
-                "M_ {#--meTikA#}"
+                "B_ {#abudDiH#}",
+                "S_ .{@{#-pUrva, -pUrvaka#}@}"
             ],
-            "_banner": "{#--meTikA#}",
+            "_banner": ".{@{#-pUrva, -pUrvaka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "aBimeTikA"
+                    "Right": "abudDipUrva"
+                },
+                {
+                    "Right": "abudDipUrvaka"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@}\nUse of words or language calculated\nto secure every thing ({#sarvaprAptisADano#}\n{#vAgBedaH#}). ",
-                "{@--2@} Abusive speech, obscene\nexpression; an imprecation."
+                ".²1 not preceded by knowledge or consciousness; not wanton or intentional.\n",
+                ".²2 beginning with non-intelligence.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 27908,
+                    "_ancestry": [
+                        "L_ 3253",
+                        "B_ {#abudDiH#}",
+                        "S_ .{@{#-pUrva, -pUrvaka#}@}",
+                        "S_M_ ({@{#-rvam, -rvakam#}@}"
+                    ],
+                    "_banner": "({@{#-rvam, -rvakam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "abudDipUrvam"
+                        },
+                        {
+                            "Right": "abudDipUrvakam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%<ab>adv.</ab>%} unconsciously, ignorantly."
+                    ]
+                }
             ]
         }
     ]

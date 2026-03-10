@@ -1,16 +1,41 @@
 {
-    "__line": 53162,
+    "__line": 50721,
     "_ancestry": [
         "L_ 6055",
-        "B_ {#AQyatA#}"
+        "B_ {#asamasta#}"
     ],
-    "_banner": "{#AQyatA#}",
+    "_banner": "{#asamasta#}",
     "_bannerExp": [
         {
-            "Right": "AQyatA"
+            "Right": "asamasta"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Opulence, wealth."
+        ".²1 Incomplete, imperfect, partial, not whole.\n",
+        ".²2 (In <ab>gram.</ab>) Not joined in a compound, not compounded.\n",
+        ".²3 Uncollected.\n",
+        ".²4 Separate, detached, unconnected (<ab>opp.</ab> {#vyasta#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 50726,
+            "_ancestry": [
+                "L_ 6055",
+                "B_ {#asamasta#}",
+                "M_ .{@{#-stam#}@}"
+            ],
+            "_banner": ".{@{#-stam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asamastam"
+                }
+            ],
+            "_meanings": [
+                "An uncompounded word (the sentence showing the dissolution\n of a compound)."
+            ]
+        }
     ]
 }

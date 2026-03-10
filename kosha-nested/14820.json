@@ -1,44 +1,48 @@
 {
-    "__line": 123072,
+    "__line": 128494,
     "_ancestry": [
         "L_ 14820",
-        "B_ {#tuz#}"
+        "B_ {#cAturTaka#}, {#-cAturTika#}"
     ],
-    "_banner": "{#tuz#}",
+    "_banner": "{#cAturTaka#}, {#-cAturTika#}",
     "_bannerExp": [
         {
-            "Right": "tuz"
+            "Right": "cAturTaka"
+        },
+        {
+            "Right": "cAturTika"
+        },
+        {
+            "Right": "cAturTakI"
+        },
+        {
+            "Right": "cAturTikI"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>",
-        "({#tuzyati, tuzwa#})"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#caturTe ahni BavaH Wak#}\n {#vuY vA#}]"
     ],
     "_meanings": [
-        "{@--1@} To be\npleased or satisfied, be contented or\ndelighted with anything (usually\nwith <ab>instr.</ab>); {#ratnErmahArhEstutuzurna devAH#}\n<ls>Bh. 2. 80</ls>, <ls>Ms. 3. 207</ls>; <ls>Bg. 2. 55</ls>;\n<ls>Bk. 2. 13</ls>, <ls n=\"Bk.\">15. 8</ls>; <ls>R. 3. 62.</ls> ",
-        "{@--2@} To\nbecome calm or quiet. ",
-        "{@--3@} To satisfy,\nplease (with <ab>acc.</ab>). "
+        ".²1 Quartan, occurring every fourth day.\n"
     ],
     "_morphisms": [
         {
-            "__line": 123079,
+            "__line": 128497,
             "_ancestry": [
                 "L_ 14820",
-                "B_ {#tuz#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#cAturTaka#}, {#-cAturTika#}",
+                "M_ .{@{#-kaH#}@}"
             ],
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tuz"
+                    "Right": "cAturTakaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#tozayatite#})"
-            ],
             "_meanings": [
-                "To please, gratify, satisfy."
+                "A quartan ague."
             ]
         }
     ]

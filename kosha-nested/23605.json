@@ -1,22 +1,80 @@
 {
-    "__line": 198586,
+    "__line": 210802,
     "_ancestry": [
         "L_ 23605",
-        "B_ {#mrakzaRaM#}"
+        "B_ {#prasADanam#}"
     ],
-    "_banner": "{#mrakzaRaM#}",
+    "_banner": "{#prasADanam#}",
     "_bannerExp": [
         {
-            "Right": "mrakzaRaM"
+            "Right": "prasADanam"
         }
     ],
-    "_gram": [
-        "[{#mrakz-BAve lyuw#}]"
-    ],
     "_meanings": [
-        "{@--1@} Smearing\nthe body with unguents. ",
-        "{@--2@} \nAnointing, smearing in general. ",
-        "{@--3@} \nAccumulating, heaping up. ",
-        "{@--4@} Oil, \nointment."
+        ".²1 Accomplishing, effecting, bringing about.\n",
+        ".²2 Setting in order, arranging.\n",
+        ".²3 Decorating, ornamenting, embellishing; toilet, dress; {#Driyate kusumaprasADanaM#}\n {#tava taccAru vapurna dfSyate#} <ls>Ku. 4. 18</ls>.\n",
+        ".²4 A decoration, ornament, means of decoration or ornament; {#BUtArTaSoBAhriyamARanetrAH#}\n {#prasADane saMnihite'pi nAryaH#} <ls>Ku. 7. 13</ls>, <ls n=\"Ku. 7.\">30</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 210809,
+            "_ancestry": [
+                "L_ 23605",
+                "B_ {#prasADanam#}",
+                "M_ .{@{#-naH, -nam, -nI#}@}"
+            ],
+            "_banner": ".{@{#-naH, -nam, -nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasADanaH"
+                },
+                {
+                    "Right": "prasADanam"
+                },
+                {
+                    "Right": "prasADanI"
+                }
+            ],
+            "_meanings": [
+                "A comb.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 210811,
+            "_ancestry": [
+                "L_ 23605",
+                "B_ {#prasADanam#}",
+                "S_ .{@{#-viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasADanaviDiH"
+                }
+            ],
+            "_meanings": [
+                "decoration, embellishment.\n"
+            ]
+        },
+        {
+            "__line": 210812,
+            "_ancestry": [
+                "L_ 23605",
+                "B_ {#prasADanam#}",
+                "S_ .{@{#-viSozaH#}@}"
+            ],
+            "_banner": ".{@{#-viSozaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasADanaviSozaH"
+                }
+            ],
+            "_meanings": [
+                "the highest decoration; {#prasADanaviDeH prasADanaviSezaH#} <ls>V. 2. 3</ls>."
+            ]
+        }
     ]
 }

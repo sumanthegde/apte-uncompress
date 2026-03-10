@@ -1,41 +1,63 @@
 {
-    "__line": 196687,
+    "__line": 208908,
     "_ancestry": [
         "L_ 23361",
-        "B_ {#mUrtimat#}"
+        "B_ {#pravacanam#}"
     ],
-    "_banner": "{#mUrtimat#}",
+    "_banner": "{#pravacanam#}",
     "_bannerExp": [
         {
-            "Right": "mUrtimat"
+            "Right": "pravacanam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Material, corporeal. ",
-        "{@--2@}\nEmbodied, incarnate, personified;\n{#SakuMtalA mUrtimatI ca satkriyA#} <ls>Śi. 5. 15</ls>;\n{#tava mUrtimAniva mahotsavaH karaH#} <ls>U. 1. 18</ls>;\n<ls>R. 12. 64</ls>; <ls>Māl. 9. 9.</ls> ",
-        "{@--3@} Hard,\nsolid. "
+        ".²1 Speaking, declaration, announcement; {#pravacane mAndyam#} <ls>Pt. 1. 190</ls>.\n",
+        ".²2 Teaching, expounding.\n",
+        ".²3 Exposition, explanation, interpretation; {#nAyamAtmA pravacanena laByo#}\n {#na BeDayA na bahunA Srutena#} <ls>Kaṭh. 1. 2. 22</ls>; {#labDvA jYAnamanekaDA#}\n {#pravacanErmanvAdayaH prARayan#} <ls>Mv. 4. 25</ls>; <ls>Bhāg. 7. 15. 1</ls>.\n",
+        ".²4 Eloquence.\n",
+        ".²5 A sacred treatise or writing; <ls>Ms. 3. 184</ls>.\n",
+        ".²6 An expression, a term.\n",
+        ".²7 A system of doctrines (in the form of a treatise).\n",
+        ".²8 The fundamental doctrine of the Buddhists.\n"
     ],
     "_morphisms": [
         {
-            "__line": 196692,
+            "__line": 208919,
             "_ancestry": [
                 "L_ 23361",
-                "B_ {#mUrtimat#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#pravacanam#}",
+                "M_ .{@{#-naH#}@}"
             ],
+            "_banner": ".{@{#-naH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mUrtimat"
+                    "Right": "pravacanaH"
+                }
+            ],
+            "_meanings": [
+                "One who exposes, propounds; <ls>Bhāg. 10. 87. 11</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 208921,
+            "_ancestry": [
+                "L_ 23361",
+                "B_ {#pravacanam#}",
+                "S_ .{@{#-pawu#}@}"
+            ],
+            "_banner": ".{@{#-pawu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravacanapawu"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "The body."
+                "skilled in talking, eloquent."
             ]
         }
     ]

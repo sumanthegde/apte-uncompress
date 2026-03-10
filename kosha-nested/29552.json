@@ -1,20 +1,224 @@
 {
-    "__line": 247775,
+    "__line": 273059,
     "_ancestry": [
         "L_ 29552",
-        "B_ {#samudIr#}"
+        "B_ {#vitta#}"
     ],
-    "_banner": "{#samudIr#}",
+    "_banner": "{#vitta#}",
     "_bannerExp": [
         {
-            "Right": "samudIr"
+            "Right": "vitta"
         }
     ],
     "_gram": [
-        "{%<ab>Caus.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#vid lABe kta#}]"
     ],
     "_meanings": [
-        "{@--1@} To utter, \npronounce. ",
-        "{@--2@} To rouse, agitate, \nexcite, stimulate."
+        ".²1 Found, discovered.\n",
+        ".²2 Gained, acquired.\n",
+        ".²3 Examined, investigated.\n",
+        ".²4 Known, famous.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 273064,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: vitta taM"
+                }
+            ],
+            "_meanings": [
+                ".²1 Wealth, possessions, property, substance.\n",
+                ".²2 Power.\n",
+                ".²3 Gold; <ls>L. D. B.</ls>\n",
+                ".²4 The second astrological mansion.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 273070,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-AgamaH, -upArjanam#}@}"
+            ],
+            "_banner": ".{@{#-AgamaH, -upArjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittAgamaH"
+                },
+                {
+                    "Right": "vittopArjanam"
+                }
+            ],
+            "_meanings": [
+                "acquisition of wealth.\n"
+            ]
+        },
+        {
+            "__line": 273071,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-ISaH, -paH, -patiH, -pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH, -paH, -patiH, -pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vitteSaH"
+                },
+                {
+                    "Left": "S error: 1 syl ISaH paH"
+                },
+                {
+                    "Right": "vittapatiH"
+                },
+                {
+                    "Right": "vittapAlaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Kubera; {#rudrARAM SaMkaraScAsmi#}\n {#vitteSo yakzarakzasAm#} <ls>Bg. 10. 23</ls>; <ls>Ms. 7. 4</ls>; <ls>Bhāg. 5. 10. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 273073,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-IhA#}@}"
+            ],
+            "_banner": ".{@{#-IhA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittehA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a desire for wealth; {#DarmArTaM yasya vittehA varaM#}\n {#tasya nirIhatA . prakzAlanAdDi paNkasya dUrAdasparSanaM varam ..#} <ls>Udb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 273075,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-jAni#}@}"
+            ],
+            "_banner": ".{@{#-jAni#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittajAni"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has married a wife.\n"
+            ]
+        },
+        {
+            "__line": 273076,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittadaH"
+                }
+            ],
+            "_meanings": [
+                "a donor, benefactor.\n"
+            ]
+        },
+        {
+            "__line": 273077,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-pewA, -wI#}@}"
+            ],
+            "_banner": ".{@{#-pewA, -wI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittapewA"
+                },
+                {
+                    "Right": "vittapewI"
+                }
+            ],
+            "_meanings": [
+                "money-receptacle, purse.\n"
+            ]
+        },
+        {
+            "__line": 273078,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-mAtrA#}@}"
+            ],
+            "_banner": ".{@{#-mAtrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittamAtrA"
+                }
+            ],
+            "_meanings": [
+                "property.\n"
+            ]
+        },
+        {
+            "__line": 273079,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-varDana#}@}"
+            ],
+            "_banner": ".{@{#-varDana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittavarDana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "profitable, lucrative.\n"
+            ]
+        },
+        {
+            "__line": 273080,
+            "_ancestry": [
+                "L_ 29552",
+                "B_ {#vitta#}",
+                "S_ .{@{#-samAgamaH#}@}"
+            ],
+            "_banner": ".{@{#-samAgamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vittasamAgamaH"
+                }
+            ],
+            "_meanings": [
+                "acquisition of wealth, income; {#BUrivyayA pracuravittasamAgamA#}\n {#ca#} <ls>Pt. 1. 425</ls>."
+            ]
+        }
     ]
 }

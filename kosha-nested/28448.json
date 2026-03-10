@@ -1,23 +1,47 @@
 {
-    "__line": 239129,
+    "__line": 262895,
     "_ancestry": [
         "L_ 28448",
-        "B_ {#Slizwa#}"
+        "B_ {#vap#}"
     ],
-    "_banner": "{#Slizwa#}",
+    "_banner": "{#vap#}",
     "_bannerExp": [
         {
-            "Right": "Slizwa"
+            "Right": "vap"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#Sliz-kta#}]"
+        "€1",
+        "<ab>U.</ab>",
+        "({#vapati, vapate, upta#}; {%<ab>pass.</ab>%} {#upyate#}; {%<ab>desid.</ab>%}\n {#vivapsati-te#})"
     ],
     "_meanings": [
-        "{@--1@} Embraced.\n",
-        "{@--2@} Clung, adhered to. ",
-        "{@--3@} Resting\nor leaning on. ",
-        "{@--4@} Involving a pun,\nsusceptible of a double \ninterpretation; {#a tra vizamAdayaH SabdAH SlizwAH#}  \n<ls>K. P. 10.</ls>"
+        ".²1 To sow, scatter (as seed), plant; {#yaTeriRe bIjamuptvA na vaptA laBate#}\n {#Palam#} <ls>Ms. 3. 142</ls>; {#na vidyAmiriRe vapet#} <ls n=\"Ms.\">2. 113</ls>; {#yAdfSaM vapate#}\n {#bIjaM tAdfSaM laBate Palam#} <ls>Subhāṣ.</ls>; <ls>Ku. 2. 5</ls>; <ls>Ś. 6. 23</ls>.\n",
+        ".²2 To throw (as arrow); cast (as dice); {#SarAn vapantaM niSitAn supuNKAn#} <ls>Mb. 6. 63. 28</ls>.\n",
+        ".²3 To beget,\n\n produce.\n",
+        ".²4 To weave.\n",
+        ".²5 To shear, shave (mostly Vedic). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 262905,
+            "_ancestry": [
+                "L_ 28448",
+                "B_ {#vap#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vap"
+                }
+            ],
+            "_gram": [
+                "({#vApayati-te#})"
+            ],
+            "_meanings": [
+                "To\n sow, plant, put into the ground."
+            ]
+        }
     ]
 }

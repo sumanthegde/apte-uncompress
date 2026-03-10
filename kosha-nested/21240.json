@@ -1,44 +1,58 @@
 {
-    "__line": 175732,
+    "__line": 190096,
     "_ancestry": [
         "L_ 21240",
-        "B_ {#prAvfzika, prAvfzIRa#}"
+        "B_ {#pArzata#}"
     ],
-    "_banner": "{#prAvfzika, prAvfzIRa#}",
+    "_banner": "{#pArzata#}",
     "_bannerExp": [
         {
-            "Right": "prAvfzIRa"
+            "Right": "pArzata"
         },
         {
-            "Right": "prAvfzikI"
-        },
-        {
-            "Right": "prAvfzika"
+            "Right": "pArzatI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "({#-tI#}|{%f.%})"
     ],
     "_meanings": [
-        "Produced in the rainy season. "
+        "Belonging to the spotted antelope; <ls>Ms. 3. 269</ls>; <ls>Y. 1. 257</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 175733,
+            "__line": 190098,
             "_ancestry": [
                 "L_ 21240",
-                "B_ {#prAvfzika, prAvfzIRa#}",
-                "M_ {#--kaH#}"
+                "B_ {#pArzata#}",
+                "M_ .{@{#-taH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "prAvfzikaH"
+                    "Right": "pArzataH"
                 }
             ],
             "_meanings": [
-                "A\npeacock."
+                "A patronymic of king Drupada, and of his son Dhṛṣṭadyumna;\n <ls>Mb. 1. 138. 20</ls>, <ls n=\"Mb.\">7. 7. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 190100,
+            "_ancestry": [
+                "L_ 21240",
+                "B_ {#pArzata#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArzatI"
+                }
+            ],
+            "_meanings": [
+                "A patronymic of Draupadī."
             ]
         }
     ]

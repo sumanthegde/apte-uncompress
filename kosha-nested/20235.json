@@ -1,21 +1,40 @@
 {
-    "__line": 168607,
+    "__line": 182201,
     "_ancestry": [
         "L_ 20235",
-        "B_ {#pratyAsattiH#}"
+        "B_ {#paritfp#}"
     ],
-    "_banner": "{#pratyAsattiH#}",
+    "_banner": "{#paritfp#}",
     "_bannerExp": [
         {
-            "Right": "pratyAsattiH"
+            "Right": "paritfp"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "€4",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Close proximity\nor contiguity (in time or space).\n",
-        "{@--2@} Close, contact. ",
-        "{@--3@} An \nanalogy."
+        "To be pleased or contented. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 182201,
+            "_ancestry": [
+                "L_ 20235",
+                "B_ {#paritfp#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "paritfp"
+                }
+            ],
+            "_meanings": [
+                ".²1 To satisfy, please, gratify.\n",
+                ".²2 To refresh."
+            ]
+        }
     ]
 }

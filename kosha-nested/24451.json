@@ -1,43 +1,77 @@
 {
-    "__line": 207306,
+    "__line": 218209,
     "_ancestry": [
         "L_ 24451",
-        "B_ {#lawvaH#}"
+        "B_ {#barbaraH#}"
     ],
-    "_banner": "{#lawvaH#}",
+    "_banner": "{#barbaraH#}",
     "_bannerExp": [
         {
-            "Right": "lawvaH"
+            "Right": "barbaraH"
         }
     ],
     "_meanings": [
-        "{@--1@} A horse. ",
-        "{@--2@} A dancing\nboy. ",
-        "{@--3@} <ab>N.</ab> of a Rāga in music. ",
-        "{@--4@}\n<ab>N.</ab> of a caste. "
+        ".²1 One not an Aryan, a barbarian, low fellow; {#tEste yavanakAmbojA barbarAScAkulIkftAH#}\n <ls>Rām. 1. 54. 23</ls>.\n",
+        ".²2 A fool, block-head; {#SfRu re barbara#} <ls>H. 2</ls>.\n",
+        ".²3 An elephant in the fourth year; <ls>Mātaṅga L. 5. 5</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 207308,
+            "__line": 218214,
             "_ancestry": [
                 "L_ 24451",
-                "B_ {#lawvaH#}",
-                "M_ {#--wva#}"
+                "B_ {#barbaraH#}",
+                "M_ .{@{#-rA#}@}"
             ],
-            "_banner": "{#--wva#}",
+            "_banner": ".{@{#-rA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "lawva"
+                    "Right": "barbarA"
                 }
             ],
             "_meanings": [
-                "{@--1@} A kind of bird.\n",
-                "{@--2@} A curl on the forehead. ",
-                "{@--3@} A\nsparrow. ",
-                "{@--4@} A kind of musical \ninstrument. ",
-                "{@--5@} A game. ",
-                "{@--6@} Safflower.\n",
-                "{@--7@} An unchaste woman."
+                "A kind of fly.\n"
+            ]
+        },
+        {
+            "__line": 218215,
+            "_ancestry": [
+                "L_ 24451",
+                "B_ {#barbaraH#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barbaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Vermilion.\n",
+                ".²2 Gum-myrrh.\n",
+                ".²3 yellow sandal-wood.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 218220,
+            "_ancestry": [
+                "L_ 24451",
+                "B_ {#barbaraH#}",
+                "S_ .{@{#-utTam, -udBavam#}@}"
+            ],
+            "_banner": ".{@{#-utTam, -udBavam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barbarotTam"
+                },
+                {
+                    "Right": "barbarodBavam"
+                }
+            ],
+            "_meanings": [
+                "White sandal-wood."
             ]
         }
     ]

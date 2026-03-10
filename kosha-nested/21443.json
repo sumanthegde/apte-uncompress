@@ -1,21 +1,95 @@
 {
-    "__line": 177173,
+    "__line": 191873,
     "_ancestry": [
         "L_ 21443",
-        "B_ {#plev#}"
+        "B_ {#piSuna#}"
     ],
-    "_banner": "{#plev#}",
+    "_banner": "{#piSuna#}",
     "_bannerExp": [
         {
-            "Right": "plev"
+            "Right": "piSuna"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#plevate#})"
+        "{%a.%}",
+        "[{#piS-unac kicca#}; <ls>Uṇ. 3. 55</ls>]"
     ],
     "_meanings": [
-        "To serve, attend\nor wait upon."
+        ".²1\n",
+        ".³({%a%}) Indicating, manifesting, evincing, displaying, indicative of;\n {#SatrUnAmaniSaM vinASapiSunaH#} <ls>Śi. 1. 75</ls>; {#tulyAnurAgapiSunam#} <ls>V. 2. 14</ls>;\n <ls>R. 1. 53</ls>; <ls>Amaru. 97</ls>.\n",
+        ".³({%b%}) Memorable for, commemorating; {#kzetraM kzatrapraDanapiSunaM#}\n {#kOravaM tad BajeTAH#} <ls>Me. 48</ls>.\n",
+        ".²2 Slanderous, back-biting, calumniating; {#piSunajanaM Kalu biBrati kzitIndrAH#} <ls>Bv. 1. 74</ls>.\n",
+        ".²3 Betraying, treacherous.\n",
+        ".²4 Harsh, cruel, unkind.\n",
+        ".²5 Wicked, malicious; malignant.\n",
+        ".²6 Low, vile, contemptible; of a wicked person; {#piSunaM BojanaM BuNkte#}\n {#brahmahatyAsamaM viduH#} <ls>Mb. 13. 136. 16</ls>.\n\n",
+        ".²7 Foolish, stupid.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 191888,
+            "_ancestry": [
+                "L_ 21443",
+                "B_ {#piSuna#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "piSunaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A slanderer, back-biter, tale-bearer, base informer, traitor, calumniator;\n {#varaM prARatyAgo na ca piSunavAkyezvaBiruciH#} <ls>H. 1. 116</ls>; <ls>Pt. 1. 304</ls>;\n <ls>Ms. 3. 161</ls>; {#piSunatA yadyasti kiM pAtakEH#} <ls>Bh. 1. 55</ls>.\n",
+                ".²2 Cotton.\n",
+                ".²3 An epithet of Nārada.\n",
+                ".²4 A crow.\n",
+                ".²5 <ab>N.</ab> of a goblin (said to be dangerous to pregnant women).\n",
+                ".²6 <ab>N.</ab> of a writer on {#arTaSAstra#} mentioned by Kauṭilya in connection\n with {#rAjaputrarakzaRa#}; <ls>Kau. A. 1. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 191898,
+            "_ancestry": [
+                "L_ 21443",
+                "B_ {#piSuna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "piSunam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Betraying.\n",
+                ".²2 Saffron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 191902,
+            "_ancestry": [
+                "L_ 21443",
+                "B_ {#piSuna#}",
+                "S_ .{@{#-vacanam, -vAkyam, -vAdaH#}@}"
+            ],
+            "_banner": ".{@{#-vacanam, -vAkyam, -vAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "piSunavacanam"
+                },
+                {
+                    "Right": "piSunavAkyam"
+                },
+                {
+                    "Right": "piSunavAdaH"
+                }
+            ],
+            "_meanings": [
+                "slander, detraction, calumny."
+            ]
+        }
     ]
 }

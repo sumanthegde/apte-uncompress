@@ -1,22 +1,39 @@
 {
-    "__line": 105155,
+    "__line": 106522,
     "_ancestry": [
         "L_ 12574",
-        "B_ {#guMW#}"
+        "B_ {#kurvat#}"
     ],
-    "_banner": "{#guMW#}",
+    "_banner": "{#kurvat#}",
     "_bannerExp": [
         {
-            "Right": "guMW"
+            "Right": "kurvat"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#guMWayati-te, guMWita#})"
+        "{%<ab>pres. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To\nencircle, surround, envelop, \nenclose. ",
-        "{@--2@} To hide, conceal."
+        "Doing <ab>&c.</ab>; "
+    ],
+    "_morphisms": [
+        {
+            "__line": 106522,
+            "_ancestry": [
+                "L_ 12574",
+                "B_ {#kurvat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kurvat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A servant.\n",
+                ".²2 A shoemaker."
+            ]
+        }
     ]
 }

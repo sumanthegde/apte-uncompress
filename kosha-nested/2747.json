@@ -1,19 +1,64 @@
 {
-    "__line": 27108,
+    "__line": 24248,
     "_ancestry": [
         "L_ 2747",
-        "B_ {#apAyin#}"
+        "B_ {#aparokza#}"
     ],
-    "_banner": "{#apAyin#}",
+    "_banner": "{#aparokza#}",
     "_bannerExp": [
         {
-            "Right": "apAyin"
+            "Right": "aparokza"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Departing, transient;\nperishable; see {#anapAyin#}."
+        ".²1 Not invisible, perceptible to the senses, visible.\n",
+        ".²2 Not distant or remote.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 24251,
+            "_ancestry": [
+                "L_ 2747",
+                "B_ {#aparokza#}",
+                "M_ .{@{#-kzam#}@}"
+            ],
+            "_banner": ".{@{#-kzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparokzam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "In the presence of (with <ab>gen.</ab>) {#aparokzAt#} perceptibly,\n visibly, manifestly, openly,\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 24254,
+            "_ancestry": [
+                "L_ 2747",
+                "B_ {#aparokza#}",
+                "S_ .{@{#-anuBUtiH#}@}"
+            ],
+            "_banner": ".{@{#-anuBUtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparokzAnuBUtiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "direct cognition."
+            ]
+        }
     ]
 }

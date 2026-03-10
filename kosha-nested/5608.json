@@ -1,19 +1,63 @@
 {
-    "__line": 49462,
+    "__line": 46714,
     "_ancestry": [
         "L_ 5608",
-        "B_ {#asTAyin#}"
+        "B_ {#aviveka#}"
     ],
-    "_banner": "{#asTAyin#}",
+    "_banner": "{#aviveka#}",
     "_bannerExp": [
         {
-            "Right": "asTAyin"
+            "Right": "aviveka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Not permanent,\ntransitory, perishable; {#prAyeRa#} \n{#sADuvfttAnAmasTAyinyo vipattayaH#} <ls>Bh. 2. 85.</ls>"
+        "Wanting in judgment or discrimination, thoughtless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 46715,
+            "_ancestry": [
+                "L_ 5608",
+                "B_ {#aviveka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avivekaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Want of discrimination or judgment, absence of prudence, imprudence;\n {#avivekaH paramApadAM padam#} <ls>Ki. 2. 30</ls>.\n",
+                ".²2 Hastiness, rashness, recklessness.\n",
+                ".²3 Ignorance; ({#anyonyatAdAtmyarUpamiTyAjYAnam#}).\n",
+                ".²4 Non-separation, non-distinction; {#pOruzaM karma dEvaM ca kAlavfttisvaBAvataH .#}\n {#trayametatpfTagBUtamavivekaM tu kecana ..#} <ls>Mb. 12. 238. 5</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 46723,
+            "_ancestry": [
+                "L_ 5608",
+                "B_ {#aviveka#}",
+                "S_ .{@{#-kfta#}@}"
+            ],
+            "_banner": ".{@{#-kfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avivekakfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "done rashly."
+            ]
+        }
     ]
 }

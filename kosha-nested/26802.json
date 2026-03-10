@@ -1,19 +1,62 @@
 {
-    "__line": 225819,
+    "__line": 244967,
     "_ancestry": [
         "L_ 26802",
-        "B_ {#vIRin#}"
+        "B_ {#mOsala#}"
     ],
-    "_banner": "{#vIRin#}",
+    "_banner": "{#mOsala#}",
     "_bannerExp": [
         {
-            "Right": "vIRin"
+            "Right": "mOsala"
+        },
+        {
+            "Right": "mOsalI"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "({#-lI#}|{%f.%})",
+        "[{#musala-aR#}]"
     ],
     "_meanings": [
-        "A lute-player."
+        ".²1 Formed like a club, club-shaped.\n",
+        ".²2 Fought with clubs (as a battle).\n",
+        ".²3 Relating to the battle with clubs (as a {%parvan%}; in this {%parvan%}\n (<ls>Mb. 16</ls>th) is narrated the death of Kṛṣṇa and Balarāma, and the self-destruction\n of Kṛṣṇaʼs family through the curse of Brāhmaṇas).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 244974,
+            "_ancestry": [
+                "L_ 26802",
+                "B_ {#mOsala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mOsalaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of {%madhuparka%}.\n"
+            ]
+        },
+        {
+            "__line": 244975,
+            "_ancestry": [
+                "L_ 26802",
+                "B_ {#mOsala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mOsalam"
+                }
+            ],
+            "_meanings": [
+                "The destruction of\n\n Yādavas in the battle with clubs; {#vajrastasyABavadyastu mOsalAdavaSezitaH#}\n <ls>Bhāg. 10. 90. 37</ls>."
+            ]
+        }
     ]
 }

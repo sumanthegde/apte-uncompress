@@ -1,19 +1,103 @@
 {
-    "__line": 264664,
+    "__line": 290573,
     "_ancestry": [
         "L_ 31535",
-        "B_ {#hevAkin#}"
+        "B_ {#SakaH#}"
     ],
-    "_banner": "{#hevAkin#}",
+    "_banner": "{#SakaH#}",
     "_bannerExp": [
         {
-            "Right": "hevAkin"
+            "Right": "SakaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Ardently desirous of,\neager for, (in <ab>comp.</ab>); {#jAyaMte#} \n{#mahatAmaho nirupamaprasTAnahevAkinAM#} \n{#niHsAmAnyamahattvayogapiSunA vArtA vipattAvapi#} \n<ls>Kalhaṇa</ls>."
+        ".²1 <ab>N.</ab> of a king (especially applied to Śālivāhana; but scholars do\n not seem to have yet agreed as to the precise meaning and scope of the word).\n",
+        ".²2 An epoch, era (the term is especially applied to the era of Śālivāhana\n which commences 78 years after the Christian era).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 290578,
+            "_ancestry": [
+                "L_ 31535",
+                "B_ {#SakaH#}",
+                "M_ .{@{#-kAH#}@}"
+            ],
+            "_banner": ".{@{#-kAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakAH"
+                }
+            ],
+            "_meanings": [
+                "({%m.%} <ab>pl.</ab>)\n",
+                ".²1 <ab>N.</ab> of a country.\n",
+                ".²2 <ab>N.</ab> of a particular tribe or race of people (mentioned in <ls>Ms. 10. 44</ls>\n along with the Pauṇḍrakas <ab>&c.</ab>; see <ls>Mu. 5. 11</ls> also).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 290583,
+            "_ancestry": [
+                "L_ 31535",
+                "B_ {#SakaH#}",
+                "S_ .{@{#-antakaH, -ariH#}@}"
+            ],
+            "_banner": ".{@{#-antakaH, -ariH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakAntakaH"
+                },
+                {
+                    "Right": "SakAriH"
+                }
+            ],
+            "_meanings": [
+                "epithets of king Vikramāditya who is said to\n have exterminated the Śakas.\n"
+            ]
+        },
+        {
+            "__line": 290585,
+            "_ancestry": [
+                "L_ 31535",
+                "B_ {#SakaH#}",
+                "S_ .{@{#-abdaH, -kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-abdaH, -kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakAbdaH"
+                },
+                {
+                    "Right": "SakakAlaH"
+                }
+            ],
+            "_meanings": [
+                "a year of the Śaka era.\n"
+            ]
+        },
+        {
+            "__line": 290586,
+            "_ancestry": [
+                "L_ 31535",
+                "B_ {#SakaH#}",
+                "S_ .{@{#-kartf, -kft#}@}"
+            ],
+            "_banner": ".{@{#-kartf, -kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Sakakartf"
+                },
+                {
+                    "Right": "Sakakft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the founder of an era."
+            ]
+        }
     ]
 }

@@ -1,22 +1,59 @@
 {
-    "__line": 213239,
+    "__line": 226412,
     "_ancestry": [
         "L_ 25163",
-        "B_ {#varmika, varmin#}"
+        "B_ {#Bidura#}"
     ],
-    "_banner": "{#varmika, varmin#}",
+    "_banner": "{#Bidura#}",
     "_bannerExp": [
         {
-            "Right": "varmika"
-        },
-        {
-            "Right": "varmin"
+            "Right": "Bidura"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#Bid-kurac#}]"
     ],
     "_meanings": [
-        "Mailed, furnished\nwith armour."
+        ".²1 Breaking, bursting, splitting,\n",
+        ".²2 Fragile, brittle.\n",
+        ".²3 Blended, variegated, mixed, mingled; {#nIlASmadyutiBidurAmBaso'paratra#}\n <ls>Śi. 4. 26</ls>, <ls n=\"Śi.\">19. 58</ls>, <ls n=\"Śi.\">20. 1</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 226417,
+            "_ancestry": [
+                "L_ 25163",
+                "B_ {#Bidura#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BiduraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The {%Plakṣa%} tree.\n",
+                ".²2 A chain for an elephantʼs feet.\n"
+            ]
+        },
+        {
+            "__line": 226420,
+            "_ancestry": [
+                "L_ 25163",
+                "B_ {#Bidura#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Biduram"
+                }
+            ],
+            "_meanings": [
+                "A thunderbolt."
+            ]
+        }
     ]
 }

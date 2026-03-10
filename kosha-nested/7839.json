@@ -1,19 +1,46 @@
 {
-    "__line": 67534,
+    "__line": 65456,
     "_ancestry": [
         "L_ 7839",
-        "B_ {#uttaraMgi#}"
+        "B_ {#ASrayaRa#}"
     ],
-    "_banner": "{#uttaraMgi#}",
+    "_banner": "{#ASrayaRa#}",
     "_bannerExp": [
         {
-            "Right": "uttaraMgi"
+            "Right": "ASrayaRa"
+        },
+        {
+            "Right": "ASrayaRI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})"
     ],
     "_meanings": [
-        "Heaving, panting;\n<ls>Māl. 7.</ls>"
+        ".²1 Resorting to, seeking refuge with; {#punaraNkASrayaRI BavAmi te#} <ls>Ku. 4. 20</ls>.\n",
+        ".²2 Referring to.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 65459,
+            "_ancestry": [
+                "L_ 7839",
+                "B_ {#ASrayaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASrayaRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Betaking oneself to, taking refuge with.\n",
+                ".²2 Accepting, choosing.\n",
+                ".²3 Joining.\n",
+                ".²4 Refuge, asylum."
+            ]
+        }
     ]
 }

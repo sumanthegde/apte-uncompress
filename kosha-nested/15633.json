@@ -1,19 +1,103 @@
 {
-    "__line": 131027,
+    "__line": 135603,
     "_ancestry": [
         "L_ 15633",
-        "B_ {#devan#}"
+        "B_ {#jina#}"
     ],
-    "_banner": "{#devan#}",
+    "_banner": "{#jina#}",
     "_bannerExp": [
         {
-            "Right": "devan"
+            "Right": "jina"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "[{#ji-nak#}]"
     ],
     "_meanings": [
-        "The younger brother of\na husband."
+        ".²1 Victorious, triumphant.\n",
+        ".²2 Very old.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 135606,
+            "_ancestry": [
+                "L_ 15633",
+                "B_ {#jina#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jinaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A generic term applied to a chief Bauddha or Jaina saint.\n",
+                ".²2 <ls>N.</ls> applied to the Arhats of the Jainas.\n",
+                ".²3 A very old man.\n",
+                ".²4 An epithet of Viṣṇu.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 135612,
+            "_ancestry": [
+                "L_ 15633",
+                "B_ {#jina#}",
+                "S_ .{@{#-indraH, -ISvaraH#}@}"
+            ],
+            "_banner": ".{@{#-indraH, -ISvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jinendraH"
+                },
+                {
+                    "Right": "jineSvaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a chief Bauddha saint.\n",
+                ".²2 an Arhat of the Jainas.\n"
+            ]
+        },
+        {
+            "__line": 135615,
+            "_ancestry": [
+                "L_ 15633",
+                "B_ {#jina#}",
+                "S_ .{@{#-yoniH#}@}"
+            ],
+            "_banner": ".{@{#-yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jinayoniH"
+                }
+            ],
+            "_meanings": [
+                "A deer (<ab>cf.</ab> {#ajinayoni#}); <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 135616,
+            "_ancestry": [
+                "L_ 15633",
+                "B_ {#jina#}",
+                "S_ .{@{#-sadman#}@}"
+            ],
+            "_banner": ".{@{#-sadman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jinasadman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a Jaina temple or monastery."
+            ]
+        }
     ]
 }

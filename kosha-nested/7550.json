@@ -1,16 +1,61 @@
 {
-    "__line": 65222,
+    "__line": 63186,
     "_ancestry": [
         "L_ 7550",
-        "B_ {#ukAnahaH#}"
+        "B_ {#Arhata#}"
     ],
-    "_banner": "{#ukAnahaH#}",
+    "_banner": "{#Arhata#}",
     "_bannerExp": [
         {
-            "Right": "ukAnahaH"
+            "Right": "Arhata"
+        },
+        {
+            "Right": "ArhatI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-tI#}|{%f.%})",
+        "[{#arhat-aR#}]"
+    ],
     "_meanings": [
-        "A horse of a red and\nyellow (or red and black) colour,\na bay or chesnut horse."
+        "Belonging to the Jaina doctrines.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 63188,
+            "_ancestry": [
+                "L_ 7550",
+                "B_ {#Arhata#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArhataH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A Jaina, a follower of Jaina doctrines.\n",
+                ".²2 A Buddhist.\n"
+            ]
+        },
+        {
+            "__line": 63191,
+            "_ancestry": [
+                "L_ 7550",
+                "B_ {#Arhata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Arhatam"
+                }
+            ],
+            "_meanings": [
+                "The doctrines of Jainas."
+            ]
+        }
     ]
 }

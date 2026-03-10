@@ -1,17 +1,38 @@
 {
-    "__line": 125035,
+    "__line": 130487,
     "_ancestry": [
         "L_ 15052",
-        "B_ {#trEpuraH#}"
+        "B_ {#copana#}"
     ],
-    "_banner": "{#trEpuraH#}",
+    "_banner": "{#copana#}",
     "_bannerExp": [
         {
-            "Right": "trEpuraH"
+            "Right": "copana"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} The Tripura country.\n",
-        "{@--2@} A ruler or inhabitant of that\ncountry."
+        "Moving, stirring.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 130488,
+            "_ancestry": [
+                "L_ 15052",
+                "B_ {#copana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "copanam"
+                }
+            ],
+            "_meanings": [
+                "Moving slowly."
+            ]
+        }
     ]
 }

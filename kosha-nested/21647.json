@@ -1,19 +1,42 @@
 {
-    "__line": 179150,
+    "__line": 194352,
     "_ancestry": [
         "L_ 21647",
-        "B_ {#bahizwAt#}"
+        "B_ {#puzkarin#}"
     ],
-    "_banner": "{#bahizwAt#}",
+    "_banner": "{#puzkarin#}",
     "_bannerExp": [
         {
-            "Right": "bahizwAt"
+            "Right": "puzkarin"
+        },
+        {
+            "Right": "puzkariRI"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})"
     ],
     "_meanings": [
-        "On the outside, abroad."
+        "Abounding in lotuses. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 194353,
+            "_ancestry": [
+                "L_ 21647",
+                "B_ {#puzkarin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#puzkarin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An elephant."
+            ]
+        }
     ]
 }

@@ -1,38 +1,845 @@
 {
-    "__line": 147639,
+    "__line": 155017,
     "_ancestry": [
         "L_ 17557",
-        "B_ {#paMkeruh#}"
+        "B_ {#dehaH#}, {#-ham#}"
     ],
-    "_banner": "{#paMkeruh#}",
+    "_banner": "{#dehaH#}, {#-ham#}",
     "_bannerExp": [
         {
-            "Right": "paMkeruh"
+            "Right": "dehaH"
+        },
+        {
+            "Right": "deham"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}",
-        "{#--haM#}"
+        "[{#dih-GaY#}]"
     ],
     "_meanings": [
-        "A lotus. "
+        ".²1 The body; {#dehaM dahanti dahanA iva ganDavAhAH#} <ls>Bv. 1. 104</ls>.\n",
+        ".²2 A form, shape, bulk, mass,\n",
+        ".²3 A person, an individual.\n",
+        ".²4 An appearance, a manifestation.\n"
     ],
     "_morphisms": [
         {
-            "__line": 147639,
+            "__line": 155023,
             "_ancestry": [
                 "L_ 17557",
-                "B_ {#paMkeruh#}",
-                "M_ {#--haH#}"
+                "B_ {#dehaH#}, {#-ham#}",
+                "M_ .{@{#-haH#}@}"
             ],
-            "_banner": "{#--haH#}",
+            "_banner": ".{@{#-haH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "paMkeruhaH"
+                    "Right": "dehaH"
                 }
             ],
             "_meanings": [
-                "The\ncrane or Sārasa bird."
+                "Anointing, smearing.\n"
+            ]
+        },
+        {
+            "__line": 155024,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "M_ .{@{#-hI#}@}"
+            ],
+            "_banner": ".{@{#-hI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehI"
+                }
+            ],
+            "_meanings": [
+                "A rampart, wall, mound.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 155026,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-antaram#}@}"
+            ],
+            "_banner": ".{@{#-antaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehAntaram"
+                }
+            ],
+            "_meanings": [
+                "another body; {#kiM nu tad duzkftaM karma purA dehAntare#}\n {#kftam#} <ls>Rām. 7. 24. 15</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 155027,
+                    "_ancestry": [
+                        "L_ 17557",
+                        "B_ {#dehaH#}, {#-ham#}",
+                        "S_ .{@{#-antaram#}@}",
+                        "S_S_ {#˚prAptiH#}"
+                    ],
+                    "_banner": "{#˚prAptiH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "dehAntaraprAptiH"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%f.%} transmigration.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 155028,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-AtmavAdaH#}@}"
+            ],
+            "_banner": ".{@{#-AtmavAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehAtmavAdaH"
+                }
+            ],
+            "_meanings": [
+                "materialism, the doctrines of Chārvāka.\n"
+            ]
+        },
+        {
+            "__line": 155029,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-AtmavAdin#}@}"
+            ],
+            "_banner": ".{@{#-AtmavAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehAtmavAdin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a materialist, a Chārvāka.\n"
+            ]
+        },
+        {
+            "__line": 155030,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-AvaraRam#}@}"
+            ],
+            "_banner": ".{@{#-AvaraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehAvaraRam"
+                }
+            ],
+            "_meanings": [
+                "armour, dress.\n"
+            ]
+        },
+        {
+            "__line": 155031,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-AsavaH#}@}"
+            ],
+            "_banner": ".{@{#-AsavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehAsavaH"
+                }
+            ],
+            "_meanings": [
+                "urine.\n"
+            ]
+        },
+        {
+            "__line": 155032,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-ISvaraH#}@}"
+            ],
+            "_banner": ".{@{#-ISvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "deheSvaraH"
+                }
+            ],
+            "_meanings": [
+                "the soul.\n"
+            ]
+        },
+        {
+            "__line": 155033,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-udBava, -udBUta#}@}"
+            ],
+            "_banner": ".{@{#-udBava, -udBUta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehodBava"
+                },
+                {
+                    "Right": "dehodBUta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born in the body, inborn, innate.\n"
+            ]
+        },
+        {
+            "__line": 155034,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehakaraH"
+                }
+            ],
+            "_meanings": [
+                "a father.\n"
+            ]
+        },
+        {
+            "__line": 155035,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-kartf#}@}"
+            ],
+            "_banner": ".{@{#-kartf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehakartf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the sun.\n",
+                ".²2 the Supreme Soul.\n",
+                ".²3 father.\n"
+            ]
+        },
+        {
+            "__line": 155039,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehakft"
+                }
+            ],
+            "_meanings": [
+                ".²1 the five elements.\n",
+                ".²2 the God; {#dehakft dehaBft dehI#} <ls>Mb.</ls>\n",
+                ".²3 father; {#trasadasyuH pOrukutso yo'naraRyasya#}\n\n {#dehakft#} <ls>Bhāg. 9. 7. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155045,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-kozaH#}@}"
+            ],
+            "_banner": ".{@{#-kozaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehakozaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the covering of the body.\n",
+                ".²2 a feather, wing <ab>&c.</ab>\n",
+                ".²3 skin.\n"
+            ]
+        },
+        {
+            "__line": 155049,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-kzayaH#}@}"
+            ],
+            "_banner": ".{@{#-kzayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehakzayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 decay of the body.\n",
+                ".²2 sickness, disease.\n"
+            ]
+        },
+        {
+            "__line": 155052,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehagata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "incarnate, embodied.\n"
+            ]
+        },
+        {
+            "__line": 155053,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehajaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 son.\n",
+                ".²2 {%a.%} Belonging to the body; {#manovAgdehajErnityaM karmadozErna lipyate#} <ls>Ms. 1. 104</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155056,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-jA#}@}"
+            ],
+            "_banner": ".{@{#-jA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehajA"
+                }
+            ],
+            "_meanings": [
+                "a daughter.\n"
+            ]
+        },
+        {
+            "__line": 155057,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-tantra#}@}"
+            ],
+            "_banner": ".{@{#-tantra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehatantra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "whose chief kind of existence is corporeal; {#tvaM#}\n {#dehatantraH praSamAya pApmanAM nideSaBAjAM ca viBo viBUtaye#} <ls>Bhāg. 3. 33. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155059,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-tyAgaH#}@}"
+            ],
+            "_banner": ".{@{#-tyAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehatyAgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 death (in general).\n",
+                ".²2 voluntary death; resigning the body; {#tIrTe toyavyatikaraBave jahnukanyAsarazvordehatyAgAt#}\n <ls>R. 8. 95</ls>; <ls>Ms. 10. 62</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155063,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehadaH"
+                }
+            ],
+            "_meanings": [
+                "quick-silver.\n"
+            ]
+        },
+        {
+            "__line": 155064,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-dIpaH#}@}"
+            ],
+            "_banner": ".{@{#-dIpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehadIpaH"
+                }
+            ],
+            "_meanings": [
+                "the eye.\n"
+            ]
+        },
+        {
+            "__line": 155065,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-DarmaH#}@}"
+            ],
+            "_banner": ".{@{#-DarmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaDarmaH"
+                }
+            ],
+            "_meanings": [
+                "the function of the body ({#AhAranidrAmETunAdi#}); <ls>Rām. 4. 35. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155066,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-DArakam#}@}"
+            ],
+            "_banner": ".{@{#-DArakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaDArakam"
+                }
+            ],
+            "_meanings": [
+                "a bone.\n"
+            ]
+        },
+        {
+            "__line": 155067,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-DAraRam#}@}"
+            ],
+            "_banner": ".{@{#-DAraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaDAraRam"
+                }
+            ],
+            "_meanings": [
+                "living, life.\n"
+            ]
+        },
+        {
+            "__line": 155068,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-DiH#}@}"
+            ],
+            "_banner": ".{@{#-DiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaDiH"
+                }
+            ],
+            "_meanings": [
+                "a wing.\n"
+            ]
+        },
+        {
+            "__line": 155069,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-Dfz#}@}"
+            ],
+            "_banner": ".{@{#-Dfz#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaDfz"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "air, wind.\n"
+            ]
+        },
+        {
+            "__line": 155070,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-pAtaH#}@}"
+            ],
+            "_banner": ".{@{#-pAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehapAtaH"
+                }
+            ],
+            "_meanings": [
+                "death.\n"
+            ]
+        },
+        {
+            "__line": 155071,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-badDa#}@}"
+            ],
+            "_banner": ".{@{#-badDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehabadDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "embodied, incarnate; {#dehabadDamiva DarmamaByagAt#}\n <ls>R. 11. 35</ls>; <ls>Ku. 2. 47</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155073,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-banDaH#}@}"
+            ],
+            "_banner": ".{@{#-banDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehabanDaH"
+                }
+            ],
+            "_meanings": [
+                "bodily frame; {#DvaMsate dehabanDaH#} <ls>U. 3. 38</ls>; <ls>Māl. 9. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155074,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-BAj#}@}"
+            ],
+            "_banner": ".{@{#-BAj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaBAj"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "embodied, corporeal. --({%m.%}) any being possessed\n of a body or life, especially a man; {#nAyaM devo dehaBAjAM nfloke#} <ls>Bhāg. 5. 5. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155076,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-Buj#}@}"
+            ],
+            "_banner": ".{@{#-Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaBuj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the soul.\n",
+                ".²2 the sun.\n"
+            ]
+        },
+        {
+            "__line": 155079,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 living being, especially a man; {#DigimAM dehaBftAmasAratAm#} <ls>R. 8. 51</ls>;\n {#dehaBftAM vara#} <ls>Bg. 8. 4</ls>, <ls n=\"Bg.\">14. 14</ls>.\n",
+                ".²2 an epithet of Śiva.\n",
+                ".²3 life, vitality.\n"
+            ]
+        },
+        {
+            "__line": 155084,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-BedaH#}@}"
+            ],
+            "_banner": ".{@{#-BedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehaBedaH"
+                }
+            ],
+            "_meanings": [
+                "death.\n"
+            ]
+        },
+        {
+            "__line": 155085,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-maDyam#}@}"
+            ],
+            "_banner": ".{@{#-maDyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehamaDyam"
+                }
+            ],
+            "_meanings": [
+                "waist.\n"
+            ]
+        },
+        {
+            "__line": 155086,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-yAtrA#}@}"
+            ],
+            "_banner": ".{@{#-yAtrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehayAtrA"
+                }
+            ],
+            "_meanings": [
+                ".²1 dying, death.\n",
+                ".²2 nourishment, food.\n"
+            ]
+        },
+        {
+            "__line": 155089,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-yApanam#}@}"
+            ],
+            "_banner": ".{@{#-yApanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehayApanam"
+                }
+            ],
+            "_meanings": [
+                "fostering the body ({#SarIrapozaRa#}); {#devatAtiTiSezeRa#}\n {#kurute dehayApanam#} <ls>Mb. 3. 260. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155091,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-lakzaRam#}@}"
+            ],
+            "_banner": ".{@{#-lakzaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehalakzaRam"
+                }
+            ],
+            "_meanings": [
+                "a mole, a black or dark spot upon the skin.\n"
+            ]
+        },
+        {
+            "__line": 155092,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-varman#}@}"
+            ],
+            "_banner": ".{@{#-varman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehavarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the skin.\n"
+            ]
+        },
+        {
+            "__line": 155093,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-vAyuH#}@}"
+            ],
+            "_banner": ".{@{#-vAyuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehavAyuH"
+                }
+            ],
+            "_meanings": [
+                "one of the five vital airs or life-winds; see {#prARa#}.\n"
+            ]
+        },
+        {
+            "__line": 155094,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-visarjanam#}@}"
+            ],
+            "_banner": ".{@{#-visarjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehavisarjanam"
+                }
+            ],
+            "_meanings": [
+                "death.\n"
+            ]
+        },
+        {
+            "__line": 155095,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-vfntam#}@}"
+            ],
+            "_banner": ".{@{#-vfntam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehavfntam"
+                }
+            ],
+            "_meanings": [
+                "the navel.\n"
+            ]
+        },
+        {
+            "__line": 155096,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-saMcAriRI#}@}"
+            ],
+            "_banner": ".{@{#-saMcAriRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehasaYcAriRI"
+                }
+            ],
+            "_meanings": [
+                "a daughter.\n"
+            ]
+        },
+        {
+            "__line": 155097,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-sAraH#}@}"
+            ],
+            "_banner": ".{@{#-sAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehasAraH"
+                }
+            ],
+            "_meanings": [
+                "marrow.\n"
+            ]
+        },
+        {
+            "__line": 155098,
+            "_ancestry": [
+                "L_ 17557",
+                "B_ {#dehaH#}, {#-ham#}",
+                "S_ .{@{#-svaBAvaH#}@}"
+            ],
+            "_banner": ".{@{#-svaBAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehasvaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "bodily temperament."
             ]
         }
     ]

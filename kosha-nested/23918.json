@@ -1,23 +1,63 @@
 {
-    "__line": 202119,
+    "__line": 213488,
     "_ancestry": [
         "L_ 23918",
-        "B_ {#raMhiH#}"
+        "B_ {#prAdeSika#}"
     ],
-    "_banner": "{#raMhiH#}",
+    "_banner": "{#prAdeSika#}",
     "_bannerExp": [
         {
-            "Right": "raMhiH"
+            "Right": "prAdeSika"
+        },
+        {
+            "Right": "prAdeSikI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} A running stream,\nspring. ",
-        "{@--2@} Running, flowing. ",
-        "{@--3@}\nHunting, pursuing. ",
-        "{@--4@} Haste."
+        ".²1 Having precedents, precedented.\n",
+        ".²2 Limited, local.\n",
+        ".²3 Significant.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 213492,
+            "_ancestry": [
+                "L_ 23918",
+                "B_ {#prAdeSika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAdeSikaH"
+                }
+            ],
+            "_meanings": [
+                "The owner of a district.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 213494,
+            "_ancestry": [
+                "L_ 23918",
+                "B_ {#prAdeSika#}",
+                "S_ .{@{#-guRaH#}@}"
+            ],
+            "_banner": ".{@{#-guRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAdeSikaguRaH"
+                }
+            ],
+            "_meanings": [
+                "the authorised function or meaning of a word."
+            ]
+        }
     ]
 }

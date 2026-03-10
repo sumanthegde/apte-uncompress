@@ -1,40 +1,115 @@
 {
-    "__line": 58527,
+    "__line": 56646,
     "_ancestry": [
         "L_ 6753",
-        "B_ {#Aruh#}"
+        "B_ {#AtiTya#}"
     ],
-    "_banner": "{#Aruh#}",
+    "_banner": "{#AtiTya#}",
     "_bannerExp": [
         {
-            "Right": "Aruh"
+            "Right": "AtiTya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#atiTeridaM zyaY#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Ascending. "
+        "Hospitable, proper for a guest\n <ab>&c.</ab> (= {#AtiTeya#}); {#havirAtiTyam, AtiTyA izwiH#} <ab>&c.</ab>\n"
     ],
     "_morphisms": [
         {
-            "__line": 58527,
+            "__line": 56648,
             "_ancestry": [
                 "L_ 6753",
-                "B_ {#Aruh#}",
-                "M_ {%--<ab>f.</ab>%}"
+                "B_ {#AtiTya#}",
+                "M_ .{@{#-TyaH#}@}"
             ],
+            "_banner": ".{@{#-TyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "Aruh"
+                    "Right": "AtiTyaH"
+                }
+            ],
+            "_meanings": [
+                "A guest.\n"
+            ]
+        },
+        {
+            "__line": 56649,
+            "_ancestry": [
+                "L_ 6753",
+                "B_ {#AtiTya#}",
+                "M_ .{@{#-Tyam#}@}"
+            ],
+            "_banner": ".{@{#-Tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AtiTyam"
+                }
+            ],
+            "_meanings": [
+                "or "
+            ]
+        },
+        {
+            "__line": 56649,
+            "_ancestry": [
+                "L_ 6753",
+                "B_ {#AtiTya#}",
+                "M_ {@{#-TyA#}@}"
+            ],
+            "_banner": "{@{#-TyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AtiTyA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Hospitable reception, hospitality; {#tamAtiTyakriyASAntaraTakzoBapariSramam#} <ls>R. 1. 58</ls>.\n",
+                ".²2 a particular rite, the reception of Soma when it is brought to the\n sacrificial place (also called {#AtiTyezwiH#})\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 56654,
+            "_ancestry": [
+                "L_ 6753",
+                "B_ {#AtiTya#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AtiTyarUpa"
                 }
             ],
             "_gram": [
-                "{%--<ab>f.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} Excrescence. ",
-                "{@--2@} A shoot (of a\nplant)."
+                "being in the place of the {#AtiTya#} sacrifice; {#AtiTyarUpaM#}\n {#mAsaram#} <ls>Vāj. 19. 14</ls>\n"
+            ]
+        },
+        {
+            "__line": 56656,
+            "_ancestry": [
+                "L_ 6753",
+                "B_ {#AtiTya#}",
+                "S_ .{@{#-satkAraH, -satkriyA#}@}"
+            ],
+            "_banner": ".{@{#-satkAraH, -satkriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AtiTyasatkAraH"
+                },
+                {
+                    "Right": "AtiTyasatkriyA"
+                }
+            ],
+            "_meanings": [
+                "the rites of hospitality."
             ]
         }
     ]

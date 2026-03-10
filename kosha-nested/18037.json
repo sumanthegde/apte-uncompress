@@ -1,23 +1,43 @@
 {
-    "__line": 152186,
+    "__line": 160121,
     "_ancestry": [
         "L_ 18037",
-        "B_ {#paridevanaM, --nA, paridevitaM#}"
+        "B_ {#Duta#}"
     ],
-    "_banner": "{#paridevanaM, --nA, paridevitaM#}",
+    "_banner": "{#Duta#}",
     "_bannerExp": [
         {
-            "Right": "paridevanA"
-        },
-        {
-            "Right": "paridevanaM"
-        },
-        {
-            "Right": "paridevitaM"
+            "Right": "Duta"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} \nLamentation, complaint, bewailing; {#aTa tEH#}\n{#paridevitAkzarEH#} <ls>Ku. 4. 25</ls>; <ls>R. 14. 83</ls>;\n<ls>Bg. 2. 28</ls>; {#tatra kA paridevanA#} <ls>H. 4. 71</ls>;\n<ls>Y. 3. 9.</ls> ",
-        "{@--2@} Repentance, regret."
+        ".²1 Shaken; {#tIvravegaDutamArgavfkzayA#} ({#tAqakayA#}) <ls>R. 11. 16</ls>.\n",
+        ".²2 Left, abandoned.\n",
+        ".²3 Chastened; {#AtmAnaM cedvijAnIyAtparaM jYAnaDutASayaH#} <ls>Bhāg. 7. 15. 40</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 160125,
+            "_ancestry": [
+                "L_ 18037",
+                "B_ {#Duta#}",
+                "M_ .{@{#-ti#}@}"
+            ],
+            "_banner": ".{@{#-ti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Duti"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Shaking, flapping; {#Syeneyasya bfhatpatatraDutayaH#}\n {#praKyApayantyAgamam#} <ls>Mv. 5. 1</ls>."
+            ]
+        }
     ]
 }

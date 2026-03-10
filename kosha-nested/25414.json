@@ -1,20 +1,263 @@
 {
-    "__line": 215319,
+    "__line": 229633,
     "_ancestry": [
         "L_ 25414",
-        "B_ {#vAdita#}"
+        "B_ {#BrAtf#}"
     ],
-    "_banner": "{#vAdita#}",
+    "_banner": "{#BrAtf#}",
     "_bannerExp": [
         {
-            "Right": "vAdita"
+            "Right": "BrAtf"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%m.%}",
+        "[{#BrAj-tfc pfzo˚#}; <ab>cf.</ab> <ls>Uṇ. 2. 96.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Caused to be\nuttered, made to speak. ",
-        "{@--2@} Played,\nsounded."
+        ".²1 A brother.\n",
+        ".²2 An intimate friend or relation.\n",
+        ".²3 A near relative in general.\n",
+        ".²4 A term of friendly address (my good friend); {#BrAtaH kazwamaho#} <ls>Bh. 3. 37</ls>, <ls n=\"Bh.\">2. 34</ls>;\n {#tattvaM cintaya tadidaM BrAtaH#} <ls>Moha M. 3</ls>. --"
+    ],
+    "_morphisms": [
+        {
+            "__line": 229638,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "M_ {%Dual%}"
+            ],
+            "_banner": "{%Dual%}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtf"
+                }
+            ],
+            "_meanings": [
+                "A brother and sister [<ab>cf.</ab> <lang>L.</lang> {%frater%}; <lang>Zend.</lang> {%bratar%}, <lang>Eng.</lang>\n {%brother%}.]\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 229642,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-ganDi, -ganDika#}@}"
+            ],
+            "_banner": ".{@{#-ganDi, -ganDika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfganDi"
+                },
+                {
+                    "Right": "BrAtfganDika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having only the name of a brother, a brother in mere name.\n"
+            ]
+        },
+        {
+            "__line": 229643,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-ganDikaH, -ganDin#}@}"
+            ],
+            "_banner": ".{@{#-ganDikaH, -ganDin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfganDikaH"
+                },
+                {
+                    "Right": "BrAtfganDin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a brother in mere name; {#gatvA cAhvaya#}\n {#sugrIva vAlinaM BrAtfganDinam#} <ls>Rām. 4. 12. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 229645,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfjaH"
+                }
+            ],
+            "_meanings": [
+                "a brotherʼs son.\n"
+            ]
+        },
+        {
+            "__line": 229646,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-jAyA#}@}"
+            ],
+            "_banner": ".{@{#-jAyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfjAyA"
+                }
+            ],
+            "_meanings": [
+                "(also {#BrAturjAyA#}) a brotherʼs wife, a sister-in-law;\n {#avyApannAmavihatagatirdrakzyasi BrAtfjAyAm#} <ls>Me. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 229648,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-dattam#}@}"
+            ],
+            "_banner": ".{@{#-dattam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfdattam"
+                }
+            ],
+            "_meanings": [
+                "property given by a brother to a sister at the time of\n her marriage; {#mAtfkaM BrAtfdattaM vA stenA syAdyadi taM haret#} <ls>Ms. 9. 92</ls>.\n"
+            ]
+        },
+        {
+            "__line": 229650,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-dvitIyA#}@}"
+            ],
+            "_banner": ".{@{#-dvitIyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfdvitIyA"
+                }
+            ],
+            "_meanings": [
+                "the second day of the bright half of Kārtika (when sisters\n invite their brothers to their houses and entertain them, who in their\n turn give them presents; the day seems to have been so called on account\n of Yamunā having entertained her brother Yama on that day; <ab>cf.</ab> {#yamadvitIyA#}).\n"
+            ]
+        },
+        {
+            "__line": 229654,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-putraH#}@}"
+            ],
+            "_banner": ".{@{#-putraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfputraH"
+                }
+            ],
+            "_meanings": [
+                "(also {#BrAtuzputraH#}) a brotherʼs son.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 229655,
+                    "_ancestry": [
+                        "L_ 25414",
+                        "B_ {#BrAtf#}",
+                        "S_ .{@{#-putraH#}@}",
+                        "S_M_ ({@{#-trI#}@}"
+                    ],
+                    "_banner": "({@{#-trI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "BrAtfputrI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a niece.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 229656,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-vaDUH#}@}"
+            ],
+            "_banner": ".{@{#-vaDUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfvaDUH"
+                }
+            ],
+            "_meanings": [
+                "a brotherʼs wife.\n"
+            ]
+        },
+        {
+            "__line": 229657,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-BaginyO#}@}"
+            ],
+            "_banner": ".{@{#-BaginyO#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfBaginyO"
+                }
+            ],
+            "_meanings": [
+                "a brother and sister.\n"
+            ]
+        },
+        {
+            "__line": 229658,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-SvaSuraH#}@}"
+            ],
+            "_banner": ".{@{#-SvaSuraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfSvaSuraH"
+                }
+            ],
+            "_meanings": [
+                "elder brother of the husband.\n"
+            ]
+        },
+        {
+            "__line": 229659,
+            "_ancestry": [
+                "L_ 25414",
+                "B_ {#BrAtf#}",
+                "S_ .{@{#-hatyA#}@}"
+            ],
+            "_banner": ".{@{#-hatyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAtfhatyA"
+                }
+            ],
+            "_meanings": [
+                "fratricide."
+            ]
+        }
     ]
 }

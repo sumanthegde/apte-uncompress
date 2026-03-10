@@ -1,20 +1,44 @@
 {
-    "__line": 111480,
+    "__line": 113110,
     "_ancestry": [
         "L_ 13274",
-        "B_ {#cArvI#}"
+        "B_ {#kzaRin#}"
     ],
-    "_banner": "{#cArvI#}",
+    "_banner": "{#kzaRin#}",
     "_bannerExp": [
         {
-            "Right": "cArvI"
+            "Right": "kzaRin"
+        },
+        {
+            "Right": "kzaRinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} A beautiful woman. ",
-        "{@--2@}\nMoonlight. ",
-        "{@--3@} Intelligence. ",
-        "{@--4@}\nSplendour, lustre, brilliancy. ",
-        "{@--5@}\n<ab>N.</ab> of the wife of Kubera."
+        ".²1 Having leisure.\n",
+        ".²2 Momentary.\n",
+        ".²3 Having a festival.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 113114,
+            "_ancestry": [
+                "L_ 13274",
+                "B_ {#kzaRin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzaRinI"
+                }
+            ],
+            "_meanings": [
+                "Night."
+            ]
+        }
     ]
 }

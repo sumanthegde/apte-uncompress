@@ -1,38 +1,43 @@
 {
-    "__line": 227396,
+    "__line": 247099,
     "_ancestry": [
         "L_ 26955",
-        "B_ {#veDin#}"
+        "B_ {#yas#}"
     ],
-    "_banner": "{#veDin#}",
+    "_banner": "{#yas#}",
     "_bannerExp": [
         {
-            "Right": "veDin"
+            "Right": "yas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "€4",
+        "<ab>P.</ab>",
+        "({#yasati, yasyati, yasta#})"
     ],
     "_meanings": [
-        "{@--1@} Piercing, boring. ",
-        "{@--2@}\nHitting (a mark). "
+        "To strive, endeavour, labour.\n"
     ],
     "_morphisms": [
         {
-            "__line": 227397,
+            "__line": 247100,
             "_ancestry": [
                 "L_ 26955",
-                "B_ {#veDin#}",
-                "M_ {#--nI#}"
+                "B_ {#yas#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": "{#--nI#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "veDinI"
+                    "Right": "yas"
                 }
             ],
+            "_gram": [
+                "({#yAsayati-te#})"
+            ],
             "_meanings": [
-                "A leech."
+                "To put to trouble."
             ]
         }
     ]

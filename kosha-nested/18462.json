@@ -1,22 +1,52 @@
 {
-    "__line": 154788,
+    "__line": 164622,
     "_ancestry": [
         "L_ 18462",
-        "B_ {#paryuzita#}"
+        "B_ {#nARakam#}"
     ],
-    "_banner": "{#paryuzita#}",
+    "_banner": "{#nARakam#}",
     "_bannerExp": [
         {
-            "Right": "paryuzita"
+            "Right": "nARakam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Stale, not fresh; <ab>cf.</ab>\n{#aparyuzita#}. ",
-        "{@--2@} Insipid. ",
-        "{@--3@} Stupid. ",
-        "{@--4@}\nVain."
+        "A coin, anything stamped with an impression; {#ezA nARakamozikA#}\n {#makaSikA#} <ls>Mk. 1. 23</ls>; <ls>Y. 2. 240</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 164625,
+            "_ancestry": [
+                "L_ 18462",
+                "B_ {#nARakam#}",
+                "S_ .{@{#-parIkzA#}@}"
+            ],
+            "_banner": ".{@{#-parIkzA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nARakaparIkzA"
+                }
+            ],
+            "_meanings": [
+                "the testing of coin, assaying.\n"
+            ]
+        },
+        {
+            "__line": 164626,
+            "_ancestry": [
+                "L_ 18462",
+                "B_ {#nARakam#}",
+                "S_ .{@{#-parIkzin#}@}"
+            ],
+            "_banner": ".{@{#-parIkzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nARakaparIkzin"
+                }
+            ],
+            "_meanings": [
+                "an assayer."
+            ]
+        }
     ]
 }

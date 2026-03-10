@@ -1,54 +1,51 @@
 {
-    "__line": 46580,
+    "__line": 44652,
     "_ancestry": [
         "L_ 5304",
-        "B_ {#aSravaRa#}"
+        "B_ {#avas#}"
     ],
-    "_banner": "{#aSravaRa#}",
+    "_banner": "{#avas#}",
     "_bannerExp": [
         {
-            "Right": "aSravaRa"
+            "Right": "avas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}",
+        "[{#av-BAve asic#}]"
     ],
     "_meanings": [
-        "Deaf, having no ears.\n"
+        "<ab>Ved.</ab>\n",
+        ".²1 Protection, assistance.\n",
+        ".²2 Fame, celebrity.\n",
+        ".²3 Food, provision.\n",
+        ".²4 Wealth; riches.\n",
+        ".²5 Going.\n",
+        ".²6 Satisfaction, pleasure.\n",
+        ".²7 Wish, will, desire, aspiration. "
     ],
     "_morphisms": [
         {
-            "__line": 46581,
+            "__line": 44659,
             "_ancestry": [
                 "L_ 5304",
-                "B_ {#aSravaRa#}",
-                "M_ {#--RaH#}"
+                "B_ {#avas#}",
+                "M_ --{%ind.%}"
             ],
-            "_banner": "{#--RaH#}",
+            "_banner": "--{%ind.%}",
             "_bannerExp": [
                 {
-                    "Right": "aSravaRaH"
+                    "Left": "Parser error: {#avas#} M_ --{%iMd.%}"
                 }
             ],
-            "_meanings": [
-                "A snake. "
-            ]
-        },
-        {
-            "__line": 46581,
-            "_ancestry": [
-                "L_ 5304",
-                "B_ {#aSravaRa#}",
-                "M_ {#--RaM#}"
-            ],
-            "_banner": "{#--RaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "aSravaRaM"
-                }
+            "_gram": [
+                "[{#avara-praTamAyAH paYcamyAH#}\n {#saptamyA vA'rTe asi, av AdeSaH#} <ls>P. V. 3. 39</ls>]"
             ],
             "_meanings": [
-                "Loss of hearing,\ndeafness."
+                ".²1 Below, downwards, hitherward.\n",
+                ".²2 (As a preposition with <ab>instr.</ab> or <ab>abl.</ab>)\n",
+                ".³({%a%}) Below, at the lowest place.\n",
+                ".³({%b%}) Without, on the outside."
             ]
         }
     ]

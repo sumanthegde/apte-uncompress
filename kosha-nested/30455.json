@@ -1,45 +1,61 @@
 {
-    "__line": 255489,
+    "__line": 281178,
     "_ancestry": [
         "L_ 30455",
-        "B_ {#sUdana#}"
+        "B_ {#vizuvat#}"
     ],
-    "_banner": "{#sUdana#}",
+    "_banner": "{#vizuvat#}",
     "_bannerExp": [
         {
-            "Right": "sUdanI"
-        },
-        {
-            "Right": "sUdana"
+            "Right": "vizuvat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#sUd-BAva lyuw#}]"
+        "{%m.%}"
     ],
     "_meanings": [
-        "{@--1@}\nDestroying, killing, destructive;\n{#dAnavasUdana, arigaRasUdana#} &c. ",
-        "{@--2@} Dear,\nbeloved. "
+        ".²1 The equinox.\n",
+        ".²2 The central day in a sacrificial session.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 255492,
+            "__line": 281182,
             "_ancestry": [
                 "L_ 30455",
-                "B_ {#sUdana#}",
-                "M_ {#--naM#}"
+                "B_ {#vizuvat#}",
+                "S_ .{@{#-dinam, -divasaH#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-dinam, -divasaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sUdanaM"
+                    "Right": "vizuvaddinam"
+                },
+                {
+                    "Right": "vizuvaddivasaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Destroying, \n\ndestruction, massacre. ",
-                "{@--2@} Assenting to,\npromising. ",
-                "{@--3@} Ejecting, throwing\naway."
+                "the equinoctial day.\n"
+            ]
+        },
+        {
+            "__line": 281183,
+            "_ancestry": [
+                "L_ 30455",
+                "B_ {#vizuvat#}",
+                "S_ .{@{#-valayam, -vfttam#}@}"
+            ],
+            "_banner": ".{@{#-valayam, -vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vizuvadvalayam"
+                },
+                {
+                    "Right": "vizuvadvfttam"
+                }
+            ],
+            "_meanings": [
+                "equator."
             ]
         }
     ]

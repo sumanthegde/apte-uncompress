@@ -1,21 +1,69 @@
 {
-    "__line": 100530,
+    "__line": 101534,
     "_ancestry": [
         "L_ 12025",
-        "B_ {#KaMj#}"
+        "B_ {#kAyaka#} "
     ],
-    "_banner": "{#KaMj#}",
+    "_banner": "{#kAyaka#} ",
     "_bannerExp": [
         {
-            "Right": "KaMj"
+            "Right": "kAyaka"
+        },
+        {
+            "Right": "kAyikA"
+        },
+        {
+            "Right": "kAyakI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#KaMjati#})"
+        "({#-yikA#}|{%f.%})",
+        "{#kAyika#}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "To limp, halt,\nwalk lame; {#KaMjan praBaMjanajanaH paTikaH#}\n{#pipAsuH#} <ls>N. 11. 107.</ls>"
+        "¦ {%a.%}\n [{#kAya-Wak#}] Relating to the body, bodily,\n corporeal; {#kAyikatapaH#} <ls>Ms. 12. 8</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 101537,
+            "_ancestry": [
+                "L_ 12025",
+                "B_ {#kAyaka#} ",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAyakA"
+                }
+            ],
+            "_meanings": [
+                "Interest (whatever is given for the use of money); <ls>Ms. 8. 153</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 101539,
+            "_ancestry": [
+                "L_ 12025",
+                "B_ {#kAyaka#} ",
+                "S_ .{@{#-vfdDiH#}@}"
+            ],
+            "_banner": ".{@{#-vfdDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAyakavfdDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 interest consisting in the use of any animal or capital stock pawned.\n",
+                ".²2 interest of which the payment does not affect the principal, or the\n use of the body of an animal pledged by the person to whom it is pledged."
+            ]
+        }
     ]
 }

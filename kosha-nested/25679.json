@@ -1,22 +1,42 @@
 {
-    "__line": 217281,
+    "__line": 232857,
     "_ancestry": [
         "L_ 25679",
-        "B_ {#vikrayikaH, vikrayin#}"
+        "B_ {#manana#}"
     ],
-    "_banner": "{#vikrayikaH, vikrayin#}",
+    "_banner": "{#manana#}",
     "_bannerExp": [
         {
-            "Right": "vikrayikaH"
-        },
-        {
-            "Right": "vikrayin"
+            "Right": "manana"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "[{#man-lyu lyuw vA#}]"
     ],
     "_meanings": [
-        "A dealer,\nseller, vendor."
+        "Thoughtful, careful.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 232858,
+            "_ancestry": [
+                "L_ 25679",
+                "B_ {#manana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mananam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Thinking, reflection, meditation, cogitation; {#yuktyA saMBAvitatvAnusaMDAnaM#}\n {#mananaM tu tat#} <ls>Pañchadaśī 1. 53</ls>; {#mananAnmunirevAsi#} <ls>Hariv.</ls>\n",
+                ".²2 Intelligence, understanding.\n",
+                ".²3 An inference arrived at by reasoning.\n",
+                ".²4 A guess, conjecture."
+            ]
+        }
     ]
 }

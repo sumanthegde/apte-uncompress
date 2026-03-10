@@ -1,19 +1,45 @@
 {
-    "__line": 213035,
+    "__line": 226129,
     "_ancestry": [
         "L_ 25135",
-        "B_ {#vartas#}"
+        "B_ {#BAsaka#}"
     ],
-    "_banner": "{#vartas#}",
+    "_banner": "{#BAsaka#}",
     "_bannerExp": [
         {
-            "Right": "vartas"
+            "Right": "BAsaka"
+        },
+        {
+            "Right": "BAsikA"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%a.%}",
+        "({#-sikA#}|{%f.%})",
+        "[{#BAs-Rvul#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> The eyelashes."
+        ".²1 Enlightening, brightening, illuminating.\n",
+        ".²2 Showing, making evident.\n",
+        ".²3 Making intelligible.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 226134,
+            "_ancestry": [
+                "L_ 25135",
+                "B_ {#BAsaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAsakaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a poet."
+            ]
+        }
     ]
 }

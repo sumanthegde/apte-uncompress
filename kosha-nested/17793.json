@@ -1,39 +1,82 @@
 {
-    "__line": 150518,
+    "__line": 157068,
     "_ancestry": [
         "L_ 17793",
-        "B_ {#parAka#}"
+        "B_ {#dvAr#}"
     ],
-    "_banner": "{#parAka#}",
+    "_banner": "{#dvAr#}",
     "_bannerExp": [
         {
-            "Right": "parAka"
+            "Right": "dvAr"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "Small. "
+        ".²1 A door, gate; {#vidaSya nimbapatrARi niyatA dvAri veSmanaH#} <ls>Y. 3. 12</ls>; <ls>Ms. 3. 88</ls>.\n",
+        ".²2 Access, way.\n",
+        ".²3 A means, an expedient. ({#dvArA#} ‘by means of’, ‘through’).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 150518,
+            "__line": 157073,
             "_ancestry": [
                 "L_ 17793",
-                "B_ {#parAka#}",
-                "M_ {#--kaH#}"
+                "B_ {#dvAr#}",
+                "S_ .{@{#-ga#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-ga#}@}",
             "_bannerExp": [
                 {
-                    "Right": "parAkaH"
+                    "Right": "dvArga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "coming to the door; {#vilokyAjaM dvArgaM kapawalaDukAyaM#}\n {#suraripuH#} <ls>Viṣṇumahimna 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 157075,
+            "_ancestry": [
+                "L_ 17793",
+                "B_ {#dvAr#}",
+                "S_ .{@{#-bAhuH#}@}"
+            ],
+            "_banner": ".{@{#-bAhuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvArbAhuH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A \nsacrificial sword. ",
-                "{@--2@} A kind of penance;\n{#dvAdaSAhopavAsena parAkaH parikIrtitaH#};  \n<ls>U. 4.</ls> ",
-                "{@--3@} A kind of disease."
+                "a door-post.\n"
+            ]
+        },
+        {
+            "__line": 157076,
+            "_ancestry": [
+                "L_ 17793",
+                "B_ {#dvAr#}",
+                "S_ .{@{#-sTaH, -sTitaH#}@}"
+            ],
+            "_banner": ".{@{#-sTaH, -sTitaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvAHsTaH"
+                },
+                {
+                    "Right": "dvAHsTitaH"
+                }
+            ],
+            "_gram": [
+                "({#dvAHsTaH, dvAsTaH, dvAHsTitaH, dvAsTitaH#})"
+            ],
+            "_meanings": [
+                "a door-keeper, porter."
             ]
         }
     ]

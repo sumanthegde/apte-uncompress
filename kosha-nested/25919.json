@@ -1,35 +1,54 @@
 {
-    "__line": 218908,
+    "__line": 235485,
     "_ancestry": [
         "L_ 25919",
-        "B_ {#viTuraH#}"
+        "B_ {#mastam#}"
     ],
-    "_banner": "{#viTuraH#}",
+    "_banner": "{#mastam#}",
     "_bannerExp": [
         {
-            "Right": "viTuraH"
+            "Right": "mastam"
         }
     ],
     "_meanings": [
-        "{@--1@} A demon. ",
-        "{@--2@} A thief.\n"
+        "The head; {#maste duHsahavedanAkavalite#} <ls>Viś. Guṇā. 539</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 218909,
+            "__line": 235487,
             "_ancestry": [
                 "L_ 25919",
-                "B_ {#viTuraH#}",
-                "M_ {#--rA#}"
+                "B_ {#mastam#}",
+                "S_ .{@{#-dAruH#}@}"
             ],
-            "_banner": "{#--rA#}",
+            "_banner": ".{@{#-dAruH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "viTurA"
+                    "Right": "mastadAruH"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the {%devadāru%} tree.\n"
+            ]
+        },
+        {
+            "__line": 235488,
+            "_ancestry": [
+                "L_ 25919",
+                "B_ {#mastam#}",
+                "S_ .{@{#-mUlakam#}@}"
+            ],
+            "_banner": ".{@{#-mUlakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mastamUlakam"
                 }
             ],
             "_meanings": [
-                "A widow; <ab>cf.</ab> {#viDurA#}."
+                "the neck."
             ]
         }
     ]

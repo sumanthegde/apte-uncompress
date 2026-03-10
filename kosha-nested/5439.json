@@ -1,43 +1,79 @@
 {
-    "__line": 48205,
+    "__line": 45639,
     "_ancestry": [
         "L_ 5439",
-        "B_ {#asattva#}"
+        "B_ {#avAntara#}"
     ],
-    "_banner": "{#asattva#}",
+    "_banner": "{#avAntara#}",
     "_bannerExp": [
         {
-            "Right": "asattva"
+            "Right": "avAntara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#avagatamantaraM maDyaM#} <sab>{#prA˚ sa˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Without energy or\nstrength. ",
-        "{@--2@} Having no animal.\n",
-        "{@--3@} Having no goodness. "
+        ".²1 Situated or standing between; see compounds.\n",
+        ".²2 Included, involved.\n",
+        ".²3 Subordinate, secondary.\n",
+        ".²4 not closely connected, extraneous, extra.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 48207,
+            "__line": 45645,
             "_ancestry": [
                 "L_ 5439",
-                "B_ {#asattva#}",
-                "M_ {#--ttvaM#}"
+                "B_ {#avAntara#}",
+                "S_ .{@{#-diS, -diSA#}@}"
             ],
-            "_banner": "{#--ttvaM#}",
+            "_banner": ".{@{#-diS, -diSA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "asattvaM"
+                    "Right": "avAntaradiS"
+                },
+                {
+                    "Right": "avAntaradiSA"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nNon-existence. ",
-                "{@--2@} Unreality, \nuntruth. ",
-                "{@--3@} Wickedness, badness. ",
-                "{@--4@}\nDuet. ",
-                "{@--5@} Darkness."
+                "an intermediate quarter (such as the {#AgneyI, ESAnI#},\n {#nErftI#} and {#vAyavI#}). {#diSo'vAntaradiSaH#} <ls>T. Up. 1. 7. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 45647,
+            "_ancestry": [
+                "L_ 5439",
+                "B_ {#avAntara#}",
+                "S_ .{@{#-deSaH#}@}"
+            ],
+            "_banner": ".{@{#-deSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avAntaradeSaH"
+                }
+            ],
+            "_meanings": [
+                "a place situated between (two others), an intermediate region.\n"
+            ]
+        },
+        {
+            "__line": 45648,
+            "_ancestry": [
+                "L_ 5439",
+                "B_ {#avAntara#}",
+                "S_ .{@{#-vAkyam#}@}"
+            ],
+            "_banner": ".{@{#-vAkyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avAntaravAkyam"
+                }
+            ],
+            "_meanings": [
+                ".³({%a%}) A sentence formed by dropping some word or words in the whole\n sentence; {#na ca mahAvAkye sati avAntaravAkyaM pramARaM Bavati#} <ls>ŚB. on MS. 6. 4. 25</ls>.\n",
+                ".³({%b%}) A group of words which appear to form a complete sentence, but\n form only a part of a complete sentence ({%<ab>i. e.</ab>%} a {#mahAvAkya#})."
             ]
         }
     ]

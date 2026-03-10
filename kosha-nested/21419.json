@@ -1,21 +1,55 @@
 {
-    "__line": 176993,
+    "__line": 191715,
     "_ancestry": [
         "L_ 21419",
-        "B_ {#plI#}"
+        "B_ {#pipIlikA#}"
     ],
-    "_banner": "{#plI#}",
+    "_banner": "{#pipIlikA#}",
     "_bannerExp": [
         {
-            "Right": "plI"
+            "Right": "pipIlikA"
         }
     ],
-    "_gram": [
-        "{c9c}",
-        "<ab>P.</ab>",
-        "({#plInAti#})"
-    ],
     "_meanings": [
-        "To go, move."
+        "A female ant; {#maRimayamandiramaDye paSyati pipIlikA Cidram#}.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 191717,
+            "_ancestry": [
+                "L_ 21419",
+                "B_ {#pipIlikA#}",
+                "S_ .{@{#-parisarpaRam#}@}"
+            ],
+            "_banner": ".{@{#-parisarpaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pipIlikAparisarpaRam"
+                }
+            ],
+            "_meanings": [
+                "the running about of ants.\n"
+            ]
+        },
+        {
+            "__line": 191718,
+            "_ancestry": [
+                "L_ 21419",
+                "B_ {#pipIlikA#}",
+                "S_ .{@{#-maDya#}@}"
+            ],
+            "_banner": ".{@{#-maDya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pipIlikAmaDya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a kind of fast; <ab>cf.</ab> <ls>Kull.</ls> on <ls>Ms. 11. 216</ls>."
+            ]
+        }
     ]
 }

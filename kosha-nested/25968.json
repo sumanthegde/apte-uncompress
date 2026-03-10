@@ -1,17 +1,68 @@
 {
-    "__line": 219361,
+    "__line": 237067,
     "_ancestry": [
         "L_ 25968",
-        "B_ {#vidrAvaRaM#}"
+        "B_ {#mA#}"
     ],
-    "_banner": "{#vidrAvaRaM#}",
+    "_banner": "{#mA#}",
     "_bannerExp": [
         {
-            "Right": "vidrAvaRaM"
+            "Right": "mA"
         }
     ],
     "_meanings": [
-        "{@--1@} Driving or scaring away,\nputting to flight, defeating. ",
-        "{@--2@} \nLiquefying."
+        "^3¦ €2 <ab>P.</ab>, €3. €4 <ab>Ā.</ab> ({#mAti, mimIte#} or {#mIyate, mita#})\n",
+        ".²1 To measure; {#nyaDita mimAna ivAvaniM padAni#} <ls>Śi. 7. 13</ls>, <ls n=\"Śi.\">9. 2</ls>.\n",
+        ".²2 To measure or mark off, limit; see {#mita#}.\n",
+        ".²3 To compare with (in size), measure by any standard; {#puraH saKInAmamimIta#}\n {#locane#} <ls>Ku. 5. 15</ls>.\n",
+        ".²4 To be in, find room or space in, be contained or comprised in; {#tanO#}\n {#mamustatra na kEwaBadvizastapoDanAByAgamasaMBavA mudaH#} <ls>Śi. 1. 23</ls>; {#vfdDiM#}\n {#gate'pyAtmani nEva mAntIH#} <ls n=\"Śi.\">3. 73</ls>, <ls n=\"Śi.\">10. 50</ls>, <ls n=\"Śi.\">14. 75</ls>, <ls n=\"Śi.\">13. 2</ls>, <ls n=\"Śi.\">5. 44</ls>; {#mAti#}\n {#mAtumaSakyo'pi yaSorASiryadatra te#} <ls>K. P. 10</ls>.\n",
+        ".²5 To prepare, arrange.\n",
+        ".²6 To infer, conclude.\n",
+        ".²7 To form, make, build, construct.\n",
+        ".²8 To assign, mete out, apportion.\n",
+        ".²9 To show, display.\n",
+        ".²10 To roar, sound. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 237081,
+            "_ancestry": [
+                "L_ 25968",
+                "B_ {#mA#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "mA"
+                }
+            ],
+            "_gram": [
+                "({#mApayati-te#})"
+            ],
+            "_meanings": [
+                "To cause to be measured,\n measure or mete out; {#etena mApayati Bittizu karmamArgam#} <ls>Mk. 3. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 237083,
+            "_ancestry": [
+                "L_ 25968",
+                "B_ {#mA#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "mA"
+                }
+            ],
+            "_gram": [
+                "({#mitsati-te#})"
+            ],
+            "_meanings": [
+                "To wish to measure <ab>&c.</ab>"
+            ]
+        }
     ]
 }

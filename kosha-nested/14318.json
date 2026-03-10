@@ -1,39 +1,83 @@
 {
-    "__line": 119184,
+    "__line": 123445,
     "_ancestry": [
         "L_ 14318",
-        "B_ {#taqitvat#}"
+        "B_ {#gOravam#}"
     ],
-    "_banner": "{#taqitvat#}",
+    "_banner": "{#gOravam#}",
     "_bannerExp": [
         {
-            "Right": "taqitvat"
+            "Right": "gOravam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#gurorBAvaH karma˚ vA aR#}]"
     ],
     "_meanings": [
-        "Containing or having\nlightning; {#avarohati SElAgraM#} \n{#taqitvAniva toyadaH#} <ls>V. 1. 14</ls>; <ls>Ki. 5. 4.</ls> "
+        "Belonging to a Guru\n or teacher; {#gOravaM kulam#} <ls>Bhāg. 1. 7. 46</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 119186,
+            "__line": 123447,
             "_ancestry": [
                 "L_ 14318",
-                "B_ {#taqitvat#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#gOravam#}",
+                "M_ .{@{#-vam#}@}"
             ],
+            "_banner": ".{@{#-vam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "taqitvat"
+                    "Right": "gOravam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Weight, heaviness (<ab>lit.</ab>); {#jaGana˚#} <ls>Ś. 3. 7</ls>; {#surendramAtrASritagarBagOravAt#} <ls>R. 3. 11</ls>.\n",
+                ".²2 Importance, high value or estimation; {#svavikrame gOravamAdaDAnam#}\n <ls>R. 14. 18</ls>, <ls n=\"R.\">18. 39</ls>; {#kAryagOraveRa#} <ls>Mu. 5</ls>; importance or urgent nature; <ls>U. 6. 7</ls>.\n",
+                ".²3 Respect, regard, consideration; {#pitfgOravAt#} <ls>Rām. 7. 9. 14</ls>; {#taTApi#}\n {#yanmayyapi te gururityasti gOravam#} <ls>Śi. 2. 71</ls>; {#prayojanApekzitayA#}\n {#praBURAM prAyaScalaM gOravamASritezu#} <ls>Ku. 3. 1</ls>; <ls>Amaru. 23</ls>.\n",
+                ".²4 Respectability, dignity, venerableness; {#ko'rTI gato gOravam#} <ls>Pt. 1. 146</ls>;\n <ls>Ms. 2. 145</ls>.\n",
+                ".²5 Cumbrousness.\n",
+                ".²6 (In prosody) Length (as of a syllable).\n",
+                ".²7 Depth (as of meaning); {#yaccArTato gOravam#} <ls>Māl. 1. 7</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 123460,
+            "_ancestry": [
+                "L_ 14318",
+                "B_ {#gOravam#}",
+                "S_ .{@{#-Asanam#}@}"
+            ],
+            "_banner": ".{@{#-Asanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gOravAsanam"
+                }
+            ],
+            "_meanings": [
+                "a seat of honour.\n"
+            ]
+        },
+        {
+            "__line": 123461,
+            "_ancestry": [
+                "L_ 14318",
+                "B_ {#gOravam#}",
+                "S_ .{@{#-Irita#}@}"
+            ],
+            "_banner": ".{@{#-Irita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gOraverita"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "A cloud; <ls>Śi. 1. 12.</ls>"
+                "praised, famed, celebrated."
             ]
         }
     ]

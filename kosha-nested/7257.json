@@ -1,20 +1,82 @@
 {
-    "__line": 62546,
+    "__line": 60847,
     "_ancestry": [
         "L_ 7257",
-        "B_ {#Aheya#}"
+        "B_ {#Amantrita#}"
     ],
-    "_banner": "{#Aheya#}",
+    "_banner": "{#Amantrita#}",
     "_bannerExp": [
         {
-            "Right": "Aheya"
+            "Right": "Amantrita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#aheridaM Qak#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Pertaining to a serpent; <ls>Pt. 1. 111.</ls>"
+        ".²1 Invited, called.\n",
+        ".²2 Appointed to do a thing which is not obligatory. {#AmantraRaM kAmacArAnujYA#} <ls>Sk.</ls>\n",
+        ".²3 Consecrated with a {#mantra#}; {#SaraRAmAmantritAnAm#} <ls>Mb. 3. 20. 26</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 60852,
+            "_ancestry": [
+                "L_ 7257",
+                "B_ {#Amantrita#}",
+                "S_ .{@{#-viBakti#}@}"
+            ],
+            "_banner": ".{@{#-viBakti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AmantritaviBakti"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Vocative case; {#tatra AmantritaviBaktivacanaM#}\n {#stutaye .#} <ls>ŚB. on MS. 9. 1. 9</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 60853,
+                    "_ancestry": [
+                        "L_ 7257",
+                        "B_ {#Amantrita#}",
+                        "S_ .{@{#-viBakti#}@}",
+                        "S_S_ {#˚vacanam#}"
+                    ],
+                    "_banner": "{#˚vacanam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "AmantritaviBaktivacanam"
+                        }
+                    ],
+                    "_meanings": [
+                        "The employment of an expression\n in the vocative case; {#tatra AmantritaviBaktivacanaM stutaye .#} <ls>ŚB. on MS. 9. 1. 9</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 60855,
+            "_ancestry": [
+                "L_ 7257",
+                "B_ {#Amantrita#}",
+                "S_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Amantritatam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Addressing.\n",
+                ".²2 Talk, conversation; <ls>V. 2</ls>.\n",
+                ".²3 The vocative case; {#saMboDane yA praTamA sAmantritasaMjYA syAt#} <ls>Sk.</ls>"
+            ]
+        }
     ]
 }

@@ -1,49 +1,57 @@
 {
-    "__line": 170074,
+    "__line": 183728,
     "_ancestry": [
         "L_ 20461",
-        "B_ {#prabuD#}"
+        "B_ {#pari(rI)vAdaH#}"
     ],
-    "_banner": "{#prabuD#}",
+    "_banner": "{#pari(rI)vAdaH#}",
     "_bannerExp": [
         {
-            "Right": "prabuD"
+            "Right": "parivAdaH"
+        },
+        {
+            "Right": "parIvAdaH"
         }
     ],
-    "_gram": [
-        "{c4c}",
-        "<ab>A.</ab>",
-        "{c1c}",
-        "<ab>P.</ab>"
-    ],
     "_meanings": [
-        "{@--1@} To awake,\nwake up, rise from sleep; {#prabudDa iva#}\n{#suptaM#} <ls>Ś. 5. 11</ls>; <ls>Śi. 9. 30.</ls> ",
-        "{@--2@} To blow,\nexpand, bloom, be blown; {#sABre'hnIva#}\n{#sTalakamalinIM na prabudDAM na suptAM#} <ls>Me. 90.</ls>\n",
-        "{@--3@} To perceive, observe, be aware\nof. "
+        ".²1 Blame, censure, detraction, abuse; {#ayameva mayi praTamaM parivAdarataH#}\n <ls>M. 1</ls>; <ls>Y. 1. 133</ls>.\n",
+        ".²2 Scandal, stain, stigma; ill-repute; {#mA BUt parIvAdanavAvatAraH#}\n <ls>R. 5. 24</ls>, <ls n=\"R.\">14. 86</ls>; <ls>Mv. 5. 28</ls>.\n",
+        ".²3 Charge, accusation; {#parivAdabahaladozAnna yasya rakzAM pariharAmi#} <ls>Mk. 3. 30</ls>.\n",
+        ".²4 An instrument with which the lute is played; {#taM prAgasAvavinayaM#}\n {#parivAdametya loke'DunApi viditA parivAdinIti#} <ls>N. 11. 127</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 170080,
+            "__line": 183737,
             "_ancestry": [
                 "L_ 20461",
-                "B_ {#prabuD#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#pari(rI)vAdaH#}",
+                "S_ .{@{#-kaTA#}@}"
             ],
+            "_banner": ".{@{#-kaTA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "prabuD"
+                    "Right": "parivAdakaTA"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "abusive language, reproof.\n"
+            ]
+        },
+        {
+            "__line": 183738,
+            "_ancestry": [
+                "L_ 20461",
+                "B_ {#pari(rI)vAdaH#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parivAdakaraH"
+                }
             ],
             "_meanings": [
-                "{@--1@} To awaken, waken,\nrouse; {#prAboDayannuzasi vAgBirudAravAcaH#}\n<ls>R. 5. 65</ls>; <ls n=\"R.\">6. 56.</ls> ",
-                "{@--2@} To acquaint with,\ninform, make known; {#tamaByanaMdatpraTamaM#}\n{#praboDitaH#} <ls>R. 3. 68.</ls> ",
-                "{@--3@} To cause to\nexpand or open; ({#padmAni#}) \n{#praboDayatyUrDvamuKErmayUKEH#} <ls>Ku. 1. 16.</ls> ",
-                "{@--4@} To instruct,\nteach; explain. ",
-                "{@--5@} To persuade,\ninduce. ",
-                "{@--6@} To stimulate, excite."
+                "a slanderer."
             ]
         }
     ]

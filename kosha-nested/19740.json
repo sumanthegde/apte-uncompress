@@ -1,23 +1,141 @@
 {
-    "__line": 165022,
+    "__line": 177188,
     "_ancestry": [
         "L_ 19740",
-        "B_ {#praRata#}"
+        "B_ {#paYcama#}"
     ],
-    "_banner": "{#praRata#}",
+    "_banner": "{#paYcama#}",
     "_bannerExp": [
         {
-            "Right": "praRata"
+            "Right": "paYcama"
+        },
+        {
+            "Right": "paYcamI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-mI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Bending, inclined,\nstooping. ",
-        "{@--2@} Bowing to, saluting.\n",
-        "{@--3@} Humble. ",
-        "{@--4@} Skilful, clever. ",
-        "{@--5@}\nCrooked."
+        ".²1 The fifth.\n",
+        ".²2 Forming a fifth part.\n",
+        ".²3 Dexterous, clever.\n",
+        ".²4 Beautiful, brilliant.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 177193,
+            "_ancestry": [
+                "L_ 19740",
+                "B_ {#paYcama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcamaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The fifth (or in later times the seventh) note of the Indian gamut;\n it is said to be produced by the cuckoo ({#kokilo rOti paYcamam#} <ls>Nārada.</ls>),\n and is so called because it is produced from 5 parts of the body:-- {#vAyuH#}\n {#samudgato naBirurohftkaRWamUrDasu . vicaran paYcamasTAnaprAptyA paYcama ucyate ..#}.\n",
+                ".²2 <ab>N.</ab> of a Rāga or musical mode (sung in the above note); {#vyaTayati#}\n {#vfTA mOnaM tanvi prapaYcaya paYcamam#} <ls>Gīt. 10</ls>; so {#udaYcitapaYcamarAgam#} <ls>Gīt. 1</ls>.\n",
+                ".²3 The fifth consonant of a class; {%<ab>i. e.</ab>%} a nasal.\n"
+            ]
+        },
+        {
+            "__line": 177201,
+            "_ancestry": [
+                "L_ 19740",
+                "B_ {#paYcama#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcamam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A fifth.\n",
+                ".²2 Sexual intercourse ({#mETuna#}), the fifth {#makAra#} of the Tāntrikas.\n"
+            ]
+        },
+        {
+            "__line": 177204,
+            "_ancestry": [
+                "L_ 19740",
+                "B_ {#paYcama#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcamam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "For the fifth time, fifthly; <ls>Ms. 8. 125</ls>.\n"
+            ]
+        },
+        {
+            "__line": 177205,
+            "_ancestry": [
+                "L_ 19740",
+                "B_ {#paYcama#}",
+                "M_ .{@{#-mI#}@}"
+            ],
+            "_banner": ".{@{#-mI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcamI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The fifth day of a lunar fortnight.\n",
+                ".²2 The ablative case (in <ab>gram.</ab>).\n",
+                ".²3 An epithet of Draupadī.\n",
+                ".²4 A chequered board for playing at draughts.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 177211,
+            "_ancestry": [
+                "L_ 19740",
+                "B_ {#paYcama#}",
+                "S_ .{@{#-AsyaH#}@}"
+            ],
+            "_banner": ".{@{#-AsyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcamAsyaH"
+                }
+            ],
+            "_meanings": [
+                "the cuckoo.\n"
+            ]
+        },
+        {
+            "__line": 177212,
+            "_ancestry": [
+                "L_ 19740",
+                "B_ {#paYcama#}",
+                "S_ .{@{#-svaram#}@}"
+            ],
+            "_banner": ".{@{#-svaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcamasvaram"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre; <ls>P. R.</ls>"
+            ]
+        }
     ]
 }

@@ -1,48 +1,87 @@
 {
-    "__line": 154616,
+    "__line": 164403,
     "_ancestry": [
         "L_ 18438",
-        "B_ {#paryApta#}"
+        "B_ {#nAgaraka, nAgarika#}"
     ],
-    "_banner": "{#paryApta#}",
+    "_banner": "{#nAgaraka, nAgarika#}",
     "_bannerExp": [
         {
-            "Right": "paryApta"
+            "Right": "nAgaraka"
+        },
+        {
+            "Right": "nAgarika"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#nagare BavaH vuY#}]"
     ],
     "_meanings": [
-        "{@--1@} Obtained, got \ngained; <ls>U. 5. 34.</ls> ",
-        "{@--2@} Finished, \ncompleted. ",
-        "{@--3@} Full, whole, entire, complete,\nall; {#paryAptacaMdreva SarittrayAmA#}  \n<ls>Ku. 7. 26</ls>; <ls>R. 6. 44.</ls> ",
-        "{@--4@} Able, \ncompetent, adequate; <ls>R. 10. 25.</ls> ",
-        "{@--5@}\nEnough, sufficient; <ls>R. 15. 11</ls>,  \n<ls n=\"R.\">17. 17</ls>; <ls>Ms. 11. 7.</ls> ",
-        "{@--6@} Large, extensive,\nspacious. ",
-        "{@--7@} Abundant, copious,\nmany; <ls>Ku. 3. 39.</ls> "
+        ".²1 Town-bred, town-born.\n",
+        ".²2 Polite, courteous, courtly; {#nAgarikavfttyA saMjYApayEnAm#} <ls>Ś. 5</ls>;\n {#sADu Arya nAgariko'si#} <ls>V. 2</ls>.\n",
+        ".²3 Clever,\n\n shrewd, cunning ({#vidagDa#}).\n"
     ],
     "_morphisms": [
         {
-            "__line": 154625,
+            "__line": 164410,
             "_ancestry": [
                 "L_ 18438",
-                "B_ {#paryApta#}",
-                "M_ {#--ptaM#}"
+                "B_ {#nAgaraka, nAgarika#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--ptaM#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "paryAptaM"
+                    "Right": "nAgarakaH"
                 }
             ],
-            "_gram": [
-                "{%<ab>ind.</ab>%}"
+            "_meanings": [
+                ".²1 A citizen.\n",
+                ".²2 A polite or courteous man, a gallant, one who shows exaggerated attention\n to his first mistress while he is courting some one else.\n",
+                ".²3 One who has contracted the vices of a town.\n",
+                ".²4 A thief.\n",
+                ".²5 An artist.\n",
+                ".²6 The chief of the police; <ls>V. 5</ls>; <ls>Ś. 6</ls>.\n",
+                ".²7 A city-superintendent; <ab>cf.</ab> {#nAgarikapraRiDiH#} <ls>Kau. A.</ls>\n",
+                ".²8 A kind of coitus; {#UrumUlopari sTitvA yozidUrudvayaM ramet . grIvAM#}\n {#DftvA karAByAM ca banDo nAgarako mataH ..#} <ls>Ratimañjarī.</ls>\n",
+                ".²9 (<ab>pl.</ab>) planets opposite to each other.\n"
+            ]
+        },
+        {
+            "__line": 164422,
+            "_ancestry": [
+                "L_ 18438",
+                "B_ {#nAgaraka, nAgarika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAgarakam"
+                }
             ],
             "_meanings": [
-                "{@--1@} \nWillingly, readily. ",
-                "{@--2@} To one's \nsatisfaction. enough, sufficiently;  \n{#paryAptamAcAmati#} <ls>U. 4. 1</ls> ‘drinks his fill.’ ",
-                "{@--3@}\nFully, adequately, ably, \ncompetently."
+                ".²1 Dry ginger.\n.({@{#-rikam#}@}) The toll levied from a town.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 164425,
+            "_ancestry": [
+                "L_ 18438",
+                "B_ {#nAgaraka, nAgarika#}",
+                "S_ .{@{#-vfttiH#}@}"
+            ],
+            "_banner": ".{@{#-vfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAgarakavfttiH"
+                }
+            ],
+            "_meanings": [
+                "a courtly manner or style; {#nAgarikavfttyA saMjYApayEnAm#} <ls>Ś. 5. 1/2</ls>."
             ]
         }
     ]

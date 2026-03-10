@@ -1,20 +1,40 @@
 {
-    "__line": 143471,
+    "__line": 148580,
     "_ancestry": [
         "L_ 17055",
-        "B_ {#nirvartin#}"
+        "B_ {#damBin#}"
     ],
-    "_banner": "{#nirvartin#}",
+    "_banner": "{#damBin#}",
     "_bannerExp": [
         {
-            "Right": "nirvartin"
+            "Right": "damBin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#damB-Rini#}]"
     ],
     "_meanings": [
-        "{@--1@} Completing, \naccomplishing &c. ",
-        "{@--2@} Acting rudely, \nuncivil, impolitic."
+        ".²1 Wicked, proud.\n",
+        ".²2 Hypocritical. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 148582,
+            "_ancestry": [
+                "L_ 17055",
+                "B_ {#damBin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#daMBin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A hypocrite, an impostor; {#damBihEtukapAKaRqivakavfttIMSca#}\n {#varjayet#} <ls>Y. 1. 130</ls>; <ls>Bg. 13. 7</ls>."
+            ]
+        }
     ]
 }

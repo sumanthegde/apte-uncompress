@@ -1,19 +1,63 @@
 {
-    "__line": 3021,
+    "__line": 1971,
     "_ancestry": [
         "L_ 212",
-        "B_ {#agohya#}"
+        "B_ {#agada#}"
     ],
-    "_banner": "{#agohya#}",
+    "_banner": "{#agada#}",
     "_bannerExp": [
         {
-            "Right": "agohya"
+            "Right": "agada"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#nAsti gado rogo yasya#}]"
     ],
     "_meanings": [
-        "Not to be concealed or\ncovered, bright."
+        ".²1 Healthy, sound, free from disease, in good health {#naro'gadaH#} <ls>Ms. 8. 107</ls>.\n",
+        ".²2 ({#gad BAzaRe--ac#}, <sab>{#na˚ ta˚#}</sab>) Not speaking or telling.\n",
+        ".²3 Free from judicial affliction.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 1975,
+            "_ancestry": [
+                "L_ 212",
+                "B_ {#agada#}",
+                "M_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agadaH"
+                }
+            ],
+            "_gram": [
+                "[{#nAsti gado rogo yasmAt#}]"
+            ],
+            "_meanings": [
+                ".²1 A medicine, a medicinal drug; {#iti cintAvizaGno'yamagadaH kiM na pIyate#}\n <ls>H. Pr. 29</ls>; {#vizaGnEragadEScAsya sarvadravyARi yojayet#} <ls>Ms. 7. 218</ls>.\n",
+                ".²2 Health, freedom from disease; {#OzaDAnyagado vidyA devI ca viviDA sTitiH .#}\n {#tapasEva prasiDyanti tapastezAM hi sADanam ..#} <ls>Ms. 11. 237</ls>. ({#agadaH#}\n {#gadABAvaH nErujyamiti yAvat#} <ls>Kull.</ls>)\n",
+                ".²3 The science of antidotes; one of the 8 parts of medical science.\n"
+            ]
+        },
+        {
+            "__line": 1982,
+            "_ancestry": [
+                "L_ 212",
+                "B_ {#agada#}",
+                "M_ .{@{#-rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: agada rAjaH"
+                }
+            ],
+            "_meanings": [
+                "good medicine; {#SreyastanotyagadarAja ivopayuktaH#} <ls>Bhāg. 10. 47. 59</ls>."
+            ]
+        }
     ]
 }

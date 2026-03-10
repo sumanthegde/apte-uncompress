@@ -1,20 +1,58 @@
 {
-    "__line": 29139,
+    "__line": 26350,
     "_ancestry": [
         "L_ 3036",
-        "B_ {#aBigur#}"
+        "B_ {#apfTak#}"
     ],
-    "_banner": "{#aBigur#}",
+    "_banner": "{#apfTak#}",
     "_bannerExp": [
         {
-            "Right": "aBigur"
+            "Right": "apfTak"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>U.</ab>"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "To assent or agree\nto, approve of (<ab>Ved.</ab>)"
+        "Not separately, together with, collectively.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 26352,
+            "_ancestry": [
+                "L_ 3036",
+                "B_ {#apfTak#}",
+                "S_ .{@{#-DarmaSIla#}@}"
+            ],
+            "_banner": ".{@{#-DarmaSIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apfTagDarmaSIla"
+                }
+            ],
+            "_meanings": [
+                "of the same religion.\n"
+            ]
+        },
+        {
+            "__line": 26353,
+            "_ancestry": [
+                "L_ 3036",
+                "B_ {#apfTak#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apfTagDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "maintaining the doctrine of pantheism; regarding God in all things."
+            ]
+        }
     ]
 }

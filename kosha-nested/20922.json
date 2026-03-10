@@ -1,38 +1,77 @@
 {
-    "__line": 173403,
+    "__line": 187383,
     "_ancestry": [
         "L_ 20922",
-        "B_ {#prasfzwa#}"
+        "B_ {#pAcaka#}"
     ],
-    "_banner": "{#prasfzwa#}",
+    "_banner": "{#pAcaka#}",
     "_bannerExp": [
         {
-            "Right": "prasfzwa"
+            "Right": "pAcaka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#pac-Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Laid aside, \ndismissed. ",
-        "{@--2@} Hurt, injured. "
+        ".²1 Cooking, baking.\n",
+        ".²2 Maturing, bringing to maturity.\n",
+        ".²3 Digestive, tonic.\n"
     ],
     "_morphisms": [
         {
-            "__line": 173404,
+            "__line": 187387,
             "_ancestry": [
                 "L_ 20922",
-                "B_ {#prasfzwa#}",
-                "M_ {#--zwA#}"
+                "B_ {#pAcaka#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--zwA#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "prasfzwA"
+                    "Right": "pAcakaH"
                 }
             ],
             "_meanings": [
-                "A finger\nstretched forth or extended; ( \n{#aMgulyaH prasftA yAstu tAH prasfzwA udIritAH#})."
+                ".²1 A cook.\n",
+                ".²2 Fire.\n"
+            ]
+        },
+        {
+            "__line": 187390,
+            "_ancestry": [
+                "L_ 20922",
+                "B_ {#pAcaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAcakam"
+                }
+            ],
+            "_meanings": [
+                "Gall, bile.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 187392,
+            "_ancestry": [
+                "L_ 20922",
+                "B_ {#pAcaka#}",
+                "S_ .{@{#-strI#}@}"
+            ],
+            "_banner": ".{@{#-strI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAcakastrI"
+                }
+            ],
+            "_meanings": [
+                "a female cook."
             ]
         }
     ]

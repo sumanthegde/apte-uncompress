@@ -1,38 +1,59 @@
 {
-    "__line": 13823,
+    "__line": 11831,
     "_ancestry": [
         "L_ 1267",
-        "B_ {#anavasita#}"
+        "B_ {#anakzara#}"
     ],
-    "_banner": "{#anavasita#}",
+    "_banner": "{#anakzara#}",
     "_bannerExp": [
         {
-            "Right": "anavasita"
+            "Right": "anakzara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na#}. {#ta#}.]"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "Not \nended or finished; not determined. "
+        ".²1 Unable to speak, mute, dumb, unlettered; {#muKamanakzaraM svAkfteH#} <ls>Bh. 2. 56</ls>.\n",
+        ".²2 Unfit to be uttered.\n"
     ],
     "_morphisms": [
         {
-            "__line": 13824,
+            "__line": 11834,
             "_ancestry": [
                 "L_ 1267",
-                "B_ {#anavasita#}",
-                "M_ {#--tA#}"
+                "B_ {#anakzara#}",
+                "M_ .{@{#-ram#}@}"
             ],
-            "_banner": "{#--tA#}",
+            "_banner": ".{@{#-ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "anavasitA"
+                    "Right": "anakzaram"
+                }
+            ],
+            "_gram": [
+                "[{#apraSastAnyakzarARi yatra#}]"
+            ],
+            "_meanings": [
+                "Abusive language, foul or\n abusive words, censure. --"
+            ]
+        },
+        {
+            "__line": 11835,
+            "_ancestry": [
+                "L_ 1267",
+                "B_ {#anakzara#}",
+                "M_ {%<ab>adv.</ab>%}"
+            ],
+            "_banner": "{%<ab>adv.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "anakzara"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab> of a kind of Triṣṭubh metre,\nconsisting of four lines with 11\nfeet in each."
+                "Without the use of words, not expressed\n by words, mutely, dumbly; {#˚raM papracCa#} <ls>K. 219</ls>, <ls n=\"K.\">143</ls>; {#˚vyaYjitadOrhfdena#} <ls>R. 14. 26</ls>."
             ]
         }
     ]

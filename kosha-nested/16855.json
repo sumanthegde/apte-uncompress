@@ -1,23 +1,42 @@
 {
-    "__line": 141360,
+    "__line": 146663,
     "_ancestry": [
         "L_ 16855",
-        "B_ {#niyojita#}"
+        "B_ {#tritaya#}"
     ],
-    "_banner": "{#niyojita#}",
+    "_banner": "{#tritaya#}",
     "_bannerExp": [
         {
-            "Right": "niyojita"
+            "Right": "tritaya"
+        },
+        {
+            "Right": "tritayI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-yI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Directed, ordered \n\n",
-        "{@--2@} Appointed. ",
-        "{@--3@} Joined to. ",
-        "{@--4@} \nInstigated, incited. ",
-        "{@--5@} Used, \nemployed."
+        "Consisting of three parts, three-fold.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 146665,
+            "_ancestry": [
+                "L_ 16855",
+                "B_ {#tritaya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tritayam"
+                }
+            ],
+            "_meanings": [
+                "A triad, a group of three; {#SradDA vittaM viDiSceti tritayaM#}\n {#tatsamAgatam#} <ls>Ś. 7. 29</ls>; <ls>R. 8. 78</ls>; <ls>Y. 3. 266</ls>."
+            ]
+        }
     ]
 }

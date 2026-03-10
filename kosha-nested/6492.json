@@ -1,16 +1,47 @@
 {
-    "__line": 56640,
+    "__line": 54598,
     "_ancestry": [
         "L_ 6492",
-        "B_ {#ABARakaH#}"
+        "B_ {#AKyA#}"
     ],
-    "_banner": "{#ABARakaH#}",
+    "_banner": "{#AKyA#}",
     "_bannerExp": [
         {
-            "Right": "ABARakaH"
+            "Right": "AKyA"
         }
     ],
+    "_gram": [
+        "€2",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "A popular saying,\nproverb; {#taTA ca lOkikAnAmABARakaH#}\nas the proverb goes."
+        "²1\n",
+        ".³({%a%}) To tell, say, inform, communicate, narrate (usually with <ab>dat.</ab>\n of person); {#imAni SuklAni yajUMzi vAjasaneyena yAjYavalkyenAKyAyante#}\n <ls>Bṛ. Up. 6. 5. 3</ls>. {#te rAmAya vaDopAyamAcaKyurvibuDadvizaH#} <ls>R. 15. 5</ls>, <ls n=\"R. 15.\">41</ls>, <ls n=\"R. 15.\">71</ls>, <ls n=\"R. 15.\">93</ls>, <ls n=\"R.\">12. 42</ls>, <ls n=\"R. 12.\">91</ls>;\n {#AKyAhi me ko BavAnugrarUpo#} <ls>Bg. 11. 31</ls>, <ls n=\"Bg.\">18. 63</ls>;\n <ls>Me. 100</ls>; <ls>Ms. 8. 224</ls>, <ls n=\"Ms.\">9. 73</ls>; <ls>Y. 1. 66</ls>, <ls n=\"Y.\">2. 65</ls>; sometimes with <ab>gen.</ab> of\n person; {#AKyAhi Badre priyadarSanasya#} <ls>Pt. 4. 15</ls>; {#kenAhaM tavAKyAtaH#} <ls>Mb.</ls>\n",
+        ".³({%b%}) To declare, announce, signify; {#DanurBfto'pyasya dayArdraBAvamAKyAtam#} <ls>R. 2. 11</ls>.\n",
+        ".²2 To call, denominate, name; {#suvarRabindurityAKyAyate#} <ls>Māl. 9</ls>; <ls>R. 10. 21</ls>,\n <ls>Ms. 4. 6</ls>.\n",
+        ".²3 To look at, count; to recite (<ab>Ved.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 54609,
+            "_ancestry": [
+                "L_ 6492",
+                "B_ {#AKyA#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "AKyA"
+                }
+            ],
+            "_gram": [
+                "({#KyApayati#})"
+            ],
+            "_meanings": [
+                ".²1 To cause to tell or narrate.\n",
+                ".²2 To declare."
+            ]
+        }
     ]
 }

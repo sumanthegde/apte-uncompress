@@ -1,21 +1,73 @@
 {
-    "__line": 100328,
+    "__line": 101335,
     "_ancestry": [
         "L_ 12003",
-        "B_ {#kzviq#}"
+        "B_ {#kAmin#}"
     ],
-    "_banner": "{#kzviq#}",
+    "_banner": "{#kAmin#}",
     "_bannerExp": [
         {
-            "Right": "kzviq"
+            "Right": "kAmin"
+        },
+        {
+            "Right": "kAminI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#kzveqati-te, kzvewwa#} or  \n{#kzveqita#})"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#kam-Rini#}]"
     ],
     "_meanings": [
-        "To hum, roar, whistle, growl,\nmurmur, sound indistinctly;  \n<ls>Ms. 4. 64.</ls>"
+        ".²1 Lustful.\n",
+        ".²2 Desirous.\n",
+        ".²3 Loving, fond. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 101338,
+            "_ancestry": [
+                "L_ 12003",
+                "B_ {#kAmin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kAmin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A lover, a lustful person (paying particular attention to ladies);\n {#tvayA candramasA cAtisanDIyate kAmijanasArTaH#} <ls>Ś. 3</ls>; {#tvAM kAmino#}\n {#madanadUtimudAharanti#} <ls>V. 4. 11</ls>; <ls>Amaru. 2</ls>; <ls>M. 3. 14</ls>.\n",
+                ".²2 A luxurious husband.\n",
+                ".²3 The ruddy goose or {#cakravAka#} bird.\n",
+                ".²4 A sparrow.\n",
+                ".²5 An epithet of Śiva.\n",
+                ".²6 The moon.\n",
+                ".²7 A pigeon.\n",
+                ".²8 The Supreme Being.\n"
+            ]
+        },
+        {
+            "__line": 101349,
+            "_ancestry": [
+                "L_ 12003",
+                "B_ {#kAmin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAminI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A loving, affectionate, or fond woman; <ls>Ms. 8. 112</ls>.\n",
+                ".²2 A lovely or beautiful woman; {#udayati hi SaSANkaH kAminIgaRqapARquH#}\n <ls>Mk. 1. 57</ls>; {#kezAM nEzA kaTaya kavitAkAminI kOtukAya#} <ls>P. R. 1. 22</ls>.\n",
+                ".²3 A woman (in general); {#mfgayA jahAra catureva kAminI#} <ls>R. 9. 69</ls>; <ls>Me. 65</ls>;\n <ls>Ṛs. 1. 28</ls>.\n",
+                ".²4 A timid woman.\n",
+                ".²5 Spirituous liquor."
+            ]
+        }
     ]
 }

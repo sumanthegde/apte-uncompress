@@ -1,19 +1,43 @@
 {
-    "__line": 258095,
+    "__line": 284862,
     "_ancestry": [
         "L_ 30814",
-        "B_ {#stomya#}"
+        "B_ {#vedin#}"
     ],
-    "_banner": "{#stomya#}",
+    "_banner": "{#vedin#}",
     "_bannerExp": [
         {
-            "Right": "stomya"
+            "Right": "vedin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#vid-Rini#}]"
     ],
     "_meanings": [
-        "Laudable, praiseworthy."
+        ".²1 Knowing; as in {#kftavedin#}.\n",
+        ".²2 Marrying. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 284864,
+            "_ancestry": [
+                "L_ 30814",
+                "B_ {#vedin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vedin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A knower.\n",
+                ".²2 A teacher.\n",
+                ".²3 A learned Brāhmaṇa.\n",
+                ".²4 An epithet of Brahman."
+            ]
+        }
     ]
 }

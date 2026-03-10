@@ -1,24 +1,59 @@
 {
-    "__line": 37499,
+    "__line": 34147,
     "_ancestry": [
         "L_ 4119",
-        "B_ {#arkIya, arkya#}"
+        "B_ {#amaNgala#}, {#-lya#}"
     ],
-    "_banner": "{#arkIya, arkya#}",
+    "_banner": "{#amaNgala#}, {#-lya#}",
     "_bannerExp": [
         {
-            "Right": "arkIya"
+            "Right": "amaNgala"
         },
         {
-            "Right": "arkya"
+            "Right": "amaNgalya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#arka-Ca; arc-Ryat#}\n{#kutvaM#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Belonging to {%arka%}. ",
-        "{@--2@} To be\npraised or worshipped."
+        ".²1 Inauspicious, evil, ill; <ls>R. 12. 43</ls>; {#˚aByAsaratim#} <ls>Ku. 5. 65</ls>; {#amaNgalyaM#}\n {#SIlaM tava Bavatu nAmEkamaKilam#} <ls>Puṣpadanta.</ls>\n",
+        ".²2 Unlucky, unfortunate.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34151,
+            "_ancestry": [
+                "L_ 4119",
+                "B_ {#amaNgala#}, {#-lya#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amaNgalaH"
+                }
+            ],
+            "_meanings": [
+                "The castor-oil tree ({#eraRqa#}).\n"
+            ]
+        },
+        {
+            "__line": 34152,
+            "_ancestry": [
+                "L_ 4119",
+                "B_ {#amaNgala#}, {#-lya#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amaNgalam"
+                }
+            ],
+            "_meanings": [
+                "Inauspiciousness, ill-luck; evil; <ab>oft.</ab> used in dramatic literature;\n {#SAntaM pApaM pratihatamamaNgalam#}; <ab>cf.</ab> God forbid."
+            ]
+        }
     ]
 }

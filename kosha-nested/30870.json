@@ -1,39 +1,78 @@
 {
-    "__line": 258757,
+    "__line": 285299,
     "_ancestry": [
         "L_ 30870",
-        "B_ {#sTAsnu#}"
+        "B_ {#vezwaH#}"
     ],
-    "_banner": "{#sTAsnu#}",
+    "_banner": "{#vezwaH#}",
     "_bannerExp": [
         {
-            "Right": "sTAsnu"
+            "Right": "vezwaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#sTA-snu#}]"
+        "[{#vezw-GaY ac vA#}]"
     ],
     "_meanings": [
-        "{@--1@} Disposed\nto stand, firm, immoveable. ",
-        "{@--2@} \nPermanent, eternal, lasting, durable;\n<ls>Śi. 2. 93</ls>, <ls>Ki. 2. 19</ls>; "
+        ".²1 Surrounding, enclosing.\n",
+        ".²2 An enclosure, a fence.\n",
+        ".²3 A turban.\n",
+        ".²4 Gum, resin, exudation.\n",
+        ".²5 Turpentine.\n",
+        ".²6 A tooth-hole.\n"
     ],
     "_morphisms": [
         {
-            "__line": 258760,
+            "__line": 285306,
             "_ancestry": [
                 "L_ 30870",
-                "B_ {#sTAsnu#}",
-                "M_ {#--snuH#}"
+                "B_ {#vezwaH#}",
+                "M_ .{@{#-zwam#}@}"
             ],
-            "_banner": "{#--snuH#}",
+            "_banner": ".{@{#-zwam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sTAsnuH"
+                    "Right": "vezwam"
                 }
             ],
             "_meanings": [
-                "A tree."
+                "the sky.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 285308,
+            "_ancestry": [
+                "L_ 30870",
+                "B_ {#vezwaH#}",
+                "S_ .{@{#-vaMSaH#}@}"
+            ],
+            "_banner": ".{@{#-vaMSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vezwavaMSaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of bamboo.\n"
+            ]
+        },
+        {
+            "__line": 285309,
+            "_ancestry": [
+                "L_ 30870",
+                "B_ {#vezwaH#}",
+                "S_ .{@{#-sAraH#}@}"
+            ],
+            "_banner": ".{@{#-sAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vezwasAraH"
+                }
+            ],
+            "_meanings": [
+                "turpentine."
             ]
         }
     ]

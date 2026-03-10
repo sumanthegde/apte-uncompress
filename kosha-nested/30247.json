@@ -1,40 +1,189 @@
 {
-    "__line": 252768,
+    "__line": 278957,
     "_ancestry": [
         "L_ 30247",
-        "B_ {#sAsUya#}"
+        "B_ {#viloma#}"
     ],
-    "_banner": "{#sAsUya#}",
+    "_banner": "{#viloma#}",
     "_bannerExp": [
         {
-            "Right": "sAsUya"
+            "Right": "viloma"
+        },
+        {
+            "Right": "vilomI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-mI#}|{%f.%})"
     ],
     "_meanings": [
-        "Envious, jealous, \ndisdainful. "
+        ".²1 Inverted, reverse, inverse, contrary, opposite.\n",
+        ".²2 Produced in the reverse order.\n",
+        ".²3 Backward.\n",
+        ".²4 Hairless.\n",
+        ".²5 Refractory.\n"
     ],
     "_morphisms": [
         {
-            "__line": 252769,
+            "__line": 278963,
             "_ancestry": [
                 "L_ 30247",
-                "B_ {#sAsUya#}",
-                "M_ {#--yaM#}"
+                "B_ {#viloma#}",
+                "M_ .{@{#-maH#}@}"
             ],
-            "_banner": "{#--yaM#}",
+            "_banner": ".{@{#-maH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sAsUyaM"
+                    "Right": "vilomaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Reverse order, inversion.\n",
+                ".²2 A dog.\n",
+                ".²3 A snake.\n",
+                ".²4 <ab>N.</ab> of a Varuṇa.\n"
+            ]
+        },
+        {
+            "__line": 278968,
+            "_ancestry": [
+                "L_ 30247",
+                "B_ {#viloma#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilomam"
+                }
+            ],
+            "_meanings": [
+                "A water-wheel, machine for raising water from a well.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 278970,
+            "_ancestry": [
+                "L_ 30247",
+                "B_ {#viloma#}",
+                "S_ .{@{#-utpanna, -ja, -jAta, -varRa#}@}"
+            ],
+            "_banner": ".{@{#-utpanna, -ja, -jAta, -varRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilomotpanna"
+                },
+                {
+                    "Left": "S error: 1 syl utpanna ja"
+                },
+                {
+                    "Right": "vilomajAta"
+                },
+                {
+                    "Right": "vilomavarRa"
                 }
             ],
             "_gram": [
-                "{%<ab>ind.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "Jealously, \nangrily, disdainfully; <ls>Ś. 2. 2.</ls>"
+                "‘born in the reverse order’;\n {%<ab>i. e.</ab>%} born of a mother whose caste is superior to the fatherʼs; <ab>cf.</ab>\n {#pratilomaja#} also.\n"
+            ]
+        },
+        {
+            "__line": 278973,
+            "_ancestry": [
+                "L_ 30247",
+                "B_ {#viloma#}",
+                "S_ .{@{#-kriyA, -viDiH#}@}"
+            ],
+            "_banner": ".{@{#-kriyA, -viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilomakriyA"
+                },
+                {
+                    "Right": "vilomaviDiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a reverse action.\n",
+                ".²2 a rule of inversion (in <ab>math.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 278976,
+            "_ancestry": [
+                "L_ 30247",
+                "B_ {#viloma#}",
+                "S_ .{@{#-jihvaH, -rasanaH#}@}"
+            ],
+            "_banner": ".{@{#-jihvaH, -rasanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilomajihvaH"
+                },
+                {
+                    "Right": "vilomarasanaH"
+                }
+            ],
+            "_meanings": [
+                "an elephant.\n"
+            ]
+        },
+        {
+            "__line": 278977,
+            "_ancestry": [
+                "L_ 30247",
+                "B_ {#viloma#}",
+                "S_ .{@{#-trErASikam#}@}"
+            ],
+            "_banner": ".{@{#-trErASikam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilomatrErASikam"
+                }
+            ],
+            "_meanings": [
+                "rule of three inverse.\n"
+            ]
+        },
+        {
+            "__line": 278978,
+            "_ancestry": [
+                "L_ 30247",
+                "B_ {#viloma#}",
+                "S_ .{@{#-pAWaH#}@}"
+            ],
+            "_banner": ".{@{#-pAWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilomapAWaH"
+                }
+            ],
+            "_meanings": [
+                "recitation in reverse order.\n"
+            ]
+        },
+        {
+            "__line": 278979,
+            "_ancestry": [
+                "L_ 30247",
+                "B_ {#viloma#}",
+                "S_ .{@{#-viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilomaviDiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 reversed ceremony.\n",
+                ".²2 (<ab>Arith.</ab>) rule of inversion."
             ]
         }
     ]

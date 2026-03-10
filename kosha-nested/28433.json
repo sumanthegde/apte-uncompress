@@ -1,38 +1,84 @@
 {
-    "__line": 239028,
+    "__line": 262776,
     "_ancestry": [
         "L_ 28433",
-        "B_ {#SlakzRaka#}"
+        "B_ {#vandanam#}"
     ],
-    "_banner": "{#SlakzRaka#}",
+    "_banner": "{#vandanam#}",
     "_bannerExp": [
         {
-            "Right": "SlakzRaka"
+            "Right": "vandanam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#vand-lyuw#}]"
     ],
     "_meanings": [
-        "{@--1@} Smooth, soft. ",
-        "{@--2@} \nBeautiful, charming. "
+        ".²1 Salutation, obeisance.\n",
+        ".²2 Reverence, adoration.\n",
+        ".²3 Obeisance paid to a Brāhmaṇa <ab>&c.</ab> (by touching his feet).\n",
+        ".²4 Praising, extolling.\n",
+        ".²5 A custaneous eruption, scrofula.\n"
     ],
     "_morphisms": [
         {
-            "__line": 239029,
+            "__line": 262782,
             "_ancestry": [
                 "L_ 28433",
-                "B_ {#SlakzRaka#}",
-                "M_ {#--kaM#}"
+                "B_ {#vandanam#}",
+                "M_ .{@{#-nA#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-nA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SlakzRakaM"
+                    "Right": "vandanA"
                 }
             ],
             "_meanings": [
-                "The \nArecanut."
+                ".²1 Worship, adoration.\n",
+                ".²2 Praise.\n"
+            ]
+        },
+        {
+            "__line": 262785,
+            "_ancestry": [
+                "L_ 28433",
+                "B_ {#vandanam#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vandanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 Worship, adoration.\n",
+                ".²2 Praise.\n",
+                ".²3 Solicitation.\n",
+                ".²4 A drug for reviving the dead.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 262791,
+            "_ancestry": [
+                "L_ 28433",
+                "B_ {#vandanam#}",
+                "S_ .{@{#-mAlA, -mAlikA#}@}"
+            ],
+            "_banner": ".{@{#-mAlA, -mAlikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vandanamAlA"
+                },
+                {
+                    "Right": "vandanamAlikA"
+                }
+            ],
+            "_meanings": [
+                "a garland suspended across gateways."
             ]
         }
     ]

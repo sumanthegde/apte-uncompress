@@ -1,41 +1,84 @@
 {
-    "__line": 58852,
+    "__line": 57314,
     "_ancestry": [
         "L_ 6799",
-        "B_ {#Ardraka#}"
+        "B_ {#ATarvaRa#}"
     ],
-    "_banner": "{#Ardraka#}",
+    "_banner": "{#ATarvaRa#}",
     "_bannerExp": [
         {
-            "Right": "ArdrakI"
+            "Right": "ATarvaRa"
         },
         {
-            "Right": "Ardraka"
+            "Right": "ATarvaRI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#aTarvaRA muninA dfzwaH vedaH aR ATarvaRaH tamaDIte#}\n {#vetti vA aR#} <ls>P. IV. 3. 133</ls>]"
     ],
     "_meanings": [
-        "Born under\nthe constellation Ārdrā; <ab>cf.</ab>  \n<ls>P. IV. 3. 28</ls>. "
+        "Originating from, relating or belonging to,\n the Atharvaveda or the Atharvans; {#agnO sAkziRyATarvaRena viDinA#} <ls>Dk.</ls>;\n {#ATarvaRastIvra ivABicAraH#} <ls>Mv. 1. 62</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 58854,
+            "__line": 57319,
             "_ancestry": [
                 "L_ 6799",
-                "B_ {#Ardraka#}",
-                "M_ {#--kaM#}"
+                "B_ {#ATarvaRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ArdrakaM"
+                    "Right": "ATarvaRaH"
                 }
             ],
             "_meanings": [
-                "Ginger in its undried\nstate, wet ginger (<ab>Mar.</ab> {#AleM#})."
+                ".²1 A Brāhmaṇa knowing or studying the Atharvaveda.\n",
+                ".²2 A descendant of Atharvan; {#idaM vE tanmaDu daDyaNNArTavaRo'SviByAmuvAca#}\n <ls>Bṛ. Up. 2. 5. 16</ls>.\n",
+                ".²3 A priest whose ritual is comprised in the Atharvaveda.\n",
+                ".²4 The Atharvaveda itself ({#aTarvaRAM samUhaH#}).\n",
+                ".²5 A house-priest.\n"
+            ]
+        },
+        {
+            "__line": 57326,
+            "_ancestry": [
+                "L_ 6799",
+                "B_ {#ATarvaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ATarvaRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A private room in which the sacrificer is informed of the happy event\n of the sacrifice by the officiating Brāhmaṇa.\n",
+                ".²2 The black art, magic ({#jAraRamAraRa#}).\n"
+            ]
+        },
+        {
+            "__line": 57330,
+            "_ancestry": [
+                "L_ 6799",
+                "B_ {#ATarvaRa#}",
+                "M_ .{@{#-Siras#}@}"
+            ],
+            "_banner": ".{@{#-Siras#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: ATarvaRa/ATarvaRI Siras"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an Upaniṣad belonging to the Atharvaveda."
             ]
         }
     ]

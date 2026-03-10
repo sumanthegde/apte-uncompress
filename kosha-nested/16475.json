@@ -1,20 +1,39 @@
 {
-    "__line": 138502,
+    "__line": 142788,
     "_ancestry": [
         "L_ 16475",
-        "B_ {#nATavat#}"
+        "B_ {#tiroBU#}"
     ],
-    "_banner": "{#nATavat#}",
+    "_banner": "{#tiroBU#}",
     "_bannerExp": [
         {
-            "Right": "nATavat"
+            "Right": "tiroBU"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Possessed of a lord\nor protector; {#nATavaMtastvayA#} \n{#lokAstvamanATA vipatsyase#} <ls>U. 1. 43.</ls> ",
-        "{@--2@} \nDependent, subject."
+        "To disappear, vanish; <ls>Bk. 6. 71</ls>, <ls n=\"Bk.\">14. 44</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 142788,
+            "_ancestry": [
+                "L_ 16475",
+                "B_ {#tiroBU#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "tiroBU"
+                }
+            ],
+            "_meanings": [
+                "To dispel."
+            ]
+        }
     ]
 }

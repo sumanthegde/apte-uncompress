@@ -1,20 +1,41 @@
 {
-    "__line": 25894,
+    "__line": 23091,
     "_ancestry": [
         "L_ 2594",
-        "B_ {#apasnAta#}"
+        "B_ {#apati#}, {#-tika#}"
     ],
-    "_banner": "{#apasnAta#}",
+    "_banner": "{#apati#}, {#-tika#}",
     "_bannerExp": [
         {
-            "Right": "apasnAta"
+            "Right": "apati"
+        },
+        {
+            "Right": "apatika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#apakfzwaM snAtaH#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "One\nwho has bathed after death or\nmourning or upon the death of a\nrelation, preparatory to other \nceremonies."
+        "Without a master; without a husband, unmarried.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 23093,
+            "_ancestry": [
+                "L_ 2594",
+                "B_ {#apati#}, {#-tika#}",
+                "M_ .{@{#-tiH#}@}"
+            ],
+            "_banner": ".{@{#-tiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apatiH"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> Not a master or husband; {#ava Bezaja pAdaya ya imAM#}\n {#saMvivftsatyapatiH svapatiM striyam#} <ls>Av. 8. 6. 16</ls>."
+            ]
+        }
     ]
 }

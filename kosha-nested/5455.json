@@ -1,20 +1,60 @@
 {
-    "__line": 48299,
+    "__line": 45747,
     "_ancestry": [
         "L_ 5455",
-        "B_ {#asaMniDiH, --niDAnaM#}"
+        "B_ {#avArita#}"
     ],
-    "_banner": "{#asaMniDiH, --niDAnaM#}",
+    "_banner": "{#avArita#}",
     "_bannerExp": [
         {
-            "Right": "asaMniDAnaM"
-        },
-        {
-            "Right": "asaMniDiH"
+            "Right": "avArita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Absence,\ndistance. ",
-        "{@--2@} Confidence."
+        "Unimpeded, unobstructed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 45748,
+            "_ancestry": [
+                "L_ 5455",
+                "B_ {#avArita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avAritam"
+                }
+            ],
+            "_meanings": [
+                "<ab>ind.</ab> Without obstacles, at pleasure; <ls>Mb. 13</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 45750,
+            "_ancestry": [
+                "L_ 5455",
+                "B_ {#avArita#}",
+                "S_ .{@{#-dvAra#}@}"
+            ],
+            "_banner": ".{@{#-dvAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avAritadvAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having open doors; {#avAritadvAratayA tiraScAmantaHpure#}\n {#tasya niviSya rAjYaH#} <ls>N. 3. 41</ls>."
+            ]
+        }
     ]
 }

@@ -1,22 +1,98 @@
 {
-    "__line": 222041,
+    "__line": 240281,
     "_ancestry": [
         "L_ 26319",
-        "B_ {#viracanaM --nA#}"
+        "B_ {#mizwa#}"
     ],
-    "_banner": "{#viracanaM --nA#}",
+    "_banner": "{#mizwa#}",
     "_bannerExp": [
         {
-            "Right": "viracanA"
-        },
-        {
-            "Right": "viracanaM"
+            "Right": "mizwa"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#miz-kta#}]"
+    ],
     "_meanings": [
-        "{@--1@} Arrangement, \ndisposition; <ls>Śi. 5. 21.</ls> ",
-        "{@--2@} Contriving, \nconstructing. ",
-        "{@--3@} Formation, creation.\n",
-        "{@--4@} Composition, compilation."
+        ".²1 Sweet.\n",
+        ".²2 Dainty, savoury; {#kiM mizwamannaM KarasUkarARAm#}; <ab>cf.</ab> ‘why cast pearls before swine’.\n",
+        ".²3 Moistened, wetted.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 240285,
+            "_ancestry": [
+                "L_ 26319",
+                "B_ {#mizwa#}",
+                "M_ .{@{#-zwam#}@}"
+            ],
+            "_banner": ".{@{#-zwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mizwam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sweetmeat.\n",
+                ".²2 A dainty or savoury dish.\n"
+            ]
+        },
+        {
+            "__line": 240288,
+            "_ancestry": [
+                "L_ 26319",
+                "B_ {#mizwa#}",
+                "M_ .{@{#-zwA#}@}"
+            ],
+            "_banner": ".{@{#-zwA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mizwA"
+                }
+            ],
+            "_meanings": [
+                "Sweetness. {#˚nimbU#} sweet citron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 240290,
+            "_ancestry": [
+                "L_ 26319",
+                "B_ {#mizwa#}",
+                "S_ .{@{#-annam#}@}"
+            ],
+            "_banner": ".{@{#-annam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mizwAnnam"
+                }
+            ],
+            "_meanings": [
+                "sweet or savoury food, dainty, sweets; {#kanyA varayate#}\n {#rUpaM … … mizwAnnamitarejanAH#} <ls>Subhāṣ.</ls>\n"
+            ]
+        },
+        {
+            "__line": 240292,
+            "_ancestry": [
+                "L_ 26319",
+                "B_ {#mizwa#}",
+                "S_ .{@{#-kartf#}@}"
+            ],
+            "_banner": ".{@{#-kartf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mizwakartf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a skilful cook (maker of dainties; <lang>Mar.</lang> <ns>{#halavAI#}</ns>)."
+            ]
+        }
     ]
 }

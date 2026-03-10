@@ -1,17 +1,55 @@
 {
-    "__line": 214409,
+    "__line": 228683,
     "_ancestry": [
         "L_ 25315",
-        "B_ {#vahaMtaH#}"
+        "B_ {#Bedyam#}"
     ],
-    "_banner": "{#vahaMtaH#}",
+    "_banner": "{#Bedyam#}",
     "_bannerExp": [
         {
-            "Right": "vahaMtaH"
+            "Right": "Bedyam"
         }
     ],
     "_meanings": [
-        "{@--1@} Wind. ",
-        "{@--2@} An infant. "
+        "A substantive.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 228685,
+            "_ancestry": [
+                "L_ 25315",
+                "B_ {#Bedyam#}",
+                "S_ .{@{#-rogaH#}@}"
+            ],
+            "_banner": ".{@{#-rogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BedyarogaH"
+                }
+            ],
+            "_meanings": [
+                "a disease treated by incision.\n"
+            ]
+        },
+        {
+            "__line": 228686,
+            "_ancestry": [
+                "L_ 25315",
+                "B_ {#Bedyam#}",
+                "S_ .{@{#-liNga#}@}"
+            ],
+            "_banner": ".{@{#-liNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BedyaliNga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "distinguished by the gender."
+            ]
+        }
     ]
 }

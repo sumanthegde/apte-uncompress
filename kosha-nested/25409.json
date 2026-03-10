@@ -1,17 +1,43 @@
 {
-    "__line": 215265,
+    "__line": 229607,
     "_ancestry": [
         "L_ 25409",
-        "B_ {#vAtsyAyanaH#}"
+        "B_ {#BrAjaka#}"
     ],
-    "_banner": "{#vAtsyAyanaH#}",
+    "_banner": "{#BrAjaka#}",
     "_bannerExp": [
         {
-            "Right": "vAtsyAyanaH"
+            "Right": "BrAjaka"
+        },
+        {
+            "Right": "BrAjikA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-jikA#}|{%f.%})",
+        "[{#Braj-Rvul#}]"
+    ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of the author\nof the Kāmasūtras (a work on\nerotic subjects). ",
-        "{@--2@} <ab>N.</ab> of the\nauthor of a commentary on the\nNyāya Sūtras."
+        "Illuminating, irradiating.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 229609,
+            "_ancestry": [
+                "L_ 25409",
+                "B_ {#BrAjaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAjakam"
+                }
+            ],
+            "_meanings": [
+                "Bile, gall."
+            ]
+        }
     ]
 }

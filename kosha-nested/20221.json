@@ -1,26 +1,43 @@
 {
-    "__line": 168530,
+    "__line": 182104,
     "_ancestry": [
         "L_ 20221",
-        "B_ {#pratyAdizwa#}"
+        "B_ {#paritap#}"
     ],
-    "_banner": "{#pratyAdizwa#}",
+    "_banner": "{#paritap#}",
     "_bannerExp": [
         {
-            "Right": "pratyAdizwa"
+            "Right": "paritap"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Prescribed. ",
-        "{@--2@}\nInformed. ",
-        "{@--3@} Rejected, repulsed.\n",
-        "{@--4@} Removed, set aside. ",
-        "{@--5@} \nObscured, thrown into the shade. ",
-        "{@--6@}\nWarned, cautioned. ",
-        "{@--7@} Declared.\n",
-        "{@--8@} Overcome, conquered. "
+        "²1 To heat, burn, consume.\n",
+        ".²2 To inflame, set on fire.\n",
+        ".²3 To suffer pain.\n",
+        ".²4 To practise penance. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 182108,
+            "_ancestry": [
+                "L_ 20221",
+                "B_ {#paritap#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "paritap"
+                }
+            ],
+            "_meanings": [
+                ".²1 To scorch.\n",
+                ".²2 To torment."
+            ]
+        }
     ]
 }

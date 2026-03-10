@@ -1,19 +1,61 @@
 {
-    "__line": 228743,
+    "__line": 249763,
     "_ancestry": [
         "L_ 27188",
-        "B_ {#vyacas#}"
+        "B_ {#raktaka#}"
     ],
-    "_banner": "{#vyacas#}",
+    "_banner": "{#raktaka#}",
     "_bannerExp": [
         {
-            "Right": "vyacas"
+            "Right": "raktaka"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Expanse, vastness."
+        ".²1 Red.\n",
+        ".²2 Impassioned, enamoured, fond of.\n",
+        ".²3 Pleasing, amusing.\n",
+        ".²4 Bloody.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 249768,
+            "_ancestry": [
+                "L_ 27188",
+                "B_ {#raktaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A red garment.\n",
+                ".²2 An impassioned man, amorous person.\n",
+                ".²3 A sporter.\n"
+            ]
+        },
+        {
+            "__line": 249772,
+            "_ancestry": [
+                "L_ 27188",
+                "B_ {#raktaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Blood.\n",
+                ".²2 A red garment."
+            ]
+        }
     ]
 }

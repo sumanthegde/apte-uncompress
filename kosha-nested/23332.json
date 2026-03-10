@@ -1,49 +1,117 @@
 {
-    "__line": 196403,
+    "__line": 208701,
     "_ancestry": [
         "L_ 23332",
-        "B_ {#muh#}"
+        "B_ {#pralamba#}"
     ],
-    "_banner": "{#muh#}",
+    "_banner": "{#pralamba#}",
     "_bannerExp": [
         {
-            "Right": "muh"
+            "Right": "pralamba"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>",
-        "({#muhyati, mugDa#} or {#mUQa#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@}\nTo faint, swoon, lose consciousness,\nbecome senseless; {#ihAhaM drazwumAhnaM tAM#}\n{#smarannevaM mumoha saH#} <ls>Bk. 6. 21</ls>, <ls n=\"Bk.\">1. 20</ls>;\n<ls n=\"Bk.\">15. 16.</ls> ",
-        "{@--2@} To be perplexed or \nbewilddered, to be disturbed in mind,\nbe at a loss; {#Apatsvapi na muhyaMti narAH#}\n{#paMqitabudDayaH#} <ls>H. 1. 166</ls>, <ls>Ki. 18. 9.</ls>\n",
-        "{@--3@} To be foolish, stupid, or \ninfatuated. ",
-        "{@--4@} To fail. ",
-        "{@--5@} To err, \nmistake. "
+        ".²1 Pendulous, hanging down; as in {#pralambakeSa#}.\n",
+        ".²2 Prominent; as in {#pralambanAsikaH#}.\n",
+        ".²3 Slow, dilatory.\n"
     ],
     "_morphisms": [
         {
-            "__line": 196413,
+            "__line": 208705,
             "_ancestry": [
                 "L_ 23332",
-                "B_ {#muh#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#pralamba#}",
+                "M_ .{@{#-mbaH#}@}"
             ],
+            "_banner": ".{@{#-mbaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "muh"
+                    "Right": "pralambaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Hanging on or from, depending.\n",
+                ".²2 Anything hanging down.\n",
+                ".²3 A branch.\n",
+                ".²4 A garland worn round the neck.\n",
+                ".²5 A kind of necklace.\n",
+                ".²6 The female breast.\n",
+                ".²7 Tin or lead.\n",
+                ".²8 <ab>N.</ab> of a demon killed by Balarāma.\n",
+                ".²9 A shoot of the vine-palm.\n",
+                ".²10 A cucumber.\n",
+                ".²11 A verse ({#gATA#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 208718,
+            "_ancestry": [
+                "L_ 23332",
+                "B_ {#pralamba#}",
+                "S_ .{@{#-aRqaH#}@}"
+            ],
+            "_banner": ".{@{#-aRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pralambARqaH"
+                }
+            ],
+            "_meanings": [
+                "a man with hanging testicles.\n"
+            ]
+        },
+        {
+            "__line": 208719,
+            "_ancestry": [
+                "L_ 23332",
+                "B_ {#pralamba#}",
+                "S_ .{@{#-GnaH, -maTanaH, -han#}@}"
+            ],
+            "_banner": ".{@{#-GnaH, -maTanaH, -han#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pralambaGnaH"
+                },
+                {
+                    "Right": "pralambamaTanaH"
+                },
+                {
+                    "Right": "pralambahan"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#mohayati-te#})"
+                "{%m.%}"
             ],
             "_meanings": [
-                "{@--1@} To\nstupefy, infatuate; {#mA mUmuhatKalu#} \n{#BavaMtamananyajanmA#} <ls>Māl. 1. 32.</ls> ",
-                "{@--2@} To\nconfound, bewilder, perplex;  \n<ls>Bg. 3. 2</ls>, <ls n=\"Bg.\">4. 16.</ls> ",
-                "{@--3@} To throw into \nconfusion. ",
-                "{@--4@} To cause to err or \nmistake."
+                "epithets of Balarāma.\n"
+            ]
+        },
+        {
+            "__line": 208720,
+            "_ancestry": [
+                "L_ 23332",
+                "B_ {#pralamba#}",
+                "S_ .{@{#-bAhu, -Buja#}@}"
+            ],
+            "_banner": ".{@{#-bAhu, -Buja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pralambabAhu"
+                },
+                {
+                    "Right": "pralambaBuja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One whose arms hang down; <ls>Mb. 3. 284. 26</ls>."
             ]
         }
     ]

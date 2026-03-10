@@ -1,18 +1,36 @@
 {
-    "__line": 241700,
+    "__line": 266040,
     "_ancestry": [
         "L_ 28769",
-        "B_ {#saMsparSaH#}"
+        "B_ {#vasukaH#}"
     ],
-    "_banner": "{#saMsparSaH#}",
+    "_banner": "{#vasukaH#}",
     "_bannerExp": [
         {
-            "Right": "saMsparSaH"
+            "Right": "vasukaH"
         }
     ],
     "_meanings": [
-        "{@--1@} Contact, touch, \nconjunction, mixture. ",
-        "{@--2@} Being\ntouched or affected. ",
-        "{@--3@} Perception,\nsense."
+        ".²1 <ab>N.</ab> of various plants.\n",
+        ".²2 A kind of measure (in music).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 266043,
+            "_ancestry": [
+                "L_ 28769",
+                "B_ {#vasukaH#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasukam"
+                }
+            ],
+            "_meanings": [
+                "A kind of salt."
+            ]
+        }
     ]
 }

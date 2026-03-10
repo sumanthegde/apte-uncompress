@@ -1,18 +1,39 @@
 {
-    "__line": 153884,
+    "__line": 162980,
     "_ancestry": [
         "L_ 18323",
-        "B_ {#parisarpaH#}"
+        "B_ {#naBasvat#}"
     ],
-    "_banner": "{#parisarpaH#}",
+    "_banner": "{#naBasvat#}",
     "_bannerExp": [
         {
-            "Right": "parisarpaH"
+            "Right": "naBasvat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Going or moving about.\n",
-        "{@--2@} Going in search of, following,\npursuing. ",
-        "{@--3@} Surrounding, \nencircling."
+        ".²1 Vaporous, misty, cloudy.\n",
+        ".²2 Young. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 162982,
+            "_ancestry": [
+                "L_ 18323",
+                "B_ {#naBasvat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#naBasvat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The wind, air; {#naBasvatastaM kusumezu kelayaH#} <ls>N. 1. 97</ls>;\n <ls>R. 4. 8</ls>, <ls n=\"R.\">10. 73</ls>; <ls>Śi. 1. 10</ls>."
+            ]
+        }
     ]
 }

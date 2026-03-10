@@ -1,39 +1,123 @@
 {
-    "__line": 132425,
+    "__line": 137393,
     "_ancestry": [
         "L_ 15831",
-        "B_ {#druh#}"
+        "B_ {#jvAlA#}"
     ],
-    "_banner": "{#druh#}",
+    "_banner": "{#jvAlA#}",
     "_bannerExp": [
         {
-            "Right": "druh"
+            "Right": "jvAlA"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "(At the end of <ab>comp.</ab>)\n(<ab>Nom.</ab> <ab>sing.</ab> {#Druk-g, Druw-q#}) \nInjuring, hurting, plotting or acting as\nan enemy against; <ls>Śi. 2. 35</ls>;  \n<ls>Ms. 5. 90.</ls> "
+        ".²1 A blaze, flame, illumination; <ls>R. 15. 16</ls>; <ls>Bh. 1. 95</ls>.\n",
+        ".²2 Burnt rice.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 132429,
+            "__line": 137397,
             "_ancestry": [
                 "L_ 15831",
-                "B_ {#druh#}",
-                "M_ {%--<ab>f.</ab>%}"
+                "B_ {#jvAlA#}",
+                "S_ .{@{#-jihvaH, -DvajaH#}@}"
             ],
+            "_banner": ".{@{#-jihvaH, -DvajaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "druh"
+                    "Right": "jvAlAjihvaH"
+                },
+                {
+                    "Right": "jvAlADvajaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>f.</ab>%}"
+            "_meanings": [
+                "fire.\n\n"
+            ]
+        },
+        {
+            "__line": 137399,
+            "_ancestry": [
+                "L_ 15831",
+                "B_ {#jvAlA#}",
+                "S_ .{@{#-mAlin#}@}"
+            ],
+            "_banner": ".{@{#-mAlin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvAlAmAlin"
+                }
             ],
             "_meanings": [
-                "Injury, damage."
+                "God Śiva.\n"
+            ]
+        },
+        {
+            "__line": 137400,
+            "_ancestry": [
+                "L_ 15831",
+                "B_ {#jvAlA#}",
+                "S_ .{@{#-muKI#}@}"
+            ],
+            "_banner": ".{@{#-muKI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvAlAmuKI"
+                }
+            ],
+            "_meanings": [
+                "a volcano.\n"
+            ]
+        },
+        {
+            "__line": 137401,
+            "_ancestry": [
+                "L_ 15831",
+                "B_ {#jvAlA#}",
+                "S_ .{@{#-rAsaBakAmayaH#}@}"
+            ],
+            "_banner": ".{@{#-rAsaBakAmayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvAlArAsaBakAmayaH"
+                }
+            ],
+            "_meanings": [
+                "Ring-worm.\n"
+            ]
+        },
+        {
+            "__line": 137402,
+            "_ancestry": [
+                "L_ 15831",
+                "B_ {#jvAlA#}",
+                "S_ .{@{#-liNgam#}@}"
+            ],
+            "_banner": ".{@{#-liNgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvAlAliNgam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a sanctuary of Śiva; {#tato dadfSatustatra jvAlAliNgaM#}\n {#mahat puraH#} <ls>Ks. 1. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 137404,
+            "_ancestry": [
+                "L_ 15831",
+                "B_ {#jvAlA#}",
+                "S_ .{@{#-vaktraH#}@}"
+            ],
+            "_banner": ".{@{#-vaktraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvAlAvaktraH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva."
             ]
         }
     ]

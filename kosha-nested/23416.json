@@ -1,16 +1,79 @@
 {
-    "__line": 197264,
+    "__line": 209320,
     "_ancestry": [
         "L_ 23416",
-        "B_ {#mftAlakaM#}"
+        "B_ {#pravAta#}"
     ],
-    "_banner": "{#mftAlakaM#}",
+    "_banner": "{#pravAta#}",
     "_bannerExp": [
         {
-            "Right": "mftAlakaM"
+            "Right": "pravAta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "A kind of clay."
+        "Exposed to stormy wind.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 209321,
+            "_ancestry": [
+                "L_ 23416",
+                "B_ {#pravAta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravAtam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A current of air, fresh or free air; {#pravAtaSayanasTA devI#} <ls>M. 4</ls>.\n\n",
+                ".²2 A strong or stormy wind; {#nanu pravAte'pi nizkampA girayaH#} <ls>Ś. 6</ls>.\n",
+                ".²3 An airy place; {#pravAtanIlotpalanirviSezam#} <ls>Ku. 1. 46</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 209327,
+            "_ancestry": [
+                "L_ 23416",
+                "B_ {#pravAta#}",
+                "S_ .{@{#-Sayanam#}@}"
+            ],
+            "_banner": ".{@{#-Sayanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravAtaSayanam"
+                }
+            ],
+            "_meanings": [
+                "a bed placed in the airy place.\n"
+            ]
+        },
+        {
+            "__line": 209328,
+            "_ancestry": [
+                "L_ 23416",
+                "B_ {#pravAta#}",
+                "S_ .{@{#-suBaga#}@}"
+            ],
+            "_banner": ".{@{#-suBaga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravAtasuBaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "delightful by a fresh breeze."
+            ]
+        }
     ]
 }

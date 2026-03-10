@@ -1,21 +1,58 @@
 {
-    "__line": 217601,
+    "__line": 233683,
     "_ancestry": [
         "L_ 25730",
-        "B_ {#vigE#}"
+        "B_ {#manTin#}"
     ],
-    "_banner": "{#vigE#}",
+    "_banner": "{#manTin#}",
     "_bannerExp": [
         {
-            "Right": "vigE"
+            "Right": "manTin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#manT Rini#}]"
     ],
     "_meanings": [
-        "{@--1@} To censure, reproach,\nblame; {#vigIyase manmaTadehadAhinA#}\n<ls>N. 1. 79.</ls> ",
-        "{@--2@} To sing in a \ndiscordant tone."
+        ".²1 Churning, stirring.\n",
+        ".²2 Afflicting, annoying. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 233685,
+            "_ancestry": [
+                "L_ 25730",
+                "B_ {#manTin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#maMTin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Semen virile.\n",
+                ".²2 <ab>Ved.</ab> Soma juice.\n"
+            ]
+        },
+        {
+            "__line": 233688,
+            "_ancestry": [
+                "L_ 25730",
+                "B_ {#manTin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "manTinI"
+                }
+            ],
+            "_meanings": [
+                "A churning-vessel."
+            ]
+        }
     ]
 }

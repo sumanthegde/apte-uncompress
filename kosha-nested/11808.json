@@ -1,23 +1,76 @@
 {
-    "__line": 98857,
+    "__line": 99539,
     "_ancestry": [
         "L_ 11808",
-        "B_ {#kvAcitka#}"
+        "B_ {#kavyam#}"
     ],
-    "_banner": "{#kvAcitka#}",
+    "_banner": "{#kavyam#}",
     "_bannerExp": [
         {
-            "Right": "kvAcitkI"
-        },
-        {
-            "Right": "kvAcitka"
+            "Right": "kavyam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tkI#}|{%<ab>f.</ab>%})"
-    ],
     "_meanings": [
-        "Met with\noccasionally, rare, unusual; {#iti#} \n{#kvAcitkaH pAWaH#}."
+        "(<ab>opp.</ab> {#havya#}) An oblation of food to deceased ancestors;\n {#eza vE praTamaH kalpaH pradAne havyakavyayoH#} <ls>Ms. 3. 147</ls>, <ls n=\"Ms. 3.\">97</ls>, <ls n=\"Ms. 3.\">128</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 99541,
+            "_ancestry": [
+                "L_ 11808",
+                "B_ {#kavyam#}",
+                "M_ .{@{#-vyaH#}@}"
+            ],
+            "_banner": ".{@{#-vyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavyaH"
+                }
+            ],
+            "_meanings": [
+                "A class of manes. {#kavyo'si havyasUdana#} <ls>Mbh.</ls> on <ls>P. VI. 4. 30</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 99543,
+            "_ancestry": [
+                "L_ 11808",
+                "B_ {#kavyam#}",
+                "S_ .{@{#-vAlaH#}@}"
+            ],
+            "_banner": ".{@{#-vAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavyavAlaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 fire.\n",
+                ".²2 a class of manes.\n"
+            ]
+        },
+        {
+            "__line": 99546,
+            "_ancestry": [
+                "L_ 11808",
+                "B_ {#kavyam#}",
+                "S_ .{@{#-vAh#}@}"
+            ],
+            "_banner": ".{@{#-vAh#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavyavAh"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-vAhaH, -vAhanaH#}@}"
+            ],
+            "_meanings": [
+                "fire. <ab>cf.</ab> {#kavyavAhanaH#}"
+            ]
+        }
     ]
 }

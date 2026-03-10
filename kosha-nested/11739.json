@@ -1,18 +1,205 @@
 {
-    "__line": 98380,
+    "__line": 98835,
     "_ancestry": [
         "L_ 11739",
-        "B_ {#kruMcaH#}"
+        "B_ {#kaliH#}"
     ],
-    "_banner": "{#kruMcaH#}",
+    "_banner": "{#kaliH#}",
     "_bannerExp": [
         {
-            "Right": "kruMcaH"
+            "Right": "kaliH"
         }
     ],
+    "_gram": [
+        "[{#kal-ini#}]"
+    ],
     "_meanings": [
-        "{@--1@} A curlew, heron. ",
-        "{@--2@} A\nkind of lute. ",
-        "{@--3@} <ab>N.</ab> of the \nmountain {#krOMca#}."
+        ".²1 Strife, quarrel, dissension, contention; {#SaWa kalireza mahAMstvayAdya#}\n {#dattaH#} <ls>Śi. 7. 55</ls>; {#kalikAmajit#} <ls>R. 9. 33</ls>; <ls>Amaru. 23</ls>.\n",
+        ".²2 War, battle. {#avizahyEstamAkzepEH kzipansaMjanayan kalim .#} <ls>Bhāg. 10. 55. 17</ls>.\n",
+        ".²3 The fourth age of the world, the iron age (consisting of 432,000 years\n of men and beginning from the 13th of February 3102 <ab>B. C.</ab>); {#dAnamekaM#}\n {#kalO yuge#} <ls>Ms. 1. 86</ls>, <ls n=\"Ms.\">9. 301</ls>; {#kalivarjyAni imAni#} <ab>&c.</ab>\n",
+        ".²4 Kali age personified (this Kali persecuted Nala).\n",
+        ".²5 The worst of any class.\n",
+        ".²6 The Bibhītaka tree.\n",
+        ".²7 The side of a die which is marked with one point. {#Gftena kaliM SikzAmi#} <ls>Av. 7. 109. 1</ls>.\n",
+        ".²8 A hero.\n",
+        ".²9 An arrow. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 98847,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kaliH#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "A bud.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 98849,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "S_ .{@{#-kAraH, -kArakaH, -kriyaH#}@}"
+            ],
+            "_banner": ".{@{#-kAraH, -kArakaH, -kriyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kalikAraH"
+                },
+                {
+                    "Right": "kalikArakaH"
+                },
+                {
+                    "Right": "kalikriyaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Nārada.\n",
+                ".²2 the karanja tree.\n",
+                ".²3 a kind of bird.\n"
+            ]
+        },
+        {
+            "__line": 98853,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "S_ .{@{#-drumaH, -vfkzaH#}@}"
+            ],
+            "_banner": ".{@{#-drumaH, -vfkzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kalidrumaH"
+                },
+                {
+                    "Right": "kalivfkzaH"
+                }
+            ],
+            "_meanings": [
+                "the Bibhītaka tree.\n"
+            ]
+        },
+        {
+            "__line": 98854,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "S_ .{@{#-priya#}@}"
+            ],
+            "_banner": ".{@{#-priya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kalipriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "quarrelsome.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 98855,
+                    "_ancestry": [
+                        "L_ 11739",
+                        "B_ {#kaliH#}",
+                        "S_ .{@{#-priya#}@}",
+                        "S_M_ ({@{#-yaH#}@}"
+                    ],
+                    "_banner": "({@{#-yaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kalipriyaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 <ab>N.</ab> of Nārada.\n",
+                        ".²2 a monkey, ape; <ls>Ms. 1. 85</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 98858,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "S_ .{@{#-mArakaH#}@}"
+            ],
+            "_banner": ".{@{#-mArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kalimArakaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of karanja tree.\n"
+            ]
+        },
+        {
+            "__line": 98859,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "S_ .{@{#-yugam#}@}"
+            ],
+            "_banner": ".{@{#-yugam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaliyugam"
+                }
+            ],
+            "_meanings": [
+                "the Kali age; <ls>Ms. 1. 85</ls>.\n"
+            ]
+        },
+        {
+            "__line": 98860,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "S_ .{@{#-saMtaraRam#}@}"
+            ],
+            "_banner": ".{@{#-saMtaraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kalisantaraRam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an Upaniṣad.\n"
+            ]
+        },
+        {
+            "__line": 98861,
+            "_ancestry": [
+                "L_ 11739",
+                "B_ {#kaliH#}",
+                "S_ .{@{#-hArI#}@}"
+            ],
+            "_banner": ".{@{#-hArI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kalihArI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a kind of medicine ({#vizalANgalI#})."
+            ]
+        }
     ]
 }

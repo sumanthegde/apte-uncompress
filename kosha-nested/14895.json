@@ -1,16 +1,58 @@
 {
-    "__line": 123550,
+    "__line": 129107,
     "_ancestry": [
         "L_ 14895",
-        "B_ {#tfMp#}"
+        "B_ {#citya#}"
     ],
-    "_banner": "{#tfMp#}",
+    "_banner": "{#citya#}",
     "_bannerExp": [
         {
-            "Right": "tfMp"
+            "Right": "citya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "or {#tfMP#} = {#tfp#} <ab>q. v.</ab>"
+        ".²1 To be arranged in order or built up.\n",
+        ".²2 Constructed upon a foundation (as fire).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 129110,
+            "_ancestry": [
+                "L_ 14895",
+                "B_ {#citya#}",
+                "M_ .{@{#-tyam#}@}"
+            ],
+            "_banner": ".{@{#-tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cityam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The place at which a corpse is burnt.\n",
+                ".²2 A monument.\n"
+            ]
+        },
+        {
+            "__line": 129113,
+            "_ancestry": [
+                "L_ 14895",
+                "B_ {#citya#}",
+                "M_ .{@{#-tyA#}@}"
+            ],
+            "_banner": ".{@{#-tyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cityA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A funeral pile.\n",
+                ".²2 Piling up, building (as an altar)."
+            ]
+        }
     ]
 }

@@ -1,19 +1,41 @@
 {
-    "__line": 256426,
+    "__line": 282225,
     "_ancestry": [
         "L_ 30583",
-        "B_ {#sotsuka#}"
+        "B_ {#visrabDa, visramBa#}"
     ],
-    "_banner": "{#sotsuka#}",
+    "_banner": "{#visrabDa, visramBa#}",
     "_bannerExp": [
         {
-            "Right": "sotsuka"
+            "Right": "visrabDa"
+        },
+        {
+            "Right": "visramBa"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Regretful, repining,\nanxious, sorrowful."
+        "See {#viSrabDa, viSramBa#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 282226,
+            "_ancestry": [
+                "L_ 30583",
+                "B_ {#visrabDa, visramBa#}",
+                "M_ .{@{#-visrabDam#}@}"
+            ],
+            "_banner": ".{@{#-visrabDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visrabDam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Confidently, without reserve; {#visrabDaM brAhmaRaH#}\n {#SUdrAd dravyopAdAnamAcaret#} <ls>Ms. 8. 417</ls>."
+            ]
+        }
     ]
 }

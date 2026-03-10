@@ -1,45 +1,291 @@
 {
-    "__line": 59161,
+    "__line": 57655,
     "_ancestry": [
         "L_ 6829",
-        "B_ {#AlaB#}"
+        "B_ {#Aditya#}"
     ],
-    "_banner": "{#AlaB#}",
+    "_banner": "{#Aditya#}",
     "_bannerExp": [
         {
-            "Right": "AlaB"
+            "Right": "Aditya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
+        "{%a.%}",
+        "[{#aditerapatyaM Rya#} <ls>P. IV. 1. 85.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To touch;  \n{#gAmAlaByArkamIkzya vA#} <ls>Ms. 5. 87</ls>, <ls n=\"Ms.\">4. 117</ls>;  \n<ls>Bk. 14. 91</ls>; {#satyenAyuDamAlaBe; satyena (satyaM)#}\n{#AtmAnamAlaBe#} <ls>Mb.</ls> ",
-        "{@--2@} To get, attain\nto; {#atitarAM kAMtimAlapsyate te (vapuH)#}\n<ls>Me. 15</ls> <ab>v. l.</ab>; <ls>Kām. 9. 63.</ls> ",
-        "{@--3@} To kill,\nimmolate (as a victim in sacrifices);\n{#prAtarvE paSUnAlaBaMte#} <ls>Śat. Br.</ls>; {#gardaBaM#} \n{#paSumAlaBya#} <ls>Y. 3. 280.</ls> ",
-        "{@--4@} To take hold\nof, seize, grasp, handle. ",
-        "{@--5@} To gain\nor win over. "
+        ".²1 Solar, belonging to, or born in, the solar line; {#AdityEryadi vigraho#}\n {#nfpatiBirDanyaM mamEtattato#} <ls>U. 6. 18</ls>.\n",
+        ".²2 Devoted to, or originating from, Aditi {#AdityaM caruM nirvapet#}\n <ls>Yaj. Ts. 2. 2. 6. 1</ls>.\n",
+        ".²3 Belonging to, or sprung from, the Ādityas.\n"
     ],
     "_morphisms": [
         {
-            "__line": 59171,
+            "__line": 57661,
             "_ancestry": [
                 "L_ 6829",
-                "B_ {#AlaB#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#Aditya#}",
+                "M_ .{@{#-tyaH#}@}"
             ],
+            "_banner": ".{@{#-tyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AlaB"
+                    "Right": "AdityaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A son of Aditi; a god, divinity in general. [The number of Ādityas\n appears to have been originally seven, of whom Varuṇa is the head, and\n the name Āditya was restricted to them, {#devA AdityA ye sapta#} <ls>Rv. 9. 114. 3</ls>.\n In the time of the Brāhmaṇas, however, the number of Ādityas\n rose to 12, representing the sun in the 12 months of the year; {#DAtA#}\n {#mitro'ryamA rudro varuRaH sUrya eva ca . Bago vivasvAn pUzA ca savitA daSamaH#}\n {#smftaH .. ekAdaSastaTA tvazwA vizRurdvAdaSa ucyate .#}]; {#AdityAnAmahaM#}\n {#vizRuH#} <ls>Bg. 10. 21</ls>; <ls>Ku. 2. 24</ls>. (These 12 suns are supposed to shine only\n at the destruction of the universe; <ab>cf.</ab> <ls>Ve. 3. 8</ls>; {#dagDuM viSvaM dahanakiraRErnoditA#}\n {#dvAdaSArkAH#}).\n",
+                ".²2 The sun; <ls>Vāj. 4. 21</ls>.\n",
+                ".²3 A name of Viṣṇu in his fifth or dwarf-incarnation; {#svayaMBUH SaMBurAdityaH#} <ls>V. Sah.</ls>\n",
+                ".²4 <ab>N.</ab> of the {%Arka%} plant (<lang>Mar.</lang> <ns>{#ruI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 57675,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "M_ .{@{#-tyO#}@}"
+            ],
+            "_banner": ".{@{#-tyO#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityO"
+                }
+            ],
+            "_meanings": [
+                "(dual) <ab>N.</ab> of a constellation, the seventh lunar mansion ({#punarvasu#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 57677,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-ketuH#}@}"
+            ],
+            "_banner": ".{@{#-ketuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityaketuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a son of\n\n Dhṛtarāṣtra.\n",
+                ".²2 The charioteer of the sun.\n"
+            ]
+        },
+        {
+            "__line": 57682,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-candrO#}@}"
+            ],
+            "_banner": ".{@{#-candrO#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityacandrO"
+                }
+            ],
+            "_meanings": [
+                "(dual) the sun and the moon.\n"
+            ]
+        },
+        {
+            "__line": 57683,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-darSanam#}@}"
+            ],
+            "_banner": ".{@{#-darSanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityadarSanam"
+                }
+            ],
+            "_meanings": [
+                "‘Showing the sun’ (to a child of 4 months), one of the\n {#saMskArA#}s.\n"
+            ]
+        },
+        {
+            "__line": 57685,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityapatraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 57686,
+                    "_ancestry": [
+                        "L_ 6829",
+                        "B_ {#Aditya#}",
+                        "S_ .{@{#-patraH#}@}",
+                        "S_M_ ({@{#-tram#}@}"
+                    ],
+                    "_banner": "({@{#-tram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "Adityapatram"
+                        }
+                    ],
+                    "_meanings": [
+                        "the leaf of the {%Arka%} tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 57687,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-parRinI#}@}"
+            ],
+            "_banner": ".{@{#-parRinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityaparRinI"
+                }
+            ],
+            "_meanings": [
+                "a creeping plant with gold-coloured flowers, growing\n near the bank of water.\n"
+            ]
+        },
+        {
+            "__line": 57689,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-purARam#}@}"
+            ],
+            "_banner": ".{@{#-purARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityapurARam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an Upapurāṇa.\n"
+            ]
+        },
+        {
+            "__line": 57690,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-puzpikA#}@}"
+            ],
+            "_banner": ".{@{#-puzpikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityapuzpikA"
+                }
+            ],
+            "_meanings": [
+                "red swallow wort (<lang>Mar.</lang> <ns>{#SiradoqI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 57691,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-banDuH#}@}"
+            ],
+            "_banner": ".{@{#-banDuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityabanDuH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śākyamuni.\n"
+            ]
+        },
+        {
+            "__line": 57692,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-BaktA#}@}"
+            ],
+            "_banner": ".{@{#-BaktA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityaBaktA"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "[{#Aditye BaktA#}]"
             ],
             "_meanings": [
-                "{@--1@} To touch.\n",
-                "{@--2@} To commence."
+                "<ab>N.</ab> of a plant. see {#arkaBaktA#}.\n"
+            ]
+        },
+        {
+            "__line": 57693,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityamaRqalam"
+                }
+            ],
+            "_meanings": [
+                "the disc or orb of the sun.\n"
+            ]
+        },
+        {
+            "__line": 57694,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Adityavratam"
+                }
+            ],
+            "_meanings": [
+                ".²1 worship of the sun; a {#vrata#} or rite.\n",
+                ".²2 <ab>N.</ab> of a Sāman.\n"
+            ]
+        },
+        {
+            "__line": 57697,
+            "_ancestry": [
+                "L_ 6829",
+                "B_ {#Aditya#}",
+                "S_ .{@{#-sUnuH#}@}"
+            ],
+            "_banner": ".{@{#-sUnuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdityasUnuH"
+                }
+            ],
+            "_meanings": [
+                "‘the son of the sun’, <ab>N.</ab> of Sugrīva, Yama, Saturn, Manu and Karṇa <ab>&c.</ab>"
             ]
         }
     ]

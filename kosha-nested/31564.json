@@ -1,55 +1,79 @@
 {
-    "__line": 264828,
+    "__line": 290899,
     "_ancestry": [
         "L_ 31564",
-        "B_ {#hotrIya#}"
+        "B_ {#Sakya#}"
     ],
-    "_banner": "{#hotrIya#}",
+    "_banner": "{#Sakya#}",
     "_bannerExp": [
         {
-            "Right": "hotrIya"
+            "Right": "Sakya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#hotrAya hitaM hoturidaM vA Ca#}]"
+        "{%<ab>pot. p.</ab>%}"
     ],
     "_meanings": [
-        "Belonging to an oblation. "
+        ".²1 Possible, practicable, capable of being done or effected (usually with\n an <ab>inf.</ab>); {#Sakyo vArayituM jalena hutaBuk#} <ls>Bh. 2. 11</ls>; <ls>R. 2. 49</ls>, <ls n=\"R. 2.\">54</ls>.\n",
+        ".²2 Fit to be effected.\n",
+        ".²3 Easy to be effected.\n",
+        ".²4 Directly conveyed or expressed (as the meaning of a word); {#Sakyo'rTo'BiDayA#}\n {#jYeyaH#} <ls>S. D. 10</ls>.\n",
+        ".²5 Potential.\n",
+        ".²6 Of agreeable or sweet address; {#‘SakyaH priyaMvadaH proktaH’#} {#iti#}\n {#halAyuDaH#}; {#SakyaH saMviBAgaSIlaH#} <ls>Dk. 2. 5</ls>. (The form {#Sakyam#} is sometimes\n used as a predicative word with an <ab>inf.</ab> in a passive sense, the real object\n of the infinitive being in the <ab>nom.</ab> case; {#evaM hi praRayavatI sA SakyamupekzituM#}\n {#kupitA#} <ls>M. 3. 22</ls>; {#SakyaM … aviralamAliNgituM pavanaH#} <ls>Ś. 3. 6</ls>;\n {#viBUtayaH SakyamavAptumUrjitAH#} <ls>Subhāṣ.</ls>; {#na hi dehamftA SakyaM#}\n {#tyaktuM karmARyaSezataH#} <ls>Bg. 18. 11.</ls>).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 264829,
+            "__line": 290915,
             "_ancestry": [
                 "L_ 31564",
-                "B_ {#hotrIya#}",
-                "M_ {#--yaH#}"
+                "B_ {#Sakya#}",
+                "S_ .{@{#-arTaH#}@}"
             ],
-            "_banner": "{#--yaH#}",
+            "_banner": ".{@{#-arTaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "hotrIyaH"
+                    "Right": "SakyArTaH"
                 }
             ],
             "_meanings": [
-                "The\npriest who offers oblations to gods.\n"
+                "the meaning directly expressed.\n"
             ]
         },
         {
-            "__line": 264831,
+            "__line": 290916,
             "_ancestry": [
                 "L_ 31564",
-                "B_ {#hotrIya#}",
-                "M_ {#--yaM#}"
+                "B_ {#Sakya#}",
+                "S_ .{@{#-pratIkAra#}@}"
             ],
-            "_banner": "{#--yaM#}",
+            "_banner": ".{@{#-pratIkAra#}@}",
             "_bannerExp": [
                 {
-                    "Right": "hotrIyaM"
+                    "Right": "SakyapratIkAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "remediable.\n"
+            ]
+        },
+        {
+            "__line": 290917,
+            "_ancestry": [
+                "L_ 31564",
+                "B_ {#Sakya#}",
+                "S_ .{@{#-sAmantatA#}@}"
+            ],
+            "_banner": ".{@{#-sAmantatA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakyasAmantatA"
                 }
             ],
             "_meanings": [
-                "The sacrificial hall."
+                "the state of being able to conquer the neighbouring kings."
             ]
         }
     ]

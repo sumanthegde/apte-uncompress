@@ -1,19 +1,40 @@
 {
-    "__line": 110392,
+    "__line": 111773,
     "_ancestry": [
         "L_ 13127",
-        "B_ {#caraRyu#}"
+        "B_ {#krandana#}"
     ],
-    "_banner": "{#caraRyu#}",
+    "_banner": "{#krandana#}",
     "_bannerExp": [
         {
-            "Right": "caraRyu"
+            "Right": "krandana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#krand BAve lyuw#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> moving, moveable\n({#caraRaSIla#})."
+        "A cat.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 111774,
+            "_ancestry": [
+                "L_ 13127",
+                "B_ {#krandana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krandanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cry of distress or weeping, lamentation; {#vyasanaM prApya yo mohAtkevalaM#}\n {#paridevayet . krandanaM varDayatyeva#} <ls>Pt. 2. 188</ls>.\n",
+                ".²2 Mutual defiance.\n",
+                ".²3 Calling, inviting."
+            ]
+        }
     ]
 }

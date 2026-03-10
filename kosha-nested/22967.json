@@ -1,19 +1,61 @@
 {
-    "__line": 193399,
+    "__line": 205706,
     "_ancestry": [
         "L_ 22967",
-        "B_ {#mADuraM#}"
+        "B_ {#pradIpana#}"
     ],
-    "_banner": "{#mADuraM#}",
+    "_banner": "{#pradIpana#}",
     "_bannerExp": [
         {
-            "Right": "mADuraM"
+            "Right": "pradIpana"
+        },
+        {
+            "Right": "pradIpanI"
         }
     ],
     "_gram": [
-        "[{#maDura-aR#}]"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "Tho flower\nof the Mallikā creeper."
+        ".²1 Kindling.\n",
+        ".²2 Illuminating.\n",
+        ".²3 Stimulating, exciting.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 205710,
+            "_ancestry": [
+                "L_ 22967",
+                "B_ {#pradIpana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradIpanam"
+                }
+            ],
+            "_meanings": [
+                "The act of kindling, lighting, stimulating <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 205711,
+            "_ancestry": [
+                "L_ 22967",
+                "B_ {#pradIpana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradIpanaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of mineral poison; {#varRato lohito yaH syAddIptimAn#}\n {#dahanapraBaH . mahAdAhakaraH pUrvEH kaTitaH sa pradIpanaH ..#} <ls>Rājanighaṇṭu.</ls>"
+            ]
+        }
     ]
 }

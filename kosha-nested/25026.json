@@ -1,42 +1,61 @@
 {
-    "__line": 212089,
+    "__line": 224918,
     "_ancestry": [
         "L_ 25026",
-        "B_ {#vami#}"
+        "B_ {#BAgavata#}"
     ],
-    "_banner": "{#vami#}",
+    "_banner": "{#BAgavata#}",
     "_bannerExp": [
         {
-            "Right": "vami"
+            "Right": "BAgavata"
+        },
+        {
+            "Right": "BAgavatI"
         }
     ],
     "_gram": [
-        "[{#vam-in#}]"
+        "{%a.%}",
+        "({#-tI#}|{%f.%})",
+        "[{#BagavataH BagavatyA vA idaM so'sya devatA vA aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Fire. ",
-        "{@--2@} A cheat,\nrogue. "
+        ".²1 Relating to or worshipping Viṣṇu.\n",
+        ".²2 Pertaining to a god; {#kOmArAdAcaret prAjYo DarmAn BAgavatAniha#}\n",
+        ".²3 Holy, divine, sacred.\n"
     ],
     "_morphisms": [
         {
-            "__line": 212090,
+            "__line": 224923,
             "_ancestry": [
                 "L_ 25026",
-                "B_ {#vami#}",
-                "M_ {#--miH#}"
+                "B_ {#BAgavata#}",
+                "M_ .{@{#-taH#}@}"
             ],
-            "_banner": "{#--miH#}",
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vamiH"
+                    "Right": "BAgavataH"
                 }
             ],
-            "_gram": [
-                "{%<ab>f.</ab>%}"
+            "_meanings": [
+                "A follower or devotee of Viṣṇu or Kṛṣṇa.\n"
+            ]
+        },
+        {
+            "__line": 224924,
+            "_ancestry": [
+                "L_ 25026",
+                "B_ {#BAgavata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAgavatam"
+                }
             ],
             "_meanings": [
-                "{@--1@} Sickness, nausea.\n",
-                "{@--2@} An emetic."
+                "<ab>N.</ab> of one of the 18 Purāṇas."
             ]
         }
     ]

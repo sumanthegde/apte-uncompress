@@ -1,60 +1,66 @@
 {
-    "__line": 114772,
+    "__line": 116895,
     "_ancestry": [
         "L_ 13726",
-        "B_ {#janana#}"
+        "B_ {#KyAta#}"
     ],
-    "_banner": "{#janana#}",
+    "_banner": "{#KyAta#}",
     "_bannerExp": [
         {
-            "Right": "janana"
+            "Right": "KyAta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#jan BAve lyuw#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#KyA-kta#}]"
     ],
     "_meanings": [
-        "Producing,\ncausing &c.; {#BujagAnAM jananIM jajApa#}\n{#vidyAM#} <ls>Śi. 20. 41.</ls> "
+        ".²1 Known; {#KyAtaM naBaHSabdamayena nAmnA#} <ls>R. 18. 6</ls>.\n",
+        ".²2 Named, called.\n",
+        ".²3 Told.\n",
+        ".²4 Celebrated, famous, well-known.\n",
+        ".²5 Notorious; {#KyAtaH Sakro BagANgo viDurapi malino mADavo gopajAtaH#} <ls>Udb.</ls>\n",
+        ".²6 Made known, betrayed, discovered; ({#KyApita#} {%<ab>p. p.</ab>%} {%<ab>Caus.</ab>%}) {#pramAdAlasyajAqyAni#}\n {#KyApitAni#} <ls>Pt. 1. 39</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 114774,
+            "__line": 116903,
             "_ancestry": [
                 "L_ 13726",
-                "B_ {#janana#}",
-                "M_ {#--naH#}"
+                "B_ {#KyAta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "jananaH"
+                    "Right": "KyAtam"
                 }
             ],
             "_meanings": [
-                "The Supreme\nBeing. "
+                ".²1 Communication, mention.\n",
+                ".²2 Proclamation.\n"
             ]
-        },
+        }
+    ],
+    "_samasas": [
         {
-            "__line": 114775,
+            "__line": 116907,
             "_ancestry": [
                 "L_ 13726",
-                "B_ {#janana#}",
-                "M_ {#--naM#}"
+                "B_ {#KyAta#}",
+                "S_ .{@{#-garhaRa#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-garhaRa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "jananaM"
+                    "Right": "KyAtagarhaRa"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} Birth, being born;\n{#yAvajjananaM tAvanmaraRaM#} <ls>Moha M. 13.</ls>\n",
-                "{@--2@} Causing, production, creation;\n{#SoBAjananAt#} <ls>Ku. 1. 42.</ls> ",
-                "{@--3@} \nAppearance, manifestation, rise. ",
-                "{@--4@} Life,\nexistence; {#yadEva pUrve janane SarIraM sA#}\n{#dakzarozAtsudatI sasarja#} <ls>Ku. 1. 53</ls>;  \n<ls>Ś. 5. 2.</ls> ",
-                "{@--5@} Race, family, lineage. ",
-                "{@--6@}\nPreparation for a religious \nceremony ({#dIkzA#})."
+                "notoriously vile, infamous."
             ]
         }
     ]

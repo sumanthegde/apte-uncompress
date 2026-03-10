@@ -1,21 +1,668 @@
 {
-    "__line": 153861,
+    "__line": 162892,
     "_ancestry": [
         "L_ 18319",
-        "B_ {#parisaraH#}"
+        "B_ {#naBas#}"
     ],
-    "_banner": "{#parisaraH#}",
+    "_banner": "{#naBas#}",
     "_bannerExp": [
         {
-            "Right": "parisaraH"
+            "Right": "naBas"
         }
     ],
+    "_gram": [
+        "{%n.%}",
+        "[{#nahyate meGEH nah-asun BaScAntAdeSaH#}; <ab>cf.</ab> <ls>Uṇ. 4. 210</ls>]"
+    ],
     "_meanings": [
-        "{@--1@} Verge, border, \nproximity, vicinity, neighbourhood, \nenvirons (of a river, mountain, town\n&c.); {#godAvarIparisarasya gireratawAni#}  \n<ls>U. 3. 8</ls>; {#parisaravizayezu lIQamuktAH#}  \n<ls>Ki. 5. 38.</ls> ",
-        "{@--2@} Position, site. ",
-        "{@--3@} Width,\nbreadth. ",
-        "{@--4@} Death. ",
-        "{@--5@} A rule, \nprecept. ",
-        "{@--6@} A god."
+        ".²1 The sky, atmosphere; <ls>R. 5. 29</ls>; {#naBaSca pfTivIM cEva tumulo vyanunAdayan#}\n <ls>Bg. 1. 19</ls>; {#vanAntare toyamiti praDAvitA nirIkzya BinnAYjanasaMniBaM#}\n {#naBaH#} <ls>Ṛs. 1. 11</ls>.\n",
+        ".²2 A cloud.\n",
+        ".²3 Fog, vapour.\n",
+        ".²4 Water.\n",
+        ".²5 Period of life, age. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 162899,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#naBas#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The rains or rainy season.\n",
+                ".²2 The nose, smell.\n",
+                ".²3 <ab>N.</ab> of the month of Śrāvaṇa (corresponding to July-August), (said\n to be {%n.%} also in this sense); {#pratyAsanne naBasi dayitAjIvitAlambanArTI#}\n <ls>Me. 4</ls>; <ls>R. 12. 29</ls>, <ls n=\"R.\">17. 41</ls>, <ls n=\"R.\">18. 6</ls>; <ls>N. 9. 84</ls>; {#SrAvaRe tu syAnnaBAH SrAvaRikaSca#}\n {#saH#} <ls>Ak.</ls>; {#paYcamo'yaM tu saMprAptaH naBAH SyAmanaBAH SuBaH#} <ls>Śiva B. 26. 57</ls>.\n",
+                ".²4 The fibres in the root of the lotus.\n",
+                ".²5 A spitting-pot. --(<ab>du.</ab>) Both the worlds, heaven and earth.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 162909,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-ambupaH#}@}"
+            ],
+            "_banner": ".{@{#-ambupaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBo'mbupaH"
+                }
+            ],
+            "_meanings": [
+                "the Chātaka bird.\n"
+            ]
+        },
+        {
+            "__line": 162910,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-ketanaH, -pAnTaH#}@}"
+            ],
+            "_banner": ".{@{#-ketanaH, -pAnTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHketanaH"
+                },
+                {
+                    "Right": "naBaHpAnTaH"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 162911,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-krAntin#}@}"
+            ],
+            "_banner": ".{@{#-krAntin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHkrAntin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a lion.\n"
+            ]
+        },
+        {
+            "__line": 162912,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-ga#}@}"
+            ],
+            "_banner": ".{@{#-ga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBoga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going in the sky (as a star, god, bird <ab>&c.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 162913,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-gajaH#}@}"
+            ],
+            "_banner": ".{@{#-gajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBogajaH"
+                }
+            ],
+            "_meanings": [
+                "a cloud.\n"
+            ]
+        },
+        {
+            "__line": 162914,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-gati#}@}"
+            ],
+            "_banner": ".{@{#-gati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBogati"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "soaring, flying.\n"
+            ]
+        },
+        {
+            "__line": 162915,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-cakzus#}@}"
+            ],
+            "_banner": ".{@{#-cakzus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaScakzus"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 162916,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-camasaH#}@}"
+            ],
+            "_banner": ".{@{#-camasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaScamasaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the moon.\n",
+                ".²2 magic.\n"
+            ]
+        },
+        {
+            "__line": 162919,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-cara#}@}"
+            ],
+            "_banner": ".{@{#-cara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaScara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "moving in the sky; {#nikAmataptA viviDena vahninA#}\n {#naBaScareRenDanasaMBftena sA#} <ls>Ku. 5. 23</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 162921,
+                    "_ancestry": [
+                        "L_ 18319",
+                        "B_ {#naBas#}",
+                        "S_ .{@{#-cara#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "naBaScaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a god or demi-god; {#naBaScarErgItayaSAH sa leBe#} <ls>R. 18. 6</ls>.\n",
+                        ".²2 a bird.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 162924,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-talam#}@}"
+            ],
+            "_banner": ".{@{#-talam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBastalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the atmosphere.\n",
+                ".²2 the lower region of the sky; ({#leBe#}) {#naBastalaSyAmatanuM tanUjam#} <ls>R. 18. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 162927,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-duhaH#}@}"
+            ],
+            "_banner": ".{@{#-duhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBoduhaH"
+                }
+            ],
+            "_meanings": [
+                "a cloud.\n"
+            ]
+        },
+        {
+            "__line": 162928,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-dfzwi#}@}"
+            ],
+            "_banner": ".{@{#-dfzwi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBodfzwi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 blind.\n",
+                ".²2 looking towards the sky.\n"
+            ]
+        },
+        {
+            "__line": 162931,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-dvIpaH, -DUmaH#}@}"
+            ],
+            "_banner": ".{@{#-dvIpaH, -DUmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBodvIpaH"
+                },
+                {
+                    "Right": "naBoDUmaH"
+                }
+            ],
+            "_meanings": [
+                "a cloud.\n"
+            ]
+        },
+        {
+            "__line": 162932,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-nadI#}@}"
+            ],
+            "_banner": ".{@{#-nadI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBonadI"
+                }
+            ],
+            "_meanings": [
+                "the celestial Ganges.\n"
+            ]
+        },
+        {
+            "__line": 162933,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-prARaH#}@}"
+            ],
+            "_banner": ".{@{#-prARaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHprARaH"
+                }
+            ],
+            "_meanings": [
+                "wind.\n"
+            ]
+        },
+        {
+            "__line": 162934,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-maRiH#}@}"
+            ],
+            "_banner": ".{@{#-maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBomaRiH"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 162935,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBomaRqalam"
+                }
+            ],
+            "_meanings": [
+                "the firmament, the atmosphere; {#nedaM naBomaRqalamamburASiH#}\n <ls>S. D. 10</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 162936,
+                    "_ancestry": [
+                        "L_ 18319",
+                        "B_ {#naBas#}",
+                        "S_ .{@{#-maRqalam#}@}",
+                        "S_S_ {#˚dIpaH#}"
+                    ],
+                    "_banner": "{#˚dIpaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "naBomaRqaladIpaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the moon.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 162937,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-yoniH#}@}"
+            ],
+            "_banner": ".{@{#-yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBoyoniH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 162938,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-rajas#}@}"
+            ],
+            "_banner": ".{@{#-rajas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBorajas"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "darkness.\n"
+            ]
+        },
+        {
+            "__line": 162939,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBorUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "gloomy, dark.\n"
+            ]
+        },
+        {
+            "__line": 162940,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-reRuH#}@}"
+            ],
+            "_banner": ".{@{#-reRuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBoreRuH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "fog-mist.\n"
+            ]
+        },
+        {
+            "__line": 162941,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-layaH#}@}"
+            ],
+            "_banner": ".{@{#-layaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBolayaH"
+                }
+            ],
+            "_meanings": [
+                "smoke.\n"
+            ]
+        },
+        {
+            "__line": 162942,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-lih#}@}"
+            ],
+            "_banner": ".{@{#-lih#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBolih"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "licking the sky, lofty, very high; <ab>cf.</ab> {#aBraMliha#}.\n"
+            ]
+        },
+        {
+            "__line": 162943,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-vawaH#}@}"
+            ],
+            "_banner": ".{@{#-vawaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBovawaH"
+                }
+            ],
+            "_meanings": [
+                "atmosphere.\n"
+            ]
+        },
+        {
+            "__line": 162944,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-vITI#}@}"
+            ],
+            "_banner": ".{@{#-vITI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBovITI"
+                }
+            ],
+            "_meanings": [
+                "the sunʼs path.\n"
+            ]
+        },
+        {
+            "__line": 162945,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-SvAsaH#}@}"
+            ],
+            "_banner": ".{@{#-SvAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHSvAsaH"
+                }
+            ],
+            "_meanings": [
+                "wind.\n"
+            ]
+        },
+        {
+            "__line": 162946,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-sad#}@}"
+            ],
+            "_banner": ".{@{#-sad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHsad"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a bird.\n",
+                ".²2 a star.\n",
+                ".²3 a god; {#atIndriyajYAnaniDirnaBaHsadaH#} <ls>Śi. 1. 11</ls>.\n"
+            ]
+        },
+        {
+            "__line": 162950,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-sarit#}@}"
+            ],
+            "_banner": ".{@{#-sarit#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHsarit"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 the milky way.\n",
+                ".²2 the celestial Ganges.\n"
+            ]
+        },
+        {
+            "__line": 162953,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-sTalaH#}@}"
+            ],
+            "_banner": ".{@{#-sTalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHsTalaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 162954,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-sTalI#}@}"
+            ],
+            "_banner": ".{@{#-sTalI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHsTalI"
+                }
+            ],
+            "_meanings": [
+                "the sky.\n"
+            ]
+        },
+        {
+            "__line": 162955,
+            "_ancestry": [
+                "L_ 18319",
+                "B_ {#naBas#}",
+                "S_ .{@{#-spfS#}@}"
+            ],
+            "_banner": ".{@{#-spfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaHspfS"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "reaching the sky, lofty."
+            ]
+        }
     ]
 }

@@ -1,21 +1,55 @@
 {
-    "__line": 213583,
+    "__line": 227079,
     "_ancestry": [
         "L_ 25214",
-        "B_ {#valk#}"
+        "B_ {#BujaNgamaH#}"
     ],
-    "_banner": "{#valk#}",
+    "_banner": "{#BujaNgamaH#}",
     "_bannerExp": [
         {
-            "Right": "valk"
+            "Right": "BujaNgamaH"
         }
     ],
-    "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#valkayati-te#})"
-    ],
     "_meanings": [
-        "To speak."
+        ".²1 A Snake; {#gajaBujaNgamayorapi banDanam#} <ls>Bh. 2. 91</ls>.\n",
+        ".²2 An epithet of Rāhu.\n",
+        ".²3 The number ‘eight’.\n",
+        ".²4 The constellation {#ASlezA#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 227084,
+            "_ancestry": [
+                "L_ 25214",
+                "B_ {#BujaNgamaH#}",
+                "M_ .{@{#-mI#}@}"
+            ],
+            "_banner": ".{@{#-mI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BujaNgamI"
+                }
+            ],
+            "_meanings": [
+                "A female snake.\n"
+            ]
+        },
+        {
+            "__line": 227085,
+            "_ancestry": [
+                "L_ 25214",
+                "B_ {#BujaNgamaH#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BujaNgamam"
+                }
+            ],
+            "_meanings": [
+                "Lead."
+            ]
+        }
     ]
 }

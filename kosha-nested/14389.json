@@ -1,22 +1,40 @@
 {
-    "__line": 119985,
+    "__line": 124365,
     "_ancestry": [
         "L_ 14389",
-        "B_ {#tanyutaH#}"
+        "B_ {#grAvan#}"
     ],
-    "_banner": "{#tanyutaH#}",
+    "_banner": "{#grAvan#}",
     "_bannerExp": [
         {
-            "Right": "tanyutaH"
+            "Right": "grAvan"
         }
     ],
     "_gram": [
-        "[{#tan-yutac#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Wind. ",
-        "{@--2@}\nNight. ",
-        "{@--3@} Roaring, thundering. ",
-        "{@--4@}\nA thunderbolt."
+        "Hard, solid. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 124365,
+            "_ancestry": [
+                "L_ 14389",
+                "B_ {#grAvan#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#grAvan#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A stone or rock; {#kiM hi nAmEtadambuni majjantyalAbUni grAvARaH saMplavanta#}\n {#iti#} <ls>Mv. 1</ls>; {#api grAvA rodityapi dalati vajrasya hfdayam#} <ls>U. 1. 28</ls>; <ls>Śi. 4. 23</ls>.\n",
+                ".²2 A mountain.\n",
+                ".²3 A cloud."
+            ]
+        }
     ]
 }

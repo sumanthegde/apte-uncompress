@@ -1,21 +1,118 @@
 {
-    "__line": 163894,
+    "__line": 175196,
     "_ancestry": [
         "L_ 19561",
-        "B_ {#praklinna#}"
+        "B_ {#nEmittika#}"
     ],
-    "_banner": "{#praklinna#}",
+    "_banner": "{#nEmittika#}",
     "_bannerExp": [
         {
-            "Right": "praklinna"
+            "Right": "nEmittika"
+        },
+        {
+            "Right": "nEmittikI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Moist, humid, wet.\n",
-        "{@--2@} Satisfied ({#tfpta#}). ",
-        "{@--3@} Moved with\npity."
+        ".²1 Produced by, connected with, or dependent on, any particular cause.\n",
+        ".²2 Unusual, occasional, accidental, produced by some cause (<ab>opp.</ab> {#nitya#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 175199,
+            "_ancestry": [
+                "L_ 19561",
+                "B_ {#nEmittika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nEmittikaH"
+                }
+            ],
+            "_meanings": [
+                "An astrologer, prophet.\n"
+            ]
+        },
+        {
+            "__line": 175200,
+            "_ancestry": [
+                "L_ 19561",
+                "B_ {#nEmittika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nEmittikam"
+                }
+            ],
+            "_meanings": [
+                ".²1 An effect (<ab>opp.</ab> {#nimitta#} ‘cause’); {#nimittanEmittikayorayaM kramaH#} <ls>Ś. 7. 30</ls>.\n",
+                ".²2 An occasional rite, a periodical ceremony, a conditional act, an act\n which is to be performed on the occurrence of a {#nimitta#}; {#nimittaprAptO#}\n {#ca nEmittikaM kartavyam#} <ls>ŚB. on MS. 12. 1. 18</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 175206,
+            "_ancestry": [
+                "L_ 19561",
+                "B_ {#nEmittika#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nEmittikakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-kriyA#}@}"
+            ],
+            "_meanings": [
+                "an occasional or periodical ceremony or rite.\n"
+            ]
+        },
+        {
+            "__line": 175208,
+            "_ancestry": [
+                "L_ 19561",
+                "B_ {#nEmittika#}",
+                "S_ .{@{#-layaH#}@}"
+            ],
+            "_banner": ".{@{#-layaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nEmittikalayaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a {#brAhmalaya#} occurring at the end of four thousand years.\n"
+            ]
+        },
+        {
+            "__line": 175209,
+            "_ancestry": [
+                "L_ 19561",
+                "B_ {#nEmittika#}",
+                "S_ .{@{#-SrAdDam#}@}"
+            ],
+            "_banner": ".{@{#-SrAdDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nEmittikaSrAdDam"
+                }
+            ],
+            "_meanings": [
+                "a special funeral rite."
+            ]
+        }
     ]
 }

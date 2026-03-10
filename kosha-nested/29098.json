@@ -1,16 +1,71 @@
 {
-    "__line": 244377,
+    "__line": 269429,
     "_ancestry": [
         "L_ 29098",
-        "B_ {#saDarmiRI#}"
+        "B_ {#vAsanta#}"
     ],
-    "_banner": "{#saDarmiRI#}",
+    "_banner": "{#vAsanta#}",
     "_bannerExp": [
         {
-            "Right": "saDarmiRI"
+            "Right": "vAsanta"
+        },
+        {
+            "Right": "vAsantI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-ntI#}|{%f.%})"
+    ],
     "_meanings": [
-        "See {#saDarmacAriRI#} above."
+        ".²1 Vernal, suitable to or produced in spring.\n",
+        ".²2 In the spring or prime of life, youthful.\n",
+        ".²3 Diligent, attentive (in the performance of duties).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 269433,
+            "_ancestry": [
+                "L_ 29098",
+                "B_ {#vAsanta#}",
+                "M_ .{@{#-ntaH#}@}"
+            ],
+            "_banner": ".{@{#-ntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsantaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A camel.\n",
+                ".²2 A young elephant.\n",
+                ".²3 Any young animal.\n",
+                ".²4 A cuckoo.\n",
+                ".²5 The south wind, the breeze blowing from the Malaya mountain; <ab>cf.</ab> {#malayasamIra#}.\n",
+                ".²6 A kind of bean. ",
+                ".²7 A dissolute man.\n"
+            ]
+        },
+        {
+            "__line": 269440,
+            "_ancestry": [
+                "L_ 29098",
+                "B_ {#vAsanta#}",
+                "M_ .{@{#-ntI#}@}"
+            ],
+            "_banner": ".{@{#-ntI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsantI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of jasmine (with fragrant flowers); {#vasante vAsantIkusumasukumArEravayavEH#} <ls>Gīt. 1</ls>.\n",
+                ".²2 Long pepper.\n",
+                ".²3 The trumpet-flower.\n",
+                ".²4 <ab>N.</ab> of a festival held in honour of Cupid; <ab>cf.</ab> {#vasantotsava#}.\n",
+                ".²5 The spring creeper."
+            ]
+        }
     ]
 }

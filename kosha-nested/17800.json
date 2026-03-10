@@ -1,19 +1,61 @@
 {
-    "__line": 150558,
+    "__line": 157442,
     "_ancestry": [
         "L_ 17800",
-        "B_ {#parAkramin#}"
+        "B_ {#dvika#}"
     ],
-    "_banner": "{#parAkramin#}",
+    "_banner": "{#dvika#}",
     "_bannerExp": [
         {
-            "Right": "parAkramin"
+            "Right": "dvika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Heroic, spirited, \ncourageous, valiant."
+        ".²1 Two-fold, forming a pair, consisting of two; <ls>Bṛ. S. 13. 3</ls>.\n",
+        ".²2 Second.\n",
+        ".²3 Happening the second time.\n",
+        ".²4 Increased by two, two percent; {#dvika SataM vfdDiH#} <ls>Ms. 8. 141-42</ls>.\n See {#dvika#} under {#dvi#} also.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 157448,
+            "_ancestry": [
+                "L_ 17800",
+                "B_ {#dvika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A crow.\n",
+                ".²2 A chakravāka bird; {#‘vayaM kAkA vayaM kAkA jalpantIti Kage dvikAH’#} <ls>Udb.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 157452,
+            "_ancestry": [
+                "L_ 17800",
+                "B_ {#dvika#}",
+                "S_ .{@{#-pfzWaH#}@}"
+            ],
+            "_banner": ".{@{#-pfzWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvikapfzWaH"
+                }
+            ],
+            "_meanings": [
+                "the two-humped camel."
+            ]
+        }
     ]
 }

@@ -1,80 +1,74 @@
 {
-    "__line": 193698,
+    "__line": 205952,
     "_ancestry": [
         "L_ 22998",
-        "B_ {#mAnuza#}"
+        "B_ {#praDanam#}"
     ],
-    "_banner": "{#mAnuza#}",
+    "_banner": "{#praDanam#}",
     "_bannerExp": [
         {
-            "Right": "mAnuzI"
-        },
-        {
-            "Right": "mAnuza"
+            "Right": "praDanam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#zI#}|{%<ab>f.</ab>%})",
-        "[{#manorayaM aR#} \n{#suk ca#}]"
-    ],
     "_meanings": [
-        "{@--1@} Human; {#mAnuzI tanuH, mAnuzI#}\n{#vAk#} &c.; <ls>R. 1. 60</ls>, <ls n=\"R.\">16. 22</ls>;  \n<ls>Bg. 4. 12</ls>; <ls n=\"Bg.\">9. 11</ls>; <ls>Ms. 4. 124.</ls> ",
-        "{@--2@} \nHumane, kind. "
+        ".²1 A battle, fight, war, contest; {#prahitaH praDanAya mADavAnahamAkArayituM#}\n {#mahIBftA#} <ls>Śi. 16. 52</ls>; {#kzetraM kzatrapraDanapiSunaM kOravaM tadBajeTAH#}\n <ls>Me. 50</ls>; <ls>R. 11. 77</ls>; <ls>Mv. 6. 33</ls>; <ls>U. 5. 1</ls>.\n",
+        ".²2 Spoil taken in battle.\n",
+        ".²3 Destruction.\n",
+        ".²4 Tearing, rending.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 193702,
+            "__line": 205960,
             "_ancestry": [
                 "L_ 22998",
-                "B_ {#mAnuza#}",
-                "M_ {#--zaH#}"
+                "B_ {#praDanam#}",
+                "S_ .{@{#-aNgaRam#}@}"
             ],
-            "_banner": "{#--zaH#}",
+            "_banner": ".{@{#-aNgaRam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mAnuzaH"
+                    "Right": "praDanANgaRam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A man, \nhuman being. ",
-                "{@--2@} An epithet of the\nthree signs of the zodiac, Gemini,\nVirgo, and Libra. "
+                "a battle field.\n"
             ]
         },
         {
-            "__line": 193705,
+            "__line": 205961,
             "_ancestry": [
                 "L_ 22998",
-                "B_ {#mAnuza#}",
-                "M_ {#--zI#}"
+                "B_ {#praDanam#}",
+                "S_ .{@{#-AGAtaka#}@}"
             ],
-            "_banner": "{#--zI#}",
+            "_banner": ".{@{#-AGAtaka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mAnuzI"
+                    "Right": "praDanAGAtaka"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} A woman.\n",
-                "{@--2@} A branch of medicine, \nadministering drugs and herbs. "
+                "bringing about a contest.\n"
             ]
         },
         {
-            "__line": 193707,
+            "__line": 205962,
             "_ancestry": [
                 "L_ 22998",
-                "B_ {#mAnuza#}",
-                "M_ {#--zaM#}"
+                "B_ {#praDanam#}",
+                "S_ .{@{#-uttamam#}@}"
             ],
-            "_banner": "{#--zaM#}",
+            "_banner": ".{@{#-uttamam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mAnuzaM"
+                    "Right": "praDanottamam"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nHumanity. ",
-                "{@--2@} Human effort or\naction."
+                "great battle or contest."
             ]
         }
     ]

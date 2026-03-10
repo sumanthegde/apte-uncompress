@@ -1,22 +1,58 @@
 {
-    "__line": 107755,
+    "__line": 109129,
     "_ancestry": [
         "L_ 12827",
-        "B_ {#gruc#}"
+        "B_ {#kfzaka#}"
     ],
-    "_banner": "{#gruc#}",
+    "_banner": "{#kfzaka#}",
     "_bannerExp": [
         {
-            "Right": "gruc"
+            "Right": "kfzaka"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#grocati#})"
+        "{%a.%}",
+        "[{#kfz-kvan#}]"
     ],
     "_meanings": [
-        "{@--1@} To steal,\nrob. ",
-        "{@--2@} To go."
+        ".²1 Attractive, drawing.\n",
+        ".²2 Ploughing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 109132,
+            "_ancestry": [
+                "L_ 12827",
+                "B_ {#kfzaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfzakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A ploughman, husbandman; {#kaccinna BaktaM bIjaM ca karzakasyAvasIdati#} <ls>Mb. 2. 5. 78</ls>.\n",
+                ".²2 An ox.\n"
+            ]
+        },
+        {
+            "__line": 109135,
+            "_ancestry": [
+                "L_ 12827",
+                "B_ {#kfzaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfzakam"
+                }
+            ],
+            "_meanings": [
+                "A ploughshare. (also {%m.%})."
+            ]
+        }
     ]
 }

@@ -1,20 +1,158 @@
 {
-    "__line": 87486,
+    "__line": 86696,
     "_ancestry": [
         "L_ 10419",
-        "B_ {#kardamita#}"
+        "B_ {#uzas#}"
     ],
-    "_banner": "{#kardamita#}",
+    "_banner": "{#uzas#}",
     "_bannerExp": [
         {
-            "Right": "kardamita"
+            "Right": "uzas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} Muddy. ",
-        "{@--2@} Made\nclotty; <ls>Māl. 3</ls>, <ls n=\"Māl.\">9.</ls>"
+        ".²1 Dawn, morning; {#maDu naktamutozasaH#} <ls>Bṛ. Up.</ls> {#pradIpAcirivozasi#}\n <ls>R. 12. 1</ls>; {#uzasi utTAya#} rising at day-break.\n",
+        ".²2 Morning light; <ab>cf.</ab> Aurora; (personified as the daughter of heaven and\n sister of the Ādityas).\n",
+        ".²3 The deity that presides over the morning and evening twilights (used\n in dual); {#uzasO#} or {#uzAsO#}.\n",
+        ".²4 The outer passage of the ear.\n",
+        ".²5 The Malaya range.\n",
+        ".²6 Evening.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 86706,
+            "_ancestry": [
+                "L_ 10419",
+                "B_ {#uzas#}",
+                "M_ .{@{#-sI#}@}"
+            ],
+            "_banner": ".{@{#-sI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzasI"
+                }
+            ],
+            "_meanings": [
+                "The end of the day, evening twilight.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 86708,
+            "_ancestry": [
+                "L_ 10419",
+                "B_ {#uzas#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzaskaraH"
+                }
+            ],
+            "_meanings": [
+                "The moon.\n"
+            ]
+        },
+        {
+            "__line": 86709,
+            "_ancestry": [
+                "L_ 10419",
+                "B_ {#uzas#}",
+                "S_ .{@{#-kalaH#}@}"
+            ],
+            "_banner": ".{@{#-kalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzaskalaH"
+                }
+            ],
+            "_meanings": [
+                "A cock.\n"
+            ]
+        },
+        {
+            "__line": 86710,
+            "_ancestry": [
+                "L_ 10419",
+                "B_ {#uzas#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzaHpatiH"
+                }
+            ],
+            "_meanings": [
+                "Aniruddha.\n"
+            ]
+        },
+        {
+            "__line": 86711,
+            "_ancestry": [
+                "L_ 10419",
+                "B_ {#uzas#}",
+                "S_ .{@{#-buD#}@}"
+            ],
+            "_banner": ".{@{#-buD#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzobuD"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "awakening with the morning light, early awaked.\n"
+            ]
+        },
+        {
+            "__line": 86712,
+            "_ancestry": [
+                "L_ 10419",
+                "B_ {#uzas#}",
+                "S_ .{@{#-buDa#}@}"
+            ],
+            "_banner": ".{@{#-buDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzobuDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "awakening early; {#ketuM divo rocanasTAmuzarbuDam#} <ls>Rv. 3. 2. 14</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 86713,
+                    "_ancestry": [
+                        "L_ 10419",
+                        "B_ {#uzas#}",
+                        "S_ .{@{#-buDa#}@}",
+                        "S_M_ ({@{#-DaH#}@}"
+                    ],
+                    "_banner": "({@{#-DaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "uzobuDaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 fire; <ls>U. 6</ls>.\n",
+                        ".²2 a child.\n",
+                        ".²3 <ab>N.</ab> of a tree ({#citraka#})."
+                    ]
+                }
+            ]
+        }
     ]
 }

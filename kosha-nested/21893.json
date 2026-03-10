@@ -1,21 +1,38 @@
 {
-    "__line": 182000,
+    "__line": 196849,
     "_ancestry": [
         "L_ 21893",
-        "B_ {#Baktimat#}"
+        "B_ {#pozitf#}"
     ],
-    "_banner": "{#Baktimat#}",
+    "_banner": "{#pozitf#}",
     "_bannerExp": [
         {
-            "Right": "Baktimat"
+            "Right": "pozitf"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Devout, having pious\nfaith. ",
-        "{@--2@} Loyally devoted or \nattached, faithful, loyal. ",
-        "{@--3@} Religious,\npious."
+        "One who feeds, nourishes <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 196849,
+            "_ancestry": [
+                "L_ 21893",
+                "B_ {#pozitf#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pozitf#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A feeder."
+            ]
+        }
     ]
 }

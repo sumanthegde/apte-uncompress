@@ -1,40 +1,83 @@
 {
-    "__line": 70458,
+    "__line": 68700,
     "_ancestry": [
         "L_ 8187",
-        "B_ {#udDAna#}"
+        "B_ {#idDa#}"
     ],
-    "_banner": "{#udDAna#}",
+    "_banner": "{#idDa#}",
     "_bannerExp": [
         {
-            "Right": "udDAna"
+            "Right": "idDa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#inD-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Ejected, vomited. ",
-        "{@--2@}\nInflated, corpulent, fat. ",
-        "{@--3@} Gone\nup, ascended, risen. "
+        ".²1 Kindled, lighted; {#rAmasya tripurAntakfddivizadAM tejoBiridDaM DanuH#}\n <ls>Mv. 1. 53</ls>; {#kroDa˚#} <ls>Ratn. 1. 3</ls>; <ls>Mu. 1. 2</ls>; {#˚rAga#} <ls>Ś. 7. 16</ls> whose glow\n or red colour has just broken out.\n",
+        ".²2 Shining, glowing, blazing, bright;\n\n {#tanvantamidDamaBito gurumaMSujAlam#} <ls>Ki. 2. 59</ls>; <ls>Śi. 1. 63</ls>; {#˚boDE#}\n <ls>Bk. 1. 5</ls> ({#pawubudDiBiH#}) sharp.\n",
+        ".²3 Clean, clear.\n",
+        ".²4 Wonderful.\n",
+        ".²5 Obeyed, unresisted (as order); {#˚SAsanaH#} <ls>Ki. 1. 22</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 70460,
+            "__line": 68711,
             "_ancestry": [
                 "L_ 8187",
-                "B_ {#udDAna#}",
-                "M_ {#--naM#}"
+                "B_ {#idDa#}",
+                "M_ .{@{#-dDam#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-dDam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "udDAnaM"
+                    "Right": "idDam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A \nfireplace. ",
-                "{@--2@} Ejecting, vomiting."
+                ".²1 Sunshine, heat.\n",
+                ".²2 Refulgence, splendour.\n",
+                ".²3 Wonder.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 68716,
+            "_ancestry": [
+                "L_ 8187",
+                "B_ {#idDa#}",
+                "S_ .{@{#-dIDitiH#}@}"
+            ],
+            "_banner": ".{@{#-dIDitiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idDadIDitiH"
+                }
+            ],
+            "_meanings": [
+                "fire; {#kurute na Kalu svayecCayA SalaBAninDanamidDadIDitiH#} <ls>Śi. 16. 35</ls>.\n"
+            ]
+        },
+        {
+            "__line": 68717,
+            "_ancestry": [
+                "L_ 8187",
+                "B_ {#idDa#}",
+                "S_ .{@{#-manyu#}@}"
+            ],
+            "_banner": ".{@{#-manyu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idDamanyu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the anger excited."
             ]
         }
     ]

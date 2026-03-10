@@ -1,16 +1,44 @@
 {
-    "__line": 266371,
+    "__line": 295372,
     "_ancestry": [
         "L_ 32008",
-        "B_ {#jayadeva#}"
+        "B_ {#SAstrin#}"
     ],
-    "_banner": "{#jayadeva#}",
+    "_banner": "{#SAstrin#}",
     "_bannerExp": [
         {
-            "Right": "jayadeva"
+            "Right": "SAstrin"
+        },
+        {
+            "Right": "SAstriRI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#SAstraM vettyaDIte vA ini#}]"
+    ],
     "_meanings": [
-        "Author of that charming lyric poem the\nGītagovinda. He was an inhabitant of the village\nKindubilva in the Vīrabhūmi district of Bengal. He\nis said to have lived in the time of a king called\nLakṣmaṇasena who is identified by Dr. Buhler\nwith the Vaidya king of Bengal whose inscription\nis dated Vikrama Saṃvat 1173 or 1116 <ab>A. D.</ab> The\npoet must have, therefore, flourished in the 12th\ncentury."
+        "Versed or skilled\n in the Śāstras. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 295374,
+            "_ancestry": [
+                "L_ 32008",
+                "B_ {#SAstrin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#SAstrin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 One who has mastered the Śāstras, a learned man, a great Paṇḍit.\n",
+                ".²2 A teacher of sacred science."
+            ]
+        }
     ]
 }

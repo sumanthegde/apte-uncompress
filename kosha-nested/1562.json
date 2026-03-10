@@ -1,19 +1,159 @@
 {
-    "__line": 16149,
+    "__line": 14041,
     "_ancestry": [
         "L_ 1562",
-        "B_ {#anugrAhya#}"
+        "B_ {#anitya#}"
     ],
-    "_banner": "{#anugrAhya#}",
+    "_banner": "{#anitya#}",
     "_bannerExp": [
         {
-            "Right": "anugrAhya"
+            "Right": "anitya"
         }
     ],
     "_gram": [
-        "{%<ab>pot. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Fit to be \nfavoured or obliged; {#tataH#} \n{#kaTanenAtmAnamanugrAhyamicCAmi#} <ls>K. 134</ls>; {#na vayamanugrAhyAH#} \n{#prAyo devatAnAM#} <ls n=\"K.\">61.</ls>"
+        ".²1 Not eternal or everlasting, transient, non-eternal, perishable ({#naSvara#})\n (<ab>opp.</ab> {#nitya#}); {#ganDavatI pfTvI sA dviviDA nityA'nityA ca#} <ls>T. S. 9</ls>\n ({#anityA#} = {#kAryarUpA#}); see {#nitya#}; {#yadi nityamanityena nirmalaM malavAhinA .#}\n {#yaSaH kAyena laByeta tanna labDaM Bavennu kim ..#} <ls>H. 1. 45</ls>; {#rajasvalamanityaM#}\n {#ca BUtAvAsamimaM tyajet#} <ls>Ms. 6. 77</ls>; {#Darmo'nityaH suKaduHKe'pyanitye#}\n {#jIvo'nityo heturasyApyanityaH#} <ls>Mb.</ls>\n",
+        ".²2 Occasional, temporary, casual; not peremptory or obligatory as a rule <ab>&c.</ab>, special.\n",
+        ".²3 Unusual, extraordinary; {#varRe cAnitye#} <ls>P. V. 4. 31</ls> ({#lohitakaH#}\n {#kopena, anyaTA tu SvetavarRa iti BAvaH#}); {#AnAyyo'nitye#} <ls n=\"P.\">III. 1. 127</ls>\n ({#sa hi gArhapatyAdAnIyate'nityaSca satatamaprajvalanAt#} <ls>Sk.</ls>) See <ls n=\"P.\">VI. 1. 147</ls>.\n",
+        ".²4 Unsteady, fickle, not permanent; {#anityaM yOvanaM rUpam#} <ls>H. 4. 68</ls>;\n {#˚hfdayA hi tAH#} <ls>Rām.</ls>\n",
+        ".²5 Uncertain, doubtful; {#anityo vijayo yasmAd dfSyate yuDyamAnayoH#}\n <ls>Ms. 7. 199</ls>; {#vijayasya hyanityatvAt#} <ls>Pt. 3. 22</ls>.\n",
+        ".²6 (in grammar) A rule or operation which is not invariable or compulsory; optional.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 14057,
+            "_ancestry": [
+                "L_ 1562",
+                "B_ {#anitya#}",
+                "M_ .{@{#-tyam#}@}"
+            ],
+            "_banner": ".{@{#-tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anityam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "Occasionally, not permanently, incidentally, casually;\n {#anityaM hi sTito yasmAt#} <ls>Ms. 3. 102</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 14060,
+            "_ancestry": [
+                "L_ 1562",
+                "B_ {#anitya#}",
+                "S_ .{@{#-karman, -kriyA#}@}"
+            ],
+            "_banner": ".{@{#-karman, -kriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anityakarman"
+                },
+                {
+                    "Right": "anityakriyA"
+                }
+            ],
+            "_meanings": [
+                "an occasional act, such as a sacrifice for a special\n purpose, a voluntary and occasional act.\n"
+            ]
+        },
+        {
+            "__line": 14062,
+            "_ancestry": [
+                "L_ 1562",
+                "B_ {#anitya#}",
+                "S_ .{@{#-dattaH, -dattakaH, -datrimaH#}@}"
+            ],
+            "_banner": ".{@{#-dattaH, -dattakaH, -datrimaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anityadattaH"
+                },
+                {
+                    "Right": "anityadattakaH"
+                },
+                {
+                    "Right": "anityadatrimaH"
+                }
+            ],
+            "_meanings": [
+                "a son given by his parents to another\n temporarily (for temporary or preliminary adoption).\n"
+            ]
+        },
+        {
+            "__line": 14064,
+            "_ancestry": [
+                "L_ 1562",
+                "B_ {#anitya#}",
+                "S_ .{@{#-pratyavekzA#}@}"
+            ],
+            "_banner": ".{@{#-pratyavekzA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anityapratyavekzA"
+                }
+            ],
+            "_meanings": [
+                "(with Buddhists) the consciousness that everything\n is perishable and is passing away.\n"
+            ]
+        },
+        {
+            "__line": 14066,
+            "_ancestry": [
+                "L_ 1562",
+                "B_ {#anitya#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anityaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "transitoriness, transient, state, limited nature or existence;\n so {#anityatA-tvam#} frailty, instability.\n"
+            ]
+        },
+        {
+            "__line": 14068,
+            "_ancestry": [
+                "L_ 1562",
+                "B_ {#anitya#}",
+                "S_ .{@{#-samaH#}@}"
+            ],
+            "_banner": ".{@{#-samaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anityasamaH"
+                }
+            ],
+            "_meanings": [
+                "a sophism or fallacious reasoning which generalizes what\n is exceptional (as {#anityatvam#}).\n"
+            ]
+        },
+        {
+            "__line": 14070,
+            "_ancestry": [
+                "L_ 1562",
+                "B_ {#anitya#}",
+                "S_ .{@{#-samAsaH#}@}"
+            ],
+            "_banner": ".{@{#-samAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anityasamAsaH"
+                }
+            ],
+            "_meanings": [
+                "a compound which it is not obligatory to form in every\n case (the sense of which may be equally expressed by resolving it into\n its constituent members.)."
+            ]
+        }
     ]
 }

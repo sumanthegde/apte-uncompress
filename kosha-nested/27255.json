@@ -1,21 +1,420 @@
 {
-    "__line": 229235,
+    "__line": 250553,
     "_ancestry": [
         "L_ 27255",
-        "B_ {#vyape#}"
+        "B_ {#rata#}"
     ],
-    "_banner": "{#vyape#}",
+    "_banner": "{#rata#}",
     "_bannerExp": [
         {
-            "Right": "vyape"
+            "Right": "rata"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>"
+        "{%<ab>p. p.</ab>%}",
+        "[{#ram-kartari kta#}]"
     ],
     "_meanings": [
-        "{@--1@} To depart or deviate\nfrom, be free from; {#vyapetamadamatsaraH#}\n<ls>Y. 1. 268</ls>; {#smftyAcAravyapetena mArgeRa#}  \n<ls n=\"Y.\">2. 5.</ls> ",
-        "{@--2@} To go away, separate, part\nasunder; {#sametya ca vyapeyAtAM#}  \n<ls>H. 4. 69</ls>; <ls>Ms. 9. 142</ls>; <ls n=\"Ms.\">11. 98.</ls>"
+        ".²1 Pleased, delighted, gratified.\n",
+        ".²2 Pleased or delighted with, fond of, enamoured of, fondly attached to.\n",
+        ".²3 Inclined to, disposed.\n",
+        ".²4 Loved, beloved.\n",
+        ".²5 Intent on, engaged in, devoted to; {#gobrAhmaRahite rataH#} <ls>Ms. 11. 78</ls>.\n",
+        ".²6 Having sexual intercourse with (see {#ram#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 250560,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Pleasure.\n",
+                ".²2 Sexual union, coition; {#anvaBUt parijanANganAratam#} <ls>R. 19. 23</ls>, <ls n=\"R. 19.\">25</ls>; <ls>Me. 91</ls>.\n",
+                ".²3 The private parts.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 250565,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-anDrI#}@}"
+            ],
+            "_banner": ".{@{#-anDrI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratAnDrI"
+                }
+            ],
+            "_gram": [
+                "({#aNGrI ?#})",
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "mist, fog.\n"
+            ]
+        },
+        {
+            "__line": 250566,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-andukaH, -AmardaH#}@}"
+            ],
+            "_banner": ".{@{#-andukaH, -AmardaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratAndukaH"
+                },
+                {
+                    "Right": "ratAmardaH"
+                }
+            ],
+            "_meanings": [
+                "a dog.\n"
+            ]
+        },
+        {
+            "__line": 250567,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-ayanI#}@}"
+            ],
+            "_banner": ".{@{#-ayanI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratAyanI"
+                }
+            ],
+            "_meanings": [
+                "a prostitute, harlot.\n"
+            ]
+        },
+        {
+            "__line": 250568,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-arTin#}@}"
+            ],
+            "_banner": ".{@{#-arTin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratArTin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lustful, lascivious.\n"
+            ]
+        },
+        {
+            "__line": 250569,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-udvahaH#}@}"
+            ],
+            "_banner": ".{@{#-udvahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratodvahaH"
+                }
+            ],
+            "_meanings": [
+                "the (Indian) cuckoo.\n"
+            ]
+        },
+        {
+            "__line": 250570,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-fdDika#}@}"
+            ],
+            "_banner": ".{@{#-fdDika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratardDika"
+                }
+            ],
+            "_meanings": [
+                ".²1 a day.\n",
+                ".²2 the eight auspicious objects.\n",
+                ".²3 bathing for pleasure.\n"
+            ]
+        },
+        {
+            "__line": 250574,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-kIlaH#}@}"
+            ],
+            "_banner": ".{@{#-kIlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratakIlaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a dog.\n",
+                ".²2 a penis.\n"
+            ]
+        },
+        {
+            "__line": 250577,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-kUjitam#}@}"
+            ],
+            "_banner": ".{@{#-kUjitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratakUjitam"
+                }
+            ],
+            "_meanings": [
+                "lustful or lascivious murmur.\n"
+            ]
+        },
+        {
+            "__line": 250578,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-guruH#}@}"
+            ],
+            "_banner": ".{@{#-guruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rataguruH"
+                }
+            ],
+            "_meanings": [
+                "a\n\n husband.\n"
+            ]
+        },
+        {
+            "__line": 250581,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-gfham#}@}"
+            ],
+            "_banner": ".{@{#-gfham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratagfham"
+                }
+            ],
+            "_meanings": [
+                "pudendum muliebre.\n"
+            ]
+        },
+        {
+            "__line": 250582,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-jvaraH#}@}"
+            ],
+            "_banner": ".{@{#-jvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratajvaraH"
+                }
+            ],
+            "_meanings": [
+                "a crow.\n"
+            ]
+        },
+        {
+            "__line": 250583,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-tAlin#}@}"
+            ],
+            "_banner": ".{@{#-tAlin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratatAlin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a libertine, sensualist.\n"
+            ]
+        },
+        {
+            "__line": 250584,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-tAlI#}@}"
+            ],
+            "_banner": ".{@{#-tAlI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratatAlI"
+                }
+            ],
+            "_meanings": [
+                "a procuress, bawd.\n"
+            ]
+        },
+        {
+            "__line": 250585,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-nArAcaH, -nArIcaH#}@}"
+            ],
+            "_banner": ".{@{#-nArAcaH, -nArIcaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratanArAcaH"
+                },
+                {
+                    "Right": "ratanArIcaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a voluptuary.\n",
+                ".²2 the god of love, Cupid.\n",
+                ".²3 a dog.\n",
+                ".²4 lascivious murmur.\n"
+            ]
+        },
+        {
+            "__line": 250590,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-niDiH#}@}"
+            ],
+            "_banner": ".{@{#-niDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rataniDiH"
+                }
+            ],
+            "_meanings": [
+                "the wagtail.\n"
+            ]
+        },
+        {
+            "__line": 250591,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-banDaH#}@}"
+            ],
+            "_banner": ".{@{#-banDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratabanDaH"
+                }
+            ],
+            "_meanings": [
+                "sexual union.\n"
+            ]
+        },
+        {
+            "__line": 250592,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-mAnasa#}@}"
+            ],
+            "_banner": ".{@{#-mAnasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratamAnasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a delighted mind.\n"
+            ]
+        },
+        {
+            "__line": 250593,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-viSezAH#}@}"
+            ],
+            "_banner": ".{@{#-viSezAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rataviSezAH"
+                }
+            ],
+            "_meanings": [
+                "various kinds of sexual union.\n"
+            ]
+        },
+        {
+            "__line": 250594,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-vraRaH, -SAyin#}@}"
+            ],
+            "_banner": ".{@{#-vraRaH, -SAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratavraRaH"
+                },
+                {
+                    "Right": "rataSAyin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a dog.\n"
+            ]
+        },
+        {
+            "__line": 250595,
+            "_ancestry": [
+                "L_ 27255",
+                "B_ {#rata#}",
+                "S_ .{@{#-hiRqaka#}@}"
+            ],
+            "_banner": ".{@{#-hiRqaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ratahiRqaka"
+                }
+            ],
+            "_meanings": [
+                ".²1 a ravisher or seducer of women.\n",
+                ".²2 a voluptuary."
+            ]
+        }
     ]
 }

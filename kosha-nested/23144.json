@@ -1,19 +1,40 @@
 {
-    "__line": 194782,
+    "__line": 207055,
     "_ancestry": [
         "L_ 23144",
-        "B_ {#mitratA --tvaM#}"
+        "B_ {#praBAs#}"
     ],
-    "_banner": "{#mitratA --tvaM#}",
+    "_banner": "{#praBAs#}",
     "_bannerExp": [
         {
-            "Right": "mitratA"
-        },
-        {
-            "Right": "mitratvaM"
+            "Right": "praBAs"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>Ā.</ab>"
+    ],
     "_meanings": [
-        "Friendship, friendliness."
+        "²1 To shine.\n",
+        ".²2 To appear. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 207057,
+            "_ancestry": [
+                "L_ 23144",
+                "B_ {#praBAs#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "praBAs"
+                }
+            ],
+            "_meanings": [
+                "To illuminate, irradiate."
+            ]
+        }
     ]
 }

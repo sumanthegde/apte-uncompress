@@ -1,16 +1,59 @@
 {
-    "__line": 84374,
+    "__line": 83644,
     "_ancestry": [
         "L_ 10041",
-        "B_ {#kawItalaH#}"
+        "B_ {#upasecana#}"
     ],
-    "_banner": "{#kawItalaH#}",
+    "_banner": "{#upasecana#}",
     "_bannerExp": [
         {
-            "Right": "kawItalaH"
+            "Right": "upasecana"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A crooked sword."
+        "Pouring, sprinkling.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 83645,
+            "_ancestry": [
+                "L_ 10041",
+                "B_ {#upasecana#}",
+                "M_ .{@{#-nam, upasekaH#}@}"
+            ],
+            "_banner": ".{@{#-nam, upasekaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasecanam"
+                },
+                {
+                    "Right": "upasekaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Pouring or sprinkling upon, watering; {#mftyuryasyopasecanam#} <ls>Kaṭh. 2. 25</ls>.\n",
+                ".²2 Infusion; juice.\n"
+            ]
+        },
+        {
+            "__line": 83648,
+            "_ancestry": [
+                "L_ 10041",
+                "B_ {#upasecana#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasecanI"
+                }
+            ],
+            "_meanings": [
+                "A ladle or cup for pouring."
+            ]
+        }
     ]
 }

@@ -1,43 +1,82 @@
 {
-    "__line": 87859,
+    "__line": 86980,
     "_ancestry": [
         "L_ 10453",
-        "B_ {#karzUH#}"
+        "B_ {#Una#}"
     ],
-    "_banner": "{#karzUH#}",
+    "_banner": "{#Una#}",
     "_bannerExp": [
         {
-            "Right": "karzUH"
+            "Right": "Una"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#Un-hAnO ac#} <ls>Uṇ. 3. 2</ls>]"
     ],
     "_meanings": [
-        "{@--1@} A furrow, trench. ",
-        "{@--2@}\nA river. ",
-        "{@--3@} Canal. "
+        ".²1 Wanting, deficient, defective; {#kiMcidUnamanUnarDeH SaradAmayutaM#}\n {#yayO#} <ls>R. 10. 1</ls>; incomplete, insufficient.\n",
+        ".²2 Less than (in number, size or degree); {#UnadvivarzaM niKanat#} <ls>Y. 3. 1</ls>\n less than two years old; {#UnaM vAByaDikaM vApi#} <ls>Y. 2. 295</ls>.\n",
+        ".²3 Fewer, smaller.\n",
+        ".²4 Weaker, inferior; {#UnaM na sattvezvaDiko vavADe#} <ls>R. 2. 14</ls>;\n\n <ls>Ms. 9. 123</ls>.\n",
+        ".²5 Minus (in this sense used with numerals); {#ekona#} less by one; {#˚viMSatiH#}\n 20 minus 1 = 19; so {#˚triMSat#} 29; {#˚paYcASat#} 49; {#azwonaM Satam#}\n 100 minus 8 = 92.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 87860,
+            "__line": 86993,
             "_ancestry": [
                 "L_ 10453",
-                "B_ {#karzUH#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#Una#}",
+                "S_ .{@{#-atirikta#}@}"
             ],
+            "_banner": ".{@{#-atirikta#}@}",
             "_bannerExp": [
                 {
-                    "Right": "karzUH"
+                    "Right": "UnAtirikta"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} A fire of\ndried cow-dung. ",
-                "{@--2@} Agriculture,\ncultivation. ",
-                "{@--3@} Livelihood."
+                "Too little or too much.\n"
+            ]
+        },
+        {
+            "__line": 86994,
+            "_ancestry": [
+                "L_ 10453",
+                "B_ {#Una#}",
+                "S_ .{@{#-abdikam#}@}"
+            ],
+            "_banner": ".{@{#-abdikam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "UnAbdikam"
+                }
+            ],
+            "_meanings": [
+                "The {#SrAdDa#} ceremony on the previous day before the\n anniversary ceremony.\n"
+            ]
+        },
+        {
+            "__line": 86996,
+            "_ancestry": [
+                "L_ 10453",
+                "B_ {#Una#}",
+                "S_ .{@{#-rAtraH, -rAtriH#}@}"
+            ],
+            "_banner": ".{@{#-rAtraH, -rAtriH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "UnarAtraH"
+                },
+                {
+                    "Right": "UnarAtriH"
+                }
+            ],
+            "_meanings": [
+                "<ls>N.</ls> applied to a particular lunar day (which is\n omitted if two lunar days end in one solar day); <ls>Sūrya S. 1. 40</ls>."
             ]
         }
     ]

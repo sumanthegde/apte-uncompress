@@ -1,22 +1,60 @@
 {
-    "__line": 180610,
+    "__line": 196256,
     "_ancestry": [
         "L_ 21800",
-        "B_ {#buq#}"
+        "B_ {#peya#}"
     ],
-    "_banner": "{#buq#}",
+    "_banner": "{#peya#}",
     "_bannerExp": [
         {
-            "Right": "buq"
+            "Right": "peya"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#buqati#})"
+        "{%a.%}",
+        "[{#pA-pAne karmaRi yat#}]"
     ],
     "_meanings": [
-        "{@--1@} To cover,\nhide, conceal. ",
-        "{@--2@} To omit, discharge."
+        ".²1 Drinkable, fit to be quaffed or drunk; {#BojyaM peyaM taTA cUzyaM lehyaM#}\n {#KAdyaM ca carvaRam . nizpeyaM cEva BakzyaM syAdannamazwaviDaM smftam#}\n <ls>Rājanighaṇṭu.</ls>\n",
+        ".²2 Sapid.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 196261,
+            "_ancestry": [
+                "L_ 21800",
+                "B_ {#peya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "peyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Water.\n",
+                ".²2 Milk.\n",
+                ".²3 A drink, beverage.\n"
+            ]
+        },
+        {
+            "__line": 196265,
+            "_ancestry": [
+                "L_ 21800",
+                "B_ {#peya#}",
+                "M_ .{@{#-yA#}@}"
+            ],
+            "_banner": ".{@{#-yA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "peyA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Rice-gruel.\n",
+                ".²2 A drink mixed with a small quantity of boiled rice."
+            ]
+        }
     ]
 }

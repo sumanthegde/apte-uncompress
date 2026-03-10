@@ -1,19 +1,59 @@
 {
-    "__line": 89360,
+    "__line": 89506,
     "_ancestry": [
         "L_ 10637",
-        "B_ {#kAcana, kAcanakaM#}"
+        "B_ {#ekatas#}"
     ],
-    "_banner": "{#kAcana, kAcanakaM#}",
+    "_banner": "{#ekatas#}",
     "_bannerExp": [
         {
-            "Right": "kAcana"
-        },
-        {
-            "Right": "kAcanakaM"
+            "Right": "ekatas"
         }
     ],
+    "_gram": [
+        "{%ind.%}"
+    ],
     "_meanings": [
-        "A string or\ntape which ties a parcel or bundle\nof papers or the leaves of a \nmanuscript; <ab>cf.</ab> {#kacela#}."
+        ".²1 From one side, on one side.\n",
+        ".²2 Singly, one by one; {#ekata#}:--\n {#anyataH#} on one side-on the other side; {#pramuditavarapakzamekatastatkzitipatimaRqalamanyato#}\n {#vitAnam#} <ls>R. 6. 85</ls>; <ls>Ki. 5. 2</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 89511,
+            "_ancestry": [
+                "L_ 10637",
+                "B_ {#ekatas#}",
+                "M_ .{@{#-ekataH---ekataH#}@}"
+            ],
+            "_banner": ".{@{#-ekataH---ekataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ekataH"
+                }
+            ],
+            "_meanings": [
+                "on the one side--on the other side; {#yAtyekato'staSiKaraM#}\n {#patirozaDInAmAvizkfto'ruRapuraHsara ekato'rkaH#} <ls>Ś. 4. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 89513,
+            "_ancestry": [
+                "L_ 10637",
+                "B_ {#ekatas#}",
+                "M_ .{@{#-dat#}@}"
+            ],
+            "_banner": ".{@{#-dat#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: ekatas dat"
+                }
+            ],
+            "_gram": [
+                "({#ekatodat#})"
+            ],
+            "_meanings": [
+                "Having teeth in only one jaw; <ls>Ms. 5. 18</ls>."
+            ]
+        }
     ]
 }

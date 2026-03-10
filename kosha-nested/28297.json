@@ -1,35 +1,187 @@
 {
-    "__line": 237872,
+    "__line": 261312,
     "_ancestry": [
         "L_ 28297",
-        "B_ {#SOBaH#}"
+        "B_ {#ukta#}"
     ],
-    "_banner": "{#SOBaH#}",
+    "_banner": "{#ukta#}",
     "_bannerExp": [
         {
-            "Right": "SOBaH"
+            "Right": "ukta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} God, divinity. ",
-        "{@--2@} The\nbetel-nut tree. "
+        ".²1 Said, spoken.\n",
+        ".²2 Uttered, spoken (<ab>opp.</ab> to {#anumita#} or {#saMBAvita#}).\n",
+        ".²3 Told, addressed; {#asAvanukto 'pi sahAya eva#} <ls>Ku. 3. 21</ls>.\n",
+        ".²4 Indicated; {#asatA CAyayoktAya sadABAsAya te namaH#} <ls>Bhāg. 8. 3. 14</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 237873,
+            "__line": 261317,
             "_ancestry": [
                 "L_ 28297",
-                "B_ {#SOBaH#}",
-                "M_ {#--BaM#}"
+                "B_ {#ukta#}",
+                "M_ .{@{#-ktam#}@}"
             ],
-            "_banner": "{#--BaM#}",
+            "_banner": ".{@{#-ktam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SOBaM"
+                    "Right": "uktam"
                 }
             ],
             "_meanings": [
-                "The city of\nHariścandra."
+                "A speech, words collectively; a sentence.\n"
+            ]
+        },
+        {
+            "__line": 261318,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "M_ .{@{#-ktam, -ktA#}@}"
+            ],
+            "_banner": ".{@{#-ktam, -ktA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktam"
+                },
+                {
+                    "Right": "uktA"
+                }
+            ],
+            "_meanings": [
+                "A stanza of four lines with one syllabic instant,\n (there being one long or two short syllables in each).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 261321,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "S_ .{@{#-anukta#}@}"
+            ],
+            "_banner": ".{@{#-anukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktAnukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "spoken\n\n and not spoken.\n"
+            ]
+        },
+        {
+            "__line": 261324,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "S_ .{@{#-upasaMhAraH#}@}"
+            ],
+            "_banner": ".{@{#-upasaMhAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktopasaMhAraH"
+                }
+            ],
+            "_meanings": [
+                "a brief description, resume, peroration, recapitulation.\n"
+            ]
+        },
+        {
+            "__line": 261325,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "S_ .{@{#-nirvAhaH#}@}"
+            ],
+            "_banner": ".{@{#-nirvAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktanirvAhaH"
+                }
+            ],
+            "_meanings": [
+                "defending an assertion.\n"
+            ]
+        },
+        {
+            "__line": 261326,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "S_ .{@{#-puMskaH#}@}"
+            ],
+            "_banner": ".{@{#-puMskaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktapuMskaH"
+                }
+            ],
+            "_meanings": [
+                "a word (feminine or neuter) of which also a masculine\n exists, and the meaning of which differs from that of the masculine only\n by the notion of gender.\n"
+            ]
+        },
+        {
+            "__line": 261329,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "S_ .{@{#-pratyuktam#}@}"
+            ],
+            "_banner": ".{@{#-pratyuktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktapratyuktam"
+                }
+            ],
+            "_meanings": [
+                "speech and reply, discourse.\n"
+            ]
+        },
+        {
+            "__line": 261330,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "S_ .{@{#-varjam#}@}"
+            ],
+            "_banner": ".{@{#-varjam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktavarjam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "except the case mentioned.\n"
+            ]
+        },
+        {
+            "__line": 261331,
+            "_ancestry": [
+                "L_ 28297",
+                "B_ {#ukta#}",
+                "S_ .{@{#-vAkyam#}@}"
+            ],
+            "_banner": ".{@{#-vAkyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uktavAkyam"
+                }
+            ],
+            "_meanings": [
+                "a dictum, decree."
             ]
         }
     ]

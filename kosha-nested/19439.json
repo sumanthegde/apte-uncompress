@@ -1,22 +1,85 @@
 {
-    "__line": 162888,
+    "__line": 174015,
     "_ancestry": [
         "L_ 19439",
-        "B_ {#pOrastya#}"
+        "B_ {#nIcEs#}"
     ],
-    "_banner": "{#pOrastya#}",
+    "_banner": "{#nIcEs#}",
     "_bannerExp": [
         {
-            "Right": "pOrastya"
+            "Right": "nIcEs"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#puras --BavArye tyak aR#}\n{#ca#}]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@} Eastern: {#pOrastyo vA suKayati#} \n{#marut sADusaMvAhanABiH#} <ls>Māl. 9. 25</ls>  \n{#pOrastyaJaMJAmarut#} <ls n=\"Māl.\">9. 17</ls>; <ls>R. 4. 34.</ls> ",
-        "{@--2@} \nForemost. ",
-        "{@--3@} Prior, first, preceding."
+        "(Often used with the force of an adjective)\n",
+        ".²1 Low, beneath, below, underneath, down, downward; (<ab>opp.</ab> {#upari#});\n {#nIcErgacCatyupari ca daSA cakranemikrameRa#} <ls>Me. 111</ls>.\n",
+        ".²2 Bowing down humbly, modestly; {#praveSya cEnaM puramagrayAyI nIcEH#} <ls>R. 5. 62</ls>.\n",
+        ".²3 Gently, softly; {#nIcErvAsyati#} <ls>Me. 44</ls>.\n",
+        ".²4 In a low tone, with a low or depressed tone; {#nIcEH SaMsa hfdi sTito#}\n {#nanu sa me prAReSvaraH Srozyati#} <ls>Amaru. 70</ls>; {#nIcEranudAttaH#} <ls>P. I. 2. 30</ls>.\n",
+        ".²5 Short, small, dwarfish; {#taTApi nIcErvinayAdadfSyata#} <ls>R. 3. 34</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 174022,
+            "_ancestry": [
+                "L_ 19439",
+                "B_ {#nIcEs#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#nIcEs#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a mountain; {#nIcErAKyaM girimaDivasestatra viSrAmahetoH#} <ls>Me. 25</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 174025,
+            "_ancestry": [
+                "L_ 19439",
+                "B_ {#nIcEs#}",
+                "S_ .{@{#-gatiH#}@}"
+            ],
+            "_banner": ".{@{#-gatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nIcErgatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "slow pace.\n"
+            ]
+        },
+        {
+            "__line": 174026,
+            "_ancestry": [
+                "L_ 19439",
+                "B_ {#nIcEs#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nIcErmuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with downcast countenance."
+            ]
+        }
     ]
 }

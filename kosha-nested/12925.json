@@ -1,19 +1,72 @@
 {
-    "__line": 108527,
+    "__line": 110176,
     "_ancestry": [
         "L_ 12925",
-        "B_ {#GurGurakaH, --rikA#}"
+        "B_ {#kEravaH#}"
     ],
-    "_banner": "{#GurGurakaH, --rikA#}",
+    "_banner": "{#kEravaH#}",
     "_bannerExp": [
         {
-            "Right": "GurGurakaH"
-        },
-        {
-            "Right": "GurGurarikA"
+            "Right": "kEravaH"
         }
     ],
     "_meanings": [
-        "A gurgling sound."
+        ".²1 A gambler, cheat, rogue.\n",
+        ".²2 An enemy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 110179,
+            "_ancestry": [
+                "L_ 12925",
+                "B_ {#kEravaH#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kEravam"
+                }
+            ],
+            "_meanings": [
+                "The white lotus opening at moonrise; {#candro vikAsayati#}\n {#kEravacakravAlam#} <ls>Bh. 2. 73</ls>; {#kasmE nATa samarpya kEravakulaM vyomAntamAlambase#} <ls>Udb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 110181,
+            "_ancestry": [
+                "L_ 12925",
+                "B_ {#kEravaH#}",
+                "M_ .{@{#-vI#}@}"
+            ],
+            "_banner": ".{@{#-vI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kEravI"
+                }
+            ],
+            "_meanings": [
+                "Moonlight.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 110183,
+            "_ancestry": [
+                "L_ 12925",
+                "B_ {#kEravaH#}",
+                "S_ .{@{#-banDuH#}@}"
+            ],
+            "_banner": ".{@{#-banDuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kEravabanDuH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of the moon."
+            ]
+        }
     ]
 }

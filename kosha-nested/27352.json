@@ -1,37 +1,79 @@
 {
-    "__line": 230087,
+    "__line": 251953,
     "_ancestry": [
         "L_ 27352",
-        "B_ {#vyAtta#}"
+        "B_ {#rahita#}"
     ],
-    "_banner": "{#vyAtta#}",
+    "_banner": "{#rahita#}",
     "_bannerExp": [
         {
-            "Right": "vyAtta"
+            "Right": "rahita"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#rah-karmaRi kta#}]"
     ],
     "_meanings": [
-        "Opened, spread, \nexpanded. "
+        ".²1 Quitted, left, abandoned, deserted.\n",
+        ".²2 Separated from, free from, deprived or destitute of, without (with\n <ab>instr.</ab> or at the end of <ab>comp.</ab>); {#rahite BikzuBirgrAme#} <ls>Y. 3. 59</ls>; {#guRarahitaH#};\n {#sattvarahitaH#} <ab>&c.</ab>\n",
+        ".²3 Lonely, solitary.\n"
     ],
     "_morphisms": [
         {
-            "__line": 230088,
+            "__line": 251959,
             "_ancestry": [
                 "L_ 27352",
-                "B_ {#vyAtta#}",
-                "M_ {#--ttaM#}"
+                "B_ {#rahita#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--ttaM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vyAttaM"
+                    "Right": "rahitam"
                 }
             ],
             "_meanings": [
-                "The open mouth."
+                "Secrecy, privacy; {#nopAsitavyO rahite kadAcit#} <ls>Mb. 3. 234. 10</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 251961,
+            "_ancestry": [
+                "L_ 27352",
+                "B_ {#rahita#}",
+                "S_ .{@{#-asura#}@}"
+            ],
+            "_banner": ".{@{#-asura#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahitAsura"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "destitute of divinity.\n"
+            ]
+        },
+        {
+            "__line": 251962,
+            "_ancestry": [
+                "L_ 27352",
+                "B_ {#rahita#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahitAtman"
+                }
+            ],
+            "_meanings": [
+                "one without {#AtmA#} ({%<ab>i. e.</ab>%} {#SUnyAtmA#}); {#SaMsantu#}\n {#kfzRapadavIM rahitAtmanAM naH#} <ls>Bhāg. 10. 30. 9</ls>."
             ]
         }
     ]

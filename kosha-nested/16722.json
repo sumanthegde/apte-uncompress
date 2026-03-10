@@ -1,21 +1,81 @@
 {
-    "__line": 140280,
+    "__line": 144941,
     "_ancestry": [
         "L_ 16722",
-        "B_ {#nidizwa#}"
+        "B_ {#tF#}"
     ],
-    "_banner": "{#nidizwa#}",
+    "_banner": "{#tF#}",
     "_bannerExp": [
         {
-            "Right": "nidizwa"
+            "Right": "tF"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "({#tarati, tatAra, atArIt, tari(rI)zyati, tIrRa#})"
     ],
     "_meanings": [
-        "{@--1@} Pointed out. ",
-        "{@--2@} \nOrdered, directed. ",
-        "{@--3@} Advised, enjoined."
+        ".²1 To cross over, cross; {#kenoqupena paralokanadIM tarizye#} <ls>Mk. 8. 23</ls>;\n {#sa tIrtvA kapiSAm#} <ls>R. 4. 38</ls>; <ls>Ms. 4. 77</ls>.\n",
+        ".²2\n",
+        ".³({%a%}) To cross over, traverse (as a way); ({#aDvAnaM#}) {#tatAra tArADipaKaRqaDArI#}\n <ls>Ku. 7. 48</ls>; <ls>Me. 19</ls>.\n",
+        ".³({%b%}) To sail across, navigate (as a river).\n",
+        ".²3 To float, swim; {#SilA tarizyatyudake na parRam#} <ls>Bk. 12. 77</ls>; <ls>Bṛ. S. 80. 14</ls>.\n",
+        ".²4\n",
+        ".³({%a%}) To get over, surmount, overcome, overpower; {#DIrA hi tarantyApadam#}\n <ls>K. 175</ls>; {#kfcCraM mahattIrRaH#} <ls>R. 14. 6</ls>; <ls>Pt. 4. 1</ls>; <ls>Bg. 18. 58</ls>; <ls>Ms. 11. 34</ls>.\n",
+        ".³({%b%}) To subdue, destroy, become master of.\n",
+        ".²5 To go\n\n to the end of, master completely; {#tatAra vidyAH#} <ls>R. 3. 30</ls>.\n",
+        ".²6 To fulfil, accomplish, perform (as a promise); {#dEvAttIrRapratijYaH#} <ls>Mu. 4. 12</ls>.\n",
+        ".²7 To be saved or rescued, escape from; {#gAvo varzaBayAttIrRA vayaM tIrRA#}\n {#mahABayAt#} <ls>Hariv.</ls>\n",
+        ".²8 To acquire, gain; {#manojavA ayamAna AyasImatarat puram#} <ls>Rv. 8. 100. 8</ls>.\n",
+        ".²9 To move forward rapidly.\n",
+        ".²10 To fill completely, pervade.\n",
+        ".²11 To live through (a definite period).\n",
+        ".²12 To deliver, liberate from.\n",
+        ".²13 To strive together, compete. --{%<ab>Pass.</ab>%} ({#tIryate#}) To be crossed\n <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 144965,
+            "_ancestry": [
+                "L_ 16722",
+                "B_ {#tF#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "tF"
+                }
+            ],
+            "_gram": [
+                "({#tArayati-te#})"
+            ],
+            "_meanings": [
+                ".²1 To carry or lead over; {#tArayasva ca mAM gaNgAm#} <ls>Rām. 7. 46. 29</ls>.\n",
+                ".²2 To cause to arrive at; {#naH pitA yo'smAkamavidyAyAH paraM pAraM tArayasIti#}\n <ls>Praśna. Up. 6. 8</ls>.\n",
+                ".²3 To save, rescue, deliver, liberate. "
+            ]
+        },
+        {
+            "__line": 144969,
+            "_ancestry": [
+                "L_ 16722",
+                "B_ {#tF#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "tF"
+                }
+            ],
+            "_gram": [
+                "({#titIrzati, titarizati#}|{#titarIzati#})"
+            ],
+            "_meanings": [
+                "To wish to cross <ab>&c.</ab>; {#dorByAM titIrzati taraNgavatIBujaNgam#} <ls>K. P. 10</ls>."
+            ]
+        }
     ]
 }

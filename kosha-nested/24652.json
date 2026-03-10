@@ -1,22 +1,38 @@
 {
-    "__line": 208843,
+    "__line": 220542,
     "_ancestry": [
         "L_ 24652",
-        "B_ {#lih#}"
+        "B_ {#bidalam, bindalam#}"
     ],
-    "_banner": "{#lih#}",
+    "_banner": "{#bidalam, bindalam#}",
     "_bannerExp": [
         {
-            "Right": "lih"
+            "Right": "bidalam"
+        },
+        {
+            "Right": "bindalam"
         }
     ],
-    "_gram": [
-        "{c2c}",
-        "<ab>U.</ab>",
-        "({#loQi, lIQe, lileha-lilihe#},\n{#alikzat-ta, alIQa, lekzyati-te, leQuM, lIQa#}, {%<ab>desid.</ab>%}\n{#lilikzati-te#})"
-    ],
     "_meanings": [
-        "{@--1@} To lick; {#kapAle mArjAraH#}\n{#paya iti karA~lleQi SaSinaH#} <ls>K. P. 19</ls>;\n<ls>Bv. 1. 99</ls>; <ls>Ki. 5. 38</ls>; <ls>Śi. 12. 40.</ls>\n",
-        "{@--2@} To lick up, taste, sip, lap;  \n<ls>N. 2. 99</ls>, <ls n=\"N. 2.\">100.</ls>"
+        "See {#vidala#}. Anything split off or produced by splitting.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 220544,
+            "_ancestry": [
+                "L_ 24652",
+                "B_ {#bidalam, bindalam#}",
+                "S_ .{@{#-kArI#}@}"
+            ],
+            "_banner": ".{@{#-kArI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bidalakArI"
+                }
+            ],
+            "_meanings": [
+                "a woman employed in splitting bamboos."
+            ]
+        }
     ]
 }

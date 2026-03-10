@@ -1,41 +1,116 @@
 {
-    "__line": 88350,
+    "__line": 87538,
     "_ancestry": [
         "L_ 10507",
-        "B_ {#kalila#}"
+        "B_ {#Uzman#}"
     ],
-    "_banner": "{#kalila#}",
+    "_banner": "{#Uzman#}",
     "_bannerExp": [
         {
-            "Right": "kalila"
+            "Right": "Uzman"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#kal --ilac#} <ls>Uṇ. 1. 54</ls>]"
+        "{%m.%}"
     ],
     "_meanings": [
-        "{@--1@} Covered with, full of. ",
-        "{@--2@} Mixed,\nblended with; {#tata evAkraMdakalilaH#} \n{#kalakalaH#} <ls>Mv. 1.</ls> ",
-        "{@--3@} Affected by, \nsubject to; {#akalkakalilaH#} <ls>Śi. 19. 98.</ls> ",
-        "{@--4@}\nImpervious, impenetrable. "
+        ".²1 Heat, warmth.\n",
+        ".²2 The hot season, summer.\n",
+        ".²3 Steam, vapour, exhalation.\n",
+        ".²4 Ardour, passion, violence.\n",
+        ".²5 (In <ab>gram.</ab>) The sounds {#S, z, s#} and {#h#}; applied also to {#zk#},\n {#zp, aM#} and {#aH#}.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 88355,
+            "__line": 87546,
             "_ancestry": [
                 "L_ 10507",
-                "B_ {#kalila#}",
-                "M_ {#--laM#}"
+                "B_ {#Uzman#}",
+                "S_ .{@{#-anta#}@}"
             ],
-            "_banner": "{#--laM#}",
+            "_banner": ".{@{#-anta#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kalilaM"
+                    "Right": "UzmAnta"
                 }
             ],
             "_meanings": [
-                "A\nlarge heap, confused mass; {#viSasi#} \n\n{#hfdaya kleSakalilaM#} <ls>Bh. 3. 34</ls>; confusion;\n{#yadA te mohakalilaM budDirvyatitarizyati#}  \n<ls>Bg. 2. 52.</ls>"
+                "ending in an Ūṣman.\n"
+            ]
+        },
+        {
+            "__line": 87547,
+            "_ancestry": [
+                "L_ 10507",
+                "B_ {#Uzman#}",
+                "S_ .{@{#-antasTAH#}@}"
+            ],
+            "_banner": ".{@{#-antasTAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "UzmAntasTAH"
+                }
+            ],
+            "_meanings": [
+                "({%m.%} <ab>pl.</ab>) the sounds called Ūṣman and semivowels.\n"
+            ]
+        },
+        {
+            "__line": 87548,
+            "_ancestry": [
+                "L_ 10507",
+                "B_ {#Uzman#}",
+                "S_ .{@{#-upagamaH#}@}"
+            ],
+            "_banner": ".{@{#-upagamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "UzmopagamaH"
+                }
+            ],
+            "_meanings": [
+                "approach of summer.\n"
+            ]
+        },
+        {
+            "__line": 87551,
+            "_ancestry": [
+                "L_ 10507",
+                "B_ {#Uzman#}",
+                "S_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "UzmapaH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "drinking the steam of hot food; <ls>Mb. 12. 284. 8</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 87552,
+                    "_ancestry": [
+                        "L_ 10507",
+                        "B_ {#Uzman#}",
+                        "S_ .{@{#-paH#}@}",
+                        "S_M_ ({@{#-paH#}@}"
+                    ],
+                    "_banner": "({@{#-paH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "UzmapaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 fire; {#guRAraRicCannaciduzmapAya#} <ls>Bhāg. 8. 3. 16</ls>.\n",
+                        ".²2 a class of manes (<ab>pl.</ab>). <ls>Bg. 11. 22</ls>; {#atrozmapARAM devAnAM nivAsaH#}\n {#SrUyate dvija#} <ls>Mb. 5. 109. 2</ls>. (‘{#UzmapARAm uzRAnnaBojinAm’ iti BAzyakAraH#}.)"
+                    ]
+                }
             ]
         }
     ]

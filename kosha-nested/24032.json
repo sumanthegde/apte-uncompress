@@ -1,22 +1,38 @@
 {
-    "__line": 203380,
+    "__line": 214386,
     "_ancestry": [
         "L_ 24032",
-        "B_ {#rayi#}"
+        "B_ {#prASanIya#}"
     ],
-    "_banner": "{#rayi#}",
+    "_banner": "{#prASanIya#}",
     "_bannerExp": [
         {
-            "Right": "rayi"
+            "Right": "prASanIya"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "{%<ab>n.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Water. ",
-        "{@--2@}\nWealth."
+        "Eatable, serving as food.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 214387,
+            "_ancestry": [
+                "L_ 24032",
+                "B_ {#prASanIya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prASanIyam"
+                }
+            ],
+            "_meanings": [
+                "Food."
+            ]
+        }
     ]
 }

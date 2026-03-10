@@ -1,19 +1,114 @@
 {
-    "__line": 140002,
+    "__line": 144675,
     "_ancestry": [
         "L_ 16687",
-        "B_ {#nicuMpuRaH#}"
+        "B_ {#tftIya#}"
     ],
-    "_banner": "{#nicuMpuRaH#}",
+    "_banner": "{#tftIya#}",
     "_bannerExp": [
         {
-            "Right": "nicuMpuRaH"
+            "Right": "tftIya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} The sea. ",
-        "{@--2@} An\nepithet of Soma. ",
-        "{@--3@} <ab>N.</ab> of an  \n{%avabhrita%} <ab>q. v.</ab> "
+        "The third.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 144676,
+            "_ancestry": [
+                "L_ 16687",
+                "B_ {#tftIya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tftIyaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The 3rd consonant of a Varga.\n",
+                ".²2 (in music) <ab>N.</ab> of measure.\n"
+            ]
+        },
+        {
+            "__line": 144679,
+            "_ancestry": [
+                "L_ 16687",
+                "B_ {#tftIya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tftIyam"
+                }
+            ],
+            "_meanings": [
+                "A third part; {#vanezu ca vihftyEvaM tftIyaM BAgamAyuzaH#}\n <ls>Ms. 6. 33</ls>. "
+            ]
+        },
+        {
+            "__line": 144680,
+            "_ancestry": [
+                "L_ 16687",
+                "B_ {#tftIya#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tftIya#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "For the 3rd time, thirdly; {#tftIyamapsu nfmaRA ajasram#} <ls>Rv. 10. 45. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 144682,
+            "_ancestry": [
+                "L_ 16687",
+                "B_ {#tftIya#}",
+                "S_ .{@{#-karaRI#}@}"
+            ],
+            "_banner": ".{@{#-karaRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tftIyakaraRI"
+                }
+            ],
+            "_meanings": [
+                "the side of a square 3 times smaller than another.\n"
+            ]
+        },
+        {
+            "__line": 144683,
+            "_ancestry": [
+                "L_ 16687",
+                "B_ {#tftIya#}",
+                "S_ .{@{#-prakftiH#}@}"
+            ],
+            "_banner": ".{@{#-prakftiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tftIyaprakftiH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "or {%f.%}\n",
+                ".²1 a eunuch.\n",
+                ".²2 the neuter gender."
+            ]
+        }
     ]
 }

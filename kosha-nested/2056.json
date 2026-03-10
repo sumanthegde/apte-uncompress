@@ -1,24 +1,81 @@
 {
-    "__line": 19981,
+    "__line": 17641,
     "_ancestry": [
         "L_ 2056",
-        "B_ {#anfc-ca#}"
+        "B_ {#anurADa#}"
     ],
-    "_banner": "{#anfc-ca#}",
+    "_banner": "{#anurADa#}",
     "_bannerExp": [
         {
-            "Right": "anfc"
-        },
-        {
-            "Right": "anfca"
+            "Right": "anurADa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na#}. {#ba#}.]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nWithout a hymn, not containing a verse\nfrom the Ṛgveda; {#anfk sAma#} \n<ls>P. V. 4. 74</ls> <ls>Sk.</ls> ",
-        "{@--2@} [{#nAsti fk aByastatayA#} \n{#yasya ac samAsaH#}] Not conversant with,\nnot studying, the Ṛgveda; one not\ninvested with the sacred thread\nand hence not yet entitled to study\nthe Vedas (as a boy); {#yaTA cAjYe'#} \n{#PalaM dAnaM taTA vipro'nfco'PalaH#} <ls>Ms. 2. 158</ls>; \n\n{#anfco mARavakaH#} <ls>Mugdha.</ls> (In this\ncase the form should properly be {#anfca#};\n{#anfcabahvfcAvaDyetaryeva#} <ls>Sk.</ls>; but sometimes\n{#anfc#} also in the same sense; <ab>cf.</ab> {#taTA'#} \n{#nfce havirdatvA na dAtA laBate PalaM#} <ls>Ms. 3. 142</ls>;\n{#sahasraM hi sahasrARAmanfcAM yatra BuMjate#} <ls n=\"Ms. 3.\">131</ls>);\n{#anfkka#} also in the same sense."
+        ".²1 Causing welfare; also written as {#anUrADa#}; {#indraM vayamanUrADaM havAmahe#} <ls>Av.</ls>\n",
+        ".²2 Born under the asterism {#anurADA#} <ls>P. IV. 3. 34</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 17644,
+            "_ancestry": [
+                "L_ 2056",
+                "B_ {#anurADa#}",
+                "M_ .{@{#-DaH#}@}"
+            ],
+            "_banner": ".{@{#-DaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anurADaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a Buddhist.\n"
+            ]
+        },
+        {
+            "__line": 17645,
+            "_ancestry": [
+                "L_ 2056",
+                "B_ {#anurADa#}",
+                "M_ .{@{#-DA#}@}"
+            ],
+            "_banner": ".{@{#-DA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anurADA"
+                }
+            ],
+            "_gram": [
+                "[{#anugatA rADAM viSAKAm#}]"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the 17th of the 27 lunar\n mansions or asterisms (so called because it follows {#rADA#} or {#viSAKA#}).\n It consists of four stars.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 17649,
+            "_ancestry": [
+                "L_ 2056",
+                "B_ {#anurADa#}",
+                "S_ .{@{#-grAmaH, -puram#}@}"
+            ],
+            "_banner": ".{@{#-grAmaH, -puram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anurADagrAmaH"
+                },
+                {
+                    "Right": "anurADapuram"
+                }
+            ],
+            "_meanings": [
+                "the ancient capital of Laṅkā or Ceylon; founded\n by {#anurADa#}. Also called {#anuroDapura#}, described by Rājaśekhara\n as full of curiosities. It is a large town in the north of Ceylon “with 1600\n square granite pillars which supported the floor of an enormous monastery\n called ‘The Great Brazen Palace’ said to have been built in 161 <ab>B. C.</ab>”"
+            ]
+        }
     ]
 }

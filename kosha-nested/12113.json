@@ -1,19 +1,58 @@
 {
-    "__line": 101088,
+    "__line": 102329,
     "_ancestry": [
         "L_ 12113",
-        "B_ {#Karvu(rbu)jaM#}"
+        "B_ {#kArzi#}"
     ],
-    "_banner": "{#Karvu(rbu)jaM#}",
+    "_banner": "{#kArzi#}",
     "_bannerExp": [
         {
-            "Right": "KarbujaM"
-        },
-        {
-            "Right": "KarvujaM"
+            "Right": "kArzi"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The water-melon."
+        "<ab>Ved.</ab>\n",
+        ".²1 Attracting, drawing.\n",
+        ".²2 Ploughing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 102332,
+            "_ancestry": [
+                "L_ 12113",
+                "B_ {#kArzi#}",
+                "M_ .{@{#-rziH#}@}"
+            ],
+            "_banner": ".{@{#-rziH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArziH"
+                }
+            ],
+            "_meanings": [
+                "Fire. "
+            ]
+        },
+        {
+            "__line": 102332,
+            "_ancestry": [
+                "L_ 12113",
+                "B_ {#kArzi#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kArzi#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Drawing.\n",
+                ".²2 Cultivation."
+            ]
+        }
     ]
 }

@@ -1,20 +1,104 @@
 {
-    "__line": 14687,
+    "__line": 12850,
     "_ancestry": [
         "L_ 1387",
-        "B_ {#anASin#}"
+        "B_ {#anavadya#}"
     ],
-    "_banner": "{#anASin#}",
+    "_banner": "{#anavadya#}",
     "_bannerExp": [
         {
-            "Right": "anASin"
+            "Right": "anavadya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na naSyati#} or {#na#} \n{#karmaPalamaSrute; na#}. {#ta#}.]"
+        "{%n.%}",
+        "[{#na avadyaH nindyaH#}]"
     ],
     "_meanings": [
-        "Imperishable, \nindestructible, as the Soul or Supreme \n\nBeing; {#anASino'prameyasya#} <ls>Mb.</ls> ( \n{#ISvarasya karmaPalaBoktftvABAvAt#})."
+        "Faultless, blameless, unobjectionable,\n irreproachable; {#kimu DanErvidyAnavadyA yadi#} <ls>Bh. 2. 17</ls>; {#udavahadanavadyAM#}\n {#tAmavadyAdapetaH#} <ls>R. 7. 70</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 12853,
+            "_ancestry": [
+                "L_ 1387",
+                "B_ {#anavadya#}",
+                "M_ .{@{#-dyA#}@}"
+            ],
+            "_banner": ".{@{#-dyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anavadyA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a damsel.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 12855,
+            "_ancestry": [
+                "L_ 1387",
+                "B_ {#anavadya#}",
+                "S_ .{@{#-aNga, -rUpa#}@}"
+            ],
+            "_banner": ".{@{#-aNga, -rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anavadyANga"
+                },
+                {
+                    "Right": "anavadyarUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having faultless limbs or from, exquisitely\n handsome; {#rUpasya anavadyatA#} <ls>M. 2</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 12857,
+                    "_ancestry": [
+                        "L_ 1387",
+                        "B_ {#anavadya#}",
+                        "S_ .{@{#-aNga, -rUpa#}@}",
+                        "S_M_ ({@{#-aNgI#}@}"
+                    ],
+                    "_banner": "({@{#-aNgI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: anavadyAMga ({@{#-aMgI#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "a woman with a faultless form.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 12858,
+            "_ancestry": [
+                "L_ 1387",
+                "B_ {#anavadya#}",
+                "S_ .{@{#-rAgaH#}@}"
+            ],
+            "_banner": ".{@{#-rAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anavadyarAgaH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "variety of gems. <ls>Kau. A. 2. 11</ls>."
+            ]
+        }
     ]
 }

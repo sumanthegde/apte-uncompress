@@ -1,22 +1,39 @@
 {
-    "__line": 54577,
+    "__line": 51850,
     "_ancestry": [
         "L_ 6191",
-        "B_ {#AdF#}"
+        "B_ {#asevana#}"
     ],
-    "_banner": "{#AdF#}",
+    "_banner": "{#asevana#}",
     "_bannerExp": [
         {
-            "Right": "AdF"
+            "Right": "asevana"
         }
     ],
     "_gram": [
-        "{c9c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} To crush,\nsplit open. ",
-        "{@--2@} To make accessible,\nbring to light, manifest."
+        ".²1 Not serving, disregarding.\n",
+        ".²2 Not following or practising, shunning.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 51853,
+            "_ancestry": [
+                "L_ 6191",
+                "B_ {#asevana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asevanam"
+                }
+            ],
+            "_meanings": [
+                "Disregard, disobedience, inattention."
+            ]
+        }
     ]
 }

@@ -1,20 +1,83 @@
 {
-    "__line": 100226,
+    "__line": 100960,
     "_ancestry": [
         "L_ 11982",
-        "B_ {#kzEtraM#}"
+        "B_ {#kApota#}"
     ],
-    "_banner": "{#kzEtraM#}",
+    "_banner": "{#kApota#}",
     "_bannerExp": [
         {
-            "Right": "kzEtraM"
+            "Right": "kApota"
+        },
+        {
+            "Right": "kApotI"
         }
     ],
     "_gram": [
-        "[{#kzetrARAM sagUhaH aR#}]"
+        "{%a.%}",
+        "({#-tI#}|{%f.%})",
+        "[{#kapota-aR#}]"
     ],
     "_meanings": [
-        "{@--1@} A \nmultitude of fields. ",
-        "{@--2@} A field."
+        ".²1 grey, of a dirty white colour.\n",
+        ".²2 Not hoarding much, very frugal; {#stuvanvfttiM ca kApotIM duhitrA sa#}\n {#yayO purAt#} <ls>Bhāg. 9. 18. 25</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 100964,
+            "_ancestry": [
+                "L_ 11982",
+                "B_ {#kApota#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kApotam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A flock of pigeons.\n",
+                ".²2 Antimony.\n",
+                ".²3 Natron.\n",
+                ".²4 Fossil.\n"
+            ]
+        },
+        {
+            "__line": 100969,
+            "_ancestry": [
+                "L_ 11982",
+                "B_ {#kApota#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kApotaH"
+                }
+            ],
+            "_meanings": [
+                "The grey colour.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 100971,
+            "_ancestry": [
+                "L_ 11982",
+                "B_ {#kApota#}",
+                "S_ .{@{#-aYjanam#}@}"
+            ],
+            "_banner": ".{@{#-aYjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kApotAYjanam"
+                }
+            ],
+            "_meanings": [
+                "antimony applied to the eyes as collyrium."
+            ]
+        }
     ]
 }

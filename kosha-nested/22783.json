@@ -1,19 +1,40 @@
 {
-    "__line": 191026,
+    "__line": 204268,
     "_ancestry": [
         "L_ 22783",
-        "B_ {#marzin#}"
+        "B_ {#pratna#}"
     ],
-    "_banner": "{#marzin#}",
+    "_banner": "{#pratna#}",
     "_bannerExp": [
         {
-            "Right": "marzin"
+            "Right": "pratna"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Enduring, forbearing."
+        ".²1 Old, ancient; {#Aditpratnasya retasaH#} <ls>Ch. Up. 3. 17. 7</ls>.\n",
+        ".²2 Former.\n",
+        ".²3 Traditional, customary.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 204272,
+            "_ancestry": [
+                "L_ 22783",
+                "B_ {#pratna#}",
+                "M_ .{@{#-tnam#}@}"
+            ],
+            "_banner": ".{@{#-tnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratnam"
+                }
+            ],
+            "_meanings": [
+                "A kind of metre."
+            ]
+        }
     ]
 }

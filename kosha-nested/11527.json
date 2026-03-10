@@ -1,16 +1,57 @@
 {
-    "__line": 96771,
+    "__line": 96469,
     "_ancestry": [
         "L_ 11527",
-        "B_ {#kElakilaH#}"
+        "B_ {#kambalin#}"
     ],
-    "_banner": "{#kElakilaH#}",
+    "_banner": "{#kambalin#}",
     "_bannerExp": [
         {
-            "Right": "kElakilaH"
+            "Right": "kambalin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "An epithet of Yavana."
+        "Covered with a blanket. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 96469,
+            "_ancestry": [
+                "L_ 11527",
+                "B_ {#kambalin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kaMbalin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A bullock, ox.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 96471,
+            "_ancestry": [
+                "L_ 11527",
+                "B_ {#kambalin#}",
+                "S_ .{@{#-vAhyaka#}@}"
+            ],
+            "_banner": ".{@{#-vAhyaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kambalivAhyaka"
+                }
+            ],
+            "_meanings": [
+                "a carriage covered with blankets and drawn by oxen, a bullock-cart."
+            ]
+        }
     ]
 }

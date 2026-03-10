@@ -1,19 +1,113 @@
 {
-    "__line": 124427,
+    "__line": 130288,
     "_ancestry": [
         "L_ 15022",
-        "B_ {#trARa, trAta#}"
+        "B_ {#cukraH#}"
     ],
-    "_banner": "{#trARa, trAta#}",
+    "_banner": "{#cukraH#}",
     "_bannerExp": [
         {
-            "Right": "trARa"
-        },
-        {
-            "Right": "trAta"
+            "Right": "cukraH"
         }
     ],
+    "_gram": [
+        "[{#cak-rak ata utvaM ca#} <ls>Uṇ. 2. 15</ls>]"
+    ],
     "_meanings": [
-        "&c. See under {#trE#}."
+        ".²1 A kind of cane or sorrel.\n",
+        ".²2 Sourness.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 130291,
+            "_ancestry": [
+                "L_ 15022",
+                "B_ {#cukraH#}",
+                "M_ .{@{#-kram#}@}"
+            ],
+            "_banner": ".{@{#-kram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cukram"
+                }
+            ],
+            "_meanings": [
+                "Sourness, acidity.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 130294,
+            "_ancestry": [
+                "L_ 15022",
+                "B_ {#cukraH#}",
+                "S_ .{@{#-amlam#}@}"
+            ],
+            "_banner": ".{@{#-amlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cukrAmlam"
+                }
+            ],
+            "_meanings": [
+                "vinegar made by the acetous fermentation of grain. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 130294,
+                    "_ancestry": [
+                        "L_ 15022",
+                        "B_ {#cukraH#}",
+                        "S_ .{@{#-amlam#}@}",
+                        "S_M_ ({@{#-mlA#}@}"
+                    ],
+                    "_banner": "({@{#-mlA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "cukrAmlA"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a tamarind tree.\n",
+                        ".²2 a kind of sour rice-gruel.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 130297,
+            "_ancestry": [
+                "L_ 15022",
+                "B_ {#cukraH#}",
+                "S_ .{@{#-Palam#}@}"
+            ],
+            "_banner": ".{@{#-Palam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cukraPalam"
+                }
+            ],
+            "_meanings": [
+                "the tamarind fruit.\n"
+            ]
+        },
+        {
+            "__line": 130298,
+            "_ancestry": [
+                "L_ 15022",
+                "B_ {#cukraH#}",
+                "S_ .{@{#-vAstUkam#}@}"
+            ],
+            "_banner": ".{@{#-vAstUkam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cukravAstUkam"
+                }
+            ],
+            "_meanings": [
+                "wood-sorrel."
+            ]
+        }
     ]
 }

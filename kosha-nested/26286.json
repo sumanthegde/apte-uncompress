@@ -1,20 +1,729 @@
 {
-    "__line": 221846,
+    "__line": 239963,
     "_ancestry": [
         "L_ 26286",
-        "B_ {#vimardakaH#}"
+        "B_ {#miTyA#}"
     ],
-    "_banner": "{#vimardakaH#}",
+    "_banner": "{#miTyA#}",
     "_bannerExp": [
         {
-            "Right": "vimardakaH"
+            "Right": "miTyA"
         }
     ],
+    "_gram": [
+        "{%ind.%}",
+        "[{#miT-kyap#}]"
+    ],
     "_meanings": [
-        "{@--1@} Grinding, pounding \n\nbruising. ",
-        "{@--2@} The trituration of\nperfumes. ",
-        "{@--3@} An eclipse. ",
-        "{@--4@} The\nconjunction of the sun and moon.\n",
-        "{@--5@} Destroying."
+        ".²1 Falsely, deceitfully, wrongly, incorrectly; <ab>oft.</ab> with the force of\n an adjective; {#maRO mahAnIla iti praBAvAdalpapramARe'pi yaTA na miTyA#}\n <ls>R. 18. 42</ls>; {#yaduvAca na tanmiTyA#} <ls n=\"R.\">17. 42</ls>; {#miTyEva vyasanaM vadanti#}\n {#mfgayAmIdfgvinodaH kutaH#} <ls>Ś. 2. 5</ls>.\n",
+        ".²2 Invertedly, contrarily.\n",
+        ".²3 To no purpose, in vain, fruitlessly; {#miTyA kArayate cArErDozaRAM#}\n {#rAkzasADipaH#} <ls>Bk. 8. 44</ls>; {#miTyEza vyavasAyaste prakftistvAM niyokzyati#}\n <ls>Bg. 18. 59</ls>. ({#miTyA vad-vac#} to tell a falsehood, lie. {#miTyA kf#}\n.²1 to falsify.\n.²2 to contradict. {#miTyA BU#} to turn out false, be false. {#miTyA grah#}\n to misunderstand, mistake.) At the beginning of <ab>comp.</ab> {#miTyA#} may be\n translated by ‘false, untrue, unreal, sham, pretended, feigned’ <ab>&c.</ab>\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 239977,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-aDyavasitiH#}@}"
+            ],
+            "_banner": ".{@{#-aDyavasitiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyADyavasitiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a figure of speech, an expression of the impossibility\n of a thing by making it depend upon an impossible contingency; {#kiMcinmiTyAtvasidDaparTaM#}\n {#miTyArTAntarakalpanam . miTyADyavasitirveSyAM vaSayet KasrajaM vahan ..#} <ls>Kuval.</ls>\n"
+            ]
+        },
+        {
+            "__line": 239980,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-apavAdaH#}@}"
+            ],
+            "_banner": ".{@{#-apavAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyApavAdaH"
+                }
+            ],
+            "_meanings": [
+                "a false charge.\n"
+            ]
+        },
+        {
+            "__line": 239981,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-aBiDAnam#}@}"
+            ],
+            "_banner": ".{@{#-aBiDAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyABiDAnam"
+                }
+            ],
+            "_meanings": [
+                "a false assertion.\n"
+            ]
+        },
+        {
+            "__line": 239982,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-aBiyogaH#}@}"
+            ],
+            "_banner": ".{@{#-aBiyogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyABiyogaH"
+                }
+            ],
+            "_meanings": [
+                "a false or groundless charge.\n"
+            ]
+        },
+        {
+            "__line": 239983,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-aBiSaMsanam#}@}"
+            ],
+            "_banner": ".{@{#-aBiSaMsanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyABiSaMsanam"
+                }
+            ],
+            "_meanings": [
+                "calumny, false accusation.\n"
+            ]
+        },
+        {
+            "__line": 239984,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-aBiSApaH#}@}"
+            ],
+            "_banner": ".{@{#-aBiSApaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyABiSApaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a false prediction.\n",
+                ".²2 a false or unjust claim.\n"
+            ]
+        },
+        {
+            "__line": 239987,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-AcAra#}@}"
+            ],
+            "_banner": ".{@{#-AcAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAcAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 acting falsely.\n",
+                ".²2 hypocritical.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 239990,
+                    "_ancestry": [
+                        "L_ 26286",
+                        "B_ {#miTyA#}",
+                        "S_ .{@{#-AcAra#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "miTyAcAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 wrong treatment (in <ab>medic.</ab>).\n",
+                        ".²2 wrong or improper conduct.\n",
+                        ".²3 a rogue, hypocrite; {#indriyArTAn vimUQAtmA miTyAcAraH sa ucyate#} <ls>Bg. 3. 6</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 239994,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-AhAraH#}@}"
+            ],
+            "_banner": ".{@{#-AhAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAhAraH"
+                }
+            ],
+            "_meanings": [
+                "wrong diet.\n"
+            ]
+        },
+        {
+            "__line": 239995,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-uttaram#}@}"
+            ],
+            "_banner": ".{@{#-uttaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyottaram"
+                }
+            ],
+            "_meanings": [
+                "a false or prevaricating reply.\n"
+            ]
+        },
+        {
+            "__line": 239996,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-upacAraH#}@}"
+            ],
+            "_banner": ".{@{#-upacAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyopacAraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 pretended kindness or service; {#miTyopacArESca vaSIkftAnAM kimarTinAM#}\n {#vaYcayitavyamasti#} <ls>H.</ls>\n",
+                ".²2 (in <ab>medic.</ab>) a wrong treatment of a malady.\n"
+            ]
+        },
+        {
+            "__line": 240000,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAkarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a false act.\n"
+            ]
+        },
+        {
+            "__line": 240001,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-kAruRika#}@}"
+            ],
+            "_banner": ".{@{#-kAruRika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAkAruRika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pretending to be kind; {#miTyAkAruRiko'si nirGfRatarasttvattaH#}\n {#kuto'nyaH pumAn#} <ls>Pt. 5. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 240003,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-kropaH, kroDaH#}@}"
+            ],
+            "_banner": ".{@{#-kropaH, kroDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAkropaH"
+                },
+                {
+                    "Right": "miTyAkroDaH"
+                }
+            ],
+            "_meanings": [
+                "feigned anger.\n"
+            ]
+        },
+        {
+            "__line": 240004,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-krayaH#}@}"
+            ],
+            "_banner": ".{@{#-krayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAkrayaH"
+                }
+            ],
+            "_meanings": [
+                "a false price.\n"
+            ]
+        },
+        {
+            "__line": 240005,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-grahaH#}@}"
+            ],
+            "_banner": ".{@{#-grahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAgrahaH"
+                }
+            ],
+            "_meanings": [
+                "useless obstinacy or persistence.\n"
+            ]
+        },
+        {
+            "__line": 240006,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-grahaH, grahaRam#}@}"
+            ],
+            "_banner": ".{@{#-grahaH, grahaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAgrahaH"
+                },
+                {
+                    "Right": "miTyAgrahaRam"
+                }
+            ],
+            "_meanings": [
+                "misconception, misunderstanding.\n"
+            ]
+        },
+        {
+            "__line": 240007,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-caturviDam#}@}"
+            ],
+            "_banner": ".{@{#-caturviDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAcaturviDam"
+                }
+            ],
+            "_meanings": [
+                "four types of lying; {#miTyEtannABijAnAmi tadA tatra#}\n {#na saMniDiH . ajAtaScAsmi tatkAle iti miTyAcaturviDam ..#}\n"
+            ]
+        },
+        {
+            "__line": 240009,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-caryA#}@}"
+            ],
+            "_banner": ".{@{#-caryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAcaryA"
+                }
+            ],
+            "_meanings": [
+                "hypocrisy.\n"
+            ]
+        },
+        {
+            "__line": 240010,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-jalpitam#}@}"
+            ],
+            "_banner": ".{@{#-jalpitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAjalpitam"
+                }
+            ],
+            "_meanings": [
+                "a false report or speech.\n"
+            ]
+        },
+        {
+            "__line": 240011,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-jYAnam#}@}"
+            ],
+            "_banner": ".{@{#-jYAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAjYAnam"
+                }
+            ],
+            "_meanings": [
+                "a mistake, error, misapprehension.\n"
+            ]
+        },
+        {
+            "__line": 240012,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-darSanam#}@}"
+            ],
+            "_banner": ".{@{#-darSanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAdarSanam"
+                }
+            ],
+            "_meanings": [
+                "heresy.\n"
+            ]
+        },
+        {
+            "__line": 240013,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-dfzwiH#}@}"
+            ],
+            "_banner": ".{@{#-dfzwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAdfzwiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "heresy, holding heretic or atheistic doctrines.\n"
+            ]
+        },
+        {
+            "__line": 240014,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-nirasanam#}@}"
+            ],
+            "_banner": ".{@{#-nirasanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAnirasanam"
+                }
+            ],
+            "_meanings": [
+                "denial by oath.\n"
+            ]
+        },
+        {
+            "__line": 240015,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-paRqita#}@}"
+            ],
+            "_banner": ".{@{#-paRqita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyApaRqita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "educated or learned only in appearance.\n"
+            ]
+        },
+        {
+            "__line": 240016,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-puruzaH#}@}"
+            ],
+            "_banner": ".{@{#-puruzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyApuruzaH"
+                }
+            ],
+            "_meanings": [
+                "a man only in appearance.\n"
+            ]
+        },
+        {
+            "__line": 240017,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-pratijYa#}@}"
+            ],
+            "_banner": ".{@{#-pratijYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyApratijYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "false to oneʼs promise, perfidious.\n"
+            ]
+        },
+        {
+            "__line": 240018,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-pratyayaH#}@}"
+            ],
+            "_banner": ".{@{#-pratyayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyApratyayaH"
+                }
+            ],
+            "_meanings": [
+                "an erroneous perception; {#yo hi janitvA praDvaMsate#}\n {#nEtadevamiti sa miTyApratyayaH#} <ls>ŚB. on MS. 1. 1. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 240020,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-Palam#}@}"
+            ],
+            "_banner": ".{@{#-Palam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAPalam"
+                }
+            ],
+            "_meanings": [
+                "an imaginary advantage.\n"
+            ]
+        },
+        {
+            "__line": 240021,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-matiH#}@}"
+            ],
+            "_banner": ".{@{#-matiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAmatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "delusion, mistake, error.\n"
+            ]
+        },
+        {
+            "__line": 240022,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-yogaH#}@}"
+            ],
+            "_banner": ".{@{#-yogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAyogaH"
+                }
+            ],
+            "_meanings": [
+                "wrong use\n\n or application.\n"
+            ]
+        },
+        {
+            "__line": 240025,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-liNgaDara#}@}"
+            ],
+            "_banner": ".{@{#-liNgaDara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAliNgaDara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being anything only in appearance.\n"
+            ]
+        },
+        {
+            "__line": 240026,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-vacanam, -vAkyam, -vAdaH#}@}"
+            ],
+            "_banner": ".{@{#-vacanam, -vAkyam, -vAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAvacanam"
+                },
+                {
+                    "Right": "miTyAvAkyam"
+                },
+                {
+                    "Right": "miTyAvAdaH"
+                }
+            ],
+            "_meanings": [
+                "an untrue speech, a falsehood, lie.\n"
+            ]
+        },
+        {
+            "__line": 240027,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-vAk, -vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAk, -vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAvAk"
+                },
+                {
+                    "Right": "miTyAvAdin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lying, false, untruthful; {#miTyAvAdini dUti … …#} <ls>K. P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 240028,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-vArtA#}@}"
+            ],
+            "_banner": ".{@{#-vArtA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAvArtA"
+                }
+            ],
+            "_meanings": [
+                "a false report.\n"
+            ]
+        },
+        {
+            "__line": 240029,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-vyApAraH#}@}"
+            ],
+            "_banner": ".{@{#-vyApAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAvyApAraH"
+                }
+            ],
+            "_meanings": [
+                "meddling with anotherʼs affairs.\n"
+            ]
+        },
+        {
+            "__line": 240030,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-vftta#}@}"
+            ],
+            "_banner": ".{@{#-vftta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAvftta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of vicious conduct; {#udyogaM tava saMprekzya miTyAvfttaM#}\n {#ca rAvaRam#} <ls>Rām. 6. 17. 66</ls>.\n"
+            ]
+        },
+        {
+            "__line": 240032,
+            "_ancestry": [
+                "L_ 26286",
+                "B_ {#miTyA#}",
+                "S_ .{@{#-sAkzin#}@}"
+            ],
+            "_banner": ".{@{#-sAkzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTyAsAkzin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a false witness."
+            ]
+        }
     ]
 }

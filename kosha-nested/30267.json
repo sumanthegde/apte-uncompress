@@ -1,18 +1,61 @@
 {
-    "__line": 252955,
+    "__line": 279140,
     "_ancestry": [
         "L_ 30267",
-        "B_ {#sikatA#}"
+        "B_ {#vivarRa#}"
     ],
-    "_banner": "{#sikatA#}",
+    "_banner": "{#vivarRa#}",
     "_bannerExp": [
         {
-            "Right": "sikatA"
+            "Right": "vivarRa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Sandy soil. ",
-        "{@--2@} Sand\n(generally in <ab>pl.</ab>); {#laBeta sikatAsu#}\n{#tElamati yatnataH pIqayan#} <ls>Bh. 2. 5.</ls> ",
-        "{@--3@}\nGravel or stone (the disease)."
+        ".²1 Colourless, pale, wan, pallid; {#narendramArgAwwa iva prapede vivarRaBAvaM#}\n {#sa sa BUmipAlaH#} <ls>R. 6. 67</ls>.\n",
+        ".²2 Discoloured, deprived of water (as a gem.); {#vivarRamaRIkftam#} ({#kanakavalayam#}) <ls>Ś. 3. 12</ls>.\n",
+        ".²3 Low, vile.\n",
+        ".²4 Ignorant, stupid, unlettered.\n",
+        ".²5 Bad-coloured; <ls>Mb. 12. 36. 38</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 279147,
+            "_ancestry": [
+                "L_ 30267",
+                "B_ {#vivarRa#}",
+                "M_ .{@{#-rRaH#}@}"
+            ],
+            "_banner": ".{@{#-rRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivarRaH"
+                }
+            ],
+            "_meanings": [
+                "An\n\n outcast, a man belonging to low caste.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 279151,
+            "_ancestry": [
+                "L_ 30267",
+                "B_ {#vivarRa#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivarRaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "paleness."
+            ]
+        }
     ]
 }

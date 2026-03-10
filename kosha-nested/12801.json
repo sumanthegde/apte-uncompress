@@ -1,21 +1,106 @@
 {
-    "__line": 107497,
+    "__line": 108895,
     "_ancestry": [
         "L_ 12801",
-        "B_ {#grahItavya#}"
+        "B_ {#kfpaRa#}"
     ],
-    "_banner": "{#grahItavya#}",
+    "_banner": "{#kfpaRa#}",
     "_bannerExp": [
         {
-            "Right": "grahItavya"
+            "Right": "kfpaRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#kfp-kyun na latvam#}]"
     ],
     "_meanings": [
-        "{@--1@} To be taken, seized\nor received, acceptable. ",
-        "{@--2@} To be\ntaken up or drawn (as a fluid). ",
-        "{@--3@} To\nbe apprehended or perceived, to be\nlearnt or acquired."
+        ".²1 Poor, pitiable, wretched, helpless; {#rAjannapatyaM rAmaste pAlyASca#}\n {#kfpaRAH prajAH#} <ls>U. 4. 25</ls>; {#vrajatu ca kfpA kvAdya kfpaRA#} <ls>Nāg. 5. 30</ls>;\n <ls>Rām. 2. 32. 28</ls>.\n",
+        ".²2 Void of judgment, unable or unwilling to discriminate or to do a thing;\n {#kAmArtA hi prakftikfpaRAScetanAcetanezu#} <ls>Me. 5</ls>; so {#jarAjIrRESvaryagrasanagahanAkzepakfpaRaH#} <ls>Bh. 3. 17</ls>.\n",
+        ".²3 Low, mean, vile; {#kfpaRAH PalahetavaH#} <ls>Bg. 2. 49</ls>; <ls>Mu. 2. 18</ls>; <ls>Bh. 2. 49</ls>.\n",
+        ".²4 Miserly, stingy.\n",
+        ".²5 Avaricious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 108904,
+            "_ancestry": [
+                "L_ 12801",
+                "B_ {#kfpaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfpaRam"
+                }
+            ],
+            "_meanings": [
+                "Wretchedness; {#kutsAya SuzRaM kfpaRe parAdAt#} <ls>Rv. 10. 99. 9</ls>; <ls>Ms. 4. 185</ls>.\n"
+            ]
+        },
+        {
+            "__line": 108905,
+            "_ancestry": [
+                "L_ 12801",
+                "B_ {#kfpaRa#}",
+                "M_ .{@{#-RaH#}@}"
+            ],
+            "_banner": ".{@{#-RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfpaRaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A worm.\n",
+                ".²2 A miser; {#kfpaRena samo dAtA Buvi ko'pi na vidyate . anaSnanneva vittAni#}\n {#yaH pareByaH prayacCati#} <ls>Vyāsa.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 108910,
+            "_ancestry": [
+                "L_ 12801",
+                "B_ {#kfpaRa#}",
+                "S_ .{@{#-DI, -budDi#}@}"
+            ],
+            "_banner": ".{@{#-DI, -budDi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfpaRaDI"
+                },
+                {
+                    "Right": "kfpaRabudDi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "little or low-minded.\n"
+            ]
+        },
+        {
+            "__line": 108911,
+            "_ancestry": [
+                "L_ 12801",
+                "B_ {#kfpaRa#}",
+                "S_ .{@{#-vatsala#}@}"
+            ],
+            "_banner": ".{@{#-vatsala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfpaRavatsala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "kind to the poor."
+            ]
+        }
     ]
 }

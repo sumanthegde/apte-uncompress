@@ -1,22 +1,148 @@
 {
-    "__line": 91592,
+    "__line": 91229,
     "_ancestry": [
         "L_ 10881",
-        "B_ {#kAs#}"
+        "B_ {#ozaDiH#}, {#-DI#}"
     ],
-    "_banner": "{#kAs#}",
+    "_banner": "{#ozaDiH#}, {#-DI#}",
     "_bannerExp": [
         {
-            "Right": "kAs"
+            "Right": "ozaDiH"
+        },
+        {
+            "Right": "ozaDI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#kAsate, kAsita#})"
+        "{%f.%}",
+        "[{#ozaH pAko DIyate atra-DA-ki#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To\nshine,; see {#kAS#}. ",
-        "{@--2@} To cough,\nmake a sound indicating any disease."
+        ".²1 A herb, plant (in general); {#ozaDyaH PalapAkAntAH#} <ls>Ms. 1. 46</ls>; <ab>cf.</ab>\n {#saMjIvana˚#}.\n",
+        ".²2 A medicinal plant or drug.\n",
+        ".²3 An\n\n annual plant or herb which dies after becoming ripe.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 91238,
+            "_ancestry": [
+                "L_ 10881",
+                "B_ {#ozaDiH#}, {#-DI#}",
+                "S_ .{@{#-ISaH, -garBaH, -nATaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH, -garBaH, -nATaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ozaDISaH"
+                },
+                {
+                    "Right": "ozaDigarBaH"
+                },
+                {
+                    "Right": "ozaDinATaH"
+                }
+            ],
+            "_meanings": [
+                "the moon (as presiding over and feeding\n plants); <ab>cf.</ab> {#puzRAmi cOzaDIH sarvAH somo BUtvA rasAtmakaH#} <ls>Bg. 15. 13</ls>;\n <ls>R. 2. 73</ls>; <ls>Ku. 7. 1</ls>; <ls>Ś. 4. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 91241,
+            "_ancestry": [
+                "L_ 10881",
+                "B_ {#ozaDiH#}, {#-DI#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ozaDija"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "produced from plants.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 91242,
+                    "_ancestry": [
+                        "L_ 10881",
+                        "B_ {#ozaDiH#}, {#-DI#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jaH#}@}"
+                    ],
+                    "_banner": "({@{#-jaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "ozaDijaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "fire; {#jvalayatOzaDijena kfSAnanA#} <ls>Ki. 5. 14</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 91243,
+            "_ancestry": [
+                "L_ 10881",
+                "B_ {#ozaDiH#}, {#-DI#}",
+                "S_ .{@{#-DaraH, -patiH#}@}"
+            ],
+            "_banner": ".{@{#-DaraH, -patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ozaDiDaraH"
+                },
+                {
+                    "Right": "ozaDipatiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a dealer in medicinal drugs.\n",
+                ".²2 a physician.\n",
+                ".²3 the moon; {#amftadravErvidaDadabjadfSAmapamArgamozaDipatiH sma karEH#}\n <ls>Śi. 9. 36</ls> (where it means ‘physician’ also).\n",
+                ".²4 The Soma plant.\n",
+                ".²5 Camphor.\n"
+            ]
+        },
+        {
+            "__line": 91250,
+            "_ancestry": [
+                "L_ 10881",
+                "B_ {#ozaDiH#}, {#-DI#}",
+                "S_ .{@{#-prasTaH#}@}"
+            ],
+            "_banner": ".{@{#-prasTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ozaDiprasTaH"
+                }
+            ],
+            "_meanings": [
+                "the capital of Himālaya; {#tatprayAtOzaDiprasTaM sTitaye#}\n {#himavatpuram#} <ls>Ku. 6. 33</ls>, <ls n=\"Ku. 6.\">36</ls>.\n"
+            ]
+        },
+        {
+            "__line": 91252,
+            "_ancestry": [
+                "L_ 10881",
+                "B_ {#ozaDiH#}, {#-DI#}",
+                "S_ .{@{#-vanaspatim#}@}"
+            ],
+            "_banner": ".{@{#-vanaspatim#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ozaDivanaspatim"
+                }
+            ],
+            "_meanings": [
+                "Herbs and trees."
+            ]
+        }
     ]
 }

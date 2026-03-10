@@ -1,20 +1,43 @@
 {
-    "__line": 151442,
+    "__line": 158993,
     "_ancestry": [
         "L_ 17930",
-        "B_ {#pariglAna#}"
+        "B_ {#Darzaka#}"
     ],
-    "_banner": "{#pariglAna#}",
+    "_banner": "{#Darzaka#}",
     "_bannerExp": [
         {
-            "Right": "pariglAna"
+            "Right": "Darzaka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#Dfz-Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Languid, \nexhausted. ",
-        "{@--2@} Averse from, \ndisinclined to."
+        ".²1 Assailing, attacking, assaulting.\n",
+        ".²2 Violating, seducing.\n",
+        ".²3 Impatient.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 158997,
+            "_ancestry": [
+                "L_ 17930",
+                "B_ {#Darzaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DarzakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A seducer, an adulterer, a violator.\n",
+                ".²2 An actor, dancer.\n",
+                ".²3 Mime."
+            ]
+        }
     ]
 }

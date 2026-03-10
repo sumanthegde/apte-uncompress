@@ -1,24 +1,43 @@
 {
-    "__line": 216538,
+    "__line": 231187,
     "_ancestry": [
         "L_ 25574",
-        "B_ {#vAsteya#}"
+        "B_ {#maRqalakam#}"
     ],
-    "_banner": "{#vAsteya#}",
+    "_banner": "{#maRqalakam#}",
     "_bannerExp": [
         {
-            "Right": "vAsteyI"
-        },
-        {
-            "Right": "vAsteya"
+            "Right": "maRqalakam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#yI#}|{%<ab>f.</ab>%})"
-    ],
     "_meanings": [
-        "{@--1@} Habitable,\nfit to be inhabited. ",
-        "{@--2@} \nAbdominal."
+        ".²1 A circle.\n",
+        ".²2 A disc.\n",
+        ".²3 A district, province.\n",
+        ".²4 A group, collection.\n",
+        ".²5 A circular array of troops.\n",
+        ".²6 White leprosy with round spots.\n",
+        ".²7 A mirror.\n",
+        ".²8 A kind of pose of an archer.\n",
+        ".²9 A circle with lines drawn for magical incantations.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 231197,
+            "_ancestry": [
+                "L_ 25574",
+                "B_ {#maRqalakam#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maRqalakaH"
+                }
+            ],
+            "_meanings": [
+                "A dog."
+            ]
+        }
     ]
 }

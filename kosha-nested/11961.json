@@ -1,38 +1,135 @@
 {
-    "__line": 100027,
+    "__line": 100803,
     "_ancestry": [
         "L_ 11961",
-        "B_ {#kzoBaRaM#}"
+        "B_ {#kAntiH#}"
     ],
-    "_banner": "{#kzoBaRaM#}",
+    "_banner": "{#kAntiH#}",
     "_bannerExp": [
         {
-            "Right": "kzoBaRaM"
+            "Right": "kAntiH"
         }
     ],
     "_gram": [
-        "[{#kzuB-Ric lyuw#}]"
+        "[{#kam BAve ktin#}]"
     ],
     "_meanings": [
-        "{@--1@} Agitating,\ndisturbing. "
+        ".²1 Loveliness, beauty, <ls>Me. 15</ls>; {#aklizwakAnti#} <ls>Ś. 5. 19</ls>.\n",
+        ".²2 Brightness, lustre, brilliance; <ls>Me. 84</ls>.\n",
+        ".²3 Personal decoration or embellishment.\n",
+        ".²4 Wish, desire.\n",
+        ".²5 (In <ab>Rhet.</ab>) Beauty enhanced by love; (<ls>S. D.</ls> thus distinguishes {#kAnti#}\n from {#SoBA#} and {#dIptiH--rUpayOvanalAlityaM BogAdyEraNgaBUzaRam . SoBA#}\n {#proktA sEva kAntirmanmaTApyAyitA dyutiH . kAntirevAtivistIrRA dIptirityaBiDIyate#} <ls n=\"S. D.\">130</ls>, <ls n=\"S. D.\">131</ls>).\n",
+        ".²6 A lovely or desirable woman.\n",
+        ".²7 An epithet of Durgā.\n",
+        ".²8 A digit of the moon.\n",
+        ".²9 <ab>N.</ab> of Lakṣmī; {#BUzaRAni mahArhARi dadO kAntiH SuBAM srajam#} <ls>Bhāg. 10. 65. 29</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 100028,
+            "__line": 100816,
             "_ancestry": [
                 "L_ 11961",
-                "B_ {#kzoBaRaM#}",
-                "M_ {#--RaH#}"
+                "B_ {#kAntiH#}",
+                "S_ .{@{#-kara#}@}"
             ],
-            "_banner": "{#--RaH#}",
+            "_banner": ".{@{#-kara#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kzoBaRaH"
+                    "Right": "kAntikara"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "One of the five\narrows of Kāmadeva. ",
-                "{@--2@} An epithet\nof ({%a%}) Viṣṇu, ({%b%}) Śiva."
+                "beautifying, illuminating, brightening.\n"
+            ]
+        },
+        {
+            "__line": 100817,
+            "_ancestry": [
+                "L_ 11961",
+                "B_ {#kAntiH#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAntida"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "beautifying, adorning.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 100818,
+                    "_ancestry": [
+                        "L_ 11961",
+                        "B_ {#kAntiH#}",
+                        "S_ .{@{#-da#}@}",
+                        "S_M_ ({@{#-dam#}@}"
+                    ],
+                    "_banner": "({@{#-dam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kAntidam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 bile.\n",
+                        ".²2 clarified butter.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 100821,
+            "_ancestry": [
+                "L_ 11961",
+                "B_ {#kAntiH#}",
+                "S_ .{@{#-da, -dAyaka, -dAyin#}@}"
+            ],
+            "_banner": ".{@{#-da, -dAyaka, -dAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAntida"
+                },
+                {
+                    "Right": "kAntidAyaka"
+                },
+                {
+                    "Right": "kAntidAyin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "adorning.\n"
+            ]
+        },
+        {
+            "__line": 100822,
+            "_ancestry": [
+                "L_ 11961",
+                "B_ {#kAntiH#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAntiBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the moon."
             ]
         }
     ]

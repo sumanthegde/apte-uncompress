@@ -1,19 +1,61 @@
 {
-    "__line": 218656,
+    "__line": 235225,
     "_ancestry": [
         "L_ 25881",
-        "B_ {#vitaTya#}"
+        "B_ {#mallikA#}"
     ],
-    "_banner": "{#vitaTya#}",
+    "_banner": "{#mallikA#}",
     "_bannerExp": [
         {
-            "Right": "vitaTya"
+            "Right": "mallikA"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "False; see above."
+        ".²1 A kind of jasmine; {#vanezu sAyaMtanamallikAnAM vijfmBaRodganDizu kuqmalezu#}\n <ls>R. 16. 47</ls>; {#vanamallikAmatallikodvellitaDamillaH#} Bhāratachampū; {#mallikAkusumaduRquBakena#} <ls>N. 21. 43</ls>.\n",
+        ".²2 A flower of this jasmine; {#vinyastasAyaMtanamallikezu#} ({#keSezu#})\n <ls>R. 16. 50</ls>; <ls>Kāv. 2. 215</ls>.\n",
+        ".²3 A lamp-stand.\n",
+        ".²4 An earthen vessel of a particular form.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 235233,
+            "_ancestry": [
+                "L_ 25881",
+                "B_ {#mallikA#}",
+                "S_ .{@{#-ganDam#}@}"
+            ],
+            "_banner": ".{@{#-ganDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mallikAganDam"
+                }
+            ],
+            "_meanings": [
+                "a kind of agallochum.\n"
+            ]
+        },
+        {
+            "__line": 235234,
+            "_ancestry": [
+                "L_ 25881",
+                "B_ {#mallikA#}",
+                "S_ .{@{#-Cad, -Cadanam#}@}"
+            ],
+            "_banner": ".{@{#-Cad, -Cadanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mallikACad"
+                },
+                {
+                    "Right": "mallikACadanam"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a shade for a lamp."
+            ]
+        }
     ]
 }

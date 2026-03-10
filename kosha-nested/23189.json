@@ -1,39 +1,65 @@
 {
-    "__line": 195127,
+    "__line": 207478,
     "_ancestry": [
         "L_ 23189",
-        "B_ {#mIQa#}"
+        "B_ {#pramatta#}"
     ],
-    "_banner": "{#mIQa#}",
+    "_banner": "{#pramatta#}",
     "_bannerExp": [
         {
-            "Right": "mIQa"
+            "Right": "pramatta"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#mih-kta#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Urined,\nwatered. ",
-        "{@--2@} Passed (as urine). "
+        ".²1 Intoxicated, drunk; {#kaTAM pramattaH praTamaM kftAmiva#} ({#na smarizyati#}) <ls>Ś. 4. 1</ls>;\n",
+        ".²2 Mad, insane.\n",
+        ".²3 Careless, negligent, inattentive; heedless, regardless (generally with\n <ab>loc.</ab>); {#suptAM mattAM pramattAM vA raho yatropagacCati#} <ls>Ms. 3. 34</ls>; {#mattaM#}\n {#pramattamunmattaM suptaM bAlaM striyaM jaqam . prapannaM viraTaM BItaM#}\n {#na ripuM hanti Darmavit ..#} <ls>Bhāg. 1. 7. 36</ls>.\n",
+        ".²4 Swerving from, failing to do (with <ab>abl.</ab>).\n",
+        ".²5 Blundering.\n",
+        ".²6 wanton, lascivious.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 195128,
+            "__line": 207489,
             "_ancestry": [
                 "L_ 23189",
-                "B_ {#mIQa#}",
-                "M_ {#--QaM#}"
+                "B_ {#pramatta#}",
+                "S_ .{@{#-gIta#}@}"
             ],
-            "_banner": "{#--QaM#}",
+            "_banner": ".{@{#-gIta#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mIQaM"
+                    "Right": "pramattagIta"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "<ab>Ved.</ab> A battle."
+                "sung carelessly.\n"
+            ]
+        },
+        {
+            "__line": 207490,
+            "_ancestry": [
+                "L_ 23189",
+                "B_ {#pramatta#}",
+                "S_ .{@{#-citta#}@}"
+            ],
+            "_banner": ".{@{#-citta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pramattacitta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "negligent, heedless, careless."
             ]
         }
     ]

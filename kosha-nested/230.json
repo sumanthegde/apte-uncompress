@@ -1,55 +1,101 @@
 {
-    "__line": 4015,
+    "__line": 2174,
     "_ancestry": [
         "L_ 230",
-        "B_ {#agrya#}"
+        "B_ {#aguRa#}"
     ],
-    "_banner": "{#agrya#}",
+    "_banner": "{#aguRa#}",
     "_bannerExp": [
         {
-            "Right": "agrya"
+            "Right": "aguRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#agre jAtaH, agra-yat#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Foremost, best, choicest, most essential or\nimportant, highest, pre-eminent, first;\n{#tadaMgamagryaM maGavan mahAkratoH#} <ls>R. 3. 46</ls>;  \n{#°mahizI#} <ls n=\"R.\">10. 66</ls>; {#upeyuzaH svAmapi mUrtimagryAM#}\n<ls n=\"R.\">6. 73</ls>, <ls n=\"R.\">8. 28</ls>, <ls n=\"R.\">14. 19</ls>, <ls n=\"R.\">18. 39</ls>, <ls>Ku. 7. 78</ls>,\n<ls>Ms. 5. 166</ls>, <ls n=\"Ms.\">12. 30</ls>, <ls>V. 5. 14</ls>: also\nwith <ab>loc.</ab>; {#agryAH sarvezu vedezu#} <ls>Ms. 3. 184.</ls>\n"
+        ".²1 Destitute of attributes (referring to God).\n",
+        ".²2 Having no good qualities, worthless; {#aguRo 'yamakoSaH#} <ls>M. 3</ls>, {#guRayukto#}\n {#daridro'pi neSvarEraguREH samaH ..#} <ls>Mk. 4. 22</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 4023,
+            "__line": 2178,
             "_ancestry": [
                 "L_ 230",
-                "B_ {#agrya#}",
-                "M_ {#--gryaH#}"
+                "B_ {#aguRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
-            "_banner": "{#--gryaH#}",
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "agryaH"
+                    "Right": "aguRaH"
                 }
             ],
+            "_gram": [
+                "[<sab>{#na˚ ta˚#}</sab>]"
+            ],
             "_meanings": [
-                "An elder brother "
+                "A fault, defect, demerit, vice; {#tadvaH#}\n {#sarvaM pravakzyAmi prasave ca guRAguRAn#} <ls>Ms. 3. 22</ls>; {#guRAguRajYa#} knowing\n merit and demerit; {#loBaScedaguRena kim#} <ls>Bh. 2. 55</ls>; {#aguRezu tasya#}\n {#DiyamastavataH#} <ls>Ki. 6. 21</ls> vices;\n"
             ]
         },
         {
-            "__line": 4023,
+            "__line": 2182,
             "_ancestry": [
                 "L_ 230",
-                "B_ {#agrya#}",
-                "M_ {#--gryaM#}"
+                "B_ {#aguRa#}",
+                "M_ .{@{#-Ram#}@}"
             ],
-            "_banner": "{#--gryaM#}",
+            "_banner": ".{@{#-Ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "agryaM"
+                    "Right": "aguRam"
                 }
             ],
             "_meanings": [
-                "The\nroof of a house."
+                ".²1 Absolution ({#mokza, kEvalya#}); {#DarmAdayaH kimaguRena ca kANkzitena#}\n <ls>Bhāg. 7. 6. 25</ls>.\n",
+                ".²2 Supreme Being ({#parabrahma#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 2187,
+            "_ancestry": [
+                "L_ 230",
+                "B_ {#aguRa#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aguRavAdin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fault-finding, censorious, not appreciating merits.\n"
+            ]
+        },
+        {
+            "__line": 2188,
+            "_ancestry": [
+                "L_ 230",
+                "B_ {#aguRa#}",
+                "S_ .{@{#-SIla#}@}"
+            ],
+            "_banner": ".{@{#-SIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aguRaSIla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of a worthless character."
             ]
         }
     ]

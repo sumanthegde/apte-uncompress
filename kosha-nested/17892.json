@@ -1,19 +1,67 @@
 {
-    "__line": 151168,
+    "__line": 158300,
     "_ancestry": [
         "L_ 17892",
-        "B_ {#parikzatiH#}"
+        "B_ {#Danvin#}"
     ],
-    "_banner": "{#parikzatiH#}",
+    "_banner": "{#Danvin#}",
     "_bannerExp": [
         {
-            "Right": "parikzatiH"
+            "Right": "Danvin"
+        },
+        {
+            "Right": "DanvinI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#DanvaM cApo'styasya ini#}]"
     ],
     "_meanings": [
-        "Injury, hurt, harm."
+        ".²1 Armed with a bow.\n",
+        ".²2 Cunning, shrewd. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 158303,
+            "_ancestry": [
+                "L_ 17892",
+                "B_ {#Danvin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Danvin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An archer; {#ke mama Danvino'nye#} <ls>Ku. 3. 10</ls>; {#utkarzaH sa ca DanvinAM#}\n {#yadizavaH siDyanti lakzye cale#} <ls>Ś. 2. 5</ls>; {#yasya tfRasamA bARA yasyenDanasamaM#}\n {#DanuH . yasya prARasamA mOrvI sa DanvI DanvinAM varaH ..#} <ls>Dhanur. 147</ls>.\n",
+                ".²2 An epithet of Arjuna.\n",
+                ".²3 Of Śiva.\n",
+                ".²4 Of Viṣṇu.\n",
+                ".²5 The sign Sagittarius of the zodiac.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 158312,
+            "_ancestry": [
+                "L_ 17892",
+                "B_ {#Danvin#}",
+                "S_ .{@{#-sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanvisTAnam"
+                }
+            ],
+            "_meanings": [
+                "A\n\n posture of an archer; {#vEklavaM samapAdaM ca vESAKaM maRqalaM taTA .#}\n {#pratyAlIQaM taTA lIQaM sTAnAnyetAni DanvinAm ..#}"
+            ]
+        }
     ]
 }

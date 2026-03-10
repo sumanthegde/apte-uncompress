@@ -1,65 +1,72 @@
 {
-    "__line": 82079,
+    "__line": 81085,
     "_ancestry": [
         "L_ 9692",
-        "B_ {#Ehika#}"
+        "B_ {#upapattiH#}"
     ],
-    "_banner": "{#Ehika#}",
+    "_banner": "{#upapattiH#}",
     "_bannerExp": [
         {
-            "Right": "EhikI"
-        },
-        {
-            "Right": "Ehika"
+            "Right": "upapattiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#iha-WaY#}]"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@}\nOf this world or place, temporal,\nsecular, worldly. ",
-        "{@--2@} Local, of this\nplace. "
-    ],
-    "_morphisms": [
-        {
-            "__line": 82082,
-            "_ancestry": [
-                "L_ 9692",
-                "B_ {#Ehika#}",
-                "M_ {#--kaM#}"
-            ],
-            "_banner": "{#--kaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "EhikaM"
-                }
-            ],
-            "_meanings": [
-                "Business (of this world).\n"
-            ]
-        }
+        ".²1 Happening, occurring, becoming visible, appearance, production, birth;\n {#aTopapattiM CalanAparo'parAm#} <ls>Śi. 1. 69</ls> ({#janma#}); {#izwAnizwopapattizu#} <ls>Bg. 13. 9</ls>.\n",
+        ".²2 Cause, reason, ground; {#priyezu yEH pArTa vinopapatteH#} <ls>Ki. 3. 52</ls>.\n",
+        ".²3 Reasoning, argument; {#upapattimadUrjitaM vacaH#} <ls>Ki. 2. 1</ls>; {#devi#}\n {#sopapattikamaBihitam .#} <ls>Nāg. 5</ls> argumentative; giving a reason for the\n establishment of a matter; <ls>S. D. 482</ls>.\n",
+        ".²4 Fitness, propriety.\n",
+        ".²5 Termination, end.\n",
+        ".²6 Association, connection.\n",
+        ".²7 Acceptance, adoption; <ls>Mv. 5</ls>.\n",
+        ".²8 Ascertainment, demonstration, demonstrated conclusion; {#upapattirudAhftA#}\n {#balAt#} <ls>Ki. 2. 28</ls>.\n",
+        ".²9 (In <ab>Arith.</ab> or <ab>Geom.</ab>) Proof, demonstration.\n",
+        ".²10 A means, an expedient.\n",
+        ".²11 Assistance, support, help; {#tataH prajahne samameva tatra tErapekzitAnyonyabalopapattiBiH#} <ls>Ki. 14. 44</ls>.\n",
+        ".²12 Doing, effecting, gaining; accomplishment; {#svArTopapattiM durbalASaH#}\n <ls>R. 5. 12</ls>; {#tAtparyAnupapattitaH#} <ls>Bhāṣā P.</ls>; <ls>H. 3. 111</ls>; see {#anupapatti#}.\n",
+        ".²13 Attainment, getting; {#asaMSayaM prAk tanayopapatteH#} <ls>R. 14. 78</ls>; <ls>Ki. 3. 1</ls>.\n",
+        ".²14 Religious abstraction ({#samADi#}).\n",
+        ".²15 Accident, chance; {#upapattyopalabDezu lokezu ca samo Bava#} <ls>Mb. 12. 288. 11</ls>.\n",
+        ".²16 Suitability, expediency; {#upapattimadUrjitASrayaM nfpamUce#}\n {#vacanaM vfkodaraH#} <ls>Ki. 2. 1</ls>; <ls>Bhāg. 4. 28. 68</ls>.\n"
     ],
     "_samasas": [
         {
-            "__line": 82083,
+            "__line": 81109,
             "_ancestry": [
                 "L_ 9692",
-                "B_ {#Ehika#}",
-                "S_  {#--darSin#}"
+                "B_ {#upapattiH#}",
+                "S_ .{@{#-samaH#}@}"
             ],
-            "_banner": " {#--darSin#}",
+            "_banner": ".{@{#-samaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "EhikadarSin"
+                    "Right": "upapattisamaH"
+                }
+            ],
+            "_meanings": [
+                "(in logic) a kind of contradiction in which both the contradictory\n assertions are supposed to be demonstrable ({%<ab>e. g.</ab>%} sound is eternal\n because it is produced; it is eternal because it is not tangible). Nyāyadarśana.\n"
+            ]
+        },
+        {
+            "__line": 81112,
+            "_ancestry": [
+                "L_ 9692",
+                "B_ {#upapattiH#}",
+                "S_ .{@{#-parityakta#}@}"
+            ],
+            "_banner": ".{@{#-parityakta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upapattiparityakta"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "worldly-minded "
+                "Unproved, unreasonable, destitute of argument\n or proof; <ls>Rāj. T.</ls>"
             ]
         }
     ]

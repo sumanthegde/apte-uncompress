@@ -1,19 +1,108 @@
 {
-    "__line": 40221,
+    "__line": 36658,
     "_ancestry": [
         "L_ 4376",
-        "B_ {#avakalpita#}"
+        "B_ {#ara#}"
     ],
-    "_banner": "{#avakalpita#}",
+    "_banner": "{#ara#}",
     "_bannerExp": [
         {
-            "Right": "avakalpita"
+            "Right": "ara"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#iyarti gacCatyanena, f-ac#}]"
     ],
     "_meanings": [
-        "Corresponding\nwith; right, fit."
+        ".²1 Speedy, swift.\n",
+        ".²2 Little. {#yadA hyevEza etasminnudaramantaraM kurute#} <ls>T. Up. 2. 7. 1. 3</ls>\n\n Going (at the end of <ab>comp.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 36663,
+            "_ancestry": [
+                "L_ 4376",
+                "B_ {#ara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "araH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The spoke or radius of a wheel; {#arA iva raTAnABO#} <ls>Muṇḍ. 2. 2. 6</ls>;\n <ls>Praśna. 2. 6</ls>. ({#˚ram#} also); {#arEH saMDAryate nABirnABO cArAH pratizWitAH#}\n <ls>Pt. 1. 81</ls>. <ab>cf.</ab> also {#aravyaktirnazwA sTitamiva javAccakravalayam#} <ls>Pratimā 3. 2</ls>.\n",
+                ".²2 A spoke of the time-wheel; a Jaina division of time.\n",
+                ".²3 A corner ({#koRa#}) or angle; {#tripaYcAre pIWe#} <ls>Śyāmāstava.</ls>\n",
+                ".²4 Moss ({#SEvAla#}).\n",
+                ".²5 = {#parpawa#} <ab>q. v.</ab>\n",
+                ".²6 <ab>N.</ab> of an ocean in Brahmāʼs world; {#yadaraRyAyanamityAcakzate brahmacaryameva#}\n {#tattadaraSca ha vERyaScArRavO brahmaloke#} <ls>Ch. Up. 8. 5. 3</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 36674,
+            "_ancestry": [
+                "L_ 4376",
+                "B_ {#ara#}",
+                "S_ .{@{#-antara#}@}"
+            ],
+            "_banner": ".{@{#-antara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arAntara"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) the intervals of the spoke; {#cakraBrAntirarAntarezu#}\n {#janayatyanyAmivArAvalim#} <ls>V. 1. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 36676,
+            "_ancestry": [
+                "L_ 4376",
+                "B_ {#ara#}",
+                "S_ .{@{#-GawwaH, -GawwakaH#}@}"
+            ],
+            "_banner": ".{@{#-GawwaH, -GawwakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "araGawwaH"
+                },
+                {
+                    "Right": "araGawwakaH"
+                }
+            ],
+            "_gram": [
+                "[{#arEH Gawwayate racyate asO#}]"
+            ],
+            "_meanings": [
+                ".²1 a wheel or machine for raising water from a well (<lang>Mar.</lang> <ns>{#rAhAwa#}</ns>).\n (It usually consists of a single wheel with spokes on each side serving\n as handles to turn it, and a rope with a bucket attached to it passes\n over this wheel); {#˚wwaM KelayamAnaH#} <ls>Pt. 4</ls> turning this machine; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 36680,
+                    "_ancestry": [
+                        "L_ 4376",
+                        "B_ {#ara#}",
+                        "S_ .{@{#-GawwaH, -GawwakaH#}@}",
+                        "S_S_ {#˚GawI#}"
+                    ],
+                    "_banner": "{#˚GawI#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "araGawwaGawI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a bucket so used; {#kUpamAsAdya ˚wImArgeRa sarpastenAnItaH#} <ls>Pt. 4</ls>.\n",
+                        ".²2 a deep well."
+                    ]
+                }
+            ]
+        }
     ]
 }

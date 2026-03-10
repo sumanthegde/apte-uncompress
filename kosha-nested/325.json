@@ -1,21 +1,65 @@
 {
-    "__line": 5332,
+    "__line": 4025,
     "_ancestry": [
         "L_ 325",
-        "B_ {#acitta#}"
+        "B_ {#aNgArita#}"
     ],
-    "_banner": "{#acitta#}",
+    "_banner": "{#aNgArita#}",
     "_bannerExp": [
         {
-            "Right": "acitta"
+            "Right": "aNgArita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#aNgAram asya saMjAtam#}; {#tArakA˚ itac#}]"
     ],
     "_meanings": [
-        "{@--1@} Inconceivable. ",
-        "{@--2@}\n[{#nAsti cittaM yasya#}] Destitute of \nintellect, senseless, stupid. ",
-        "{@--3@} Unnoticed,\nunexpected, not thought of."
+        "Charred,\n roasted, half-burnt. ‘burnt’ food is not accepted by Jain ascetics.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 4027,
+            "_ancestry": [
+                "L_ 325",
+                "B_ {#aNgArita#}",
+                "M_ .{@{#-taH, -tam#}@}"
+            ],
+            "_banner": ".{@{#-taH, -tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aNgAritaH"
+                },
+                {
+                    "Right": "aNgAritam"
+                }
+            ],
+            "_gram": [
+                "[{#aNgAramiva Acarati#}; {#aNgAra--kvip tataH kartari kta#}]"
+            ],
+            "_meanings": [
+                "An early bud of the {#kiMSuka#} tree.\n"
+            ]
+        },
+        {
+            "__line": 4029,
+            "_ancestry": [
+                "L_ 325",
+                "B_ {#aNgArita#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aNgAritA"
+                }
+            ],
+            "_meanings": [
+                ".²1 = {#aNgAraDAnI#} <ab>q. v.</ab>\n",
+                ".²2 A bud in general.\n",
+                ".²3 A creeper. ({#latAmAtre#}).\n",
+                ".²4 <ab>N.</ab> of a river."
+            ]
+        }
     ]
 }

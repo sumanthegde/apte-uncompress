@@ -1,16 +1,58 @@
 {
-    "__line": 179479,
+    "__line": 194639,
     "_ancestry": [
         "L_ 21667",
-        "B_ {#bAkulaM#}"
+        "B_ {#pustam#}"
     ],
-    "_banner": "{#bAkulaM#}",
+    "_banner": "{#pustam#}",
     "_bannerExp": [
         {
-            "Right": "bAkulaM"
+            "Right": "pustam"
         }
     ],
     "_meanings": [
-        "The fruit of the Bakula\ntree."
+        ".²1 Plastering, painting, anointing.\n",
+        ".²2 Working in clay, modelling.\n",
+        ".²3 Anything made of clay, wood or metal.\n",
+        ".²4 A book, manuscript; also {#pustA-stI#}.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 194645,
+            "_ancestry": [
+                "L_ 21667",
+                "B_ {#pustam#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pustakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "plastering, painting.\n"
+            ]
+        },
+        {
+            "__line": 194646,
+            "_ancestry": [
+                "L_ 21667",
+                "B_ {#pustam#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pustapAlaH"
+                }
+            ],
+            "_meanings": [
+                "Keeper of land records; <ls>EI. XV. 130</ls>, <ls n=\"EI.\">XX. 61</ls>."
+            ]
+        }
     ]
 }

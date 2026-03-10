@@ -1,85 +1,42 @@
 {
-    "__line": 232597,
+    "__line": 254932,
     "_ancestry": [
         "L_ 27622",
-        "B_ {#Samana#}"
+        "B_ {#repas#}"
     ],
-    "_banner": "{#Samana#}",
+    "_banner": "{#repas#}",
     "_bannerExp": [
         {
-            "Right": "Samana"
+            "Right": "repas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "{#nI#}",
-        "{%<ab>f.</ab>%}",
-        "[{#Sam Ric lyu lyuw vA#}]"
+        "{%a.%}",
+        "[<ls>Uṇ. 4. 244</ls>]"
     ],
     "_meanings": [
-        "Quelling, allaying, subduing &c.\n"
+        ".²1 Low, vile.\n",
+        ".²2 Wicked, a wretch.\n",
+        ".²3 Miserly.\n",
+        ".²4 Cruel, savage. "
     ],
     "_morphisms": [
         {
-            "__line": 232599,
+            "__line": 254936,
             "_ancestry": [
                 "L_ 27622",
-                "B_ {#Samana#}",
-                "M_ {#--naM#}"
+                "B_ {#repas#}",
+                "M_ --{%n.%}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": "--{%n.%}",
             "_bannerExp": [
                 {
-                    "Right": "SamanaM"
+                    "Left": "Parser error: {#repas#} M_ --{%n.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Appeasing, allaying, \nsoothing, conquering, alleviating, &c. ",
-                "{@--2@}\nCalmness, tranquillity. ",
-                "{@--3@} End,\nstop, cessation, destruction. ",
-                "{@--4@} \nHurting, injuring. ",
-                "{@--5@} Killing animals\nfor sacrifice, immolation. ",
-                "{@--6@} \nSwallowing, chewing. "
-            ]
-        },
-        {
-            "__line": 232605,
-            "_ancestry": [
-                "L_ 27622",
-                "B_ {#Samana#}",
-                "M_ {#--naH#}"
-            ],
-            "_banner": "{#--naH#}",
-            "_bannerExp": [
-                {
-                    "Right": "SamanaH"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} A kind of\ndeer, an antelope. ",
-                "{@--2@} N of Yama,\nthe god of death. "
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 232607,
-            "_ancestry": [
-                "L_ 27622",
-                "B_ {#Samana#}",
-                "S_  {#--svasf#}"
-            ],
-            "_banner": " {#--svasf#}",
-            "_bannerExp": [
-                {
-                    "Right": "Samanasvasf"
-                }
-            ],
-            "_gram": [
-                "{%<ab>f.</ab>%}"
-            ],
-            "_meanings": [
-                "'Yama's sister', epithet of the river\nYamunā."
+                ".²1 A spot, stain.\n",
+                ".²2 Fault, sin."
             ]
         }
     ]

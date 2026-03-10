@@ -1,19 +1,154 @@
 {
-    "__line": 69253,
+    "__line": 67104,
     "_ancestry": [
         "L_ 8042",
-        "B_ {#udardaH#}"
+        "B_ {#AhAra#}"
     ],
-    "_banner": "{#udardaH#}",
+    "_banner": "{#AhAra#}",
     "_bannerExp": [
         {
-            "Right": "udardaH"
+            "Right": "AhAra"
+        },
+        {
+            "Right": "AhArI"
         }
     ],
     "_gram": [
-        "[{#arda-ac#}]"
+        "{%a.%}",
+        "({#-rA#}|{#-rI#}|{%f.%})"
     ],
     "_meanings": [
-        "(In <ab>Medic.</ab>)\nErysipelas."
+        ".²1 Bringing near, procuring, getting; {#BArAhAraH kAryavaSAt#} <ls>Sk.</ls>\n",
+        ".²2 Going to fetch; {#ayaM gacCati BartA me PalAhAro mahAvanam#} <ls>Mb. 3. 296. 23</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 67107,
+            "_ancestry": [
+                "L_ 8042",
+                "B_ {#AhAra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhAraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Taking, fetching, or bringing near; {#nirgatastu purAdvIro BakzyAhArapracoditaH#}\n <ls>Rām. 7. 68. 2</ls>.\n",
+                ".²2 Employing, using.\n",
+                ".²3 Taking food.\n",
+                ".²4 Food; ({#Aharanti rasamasmAdityAhAraH#} <ls>Sk.</ls>); {#˚vfttimakarot#} <ls>Pt. 1</ls>\n took his dinner; {#PalAhAra, ˚vfttiH#} means of livelihood; {#BEkzAhAraH#}\n living on alms; {#yavAhAra, nirAhAra#} <ab>&c.</ab>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 67116,
+            "_ancestry": [
+                "L_ 8042",
+                "B_ {#AhAra#}",
+                "S_ .{@{#-arTin#}@}"
+            ],
+            "_banner": ".{@{#-arTin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhArArTin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "begging or seeking for food.\n"
+            ]
+        },
+        {
+            "__line": 67117,
+            "_ancestry": [
+                "L_ 8042",
+                "B_ {#AhAra#}",
+                "S_ .{@{#-tejas#}@}"
+            ],
+            "_banner": ".{@{#-tejas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhAratejas"
+                }
+            ],
+            "_meanings": [
+                "Quicksilver.\n"
+            ]
+        },
+        {
+            "__line": 67118,
+            "_ancestry": [
+                "L_ 8042",
+                "B_ {#AhAra#}",
+                "S_ .{@{#-niHsaraRamArgaH#}@}"
+            ],
+            "_banner": ".{@{#-niHsaraRamArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhAraniHsaraRamArgaH"
+                }
+            ],
+            "_meanings": [
+                "the posterior part, passage of voiding excrements.\n"
+            ]
+        },
+        {
+            "__line": 67119,
+            "_ancestry": [
+                "L_ 8042",
+                "B_ {#AhAra#}",
+                "S_ .{@{#-pAkaH#}@}"
+            ],
+            "_banner": ".{@{#-pAkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhArapAkaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 cooking.\n",
+                ".²2 digestion (of food).\n"
+            ]
+        },
+        {
+            "__line": 67122,
+            "_ancestry": [
+                "L_ 8042",
+                "B_ {#AhAra#}",
+                "S_ .{@{#-virahaH#}@}"
+            ],
+            "_banner": ".{@{#-virahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhAravirahaH"
+                }
+            ],
+            "_meanings": [
+                "want of food, privation, starvation.\n"
+            ]
+        },
+        {
+            "__line": 67123,
+            "_ancestry": [
+                "L_ 8042",
+                "B_ {#AhAra#}",
+                "S_ .{@{#-saMBavaH#}@}"
+            ],
+            "_banner": ".{@{#-saMBavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhArasamBavaH"
+                }
+            ],
+            "_meanings": [
+                "the juice of the body, chyle, lymph."
+            ]
+        }
     ]
 }

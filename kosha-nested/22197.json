@@ -1,43 +1,80 @@
 {
-    "__line": 184756,
+    "__line": 199323,
     "_ancestry": [
         "L_ 22197",
-        "B_ {#BI#}"
+        "B_ {#pracCanna#}"
     ],
-    "_banner": "{#BI#}",
+    "_banner": "{#pracCanna#}",
     "_bannerExp": [
         {
-            "Right": "BI"
+            "Right": "pracCanna"
         }
     ],
     "_gram": [
-        "{c3c}",
-        "<ab>P.</ab>",
-        "({#biBeti, biBAya-biBayAMcakAra#},\n{#aBEzIt, Bezyati, BIta#})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To fear, dread,\nbe afraid of; {#mftyorbiBezi kiM ba la na#}\n{#sa BItaM vimuMcati; rAvaRAdviByatiM BfSaM#}  \n<ls>Bk. 8. 70</ls>; <ls>Śi. 3. 45.</ls> ",
-        "{@--2@} To be anxious\nor solicitous about (<ab>A.</ab>) "
+        ".²1 Covered, wrapped, enveloped.\n",
+        ".²2 Private, secret; {#vidyA nAma narasya rUpamaDikaM pracCannaguptaM Danam#} <ls>Bh. 2. 64</ls>.\n",
+        ".²3 Concealed, hidden; {#pracCannA vA prakASA vA veditavyAH svakarmaBiH#}\n <ls>Ms. 10. 40</ls>; <ls>Mb. 3. 35. 31</ls>.\n",
+        ".²4 Clothed, clad.\n"
     ],
     "_morphisms": [
         {
-            "__line": 184761,
+            "__line": 199329,
             "_ancestry": [
                 "L_ 22197",
-                "B_ {#BI#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#pracCanna#}",
+                "M_ .{@{#-nnam#}@}"
             ],
+            "_banner": ".{@{#-nnam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BI"
+                    "Right": "pracCannam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A private door.\n",
+                ".²2 A loop-hole, lattice, window.\n"
+            ]
+        },
+        {
+            "__line": 199332,
+            "_ancestry": [
+                "L_ 22197",
+                "B_ {#pracCanna#}",
+                "M_ .{@{#-nnam#}@}"
+            ],
+            "_banner": ".{@{#-nnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pracCannam"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#BAyayati#})"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "To frighten (any one)\nwith anything; {#kuMcikayEnaM BAyayati#}\n<ls>Sk.</ls>; ({#BApayate, BIzayate#}) to frighten,\nterrify, intimidate; {#muMqo BApayate#} <ls>Sk.</ls>;\n{#stanitena BIzayitvA DArAhastEH parAmfSasi#}\n<ls>Mk. 5. 28.</ls>"
+                "Secretly, covertly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 199334,
+            "_ancestry": [
+                "L_ 22197",
+                "B_ {#pracCanna#}",
+                "S_ .{@{#-taskaraH#}@}"
+            ],
+            "_banner": ".{@{#-taskaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pracCannataskaraH"
+                }
+            ],
+            "_meanings": [
+                "an unseen thief."
             ]
         }
     ]

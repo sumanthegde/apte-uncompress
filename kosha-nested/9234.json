@@ -1,20 +1,41 @@
 {
-    "__line": 78166,
+    "__line": 77605,
     "_ancestry": [
         "L_ 9234",
-        "B_ {#urvarita#}"
+        "B_ {#udvejana#}"
     ],
-    "_banner": "{#urvarita#}",
+    "_banner": "{#udvejana#}",
     "_bannerExp": [
         {
-            "Right": "urvarita"
+            "Right": "udvejana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Much, excessive. ",
-        "{@--2@}\nRemaining after; {#Bukta°#} <ls>Pt. 5.</ls> "
+        "Causing to tremble (with fear); hurting the feelings.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 77606,
+            "_ancestry": [
+                "L_ 9234",
+                "B_ {#udvejana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udvejanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Agitation, anxiety.\n",
+                ".²2 Infliction of pain, torture, affliction; {#udvejanakarErdaRqEScihnayitvA#}\n {#pravAsayet#} <ls>Ms. 8. 352</ls> painful.\n",
+                ".²3 Regret, sorrow for oneʼs absence.\n",
+                ".²4 Shudder, shuddering; <ls>Suśr.</ls>"
+            ]
+        }
     ]
 }

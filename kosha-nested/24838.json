@@ -1,20 +1,100 @@
 {
-    "__line": 210565,
+    "__line": 223062,
     "_ancestry": [
         "L_ 24838",
-        "B_ {#vakrozWiH#}"
+        "B_ {#Bagavat#}"
     ],
-    "_banner": "{#vakrozWiH#}",
+    "_banner": "{#Bagavat#}",
     "_bannerExp": [
         {
-            "Right": "vakrozWiH"
+            "Right": "Bagavat"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "{#--vakrozWikA#}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "A gentle\nsmile."
+        ".²1 Glorious, illustrious.\n",
+        ".²2 Revered, venerable, divine, holy (an epithet applied to gods, demigods\n and other holy or respectable personages); {#svargaprakASo BagavAn pradozaH#}\n <ls>Rām. 5. 5. 8</ls>; {#aTa BagavAn kuSalI kASyapaH#} <ls>Ś. 5</ls>; {#Bagavan paravAnayaM#}\n {#janaH#} <ls>R. 8. 81</ls>; so {#BagavAn vAsudevaH#} <ab>&c.</ab>; {#utpattiM ca vinASaM#}\n {#ca BUtAnAmAgatiM gatim . vetti vidyAmavidyAM ca sa vAcyo BagavAniti ..#}\n",
+        ".²3 Fortunate (<ab>Ved.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 223069,
+            "_ancestry": [
+                "L_ 24838",
+                "B_ {#Bagavat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Bagavat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A god, deity.\n",
+                ".²2 An epithet of Viṣṇu.\n",
+                ".²3 Of Śiva.\n",
+                ".²4 Of Jina.\n",
+                ".²5 Of Buddha.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 223076,
+            "_ancestry": [
+                "L_ 24838",
+                "B_ {#Bagavat#}",
+                "S_ .{@{#-gItA#}@}"
+            ],
+            "_banner": ".{@{#-gItA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BagavadgItA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a celebrated sacred work; (it is an episode of the\n great Bhārata and purports to be a dialogue between Kṛṣṇa and\n\n Arjuna).\n"
+            ]
+        },
+        {
+            "__line": 223080,
+            "_ancestry": [
+                "L_ 24838",
+                "B_ {#Bagavat#}",
+                "S_ .{@{#-dfSa#}@}"
+            ],
+            "_banner": ".{@{#-dfSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BagavaddfSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "resembling the Supreme.\n"
+            ]
+        },
+        {
+            "__line": 223081,
+            "_ancestry": [
+                "L_ 24838",
+                "B_ {#Bagavat#}",
+                "S_ .{@{#-padI#}@}"
+            ],
+            "_banner": ".{@{#-padI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BagavatpadI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the source of Gaṅgā; {#sAkzAdBagavatpadItyanupalakzitavacaH#}\n <ls>Bhāg. 5. 17. 1</ls>."
+            ]
+        }
     ]
 }

@@ -1,19 +1,55 @@
 {
-    "__line": 177558,
+    "__line": 192263,
     "_ancestry": [
         "L_ 21472",
-        "B_ {#Palatas#}"
+        "B_ {#pItala#}"
     ],
-    "_banner": "{#Palatas#}",
+    "_banner": "{#pItala#}",
     "_bannerExp": [
         {
-            "Right": "Palatas"
+            "Right": "pItala"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "As a consequence,\nconsequently, virtually."
+        "Yellow.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 192264,
+            "_ancestry": [
+                "L_ 21472",
+                "B_ {#pItala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pItalaH"
+                }
+            ],
+            "_meanings": [
+                "The yellow colour.\n"
+            ]
+        },
+        {
+            "__line": 192265,
+            "_ancestry": [
+                "L_ 21472",
+                "B_ {#pItala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pItalam"
+                }
+            ],
+            "_meanings": [
+                "Brass."
+            ]
+        }
     ]
 }

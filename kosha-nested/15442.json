@@ -1,19 +1,75 @@
 {
-    "__line": 128352,
+    "__line": 133707,
     "_ancestry": [
         "L_ 15442",
-        "B_ {#diSoBAj#}"
+        "B_ {#jarat#}"
     ],
-    "_banner": "{#diSoBAj#}",
+    "_banner": "{#jarat#}",
     "_bannerExp": [
         {
-            "Right": "diSoBAj"
+            "Right": "jarat"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "One who runs in all\ndirections, a fugitive."
+        ".²1 Old, aged, decayed.\n",
+        ".²2 Infirm, decrepit. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 133709,
+            "_ancestry": [
+                "L_ 15442",
+                "B_ {#jarat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#jarat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An old man.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 133711,
+            "_ancestry": [
+                "L_ 15442",
+                "B_ {#jarat#}",
+                "S_ .{@{#-kAruH#}@}"
+            ],
+            "_banner": ".{@{#-kAruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaratkAruH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a great sage who married a sister of the serpent\n Vāsuki. [One day as he was fallen asleep on the lap of his wife, the sun\n was about to set. His wife, perceiving that the time of offering his evening\n prayers was passing away, gently roused him. But he became angry with\n her for having disturbed his sleep, and left her never to return. He, however,\n told her, as he went, that she was pregnant and would give birth to a\n son who would be her support, and at the same time the saviour of the serpent-race.\n This son was Astika].\n"
+            ]
+        },
+        {
+            "__line": 133719,
+            "_ancestry": [
+                "L_ 15442",
+                "B_ {#jarat#}",
+                "S_ .{@{#-gavaH#}@}"
+            ],
+            "_banner": ".{@{#-gavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaradgavaH"
+                }
+            ],
+            "_meanings": [
+                "an old ox; {#dAridryasya parA mUrtiryanmAnadraviRAlpatA .#}\n {#jaradgavaDanaH SarvastaTApi parameSvaraH ..#} <ls>Pt. 2. 163</ls>."
+            ]
+        }
     ]
 }

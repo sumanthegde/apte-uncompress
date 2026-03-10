@@ -1,22 +1,127 @@
 {
-    "__line": 225520,
+    "__line": 244644,
     "_ancestry": [
         "L_ 26757",
-        "B_ {#vihasta#}"
+        "B_ {#mohana#}"
     ],
-    "_banner": "{#vihasta#}",
+    "_banner": "{#mohana#}",
     "_bannerExp": [
         {
-            "Right": "vihasta"
+            "Right": "mohana"
+        },
+        {
+            "Right": "mohanI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#muh-Ric-lyu lyuw vA#}]"
     ],
     "_meanings": [
-        "{@--1@} Handless. ",
-        "{@--2@} \nConfounded, bewildered \noverpowered, made powerless;  \n{#mAlatImuKAvalokanavihastatayA#} <ls>Māl. 1</ls>,  \n<ls>R. 5. 49.</ls> ",
-        "{@--3@} Disabled, incapacitated\n(for doing the proper work);\n{#rujAvihastacaraRaM#} <ls>M. 4.</ls> ",
-        "{@--4@} Learned,\nwise."
+        ".²1 Stupefying.\n",
+        ".²2 Bewildering, perplexing, puzzling; {#tamastvajYAnajaM vidDi mohanaM#}\n {#sarvadehinAm#} <ls>Bg. 14. 8</ls>.\n",
+        ".²3 Deluding, infatuating.\n",
+        ".²4 Fascinating, enrapturing; {#sakalendriyamohanAni#} <ls>U. 1. 36</ls>; <ls>Māl. 6. 8</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 244651,
+            "_ancestry": [
+                "L_ 26757",
+                "B_ {#mohana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mohanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An epithet of Śiva.\n",
+                ".²2 <ab>N.</ab> of one of the five arrows of Cupid.\n",
+                ".²3 The Thorn-apple ({#DattUra#}).\n"
+            ]
+        },
+        {
+            "__line": 244655,
+            "_ancestry": [
+                "L_ 26757",
+                "B_ {#mohana#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mohanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A particular illusion.\n",
+                ".²2 A particular incantation.\n",
+                ".²3 One of the nine {#Sakti#}s of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 244659,
+            "_ancestry": [
+                "L_ 26757",
+                "B_ {#mohana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mohanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Stupefying.\n",
+                ".²2 Bewildering, perplexing, puzzling.\n",
+                ".²3 Stupor; loss of sensation.\n",
+                ".²4 Infatuation, delusion, mistake.\n",
+                ".²5 A seduction, temptation.\n",
+                ".²6 Sexual intercourse; {#yozitaH patitakAYcanakAYcO mohanAtiraBasena nitambe#}\n <ls>Śi. 10. 85</ls>; <ls>Māl. 4</ls>.\n",
+                ".²7 A means employed in perplexing others.\n",
+                ".²8 A magical charm employed to bewilder an enemy.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 244670,
+            "_ancestry": [
+                "L_ 26757",
+                "B_ {#mohana#}",
+                "S_ .{@{#-astram#}@}"
+            ],
+            "_banner": ".{@{#-astram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mohanAstram"
+                }
+            ],
+            "_meanings": [
+                "a missile which fascinates or bewitches the person against\n whom it is used.\n"
+            ]
+        },
+        {
+            "__line": 244672,
+            "_ancestry": [
+                "L_ 26757",
+                "B_ {#mohana#}",
+                "S_ .{@{#-gfham#}@}"
+            ],
+            "_banner": ".{@{#-gfham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mohanagfham"
+                }
+            ],
+            "_meanings": [
+                "a delusive chamber; {#gUQaBittisaMcAraM mohanagfhaM tanmaDye#}\n {#vA vAsagfham#} <ls>Kau. A. 1. 20</ls>."
+            ]
+        }
     ]
 }

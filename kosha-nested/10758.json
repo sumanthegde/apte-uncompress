@@ -1,20 +1,44 @@
 {
-    "__line": 90456,
+    "__line": 90351,
     "_ancestry": [
         "L_ 10758",
-        "B_ {#kAraMDamin#}"
+        "B_ {#EkAntika#}"
     ],
-    "_banner": "{#kAraMDamin#}",
+    "_banner": "{#EkAntika#}",
     "_bannerExp": [
         {
-            "Right": "kAraMDamin"
+            "Right": "EkAntika"
+        },
+        {
+            "Right": "EkAntikI"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Brazier. ",
-        "{@--2@} A\nmineralogist."
+        ".²1 Absolute, complete, perfect; <ls>Bg. 14. 27</ls>.\n",
+        ".²2 Assured, certain; {#EkAntikamAtyantikamuBayam#}\n\n <ls>Sāṅ. K. 68</ls>; <ls>Mu. 4</ls>.\n",
+        ".²3 Exclusive.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 90357,
+            "_ancestry": [
+                "L_ 10758",
+                "B_ {#EkAntika#}",
+                "M_ .{@{#-ke#}@}"
+            ],
+            "_banner": ".{@{#-ke#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "EkAntike"
+                }
+            ],
+            "_meanings": [
+                "In private, apart from others; <ls>Pt. 1</ls>."
+            ]
+        }
     ]
 }

@@ -1,16 +1,63 @@
 {
-    "__line": 207341,
+    "__line": 218259,
     "_ancestry": [
         "L_ 24457",
-        "B_ {#laMqaM#}"
+        "B_ {#barhaH#}, {#-ham#}"
     ],
-    "_banner": "{#laMqaM#}",
+    "_banner": "{#barhaH#}, {#-ham#}",
     "_bannerExp": [
         {
-            "Right": "laMqaM"
+            "Right": "barhaH"
+        },
+        {
+            "Right": "barham"
         }
     ],
+    "_gram": [
+        "[{#barh-ac#}]"
+    ],
     "_meanings": [
-        "Excrement, ordure."
+        ".²1 A peacockʼs tail; {#davolkAhataSozabarhAH#} <ls>R. 16. 14</ls>; ({#keSapASe#})\n {#sati kusumasanATe kaM haredeza barhaH#} <ls>V. 4. 10</ls> (<ab>v. l.</ab>).\n",
+        ".²2 The tail of a bird.\n",
+        ".²3 A tail-feather (especially of a peacock); {#jyotirleKAvalayi galitaM#}\n {#yasya barham#} <ls>Me. 46</ls>; <ls>Ku. 1. 15</ls>; <ls>Śi. 8. 11</ls>.\n",
+        ".²4 A leaf; {#ApARquraM ketakabarhamanyaH#} <ls>R. 6. 17</ls>.\n",
+        ".²5 A train, retinue.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 218268,
+            "_ancestry": [
+                "L_ 24457",
+                "B_ {#barhaH#}, {#-ham#}",
+                "S_ {@{#candrakaH, -netram#}@}"
+            ],
+            "_banner": "{@{#candrakaH, -netram#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#barhaH#} S_ {@{#caMdrakaH, -netraM#}@}"
+                }
+            ],
+            "_meanings": [
+                "the eye in a peacockʼs tail (<lang>Mar.</lang> <ns>{#morapIsa#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 218269,
+            "_ancestry": [
+                "L_ 24457",
+                "B_ {#barhaH#}, {#-ham#}",
+                "S_ .{@{#-BAraH#}@}"
+            ],
+            "_banner": ".{@{#-BAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhaBAraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a peacockʼs tail.\n",
+                ".²2 a tuft of peacockʼs feathers on the handle of a club <ab>&c.</ab>"
+            ]
+        }
     ]
 }

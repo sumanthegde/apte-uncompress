@@ -1,24 +1,186 @@
 {
-    "__line": 262713,
+    "__line": 288561,
     "_ancestry": [
         "L_ 31300",
-        "B_ {#harzaka#}"
+        "B_ {#vyasanam#}"
     ],
-    "_banner": "{#harzaka#}",
+    "_banner": "{#vyasanam#}",
     "_bannerExp": [
         {
-            "Right": "harzaka"
-        },
-        {
-            "Right": "harzikA"
+            "Right": "vyasanam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#rzakA#}|{#rzikA#}|{%<ab>f.</ab>%})",
-        "[{#hfz#}\n{#Ric Rvul#}]"
-    ],
     "_meanings": [
-        "Delighting, gladdening,\ndelightful, pleasing."
+        ".²1 Casting away, dispelling.\n",
+        ".²2 Separating, dividing.\n",
+        ".²3 Violation, infraction; {#SIlavyasanametatte nABijAnAmyahaM purA#}\n <ls>Rām. 2. 12. 57</ls>; <ls>Ki. 3. 45</ls>.\n",
+        ".²4 Loss, destruction, defeat, fall; defection, weak point; {#amAtyavyasanam#}\n <ls>Pt. 3</ls>; {#svabalavyasane#} <ls>Ki. 13. 15</ls>; <ls>Śi. 2. 57</ls>.\n",
+        ".²5\n",
+        ".³({%a%}) A calamity, misfortune, distress, evil, disaster, ill-luck; {#ajYAtaBartfvyasanA#}\n {#muhUrtaM kftopakAreva ratirbaBUva#} <ls>Ku. 3. 73</ls>, <ls n=\"Ku.\">4. 30</ls>; <ls>R. 12. 57</ls>.\n",
+        ".³({%b%}) Adversity, need; {#sa suhfd vyasane yaH syAt#} <ls>Pt. 1. 327</ls> ‘a\n friend in need is a friend indeed’.\n",
+        ".²6 Setting (as of the sun <ab>&c.</ab>); {#tejodvayasya yugapad vyasanodayAByAm#}\n <ls>Ś. 4. 1</ls> (where {#vyasana#} means ‘a fall’ also).\n",
+        ".²7 Vice, bad practice, evil habit; {#miTyEva vyasanaM vadanti mfgayAmIdfg#}\n {#vinodaH kutaH#} <ls>Ś. 2. 5</ls>; <ls>R. 18. 14</ls>; <ls>Y. 1. 310</ls>; (these vices are usually\n said to be ten; see <ls>Ms. 7. 47-48</ls>); {#samAnaSIlavyasanezu saKyam#} <ls>Subhāṣ.</ls>\n",
+        ".²8 Close or intent application, assiduous devotion; {#vidyAyAM vyasanam#} <ls>Bh. 2. 62</ls>, <ls n=\"Bh. 2.\">63</ls>.\n",
+        ".²9 Inordinate addiction.\n",
+        ".²10 Crime, sin.\n",
+        ".²11 Punishment.\n",
+        ".²12 Inability, incompetency.\n",
+        ".²13 Fruitless effort.\n",
+        ".²14 Air, wind.\n",
+        ".²15 Individuality.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 288587,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-atiBAraH#}@}"
+            ],
+            "_banner": ".{@{#-atiBAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanAtiBAraH"
+                }
+            ],
+            "_meanings": [
+                "heavy calamity or distress; {#sA muktakaRWaM vyasanAtiBArAt#}\n ({#cakranda#}) <ls>R. 14. 68</ls>.\n"
+            ]
+        },
+        {
+            "__line": 288589,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-anvita, -Arta, -pIqita#}@}"
+            ],
+            "_banner": ".{@{#-anvita, -Arta, -pIqita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanAnvita"
+                },
+                {
+                    "Right": "vyasanArta"
+                },
+                {
+                    "Right": "vyasanapIqita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "overtaken by calamity, involved in distress.\n"
+            ]
+        },
+        {
+            "__line": 288590,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-AvApaH#}@}"
+            ],
+            "_banner": ".{@{#-AvApaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanAvApaH"
+                }
+            ],
+            "_meanings": [
+                "an abode of calamity; {#vyasanAvApa etasmin patitAnAM#}\n {#svakarmaBiH#} <ls>Bhāg. 4. 22. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 288592,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanakAlaH"
+                }
+            ],
+            "_meanings": [
+                "time of need.\n"
+            ]
+        },
+        {
+            "__line": 288593,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-prahArin#}@}"
+            ],
+            "_banner": ".{@{#-prahArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanaprahArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 hurting, attacking, giving trouble.\n",
+                ".²2 striking (an enemy) in his weak point.\n"
+            ]
+        },
+        {
+            "__line": 288596,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-brahmacArin#}@}"
+            ],
+            "_banner": ".{@{#-brahmacArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanabrahmacArin"
+                }
+            ],
+            "_meanings": [
+                "a fellow-sufferer.\n"
+            ]
+        },
+        {
+            "__line": 288597,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-vargaH#}@}"
+            ],
+            "_banner": ".{@{#-vargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanavargaH"
+                }
+            ],
+            "_meanings": [
+                "an aggregate of calamities; {#prakftivyasanavargaH#} <ls>Kau. A. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 288598,
+            "_ancestry": [
+                "L_ 31300",
+                "B_ {#vyasanam#}",
+                "S_ .{@{#-saMsTita#}@}"
+            ],
+            "_banner": ".{@{#-saMsTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyasanasaMsTita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who indulges in any whim."
+            ]
+        }
     ]
 }

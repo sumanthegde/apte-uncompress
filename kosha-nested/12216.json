@@ -1,19 +1,35 @@
 {
-    "__line": 101627,
+    "__line": 103441,
     "_ancestry": [
         "L_ 12216",
-        "B_ {#KolakaH#}"
+        "B_ {#kiKiH#}"
     ],
-    "_banner": "{#KolakaH#}",
+    "_banner": "{#kiKiH#}",
     "_bannerExp": [
         {
-            "Right": "KolakaH"
+            "Right": "kiKiH"
         }
     ],
     "_meanings": [
-        "{@--1@} A helmet. ",
-        "{@--2@} An \nanthill. ",
-        "{@--3@} The shell of a betel-nut. ",
-        "{@--4@}\nSauce-pan, pot."
+        "A monkey, an ape. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 103441,
+            "_ancestry": [
+                "L_ 12216",
+                "B_ {#kiKiH#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kiKiH#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "A jackal; fox."
+            ]
+        }
     ]
 }

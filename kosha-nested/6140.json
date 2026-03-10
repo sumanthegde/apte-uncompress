@@ -1,19 +1,82 @@
 {
-    "__line": 54023,
+    "__line": 51404,
     "_ancestry": [
         "L_ 6140",
-        "B_ {#Adadi#}"
+        "B_ {#asidDa#}"
     ],
-    "_banner": "{#Adadi#}",
+    "_banner": "{#asidDa#}",
     "_bannerExp": [
         {
-            "Right": "Adadi"
+            "Right": "asidDa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Taking."
+        ".²1 Not accomplished.\n",
+        ".²2 Imperfect, incomplete.\n",
+        ".²3 Unproved.\n",
+        ".²4 Unripe, raw, uncooked.\n",
+        ".²5 Not derivable by inference.\n",
+        ".²6 (in grammar) non-effective; inoperative (as a rule), not effected;\n as good as not effected {%<ab>i. e.</ab>%} null and void (as the operation of such\n a rule) {#pUrvatrAsidDam#} <ls>P. VIII. 2. 1</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 51413,
+            "_ancestry": [
+                "L_ 6140",
+                "B_ {#asidDa#}",
+                "M_ .{@{#-dDaH#}@}"
+            ],
+            "_banner": ".{@{#-dDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asidDaH"
+                }
+            ],
+            "_meanings": [
+                "A fallacious {%hetu%}; one of the five principal divisions\n of {#hetvABAsa#} or fallacies. It is of three kinds:-- (1) {#ASrayAsidDa#}\n where the existence of any such locality ({#ASraya#}) as that where the\n property is said to reside, is not estabished; as {#‘gaganAravindaM suraBi#}\n {#aravindatvAt’#}, (2) {#svarUpAsidDa#} where the nature ({#svarUpa#}) alleged\n does not really reside in the subject ({#pakza#}); as {#Sabdo guRaH cAkzuzatvAt#};\n and (3) {#vyApyatvAsidDa#} where the alleged invariableness of concomitance\n is not real (the {#sADyatva#} not residing in {#sADya#}); as {#parvato#}\n {#vahnimAn kAYcanamayaDUmAt#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 51423,
+            "_ancestry": [
+                "L_ 6140",
+                "B_ {#asidDa#}",
+                "S_ .{@{#-antaH#}@}"
+            ],
+            "_banner": ".{@{#-antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asidDAntaH"
+                }
+            ],
+            "_meanings": [
+                "Not an incontestable dogma; <ls>Suśr.</ls>\n"
+            ]
+        },
+        {
+            "__line": 51424,
+            "_ancestry": [
+                "L_ 6140",
+                "B_ {#asidDa#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asidDArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has not effected his aim; <ls>Rām. 3</ls>."
+            ]
+        }
     ]
 }

@@ -1,21 +1,91 @@
 {
-    "__line": 234831,
+    "__line": 257868,
     "_ancestry": [
         "L_ 27925",
-        "B_ {#SiKaMqaH#}"
+        "B_ {#lAjaH#}"
     ],
-    "_banner": "{#SiKaMqaH#}",
+    "_banner": "{#lAjaH#}",
     "_bannerExp": [
         {
-            "Right": "SiKaMqaH"
+            "Right": "lAjaH"
         }
     ],
     "_gram": [
-        "[{#SiKAmamati am-q tasya#} \n{#netvam#} <ls>Tv.</ls>]"
+        "[{#lAj-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} A lock of hair left on the\ncrown or sides of the head at tonsure.\n",
-        "{@--2@} A peacock's tail. ",
-        "{@--3@} A crest;  \n<ls>V. 4. 8.</ls>"
+        "Wetted grain.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 257869,
+            "_ancestry": [
+                "L_ 27925",
+                "B_ {#lAjaH#}",
+                "M_ .{@{#-jAH#}@}"
+            ],
+            "_banner": ".{@{#-jAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAjAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) Parched or fried grain ({%f.%} also); ({#tam#}) {#avAkiran#}\n {#bAlalatAH prasUnErAcAralAjEriva pOrakanyAH#} <ls>R. 2. 10</ls>, <ls n=\"R.\">4. 27</ls>, <ls n=\"R.\">7. 25</ls>; <ls>Ku. 7. 69</ls>, <ls n=\"Ku. 7.\">80</ls>.\n"
+            ]
+        },
+        {
+            "__line": 257871,
+            "_ancestry": [
+                "L_ 27925",
+                "B_ {#lAjaH#}",
+                "M_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAjam"
+                }
+            ],
+            "_meanings": [
+                "= {#uSIra#} <ab>q. v.</ab>; {#lAjollApikaGUmAQyamuccaprAkAratoraRam#}\n <ls>Mb. 5. 191. 21</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 257874,
+            "_ancestry": [
+                "L_ 27925",
+                "B_ {#lAjaH#}",
+                "S_ .{@{#-peyAH#}@}"
+            ],
+            "_banner": ".{@{#-peyAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAjapeyAH"
+                }
+            ],
+            "_meanings": [
+                "rice-gruel.\n"
+            ]
+        },
+        {
+            "__line": 257875,
+            "_ancestry": [
+                "L_ 27925",
+                "B_ {#lAjaH#}",
+                "S_ .{@{#-maRqaH#}@}"
+            ],
+            "_banner": ".{@{#-maRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAjamaRqaH"
+                }
+            ],
+            "_meanings": [
+                "the scum of parched grain."
+            ]
+        }
     ]
 }

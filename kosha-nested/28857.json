@@ -1,39 +1,103 @@
 {
-    "__line": 242313,
+    "__line": 267064,
     "_ancestry": [
         "L_ 28857",
-        "B_ {#saMkuc#}"
+        "B_ {#vAcika#}"
     ],
-    "_banner": "{#saMkuc#}",
+    "_banner": "{#vAcika#}",
     "_bannerExp": [
         {
-            "Right": "saMkuc"
+            "Right": "vAcika"
+        },
+        {
+            "Right": "vAcikA"
+        },
+        {
+            "Right": "vAcikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kA, -kI#}|{%f.%})",
+        "[{#vAcA kftaM vAc-Wak casya na kaH#}]"
+    ],
     "_meanings": [
-        "{1} {c6c} <ab>P.</ab> ",
-        "{@--1@} To become\ncontracted, shrink. ",
-        "{@--2@} To close,\nshut (as a flower). ",
-        "{@--3@} To contract,\ncompress. "
+        ".²1 Consisting of or expressed by words; {#vAcikaM pAruzyam#}.\n",
+        ".²2 Oral, verbal, expressed by word of mouth.\n"
     ],
     "_morphisms": [
         {
-            "__line": 242316,
+            "__line": 267068,
             "_ancestry": [
                 "L_ 28857",
-                "B_ {#saMkuc#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#vAcika#}",
+                "M_ .{@{#-kaH#}@}"
             ],
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMkuc"
+                    "Right": "vAcikaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "A declamatory speech.\n"
+            ]
+        },
+        {
+            "__line": 267069,
+            "_ancestry": [
+                "L_ 28857",
+                "B_ {#vAcika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAcikam"
+                }
             ],
             "_meanings": [
-                "To contract,\nnarrow."
+                ".²1 A message, an oral or verbal communication; {#vAcikamapyAryeRa sidDArTakAcCrotavyamiti#}\n {#liKitam#} <ls>Mu. 5</ls>; {#nirDArite'rTe leKena KalUktvA Kalu vAcikam#} <ls>Śi. 2. 70</ls>;\n {#tava krItasuto'smIti vAcikena vyajijYapat#} <ls>Śiva B. 31. 32</ls>.\n",
+                ".²2 News, tidings, intelligence in general.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 267075,
+            "_ancestry": [
+                "L_ 28857",
+                "B_ {#vAcika#}",
+                "S_ .{@{#-patram#}@}"
+            ],
+            "_banner": ".{@{#-patram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAcikapatram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A letter.\n",
+                ".²2 A newspaper.\n",
+                ".²3 A written agreement, contract.\n"
+            ]
+        },
+        {
+            "__line": 267079,
+            "_ancestry": [
+                "L_ 28857",
+                "B_ {#vAcika#}",
+                "S_ .{@{#-hArakaH#}@}"
+            ],
+            "_banner": ".{@{#-hArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAcikahArakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a letter.\n",
+                ".²2 a messenger, news-bearer."
             ]
         }
     ]

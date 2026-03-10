@@ -1,25 +1,43 @@
 {
-    "__line": 136037,
+    "__line": 140654,
     "_ancestry": [
         "L_ 16214",
-        "B_ {#Dru#}"
+        "B_ {#taras#}"
     ],
-    "_banner": "{#Dru#}",
+    "_banner": "{#taras#}",
     "_bannerExp": [
         {
-            "Right": "Dru"
+            "Right": "taras"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#Dravati, Druvati#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To\nbe firm or fixed. ",
-        "{@--2@} To go, move. ",
-        "{@--3@}\nTo ascertain, know definitely. ",
-        "{@--4@} To\nkill."
+        "<ab>Ved.</ab> [{#tF-karaRAdO asun#}] Quick, energetic. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 140654,
+            "_ancestry": [
+                "L_ 16214",
+                "B_ {#taras#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#taras#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Speed, velocity.\n",
+                ".²2 Vigour, strength, energy; {#kElAsanATaM tarasA jigIzuH#} <ls>R. 5. 28</ls>, <ls n=\"R.\">11. 77</ls>;\n <ls>Śi. 9. 72</ls>.\n",
+                ".²3 A bank, a place of crossing.\n",
+                ".²4 A float, raft; {#bfhaspatistara ApaSca gfDraH#} <ls>Rv. 1. 190. 7</ls>.\n",
+                ".²5 A monkey.\n",
+                ".²6 A disease."
+            ]
+        }
     ]
 }

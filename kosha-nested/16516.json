@@ -1,43 +1,232 @@
 {
-    "__line": 138904,
+    "__line": 143271,
     "_ancestry": [
         "L_ 16516",
-        "B_ {#nAraka#}"
+        "B_ {#tIvra#}"
     ],
-    "_banner": "{#nAraka#}",
+    "_banner": "{#tIvra#}",
     "_bannerExp": [
         {
-            "Right": "nArakI"
-        },
-        {
-            "Right": "nAraka"
+            "Right": "tIvra"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#naraka eva prajYA°#}\n{#aR narakasyedaM aR vA#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Hellish, relating\nto hell, infernal. "
+        ".²1 Severe, intense, sharp, acute, violent, poignant, pungent, impetuous;\n {#vilaNGitADoraRatIvrayatnAH#} <ls>R. 5. 48</ls> ‘strong or violent efforts’ <ab>&c.</ab>;\n <ls>U. 3. 35</ls>; <ls>Ś. 1. 32</ls>, <ls n=\"Ś.\">5. 7</ls>.\n",
+        ".²2 Hot, warm.\n",
+        ".²3 Flashing.\n",
+        ".²4 Pervading.\n",
+        ".²5 Endless, unlimited.\n",
+        ".²6 Horrible, dreadful.\n"
     ],
     "_morphisms": [
         {
-            "__line": 138906,
+            "__line": 143280,
             "_ancestry": [
                 "L_ 16516",
-                "B_ {#nAraka#}",
-                "M_ {#--kaH#}"
+                "B_ {#tIvra#}",
+                "M_ .{@{#-vraH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-vraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nArakaH"
+                    "Right": "tIvraH"
                 }
             ],
             "_meanings": [
-                "{@--1@} The \ninfernal regions, hell. ",
-                "{@--2@} An inhabitant\nof hell."
+                ".²1 Sharpness.\n",
+                ".²2 Śiva.\n"
+            ]
+        },
+        {
+            "__line": 143283,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "M_ .{@{#-vram#}@}"
+            ],
+            "_banner": ".{@{#-vram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Heat, pungency.\n",
+                ".²2 A shore.\n",
+                ".²3 Iron, steel.\n",
+                ".²4 Tin.\n"
+            ]
+        },
+        {
+            "__line": 143288,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "M_ .{@{#-vram#}@}"
+            ],
+            "_banner": ".{@{#-vram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Violently, sharply, excessively.\n"
+            ]
+        },
+        {
+            "__line": 143289,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "M_ .{@{#-vrA#}@}"
+            ],
+            "_banner": ".{@{#-vrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvrA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Black mustard.\n",
+                ".²2 Basil.\n",
+                ".²3 Helleborus niger (<lang>Mar.</lang> <ns>{#kuwakI#}</ns>).\n",
+                ".²4 (in music) <ab>N.</ab> of a {#Sruti#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 143295,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "S_ .{@{#-AnandaH#}@}"
+            ],
+            "_banner": ".{@{#-AnandaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvrAnandaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 143296,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "S_ .{@{#-gati#}@}"
+            ],
+            "_banner": ".{@{#-gati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvragati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "quick, swift.\n"
+            ]
+        },
+        {
+            "__line": 143297,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "S_ .{@{#-ganDA#}@}"
+            ],
+            "_banner": ".{@{#-ganDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvraganDA"
+                }
+            ],
+            "_meanings": [
+                "cumin seed.\n"
+            ]
+        },
+        {
+            "__line": 143298,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "S_ .{@{#-dyutiH#}@}"
+            ],
+            "_banner": ".{@{#-dyutiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvradyutiH"
+                }
+            ],
+            "_meanings": [
+                "the sun;\n\n <ls>P. R. 7. 83</ls>.\n"
+            ]
+        },
+        {
+            "__line": 143301,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "S_ .{@{#-pOruzam#}@}"
+            ],
+            "_banner": ".{@{#-pOruzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvrapOruzam"
+                }
+            ],
+            "_meanings": [
+                ".²1 daring heroism.\n",
+                ".²2 heroism (in general).\n"
+            ]
+        },
+        {
+            "__line": 143304,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "S_ .{@{#-vedanA#}@}"
+            ],
+            "_banner": ".{@{#-vedanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvravedanA"
+                }
+            ],
+            "_meanings": [
+                "acute or sharp pain.\n"
+            ]
+        },
+        {
+            "__line": 143305,
+            "_ancestry": [
+                "L_ 16516",
+                "B_ {#tIvra#}",
+                "S_ .{@{#-saMvega#}@}"
+            ],
+            "_banner": ".{@{#-saMvega#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIvrasaMvega"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 of strong impulse, resolute.\n",
+                ".²2 very poignant or sharp."
             ]
         }
     ]

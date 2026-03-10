@@ -1,25 +1,97 @@
 {
-    "__line": 236577,
+    "__line": 259425,
     "_ancestry": [
         "L_ 28119",
-        "B_ {#Sulk#}"
+        "B_ {#lepya#}"
     ],
-    "_banner": "{#Sulk#}",
+    "_banner": "{#lepya#}",
     "_bannerExp": [
         {
-            "Right": "Sulk"
+            "Right": "lepya"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#Sulkaya ti-te#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To\ngain. ",
-        "{@--2@} To pay, give. ",
-        "{@--3@} To create.\n",
-        "{@--4@} To tell, narrate. ",
-        "{@--5@} To leave,\nforsake, abandon."
+        ".²1 To be plastered, smeared <ab>&c.</ab>\n",
+        ".²2 Moulded, modelled; {#SElI dArumayI lOhI lepyA leKyA ca sEkatI#} ({#pratimAzwaviDA#})\n <ls>Bhāg. 11. 27. 12</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 259429,
+            "_ancestry": [
+                "L_ 28119",
+                "B_ {#lepya#}",
+                "M_ .{@{#-pyam#}@}"
+            ],
+            "_banner": ".{@{#-pyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lepyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Plastering, smearing.\n",
+                ".²2 Moulding, modelling, making models.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 259433,
+            "_ancestry": [
+                "L_ 28119",
+                "B_ {#lepya#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lepyakft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a model-maker.\n",
+                ".²2 a brick-layer.\n"
+            ]
+        },
+        {
+            "__line": 259436,
+            "_ancestry": [
+                "L_ 28119",
+                "B_ {#lepya#}",
+                "S_ .{@{#-nArI#}@}"
+            ],
+            "_banner": ".{@{#-nArI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lepyanArI"
+                }
+            ],
+            "_meanings": [
+                "a moulded figure of a woman.\n"
+            ]
+        },
+        {
+            "__line": 259437,
+            "_ancestry": [
+                "L_ 28119",
+                "B_ {#lepya#}",
+                "S_ .{@{#-strI#}@}"
+            ],
+            "_banner": ".{@{#-strI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lepyastrI"
+                }
+            ],
+            "_meanings": [
+                "a woman covered with unguents or perfumed ointments."
+            ]
+        }
     ]
 }

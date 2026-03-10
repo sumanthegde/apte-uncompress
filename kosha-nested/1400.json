@@ -1,19 +1,45 @@
 {
-    "__line": 14771,
+    "__line": 12923,
     "_ancestry": [
         "L_ 1400",
-        "B_ {#anAsrAva#}"
+        "B_ {#anavalamba, -mbana#}"
     ],
-    "_banner": "{#anAsrAva#}",
+    "_banner": "{#anavalamba, -mbana#}",
     "_bannerExp": [
         {
-            "Right": "anAsrAva"
+            "Right": "anavalamba"
+        },
+        {
+            "Right": "anavalambana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "Without injury or\nhurt ({#kleSarahita#}). "
+        "Having no prop or support; not dependent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 12925,
+            "_ancestry": [
+                "L_ 1400",
+                "B_ {#anavalamba, -mbana#}",
+                "M_ .{@{#-mbaH, -mbanam#}@}"
+            ],
+            "_banner": ".{@{#-mbaH, -mbanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anavalambaH"
+                },
+                {
+                    "Right": "anavalambanam"
+                }
+            ],
+            "_meanings": [
+                "Independence."
+            ]
+        }
     ]
 }

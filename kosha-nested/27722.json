@@ -1,16 +1,38 @@
 {
-    "__line": 233374,
+    "__line": 255775,
     "_ancestry": [
         "L_ 27722",
-        "B_ {#Savara#}"
+        "B_ {#lakacaH, lakucaH#}"
     ],
-    "_banner": "{#Savara#}",
+    "_banner": "{#lakacaH, lakucaH#}",
     "_bannerExp": [
         {
-            "Right": "Savara"
+            "Right": "lakacaH"
+        },
+        {
+            "Right": "lakucaH"
         }
     ],
     "_meanings": [
-        "See {#Sabara, Sabala#}."
+        "A kind of bread-fruit tree.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255776,
+            "_ancestry": [
+                "L_ 27722",
+                "B_ {#lakacaH, lakucaH#}",
+                "M_ .{@{#-cam#}@}"
+            ],
+            "_banner": ".{@{#-cam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lakacam"
+                }
+            ],
+            "_meanings": [
+                "The fruit of this tree."
+            ]
+        }
     ]
 }

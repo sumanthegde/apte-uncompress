@@ -1,23 +1,88 @@
 {
-    "__line": 247590,
+    "__line": 272803,
     "_ancestry": [
         "L_ 29520",
-        "B_ {#samujjfMB#}"
+        "B_ {#vitata#}"
     ],
-    "_banner": "{#samujjfMB#}",
+    "_banner": "{#vitata#}",
     "_bannerExp": [
         {
-            "Right": "samujjfMB"
+            "Right": "vitata"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To yawn, gape.\n",
-        "{@--2@} To extend, spread out. ",
-        "{@--3@} To \n\nappear, rise, become visible. ",
-        "{@--4@} To\nattempt, strive, endeavour; {#vyAlaM#}\n{#bAlamfRAlataMtuBirasO rodDuM samujjfMBate#}  \n<ls>Bh. 2. 6.</ls>"
+        ".²1 Spread out, extended, stretched; {#amuM yajYaM vitatameyAya#} <ls>Ch. Up. 1. 10. 7</ls>.\n",
+        ".²2 Elongated, large, long, broad; {#vitatavapuzA mahAhinA#} <ls>Ki. 12. 22</ls>;\n {#Bavati vitataSvAsonnAhapraRunnapayoDaram#} <ls>Māl. 10. 15</ls>.\n",
+        ".²3 Performed, accomplished, effected; {#vitatayajYaH#} <ls>Ś. 7. 34</ls>.\n",
+        ".²4 Covered.\n",
+        ".²5 Diffused.\n",
+        ".²6 Gone away; {#SabdaveDyaM ca vitatam#} <ls>Rām. 1. 5. 20</ls>.\n",
+        ".²7 Drawn (as a bow string).\n",
+        ".²8 Bent (as a bow); (see {#tan#} with {#vi#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 272813,
+            "_ancestry": [
+                "L_ 29520",
+                "B_ {#vitata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vitatam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Any stringed instrument, such as a lute <ab>&c.</ab>\n",
+                ".²2 A shoot, tendril ({#pratAna#}); {#vicitASca mahAgulmA latAvitatasaMtatAH#}\n <ls>Rām. 4. 47. 12</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 272818,
+            "_ancestry": [
+                "L_ 29520",
+                "B_ {#vitata#}",
+                "S_ .{@{#-utsava#}@}"
+            ],
+            "_banner": ".{@{#-utsava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vitatotsava"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has arranged a festival.\n"
+            ]
+        },
+        {
+            "__line": 272819,
+            "_ancestry": [
+                "L_ 29520",
+                "B_ {#vitata#}",
+                "S_ .{@{#-Danvan#}@}"
+            ],
+            "_banner": ".{@{#-Danvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vitataDanvan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has fully drawn or stretched his bow."
+            ]
+        }
     ]
 }

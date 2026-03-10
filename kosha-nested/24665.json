@@ -1,20 +1,40 @@
 {
-    "__line": 208991,
+    "__line": 220665,
     "_ancestry": [
         "L_ 24665",
-        "B_ {#luMc#}"
+        "B_ {#biBrakzu#}"
     ],
-    "_banner": "{#luMc#}",
+    "_banner": "{#biBrakzu#}",
     "_bannerExp": [
         {
-            "Right": "luMc"
+            "Right": "biBrakzu"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Plucking out. ",
-        "{@--2@} \nDropping out."
+        ".²1 Wishing to roast or fry.\n",
+        ".²2 Desirous of scorching up.\n",
+        ".²3 Wishing to destroy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 220669,
+            "_ancestry": [
+                "L_ 24665",
+                "B_ {#biBrakzu#}",
+                "M_ .{@{#-kzuH#}@}"
+            ],
+            "_banner": ".{@{#-kzuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "biBrakzuH"
+                }
+            ],
+            "_meanings": [
+                "Fire."
+            ]
+        }
     ]
 }

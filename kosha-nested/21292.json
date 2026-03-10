@@ -1,34 +1,99 @@
 {
-    "__line": 176138,
+    "__line": 190532,
     "_ancestry": [
         "L_ 21292",
-        "B_ {#priyAlaH#}"
+        "B_ {#pASupata#}"
     ],
-    "_banner": "{#priyAlaH#}",
+    "_banner": "{#pASupata#}",
     "_bannerExp": [
         {
-            "Right": "priyAlaH"
+            "Right": "pASupata"
+        },
+        {
+            "Right": "pASupatI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-tI#}|{%f.%})",
+        "[{#paSupateridam aR#}]"
+    ],
     "_meanings": [
-        "The tree called Piyāl; see\n{#piyAla#}. "
+        "Coming from or relating or\n sacred to Paśupati.\n"
     ],
     "_morphisms": [
         {
-            "__line": 176139,
+            "__line": 190535,
             "_ancestry": [
                 "L_ 21292",
-                "B_ {#priyAlaH#}",
-                "M_ {#--lA#}"
+                "B_ {#pASupata#}",
+                "M_ .{@{#-taH#}@}"
             ],
-            "_banner": "{#--lA#}",
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "priyAlA"
+                    "Right": "pASupataH"
                 }
             ],
             "_meanings": [
-                "A vine."
+                ".²1 A follower and worshipper of Śiva.\n",
+                ".²2 A follower of the doctrines of Paśupati.\n"
+            ]
+        },
+        {
+            "__line": 190538,
+            "_ancestry": [
+                "L_ 21292",
+                "B_ {#pASupata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pASupatam"
+                }
+            ],
+            "_meanings": [
+                "The Pāśupata doctrines; (for the Pāśupata doctrines,\n see <ls>Sarva. S.</ls>); {#mayA pASupataM dakza SuBamutpAditaM purA#} <ls>Mb. 12. 284. 195</ls>;\n (<ab>com.</ab> {#‘agniriti Basma˚’ ityAdinA Basma gfhItvA nimfjyANgAni saMspfSet .#}\n {#tasmAd vratametat pASupatam .#})\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 190543,
+            "_ancestry": [
+                "L_ 21292",
+                "B_ {#pASupata#}",
+                "S_ .{@{#-astram#}@}"
+            ],
+            "_banner": ".{@{#-astram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pASupatAstram"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a missile presided over by {#paSupati#} or Śiva\n (which Arjuna acquired from Śiva).\n"
+            ]
+        },
+        {
+            "__line": 190545,
+            "_ancestry": [
+                "L_ 21292",
+                "B_ {#pASupata#}",
+                "S_ .{@{#-yogaH, -vratam#}@}"
+            ],
+            "_banner": ".{@{#-yogaH, -vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pASupatayogaH"
+                },
+                {
+                    "Right": "pASupatavratam"
+                }
+            ],
+            "_meanings": [
+                "The system of {#pASupata#}. See {#pASupatam#}."
             ]
         }
     ]

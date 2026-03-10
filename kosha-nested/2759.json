@@ -1,19 +1,58 @@
 {
-    "__line": 27263,
+    "__line": 24318,
     "_ancestry": [
         "L_ 2759",
-        "B_ {#apodikA#}"
+        "B_ {#aparvan#}"
     ],
-    "_banner": "{#apodikA#}",
+    "_banner": "{#aparvan#}",
     "_bannerExp": [
         {
-            "Right": "apodikA"
+            "Right": "aparvan"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "A sort of potherb ( \n{#apanadDamudakaM yasyAH, tatPalezUdakavattvAttaTAtvaM#})."
+        "Without a joint. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 24318,
+            "_ancestry": [
+                "L_ 2759",
+                "B_ {#aparvan#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#aparvan#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 No joint or point of conjunction.\n",
+                ".²2 A day which is not a {#parvan#} <ab>i. e.</ab> not the proper time or season\n (the Parva days being {#amAvAsyA, pOrRimA, azwamI, caturdaSI#} <ab>&c.</ab>);\n {#aparvaRi grahakaluzendumaRqalA viBAvarI kaTaya kaTaM Bavizyati#} <ls>M. 4. 16</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 24324,
+            "_ancestry": [
+                "L_ 2759",
+                "B_ {#aparvan#}",
+                "S_ .{@{#-daRqaH#}@}"
+            ],
+            "_banner": ".{@{#-daRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparvadaRqaH"
+                }
+            ],
+            "_meanings": [
+                "a sort of sugar-cane."
+            ]
+        }
     ]
 }

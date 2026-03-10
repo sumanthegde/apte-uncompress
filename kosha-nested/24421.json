@@ -1,18 +1,39 @@
 {
-    "__line": 207090,
+    "__line": 217978,
     "_ancestry": [
         "L_ 24421",
-        "B_ {#laMgaH#}"
+        "B_ {#banDukaH#}"
     ],
-    "_banner": "{#laMgaH#}",
+    "_banner": "{#banDukaH#}",
     "_bannerExp": [
         {
-            "Right": "laMgaH"
+            "Right": "banDukaH"
         }
     ],
     "_meanings": [
-        "{@--1@} Lameness. ",
-        "{@--2@} Union, \nassociation. ",
-        "{@--3@} A lover, paramour."
+        ".²1 The tree called {#banDujIva#}.\n",
+        ".²2 A bastard.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 217981,
+            "_ancestry": [
+                "L_ 24421",
+                "B_ {#banDukaH#}",
+                "M_ .{@{#-kA, -kI#}@}"
+            ],
+            "_banner": ".{@{#-kA, -kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "banDukA"
+                },
+                {
+                    "Right": "banDukI"
+                }
+            ],
+            "_meanings": [
+                "An unchaste woman (see {#banDakI#})."
+            ]
+        }
     ]
 }

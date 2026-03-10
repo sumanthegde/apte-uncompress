@@ -1,25 +1,81 @@
 {
-    "__line": 208447,
+    "__line": 220086,
     "_ancestry": [
         "L_ 24600",
-        "B_ {#lAvaRa#}"
+        "B_ {#bAliSa#}"
     ],
-    "_banner": "{#lAvaRa#}",
+    "_banner": "{#bAliSa#}",
     "_bannerExp": [
         {
-            "Right": "lAvaRI"
-        },
-        {
-            "Right": "lAvaRa"
+            "Right": "bAliSa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#RI#}|{%<ab>f.</ab>%})",
-        "[{#lavaRe saMskftaM#}\n{#aR#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Salt. ",
-        "{@--2@} Salted, dressed with\nsalt."
+        ".²1 Childish, puerile, silly.\n",
+        ".²2 Young.\n",
+        ".²3 Foolish, ignorant; {#tAvatAM na PalaM tatra dAtA prApnoti bAliSaH#}\n\n <ls>Ms. 3. 176</ls>; {#mamAparADAttEH kzudrErhatastvaM tAta bAliSEH#} <ls>Mb. 3. 117. 1</ls>.\n",
+        ".²4 Careless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 220093,
+            "_ancestry": [
+                "L_ 24600",
+                "B_ {#bAliSa#}",
+                "M_ .{@{#-SaH#}@}"
+            ],
+            "_banner": ".{@{#-SaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAliSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A fool, blockhead.\n",
+                ".²2 A child, boy.\n"
+            ]
+        },
+        {
+            "__line": 220096,
+            "_ancestry": [
+                "L_ 24600",
+                "B_ {#bAliSa#}",
+                "M_ .{@{#-Sam#}@}"
+            ],
+            "_banner": ".{@{#-Sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAliSam"
+                }
+            ],
+            "_meanings": [
+                "A pillow.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 220098,
+            "_ancestry": [
+                "L_ 24600",
+                "B_ {#bAliSa#}",
+                "S_ .{@{#-mati#}@}"
+            ],
+            "_banner": ".{@{#-mati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAliSamati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Childish-minded, foolish."
+            ]
+        }
     ]
 }

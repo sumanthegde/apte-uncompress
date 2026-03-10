@@ -1,19 +1,115 @@
 {
-    "__line": 244386,
+    "__line": 269463,
     "_ancestry": [
         "L_ 29101",
-        "B_ {#saDis#}"
+        "B_ {#vAsaraH#}, {#-ram#}"
     ],
-    "_banner": "{#saDis#}",
+    "_banner": "{#vAsaraH#}, {#-ram#}",
     "_bannerExp": [
         {
-            "Right": "saDis"
+            "Right": "vAsaraH"
+        },
+        {
+            "Right": "vAsaram"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "[{#suKaM vAsayati janAn, vAsaraH#} <ls>Uṇ. 3. 133</ls>]"
     ],
     "_meanings": [
-        "An ox, a bull."
+        "A day (of the week).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 269465,
+            "_ancestry": [
+                "L_ 29101",
+                "B_ {#vAsaraH#}, {#-ram#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Time, turn.\n",
+                ".²2 <ab>N.</ab> of a Nāga.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 269469,
+            "_ancestry": [
+                "L_ 29101",
+                "B_ {#vAsaraH#}, {#-ram#}",
+                "S_ .{@{#-kanyakA#}@}"
+            ],
+            "_banner": ".{@{#-kanyakA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsarakanyakA"
+                }
+            ],
+            "_meanings": [
+                "night.\n"
+            ]
+        },
+        {
+            "__line": 269470,
+            "_ancestry": [
+                "L_ 29101",
+                "B_ {#vAsaraH#}, {#-ram#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsarakft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 269471,
+            "_ancestry": [
+                "L_ 29101",
+                "B_ {#vAsaraH#}, {#-ram#}",
+                "S_ .{@{#-maRiH#}@}"
+            ],
+            "_banner": ".{@{#-maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsaramaRiH"
+                }
+            ],
+            "_meanings": [
+                "the sun; {#vAsaramaRiriva tamasAM rASiM nASayati viDnAnAm#}\n <ls>Maṅgal. S. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 269473,
+            "_ancestry": [
+                "L_ 29101",
+                "B_ {#vAsaraH#}, {#-ram#}",
+                "S_ .{@{#-saNgaH#}@}"
+            ],
+            "_banner": ".{@{#-saNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsarasaNgaH"
+                }
+            ],
+            "_meanings": [
+                "morning."
+            ]
+        }
     ]
 }

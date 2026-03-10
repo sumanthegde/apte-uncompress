@@ -1,16 +1,40 @@
 {
-    "__line": 202315,
+    "__line": 213622,
     "_ancestry": [
         "L_ 23933",
-        "B_ {#rakzastvaM#}"
+        "B_ {#prApaka#}"
     ],
-    "_banner": "{#rakzastvaM#}",
+    "_banner": "{#prApaka#}",
     "_bannerExp": [
         {
-            "Right": "rakzastvaM"
+            "Right": "prApaka"
+        },
+        {
+            "Left": "fFromGramCore error: prApaka  pikA"
         }
     ],
+    "_gram": [
+        "({#-pikA#}|{%f.%})",
+        "[{#prAp-Rvul#}]"
+    ],
     "_meanings": [
-        "Demoniacal nature, fiendish\ncruelty, malignity."
+        ".²1 Leading to, conveying.\n",
+        ".²2 Procuring, providing with.\n",
+        ".²3 Establishing, making valid.\n",
+        ".²4 Obtaining.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 213628,
+            "_ancestry": [
+                "L_ 23933",
+                "B_ {#prApaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_meanings": [
+                "Bringer, procurer."
+            ]
+        }
     ]
 }

@@ -1,19 +1,45 @@
 {
-    "__line": 8534,
+    "__line": 7108,
     "_ancestry": [
         "L_ 702",
-        "B_ {#atiSvan#}"
+        "B_ {#atimAtra#}"
     ],
-    "_banner": "{#atiSvan#}",
+    "_banner": "{#atimAtra#}",
     "_bannerExp": [
         {
-            "Right": "atiSvan"
+            "Right": "atimAtra"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "[{#atikAnto mAtrAm, atiSayitA mAtrA pramARaM yasya#}\n {#vA#}]"
     ],
     "_meanings": [
-        "An excellent dog."
+        "Exceeding the proper measure, inordinate, excessive; {#˚BAsvaratvam#}\n <ls>M. 1. 13</ls>; (in <ab>comp.</ab>) very much, beyond measure; {#˚suduHsahAni#} <ls>Ś. 4. 3</ls>\n quite insupportable; {#˚lohitatalO#} <ls n=\"Ś.\">1. 29</ls>; {#munivratEstvAmatimAtrakarSitA#} <ls>Ku. 5. 48</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 7112,
+            "_ancestry": [
+                "L_ 702",
+                "B_ {#atimAtra#}",
+                "M_ .{@{#-tram, -mAtraSaH#}@}"
+            ],
+            "_banner": ".{@{#-tram, -mAtraSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atimAtram"
+                },
+                {
+                    "Right": "atimAtraSaH"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Beyond measure, inordinately, excessively."
+            ]
+        }
     ]
 }

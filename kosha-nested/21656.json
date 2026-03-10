@@ -1,19 +1,57 @@
 {
-    "__line": 179389,
+    "__line": 194552,
     "_ancestry": [
         "L_ 21656",
-        "B_ {#bahuTA#}"
+        "B_ {#puzpavat#}"
     ],
-    "_banner": "{#bahuTA#}",
+    "_banner": "{#puzpavat#}",
     "_bannerExp": [
         {
-            "Right": "bahuTA"
+            "Right": "puzpavat"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "In several ways."
+        ".²1 Blooming, flowery\n",
+        ".²2 Set off with flowers. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 194554,
+            "_ancestry": [
+                "L_ 21656",
+                "B_ {#puzpavat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#puzpavat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "(<ab>du.</ab>) The sun and moon; {#tejasvinO virAjete#}\n {#puzpavantAvivoditO#} <ls>Śiva B. 2. 23</ls>; {#ravitvacandratvAByAmekaSaktimadeva#}\n {#niyatadvivacanAkANkzam#}.\n"
+            ]
+        },
+        {
+            "__line": 194557,
+            "_ancestry": [
+                "L_ 21656",
+                "B_ {#puzpavat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "puzpavatI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A woman in her courses; {#puzpavatyapi pavitrA#} <ls>K.</ls>\n",
+                ".²2 A cow longing for the bull."
+            ]
+        }
     ]
 }

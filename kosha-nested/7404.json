@@ -1,17 +1,63 @@
 {
-    "__line": 64105,
+    "__line": 61989,
     "_ancestry": [
         "L_ 7404",
-        "B_ {#iraRaM#}"
+        "B_ {#Arakza#}"
     ],
-    "_banner": "{#iraRaM#}",
+    "_banner": "{#Arakza#}",
     "_bannerExp": [
         {
-            "Right": "iraRaM"
+            "Right": "Arakza"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A desert. ",
-        "{@--2@} Salt or \nbarren ground; <ab>cf.</ab> {#iriRa#}."
+        "Preserved, defended, fit to be protected.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 61990,
+            "_ancestry": [
+                "L_ 7404",
+                "B_ {#Arakza#}",
+                "M_ .{@{#-kzaH, -kzA#}@}"
+            ],
+            "_banner": ".{@{#-kzaH, -kzA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArakzaH"
+                },
+                {
+                    "Right": "ArakzA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Protection, preservation, guard; {#Arakzasya viDiM kftvA#} <ls>Mb. 5. 160. 3</ls>;\n {#Arakze maDyame sTitAn#} <ls>Rām.</ls>; <ls>Śānti. 3. 5</ls>; <ls>Ms. 3. 204</ls>. {#SatasAhasramArakzaM#}\n {#maDyagaM rakzasAM kapiH#} <ls>Bk.</ls>\n",
+                ".²2 The junction of the frontal sinuses of an elephant ({#kumBasanDi#}).\n",
+                ".²3 The part of the forehead below this junction.\n",
+                ".²4 An army; {#Arakzo me hatastAta#} <ls>Rām. 3. 31. 40</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 61998,
+            "_ancestry": [
+                "L_ 7404",
+                "B_ {#Arakza#}",
+                "S_ .{@{#-aDikftaH#}@}"
+            ],
+            "_banner": ".{@{#-aDikftaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArakzADikftaH"
+                }
+            ],
+            "_meanings": [
+                "Guard. <ls>EI. I. p. 5. f.</ls>"
+            ]
+        }
     ]
 }

@@ -1,43 +1,70 @@
 {
-    "__line": 172072,
+    "__line": 185815,
     "_ancestry": [
         "L_ 20752",
-        "B_ {#praviS#}"
+        "B_ {#paryApta#}"
     ],
-    "_banner": "{#praviS#}",
+    "_banner": "{#paryApta#}",
     "_bannerExp": [
         {
-            "Right": "praviS"
+            "Right": "paryApta"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To enter into;  \n<ls>Ku. 5. 51.</ls> ",
-        "{@--2@} To enter upon, commence,\n",
-        "{@--3@} To appear. "
+        ".²1 Obtained, got, gained; {#paryAptasaptaBuvanABayadakziRAni#} ({#tAtacaritAni#}) <ls>U. 5. 33</ls>.\n",
+        ".²2 Finished, completed.\n",
+        ".²3 Full, whole, entire, complete, all; {#paryAptacandreva SaratriyAmA#}\n <ls>Ku. 7. 26</ls>; <ls>R. 6. 44</ls>.\n",
+        ".²4 Able, competent, adequate; ({#na#}) {#kudDasya samare sTAtuM paryAptAH#}\n <ls>Mb. 7. 150. 5</ls>. {#paryApto'si prajAH pAtum#} <ls>R. 10. 25</ls>.\n",
+        ".²5 Enough, sufficient; {#yAvatEzAM samApyeran yajYAH paryAptadakziRAH#}\n <ls>R. 17. 17</ls>; <ls>Ms. 11. 7</ls>.\n",
+        ".²6 Large, extensive, spacious; {#paryAptapuzpastabakastanAByaH#} <ls>Ku. 3. 39</ls>;\n",
+        ".²9 Limited in number; {#aparyAptaM tadasmAkaM balaM BIzmABirakzitam paryAptaM#}\n {#tvidametezAM balaM BImABirakzitam ..#} <ls>Bg. 1. 10</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 172074,
+            "__line": 185827,
             "_ancestry": [
                 "L_ 20752",
-                "B_ {#praviS#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#paryApta#}",
+                "M_ .{@{#-ptam#}@}"
             ],
+            "_banner": ".{@{#-ptam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "praviS"
+                    "Right": "paryAptam"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "{@--1@} To admit,\nintroduce, usher; {#tvaritaM praveSaya#} <ls>U. 1.</ls>\n",
-                "{@--2@} To lay or store up."
+                ".²1 Willingly, readily.\n",
+                ".²2 To oneʼs satisfaction, enough, sufficiently; {#paryAptamAcAmati#} <ls>U. 4. 1</ls>\n ‘drinks his fill’.\n",
+                ".²3 Fully, adequately, ably, competently.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 185833,
+            "_ancestry": [
+                "L_ 20752",
+                "B_ {#paryApta#}",
+                "S_ .{@{#-kAma#}@}"
+            ],
+            "_banner": ".{@{#-kAma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryAptakAma"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose desires are accomplished; {#paryAptakAmasya#}\n {#kftAtmanastu#} <ls>Muṇḍ. 3. 2. 2</ls>."
             ]
         }
     ]

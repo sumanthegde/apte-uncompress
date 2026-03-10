@@ -1,19 +1,61 @@
 {
-    "__line": 175475,
+    "__line": 189735,
     "_ancestry": [
         "L_ 21196",
-        "B_ {#prAyaScittin#}"
+        "B_ {#pArihArika#}"
     ],
-    "_banner": "{#prAyaScittin#}",
+    "_banner": "{#pArihArika#}",
     "_bannerExp": [
         {
-            "Right": "prAyaScittin"
+            "Right": "pArihArika"
+        },
+        {
+            "Right": "pArihArikI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "One who makes an\natonement."
+        ".²1 Taking, seizing.\n",
+        ".²2 Surrounding.\n",
+        ".²3 Privileged.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 189739,
+            "_ancestry": [
+                "L_ 21196",
+                "B_ {#pArihArika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArihArikaH"
+                }
+            ],
+            "_meanings": [
+                "A maker of garlands.\n"
+            ]
+        },
+        {
+            "__line": 189740,
+            "_ancestry": [
+                "L_ 21196",
+                "B_ {#pArihArika#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArihArikI"
+                }
+            ],
+            "_meanings": [
+                "A kind of enigma or riddle."
+            ]
+        }
     ]
 }

@@ -1,42 +1,120 @@
 {
-    "__line": 193447,
+    "__line": 205765,
     "_ancestry": [
         "L_ 22974",
-        "B_ {#mADyamaka#}"
+        "B_ {#pradoza#}"
     ],
-    "_banner": "{#mADyamaka#}",
+    "_banner": "{#pradoza#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: mADyamaka  mikA"
-        },
-        {
-            "Right": "mADyamakI"
-        },
-        {
-            "Right": "mADyamaka"
+            "Right": "pradoza"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#mikA#}|{%<ab>f.</ab>%})",
-        "{#mADyamika#}",
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Middle, central. "
+        "Bad, corrupt.\n"
     ],
     "_morphisms": [
         {
-            "__line": 193448,
+            "__line": 205766,
             "_ancestry": [
                 "L_ 22974",
-                "B_ {#mADyamaka#}",
-                "M_ {#--kAH#}"
+                "B_ {#pradoza#}",
+                "M_ .{@{#-zaH#}@}"
             ],
-            "_banner": "{#--kAH#}",
+            "_banner": ".{@{#-zaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradozaH"
+                }
+            ],
             "_meanings": [
-                "({%<ab>m.</ab>%}\n<ab>pl.</ab>) <ab>N.</ab> of a people or their country\nin the central part of India."
+                ".²1\n",
+                ".³({%a%}) A fault, defect, sin, offence,\n",
+                ".³({%b%}) Transgression, violation.\n",
+                ".²2 Disordered condition, such as mutiny, rebellion.\n",
+                ".²3 Evening, nightfall, the first part of the night; {#pradozo rajanImuKam#}\n <ls>Ak.</ls>; {#‘pradoze'DyayanaM DImAnna karoti yaTAkramam’#} <ls>Śabda Ch.</ls>; {#tamaHsvaBAvAste'pyanye#}\n {#pradozamanuyAyinaH#} <ls>Śi. 2. 98</ls> (where {#pradoza#} primarily means ‘corrupt’\n or ‘bad’); {#vrajasundarIjanamanastozapradozaH#} <ls>Gīt. 5</ls>; <ls>Ku. 5. 44</ls>;\n <ls>R. 1. 93</ls>; <ls>Ṛs. 1. 12</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 205777,
+            "_ancestry": [
+                "L_ 22974",
+                "B_ {#pradoza#}",
+                "S_ .{@{#-AgamaH#}@}"
+            ],
+            "_banner": ".{@{#-AgamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradozAgamaH"
+                }
+            ],
+            "_meanings": [
+                "nightfall.\n"
+            ]
+        },
+        {
+            "__line": 205778,
+            "_ancestry": [
+                "L_ 22974",
+                "B_ {#pradoza#}",
+                "S_ .{@{#-kAlaH, -samayaH, -velA#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH, -samayaH, -velA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradozakAlaH"
+                },
+                {
+                    "Right": "pradozasamayaH"
+                },
+                {
+                    "Right": "pradozavelA"
+                }
+            ],
+            "_meanings": [
+                "evening-time, nightfall.\n"
+            ]
+        },
+        {
+            "__line": 205779,
+            "_ancestry": [
+                "L_ 22974",
+                "B_ {#pradoza#}",
+                "S_ .{@{#-timiram#}@}"
+            ],
+            "_banner": ".{@{#-timiram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradozatimiram"
+                }
+            ],
+            "_meanings": [
+                "evening darkness, the dusk of early night; {#kAmaM pradozatimireRa#}\n {#na dfSyase tvam#} <ls>Mk. 1. 35</ls>.\n"
+            ]
+        },
+        {
+            "__line": 205781,
+            "_ancestry": [
+                "L_ 22974",
+                "B_ {#pradoza#}",
+                "S_ .{@{#-ramaRIya#}@}"
+            ],
+            "_banner": ".{@{#-ramaRIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradozaramaRIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "delightful in the evening."
             ]
         }
     ]

@@ -1,20 +1,86 @@
 {
-    "__line": 194801,
+    "__line": 207087,
     "_ancestry": [
         "L_ 23149",
-        "B_ {#mitrIBU#}"
+        "B_ {#praBinna#}"
     ],
-    "_banner": "{#mitrIBU#}",
+    "_banner": "{#praBinna#}",
     "_bannerExp": [
         {
-            "Right": "mitrIBU"
+            "Right": "praBinna"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "To become a friend,\nmake friends with."
+        ".²1 Severed, split, cleft, divided.\n",
+        ".²2 Broken to pieces.\n",
+        ".²3 Cut off, detached.\n",
+        ".²4 Budding, expanded, opened.\n",
+        ".²5 Changed, altered.\n",
+        ".²6 Deformed, disfigured.\n",
+        ".²7 Relaxed, loosened.\n",
+        ".²8 Intoxicated, in rut; {#vegenApatatastAMstu prABinnAniva vAraRAn#} <ls>Mb. 1. 189. 14</ls>;\n {#praBinnadigvAraRavAhano vfzA#} <ls>Ku. 5. 80</ls>.\n",
+        ".²9 Pierced, bored.\n",
+        ".²10 Different, distinct.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 207099,
+            "_ancestry": [
+                "L_ 23149",
+                "B_ {#praBinna#}",
+                "M_ .{@{#-nnaH#}@}"
+            ],
+            "_banner": ".{@{#-nnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praBinnaH"
+                }
+            ],
+            "_meanings": [
+                "An elephant in rut.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 207101,
+            "_ancestry": [
+                "L_ 23149",
+                "B_ {#praBinna#}",
+                "S_ .{@{#-aYjanam#}@}"
+            ],
+            "_banner": ".{@{#-aYjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praBinnAYjanam"
+                }
+            ],
+            "_meanings": [
+                "a kind of collyrium or eye-salve mixed with oil.\n"
+            ]
+        },
+        {
+            "__line": 207102,
+            "_ancestry": [
+                "L_ 23149",
+                "B_ {#praBinna#}",
+                "S_ .{@{#-karawa#}@}"
+            ],
+            "_banner": ".{@{#-karawa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praBinnakarawa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘having the cheeks cleft’, being in rut, intoxicated."
+            ]
+        }
     ]
 }

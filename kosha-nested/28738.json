@@ -1,19 +1,47 @@
 {
-    "__line": 241370,
+    "__line": 265668,
     "_ancestry": [
         "L_ 28738",
-        "B_ {#saMsarpin#}"
+        "B_ {#vaSin#}"
     ],
-    "_banner": "{#saMsarpin#}",
+    "_banner": "{#vaSin#}",
     "_bannerExp": [
         {
-            "Right": "saMsarpin"
+            "Right": "vaSin"
+        },
+        {
+            "Right": "vaSinI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#vaSaH astyasya ini#}]"
     ],
     "_meanings": [
-        "Creeping along, \nmoving or winding near; <ls>Ku. 7. 81.</ls>"
+        ".²1 Powerful.\n",
+        ".²2 Being under control, subdued, subject, submissive.\n",
+        ".²3 One who has subdued his passions (used like a noun also); {#prasTApayAmAsa#}\n {#vaSI vasizWaH#} <ls>R. 2. 70</ls>, <ls n=\"R.\">8. 90</ls>, <ls n=\"R.\">19. 1</ls>; <ls>Ś. 5. 28</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 265673,
+            "_ancestry": [
+                "L_ 28738",
+                "B_ {#vaSin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vaSin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 A ruler, lord.\n",
+                ".²2 A sage."
+            ]
+        }
     ]
 }

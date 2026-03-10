@@ -1,23 +1,93 @@
 {
-    "__line": 241545,
+    "__line": 265764,
     "_ancestry": [
         "L_ 28753",
-        "B_ {#saMstuta#}"
+        "B_ {#vas#}"
     ],
-    "_banner": "{#saMstuta#}",
+    "_banner": "{#vas#}",
     "_bannerExp": [
         {
-            "Right": "saMstuta"
+            "Right": "vas"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "I.",
+        "€1",
+        "<ab>P.</ab>",
+        "({#vasati#}, sometimes {#vasate, uvAsa, avAtsIt, vatsyati#},\n {#vastum, uzita#})"
     ],
     "_meanings": [
-        "{@--1@} Praised, eulogized.\n",
-        "{@--2@} Praised together. ",
-        "{@--3@} Agreeing\ntogether, harmonious. ",
-        "{@--4@} Intimate, \n\nfamiliar; <ls>Māl. 7. 2.</ls> ",
-        "{@--5@} Intended,\naimed at; <ls>Māl. 10.</ls>"
+        ".²1 To dwell, inhabit, live, stay, abide, reside (usually with <ab>loc.</ab>; but\n sometimes <ab>acc.</ab>); {#DIrasamIre yamunAtIre vasati vane vanamAlI#} <ls>Gīt. 5</ls>.\n",
+        ".²2 To be, exist, be found in; {#vasanti hi premRi guRA na vastuni#} <ls>Ki. 8. 37</ls>;\n {#yatrAkftistatra guRA vasanti#}; {#BUtiH SrIhrIMrDftiH kIrtirdakze#}\n {#vasati nAlase#} <ls>Subhāṣ.</ls>\n",
+        ".²3 To spend, pass (as time) (with <ab>acc.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 265771,
+            "_ancestry": [
+                "L_ 28753",
+                "B_ {#vas#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vas"
+                }
+            ],
+            "_meanings": [
+                ".²1 To cause to dwell, to dwell, lodge, people.\n",
+                ".²2 To receive hospitably.\n",
+                ".²3 To dwell, inhabit. "
+            ]
+        },
+        {
+            "__line": 265774,
+            "_ancestry": [
+                "L_ 28753",
+                "B_ {#vas#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vas"
+                }
+            ],
+            "_gram": [
+                "({#vivatsati#})"
+            ],
+            "_meanings": [
+                "To wish to dwell.\n--II. €2 <ab>Ā.</ab> ({#vaste#}) To wear, put on; {#vasane pariDUsare vasAnA#}\n <ls>Ś. 7. 21</ls>; <ls>Śi. 9. 75</ls>; <ls>R. 12. 8</ls>; <ls>Ku. 3. 54</ls>, <ls n=\"Ku.\">7. 9</ls>; <ls>Bk. 4. 10</ls>. "
+            ]
+        },
+        {
+            "__line": 265776,
+            "_ancestry": [
+                "L_ 28753",
+                "B_ {#vas#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vas"
+                }
+            ],
+            "_gram": [
+                "({#vAsayati-te#})"
+            ],
+            "_meanings": [
+                "To cause to put on. --III. €4 <ab>P.</ab> ({#vasyati#})\n",
+                ".²1 To be straight.\n",
+                ".²2 To be firm.\n",
+                ".²3 To fix. --IV. €10 <ab>P.</ab> ({#vasayati#}) To dwell; <ls>L. D. B.</ls> --V. €10 <ab>U.</ab> ({#vAsayati-te#})\n",
+                ".²1 To cut, divide, cut off.\n",
+                ".²2 To love.\n",
+                ".²3 To take, accept.\n",
+                ".²4 To hurt, kill.\n",
+                ".²5 To offer. --VI. €10 <ab>U.</ab> ({#vasayati-te#}) To scent, perfume."
+            ]
+        }
     ]
 }

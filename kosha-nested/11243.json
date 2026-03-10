@@ -1,37 +1,142 @@
 {
-    "__line": 94255,
+    "__line": 93935,
     "_ancestry": [
         "L_ 11243",
-        "B_ {#kulInaka#}"
+        "B_ {#kaWaH#}"
     ],
-    "_banner": "{#kulInaka#}",
+    "_banner": "{#kaWaH#}",
     "_bannerExp": [
         {
-            "Right": "kulInaka"
+            "Right": "kaWaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Of a good family.\n"
+        ".²1 <ab>N.</ab> of a sage, pupil of Vaiśampāyana, teacher of that branch of Yajurveda\n which is called after him.\n",
+        ".²2 A Brāhmaṇa.\n",
+        ".²3 A note or simple sound.\n",
+        ".²4 A kind of {%ṛik%}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 94256,
+            "__line": 93941,
             "_ancestry": [
                 "L_ 11243",
-                "B_ {#kulInaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#kaWaH#}",
+                "M_ .{@{#-WAH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-WAH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kulInakaH"
+                    "Right": "kaWAH"
                 }
             ],
             "_meanings": [
-                "A kind of wild kidney-bean."
+                "The followers of that sage. {#ke sabrahmacAriRosyeti . kaWAH .#}\n <ls>Mbh.</ls> on <ls>P. II. 2. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 93943,
+            "_ancestry": [
+                "L_ 11243",
+                "B_ {#kaWaH#}",
+                "M_ .{@{#-WI#}@}"
+            ],
+            "_banner": ".{@{#-WI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A female follower of Kaṭha. {#kaWI vfndArikA kaWavfndArikA#} <ls>Mbh.</ls>\n on <ls>P. VI. 3. 42</ls>.\n",
+                ".²2 The wife of a Brāhmaṇa.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 93948,
+            "_ancestry": [
+                "L_ 11243",
+                "B_ {#kaWaH#}",
+                "S_ .{@{#-aDyApakaH#}@}"
+            ],
+            "_banner": ".{@{#-aDyApakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWADyApakaH"
+                }
+            ],
+            "_meanings": [
+                "a teacher of the Kaṭha branch of the Yajurveda.\n"
+            ]
+        },
+        {
+            "__line": 93949,
+            "_ancestry": [
+                "L_ 11243",
+                "B_ {#kaWaH#}",
+                "S_ .{@{#-upanizad#}@}"
+            ],
+            "_banner": ".{@{#-upanizad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWopanizad"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an Upniṣad (generally said to belong to {#aTarvaveda#}).\n"
+            ]
+        },
+        {
+            "__line": 93950,
+            "_ancestry": [
+                "L_ 11243",
+                "B_ {#kaWaH#}",
+                "S_ .{@{#-kAlApAH#}@}"
+            ],
+            "_banner": ".{@{#-kAlApAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWakAlApAH"
+                }
+            ],
+            "_meanings": [
+                "<ls>P. II. 4. 3</ls>. Schools of {#kaWa#} and {#kAlApa#}; {#nandantu#}\n {#kaWakAlApAH varDantAM kaWakOTumAH#} <ls>Mbh.</ls> on <ls n=\"P.\">II. 4. 3</ls>. {#ye ca me kaWakAlApA#}\n {#bahavo daRqamARavAH#} <ls>Rām. 2. 32. 18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 93953,
+            "_ancestry": [
+                "L_ 11243",
+                "B_ {#kaWaH#}",
+                "S_ .{@{#-DUrtaH#}@}"
+            ],
+            "_banner": ".{@{#-DUrtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWaDUrtaH"
+                }
+            ],
+            "_meanings": [
+                "a Brāhmaṇa well-versed in the {#kaWa#} branch of the Yajurveda.\n"
+            ]
+        },
+        {
+            "__line": 93954,
+            "_ancestry": [
+                "L_ 11243",
+                "B_ {#kaWaH#}",
+                "S_ .{@{#-SrotriyaH#}@}"
+            ],
+            "_banner": ".{@{#-SrotriyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWaSrotriyaH"
+                }
+            ],
+            "_meanings": [
+                "<ls>P. V. 2. 84</ls> a Brāhmaṇa who has mastered the {#kaWa#}\n branch of the Yajurveda."
             ]
         }
     ]

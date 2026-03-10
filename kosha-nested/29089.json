@@ -1,21 +1,102 @@
 {
-    "__line": 244309,
+    "__line": 269340,
     "_ancestry": [
         "L_ 29089",
-        "B_ {#sadeSa#}"
+        "B_ {#vAsaka#}"
     ],
-    "_banner": "{#sadeSa#}",
+    "_banner": "{#vAsaka#}",
     "_bannerExp": [
         {
-            "Right": "sadeSa"
+            "Right": "vAsaka"
+        },
+        {
+            "Right": "vAsikA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kA#}|{#-sikA#}|{%f.%})",
+        "[{#vAs-vas-Ric vA Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Possessing a country.\n",
-        "{@--2@} Belonging to the same place or\ncountry. ",
-        "{@--3@} Proximate, \nneighbouring."
+        ".²1 Scenting, perfuming, infusing, fumigating <ab>&c.</ab>\n",
+        ".²2 Causing to dwell, populating.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 269344,
+            "_ancestry": [
+                "L_ 29089",
+                "B_ {#vAsaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsakaH"
+                }
+            ],
+            "_meanings": [
+                "Scent.\n"
+            ]
+        },
+        {
+            "__line": 269345,
+            "_ancestry": [
+                "L_ 29089",
+                "B_ {#vAsaka#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsakA"
+                }
+            ],
+            "_meanings": [
+                "(also {#vAsikA#})\n",
+                ".²1 An abode, habitation.\n",
+                ".²2 A bed-chamber.\n"
+            ]
+        },
+        {
+            "__line": 269348,
+            "_ancestry": [
+                "L_ 29089",
+                "B_ {#vAsaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsakam"
+                }
+            ],
+            "_meanings": [
+                "Clothes.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 269350,
+            "_ancestry": [
+                "L_ 29089",
+                "B_ {#vAsaka#}",
+                "S_ .{@{#-sajjA, -sajjikA#}@}"
+            ],
+            "_banner": ".{@{#-sajjA, -sajjikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsakasajjA"
+                },
+                {
+                    "Right": "vAsakasajjikA"
+                }
+            ],
+            "_meanings": [
+                "a woman who dresses herself in all her ornaments\n and keeps herself (and her house) ready to receive her lover, especially\n when he has made an appointment with her; an expectant heroine, one of\n the several classes of a Nāyikā; <ls>S. D.</ls> thus defines her:-- {#kurute#}\n {#maRqanaM yasyAH (yA tu) sajjite vAsaveSmani . sA tu vAsakasajjA syAdviditapriyasaMgamA ..#} <ls n=\"S. D.\">120</ls>;\n\n {#Bavati vilambini vigalitalajjA vilapati roditi vAsakasajjA#} <ls>Gīt. 6</ls>."
+            ]
+        }
     ]
 }

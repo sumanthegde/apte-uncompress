@@ -1,22 +1,231 @@
 {
-    "__line": 101936,
+    "__line": 103583,
     "_ancestry": [
         "L_ 12240",
-        "B_ {#gaq#}"
+        "B_ {#kim#}"
     ],
-    "_banner": "{#gaq#}",
+    "_banner": "{#kim#}",
     "_bannerExp": [
         {
-            "Right": "gaq"
+            "Right": "kim"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#gaqati, gaqita#})"
-    ],
     "_meanings": [
-        "{@--1@} To distil,\ndraw out. ",
-        "{@--2@} To run (as a liquid).\n{c10c} <ab>P.</ab> ({#gaqayati#}) To cover, hide."
+        "^1¦ {%ind.%} Used for {#ku#} only at the beginning of <ab>comp.</ab> to\n convey the senses of ‘badness’, ‘deterioration’, ‘defect’, ‘blame’ or ‘censure’;\n {%<ab>e. g.</ab>%} {#kiMsaKA#} a bad friend; {#kinnaraH#} a bad or deformed man\n <ab>&c.</ab>; see <ab>comp.</ab> below.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 103588,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kiYja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born somewhere (not in a noble family) {#manye kiMjamahaM#}\n {#GnantaM tvAmakzatriyaje raRe#} <ls>Bk. 6. 133</ls>.\n"
+            ]
+        },
+        {
+            "__line": 103590,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-dAsaH#}@}"
+            ],
+            "_banner": ".{@{#-dAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kindAsaH"
+                }
+            ],
+            "_meanings": [
+                "a bad slave, or servant.\n"
+            ]
+        },
+        {
+            "__line": 103591,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-naraH#}@}"
+            ],
+            "_banner": ".{@{#-naraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kinnaraH"
+                }
+            ],
+            "_meanings": [
+                "a bad or deformed man; a mythical being with a human figure\n and the head of a horse ({@{#aSvamuKa#}@}); {#jayodAharaRaM bAhvorgApayAmAsa#}\n {#kinnarAn#} <ls>R. 4. 78</ls>; {#udgAsyatAmicCati kinnarARAM tAnapradAyitvamivopagantum#}\n <ls>Ku. 1. 8</ls>. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 103596,
+                    "_ancestry": [
+                        "L_ 12240",
+                        "B_ {#kim#}",
+                        "S_ .{@{#-naraH#}@}",
+                        "S_M_ ({@{#-rI#}@}"
+                    ],
+                    "_banner": "({@{#-rI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kinnarI"
+                        }
+                    ],
+                    "_gram": [
+                        "{%f.%}"
+                    ],
+                    "_meanings": [
+                        ".²1 a female Kinnara; <ls>Me. 58</ls>.\n",
+                        ".²2 a kind of lute.\n"
+                    ]
+                }
+            ],
+            "_samasas": [
+                {
+                    "__line": 103594,
+                    "_ancestry": [
+                        "L_ 12240",
+                        "B_ {#kim#}",
+                        "S_ .{@{#-naraH#}@}",
+                        "S_S_ {#˚ISaH, ˚ISvaraH#}"
+                    ],
+                    "_banner": "{#˚ISaH, ˚ISvaraH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kinnareSaH"
+                        },
+                        {
+                            "Right": "kinnareSvaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an epithet of Kubera.\n",
+                        ".²2 a kind of musical instrument. "
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 103599,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-puruzaH#}@}"
+            ],
+            "_banner": ".{@{#-puruzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kimpuruzaH"
+                }
+            ],
+            "_meanings": [
+                "‘a low or despicable man’, a mythical being with a human\n head and the form of a horse; <ls>Ku. 1. 14</ls>; {#kiMpuruzARAM hanumAn#} <ls>Bhāg. 11. 16. 29</ls>.\n "
+            ],
+            "_samasas": [
+                {
+                    "__line": 103601,
+                    "_ancestry": [
+                        "L_ 12240",
+                        "B_ {#kim#}",
+                        "S_ .{@{#-puruzaH#}@}",
+                        "S_S_ {#˚ISvaraH#}"
+                    ],
+                    "_banner": "{#˚ISvaraH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kimpuruzeSvaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Kubera.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 103602,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-praBuH#}@}"
+            ],
+            "_banner": ".{@{#-praBuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kimpraBuH"
+                }
+            ],
+            "_meanings": [
+                "a bad master or king; {#hitAnna yaH saMSfRute sa kiMpraBuH#} <ls>Ki. 1. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 103603,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-rAjan#}@}"
+            ],
+            "_banner": ".{@{#-rAjan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kiMrAjan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a bad king. --({%m.%}) a bad king.\n"
+            ]
+        },
+        {
+            "__line": 103604,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-vivakzA#}@}"
+            ],
+            "_banner": ".{@{#-vivakzA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kiMvivakzA"
+                }
+            ],
+            "_meanings": [
+                "Slandering; <ls>Rām. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 103605,
+            "_ancestry": [
+                "L_ 12240",
+                "B_ {#kim#}",
+                "S_ .{@{#-saKi#}@}"
+            ],
+            "_banner": ".{@{#-saKi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kiMsaKi"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(<ab>nom.</ab> <ab>sing.</ab> {#kiMsaKA#}) a bad friend; {#sa kiMsaKA#}\n {#sADu na SAsti yo'Dipam#} <ls>Ki. 1. 5</ls>."
+            ]
+        }
     ]
 }

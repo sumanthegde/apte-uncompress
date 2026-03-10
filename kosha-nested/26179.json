@@ -1,17 +1,61 @@
 {
-    "__line": 221021,
+    "__line": 239114,
     "_ancestry": [
         "L_ 26179",
-        "B_ {#vipravAsanaM#}"
+        "B_ {#mArttika#}"
     ],
-    "_banner": "{#vipravAsanaM#}",
+    "_banner": "{#mArttika#}",
     "_bannerExp": [
         {
-            "Right": "vipravAsanaM"
+            "Right": "mArttika"
+        },
+        {
+            "Right": "mArttikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#mfttikayA nirmitam aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} Banishment. ",
-        "{@--2@} \nStaying abroad, sojourn."
+        "Made of clay, earthen.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 239116,
+            "_ancestry": [
+                "L_ 26179",
+                "B_ {#mArttika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mArttikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of pitcher.\n",
+                ".²2 The lid of a pitcher.\n"
+            ]
+        },
+        {
+            "__line": 239119,
+            "_ancestry": [
+                "L_ 26179",
+                "B_ {#mArttika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mArttikam"
+                }
+            ],
+            "_meanings": [
+                "A clod or lump of earth; {#gurumaDye hariRAkzI mArttikaSakalErnihantukAmaM#}\n {#mAm#} <ls>Bv. 2. 49</ls>."
+            ]
+        }
     ]
 }

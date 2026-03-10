@@ -1,22 +1,123 @@
 {
-    "__line": 103503,
+    "__line": 105005,
     "_ancestry": [
         "L_ 12380",
-        "B_ {#garmut#}"
+        "B_ {#kuwumbam, kuwumbakam#}"
     ],
-    "_banner": "{#garmut#}",
+    "_banner": "{#kuwumbam, kuwumbakam#}",
     "_bannerExp": [
         {
-            "Right": "garmut"
+            "Right": "kuwumbam"
+        },
+        {
+            "Right": "kuwumbakam"
         }
     ],
-    "_gram": [
-        "{%<ab>f.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} A kind of grass. ",
-        "{@--2@}\nA kind of reed. ",
-        "{@--3@} Gold. ",
-        "{@--4@} A kind\nof bee."
+        "A household, a family; {#paramiyaM brAhmaRI#}\n {#asmin kuwumbe#} <ls>Mbh.</ls> on <ls>P. I. 4. 2</ls>. {#udAracaritAnAM tu vasuDEva kuwumbakam#}\n <ls>H. 1. 68</ls>; <ls>Y. 2. 45</ls>; <ls>Ms. 11. 12</ls>, <ls n=\"Ms. 11.\">22</ls>, <ls n=\"Ms.\">8. 166</ls>.\n",
+        ".²2 The duties and cares of a family; {#tadupahitakuwumbaH#} <ls>R. 7. 71</ls>.\n",
+        ".²3 <ab>N.</ab> of the second astrological mansion ({#arTa#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 105010,
+            "_ancestry": [
+                "L_ 12380",
+                "B_ {#kuwumbam, kuwumbakam#}",
+                "M_ .{@{#-baH, -bam#}@}"
+            ],
+            "_banner": ".{@{#-baH, -bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwumbaH"
+                },
+                {
+                    "Right": "kuwumbam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kinsman, a relation by descent or marriage.\n",
+                ".²2 Offspring, progeny.\n",
+                ".²3 A name.\n",
+                ".²4 Race.\n",
+                ".²5 A group, collection; <ls>Vikr. 1. 92</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 105017,
+            "_ancestry": [
+                "L_ 12380",
+                "B_ {#kuwumbam, kuwumbakam#}",
+                "S_ .{@{#-kalahaH, -ham#}@}"
+            ],
+            "_banner": ".{@{#-kalahaH, -ham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwumbakalahaH"
+                },
+                {
+                    "Right": "kuwumbakalaham"
+                }
+            ],
+            "_meanings": [
+                "internal or domestic quarrels. {#kuwumbakalahAdISo'pi#}\n {#hAlAhalaM papO#} <ls>Subhāṣ.</ls>\n"
+            ]
+        },
+        {
+            "__line": 105019,
+            "_ancestry": [
+                "L_ 12380",
+                "B_ {#kuwumbam, kuwumbakam#}",
+                "S_ .{@{#-BaraH#}@}"
+            ],
+            "_banner": ".{@{#-BaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwumbaBaraH"
+                }
+            ],
+            "_meanings": [
+                "the burden of the family; {#BartrA tadarpitakuwumbaBareRa#}\n {#sArDam#} <ls>Ś. 4. 20</ls>; {#˚cintayA#} <ls>Pt. 5. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 105021,
+            "_ancestry": [
+                "L_ 12380",
+                "B_ {#kuwumbam, kuwumbakam#}",
+                "S_ .{@{#-BUmiH#}@}"
+            ],
+            "_banner": ".{@{#-BUmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwumbaBUmiH"
+                }
+            ],
+            "_meanings": [
+                "the site where a house is built; {#kuwumbaBUmimAnaM tu#}\n {#vAwakzetravivarjitam#} <ls>Kāmikāgama 21. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 105023,
+            "_ancestry": [
+                "L_ 12380",
+                "B_ {#kuwumbam, kuwumbakam#}",
+                "S_ .{@{#-vyApfta#}@}"
+            ],
+            "_banner": ".{@{#-vyApfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuwumbavyApfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(a father) who is provident and attentive to the\n good of the family."
+            ]
+        }
     ]
 }

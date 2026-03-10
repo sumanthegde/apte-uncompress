@@ -1,16 +1,79 @@
 {
-    "__line": 164866,
+    "__line": 176612,
     "_ancestry": [
         "L_ 19714",
-        "B_ {#prajIvanaM#}"
+        "B_ {#paca#}"
     ],
-    "_banner": "{#prajIvanaM#}",
+    "_banner": "{#paca#}",
     "_bannerExp": [
         {
-            "Right": "prajIvanaM"
+            "Right": "paca"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Livelihood, subsistence."
+        ".²1 Cooking, roasting.\n",
+        ".²2 Digesting.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 176615,
+            "_ancestry": [
+                "L_ 19714",
+                "B_ {#paca#}",
+                "M_ .{@{#-caH, -cA#}@}"
+            ],
+            "_banner": ".{@{#-caH, -cA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacaH"
+                },
+                {
+                    "Right": "pacA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Cooking.\n",
+                ".²2 Maturing.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 176619,
+            "_ancestry": [
+                "L_ 19714",
+                "B_ {#paca#}",
+                "S_ .{@{#-prakuwA#}@}"
+            ],
+            "_banner": ".{@{#-prakuwA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacaprakuwA"
+                }
+            ],
+            "_meanings": [
+                "continual baking and pounding.\n"
+            ]
+        },
+        {
+            "__line": 176620,
+            "_ancestry": [
+                "L_ 19714",
+                "B_ {#paca#}",
+                "S_ .{@{#-lavaRA#}@}"
+            ],
+            "_banner": ".{@{#-lavaRA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacalavaRA"
+                }
+            ],
+            "_meanings": [
+                "continual boiling of salt."
+            ]
+        }
     ]
 }

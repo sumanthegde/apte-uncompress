@@ -1,46 +1,611 @@
 {
-    "__line": 202367,
+    "__line": 213658,
     "_ancestry": [
         "L_ 23937",
-        "B_ {#rakzitf, rakzin#}"
+        "B_ {#prApta#}"
     ],
-    "_banner": "{#rakzitf, rakzin#}",
+    "_banner": "{#prApta#}",
     "_bannerExp": [
         {
-            "Right": "rakzin"
-        },
-        {
-            "Right": "rakzitf"
+            "Right": "prApta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Protecting, \n\nguarding, ruling &c.; <ls>N. 1. 1.</ls> "
+        ".²1 Got, obtained, won, acquired.\n",
+        ".²2 Reached, attained to.\n",
+        ".²3 Met with, found.\n",
+        ".²4 Incurred, suffered, endured; {#saBAryeRa sarAzwreRa yat prAptaM tatra#}\n {#tattvataH#} ({#saMprapaSyati#}) <ls>Rām. 1. 3. 3</ls>.\n",
+        ".²5 Arrived, come, present.\n",
+        ".²6 Completed.\n",
+        ".²7 Proper, right.\n",
+        ".²8 Following from a rule.\n",
+        ".²9 Described (as a symptom).\n",
+        ".²10 Fixed, placed.\n",
+        ".²11 (In <ab>gram.</ab>) Following from a rule, valid.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 202369,
+            "__line": 213672,
             "_ancestry": [
                 "L_ 23937",
-                "B_ {#rakzitf, rakzin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#prApta#}",
+                "S_ .{@{#-anujYa#}@}"
             ],
+            "_banner": ".{@{#-anujYa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "rakzin"
-                },
-                {
-                    "Right": "rakzitf"
+                    "Right": "prAptAnujYa"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} A\nprotector, guardian, saviour. ",
-                "{@--2@} A\nguard, watchman, sentinel, \npoliceman; {#aye padaSabda iva mA nAma rakziRaH#}\n<ls>Mk. 3.</ls>"
+                "one who has got permission to go, allowed to depart.\n"
+            ]
+        },
+        {
+            "__line": 213673,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-aparAGa#}@}"
+            ],
+            "_banner": ".{@{#-aparAGa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptAparAGa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "guilty of an offence.\n"
+            ]
+        },
+        {
+            "__line": 213674,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "successful.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 213675,
+                    "_ancestry": [
+                        "L_ 23937",
+                        "B_ {#prApta#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-rTaH#}@}"
+                    ],
+                    "_banner": "({@{#-rTaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "prAptArTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an object gained.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 213676,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-avasara#}@}"
+            ],
+            "_banner": ".{@{#-avasara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptAvasara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 finding occasion or opportunity.\n",
+                ".²2 timely, seasonable.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 213679,
+                    "_ancestry": [
+                        "L_ 23937",
+                        "B_ {#prApta#}",
+                        "S_ .{@{#-avasara#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: prAptAvasara ({@{#-raH#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "a fit or suitable time.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 213680,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-udaya#}@}"
+            ],
+            "_banner": ".{@{#-udaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptodaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has attained rise or exaltation.\n"
+            ]
+        },
+        {
+            "__line": 213681,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "that which results or follows from a preceding rule.\n"
+            ]
+        },
+        {
+            "__line": 213682,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-kArin#}@}"
+            ],
+            "_banner": ".{@{#-kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "doing what is right.\n"
+            ]
+        },
+        {
+            "__line": 213683,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-kAla#}@}"
+            ],
+            "_banner": ".{@{#-kAla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptakAla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 opportune, seasonable, suitable; see {#aprAptakAla#}.\n",
+                ".²2 marriageable.\n",
+                ".²3 fated, destined.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 213687,
+                    "_ancestry": [
+                        "L_ 23937",
+                        "B_ {#prApta#}",
+                        "S_ .{@{#-kAla#}@}",
+                        "S_M_ ({@{#-laH#}@}"
+                    ],
+                    "_banner": "({@{#-laH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "prAptakAlaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a fit time, suitable or favourable moment.\n."
+                    ]
+                },
+                {
+                    "__line": 213688,
+                    "_ancestry": [
+                        "L_ 23937",
+                        "B_ {#prApta#}",
+                        "S_ .{@{#-kAla#}@}",
+                        "S_M_ ({@{#-lam#}@}"
+                    ],
+                    "_banner": "({@{#-lam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "prAptakAlam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} seasonably, opportunely, timely; {#aprAptakAlaM#}\n {#vacanaM vfhaspatirapi bruvan#} <ls>Pt. 1. 63</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 213690,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-krama#}@}"
+            ],
+            "_banner": ".{@{#-krama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptakrama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fit, proper, suitable.\n"
+            ]
+        },
+        {
+            "__line": 213691,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-jIvana#}@}"
+            ],
+            "_banner": ".{@{#-jIvana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptajIvana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "revived, restored to life.\n"
+            ]
+        },
+        {
+            "__line": 213692,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-doza#}@}"
+            ],
+            "_banner": ".{@{#-doza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptadoza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "guilty.\n"
+            ]
+        },
+        {
+            "__line": 213693,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-paYcatva#}@}"
+            ],
+            "_banner": ".{@{#-paYcatva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptapaYcatva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "resolved into the five elements, {%<ab>i. e.</ab>%} dead;\n <ab>cf.</ab> {#paYcatva#}.\n"
+            ]
+        },
+        {
+            "__line": 213695,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-prasava#}@}"
+            ],
+            "_banner": ".{@{#-prasava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptaprasava"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 delivered of a child.\n",
+                ".²2 near her confinement; {#prAptaprasavamAtmAnaM gaNgAdevyAM vimuYcati#} <ls>U. 7. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 213698,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-bIja#}@}"
+            ],
+            "_banner": ".{@{#-bIja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptabIja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sown.\n"
+            ]
+        },
+        {
+            "__line": 213699,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-budDi#}@}"
+            ],
+            "_banner": ".{@{#-budDi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptabudDi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 recovering, regaining oneʼs consciousness.\n",
+                ".²2 instructed, enlightened.\n"
+            ]
+        },
+        {
+            "__line": 213702,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-BAraH#}@}"
+            ],
+            "_banner": ".{@{#-BAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptaBAraH"
+                }
+            ],
+            "_meanings": [
+                "a beast of burden.\n"
+            ]
+        },
+        {
+            "__line": 213703,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-BAva#}@}"
+            ],
+            "_banner": ".{@{#-BAva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptaBAva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 wise.\n",
+                ".²2 handsome.\n"
+            ]
+        },
+        {
+            "__line": 213706,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptavaH"
+                }
+            ],
+            "_meanings": [
+                "a young bullock.\n"
+            ]
+        },
+        {
+            "__line": 213707,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-manoraTa#}@}"
+            ],
+            "_banner": ".{@{#-manoraTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptamanoraTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has obtained his desired object.\n"
+            ]
+        },
+        {
+            "__line": 213708,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-yOvana#}@}"
+            ],
+            "_banner": ".{@{#-yOvana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptayOvana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being in the bloom of youth, arrived at the age\n of puberty, youthful.\n"
+            ]
+        },
+        {
+            "__line": 213710,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptarUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 handsome, beautiful.\n",
+                ".²2 wise, learned.\n",
+                ".²3 charming, attractive.\n",
+                ".²4 fit, proper, worthy.\n"
+            ]
+        },
+        {
+            "__line": 213715,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-vara#}@}"
+            ],
+            "_banner": ".{@{#-vara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptavara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fraught with blessings.\n"
+            ]
+        },
+        {
+            "__line": 213716,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-vyavahAra#}@}"
+            ],
+            "_banner": ".{@{#-vyavahAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptavyavahAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "come of age, being able and legally authorised\n to manage his own affairs (<ab>opp.</ab> ‘minor’).\n"
+            ]
+        },
+        {
+            "__line": 213718,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-SrI#}@}"
+            ],
+            "_banner": ".{@{#-SrI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptaSrI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who owes his rise (to another); {#itaH sa dEtyaH#}\n {#prAptaSrIrneta evArhati kzayam#} <ls>Ku. 2. 55</ls>; <ls>Pt. 1. 244</ls>.\n"
+            ]
+        },
+        {
+            "__line": 213720,
+            "_ancestry": [
+                "L_ 23937",
+                "B_ {#prApta#}",
+                "S_ .{@{#-sUrya#}@}"
+            ],
+            "_banner": ".{@{#-sUrya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAptasUrya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the sun (vertical)."
             ]
         }
     ]

@@ -1,21 +1,41 @@
 {
-    "__line": 33221,
+    "__line": 30735,
     "_ancestry": [
         "L_ 3611",
-        "B_ {#aByave#}"
+        "B_ {#aBiram#}"
     ],
-    "_banner": "{#aByave#}",
+    "_banner": "{#aBiram#}",
     "_bannerExp": [
         {
-            "Right": "aByave"
+            "Right": "aBiram"
         }
     ],
     "_gram": [
-        "[{#°i#}]"
+        "€1",
+        "<ab>Ā.</ab>",
+        "(rarely <ab>P.</ab>)"
     ],
     "_meanings": [
-        "{c2c} <ab>P.</ab> ",
-        "{@--1@} To go down,\ndescend; {#avaBfTamaByavEti#} <ls>Ait. Br.</ls> ",
-        "{@--2@} To\nperceive, understand."
+        ".²1 To be pleased or delighted (with <ab>loc.</ab>); {#dfzwirihABiramate#}\n {#hfdayaM ca#} <ls>Mk. 4</ls>, <ls n=\"Mk.\">5. 15</ls>; {#na ganDahariRo damanakakedArikAyAmaBiramati#}\n <ls>Vb. 3</ls>; <ls>Ratn. 2</ls>; <ls>Y. 1. 252</ls>.\n",
+        ".²2 To please or gratify oneself, take pleasure or delight in (with <ab>loc.</ab>);\n {#vidyAsu vidvAniva so'Bireme#} <ls>Bk. 1. 9</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 30740,
+            "_ancestry": [
+                "L_ 3611",
+                "B_ {#aBiram#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "aBiram"
+                }
+            ],
+            "_meanings": [
+                "To gratify,\n please; {#matsapatnIraBiramayizyasi#} <ls>Dk. 90</ls>, <ls n=\"Dk.\">92</ls>, <ls n=\"Dk.\">163</ls>."
+            ]
+        }
     ]
 }

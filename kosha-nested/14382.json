@@ -1,38 +1,56 @@
 {
-    "__line": 119956,
+    "__line": 124277,
     "_ancestry": [
         "L_ 14382",
-        "B_ {#taMdra#}"
+        "B_ {#grAmin#}"
     ],
-    "_banner": "{#taMdra#}",
+    "_banner": "{#grAmin#}",
     "_bannerExp": [
         {
-            "Right": "taMdra"
+            "Right": "grAmin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Tired, fatigued. ",
-        "{@--2@}\nLazy. "
+        ".²1 Rustic, rural.\n",
+        ".²2 Libidinous. "
     ],
     "_morphisms": [
         {
-            "__line": 119957,
+            "__line": 124279,
             "_ancestry": [
                 "L_ 14382",
-                "B_ {#taMdra#}",
-                "M_ {#--draM#}"
+                "B_ {#grAmin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--draM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "taMdraM"
+                    "Left": "Parser error: {#grAmin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "<ab>Ved.</ab> A series or row."
+                ".²1 A villager, peasant.\n",
+                ".²2 The head of a village.\n"
+            ]
+        },
+        {
+            "__line": 124282,
+            "_ancestry": [
+                "L_ 14382",
+                "B_ {#grAmin#}",
+                "M_ .{@{#-RI#}@}"
+            ],
+            "_banner": ".{@{#-RI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "grAmiRI"
+                }
+            ],
+            "_meanings": [
+                "The indigo plant."
             ]
         }
     ]

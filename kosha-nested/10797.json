@@ -1,16 +1,43 @@
 {
-    "__line": 90723,
+    "__line": 90619,
     "_ancestry": [
         "L_ 10797",
-        "B_ {#kArpAsikA#}"
+        "B_ {#Endriya#}, {#-yaka#}"
     ],
-    "_banner": "{#kArpAsikA#}",
+    "_banner": "{#Endriya#}, {#-yaka#}",
     "_bannerExp": [
         {
-            "Right": "kArpAsikA"
+            "Right": "Endriya"
+        },
+        {
+            "Right": "Endriyaka"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#indriya-aR, vuY vA#}]"
+    ],
     "_meanings": [
-        "The cotton plant."
+        ".²1 Belonging to the senses, sensual. {#yaTA manoraTaH svapnaH sarvamEndriyakaM#}\n {#mfzA#} <ls>Bhāg. 7. 2. 48</ls>. {#mUQamEndriyakaM lubDamanAryacaritaM SaWam#} <ls>Mb. 12. 93. 16</ls>.\n",
+        ".²2 Present, perceptible to the senses.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 90624,
+            "_ancestry": [
+                "L_ 10797",
+                "B_ {#Endriya#}, {#-yaka#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Endriyam"
+                }
+            ],
+            "_meanings": [
+                "The world of the senses."
+            ]
+        }
     ]
 }

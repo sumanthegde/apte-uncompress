@@ -1,43 +1,82 @@
 {
-    "__line": 190618,
+    "__line": 203845,
     "_ancestry": [
         "L_ 22729",
-        "B_ {#maraMdaH --dakaH#}"
+        "B_ {#prati(tI)hAraH#}"
     ],
-    "_banner": "{#maraMdaH --dakaH#}",
+    "_banner": "{#prati(tI)hAraH#}",
     "_bannerExp": [
         {
-            "Right": "maraMdaH"
+            "Right": "pratihAraH"
         },
         {
-            "Right": "maraMdakaH"
+            "Right": "pratIhAraH"
         }
     ],
     "_meanings": [
-        "The juice of flowers;\n<ls>Bv. 1. 5</ls>, <ls n=\"Bv. 1.\">10</ls>, <ls n=\"Bv. 1.\">15.</ls> "
+        ".²1 Striking back.\n",
+        ".²2 A door, gate.\n",
+        ".²3 A porter, door-keeper; {#Arya adeSakAlaH pratIhArasya#} <ls>Svapna. 5</ls>, <ls n=\"Svapna.\">6</ls>.\n",
+        ".²4 A juggler.\n",
+        ".²5 Juggling, a juggling trick.\n",
+        ".²6 (In <ab>gram.</ab>) The hard contact of the tongue with the edge of the teeth\n in pronouncing dental letters.\n",
+        ".²7 Intimating arrival ({#Agamananivedana#}); {#saMprApyEte mahAtmAno rAGavasya#}\n {#niveSanam . vizWitAH pratihArArTam#} <ls>Rām. 7. 1. 7</ls>; see {#pratihAraRa#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 203855,
+            "_ancestry": [
+                "L_ 22729",
+                "B_ {#prati(tI)hAraH#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratihArI"
+                }
+            ],
+            "_meanings": [
+                "A female doorkeeper.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 190619,
+            "__line": 203857,
             "_ancestry": [
                 "L_ 22729",
-                "B_ {#maraMdaH --dakaH#}",
-                "S_  {#--okas#}"
+                "B_ {#prati(tI)hAraH#}",
+                "S_ .{@{#-BUmiH#}@}"
             ],
-            "_banner": " {#--okas#}",
+            "_banner": ".{@{#-BUmiH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "maraMdOkas"
-                },
-                {
-                    "Right": "maraMdakOkas"
+                    "Right": "pratihAraBUmiH"
                 }
             ],
             "_gram": [
-                "{%<ab>n.</ab>%}"
+                "{%f.%}"
             ],
             "_meanings": [
-                "a flower. "
+                "the threshold (of a house <ab>&c.</ab>); {#BavizyataH patyurumA#}\n {#ca SaMBoH samAsasAda pratihAraBUmim#} <ls>Ku. 3. 58</ls>.\n"
+            ]
+        },
+        {
+            "__line": 203859,
+            "_ancestry": [
+                "L_ 22729",
+                "B_ {#prati(tI)hAraH#}",
+                "S_ .{@{#-rakzI#}@}"
+            ],
+            "_banner": ".{@{#-rakzI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratihArarakzI"
+                }
+            ],
+            "_meanings": [
+                "a female doorkeeper; {#puMvatpragalBA pratihArarakzI#} <ls>R. 6. 20</ls>."
             ]
         }
     ]

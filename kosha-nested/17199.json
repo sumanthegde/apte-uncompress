@@ -1,20 +1,44 @@
 {
-    "__line": 144517,
+    "__line": 149993,
     "_ancestry": [
         "L_ 17199",
-        "B_ {#nizkuzita#}"
+        "B_ {#dADika#}"
     ],
-    "_banner": "{#nizkuzita#}",
+    "_banner": "{#dADika#}",
     "_bannerExp": [
         {
-            "Right": "nizkuzita"
+            "Right": "dADika"
+        },
+        {
+            "Right": "dADikI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Torn off, forced\nor drawn out, lacerated; <ls>R. 7. 50.</ls>\n",
-        "{@--2@} Expelled."
+        ".²1 Made of or from, or mixed or sprinkled with, coagulated milk.\n",
+        ".²2 Carrying about or selling coagulated milk.\n",
+        ".²3 Eating anything with coagulated milk.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 149997,
+            "_ancestry": [
+                "L_ 17199",
+                "B_ {#dADika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dADikam"
+                }
+            ],
+            "_meanings": [
+                "A kind of broth."
+            ]
+        }
     ]
 }

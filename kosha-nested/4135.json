@@ -1,41 +1,56 @@
 {
-    "__line": 37641,
+    "__line": 34260,
     "_ancestry": [
         "L_ 4135",
-        "B_ {#arcana#}"
+        "B_ {#amanuzya#}"
     ],
-    "_banner": "{#arcana#}",
+    "_banner": "{#amanuzya#}",
     "_bannerExp": [
         {
-            "Right": "arcana"
+            "Right": "amanuzya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#arc-lyuw#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Worshipping,\npraising. "
+        ".²1 Not human, not manly.\n",
+        ".²2 Not frequented by man.\n"
     ],
     "_morphisms": [
         {
-            "__line": 37642,
+            "__line": 34263,
             "_ancestry": [
                 "L_ 4135",
-                "B_ {#arcana#}",
-                "M_ {#--naM, --nA#}"
+                "B_ {#amanuzya#}",
+                "M_ .{@{#-zyaH#}@}"
             ],
-            "_banner": "{#--naM, --nA#}",
+            "_banner": ".{@{#-zyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "arcanA"
-                },
-                {
-                    "Right": "arcanaM"
+                    "Right": "amanuzyaH"
                 }
             ],
             "_meanings": [
-                "Worship, \nreverence or respect paid to deities and\nsuperiors."
+                ".²1 Not a man; {#nAmanuzye BavatyagniH#} <ls>Rām. 2. 93. 22</ls>.\n",
+                ".²2 A demon, fiend (= {#rakzaHpiSAcAdi#} <ls>Sk.</ls> on <ls>P. II. 4. 23</ls>).\n"
+            ]
+        },
+        {
+            "__line": 34266,
+            "_ancestry": [
+                "L_ 4135",
+                "B_ {#amanuzya#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: amanuzya tA"
+                }
+            ],
+            "_meanings": [
+                "Unmanliness."
             ]
         }
     ]

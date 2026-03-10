@@ -1,19 +1,42 @@
 {
-    "__line": 12914,
+    "__line": 10944,
     "_ancestry": [
         "L_ 1155",
-        "B_ {#anaqutka#}"
+        "B_ {#aDistri#}"
     ],
-    "_banner": "{#anaqutka#}",
+    "_banner": "{#aDistri#}",
     "_bannerExp": [
         {
-            "Right": "anaqutka"
+            "Right": "aDistri"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%ind.%}",
+        "[{#striyamaDikftya#}]"
     ],
     "_meanings": [
-        "Having oxen."
+        "Concerning a woman or wife.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 10945,
+            "_ancestry": [
+                "L_ 1155",
+                "B_ {#aDistri#}",
+                "M_ .{@{#-strI#}@}"
+            ],
+            "_banner": ".{@{#-strI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aDistrI"
+                }
+            ],
+            "_gram": [
+                "[{#aDikA strI#}]"
+            ],
+            "_meanings": [
+                "A superior or distinguished woman."
+            ]
+        }
     ]
 }

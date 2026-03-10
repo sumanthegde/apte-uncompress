@@ -1,20 +1,137 @@
 {
-    "__line": 29100,
+    "__line": 26275,
     "_ancestry": [
         "L_ 3027",
-        "B_ {#aBigamya#}"
+        "B_ {#apUrva#}"
     ],
-    "_banner": "{#aBigamya#}",
+    "_banner": "{#apUrva#}",
     "_bannerExp": [
         {
-            "Right": "aBigamya"
+            "Right": "apUrva"
         }
     ],
     "_gram": [
-        "{%<ab>pot. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To be \napproached, visited or sought; <ls>Ku. 6. 56.</ls> ",
-        "{@--2@}\nAccessible, that can be approached\nwithout fear, inviting;  \n{#taTApyanaBigamanIyo lokasya#} <ls>Mk. 4</ls>; {#BImakAMtErnfpaguREH#}\n{#… aDfzyaScABigamyaSca#} <ls>R. 1. 16.</ls>"
+        ".²1 Not preceded, not having existed before, like of which did not exist\n before, quite new; {#˚rvaM nAwakam#} <ls>Ś. 1</ls>; {#˚rvaM rAjakulam#} <ls>M. 5</ls>; <ls>K. 191</ls>;\n",
+        ".²2 Strange, extraordinary, wonderful; {#apUrvaH ko'pi bahumAnaheturguruzu#}\n <ls>U. 4</ls>; {#apUrvo dfSyate vahniH kAminyAH stanamaRqale . dUrato dahatIvANgaM#}\n {#hfdi lagnastu SItalaH ..#} <ls>Ś. Til. 17</ls>; singular, unexampled, unprecedented;\n {#apUrva eza virahamArgaH#} <ls>Ś. 6</ls>; {#apUrvarUpA dArikA#} <ls>M. 1</ls>; {#ato'pUrvaH#}\n {#Kalu vo 'nugrahaH#} <ls>Ś. 7</ls>; {#apUrvakarmacARqAlamayi mugDe vimuYca mAm#}\n <ls>U. 1. 46</ls> committing an unparalleled atrocity.\n",
+        ".²3 Unknown, unacquainted, stranger; {#apUrvo'pyaTavA vidvAn#} <ls>Mb. 13. 22. 8</ls>;\n {#vidite'pyapUrva iva#} <ls>Ki. 6. 39</ls>.\n",
+        ".²4 Not first.\n",
+        ".²5 Preceded by {#a#} or {#A#}.\n",
+        ".²6 (In <ab>phil.</ab>) ‘That unseen virtue which is a relation superinduced, not\n before possessed, unseen but efficacious to connect the consequence with\n its past and remote cause and to bring about at a distant period or in\n another world the relative effect’. -Colebrooke.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 26292,
+            "_ancestry": [
+                "L_ 3027",
+                "B_ {#apUrva#}",
+                "M_ .{@{#-rvam#}@}"
+            ],
+            "_banner": ".{@{#-rvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrvam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The remote consequence of an act (as the acquisition of heaven which\n is the result of good deeds), (Mīmāṃsā).\n",
+                ".²2 Virtue and vice ({#pApapuRyam#}) as the eventual cause of future happiness or misery.\n"
+            ]
+        },
+        {
+            "__line": 26296,
+            "_ancestry": [
+                "L_ 3027",
+                "B_ {#apUrva#}",
+                "M_ .{@{#-rvaH#}@}"
+            ],
+            "_banner": ".{@{#-rvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrvaH"
+                }
+            ],
+            "_meanings": [
+                "The Supreme Soul ({#parabrahma#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 26298,
+            "_ancestry": [
+                "L_ 3027",
+                "B_ {#apUrva#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrvakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "religious rites the power of which on the future\n is not seen before.\n"
+            ]
+        },
+        {
+            "__line": 26300,
+            "_ancestry": [
+                "L_ 3027",
+                "B_ {#apUrva#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrvapatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "one who has had no husband before, a virgin; {#˚tiH kumArI#} <ls>Sk.</ls>\n"
+            ]
+        },
+        {
+            "__line": 26301,
+            "_ancestry": [
+                "L_ 3027",
+                "B_ {#apUrva#}",
+                "S_ .{@{#-vAdaH#}@}"
+            ],
+            "_banner": ".{@{#-vAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrvavAdaH"
+                }
+            ],
+            "_meanings": [
+                "discussion or talk about the Supreme Soul.\n"
+            ]
+        },
+        {
+            "__line": 26302,
+            "_ancestry": [
+                "L_ 3027",
+                "B_ {#apUrva#}",
+                "S_ .{@{#-viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrvaviDiH"
+                }
+            ],
+            "_meanings": [
+                "an authoritative direction or injunction which is quite\n new; it is of four kinds; {#karmaviDi, guRaviDi, viniyogaviDi#} and {#prayogaviDi#}."
+            ]
+        }
     ]
 }

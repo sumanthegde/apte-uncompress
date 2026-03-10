@@ -1,20 +1,62 @@
 {
-    "__line": 237335,
+    "__line": 260434,
     "_ancestry": [
         "L_ 28211",
-        "B_ {#SEkya#}"
+        "B_ {#lohitaka#}"
     ],
-    "_banner": "{#SEkya#}",
+    "_banner": "{#lohitaka#}",
     "_bannerExp": [
         {
-            "Right": "SEkya"
+            "Right": "lohitaka"
+        },
+        {
+            "Right": "lohitikA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-tikA#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Suspended in a loop.\n",
-        "{@--2@} Pointed, peaked."
+        "Red.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 260436,
+            "_ancestry": [
+                "L_ 28211",
+                "B_ {#lohitaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lohitakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A ruby; {#layanezu lohitakanirmitA BuvaH#} <ls>Śi. 13. 52</ls>.\n",
+                ".²2 The planet Mars.\n",
+                ".²3 A kind of rice.\n"
+            ]
+        },
+        {
+            "__line": 260440,
+            "_ancestry": [
+                "L_ 28211",
+                "B_ {#lohitaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lohitakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Bell-metal.\n",
+                ".²2 Calx of brass."
+            ]
+        }
     ]
 }

@@ -1,19 +1,39 @@
 {
-    "__line": 213214,
+    "__line": 226386,
     "_ancestry": [
         "L_ 25159",
-        "B_ {#varDrikA, varDrI#}"
+        "B_ {#BidakaH#}"
     ],
-    "_banner": "{#varDrikA, varDrI#}",
+    "_banner": "{#BidakaH#}",
     "_bannerExp": [
         {
-            "Right": "varDrI"
-        },
-        {
-            "Right": "varDrikA"
+            "Right": "BidakaH"
         }
     ],
+    "_gram": [
+        "[{#Bid-kvun#}]"
+    ],
     "_meanings": [
-        "A leather strap or\nthong."
+        "A sword.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 226387,
+            "_ancestry": [
+                "L_ 25159",
+                "B_ {#BidakaH#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bidakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A diamond.\n",
+                ".²2 Indraʼs thunderbolt."
+            ]
+        }
     ]
 }

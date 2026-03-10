@@ -1,22 +1,78 @@
 {
-    "__line": 208827,
+    "__line": 220512,
     "_ancestry": [
         "L_ 24648",
-        "B_ {#liMpiH, --libiH#}"
+        "B_ {#biqAlaH#}"
     ],
-    "_banner": "{#liMpiH, --libiH#}",
+    "_banner": "{#biqAlaH#}",
     "_bannerExp": [
         {
-            "Right": "liMpiH"
-        },
-        {
-            "Right": "libiH"
+            "Right": "biqAlaH"
         }
     ],
-    "_gram": [
-        "{%<ab>f.</ab>%}"
-    ],
     "_meanings": [
-        "= {#lipi#} <ab>q. v.</ab>"
+        ".²1 A cat.\n",
+        ".²2 The eyeball.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 220515,
+            "_ancestry": [
+                "L_ 24648",
+                "B_ {#biqAlaH#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "biqAlI"
+                }
+            ],
+            "_meanings": [
+                "A female cat.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 220517,
+            "_ancestry": [
+                "L_ 24648",
+                "B_ {#biqAlaH#}",
+                "S_ .{@{#-padaH, -padakam#}@}"
+            ],
+            "_banner": ".{@{#-padaH, -padakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "biqAlapadaH"
+                },
+                {
+                    "Right": "biqAlapadakam"
+                }
+            ],
+            "_meanings": [
+                "a measure of weight equal to sixteen Māṣas.\n"
+            ]
+        },
+        {
+            "__line": 220518,
+            "_ancestry": [
+                "L_ 24648",
+                "B_ {#biqAlaH#}",
+                "S_ .{@{#-vratika#}@}"
+            ],
+            "_banner": ".{@{#-vratika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "biqAlavratika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "false, hypocritical."
+            ]
+        }
     ]
 }

@@ -1,19 +1,59 @@
 {
-    "__line": 145919,
+    "__line": 151480,
     "_ancestry": [
         "L_ 17342",
-        "B_ {#nuda#}"
+        "B_ {#dIpanIya#}"
     ],
-    "_banner": "{#nuda#}",
+    "_banner": "{#dIpanIya#}",
     "_bannerExp": [
         {
-            "Right": "nuda"
+            "Right": "dIpanIya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "(At the end of <ab>comp.</ab>)\nPushing, impelling, driving away."
+        ".²1 To be lighted or set on fire.\n",
+        ".²2 Combustible, inflammable.\n",
+        ".²3 To be excited or stimulated.\n",
+        ".²4 Relating to tonic medicines.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 151485,
+            "_ancestry": [
+                "L_ 17342",
+                "B_ {#dIpanIya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dIpanIyaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An aromatic seed ({#yavAnI#}).\n",
+                ".²2 <ab>N.</ab> of some medicinal or aromatic substances (<lang>Mar.</lang> <ns>{#suMWa, mirI, piMpaLI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 151488,
+            "_ancestry": [
+                "L_ 17342",
+                "B_ {#dIpanIya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dIpanIyam"
+                }
+            ],
+            "_meanings": [
+                "A tonic medicine."
+            ]
+        }
     ]
 }

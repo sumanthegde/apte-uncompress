@@ -1,16 +1,64 @@
 {
-    "__line": 227653,
+    "__line": 247481,
     "_ancestry": [
         "L_ 26998",
-        "B_ {#vezyA#}"
+        "B_ {#yAtrika#}"
     ],
-    "_banner": "{#vezyA#}",
+    "_banner": "{#yAtrika#}",
     "_bannerExp": [
         {
-            "Right": "vezyA"
+            "Right": "yAtrika"
+        },
+        {
+            "Right": "yAtrikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
+    ],
     "_meanings": [
-        "See {#veSyA#}."
+        ".²1 Marching.\n",
+        ".²2 Relating to a journey or campaign.\n",
+        ".²3 Requisite for the support of life; {#tApasezveva viprezu yAtrikaM BEkzamAharet#} <ls>Ms. 6. 27</ls>.\n",
+        ".²4 Usual, customary.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 247486,
+            "_ancestry": [
+                "L_ 26998",
+                "B_ {#yAtrika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAtrikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A traveller.\n",
+                ".²2 A pilgrim.\n"
+            ]
+        },
+        {
+            "__line": 247489,
+            "_ancestry": [
+                "L_ 26998",
+                "B_ {#yAtrika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAtrikam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A march, an expedition or campaign; {#na mArdavaM Satruzu yAtrikaM#}\n {#sadA#} <ls>Mb. 12. 103. 40</ls>.\n",
+                ".²2 Provisions, supplies (for a march); {#kftvA viDAnaM mUle tu yAtrikaM#}\n {#ca yaTAviDi#} <ls>Ms. 7. 184</ls>."
+            ]
+        }
     ]
 }

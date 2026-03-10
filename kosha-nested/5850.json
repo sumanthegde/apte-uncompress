@@ -1,19 +1,614 @@
 {
-    "__line": 51627,
+    "__line": 48467,
     "_ancestry": [
         "L_ 5850",
-        "B_ {#AKyA#}"
+        "B_ {#aSman#}"
     ],
-    "_banner": "{#AKyA#}",
+    "_banner": "{#aSman#}",
     "_bannerExp": [
         {
-            "Right": "AKyA"
+            "Right": "aSman"
         }
     ],
     "_gram": [
-        "[{#A-KyAyate anena; AKyA#} \n\n{#aN#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "A name, appellation; {#kiM vA#}\n{#SakuMtaletyasya mAturAKyA#} <ls>Ś. 7</ls>, <ls n=\"Ś.\">7. 33</ls>;\n{#paScAdumAKyAM sumuKI jagAma#} <ls>Ku. 1. 26</ls>;\n{#tadAKyayA Buvi papraTe#} <ls>R. 15. 101</ls> \nbecame known by that name; often\nat the end of compounds meaning\n‘named’ or ‘called’; {#aTa#} \n{#kimAKyasya rAjarzeH sA DarmapatnI#} <ls>Ś. 7</ls>; {#raGuvaMSAKyaM#}\n{#kAvyaM#} &c."
+        "<ab>Ved.</ab> Eating or pervading; {#aSmAnnAnAmADipatyaM jagAma#}\n <ls>Av. 18. 4. 54</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 48468,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#aSman#} M_ --{%m.%}"
+                }
+            ],
+            "_gram": [
+                "[{#aSnute vyApnoti saMhantyanena bA˚ manin#} <ls>Uṇ. 4. 146</ls>]"
+            ],
+            "_meanings": [
+                ".²1 A stone; {#nArAcakzepaRIyASmanizpezotpatitAnalam#} <ls>R. 4. 77</ls>.\n",
+                ".²2 A hard stone, rock.\n",
+                ".²3 Flint. {#tato'SmasahitA DArAH saMvfRvantyaH samantataH#} <ls>Mb. 3. 143. 19</ls>.\n",
+                ".²4 A cloud.\n",
+                ".²5 A thunderbolt.\n",
+                ".²6 A mountain.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 48476,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-Asya#}@}"
+            ],
+            "_banner": ".{@{#-Asya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmAsya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a stone-mouth or source, flowing from a rock;\n {#aSmAsyamavataM brahmaRaspatiH#} <ls>Rv. 2. 24. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 48478,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-utTam#}@}"
+            ],
+            "_banner": ".{@{#-utTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmotTam"
+                }
+            ],
+            "_meanings": [
+                "bitumen.\n"
+            ]
+        },
+        {
+            "__line": 48479,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-kadalI#}@}"
+            ],
+            "_banner": ".{@{#-kadalI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmakadalI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant, a kind of {#kadalI#}.\n"
+            ]
+        },
+        {
+            "__line": 48480,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-kuwwa, -kuwwaka#}@}"
+            ],
+            "_banner": ".{@{#-kuwwa, -kuwwaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmakuwwa"
+                },
+                {
+                    "Right": "aSmakuwwaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 breaking anything on stones.\n",
+                ".²2 broken by a stone.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 48483,
+                    "_ancestry": [
+                        "L_ 5850",
+                        "B_ {#aSman#}",
+                        "S_ .{@{#-kuwwa, -kuwwaka#}@}",
+                        "S_M_ ({@{#-wwaH, -wwakaH#}@}"
+                    ],
+                    "_banner": "({@{#-wwaH, -wwakaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aSmakuwwaH"
+                        },
+                        {
+                            "Right": "aSmakuwwakaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a class of devotees; a {#vAnaprasTa#} <ls>Rām. 3. 6. 2</ls>;\n <ls>Y. 3. 49</ls>; <ls>Ms. 6. 17</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 48485,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-ketuH#}@}"
+            ],
+            "_banner": ".{@{#-ketuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmaketuH"
+                }
+            ],
+            "_gram": [
+                "[{#aSmeva keturyasya#}]"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant.\n"
+            ]
+        },
+        {
+            "__line": 48486,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-ganDA#}@}"
+            ],
+            "_banner": ".{@{#-ganDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmaganDA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant, <ab>cf.</ab> {#aSvaganDA#}.\n"
+            ]
+        },
+        {
+            "__line": 48487,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-garBaH, -garBam, -garBajaH, -jam, -yoniH#}@}"
+            ],
+            "_banner": ".{@{#-garBaH, -garBam, -garBajaH, -jam, -yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmagarBaH"
+                },
+                {
+                    "Right": "aSmagarBam"
+                },
+                {
+                    "Right": "aSmagarBajaH"
+                },
+                {
+                    "Right": "aSmagarBajam"
+                },
+                {
+                    "Right": "aSmayoniH"
+                }
+            ],
+            "_meanings": [
+                "an emerald.\n"
+            ]
+        },
+        {
+            "__line": 48488,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-garBajaH#}@}"
+            ],
+            "_banner": ".{@{#-garBajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmagarBajaH"
+                }
+            ],
+            "_meanings": [
+                "fire produced from a flint.\n"
+            ]
+        },
+        {
+            "__line": 48489,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-guqaH, -qA#}@}"
+            ],
+            "_banner": ".{@{#-guqaH, -qA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmaguqaH"
+                },
+                {
+                    "Right": "aSmaguqA"
+                }
+            ],
+            "_meanings": [
+                "a kind of weapon.\n"
+            ]
+        },
+        {
+            "__line": 48490,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-GnaH#}@}"
+            ],
+            "_banner": ".{@{#-GnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmaGnaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a tree; ({#pAzARaBeda#} ?);\n"
+            ]
+        },
+        {
+            "__line": 48491,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-cakra#}@}"
+            ],
+            "_banner": ".{@{#-cakra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmacakra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "furnished with a disc of stone.\n"
+            ]
+        },
+        {
+            "__line": 48492,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-jaH, -jam#}@}"
+            ],
+            "_banner": ".{@{#-jaH, -jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmajaH"
+                },
+                {
+                    "Right": "aSmajam"
+                }
+            ],
+            "_meanings": [
+                ".²1 red-chalk.\n",
+                ".²2 iron.\n"
+            ]
+        },
+        {
+            "__line": 48495,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-jatu#}@}"
+            ],
+            "_banner": ".{@{#-jatu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmajatu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-jatukam#}@}"
+            ],
+            "_meanings": [
+                "bitumen. (<lang>Mar.</lang> <ns>{#dagaqaPUla, SilAjita, qAMbara#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 48497,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-jAtiH#}@}"
+            ],
+            "_banner": ".{@{#-jAtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmajAtiH"
+                }
+            ],
+            "_meanings": [
+                "an emerald named {#pAnnA#}.\n"
+            ]
+        },
+        {
+            "__line": 48498,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-dAraRaH#}@}"
+            ],
+            "_banner": ".{@{#-dAraRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmadAraRaH"
+                }
+            ],
+            "_meanings": [
+                "an axe or crow for breaking stones.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 48499,
+                    "_ancestry": [
+                        "L_ 5850",
+                        "B_ {#aSman#}",
+                        "S_ .{@{#-dAraRaH#}@}",
+                        "S_M_ ({@{#-Ram#}@}"
+                    ],
+                    "_banner": "({@{#-Ram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aSmadAraRam"
+                        }
+                    ],
+                    "_meanings": [
+                        "breaking stones or rocks.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 48500,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-didyu#}@}"
+            ],
+            "_banner": ".{@{#-didyu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmadidyu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has obtained a stony weapon having adamantine\n weapons or grasped weapon ({#vyAptAyuDa, aSmamayAyuDa#}).\n"
+            ]
+        },
+        {
+            "__line": 48502,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-nagaram#}@}"
+            ],
+            "_banner": ".{@{#-nagaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmanagaram"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a town in which Kālakeya resided.\n"
+            ]
+        },
+        {
+            "__line": 48503,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-puzpam#}@}"
+            ],
+            "_banner": ".{@{#-puzpam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmapuzpam"
+                }
+            ],
+            "_meanings": [
+                "bitumen, benzoin ({#SilArasa#}).\n"
+            ]
+        },
+        {
+            "__line": 48504,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-BAlam#}@}"
+            ],
+            "_banner": ".{@{#-BAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmaBAlam"
+                }
+            ],
+            "_meanings": [
+                "a mortar of stone or iron.\n"
+            ]
+        },
+        {
+            "__line": 48505,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-Bid, -BedaH, -BedakaH#}@}"
+            ],
+            "_banner": ".{@{#-Bid, -BedaH, -BedakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmaBid"
+                },
+                {
+                    "Right": "aSmaBedaH"
+                },
+                {
+                    "Right": "aSmaBedakaH"
+                }
+            ],
+            "_meanings": [
+                "the plant Coleus Scutellarioides (supposed\n to dissolve stone in the bladder; <lang>Mar.</lang> <ns>{#koraLa#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 48507,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-yoniH#}@}"
+            ],
+            "_banner": ".{@{#-yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmayoniH"
+                }
+            ],
+            "_meanings": [
+                "An emerald named {#pannA#}.\n"
+            ]
+        },
+        {
+            "__line": 48508,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-raTaH#}@}"
+            ],
+            "_banner": ".{@{#-raTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmaraTaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a sage.\n"
+            ]
+        },
+        {
+            "__line": 48509,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-varzaH#}@}"
+            ],
+            "_banner": ".{@{#-varzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmavarzaH"
+                }
+            ],
+            "_meanings": [
+                "A hail-shower. {#vinASmavarzASanipAtadozEH kAle ca deSe#}\n {#pravavarza devaH#} <ls>Bu. Ch. 2. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 48511,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-vraja#}@}"
+            ],
+            "_banner": ".{@{#-vraja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmavraja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "included in rocks.\n"
+            ]
+        },
+        {
+            "__line": 48512,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-sAra#}@}"
+            ],
+            "_banner": ".{@{#-sAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmasAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "like iron or stone.\n\n {#aSmasAramidaM nUnamaTavApyajarAmaram#} <ls>Rām. 5. 26. 6</ls>.\n.({@{#-raH, -ram#}@}).\n",
+                ".²1 iron; {#aSmasAramayaM SUlam#} <ls>Bhāg. 8. 11. 30</ls>. {#prARAH satvaramaSmasArakaWinA#}\n {#gacCanti gacCantvamI#} <ls>S. D.</ls>\n",
+                ".²2 sapphire.\n",
+                ".²3 a saw ({#krakaca#}); {#dAroScUrRamivASmasAravihitam#} <ls>Mb. 12. 298. 45</ls>.\n "
+            ],
+            "_samasas": [
+                {
+                    "__line": 48520,
+                    "_ancestry": [
+                        "L_ 5850",
+                        "B_ {#aSman#}",
+                        "S_ .{@{#-sAra#}@}",
+                        "S_S_ {#˚maya#}"
+                    ],
+                    "_banner": "{#˚maya#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aSmasAramaya"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%a.%} made of iron <ab>cf.</ab> <ls>Śiva B. 14. 25</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 48521,
+            "_ancestry": [
+                "L_ 5850",
+                "B_ {#aSman#}",
+                "S_ .{@{#-hanman#}@}"
+            ],
+            "_banner": ".{@{#-hanman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSmahanman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                ".²1 a weapon of iron; <ls>Rv. 7. 104. 5</ls>.\n",
+                ".²2 a stroke of the thunderbolt."
+            ]
+        }
     ]
 }

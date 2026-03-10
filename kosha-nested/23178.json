@@ -1,22 +1,50 @@
 {
-    "__line": 195031,
+    "__line": 207384,
     "_ancestry": [
         "L_ 23178",
-        "B_ {#miS#}"
+        "B_ {#pramaT#}, {#-manT#}"
     ],
-    "_banner": "{#miS#}",
+    "_banner": "{#pramaT#}, {#-manT#}",
     "_bannerExp": [
         {
-            "Right": "miS"
+            "Right": "pramaT"
+        },
+        {
+            "Right": "pramanT"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#meSati#})"
+        "€1",
+        "€9",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} To make\na sound or noise. ",
-        "{@--2@} To be angry."
+        "²1 To churn; {#pramaTyamAno#} ({#samudro#}) {#giriReva BUyaH#} <ls>R. 13. 14</ls>.\n",
+        ".²2 To harass, trouble excessively, annoy, torment.\n",
+        ".²3 To strike down, bruise, hurt.\n",
+        ".²4 To tear off or cut.\n",
+        ".²5 To lay waste, devastate.\n",
+        ".²6 To kill, destroy; {#pramaTya kravyAdaM maraRasamaye rakzitavataH#}\n <ls>Māl. 4. 9</ls>, <ls n=\"Māl.\">9. 27</ls>.\n",
+        ".²7 To agitate, stir about.\n",
+        ".²8 <ab>Ved.</ab> To rob. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 207393,
+            "_ancestry": [
+                "L_ 23178",
+                "B_ {#pramaT#}, {#-manT#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pramaT"
+                }
+            ],
+            "_meanings": [
+                "To harass, annoy."
+            ]
+        }
     ]
 }

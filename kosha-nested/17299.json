@@ -1,16 +1,38 @@
 {
-    "__line": 145528,
+    "__line": 150823,
     "_ancestry": [
         "L_ 17299",
-        "B_ {#nIkA#}"
+        "B_ {#divan#}"
     ],
-    "_banner": "{#nIkA#}",
+    "_banner": "{#divan#}",
     "_bannerExp": [
         {
-            "Right": "nIkA"
+            "Right": "divan"
         }
     ],
+    "_gram": [
+        "{%n.%}"
+    ],
     "_meanings": [
-        "A channel for irrigation."
+        "The heaven. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 150823,
+            "_ancestry": [
+                "L_ 17299",
+                "B_ {#divan#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#divan#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A day."
+            ]
+        }
     ]
 }

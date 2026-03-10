@@ -1,200 +1,36 @@
 {
-    "__line": 136819,
+    "__line": 141304,
     "_ancestry": [
         "L_ 16300",
-        "B_ {#nata#}"
+        "B_ {#taskaraH#}"
     ],
-    "_banner": "{#nata#}",
+    "_banner": "{#taskaraH#}",
     "_bannerExp": [
         {
-            "Right": "nata"
+            "Right": "taskaraH"
         }
     ],
-    "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#nam-kta#}]"
-    ],
     "_meanings": [
-        "{@--1@} Bent, bowed,\nstooping, inclined. ",
-        "{@--2@} Sunk, \ndepressed. ",
-        "{@--3@} Crooked, curved. "
+        ".²1 A thief, robber; {#mA saMcara manaHpAnTa tatrAste smarataskaraH#} <ls>Bh. 1. 86</ls>;\n <ls>Ms. 4. 135</ls>, <ls n=\"Ms.\">8. 67</ls>.\n",
+        ".²2 (At the end of <ab>comp.</ab>) Anything bad or contemptible; {#akasmAt tAvaduttasTO#}\n {#garjaYjaladataskaraH#} <ls>Ks. 101. 140</ls>.\n",
+        ".²3 The ear; <ab>cf.</ab> {#vyAvfttA yatparasveByaH SrutO taskaratA sTitA#} <ls>R. 1. 27</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 136821,
+            "__line": 141310,
             "_ancestry": [
                 "L_ 16300",
-                "B_ {#nata#}",
-                "M_ {#--taM#}"
+                "B_ {#taskaraH#}",
+                "M_ .{@{#-rI#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-rI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nataM"
+                    "Right": "taskarI"
                 }
             ],
             "_meanings": [
-                "{@--1@} The \ndistance of any planet from the meridian.\n",
-                "{@--2@} The zenith distance at a meridian\ntransit. "
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 136824,
-            "_ancestry": [
-                "L_ 16300",
-                "B_ {#nata#}",
-                "S_  {#--aMSaH#}"
-            ],
-            "_banner": " {#--aMSaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "natAMSaH"
-                }
-            ],
-            "_meanings": [
-                "zenith \ndistance. "
-            ]
-        },
-        {
-            "__line": 136825,
-            "_ancestry": [
-                "L_ 16300",
-                "B_ {#nata#}",
-                "S_ {#--aMga#}"
-            ],
-            "_banner": "{#--aMga#}",
-            "_bannerExp": [
-                {
-                    "Right": "natAMga"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "{1} bending the body.\n",
-                "{2} stooping, bowed. "
-            ],
-            "_morphisms": [
-                {
-                    "__line": 136826,
-                    "_ancestry": [
-                        "L_ 16300",
-                        "B_ {#nata#}",
-                        "S_ {#--aMga#}",
-                        "S_M_ ({#--gI#}"
-                    ],
-                    "_banner": "({#--gI#}",
-                    "_bannerExp": [
-                        {
-                            "Right": "natAMgI"
-                        }
-                    ],
-                    "_meanings": [
-                        "{1} a\nwoman with stooping limbs. ",
-                        "{2} a\nwoman in general. "
-                    ]
-                }
-            ]
-        },
-        {
-            "__line": 136828,
-            "_ancestry": [
-                "L_ 16300",
-                "B_ {#nata#}",
-                "S_ {#--unnata#}"
-            ],
-            "_banner": "{#--unnata#}",
-            "_bannerExp": [
-                {
-                    "Right": "natonnata"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "high\nand low; <ls>Ś. 4. 15.</ls> "
-            ]
-        },
-        {
-            "__line": 136829,
-            "_ancestry": [
-                "L_ 16300",
-                "B_ {#nata#}",
-                "S_ {#--nAqI, --nAqikA#}"
-            ],
-            "_banner": "{#--nAqI, --nAqikA#}",
-            "_bannerExp": [
-                {
-                    "Right": "natanAqI"
-                },
-                {
-                    "Right": "natanAqikA"
-                }
-            ],
-            "_meanings": [
-                "{1} the distance in time of any planet\nfrom the meridian. ",
-                "{2} any hour of\nbirth after noon or before midnight.\n"
-            ]
-        },
-        {
-            "__line": 136833,
-            "_ancestry": [
-                "L_ 16300",
-                "B_ {#nata#}",
-                "S_ {#--nAsika#}"
-            ],
-            "_banner": "{#--nAsika#}",
-            "_bannerExp": [
-                {
-                    "Right": "natanAsika"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "flat-nosed. "
-            ]
-        },
-        {
-            "__line": 136833,
-            "_ancestry": [
-                "L_ 16300",
-                "B_ {#nata#}",
-                "S_ {#--parvan#}"
-            ],
-            "_banner": "{#--parvan#}",
-            "_bannerExp": [
-                {
-                    "Right": "nataparvan"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "flatjointed. "
-            ]
-        },
-        {
-            "__line": 136834,
-            "_ancestry": [
-                "L_ 16300",
-                "B_ {#nata#}",
-                "S_ {#--BrUH#}"
-            ],
-            "_banner": "{#--BrUH#}",
-            "_bannerExp": [
-                {
-                    "Right": "nataBrUH"
-                }
-            ],
-            "_meanings": [
-                "a woman with curved\neye-brows."
+                "A passionate woman."
             ]
         }
     ]

@@ -1,56 +1,117 @@
 {
-    "__line": 96271,
+    "__line": 95847,
     "_ancestry": [
         "L_ 11464",
-        "B_ {#ketakaH#}"
+        "B_ {#kapAwaH#}, {#-wam#}"
     ],
-    "_banner": "{#ketakaH#}",
+    "_banner": "{#kapAwaH#}, {#-wam#}",
     "_bannerExp": [
         {
-            "Right": "ketakaH"
+            "Right": "kapAwaH"
+        },
+        {
+            "Right": "kapAwam"
         }
     ],
     "_gram": [
-        "[{#kit nivAse Rvul#}]"
+        "[{#kaM vAtaM pAwayati tadgatiM ruRadDi#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of a\nplant; {#pratiBAMtyadya vanAni ketakAnAM#}\n<ls>Ghaṭ. 15.</ls> ",
-        "{@--2@} A banner. "
+        ".²1 Leaf or panel of a door; {#kapAwavakzAH pariRadDakanDaraH#} <ls>R. 3. 34</ls>;\n {#svargadvArakapAwapAwanapawurTarmo'pi nopArjitaH#} <ls>Bh. 3. 11</ls>.\n",
+        ".²2 A door; {#dalitadalakapAwaH zawpadAnAM saroje#} <ls>Śi. 11. 60</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 96273,
+            "__line": 95853,
             "_ancestry": [
                 "L_ 11464",
-                "B_ {#ketakaH#}",
-                "M_ {#--kaM#}"
+                "B_ {#kapAwaH#}, {#-wam#}",
+                "S_ .{@{#-udDAwanam#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-udDAwanam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ketakaM"
+                    "Right": "kapAwodDAwanam"
                 }
             ],
             "_meanings": [
-                "A flower\nof the Ketaka plant; {#ketakEH#} \n{#sUciBinnEH#} <ls>Me. 23</ls>; <ls>R. 6. 17</ls>, <ls n=\"R.\">13. 16.</ls> "
+                ".²1 the opening of a door.\n",
+                ".²2 A door key.\n"
             ]
         },
         {
-            "__line": 96275,
+            "__line": 95856,
             "_ancestry": [
                 "L_ 11464",
-                "B_ {#ketakaH#}",
-                "M_ {#--kI#}"
+                "B_ {#kapAwaH#}, {#-wam#}",
+                "S_ .{@{#-GnaH#}@}"
             ],
-            "_banner": "{#--kI#}",
+            "_banner": ".{@{#-GnaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ketakI"
+                    "Right": "kapAwaGnaH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "house-breaker, thief.\n"
+            ]
+        },
+        {
+            "__line": 95857,
+            "_ancestry": [
+                "L_ 11464",
+                "B_ {#kapAwaH#}, {#-wam#}",
+                "S_ .{@{#-vakzas#}@}"
+            ],
+            "_banner": ".{@{#-vakzas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAwavakzas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "broad chested; {#kapAwavakzAH pariRadDakanDaraH#} <ls>R. 3. 34</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95858,
+            "_ancestry": [
+                "L_ 11464",
+                "B_ {#kapAwaH#}, {#-wam#}",
+                "S_ .{@{#-saMDiH#}@}"
+            ],
+            "_banner": ".{@{#-saMDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAwasanDiH"
                 }
             ],
             "_meanings": [
-                "{@--1@} <ab>N.</ab> of a plant (= {#ketaka#}); {#hasitamiva#} \n{#viDatte sUciBiH ketakInAM#} <ls>Rs. 2. 23.</ls> ",
-                "{@--2@}\nA flower of that plant; <ls>Rs. 2. 20</ls>,"
+                ".²1 The junction of the leaves of a door.\n",
+                ".²2 A manner of multiplying.\n"
+            ]
+        },
+        {
+            "__line": 95861,
+            "_ancestry": [
+                "L_ 11464",
+                "B_ {#kapAwaH#}, {#-wam#}",
+                "S_ .{@{#-saMDikaH#}@}"
+            ],
+            "_banner": ".{@{#-saMDikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAwasanDikaH"
+                }
+            ],
+            "_meanings": [
+                "a disease of the ear."
             ]
         }
     ]

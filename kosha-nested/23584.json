@@ -1,54 +1,84 @@
 {
-    "__line": 198444,
+    "__line": 210644,
     "_ancestry": [
         "L_ 23584",
-        "B_ {#mOnaM#}"
+        "B_ {#prasAdana#}"
     ],
-    "_banner": "{#mOnaM#}",
+    "_banner": "{#prasAdana#}",
     "_bannerExp": [
         {
-            "Right": "mOnaM"
+            "Right": "prasAdana"
+        },
+        {
+            "Right": "prasAdanI"
         }
     ],
     "_gram": [
-        "[{#munerBAvaH aR#}]"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "Silence, \ntaciturnity; {#mOnaM sarvArTasADanaM; mOnaM tyaja#}\n‘open your lips’; {#mOnaM samAcAra#}\n‘hold your tongue’. "
+        ".²1 Purifying, clearing, rendering pure or clear.\n",
+        ".²2 Soothing, calming.\n",
+        ".²3 Cheering, gladdening.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 198447,
+            "__line": 210648,
             "_ancestry": [
                 "L_ 23584",
-                "B_ {#mOnaM#}",
-                "S_  {#--mudrA#}"
+                "B_ {#prasAdana#}",
+                "M_ .{@{#-naH#}@}"
             ],
-            "_banner": " {#--mudrA#}",
+            "_banner": ".{@{#-naH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mOnamudrA"
+                    "Right": "prasAdanaH"
                 }
             ],
             "_meanings": [
-                "the attitude of silence. "
+                "A royal tent.\n"
             ]
         },
         {
-            "__line": 198448,
+            "__line": 210649,
             "_ancestry": [
                 "L_ 23584",
-                "B_ {#mOnaM#}",
-                "S_ {#--vrataM#}"
+                "B_ {#prasAdana#}",
+                "M_ .{@{#-nam#}@}"
             ],
-            "_banner": "{#--vrataM#}",
+            "_banner": ".{@{#-nam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mOnavrataM"
+                    "Right": "prasAdanam"
                 }
             ],
             "_meanings": [
-                "a vow\nof silence."
+                ".²1 Clearing from impurities, purifying.\n",
+                ".²2 Soothing, calming, tranquillizing, composing.\n",
+                ".²3 Pleasing, gratifying.\n",
+                ".²4 Propitiating, courting favour.\n"
+            ]
+        },
+        {
+            "__line": 210654,
+            "_ancestry": [
+                "L_ 23584",
+                "B_ {#prasAdana#}",
+                "M_ .{@{#-nA, -nI#}@}"
+            ],
+            "_banner": ".{@{#-nA, -nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasAdanA"
+                },
+                {
+                    "Right": "prasAdanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 Service, worship.\n",
+                ".²2 Purifying."
             ]
         }
     ]

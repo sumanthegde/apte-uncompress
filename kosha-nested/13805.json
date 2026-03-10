@@ -1,23 +1,159 @@
 {
-    "__line": 115413,
+    "__line": 117864,
     "_ancestry": [
         "L_ 13805",
-        "B_ {#jarts#}"
+        "B_ {#gadgada#}"
     ],
-    "_banner": "{#jarts#}",
+    "_banner": "{#gadgada#}",
     "_bannerExp": [
         {
-            "Right": "jarts"
+            "Right": "gadgada"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#jartsati#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To say,\nspeak. ",
-        "{@--2@} To blame, censure, abuse.\n",
-        "{@--3@} To protect."
+        "Stammering, stuttering, faltering; {#tatkiM rodizi#}\n {#gadgadena vacasA#} <ls>Amaru. 57</ls>; {#gadgadagalattryuwyadvilInAkzaraM ko dehIti#}\n {#vadet#} <ls>Bh. 3. 8</ls>; {#sAnandagadgadapadaM harirityuvAca#} <ls>Gīt. 10</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 117867,
+            "_ancestry": [
+                "L_ 13805",
+                "B_ {#gadgada#}",
+                "M_ .{@{#-dam#}@}"
+            ],
+            "_banner": ".{@{#-dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gadgadam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "In a faltering or stammering tone; {#vilalApa sa#}\n {#bAzpagadgadam#} <ls>R. 8. 43</ls>; {#˚nadat#} <ls>U. 2. 30</ls> producing a gurgling sound.\n"
+            ]
+        },
+        {
+            "__line": 117869,
+            "_ancestry": [
+                "L_ 13805",
+                "B_ {#gadgada#}",
+                "M_ .{@{#-daH, -dam#}@}"
+            ],
+            "_banner": ".{@{#-daH, -dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gadgadaH"
+                },
+                {
+                    "Right": "gadgadam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Stammering.\n",
+                ".²2 Indistinct or convulsive speech; {#sagadgadaM BItaBItaH praRamya#} <ls>Bg. 11. 35</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 117873,
+            "_ancestry": [
+                "L_ 13805",
+                "B_ {#gadgada#}",
+                "S_ .{@{#-DvAniH#}@}"
+            ],
+            "_banner": ".{@{#-DvAniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gadgadaDvAniH"
+                }
+            ],
+            "_meanings": [
+                "a low, inarticulate sound expressive of joy or grief.\n"
+            ]
+        },
+        {
+            "__line": 117874,
+            "_ancestry": [
+                "L_ 13805",
+                "B_ {#gadgada#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gadgadapadam"
+                }
+            ],
+            "_meanings": [
+                "inarticulate speech.\n"
+            ]
+        },
+        {
+            "__line": 117875,
+            "_ancestry": [
+                "L_ 13805",
+                "B_ {#gadgada#}",
+                "S_ .{@{#-vAc#}@}"
+            ],
+            "_banner": ".{@{#-vAc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gadgadavAc"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "inarticulate or convulsive speech, interrupted\n\n by sobbing <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 117878,
+            "_ancestry": [
+                "L_ 13805",
+                "B_ {#gadgada#}",
+                "S_ .{@{#-svara#}@}"
+            ],
+            "_banner": ".{@{#-svara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gadgadasvara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "uttering stammering sounds. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 117878,
+                    "_ancestry": [
+                        "L_ 13805",
+                        "B_ {#gadgada#}",
+                        "S_ .{@{#-svara#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "gadgadasvaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 indistinct or stammering utterance.\n",
+                        ".²2 a buffalo."
+                    ]
+                }
+            ]
+        }
     ]
 }

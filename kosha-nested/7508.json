@@ -1,20 +1,39 @@
 {
-    "__line": 64866,
+    "__line": 62754,
     "_ancestry": [
         "L_ 7508",
-        "B_ {#Irita#}"
+        "B_ {#ArcIka#}"
     ],
-    "_banner": "{#Irita#}",
+    "_banner": "{#ArcIka#}",
     "_bannerExp": [
         {
-            "Right": "Irita"
+            "Right": "ArcIka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#fcIke parvate BavaH aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Sent, despatched. ",
-        "{@--2@}\nSaid, uttered &c.; {#°AkUtaM#} declared\npurpose or intention."
+        "Belonging to the {#fcIka#} mountain.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 62755,
+            "_ancestry": [
+                "L_ 7508",
+                "B_ {#ArcIka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArcIkaH"
+                }
+            ],
+            "_meanings": [
+                "The mountain {#fcIka#}."
+            ]
+        }
     ]
 }

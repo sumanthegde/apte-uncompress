@@ -1,24 +1,44 @@
 {
-    "__line": 193788,
+    "__line": 206113,
     "_ancestry": [
         "L_ 23013",
-        "B_ {#mAma#}"
+        "B_ {#praDfz#}"
     ],
-    "_banner": "{#mAma#}",
+    "_banner": "{#praDfz#}",
     "_bannerExp": [
         {
-            "Right": "mAmI"
-        },
-        {
-            "Right": "mAma"
+            "Right": "praDfz"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#mI#}|{%<ab>f.</ab>%})"
+        "€5",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} My, mine. ",
-        "{@--2@}\nUncle (used in voc.)."
+        "²1 To assail, lay hands on.\n",
+        ".²2 To injure, harass.\n",
+        ".²3 To overpower, overcome. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 206116,
+            "_ancestry": [
+                "L_ 23013",
+                "B_ {#praDfz#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "praDfz"
+                }
+            ],
+            "_meanings": [
+                ".²1 To assail, attack, overpower.\n",
+                ".²2 To outrage, violate (a woman).\n",
+                ".²3 To injure, hurt.\n",
+                ".²4 To devastate, lay waste, destroy completely."
+            ]
+        }
     ]
 }

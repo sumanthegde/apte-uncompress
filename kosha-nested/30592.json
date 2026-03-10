@@ -1,20 +1,62 @@
 {
-    "__line": 256469,
+    "__line": 282283,
     "_ancestry": [
         "L_ 30592",
-        "B_ {#sopakAra#}"
+        "B_ {#vihaMgaH#}"
     ],
-    "_banner": "{#sopakAra#}",
+    "_banner": "{#vihaMgaH#}",
     "_bannerExp": [
         {
-            "Right": "sopakAra"
+            "Right": "vihaNgaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} = {#sopakaraRa#}. ",
-        "{@--2@} \nAssisted, befriended."
+        ".²1 A bird; {#viSvAsAya vihaMgAnAm#} <ls>R. 1. 51</ls>; ({#eza Darmo#}) {#vihaMgamahizIRAM#}\n {#ca vijYeyaH prasavaM prati#} <ls>Ms. 9. 55</ls>.\n",
+        ".²2 A cloud.\n",
+        ".²3 An arrow; <ls>Mb. 8</ls>.\n",
+        ".²4 The sun.\n",
+        ".²5 The moon.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 282291,
+            "_ancestry": [
+                "L_ 30592",
+                "B_ {#vihaMgaH#}",
+                "S_ .{@{#-arAtiH#}@}"
+            ],
+            "_banner": ".{@{#-arAtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vihaNgArAtiH"
+                }
+            ],
+            "_meanings": [
+                "a falcon, hawk.\n"
+            ]
+        },
+        {
+            "__line": 282292,
+            "_ancestry": [
+                "L_ 30592",
+                "B_ {#vihaMgaH#}",
+                "S_ .{@{#-indraH, -ISavaraH, -rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-indraH, -ISavaraH, -rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vihaNgendraH"
+                },
+                {
+                    "Right": "vihaNgeSavaraH"
+                },
+                {
+                    "Left": "S error: midAlign rAjaH ISavarAjaH"
+                }
+            ],
+            "_meanings": [
+                "epithets of Garuḍa."
+            ]
+        }
     ]
 }

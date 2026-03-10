@@ -1,86 +1,41 @@
 {
-    "__line": 238994,
+    "__line": 262746,
     "_ancestry": [
         "L_ 28429",
-        "B_ {#SrOta#}"
+        "B_ {#vanus#}"
     ],
-    "_banner": "{#SrOta#}",
+    "_banner": "{#vanus#}",
     "_bannerExp": [
         {
-            "Right": "SrOtI"
-        },
-        {
-            "Right": "SrOta"
+            "Right": "vanus"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tI#}|{%<ab>f.</ab>%})",
-        "[{#SrutO vihitaM aR#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Relating to the ear. ",
-        "{@--2@} Relating\nto, founded on, or prescribed by, the\nVeda. ",
-        "{@--3@} Sacrificial. "
+        "<ab>Ved.</ab>\n",
+        ".²1 Eager, anxious for.\n",
+        ".²2 Devoted or attached to.\n",
+        ".²3 A worshipper, one who honours. "
     ],
     "_morphisms": [
         {
-            "__line": 238997,
+            "__line": 262749,
             "_ancestry": [
                 "L_ 28429",
-                "B_ {#SrOta#}",
-                "M_ {#--taM#}"
+                "B_ {#vanus#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "SrOtaM"
+                    "Left": "Parser error: {#vanus#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Any\nobservance prescribed by the Vedas.\n",
-                "{@--2@} Ritual enjoined by the Vedas. ",
-                "{@--3@}\nPreservation or maintenance of\nthe sacred fire. ",
-                "{@--4@} The three\nsacred fires collectively; ({%<ab>i. e.</ab>%}  \n{#gArhapatya, AhavanIya#} and {#dakziRa#}). "
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 239003,
-            "_ancestry": [
-                "L_ 28429",
-                "B_ {#SrOta#}",
-                "S_ \n{#--karman#}"
-            ],
-            "_banner": "\n{#--karman#}",
-            "_bannerExp": [
-                {
-                    "Right": "SrOtakarman"
-                }
-            ],
-            "_gram": [
-                "{%<ab>n.</ab>%}"
-            ],
-            "_meanings": [
-                "a Vedic rite. "
-            ]
-        },
-        {
-            "__line": 239004,
-            "_ancestry": [
-                "L_ 28429",
-                "B_ {#SrOta#}",
-                "S_ {#--sUtraM#}"
-            ],
-            "_banner": "{#--sUtraM#}",
-            "_bannerExp": [
-                {
-                    "Right": "SrOtasUtraM"
-                }
-            ],
-            "_meanings": [
-                "<ab>N.</ab> of\na class of Sūtra works based on the\nVeda (ascribed to {#ASvalAyana#}, \n{#sAMKyAyana, kAtyAyana#} &c.)."
+                ".²1 A plotter, an enemy ({#hiMsaka#}).\n",
+                ".²2 Possessing, enjoying, using."
             ]
         }
     ]

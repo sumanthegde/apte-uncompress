@@ -1,16 +1,78 @@
 {
-    "__line": 89558,
+    "__line": 89679,
     "_ancestry": [
         "L_ 10666",
-        "B_ {#kAtaMtraM#}"
+        "B_ {#eqa#}"
     ],
-    "_banner": "{#kAtaMtraM#}",
+    "_banner": "{#eqa#}",
     "_bannerExp": [
         {
-            "Right": "kAtaMtraM"
+            "Right": "eqa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a grammar (said to\nhave been written by Sarvavarman\nthrough the favour of Kārtikeya)."
+        "Deaf.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 89680,
+            "_ancestry": [
+                "L_ 10666",
+                "B_ {#eqa#}",
+                "M_ .{@{#-qaH#}@}"
+            ],
+            "_banner": ".{@{#-qaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "eqaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of sheep.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 89682,
+            "_ancestry": [
+                "L_ 10666",
+                "B_ {#eqa#}",
+                "S_ .{@{#-gajaH#}@}"
+            ],
+            "_banner": ".{@{#-gajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "eqagajaH"
+                }
+            ],
+            "_meanings": [
+                "the medicinal plant Cassia Tora or Alata ({#uraRa#}) used\n for curing ring-worms (<lang>Mar.</lang> <ns>{#wAkaLA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 89684,
+            "_ancestry": [
+                "L_ 10666",
+                "B_ {#eqa#}",
+                "S_ .{@{#-mUka#}@}"
+            ],
+            "_banner": ".{@{#-mUka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "eqamUka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 deaf and dumb; <ab>cf.</ab> {#aneqamUka#}.\n",
+                ".²2 wicked, perverse."
+            ]
+        }
     ]
 }

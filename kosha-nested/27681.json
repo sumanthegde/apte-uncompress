@@ -1,21 +1,75 @@
 {
-    "__line": 233110,
+    "__line": 255437,
     "_ancestry": [
         "L_ 27681",
-        "B_ {#SarDaH#}"
+        "B_ {#romaSa#}"
     ],
-    "_banner": "{#SarDaH#}",
+    "_banner": "{#romaSa#}",
     "_bannerExp": [
         {
-            "Right": "SarDaH"
+            "Right": "romaSa"
         }
     ],
     "_gram": [
-        "{#SfDa-GaY#}"
+        "{%a.%}",
+        "[{#romARi santyasya Sa#}]"
     ],
     "_meanings": [
-        "{@--1@} Breaking\nwind, flatulence (said to be {%<ab>n.</ab>%} also\nin this sense). ",
-        "{@--2@} A troop, \nmultitude. ",
-        "{@--3@} Strength, power."
+        ".²1 Hairy, shaggy, woolly.\n",
+        ".²2 Applied to a faulty pronunciation of vowels.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255440,
+            "_ancestry": [
+                "L_ 27681",
+                "B_ {#romaSa#}",
+                "M_ .{@{#-SaH#}@}"
+            ],
+            "_banner": ".{@{#-SaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sheep, ram.\n",
+                ".²2 A hog, boar.\n"
+            ]
+        },
+        {
+            "__line": 255443,
+            "_ancestry": [
+                "L_ 27681",
+                "B_ {#romaSa#}",
+                "M_ .{@{#-SI#}@}"
+            ],
+            "_banner": ".{@{#-SI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaSI"
+                }
+            ],
+            "_meanings": [
+                "A squirrel.\n"
+            ]
+        },
+        {
+            "__line": 255444,
+            "_ancestry": [
+                "L_ 27681",
+                "B_ {#romaSa#}",
+                "M_ .{@{#-Sam#}@}"
+            ],
+            "_banner": ".{@{#-Sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaSam"
+                }
+            ],
+            "_meanings": [
+                "The pudenda; {#na seSe yasya romaSam#} <ls>Rv. 10. 86. 17</ls>."
+            ]
+        }
     ]
 }

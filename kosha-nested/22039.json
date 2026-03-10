@@ -1,27 +1,41 @@
 {
-    "__line": 183252,
+    "__line": 198087,
     "_ancestry": [
         "L_ 22039",
-        "B_ {#Basad#}"
+        "B_ {#prakF#}"
     ],
-    "_banner": "{#Basad#}",
+    "_banner": "{#prakF#}",
     "_bannerExp": [
         {
-            "Right": "Basad"
+            "Right": "prakF"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "[<ls>Uṇ. 1. 127</ls>]"
+        "€6",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} The\nsun. ",
-        "{@--2@} Flesh. ",
-        "{@--3@} A kind of duck.\n",
-        "{@--4@} Time. ",
-        "{@--5@} A float ({#plava#}). ",
-        "{@--6@} The\nhinder parts (said to be {%<ab>f.</ab>%} and {%<ab>n.</ab>%}\nalso). ",
-        "{@--7@} Pudendum muliebre. ",
-        "{@--8@}\nA month."
+        "²1 To scatter, throw, pour out; {#prakIrRaH puzpARAM haricaraRayoraYjalirayam#} <ls>Ve. 1. 2</ls>.\n",
+        ".²2 To sow (as seed).\n",
+        ".²3 To issue forth, spring up; {#mahItale svargamiva prakIrRam#} <ls>Rām. 5. 7. 6</ls>\n (<ab>com.</ab> {#prakIrRaM pAtitam#}). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 198091,
+            "_ancestry": [
+                "L_ 22039",
+                "B_ {#prakF#}",
+                "M_ --{%<ab>pass.</ab>%}"
+            ],
+            "_banner": "--{%<ab>pass.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "prakF"
+                }
+            ],
+            "_meanings": [
+                "To disappear, vanish."
+            ]
+        }
     ]
 }

@@ -1,20 +1,114 @@
 {
-    "__line": 208999,
+    "__line": 220679,
     "_ancestry": [
         "L_ 24667",
-        "B_ {#luMcita#}"
+        "B_ {#bimbaH#}, {#-mbam#}"
     ],
-    "_banner": "{#luMcita#}",
+    "_banner": "{#bimbaH#}, {#-mbam#}",
     "_bannerExp": [
         {
-            "Right": "luMcita"
+            "Right": "bimbaH"
+        },
+        {
+            "Right": "bimbam"
         }
     ],
-    "_gram": [
-        "{%<ab>p. p.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Peeled. ",
-        "{@--2@} Plucked,\nplucked out, torn off."
+        ".²1 The disc of the sun or moon; {#vadanena nirjitaM tava nilIyate candrabimbamambuDare#}\n <ls>Subhāṣ.</ls>; so {#sUrya˚, ravi˚#} <ab>&c.</ab>\n",
+        ".²2 Any round or disc-like surface; as in {#nitambabimbaH#} <ab>&c.</ab>\n",
+        ".²3 An image, shadow, reflection; {#bimbAdivotTitO bimbO rAmadehAttaTAparO#}\n <ls>Rām. 1. 4. 11</ls>; {#praBavati SucirbimbagrAhe maRirna mfdAM cayaH#} <ls>U. 2. 4</ls>.\n",
+        ".²4 A mirror.\n",
+        ".²5 A jar.\n",
+        ".²6 An object compared (<ab>opp.</ab> {#pratibimba#} to which it is compared).\n",
+        ".²7 A statue, figure, idol; {#hemabimbaniBA sOmyA mAyeva mayanirmitA#}\n <ls>Rām. 6. 12. 14</ls>.\n",
+        ".²8 A mould, matrix; {#yaTA lohasya niHsyando nizikto bimbavigraham#} ({#upEti#}) <ls>Mb. 14. 18. 9</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 220691,
+            "_ancestry": [
+                "L_ 24667",
+                "B_ {#bimbaH#}, {#-mbam#}",
+                "M_ .{@{#-mbaH#}@}"
+            ],
+            "_banner": ".{@{#-mbaH#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "A lizard.\n"
+            ]
+        },
+        {
+            "__line": 220692,
+            "_ancestry": [
+                "L_ 24667",
+                "B_ {#bimbaH#}, {#-mbam#}",
+                "M_ .{@{#-mbam#}@}"
+            ],
+            "_banner": ".{@{#-mbam#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "The fruit of a tree (which, when ripe, is ruddy and to which\n the lips of young women are often compared); {#raktASokarucA viSozitaguRo#}\n {#bimbADarAlaktakaH#} <ls>M. 3. 5</ls>; {#pakvabimbADarozWI#} <ls>Me. 84</ls>; <ab>cf.</ab> <ls>N. 2. 24</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 220696,
+            "_ancestry": [
+                "L_ 24667",
+                "B_ {#bimbaH#}, {#-mbam#}",
+                "S_ .{@{#-ozWa#}@}"
+            ],
+            "_banner": ".{@{#-ozWa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bimbOzWa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#bimbo(mbO)zWa#})"
+            ],
+            "_meanings": [
+                "having lips as ruddy or cherry\n as the Bimba fruit; {#dAkziRyaM nAma bimbozWi bEmbikAnAM kulavratam#} <ls>M. 4. 14</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 220698,
+                    "_ancestry": [
+                        "L_ 24667",
+                        "B_ {#bimbaH#}, {#-mbam#}",
+                        "S_ .{@{#-ozWa#}@}",
+                        "S_M_ ({@{#-zWaH#}@}"
+                    ],
+                    "_banner": "({@{#-zWaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bimbOzWaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a lip like the Bimba fruit.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 220699,
+            "_ancestry": [
+                "L_ 24667",
+                "B_ {#bimbaH#}, {#-mbam#}",
+                "S_ .{@{#-Pala#}@}"
+            ],
+            "_banner": ".{@{#-Pala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bimbaPala"
+                }
+            ],
+            "_meanings": [
+                "the Bimba fruit; {#umAmuKe bimbaPalADarozWe#} <ls>Ku. 3. 67</ls>."
+            ]
+        }
     ]
 }

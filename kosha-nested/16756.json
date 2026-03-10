@@ -1,19 +1,37 @@
 {
-    "__line": 140520,
+    "__line": 145304,
     "_ancestry": [
         "L_ 16756",
-        "B_ {#ninftta#}"
+        "B_ {#temanam#}"
     ],
-    "_banner": "{#ninftta#}",
+    "_banner": "{#temanam#}",
     "_bannerExp": [
         {
-            "Right": "ninftta"
+            "Right": "temanam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Repeated(as a portion\nof a verse.)"
+        ".²1 Wetting, moistening.\n",
+        ".²2 Moisture.\n",
+        ".²3 A sauce, condiment.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145308,
+            "_ancestry": [
+                "L_ 16756",
+                "B_ {#temanam#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "temanI"
+                }
+            ],
+            "_meanings": [
+                "A fire-place."
+            ]
+        }
     ]
 }

@@ -1,41 +1,103 @@
 {
-    "__line": 65587,
+    "__line": 63473,
     "_ancestry": [
         "L_ 7589",
-        "B_ {#uccaw#}"
+        "B_ {#Ali#}"
     ],
-    "_banner": "{#uccaw#}",
+    "_banner": "{#Ali#}",
     "_bannerExp": [
         {
-            "Right": "uccaw"
+            "Right": "Ali"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To go away, \ndisappear. "
+        ".²1 Useless, idle, unmeaning.\n",
+        ".²2 Honest, sincere ({#viSadASaya#}).\n"
     ],
     "_morphisms": [
         {
-            "__line": 65588,
+            "__line": 63476,
             "_ancestry": [
                 "L_ 7589",
-                "B_ {#uccaw#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#Ali#}",
+                "M_ .{@{#-liH#}@}"
             ],
+            "_banner": ".{@{#-liH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "uccaw"
+                    "Right": "AliH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A scorpion.\n",
+                ".²2 A bee.\n"
+            ]
+        },
+        {
+            "__line": 63479,
+            "_ancestry": [
+                "L_ 7589",
+                "B_ {#Ali#}",
+                "M_ .{@{#-liH, -lI#}@}"
+            ],
+            "_banner": ".{@{#-liH, -lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AliH"
+                },
+                {
+                    "Right": "AlI"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%f.%}"
             ],
             "_meanings": [
-                "{@--1@} To scare or drive\naway, expel. ",
-                "{@--2@} To destroy, root\nout; <ls>Bh. 3. 129</ls>; <ls>N. 3. 7.</ls>"
+                ".²1 A female companion or friend (of a woman); {#nivAryatAmAli kimapyayaM#}\n {#bawuH#} <ls>Ku. 5. 83</ls>, <ls n=\"Ku.\">7. 68</ls>; <ls>Amaru. 28</ls>.\n",
+                ".²2 A row, range, continuous line; (<ab>cf.</ab> {#Avali#}); {#toyAntarBAskarAlIva#}\n {#reje muniparamparA#} <ls>Ku. 6. 49</ls>; {#raTyAli#} <ls>Amaru. 89</ls>; {#KadyotAli#} <ls>Me. 83</ls>.\n",
+                ".²3 A line, streak.\n",
+                ".²4 A bridge.\n",
+                ".²5 A dike.\n",
+                ".²6 A line, race, family.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 63489,
+            "_ancestry": [
+                "L_ 7589",
+                "B_ {#Ali#}",
+                "S_ .{@{#-kramaH#}@}"
+            ],
+            "_banner": ".{@{#-kramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AlikramaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of musical composition.\n"
+            ]
+        },
+        {
+            "__line": 63490,
+            "_ancestry": [
+                "L_ 7589",
+                "B_ {#Ali#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AlijanaH"
+                }
+            ],
+            "_meanings": [
+                "A ladyʼs female friends."
             ]
         }
     ]

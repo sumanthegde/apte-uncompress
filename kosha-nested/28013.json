@@ -1,22 +1,88 @@
 {
-    "__line": 235671,
+    "__line": 258578,
     "_ancestry": [
         "L_ 28013",
-        "B_ {#SizwiH#}"
+        "B_ {#lipta#}"
     ],
-    "_banner": "{#SizwiH#}",
+    "_banner": "{#lipta#}",
     "_bannerExp": [
         {
-            "Right": "SizwiH"
+            "Right": "lipta"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#SAs-ktin#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#lip-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Rule,\ngovernment. ",
-        "{@--2@} Order, command.\n",
-        "{@--3@} Chastisement, punishment."
+        ".²1 Anointed, smeared, besmeared, covered.\n",
+        ".²2 Stained, soiled, polluted, defiled.\n",
+        ".²3 Poisoned, envenomed (as an arrow).\n",
+        ".²4 Eaten.\n",
+        ".²5 United, joined.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 258584,
+            "_ancestry": [
+                "L_ 28013",
+                "B_ {#lipta#}",
+                "M_ .{@{#-ptam#}@}"
+            ],
+            "_banner": ".{@{#-ptam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "liptam"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "Phlegm; the phlegmatic humour of the body.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 258586,
+            "_ancestry": [
+                "L_ 28013",
+                "B_ {#lipta#}",
+                "S_ .{@{#-vAsita#}@}"
+            ],
+            "_banner": ".{@{#-vAsita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "liptavAsita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "anointed and perfumed.\n"
+            ]
+        },
+        {
+            "__line": 258587,
+            "_ancestry": [
+                "L_ 28013",
+                "B_ {#lipta#}",
+                "S_ .{@{#-hasta#}@}"
+            ],
+            "_banner": ".{@{#-hasta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "liptahasta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the hands smeared or stained."
+            ]
+        }
     ]
 }

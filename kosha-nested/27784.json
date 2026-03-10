@@ -1,20 +1,39 @@
 {
-    "__line": 233828,
+    "__line": 256580,
     "_ancestry": [
         "L_ 27784",
-        "B_ {#SAci#}"
+        "B_ {#lajjita#}"
     ],
-    "_banner": "{#SAci#}",
+    "_banner": "{#lajjita#}",
     "_bannerExp": [
         {
-            "Right": "SAci"
+            "Right": "lajjita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Distinguished, \nrenowned. ",
-        "{@--2@} Strong, powerful."
+        ".²1 Modest, bashful.\n",
+        ".²2 Ashamed, abashed\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 256583,
+            "_ancestry": [
+                "L_ 27784",
+                "B_ {#lajjita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lajjitam"
+                }
+            ],
+            "_meanings": [
+                "A bashful act; {#ityupAlaBata saMBujikriyAramBaviGnaGanalajjitErjitam#} <ls>N. 18. 64</ls>."
+            ]
+        }
     ]
 }

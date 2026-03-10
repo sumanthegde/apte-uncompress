@@ -1,42 +1,75 @@
 {
-    "__line": 257187,
+    "__line": 283204,
     "_ancestry": [
         "L_ 30691",
-        "B_ {#sOvarcala#}"
+        "B_ {#vf#}"
     ],
-    "_banner": "{#sOvarcala#}",
+    "_banner": "{#vf#}",
     "_bannerExp": [
         {
-            "Right": "sOvarcalI"
-        },
-        {
-            "Right": "sOvarcala"
+            "Right": "vf"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#lI#}|{%<ab>f.</ab>%})"
+        "I.",
+        "€1",
+        "€5",
+        "€9",
+        "<ab>U.</ab>",
+        "({#varati-te, vfRoti-vfRute, vfRAti-vfRIte, vfta#};\n {%<ab>pass.</ab>%} {#vriyate#})"
     ],
     "_meanings": [
-        "Coming\nfrom the country called {#suvarcala#} \n<ab>q. v.</ab> "
+        ".²1 To choose, select as a boon; {#vftaM tenedameva prAk#} <ls>Ku. 2. 56</ls>; {#vavAra#}\n {#rAmasya vanaprayARam#} <ls>Bk. 3. 6</ls>.\n",
+        ".²2 To choose for oneself (<ab>Ātm.</ab>); {#vfRate hi vimfSyakAriRaM guRalubDAH#}\n {#svayameva saMpadaH#} <ls>Ki. 2. 30</ls>; {#yadeva bavre tadapaSyadAhftam#} <ls>R. 3. 6</ls>.\n",
+        ".²3 To choose in marriage, woo, court; {#ayonijAM rAjasutAM varItum#} <ls>Mv. 3. 28</ls>;\n <ls>A. R. 3. 42</ls>.\n",
+        ".²4 To beg, solicit, ask for.\n",
+        ".²5 To cover, conceal, hide, screen, envelop; {#meGErvftaScandramAH#} <ls>Mk. 5. 14</ls>.\n",
+        ".²6 To surround, encompass; {#vftastvaM pAtresamitEH KawbA''rUQaH pramAdavAn#}\n <ls>Bk. 5. 10</ls>; <ls>U. 4. 18</ls>; <ls>R. 12. 61</ls>.\n",
+        ".²7 To ward off, keep away, restrain, check.\n",
+        ".²8 To hinder, oppose, obstruct.\n",
+        ".²9 To love, adore. "
     ],
     "_morphisms": [
         {
-            "__line": 257189,
+            "__line": 283218,
             "_ancestry": [
                 "L_ 30691",
-                "B_ {#sOvarcala#}",
-                "M_ {#--laM#}"
+                "B_ {#vf#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": "{#--laM#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "sOvarcalaM"
+                    "Right": "vf"
+                }
+            ],
+            "_gram": [
+                "({#vArayati-te#})"
+            ],
+            "_meanings": [
+                ".²1 To cover, conceal.\n",
+                ".²2 To avert from (with <ab>abl.</ab>).\n",
+                ".²3 To prevent, ward off, restrain, suppress, check, hinder; {#Sakyo vArayituM#}\n {#jalena hutaBuk#} <ls>Bh. 2. 11</ls>. "
+            ]
+        },
+        {
+            "__line": 283224,
+            "_ancestry": [
+                "L_ 30691",
+                "B_ {#vf#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vf"
                 }
             ],
             "_meanings": [
-                "{@--1@} Sochal salt. ",
-                "{@--2@} Natron."
+                "({#vuvUrzati-te, vivarizati-te#};\n {#vivarIzati-te#}) To wish to choose. --II. €10 <ab>U.</ab> ({#varayati-te#})\n",
+                ".²1 To choose, select; {#varaM varayate kanyA mAtA vittaM pitA Srutam#} <ls>Pt. 4. 68</ls>.\n",
+                ".²2 To choose in marriage.\n",
+                ".²3 To ask for, beg, solicit, (with two <ab>acc.</ab>); {#tAM tvAM saMvaraRasyArTe#}\n {#varayAmi viBAvaso#} <ls>Mb.</ls>; {#SElendraM varayAmAsurgaNgAM tripaTagAM nadIm#} <ls>Rām.</ls>"
             ]
         }
     ]

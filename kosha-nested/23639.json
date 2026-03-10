@@ -1,41 +1,43 @@
 {
-    "__line": 198863,
+    "__line": 211141,
     "_ancestry": [
         "L_ 23639",
-        "B_ {#yajata#}"
+        "B_ {#prasArita#}"
     ],
-    "_banner": "{#yajata#}",
+    "_banner": "{#prasArita#}",
     "_bannerExp": [
         {
-            "Right": "yajata"
+            "Right": "prasArita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Holy, divine. ",
-        "{@--2@} \nAdorable. ",
-        "{@--3@} Dignified, sublime. "
+        ".²1 Expanded, spread, diffused, extended.\n",
+        ".²2 Stretched out (as hands.).\n",
+        ".²3 Exhibited, laid\n\n out, exposed (for sale).\n",
+        ".²4 Published, promulgated.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 198864,
+            "__line": 211149,
             "_ancestry": [
                 "L_ 23639",
-                "B_ {#yajata#}",
-                "M_ {#--taH#}"
+                "B_ {#prasArita#}",
+                "S_ .{@{#-gAtra#}@}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": ".{@{#-gAtra#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yajataH"
+                    "Right": "prasAritagAtra"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} An officiating priest (at a \nsacrifice). ",
-                "{@--2@} An epithet of Śiva. ",
-                "{@--3@} The\nmoon."
+                "With out-stretched limbs."
             ]
         }
     ]

@@ -1,22 +1,49 @@
 {
-    "__line": 153077,
+    "__line": 161470,
     "_ancestry": [
         "L_ 18187",
-        "B_ {#parirakzaRaM, --parirakzA#}"
+        "B_ {#DvaMs#}"
     ],
-    "_banner": "{#parirakzaRaM, --parirakzA#}",
+    "_banner": "{#DvaMs#}",
     "_bannerExp": [
         {
-            "Right": "parirakzA"
-        },
-        {
-            "Right": "parirakzaRaM"
+            "Right": "DvaMs"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>Ā.</ab>",
+        "({#DvaMsate, Dvasta#})"
+    ],
     "_meanings": [
-        "{@--1@} Protection, \npreservation, guarding; <ls>Ms. 5. 94</ls>, <ls n=\"Ms. 5.\">7.</ls>\n{2} ",
-        "{@--2@} Keeping, maintaining, \nadhering to; {#na samayaparirakzaRaM kzamaM te#}  \n<ls>Ki. 1. 45.</ls> ",
-        "{@--3@} Deliverance, rescuing. ",
-        "{@--4@}\nCare, caution."
+        ".²1 To fall down, fall to pieces, be reduced\n to dust or powder; {#prARA daDvaMsire gAtraM tastamBe ca priye hate#}\n <ls>Bk. 14. 55</ls>, <ls n=\"Bk.\">15. 93</ls>;\n",
+        ".²2 To drop, sink, despond; {#prayAntIva prARAH sutanu hfdayaM DvaMsata#}\n {#iva#} <ls>Māl. 9. 45</ls>.\n",
+        ".²3 To perish, be ruined or decayed.\n",
+        ".²4 To be eclipsed {#DUmErDvastArkaBAsAM saGanamiva diSAM maRqalaM darSayantaH#} <ls>Mu. 3. 28</ls>.\n",
+        ".²5 To be covered with dust.\n",
+        ".²6 To scatter or sprinkle over.\n",
+        ".²7 To go. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 161480,
+            "_ancestry": [
+                "L_ 18187",
+                "B_ {#DvaMs#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "DvaMs"
+                }
+            ],
+            "_gram": [
+                "({#DvaMsayati#})"
+            ],
+            "_meanings": [
+                "To destroy, ruin, remove."
+            ]
+        }
     ]
 }

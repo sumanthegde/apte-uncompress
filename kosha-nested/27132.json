@@ -1,41 +1,176 @@
 {
-    "__line": 228396,
+    "__line": 249039,
     "_ancestry": [
         "L_ 27132",
-        "B_ {#vEvasvataH#}"
+        "B_ {#yogin#}"
     ],
-    "_banner": "{#vEvasvataH#}",
+    "_banner": "{#yogin#}",
     "_bannerExp": [
         {
-            "Right": "vEvasvataH"
+            "Right": "yogin"
         }
     ],
     "_gram": [
-        "[{#vivasvato'patyaM aR#}]"
+        "{%a.%}",
+        "[{#yuj-DinuR, yoga-ini vA#}]"
     ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of\nthe seventh Manu who is supposed\nto preside over the present age; see\nunder Manu; {#vEvasvato manurnAma mAnanIyo#}\n{#manIziRAM#} <ls>R. 1. 11</ls>; <ls>U. 6. 18.</ls> ",
-        "{@--2@} <ab>N.</ab> \n\nof Yama; <ls>R. 15. 45.</ls> ",
-        "{@--3@} <ab>N.</ab> of\nAgni. ",
-        "{@--4@} One of the eleven Rudras.\n",
-        "{@--5@} The planet Saturn. "
+        ".²1 Connected or endowed with.\n",
+        ".²2 Possessed of magical powers.\n",
+        ".²3 Endowed or provided with, possessing. ",
+        ".²4 Practising {%Yoga%}. "
     ],
     "_morphisms": [
         {
-            "__line": 228404,
+            "__line": 249042,
             "_ancestry": [
                 "L_ 27132",
-                "B_ {#vEvasvataH#}",
-                "M_ {#--taM#}"
+                "B_ {#yogin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "vEvasvataM"
+                    "Left": "Parser error: {#yogin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "The\npresent age or Manvantara, as \npresided over by Manu Vaivasvata or\nthe seventh Manu."
+                ".²1 A contemplative saint, a devotee, an ascetic; {#AtmOpamyena sarvatra#}\n {#samaM paSyati yo'rjuna . suKaM vA yadi vA duHKaM sa yogI paramo mataH .#}\n <ls>Bg. 6. 32</ls>; see the sixth adhyāya {%inter alia%}; {#sevADarmaH#}\n {#paramagahano yoginAmapyagamyaH#} <ls>Pt. 1. 285</ls>; {#baBUva yogI kila kArtavIryaH#} <ls>R. 6. 38</ls>.\n",
+                ".²2 A magician, sorcerer.\n",
+                ".²3 A follower of the {%Yoga%} system of philosophy.\n",
+                ".²4 <ab>N.</ab> of Yājñavalkya.\n",
+                ".²5 Of Arjuna.\n",
+                ".²6 Of Viṣṇu.\n",
+                ".²7 Of Śiva.\n",
+                ".²8 <ab>N.</ab> of a mixed caste.\n"
+            ]
+        },
+        {
+            "__line": 249054,
+            "_ancestry": [
+                "L_ 27132",
+                "B_ {#yogin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yoginI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A female magician, witch, sorceress, fairy.\n",
+                ".²2 A female devotee.\n",
+                ".²3 <ab>N.</ab> of a class of female attendants on Śiva or Durgā; {#balInadAt#}\n {#yoginIByo dikpAleByo'pyanekaDA#} <ls>Śiva B. 6. 51</ls>; (they are usually said to be eight).\n",
+                ".²4 <ab>N.</ab> of Durgā.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 249061,
+            "_ancestry": [
+                "L_ 27132",
+                "B_ {#yogin#}",
+                "S_ .{@{#-indraH, -ISaH#}@}"
+            ],
+            "_banner": ".{@{#-indraH, -ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yogIndraH"
+                },
+                {
+                    "Right": "yogISaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the chief of saints.\n",
+                ".²2 <ab>N.</ab> of Yājñavalkya.\n"
+            ]
+        },
+        {
+            "__line": 249064,
+            "_ancestry": [
+                "L_ 27132",
+                "B_ {#yogin#}",
+                "S_ .{@{#-ISvarI#}@}"
+            ],
+            "_banner": ".{@{#-ISvarI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yogISvarI"
+                }
+            ],
+            "_meanings": [
+                "the chief of magicians.\n"
+            ]
+        },
+        {
+            "__line": 249065,
+            "_ancestry": [
+                "L_ 27132",
+                "B_ {#yogin#}",
+                "S_ .{@{#-izwam#}@}"
+            ],
+            "_banner": ".{@{#-izwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yogIzwam"
+                }
+            ],
+            "_meanings": [
+                "lead.\n"
+            ]
+        },
+        {
+            "__line": 249066,
+            "_ancestry": [
+                "L_ 27132",
+                "B_ {#yogin#}",
+                "S_ .{@{#-daRqaH#}@}"
+            ],
+            "_banner": ".{@{#-daRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yogidaRqaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of reed.\n"
+            ]
+        },
+        {
+            "__line": 249067,
+            "_ancestry": [
+                "L_ 27132",
+                "B_ {#yogin#}",
+                "S_ .{@{#-nidrA#}@}"
+            ],
+            "_banner": ".{@{#-nidrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yoginidrA"
+                }
+            ],
+            "_meanings": [
+                "light-sleep, wakefulness.\n"
+            ]
+        },
+        {
+            "__line": 249068,
+            "_ancestry": [
+                "L_ 27132",
+                "B_ {#yogin#}",
+                "S_ .{@{#-mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yogimArgaH"
+                }
+            ],
+            "_meanings": [
+                "the air, atmosphere."
             ]
         }
     ]

@@ -1,60 +1,69 @@
 {
-    "__line": 111168,
+    "__line": 112788,
     "_ancestry": [
         "L_ 13236",
-        "B_ {#cAMdramasa#}"
+        "B_ {#kliSita#}, {#-klizwa#}"
     ],
-    "_banner": "{#cAMdramasa#}",
+    "_banner": "{#kliSita#}, {#-klizwa#}",
     "_bannerExp": [
         {
-            "Right": "cAMdramasI"
+            "Right": "kliSita"
         },
         {
-            "Right": "cAMdramasa"
+            "Right": "klizwa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#sI#}|{%<ab>f.</ab>%})",
-        "[{#caMdramasa idam#}\n{#aR#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Relating to the moon, lunar;\n{#labDodayA cAMdramasIva leKA#} <ls>Ku. 1. 25</ls>;\n{#caMdraM gatA padmaguRAnna BuMkte padmASritA#} \n{#cAMdramasImaBiKyAM#} <ls n=\"Ku.\">1. 43</ls>; <ls>R. 2. 39</ls>;  \n<ls>Bg. 8. 25.</ls> "
+        ".²1 Distressed, suffering pain or misery.\n",
+        ".²2 Afflicted, tormented.\n",
+        ".²3 Faded.\n",
+        ".²4 Inconsistent, contradictory; {%<ab>e. g.</ab>%} {#mAtA me vanDyA#}.\n",
+        ".²5 Elaborate, artificial (as a composition.).\n",
+        ".²6 Put to shame.\n",
+        ".²7 Wearied; hurt, injured.\n",
+        ".²8 Being in a bad condition, worn; {#pItenEkena saMvItAM klizwatottamavAsasA#}\n <ls>Rām. 5. 15. 21</ls>.\n",
+        ".²9 Marred, impaired; <ls>Ś. 5. 19</ls>; <ls>Pt. 1. 11</ls>; <ls>Ś. 6. 10</ls>; disordered, <ls>Ś. 7. 14</ls>.\n",
+        ".²10 Dimmed, made faint; {#himaklizwaprakASAni jyotIMzIva muKAni vaH#} <ls>Ku. 2. 19</ls>.\n",
+        ".²11 Injured, hurt; <ls>Ś. 6. 19</ls>.\n",
+        ".²12 Bothersome, tedious; {#yaTA SarIro bAlasya guptaH sanklizwakarmaRaH#}\n <ls>Rām. 7. 75. 4</ls>. (the commentator Rāma Tilaka gives {#klizwakarmaRaH#} =\n {#SuBAcArasya#}, which seems doubtful).\n"
     ],
     "_morphisms": [
         {
-            "__line": 111173,
+            "__line": 112804,
             "_ancestry": [
                 "L_ 13236",
-                "B_ {#cAMdramasa#}",
-                "M_ {#--sI#}"
+                "B_ {#kliSita#}, {#-klizwa#}",
+                "M_ .{@{#-zwam#}@}"
             ],
-            "_banner": "{#--sI#}",
-            "_bannerExp": [
-                {
-                    "Right": "cAMdramasI"
-                }
-            ],
+            "_banner": ".{@{#-zwam#}@}",
+            "_bannerExp": [],
             "_meanings": [
-                "<ab>N.</ab> of the wife of \nBṛhaspati. "
+                "A contradictory statement.\n"
             ]
-        },
+        }
+    ],
+    "_samasas": [
         {
-            "__line": 111174,
+            "__line": 112806,
             "_ancestry": [
                 "L_ 13236",
-                "B_ {#cAMdramasa#}",
-                "M_ {#--saM#}"
+                "B_ {#kliSita#}, {#-klizwa#}",
+                "S_ .{@{#-vartman#}@}"
             ],
-            "_banner": "{#--saM#}",
+            "_banner": ".{@{#-vartman#}@}",
             "_bannerExp": [
                 {
-                    "Right": "cAMdramasaM"
+                    "Right": "kliSitavartman"
                 }
             ],
+            "_gram": [
+                "{%n.%}"
+            ],
             "_meanings": [
-                "{@--1@} The constellation {#mfgaSiras#}.\n",
-                "{@--2@} The stars in Orion."
+                "a disease of the eyelids."
             ]
         }
     ]

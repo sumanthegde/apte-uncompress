@@ -1,24 +1,38 @@
 {
-    "__line": 60855,
+    "__line": 59432,
     "_ancestry": [
         "L_ 7061",
-        "B_ {#ASmika#}"
+        "B_ {#Apakva#}"
     ],
-    "_banner": "{#ASmika#}",
+    "_banner": "{#Apakva#}",
     "_bannerExp": [
         {
-            "Right": "ASmikI"
-        },
-        {
-            "Right": "ASmika"
+            "Right": "Apakva"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Made of\nstone. ",
-        "{@--2@} Carrying or bearing stones."
+        "Crude, raw, half-baked\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 59433,
+            "_ancestry": [
+                "L_ 7061",
+                "B_ {#Apakva#}",
+                "M_ .{@{#-kvam#}@}"
+            ],
+            "_banner": ".{@{#-kvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Apakvam"
+                }
+            ],
+            "_meanings": [
+                "A cake, bread."
+            ]
+        }
     ]
 }

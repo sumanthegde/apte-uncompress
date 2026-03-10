@@ -1,18 +1,105 @@
 {
-    "__line": 236298,
+    "__line": 259158,
     "_ancestry": [
         "L_ 28089",
-        "B_ {#SuMqikA#}"
+        "B_ {#lUna#}"
     ],
-    "_banner": "{#SuMqikA#}",
+    "_banner": "{#lUna#}",
     "_bannerExp": [
         {
-            "Right": "SuMqikA"
+            "Right": "lUna"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#lU-kta#}]"
+    ],
     "_meanings": [
-        "See {#SuMqA#}. ",
-        "{@--1@} The uvula or\nsoft palate. ",
-        "{@--2@} A swelling of a gland\n(also {#SuMqI#} in this sense)."
+        ".²1 Cut, lopped, severed, cut off.\n",
+        ".²2 Plucked, gathered (flowers <ab>&c.</ab>).\n",
+        ".²3 Destroyed.\n",
+        ".²4 Bitten, nibbled at.\n",
+        ".²5 Wounded.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 259164,
+            "_ancestry": [
+                "L_ 28089",
+                "B_ {#lUna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lUnam"
+                }
+            ],
+            "_meanings": [
+                "A tail.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 259166,
+            "_ancestry": [
+                "L_ 28089",
+                "B_ {#lUna#}",
+                "S_ .{@{#-duzkfta#}@}"
+            ],
+            "_banner": ".{@{#-duzkfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lUnaduzkfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has destroyed his sins.\n"
+            ]
+        },
+        {
+            "__line": 259167,
+            "_ancestry": [
+                "L_ 28089",
+                "B_ {#lUna#}",
+                "S_ .{@{#-yavam#}@}"
+            ],
+            "_banner": ".{@{#-yavam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lUnayavam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "after barley-harvest.\n"
+            ]
+        },
+        {
+            "__line": 259168,
+            "_ancestry": [
+                "L_ 28089",
+                "B_ {#lUna#}",
+                "S_ .{@{#-viza#}@}"
+            ],
+            "_banner": ".{@{#-viza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lUnaviza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having poison in the tail."
+            ]
+        }
     ]
 }

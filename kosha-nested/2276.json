@@ -1,22 +1,89 @@
 {
-    "__line": 23598,
+    "__line": 19304,
     "_ancestry": [
         "L_ 2276",
-        "B_ {#apakram#}"
+        "B_ {#anUpa#}"
     ],
-    "_banner": "{#apakram#}",
+    "_banner": "{#anUpa#}",
     "_bannerExp": [
         {
-            "Right": "apakram"
+            "Right": "anUpa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#anu-ap UdanordeSe#} <ls>P. VI. 3. 98</ls>, {#anugatAH ApaH#}\n {#yAsmin#}]"
     ],
     "_meanings": [
-        "{@--1@} To go away, run\naway, fly, escape, flee away, leave,\nretreat, retire (from); {#nagarAdapakrAMtaH#}\n<ls>Mu. 1</ls>; {#rAkzaso'pakrAmannupekzitaH#} {3} while\nescaping. ",
-        "{@--2@} To glide away,\npass away, (as time). ",
-        "{@--3@} To \nmeasure off by steps or by pacing."
+        "Situated near water, watery, rich or abounding in water, wet,\n marshy. {#jalaprAyamanUpaM syAtpuMsi kacCastaTAviDaH#}\n\n <ls>Ak.</ls>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 19309,
+            "_ancestry": [
+                "L_ 2276",
+                "B_ {#anUpa#}",
+                "M_ .{@{#-paH, -pam#}@}"
+            ],
+            "_banner": ".{@{#-paH, -pam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anUpaH"
+                },
+                {
+                    "Right": "anUpam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A watery place or country; {#syandanASvEH same yuDyedanUpe nOdvipEstaTA#}\n <ls>Ms. 7. 192</ls>; <ls>Y. 3. 42</ls>; {#SOrerUpAnUpamapAharanmanaH#} <ls>Śi. 12. 44</ls>. {#nAnAdrumalatAvIrunnirJaraprAMtaSItalEH .#}\n {#vanErvyAptamanUpaM tatsasyErvrIhiyavAdiBiH#}\n",
+                ".²2 <ab>N.</ab> of a particular country\n.({@{#-pAH#}@} <ab>pl.</ab>); {#tAmagrataH anUparAjasya viDAya#} <ls>R. 6. 37</ls>.\n",
+                ".²3 A marsh, bog.\n",
+                ".²4 A pond or tank of water.\n",
+                ".²5 Bank or side (of a river, mountain); {#sAgarAtparvatAnUpAt#} <ls>Rām.</ls>;\n {#nadIM goyutAnUpAm atarat#} {%<ab>ibid.</ab>%}\n",
+                ".²6 A buffalo.\n",
+                ".²7 A frog.\n",
+                ".²8 A kind of partridge.\n",
+                ".²9 An elephant.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 19324,
+            "_ancestry": [
+                "L_ 2276",
+                "B_ {#anUpa#}",
+                "S_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anUpajam"
+                }
+            ],
+            "_meanings": [
+                "moist ginger.\n"
+            ]
+        },
+        {
+            "__line": 19325,
+            "_ancestry": [
+                "L_ 2276",
+                "B_ {#anUpa#}",
+                "S_ .{@{#-prAya#}@}"
+            ],
+            "_banner": ".{@{#-prAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anUpaprAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "marshy, boggy."
+            ]
+        }
     ]
 }

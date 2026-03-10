@@ -1,18 +1,66 @@
 {
-    "__line": 73536,
+    "__line": 72050,
     "_ancestry": [
         "L_ 8598",
-        "B_ {#upadeSatA#}"
+        "B_ {#utkarza#}"
     ],
-    "_banner": "{#upadeSatA#}",
+    "_banner": "{#utkarza#}",
     "_bannerExp": [
         {
-            "Right": "upadeSatA"
+            "Right": "utkarza"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} The state of being a\nprecept or rule. ",
-        "{@--2@} Instruction,\nteaching. ",
-        "{@--3@} Doctrine."
+        ".²1 Superior, eminent.\n",
+        ".²2 Much, abundant\n",
+        ".²3 Exaggerated, boastful.\n",
+        ".²4 Attractive.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 72055,
+            "_ancestry": [
+                "L_ 8598",
+                "B_ {#utkarza#}",
+                "M_ .{@{#-rzaH#}@}"
+            ],
+            "_banner": ".{@{#-rzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "utkarzaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Pulling off or upwards, drawing or pulling up; {#caraRotkarzErdArayanniva#}\n {#medinIm#} <ls>Rām. 3. 56. 29</ls>.\n",
+                ".²2 Elevation, eminence,\n\n rise, prosperity; {#ninIzuH kulamutkarzam#} <ls>Ms. 4. 244</ls>, <ls n=\"Ms.\">9. 24</ls>.\n",
+                ".²3 Increase, abundance, excess; {#paYcAnAmapi BUtAnAmutkarzaM pupuzurguRAH#} <ls>R. 4. 11</ls>.\n",
+                ".²4 Excellence, highest merit, glory; {#utkarzaH sa ca DanvinAM yadizavaH#}\n {#siDyanti lakzye cale#} <ls>Ś. 2. 5</ls>.\n",
+                ".²5 Self-conceit, boasting.\n",
+                ".²6 Joy, pleasure.\n",
+                ".²7 Postponement (of some detail or details at a {#vikftiyAga#}) {%<ab>i. e.</ab>%}\n performing them at a later stage; {#tadAdi utkarze tadantamapakarze syAt#}\n <ls>ŚB. on MS. 5. 1. 24</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 72070,
+            "_ancestry": [
+                "L_ 8598",
+                "B_ {#utkarza#}",
+                "S_ .{@{#-samaH#}@}"
+            ],
+            "_banner": ".{@{#-samaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "utkarzasamaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of fallacy attributing similar qualities to two\n objects because they have one quality in common; {%<ab>e. g.</ab>%} affirming that\n a sound has a shape like a jar because both are perishable."
+            ]
+        }
     ]
 }

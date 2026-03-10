@@ -1,43 +1,5220 @@
 {
-    "__line": 141295,
+    "__line": 146065,
     "_ancestry": [
         "L_ 16848",
-        "B_ {#niyukta#}"
+        "B_ {#tri#}"
     ],
-    "_banner": "{#niyukta#}",
+    "_banner": "{#tri#}",
     "_bannerExp": [
         {
-            "Right": "niyukta"
+            "Right": "tri"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%<ab>num. a.</ab>%}",
+        "[<ls>Uṇ. 5. 66</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Directed, ordered,\ninstructed, commanded. ",
-        "{@--2@} \nAuthorised, appointed. ",
-        "{@--3@} Permitted to\nraise issue; see {#niyoga#} (7) below ",
-        "{@--4@} \nAttached to. ",
-        "{@--5@} Fastened to. ",
-        "{@--6@} \nAscertained. ",
-        "{@--7@} Prompted, incited. "
+        "(declined in <ab>pl.</ab> only, <ab>nom.</ab> {#trayaH#}\n {%m.%}, {#tistraH#} {%f.%}, {#trIRi#} {%n.%}) Three; {#ta eva hi trayo#}\n {#lokAsta eva traya ASramAH#} <ab>&c.</ab> <ls>Ms. 2. 229</ls>; {#priyatamABirasO tisfBirbaBO#}\n <ls>R. 9. 18</ls>; {#trIRi varzARyudIkzeta kumAryftumatI satI#} <ls>Ms. 9. 90</ls> [<ab>cf.</ab>\n <lang>L.</lang> {%tres%}; <lang>Gr.</lang> {%treis%}; <lang>A. S.</lang>, <lang>Zend.</lang> {%thri%}; <lang>Eng.</lang> {%three%}].\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 141300,
+            "__line": 146071,
             "_ancestry": [
                 "L_ 16848",
-                "B_ {#niyukta#}",
-                "M_ {#--ktaH#}"
+                "B_ {#tri#}",
+                "S_ .{@{#-aMSaH#}@}"
             ],
-            "_banner": "{#--ktaH#}",
+            "_banner": ".{@{#-aMSaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "niyuktaH"
+                    "Right": "tryaMSaH"
                 }
             ],
             "_meanings": [
-                "A functionary, an officer, any one\ncharged with some business."
+                ".²1 a three-fold share; {#tryaMSaM dAyAdDaredvipraH#} <ls>Ms. 9. 151</ls>.\n",
+                ".²2 a third part.\n",
+                ".²3 three-fourths.\n"
+            ]
+        },
+        {
+            "__line": 146075,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-akza#}@}"
+            ],
+            "_banner": ".{@{#-akza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryakza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "triocular.\n"
+            ]
+        },
+        {
+            "__line": 146076,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-akzaH, -akzakaH#}@}"
+            ],
+            "_banner": ".{@{#-akzaH, -akzakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryakzaH"
+                },
+                {
+                    "Right": "tryakzakaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva; {#SuzkasrAyusvarAhlAdAttryakzaM#}\n {#jagrAha rAvaRaH#} <ls>Pt. 5. 57</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146078,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-akzaraH#}@}"
+            ],
+            "_banner": ".{@{#-akzaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryakzaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the mystic syllable {#om#} consisting of three letters; see under {#a#}.\n {#AdyaM yattryakzaraM brahma#} <ls>Ms. 11. 265</ls>.\n",
+                ".²2 a match-maker or {#Gawaka#} (that word consisting of three syllables).\n",
+                ".²3 a genealogist.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146083,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-akzaraH#}@}",
+                        "S_M_ ({@{#-rI#}@}"
+                    ],
+                    "_banner": "({@{#-rI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: tryakzaraH ({@{#-rI#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "knowledge, learning; see {#vidyA#}.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146084,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aNkawam, -aNgawam#}@}"
+            ],
+            "_banner": ".{@{#-aNkawam, -aNgawam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaNkawam"
+                },
+                {
+                    "Right": "tryaNgawam"
+                }
+            ],
+            "_meanings": [
+                ".²1 three strings suspended to either end of a pole for carrying burdens.\n",
+                ".²2 a sort of collyrium.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146087,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-aNkawam, -aNgawam#}@}",
+                        "S_M_ ({@{#-waH#}@}"
+                    ],
+                    "_banner": "({@{#-waH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tryaNkawaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Śiva.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146088,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aNgam#}@}"
+            ],
+            "_banner": ".{@{#-aNgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaNgam"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) a tripartite army (chariots, cavalry and infantry).\n"
+            ]
+        },
+        {
+            "__line": 146089,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aNgulam#}@}"
+            ],
+            "_banner": ".{@{#-aNgulam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaNgulam"
+                }
+            ],
+            "_meanings": [
+                "three fingersʼ breadth.\n"
+            ]
+        },
+        {
+            "__line": 146090,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aYjanam#}@}"
+            ],
+            "_banner": ".{@{#-aYjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaYjanam"
+                }
+            ],
+            "_meanings": [
+                "the three kinds of collyrium; {%<ab>i. e.</ab>%} {#kAlAYjana#},\n {#rasAYjana#} and {#puzpAYjana#}.\n"
+            ]
+        },
+        {
+            "__line": 146092,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aYjalam, -liH#}@}"
+            ],
+            "_banner": ".{@{#-aYjalam, -liH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaYjalam"
+                },
+                {
+                    "Right": "tryaYjaliH"
+                }
+            ],
+            "_meanings": [
+                "three handfuls taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 146093,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aDipatiH#}@}"
+            ],
+            "_banner": ".{@{#-aDipatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaDipatiH"
+                }
+            ],
+            "_meanings": [
+                "(the lord of the 3 guṇas or worlds), an epithet of\n Viṣṇu; <ls>Bhāg. 3. 16. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146095,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aDizWAnaH#}@}"
+            ],
+            "_banner": ".{@{#-aDizWAnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaDizWAnaH"
+                }
+            ],
+            "_meanings": [
+                "the soul. ({@{#nam#}@}) spirit, life ({#cEtanya#}).\n--{%a.%} having three stations; <ls>Ms. 12. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146097,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aDvagA, -mArgagA, -vartmagA#}@}"
+            ],
+            "_banner": ".{@{#-aDvagA, -mArgagA, -vartmagA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaDvagA"
+                },
+                {
+                    "Right": "trimArgagA"
+                },
+                {
+                    "Right": "trivartmagA"
+                }
+            ],
+            "_meanings": [
+                "epithets of the river Ganges (flowing\n through the three worlds).\n"
+            ]
+        },
+        {
+            "__line": 146099,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-anIka#}@}"
+            ],
+            "_banner": ".{@{#-anIka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryanIka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the three properties of heat, rain and cold;\n {#tryanIkaH patyate mAhinAvAn#} <ls>Rv. 3. 56. 3</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146101,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-anIka#}@}",
+                        "S_M_ ({@{#-kA#}@}"
+                    ],
+                    "_banner": "({@{#-kA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tryanIkA"
+                        }
+                    ],
+                    "_meanings": [
+                        "an army consisting of horses, elephants and chariots.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146102,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-abda#}@}"
+            ],
+            "_banner": ".{@{#-abda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryabda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "three years old.\n"
+            ]
+        },
+        {
+            "__line": 146103,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-bdam#}@}"
+            ],
+            "_banner": ".{@{#-bdam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tribdam"
+                }
+            ],
+            "_meanings": [
+                "three years taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 146104,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-ambakaH#}@}"
+            ],
+            "_banner": ".{@{#-ambakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryambakaH"
+                }
+            ],
+            "_meanings": [
+                "(also {#triyambaka#} in the same sense though rarely\n used in classical literature) ‘having three eyes’, <ab>N.</ab> of Śiva; {#triyambakaM#}\n {#saMyaminaM dadarSa#} <ls>Ku. 3. 44</ls>; {#jaqIkftastryambakavIkzaRena#} <ls>R. 2. 42</ls>, <ls n=\"R.\">3. 49</ls>.\n "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146107,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-ambakaH#}@}",
+                        "S_S_ {#˚saKaH#}"
+                    ],
+                    "_banner": "{#˚saKaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tryambakasaKaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Kubera; {#kuberastryambakasaKaH#} <ls>Ak.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146108,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-ambakA#}@}"
+            ],
+            "_banner": ".{@{#-ambakA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryambakA"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Pārvatī.\n"
+            ]
+        },
+        {
+            "__line": 146109,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aSIta#}@}"
+            ],
+            "_banner": ".{@{#-aSIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaSIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eighty-third.\n"
+            ]
+        },
+        {
+            "__line": 146110,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aSItiH#}@}"
+            ],
+            "_banner": ".{@{#-aSItiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaSItiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "eighty-three.\n"
+            ]
+        },
+        {
+            "__line": 146111,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-azwan#}@}"
+            ],
+            "_banner": ".{@{#-azwan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryazwan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "twenty-four.\n"
+            ]
+        },
+        {
+            "__line": 146112,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-aSra, -asra#}@}"
+            ],
+            "_banner": ".{@{#-aSra, -asra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryaSra"
+                },
+                {
+                    "Right": "tryasra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "triangular.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146113,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-aSra, -asra#}@}",
+                        "S_M_ ({@{#-sram#}@}"
+                    ],
+                    "_banner": "({@{#-sram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: tryaSra ({@{#-sraM#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "a triangle.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146114,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-ahaH#}@}"
+            ],
+            "_banner": ".{@{#-ahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryahaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a period of three days.\n",
+                ".²2 a festival lasting three days.\n"
+            ]
+        },
+        {
+            "__line": 146117,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-ArzeyAH#}@}"
+            ],
+            "_banner": ".{@{#-ArzeyAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryArzeyAH"
+                }
+            ],
+            "_meanings": [
+                "deaf, dumb and blind persons.\n"
+            ]
+        },
+        {
+            "__line": 146118,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Ahika#}@}"
+            ],
+            "_banner": ".{@{#-Ahika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryAhika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 performed or produced in three days.\n",
+                ".²2 recurring after the third day, tertian (as fever).\n",
+                ".²3 having provision for three days {#kuSUlakumBIDAnyo vA tryAhiko'Svastano'pi#}\n {#vA#} <ls>Y. 1. 128</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146123,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-fcam#}@}"
+            ],
+            "_banner": ".{@{#-fcam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryfcam"
+                }
+            ],
+            "_meanings": [
+                "({@{#tfcam#}@} also) three {%Riks%} taken collectively; <ls>Ms. 8. 106</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146124,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Ehika#}@}"
+            ],
+            "_banner": ".{@{#-Ehika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tryEhika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having provision for three days.\n"
+            ]
+        },
+        {
+            "__line": 146125,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kakud#}@}"
+            ],
+            "_banner": ".{@{#-kakud#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikakud"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of the mountain Trikūṭa.\n",
+                ".²2 <ab>N.</ab> of Viṣṇu or Kṛṣṇa.\n",
+                ".²3 the highest, chief.\n",
+                ".²4 a sacrifice lasting for ten nights.\n"
+            ]
+        },
+        {
+            "__line": 146130,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kakuB#}@}"
+            ],
+            "_banner": ".{@{#-kakuB#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikakuB"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 Indra.\n",
+                ".²2 Indraʼs thunderbolt.\n"
+            ]
+        },
+        {
+            "__line": 146133,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kawu#}@}"
+            ],
+            "_banner": ".{@{#-kawu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikawu"
+                }
+            ],
+            "_meanings": [
+                "dry ginger, black pepper and long pepper taken together\n as a drug; {#SirAmokzaM viDAyAsya dadyAt trikawukaM guqam#} <ls>Śālihotra 62</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146135,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kaRwaH, -kaRwakaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRwaH, -kaRwakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikaRwaH"
+                },
+                {
+                    "Right": "trikaRwakaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of fish.\n"
+            ]
+        },
+        {
+            "__line": 146136,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-karaRI#}@}"
+            ],
+            "_banner": ".{@{#-karaRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikaraRI"
+                }
+            ],
+            "_meanings": [
+                "the side of a square 3 times as great as another.\n"
+            ]
+        },
+        {
+            "__line": 146137,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the chief three duties of a Brāhmaṇa {%<ab>i. e.</ab>%}\n sacrifice, study of the Vedas, and making gifts or charity. --({%m.%})\n one who engages in these three duties (as a Brāhmaṇa).\n\n"
+            ]
+        },
+        {
+            "__line": 146141,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kARqam#}@}"
+            ],
+            "_banner": ".{@{#-kARqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikARqam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Amarsiṃhaʼs dictionary.\n"
+            ]
+        },
+        {
+            "__line": 146142,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kAyaH#}@}"
+            ],
+            "_banner": ".{@{#-kAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikAyaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Buddha.\n"
+            ]
+        },
+        {
+            "__line": 146143,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kAlam#}@}"
+            ],
+            "_banner": ".{@{#-kAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikAlam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the three times; the past, the present, and the future; or morning,\n noon and evening.\n",
+                ".²2 the three tenses (the past, present, and future) of a verb.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146147,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-kAlam#}@}",
+                        "S_M_ ({@{#-lam#}@}"
+                    ],
+                    "_banner": "({@{#-lam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "trikAlam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} three times, thrice; "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 146147,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-kAlam#}@}",
+                                "S_M_ ({@{#-lam#}@}",
+                                "S_M_S_ {#˚jYa, ˚darSin#}"
+                            ],
+                            "_banner": "{#˚jYa, ˚darSin#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "trikAlajYa"
+                                },
+                                {
+                                    "Right": "trikAladarSin"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%a.%} omniscient. ({%m.%})\n",
+                                ".²1 a divine sage, seer.\n",
+                                ".²2 a deity.\n",
+                                ".²3 <ab>N.</ab> of Buddha. "
+                            ]
+                        },
+                        {
+                            "__line": 146150,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-kAlam#}@}",
+                                "S_M_ ({@{#-lam#}@}",
+                                "S_M_S_ {#˚vid#}"
+                            ],
+                            "_banner": "{#˚vid#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "trikAlavid"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%m.%}\n",
+                                ".²1 a Buddha.\n",
+                                ".²2 an Arhat (with the Jainas).\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146153,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kUwaH#}@}"
+            ],
+            "_banner": ".{@{#-kUwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikUwaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a mountain in Ceylon on the top of which was situated\n Laṅkā, the capital of Rāvaṇa; <ls>Śi. 2. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146155,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kUwam#}@}"
+            ],
+            "_banner": ".{@{#-kUwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikUwam"
+                }
+            ],
+            "_meanings": [
+                "sea-salt. {@{#kUrcakam#}@} a knife with three edges.\n"
+            ]
+        },
+        {
+            "__line": 146156,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-koRa#}@}"
+            ],
+            "_banner": ".{@{#-koRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikoRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "triangular, forming a triangle.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146157,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-koRa#}@}",
+                        "S_M_ ({@{#-RaH#}@}"
+                    ],
+                    "_banner": "({@{#-RaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "trikoRaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a triangle.\n",
+                        ".²2 the vulva.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146160,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Kam#}@}"
+            ],
+            "_banner": ".{@{#-Kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triKam"
+                }
+            ],
+            "_meanings": [
+                ".²1 tin.\n",
+                ".²2 a cucumber.\n"
+            ]
+        },
+        {
+            "__line": 146163,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Kawvam, KawvI#}@}"
+            ],
+            "_banner": ".{@{#-Kawvam, KawvI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triKawvam"
+                },
+                {
+                    "Right": "triKawvI"
+                }
+            ],
+            "_meanings": [
+                "three bed-steads taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 146164,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-kzArARi#}@}"
+            ],
+            "_banner": ".{@{#-kzArARi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikzArARi"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) salt-petre, natron and borax.\n"
+            ]
+        },
+        {
+            "__line": 146165,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-gaRaH#}@}"
+            ],
+            "_banner": ".{@{#-gaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trigaRaH"
+                }
+            ],
+            "_meanings": [
+                "an aggregate of the three objects of worldly existence;\n {%<ab>i. e.</ab>%} {#Darma, arTa#} and {#kA#}; {#na bADate'sya trigaRaH parasparam#}\n <ls>Ki. 1. 11</ls>; see {#trivarga#} below.\n"
+            ]
+        },
+        {
+            "__line": 146168,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trigata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 tripled.\n",
+                ".²2 done in three days.\n"
+            ]
+        },
+        {
+            "__line": 146171,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-gartAH#}@}"
+            ],
+            "_banner": ".{@{#-gartAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trigartAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>)\n",
+                ".²1 <ab>N.</ab> of a country, also called {#jalanDara#}, in the north-west of India.\n",
+                ".²2 the people or rulers of that country.\n",
+                ".²3 a particular mode of calculation.\n"
+            ]
+        },
+        {
+            "__line": 146175,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-gartA#}@}"
+            ],
+            "_banner": ".{@{#-gartA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trigartA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a lascivious woman, wanton.\n",
+                ".²2 a woman in general.\n",
+                ".²3 a pearl.\n",
+                ".²4 a kind of cricket.\n"
+            ]
+        },
+        {
+            "__line": 146180,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-guRa#}@}"
+            ],
+            "_banner": ".{@{#-guRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triguRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 consisting of three threads; {#vratAya mOYjIM triguRAM vaBAra yAm#} <ls>Ku. 5. 10</ls>.\n",
+                ".²2 three-times repeated, thrice, treble, threefold, triple; {#sapta vyatIyustriguRAni#}\n {#tasya#} ({#dinAni#}) <ls>R. 2. 25</ls>.\n",
+                ".²3 containing the three Guṇas {#sattva, rajas#} and {#tamas#}.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146185,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-guRa#}@}",
+                        "S_M_ ({@{#-Ram#}@}"
+                    ],
+                    "_banner": "({@{#-Ram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triguRam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the Pradhāna (in <ab>Sāṅ. phil.</ab>); --({%ind.%}) three times; in three ways.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146186,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-RAH#}@}"
+            ],
+            "_banner": ".{@{#-RAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triRAH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) the three qualities or constituents of nature;\n {#trayImayAya triguRAtmane namaH#} <ls>K. 1</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146188,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-RAH#}@}",
+                        "S_M_ ({@{#-RA#}@}"
+                    ],
+                    "_banner": "({@{#-RA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triRA"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 Māyā or illusion (in Vedānta <ab>phil.</ab>).\n",
+                        ".²2 an epithet of Durgā.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146191,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-guRAkftam#}@}"
+            ],
+            "_banner": ".{@{#-guRAkftam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triguRAkftam"
+                }
+            ],
+            "_meanings": [
+                "ploughed thrice.\n"
+            ]
+        },
+        {
+            "__line": 146192,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-cakzus#}@}"
+            ],
+            "_banner": ".{@{#-cakzus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tricakzus"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 146193,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-catura#}@}"
+            ],
+            "_banner": ".{@{#-catura#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tricatura"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) three or four; {#gatvA javAttricaturARi padAni#}\n {#sItA#} <ls>B. R. 6. 34</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146195,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-catvAriMSa#}@}"
+            ],
+            "_banner": ".{@{#-catvAriMSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tricatvAriMSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "forty-third.\n"
+            ]
+        },
+        {
+            "__line": 146196,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-catvAriMSat#}@}"
+            ],
+            "_banner": ".{@{#-catvAriMSat#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tricatvAriMSat"
+                }
+            ],
+            "_meanings": [
+                "{%f%}, forty-three.\n"
+            ]
+        },
+        {
+            "__line": 146197,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-jagat#}@}"
+            ],
+            "_banner": ".{@{#-jagat#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trijagat"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                ".{@{#-jagatI#}@}"
+            ],
+            "_meanings": [
+                "the three worlds, (1) the heaven, the atmosphere and the\n earth; or (2) the heaven, the earth, and the lower world; {#tvatkIrtiH … … trijagati#}\n {#viharatyevamuvIMSa gurvI#} <ls>Sūkti. 5. 59</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146201,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-jawaH#}@}"
+            ],
+            "_banner": ".{@{#-jawaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trijawaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 146202,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-jawA#}@}"
+            ],
+            "_banner": ".{@{#-jawA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trijawA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a female demon, one of the Rākṣasa attendants kept\n by Rāvaṇa to watch over Sītā, when she was retained as a captive in\n the Aśoka-vanikā. She acted very kindly towards Sītā and induced her\n companions to do the same; {#sItAM mAyeti SaMsantI trijawA samajIvayat#} <ls>R. 12. 74</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146206,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-jAtam, jAtakam#}@}"
+            ],
+            "_banner": ".{@{#-jAtam, jAtakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trijAtam"
+                },
+                {
+                    "Right": "trijAtakam"
+                }
+            ],
+            "_meanings": [
+                "The three spices (mace, cardamoms, cinnamon).\n"
+            ]
+        },
+        {
+            "__line": 146207,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-jIvA, -jyA#}@}"
+            ],
+            "_banner": ".{@{#-jIvA, -jyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trijIvA"
+                },
+                {
+                    "Left": "S error: 1 syl jIvA jyA"
+                }
+            ],
+            "_meanings": [
+                "the sine of three signs or 90°, a radius.\n"
+            ]
+        },
+        {
+            "__line": 146208,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-RatA#}@}"
+            ],
+            "_banner": ".{@{#-RatA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triRatA"
+                }
+            ],
+            "_meanings": [
+                "a bow; {#kAmukAniva nAlIkAMstriRatAH sahasAmucan#} <ls>Śi. 19. 61</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146209,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Rava, -Ravan#}@}"
+            ],
+            "_banner": ".{@{#-Rava, -Ravan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triRava"
+                },
+                {
+                    "Right": "triRavan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) three times nine; {%<ab>i. e.</ab>%} 27.\n"
+            ]
+        },
+        {
+            "__line": 146210,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-RAkaH#}@}"
+            ],
+            "_banner": ".{@{#-RAkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triRAkaH"
+                }
+            ],
+            "_meanings": [
+                "the heaven; {#tAvattriRAkaM nahuzaH SaSAsa#} <ls>Bhāg. 6. 13. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146211,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-RAciketaH#}@}"
+            ],
+            "_banner": ".{@{#-RAciketaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triRAciketaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a part of the Adhvaryu-sacrifice or Yajurveda, or one who performs\n a vow connected therewith (according to <ls>Kull.</ls> on <ls>Ms. 3. 185</ls>); <ls>Mb. 13. 90. 26</ls>.\n",
+                ".²2 one who has thrice kindled the Nāchiketa fire or studied the Nāchiketa\n section of Kāṭhaka; {#triRAciketa#}-\n\n {#-striBiretya sanDim#} <ls>Kaṭh. 1. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146218,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-RItA#}@}"
+            ],
+            "_banner": ".{@{#-RItA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triRItA"
+                }
+            ],
+            "_meanings": [
+                "a wife (‘thrice married’; it being supposed that a girl\n belongs to {%Soma, Gandharva%} and {%Agni%} before she obtains a human husband).\n"
+            ]
+        },
+        {
+            "__line": 146220,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Remi#}@}"
+            ],
+            "_banner": ".{@{#-Remi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triRemi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with three fellies; {#vicinvato'BUt sumahAMstriRemiH#}\n <ls>Bhāg. 3. 8. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146222,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-takzam, takzI#}@}"
+            ],
+            "_banner": ".{@{#-takzam, takzI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tritakzam"
+                },
+                {
+                    "Right": "tritakzI"
+                }
+            ],
+            "_meanings": [
+                "three carpenters taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 146223,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-daRqam#}@}"
+            ],
+            "_banner": ".{@{#-daRqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tridaRqam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the three staves of a {%Saṃnyāsin%} (who has resigned the world)\n tied together so as to form one.\n",
+                ".²2 the triple subjection of thought, word, and deed.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146227,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-daRqam#}@}",
+                        "S_M_ ({@{#-RqaH#}@}"
+                    ],
+                    "_banner": "({@{#-RqaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tridaRqaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the state of a religious ascetic; {#jYAnavErAgyarahitastridaRqamupajIvati#}\n <ls>Bhāg. 11. 18. 40</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146229,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-daRqin#}@}"
+            ],
+            "_banner": ".{@{#-daRqin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tridaRqin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a religious mendicant or {%Saṃnyāsin%} who has renounced all worldly\n attachments, and who carries three long staves tied together so as to\n form one in his right hand; {#tallipsuH sa yatirBUtvA tridaRqI dvArakAmagAt#}\n <ls>Bhāg. 10. 86. 3</ls>.\n",
+                ".²2 one who has obtained command over his mind, speech, and body (or thought,\n word, and deed); <ab>cf.</ab> {#vAgdaRqo'Ta manodaRqaH kAyadaRqastaTEva ca . yasyEte#}\n {#nihitA budDO tridaRqIti sa ucyate ..#} <ls>Ms. 12. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146237,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-daSAH#}@}"
+            ],
+            "_banner": ".{@{#-daSAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tridaSAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>)\n",
+                ".²1 thirty.\n",
+                ".²2 the thirty-three gods:--\n 12 Ādityas, 8 Vasus, 11 Rudras and 2 Aśvins.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146241,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-daSAH#}@}",
+                        "S_M_ ({@{#-SaH#}@}"
+                    ],
+                    "_banner": "({@{#-SaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tridaSaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a god, an immortal; {#tasminmaGonastridaSAnvihAya sahasramakzRAM#}\n {#yugapatpapAta#} <ls>Ku. 3. 1</ls>. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 146242,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚aNkuSaH#}"
+                            ],
+                            "_banner": "{#˚aNkuSaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSANkuSaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "({#-Sam#}) the heaven. "
+                            ]
+                        },
+                        {
+                            "__line": 146242,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚AyuDam#}"
+                            ],
+                            "_banner": "{#˚AyuDam#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAyuDam"
+                                }
+                            ],
+                            "_meanings": [
+                                "Indraʼs thunderbolt; <ls>R. 9. 54</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146243,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚AyuDam#}"
+                            ],
+                            "_banner": "{#˚AyuDam#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAyuDam"
+                                }
+                            ],
+                            "_meanings": [
+                                "rainbow; {#aTa naBasya iva#}\n {#tridaSAyuDam#} <ls>R. 9. 54</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146244,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚aDipaH, ˚ISvaraH, ˚patiH#}"
+                            ],
+                            "_banner": "{#˚aDipaH, ˚ISvaraH, ˚patiH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSADipaH"
+                                },
+                                {
+                                    "Right": "tridaSeSvaraH"
+                                },
+                                {
+                                    "Right": "tridaSApatiH"
+                                }
+                            ],
+                            "_meanings": [
+                                "epithets of Indra.\n "
+                            ]
+                        },
+                        {
+                            "__line": 146245,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚aDipatiH#}"
+                            ],
+                            "_banner": "{#˚aDipatiH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSADipatiH"
+                                }
+                            ],
+                            "_meanings": [
+                                "<ab>N.</ab> of Śiva. "
+                            ]
+                        },
+                        {
+                            "__line": 146245,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚aDyakzaH, ˚ayanaH#}"
+                            ],
+                            "_banner": "{#˚aDyakzaH, ˚ayanaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSADyakzaH"
+                                },
+                                {
+                                    "Right": "tridaSAyanaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "an epithet of Viṣṇu.\n "
+                            ]
+                        },
+                        {
+                            "__line": 146246,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚ariH#}"
+                            ],
+                            "_banner": "{#˚ariH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAriH"
+                                }
+                            ],
+                            "_meanings": [
+                                "a demon. "
+                            ]
+                        },
+                        {
+                            "__line": 146246,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚AcAryaH#}"
+                            ],
+                            "_banner": "{#˚AcAryaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAcAryaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "an epithet of Bṛhaspati. "
+                            ]
+                        },
+                        {
+                            "__line": 146246,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚ADAra#}"
+                            ],
+                            "_banner": "{#˚ADAra#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSADAra"
+                                }
+                            ],
+                            "_meanings": [
+                                "Nectar. "
+                            ]
+                        },
+                        {
+                            "__line": 146247,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚AlayaH, ˚AvAsaH#}"
+                            ],
+                            "_banner": "{#˚AlayaH, ˚AvAsaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAlayaH"
+                                },
+                                {
+                                    "Right": "tridaSAvAsaH"
+                                }
+                            ],
+                            "_meanings": [
+                                ".²1 heaven.\n",
+                                ".²2 the mountain Meru.\n",
+                                ".²3 a god. "
+                            ]
+                        },
+                        {
+                            "__line": 146250,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚AhAraH#}"
+                            ],
+                            "_banner": "{#˚AhAraH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAhAraH"
+                                }
+                            ],
+                            "_meanings": [
+                                "‘the food of the gods’, nectar. "
+                            ]
+                        },
+                        {
+                            "__line": 146250,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚indraH#}"
+                            ],
+                            "_banner": "{#˚indraH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSendraH"
+                                }
+                            ],
+                            "_meanings": [
+                                ".²1 Indra.\n",
+                                ".²2 Śiva.\n",
+                                ".²3 Brahman. "
+                            ]
+                        },
+                        {
+                            "__line": 146253,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚guruH#}"
+                            ],
+                            "_banner": "{#˚guruH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAguruH"
+                                }
+                            ],
+                            "_meanings": [
+                                "an epithet of Bṛhaspati, "
+                            ]
+                        },
+                        {
+                            "__line": 146253,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚gopaH#}"
+                            ],
+                            "_banner": "{#˚gopaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAgopaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "a kind of\n insect; (<ab>cf.</ab> {#indragopa#}) {#SraddaDe tridaSagopamAtrake dAhaSaktimiva#}\n {#kfzRavartmani#} <ls>R. 11. 42</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146255,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚dIrGikA#}"
+                            ],
+                            "_banner": "{#˚dIrGikA#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAdIrGikA"
+                                }
+                            ],
+                            "_meanings": [
+                                "an epithet of the Ganges. "
+                            ]
+                        },
+                        {
+                            "__line": 146255,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚patiH#}"
+                            ],
+                            "_banner": "{#˚patiH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSApatiH"
+                                }
+                            ],
+                            "_meanings": [
+                                "Indra; {#ezo'pyErAvatasTastridaSapatiH#} <ls>Ratn. 4. 11</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146256,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚puNgavaH#}"
+                            ],
+                            "_banner": "{#˚puNgavaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSApuNgavaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "Viṣṇu;\n <ls>Rām. 1</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146257,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚maYjarI#}"
+                            ],
+                            "_banner": "{#˚maYjarI#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAmaYjarI"
+                                }
+                            ],
+                            "_meanings": [
+                                "the holy basil. "
+                            ]
+                        },
+                        {
+                            "__line": 146257,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚vaDU, ˚vanitA#}"
+                            ],
+                            "_banner": "{#˚vaDU, ˚vanitA#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAvaDU"
+                                },
+                                {
+                                    "Right": "tridaSAvanitA"
+                                }
+                            ],
+                            "_meanings": [
+                                ", an Apsaras or\n heavenly damsel; {#kElAsasya tridaSavanitAdarpaRasyAtiTiH syAH#} <ls>Me. 60</ls>.\n "
+                            ]
+                        },
+                        {
+                            "__line": 146259,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚vartman#}"
+                            ],
+                            "_banner": "{#˚vartman#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAvartman"
+                                }
+                            ],
+                            "_meanings": [
+                                "the sky. "
+                            ]
+                        },
+                        {
+                            "__line": 146259,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚SrezWaH#}"
+                            ],
+                            "_banner": "{#˚SrezWaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSASrezWaH"
+                                }
+                            ],
+                            "_meanings": [
+                                ".²1 Agni.\n",
+                                ".²2 Brahman. "
+                            ]
+                        },
+                        {
+                            "__line": 146261,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-daSAH#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚daSIBUta#}"
+                            ],
+                            "_banner": "{#˚daSIBUta#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridaSAdaSIBUta"
+                                }
+                            ],
+                            "_meanings": [
+                                "Become divine; {#tridaSIBUtapOrARAM svargAntaramakalpayat#} <ls>R. 15. 102</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146262,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-dinam#}@}"
+            ],
+            "_banner": ".{@{#-dinam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tridinam"
+                }
+            ],
+            "_meanings": [
+                "three days collectively. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146262,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-dinam#}@}",
+                        "S_S_ {#˚spfS#}"
+                    ],
+                    "_banner": "{#˚spfS#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tridinaspfS"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%m.%} concurrence of\n three lunations with one solar day.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146264,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-divam#}@}"
+            ],
+            "_banner": ".{@{#-divam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tridivam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the heaven; {#trimArgayeva tridivasya mArgaH#} <ls>Ku. 1. 28</ls>; <ls>Ś. 7. 3</ls>.\n",
+                ".²2 sky, atmosphere.\n",
+                ".²3 paradise.\n",
+                ".²4 happiness.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146269,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-divam#}@}",
+                        "S_M_ ({@{#-vA#}@}"
+                    ],
+                    "_banner": "({@{#-vA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tridivA"
+                        }
+                    ],
+                    "_meanings": [
+                        "cardamoms. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 146269,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-divam#}@}",
+                                "S_M_ ({@{#-vA#}@}",
+                                "S_M_S_ {#˚aDISaH, ˚ISaH#}"
+                            ],
+                            "_banner": "{#˚aDISaH, ˚ISaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridivADISaH"
+                                },
+                                {
+                                    "Right": "tridiveSaH"
+                                }
+                            ],
+                            "_meanings": [
+                                ".²1 an epithet of Indra.\n",
+                                ".²2 a god. "
+                            ]
+                        },
+                        {
+                            "__line": 146271,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-divam#}@}",
+                                "S_M_ ({@{#-vA#}@}",
+                                "S_M_S_ {#˚AlayaH#}"
+                            ],
+                            "_banner": "{#˚AlayaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridivAlayaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "the heaven; {#aSvameDajitA~llokAnApnoti tridivAlaye#}\n <ls>Mb. 13. 141. 53</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146272,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-divam#}@}",
+                                "S_M_ ({@{#-vA#}@}",
+                                "S_M_S_ {#˚udBavA#}"
+                            ],
+                            "_banner": "{#˚udBavA#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridivodBavA"
+                                }
+                            ],
+                            "_meanings": [
+                                ".²1 the Ganges.\n",
+                                ".²2 small cardamoms. "
+                            ]
+                        },
+                        {
+                            "__line": 146274,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-divam#}@}",
+                                "S_M_ ({@{#-vA#}@}",
+                                "S_M_S_ {#˚okas#}"
+                            ],
+                            "_banner": "{#˚okas#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridivOkas"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%m.%} a god; {#vapuzi tridivOkasAM paraM#}\n {#saha puzpErapataYCilImuKAH#} <ls>Vikr. 15. 72</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146275,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-divam#}@}",
+                                "S_M_ ({@{#-vA#}@}",
+                                "S_M_S_ {#˚gata#}"
+                            ],
+                            "_banner": "{#˚gata#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tridivagata"
+                                }
+                            ],
+                            "_meanings": [
+                                "dead; {#tridivagataH#}\n {#kimu vakzyate pitA me#} <ls>Vikr. 6. 62</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146277,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tridfS"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 146278,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-dozam#}@}"
+            ],
+            "_banner": ".{@{#-dozam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tridozam"
+                }
+            ],
+            "_meanings": [
+                "vitiation or derangement of the three humours of the body,\n {%<ab>i. e.</ab>%} {#vAta, pitta#} and {#kaPa#}.\n"
+            ]
+        },
+        {
+            "__line": 146280,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-DA#}@}"
+            ],
+            "_banner": ".{@{#-DA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triDA"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "in 3 parts, ways or places; triply. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146280,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-DA#}@}",
+                        "S_S_ {#˚tvam#}"
+                    ],
+                    "_banner": "{#˚tvam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triDAtvam"
+                        }
+                    ],
+                    "_meanings": [
+                        "tripartition; <ls>Ch. Up.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146281,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-DAtuH#}@}"
+            ],
+            "_banner": ".{@{#-DAtuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triDAtuH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Gaṇeśa;\n"
+            ]
+        },
+        {
+            "__line": 146282,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-tum#}@}"
+            ],
+            "_banner": ".{@{#-tum#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tritum"
+                }
+            ],
+            "_meanings": [
+                ".²1 the triple world.\n",
+                ".²2 the aggregate of the 3 minerals or humours.\n"
+            ]
+        },
+        {
+            "__line": 146285,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-DAman#}@}"
+            ],
+            "_banner": ".{@{#-DAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triDAman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Viṣṇu.\n",
+                ".²2 of Vyāsa;\n",
+                ".²3 of Śiva.\n",
+                ".²4 of Agni.\n",
+                ".²5 death. --{%n.%} the heaven; {#haMso#}\n\n {#haMsena yAnena triDAma paramaM yayO#} <ls>Bhāg. 3. 24. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146293,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-DArA#}@}"
+            ],
+            "_banner": ".{@{#-DArA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triDArA"
+                }
+            ],
+            "_meanings": [
+                "the Ganges.\n"
+            ]
+        },
+        {
+            "__line": 146294,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-nayana, -netraH, -locanaH#}@}"
+            ],
+            "_banner": ".{@{#-nayana, -netraH, -locanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trinayana"
+                },
+                {
+                    "Right": "trinetraH"
+                },
+                {
+                    "Right": "trilocanaH"
+                }
+            ],
+            "_meanings": [
+                "epithets of Śiva; <ls>R. 3. 66</ls>; <ls>Ku. 3. 66</ls>, <ls n=\"Ku.\">5. 72</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146295,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-navata#}@}"
+            ],
+            "_banner": ".{@{#-navata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trinavata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ninety-third.\n"
+            ]
+        },
+        {
+            "__line": 146296,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-navatiH#}@}"
+            ],
+            "_banner": ".{@{#-navatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trinavatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "ninety three.\n"
+            ]
+        },
+        {
+            "__line": 146297,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-nayanA#}@}"
+            ],
+            "_banner": ".{@{#-nayanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trinayanA"
+                }
+            ],
+            "_meanings": [
+                "Pārvatī.\n"
+            ]
+        },
+        {
+            "__line": 146298,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-nABaH#}@}"
+            ],
+            "_banner": ".{@{#-nABaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trinABaH"
+                }
+            ],
+            "_meanings": [
+                "Viṣṇu; <ls>Bhāg. 8. 17. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146299,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-netracUqAmaRiH#}@}"
+            ],
+            "_banner": ".{@{#-netracUqAmaRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trinetracUqAmaRiH"
+                }
+            ],
+            "_meanings": [
+                "the moon.\n"
+            ]
+        },
+        {
+            "__line": 146300,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-netraPalaH#}@}"
+            ],
+            "_banner": ".{@{#-netraPalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trinetraPalaH"
+                }
+            ],
+            "_meanings": [
+                "the cocoa-nut tree.\n"
+            ]
+        },
+        {
+            "__line": 146301,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-paYca#}@}"
+            ],
+            "_banner": ".{@{#-paYca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripaYca"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "three-fold five, {%<ab>i. e.</ab>%} fifteen.\n"
+            ]
+        },
+        {
+            "__line": 146302,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-paYcASa#}@}"
+            ],
+            "_banner": ".{@{#-paYcASa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripaYcASa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fifty-third.\n"
+            ]
+        },
+        {
+            "__line": 146303,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-paYcASat#}@}"
+            ],
+            "_banner": ".{@{#-paYcASat#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripaYcASat"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "fifty-three.\n"
+            ]
+        },
+        {
+            "__line": 146304,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pawuH#}@}"
+            ],
+            "_banner": ".{@{#-pawuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripawuH"
+                }
+            ],
+            "_meanings": [
+                "glass ({#kAca#}).\n"
+            ]
+        },
+        {
+            "__line": 146305,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-patAkaH#}@}"
+            ],
+            "_banner": ".{@{#-patAkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripatAkaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the hand with three fingers stretched out or erect.\n",
+                ".²2 the forehead marked naturally with three horizontal lines.\n"
+            ]
+        },
+        {
+            "__line": 146308,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-patrakaH#}@}"
+            ],
+            "_banner": ".{@{#-patrakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripatrakaH"
+                }
+            ],
+            "_meanings": [
+                "the Palāśa tree.\n"
+            ]
+        },
+        {
+            "__line": 146309,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-paTam#}@}"
+            ],
+            "_banner": ".{@{#-paTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripaTam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the three paths taken collectively, {%<ab>i. e.</ab>%} the sky, atmosphere,\n and the earth, or the sky, earth and the lower world.\n",
+                ".²2 a place where three roads meet.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146313,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-paTam#}@}",
+                        "S_M_ ({@{#-TA#}@}"
+                    ],
+                    "_banner": "({@{#-TA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tripaTA"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Mathura. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 146313,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-paTam#}@}",
+                                "S_M_ ({@{#-TA#}@}",
+                                "S_M_S_ {#˚gA, ˚gAminI#}"
+                            ],
+                            "_banner": "{#˚gA, ˚gAminI#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "tripaTagA"
+                                },
+                                {
+                                    "Right": "tripaTagAminI"
+                                }
+                            ],
+                            "_meanings": [
+                                "an epithet of the\n Ganges; {#gaNgA tripaTagAminI#}; {#DftasatpaTastripaTagAmaBitaH sa tamAruroha#}\n {#puruhUtasutaH#} <ls>Ki. 6. 1</ls>; <ls>Amaru. 99</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146316,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pad, -pAd, -pAt#}@}"
+            ],
+            "_banner": ".{@{#-pad, -pAd, -pAt#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripad"
+                },
+                {
+                    "Right": "tripAd"
+                },
+                {
+                    "Right": "tripAt"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 Viṣṇu.\n",
+                ".²2 fever (personified).\n"
+            ]
+        },
+        {
+            "__line": 146319,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pada#}@}"
+            ],
+            "_banner": ".{@{#-pada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "three-footed.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146320,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-pada#}@}",
+                        "S_M_ ({@{#-dam#}@}"
+                    ],
+                    "_banner": "({@{#-dam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tripadam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a tripod; {#tripadEH karakEH sTAlEH … …#}\n <ls>Śiva B. 22. 62</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146322,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-padikA#}@}"
+            ],
+            "_banner": ".{@{#-padikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripadikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a tripod.\n",
+                ".²2 a stand with three feet.\n"
+            ]
+        },
+        {
+            "__line": 146325,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-padI#}@}"
+            ],
+            "_banner": ".{@{#-padI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripadI"
+                }
+            ],
+            "_meanings": [
+                ".²1 the girth of an elephant; {#nAsrasatkariRAM grEvaM tripadIcCedinAmapi#} <ls>R. 4. 48</ls>.\n",
+                ".²2 the Gāyatrī metre.\n",
+                ".²3 a tripod.\n",
+                ".²4 the plant {#goDApadI#}.\n"
+            ]
+        },
+        {
+            "__line": 146330,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-parikrAnta#}@}"
+            ],
+            "_banner": ".{@{#-parikrAnta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triparikrAnta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who walks thrice round a sacred fire.\n"
+            ]
+        },
+        {
+            "__line": 146331,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-parRaH#}@}"
+            ],
+            "_banner": ".{@{#-parRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triparRaH"
+                }
+            ],
+            "_meanings": [
+                "Kiṃśuka tree.\n"
+            ]
+        },
+        {
+            "__line": 146332,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pAwaH#}@}"
+            ],
+            "_banner": ".{@{#-pAwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripAwaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 intersection of a prolonged side and perpendicular (in a quadrangular figure).\n",
+                ".²2 the figure formed by such intersection.\n"
+            ]
+        },
+        {
+            "__line": 146335,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pAwikA#}@}"
+            ],
+            "_banner": ".{@{#-pAwikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripAwikA"
+                }
+            ],
+            "_meanings": [
+                "a beak. {#pAWin#} {%a.%}\n",
+                ".²1 familiar with Saṃhitā, Pada, and Krama.\n",
+                ".²2 one who learns a thing after three repetitions.\n"
+            ]
+        },
+        {
+            "__line": 146338,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pAdaH#}@}"
+            ],
+            "_banner": ".{@{#-pAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripAdaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the Supreme Being.\n",
+                ".²2 fever.\n"
+            ]
+        },
+        {
+            "__line": 146341,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pAd#}@}"
+            ],
+            "_banner": ".{@{#-pAd#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripAd"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having three feet.\n",
+                ".²2 consisting of three parts, having three fourths; {#rAGavaH SiTilaM#}\n {#tasTO Buvi DarmastripAdiva#} <ls>R. 15. 96</ls>.\n",
+                ".²3 trinomial. --({%m.%})\n",
+                ".²1 an epithet of Viṣṇu in his dwarf incarnation.\n",
+                ".²2 the Supreme Being.\n"
+            ]
+        },
+        {
+            "__line": 146348,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-piwakam#}@}"
+            ],
+            "_banner": ".{@{#-piwakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripiwakam"
+                }
+            ],
+            "_meanings": [
+                "the 3 collections of Buddhistic sacred writings ({#sutta#},\n {#vinaya#} and {#aBiDamma#}).\n"
+            ]
+        },
+        {
+            "__line": 146350,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-puwa#}@}"
+            ],
+            "_banner": ".{@{#-puwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripuwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "triangular.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146351,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-puwa#}@}",
+                        "S_M_ ({@{#-waH#}@}"
+                    ],
+                    "_banner": "({@{#-waH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tripuwaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an arrow.\n",
+                        ".²2 the palm of the hand.\n",
+                        ".²3 a cubit.\n",
+                        ".²4 a bank or shore.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146356,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-puwakaH#}@}"
+            ],
+            "_banner": ".{@{#-puwakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripuwakaH"
+                }
+            ],
+            "_meanings": [
+                "a triangle.\n"
+            ]
+        },
+        {
+            "__line": 146357,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-puwA#}@}"
+            ],
+            "_banner": ".{@{#-puwA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripuwA"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 146358,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-puwin#}@}"
+            ],
+            "_banner": ".{@{#-puwin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripuwin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the castor-oil plant.\n"
+            ]
+        },
+        {
+            "__line": 146359,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-puRqram, -puRqraka#}@}"
+            ],
+            "_banner": ".{@{#-puRqram, -puRqraka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripuRqram"
+                },
+                {
+                    "Right": "tripuRqraka"
+                }
+            ],
+            "_meanings": [
+                "a mark on the forehead consisting of three\n lines made with cowdung ashes\n"
+            ]
+        },
+        {
+            "__line": 146361,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-puram#}@}"
+            ],
+            "_banner": ".{@{#-puram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripuram"
+                }
+            ],
+            "_meanings": [
+                ".²1 a collection of three cities.\n",
+                ".²2 the three cities of gold, silver, and iron in the sky, air and earth\n built for demons by Maya; (these cities were burnt down, along the demons\n inhabiting them, by Śiva at the request of the gods); <ls>Ku. 7. 48</ls>; <ls>Amaru. 2</ls>;\n {#saMraktABistripuravijayo gIyate kinnarIBiH#} <ls>Me. 56</ls>; <ls>Bh. 3. 123</ls>;\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146367,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-puram#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: tripuraM ({@{#-raH#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of a demon or demons presiding over these cities. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 146367,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-puram#}@}",
+                                "S_M_ ({@{#-raH#}@}",
+                                "S_M_S_ {#˚aDipatiH#}"
+                            ],
+                            "_banner": "{#˚aDipatiH#}",
+                            "_meanings": [
+                                "<ab>N.</ab> of Maya, "
+                            ]
+                        },
+                        {
+                            "__line": 146368,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-puram#}@}",
+                                "S_M_ ({@{#-raH#}@}",
+                                "S_M_S_ {#˚antakaH, ˚ariH, ˚GnaH, ˚dahanaH, ˚dviz#}"
+                            ],
+                            "_banner": "{#˚antakaH, ˚ariH, ˚GnaH, ˚dahanaH, ˚dviz#}",
+                            "_meanings": [
+                                "{%m.%}, {#haraH#}\n <ab>&c.</ab> epithets of Śiva; {#aye gOrInATa tripurahara SamBo trinayana#} <ls>Bh. 3. 123</ls>;\n <ls>R. 17. 14</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146370,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-puram#}@}",
+                                "S_M_ ({@{#-raH#}@}",
+                                "S_M_S_ {#˚dAhaH#}"
+                            ],
+                            "_banner": "{#˚dAhaH#}",
+                            "_meanings": [
+                                "burning of the three cities; {#muhuranusmarayantamanukzapaM#}\n {#tripuradAhamumApatisevinaH#} <ls>Ki. 5. 14</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146371,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-puram#}@}",
+                                "S_M_ ({@{#-raH#}@}",
+                                "S_M_S_ {#˚sundarI#}"
+                            ],
+                            "_banner": "{#˚sundarI#}",
+                            "_meanings": [
+                                "Durgā.\n."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__line": 146372,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-puram#}@}",
+                        "S_M_ ({@{#-rI#}@}"
+                    ],
+                    "_banner": "({@{#-rI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: tripuraM ({@{#-rI#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 <ab>N.</ab> of a place near Jabalpura, formerly capital of the kings of Chedi.\n",
+                        ".²2 <ab>N.</ab> of a country.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146375,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-puruza#}@}"
+            ],
+            "_banner": ".{@{#-puruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripuruza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having the length of three men.\n",
+                ".²2 having three assistants.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146378,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-puruza#}@}",
+                        "S_M_ ({@{#-zam#}@}"
+                    ],
+                    "_banner": "({@{#-zam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tripuruzam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the three\n\n ancestors-father, grand-father and great-grand-father.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146381,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pfzWam#}@}"
+            ],
+            "_banner": ".{@{#-pfzWam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripfzWam"
+                }
+            ],
+            "_meanings": [
+                "the highest heaven; <ls>Bhāg. 1. 19. 23</ls>. ({@{#zWaH#}@}) Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 146382,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-pOruza#}@}"
+            ],
+            "_banner": ".{@{#-pOruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tripOruza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 belonging to, or extending over, three generations of men.\n",
+                ".²2 offered to three (as oblations). ",
+                ".²3 inherited from three (as an estate).\n"
+            ]
+        },
+        {
+            "__line": 146385,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-prasrutaH#}@}"
+            ],
+            "_banner": ".{@{#-prasrutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triprasrutaH"
+                }
+            ],
+            "_meanings": [
+                "an elephant in rut.\n"
+            ]
+        },
+        {
+            "__line": 146386,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-PalA#}@}"
+            ],
+            "_banner": ".{@{#-PalA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triPalA"
+                }
+            ],
+            "_meanings": [
+                "(1) the three myrobalans taken collectively, namely, Terminalia\n Chebula, <ab n=\"Terminalia\">T.</ab> Bellerica, and Phyllanthus (<lang>Mar.</lang> <ns>{#hiraqA, behaqA#}</ns> and {#AMvaLakAWI#}).\n Also (2) the three sweet fruits (grape, pomegranate, and date); (3) the\n three fragrant fruits (nutmeg, areca-nut, and cloves).\n"
+            ]
+        },
+        {
+            "__line": 146390,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-banDanaH#}@}"
+            ],
+            "_banner": ".{@{#-banDanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tribanDanaH"
+                }
+            ],
+            "_meanings": [
+                "the individual soul.\n"
+            ]
+        },
+        {
+            "__line": 146391,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-baliH, balI#}@}"
+            ],
+            "_banner": ".{@{#-baliH, balI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tribaliH"
+                },
+                {
+                    "Right": "tribalI"
+                }
+            ],
+            "_meanings": [
+                ", {#-valiH, -valI#} {%f.%}\n",
+                ".²1 the three folds or wrinkles of skin above the navel of a woman (regarded\n as a mark of beauty); {#kzAmodaroparilasattrivalIlatAnAm#} <ls>Bh. 1. 93</ls>, <ls n=\"Bh. 1.\">81</ls>;\n <ab>cf.</ab> <ls>Ku. 1. 39</ls>.\n",
+                ".²2 the anus.\n"
+            ]
+        },
+        {
+            "__line": 146396,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-balIkam#}@}"
+            ],
+            "_banner": ".{@{#-balIkam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tribalIkam"
+                }
+            ],
+            "_meanings": [
+                "the anus.\n"
+            ]
+        },
+        {
+            "__line": 146397,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-bAhuH#}@}"
+            ],
+            "_banner": ".{@{#-bAhuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tribAhuH"
+                }
+            ],
+            "_meanings": [
+                "a kind of fighting with swords.\n"
+            ]
+        },
+        {
+            "__line": 146398,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-brahman#}@}"
+            ],
+            "_banner": ".{@{#-brahman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tribrahman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with {#brahmA, vizRu#} and {#maheSa#}.\n"
+            ]
+        },
+        {
+            "__line": 146399,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBam"
+                }
+            ],
+            "_meanings": [
+                "three signs of the zodiac, or ninety degrees.\n"
+            ]
+        },
+        {
+            "__line": 146400,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-BaNgam#}@}"
+            ],
+            "_banner": ".{@{#-BaNgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBaNgam"
+                }
+            ],
+            "_meanings": [
+                "a pose in which the image is bent at three parts of the body.\n"
+            ]
+        },
+        {
+            "__line": 146401,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Badram#}@}"
+            ],
+            "_banner": ".{@{#-Badram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBadram"
+                }
+            ],
+            "_meanings": [
+                "copulation, sexual union, cohabitation.\n"
+            ]
+        },
+        {
+            "__line": 146402,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-BAgaH#}@}"
+            ],
+            "_banner": ".{@{#-BAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBAgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the third part; {#triBAgaM brahmahatyAyAH kanyA prApnoti duzyatI#}\n <ls>Mb. 12. 165. 42</ls>.\n",
+                ".²2 the third part of a sign of the zodiac.\n"
+            ]
+        },
+        {
+            "__line": 146406,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Bukla#}@}"
+            ],
+            "_banner": ".{@{#-Bukla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBukla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one possessed of learning, good conduct and good\n family-descent (<ls>Dānasāgara, Bibliotheca Indica, 274, Fasc. 1, p. 29</ls>).\n"
+            ]
+        },
+        {
+            "__line": 146408,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Bujam#}@}"
+            ],
+            "_banner": ".{@{#-Bujam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBujam"
+                }
+            ],
+            "_meanings": [
+                "a triangle.\n"
+            ]
+        },
+        {
+            "__line": 146409,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Buvanam#}@}"
+            ],
+            "_banner": ".{@{#-Buvanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBuvanam"
+                }
+            ],
+            "_meanings": [
+                "the three worlds; {#puRyaM yAyAstriBuvanagurorDAma caRqISvarasya#}\n <ls>Me. 35</ls>; <ls>Bh. 1. 99</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146410,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-Buvanam#}@}",
+                        "S_S_ {#˚guru#}"
+                    ],
+                    "_banner": "{#˚guru#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triBuvanaguru"
+                        }
+                    ],
+                    "_meanings": [
+                        "Śiva. "
+                    ]
+                },
+                {
+                    "__line": 146410,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-Buvanam#}@}",
+                        "S_S_ {#˚kIrtirasaH#}"
+                    ],
+                    "_banner": "{#˚kIrtirasaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triBuvanakIrtirasaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a patent medicine\n in Āyurveda. "
+                    ]
+                },
+                {
+                    "__line": 146411,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-Buvanam#}@}",
+                        "S_S_ {#˚patiH#}"
+                    ],
+                    "_banner": "{#˚patiH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triBuvanapatiH"
+                        }
+                    ],
+                    "_meanings": [
+                        "Viṣṇu.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146412,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-BUmaH#}@}"
+            ],
+            "_banner": ".{@{#-BUmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triBUmaH"
+                }
+            ],
+            "_meanings": [
+                "a palace with three floors.\n"
+            ]
+        },
+        {
+            "__line": 146413,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-mada#}@}"
+            ],
+            "_banner": ".{@{#-mada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimada"
+                }
+            ],
+            "_meanings": [
+                "the three narcotic plants; the three-fold haughtiness; <ls>Bhāg. 3. 1. 43</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146414,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-maDu#}@}"
+            ],
+            "_banner": ".{@{#-maDu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimaDu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                ".{@{#-maDuram#}@}"
+            ],
+            "_meanings": [
+                ".²1 sugar, honey, and ghee.\n",
+                ".²2 three verses of the Ṛgveda (<ls n=\"Ṛv.\">1. 90. 6-8</ls>; {#maDu vAtA ftAyate˚#}).\n",
+                ".²3 a ceremony based on the same; <ls>L. D. B.</ls>\n",
+                ".²4 threefold utterance of a vedic stanza {#˚maDu vAtA#} --{%m.%} a reciter\n and performer of the above ceremony; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 146421,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-mArgA#}@}"
+            ],
+            "_banner": ".{@{#-mArgA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimArgA"
+                }
+            ],
+            "_meanings": [
+                "the Ganges; {#trimArgayeva tridivasya mArgaH#} <ls>Ku. 1. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146422,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-mukuwaH#}@}"
+            ],
+            "_banner": ".{@{#-mukuwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimukuwaH"
+                }
+            ],
+            "_meanings": [
+                "the Trikūṭa mountain.\n"
+            ]
+        },
+        {
+            "__line": 146423,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-muKaH#}@}"
+            ],
+            "_banner": ".{@{#-muKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimuKaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Buddha.\n"
+            ]
+        },
+        {
+            "__line": 146424,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-muni#}@}"
+            ],
+            "_banner": ".{@{#-muni#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimuni"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "having the three sages {#pARini, kAtyAyana#} and\n {#pataYjali#}; {#trimuni vyAkaraRam#}.\n"
+            ]
+        },
+        {
+            "__line": 146426,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-mUrtiH#}@}"
+            ],
+            "_banner": ".{@{#-mUrtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimUrtiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the united form of Brahmā, Viṣṇu, and Maheśa, the Hindu triad;\n {#namastrimUrtaye tuByaM prAksfzweH kevalAtmane . guRatrayaviBAgAya paScAdBedamupeyuze ..#} <ls>Ku. 2. 4</ls>.\n",
+                ".²2 Buddha, or Jina.\n"
+            ]
+        },
+        {
+            "__line": 146430,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-mUrDan#}@}"
+            ],
+            "_banner": ".{@{#-mUrDan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trimUrDan"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a demon; {#trayaSca dUzaRaKarastrimUrDAno raRe hatAH#} <ls>U. 2. 15</ls>.\n",
+                ".²2 a world called {#maharloka#}; <ls>Gīrvāṇa.</ls>; <ab>cf.</ab> {#amftaM kzemamaBayaM#}\n {#trimUrDno'DAyi mUrDasu#} <ls>Bhāg. 2. 6. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146434,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-yava#}@}"
+            ],
+            "_banner": ".{@{#-yava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triyava"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "weighing 3 barley corns; <ls>Ms. 8. 134</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146435,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-yazwiH#}@}"
+            ],
+            "_banner": ".{@{#-yazwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triyazwiH"
+                }
+            ],
+            "_meanings": [
+                "a necklace of three strings.\n"
+            ]
+        },
+        {
+            "__line": 146436,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-yAmakam#}@}"
+            ],
+            "_banner": ".{@{#-yAmakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triyAmakam"
+                }
+            ],
+            "_meanings": [
+                "sin.\n"
+            ]
+        },
+        {
+            "__line": 146437,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-yAmA#}@}"
+            ],
+            "_banner": ".{@{#-yAmA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triyAmA"
+                }
+            ],
+            "_meanings": [
+                ".²1 night (consisting of 3 watches or {%praharas%}, the first and last\n half {%prahara%} being excluded); {#saMkzipyeta kzaRa iva kaTaM dIrGayAmA#}\n {#triyAmA#} <ls>Me. 110</ls>; <ls>Ku. 7. 21</ls>, <ls n=\"Ku. 7.\">26</ls>; <ls>R. 9. 70</ls>; <ls>V. 3. 22</ls>.\n",
+                ".²2 turmeric.\n",
+                ".²3 the Indigo plant.\n",
+                ".²4 the river Yamunā.\n"
+            ]
+        },
+        {
+            "__line": 146444,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-yugaH#}@}"
+            ],
+            "_banner": ".{@{#-yugaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triyugaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu; {#DarmaM mahApuruza pAsi yugAnuvfttaM#}\n {#CannaH kalO yadaBavastriyugo'Ta sattvam#} <ls>Bhāg. 7. 9. 38</ls>; the god in\n the form of {#yajYapuruza#}; <ls>Bhāg. 5. 18. 35</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146447,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-yoniH#}@}"
+            ],
+            "_banner": ".{@{#-yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triyoniH"
+                }
+            ],
+            "_meanings": [
+                "a law-suit (in which a person engages from anger, covetousness,\n or infatuation).\n"
+            ]
+        },
+        {
+            "__line": 146449,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-rasakam#}@}"
+            ],
+            "_banner": ".{@{#-rasakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trirasakam"
+                }
+            ],
+            "_meanings": [
+                "spirituous liquor;\n\n see {#trisarakam#}.\n"
+            ]
+        },
+        {
+            "__line": 146452,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-rAtra#}@}"
+            ],
+            "_banner": ".{@{#-rAtra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trirAtra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lasting for three nights.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146453,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-rAtra#}@}",
+                        "S_M_ ({@{#-traH#}@}"
+                    ],
+                    "_banner": "({@{#-traH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: trirAtra ({@{#-traH#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "a festival lasting for three nights.\n."
+                    ]
+                },
+                {
+                    "__line": 146454,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-rAtra#}@}",
+                        "S_M_ ({@{#-tram#}@}"
+                    ],
+                    "_banner": "({@{#-tram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: trirAtra ({@{#-traM#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "a period of three nights.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146455,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-reKaH#}@}"
+            ],
+            "_banner": ".{@{#-reKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trireKaH"
+                }
+            ],
+            "_meanings": [
+                "a conch-shell.\n"
+            ]
+        },
+        {
+            "__line": 146456,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-liNga#}@}"
+            ],
+            "_banner": ".{@{#-liNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triliNga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having three genders, {%<ab>i. e.</ab>%} an adjective.\n",
+                ".²2 possessing the three Guṇas.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146458,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-liNga#}@}",
+                        "S_M_ ({@{#-gAH#}@}"
+                    ],
+                    "_banner": "({@{#-gAH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triliNgAH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the country called Telaṅga.\n."
+                    ]
+                },
+                {
+                    "__line": 146459,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-liNga#}@}",
+                        "S_M_ ({@{#-gI#}@}"
+                    ],
+                    "_banner": "({@{#-gI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triliNgI"
+                        }
+                    ],
+                    "_meanings": [
+                        "the three genders taken collectively.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146460,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-lokam#}@}"
+            ],
+            "_banner": ".{@{#-lokam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trilokam"
+                }
+            ],
+            "_meanings": [
+                "the three worlds.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146461,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-lokam#}@}",
+                        "S_M_ ({@{#-kaH#}@}"
+                    ],
+                    "_banner": "({@{#-kaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "trilokaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an inhabitant of the three worlds; {#yadDarmasUnorbata#}\n {#rAjasUye nirIkzya dfksvastyayanaM trilokaH#} <ls>Bhāg. 3. 2. 13</ls>. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 146462,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-lokam#}@}",
+                                "S_M_ ({@{#-kaH#}@}",
+                                "S_M_S_ {#˚Atman#}"
+                            ],
+                            "_banner": "{#˚Atman#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "trilokAtman"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%m.%} the Supreme Being. "
+                            ]
+                        },
+                        {
+                            "__line": 146463,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-lokam#}@}",
+                                "S_M_ ({@{#-kaH#}@}",
+                                "S_M_S_ {#˚ISaH#}"
+                            ],
+                            "_banner": "{#˚ISaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "trilokeSaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "the sun. "
+                            ]
+                        },
+                        {
+                            "__line": 146463,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-lokam#}@}",
+                                "S_M_ ({@{#-kaH#}@}",
+                                "S_M_S_ {#˚nATaH#}"
+                            ],
+                            "_banner": "{#˚nATaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "trilokanATaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "‘lord of the three\n worlds’, an epithet of\n",
+                                ".²1 Indra; {#trilokanATena sadA maKadvizastvayA niyamyA nanu divyacakzuzA#} <ls>R. 3. 45</ls>.\n",
+                                ".²2 of Śiva; <ls>Ku. 5. 77</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 146466,
+                            "_ancestry": [
+                                "L_ 16848",
+                                "B_ {#tri#}",
+                                "S_ .{@{#-lokam#}@}",
+                                "S_M_ ({@{#-kaH#}@}",
+                                "S_M_S_ {#˚rakzin#}"
+                            ],
+                            "_banner": "{#˚rakzin#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "trilokarakzin"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%a.%} protecting the 3 worlds; {#trilokarakzI#}\n {#mahimA hi vajriRaH#} <ls>V. 1. 6</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146468,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-lokI#}@}"
+            ],
+            "_banner": ".{@{#-lokI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trilokI"
+                }
+            ],
+            "_meanings": [
+                "the three worlds taken collectively, the universe; {#satyAmeva#}\n {#trilokIsariti haraSiraScumbinIvicCawAyAm#} <ls>Bh. 3. 95</ls>; <ls>Śānti. 4. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146470,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-locanaH#}@}"
+            ],
+            "_banner": ".{@{#-locanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trilocanaH"
+                }
+            ],
+            "_meanings": [
+                "Śiva.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146471,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-locanaH#}@}",
+                        "S_M_ ({@{#-nA#}@}"
+                    ],
+                    "_banner": "({@{#-nA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "trilocanA"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an unchaste woman.\n",
+                        ".²2 an epithet of Durgā.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146474,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-lohakam#}@}"
+            ],
+            "_banner": ".{@{#-lohakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trilohakam"
+                }
+            ],
+            "_meanings": [
+                "the three metals:-- gold, silver, and copper.\n"
+            ]
+        },
+        {
+            "__line": 146475,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vargaH#}@}"
+            ],
+            "_banner": ".{@{#-vargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivargaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the three objects of wordly existence, {%<ab>i. e.</ab>%} {#Darma, arTa#}, and\n {#kAma#}; {#anena DarmaH saviSezamadya me trivargasAraH pratiBAti BAvini#}\n <ls>Ku. 5. 38</ls>; {#anyonyAnubanDam#} ({#trivargam#}) <ls>Kau. A. 1. 7</ls>; {#prApa#}\n {#trivargaM bubuDe'trivargam#} ({#mokzam#}) <ls>Bu. Ch. 2. 41</ls>.\n",
+                ".²2 the three states of loss, stability, and increase; {#kzayaH sTAnaM#}\n {#ca vfdDiSca trivargo nItivedinAm#} <ls>Ak.</ls>\n",
+                ".²3 the three qualities of nature, {%<ab>i. e.</ab>%} {#sattva, rajas#}, and {#tamas#}.\n",
+                ".²4 the three higher castes.\n",
+                ".²5 the three myrobalans.\n",
+                ".²6 propriety, decorum.\n"
+            ]
+        },
+        {
+            "__line": 146486,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-varRakam#}@}"
+            ],
+            "_banner": ".{@{#-varRakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivarRakam"
+                }
+            ],
+            "_meanings": [
+                "the first three of the four castes of Hindus taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 146487,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-varza#}@}"
+            ],
+            "_banner": ".{@{#-varza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivarza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "three years old; <ls>Ms. 5. 70</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146488,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-valiH, -lI#}@}"
+            ],
+            "_banner": ".{@{#-valiH, -lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivaliH"
+                },
+                {
+                    "Right": "trivalI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "(in <ab>comp.</ab>) three folds over a womanʼs navel\n (regarded as a mark of beauty)\n"
+            ]
+        },
+        {
+            "__line": 146490,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-valI#}@}"
+            ],
+            "_banner": ".{@{#-valI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivalI"
+                }
+            ],
+            "_meanings": [
+                "the anus.\n"
+            ]
+        },
+        {
+            "__line": 146491,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vAram#}@}"
+            ],
+            "_banner": ".{@{#-vAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivAram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "three times, thrice.\n"
+            ]
+        },
+        {
+            "__line": 146492,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vikramaH#}@}"
+            ],
+            "_banner": ".{@{#-vikramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivikramaH"
+                }
+            ],
+            "_meanings": [
+                "Viṣṇu in his fifth or dwarf incarnation. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146492,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-vikramaH#}@}",
+                        "S_S_ {#˚rasaH#}"
+                    ],
+                    "_banner": "{#˚rasaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "trivikramarasaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a patent medicine in Āyurveda.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146494,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vidyaH#}@}"
+            ],
+            "_banner": ".{@{#-vidyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trividyaH"
+                }
+            ],
+            "_meanings": [
+                "a Brāhmaṇa versed in the three Vedas.\n"
+            ]
+        },
+        {
+            "__line": 146495,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-viDa#}@}"
+            ],
+            "_banner": ".{@{#-viDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triviDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of three kinds, three-fold.\n"
+            ]
+        },
+        {
+            "__line": 146496,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vizwapam, -pizwapam#}@}"
+            ],
+            "_banner": ".{@{#-vizwapam, -pizwapam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivizwapam"
+                },
+                {
+                    "Left": "S error: midAlign pizwapaM vizwapizwapaM"
+                }
+            ],
+            "_meanings": [
+                ".²1 the world of Indra, heaven; {#trivizwapasyeva patiM jayantaH#} <ls>R. 6. 78</ls>.\n",
+                ".²2 the three worlds. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146498,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-vizwapam, -pizwapam#}@}",
+                        "S_S_ {#˚sad#}"
+                    ],
+                    "_banner": "{#˚sad#}",
+                    "_meanings": [
+                        "{%m.%} a god.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146499,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vft#}@}"
+            ],
+            "_banner": ".{@{#-vft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 threefold; {#mOYjI trivftsamA SlakzRA kAryA viprasya meKalA#} <ls>Ms. 2. 42</ls>.\n",
+                ".²2 consisting of three parts (as three {#guRa#}s, {#vidyA#}s); <ls>Bhāg. 3. 24. 33</ls>, <ls n=\"Bhāg.\">10. 23. 39</ls>;\n (consisting of three letters {#-oNkAra#}); {#hiraRyagarBo#}\n {#vedAnAM mantrARAM praRavastrivft#} <ls>Bhāg. 11. 16. 12</ls>. --({%m.%})\n",
+                ".²1 a sacrifice.\n",
+                ".²2 a girdle of three strings; <ls>Mb. 12. 47. 44</ls>.\n",
+                ".²3 an amulet of three strings. --({%f.%}) a plant possessing valuable purgative\n properties. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146507,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-vft#}@}",
+                        "S_S_ {#˚karaRa#}"
+                    ],
+                    "_banner": "{#˚karaRa#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "trivftkaraRa"
+                        }
+                    ],
+                    "_meanings": [
+                        "combining three things, {%<ab>i. e.</ab>%} earth, water, and fire.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146508,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vfttiH#}@}"
+            ],
+            "_banner": ".{@{#-vfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivfttiH"
+                }
+            ],
+            "_meanings": [
+                "livelihood through 3 things (sacrifice, study and alms).\n"
+            ]
+        },
+        {
+            "__line": 146509,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-veRiH, -RI#}@}"
+            ],
+            "_banner": ".{@{#-veRiH, -RI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triveRiH"
+                },
+                {
+                    "Right": "triveRI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the place near Prayāga where the Ganges joins\n the Yamunā and receives under ground the Sarasvatī; the place called\n {#dakziRaprayAga#} where the three sacred rivers separate.\n"
+            ]
+        },
+        {
+            "__line": 146512,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-veRuH#}@}"
+            ],
+            "_banner": ".{@{#-veRuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triveRuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The staff ({#tridaRqa#}) of a Saṃnyāsin; {#kecit triveRuM jagfhureke#}\n {#pAtraM kamaRqalum#} <ls>Bhāg. 11. 23. 34</ls>.\n",
+                ".²2 The pole of a chariot; {#aTa triveRusaMpannaM … … baBaYja ca mahAraTam#}\n <ls>Rām. 3. 51. 16</ls>; <ls>Mb. 7. 156. 83</ls>; a three bannered (chariot); <ls>Bhāg. 4. 26. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146517,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-vedaH#}@}"
+            ],
+            "_banner": ".{@{#-vedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trivedaH"
+                }
+            ],
+            "_meanings": [
+                "a Brāhmaṇa versed in the three\n\n Vedas.\n"
+            ]
+        },
+        {
+            "__line": 146520,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SaktiH#}@}"
+            ],
+            "_banner": ".{@{#-SaktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSaktiH"
+                }
+            ],
+            "_meanings": [
+                "a deity ({#trikalA#}), Māyā; <ls>Bhāg. 2. 6. 31</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146521,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SaNkuH#}@}"
+            ],
+            "_banner": ".{@{#-SaNkuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSaNkuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a celebrated king of the Solar race, king of Ayodhyā and father\n of Hariśchandra. [He was a wise, pious, and just king, but his chief\n fault was that he loved his person to an inordinate degree. Desiring to\n celebrate a sacrifice by virtue of which he could go up to heaven in his\n mortal body, he requested his family-priest Vasiṣṭha to officiate for\n him; but being refused he next requested his hundred sons who also rejected\n his absurd proposal. He, therefore, called them cowardly and impotent,\n and was, in return for these insults, cursed and degraded by them to be\n a Chāṇḍāla. While he was in this wretched condition, Viśvāmitra,\n whose family Triśaṅku had in times of famine laid under deep obligations,\n undertook to celebrate the sacrifice, and invited all the gods to be present.\n They, however, declined; whereupon the enraged Viśvāmitra by his own\n power lifted up Triśaṅku to the skies with his cherished mortal body.\n He began to soar higher and higher till his head struck against the vault\n of the heaven, when he was hurled down head-foremost by Indra and the\n other gods. The mighty Viśvāmitra, however, arrested him in his downward\n course, saying ‘Stay Triśaṅku’, and the unfortunate monarch remained\n suspended with his head towards the earth as a constellation in the southern\n hemisphere. Hence the well-known proverb:-- {#triSaNkurivAntarA tizWa#} <ls>Ś. 2.</ls>]\n",
+                ".²2 the Chātaka bird.\n",
+                ".²3 a cat.\n",
+                ".²4 a grass-hopper.\n",
+                ".²5 a fire-fly. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146544,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-SaNkuH#}@}",
+                        "S_S_ {#˚jaH#}"
+                    ],
+                    "_banner": "{#˚jaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triSaNkujaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Hariśchandra. "
+                    ]
+                },
+                {
+                    "__line": 146544,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-SaNkuH#}@}",
+                        "S_S_ {#˚yAjin#}"
+                    ],
+                    "_banner": "{#˚yAjin#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triSaNkuyAjin"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%m.%}\n an epithet of Viśvāmitra.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146546,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Sata#}@}"
+            ],
+            "_banner": ".{@{#-Sata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "three hundred.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 146547,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-Sata#}@}",
+                        "S_M_ ({@{#-tam#}@}"
+                    ],
+                    "_banner": "({@{#-tam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: triSata ({@{#-taM#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 one hundred and three.\n",
+                        ".²2 three hundred.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146550,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SaraRaH#}@}"
+            ],
+            "_banner": ".{@{#-SaraRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSaraRaH"
+                }
+            ],
+            "_meanings": [
+                "a Buddha.\n"
+            ]
+        },
+        {
+            "__line": 146551,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SarkarA#}@}"
+            ],
+            "_banner": ".{@{#-SarkarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSarkarA"
+                }
+            ],
+            "_meanings": [
+                "three kinds of sugar ({#guqotpannA, himotTA#}, and {#maDurA#}).\n"
+            ]
+        },
+        {
+            "__line": 146552,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SAKa#}@}"
+            ],
+            "_banner": ".{@{#-SAKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSAKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "three-wrinkled; {#BrukuwyA BIzaRamuKaH prakftyEva#}\n {#triSAKayA#} <ls>Ks. 102. 72</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146554,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SAlam#}@}"
+            ],
+            "_banner": ".{@{#-SAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSAlam"
+                }
+            ],
+            "_meanings": [
+                "a house with three halls or chambers.\n"
+            ]
+        },
+        {
+            "__line": 146555,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SiKam#}@}"
+            ],
+            "_banner": ".{@{#-SiKam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSiKam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a trident; {#tadApatadvE triSiKaM garutmate#} <ls>Bhāg. 10. 59. 9</ls>.\n",
+                ".²2 a crown or crest (with three points).\n"
+            ]
+        },
+        {
+            "__line": 146558,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-Siras#}@}"
+            ],
+            "_banner": ".{@{#-Siras#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSiras"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a demon killed by Rāma.\n",
+                ".²2 an epithet of Kubera.\n",
+                ".²3 fever. {#triSiraste prasanno'smi vyetu te majjvarAdBayam#} <ls>Bhāg. 10. 63. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146562,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SIrzaH#}@}"
+            ],
+            "_banner": ".{@{#-SIrzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSIrzaH"
+                }
+            ],
+            "_meanings": [
+                "Śiva.\n"
+            ]
+        },
+        {
+            "__line": 146563,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SIrzakam, -SUlam#}@}"
+            ],
+            "_banner": ".{@{#-SIrzakam, -SUlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSIrzakam"
+                },
+                {
+                    "Right": "triSUlam"
+                }
+            ],
+            "_meanings": [
+                "a trident. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 146563,
+                    "_ancestry": [
+                        "L_ 16848",
+                        "B_ {#tri#}",
+                        "S_ .{@{#-SIrzakam, -SUlam#}@}",
+                        "S_S_ {#˚aNkaH, ˚DArin#}"
+                    ],
+                    "_banner": "{#˚aNkaH, ˚DArin#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "triSIrzakANkaH"
+                        },
+                        {
+                            "Right": "triSIrzakaDArin"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%m.%} an epithet\n of Śiva. {#Suklam#} the holy combination of ‘three days’ {%<ab>viz.</ab>%} Uttarāyaṇa\n (day of the gods), the bright half of the moon (day of the manes) and\n day-time; {#triSukle maraRaM yasya#}, <ls>L. D. B.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 146567,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SUlin#}@}"
+            ],
+            "_banner": ".{@{#-SUlin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSUlin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 146568,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SfNgaH#}@}"
+            ],
+            "_banner": ".{@{#-SfNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSfNgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the Trikūṭa mountain.\n",
+                ".²2 a triangle.\n"
+            ]
+        },
+        {
+            "__line": 146571,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-SokaH#}@}"
+            ],
+            "_banner": ".{@{#-SokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "triSokaH"
+                }
+            ],
+            "_meanings": [
+                "the soul.\n"
+            ]
+        },
+        {
+            "__line": 146572,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-zazwiH#}@}"
+            ],
+            "_banner": ".{@{#-zazwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trizazwiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "sixty-three.\n"
+            ]
+        },
+        {
+            "__line": 146573,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-zwuB#}@}"
+            ],
+            "_banner": ".{@{#-zwuB#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trizwuB"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a metre of 4×11 syllables.\n"
+            ]
+        },
+        {
+            "__line": 146574,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-saMDyam, -saMDyI#}@}"
+            ],
+            "_banner": ".{@{#-saMDyam, -saMDyI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisanDyam"
+                },
+                {
+                    "Right": "trisanDyI"
+                }
+            ],
+            "_meanings": [
+                "the three periods of the day, {%<ab>i. e.</ab>%} dawn,\n noon, and sunset; also\n"
+            ]
+        },
+        {
+            "__line": 146576,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-trisavanam#}@}"
+            ],
+            "_banner": ".{@{#-trisavanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tritrisavaRam"
+                }
+            ],
+            "_gram": [
+                ".({@{#-zavaRam#}@})"
+            ],
+            "_meanings": [
+                "; <ls>Ms. 11. 216</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146578,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-saMDyam#}@}"
+            ],
+            "_banner": ".{@{#-saMDyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisanDyam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "at the time of the three Sandhyas; {#sAnniDyaM#}\n {#puzkare yezAM trisanDyaM kurunandana#} <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 146580,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-saptata#}@}"
+            ],
+            "_banner": ".{@{#-saptata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisaptata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "seventy-third.\n"
+            ]
+        },
+        {
+            "__line": 146581,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-saptatiH#}@}"
+            ],
+            "_banner": ".{@{#-saptatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisaptatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "seventy-three.\n"
+            ]
+        },
+        {
+            "__line": 146582,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-saptan, -sapta#}@}"
+            ],
+            "_banner": ".{@{#-saptan, -sapta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisaptan"
+                },
+                {
+                    "Right": "trisapta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) three times 7, {%<ab>i. e.</ab>%} 21.\n"
+            ]
+        },
+        {
+            "__line": 146583,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sama#}@}"
+            ],
+            "_banner": ".{@{#-sama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(in <ab>geom.</ab>) having three equal sides, equilateral.\n"
+            ]
+        },
+        {
+            "__line": 146584,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-saraH#}@}"
+            ],
+            "_banner": ".{@{#-saraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisaraH"
+                }
+            ],
+            "_meanings": [
+                "milk, sesamum and rice boiled together.\n"
+            ]
+        },
+        {
+            "__line": 146585,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sarakam#}@}"
+            ],
+            "_banner": ".{@{#-sarakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisarakam"
+                }
+            ],
+            "_meanings": [
+                "drinking wine thrice ({#‘sarakaM SIDupAtre syAt SIDupAne ca SIDuni’ iti#}\n {#viSvaH#}); {#prAtiBaM trisarakeRa gatAnAm#} <ls>Śi. 10. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146589,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sargaH#}@}"
+            ],
+            "_banner": ".{@{#-sargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisargaH"
+                }
+            ],
+            "_meanings": [
+                "the creation of the 3 Guṇas; <ls>Bhāg. 1. 1. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146590,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sAGana#}@}"
+            ],
+            "_banner": ".{@{#-sAGana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisAGana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a threefold causality; <ls>R. 3. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146591,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sAman#}@}"
+            ],
+            "_banner": ".{@{#-sAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisAman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "singing 3 Sāmans (an {#udgAtf#}); {#udrAtA tatra#}\n {#saMgrAme trisAmA dunduBirnfpa#} <ls>Mb. 12. 98. 27</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146593,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sAmyam#}@}"
+            ],
+            "_banner": ".{@{#-sAmyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisAmyam"
+                }
+            ],
+            "_meanings": [
+                "an equilibrium of the three (qualities); <ls>Bhāg. 2. 7. 40</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146594,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-suparRaH, -rRam#}@}"
+            ],
+            "_banner": ".{@{#-suparRaH, -rRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisuparRaH"
+                },
+                {
+                    "Right": "trisuparRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of the three Ṛgvedic verses (<ls>Rv. 10. 114. 3-5</ls>).\n",
+                ".²2 <ab>N.</ab> of <ls>T. Ār. 10. 48-50</ls>. --{%a.%} familiar with or reciting these verses; <ls>Ms. 3. 185</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146597,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sTalI#}@}"
+            ],
+            "_banner": ".{@{#-sTalI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisTalI"
+                }
+            ],
+            "_meanings": [
+                "the three sacred places: {#kASI, prayAga#}, and {#gayA#}.\n"
+            ]
+        },
+        {
+            "__line": 146598,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisTAnam"
+                }
+            ],
+            "_meanings": [
+                "the head, neck and chest together; {#tantrIlayasamAyuktaM#}\n {#trisTAnakaraRAnvitam#} <ls>Rām. 7. 71. 15</ls>. --{%a.%}\n",
+                ".²1 having 3 dwelling places.\n",
+                ".²2 extending through the 3 worlds.\n"
+            ]
+        },
+        {
+            "__line": 146602,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-srotas#}@}"
+            ],
+            "_banner": ".{@{#-srotas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisrotas"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "an epithet of the Ganges; {#trisrotasaM vahati#}\n {#yo gaganapratizWAm#} <ls>Ś. 7. 6</ls>; <ls>R. 10. 63</ls>; <ls>Ku. 7. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 146604,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-sItya, -halya#}@}"
+            ],
+            "_banner": ".{@{#-sItya, -halya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trisItya"
+                },
+                {
+                    "Right": "trihalya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ploughed thrice (as a field).\n"
+            ]
+        },
+        {
+            "__line": 146605,
+            "_ancestry": [
+                "L_ 16848",
+                "B_ {#tri#}",
+                "S_ .{@{#-hAyaRa#}@}"
+            ],
+            "_banner": ".{@{#-hAyaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trihAyaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "three years old."
             ]
         }
     ]

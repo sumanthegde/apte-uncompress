@@ -1,20 +1,58 @@
 {
-    "__line": 132322,
+    "__line": 137284,
     "_ancestry": [
         "L_ 15818",
-        "B_ {#drutiH#}"
+        "B_ {#jyOtsna#}"
     ],
-    "_banner": "{#drutiH#}",
+    "_banner": "{#jyOtsna#}",
     "_bannerExp": [
         {
-            "Right": "drutiH"
+            "Right": "jyOtsna"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Melting, dissolving. ",
-        "{@--2@}\nGoing, running away."
+        "Bright or lit with moonlight.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 137285,
+            "_ancestry": [
+                "L_ 15818",
+                "B_ {#jyOtsna#}",
+                "M_ .{@{#-tsnaH#}@}"
+            ],
+            "_banner": ".{@{#-tsnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jyOtsnaH"
+                }
+            ],
+            "_meanings": [
+                "The bright half of a month.\n"
+            ]
+        },
+        {
+            "__line": 137286,
+            "_ancestry": [
+                "L_ 15818",
+                "B_ {#jyOtsna#}",
+                "M_ .{@{#-tsnI, -tsnikA#}@}"
+            ],
+            "_banner": ".{@{#-tsnI, -tsnikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jyOtsnI"
+                },
+                {
+                    "Right": "jyOtsnikA"
+                }
+            ],
+            "_meanings": [
+                "A full-moon night."
+            ]
+        }
     ]
 }

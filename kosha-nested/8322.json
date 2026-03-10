@@ -1,19 +1,58 @@
 {
-    "__line": 71440,
+    "__line": 69807,
     "_ancestry": [
         "L_ 8322",
-        "B_ {#udvarhita#}"
+        "B_ {#IraRa#}"
     ],
-    "_banner": "{#udvarhita#}",
+    "_banner": "{#IraRa#}",
     "_bannerExp": [
         {
-            "Right": "udvarhita"
+            "Right": "IraRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#Ira-lyuw#}]"
     ],
     "_meanings": [
-        "Drawn up; eradicated."
+        "Agitating, driving.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 69808,
+            "_ancestry": [
+                "L_ 8322",
+                "B_ {#IraRa#}",
+                "M_ .{@{#-RaH#}@}"
+            ],
+            "_banner": ".{@{#-RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IraRaH"
+                }
+            ],
+            "_meanings": [
+                "The wind.\n"
+            ]
+        },
+        {
+            "__line": 69809,
+            "_ancestry": [
+                "L_ 8322",
+                "B_ {#IraRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IraRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Agitating, moving, driving.\n",
+                ".²2 Going.\n",
+                ".²3 = {#iraRa#} <ab>q. v.</ab>"
+            ]
+        }
     ]
 }

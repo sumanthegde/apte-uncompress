@@ -1,19 +1,57 @@
 {
-    "__line": 112867,
+    "__line": 114870,
     "_ancestry": [
         "L_ 13460",
-        "B_ {#cUcukaM, cUcUkaM#}"
+        "B_ {#kzEpram#}"
     ],
-    "_banner": "{#cUcukaM, cUcUkaM#}",
+    "_banner": "{#kzEpram#}",
     "_bannerExp": [
         {
-            "Right": "cUcUkaM"
-        },
-        {
-            "Right": "cUcukaM"
+            "Right": "kzEpram"
         }
     ],
     "_meanings": [
-        "The nipple of a\nbreast; <ls>Śi. 7. 19.</ls>"
+        "Quickness, speediness. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 114870,
+            "_ancestry": [
+                "L_ 13460",
+                "B_ {#kzEpram#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kzEpraM#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                "A kind of {#saMDi#} (produced\n by changing the first of the two concurrent vowels to its semi-vowel).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 114873,
+            "_ancestry": [
+                "L_ 13460",
+                "B_ {#kzEpram#}",
+                "S_ .{@{#-varRa#}@}"
+            ],
+            "_banner": ".{@{#-varRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzEpravarRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "containing a semi-vowel."
+            ]
+        }
     ]
 }

@@ -1,27 +1,58 @@
 {
-    "__line": 164288,
+    "__line": 175603,
     "_ancestry": [
         "L_ 19626",
-        "B_ {#praGaRaH(naH), praGARaH(naH)#}"
+        "B_ {#nyakza#}"
     ],
-    "_banner": "{#praGaRaH(naH), praGARaH(naH)#}",
+    "_banner": "{#nyakza#}",
     "_bannerExp": [
         {
-            "Right": "praGARaH"
-        },
-        {
-            "Right": "praGAnaH"
-        },
-        {
-            "Right": "praGaRaH"
-        },
-        {
-            "Right": "praGanaH"
+            "Right": "nyakza"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A\nporch before the door of a house,\nportico. ",
-        "{@--2@} A copper-pot. ",
-        "{@--3@} An\niron mace, crow-bar."
+        ".²1 Low, inferior, vile, mean.\n",
+        ".²2 Whole, entire.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 175606,
+            "_ancestry": [
+                "L_ 19626",
+                "B_ {#nyakza#}",
+                "M_ .{@{#-kzaH#}@}"
+            ],
+            "_banner": ".{@{#-kzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyakzaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A buffalo.\n",
+                ".²2 An epithet of Paraśurāma.\n"
+            ]
+        },
+        {
+            "__line": 175609,
+            "_ancestry": [
+                "L_ 19626",
+                "B_ {#nyakza#}",
+                "M_ .{@{#-kzam#}@}"
+            ],
+            "_banner": ".{@{#-kzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyakzam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The whole.\n",
+                ".²2 A kind of grass."
+            ]
+        }
     ]
 }

@@ -1,19 +1,77 @@
 {
-    "__line": 240383,
+    "__line": 264531,
     "_ancestry": [
         "L_ 28605",
-        "B_ {#saMlIQa#}"
+        "B_ {#vartula#}"
     ],
-    "_banner": "{#saMlIQa#}",
+    "_banner": "{#vartula#}",
     "_bannerExp": [
         {
-            "Right": "saMlIQa"
+            "Right": "vartula"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#vft-ulac#} <ls>Uṇ. 1. 93</ls>]"
     ],
     "_meanings": [
-        "Licked up; enjoyed,\ntasted."
+        "Round, circular, globular.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 264532,
+            "_ancestry": [
+                "L_ 28605",
+                "B_ {#vartula#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartulaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of pulse, a pea.\n",
+                ".²2 A ball.\n"
+            ]
+        },
+        {
+            "__line": 264535,
+            "_ancestry": [
+                "L_ 28605",
+                "B_ {#vartula#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartulam"
+                }
+            ],
+            "_meanings": [
+                "A circle.\n"
+            ]
+        },
+        {
+            "__line": 264536,
+            "_ancestry": [
+                "L_ 28605",
+                "B_ {#vartula#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartulA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "The end-ball of a spindle (to assist its rotation)."
+            ]
+        }
     ]
 }

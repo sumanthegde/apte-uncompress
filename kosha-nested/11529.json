@@ -1,19 +1,127 @@
 {
-    "__line": 96784,
+    "__line": 96483,
     "_ancestry": [
         "L_ 11529",
-        "B_ {#kEvartaH#}"
+        "B_ {#kambu#}"
     ],
-    "_banner": "{#kEvartaH#}",
+    "_banner": "{#kambu#}",
     "_bannerExp": [
         {
-            "Right": "kEvartaH"
+            "Right": "kambu"
+        },
+        {
+            "Right": "kambU"
         }
     ],
     "_gram": [
-        "[{#ke jale vartate vft-ac; kevartaH#};\n{#tataH svArTe aR#} <ls>Tv.</ls>]"
+        "{%a.%}",
+        "({#-mbu#}|{#-mbU#}|{%f.%})"
     ],
     "_meanings": [
-        "A fisherman;  \n{#manoBUH kEvartaH kzipati paritastvAM prati muhuH#}\n({#tanUjAlIjAlaM#}) <ls>Śānti. 3. 16</ls>;  \n<ls>Ms. 8. 260</ls>; (as to his descent see  \n<ls>Ms. 10. 34</ls>)."
+        "Spotted, variegated.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 96485,
+            "_ancestry": [
+                "L_ 11529",
+                "B_ {#kambu#}",
+                "M_ .{@{#-mbuH, -mbu#}@}"
+            ],
+            "_banner": ".{@{#-mbuH, -mbu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kambuH"
+                },
+                {
+                    "Right": "kambu"
+                }
+            ],
+            "_gram": [
+                "({%m., n.%})"
+            ],
+            "_meanings": [
+                "A conch-shell; {#smarasya kambuH kimayaM#}\n {#cakAsti divi trilokIjayavAdanIyaH#} <ls>N. 22. 22</ls>; <ls>Śi. 18. 54</ls>.\n"
+            ]
+        },
+        {
+            "__line": 96487,
+            "_ancestry": [
+                "L_ 11529",
+                "B_ {#kambu#}",
+                "M_ .{@{#-mbuH#}@}"
+            ],
+            "_banner": ".{@{#-mbuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kambuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An elephant.\n",
+                ".²2 The neck.\n",
+                ".²3 The variegated colour.\n",
+                ".²4 A vein of the body.\n",
+                ".²5 A bracelet; {#kambukeyUraDAriRyaH#} <ls>Mb. 3. 233. 46</ls>.\n",
+                ".²6 A tube-shaped bone.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 96495,
+            "_ancestry": [
+                "L_ 11529",
+                "B_ {#kambu#}",
+                "S_ .{@{#-AtAyin#}@}"
+            ],
+            "_banner": ".{@{#-AtAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kambvAtAyin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a kind of kite.\n"
+            ]
+        },
+        {
+            "__line": 96496,
+            "_ancestry": [
+                "L_ 11529",
+                "B_ {#kambu#}",
+                "S_ .{@{#-kaRWI#}@}"
+            ],
+            "_banner": ".{@{#-kaRWI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kambukaRWI"
+                }
+            ],
+            "_meanings": [
+                "a lady having the neck like a conch-shell.\n"
+            ]
+        },
+        {
+            "__line": 96497,
+            "_ancestry": [
+                "L_ 11529",
+                "B_ {#kambu#}",
+                "S_ .{@{#-grIvA#}@}"
+            ],
+            "_banner": ".{@{#-grIvA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kambugrIvA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a conch-shaped neck, ({%<ab>i. e.</ab>%} a neck marked with three lines like\n a shell and considered as a sign of great fortune).\n",
+                ".²2 a lady having the neck like the conch-shell."
+            ]
+        }
     ]
 }

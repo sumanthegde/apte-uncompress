@@ -1,19 +1,119 @@
 {
-    "__line": 118857,
+    "__line": 123051,
     "_ancestry": [
         "L_ 14271",
-        "B_ {#QAlin#}"
+        "B_ {#gomaya#}"
     ],
-    "_banner": "{#QAlin#}",
+    "_banner": "{#gomaya#}",
     "_bannerExp": [
         {
-            "Right": "QAlin"
+            "Right": "gomaya"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "A warrior armed with\na shield."
+        ".²1 Consisting of cattle; {#ya udAjan pitaro gomayaM vasu#} <ls>Rv. 10. 62. 2</ls>.\n",
+        ".²2 Defiled with cow-dung.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 123054,
+            "_ancestry": [
+                "L_ 14271",
+                "B_ {#gomaya#}",
+                "M_ .{@{#-yaH, -yam#}@}"
+            ],
+            "_banner": ".{@{#-yaH, -yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gomayaH"
+                },
+                {
+                    "Right": "gomayam"
+                }
+            ],
+            "_meanings": [
+                "Cow-dung.\n"
+            ]
+        },
+        {
+            "__line": 123055,
+            "_ancestry": [
+                "L_ 14271",
+                "B_ {#gomaya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gomayam"
+                }
+            ],
+            "_meanings": [
+                "Cowdung cake; {#upalaSakalametadBedakaM gomayAnAm#} <ls>Mu. 3. 15</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 123057,
+            "_ancestry": [
+                "L_ 14271",
+                "B_ {#gomaya#}",
+                "S_ .{@{#-utTA#}@}"
+            ],
+            "_banner": ".{@{#-utTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gomayotTA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a kind of beetle found in cow-dung\n",
+                ".²2 a gad-fly.\n"
+            ]
+        },
+        {
+            "__line": 123060,
+            "_ancestry": [
+                "L_ 14271",
+                "B_ {#gomaya#}",
+                "S_ .{@{#-Catram, -priyam#}@}"
+            ],
+            "_banner": ".{@{#-Catram, -priyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gomayacCatram"
+                },
+                {
+                    "Right": "gomayapriyam"
+                }
+            ],
+            "_meanings": [
+                "a mushroom, a fungus.\n"
+            ]
+        },
+        {
+            "__line": 123061,
+            "_ancestry": [
+                "L_ 14271",
+                "B_ {#gomaya#}",
+                "S_ .{@{#-pAyasIya-nyAya-vat#}@}"
+            ],
+            "_banner": ".{@{#-pAyasIya-nyAya-vat#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gomaya#} S_ .{@{#-pAyasIya-nyAya-vat#}@}"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "(in the manner of cowdung and milky\n food) <ab>i. e.</ab> Very different in nature though having the same origin, <ls>Sarva. S. 2. 169</ls>."
+            ]
+        }
     ]
 }

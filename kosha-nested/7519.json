@@ -1,22 +1,84 @@
 {
-    "__line": 64922,
+    "__line": 62837,
     "_ancestry": [
         "L_ 7519",
-        "B_ {#IrzyA --rzA#}"
+        "B_ {#Artava#}"
     ],
-    "_banner": "{#IrzyA --rzA#}",
+    "_banner": "{#Artava#}",
     "_bannerExp": [
         {
-            "Right": "IrzA"
+            "Right": "Artava"
         },
         {
-            "Right": "IrzyA"
+            "Right": "ArtavA"
+        },
+        {
+            "Right": "ArtavI"
         }
     ],
     "_gram": [
-        "[{#Irzy-ap#}]"
+        "{%a.%}",
+        "({#-vA, -vI#}|{%f.%})",
+        "[{#fturasya prAptaH, aR#}]"
     ],
     "_meanings": [
-        "Envy, \njealousy, envy of another's success,\nspite, malice."
+        ".²1 Conforming or relating to the season; seasonal; {#aBiBUya viBUtimArtavIm#}\n <ls>R. 8. 36</ls>, {#svayamaNgezu mamedamArtavam#} <ls>Ku. 4. 68</ls>; {#latABiH SrIrivArtavI#}\n <ls>V. 1. 13</ls>; vernal; <ls>R. 9. 28</ls>, <ls n=\"R. 9.\">48</ls>.\n",
+        ".²2 Menstrual, relating to or produced by this discharge.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 62843,
+            "_ancestry": [
+                "L_ 7519",
+                "B_ {#Artava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArtavaH"
+                }
+            ],
+            "_meanings": [
+                "A section of the year, a combination of several seasons (<ab>Ved.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 62844,
+            "_ancestry": [
+                "L_ 7519",
+                "B_ {#Artava#}",
+                "M_ .{@{#-vI#}@}"
+            ],
+            "_banner": ".{@{#-vI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArtavI"
+                }
+            ],
+            "_meanings": [
+                "A mare.\n"
+            ]
+        },
+        {
+            "__line": 62845,
+            "_ancestry": [
+                "L_ 7519",
+                "B_ {#Artava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Artavam"
+                }
+            ],
+            "_meanings": [
+                "The menstrual discharge (of women), {#nopagacCetpramatto'pi#}\n {#striyamArtavadarSane#} <ls>Ms. 4. 40</ls>, <ls n=\"Ms.\">3. 48</ls>.\n",
+                ".²2 Certain days after menstrual discharge, favourable to conception.\n",
+                ".²3 Menstrual ablution; {#girikAyAH prayacCASu tasyA hyArtavamadya vE#} <ls>Mb. 1. 63. 55</ls>.\n",
+                ".²4 A flower."
+            ]
+        }
     ]
 }

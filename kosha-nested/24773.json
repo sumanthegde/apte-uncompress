@@ -1,45 +1,189 @@
 {
-    "__line": 209941,
+    "__line": 221729,
     "_ancestry": [
         "L_ 24773",
-        "B_ {#loBana#}"
+        "B_ {#boDa#}"
     ],
-    "_banner": "{#loBana#}",
+    "_banner": "{#boDa#}",
     "_bannerExp": [
         {
-            "Right": "loBanI"
-        },
-        {
-            "Right": "loBana"
+            "Right": "boDa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Alluring, \nenticing. "
+        "Knowing, understanding.\n"
     ],
     "_morphisms": [
         {
-            "__line": 209942,
+            "__line": 221730,
             "_ancestry": [
                 "L_ 24773",
-                "B_ {#loBana#}",
-                "M_ {#--naM#}"
+                "B_ {#boDa#}",
+                "M_ .{@{#-DaH#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-DaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "loBanaM"
+                    "Right": "boDaH"
                 }
             ],
             "_gram": [
-                "[{#luB-lyuw#}]"
+                "[{#buD-BAve GaY#}]"
             ],
             "_meanings": [
-                "{@--1@} \nAllurement, temptation, seduction, \nenticement. ",
-                "{@--2@} Gold."
+                ".²1 Perception, knowledge, apprehension, observation, conception; {#bAlAnAM#}\n {#suKaboDAya#} <ls>T. S.</ls>\n",
+                ".²2 Idea, thought.\n",
+                ".²3 Understanding, intellect, intelligence, wisdom.\n",
+                ".²4 Waking up, becoming awake, a waking state, consciousness.\n",
+                ".²5 Opening, blooming, expanding.\n",
+                ".²6 Instruction, advice, admonition.\n",
+                ".²7 Awakening, rousing.\n",
+                ".²8 An epithet, designation.\n",
+                ".²9 <ab>N.</ab> of a district.\n",
+                ".²10 Exciting (a perfume).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 221743,
+            "_ancestry": [
+                "L_ 24773",
+                "B_ {#boDa#}",
+                "S_ .{@{#-atIta#}@}"
+            ],
+            "_banner": ".{@{#-atIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDAtIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unknowable, incomprehensible.\n"
+            ]
+        },
+        {
+            "__line": 221744,
+            "_ancestry": [
+                "L_ 24773",
+                "B_ {#boDa#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDakara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who teaches or informs.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 221745,
+                    "_ancestry": [
+                        "L_ 24773",
+                        "B_ {#boDa#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "boDakaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a bard or minstrel who wakes up his master by singing appropriate songs\n in the morning.\n",
+                        ".²2 an instructor, a teacher.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 221749,
+            "_ancestry": [
+                "L_ 24773",
+                "B_ {#boDa#}",
+                "S_ .{@{#-gamya#}@}"
+            ],
+            "_banner": ".{@{#-gamya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDagamya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "intelligible.\n"
+            ]
+        },
+        {
+            "__line": 221750,
+            "_ancestry": [
+                "L_ 24773",
+                "B_ {#boDa#}",
+                "S_ .{@{#-pUrva#}@}"
+            ],
+            "_banner": ".{@{#-pUrva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDapUrva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "intentional, conscious; <ab>cf.</ab> {#aboDapUrva#} <ls>Ś. 5. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 221751,
+            "_ancestry": [
+                "L_ 24773",
+                "B_ {#boDa#}",
+                "S_ .{@{#-pUrvam#}@}"
+            ],
+            "_banner": ".{@{#-pUrvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDapUrvam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "knowingly, consciously.\n"
+            ]
+        },
+        {
+            "__line": 221752,
+            "_ancestry": [
+                "L_ 24773",
+                "B_ {#boDa#}",
+                "S_ .{@{#-vAsaraH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDavAsaraH"
+                }
+            ],
+            "_meanings": [
+                "the eleventh day in the bright half of Kārtika when\n Viṣṇu is supposed to rise from his four monthsʼ sleep; see <ls>Me. 112</ls>, and {#praboDinI#}."
             ]
         }
     ]

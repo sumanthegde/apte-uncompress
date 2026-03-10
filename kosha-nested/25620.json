@@ -1,20 +1,1093 @@
 {
-    "__line": 216827,
+    "__line": 231713,
     "_ancestry": [
         "L_ 25620",
-        "B_ {#vikal#}"
+        "B_ {#madaH#}"
     ],
-    "_banner": "{#vikal#}",
+    "_banner": "{#madaH#}",
     "_bannerExp": [
         {
-            "Right": "vikal"
+            "Right": "madaH"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>"
+        "[{#mad-ac#}]"
     ],
     "_meanings": [
-        "To maim, cripple,\nmake defective."
+        ".²1 Intoxication, drunkenness, inebriety; {#madenAspfSye#} <ls>Dk.</ls>; {#madavikArARAM#}\n {#darSakaH#} <ls>K. 45</ls>; see <ab>comps.</ab> below.\n",
+        ".²2 Madness, insanity.\n",
+        ".²3 Ardent passion, wanton or lustful passion, lasciviousness, lust; {#iti#}\n {#madamadanAByAM rAgiRaH spazwarAgAn#} <ls>Śi. 10. 91</ls>.\n",
+        ".²4 Rut, ichor, or the juice that exudes from the temples of an elephant\n in rut; {#madena BAti kalaBaH pratApena mahIpatiH#} <ls>Chandr. 5. 45</ls>; so\n {#madakalaH, madonmatta#}; <ls>Me. 20</ls>; <ls>R. 2. 7</ls>, <ls n=\"R.\">12. 102</ls>.\n",
+        ".²5 Love, desire, ardour.\n",
+        ".²6 Pride, arrogance, conceit; {#taM mohAcCrayate madaH sa ca madAddAsyena#}\n {#nirvidyate#} <ls>Pt. 1. 240</ls>.\n",
+        ".²7 Rapture, excessive delight.\n",
+        ".²8 Spirituous liquor; {#pAyayitvA madaM samyak#} <ls>Śukra. 4. 1171</ls>.\n",
+        ".²9 Honey.\n",
+        ".²10 Musk.\n",
+        ".²11 Semen virile.\n",
+        ".²12 Soma.\n",
+        ".²13 Any beautiful object.\n",
+        ".²14 A river ({#nada#}.)\n",
+        ".²15 Beauty; {#nIlAravindamadaBaNgimadEH kawAkzEH#} <ls>Bv. 3. 4</ls>.\n",
+        ".²16 <ab>N.</ab> of the 7th astrological mansion.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 231735,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "M_ .{@{#-dI#}@}"
+            ],
+            "_banner": ".{@{#-dI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A drinking-cup.\n",
+                ".²2 Any agricultural implement (such as a plough <ab>&c.</ab>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 231739,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-atyayaH, -AtaNkaH#}@}"
+            ],
+            "_banner": ".{@{#-atyayaH, -AtaNkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAtyayaH"
+                },
+                {
+                    "Right": "madAtaNkaH"
+                }
+            ],
+            "_meanings": [
+                "any distemper (such as headache) resulting\n from drunkenness.\n"
+            ]
+        },
+        {
+            "__line": 231741,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-anDa#}@}"
+            ],
+            "_banner": ".{@{#-anDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAnDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 blinded by intoxication, dead drunk, drunk with passion; {#aDaramiva#}\n {#madAnDA pAtumezA pravfttA#} <ls>V. 4. 13</ls>; {#yadA kiMcijjYo'haM dvipa iva madAnDaH#}\n {#samaBavam#} <ls>Bh. 2. 7</ls>.\n",
+                ".²2 blinded by passion or pride, arrogant, infatuated.\n"
+            ]
+        },
+        {
+            "__line": 231746,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-apanayam#}@}"
+            ],
+            "_banner": ".{@{#-apanayam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madApanayam"
+                }
+            ],
+            "_meanings": [
+                "removal of intoxication.\n"
+            ]
+        },
+        {
+            "__line": 231747,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-ambaraH#}@}"
+            ],
+            "_banner": ".{@{#-ambaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAmbaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an elephant in rut.\n",
+                ".²2 <ab>N.</ab> of Airāvata, the elephant of Indra.\n"
+            ]
+        },
+        {
+            "__line": 231750,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-alasa#}@}"
+            ],
+            "_banner": ".{@{#-alasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAlasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "languid with passion or intoxication.\n"
+            ]
+        },
+        {
+            "__line": 231751,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-alasA#}@}"
+            ],
+            "_banner": ".{@{#-alasA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAlasA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the daughter of Viśvaketu, the lord of Gandharvas.\n"
+            ]
+        },
+        {
+            "__line": 231752,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-avasTA#}@}"
+            ],
+            "_banner": ".{@{#-avasTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAvasTA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a state of drunkenness.\n",
+                ".²2 wantonness, lustfulness.\n",
+                ".²3 rut, being in rut; {#antarmadAvasTa iva dvipendraH#} <ls>R. 2. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231756,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-Akula#}@}"
+            ],
+            "_banner": ".{@{#-Akula#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAkula"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 furious with rut.\n",
+                ".²2 full of lust, overpowered by passion.\n"
+            ]
+        },
+        {
+            "__line": 231759,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-AQya#}@}"
+            ],
+            "_banner": ".{@{#-AQya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAQya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "drunk, intoxicated. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 231759,
+                    "_ancestry": [
+                        "L_ 25620",
+                        "B_ {#madaH#}",
+                        "S_ .{@{#-AQya#}@}",
+                        "S_M_ ({@{#-QyaH#}@}"
+                    ],
+                    "_banner": "({@{#-QyaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "madAQyaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the palm tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 231760,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-AmnAtaH#}@}"
+            ],
+            "_banner": ".{@{#-AmnAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAmnAtaH"
+                }
+            ],
+            "_meanings": [
+                "a kettle-drum carried on the back of an elephant.\n"
+            ]
+        },
+        {
+            "__line": 231761,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-AlApin#}@}"
+            ],
+            "_banner": ".{@{#-AlApin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAlApin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a cuckoo.\n"
+            ]
+        },
+        {
+            "__line": 231762,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-AhvaH#}@}"
+            ],
+            "_banner": ".{@{#-AhvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madAhvaH"
+                }
+            ],
+            "_meanings": [
+                "musk.\n"
+            ]
+        },
+        {
+            "__line": 231763,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-utkawa#}@}"
+            ],
+            "_banner": ".{@{#-utkawa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madotkawa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 intoxicated, excited by drink.\n\n",
+                ".²2 furious with passion, lustful.\n",
+                ".²3 arrogant, proud, haughty.\n",
+                ".²4 ruttish, under the influence of rut; {#madotkawe recitapuzpavfkzA ganDadvipe#}\n {#vanya iva dvirePAH#} <ls>R. 6. 7</ls>; {#hastinaM kamalanAlatantunA badDumicCati#}\n {#vane madotkawam#}. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 231770,
+                    "_ancestry": [
+                        "L_ 25620",
+                        "B_ {#madaH#}",
+                        "S_ .{@{#-utkawa#}@}",
+                        "S_M_ ({@{#-waH#}@}"
+                    ],
+                    "_banner": "({@{#-waH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "madotkawaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an elephant in rut.\n",
+                        ".²2 a dove.\n."
+                    ]
+                },
+                {
+                    "__line": 231773,
+                    "_ancestry": [
+                        "L_ 25620",
+                        "B_ {#madaH#}",
+                        "S_ .{@{#-utkawa#}@}",
+                        "S_M_ ({@{#-wA#}@}"
+                    ],
+                    "_banner": "({@{#-wA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "madotkawA"
+                        }
+                    ],
+                    "_meanings": [
+                        "spirituous liquor.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 231774,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-utsavaH, udBavaH#}@}"
+            ],
+            "_banner": ".{@{#-utsavaH, udBavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madotsavaH"
+                },
+                {
+                    "Right": "madodBavaH"
+                }
+            ],
+            "_meanings": [
+                "mango\n"
+            ]
+        },
+        {
+            "__line": 231775,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-udagra, unmatta#}@}"
+            ],
+            "_banner": ".{@{#-udagra, unmatta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madodagra"
+                },
+                {
+                    "Right": "madonmatta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 drunk, intoxicated.\n",
+                ".²2 furious, drunk with passion: {#madodagrAH kakudmantaH saritAM kUlamudrujAH#} <ls>R. 4. 22</ls>.\n",
+                ".²3 arrogant, proud, haughty; {#madonmattasya BUpasya kuYjarasya ca gacCataH#}\n {#unmArgaM vAcyatAM yAnti mahAmAtrAH samIpagAH#} <ls>Pt. 1. 161</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231780,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-udagrA#}@}"
+            ],
+            "_banner": ".{@{#-udagrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madodagrA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A woman; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 231781,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-udData#}@}"
+            ],
+            "_banner": ".{@{#-udData#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madodData"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 drunk with passion; {#madodDatAH pratyanilaM viceruH#} <ls>Ku. 3 31</ls>; {#satpakzA maDuragiraH prasADitASA madodDatAramBAH#} <ls>Ve. 1. 6</ls>.\n",
+                ".²2 inflated with pride.\n"
+            ]
+        },
+        {
+            "__line": 231784,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-ullApin#}@}"
+            ],
+            "_banner": ".{@{#-ullApin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madollApin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the cuckoo.\n"
+            ]
+        },
+        {
+            "__line": 231785,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-Urjita#}@}"
+            ],
+            "_banner": ".{@{#-Urjita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madorjita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "swollen with pride.\n"
+            ]
+        },
+        {
+            "__line": 231786,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-kawaH#}@}"
+            ],
+            "_banner": ".{@{#-kawaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madakawaH"
+                }
+            ],
+            "_meanings": [
+                "a eunuch.\n"
+            ]
+        },
+        {
+            "__line": 231787,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madakara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "intoxicating, causing intoxication.\n"
+            ]
+        },
+        {
+            "__line": 231788,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-karin#}@}"
+            ],
+            "_banner": ".{@{#-karin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madakarin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an elephant in rut.\n"
+            ]
+        },
+        {
+            "__line": 231789,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-kala#}@}"
+            ],
+            "_banner": ".{@{#-kala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madakala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "speaking softly or inarticulately, speaking indistinctly;\n {#madakalodakalolavihaMgamAH#} <ls>R. 9. 37</ls>; {#madakalamadirAkzInIvimokzo#}\n {#hi mokzaH#} <ls>Udb.</ls>\n",
+                ".²2 uttering low sounds of love.\n",
+                ".²3 drunk with passion; {#etasmin madakalamallikAkzapakza …#} <ls>U. 1. 31</ls>; <ls>Māl. 9. 14</ls>.\n",
+                ".²4 indistinct yet sweet; {#madakalaM kUjitaM sArasAnAm#} <ls>Me. 31</ls>.\n",
+                ".²5 ruttish, furious, under the influence of rut; <ls>V. 4. 46</ls>.\n",
+                ".²6 furious, mad.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 231797,
+                    "_ancestry": [
+                        "L_ 25620",
+                        "B_ {#madaH#}",
+                        "S_ .{@{#-kala#}@}",
+                        "S_M_ ({@{#-laH#}@}"
+                    ],
+                    "_banner": "({@{#-laH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "madakalaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an elephant in rut.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 231798,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-kohalaH#}@}"
+            ],
+            "_banner": ".{@{#-kohalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madakohalaH"
+                }
+            ],
+            "_meanings": [
+                "a bull set at liberty (to roam at will).\n"
+            ]
+        },
+        {
+            "__line": 231799,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-Kela#}@}"
+            ],
+            "_banner": ".{@{#-Kela#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaKela"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "stately or sportive through passion; {#madaKelapadaM#}\n {#kaTaM nu tasyAH#} <ls>V. 4. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231801,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-ganDA#}@}"
+            ],
+            "_banner": ".{@{#-ganDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaganDA"
+                }
+            ],
+            "_meanings": [
+                ".²1 an intoxicating drink.\n",
+                ".²2 hemp.\n"
+            ]
+        },
+        {
+            "__line": 231804,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-gamanaH#}@}"
+            ],
+            "_banner": ".{@{#-gamanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madagamanaH"
+                }
+            ],
+            "_meanings": [
+                "a buffalo.\n"
+            ]
+        },
+        {
+            "__line": 231805,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-cyut#}@}"
+            ],
+            "_banner": ".{@{#-cyut#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madacyut"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 distilling rut (as an elephant).\n",
+                ".²2 lustful, wanton, drunk.\n",
+                ".²3 gladdening, exhilarating. --({%m.%}) an epithet of Indra. --({%m.%} dual)\n an epithet of the Aśvins.\n"
+            ]
+        },
+        {
+            "__line": 231810,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-jalam, -vAri#}@}"
+            ],
+            "_banner": ".{@{#-jalam, -vAri#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madajalam"
+                },
+                {
+                    "Right": "madavAri"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "rutting juice, ichor exuding from the temples\n of a ruttish elephant.\n"
+            ]
+        },
+        {
+            "__line": 231812,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-jvaraH#}@}"
+            ],
+            "_banner": ".{@{#-jvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madajvaraH"
+                }
+            ],
+            "_meanings": [
+                "fever of pride or passion; {#katipayapurasvAmye puMsAM#}\n {#ka eza madajvaraH#} <ls>Bh. 3. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231814,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-druH#}@}"
+            ],
+            "_banner": ".{@{#-druH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madadruH"
+                }
+            ],
+            "_meanings": [
+                "a cocoa-nut tree (<lang>Mar.</lang> <ns>{#mAqa#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 231815,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-dvipaH#}@}"
+            ],
+            "_banner": ".{@{#-dvipaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madadvipaH"
+                }
+            ],
+            "_meanings": [
+                "a furious elephant, an elephant in rut.\n"
+            ]
+        },
+        {
+            "__line": 231816,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-prayogaH, -prasekaH, -prasravaRam, -srAvaH, -srutiH#}@}"
+            ],
+            "_banner": ".{@{#-prayogaH, -prasekaH, -prasravaRam, -srAvaH, -srutiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaprayogaH"
+                },
+                {
+                    "Right": "madaprasekaH"
+                },
+                {
+                    "Right": "madaprasravaRam"
+                },
+                {
+                    "Left": "S error: midAlign srAvaH prasrAvaH"
+                },
+                {
+                    "Right": "madasrutiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the\n exudation of ichor or rutting juice from the temple of an elephant.\n"
+            ]
+        },
+        {
+            "__line": 231818,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-prasekaH#}@}"
+            ],
+            "_banner": ".{@{#-prasekaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaprasekaH"
+                }
+            ],
+            "_meanings": [
+                "the aphrodisiacal fluid ({#vIryacyutiH#}); {#anyatra#}\n {#muYcanti madaprasekam#} <ls>Mk. 4. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231820,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-BaNgaH#}@}"
+            ],
+            "_banner": ".{@{#-BaNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaBaNgaH"
+                }
+            ],
+            "_meanings": [
+                "humiliation of pride; <ls>Bv. 3. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231821,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-BaYjinI#}@}"
+            ],
+            "_banner": ".{@{#-BaYjinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaBaYjinI"
+                }
+            ],
+            "_meanings": [
+                "Asparagus Racemosus (<lang>Mar.</lang> <ns>{#SatAvarI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 231822,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-mattA#}@}"
+            ],
+            "_banner": ".{@{#-mattA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madamattA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre.\n"
+            ]
+        },
+        {
+            "__line": 231823,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-muc#}@}"
+            ],
+            "_banner": ".{@{#-muc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madamuc"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘dropping down ichor’, furious, intoxicated; {#so'yaM#}\n {#putrastava madamucAM vAraRAnAM vijetA#} <ls>U. 3. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231825,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-mohita#}@}"
+            ],
+            "_banner": ".{@{#-mohita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madamohita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 stupefied by drunkenness; {#akAryamanyat kuryAd vA brAhmaRo madamohitaH#} <ls>Ms. 11. 96</ls>.\n",
+                ".²2 infatuated by pride.\n"
+            ]
+        },
+        {
+            "__line": 231828,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-rakta#}@}"
+            ],
+            "_banner": ".{@{#-rakta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madarakta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "affected with passion.\n"
+            ]
+        },
+        {
+            "__line": 231829,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-rAgaH#}@}"
+            ],
+            "_banner": ".{@{#-rAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madarAgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Cupid.\n",
+                ".²2 a cock.\n",
+                ".²3 a drunkard.\n"
+            ]
+        },
+        {
+            "__line": 231833,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-leKA#}@}"
+            ],
+            "_banner": ".{@{#-leKA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaleKA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a line of rut, a line formed by the juice flowing from an elephantʼs temples.\n",
+                ".²2 a kind of metre.\n"
+            ]
+        },
+        {
+            "__line": 231836,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-vikzipta#}@}"
+            ],
+            "_banner": ".{@{#-vikzipta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madavikzipta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 in rut, furious.\n",
+                ".²2 agitated by lust or passion.\n"
+            ]
+        },
+        {
+            "__line": 231839,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-vihvala#}@}"
+            ],
+            "_banner": ".{@{#-vihvala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madavihvala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 maddened by lust or pride.\n",
+                ".²2 stupefied with intoxication.\n"
+            ]
+        },
+        {
+            "__line": 231842,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-vIryam#}@}"
+            ],
+            "_banner": ".{@{#-vIryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madavIryam"
+                }
+            ],
+            "_meanings": [
+                ".²1 strength produced by passion.\n",
+                ".²2 the heroism of love.\n"
+            ]
+        },
+        {
+            "__line": 231845,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-vfndaH#}@}"
+            ],
+            "_banner": ".{@{#-vfndaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madavfndaH"
+                }
+            ],
+            "_meanings": [
+                "an elephant.\n"
+            ]
+        },
+        {
+            "__line": 231846,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-SORqaH, -SORqakam#}@}"
+            ],
+            "_banner": ".{@{#-SORqaH, -SORqakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madaSORqaH"
+                },
+                {
+                    "Right": "madaSORqakam"
+                }
+            ],
+            "_meanings": [
+                "nutmeg.\n"
+            ]
+        },
+        {
+            "__line": 231847,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-sAraH#}@}"
+            ],
+            "_banner": ".{@{#-sAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madasAraH"
+                }
+            ],
+            "_meanings": [
+                "a cotton shrub.\n"
+            ]
+        },
+        {
+            "__line": 231848,
+            "_ancestry": [
+                "L_ 25620",
+                "B_ {#madaH#}",
+                "S_ .{@{#-sTalam, -sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-sTalam, -sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madasTalam"
+                },
+                {
+                    "Right": "madasTAnam"
+                }
+            ],
+            "_meanings": [
+                "an ale-house, dram-shop, tavern."
+            ]
+        }
     ]
 }

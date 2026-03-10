@@ -1,19 +1,63 @@
 {
-    "__line": 164976,
+    "__line": 177135,
     "_ancestry": [
         "L_ 19733",
-        "B_ {#praRa#}"
+        "B_ {#paYcaka#}"
     ],
-    "_banner": "{#praRa#}",
+    "_banner": "{#paYcaka#}",
     "_bannerExp": [
         {
-            "Right": "praRa"
+            "Right": "paYcaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Old, ancient."
+        ".²1 Consisting of five.\n",
+        ".²2 Relating to five.\n",
+        ".²3 Made of five.\n",
+        ".²4 Bought with five.\n",
+        ".²5 Taking five percent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 177141,
+            "_ancestry": [
+                "L_ 19733",
+                "B_ {#paYcaka#}",
+                "M_ .{@{#-kaH, -kam#}@}"
+            ],
+            "_banner": ".{@{#-kaH, -kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcakaH"
+                },
+                {
+                    "Right": "paYcakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A collection or aggregate of five; {#amlapaYcakam#}.\n",
+                ".²2 the pentad of five {#nakzatra#}s beginning from {#DanizWA#} and ending in {#revatI#}.\n"
+            ]
+        },
+        {
+            "__line": 177144,
+            "_ancestry": [
+                "L_ 19733",
+                "B_ {#paYcaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paYcakam"
+                }
+            ],
+            "_meanings": [
+                "A field of battle."
+            ]
+        }
     ]
 }

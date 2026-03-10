@@ -1,25 +1,41 @@
 {
-    "__line": 82125,
+    "__line": 81185,
     "_ancestry": [
         "L_ 9700",
-        "B_ {#oK#}"
+        "B_ {#upaparcana, upapfc#}"
     ],
-    "_banner": "{#oK#}",
+    "_banner": "{#upaparcana, upapfc#}",
     "_bannerExp": [
         {
-            "Right": "oK"
+            "Right": "upaparcana"
+        },
+        {
+            "Right": "upapfc"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#oKati, oKAMcakAra, oKituM#},\n{#oKita#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To be dry. ",
-        "{@--2@} To be\nable; be sufficient. ",
-        "{@--3@} To adorn or\ngrace. ",
-        "{@--4@} To refuse. ",
-        "{@--5@} To ward off,\nprevent."
+        "Closely touching.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 81186,
+            "_ancestry": [
+                "L_ 9700",
+                "B_ {#upaparcana, upapfc#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upaparcanam"
+                }
+            ],
+            "_meanings": [
+                "Impregnation or admixture (<ab>Ved.</ab>). {#upedamupaparcanamAsu#}\n {#gozUpa pfcyatAm#} <ls>Rv. 6. 28. 8</ls>."
+            ]
+        }
     ]
 }

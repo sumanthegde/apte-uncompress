@@ -1,18 +1,40 @@
 {
-    "__line": 74464,
+    "__line": 73223,
     "_ancestry": [
         "L_ 8716",
-        "B_ {#upapradAnaM#}"
+        "B_ {#uttras#}"
     ],
-    "_banner": "{#upapradAnaM#}",
+    "_banner": "{#uttras#}",
     "_bannerExp": [
         {
-            "Right": "upapradAnaM"
+            "Right": "uttras"
         }
     ],
+    "_gram": [
+        "€1",
+        "€4",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "{@--1@} Delivering over, \nentrusting. ",
-        "{@--2@} A bribe, present;\n{#upapradAnErmArjAro hitakftprArTyate janEH#}  \n<ls>Pt. 1. 95.</ls> ",
-        "{@--3@} A tribute."
+        "To be afraid. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 73223,
+            "_ancestry": [
+                "L_ 8716",
+                "B_ {#uttras#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "uttras"
+                }
+            ],
+            "_meanings": [
+                "To frighten, alarm."
+            ]
+        }
     ]
 }

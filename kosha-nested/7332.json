@@ -1,19 +1,72 @@
 {
-    "__line": 63114,
+    "__line": 61359,
     "_ancestry": [
         "L_ 7332",
-        "B_ {#itaredyuH#}"
+        "B_ {#AmlaH#}, {#-mlA#}"
     ],
-    "_banner": "{#itaredyuH#}",
+    "_banner": "{#AmlaH#}, {#-mlA#}",
     "_bannerExp": [
         {
-            "Right": "itaredyuH"
+            "Right": "AmlaH"
+        },
+        {
+            "Right": "AmlA"
         }
     ],
-    "_gram": [
-        "{%<ab>ind.</ab>%}"
-    ],
     "_meanings": [
-        "On another day, the\nother day."
+        "The tamarind tree.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 61361,
+            "_ancestry": [
+                "L_ 7332",
+                "B_ {#AmlaH#}, {#-mlA#}",
+                "M_ .{@{#-mlam#}@}"
+            ],
+            "_banner": ".{@{#-mlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Amlam"
+                }
+            ],
+            "_meanings": [
+                "Sourness, acidity.\n"
+            ]
+        },
+        {
+            "__line": 61362,
+            "_ancestry": [
+                "L_ 7332",
+                "B_ {#AmlaH#}, {#-mlA#}",
+                "M_ .{@{#-paYcakam#}@}"
+            ],
+            "_banner": ".{@{#-paYcakam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: AmlaH/AmlA paMcakaM"
+                }
+            ],
+            "_meanings": [
+                "The aggregate of the five following Ziziphus Jujuba\n (<lang>Mar.</lang> <ns>{#bora#}</ns>), Pomegranate (<lang>Mar.</lang> <ns>{#qALiMba#}</ns>), Mangosteen (<lang>Mar.</lang> <ns>{#kokaMba#}</ns>),\n Tamarind (<lang>Mar.</lang> <ns>{#ciMca#}</ns>), Averrhoa Carambola (<lang>Mar.</lang> <ns>{#karamara#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 61365,
+            "_ancestry": [
+                "L_ 7332",
+                "B_ {#AmlaH#}, {#-mlA#}",
+                "M_ .{@{#-vetasaH#}@}"
+            ],
+            "_banner": ".{@{#-vetasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: AmlaH/AmlA vetasaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the plant Rumex Vesicarius (<lang>Mar.</lang> <ns>{#cukA#}</ns>)."
+            ]
+        }
     ]
 }

@@ -1,20 +1,63 @@
 {
-    "__line": 15650,
+    "__line": 13642,
     "_ancestry": [
         "L_ 1502",
-        "B_ {#anukAmIna#}"
+        "B_ {#anAraBya#}"
     ],
-    "_banner": "{#anukAmIna#}",
+    "_banner": "{#anAraBya#}",
     "_bannerExp": [
         {
-            "Right": "anukAmIna"
+            "Right": "anAraBya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#kAmasya sadfSaM anukAmaM#};\n{#Ka pratyayaH; anukAmaM gAmI yaTezwaM gaMtA ityarTaH#}\n<ls>P. V. 2. 11</ls> <ls>Sk.</ls>]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Going at will\nor pleasure; one who acts as he\npleases; {#anukAmInatAM tyaja#} <ls>Bk.</ls>"
+        "Unfit to be commenced or undertaken. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 13642,
+            "_ancestry": [
+                "L_ 1502",
+                "B_ {#anAraBya#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#anAraBya#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Without commencing; without reference to any particular thing {%<ab>e. g.</ab>%} {#˚vAdaH#}\n",
+                ".²1 detached remark (upon sacrifices <ab>&c.</ab>); {#kiYcitkarmAraBya udyate ucyate#}\n {#ityAraByavAdaH na AraByavAdaH#}\n",
+                ".²2 A statement without any specific reference to any particular thing\n or act, {#na vAnAraByavAdAt .#} <ls>MS. 6. 6. 3</ls>, A statement having no definite context.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 13650,
+            "_ancestry": [
+                "L_ 1502",
+                "B_ {#anAraBya#}",
+                "S_ .{@{#-aDIta#}@}"
+            ],
+            "_banner": ".{@{#-aDIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAraByADIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#na AraBya kiYcidaDItaH#}]"
+            ],
+            "_meanings": [
+                "studied or taught or\n read without reference to any particular subject (not as part of a regular\n or authoritative work); learnt as a detached subject; {#yezAM mantrARAM#}\n {#karmaviSeze viniyogo noktaH tezAM mantrARAm anAraByADItatvAt brahmayajYe#}\n {#eva viniyoga iti mImAMsA#}."
+            ]
+        }
     ]
 }

@@ -1,19 +1,67 @@
 {
-    "__line": 9102,
+    "__line": 7626,
     "_ancestry": [
         "L_ 777",
-        "B_ {#atyAsaH#}"
+        "B_ {#atiSayaH#}"
     ],
-    "_banner": "{#atyAsaH#}",
+    "_banner": "{#atiSayaH#}",
     "_bannerExp": [
         {
-            "Right": "atyAsaH"
+            "Right": "atiSayaH"
         }
     ],
     "_gram": [
-        "[{#ati-as-GaY#}]"
+        "[{#SI-ac#}]"
     ],
     "_meanings": [
-        "Allowing to pass, only in <ab>acc.</ab> <ab>sing.</ab> as {#Ramul#};\n{#dvyahAtyAsaM#} or {#dvyahamatyAsaM gAH pAyayati#} \n<ls>P. III. 4. 57</ls> after an interval of {2} days\n({#adya pAyayitvA dvyahamatikramya punaH pAyayati#})."
+        ".²1 Excess, pre-eminence, excellence; {#vIrya˚#} <ls>R. 3. 62</ls>; {#mahimnAM … atiSayaH#}\n <ls>U. 4. 21</ls>; {#tasmin viDAnAtiSaye viDAtuH#} <ls>R. 6. 11</ls> excellence, highest\n perfection of art.\n",
+        ".²2 Superiority (in quality, rank, quantity <ab>&c.</ab>); {#mahArGastIrTAnAmiva#}\n {#hi mahatAM ko'pyatiSayaH#} <ls>U. 6. 11</ls>; often in <ab>comp.</ab> with adjectives, in\n the sense of ‘exceedingly’; {#˚ramaRIyaH#} <ls>Mu. 3</ls>; {#AsIdatiSayaprekzyaH#}\n <ls>R. 17. 25</ls>; {#muktA guRAtiSayasaMBftamaRqanaSrIH#} <ls>V. 5. 19</ls>; or with nouns,\n meaning ‘excellent’; ‘excessive’; ‘very great’; {#˚rayaH, aSvAtiSayama#}\n <ls>K. 80</ls> the best of horses; {#˚dAridryopahatAH#}.\n",
+        ".²3 Advantageous result, one of the superhuman qualities attributed to\n Jain saints. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 7637,
+            "_ancestry": [
+                "L_ 777",
+                "B_ {#atiSayaH#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#atiSayaH#} M_ --{%a.%}"
+                }
+            ],
+            "_gram": [
+                "[{#atiSayaH astyarTe ac#}]"
+            ],
+            "_meanings": [
+                "Superior, pre-eminent,\n excessive, very great, abundant.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 7640,
+            "_ancestry": [
+                "L_ 777",
+                "B_ {#atiSayaH#}",
+                "S_ .{@{#-uktiH#}@}"
+            ],
+            "_banner": ".{@{#-uktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atiSayoktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 exaggerated or hyperbolical language, extreme assertion.\n",
+                ".²2 a figure of speech, (<ab>corr.</ab> to hyperbole) said to be of 5 kinds in <ls>S. D.</ls>,\n but of 4 in <ls>K. P.</ls>; {#nigIryADyavasAnaM tu prakftasya pareRa yat .#}\n {#prastutasya yadanyatvaM yadyarToktO ca kalpanam .. kAryakAraRayoryaSca#}\n {#pOrvAparyavipayayaH . vijYeyAtiSayoktiH sA#}; Ex. of the first kind: {#kamalamanamBasi#}\n {#kamale ca kuvalaye tAni kanakalatikAyAm . sA ca sukumArasuBagetyutpAtaparamparA keyam ..#}\n",
+                ".²3 verbosity."
+            ]
+        }
     ]
 }

@@ -1,41 +1,53 @@
 {
-    "__line": 111262,
+    "__line": 112865,
     "_ancestry": [
         "L_ 13246",
-        "B_ {#cAmIkaraM#}"
+        "B_ {#klIba(va)#}"
     ],
-    "_banner": "{#cAmIkaraM#}",
+    "_banner": "{#klIba(va)#}",
     "_bannerExp": [
         {
-            "Right": "cAmIkaraM"
+            "Right": "klIba"
+        },
+        {
+            "Right": "klIva"
         }
     ],
     "_gram": [
-        "[{#camIkare svarRAkaraBede Bavam#}\n{#aR#} <ls>Tv.</ls>]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Gold; {#taptacAmIkarAMgadaH#}\n<ls>V. 1. 14</ls>; <ls>R. 7. 5</ls>; <ls>Śi. 4. 24</ls>;  \n<ls>Ku. 7. 49.</ls> ",
-        "{@--2@} The Dhattūra plant. "
+        ".²1 Impotent, neuter, emasculated; <ls>Ms. 3. 150</ls>, <ls n=\"Ms.\">4. 205</ls>; <ls>Y. 1. 223</ls>.\n",
+        ".²2 Unmanly, timid, weak, weak-minded; <ls>R. 8. 84</ls>; {#klIbAn pAlayitA#} <ls>Mk. 9. 5</ls>.\n",
+        ".²3 Cowardly.\n",
+        ".²4 Mean, base.\n",
+        ".²5 Idle.\n",
+        ".²6 Of the neuter gender.\n",
+        ".²7 Desireless ({#kAmahIna#}); {#vidvAnklIbaH paSyati prItiyogAt#} <ls>Mb. 12. 292. 23</ls>.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 111265,
+            "__line": 112873,
             "_ancestry": [
                 "L_ 13246",
-                "B_ {#cAmIkaraM#}",
-                "S_ \n{#--praKya#}"
+                "B_ {#klIba(va)#}",
+                "M_ .{@{#-baH, -bam#}@}"
             ],
-            "_banner": "\n{#--praKya#}",
+            "_banner": ".{@{#-baH, -bam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "cAmIkarapraKya"
+                    "Right": "klIbaH"
+                },
+                {
+                    "Right": "klIbam"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "({@{#-vaH, -vam#}@})"
             ],
             "_meanings": [
-                "like gold."
+                ".²1 An impotent man, a eunuch; {#na mUtraM PenilaM yasya vizwA cApsu nimajjati .#}\n\n {#meQraM conmAdaSukrAByAM hInaM klIbaH sa ucyate ..#} <ls>Kāty.</ls> quoted\n in Dāyabhāga.\n",
+                ".²2 The neuter gender."
             ]
         }
     ]

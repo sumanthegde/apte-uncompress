@@ -1,37 +1,65 @@
 {
-    "__line": 6880,
+    "__line": 5562,
     "_ancestry": [
         "L_ 491",
-        "B_ {#atanaM#}"
+        "B_ {#aYjasA#}"
     ],
-    "_banner": "{#atanaM#}",
+    "_banner": "{#aYjasA#}",
     "_bannerExp": [
         {
-            "Right": "atanaM"
+            "Right": "aYjasA"
         }
     ],
     "_gram": [
-        "[{#at-lyuw#}]"
+        "{%<ab>adv.</ab>%}"
     ],
     "_meanings": [
-        "Going, \nwandering. "
+        "(<ab>instr.</ab> of {#aYjas#})\n",
+        ".²1 Straight on.\n",
+        ".²2 Truly, correctly, accurately, properly, justly; {#sAkzAd dfzwo'si na#}\n {#punarvidmastvAM vayamaYjasA#} <ls>Ku. 6. 22</ls> we do not know you rightly or\n correctly; {#vidma he SaWa palAyanacCalAnyaYjasA#} <ls>R. 19. 31</ls>, {#na hi kaScitpriyaH#}\n {#strIRAmaYjasA#} <ls>Subhāṣ.</ls>; {#sarvamevAYjasA vada#} <ls>Ms. 8. 101</ls>.\n",
+        ".²3 Directly ({#sAkzAt#}),\n",
+        ".²4 Soon, quickly, instantly; {#sa gacCatyaYjasA vipro brahmaRaH sadma#}\n {#SASvatam#} <ls>Ms. 2. 244</ls>. {#… aYjasA tattvatUrRayoH .#} <ls>Nm.</ls> {#vaSamAnetumaYjasA .#}\n <ls>Śiva B. 25. 1</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 6881,
+            "__line": 5573,
             "_ancestry": [
                 "L_ 491",
-                "B_ {#atanaM#}",
-                "M_ {#--naH#}"
+                "B_ {#aYjasA#}",
+                "S_ .{@{#-ayana#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-ayana#}@}",
             "_bannerExp": [
                 {
-                    "Right": "atanaH"
+                    "Right": "aYjasAyana"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "A wanderer, a passer-by."
+                "going straight on.\n"
+            ]
+        },
+        {
+            "__line": 5574,
+            "_ancestry": [
+                "L_ 491",
+                "B_ {#aYjasA#}",
+                "S_ .{@{#-kfta#}@}"
+            ],
+            "_banner": ".{@{#-kfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aYjasAkfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#tf#}. {#aluk#}]"
+            ],
+            "_meanings": [
+                "done rightly or justly."
             ]
         }
     ]

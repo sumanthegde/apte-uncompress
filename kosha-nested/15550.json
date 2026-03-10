@@ -1,37 +1,115 @@
 {
-    "__line": 129949,
+    "__line": 134894,
     "_ancestry": [
         "L_ 15550",
-        "B_ {#doGa#}"
+        "B_ {#jAnu#}"
     ],
-    "_banner": "{#doGa#}",
+    "_banner": "{#jAnu#}",
     "_bannerExp": [
         {
-            "Right": "doGa"
+            "Right": "jAnu"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}",
+        "[{#jan-YuR#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Milking. "
+        "The knee; {#jAnuByAmavaniM gatvA#} kneeling\n (or falling on oneʼs knees) on the ground.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 129949,
+            "__line": 134897,
             "_ancestry": [
                 "L_ 15550",
-                "B_ {#doGa#}",
-                "M_ {#--GaH#}"
+                "B_ {#jAnu#}",
+                "S_ .{@{#-daDna#}@}"
             ],
-            "_banner": "{#--GaH#}",
+            "_banner": ".{@{#-daDna#}@}",
             "_bannerExp": [
                 {
-                    "Right": "doGaH"
+                    "Right": "jAnudaDna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "reaching to, as high as the knees, knee-deep.\n"
+            ]
+        },
+        {
+            "__line": 134898,
+            "_ancestry": [
+                "L_ 15550",
+                "B_ {#jAnu#}",
+                "S_ .{@{#-prakftikam#}@}"
+            ],
+            "_banner": ".{@{#-prakftikam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAnuprakftikam"
                 }
             ],
             "_meanings": [
-                "Milking."
+                "A variety of wrestling.\n"
+            ]
+        },
+        {
+            "__line": 134899,
+            "_ancestry": [
+                "L_ 15550",
+                "B_ {#jAnu#}",
+                "S_ .{@{#-Palakam, -maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-Palakam, -maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAnuPalakam"
+                },
+                {
+                    "Right": "jAnumaRqalam"
+                }
+            ],
+            "_meanings": [
+                "the knee-pan.\n"
+            ]
+        },
+        {
+            "__line": 134900,
+            "_ancestry": [
+                "L_ 15550",
+                "B_ {#jAnu#}",
+                "S_ .{@{#-vijAnu#}@}"
+            ],
+            "_banner": ".{@{#-vijAnu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAnuvijAnu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a peculiar position in fighting (contracting and\n extending the knees).\n"
+            ]
+        },
+        {
+            "__line": 134902,
+            "_ancestry": [
+                "L_ 15550",
+                "B_ {#jAnu#}",
+                "S_ .{@{#-sanDiH#}@}"
+            ],
+            "_banner": ".{@{#-sanDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAnusanDiH"
+                }
+            ],
+            "_meanings": [
+                "the knee-joint."
             ]
         }
     ]

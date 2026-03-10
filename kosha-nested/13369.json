@@ -1,21 +1,156 @@
 {
-    "__line": 112374,
+    "__line": 114027,
     "_ancestry": [
         "L_ 13369",
-        "B_ {#ciri#}"
+        "B_ {#kzipta#}"
     ],
-    "_banner": "{#ciri#}",
+    "_banner": "{#kzipta#}",
     "_bannerExp": [
         {
-            "Right": "ciri"
+            "Right": "kzipta"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "<ab>P.</ab>",
-        "({#ciriRoti#})"
+        "{%<ab>p. p.</ab>%}",
+        "[{#kzip-kta#}]"
     ],
     "_meanings": [
-        "To kill,\nhurt, injure (used only in the\nVeda)."
+        ".²1 Thrown, scattered, hurled, cast; {#kziptA jUrRirna vakzati#} <ls>Rv. 1. 129. 8</ls>.\n",
+        ".²2 Abandoned.\n",
+        ".²3 Disregarded, neglected, disrespected.\n",
+        ".²4 Placed.\n",
+        ".²5 Distracted, mad (see {#kzip#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 114033,
+            "_ancestry": [
+                "L_ 13369",
+                "B_ {#kzipta#}",
+                "M_ .{@{#-ptA#}@}"
+            ],
+            "_banner": ".{@{#-ptA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziptA"
+                }
+            ],
+            "_meanings": [
+                "Night.\n"
+            ]
+        },
+        {
+            "__line": 114034,
+            "_ancestry": [
+                "L_ 13369",
+                "B_ {#kzipta#}",
+                "M_ .{@{#-ptam#}@}"
+            ],
+            "_banner": ".{@{#-ptam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziptam"
+                }
+            ],
+            "_meanings": [
+                "A wound caused by shooting; {#aTo kziptasya BezajIm#} <ls>Av. 6. 109. 3</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 114036,
+            "_ancestry": [
+                "L_ 13369",
+                "B_ {#kzipta#}",
+                "S_ .{@{#-uttaram#}@}"
+            ],
+            "_banner": ".{@{#-uttaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziptottaram"
+                }
+            ],
+            "_meanings": [
+                "unanswerable speech.\n"
+            ]
+        },
+        {
+            "__line": 114037,
+            "_ancestry": [
+                "L_ 13369",
+                "B_ {#kzipta#}",
+                "S_ .{@{#-kukkaraH#}@}"
+            ],
+            "_banner": ".{@{#-kukkaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziptakukkaraH"
+                }
+            ],
+            "_meanings": [
+                "a mad dog.\n"
+            ]
+        },
+        {
+            "__line": 114038,
+            "_ancestry": [
+                "L_ 13369",
+                "B_ {#kzipta#}",
+                "S_ .{@{#-citta#}@}"
+            ],
+            "_banner": ".{@{#-citta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziptacitta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "distracted in mind, absent-minded.\n"
+            ]
+        },
+        {
+            "__line": 114039,
+            "_ancestry": [
+                "L_ 13369",
+                "B_ {#kzipta#}",
+                "S_ .{@{#-deha#}@}"
+            ],
+            "_banner": ".{@{#-deha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziptadeha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "prostrating the body, lying down.\n"
+            ]
+        },
+        {
+            "__line": 114040,
+            "_ancestry": [
+                "L_ 13369",
+                "B_ {#kzipta#}",
+                "S_ .{@{#-yoni#}@}"
+            ],
+            "_banner": ".{@{#-yoni#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziptayoni"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of despicable descent (not fit to act as {#ftvij#})."
+            ]
+        }
     ]
 }

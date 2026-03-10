@@ -1,21 +1,38 @@
 {
-    "__line": 196361,
+    "__line": 208643,
     "_ancestry": [
         "L_ 23323",
-        "B_ {#mus#}"
+        "B_ {#pralapita#}"
     ],
-    "_banner": "{#mus#}",
+    "_banner": "{#pralapita#}",
     "_bannerExp": [
         {
-            "Right": "mus"
+            "Right": "pralapita"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>",
-        "({#musyati#})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "To cleave,\ndivide, break into pieces."
+        "Talked, prated, <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 208644,
+            "_ancestry": [
+                "L_ 23323",
+                "B_ {#pralapita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pralapitam"
+                }
+            ],
+            "_meanings": [
+                "Talk; {#vaco vEdehIti pratipadamudaSru pralapitam#}; see\n {#pralapana#} above."
+            ]
+        }
     ]
 }

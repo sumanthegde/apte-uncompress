@@ -1,19 +1,42 @@
 {
-    "__line": 173789,
+    "__line": 187871,
     "_ancestry": [
         "L_ 20980",
-        "B_ {#prasva(svA)naH#}"
+        "B_ {#pARika#}"
     ],
-    "_banner": "{#prasva(svA)naH#}",
+    "_banner": "{#pARika#}",
     "_bannerExp": [
         {
-            "Right": "prasvAnaH"
+            "Right": "pARika"
         },
         {
-            "Right": "prasvanaH"
+            "Right": "pARikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A loud noise."
+        "Got by playing at stake.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 187873,
+            "_ancestry": [
+                "L_ 20980",
+                "B_ {#pARika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pARikaH"
+                }
+            ],
+            "_meanings": [
+                "A merchant."
+            ]
+        }
     ]
 }

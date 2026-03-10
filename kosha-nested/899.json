@@ -1,38 +1,58 @@
 {
-    "__line": 10335,
+    "__line": 8621,
     "_ancestry": [
         "L_ 899",
-        "B_ {#adveza#}"
+        "B_ {#aTarvANgirasa#}"
     ],
-    "_banner": "{#adveza#}",
+    "_banner": "{#aTarvANgirasa#}",
     "_bannerExp": [
         {
-            "Right": "adveza"
+            "Right": "aTarvANgirasa"
+        },
+        {
+            "Right": "aTarvANgirasI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na#}. {#ba#}.]"
+        "{%a.%}",
+        "({#-sI#}|{%f.%})"
     ],
     "_meanings": [
-        "Free from \nhatred or malevolence. "
+        "Connected with {#aTarvANgiras#}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 10336,
+            "__line": 8623,
             "_ancestry": [
                 "L_ 899",
-                "B_ {#adveza#}",
-                "M_ {#--zaH#}"
+                "B_ {#aTarvANgirasa#}",
+                "M_ .{@{#-sam#}@}"
             ],
-            "_banner": "{#--zaH#}",
+            "_banner": ".{@{#-sam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "advezaH"
+                    "Right": "aTarvANgirasam"
                 }
             ],
             "_meanings": [
-                "Freedom\nfrom hatred."
+                "Office of this person.\n"
+            ]
+        },
+        {
+            "__line": 8624,
+            "_ancestry": [
+                "L_ 899",
+                "B_ {#aTarvANgirasa#}",
+                "M_ .{@{#-sAH#}@}"
+            ],
+            "_banner": ".{@{#-sAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aTarvANgirasAH"
+                }
+            ],
+            "_meanings": [
+                "Hymns of this Veda. {#SrutIraTarvANgirasIH prakuryAdavicArayan#} <ls>Ms. 11. 33</ls>."
             ]
         }
     ]

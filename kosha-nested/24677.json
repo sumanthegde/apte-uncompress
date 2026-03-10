@@ -1,26 +1,191 @@
 {
-    "__line": 209071,
+    "__line": 220754,
     "_ancestry": [
         "L_ 24677",
-        "B_ {#luMW#}"
+        "B_ {#bilam#}"
     ],
-    "_banner": "{#luMW#}",
+    "_banner": "{#bilam#}",
     "_bannerExp": [
         {
-            "Right": "luMW"
+            "Right": "bilam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#luMWati#})"
-    ],
     "_meanings": [
-        "{@--1@} To go. ",
-        "{@--2@} To\nstir up, agitate, set in motion.\n",
-        "{@--3@} To be idle. ",
-        "{@--4@} To be lame.\n",
-        "{@--5@} To reb, plunder. ",
-        "{@--6@} To resist."
+        ".²1 A hole, cavity, burrow; {#KanannAKubilaM siMhaH … prApnoti#}\n {#naKaBaNgaM hi#} <ls>Pt. 3. 17</ls>; <ls>R. 12. 5</ls>; <ls>Ms. 10. 49</ls>.\n",
+        ".²2 A gap, pit, chasm.\n",
+        ".²3 An aperture, opening, outlet.\n",
+        ".²4 A cave, hollow.\n",
+        ".²5 The hollow of a dish.\n",
+        ".²6 The vagina.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 220761,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of {#uccEHSravas#}, the horse of Indra.\n",
+                ".²2 A sort of cane.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 220765,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-ayanam#}@}"
+            ],
+            "_banner": ".{@{#-ayanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilAyanam"
+                }
+            ],
+            "_meanings": [
+                "a subterranean cave or cavern.\n"
+            ]
+        },
+        {
+            "__line": 220766,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-okas#}@}"
+            ],
+            "_banner": ".{@{#-okas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilOkas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "any animal that lives in holes.\n"
+            ]
+        },
+        {
+            "__line": 220767,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-kArin#}@}"
+            ],
+            "_banner": ".{@{#-kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilakArin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a mouse.\n"
+            ]
+        },
+        {
+            "__line": 220768,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-yoni#}@}"
+            ],
+            "_banner": ".{@{#-yoni#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilayoni"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of the breed of {#uccEHSravas#}; {#yatrASvA bilayonayaH#} <ls>Ku. 6. 39</ls>.\n"
+            ]
+        },
+        {
+            "__line": 220769,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-vAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilavAsaH"
+                }
+            ],
+            "_meanings": [
+                "a pole-cat.\n\n"
+            ]
+        },
+        {
+            "__line": 220771,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-vAsin#}@}"
+            ],
+            "_banner": ".{@{#-vAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilavAsin"
+                }
+            ],
+            "_meanings": [
+                "(also {#bilevAsin#}) {%m.%} a snake.\n"
+            ]
+        },
+        {
+            "__line": 220772,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-SAyin#}@}"
+            ],
+            "_banner": ".{@{#-SAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilaSAyin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "any animal living in burrows.\n"
+            ]
+        },
+        {
+            "__line": 220773,
+            "_ancestry": [
+                "L_ 24677",
+                "B_ {#bilam#}",
+                "S_ .{@{#-svargaH#}@}"
+            ],
+            "_banner": ".{@{#-svargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bilasvargaH"
+                }
+            ],
+            "_meanings": [
+                "the lower region, hell; <ls>Bhāg. 5. 24. 8</ls>."
+            ]
+        }
     ]
 }

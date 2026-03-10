@@ -1,21 +1,160 @@
 {
-    "__line": 236813,
+    "__line": 259916,
     "_ancestry": [
         "L_ 28152",
-        "B_ {#SUnA#}"
+        "B_ {#locana#}"
     ],
-    "_banner": "{#SUnA#}",
+    "_banner": "{#locana#}",
     "_bannerExp": [
         {
-            "Right": "SUnA"
+            "Right": "locana"
+        },
+        {
+            "Right": "locanI"
         }
     ],
     "_gram": [
-        "[{#Svi aDikaraRe --kta saMpra0 dIrGaH#}\n<ls>Tv.</ls>]"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} The soft palate, uvula. ",
-        "{@--2@}\nA slaughter house in general. ",
-        "{@--3@}\nAnything (such as a piece of\nhousehold furniture), whereby\nlife is likely to be \ndestroyed; (these are five; a fire place,\na grind-stone, a broom, a mortar,\nand a water-pot; {#paMca SUnA gfhasTasya cullI#}\n{#pezaRyupaskaraH . kaMqanI codakuMBaSca vaDyate yAstu#}\n{#vAhayan#} <ls>Ms. 3. 68.</ls>)"
+        ".²1 Illuminating, brightening.\n",
+        ".²2 Visible.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 259919,
+            "_ancestry": [
+                "L_ 28152",
+                "B_ {#locana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "locanam"
+                }
+            ],
+            "_gram": [
+                "[{#locyate'nena loc-karaRe lyuw#}]"
+            ],
+            "_meanings": [
+                ".²1 Seeing, sight, viewing.\n",
+                ".²2 The eye; {#SezAn mAsAn gamaya caturo locane mIlayitvA#} <ls>Me. 112</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 259923,
+            "_ancestry": [
+                "L_ 28152",
+                "B_ {#locana#}",
+                "S_ .{@{#-aYcalaH#}@}"
+            ],
+            "_banner": ".{@{#-aYcalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "locanAYcalaH"
+                }
+            ],
+            "_meanings": [
+                "a corner of the eye.\n"
+            ]
+        },
+        {
+            "__line": 259924,
+            "_ancestry": [
+                "L_ 28152",
+                "B_ {#locana#}",
+                "S_ .{@{#-ApAtaH#}@}"
+            ],
+            "_banner": ".{@{#-ApAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "locanApAtaH"
+                }
+            ],
+            "_meanings": [
+                "a glance.\n"
+            ]
+        },
+        {
+            "__line": 259925,
+            "_ancestry": [
+                "L_ 28152",
+                "B_ {#locana#}",
+                "S_ .{@{#-AvaraRam#}@}"
+            ],
+            "_banner": ".{@{#-AvaraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "locanAvaraRam"
+                }
+            ],
+            "_meanings": [
+                "an eyelid.\n"
+            ]
+        },
+        {
+            "__line": 259926,
+            "_ancestry": [
+                "L_ 28152",
+                "B_ {#locana#}",
+                "S_ .{@{#-gocaraH, -paTaH, -mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-gocaraH, -paTaH, -mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "locanagocaraH"
+                },
+                {
+                    "Right": "locanapaTaH"
+                },
+                {
+                    "Right": "locanamArgaH"
+                }
+            ],
+            "_meanings": [
+                "the range of sight, sphere of vision.\n"
+            ]
+        },
+        {
+            "__line": 259927,
+            "_ancestry": [
+                "L_ 28152",
+                "B_ {#locana#}",
+                "S_ .{@{#-paruza#}@}"
+            ],
+            "_banner": ".{@{#-paruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "locanaparuza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hideous in appearance; {#locanaparuzaM kamapi puruzaM#}\n {#dadarSa#} <ls>Dk. 1. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 259929,
+            "_ancestry": [
+                "L_ 28152",
+                "B_ {#locana#}",
+                "S_ .{@{#-hitA#}@}"
+            ],
+            "_banner": ".{@{#-hitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "locanahitA"
+                }
+            ],
+            "_meanings": [
+                "blue vitriol."
+            ]
+        }
     ]
 }

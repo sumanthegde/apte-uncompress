@@ -1,21 +1,167 @@
 {
-    "__line": 226060,
+    "__line": 245182,
     "_ancestry": [
         "L_ 26830",
-        "B_ {#vuMg#}"
+        "B_ {#mlAna#}"
     ],
-    "_banner": "{#vuMg#}",
+    "_banner": "{#mlAna#}",
     "_bannerExp": [
         {
-            "Right": "vuMg"
+            "Right": "mlAna"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#vuMgati#})"
+        "{%<ab>p. p.</ab>%}",
+        "[{#mlE-kta tasya naH#}]"
     ],
     "_meanings": [
-        "To leave, \nabandon."
+        ".²1 Faded, withered.\n",
+        ".²2 Wearied, weary, languid.\n",
+        ".²3 Enfeebled, weak, feeble, faint.\n",
+        ".²4 Sad, dejected, melancholy.\n",
+        ".²5 Black.\n",
+        ".²6 Foul, dirty.\n",
+        ".²7 Ignominous; {#kaH kurvIta SiraH praRAmamalinaM mlAnaM manasvI janaH#} <ls>Bh. 1. 32</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 245190,
+            "_ancestry": [
+                "L_ 26830",
+                "B_ {#mlAna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mlAnam"
+                }
+            ],
+            "_meanings": [
+                "Withering, fading.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 245192,
+            "_ancestry": [
+                "L_ 26830",
+                "B_ {#mlAna#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mlAnANga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "weak-bodied.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 245193,
+                    "_ancestry": [
+                        "L_ 26830",
+                        "B_ {#mlAna#}",
+                        "S_ .{@{#-aNga#}@}",
+                        "S_M_ ({@{#-NgI#}@}"
+                    ],
+                    "_banner": "({@{#-NgI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "mlAnANgI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a woman during her menses.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 245194,
+            "_ancestry": [
+                "L_ 26830",
+                "B_ {#mlAna#}",
+                "S_ .{@{#-manas#}@}"
+            ],
+            "_banner": ".{@{#-manas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mlAnamanas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "depressed in mind, dispirited, disheartened.\n"
+            ]
+        },
+        {
+            "__line": 245195,
+            "_ancestry": [
+                "L_ 26830",
+                "B_ {#mlAna#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mlAnamuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sad, dejected; see {#mlAnavaktra#}; {#drAkzA mlAnamuKI#}\n {#jAtA SarkarA cASmatAM gatA . suBAzitarasasyAgre suDA BItA divaM gatA ..#} <ls>Subhāṣ.</ls>\n"
+            ]
+        },
+        {
+            "__line": 245197,
+            "_ancestry": [
+                "L_ 26830",
+                "B_ {#mlAna#}",
+                "S_ .{@{#-vaktra#}@}"
+            ],
+            "_banner": ".{@{#-vaktra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mlAnavaktra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a blackened countenance.\n"
+            ]
+        },
+        {
+            "__line": 245198,
+            "_ancestry": [
+                "L_ 26830",
+                "B_ {#mlAna#}",
+                "S_ .{@{#-vrIqa#}@}"
+            ],
+            "_banner": ".{@{#-vrIqa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mlAnavrIqa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "shameless."
+            ]
+        }
     ]
 }

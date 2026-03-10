@@ -1,40 +1,88 @@
 {
-    "__line": 151252,
+    "__line": 158416,
     "_ancestry": [
         "L_ 17907",
-        "B_ {#pariKid#}"
+        "B_ {#DaraRa#}"
     ],
-    "_banner": "{#pariKid#}",
+    "_banner": "{#DaraRa#}",
     "_bannerExp": [
         {
-            "Right": "pariKid"
+            "Right": "DaraRa"
+        },
+        {
+            "Right": "DaraRI"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#Df-yuc#}]"
     ],
     "_meanings": [
-        "To suffer pain or\nmisery, be distressed or wearied.\n"
+        "Bearing, preserving, holding <ab>&c.</ab>\n"
     ],
     "_morphisms": [
         {
-            "__line": 151254,
+            "__line": 158418,
             "_ancestry": [
                 "L_ 17907",
-                "B_ {#pariKid#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#DaraRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pariKid"
+                    "Right": "DaraRaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                ".²1 A ridge of land serving the purpose of a bridge; the side of a mountain.\n",
+                ".²2 The world.\n",
+                ".²3 The sun.\n",
+                ".²4 The female breast.\n",
+                ".²5 Rice, corn.\n",
+                ".²6 The\n\n Himālaya (as king of mountains). ",
+                ".²7 A dike, bank.\n"
+            ]
+        },
+        {
+            "__line": 158427,
+            "_ancestry": [
+                "L_ 17907",
+                "B_ {#DaraRa#}",
+                "M_ .{@{#-Rama#}@}"
+            ],
+            "_banner": ".{@{#-Rama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DaraRama"
+                }
             ],
             "_meanings": [
-                "To injure, hurt."
+                ".²1 Supporting, sustaining, upholding; {#sAraM DaritrIDaraRakzamaM ca#}\n <ls>Ku. 1. 17</ls>; {#DaraRiDaraRakiRacakragarizWe#} <ls>Gīt. 1</ls>.\n",
+                ".²2 Possessing, bringing, procuring, <ab>&c.</ab>\n",
+                ".²3 Prop, stay, support.\n",
+                ".²4 Security.\n",
+                ".²5 A measure of weight equal to ten {%palas%}; {#palaM suvarRAScatvAraH#}\n {#palAni DaraRaM daSa#} <ls>Ms. 8. 135</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 158436,
+            "_ancestry": [
+                "L_ 17907",
+                "B_ {#DaraRa#}",
+                "S_ .{@{#-priyA#}@}"
+            ],
+            "_banner": ".{@{#-priyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DaraRapriyA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a Jaina deity executing the commands of the 19th Arhat."
             ]
         }
     ]

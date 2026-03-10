@@ -1,16 +1,76 @@
 {
-    "__line": 106993,
+    "__line": 108227,
     "_ancestry": [
         "L_ 12758",
-        "B_ {#gOrikA#}"
+        "B_ {#kft#}"
     ],
-    "_banner": "{#gOrikA#}",
+    "_banner": "{#kft#}",
     "_bannerExp": [
         {
-            "Right": "gOrikA"
+            "Right": "kft"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#kf-kvip#}]"
+    ],
     "_meanings": [
-        "A virgin, a young girl."
+        "(Generally at the end of <ab>comp.</ab>) Accomplisher,\n doer, maker, performer, manufacturer, composer <ab>&c.</ab>; {#pApa˚, puRya˚, pratimA˚#} <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 108228,
+            "_ancestry": [
+                "L_ 12758",
+                "B_ {#kft#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kft#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A class of affixes used to form derivatives (nouns, adjectives <ab>&c.</ab>) from roots.\n",
+                ".²2 A word so formed; {#kfdgrahaRe gatikArakapUrvasyApi grahaRam#} <ls>Pari. Śekh.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 108232,
+            "_ancestry": [
+                "L_ 12758",
+                "B_ {#kft#}",
+                "S_ .{@{#-anta#}@}"
+            ],
+            "_banner": ".{@{#-anta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfdanta"
+                }
+            ],
+            "_meanings": [
+                "a word ending with a kṛt affix.\n"
+            ]
+        },
+        {
+            "__line": 108233,
+            "_ancestry": [
+                "L_ 12758",
+                "B_ {#kft#}",
+                "S_ .{@{#-lopaH#}@}"
+            ],
+            "_banner": ".{@{#-lopaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kfllopaH"
+                }
+            ],
+            "_meanings": [
+                "the rejection of kṛt affixes."
+            ]
+        }
     ]
 }

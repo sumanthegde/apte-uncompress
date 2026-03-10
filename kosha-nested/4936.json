@@ -1,22 +1,80 @@
 {
-    "__line": 44131,
+    "__line": 41922,
     "_ancestry": [
         "L_ 4936",
-        "B_ {#avahf#}"
+        "B_ {#avawa#}"
     ],
-    "_banner": "{#avahf#}",
+    "_banner": "{#avawa#}",
     "_bannerExp": [
         {
-            "Right": "avahf"
+            "Right": "avawa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#ava-awan#}]"
     ],
     "_meanings": [
-        "{@--1@} To take away, put\nor lay aside; place down; {#arBakaM#} \n{#kasmAdavahftaM Bavati#} <ls>Nir.</ls> ",
-        "{@--2@} To hold, contain;\n{#kuqavamavaharati#} <ls>Sk.</ls> ",
-        "{@--3@} To throw or\nknock down (<ab>Ved.</ab>)."
+        "Produced in a hole.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 41923,
+            "_ancestry": [
+                "L_ 4936",
+                "B_ {#avawa#}",
+                "M_ .{@{#-waH#}@}"
+            ],
+            "_banner": ".{@{#-waH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avawaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A hole, cavity.\n",
+                ".²2 A pit; {#krOYcAvawe#} <ls>Rām. 6. 107. 60</ls>; {#avawe cApi me rAma prakzipemaM#}\n {#kalevaram#}; {#avawe ye niDIyante#} <ls>Rām.</ls> {#vipAwayanniva jagad daMzwrAwwAlaGawAvawEH#} <ls>Bm. 1. 762</ls>.\n",
+                ".²3 A well.\n",
+                ".²4 Any low or depressed part of the body, sinus; {#avawaScEvametAni sTAnAnyatra#}\n {#SarIrake#} <ls>Y. 3. 98</ls>.\n",
+                ".²5 A juggler.\n",
+                ".²6 Drunk; the commentary of Mahendra on Hemacandraʼs Anekārthasaṃgraha\n {#pramatte'pi maNKaH yaTA avawAtaNkasaMketaniketanasamASrayAm#}\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 41934,
+            "_ancestry": [
+                "L_ 4936",
+                "B_ {#avawa#}",
+                "S_ .{@{#-kacCapaH#}@}"
+            ],
+            "_banner": ".{@{#-kacCapaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avawakacCapaH"
+                }
+            ],
+            "_meanings": [
+                "a tortoise in a hole; (<ab>fig.</ab>) one who has had no experience,\n who has seen nothing of the world.\n"
+            ]
+        },
+        {
+            "__line": 41936,
+            "_ancestry": [
+                "L_ 4936",
+                "B_ {#avawa#}",
+                "S_ .{@{#-niroDanaH#}@}"
+            ],
+            "_banner": ".{@{#-niroDanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avawaniroDanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a particular hell."
+            ]
+        }
     ]
 }

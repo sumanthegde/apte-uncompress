@@ -1,28 +1,77 @@
 {
-    "__line": 122724,
+    "__line": 128166,
     "_ancestry": [
         "L_ 14773",
-        "B_ {#tup, --tuMp, --tuMPa#}"
+        "B_ {#calana#}"
     ],
-    "_banner": "{#tup, --tuMp, --tuMPa#}",
+    "_banner": "{#calana#}",
     "_bannerExp": [
         {
-            "Right": "tuMPa"
-        },
-        {
-            "Right": "tuMp"
-        },
-        {
-            "Right": "tup"
+            "Right": "calana"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#topati#}, \n{#tupati, tuMpa-Pa-ti#})"
+        "{%a.%}",
+        "[{#cal BAve lyuw#}]"
     ],
     "_meanings": [
-        "To injure, hurt."
+        "Moving, tremulous, trembling, shaking.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 128167,
+            "_ancestry": [
+                "L_ 14773",
+                "B_ {#calana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A foot.\n",
+                ".²2 A deer.\n"
+            ]
+        },
+        {
+            "__line": 128170,
+            "_ancestry": [
+                "L_ 14773",
+                "B_ {#calana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calanam"
+                }
+            ],
+            "_meanings": [
+                "Trembling, shaking or shaking motion; {#calanAtmakaM karma#}\n <ls>T. S.</ls>; {#hasta˚, jAnu˚#} <ab>&c.</ab>; {#taraladfgaYcalacalanamanoharavadanajanitaratirAgam#} <ls>Gīt. 11</ls>.\n",
+                ".²2 Turning or leaving off.\n",
+                ".²3 Roaming, wandering.\n"
+            ]
+        },
+        {
+            "__line": 128174,
+            "_ancestry": [
+                "L_ 14773",
+                "B_ {#calana#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A short petticoat worn by common women.\n",
+                ".²2 The rope for tying an elephant."
+            ]
+        }
     ]
 }

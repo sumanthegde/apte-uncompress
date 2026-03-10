@@ -1,36 +1,83 @@
 {
-    "__line": 13908,
+    "__line": 11971,
     "_ancestry": [
         "L_ 1280",
-        "B_ {#anaSanaM#}"
+        "B_ {#anaquh#}"
     ],
-    "_banner": "{#anaSanaM#}",
+    "_banner": "{#anaquh#}",
     "_bannerExp": [
         {
-            "Right": "anaSanaM"
+            "Right": "anaquh"
         }
     ],
+    "_gram": [
+        "{%m.%}",
+        "[{#anaH SakawaM vahati#}]"
+    ],
     "_meanings": [
-        "Fasting, abstinence from\nfood, fasting oneself to death; {#°naM ca#}\n{#SAyayitvA#} <ls>Dk. 156</ls> making him fast;\n{#°nAt uttizWati#} <ls>Pt. 4.</ls> "
+        "({#anaqvAn, ˚qvAhO, ˚qudByAm#} <ab>&c.</ab>)\n",
+        ".²1 An ox, bull.\n",
+        ".²2 The sign Taurus. {#vfzaBarASi#}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 13911,
+            "__line": 11974,
             "_ancestry": [
                 "L_ 1280",
-                "B_ {#anaSanaM#}",
-                "M_ {%--<ab>a.</ab>%}"
+                "B_ {#anaquh#}",
+                "M_ .{@{#-hI#}@}"
             ],
+            "_banner": ".{@{#-hI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "anaSanaM"
+                    "Right": "anaquhI"
+                }
+            ],
+            "_meanings": [
+                "or {#anaqvAhI#} A cow.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 11976,
+            "_ancestry": [
+                "L_ 1280",
+                "B_ {#anaquh#}",
+                "S_ .{@{#-jihf#}@}"
+            ],
+            "_banner": ".{@{#-jihf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anaqujjihf"
                 }
             ],
             "_gram": [
-                "{%--<ab>a.</ab>%}"
+                "[{#anaquho jihveva patrARi yasyAH sA#}]"
             ],
             "_meanings": [
-                "Without\nfood, fasting &c."
+                "a plant ({#gojihvA, anantamUla#}).\n"
+            ]
+        },
+        {
+            "__line": 11977,
+            "_ancestry": [
+                "L_ 1280",
+                "B_ {#anaquh#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anaqudda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[<sab>{#upa˚ sa˚#}</sab>]"
+            ],
+            "_meanings": [
+                "a giver of oxen."
             ]
         }
     ]

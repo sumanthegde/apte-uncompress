@@ -1,42 +1,60 @@
 {
-    "__line": 49532,
+    "__line": 46748,
     "_ancestry": [
         "L_ 5613",
-        "B_ {#asTiti#}"
+        "B_ {#aviSaNka#}"
     ],
-    "_banner": "{#asTiti#}",
+    "_banner": "{#aviSaNka#}",
     "_bannerExp": [
         {
-            "Right": "asTiti"
+            "Right": "aviSaNka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Not firm. ",
-        "{@--2@} Having\nno settled boundary or limit. "
+        "Having no fears or doubt, fearless.\n"
     ],
     "_morphisms": [
         {
-            "__line": 49533,
+            "__line": 46749,
             "_ancestry": [
                 "L_ 5613",
-                "B_ {#asTiti#}",
-                "M_ {#--tiH#}"
+                "B_ {#aviSaNka#}",
+                "M_ .{@{#-kA#}@}"
             ],
-            "_banner": "{#--tiH#}",
+            "_banner": ".{@{#-kA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "asTitiH"
+                    "Right": "aviSaNkA"
+                }
+            ],
+            "_meanings": [
+                "Absence of doubt or fear, confidence, certainty.\n"
+            ]
+        },
+        {
+            "__line": 46750,
+            "_ancestry": [
+                "L_ 5613",
+                "B_ {#aviSaNka#}",
+                "M_ .{@{#-Nkam, aviSaNkena#}@}"
+            ],
+            "_banner": ".{@{#-Nkam, aviSaNkena#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aviSaNkam"
+                },
+                {
+                    "Right": "aviSaNkena"
                 }
             ],
             "_gram": [
-                "{%<ab>f.</ab>%}"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "{@--1@} Want of firmness or fixity (<ab>fig.</ab>\nalso.). ",
-                "{@--2@} Want of good manners or\ndecorum."
+                "Without doubt, hesitation."
             ]
         }
     ]

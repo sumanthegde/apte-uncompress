@@ -1,38 +1,127 @@
 {
-    "__line": 171601,
+    "__line": 185179,
     "_ancestry": [
         "L_ 20667",
-        "B_ {#pralepaka#}"
+        "B_ {#paruza#}"
     ],
-    "_banner": "{#pralepaka#}",
+    "_banner": "{#paruza#}",
     "_bannerExp": [
         {
-            "Right": "pralepaka"
+            "Right": "paruza"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#pF-uzan#}]"
     ],
     "_meanings": [
-        "Anointing, smearing.\n"
+        ".²1 Hard, rough, rugged, stiff (<ab>opp.</ab> {#mfdu#} or {#SlakzRa#}); {#paruzaM#}\n {#carma, paruzA mAlA#} <ab>&c.</ab>\n",
+        ".²2 Harsh, abusive, severe, unkind, cruel, stern (as words); ({#vAk#})\n {#aparuzA paruzAkzaramIritA#} <ls>R. 9. 8</ls>; <ls>Pt. 1. 50</ls>; said also\n\n of a person; {#snigDe yat paruzAsi#} <ls>Gīt. 9</ls>; <ls>Y. 1. 310</ls>.\n",
+        ".²3 Harsh or disagreeable to the ear (as a sound <ab>&c.</ab>); {#tena vajraparuzasvanaM#}\n {#DanuH#} <ls>R. 11. 46</ls>; <ls>Me. 63</ls>.\n",
+        ".²4 Rough, coarse, rough to the touch, shaggy (as hair); {#SudDasnAnAt#}\n {#paruzamalakam#} <ls>Me. 92</ls>.\n",
+        ".²5 Sharp, violent, strong, keen, piercing (wind <ab>&c.</ab>); {#nirgacCatastu#}\n {#Sakrasya paruzaH pavano vavO#} <ls>Rām. 7. 28. 28</ls>; {#paruzapavanavegotkziptasaMSuzkaparRaH#}\n <ls>Ṛs. 1. 22</ls>, <ls n=\"Ṛs.\">2. 28</ls>.\n",
+        ".²6 Gross.\n",
+        ".²7 Dirty.\n",
+        ".²8 Spotted, variegated.\n",
+        ".²9 <ab>Ved.</ab> Knotted.\n",
+        ".²10 Similar; <ls>L. D. B.</ls>\n"
     ],
     "_morphisms": [
         {
-            "__line": 171602,
+            "__line": 185198,
             "_ancestry": [
                 "L_ 20667",
-                "B_ {#pralepaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#paruza#}",
+                "M_ .{@{#-zam#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-zam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pralepakaH"
+                    "Right": "paruzam"
                 }
             ],
             "_meanings": [
-                "{@--1@} An anointer, a plasterer. ",
-                "{@--2@}\nA kind of slow fever."
+                "A harsh or abusive speech, abuse.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 185200,
+            "_ancestry": [
+                "L_ 20667",
+                "B_ {#paruza#}",
+                "S_ .{@{#-akzara#}@}"
+            ],
+            "_banner": ".{@{#-akzara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paruzAkzara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "using harsh or abusive language; {#gIrBirgurURAM#}\n {#paruzAkzarABistiraskftA yAnti narA mahattvam#}\n"
+            ]
+        },
+        {
+            "__line": 185202,
+            "_ancestry": [
+                "L_ 20667",
+                "B_ {#paruza#}",
+                "S_ .{@{#-AkzepaH#}@}"
+            ],
+            "_banner": ".{@{#-AkzepaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paruzAkzepaH"
+                }
+            ],
+            "_meanings": [
+                "(In <ab>Rhet.</ab>) an objection or contradiction containing harsh\n words; {#ityeza paruzAkzepaH paruzAkzarapUrvakam#} <ls>Kāv. 2. 144</ls>.\n"
+            ]
+        },
+        {
+            "__line": 185204,
+            "_ancestry": [
+                "L_ 20667",
+                "B_ {#paruza#}",
+                "S_ .{@{#-itara#}@}"
+            ],
+            "_banner": ".{@{#-itara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paruzetara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "other than rough, soft, mild; {#praspandamAnaparuzetaratAramantaScakzuH#} <ls>R. 5. 68</ls>.\n"
+            ]
+        },
+        {
+            "__line": 185205,
+            "_ancestry": [
+                "L_ 20667",
+                "B_ {#paruza#}",
+                "S_ .{@{#-ukti#}@}"
+            ],
+            "_banner": ".{@{#-ukti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paruzokti"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#vacanam#}@}"
+            ],
+            "_meanings": [
+                "abusive or harsh language."
             ]
         }
     ]

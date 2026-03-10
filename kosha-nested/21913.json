@@ -1,45 +1,96 @@
 {
-    "__line": 182146,
+    "__line": 196969,
     "_ancestry": [
         "L_ 21913",
-        "B_ {#BaginI#}"
+        "B_ {#pOtra#}"
     ],
-    "_banner": "{#BaginI#}",
+    "_banner": "{#pOtra#}",
     "_bannerExp": [
         {
-            "Right": "BaginI"
+            "Right": "pOtra"
+        },
+        {
+            "Right": "pOtrI"
         }
     ],
     "_gram": [
-        "[{#BagaM yatnaH aMSo vA pitrAdInAM#} \n{#dravyAdAne'styasyAH ini NIp#}]"
+        "{%a.%}",
+        "({#-trI#}|{%f.%})",
+        "[{#putrasyApatyam aR#}]"
     ],
     "_meanings": [
-        "{@--1@} A sister\n",
-        "{@--2@} A fortunate woman. ",
-        "{@--3@} A\nwoman in general. "
+        "Relating to or derived from a son.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 196971,
+            "_ancestry": [
+                "L_ 21913",
+                "B_ {#pOtra#}",
+                "M_ .{@{#-traH#}@}"
+            ],
+            "_banner": ".{@{#-traH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOtraH"
+                }
+            ],
+            "_meanings": [
+                "A grandson, sonʼs son. {#pOtradOhitrayorloke na viSezo'sti#}\n {#DarmataH#} <ls>Ms. 9. 133</ls>.\n"
+            ]
+        },
+        {
+            "__line": 196973,
+            "_ancestry": [
+                "L_ 21913",
+                "B_ {#pOtra#}",
+                "M_ .{@{#-trI#}@}"
+            ],
+            "_banner": ".{@{#-trI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOtrI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A grand-daughter.\n",
+                ".²2 An epithet of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 196976,
+            "_ancestry": [
+                "L_ 21913",
+                "B_ {#pOtra#}",
+                "M_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOtram"
+                }
+            ],
+            "_meanings": [
+                "The office of a Potṛ, <ab>q. v.</ab>\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 182149,
+            "__line": 196978,
             "_ancestry": [
                 "L_ 21913",
-                "B_ {#BaginI#}",
-                "S_  {#--patiH#},\n{#--Bartf#}"
+                "B_ {#pOtra#}",
+                "S_ .{@{#-jIvikam#}@}"
             ],
-            "_banner": " {#--patiH#},\n{#--Bartf#}",
+            "_banner": ".{@{#-jIvikam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BaginIBartf"
-                },
-                {
-                    "Right": "BaginIpatiH"
+                    "Right": "pOtrajIvikam"
                 }
             ],
-            "_gram": [
-                "{%<ab>m.</ab>%}"
-            ],
             "_meanings": [
-                "a sister's husband."
+                "an amulet made of the seeds of {#putraMjIva#} plant."
             ]
         }
     ]

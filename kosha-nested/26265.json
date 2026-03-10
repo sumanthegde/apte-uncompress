@@ -1,26 +1,389 @@
 {
-    "__line": 221679,
+    "__line": 239796,
     "_ancestry": [
         "L_ 26265",
-        "B_ {#vimanas, --vimanaska#}"
+        "B_ {#mitraH#}"
     ],
-    "_banner": "{#vimanas, --vimanaska#}",
+    "_banner": "{#mitraH#}",
     "_bannerExp": [
         {
-            "Right": "vimanas"
-        },
-        {
-            "Right": "vimanaska"
+            "Right": "mitraH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#midyati snihyati, mid-tra, mi-tra vA#}]"
     ],
     "_meanings": [
-        "{@--1@} Sad,\ndisconsolate, depressed in mind or\nspirits, sorry, discomposed;  \n<ls>U. 1. 7.</ls> ",
-        "{@--2@} Absent-minded. ",
-        "{@--3@} \nPerplexed, bewildered. ",
-        "{@--4@} Displeased.\n",
-        "{@--5@} Changed in mind or feeling."
+        ".²1 The sun; {#taddinaM durdinaM manye yatra mitrAgamo hi nA#} <ls>Subhāṣ.</ls>\n",
+        ".²2 <ab>N.</ab> of an Āditya and usually associated with Varuṇa; <ab>cf.</ab> <ls>Rv. 3. 59</ls>.\n",
+        ".²3 The deity presiding over the part of rectum ({#gudasTAna#}); {#gudaM#}\n {#puMso vinirBinnaM mitro lokeSa AviSat#} <ls>Bhāg. 3. 6. 20</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 239801,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "M_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A friend; {#tanmitramApadi suKe ca samakriyaM yat#} <ls>Bh. 2. 68</ls>; <ls>Me. 17</ls>.\n",
+                ".²2 An ally, the next neighbour of a king; <ab>cf.</ab> {#maRqala#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 239805,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-anugrahaRam#}@}"
+            ],
+            "_banner": ".{@{#-anugrahaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrAnugrahaRam"
+                }
+            ],
+            "_meanings": [
+                "the act of favouring friends.\n"
+            ]
+        },
+        {
+            "__line": 239806,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-amitram#}@}"
+            ],
+            "_banner": ".{@{#-amitram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrAmitram"
+                }
+            ],
+            "_meanings": [
+                "friend and foe; {#mitrA'mitrasya cArjanam#} <ls>Ms. 12. 79</ls>.\n"
+            ]
+        },
+        {
+            "__line": 239807,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-AcAraH#}@}"
+            ],
+            "_banner": ".{@{#-AcAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrAcAraH"
+                }
+            ],
+            "_meanings": [
+                "conduct towards a friend.\n"
+            ]
+        },
+        {
+            "__line": 239808,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-udayaH#}@}"
+            ],
+            "_banner": ".{@{#-udayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrodayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 sun-rise.\n",
+                ".²2 the welfare or prosperity of a friend.\n"
+            ]
+        },
+        {
+            "__line": 239811,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-upasTAnam#}@}"
+            ],
+            "_banner": ".{@{#-upasTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitropasTAnam"
+                }
+            ],
+            "_meanings": [
+                "worship of the sun (part of the morning {#saMDyA#}).\n"
+            ]
+        },
+        {
+            "__line": 239812,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-karman, -kAryam, -kftyam#}@}"
+            ],
+            "_banner": ".{@{#-karman, -kAryam, -kftyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrakarman"
+                },
+                {
+                    "Right": "mitrakAryam"
+                },
+                {
+                    "Right": "mitrakftyam"
+                }
+            ],
+            "_meanings": [
+                "the business of a friend, a friendly\n act or service; {#mitrakftyamapadiSya pArSvataH#} ({#prasTitam#}) <ls>R. 19. 31</ls>.\n"
+            ]
+        },
+        {
+            "__line": 239814,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-Dna#}@}"
+            ],
+            "_banner": ".{@{#-Dna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitraDna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "treacherous.\n"
+            ]
+        },
+        {
+            "__line": 239815,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-druh, -drohin#}@}"
+            ],
+            "_banner": ".{@{#-druh, -drohin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitradruh"
+                },
+                {
+                    "Right": "mitradrohin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hating a friend, treacherous to a friend,\n a false or treacherous friend.\n"
+            ]
+        },
+        {
+            "__line": 239817,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitraBam"
+                }
+            ],
+            "_meanings": [
+                "the {#anurADA#} constellation.\n"
+            ]
+        },
+        {
+            "__line": 239818,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitraBAvaH"
+                }
+            ],
+            "_meanings": [
+                "friendship.\n"
+            ]
+        },
+        {
+            "__line": 239819,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-BedaH#}@}"
+            ],
+            "_banner": ".{@{#-BedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitraBedaH"
+                }
+            ],
+            "_meanings": [
+                "breach of friendship.\n"
+            ]
+        },
+        {
+            "__line": 239820,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-yudDam#}@}"
+            ],
+            "_banner": ".{@{#-yudDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrayudDam"
+                }
+            ],
+            "_meanings": [
+                "a contest between friends.\n"
+            ]
+        },
+        {
+            "__line": 239821,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-lABaH#}@}"
+            ],
+            "_banner": ".{@{#-lABaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitralABaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 acquisition of friends, contracting of friendship.\n",
+                ".²2 <ab>N.</ab> of the first book of the Hitopadeśa.\n"
+            ]
+        },
+        {
+            "__line": 239824,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-vatsala#}@}"
+            ],
+            "_banner": ".{@{#-vatsala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitravatsala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "kind to friends, of winning manners.\n"
+            ]
+        },
+        {
+            "__line": 239825,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-vindaH#}@}"
+            ],
+            "_banner": ".{@{#-vindaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitravindaH"
+                }
+            ],
+            "_meanings": [
+                "an\n\n epithet of Agni.\n"
+            ]
+        },
+        {
+            "__line": 239828,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-vizayaH#}@}"
+            ],
+            "_banner": ".{@{#-vizayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitravizayaH"
+                }
+            ],
+            "_meanings": [
+                "friendship.\n"
+            ]
+        },
+        {
+            "__line": 239829,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-saptamI#}@}"
+            ],
+            "_banner": ".{@{#-saptamI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrasaptamI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the seventh day in the bright half of {#mArgaSIrza#}.\n"
+            ]
+        },
+        {
+            "__line": 239830,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-sAha#}@}"
+            ],
+            "_banner": ".{@{#-sAha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrasAha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "kind or indulgent to friends; {#svErdOhitrEstArito#}\n {#mitrasAhaH#} <ls>Mb. 1. 93. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 239832,
+            "_ancestry": [
+                "L_ 26265",
+                "B_ {#mitraH#}",
+                "S_ .{@{#-hatyA#}@}"
+            ],
+            "_banner": ".{@{#-hatyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mitrahatyA"
+                }
+            ],
+            "_meanings": [
+                "the murder of a friend."
+            ]
+        }
     ]
 }

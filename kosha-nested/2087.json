@@ -1,19 +1,39 @@
 {
-    "__line": 20292,
+    "__line": 17919,
     "_ancestry": [
         "L_ 2087",
-        "B_ {#anovAhya#}"
+        "B_ {#anuvAc#}"
     ],
-    "_banner": "{#anovAhya#}",
+    "_banner": "{#anuvAc#}",
     "_bannerExp": [
         {
-            "Right": "anovAhya"
+            "Right": "anuvAc"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}",
+        "[{#vac-Ric-kvip#}]"
     ],
     "_meanings": [
-        "To be carried in a\ncarriage ({#anasA vAhyaH#})."
+        "Repetition, recitation <ab>&c.</ab> See {#anuvacanam#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 17920,
+            "_ancestry": [
+                "L_ 2087",
+                "B_ {#anuvAc#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#anuvAc#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A lecture."
+            ]
+        }
     ]
 }

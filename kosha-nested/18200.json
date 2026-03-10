@@ -1,20 +1,70 @@
 {
-    "__line": 153143,
+    "__line": 161606,
     "_ancestry": [
         "L_ 18200",
-        "B_ {#parivad#}"
+        "B_ {#Dvajin#}"
     ],
-    "_banner": "{#parivad#}",
+    "_banner": "{#Dvajin#}",
     "_bannerExp": [
         {
-            "Right": "parivad"
+            "Right": "Dvajin"
+        },
+        {
+            "Right": "DvajinI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#Dvajo'styasya ini#}]"
     ],
     "_meanings": [
-        "To abuse, censure,\nrevile."
+        ".²1 Bearing or carrying a flag.\n",
+        ".²2 Having as a mark.\n",
+        ".²3 Having the mark of a liquor-vessel ({#surABAjanacihna#}); {#surApAnApanutyarTaM#}\n {#vAlavAsA jawI DvajI#} <ls>Ms. 11. 93</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 161611,
+            "_ancestry": [
+                "L_ 18200",
+                "B_ {#Dvajin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Dvajin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A standard-bearer.\n",
+                ".²2 A distiller or vendor of spirituous liquors; <ls>Y. 1. 141</ls>.\n",
+                ".²3 A car, carriage, chariot.\n",
+                ".²4 A mountain.\n",
+                ".²5 A snake.\n",
+                ".²6 A peacock.\n",
+                ".²7 A horse.\n",
+                ".²8 A Brāhmaṇa.\n",
+                ".²9 A hypocrite; {#DarmavEtaMsikAH kzudrA muzRanti Dvajino jagat#} <ls>M. 12. 158. 18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 161621,
+            "_ancestry": [
+                "L_ 18200",
+                "B_ {#Dvajin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DvajinI"
+                }
+            ],
+            "_meanings": [
+                "An army; <ls>R. 7. 40</ls>; <ls>Śi. 12. 66</ls>; {#pfTuBirDvajinIravErakArzIccakitodBrAntamfgAni#}\n {#kAnanAni#} <ls>Ki. 13. 9</ls>."
+            ]
+        }
     ]
 }

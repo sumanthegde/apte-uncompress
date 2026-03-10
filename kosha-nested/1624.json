@@ -1,22 +1,211 @@
 {
-    "__line": 16579,
+    "__line": 14523,
     "_ancestry": [
         "L_ 1624",
-        "B_ {#anudAra#}"
+        "B_ {#anizwa#}"
     ],
-    "_banner": "{#anudAra#}",
+    "_banner": "{#anizwa#}",
     "_bannerExp": [
         {
-            "Right": "anudAra"
+            "Right": "anizwa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Not liberal, \nniggardly; not high or noble. ",
-        "{@--2@} \nHaving none more liberal, very liberal,\nor great. ",
-        "{@--3@} ({#anugato dArAn#}) Adhering\nto or followed by a wife; {#yasminprasIdasi#}\n{#punaH sa BavatyudAro'nudAraSca#} <ls>K. P. 4</ls> (used in\nsense 1 also). ",
-        "{@--4@} Having a suitable\nor worthy wife ({#anurUpAH dArAH yasya#})."
+        ".²1 Unwished, undesirable; unfavourable, disagreeable, ill (with <ab>gen.</ab>);\n {#DyAyatyanizwaM yatkiYcitpARigrAhasya cetasA#} <ls>Ms. 9. 21</ls> whatever ill\n she thinks of her husband.\n",
+        ".²2 Evil, forbidden.\n",
+        ".²3 Bad, unlucky, ominous.\n",
+        ".²4 Not honoured with a sacrifice.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 14530,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "M_ .{@{#-zwam#}@}"
+            ],
+            "_banner": ".{@{#-zwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwam"
+                }
+            ],
+            "_meanings": [
+                "An evil, mishap, misfortune, calamity, disadvantage; a crime,\n offence, wrong, unwelcome thing; {#˚ekabudDi#} <ls>Māl. 8. 12</ls>; {#BavatyanizwAdapi#}\n {#nAma duHsahAnmanasvinInAM pratipattirIdfSI#} <ls>Ku. 5. 42</ls>; ill-omen; {#prAtareva#}\n {#˚darSanaM jAtam#} <ls>H. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 14535,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-anubanDin#}@}"
+            ],
+            "_banner": ".{@{#-anubanDin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwAnubanDin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "followed by or attended with calamities; {#vizayopaBogezu#}\n {#˚banDizu yaH suKabudDimAropayati#} <ls>K. 155</ls>.\n"
+            ]
+        },
+        {
+            "__line": 14537,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-ApattiH#}@}"
+            ],
+            "_banner": ".{@{#-ApattiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwApattiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-ApAdanam#}@}"
+            ],
+            "_meanings": [
+                "getting what is not desired, an undesired occurrence.\n"
+            ]
+        },
+        {
+            "__line": 14539,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-ASaMsin#}@}"
+            ],
+            "_banner": ".{@{#-ASaMsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwASaMsin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#˚sUcaka#})"
+            ],
+            "_meanings": [
+                "indicating or boding ill.\n"
+            ]
+        },
+        {
+            "__line": 14542,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-grahaH#}@}"
+            ],
+            "_banner": ".{@{#-grahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwagrahaH"
+                }
+            ],
+            "_meanings": [
+                "an evil or malignant planet.\n"
+            ]
+        },
+        {
+            "__line": 14543,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-duzwaDI#}@}"
+            ],
+            "_banner": ".{@{#-duzwaDI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwaduzwaDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having an evil and corrupt mind.\n"
+            ]
+        },
+        {
+            "__line": 14544,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-prasaNgaH#}@}"
+            ],
+            "_banner": ".{@{#-prasaNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwaprasaNgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an undesired occurrence.\n",
+                ".²2 connection with a wrong object, argument or rule.\n"
+            ]
+        },
+        {
+            "__line": 14547,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-Palam#}@}"
+            ],
+            "_banner": ".{@{#-Palam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwaPalam"
+                }
+            ],
+            "_meanings": [
+                "an evil result.\n"
+            ]
+        },
+        {
+            "__line": 14548,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-SaNkA#}@}"
+            ],
+            "_banner": ".{@{#-SaNkA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwaSaNkA"
+                }
+            ],
+            "_meanings": [
+                "fear of evil.\n"
+            ]
+        },
+        {
+            "__line": 14549,
+            "_ancestry": [
+                "L_ 1624",
+                "B_ {#anizwa#}",
+                "S_ .{@{#-hetuH#}@}"
+            ],
+            "_banner": ".{@{#-hetuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anizwahetuH"
+                }
+            ],
+            "_meanings": [
+                "an evil omen."
+            ]
+        }
     ]
 }

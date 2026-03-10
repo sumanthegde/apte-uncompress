@@ -1,19 +1,41 @@
 {
-    "__line": 177845,
+    "__line": 192749,
     "_ancestry": [
         "L_ 21522",
-        "B_ {#PeraH; PeraMqaH#}"
+        "B_ {#puwita#}"
     ],
-    "_banner": "{#PeraH; PeraMqaH#}",
+    "_banner": "{#puwita#}",
     "_bannerExp": [
         {
-            "Right": "PeraH"
-        },
-        {
-            "Right": "PeraMqaH"
+            "Right": "puwita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A jackal."
+        ".²1 Rubbed, ground.\n",
+        ".²2 Contracted.\n",
+        ".²3 Stitched, sewn.\n",
+        ".²4 Split.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 192754,
+            "_ancestry": [
+                "L_ 21522",
+                "B_ {#puwita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "puwitam"
+                }
+            ],
+            "_meanings": [
+                "The hollow of the hands."
+            ]
+        }
     ]
 }

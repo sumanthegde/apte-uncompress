@@ -1,19 +1,39 @@
 {
-    "__line": 98471,
+    "__line": 99016,
     "_ancestry": [
         "L_ 11755",
-        "B_ {#kruSvan#}"
+        "B_ {#kalkin#}"
     ],
-    "_banner": "{#kruSvan#}",
+    "_banner": "{#kalkin#}",
     "_bannerExp": [
         {
-            "Right": "kruSvan"
+            "Right": "kalkin"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "A jackal."
+        ".²1 Foul, turbid, dirty.\n",
+        ".²2 Wicked. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 99018,
+            "_ancestry": [
+                "L_ 11755",
+                "B_ {#kalkin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kalkin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "see {#kalki#} above."
+            ]
+        }
     ]
 }

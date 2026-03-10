@@ -1,44 +1,120 @@
 {
-    "__line": 171627,
+    "__line": 185233,
     "_ancestry": [
         "L_ 20672",
-        "B_ {#pravacanaM#}"
+        "B_ {#pareta#}"
     ],
-    "_banner": "{#pravacanaM#}",
+    "_banner": "{#pareta#}",
     "_bannerExp": [
         {
-            "Right": "pravacanaM"
+            "Right": "pareta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Speaking, declaration, \nannouncement; <ls>Pt. 1. 190.</ls> ",
-        "{@--2@} \nTeaching, expounding. ",
-        "{@--3@} Exposition, \nexplanation, interpretation; <ls>Mv. 4. 25.</ls>\n",
-        "{@--4@} Eloquence. ",
-        "{@--5@} A sacred treatise\nor writing; <ls>Ms. 3. 184.</ls> ",
-        "{@--6@} An \nexpression, a term. ",
-        "{@--7@} A system of\ndoctrines (in the form of a treatise).\n",
-        "{@--8@} The fundamental doctrine of the\nBuddhists. "
+        "Deceased, departed, dead.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 185234,
+            "_ancestry": [
+                "L_ 20672",
+                "B_ {#pareta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paretaH"
+                }
+            ],
+            "_meanings": [
+                "A spirit, a ghost.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 171636,
+            "__line": 185236,
             "_ancestry": [
                 "L_ 20672",
-                "B_ {#pravacanaM#}",
-                "S_  {#--pawu#}"
+                "B_ {#pareta#}",
+                "S_ .{@{#-kalpaH#}@}"
             ],
-            "_banner": " {#--pawu#}",
+            "_banner": ".{@{#-kalpaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pravacanapawu"
+                    "Right": "paretakalpaH"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "skilled\nin talking, eloquent."
+                "almost dead.\n"
+            ]
+        },
+        {
+            "__line": 185237,
+            "_ancestry": [
+                "L_ 20672",
+                "B_ {#pareta#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paretakAlaH"
+                }
+            ],
+            "_meanings": [
+                "The time of death; {#paretakAle puruzo yat karma pratipadyate#}\n <ls>Rām. 3. 51. 31</ls>.\n"
+            ]
+        },
+        {
+            "__line": 185239,
+            "_ancestry": [
+                "L_ 20672",
+                "B_ {#pareta#}",
+                "S_ .{@{#-Bartf, -rAja#}@}"
+            ],
+            "_banner": ".{@{#-Bartf, -rAja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paretaBartf"
+                },
+                {
+                    "Left": "S error: midAlign rAja BarAja"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the god of death, Yama; {#paretaBarturmahizaH#} <ls>Śi. 1. 57</ls>.\n"
+            ]
+        },
+        {
+            "__line": 185240,
+            "_ancestry": [
+                "L_ 20672",
+                "B_ {#pareta#}",
+                "S_ .{@{#-BUmiH#}@}"
+            ],
+            "_banner": ".{@{#-BUmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paretaBUmiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-vAsaH#}@}"
+            ],
+            "_meanings": [
+                "a cemetery; {#vikIrRakeSAsu paretaBUmizu#} <ls>Ku. 5. 68</ls>."
             ]
         }
     ]

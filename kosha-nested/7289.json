@@ -1,19 +1,43 @@
 {
-    "__line": 62785,
+    "__line": 61060,
     "_ancestry": [
         "L_ 7289",
-        "B_ {#itiH#}"
+        "B_ {#AmuktiH#}"
     ],
-    "_banner": "{#itiH#}",
+    "_banner": "{#AmuktiH#}",
     "_bannerExp": [
         {
-            "Right": "itiH"
+            "Right": "AmuktiH"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "Going, moving."
+        ".²1 Liberation, being let loose.\n",
+        ".²2 Final beatitude.\n",
+        ".²3 Putting on, wearing (clothes, ornaments <ab>&c.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 61064,
+            "_ancestry": [
+                "L_ 7289",
+                "B_ {#AmuktiH#}",
+                "M_ .{@{#-kti#}@}"
+            ],
+            "_banner": ".{@{#-kti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Amukti"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Till final beatitude is obtained."
+            ]
+        }
     ]
 }

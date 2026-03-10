@@ -1,22 +1,60 @@
 {
-    "__line": 64173,
+    "__line": 62045,
     "_ancestry": [
         "L_ 7413",
-        "B_ {#irin#}"
+        "B_ {#AraReya#}"
     ],
-    "_banner": "{#irin#}",
+    "_banner": "{#AraReya#}",
     "_bannerExp": [
         {
-            "Right": "irin"
+            "Right": "AraReya"
+        },
+        {
+            "Right": "AraReyI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-yI#}|{%f.%})",
+        "[{#araRi-Wak#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Instigating. ",
-        "{@--2@}\nPowerful, violent. ",
-        "{@--3@} A proud or\noverbearing fellow."
+        "Relating to or sprung from Araṇi <ab>q. v.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 62047,
+            "_ancestry": [
+                "L_ 7413",
+                "B_ {#AraReya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AraReyaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śuka.\n"
+            ]
+        },
+        {
+            "__line": 62048,
+            "_ancestry": [
+                "L_ 7413",
+                "B_ {#AraReya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AraReyam"
+                }
+            ],
+            "_meanings": [
+                "or {#˚parvan#}\n\n Title of the last section of the third book of the Mahābhārata."
+            ]
+        }
     ]
 }

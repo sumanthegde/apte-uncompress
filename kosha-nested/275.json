@@ -1,21 +1,118 @@
 {
-    "__line": 4796,
+    "__line": 3284,
     "_ancestry": [
         "L_ 275",
-        "B_ {#aMgIya#}"
+        "B_ {#aGora#}"
     ],
-    "_banner": "{#aMgIya#}",
+    "_banner": "{#aGora#}",
     "_bannerExp": [
         {
-            "Right": "aMgIya"
+            "Right": "aGora"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#aMga-Ca#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Belonging to\nthe body. ",
-        "{@--2@} Referring to the\nAṅga country."
+        "Not terrific or fearful.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 3285,
+            "_ancestry": [
+                "L_ 275",
+                "B_ {#aGora#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aGoraH"
+                }
+            ],
+            "_gram": [
+                "[{#nAsti Goro yasmAt#}]"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Śiva or of one of his forms, ({#ISAnAGoranAmAnO vAmadevastataH#}\n {#param . sadyojAta iti proktaH kramaSo'rcanakarmaRi ..#})\n",
+                ".²2 A worshipper of Śiva and Durgā.\n"
+            ]
+        },
+        {
+            "__line": 3289,
+            "_ancestry": [
+                "L_ 275",
+                "B_ {#aGora#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aGorA"
+                }
+            ],
+            "_gram": [
+                "[{#aGoraH SivaH upAsyatvena asyAM sA, aGora-ac#}]"
+            ],
+            "_meanings": [
+                "The fourteenth\n day of the dark half of Bhādra sacred to Śiva ({#BAdramAsyasite pakze#}\n {#hyaGorAKyA caturdaSI . tasyAmArADitaH sTARurnayecCivapuraM Druvam ..#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 3293,
+            "_ancestry": [
+                "L_ 275",
+                "B_ {#aGora#}",
+                "S_ .{@{#-GorarUpaH#}@}"
+            ],
+            "_banner": ".{@{#-GorarUpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aGoraGorarUpaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 3294,
+            "_ancestry": [
+                "L_ 275",
+                "B_ {#aGora#}",
+                "S_ .{@{#-paTaH, -mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH, -mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aGorapaTaH"
+                },
+                {
+                    "Right": "aGoramArgaH"
+                }
+            ],
+            "_meanings": [
+                "a follower of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 3295,
+            "_ancestry": [
+                "L_ 275",
+                "B_ {#aGora#}",
+                "S_ .{@{#-pramARam#}@}"
+            ],
+            "_banner": ".{@{#-pramARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aGorapramARam"
+                }
+            ],
+            "_meanings": [
+                "a terrific oath or ordeal."
+            ]
+        }
     ]
 }

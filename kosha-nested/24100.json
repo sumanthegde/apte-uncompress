@@ -1,36 +1,685 @@
 {
-    "__line": 204352,
+    "__line": 215045,
     "_ancestry": [
         "L_ 24100",
-        "B_ {#rAwiH#}"
+        "B_ {#preta#}"
     ],
-    "_banner": "{#rAwiH#}",
+    "_banner": "{#preta#}",
     "_bannerExp": [
         {
-            "Right": "rAwiH"
+            "Right": "preta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#pra#}.{#-i-kta#}]"
+    ],
     "_meanings": [
-        "A bird. "
+        "Departed from this world, dead,\n deceased; {#svajanASru kilAtisaMtataM dahati pretamiti pracakzate#} <ls>R. 8. 86</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 204352,
+            "__line": 215047,
             "_ancestry": [
                 "L_ 24100",
-                "B_ {#rAwiH#}",
-                "M_ {%--<ab>f.</ab>%}"
+                "B_ {#preta#}",
+                "M_ .{@{#-taH#}@}"
             ],
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "rAwiH"
+                    "Right": "pretaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The departed spirit, the spirit before obsequial rites are performed.\n",
+                ".²2 A ghost, evil spirit; {#pretAn BUtagaRAMScAnye yajante tAmasA janAH#}\n <ls>Bg. 17. 4</ls>; <ls>Ms. 12. 71</ls>.\n",
+                ".²3 The inhabitant of hell ({#nAraka#}); {#SuSruvurdAruRA vAcaH pretAnAmiva#}\n {#BArata#} <ls>Mb. 6. 46. 19</ls>.\n",
+                ".²4 The manes ({#pitara#}); {#praTitA pretakftyEzA pitryaM nAma viDukzaye .#}\n {#tasmin yuktasyEti nityaM pretakftyEva lOkikI ..#} <ls>Ms. 3. 127</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 215056,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-aDipaH#}@}"
+            ],
+            "_banner": ".{@{#-aDipaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretADipaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Yama.\n"
+            ]
+        },
+        {
+            "__line": 215057,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-annam#}@}"
+            ],
+            "_banner": ".{@{#-annam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretAnnam"
+                }
+            ],
+            "_meanings": [
+                "food offered to the manes.\n"
+            ]
+        },
+        {
+            "__line": 215058,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-ayanaH#}@}"
+            ],
+            "_banner": ".{@{#-ayanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretAyanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a particular hell.\n"
+            ]
+        },
+        {
+            "__line": 215061,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-asTi#}@}"
+            ],
+            "_banner": ".{@{#-asTi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretAsTi"
                 }
             ],
             "_gram": [
-                "{%--<ab>f.</ab>%}"
+                "{%n.%}"
             ],
             "_meanings": [
-                "War, battle."
+                "the bone of a dead man. {@{#˚DArin#}@} an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 215062,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-AvAsaH#}@}"
+            ],
+            "_banner": ".{@{#-AvAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretAvAsaH"
+                }
+            ],
+            "_meanings": [
+                "a burial-ground, cemetery.\n"
+            ]
+        },
+        {
+            "__line": 215063,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-ISaH, -ISvaraH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH, -ISvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "preteSaH"
+                },
+                {
+                    "Right": "preteSvaraH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Yama.\n"
+            ]
+        },
+        {
+            "__line": 215064,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-uheSaH#}@}"
+            ],
+            "_banner": ".{@{#-uheSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretoheSaH"
+                }
+            ],
+            "_meanings": [
+                "an offering to the manes.\n"
+            ]
+        },
+        {
+            "__line": 215065,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-kftyam, -kftyA#}@}"
+            ],
+            "_meanings": [
+                "obsequial or funeral rites; <ls>Ms. 3. 127</ls>.\n"
+            ]
+        },
+        {
+            "__line": 215067,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-kAyaH#}@}"
+            ],
+            "_banner": ".{@{#-kAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretakAyaH"
+                }
+            ],
+            "_meanings": [
+                "a corpse.\n"
+            ]
+        },
+        {
+            "__line": 215068,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-kAryam#}@}"
+            ],
+            "_banner": ".{@{#-kAryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretakAryam"
+                }
+            ],
+            "_meanings": [
+                "see {#pretakarman#}; {#tasya sa pretakAryARi kftvA sarvARi#}\n {#BArata#} <ls>Mb. 3. 138. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 215070,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretagata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dead.\n"
+            ]
+        },
+        {
+            "__line": 215071,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-gfham#}@}"
+            ],
+            "_banner": ".{@{#-gfham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretagfham"
+                }
+            ],
+            "_meanings": [
+                "a cemetery.\n"
+            ]
+        },
+        {
+            "__line": 215072,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-gopaH#}@}"
+            ],
+            "_banner": ".{@{#-gopaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretagopaH"
+                }
+            ],
+            "_meanings": [
+                "the keeper of the dead.\n"
+            ]
+        },
+        {
+            "__line": 215073,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-cArin#}@}"
+            ],
+            "_banner": ".{@{#-cArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretacArin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 215074,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-dAhaH#}@}"
+            ],
+            "_banner": ".{@{#-dAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretadAhaH"
+                }
+            ],
+            "_meanings": [
+                "the burning of the dead, cremation.\n"
+            ]
+        },
+        {
+            "__line": 215075,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-DUmaH#}@}"
+            ],
+            "_banner": ".{@{#-DUmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretaDUmaH"
+                }
+            ],
+            "_meanings": [
+                "the smoke issuing from a funeral pile.\n"
+            ]
+        },
+        {
+            "__line": 215076,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-nadI#}@}"
+            ],
+            "_banner": ".{@{#-nadI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretanadI"
+                }
+            ],
+            "_meanings": [
+                "the river {#vEtariRI#}.\n"
+            ]
+        },
+        {
+            "__line": 215077,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-naraH#}@}"
+            ],
+            "_banner": ".{@{#-naraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretanaraH"
+                }
+            ],
+            "_meanings": [
+                "a goblin, ghost.\n"
+            ]
+        },
+        {
+            "__line": 215078,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-niryAtakaH, -nirhArakaH#}@}"
+            ],
+            "_banner": ".{@{#-niryAtakaH, -nirhArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretaniryAtakaH"
+                },
+                {
+                    "Right": "pretanirhArakaH"
+                }
+            ],
+            "_meanings": [
+                "a man employed to carry dead bodies;\n {#pretaniryAtakaScEva varjanIyAH prayatnataH#} <ls>Ms. 3. 166</ls>.\n"
+            ]
+        },
+        {
+            "__line": 215080,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-pakzaH#}@}"
+            ],
+            "_banner": ".{@{#-pakzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretapakzaH"
+                }
+            ],
+            "_meanings": [
+                "‘the fortnight of the manes’, <ab>N.</ab> of the dark half of Bhādrapada\n when offerings in honour of the manes are usually performed; <ab>cf.</ab> {#pitfpakza#}.\n"
+            ]
+        },
+        {
+            "__line": 215082,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-pawahaH#}@}"
+            ],
+            "_banner": ".{@{#-pawahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretapawahaH"
+                }
+            ],
+            "_meanings": [
+                "a drum beaten at a funeral.\n"
+            ]
+        },
+        {
+            "__line": 215083,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretapatiH"
+                }
+            ],
+            "_meanings": [
+                "Yama (the Indian ‘Pluto’).\n"
+            ]
+        },
+        {
+            "__line": 215084,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-pAtram#}@}"
+            ],
+            "_banner": ".{@{#-pAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretapAtram"
+                }
+            ],
+            "_meanings": [
+                "a vessel used in a Śrāddha ceremony.\n"
+            ]
+        },
+        {
+            "__line": 215085,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-puram#}@}"
+            ],
+            "_banner": ".{@{#-puram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretapuram"
+                }
+            ],
+            "_meanings": [
+                "the city of Yama.\n"
+            ]
+        },
+        {
+            "__line": 215086,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "death.\n"
+            ]
+        },
+        {
+            "__line": 215087,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-BUmiH#}@}"
+            ],
+            "_banner": ".{@{#-BUmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretaBUmiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a cemetery.\n"
+            ]
+        },
+        {
+            "__line": 215088,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-meDaH#}@}"
+            ],
+            "_banner": ".{@{#-meDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretameDaH"
+                }
+            ],
+            "_meanings": [
+                "a funeral sacrifice.\n"
+            ]
+        },
+        {
+            "__line": 215089,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-rAkzasI#}@}"
+            ],
+            "_banner": ".{@{#-rAkzasI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretarAkzasI"
+                }
+            ],
+            "_meanings": [
+                "the holy basil ({#tulasI#}).\n"
+            ]
+        },
+        {
+            "__line": 215090,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretarAjaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Yama.\n"
+            ]
+        },
+        {
+            "__line": 215091,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretalokaH"
+                }
+            ],
+            "_meanings": [
+                "the world of the dead; {#pretalokaM parityajya AgatA ye#}\n {#mahAlaye#} <ls>Ulkādānamantra.</ls>\n"
+            ]
+        },
+        {
+            "__line": 215093,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-vanam#}@}"
+            ],
+            "_banner": ".{@{#-vanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretavanam"
+                }
+            ],
+            "_meanings": [
+                "a cemetery.\n"
+            ]
+        },
+        {
+            "__line": 215094,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-vAhita#}@}"
+            ],
+            "_banner": ".{@{#-vAhita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretavAhita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "possessed by a ghost.\n"
+            ]
+        },
+        {
+            "__line": 215095,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-SarIram#}@}"
+            ],
+            "_banner": ".{@{#-SarIram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretaSarIram"
+                }
+            ],
+            "_meanings": [
+                "the body of the departed spirit.\n"
+            ]
+        },
+        {
+            "__line": 215096,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-SudDiH#}@}"
+            ],
+            "_banner": ".{@{#-SudDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretaSudDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-SOcam#}@}"
+            ],
+            "_meanings": [
+                "purification after the death of a relative.\n"
+            ]
+        },
+        {
+            "__line": 215098,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-SrAdDam#}@}"
+            ],
+            "_banner": ".{@{#-SrAdDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretaSrAdDam"
+                }
+            ],
+            "_meanings": [
+                "an obsequial offering made to a departed relative during\n the year of his death.\n"
+            ]
+        },
+        {
+            "__line": 215100,
+            "_ancestry": [
+                "L_ 24100",
+                "B_ {#preta#}",
+                "S_ .{@{#-hAraH#}@}"
+            ],
+            "_banner": ".{@{#-hAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pretahAraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 one who carries a dead body.\n",
+                ".²2 a near relative."
             ]
         }
     ]

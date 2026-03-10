@@ -1,19 +1,49 @@
 {
-    "__line": 60432,
+    "__line": 59009,
     "_ancestry": [
         "L_ 7008",
-        "B_ {#ASin#}"
+        "B_ {#AnuSra(SrA)vika#}"
     ],
-    "_banner": "{#ASin#}",
+    "_banner": "{#AnuSra(SrA)vika#}",
     "_bannerExp": [
         {
-            "Right": "ASin"
+            "Right": "AnuSravika"
+        },
+        {
+            "Right": "AnuSrAvika"
+        },
+        {
+            "Right": "AnuSravikI"
+        },
+        {
+            "Right": "AnuSrAvikI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#gurupAWAdanuSrUyate#}; {#anuSravo vedastatra vihitaH#}\n {#Wak#}]"
     ],
     "_meanings": [
-        "Eating(in <ab>comp.</ab>);\n{#PalASI#} &c."
+        "According to hearing, resting on Veda or tradition; {#devAnAM guRaliNgAnAmAnuSravikakarmaRAm#}\n <ls>Bhāg. 3. 25. 32</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 59013,
+            "_ancestry": [
+                "L_ 7008",
+                "B_ {#AnuSra(SrA)vika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AnuSravikaH"
+                }
+            ],
+            "_meanings": [
+                "Means of obtaining Heaven, absolution <ab>&c.</ab> <ls>Sk.</ls>"
+            ]
+        }
     ]
 }

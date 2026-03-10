@@ -1,37 +1,58 @@
 {
-    "__line": 89583,
+    "__line": 89725,
     "_ancestry": [
         "L_ 10670",
-        "B_ {#kAtIya#}"
+        "B_ {#eRI#}"
     ],
-    "_banner": "{#kAtIya#}",
+    "_banner": "{#eRI#}",
     "_bannerExp": [
         {
-            "Right": "kAtIya"
+            "Right": "eRI"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Belonging to \nKātyāyana. "
+        ".²1 A female black deer. ",
+        ".²2 A kind of poisonous insect.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 89584,
+            "__line": 89728,
             "_ancestry": [
                 "L_ 10670",
-                "B_ {#kAtIya#}",
-                "M_ {#--yaH#}"
+                "B_ {#eRI#}",
+                "S_ .{@{#-pada#}@}"
             ],
-            "_banner": "{#--yaH#}",
+            "_banner": ".{@{#-pada#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kAtIyaH"
+                    "Right": "eRIpada"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "A pupil of the sage."
+                "having feet like those of a deer. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 89728,
+                    "_ancestry": [
+                        "L_ 10670",
+                        "B_ {#eRI#}",
+                        "S_ .{@{#-pada#}@}",
+                        "S_M_ ({@{#-daH#}@}"
+                    ],
+                    "_banner": "({@{#-daH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "eRIpadaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a kind of snake."
+                    ]
+                }
             ]
         }
     ]

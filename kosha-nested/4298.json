@@ -1,16 +1,87 @@
 {
-    "__line": 39620,
+    "__line": 35932,
     "_ancestry": [
         "L_ 4298",
-        "B_ {#alimakaH#}"
+        "B_ {#aya#}"
     ],
-    "_banner": "{#alimakaH#}",
+    "_banner": "{#aya#}",
     "_bannerExp": [
         {
-            "Right": "alimakaH"
+            "Right": "aya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "= {#animaka#} <ab>q. v.</ab>"
+        "Going, moving.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 35933,
+            "_ancestry": [
+                "L_ 4298",
+                "B_ {#aya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Going, moving (mostly in <ab>comp.</ab>, as in {#astamaya#}).\n",
+                ".²2 Good actions of former birth.\n",
+                ".²3 Good fortune, good luck ({#SuBAvaho viDiH#}) {#SudDapArzRirayAnvitaH#}\n <ls>R. 4. 26</ls>. {#pAtu vAsavadattAyo mahAseno'tivIryavAn#} <ls>Pratijñā. 1. 1</ls>.\n",
+                ".²4 A move towards the right (in chess).\n",
+                ".²5 A die or cube (to play with); {#ayA iva pari caranti devAH#} <ls>Rv. 10. 116. 9</ls>;\n {#kaliH sarvAnayAnaBiBavati#} <ls>Śat. Br.</ls> <ab>cf.</ab> {#ayaH puMsi gatAvapi .#}\n {#SuBAvahe cAByudaye … .#} <ls>Nm.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 35943,
+            "_ancestry": [
+                "L_ 4298",
+                "B_ {#aya#}",
+                "S_ .{@{#-anvita, ayavat#}@}"
+            ],
+            "_banner": ".{@{#-anvita, ayavat#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayAnvita"
+                },
+                {
+                    "Right": "ayAyavat"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fortunate, lucky; {#sulaBEH sadA nayavatA'yavatA#} <ls>Ki. 5. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 35944,
+            "_ancestry": [
+                "L_ 4298",
+                "B_ {#aya#}",
+                "S_ .{@{#-SoBin#}@}"
+            ],
+            "_banner": ".{@{#-SoBin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayaSoBin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bright with good fortune."
+            ]
+        }
     ]
 }

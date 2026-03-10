@@ -1,42 +1,81 @@
 {
-    "__line": 67245,
+    "__line": 65280,
     "_ancestry": [
         "L_ 7826",
-        "B_ {#uttaMB#}"
+        "B_ {#ASma#}"
     ],
-    "_banner": "{#uttaMB#}",
+    "_banner": "{#ASma#}",
     "_bannerExp": [
         {
-            "Right": "uttaMB"
+            "Right": "ASma"
+        },
+        {
+            "Right": "ASmI"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "{c9c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-SmI#}|{%f.%})",
+        "[{#aSmana-aR#}]"
     ],
     "_meanings": [
-        "[{#ud-staMB#}] To\nstay, prop, support, hold up;  \n<ls>K. 281</ls>, <ls>Ve. 6</ls>;  \n{#skaMDottaMBitatIrTavArikalaSAH#} <ls>Ve. 6</ls>; <ls>Śi. 4. 25.</ls> "
+        "Made of stone, stony.\n"
     ],
     "_morphisms": [
         {
-            "__line": 67248,
+            "__line": 65282,
             "_ancestry": [
                 "L_ 7826",
-                "B_ {#uttaMB#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#ASma#}",
+                "M_ .{@{#-SmaH#}@}"
             ],
+            "_banner": ".{@{#-SmaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "uttaMB"
+                    "Right": "ASmaH"
+                }
+            ],
+            "_meanings": [
+                "Anything made of stone.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 65284,
+            "_ancestry": [
+                "L_ 7826",
+                "B_ {#ASma#}",
+                "S_ .{@{#-BArika#}@}"
+            ],
+            "_banner": ".{@{#-BArika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASmaBArika"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To increase, heighten, rouse;  \n<ls>Ki. 2. 48.</ls> ",
-                "{@--2@} To bind up."
+                "having a mass of stones.\n"
+            ]
+        },
+        {
+            "__line": 65285,
+            "_ancestry": [
+                "L_ 7826",
+                "B_ {#ASma#}",
+                "S_ .{@{#-raTyaH#}@}"
+            ],
+            "_banner": ".{@{#-raTyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASmaraTyaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a teacher of ritual."
             ]
         }
     ]

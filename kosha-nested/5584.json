@@ -1,19 +1,58 @@
 {
-    "__line": 49309,
+    "__line": 46566,
     "_ancestry": [
         "L_ 5584",
-        "B_ {#asOmya#}"
+        "B_ {#avirAma#}"
     ],
-    "_banner": "{#asOmya#}",
+    "_banner": "{#avirAma#}",
     "_bannerExp": [
         {
-            "Right": "asOmya"
+            "Right": "avirAma"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Not lovely, ugly, \ndisagreeable; {#°svara#} {%<ab>a.</ab>%} having a bad or\ncroaking voice."
+        "Uninterrupted, continuous.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 46567,
+            "_ancestry": [
+                "L_ 5584",
+                "B_ {#avirAma#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avirAmaH"
+                }
+            ],
+            "_meanings": [
+                "Uninterrupted succession, continuance.\n"
+            ]
+        },
+        {
+            "__line": 46568,
+            "_ancestry": [
+                "L_ 5584",
+                "B_ {#avirAma#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avirAmam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Uninterruptedly."
+            ]
+        }
     ]
 }

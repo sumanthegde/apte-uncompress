@@ -1,58 +1,38 @@
 {
-    "__line": 177567,
+    "__line": 192273,
     "_ancestry": [
         "L_ 21474",
-        "B_ {#Palavat#}"
+        "B_ {#pItiH#}"
     ],
-    "_banner": "{#Palavat#}",
+    "_banner": "{#pItiH#}",
     "_bannerExp": [
         {
-            "Right": "Palavat"
+            "Right": "pItiH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Fruitful, \nfruit-bearing. ",
-        "{@--2@} Producing or yielding results,\nsuccessful, profitable. ",
-        "{@--3@} \nContaining the result or end of a plot.\n"
+        "A horse. "
     ],
     "_morphisms": [
         {
-            "__line": 177571,
+            "__line": 192273,
             "_ancestry": [
                 "L_ 21474",
-                "B_ {#Palavat#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#pItiH#}",
+                "M_ --{%f.%}"
             ],
+            "_banner": "--{%f.%}",
             "_bannerExp": [
                 {
-                    "Right": "Palavat"
-                }
-            ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
-            ],
-            "_meanings": [
-                "A fruit-tree. "
-            ]
-        },
-        {
-            "__line": 177571,
-            "_ancestry": [
-                "L_ 21474",
-                "B_ {#Palavat#}",
-                "M_ {#--tI#}"
-            ],
-            "_banner": "{#--tI#}",
-            "_bannerExp": [
-                {
-                    "Right": "PalavatI"
+                    "Left": "Parser error: {#pItiH#} M_ --{%f.%}"
                 }
             ],
             "_meanings": [
-                "The plant\ncalled {#priyaMgu#}."
+                ".²1 Draught, drinking.\n",
+                ".²2 A tavern.\n",
+                ".²3 The proboscis of an elephant.\n",
+                ".²4 Going.\n",
+                ".²5 Protection (<ab>Ved.</ab>)."
             ]
         }
     ]

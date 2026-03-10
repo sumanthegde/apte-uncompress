@@ -1,37 +1,118 @@
 {
-    "__line": 40269,
+    "__line": 36743,
     "_ancestry": [
         "L_ 4386",
-        "B_ {#avakraMda#}"
+        "B_ {#araRiH#} "
     ],
-    "_banner": "{#avakraMda#}",
+    "_banner": "{#araRiH#} ",
     "_bannerExp": [
         {
-            "Right": "avakraMda"
+            "Right": "araRiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%m., f.%}",
+        "{#-RI#}",
+        "{%f.%}"
     ],
     "_meanings": [
-        "Crying slowly, roaring,\nneighing. "
+        "¦\n [{#f-ani#} <ls>Uṇ. 2. 101</ls>; {#araRiH agneryoniH#}] A piece\n of wood (of the Śamī tree) used for kindling the sacred fire by attrition,\n the fire-producing wooden stick; {#prayacCanti PalaM BUmiraraRIva hutASanam#} <ls>Pt. 1. 216</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 40270,
+            "__line": 36747,
             "_ancestry": [
                 "L_ 4386",
-                "B_ {#avakraMda#}",
-                "M_ {#--daH#}"
+                "B_ {#araRiH#} ",
+                "M_ .{@{#-RI#}@}"
             ],
-            "_banner": "{#--daH#}",
+            "_banner": ".{@{#-RI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avakraMdaH"
+                    "Right": "araRI"
                 }
             ],
             "_meanings": [
-                "A cry."
+                "(dual) The two pieces of wood used in kindling the sacred\n fire. {#DaraRyornihito jAtavedAH#} <ls>Kaṭh. 4. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 36749,
+            "_ancestry": [
+                "L_ 4386",
+                "B_ {#araRiH#} ",
+                "M_ .{@{#-RiH#}@}"
+            ],
+            "_banner": ".{@{#-RiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "araRiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The sun.\n",
+                ".²2 fire.\n",
+                ".²3 Flint.\n",
+                ".²4 <ab>N.</ab> of several fire-producing plants, particularly {#agnimanTa#},\n\n"
+            ]
+        },
+        {
+            "__line": 36755,
+            "_ancestry": [
+                "L_ 4386",
+                "B_ {#araRiH#} ",
+                "M_ .{@{#-RiH#}@}"
+            ],
+            "_banner": ".{@{#-RiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "araRiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 A path, way.\n",
+                ".²2 <ab>Ved.</ab> Stinginess.\n",
+                ".²3 Discomfort; {#niraraRi savitA sAvizak#} <ls>Av. 1. 18. 2</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 36760,
+            "_ancestry": [
+                "L_ 4386",
+                "B_ {#araRiH#} ",
+                "S_ .{@{#-ketuH#}@}"
+            ],
+            "_banner": ".{@{#-ketuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "araRiketuH"
+                }
+            ],
+            "_meanings": [
+                "= {#agnimanTa#} Premna Intergrifolia.\n"
+            ]
+        },
+        {
+            "__line": 36761,
+            "_ancestry": [
+                "L_ 4386",
+                "B_ {#araRiH#} ",
+                "S_ .{@{#-sutaH#}@}"
+            ],
+            "_banner": ".{@{#-sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "araRisutaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Śuka, a celebrated sage (born from the seed of Vyāsa fallen\n upon an {%Araṇi%} at the sight of the nymph Ghṛtācī); {#pituH pAdAvagfhRAdaraRIsutaH#}\n <ls>Mb. 12. 327. 31</ls>.\n",
+                ".²2 Fire, Agni; {#citiM kftvA pravekzyAmi samidDamaraRIsutam#} <ls>Rām. 5. 13. 39</ls>."
             ]
         }
     ]

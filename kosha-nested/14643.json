@@ -1,38 +1,54 @@
 {
-    "__line": 121781,
+    "__line": 126887,
     "_ancestry": [
         "L_ 14643",
-        "B_ {#tiktaka#}"
+        "B_ {#caturTaka#}"
     ],
-    "_banner": "{#tiktaka#}",
+    "_banner": "{#caturTaka#}",
     "_bannerExp": [
         {
-            "Right": "tiktaka"
+            "Right": "caturTaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Bitter. "
+        "The fourth.\n"
     ],
     "_morphisms": [
         {
-            "__line": 121781,
+            "__line": 126888,
             "_ancestry": [
                 "L_ 14643",
-                "B_ {#tiktaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#caturTaka#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tiktakaH"
+                    "Right": "caturTakaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} The \nKhadira tree. ",
-                "{@--2@} <ab>N.</ab> of several plants."
+                "A fever that returns or is repeated every four days, a quartan.\n"
+            ]
+        },
+        {
+            "__line": 126889,
+            "_ancestry": [
+                "L_ 14643",
+                "B_ {#caturTaka#}",
+                "M_ .{@{#-rTikA#}@}"
+            ],
+            "_banner": ".{@{#-rTikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturTikA"
+                }
+            ],
+            "_meanings": [
+                "A weight equal to four Karṣas."
             ]
         }
     ]

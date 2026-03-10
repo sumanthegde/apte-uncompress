@@ -1,19 +1,582 @@
 {
-    "__line": 113623,
+    "__line": 115884,
     "_ancestry": [
         "L_ 13577",
-        "B_ {#CaMdu#}"
+        "B_ {#Kara#}"
     ],
-    "_banner": "{#CaMdu#}",
+    "_banner": "{#Kara#}",
     "_bannerExp": [
         {
-            "Right": "CaMdu"
+            "Right": "Kara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Pleasing, lovely."
+        "(<ab>opp.</ab> {#mfdu, SlakzRa, drava#})\n",
+        ".²1 Hard, rough, solid.\n",
+        ".²2 Severe, sharp, strict, <ls>R. 8. 9</ls>; {#smaraH KaraH KalaH kAntaH#} <ls>Kāv. 1. 59</ls>.\n",
+        ".²3 Pungent, acid.\n",
+        ".²4 Dense, thick.\n",
+        ".²5 Hurtful, injurious, cutting, smart (words).\n",
+        ".²6 Sharpedged; {#dehi KaranayanaSaraGAtam#} <ls>Gīt. 10</ls>.\n",
+        ".²7 Hot; {#KarAMSuH#} <ab>&c.</ab>\n",
+        ".²8 Cruel; <ls>Rām. 6. 59. 17</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 115893,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An ass, <ls>Ms. 2. 201</ls>, <ls n=\"Ms.\">4. 115</ls>, <ls n=\"Ms. 4.\">120</ls>, <ls n=\"Ms.\">8. 370</ls>; <ls>Y. 2. 160</ls>.\n",
+                ".²2 A mule.\n",
+                ".²3 A heron.\n",
+                ".²4 A crow.\n",
+                ".²5 A kind of prickly nightshade.\n",
+                ".²6 A quadrangular mound of earth for receiving the sacrificial vessels.\n",
+                ".²7 A Daitya or demon in general\n",
+                ".²8 An attendant of\n",
+                ".³({%a%}) Sūrya,\n",
+                ".³({%b%}) Śiva.\n",
+                ".²9 <ab>N.</ab> of a demon, half-brother of Rāvaṇa and slain by Rāma; <ls>R. 12. 42</ls>.\n",
+                ".²10 <ab>N.</ab> of the 25th year of the sixty years cycle; {#Karo bAleyavarzayoH#} <ls>Nm.</ls>\n"
+            ]
+        },
+        {
+            "__line": 115906,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Karam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "In a sharp way; <ls>Rām. 3</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 115908,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-aMSuH, -karaH, -raSmiH#}@}"
+            ],
+            "_banner": ".{@{#-aMSuH, -karaH, -raSmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarAMSuH"
+                },
+                {
+                    "Right": "KarakaraH"
+                },
+                {
+                    "Left": "S error: midAlign raSmiH karaSmiH"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 115909,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-abdANkurakaH#}@}"
+            ],
+            "_banner": ".{@{#-abdANkurakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarAbdANkurakaH"
+                }
+            ],
+            "_meanings": [
+                "lapis lazuli.\n"
+            ]
+        },
+        {
+            "__line": 115910,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-uzwram#}@}"
+            ],
+            "_banner": ".{@{#-uzwram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Karozwram"
+                }
+            ],
+            "_meanings": [
+                "ass and camel; {#samamezAM vivIte'pi KarozwraM mahizIsamam#} <ls>Y. 2. 160</ls>.\n"
+            ]
+        },
+        {
+            "__line": 115911,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-kaRqUyanam#}@}"
+            ],
+            "_banner": ".{@{#-kaRqUyanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarakaRqUyanam"
+                }
+            ],
+            "_meanings": [
+                "making worse any evil; <ls>Mb. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 115912,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-kuwI#}@}"
+            ],
+            "_banner": ".{@{#-kuwI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarakuwI"
+                }
+            ],
+            "_meanings": [
+                ".²1 a stable for asses.\n",
+                ".²2 a barberʼs shop; a barberʼs bag {#tatvaM KarakuwIH paSya#} <ls>Mbh.</ls> on <ls n=\"P.\">IV. 1. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 115915,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-koRaH, -kvARaH#}@}"
+            ],
+            "_banner": ".{@{#-koRaH, -kvARaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarakoRaH"
+                },
+                {
+                    "Right": "KarakvARaH"
+                }
+            ],
+            "_meanings": [
+                "the francoline partridge.\n"
+            ]
+        },
+        {
+            "__line": 115916,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-komalaH#}@}"
+            ],
+            "_banner": ".{@{#-komalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarakomalaH"
+                }
+            ],
+            "_meanings": [
+                "the month of Jyeṣṭha.\n"
+            ]
+        },
+        {
+            "__line": 115917,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-gfham, -geham#}@}"
+            ],
+            "_banner": ".{@{#-gfham, -geham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Karagfham"
+                },
+                {
+                    "Right": "Karageham"
+                }
+            ],
+            "_meanings": [
+                ".²1 a stable for asses.\n",
+                ".²2 a tent.\n"
+            ]
+        },
+        {
+            "__line": 115920,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-carmA#}@}"
+            ],
+            "_banner": ".{@{#-carmA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaracarmA"
+                }
+            ],
+            "_meanings": [
+                "a crocodile; <ls>Gīrvāṇa.</ls>\n"
+            ]
+        },
+        {
+            "__line": 115921,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-Ras, -Rasa#}@}"
+            ],
+            "_banner": ".{@{#-Ras, -Rasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaraRas"
+                },
+                {
+                    "Right": "KaraRasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sharp-nosed.\n"
+            ]
+        },
+        {
+            "__line": 115922,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-daRqam#}@}"
+            ],
+            "_banner": ".{@{#-daRqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaradaRqam"
+                }
+            ],
+            "_meanings": [
+                "a lotus; {#KaradaRqajalASayam#} <ls>Bhāg. 4. 6. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 115923,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-dalA#}@}"
+            ],
+            "_banner": ".{@{#-dalA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaradalA"
+                }
+            ],
+            "_meanings": [
+                "the opposite-leaved fig-tree.\n"
+            ]
+        },
+        {
+            "__line": 115924,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-dUzaRaH#}@}"
+            ],
+            "_banner": ".{@{#-dUzaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaradUzaRaH"
+                }
+            ],
+            "_meanings": [
+                "the thorn apple.\n"
+            ]
+        },
+        {
+            "__line": 115925,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-DvaMsin#}@}"
+            ],
+            "_banner": ".{@{#-DvaMsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaraDvaMsin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Rāma, who killed the demon {#Kara#};\n {#maDyaM pAtu KaraDvaMsI#} <ls>Rāmarakṣā.</ls>\n"
+            ]
+        },
+        {
+            "__line": 115927,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-nAdaH#}@}"
+            ],
+            "_banner": ".{@{#-nAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaranAdaH"
+                }
+            ],
+            "_meanings": [
+                "the braying of an ass.\n"
+            ]
+        },
+        {
+            "__line": 115928,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-nAlaH#}@}"
+            ],
+            "_banner": ".{@{#-nAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaranAlaH"
+                }
+            ],
+            "_meanings": [
+                "a lotus; {#nArvAggatastatKaranAlanAlanABiM vicinvaMstadavindatAjaH#}\n <ls>Bhāg. 3. 8. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 115930,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-pAtram#}@}"
+            ],
+            "_banner": ".{@{#-pAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarapAtram"
+                }
+            ],
+            "_meanings": [
+                "an iron vessel.\n"
+            ]
+        },
+        {
+            "__line": 115931,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-pAdAQyaH#}@}"
+            ],
+            "_banner": ".{@{#-pAdAQyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarapAdAQyaH"
+                }
+            ],
+            "_meanings": [
+                "the wood-apple.\n"
+            ]
+        },
+        {
+            "__line": 115932,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarapAlaH"
+                }
+            ],
+            "_meanings": [
+                "a wooden vessel.\n"
+            ]
+        },
+        {
+            "__line": 115933,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-priyaH#}@}"
+            ],
+            "_banner": ".{@{#-priyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarapriyaH"
+                }
+            ],
+            "_meanings": [
+                "a pigeon.\n"
+            ]
+        },
+        {
+            "__line": 115934,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-yAnam#}@}"
+            ],
+            "_banner": ".{@{#-yAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarayAnam"
+                }
+            ],
+            "_meanings": [
+                "a donkey-cart; <ls>Ms. 11. 201</ls>.\n"
+            ]
+        },
+        {
+            "__line": 115935,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-loman#}@}"
+            ],
+            "_banner": ".{@{#-loman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Karaloman"
+                }
+            ],
+            "_meanings": [
+                "a kind of serpent; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 115936,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-vfzaBaH#}@}"
+            ],
+            "_banner": ".{@{#-vfzaBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaravfzaBaH"
+                }
+            ],
+            "_meanings": [
+                "a jack-ass.\n"
+            ]
+        },
+        {
+            "__line": 115937,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-SabdaH#}@}"
+            ],
+            "_banner": ".{@{#-SabdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaraSabdaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the braying of an ass.\n",
+                ".²2 an osprey.\n"
+            ]
+        },
+        {
+            "__line": 115940,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-SAlA#}@}"
+            ],
+            "_banner": ".{@{#-SAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaraSAlA"
+                }
+            ],
+            "_meanings": [
+                "a stable for asses.\n"
+            ]
+        },
+        {
+            "__line": 115941,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-sAram#}@}"
+            ],
+            "_banner": ".{@{#-sAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarasAram"
+                }
+            ],
+            "_meanings": [
+                "iron.\n"
+            ]
+        },
+        {
+            "__line": 115942,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-sparSa#}@}"
+            ],
+            "_banner": ".{@{#-sparSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarasparSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sharp, hot (wind); {#vAyurvAti KarasparSaH#} <ls>Bhāg. 1. 14. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 115943,
+            "_ancestry": [
+                "L_ 13577",
+                "B_ {#Kara#}",
+                "S_ .{@{#-svarA#}@}"
+            ],
+            "_banner": ".{@{#-svarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarasvarA"
+                }
+            ],
+            "_meanings": [
+                "wild jasmine."
+            ]
+        }
     ]
 }

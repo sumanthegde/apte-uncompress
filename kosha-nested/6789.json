@@ -1,82 +1,39 @@
 {
-    "__line": 58768,
+    "__line": 57225,
     "_ancestry": [
         "L_ 6789",
-        "B_ {#Artava#}"
+        "B_ {#Atmavat#}"
     ],
-    "_banner": "{#Artava#}",
+    "_banner": "{#Atmavat#}",
     "_bannerExp": [
         {
-            "Right": "ArtavA"
-        },
-        {
-            "Right": "ArtavI"
-        },
-        {
-            "Right": "Artava"
+            "Right": "Atmavat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#vA vI#}|{%<ab>f.</ab>%})",
-        "[{#fturasya prAptaH#},\n{#aR#}]"
+        "{%a.%}",
+        "[{#astyarTe matup masya vaH#}]"
     ],
     "_meanings": [
-        "{@--1@} Conforming or relating to\nthe season; seasonal; {#aBiBUya#} \n{#viBUtimArtavIM#} <ls>R. 8. 36</ls>, {#svayamaMgezu mamedamArtavaM#}\n<ls>Ku. 4. 68</ls>; <ls>V. 1. 13</ls>; vernal;  \n<ls>R. 9. 28</ls>, <ls n=\"R. 9.\">48.</ls> ",
-        "{@--2@} Menstrual, relating\nto or produced by this discharge.\n"
+        ".²1 Self-possessed, possessed of self-restraint; {#SAstradfzwena viDinA#}\n {#saMyojyAtmAnamAtmavAn#} <ls>Mb. 3. 126. 8</ls>; <ls>Mu. 3</ls>.\n",
+        ".²2 Composed, prudent, wise; {#kimivAvasAdakaramAtmavatAm#} <ls>Ki. 6. 19</ls>;\n <ls>Bg. 2. 45</ls>, <ls n=\"Bg.\">4. 41</ls>; <ls>Ms. 1. 108</ls>, <ls n=\"Ms.\">5. 43</ls>, <ls n=\"Ms.\">7. 52</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 58775,
+            "__line": 57229,
             "_ancestry": [
                 "L_ 6789",
-                "B_ {#Artava#}",
-                "M_ {#--vaH#}"
+                "B_ {#Atmavat#}",
+                "M_ --{%ind.%}"
             ],
-            "_banner": "{#--vaH#}",
+            "_banner": "--{%ind.%}",
             "_bannerExp": [
                 {
-                    "Right": "ArtavaH"
+                    "Left": "Parser error: {#Atmavat#} M_ --{%iMd.%}"
                 }
             ],
             "_meanings": [
-                "A section of the year, a \ncombination of several seasons (<ab>Ved.</ab>).\n"
-            ]
-        },
-        {
-            "__line": 58777,
-            "_ancestry": [
-                "L_ 6789",
-                "B_ {#Artava#}",
-                "M_ {#--vI#}"
-            ],
-            "_banner": "{#--vI#}",
-            "_bannerExp": [
-                {
-                    "Right": "ArtavI"
-                }
-            ],
-            "_meanings": [
-                "A mare. "
-            ]
-        },
-        {
-            "__line": 58777,
-            "_ancestry": [
-                "L_ 6789",
-                "B_ {#Artava#}",
-                "M_ {#--vaM#}"
-            ],
-            "_banner": "{#--vaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "ArtavaM"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} The menstrual\ndischarge (of women);  \n{#nopagacCetpramatto'pi striyamArtavadarSane#} <ls>Ms. 4. 40</ls>,\n<ls n=\"Ms.\">3. 48.</ls> ",
-                "{@--2@} Certain days after \nmenstrual discharge, favourable to\nconception. ",
-                "{@--3@} A flower."
+                "Like oneself; {#Atmavat#}\n {#sarvaBUtezu yaH paSyati sa paRqitaH#}."
             ]
         }
     ]

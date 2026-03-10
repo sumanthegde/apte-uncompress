@@ -1,42 +1,55 @@
 {
-    "__line": 200806,
+    "__line": 212363,
     "_ancestry": [
         "L_ 23800",
-        "B_ {#yAmuna#}"
+        "B_ {#prAkAraH#}"
     ],
-    "_banner": "{#yAmuna#}",
+    "_banner": "{#prAkAraH#}",
     "_bannerExp": [
         {
-            "Right": "yAmunI"
-        },
-        {
-            "Right": "yAmuna"
+            "Right": "prAkAraH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#yamunA-aR#}]"
-    ],
     "_meanings": [
-        "Belonging to or coming from, or \ngrowing in, the Yamunā. "
+        ".²1 A fence, a wall, an enclosure.\n",
+        ".²2 An encircling or surrounding wall, rampart; {#dvitIyaM hemaprAkAraM#}\n {#kurvadBiriva vAnarEH#} <ls>R. 12. 71</ls>; <ls>Pt. 1. 229</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 200808,
+            "__line": 212368,
             "_ancestry": [
                 "L_ 23800",
-                "B_ {#yAmuna#}",
-                "M_ {#--naM#}"
+                "B_ {#prAkAraH#}",
+                "S_ .{@{#-DaraRI#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-DaraRI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yAmunaM"
+                    "Right": "prAkAraDaraRI"
                 }
             ],
             "_meanings": [
-                "A kind\nof collyrium."
+                "the platform upon a wall.\n"
+            ]
+        },
+        {
+            "__line": 212369,
+            "_ancestry": [
+                "L_ 23800",
+                "B_ {#prAkAraH#}",
+                "S_ .{@{#-sTa#}@}"
+            ],
+            "_banner": ".{@{#-sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkArasTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One who is stationed on the rampart; {#ekaH SataM#}\n {#yoDayati prAkArasTo DanurDaraH#} <ls>Ms. 7. 74</ls>."
             ]
         }
     ]

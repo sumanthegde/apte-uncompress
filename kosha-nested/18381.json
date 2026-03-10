@@ -1,22 +1,38 @@
 {
-    "__line": 154267,
+    "__line": 163619,
     "_ancestry": [
         "L_ 18381",
-        "B_ {#parovaram#}"
+        "B_ {#narmavat#}"
     ],
-    "_banner": "{#parovaram#}",
+    "_banner": "{#narmavat#}",
     "_bannerExp": [
         {
-            "Right": "parovaram"
+            "Right": "narmavat"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} From top to\nbottom. ",
-        "{@--2@} From hand to hand\n",
-        "{@--3@} In succession."
+        "Humorous, witty. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 163619,
+            "_ancestry": [
+                "L_ 18381",
+                "B_ {#narmavat#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#narmavat#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "A kind of drama."
+            ]
+        }
     ]
 }

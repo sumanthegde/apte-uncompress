@@ -1,24 +1,57 @@
 {
-    "__line": 247834,
+    "__line": 273164,
     "_ancestry": [
         "L_ 29562",
-        "B_ {#samudDf#}"
+        "B_ {#vid#}"
     ],
-    "_banner": "{#samudDf#}",
+    "_banner": "{#vid#}",
     "_bannerExp": [
         {
-            "Right": "samudDf"
+            "Right": "vid"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To raise or lift up.\n",
-        "{@--2@} To save, extricate, deliver, \nrescue. ",
-        "{@--3@} To extract, take or draw\nout. ",
-        "{@--4@} To pull up by the roots,\nroot out, extirpate. ",
-        "{@--5@} To extol,\npraise, honour."
+        "(At the end of <ab>comp.</ab>) Knowing, conversant with; {#vedavid#}\n <ab>&c.</ab>; {#yAni vedavidAM SrezWo BagavAn bAdarAyaRaH#} <ls>Bhāg. 1. 1. 7</ls>; <ls>Mv. 1. 26</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 273165,
+            "_ancestry": [
+                "L_ 29562",
+                "B_ {#vid#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vid#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The planet Mercury.\n",
+                ".²2 A learned man, wise man. "
+            ]
+        },
+        {
+            "__line": 273167,
+            "_ancestry": [
+                "L_ 29562",
+                "B_ {#vid#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vid#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Knowledge.\n",
+                ".²2 Understanding, intellect."
+            ]
+        }
     ]
 }

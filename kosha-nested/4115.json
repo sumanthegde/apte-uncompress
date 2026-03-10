@@ -1,22 +1,63 @@
 {
-    "__line": 37389,
+    "__line": 34100,
     "_ancestry": [
         "L_ 4115",
-        "B_ {#ark#}"
+        "B_ {#ama#}"
     ],
-    "_banner": "{#ark#}",
+    "_banner": "{#ama#}",
     "_bannerExp": [
         {
-            "Right": "ark"
+            "Right": "ama"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "[{#arkayati, arkayituM#}, \n{#arkita#}] ",
-        "{@--1@} To heat or warm. ",
-        "{@--2@} To praise."
+        "Unripe (as fruit).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34101,
+            "_ancestry": [
+                "L_ 4115",
+                "B_ {#ama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Going.\n",
+                ".²2 Pressure, weight; strength, power ({#balam#}).\n",
+                ".²3 Fright, terror.\n",
+                ".²4 Sickness, disease.\n",
+                ".²5 A servant, follower, an attendant.\n",
+                ".²6 Vital air, life-wind ({#prARa#}).\n",
+                ".²7 This self.\n",
+                ".²8 Unmeasured state.\n"
+            ]
+        },
+        {
+            "__line": 34110,
+            "_ancestry": [
+                "L_ 4115",
+                "B_ {#ama#}",
+                "M_ .{@{#-mA#}@}"
+            ],
+            "_banner": ".{@{#-mA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Soul.\n",
+                ".²2 Unmeasured state."
+            ]
+        }
     ]
 }

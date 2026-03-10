@@ -1,19 +1,64 @@
 {
-    "__line": 217896,
+    "__line": 234096,
     "_ancestry": [
         "L_ 25769",
-        "B_ {#vicarcita#}"
+        "B_ {#mamatA#}"
     ],
-    "_banner": "{#vicarcita#}",
+    "_banner": "{#mamatA#}",
     "_bannerExp": [
         {
-            "Right": "vicarcita"
+            "Right": "mamatA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#mama BAvaH tal#}]"
     ],
     "_meanings": [
-        "Anointed, smeared."
+        ".²1 The feeling of {%‘meum’%}, the sense of ownership, self-interest, selfishness.\n",
+        ".²2 Pride, arrogance, self-sufficiency.\n",
+        ".²3 Individuality.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 234101,
+            "_ancestry": [
+                "L_ 25769",
+                "B_ {#mamatA#}",
+                "S_ .{@{#-yukta#}@}"
+            ],
+            "_banner": ".{@{#-yukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mamatAyukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 a miser.\n",
+                ".²2 an egoist.\n"
+            ]
+        },
+        {
+            "__line": 234104,
+            "_ancestry": [
+                "L_ 25769",
+                "B_ {#mamatA#}",
+                "S_ .{@{#-SUnya#}@}"
+            ],
+            "_banner": ".{@{#-SUnya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mamatASUnya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "devoid of interest (for us)."
+            ]
+        }
     ]
 }

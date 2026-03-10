@@ -1,19 +1,133 @@
 {
-    "__line": 180379,
+    "__line": 195981,
     "_ancestry": [
         "L_ 21770",
-        "B_ {#bileSayaH#}"
+        "B_ {#pfzat#}"
     ],
-    "_banner": "{#bileSayaH#}",
+    "_banner": "{#pfzat#}",
     "_bannerExp": [
         {
-            "Right": "bileSayaH"
+            "Right": "pfzat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A snake. ",
-        "{@--2@} A mouse,\nrat. ",
-        "{@--3@} Any animal living in \nburrows. ",
-        "{@--4@} A hare."
+        ".²1 Spotted, variegated.\n",
+        ".²2 Sprinkling. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 195983,
+            "_ancestry": [
+                "L_ 21770",
+                "B_ {#pfzat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pfzat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The spotted antelope; {#‘pfzanmfge pumAn bindO na#}\n {#dvayoH pfzato'pi nA’ iti koSaH#}; <ls>Viś. Guṇā. 192</ls>. "
+            ]
+        },
+        {
+            "__line": 195984,
+            "_ancestry": [
+                "L_ 21770",
+                "B_ {#pfzat#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pfzat#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "A drop of\n water or of any other liquid; (said by some to be used only in <ab>pl.</ab>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 195987,
+            "_ancestry": [
+                "L_ 21770",
+                "B_ {#pfzat#}",
+                "S_ .{@{#-aMSaH, -aSvaH#}@}"
+            ],
+            "_banner": ".{@{#-aMSaH, -aSvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfzadaMSaH"
+                },
+                {
+                    "Right": "pfzadaSvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 wind, air; {#pfzadaSvo DaneSaSca maheSaSca digISvarAH#} <ls>Śiva B. 6. 44</ls>.\n",
+                ".²2 an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 195990,
+            "_ancestry": [
+                "L_ 21770",
+                "B_ {#pfzat#}",
+                "S_ .{@{#-Ajyam#}@}"
+            ],
+            "_banner": ".{@{#-Ajyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfzadAjyam"
+                }
+            ],
+            "_meanings": [
+                "ghee mixed with coagulated milk; {#saMBftaM pfzadAjyam#} <ls>Rv. 10. 90. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 195991,
+            "_ancestry": [
+                "L_ 21770",
+                "B_ {#pfzat#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfzatpatiH"
+                }
+            ],
+            "_gram": [
+                "({@{#-pfzatAMpatiH#}@})"
+            ],
+            "_meanings": [
+                "wind.\n"
+            ]
+        },
+        {
+            "__line": 195992,
+            "_ancestry": [
+                "L_ 21770",
+                "B_ {#pfzat#}",
+                "S_ .{@{#-balaH#}@}"
+            ],
+            "_banner": ".{@{#-balaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfzadbalaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the horse of Wind."
+            ]
+        }
     ]
 }

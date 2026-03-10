@@ -1,21 +1,148 @@
 {
-    "__line": 96295,
+    "__line": 95870,
     "_ancestry": [
         "L_ 11466",
-        "B_ {#ketayati#}"
+        "B_ {#kapAlaH#}, {#-lam#}"
     ],
-    "_banner": "{#ketayati#}",
+    "_banner": "{#kapAlaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "ketayati"
+            "Right": "kapAlaH"
+        },
+        {
+            "Right": "kapAlam"
         }
     ],
+    "_gram": [
+        "[{#kaM Siro jalaM vA pAlayati#}]"
+    ],
     "_meanings": [
-        "<ab>Den.</ab> <ab>P.</ab> ",
-        "{@--1@} To summon, \n\ncall, invite. ",
-        "{@--2@} To advise, counsel.\n",
-        "{@--3@} To fix or appoint a time. ",
-        "{@--4@} To\nhear. ",
-        "{@--5@} To show, indicate;  \n<ls>U. 6. 24.</ls>"
+        ".²1 The skull, skull bone; {#cUqApIqakapAlasaMkulagalanmandAkinIvArayaH#}\n <ls>Māl. 1. 2</ls>; {#rudro yena kapAlapARipuwake BikzAwanaM kAritaH#} <ls>Bh. 2. 95</ls>.\n",
+        ".²2 A piece of a broken jar; potsherd; {#kapAlena BikzArTI#} <ls>Ms. 8. 93</ls>.\n",
+        ".²3 A multitude, collection.\n",
+        ".²4 A beggarʼs\n\n bowl; <ls>Ms. 6. 44</ls>.\n",
+        ".²5 A cup, jar in general; {#paYcakapAla#}.\n",
+        ".²6 A cover or lid.\n",
+        ".²7 A treaty of peace on equal terms; <ls>H. 4. 107</ls>; <ls>Kām. 9. 2</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 95882,
+            "_ancestry": [
+                "L_ 11466",
+                "B_ {#kapAlaH#}, {#-lam#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAlam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The shell of an egg.\n",
+                ".²2 The cotyla of the leg of a man, any flat bone.\n",
+                ".²3 A kind of Leprosy.\n"
+            ]
+        },
+        {
+            "__line": 95886,
+            "_ancestry": [
+                "L_ 11466",
+                "B_ {#kapAlaH#}, {#-lam#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAlI"
+                }
+            ],
+            "_meanings": [
+                "A beggarʼs bowl [<ab>cf.</ab> <lang>L.</lang> {%caput%}; <lang>Gr.</lang> {%Kephale%}].\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 95888,
+            "_ancestry": [
+                "L_ 11466",
+                "B_ {#kapAlaH#}, {#-lam#}",
+                "S_ .{@{#-nalikA#}@}"
+            ],
+            "_banner": ".{@{#-nalikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAlanalikA"
+                }
+            ],
+            "_meanings": [
+                "A sort of pin or spindle for winding cotton <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 95889,
+            "_ancestry": [
+                "L_ 11466",
+                "B_ {#kapAlaH#}, {#-lam#}",
+                "S_ .{@{#-pARiH, -Bft, -mAlin, -Siras#}@}"
+            ],
+            "_banner": ".{@{#-pARiH, -Bft, -mAlin, -Siras#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAlapARiH"
+                },
+                {
+                    "Right": "kapAlaBft"
+                },
+                {
+                    "Right": "kapAlamAlin"
+                },
+                {
+                    "Right": "kapAlaSiras"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "epithet of Śiva; {#tapasA#}\n {#divamArUQAH kapAlaSirasA saha#} <ls>Rām. 2. 54. 31</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95891,
+            "_ancestry": [
+                "L_ 11466",
+                "B_ {#kapAlaH#}, {#-lam#}",
+                "S_ .{@{#-mAlinI#}@}"
+            ],
+            "_banner": ".{@{#-mAlinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAlamAlinI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Durgā\n"
+            ]
+        },
+        {
+            "__line": 95892,
+            "_ancestry": [
+                "L_ 11466",
+                "B_ {#kapAlaH#}, {#-lam#}",
+                "S_ .{@{#-saMDiH#}@}"
+            ],
+            "_banner": ".{@{#-saMDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapAlasanDiH"
+                }
+            ],
+            "_meanings": [
+                "a peace on equal terms. {#kapAlasaMDirvijYeyaH kevalaM#}\n {#samasaMDitaH#} <ls>H. 4. 110</ls>."
+            ]
+        }
     ]
 }

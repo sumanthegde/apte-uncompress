@@ -1,24 +1,56 @@
 {
-    "__line": 212502,
+    "__line": 225261,
     "_ancestry": [
         "L_ 25070",
-        "B_ {#varivas#}"
+        "B_ {#BAnumat#}"
     ],
-    "_banner": "{#varivas#}",
+    "_banner": "{#BAnumat#}",
     "_bannerExp": [
         {
-            "Right": "varivas"
+            "Right": "BAnumat"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Worshipping,\nhonouring. ",
-        "{@--2@} Wealth. ",
-        "{@--3@} Room,\nspace. ",
-        "{@--4@} Pleasure, happiness. ",
-        "{@--5@}\nEase."
+        ".²1 Luminous, bright, splendid.\n",
+        ".²2 Beautiful, handsome. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 225263,
+            "_ancestry": [
+                "L_ 25070",
+                "B_ {#BAnumat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BAnumat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The sun; {#tulye'parADe svarBAnurBAnumantaM#}\n {#cireRa yat#} <ls>Śi. 2. 49</ls>; <ls>Ku. 3. 65</ls>; <ls>R. 6. 36</ls>; <ls>Ṛs. 5. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 225265,
+            "_ancestry": [
+                "L_ 25070",
+                "B_ {#BAnumat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAnumatI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the wife of Duryodhana."
+            ]
+        }
     ]
 }

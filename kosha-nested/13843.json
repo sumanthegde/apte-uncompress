@@ -1,18 +1,83 @@
 {
-    "__line": 115824,
+    "__line": 118477,
     "_ancestry": [
         "L_ 13843",
-        "B_ {#jA#}"
+        "B_ {#gama#}"
     ],
-    "_banner": "{#jA#}",
+    "_banner": "{#gama#}",
     "_bannerExp": [
         {
-            "Right": "jA"
+            "Right": "gama"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#gam BAvAdO ap#}]"
+    ],
     "_meanings": [
-        "{@--1@} A mother. ",
-        "{@--2@} A husband's\nbrother's wife. ",
-        "{@--3@} A race, tribe."
+        "(At the end of <ab>comp.</ab>) Going, moving,\n going to, reaching, attaining, getting <ab>&c.</ab>; {#Kagama#},\n\n {#purogama, hfdayaMgama#}, <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 118481,
+            "_ancestry": [
+                "L_ 13843",
+                "B_ {#gama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gamaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Going, moving.\n",
+                ".²2 March; {#AdareRa gamaM cakrurvizamezvapyasaNGasAH#} <ls>Bk. 7. 56</ls>; {#aSvasyEkAhagamaH#}.\n",
+                ".²3 The march of an assailant.\n",
+                ".²4 A road.\n",
+                ".²5 Inconsiderateness, thoughtlessness.\n",
+                ".²6 Superficiality, careless perusal.\n",
+                ".²7 (Sexual) intercourse with a woman, cohabitation; {#gurvaNganAgamaH#}\n <ls>Ms. 11. 55</ls>; <ls>Y. 2. 293</ls>.\n",
+                ".²8 A game played with dice and men.\n",
+                ".²9 Removal (as of fraction in <ab>math.</ab>)\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 118493,
+            "_ancestry": [
+                "L_ 13843",
+                "B_ {#gama#}",
+                "S_ .{@{#-AgamaH#}@}"
+            ],
+            "_banner": ".{@{#-AgamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gamAgamaH"
+                }
+            ],
+            "_meanings": [
+                "going and coming.\n"
+            ]
+        },
+        {
+            "__line": 118494,
+            "_ancestry": [
+                "L_ 13843",
+                "B_ {#gama#}",
+                "S_ .{@{#-kAritvam#}@}"
+            ],
+            "_banner": ".{@{#-kAritvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gamakAritvam"
+                }
+            ],
+            "_meanings": [
+                "inconsiderateness, rashness."
+            ]
+        }
     ]
 }

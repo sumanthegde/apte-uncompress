@@ -1,16 +1,42 @@
 {
-    "__line": 186360,
+    "__line": 200383,
     "_ancestry": [
         "L_ 22320",
-        "B_ {#BeraH#}"
+        "B_ {#pratata#}"
     ],
-    "_banner": "{#BeraH#}",
+    "_banner": "{#pratata#}",
     "_bannerExp": [
         {
-            "Right": "BeraH"
+            "Right": "pratata"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "A kettle-drum."
+        ".²1 Spread over, covered.\n",
+        ".²2 Stretched out, diffused.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 200386,
+            "_ancestry": [
+                "L_ 22320",
+                "B_ {#pratata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratatam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Continuously."
+            ]
+        }
     ]
 }

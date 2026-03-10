@@ -1,19 +1,40 @@
 {
-    "__line": 185225,
+    "__line": 199689,
     "_ancestry": [
         "L_ 22242",
-        "B_ {#Buvis#}"
+        "B_ {#prajU#}"
     ],
-    "_banner": "{#Buvis#}",
+    "_banner": "{#prajU#}",
     "_bannerExp": [
         {
-            "Right": "Buvis"
+            "Right": "prajU"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "€1",
+        "<ab>U.</ab>"
     ],
     "_meanings": [
-        "The ocean."
+        "²1 To push or drive onward, impel, urge on.\n",
+        ".²2 To hasten forward. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 199691,
+            "_ancestry": [
+                "L_ 22242",
+                "B_ {#prajU#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "prajU"
+                }
+            ],
+            "_meanings": [
+                "To shoot, dart."
+            ]
+        }
     ]
 }

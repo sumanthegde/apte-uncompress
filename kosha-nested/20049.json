@@ -1,21 +1,62 @@
 {
-    "__line": 167426,
+    "__line": 180770,
     "_ancestry": [
         "L_ 20049",
-        "B_ {#pratiSizwa#}"
+        "B_ {#parikarman#}"
     ],
-    "_banner": "{#pratiSizwa#}",
+    "_banner": "{#parikarman#}",
     "_bannerExp": [
         {
-            "Right": "pratiSizwa"
+            "Right": "parikarman"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%m.%}"
     ],
     "_meanings": [
-        "{@--1@} Ordered, sent;\n<ls>Śi. 16. 1.</ls> ",
-        "{@--2@} Dismissed, rejected. ",
-        "{@--3@}\nFamous, celebrated."
+        "A servant. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 180770,
+            "_ancestry": [
+                "L_ 20049",
+                "B_ {#parikarman#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#parikarman#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Painting or perfuming the body, personal decoration, dressing, toilet;\n {#kftAcAraparikarmARam#} <ls>Ś. 2</ls>.\n",
+                ".²2 Painting or dyeing the foot; {#asamApte parikarmaRi smftaH#} <ls>Ku. 4. 19</ls>.\n",
+                ".²3 Preparation.\n",
+                ".²4 Worship, adoration; {#aviklamaste parikarmaRi sTitaH#} <ls>Bhāg. 2. 9. 29</ls>.\n",
+                ".²5 (In Yoga <ab>phil.</ab>) Purifying, a means of purifying the mind; {#mEtryAdicittaparikarmavido#}\n {#viDAya kleSaprahARa-miha labDasabIjayogAH#}\n\n <ls>Śi. 4. 55</ls> (see <ls>Malli.</ls> thereon).\n",
+                ".²6 An arithmetical operation (of which there are 8 divisions).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 180782,
+            "_ancestry": [
+                "L_ 20049",
+                "B_ {#parikarman#}",
+                "S_ .{@{#-azwakam#}@}"
+            ],
+            "_banner": ".{@{#-azwakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parikarmAzwakam"
+                }
+            ],
+            "_meanings": [
+                "the eight fundamental rules of arithmetic {%<ab>viz.</ab>%} (addition,\n subtraction, multiplication, division, finding the square, extracting\n the square root, finding the cube, extracting the cube root)."
+            ]
+        }
     ]
 }

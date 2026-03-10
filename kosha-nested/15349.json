@@ -1,43 +1,44 @@
 {
-    "__line": 127520,
+    "__line": 132771,
     "_ancestry": [
         "L_ 15349",
-        "B_ {#dADika#}"
+        "B_ {#jawin#}"
     ],
-    "_banner": "{#dADika#}",
+    "_banner": "{#jawin#}",
     "_bannerExp": [
         {
-            "Right": "dADikI"
+            "Right": "jawin"
         },
         {
-            "Right": "dADika"
+            "Right": "jawinI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "({#-nI#}|{%f.%})",
+        "{%a.%}",
+        "[{#jawA astyasya ini#}]"
     ],
     "_meanings": [
-        "{@--1@} Made of or\nfrom, or mixed or sprinkled with,\ncoagulated milk. ",
-        "{@--2@} Carrying about\nor selling coagulated milk. ",
-        "{@--3@} \nEating anything with coagulated milk.\n"
+        "Having twisted hair. "
     ],
     "_morphisms": [
         {
-            "__line": 127525,
+            "__line": 132772,
             "_ancestry": [
                 "L_ 15349",
-                "B_ {#dADika#}",
-                "M_ {#--kaM#}"
+                "B_ {#jawin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "dADikaM"
+                    "Left": "Parser error: {#jawin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "A kind of broth."
+                ".²1 An epithet of Śiva.\n",
+                ".²2 The waved-leaf fig-tree ({#plakza#})\n",
+                ".²3 An elephant sixty years old."
             ]
         }
     ]

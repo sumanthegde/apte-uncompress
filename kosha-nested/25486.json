@@ -1,16 +1,61 @@
 {
-    "__line": 215907,
+    "__line": 230225,
     "_ancestry": [
         "L_ 25486",
-        "B_ {#vAreMdrI#}"
+        "B_ {#maGaH#}"
     ],
-    "_banner": "{#vAreMdrI#}",
+    "_banner": "{#maGaH#}",
     "_bannerExp": [
         {
-            "Right": "vAreMdrI"
+            "Right": "maGaH"
         }
     ],
     "_meanings": [
-        "<ab>N.</ab> of a part of Bengal\n(and Behar) now called {#rAjaSAhI#}."
+        ".²1 <ab>N.</ab> of one of the Dvīpas or divisions of the universe.\n",
+        ".²2 <ab>N.</ab> of a country.\n",
+        ".²3 A kind of drug or medicine.\n",
+        ".²4 Pleasure.\n",
+        ".²5 <ab>N.</ab> of the tenth lunar mansion; see {#maGA#}.\n",
+        ".²6 See {#maGam#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 230232,
+            "_ancestry": [
+                "L_ 25486",
+                "B_ {#maGaH#}",
+                "M_ .{@{#-Gam#}@}"
+            ],
+            "_banner": ".{@{#-Gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maGam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of flower.\n",
+                ".²2 A gift, present.\n",
+                ".²3 Wealth, riches (<ab>Ved.</ab>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 230237,
+            "_ancestry": [
+                "L_ 25486",
+                "B_ {#maGaH#}",
+                "S_ .{@{#-ganDaH#}@}"
+            ],
+            "_banner": ".{@{#-ganDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maGaganDaH"
+                }
+            ],
+            "_meanings": [
+                "Mimusops Elengi ({#bakula#})."
+            ]
+        }
     ]
 }

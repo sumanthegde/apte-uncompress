@@ -1,37 +1,153 @@
 {
-    "__line": 207412,
+    "__line": 218317,
     "_ancestry": [
         "L_ 24464",
-        "B_ {#lapita#}"
+        "B_ {#barhis#}"
     ],
-    "_banner": "{#lapita#}",
+    "_banner": "{#barhis#}",
     "_bannerExp": [
         {
-            "Right": "lapita"
+            "Right": "barhis"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%m., n.%}",
+        "[{#barh karmaRi isi#}]"
     ],
     "_meanings": [
-        "Spoken, said, \nchattered &c. "
+        ".²1 Kuśa grass; {#prAk kUle barhizyAsIno gaNgAkula udaNmuKaH#} <ls>Bhāg. 12. 6. 10</ls>;\n {#niyamaviDijalAnAM barhizAM copanetrI#} <ls>Ku. 1. 60</ls>.\n",
+        ".²2 A bed or layer of Kuśa grass.\n",
+        ".²3 A sacrifice, oblation; {#ye barhizo BAgaBAjaM parAduH#} <ls>Bhāg. 4. 6. 5</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 207413,
+            "__line": 218321,
             "_ancestry": [
                 "L_ 24464",
-                "B_ {#lapita#}",
-                "M_ {#--taM#}"
+                "B_ {#barhis#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "lapitaM"
+                    "Left": "Parser error: {#barhis#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "Speech, voice."
+                ".²1 Fire.\n",
+                ".²2 Light, splendour. "
+            ]
+        },
+        {
+            "__line": 218323,
+            "_ancestry": [
+                "L_ 24464",
+                "B_ {#barhis#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#barhis#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Water.\n",
+                ".²2 Sacrifice.\n",
+                ".²3 Ether.\n",
+                ".²4 A kind of perfume.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 218329,
+            "_ancestry": [
+                "L_ 24464",
+                "B_ {#barhis#}",
+                "S_ .{@{#-utTaH, -keSaH, -jyotis#}@}"
+            ],
+            "_banner": ".{@{#-utTaH, -keSaH, -jyotis#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhirutTaH"
+                },
+                {
+                    "Right": "barhizkeSaH"
+                },
+                {
+                    "Right": "barhirjyotis"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of fire.\n"
+            ]
+        },
+        {
+            "__line": 218330,
+            "_ancestry": [
+                "L_ 24464",
+                "B_ {#barhis#}",
+                "S_ .{@{#-muKaH#}@}"
+            ],
+            "_banner": ".{@{#-muKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhirmuKaH"
+                }
+            ],
+            "_gram": [
+                "({@{#barhirmuKaH#}@})"
+            ],
+            "_meanings": [
+                ".²1 an epithet of fire.\n",
+                ".²2 a god (whose mouth is fire).\n"
+            ]
+        },
+        {
+            "__line": 218333,
+            "_ancestry": [
+                "L_ 24464",
+                "B_ {#barhis#}",
+                "S_ .{@{#-Suzman#}@}"
+            ],
+            "_banner": ".{@{#-Suzman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhiHSuzman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of fire.\n"
+            ]
+        },
+        {
+            "__line": 218334,
+            "_ancestry": [
+                "L_ 24464",
+                "B_ {#barhis#}",
+                "S_ .{@{#-sad#}@}"
+            ],
+            "_banner": ".{@{#-sad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhiHsad"
+                }
+            ],
+            "_gram": [
+                "({@{#barhizad#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "seated on a layer of Kuśa grass. --({%m.%})\n",
+                ".²1 the manes (<ab>pl.</ab>); <ls>Ms. 3. 199</ls>.\n",
+                ".²2 a Pitṛ or deified progenitor."
             ]
         }
     ]

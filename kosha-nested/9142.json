@@ -1,29 +1,56 @@
 {
-    "__line": 77506,
+    "__line": 76905,
     "_ancestry": [
         "L_ 9142",
-        "B_ {#upe#}"
+        "B_ {#udBid#}"
     ],
-    "_banner": "{#upe#}",
+    "_banner": "{#udBid#}",
     "_bannerExp": [
         {
-            "Right": "upe"
+            "Right": "udBid"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>"
+        "€7",
+        "<ab>U.</ab>"
     ],
     "_meanings": [
-        "[{#upa-i#}] ",
-        "{@--1@} To approach,\ncome near, arrive at, reach (a place,\nperson &c.); {#latAmupetya#} <ls>Ś. 1</ls>; so {#rAjAnaM#},\n{#durgaM#} &c. {#yogI paraM sTAnamupEti cAdyaM#}  \n<ls>Bg. 8. 28</ls>, <ls n=\"Bg. 8.\">10</ls>, <ls n=\"Bg. 8.\">15</ls>, <ls n=\"Bg.\">9. 28.</ls> ",
-        "{@--2@} To go to (a\nmaster), become a pupil. ",
-        "{@--3@} To\nhave intercourse with (a woman),\ncohabit; <ls>Ms. 9. 4.</ls> ",
-        "{@--4@} To undergo,\nperform, undertake, practise; {#tapaH#},\n{#satraM#} &c. ",
-        "{@--5@} To go to or pass into\nany state; {#yogaM#} <ls>R. 16. 84</ls>; {#BedaM#}  \n<ls>Ku. 2. 4</ls>; to fall into (misfortune &c.);\n{#kzayaM, mftyuM, suKaM, duHKaM, nidrAM#} &c. ",
-        "{@--6@} To\nobtain, attain to; {#upEti SasyaM#} \n{#pariRAmaramyatAM#} <ls>Ki. 4. 22.</ls> ",
-        "{@--7@} To incur, be\npresent at. ",
-        "{@--8@} To fall to one's lot or\nshare, befall; {#udyoginaM puruzasiMhamupEti#}\n{#lakzmIH#} <ls>Pt. 1. 361</ls>; <ls>Bg. 6. 27.</ls> ",
-        "{@--9@} To\nconsider as, admit, acknowledge."
+        "To break up. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 76905,
+            "_ancestry": [
+                "L_ 9142",
+                "B_ {#udBid#}",
+                "M_ --{%<ab>pass.</ab>%}"
+            ],
+            "_banner": "--{%<ab>pass.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "udBid"
+                }
+            ],
+            "_meanings": [
+                "To break out, burst forth,\n become visible, be produced; {#adyApi pakzAvapi nodBidyete#} <ls>K. 347</ls>; {#udBidyamAnapakzatiH#} <ls n=\"K.\">33</ls>, <ls n=\"K.\">29</ls>, <ls n=\"K.\">46</ls>;\n {#udBinnapayoDarayA#} <ls>K. 100</ls> developed; <ls>Ve. 4. 10</ls>. "
+            ]
+        },
+        {
+            "__line": 76907,
+            "_ancestry": [
+                "L_ 9142",
+                "B_ {#udBid#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "udBid"
+                }
+            ],
+            "_meanings": [
+                "To bring out, develop, unfold; {#bIjAnAM garBitAnAM PalamatigahanaM gUQamudBedayaMSca#} <ls>Mu. 4. 3</ls>."
+            ]
+        }
     ]
 }

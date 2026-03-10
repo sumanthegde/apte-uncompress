@@ -1,20 +1,42 @@
 {
-    "__line": 81056,
+    "__line": 79804,
     "_ancestry": [
         "L_ 9525",
-        "B_ {#ekadA#}"
+        "B_ {#upajIvaka#}, {#-vin#}"
     ],
-    "_banner": "{#ekadA#}",
+    "_banner": "{#upajIvaka#}, {#-vin#}",
     "_bannerExp": [
         {
-            "Right": "ekadA"
+            "Right": "upajIvaka"
+        },
+        {
+            "Right": "upajIvin"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Once, once upon a\ntime, at one time. ",
-        "{@--2@} At the same\ntime, all at once, simultaneously;\n<ls>H. 4. 93.</ls>"
+        ".²1 Living upon, subsisting by (<ab>instr.</ab> or in <ab>comp.</ab>); {#jAtimAtropajIvinAm#}\n <ls>Ms. 12. 114</ls>, <ls n=\"Ms.\">8. 20</ls>, {#nAnApaRyopajIvinAm#} <ls n=\"Ms.\">9. 257</ls>; {#dyUtopajIvyasmi#} <ls>Mk. 2</ls>.\n",
+        ".²2 Living under, depending upon, subject to, a dependant, servant ({%m.%});\n {#BImakAntErnfpaguREH sa baBUvopajIvinAm#} <ls>R. 1. 16</ls>; {#asmad˚#} <ls>K. 61</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 79809,
+            "_ancestry": [
+                "L_ 9525",
+                "B_ {#upajIvaka#}, {#-vin#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upajIvakam"
+                }
+            ],
+            "_meanings": [
+                "Means of subsistence, profession."
+            ]
+        }
     ]
 }

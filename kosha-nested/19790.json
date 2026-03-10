@@ -1,21 +1,88 @@
 {
-    "__line": 165447,
+    "__line": 177664,
     "_ancestry": [
         "L_ 19790",
-        "B_ {#pratapta#}"
+        "B_ {#paW#}"
     ],
-    "_banner": "{#pratapta#}",
+    "_banner": "{#paW#}",
     "_bannerExp": [
         {
-            "Right": "pratapta"
+            "Right": "paW"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "({#paWati, paWita#})"
     ],
     "_meanings": [
-        "{@--1@} Heated. ",
-        "{@--2@} Hot,\nardent. ",
-        "{@--3@} Tormented, tortured,\npained. "
+        ".²1 To read or repeat aloud, recite, rehearse; {#yaH paWecCfRuyAdapi#}.\n",
+        ".²2 To read or recite\n\n to oneself; study, peruse; {#ityetanmAnavaM SAstraM BfguproktaM paWan#}\n {#dvijaH#} <ls>Ms. 15. 126</ls>, <ls n=\"Ms.\">4. 98</ls>; {#nAkzarARi paWatA kimapAWi#} <ls>N. 5. 121</ls>.\n",
+        ".²3 To invoke (as a deity).\n",
+        ".²4 To cite, quote, mention (as in a book); {#etadicCAmyahaM SrotuM purARe#}\n {#yadi paWyate#} <ls>Mb.</ls>\n",
+        ".²5 To declare, describe, express; {#BAryA ca paramo hyarTaH puruzasyeha#}\n {#paWapate#}; <ls>Mb.</ls>\n",
+        ".²6 To teach.\n",
+        ".²7 To learn from (with <ab>abl.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 177676,
+            "_ancestry": [
+                "L_ 19790",
+                "B_ {#paW#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "paW"
+                }
+            ],
+            "_gram": [
+                "({#pAWayati-te#})"
+            ],
+            "_meanings": [
+                ".²1 To cause to read aloud.\n",
+                ".²2 To teach, instruct; {#rAjan rAjasutA na pAWayati mAm#} <ls>K. P. 10</ls>. "
+            ]
+        },
+        {
+            "__line": 177678,
+            "_ancestry": [
+                "L_ 19790",
+                "B_ {#paW#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "paW"
+                }
+            ],
+            "_gram": [
+                "({#pipaWizati#})"
+            ],
+            "_meanings": [
+                "To wish to recite <ab>&c.</ab> ",
+                "--{%With%} {#pari#} to mention,\n declare. --({%<ab>Caus.</ab>%}) to teach; {#tO sarvavidyAH paripAWitO#} <ls>U. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 177681,
+            "_ancestry": [
+                "L_ 19790",
+                "B_ {#paW#}",
+                "M_ .{@{#sam#}@}"
+            ],
+            "_banner": ".{@{#sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "sampaW"
+                }
+            ],
+            "_meanings": [
+                "- to read, learn; {#vedANgAni ca sarvARi kfzRapakzezu saMpaWet#} <ls>Ms. 4. 98</ls>."
+            ]
+        }
     ]
 }

@@ -1,60 +1,77 @@
 {
-    "__line": 217727,
+    "__line": 233907,
     "_ancestry": [
         "L_ 25747",
-        "B_ {#viGasaH#}"
+        "B_ {#mandAraH#}"
     ],
-    "_banner": "{#viGasaH#}",
+    "_banner": "{#mandAraH#}",
     "_bannerExp": [
         {
-            "Right": "viGasaH"
+            "Right": "mandAraH"
         }
     ],
+    "_gram": [
+        "[{#mand-Arak#}]"
+    ],
     "_meanings": [
-        "{@--1@} Half-chewed morsel,\nthe residue or leavings of food\neaten; {#viGaso BuktaSezaM tu#} <ls>Ms. 3. 285</ls>;\n{#tfpyatkAlakarAlavaktraviGasavyAkIryamARA#}\n{#iva#} <ls>U. 5. 6</ls>; <ls>Māl. 5. 14.</ls> ",
-        "{@--2@} Food in\ngeneral. "
+        ".²1 The coral tree, one of the five trees in Indraʼs paradise; {#hastaprApyastabakanamito#}\n {#bAlamandAravfkzaH#} <ls>Me. 77</ls>, <ls n=\"Me.\">69</ls>; <ls>V. 4. 35</ls>; {#vfndArakArivijaye suralokalabDamandAramAlyamaDuvAsitavAsaBUmiH#} <ls>Rām. Ch.</ls>\n",
+        ".²2 The plant called Arka, Calotropis Gigantea\n",
+        ".²3 The Dhattūra plant.\n",
+        ".²4 Heaven.\n",
+        ".²5 An elephant.\n"
     ],
     "_morphisms": [
         {
-            "__line": 217732,
+            "__line": 233914,
             "_ancestry": [
                 "L_ 25747",
-                "B_ {#viGasaH#}",
-                "M_ {#--saM#}"
+                "B_ {#mandAraH#}",
+                "M_ .{@{#-ram#}@}"
             ],
-            "_banner": "{#--saM#}",
+            "_banner": ".{@{#-ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "viGasaM"
+                    "Right": "mandAram"
                 }
             ],
             "_meanings": [
-                "Bees'-wax. "
+                "A flower of the coral tree; {#vinidramandArarajoruRANgulI#}\n <ls>Ku. 5. 80</ls>; <ls>R. 6. 23</ls>.\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 217732,
+            "__line": 233917,
             "_ancestry": [
                 "L_ 25747",
-                "B_ {#viGasaH#}",
-                "S_ \n{#--ASaH, --ASin#}"
+                "B_ {#mandAraH#}",
+                "S_ .{@{#-mAlA#}@}"
             ],
-            "_banner": "\n{#--ASaH, --ASin#}",
+            "_banner": ".{@{#-mAlA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "viGasASaH"
-                },
-                {
-                    "Right": "viGasASin"
+                    "Right": "mandAramAlA"
                 }
             ],
-            "_gram": [
-                "{%<ab>m.</ab>%}"
+            "_meanings": [
+                "a garland of Mandāra flowers; {#mandAramAlA hariRA pinadDA#} <ls>Ś. 7. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 233918,
+            "_ancestry": [
+                "L_ 25747",
+                "B_ {#mandAraH#}",
+                "S_ .{@{#-zazWI#}@}"
+            ],
+            "_banner": ".{@{#-zazWI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mandArazazWI"
+                }
             ],
             "_meanings": [
-                "one who eats\nthe remains of an offering or of\nfood eaten."
+                "and {@{#-saptamI#}@}\n the sixth and seventh days in the bright half of Māgha."
             ]
         }
     ]

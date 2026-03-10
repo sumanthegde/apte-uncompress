@@ -1,59 +1,214 @@
 {
-    "__line": 182261,
+    "__line": 197029,
     "_ancestry": [
         "L_ 21922",
-        "B_ {#BaMgiH --gI#}"
+        "B_ {#pOra#}"
     ],
-    "_banner": "{#BaMgiH --gI#}",
+    "_banner": "{#pOra#}",
     "_bannerExp": [
         {
-            "Right": "BaMgI"
+            "Right": "pOra"
         },
         {
-            "Right": "BaMgiH"
+            "Right": "pOrI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#pure vasati SOziko aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Breaking, \nfracture, breach, division. ",
-        "{@--2@} \nUndulation. ",
-        "{@--3@} Bending, \ncontracting; {#dfgBaMgIBiH praTamamaTurA saMgame#} \n{#cuMbito'smi#} <ls>Ud. S. 13.</ls> ",
-        "{@--4@} A wave. ",
-        "{@--5@}\nA flood, current. ",
-        "{@--6@} A crooked path,\ntortuous or winding course. ",
-        "{@--7@} A\ncircumlocutory or round-about way\nof speaking or acting, periphrasis;\n{#BaMgyaMtareRa kaTanAt#} <ls>K. P. 10</ls>; {#iti#} \n{#BaMgyA vyajyate-kaTyate#} &c.;  \n{#bahuBaMgiviSAradaH#} <ls>Dk.</ls> ",
-        "{@--8@} A pretext, disguise,\nsemblance; {#yaH pAMcajanyapatibiMbaBaMgyA#}\n{#DArAMBasaH Penamiva vyanakti#} <ls>Vikr. 1. 1.</ls>\n",
-        "{@--9@} Trick, fraud, deceit. ",
-        "{@--10@} Irony.\n",
-        "{@--11@} Repartee, wit. ",
-        "{@--12@} A step;  \n<ls>R. 13. 69.</ls> ",
-        "{@--13@} An interval. ",
-        "{@--14@} \nModesty. "
+        ".²1 Relating to a city or town, produced in a town, civic.\n",
+        ".²2 <ab>Ved.</ab> Filling oneʼs own belly.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 197033,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A townsman, citizen, (<ab>opp.</ab> {#jAnapada#}); <ls>Ku. 6. 41</ls>; <ls>R. 2. 10</ls>, <ls n=\"R. 2.\">74</ls>, <ls n=\"R.\">12. 3</ls>, <ls n=\"R.\">16. 9</ls>.\n",
+                ".²2 A term applied to a prince engaged in war under particular circumstances.\n",
+                ".²3 A planet in a state of opposition to other planets.\n"
+            ]
+        },
+        {
+            "__line": 197037,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOrI"
+                }
+            ],
+            "_meanings": [
+                "The language of the servants in a palace.\n"
+            ]
+        },
+        {
+            "__line": 197038,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOram"
+                }
+            ],
+            "_meanings": [
+                "A sort of grass ({#rohiza#}).\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 182278,
+            "__line": 197040,
             "_ancestry": [
                 "L_ 21922",
-                "B_ {#BaMgiH --gI#}",
-                "S_  {#--BaktiH#}"
+                "B_ {#pOra#}",
+                "S_ .{@{#-aNnA, -yozit#}@}"
             ],
-            "_banner": " {#--BaktiH#}",
+            "_banner": ".{@{#-aNnA, -yozit#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BaMgIBaktiH"
+                    "Right": "pOrANnA"
                 },
                 {
-                    "Right": "BaMgiBaktiH"
+                    "Right": "pOrayozit"
                 }
             ],
             "_gram": [
-                "{%<ab>f.</ab>%}"
+                "{%f.%}",
+                "{@{#-strI#}@}"
             ],
             "_meanings": [
-                "division\ninto a series of waves or wave-like\nsteps, a wavy staircase; <ls>Me. 60.</ls>"
+                "a woman living in a town; {#vidyuddAmasPuritacakitEryatra#}\n {#pOrANganAnAM lolApANgEryadi na ramase locanErvaYcito'si#} <ls>Me. 27</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197043,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "S_ .{@{#-kAryam#}@}"
+            ],
+            "_banner": ".{@{#-kAryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOrakAryam"
+                }
+            ],
+            "_meanings": [
+                "public business; {#arTajAtasya gaRanAbahulatayEkameva#}\n {#pOrakAryamavekzitam#} <ls>Ś. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197045,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "S_ .{@{#-janaH, -lokaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH, -lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOrajanaH"
+                },
+                {
+                    "Right": "pOralokaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a citizen.\n",
+                ".²2 citizens, burghers.\n"
+            ]
+        },
+        {
+            "__line": 197048,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "S_ .{@{#-jAnapada#}@}"
+            ],
+            "_banner": ".{@{#-jAnapada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOrajAnapada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to town and country.\n"
+            ]
+        },
+        {
+            "__line": 197049,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "S_ .{@{#-dAH#}@}"
+            ],
+            "_banner": ".{@{#-dAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOradAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) citizens and rustics, townsmen and country people;\n {#kaTaM durjanAH pOrajAnapadAH#} <ls>U. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197051,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "S_ .{@{#-vfdDaH#}@}"
+            ],
+            "_banner": ".{@{#-vfdDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOravfdDaH"
+                }
+            ],
+            "_meanings": [
+                "an eminent citizen, an elder man.\n"
+            ]
+        },
+        {
+            "__line": 197052,
+            "_ancestry": [
+                "L_ 21922",
+                "B_ {#pOra#}",
+                "S_ .{@{#-saKyam#}@}"
+            ],
+            "_banner": ".{@{#-saKyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pOrasaKyam"
+                }
+            ],
+            "_meanings": [
+                "fellow-citizenship; {#daSAbdAKyaM pOrasaKyam#} <ls>Ms. 2. 134</ls>."
             ]
         }
     ]

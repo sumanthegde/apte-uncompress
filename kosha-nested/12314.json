@@ -1,64 +1,90 @@
 {
-    "__line": 102728,
+    "__line": 104353,
     "_ancestry": [
         "L_ 12314",
-        "B_ {#gaBIra#}"
+        "B_ {#kIlAlaH#}"
     ],
-    "_banner": "{#gaBIra#}",
+    "_banner": "{#kIlAlaH#}",
     "_bannerExp": [
         {
-            "Right": "gaBIra"
+            "Right": "kIlAlaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#gacCati jalamatra, gam Iran#} \n{#BAMtAdeSaSca#} <ls>Uṇ. 4. 35</ls>]"
-    ],
     "_meanings": [
-        "{@--1@} Deep (in all senses);\n{#u ttAlAsta ime gaBIrapayasaH puRyAH#} \n{#saritsaMgamAH#} <ls>U. 2. 30</ls>; <ls>Bv. 2. 105.</ls> ",
-        "{@--2@} \nDeepsounding (as a drum). ",
-        "{@--3@} Thick,\ndense, impervious (as a forest).\n",
-        "{@--4@} Profound, sagacious. ",
-        "{@--5@} Grave,\nserious, solemn, earnest. ",
-        "{@--6@} Secret,\nmysterious. ",
-        "{@--7@} Inscrutable, difficult\nto be perceived or understood.\n"
+        ".²1 A heavenly drink similar to Amṛta, beverage of the gods.\n",
+        ".²2 Honey.\n",
+        ".²3 A beast.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 104357,
+            "_ancestry": [
+                "L_ 12314",
+                "B_ {#kIlAlaH#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIlAlam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Blood. {#jalayantrajalAkArakIlAlotkalikAkulAH#} <ls>Śiva B. 14. 33</ls>. {#badDaH#}\n {#satyamapAM niDirjalaniDiH kIlAlaDistoyaDiH#} <ls>Udb.</ls>\n",
+                ".²2 water\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 102738,
+            "__line": 104362,
             "_ancestry": [
                 "L_ 12314",
-                "B_ {#gaBIra#}",
-                "S_  {#--Atman#}"
+                "B_ {#kIlAlaH#}",
+                "S_ .{@{#-jam#}@}"
             ],
-            "_banner": " {#--Atman#}",
+            "_banner": ".{@{#-jam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gaBIrAtman"
+                    "Right": "kIlAlajam"
                 }
             ],
             "_meanings": [
-                "the Supreme Soul.\n"
+                "flesh.\n"
             ]
         },
         {
-            "__line": 102739,
+            "__line": 104363,
             "_ancestry": [
                 "L_ 12314",
-                "B_ {#gaBIra#}",
-                "S_ {#--veDa#}"
+                "B_ {#kIlAlaH#}",
+                "S_ .{@{#-DiH#}@}"
             ],
-            "_banner": "{#--veDa#}",
+            "_banner": ".{@{#-DiH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gaBIraveDa"
+                    "Right": "kIlAlaDiH"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
+            "_meanings": [
+                "the ocean.\n"
+            ]
+        },
+        {
+            "__line": 104364,
+            "_ancestry": [
+                "L_ 12314",
+                "B_ {#kIlAlaH#}",
+                "S_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIlAlapaH"
+                }
             ],
             "_meanings": [
-                "very penetrating."
+                "a demon, goblin; {#na DarmanirataH kIlAlapo nAsuraH#}."
             ]
         }
     ]

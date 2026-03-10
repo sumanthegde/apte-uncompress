@@ -1,21 +1,63 @@
 {
-    "__line": 36071,
+    "__line": 32990,
     "_ancestry": [
         "L_ 3955",
-        "B_ {#ayASu#}"
+        "B_ {#aByarDa#}"
     ],
-    "_banner": "{#ayASu#}",
+    "_banner": "{#aByarDa#}",
     "_bannerExp": [
         {
-            "Right": "ayASu"
+            "Right": "aByarDa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Unfit for \ncopulation. ",
-        "{@--2@} Destructive of good\nthings."
+        "<ab>Ved.</ab>\n",
+        ".²1 Being on this side.\n",
+        ".²2 Near.\n",
+        ".²3 Increasing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 32994,
+            "_ancestry": [
+                "L_ 3955",
+                "B_ {#aByarDa#}",
+                "M_ .{@{#-rDam#}@}"
+            ],
+            "_banner": ".{@{#-rDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aByarDam"
+                }
+            ],
+            "_meanings": [
+                "Nearness.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 32996,
+            "_ancestry": [
+                "L_ 3955",
+                "B_ {#aByarDa#}",
+                "S_ .{@{#-yajvan#}@}"
+            ],
+            "_banner": ".{@{#-yajvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aByarDayajvan"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "granting gifts, increasing the sacrificerʼs prosperity;\n {#sizakti pUzA aByarDayajvA#} <ls>Rv. 6. 50. 5</ls>."
+            ]
+        }
     ]
 }

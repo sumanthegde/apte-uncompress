@@ -1,16 +1,141 @@
 {
-    "__line": 213396,
+    "__line": 226641,
     "_ancestry": [
         "L_ 25183",
-        "B_ {#varzmaM#}"
+        "B_ {#BIta#}"
     ],
-    "_banner": "{#varzmaM#}",
+    "_banner": "{#BIta#}",
     "_bannerExp": [
         {
-            "Right": "varzmaM"
+            "Right": "BIta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#BI-kta#}]"
+    ],
     "_meanings": [
-        "The body; see below."
+        ".²1 Frightened, terrified, alarmed, afraid of (with <ab>abl.</ab>); {#na BIto maraRAdasmi#} <ls>Mk. 10. 27</ls>.\n",
+        ".²2 Fearful, timid.\n",
+        ".²3 Placed in danger, imperilled.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 226645,
+            "_ancestry": [
+                "L_ 25183",
+                "B_ {#BIta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItam"
+                }
+            ],
+            "_meanings": [
+                "Fear, dread.\n"
+            ]
+        },
+        {
+            "__line": 226646,
+            "_ancestry": [
+                "L_ 25183",
+                "B_ {#BIta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Timidly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 226648,
+            "_ancestry": [
+                "L_ 25183",
+                "B_ {#BIta#}",
+                "S_ .{@{#-gAyanaH#}@}"
+            ],
+            "_banner": ".{@{#-gAyanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItagAyanaH"
+                }
+            ],
+            "_meanings": [
+                "a shy singer.\n"
+            ]
+        },
+        {
+            "__line": 226649,
+            "_ancestry": [
+                "L_ 25183",
+                "B_ {#BIta#}",
+                "S_ .{@{#-cArin#}@}"
+            ],
+            "_banner": ".{@{#-cArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItacArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "acting timidly.\n"
+            ]
+        },
+        {
+            "__line": 226650,
+            "_ancestry": [
+                "L_ 25183",
+                "B_ {#BIta#}",
+                "S_ .{@{#-citta#}@}"
+            ],
+            "_banner": ".{@{#-citta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItacitta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "afraid in mind.\n"
+            ]
+        },
+        {
+            "__line": 226651,
+            "_ancestry": [
+                "L_ 25183",
+                "B_ {#BIta#}",
+                "S_ .{@{#-BIta#}@}"
+            ],
+            "_banner": ".{@{#-BIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItaBIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 exceedingly afraid.\n",
+                ".²2 rather shy ({#BItatulya#}); {#cakurAkzepikAScezwA BItaBItA ivANganAH#}\n <ls>Bu. Ch. 4. 25</ls>; <ab>cf.</ab> also; {#BItaBIta iva SItadIDitiH#} <ls>Śi.</ls>"
+            ]
+        }
     ]
 }

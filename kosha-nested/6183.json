@@ -1,21 +1,60 @@
 {
-    "__line": 54525,
+    "__line": 51769,
     "_ancestry": [
         "L_ 6183",
-        "B_ {#AdArin#}"
+        "B_ {#asUrya#}"
     ],
-    "_banner": "{#AdArin#}",
+    "_banner": "{#asUrya#}",
     "_bannerExp": [
         {
-            "Right": "AdArin"
+            "Right": "asUrya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Attracting. ",
-        "{@--2@}\nDestroying."
+        "Sunless; {#asUrye tamasi vAvfDAnam#} <ls>Rv. 5. 32. 6</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 51770,
+            "_ancestry": [
+                "L_ 6183",
+                "B_ {#asUrya#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#asUrya#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "At night.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 51772,
+            "_ancestry": [
+                "L_ 6183",
+                "B_ {#asUrya#}",
+                "S_ .{@{#-ga#}@}"
+            ],
+            "_banner": ".{@{#-ga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asUryaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not entering into the Sun, {%<ab>i. e.</ab>%} not set; {#grahEstataH#}\n {#paYcaBiruccasaMSrayErasUryagEH sUcitaBAgyasampadam#} <ls>R. 3. 13</ls>; ({#raviRAstamayo#}\n {#yogo viyogastUdayo Bavet#})."
+            ]
+        }
     ]
 }

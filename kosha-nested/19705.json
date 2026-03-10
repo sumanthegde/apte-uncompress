@@ -1,41 +1,93 @@
 {
-    "__line": 164816,
+    "__line": 176484,
     "_ancestry": [
         "L_ 19705",
-        "B_ {#prajAvat#}"
+        "B_ {#pac#}"
     ],
-    "_banner": "{#prajAvat#}",
+    "_banner": "{#pac#}",
     "_bannerExp": [
         {
-            "Right": "prajAvat"
+            "Right": "pac"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "I.",
+        "€1",
+        "<ab>U.</ab>",
+        "({#pacati-te, papAca-pece, ApakzIt-apakta, pakzyati-te#},\n {#paktum, pakva#})"
     ],
     "_meanings": [
-        "{@--1@} Having subjects or\nchildren. ",
-        "{@--2@} Pregnant. ",
-        "{@--3@} \nAbounding in progeny, prolific. "
+        ".²1 To cook, roast, dress (as food <ab>&c.</ab>) (said to govern two accusatives;\n as {#taRqulAnodanaM pacati#}, but this use is very rare in classical Sanskrit);\n {#yaH pacatyAtmakAraRAt#} <ls>Ms. 3. 118</ls>; {#SUle matsyAnivApakzyan durbalAn#}\n {#balavattarAH#} <ls n=\"Ms.\">7. 20</ls>; <ls>Bh. 1. 85</ls>.\n\n",
+        ".²2 To bake, burn (as bricks); see {#pakva#}\n",
+        ".²3 To digest (as food); {#pacAmyannaM caturviDam#} <ls>Bg. 15. 14</ls>.\n",
+        ".²4 To ripen, mature,\n",
+        ".²5 To bring to perfection, develop (as understanding).\n",
+        ".²6 To melt (as metals).\n",
+        ".²7 cook (for oneself) (<ab>Ātm.</ab>). --{%<ab>Pass.</ab>%} ({#pacyate#})\n",
+        ".²1 To be cooked.\n",
+        ".²2 To become ripe, matured or developed, ripen; (<ab>fig.</ab>) to bear fruit,\n attain perfection or fulfilment; {#sadya eva sukftAM hi pacyate kalpavfkzaPalaDarmi#}\n {#kANkzitam#} <ls>R. 11. 50</ls>.\n",
+        ".²3 To be inflamed. "
     ],
     "_morphisms": [
         {
-            "__line": 164818,
+            "__line": 176501,
             "_ancestry": [
                 "L_ 19705",
-                "B_ {#prajAvat#}",
-                "M_ {#--tI#}"
+                "B_ {#pac#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": "{#--tI#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "prajAvatI"
+                    "Right": "pac"
                 }
             ],
             "_meanings": [
-                "{@--1@} A\nbrother's wife ({#Bra tfjAyA#}); {#prajAvatI#}\n{#dohadaSaMsinI te#} <ls>R. 14. 45</ls>; <ls n=\"R.\">15. 13.</ls> ",
-                "{@--2@}\nA matron, mother. ",
-                "{@--3@} An elder\nbrother's wife."
+                ".²1 ({#pAcayati -te#}) To cause to be cooked, to have cooked or dressed (food <ab>&c.</ab>).\n",
+                ".²2 To cause to ripen or develop, bring to maturity, perfection, or completion.\n",
+                ".²3 To cure, heal. "
+            ]
+        },
+        {
+            "__line": 176504,
+            "_ancestry": [
+                "L_ 19705",
+                "B_ {#pac#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pac"
+                }
+            ],
+            "_gram": [
+                "({#pipakzati#})"
+            ],
+            "_meanings": [
+                "To wish to cook <ab>&c.</ab>\n",
+                "--{%With%} {#pari#} to ripen, mature, develop. {@{#vi˚#}@}\n",
+                ".²1 To mature, develop, ripen, bear fruit; {#garBaSAlisaDarmARastasya gUQaM#}\n {#vipecire#} <ls>R. 17. 53</ls>.\n",
+                ".²2 To digest.\n",
+                ".²3 To cook thoroughly. --II. €1 <ab>Ā.</ab> ({#pacate#}) To make clear or evident;\n see ({#paYcate#}) also. "
+            ]
+        },
+        {
+            "__line": 176510,
+            "_ancestry": [
+                "L_ 19705",
+                "B_ {#pac#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pac"
+                }
+            ],
+            "_meanings": [
+                ".²1 To explain fully, dilate upon, amplify.\n",
+                ".²2 To spread."
             ]
         }
     ]

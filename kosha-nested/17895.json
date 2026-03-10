@@ -1,17 +1,51 @@
 {
-    "__line": 151178,
+    "__line": 158327,
     "_ancestry": [
         "L_ 17895",
-        "B_ {#parikzAlanaM#}"
+        "B_ {#Dama#}"
     ],
-    "_banner": "{#parikzAlanaM#}",
+    "_banner": "{#Dama#}",
     "_bannerExp": [
         {
-            "Right": "parikzAlanaM"
+            "Right": "Dama"
+        },
+        {
+            "Right": "DamA"
+        },
+        {
+            "Right": "DamI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-mA, -mI#}|{%f.%})",
+        "[{#Dam DmAne-ac#}]"
+    ],
     "_meanings": [
-        "{@--1@} Washing, cleansing.\n",
-        "{@--2@} Water for washing."
+        "(Usually at the end of <ab>comp.</ab>)\n",
+        ".²1 Blowing; {#agniMDama, nAqiMDama#}.\n",
+        ".²2 Melting, fusing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 158331,
+            "_ancestry": [
+                "L_ 17895",
+                "B_ {#Dama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DamaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The moon.\n",
+                ".²2 An epithet of Kṛṣṇa.\n",
+                ".²3 Of Yama, the god of death.\n",
+                ".²4 Of Brahmā."
+            ]
+        }
     ]
 }

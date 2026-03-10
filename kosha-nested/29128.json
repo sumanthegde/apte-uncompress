@@ -1,25 +1,39 @@
 {
-    "__line": 244548,
+    "__line": 269691,
     "_ancestry": [
         "L_ 29128",
-        "B_ {#saMtatiH#}"
+        "B_ {#vAstra#}"
     ],
-    "_banner": "{#saMtatiH#}",
+    "_banner": "{#vAstra#}",
     "_bannerExp": [
         {
-            "Right": "saMtatiH"
+            "Right": "vAstra"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#vastra-aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Stretching across,\nspreading along. ",
-        "{@--2@} Extent, \nexpanse, extension. ",
-        "{@--3@} Continuous\nline or flow, series, row, range,\nsuccession, continuity;  \n{#ciMtAsaMtatitaMtujAlanibiqasyUteva lagnA priyA#}  \n<ls>Māl. 5. 10</ls>; {#kusumasaMtatisaMtatasaMgiBiH#}  \n<ls>Śi. 6. 36.</ls> ",
-        "{@--4@} Perpetuation, uninterrupted\ncontinuance; {#nidAnamikzvAkukulasya#}\n{#saMtateH#} <ls>R. 3. 1.</ls> ",
-        "{@--5@} A race, lineage,\nfamily. ",
-        "{@--6@} Offspring, progeny;\n{#satatiH SudDavaMSyA hi paratreha ca SarmaRe#}  \n<ls>R. 1. 69.</ls> ",
-        "{@--7@} A heap, mass; ({#alaM#})\n{#sahasA saMtItamaMhasAM vihaMtuM#} <ls>Ki. 5. 17.</ls>"
+        "Made of cloth.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 269692,
+            "_ancestry": [
+                "L_ 29128",
+                "B_ {#vAstra#}",
+                "M_ .{@{#-straH#}@}"
+            ],
+            "_banner": ".{@{#-straH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAstraH"
+                }
+            ],
+            "_meanings": [
+                "A carriage covered with cloth."
+            ]
+        }
     ]
 }

@@ -1,47 +1,89 @@
 {
-    "__line": 95636,
+    "__line": 95275,
     "_ancestry": [
         "L_ 11394",
-        "B_ {#kft#}"
+        "B_ {#kadru#}"
     ],
-    "_banner": "{#kft#}",
+    "_banner": "{#kadru#}",
     "_bannerExp": [
         {
-            "Right": "kft"
+            "Right": "kadru"
+        },
+        {
+            "Right": "kadrU"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#kfMtati-kftta#})"
+        "{%a.%}",
+        "[{#kad-ru#}]",
+        "({#dru#}|{#drU#}|{%f.%})"
     ],
     "_meanings": [
-        "To cut, cut\noff, divide, tear asunder, cut in pieces,\ndestroy; {#praharati viDirmarmacCedI na#} \n{#kfMtati jIvitaM#} <ls>U. 3. 31</ls>, <ls n=\"U. 3.\">35</ls>; <ls>Bk. 9. 42</ls>;\n<ls n=\"Bk.\">15. 97</ls>; <ls n=\"Bk.\">16. 15</ls>; <ls>Ms. 8. 12.</ls> "
+        ".²1 Tawny.\n",
+        ".²2 Variegated, spotted.\n"
     ],
     "_morphisms": [
         {
-            "__line": 95640,
+            "__line": 95278,
             "_ancestry": [
                 "L_ 11394",
-                "B_ {#kft#}",
-                "M_ {vII.v}"
+                "B_ {#kadru#}",
+                "M_ .{@{#-druH#}@}"
             ],
+            "_banner": ".{@{#-druH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kft"
+                    "Right": "kadruH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The tawny colour.\n",
+                ".²2 The variegated colour.\n"
+            ]
+        },
+        {
+            "__line": 95281,
+            "_ancestry": [
+                "L_ 11394",
+                "B_ {#kadru#}",
+                "M_ .{@{#-druH, -drUH#}@}"
+            ],
+            "_banner": ".{@{#-druH, -drUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadruH"
+                },
+                {
+                    "Right": "kadrUH"
                 }
             ],
             "_gram": [
-                "{vII.v}",
-                "{c7c}",
-                "<ab>P.</ab>",
-                "({#kfRatti, kftta#})"
+                "{%f.%}"
             ],
             "_meanings": [
-                "{@--1@} To spin. ",
-                "{@--2@} To \nsurround, encompass. ",
-                "{@--3@} To attire."
+                "Wife of Kaśyapa and the mother of the Nāgas.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 95283,
+            "_ancestry": [
+                "L_ 11394",
+                "B_ {#kadru#}",
+                "S_ .{@{#-putraH, -sutaH#}@}"
+            ],
+            "_banner": ".{@{#-putraH, -sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadruputraH"
+                },
+                {
+                    "Right": "kadrusutaH"
+                }
+            ],
+            "_meanings": [
+                "a serpent."
             ]
         }
     ]

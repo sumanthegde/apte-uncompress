@@ -1,19 +1,99 @@
 {
-    "__line": 98732,
+    "__line": 99399,
     "_ancestry": [
         "L_ 11789",
-        "B_ {#kleSita#}"
+        "B_ {#kava(ba)ra#}"
     ],
-    "_banner": "{#kleSita#}",
+    "_banner": "{#kava(ba)ra#}",
     "_bannerExp": [
         {
-            "Right": "kleSita"
+            "Right": "kavara"
+        },
+        {
+            "Right": "kabara"
+        },
+        {
+            "Right": "kavarA"
+        },
+        {
+            "Right": "kabarA"
+        },
+        {
+            "Right": "kavarI"
+        },
+        {
+            "Right": "kabarI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<ls>Uṇ. 4. 154.</ls>]",
+        ".({@{#-rA, -rI#}@}|{%f.%})"
     ],
     "_meanings": [
-        "Pained, distressed."
+        ".²1 mixed, intermingled; {#vyAkIrRamAnyakabarAM kabarIM taruRyAH#} <ls>Śi. 5. 19</ls>.\n",
+        ".²2 Set, inlaid.\n",
+        ".²3 Variegated. {#‘kabaraH kaburaH SAraH’ iti halAyuDaH .#}\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 99404,
+            "_ancestry": [
+                "L_ 11789",
+                "B_ {#kava(ba)ra#}",
+                "M_ .{@{#-raH, -ram#}@}"
+            ],
+            "_banner": ".{@{#-raH, -ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavaraH"
+                },
+                {
+                    "Right": "kavaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Salt.\n",
+                ".²2 Sourness or acidity.\n"
+            ]
+        },
+        {
+            "__line": 99407,
+            "_ancestry": [
+                "L_ 11789",
+                "B_ {#kava(ba)ra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A braid or fillet of hair.\n",
+                ".²2 A lecturer ({#pAWaka#}).\n"
+            ]
+        },
+        {
+            "__line": 99410,
+            "_ancestry": [
+                "L_ 11789",
+                "B_ {#kava(ba)ra#}",
+                "M_ .{@{#-rA, -rI#}@}"
+            ],
+            "_banner": ".{@{#-rA, -rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavarA"
+                },
+                {
+                    "Right": "kavarI"
+                }
+            ],
+            "_meanings": [
+                "A kind of vegetable ({#hiMgupatra#})."
+            ]
+        }
     ]
 }

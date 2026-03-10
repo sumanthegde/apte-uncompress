@@ -1,20 +1,64 @@
 {
-    "__line": 140348,
+    "__line": 145046,
     "_ancestry": [
         "L_ 16730",
-        "B_ {#nidrARa#}"
+        "B_ {#tariH, -rIH#}"
     ],
-    "_banner": "{#nidrARa#}",
+    "_banner": "{#tariH, -rIH#}",
     "_bannerExp": [
         {
-            "Right": "nidrARa"
+            "Right": "tariH"
+        },
+        {
+            "Right": "tarIH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#tF-karaRe i#}]"
     ],
     "_meanings": [
-        "{@--1@} Sleeping, asleep.\n",
-        "{@--2@} Shut, closed (as a bud)."
+        ".²1 A boat. {#DarmArTaM vAhaye tarim#} <ls>Mb. 1. 100. 48</ls>; {#jIrRA tariH saridatIva#}\n {#gaBIranIrA#} <ls>Udb.</ls>; <ls>Śi. 3. 76</ls>.\n",
+        ".²2 A box for clothes.\n",
+        ".²3 The end or hem of a garment.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145052,
+            "_ancestry": [
+                "L_ 16730",
+                "B_ {#tariH, -rIH#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tarI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A small wooden baling-vessel.\n",
+                ".²2 A club.\n",
+                ".²3 Smoke.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 145057,
+            "_ancestry": [
+                "L_ 16730",
+                "B_ {#tariH, -rIH#}",
+                "S_ .{@{#-raTaH#}@}"
+            ],
+            "_banner": ".{@{#-raTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tariraTaH"
+                }
+            ],
+            "_meanings": [
+                "an oar, a paddle."
+            ]
+        }
     ]
 }

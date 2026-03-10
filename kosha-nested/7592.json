@@ -1,23 +1,74 @@
 {
-    "__line": 65610,
+    "__line": 63510,
     "_ancestry": [
         "L_ 7592",
-        "B_ {#uccaMqa#}"
+        "B_ {#AleKanam#}"
     ],
-    "_banner": "{#uccaMqa#}",
+    "_banner": "{#AleKanam#}",
     "_bannerExp": [
         {
-            "Right": "uccaMqa"
+            "Right": "AleKanam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Fierce, terrible, \nformidable; <ls>U. 6.</ls> ",
-        "{@--2@} Quick, \nexpeditious. ",
-        "{@--3@} Loud. ",
-        "{@--4@} Angry, irascible,\nviolent. ",
-        "{@--5@} Hanging down."
+        "Scratching, painting.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 63511,
+            "_ancestry": [
+                "L_ 7592",
+                "B_ {#AleKanam#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AleKanI"
+                }
+            ],
+            "_meanings": [
+                "A brush, pencil.\n"
+            ]
+        },
+        {
+            "__line": 63512,
+            "_ancestry": [
+                "L_ 7592",
+                "B_ {#AleKanam#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AleKanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Writing.\n",
+                ".²2 Painting.\n",
+                ".²3 Scratching.\n"
+            ]
+        },
+        {
+            "__line": 63516,
+            "_ancestry": [
+                "L_ 7592",
+                "B_ {#AleKanam#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AleKanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an old authority quoted by Jaimini; <ls>MS. 6. 5. 17</ls>."
+            ]
+        }
     ]
 }

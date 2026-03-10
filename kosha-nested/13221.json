@@ -1,23 +1,45 @@
 {
-    "__line": 111079,
+    "__line": 112689,
     "_ancestry": [
         "L_ 13221",
-        "B_ {#cAturmAsaka#}"
+        "B_ {#klAnta#}"
     ],
-    "_banner": "{#cAturmAsaka#}",
+    "_banner": "{#klAnta#}",
     "_bannerExp": [
         {
-            "Right": "cAturmAsaka"
-        },
-        {
-            "Right": "cAturmAsikA"
+            "Right": "klAnta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#sikA#}|{%<ab>f.</ab>%})"
+        "{%<ab>p. p.</ab>%}",
+        "[{#klam-kta#}]"
     ],
     "_meanings": [
-        "One who\nperforms the Cāturmāsya sacrifice."
+        ".²1 Fatigued, tired out; {#tamAtapaklAntam#} <ls>R. 2. 13</ls>; <ls>Me. 37</ls>; <ls>V. 2. 23</ls>.\n",
+        ".²2 Withered, faded: {#klAnto manmaTaleKa eza nalinIpatre naKErarpitaH#}\n <ls>Ś. 3. 25</ls>; <ls>R. 10. 48</ls>.\n",
+        ".²3 Lean, thin, emaciated.\n",
+        ".²4 Depressed in spirits, exhausted.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 112696,
+            "_ancestry": [
+                "L_ 13221",
+                "B_ {#klAnta#}",
+                "S_ .{@{#-manas#}@}"
+            ],
+            "_banner": ".{@{#-manas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "klAntamanas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "languid, low spirited."
+            ]
+        }
     ]
 }

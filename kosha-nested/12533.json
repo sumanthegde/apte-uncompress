@@ -1,23 +1,57 @@
 {
-    "__line": 104648,
+    "__line": 106241,
     "_ancestry": [
         "L_ 12533",
-        "B_ {#gItin#}"
+        "B_ {#kumBin#}"
     ],
-    "_banner": "{#gItin#}",
+    "_banner": "{#kumBin#}",
     "_bannerExp": [
         {
-            "Right": "gItin"
-        },
-        {
-            "Right": "gItinI"
+            "Right": "kumBin"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})"
-    ],
     "_meanings": [
-        "One who \nrecites in a singing manner; {#gItI#}\n{#SIGrI SiraHkaMpI taTA liKitapAWakaH#}  \n<ls>Śik. 32.</ls>"
+        ".²1 An elephant; {#asO kumBiBrAntyA KaranaKaravidrAvitamahAgurugrAvagrAmaH#}\n {#svapiti girigarBe haripatiH#} <ls>Bv. 1. 52</ls>.\n",
+        ".²2 A crocodile.\n",
+        ".²3 A fish.\n",
+        ".²4 A kind of poisonous insect.\n",
+        ".²5 A sort of fragrant resin ({#guggula#}).\n",
+        ".²6 The number eight.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 106250,
+            "_ancestry": [
+                "L_ 12533",
+                "B_ {#kumBin#}",
+                "S_ .{@{#-narakaH#}@}"
+            ],
+            "_banner": ".{@{#-narakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kumBinarakaH"
+                }
+            ],
+            "_meanings": [
+                "a particular hell.\n"
+            ]
+        },
+        {
+            "__line": 106251,
+            "_ancestry": [
+                "L_ 12533",
+                "B_ {#kumBin#}",
+                "S_ .{@{#-madaH#}@}"
+            ],
+            "_banner": ".{@{#-madaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kumBimadaH"
+                }
+            ],
+            "_meanings": [
+                "rut, ichor."
+            ]
+        }
     ]
 }

@@ -1,42 +1,76 @@
 {
-    "__line": 53875,
+    "__line": 51162,
     "_ancestry": [
         "L_ 6120",
-        "B_ {#AtmanIna#}"
+        "B_ {#asADu#}"
     ],
-    "_banner": "{#AtmanIna#}",
+    "_banner": "{#asADu#}",
     "_bannerExp": [
         {
-            "Right": "AtmanIna"
+            "Right": "asADu"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#Atmane hitaH Ka#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@}\nBelonging to oneself, one's own\n{#kasyEza AtmanInaH#} <ls>M. 4</ls> on whose side\nis he? ",
-        "{@--2@} Beneficial to oneself;\n{#AtmanInamupatizWate#} <ls>Ki. 13. 69</ls>, <ls n=\"Ki.\">3. 16</ls>;\n<ls>Bh. 3. 77</ls>; good, fit, suitable, \nappropriate (as diet &c.). ",
-        "{@--3@} Existent.\nsentient. "
+        ".²1 Not good, bad, distasteful, unpleasant; {#ato'rhasi kzantumasADu sADu#}\n {#vA#} <ls>Ki. 1. 4</ls>.\n",
+        ".²2 Wicked.\n",
+        ".²3 Ill-behaved (with <ab>loc.</ab>); {#asADurmAtari#} <ls>Sk.</ls>, {#asADuH pitari#} <ls>Mbh. 2. 3. 36</ls>\n",
+        ".²4 Corrupt, not properly formed or {%Sanskrit%} (as a word); {#yaTA goRISabdaH#}\n {#sAsnAdimati asADuH#} <ls>Bhartṛ. Mbh. Dīpikā</ls>\n"
     ],
     "_morphisms": [
         {
-            "__line": 53882,
+            "__line": 51169,
             "_ancestry": [
                 "L_ 6120",
-                "B_ {#AtmanIna#}",
-                "M_ {#--naH#}"
+                "B_ {#asADu#}",
+                "M_ .{@{#-DvI#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-DvI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AtmanInaH"
+                    "Right": "asADvI"
                 }
             ],
             "_meanings": [
-                "{@--1@} A son. ",
-                "{@--2@} A wife's\nbrother. ",
-                "{@--3@} A jester (in dramas)."
+                "An unchaste woman.\n"
+            ]
+        },
+        {
+            "__line": 51170,
+            "_ancestry": [
+                "L_ 6120",
+                "B_ {#asADu#}",
+                "M_ .{@{#˚tA, -tvam#}@}"
+            ],
+            "_banner": ".{@{#˚tA, -tvam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#asADu#} M_ .{@{#˚tA, -tvaM#}@}"
+                }
+            ],
+            "_meanings": [
+                "Wickedness.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 51172,
+            "_ancestry": [
+                "L_ 6120",
+                "B_ {#asADu#}",
+                "S_ .{@{#-vfttA#}@}"
+            ],
+            "_banner": ".{@{#-vfttA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asADuvfttA"
+                }
+            ],
+            "_meanings": [
+                "an unchaste woman."
             ]
         }
     ]

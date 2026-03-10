@@ -1,20 +1,59 @@
 {
-    "__line": 11652,
+    "__line": 9663,
     "_ancestry": [
         "L_ 1016",
-        "B_ {#aDivAs#}"
+        "B_ {#aDarAYc#}"
     ],
-    "_banner": "{#aDivAs#}",
+    "_banner": "{#aDarAYc#}",
     "_bannerExp": [
         {
-            "Right": "aDivAs"
+            "Right": "aDarAYc"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#aDarAM dakziRAM diSam aYcati aYc kvin#} <ls>P. III. 2. 59</ls>]"
     ],
     "_meanings": [
-        "To scent, perfume;\n{#karpUrapallavarasena aDivAsaya gaMDapAtrARi#}  \n<ls>K. 184</ls>; {#maMdArapuzpEraDivAsitAyAM#} <ls>V. 4. 35.</ls>"
+        "Southward; tending downwards, to the nadir or lower region; tending to the south.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 9665,
+            "_ancestry": [
+                "L_ 1016",
+                "B_ {#aDarAYc#}",
+                "M_ .{@{#-YcI#}@}"
+            ],
+            "_banner": ".{@{#-YcI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aDarAYcI"
+                }
+            ],
+            "_meanings": [
+                "the southern direction.\n"
+            ]
+        },
+        {
+            "__line": 9666,
+            "_ancestry": [
+                "L_ 1016",
+                "B_ {#aDarAYc#}",
+                "M_ .{@{#-k#}@}"
+            ],
+            "_banner": ".{@{#-k#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: aDarAMc k"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Beneath,"
+            ]
+        }
     ]
 }

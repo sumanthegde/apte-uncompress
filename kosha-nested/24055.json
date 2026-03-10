@@ -1,21 +1,44 @@
 {
-    "__line": 203730,
+    "__line": 214540,
     "_ancestry": [
         "L_ 24055",
-        "B_ {#rasikatA, --tvaM#}"
+        "B_ {#prAsAdika#}"
     ],
-    "_banner": "{#rasikatA, --tvaM#}",
+    "_banner": "{#prAsAdika#}",
     "_bannerExp": [
         {
-            "Right": "rasikatA"
+            "Right": "prAsAdika"
         },
         {
-            "Right": "rasikatvaM"
+            "Right": "prAsAdikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} Taste, feeling. ",
-        "{@--2@} A\nTastefulness. ",
-        "{@--3@} Appreciative power."
+        ".²1 Given as a favour.\n",
+        ".²2 Kind, friendly, amiable; {#aho prAsAdikaM rUpam#} <ls>U. 6. 20</ls>.\n",
+        ".²3 Beautiful, lovely.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 214544,
+            "_ancestry": [
+                "L_ 24055",
+                "B_ {#prAsAdika#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAsAdikA"
+                }
+            ],
+            "_meanings": [
+                "A chamber on the top of a palace."
+            ]
+        }
     ]
 }

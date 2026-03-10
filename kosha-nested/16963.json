@@ -1,19 +1,39 @@
 {
-    "__line": 142786,
+    "__line": 147426,
     "_ancestry": [
         "L_ 16963",
-        "B_ {#nirdeSaka#}"
+        "B_ {#daSera#}"
     ],
-    "_banner": "{#nirdeSaka#}",
+    "_banner": "{#daSera#}",
     "_bannerExp": [
         {
-            "Right": "nirdeSaka"
+            "Right": "daSera"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Pointing out, showing\n&c."
+        ".²1 Biting.\n",
+        ".²2 Noxious, hurtful.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 147429,
+            "_ancestry": [
+                "L_ 16963",
+                "B_ {#daSera#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSeraH"
+                }
+            ],
+            "_meanings": [
+                "A mischievous or venomous animal."
+            ]
+        }
     ]
 }

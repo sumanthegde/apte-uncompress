@@ -1,36 +1,78 @@
 {
-    "__line": 148325,
+    "__line": 155525,
     "_ancestry": [
         "L_ 17609",
-        "B_ {#paMjikA#}"
+        "B_ {#dozA#}"
     ],
-    "_banner": "{#paMjikA#}",
+    "_banner": "{#dozA#}",
     "_bannerExp": [
         {
-            "Right": "paMjikA"
+            "Right": "dozA"
         }
     ],
-    "_meanings": [
-        "{@--1@} A perpetual or running\ncommentary which explains and\nanalyses every word; {#wIkA#} \n{#niraMtaravyAKyA paMjikA padanaktikA#}. ",
-        "{@--2@} A \njournal, a book in which accounts of \n\nreceipts and expenditure are entered.\n",
-        "{@--3@} The record or register of human\nactions kept by Yama. (For other\nsenses see {#paMji#} above). "
+    "_gram": [
+        "{%ind.%}"
     ],
-    "_samasas": [
+    "_meanings": [
+        "At night; {#dozA'pi nUnamahimAMSurasO kileti#} <ls>Śi. 4. 46</ls>, <ls n=\"Śi. 4.\">62</ls>.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 148334,
+            "__line": 155526,
             "_ancestry": [
                 "L_ 17609",
-                "B_ {#paMjikA#}",
-                "S_   \n{#--kArakaH#}"
+                "B_ {#dozA#}",
+                "M_ --{%f.%}"
             ],
-            "_banner": "  \n{#--kArakaH#}",
+            "_banner": "--{%f.%}",
             "_bannerExp": [
                 {
-                    "Right": "paMjikAkArakaH"
+                    "Left": "Parser error: {#dozA#} M_ --{%f.%}"
                 }
             ],
             "_meanings": [
-                "a scribe, a man of the\nKāyastha tribe."
+                ".²1 The arm.\n",
+                ".²2 The darkness of night, night; {#GarmakAladivasa iva kzapitadozaH#}\n <ls>K. 37</ls> (where the word means ‘a fault or sin’ also).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 155531,
+            "_ancestry": [
+                "L_ 17609",
+                "B_ {#dozA#}",
+                "S_ .{@{#-AsyaH, -tilakaH#}@}"
+            ],
+            "_banner": ".{@{#-AsyaH, -tilakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dozAsyaH"
+                },
+                {
+                    "Right": "dozAtilakaH"
+                }
+            ],
+            "_meanings": [
+                "a lamp.\n"
+            ]
+        },
+        {
+            "__line": 155532,
+            "_ancestry": [
+                "L_ 17609",
+                "B_ {#dozA#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dozAkaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The moon; {#yAmitraveDavihitAnapahftya dozAn . dozAkaraH suKamanekaviDaM#}\n {#viDatte ..#} <ls>Jyotistattvam.</ls>\n",
+                ".²2 a mine of faults; {#dozAkaro'pi kuwilo'pi kalaNkito'pi#} <ls>Udb.</ls>"
             ]
         }
     ]

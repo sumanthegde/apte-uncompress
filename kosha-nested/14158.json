@@ -1,16 +1,830 @@
 {
-    "__line": 118286,
+    "__line": 121408,
     "_ancestry": [
         "L_ 14158",
-        "B_ {#JallakaMWaH#}"
+        "B_ {#guru#}"
     ],
-    "_banner": "{#JallakaMWaH#}",
+    "_banner": "{#guru#}",
     "_bannerExp": [
         {
-            "Right": "JallakaMWaH"
+            "Right": "guru"
+        },
+        {
+            "Right": "gurvI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-ru, -rvI#}|{%f.%})",
+        "[{#ga ku ucca#} <ls>Uṇ. 1. 24.</ls>]"
+    ],
     "_meanings": [
-        "A pigeon."
+        "(<ab>compar.</ab> {#garIyas#}; <ab>superl.</ab> {#garizWa#})\n",
+        ".²1 Heavy, weighty (<ab>opp.</ab> {#laGu#}); (<ab>fig.</ab> also); {#tena Dfrjagato gurvI#}\n {#sacivezu nicikzipe#} <ls>R. 1. 34</ls>, <ls n=\"R.\">3. 35</ls>, <ls n=\"R.\">12. 102</ls>; {#vimucya vAsAMsi gurURi#}\n {#sAmpratam#} <ls>Ṛs. 1. 7</ls>.\n",
+        ".²2 Great, large, long, extended.\n",
+        ".²3 Long (in duration or length);\n\n {#AramBagurvI#} <ls>Bh. 2. 60</ls>; {#guruzu divasezvezu gacCatsu#} <ls>Me. 85</ls>.\n",
+        ".²4 Important, momentous, great; {#viBavaguruBiH kftyEH#} <ls>Ś. 4. 19</ls>; {#svArTAtsatAM#}\n {#gurutarA praRayikriyEva#} <ls>V. 4. 31</ls>; <ls>Ku. 3. 13</ls>; <ls>Bh. 3. 7</ls>; <ls>R. 14. 35</ls>.\n",
+        ".²5 Arduous, difficult (to bear); {#kAntAvirahaguruRA SApena#} <ls>Me. 1</ls>.\n",
+        ".²6 Great, excessive, violent, intense; {#guruH praharzaH prabaBUva nAtmani#}\n <ls>R. 3. 17</ls>; {#gurvapi virahaduHKam#} <ls>Ś. 4. 16</ls>; <ls>Bg. 6. 22</ls>.\n",
+        ".²7 Venerable, respectable.\n",
+        ".²8 Heavy, hard of digestion (as food).\n",
+        ".²9 Best, excellent.\n",
+        ".²10 Dear, beloved.\n",
+        ".²11 Haughty, proud (as a speech).\n",
+        ".²12 (In prosody) Long, as a syllable, either in itself, or being short,\n followed by a conjunct consonant <ab>&c.</ab>; {%<ab>e. g.</ab>%} {#I#} in {#Iq#} or {#ta#}\n in {#taskara#} (It is usually represented by {#ga#} in works on prosody;\n {#mAttO gO cecCAlinI vedalokEH#} <ab>&c.</ab>).\n",
+        ".²13 Irresistible, unassailable; {#jAgarti daMSAya … gururBujaNgI#} <ls>Māl. 6. 1</ls>.\n",
+        ".²14 Mighty; powerful.\n",
+        ".²15 Valuable, highly prized; {#pUrvaM pUrvaM guru jYeyam#} <ls>Y. 2. 30</ls>.\n",
+        ".²16 Grievous; <ls>Me. 85</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 121435,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "M_ .{@{#-ruH#}@}"
+            ],
+            "_banner": ".{@{#-ruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruH"
+                }
+            ],
+            "_meanings": [
+                ".²1\n",
+                ".³({%a%}) A father; {#na kevalaM tadgururekapArTivaH kzitAvaBUdekaDanurDaro'pi#}\n {#saH#} <ls>R. 3. 31</ls>, <ls n=\"R. 3.\">48</ls>, <ls n=\"R.\">4. 1</ls>, <ls n=\"R.\">8. 29</ls>.\n",
+                ".³({%b%}) Fore-father, ancestor; {#tvAM mEtrAvaruRo'Binandatu gururyaste#}\n {#gurURAmapi#} <ls>U. 5. 27</ls>.\n",
+                ".³({%c%}) Father-in-law; {#tvaM hi me guruH#} ({#tadDarmataH snuzA te'ham#})\n <ls>Rām. 7. 26. 28-29</ls>.\n",
+                ".²2 Any venerable or respectable person, an elderly personage or relative,\n the elders (<ab>pl.</ab>) {#SuSrUzasva gurUn#} <ls>Ś. 4. 18</ls>; <ls>Bg. 2. 5</ls>; <ls>Bv. 2. 7</ls>, <ls n=\"Bv. 2.\">18</ls>, <ls n=\"Bv. 2.\">19</ls>, <ls n=\"Bv. 2.\">49</ls>;\n {#AjYA gurURAM hyavicAraRIyA#} <ls>R. 14. 46</ls>.\n",
+                ".²3 A teacher, preceptor; {#guruSizyO#}.\n",
+                ".²4 Particularly, a religious teacher, spiritual preceptor; {#tO gururgurupatnI#}\n {#ca prItyA pratinanandatuH#} <ls>R. 1. 57</ls>; (technically a {%Guru%} is one\n who performs the purificatory ceremonies over a boy and instructs him\n in the Vedas; {#sa gururyaH kriyAH kftvA vedamasmE prayacCati#} <ls>Y. 1. 34</ls>).\n",
+                ".²5 A lord, head, superintendent, ruler; {#sarve guruhite sTitAH#} <ls>Rām. 4. 40. 6</ls>;\n {#varRASramARAM gurave sa varRI#} <ls>R. 5. 19</ls> the head of the castes\n or orders; {#gururnfpARAM gurave nivedya#} <ls n=\"R.\">2. 68</ls>.\n",
+                ".²6 <ab>N.</ab> of Bṛhaspati, the preceptor of the gods; {#guruM netrasahasreRa#}\n {#codayAmAsa vAsavaH#} <ls>Ku. 2. 29</ls>; <ls>Pt. 1. 230</ls>.\n",
+                ".²7 The planet Jupiter; {#gurukAvyAnugAM biBraccAndrImaBinaBaH Sriyam#} <ls>Śi. 2. 2</ls>.\n",
+                ".²8 The propounder of a new doctrine.\n",
+                ".²9 The lunar asterism called {#puzya#}.\n",
+                ".²10 <ab>N.</ab> of Droṇa, teacher of the Kauravas and Pāṇḍavas.\n",
+                ".²11 <ab>N.</ab> of Prabhākara, the leader of a school of the Mīmāṃsakas (called\n after him Prābhākara).\n",
+                ".²12 The supreme spirit.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 121464,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-akzaram#}@}"
+            ],
+            "_banner": ".{@{#-akzaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurvakzaram"
+                }
+            ],
+            "_meanings": [
+                "a long syllable.\n"
+            ]
+        },
+        {
+            "__line": 121465,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-aNganA#}@}"
+            ],
+            "_banner": ".{@{#-aNganA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurvaNganA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the wife of a Guru.\n",
+                ".²2 a woman entitled to great respect.\n"
+            ]
+        },
+        {
+            "__line": 121468,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurvarTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "important; {#satIM vyAdAya SfRvanto laGvIM gurvarTagahvarAm#}\n <ls>Bhāg. 3. 16. 14</ls>. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 121469,
+                    "_ancestry": [
+                        "L_ 14158",
+                        "B_ {#guru#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-rTaH#}@}"
+                    ],
+                    "_banner": "({@{#-rTaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "gurvarTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a preceptorʼs fee for instructing a\n pupil; {#gurvarTamAhartumahaM yatizye#} <ls>R. 5. 17</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 121471,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-uttama#}@}"
+            ],
+            "_banner": ".{@{#-uttama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurUttama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "highly revered. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 121471,
+                    "_ancestry": [
+                        "L_ 14158",
+                        "B_ {#guru#}",
+                        "S_ .{@{#-uttama#}@}",
+                        "S_M_ ({@{#-maH#}@}"
+                    ],
+                    "_banner": "({@{#-maH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "gurUttamaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the Supreme soul.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 121472,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-upadeSaH#}@}"
+            ],
+            "_banner": ".{@{#-upadeSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurUpadeSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Consultation of the experts; {#ezu sTAnezu gurUpadeSAt samyaN nAqIM#}\n {#parIkzya SirAmocanaM kuryAt#} <ls>Śālihotra</ls> of Bhoja, 82.\n",
+                ".²2 advice by the elders or by the preceptor.\n"
+            ]
+        },
+        {
+            "__line": 121476,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-kaRWaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurukaRWaH"
+                }
+            ],
+            "_meanings": [
+                "a peacock.\n"
+            ]
+        },
+        {
+            "__line": 121477,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-kAraH#}@}"
+            ],
+            "_banner": ".{@{#-kAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurukAraH"
+                }
+            ],
+            "_meanings": [
+                "worship, adoration.\n"
+            ]
+        },
+        {
+            "__line": 121478,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-kAryam#}@}"
+            ],
+            "_banner": ".{@{#-kAryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurukAryam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a serious or weighty affair.\n",
+                ".²2 the office of a spiritual teacher.\n"
+            ]
+        },
+        {
+            "__line": 121481,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-kulam#}@}"
+            ],
+            "_banner": ".{@{#-kulam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurukulam"
+                }
+            ],
+            "_meanings": [
+                "the residence of a Guru ({#gurugfha#}), academy; {#vasan#}\n {#gurukule nityaM nityamaDyayane rataH#} <ls>Mb. 9. 40. 3</ls>; {#AvfttAnAM gurukulAdviprARAM#}\n {#pUjako Bavet#}\n\n <ls>Ms. 7. 82</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121486,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-kfta#}@}"
+            ],
+            "_banner": ".{@{#-kfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurukfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 worshipped.\n",
+                ".²2 made much of; {#aho nindyaM rUpaM kavijanaviSezErguru kftam#} <ls>Bh. 3. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121489,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-kramaH#}@}"
+            ],
+            "_banner": ".{@{#-kramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurukramaH"
+                }
+            ],
+            "_meanings": [
+                "instruction handed down through a series of teachers,\n traditional instruction.\n"
+            ]
+        },
+        {
+            "__line": 121491,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-gfham#}@}"
+            ],
+            "_banner": ".{@{#-gfham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurugfham"
+                }
+            ],
+            "_meanings": [
+                "signs ({#rASi#}s) Sagittarius ({#Danu#}) and Pisces ({#mIna#}).\n"
+            ]
+        },
+        {
+            "__line": 121492,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-DnaH#}@}"
+            ],
+            "_banner": ".{@{#-DnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruDnaH"
+                }
+            ],
+            "_meanings": [
+                "white mustard.\n"
+            ]
+        },
+        {
+            "__line": 121493,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-caryA#}@}"
+            ],
+            "_banner": ".{@{#-caryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurucaryA"
+                }
+            ],
+            "_meanings": [
+                "attendance upon a preceptor; <ls>Māl. 9. 51</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121494,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurujanaH"
+                }
+            ],
+            "_meanings": [
+                "any venerable person, an elderly relative, the elders collectively;\n {#nApekzito gurujanaH#} <ls>K. 158</ls>; <ls>Bv. 2. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121496,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-talpaH#}@}"
+            ],
+            "_banner": ".{@{#-talpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurutalpaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the bed (wife) of a teacher.\n",
+                ".²2 violation or violator of a teacherʼs bed; <ls>Mb. 12. 56. 32</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121499,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-talpagaH, -talpin#}@}"
+            ],
+            "_banner": ".{@{#-talpagaH, -talpin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurutalpagaH"
+                },
+                {
+                    "Right": "gurutalpin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 one who violates his teacherʼs bed (wife), (ranked in Hindu law as\n a sinner of the worst kind, committer of an {#atipAtaka#}; <ab>cf.</ab> <ls>Ms. 11. 103</ls>);\n <ls>Mb. 3. 43. 6</ls>.\n",
+                ".²2 one who defiles his step-mother.\n"
+            ]
+        },
+        {
+            "__line": 121504,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-dakziRA#}@}"
+            ],
+            "_banner": ".{@{#-dakziRA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurudakziRA"
+                }
+            ],
+            "_meanings": [
+                "fee given to a spiritual preceptor; {#upAttavidyo gurudakziRArTI#} <ls>R. 5. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121505,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurudAnam"
+                }
+            ],
+            "_meanings": [
+                "a Guruʼs gift.\n"
+            ]
+        },
+        {
+            "__line": 121506,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-dEvatam#}@}"
+            ],
+            "_banner": ".{@{#-dEvatam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurudEvatam"
+                }
+            ],
+            "_meanings": [
+                "the constellation {#puzya#}.\n"
+            ]
+        },
+        {
+            "__line": 121507,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-patrA#}@}"
+            ],
+            "_banner": ".{@{#-patrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurupatrA"
+                }
+            ],
+            "_meanings": [
+                "the tamarind tree.\n"
+            ]
+        },
+        {
+            "__line": 121508,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurutram"
+                }
+            ],
+            "_meanings": [
+                "tin.\n"
+            ]
+        },
+        {
+            "__line": 121509,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-pAka#}@}"
+            ],
+            "_banner": ".{@{#-pAka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurupAka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "difficult of digestion.\n"
+            ]
+        },
+        {
+            "__line": 121510,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-pUjA#}@}"
+            ],
+            "_banner": ".{@{#-pUjA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurupUjA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the ceremonies in propitiation of Bṛhaspati when a work is to be\n performed or undertaken.\n",
+                ".²2 the worship of oneʼs spiritual preceptor.\n"
+            ]
+        },
+        {
+            "__line": 121514,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-prasAdaH#}@}"
+            ],
+            "_banner": ".{@{#-prasAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruprasAdaH"
+                }
+            ],
+            "_meanings": [
+                "the product of a {%Guruʼs%} blessing, {%<ab>i. e.</ab>%} learning.\n"
+            ]
+        },
+        {
+            "__line": 121515,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruBam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the constellation {#puzya#}.\n",
+                ".²2 a bow.\n",
+                ".²3 the sign {%Pisces%} of the zodiac.\n"
+            ]
+        },
+        {
+            "__line": 121519,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruBAvaH"
+                }
+            ],
+            "_meanings": [
+                "importance, weight.\n"
+            ]
+        },
+        {
+            "__line": 121520,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-mardalaH#}@}"
+            ],
+            "_banner": ".{@{#-mardalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurumardalaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of drum or tabor.\n"
+            ]
+        },
+        {
+            "__line": 121521,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-ratnam#}@}"
+            ],
+            "_banner": ".{@{#-ratnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gururatnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 topaz; (<lang>Mar.</lang> <ns>{#puzparAga, gomeda#}</ns>).\n",
+                ".²2 a gem brought from the Himālaya and the Indus.\n"
+            ]
+        },
+        {
+            "__line": 121524,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-lAGavam#}@}"
+            ],
+            "_banner": ".{@{#-lAGavam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurulAGavam"
+                }
+            ],
+            "_meanings": [
+                "relative importance or value; {#viroDizu mahIpAla niScitya#}\n {#gurulAGavam#} <ls>Mb. 3. 131. 12</ls>; <ls>Ś. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121526,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-varcoGnaH#}@}"
+            ],
+            "_banner": ".{@{#-varcoGnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruvarcoGnaH"
+                }
+            ],
+            "_meanings": [
+                "the lime, citron.\n"
+            ]
+        },
+        {
+            "__line": 121527,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-vartin, -vAsin#}@}"
+            ],
+            "_banner": ".{@{#-vartin, -vAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruvartin"
+                },
+                {
+                    "Right": "guruvAsin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a student ({#brahmacArin#}) who resides\n at his preceptorʼs house.\n"
+            ]
+        },
+        {
+            "__line": 121529,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-varti, -tA#}@}"
+            ],
+            "_banner": ".{@{#-varti, -tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruvarti"
+                },
+                {
+                    "Left": "S error: 1 syl varti tA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "respectful behaviour towards Guru (elder or\n venerable person); {#nivedya gurave rAjyaM Bajizye guruvartitAm#} <ls>Rām. 2. 115. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121531,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-vAraH, -vAsaraH#}@}"
+            ],
+            "_banner": ".{@{#-vAraH, -vAsaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruvAraH"
+                },
+                {
+                    "Right": "guruvAsaraH"
+                }
+            ],
+            "_meanings": [
+                "Thursday.\n"
+            ]
+        },
+        {
+            "__line": 121532,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-vfttiH#}@}"
+            ],
+            "_banner": ".{@{#-vfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruvfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the conduct of a pupil towards his preceptor; <ls>Rām. 2. 90. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121533,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-vyaTa#}@}"
+            ],
+            "_banner": ".{@{#-vyaTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruvyaTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "greatly distressed, heavy with grief; {#vacoBirASAjananErBavAniva#}\n {#guruvyaTam#} <ls>V. 3. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121535,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-SiKarin#}@}"
+            ],
+            "_banner": ".{@{#-SiKarin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruSiKarin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of the Himālaya.\n"
+            ]
+        },
+        {
+            "__line": 121536,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-SrutiH#}@}"
+            ],
+            "_banner": ".{@{#-SrutiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guruSrutiH"
+                }
+            ],
+            "_meanings": [
+                "a mantra (especially {#gAyatrI#}); {#japamAno guruSrutim#}\n <ls>Mb. 13. 136. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 121538,
+            "_ancestry": [
+                "L_ 14158",
+                "B_ {#guru#}",
+                "S_ .{@{#-svam#}@}"
+            ],
+            "_banner": ".{@{#-svam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gurusvam"
+                }
+            ],
+            "_meanings": [
+                "(= {@{#zvam#}@}) the preceptorʼs wealth or property; {#gavAM#}\n {#kzIraM guruzvaM te …#} <ls>Bm. 1. 35</ls>."
+            ]
+        }
     ]
 }

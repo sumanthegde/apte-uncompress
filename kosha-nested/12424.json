@@ -1,40 +1,102 @@
 {
-    "__line": 103840,
+    "__line": 105291,
     "_ancestry": [
         "L_ 12424",
-        "B_ {#gavequH, --DuH--, DukA#}"
+        "B_ {#kuRapa#}"
     ],
-    "_banner": "{#gavequH, --DuH--, DukA#}",
+    "_banner": "{#kuRapa#}",
     "_bannerExp": [
         {
-            "Right": "gaveDuH"
+            "Right": "kuRapa"
         },
         {
-            "Right": "gaveDukA"
-        },
-        {
-            "Right": "gavequH"
+            "Right": "kuRapI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-pI#}|{%f.%})",
+        "[<ab>cf.</ab> <ls>Uṇ. 3. 143</ls>]"
+    ],
     "_meanings": [
-        "A kind of\ngrass eaten by cattle. "
+        "Smelling like a dead body, stinking.\n"
     ],
     "_morphisms": [
         {
-            "__line": 103841,
+            "__line": 105293,
             "_ancestry": [
                 "L_ 12424",
-                "B_ {#gavequH, --DuH--, DukA#}",
-                "M_ {#--quH#}"
+                "B_ {#kuRapa#}",
+                "M_ .{@{#-paH, -pam#}@}"
             ],
-            "_banner": "{#--quH#}",
+            "_banner": ".{@{#-paH, -pam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gavequH"
+                    "Right": "kuRapaH"
+                },
+                {
+                    "Right": "kuRapam"
                 }
             ],
             "_meanings": [
-                "A cloud."
+                "A dead body, corpse; {#SAsanIyaH kuRapaBojanaH#} <ls>V. 5</ls>.\n (a vulture); {#ameDyakuRapASI ca#} <ls>Ms. 12. 71</ls>; often used as a term\n of contempt with living beings; {#vyukztsraya etatkuRapaM tvadaNgajam#}\n <ls>Bhāg. 4. 4. 23</ls>; <ls>Mb. 12. 214. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 105297,
+            "_ancestry": [
+                "L_ 12424",
+                "B_ {#kuRapa#}",
+                "M_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuRapaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A spear; <ls>Mb. 7. 148. 46</ls>.\n",
+                ".²2 A foul smell, stench.\n"
+            ]
+        },
+        {
+            "__line": 105300,
+            "_ancestry": [
+                "L_ 12424",
+                "B_ {#kuRapa#}",
+                "M_ .{@{#-pI#}@}"
+            ],
+            "_banner": ".{@{#-pI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuRapI"
+                }
+            ],
+            "_meanings": [
+                "A small bird (Mainā).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 105302,
+            "_ancestry": [
+                "L_ 12424",
+                "B_ {#kuRapa#}",
+                "S_ .{@{#-aSana#}@}"
+            ],
+            "_banner": ".{@{#-aSana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuRapASana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eating dead bodies."
             ]
         }
     ]

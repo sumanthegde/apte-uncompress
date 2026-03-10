@@ -1,25 +1,60 @@
 {
-    "__line": 154592,
+    "__line": 164186,
     "_ancestry": [
         "L_ 18434",
-        "B_ {#paryAgam#}"
+        "B_ {#nAkzatrika#}"
     ],
-    "_banner": "{#paryAgam#}",
+    "_banner": "{#nAkzatrika#}",
     "_bannerExp": [
         {
-            "Right": "paryAgam"
+            "Right": "nAkzatrika"
+        },
+        {
+            "Right": "nAkzatrikI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#nakzatrAdAgataH-WaY#}]"
     ],
     "_meanings": [
-        "{@--1@} To approach. ",
-        "{@--2@} \n\nTo be completed or finished. ",
-        "{@--3@} To\nconquer, subdue. ",
-        "{@--4@} To surround,\nencircle. ",
-        "{@--5@} To elapse. ",
-        "{@--6@} To last, live."
+        "Sidereal.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 164188,
+            "_ancestry": [
+                "L_ 18434",
+                "B_ {#nAkzatrika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAkzatrikaH"
+                }
+            ],
+            "_meanings": [
+                "A month of 27 days (each day being the period of the moonʼs\n passage through a lunar asterism).\n"
+            ]
+        },
+        {
+            "__line": 164190,
+            "_ancestry": [
+                "L_ 18434",
+                "B_ {#nAkzatrika#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAkzatrikI"
+                }
+            ],
+            "_meanings": [
+                "The state ({#daSA#}) which a man suffers agreeably to the\n asterism presiding over his nativity."
+            ]
+        }
     ]
 }

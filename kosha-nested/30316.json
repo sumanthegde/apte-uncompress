@@ -1,19 +1,84 @@
 {
-    "__line": 253397,
+    "__line": 279633,
     "_ancestry": [
         "L_ 30316",
-        "B_ {#siMbA --bI#}"
+        "B_ {#viS#}"
     ],
-    "_banner": "{#siMbA --bI#}",
+    "_banner": "{#viS#}",
     "_bannerExp": [
         {
-            "Right": "siMbA"
-        },
-        {
-            "Right": "siMbI"
+            "Right": "viS"
         }
     ],
+    "_gram": [
+        "{%m.%}"
+    ],
     "_meanings": [
-        "See {#SiMbA --bI#}."
+        ".²1 A man of the third caste, a Vaiśya.\n",
+        ".²2 A man in general. ",
+        ".²3 People. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 279635,
+            "_ancestry": [
+                "L_ 30316",
+                "B_ {#viS#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#viS#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 People, subjects; {#SaSvadyezu viSAmananyavizayo rakzADikAraH sTitaH#} <ls>Mv. 1. 25</ls>.\n",
+                ".²2 A daughter; <ls>Ms. 3. 148</ls>.\n",
+                ".²3 <ab>Ved.</ab> Entrance.\n",
+                ".²4 A family, tribe, race.\n",
+                ".²5 A settlement, dwelling.\n",
+                ".²6 (<ab>pl.</ab>) Property, wealth.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 279643,
+            "_ancestry": [
+                "L_ 30316",
+                "B_ {#viS#}",
+                "S_ .{@{#-paRyam#}@}"
+            ],
+            "_banner": ".{@{#-paRyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viwpaRyam"
+                }
+            ],
+            "_meanings": [
+                "goods, merchandise; {#viwpaRyamudDftodDAraM vikreyaM vittavarDanam#} <ls>Ms. 10. 85</ls>.\n"
+            ]
+        },
+        {
+            "__line": 279644,
+            "_ancestry": [
+                "L_ 30316",
+                "B_ {#viS#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viwpatiH"
+                }
+            ],
+            "_meanings": [
+                "(also {#viSAMpatiH#})\n",
+                ".²1 a king, lord of subjects.\n",
+                ".²2 a son-in-law; {#dOhitraM viwpatiM banDumftvigyAjyO ca Bojayet#} <ls>Ms. 3. 148</ls>.\n",
+                ".²3 a head-merchant."
+            ]
+        }
     ]
 }

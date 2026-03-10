@@ -1,45 +1,71 @@
 {
-    "__line": 182995,
+    "__line": 197668,
     "_ancestry": [
         "L_ 22006",
-        "B_ {#Bal#}"
+        "B_ {#prakASaka#}"
     ],
-    "_banner": "{#Bal#}",
+    "_banner": "{#prakASaka#}",
     "_bannerExp": [
         {
-            "Right": "Bal"
+            "Right": "prakASaka"
+        },
+        {
+            "Right": "prakASikA"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c10c}",
-        "<ab>A.</ab>",
-        "({#BAlayate, BAlita#})"
+        "{%a.%}",
+        "({#-SikA#}|{%f.%})"
     ],
     "_meanings": [
-        "To see, behold. "
+        ".²1 Illuminating, giving light.\n",
+        ".²2 Making apparent, discovering, disclosing, evincing, betraying, displaying.\n",
+        ".²3 Expressing, indicating.\n",
+        ".²4 Explaining, making clear, expounding.\n",
+        ".²5 Bright; shining, brilliant.\n",
+        ".²6 Noted, celebrated, renowned.\n"
     ],
     "_morphisms": [
         {
-            "__line": 182996,
+            "__line": 197675,
             "_ancestry": [
                 "L_ 22006",
-                "B_ {#Bal#}",
-                "M_ {vII.v}"
+                "B_ {#prakASaka#}",
+                "M_ .{@{#-kaH#}@}"
             ],
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "Bal"
+                    "Right": "prakASakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The sun.\n",
+                ".²2 A discoverer.\n",
+                ".²3 An expounder.\n",
+                ".²4 A publisher.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 197681,
+            "_ancestry": [
+                "L_ 22006",
+                "B_ {#prakASaka#}",
+                "S_ .{@{#-jYAtf#}@}"
+            ],
+            "_banner": ".{@{#-jYAtf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakASakajYAtf"
                 }
             ],
             "_gram": [
-                "{vII.v}",
-                "{c1c}",
-                "<ab>A.</ab>"
+                "{%m.%}"
             ],
             "_meanings": [
-                "{@--1@} See {#Ball#}.\n",
-                "{@--2@} To expound, explain."
+                "a cock."
             ]
         }
     ]

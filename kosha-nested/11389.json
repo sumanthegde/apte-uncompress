@@ -1,17 +1,115 @@
 {
-    "__line": 95594,
+    "__line": 95224,
     "_ancestry": [
         "L_ 11389",
-        "B_ {#kfkAwakaM#}"
+        "B_ {#kadalaH#}, {#-kadalakaH#}"
     ],
-    "_banner": "{#kfkAwakaM#}",
+    "_banner": "{#kadalaH#}, {#-kadalakaH#}",
     "_bannerExp": [
         {
-            "Right": "kfkAwakaM"
+            "Right": "kadalaH"
+        },
+        {
+            "Right": "kadalakaH"
         }
     ],
     "_meanings": [
-        "{@--1@} The neck. ",
-        "{@--2@} A part\nof a column."
+        "The plantain tree; {#UrudvayaM mfgadfSaH kadalasya#}\n {#kARqO#} <ls>Amaru. 95</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 95227,
+            "_ancestry": [
+                "L_ 11389",
+                "B_ {#kadalaH#}, {#-kadalakaH#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadalA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of several plants:-- {#pfSni, qimbikA#}, and {#SAlmali#}.\n"
+            ]
+        },
+        {
+            "__line": 95228,
+            "_ancestry": [
+                "L_ 11389",
+                "B_ {#kadalaH#}, {#-kadalakaH#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadalI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The plantain tree; {#kiM yAsi bAlakadalIva vikampamAnA#} <ls>Mk. 1. 20</ls>;\n {#yAsyatyUruH sarasakadalIstamBagOraScalatvam#} <ls>Me. 98</ls>, <ls n=\"Me.\">79</ls>; <ls>Ku. 1. 36</ls>;\n <ls>R. 12. 96</ls>; <ls>Y. 3. 8</ls>.\n",
+                ".²2 A kind of deer.\n",
+                ".²3 A flag carried by an elephant.\n",
+                ".²4 A flag or banner; {#kadalI vEjayantyAM ca ramBAyAM ca mfge'pi ca#} <ls>Nm.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 95236,
+            "_ancestry": [
+                "L_ 11389",
+                "B_ {#kadalaH#}, {#-kadalakaH#}",
+                "S_ .{@{#-(lI)kusumam#}@}"
+            ],
+            "_banner": ".{@{#-(lI)kusumam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kadalaH#} S_ .{@{#-(lI)kusumaM#}@}"
+                }
+            ],
+            "_meanings": [
+                "the flower of the {#kadalI#} plant.\n"
+            ]
+        },
+        {
+            "__line": 95237,
+            "_ancestry": [
+                "L_ 11389",
+                "B_ {#kadalaH#}, {#-kadalakaH#}",
+                "S_ .{@{#-(lI)kzatA#}@}"
+            ],
+            "_banner": ".{@{#-(lI)kzatA#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kadalaH#} S_ .{@{#-(lI)kzatA#}@}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sort of cucumber (<lang>Mar.</lang> <ns>{#paqavaLa#}</ns>).\n",
+                ".²2 A fine woman.\n.{@{#(-lI)garBaH#}@} the pith of the plantain.\n"
+            ]
+        },
+        {
+            "__line": 95241,
+            "_ancestry": [
+                "L_ 11389",
+                "B_ {#kadalaH#}, {#-kadalakaH#}",
+                "S_ .{@{#-daRqaH, -skanDaH#}@}"
+            ],
+            "_banner": ".{@{#-daRqaH, -skanDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadaladaRqaH"
+                },
+                {
+                    "Right": "kadalaskanDaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of illusion."
+            ]
+        }
     ]
 }

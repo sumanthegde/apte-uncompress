@@ -1,20 +1,58 @@
 {
-    "__line": 64395,
+    "__line": 62300,
     "_ancestry": [
         "L_ 7444",
-        "B_ {#izavya#}"
+        "B_ {#ArADanam#}"
     ],
-    "_banner": "{#izavya#}",
+    "_banner": "{#ArADanam#}",
     "_bannerExp": [
         {
-            "Right": "izavya"
+            "Right": "ArADanam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} (The object) of aim. ",
-        "{@--2@}\nSkilled in archery."
+        ".²1 Pleasing, satisfaction, entertainment, gratification; {#yezAmArADanAya#}\n <ls>U. 1</ls>; {#yadi vA jAnakImapi, ArADanAya lokAnAM muYcato nAsti me vyaTA#} <ls n=\"U.\">1. 12</ls>, <ls n=\"U. 1.\">41</ls>.\n",
+        ".²2 Serving, worshipping, adoration, propitiation (as of a deity); {#ArADanAyAsya#}\n {#saKIsametAm#} <ls>Ku. 1. 58</ls>; <ls>Bg. 7. 22</ls>; {#kftamArADanaM raveH#} <ls>Mb.</ls>\n",
+        ".²3 A means of pleasing; {#idaM tu te BaktinamraM satAmArADanaM vapuH#} <ls>Ku. 6. 73</ls>.\n",
+        ".²4 Honouring, respecting; {#sambanDe viparItameva tadaBUdArADanaM te mayi#} <ls>U. 4. 17</ls>.\n",
+        ".²5 Cooking.\n",
+        ".²6 Accomplishment, undertaking.\n",
+        ".²7 Acquirement, attainment; {#mantrArADanatatpareRa manasA nItAH SmaSAne#}\n {#niSAH#} <ls>Bh. 3. 4</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 62311,
+            "_ancestry": [
+                "L_ 7444",
+                "B_ {#ArADanam#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArADanA"
+                }
+            ],
+            "_meanings": [
+                "Service.\n"
+            ]
+        },
+        {
+            "__line": 62312,
+            "_ancestry": [
+                "L_ 7444",
+                "B_ {#ArADanam#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArADanI"
+                }
+            ],
+            "_meanings": [
+                "Worship, adoration, propitiation (of a deity)."
+            ]
+        }
     ]
 }

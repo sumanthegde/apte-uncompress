@@ -1,57 +1,43 @@
 {
-    "__line": 155154,
+    "__line": 165164,
     "_ancestry": [
         "L_ 18519",
-        "B_ {#pavaH#}"
+        "B_ {#nArakika, nArakin, nArakIya#}"
     ],
-    "_banner": "{#pavaH#}",
+    "_banner": "{#nArakika, nArakin, nArakIya#}",
     "_bannerExp": [
         {
-            "Right": "pavaH"
+            "Right": "nArakika"
+        },
+        {
+            "Right": "nArakin"
+        },
+        {
+            "Right": "nArakIya"
         }
     ],
     "_gram": [
-        "[{#pU-BAve-ap#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Wind. ",
-        "{@--2@} \n\nPurification. ",
-        "{@--3@} A marsh. ",
-        "{@--4@} \nWinnowing corn. "
+        "Hellish. "
     ],
     "_morphisms": [
         {
-            "__line": 155157,
+            "__line": 165164,
             "_ancestry": [
                 "L_ 18519",
-                "B_ {#pavaH#}",
-                "M_ {#--vA#}"
+                "B_ {#nArakika, nArakin, nArakIya#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--vA#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "pavA"
+                    "Left": "Parser error: {#nArakika#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "Purification. "
-            ]
-        },
-        {
-            "__line": 155157,
-            "_ancestry": [
-                "L_ 18519",
-                "B_ {#pavaH#}",
-                "M_ {#--vaM#}"
-            ],
-            "_banner": "{#--vaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "pavaM"
-                }
-            ],
-            "_meanings": [
-                "Cow-dung."
+                "An inhabitant of hell."
             ]
         }
     ]

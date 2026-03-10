@@ -1,19 +1,57 @@
 {
-    "__line": 105226,
+    "__line": 106803,
     "_ancestry": [
         "L_ 12589",
-        "B_ {#guDera#}"
+        "B_ {#kulawaH#}"
     ],
-    "_banner": "{#guDera#}",
+    "_banner": "{#kulawaH#}",
     "_bannerExp": [
         {
-            "Right": "guDera"
+            "Right": "kulawaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Protecting; a defender."
+        "Any son except own, an adopted son.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 106804,
+            "_ancestry": [
+                "L_ 12589",
+                "B_ {#kulawaH#}",
+                "M_ .{@{#-wA#}@}"
+            ],
+            "_banner": ".{@{#-wA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kulawA"
+                }
+            ],
+            "_gram": [
+                "[{#kulAtkulAntaram awati SakanDvAdi#} <ls>P. VI. 1. 94. Vārt.</ls>]"
+            ],
+            "_meanings": [
+                "An unchaste woman; {#ucCinnASrayakAtareva kulawA gotrAntaraM SrIrgatA#}\n <ls>Mu. 6. 5</ls>; <ls>Y. 1. 215</ls>. {#yaTezwaM cezwante sPuwakucatawAH paSya kulawAH#} <ls>Udb.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 106808,
+            "_ancestry": [
+                "L_ 12589",
+                "B_ {#kulawaH#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kulawapatiH"
+                }
+            ],
+            "_meanings": [
+                "a cuckold."
+            ]
+        }
     ]
 }

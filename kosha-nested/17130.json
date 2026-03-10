@@ -1,56 +1,118 @@
 {
-    "__line": 144051,
+    "__line": 149314,
     "_ancestry": [
         "L_ 17130",
-        "B_ {#niSAMta#}"
+        "B_ {#dasra#}"
     ],
-    "_banner": "{#niSAMta#}",
+    "_banner": "{#dasra#}",
     "_bannerExp": [
         {
-            "Right": "niSAMta"
+            "Right": "dasra"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#dasyati pAMsUn das-rak#}]"
     ],
     "_meanings": [
-        "Tranquil, calmed,\nquiet, patient. "
+        "Savage, fierce, destructive.\n"
     ],
     "_morphisms": [
         {
-            "__line": 144052,
+            "__line": 149315,
             "_ancestry": [
                 "L_ 17130",
-                "B_ {#niSAMta#}",
-                "M_ {#--taM#}"
+                "B_ {#dasra#}",
+                "M_ .{@{#-srO#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-srO#}@}",
             "_bannerExp": [
                 {
-                    "Right": "niSAMtaM"
+                    "Right": "dasrO"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(<ab>du.</ab>)\n",
+                ".²1 The two Asvins, the physicians of the gods; <ls>Mb. 1. 3. 58</ls>; <ls>Bṛ. Up. 2. 5. 17</ls>.\n",
+                ".²2 The number ‘two’.\n"
+            ]
+        },
+        {
+            "__line": 149318,
+            "_ancestry": [
+                "L_ 17130",
+                "B_ {#dasra#}",
+                "M_ .{@{#-sraH#}@}"
+            ],
+            "_banner": ".{@{#-sraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dasraH"
                 }
             ],
             "_meanings": [
-                "A house, \nhabitation, dwelling; <ls>R. 16. 40.</ls> "
+                ".²1 An ass.\n",
+                ".²2 A robber.\n"
+            ]
+        },
+        {
+            "__line": 149321,
+            "_ancestry": [
+                "L_ 17130",
+                "B_ {#dasra#}",
+                "M_ .{@{#-sram#}@}"
+            ],
+            "_banner": ".{@{#-sram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dasram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The cold season.\n",
+                ".²2 The lunar mansion Aśvinī.\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 144053,
+            "__line": 149325,
             "_ancestry": [
                 "L_ 17130",
-                "B_ {#niSAMta#}",
-                "S_ \n{#--nArI#}"
+                "B_ {#dasra#}",
+                "S_ .{@{#-devatA#}@}"
             ],
-            "_banner": "\n{#--nArI#}",
+            "_banner": ".{@{#-devatA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "niSAMtanArI"
+                    "Right": "dasradevatA"
                 }
             ],
             "_meanings": [
-                "a housewife."
+                "the constellation Aśvinī.\n"
+            ]
+        },
+        {
+            "__line": 149326,
+            "_ancestry": [
+                "L_ 17130",
+                "B_ {#dasra#}",
+                "S_ .{@{#-sUH#}@}"
+            ],
+            "_banner": ".{@{#-sUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dasrasUH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "wife of the sun and mother of the Aśvins, = {#saMjYA#} <ab>q. v.</ab>"
             ]
         }
     ]

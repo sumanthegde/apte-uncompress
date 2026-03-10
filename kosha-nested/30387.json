@@ -1,95 +1,40 @@
 {
-    "__line": 254757,
+    "__line": 280330,
     "_ancestry": [
         "L_ 30387",
-        "B_ {#supta#}"
+        "B_ {#viSruta#}"
     ],
-    "_banner": "{#supta#}",
+    "_banner": "{#viSruta#}",
     "_bannerExp": [
         {
-            "Right": "supta"
+            "Right": "viSruta"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#svap-kartari kta#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Slept,\nsleeping, asleep; {#na hi suptasya siMhasya#}\n{#praviSaMti muKe mfgAH#} <ls>H. Pr. 36.</ls> ",
-        "{@--2@}\nParalyzed, benumbed, insensible;\nsee {#svap#}. "
+        ".²1 Well-known, renowned, celebrated.\n",
+        ".²2 Pleased, delighted, happy. ",
+        ".²3 Flowing forth.\n"
     ],
     "_morphisms": [
         {
-            "__line": 254761,
+            "__line": 280333,
             "_ancestry": [
                 "L_ 30387",
-                "B_ {#supta#}",
-                "M_ {#--ptaM#}"
+                "B_ {#viSruta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--ptaM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "suptaM"
+                    "Right": "viSrutam"
                 }
             ],
             "_meanings": [
-                "Sleep, sound sleep.\n"
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 254762,
-            "_ancestry": [
-                "L_ 30387",
-                "B_ {#supta#}",
-                "S_  {#--janaH#}"
-            ],
-            "_banner": " {#--janaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "suptajanaH"
-                }
-            ],
-            "_meanings": [
-                "midnight. "
-            ]
-        },
-        {
-            "__line": 254762,
-            "_ancestry": [
-                "L_ 30387",
-                "B_ {#supta#}",
-                "S_ {#--jYAnaM#}"
-            ],
-            "_banner": "{#--jYAnaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "suptajYAnaM"
-                }
-            ],
-            "_meanings": [
-                "a\ndream. "
-            ]
-        },
-        {
-            "__line": 254763,
-            "_ancestry": [
-                "L_ 30387",
-                "B_ {#supta#}",
-                "S_ {#--tvac#}"
-            ],
-            "_banner": "{#--tvac#}",
-            "_bannerExp": [
-                {
-                    "Right": "suptatvac"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "paralytic."
+                ".²1 Fame, celebrity; {#tvamapyadaBraSrutaviSrutaM viBoH#} <ls>Bhāg. 1. 5. 40</ls>.\n",
+                ".²2 Learning."
             ]
         }
     ]

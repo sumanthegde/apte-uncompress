@@ -1,21 +1,77 @@
 {
-    "__line": 227420,
+    "__line": 247119,
     "_ancestry": [
         "L_ 26959",
-        "B_ {#ven#}"
+        "B_ {#yahva#}"
     ],
-    "_banner": "{#ven#}",
+    "_banner": "{#yahva#}",
     "_bannerExp": [
         {
-            "Right": "ven"
+            "Right": "yahva"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#venati-te#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "See {#veR#}."
+        "<ab>Ved.</ab>\n",
+        ".²1 Great, powerful.\n",
+        ".²2 Active, restless, continually moving. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 247121,
+            "_ancestry": [
+                "L_ 26959",
+                "B_ {#yahva#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#yahva#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An employer of priests\n for sacrifices; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 247123,
+            "_ancestry": [
+                "L_ 26959",
+                "B_ {#yahva#}",
+                "M_ .{@{#-hvI#}@}"
+            ],
+            "_banner": ".{@{#-hvI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yahvI"
+                }
+            ],
+            "_meanings": [
+                "A river. "
+            ]
+        },
+        {
+            "__line": 247123,
+            "_ancestry": [
+                "L_ 26959",
+                "B_ {#yahva#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#yahva#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "(dual) An epithet of\n",
+                ".²1 Heaven and earth.\n",
+                ".²2 Of night and day.\n",
+                ".²3 Of morning and evening."
+            ]
+        }
     ]
 }

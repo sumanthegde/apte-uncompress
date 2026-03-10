@@ -1,21 +1,73 @@
 {
-    "__line": 191323,
+    "__line": 204557,
     "_ancestry": [
         "L_ 22812",
-        "B_ {#mav#}"
+        "B_ {#pratyarTa#}"
     ],
-    "_banner": "{#mav#}",
+    "_banner": "{#pratyarTa#}",
     "_bannerExp": [
         {
-            "Right": "mav"
+            "Right": "pratyarTa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#mavati#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To fasten'\nbind."
+        "Useful, expedient.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 204558,
+            "_ancestry": [
+                "L_ 22812",
+                "B_ {#pratyarTa#}",
+                "M_ .{@{#-rTam#}@}"
+            ],
+            "_banner": ".{@{#-rTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyarTam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A reply, an answer.\n",
+                ".²2 Hostility, opposition. "
+            ]
+        },
+        {
+            "__line": 204560,
+            "_ancestry": [
+                "L_ 22812",
+                "B_ {#pratyarTa#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pratyarTa#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "At every object, in every case.\n"
+            ]
+        },
+        {
+            "__line": 204561,
+            "_ancestry": [
+                "L_ 22812",
+                "B_ {#pratyarTa#}",
+                "M_ .{@{#-vedanaH#}@}"
+            ],
+            "_banner": ".{@{#-vedanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: pratyarTa vedanaH"
+                }
+            ],
+            "_meanings": [
+                "Of contrary sensitivity; <ls>Mātaṅga L. 11. 38</ls>."
+            ]
+        }
     ]
 }

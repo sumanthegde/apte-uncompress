@@ -1,24 +1,108 @@
 {
-    "__line": 237770,
+    "__line": 261109,
     "_ancestry": [
         "L_ 28277",
-        "B_ {#SOkra#}"
+        "B_ {#vaNgaH#}"
     ],
-    "_banner": "{#SOkra#}",
+    "_banner": "{#vaNgaH#}",
     "_bannerExp": [
         {
-            "Right": "SOkrI"
-        },
-        {
-            "Right": "SOkra"
+            "Right": "vaNgaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#krI#}|{%<ab>f.</ab>%})",
-        "[{#Sukra-aR#}]"
-    ],
     "_meanings": [
-        "Seminal."
+        ".²1 Cotton.\n",
+        ".²2 The egg-plant.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 261112,
+            "_ancestry": [
+                "L_ 28277",
+                "B_ {#vaNgaH#}",
+                "M_ .{@{#-Ngam#}@}"
+            ],
+            "_banner": ".{@{#-Ngam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaNgam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Lead.\n",
+                ".²2 Tin; {#tAmraM lohaM ca vaNgaM ca kAcaM ca svarRamAkzikam#} <ls>Śiva B. 30. 11</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 261116,
+            "_ancestry": [
+                "L_ 28277",
+                "B_ {#vaNgaH#}",
+                "S_ .{@{#-ariH#}@}"
+            ],
+            "_banner": ".{@{#-ariH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaNgAriH"
+                }
+            ],
+            "_meanings": [
+                "yellow orpiment.\n"
+            ]
+        },
+        {
+            "__line": 261117,
+            "_ancestry": [
+                "L_ 28277",
+                "B_ {#vaNgaH#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaNgaja"
+                }
+            ],
+            "_meanings": [
+                ".²1 brass.\n",
+                ".²2 red lead.\n"
+            ]
+        },
+        {
+            "__line": 261120,
+            "_ancestry": [
+                "L_ 28277",
+                "B_ {#vaNgaH#}",
+                "S_ .{@{#-jIvanam#}@}"
+            ],
+            "_banner": ".{@{#-jIvanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaNgajIvanam"
+                }
+            ],
+            "_meanings": [
+                "silver.\n"
+            ]
+        },
+        {
+            "__line": 261121,
+            "_ancestry": [
+                "L_ 28277",
+                "B_ {#vaNgaH#}",
+                "S_ .{@{#-Sulyajam#}@}"
+            ],
+            "_banner": ".{@{#-Sulyajam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaNgaSulyajam"
+                }
+            ],
+            "_meanings": [
+                "bell-metal ({#kAMsya#})."
+            ]
+        }
     ]
 }

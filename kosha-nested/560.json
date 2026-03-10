@@ -1,25 +1,63 @@
 {
-    "__line": 7486,
+    "__line": 6092,
     "_ancestry": [
         "L_ 560",
-        "B_ {#atitarAM, --atitamAM#}"
+        "B_ {#atarkita#}"
     ],
-    "_banner": "{#atitarAM, --atitamAM#}",
+    "_banner": "{#atarkita#}",
     "_bannerExp": [
         {
-            "Right": "atitamAM"
-        },
-        {
-            "Right": "atitarAM"
+            "Right": "atarkita"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}",
-        "[{#ati-tara#}\n{#(ma) p-Amu#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} more, higher (<ab>abl.</ab>);\n{#nfttAdasyAH sTitamatitarAM kAMtaM#} <ls>M. 2. 7.</ls>\n",
-        "{@--2@} Exceedingly, very much; \nexcessive, great; {#°suduHsahaH#} <ls>R. 3. 37</ls>;  \n{#°rAMkAMtimApatsyate#} <ls>Me. 15</ls> will attain great\nsplendour. ",
-        "{@--3@} Above, higher in rank\n(<ab>acc.</ab>); {#tasmAdvA ete devA#} \n{#°rAmivAnyAndevAn#} <ls>Ken.</ls>"
+        "Unthought of, unexpected {#samameva gato'syatarkitAM#}\n {#gatimaNgena ca jIvitena ca#} <ls>Ku. 4. 22</ls>; <ls>Bh. 3. 137</ls>. {#˚gamanena#} <ls>Mu. 4</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 6094,
+            "_ancestry": [
+                "L_ 560",
+                "B_ {#atarkita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atarkitam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "Unexpectedly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 6096,
+            "_ancestry": [
+                "L_ 560",
+                "B_ {#atarkita#}",
+                "S_ .{@{#-Agata-upanata#}@}"
+            ],
+            "_banner": ".{@{#-Agata-upanata#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#atarkita#} S_ .{@{#-Agata-upanata#}@}"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "occuring or befalling unexpectedly, quite\n accidental, sudden; {#˚darSanollAsitalocanayA anayA#} <ls>Māl. 3</ls>; {#˚upapannaM#}\n {#darSanam#} <ls>Ku. 6. 54</ls>."
+            ]
+        }
     ]
 }

@@ -1,24 +1,247 @@
 {
-    "__line": 154012,
+    "__line": 163181,
     "_ancestry": [
         "L_ 18346",
-        "B_ {#parihf#}"
+        "B_ {#naya#}"
     ],
-    "_banner": "{#parihf#}",
+    "_banner": "{#naya#}",
     "_bannerExp": [
         {
-            "Right": "parihf"
+            "Right": "naya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#nI BAve ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To avoid, shun:  \n{#strIsaMnikarzaM parihartumicCannaMtardaDe BUtapatiH#} \n{#saBUtaH#} <ls>Ku. 3. 74</ls>; <ls>Ms. 8. 400</ls>;  \n<ls>Ku. 3. 43.</ls> ",
-        "{@--2@} To forsake, abandon, leave,\ndesert; {#kati na kaTitamidamanupadamaciraM mA#}\n{#parihara harimatiSayaruciraM#} <ls>Gīt. 9.</ls> ",
-        "{@--3@} To\nremove, destroy; answer, refute (as\nobjections, charges &c.); {#brahmAsya#} \n{#jagato nimittaM kAraRaM prakftiScetyasya#} \n{#pakzasyAkzepaH smftinimittaH parihftaH . tarkanimitta#}\n{#idAnImAkzepaH parihriyate#} S. B; <ls>Me. 14.</ls> \n\n",
-        "{@--4@} To conceal. ",
-        "{@--5@} To embrace."
+        ".²1 Leading, conducting.\n",
+        ".²2 A guide.\n",
+        ".²3 Suitable, right, proper.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 163185,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Guiding,\n\n leading, managing.\n",
+                ".²2\n",
+                ".³({%a%}) Behaviour, course of conduct, conduct, way of life as in {#durnaya#}.\n {#sitonnatenEva nayena hftvA kElAsaSElasya yadagraSoBAm#} <ls>Bu. Ch. 1. 3</ls>.\n",
+                ".³({%b%}) Prudent or righteous conduct, virtue. {#nayAnayO daRqanItyAm#} <ls>Kau. A. 1. 2</ls>.\n",
+                ".²3 Prudence, foresight, circumspection; {#tat tAsAmupaSAntaye sumatiBiH#}\n {#kAryo viSezAnnayaH#} <ls>Pt. 1. 371</ls>, <ls n=\"Pt.\">3. 176</ls>.\n",
+                ".²4 Policy, political wisdom, statesmanship, civil administration, state-policy;\n {#nayapracAraM vyavahAraduzwatAm#} <ls>Mk. 1. 7</ls>; {#nayaguRopacitAmiva BUpateH#}\n {#sadupakAraPalAM SriyamarTinaH#} <ls>R. 9. 27</ls>; {#nayaSAliBiH#} <ls>Mu. 1. 22</ls>.\n",
+                ".²5 Morality, justice, rectitude, equity; {#calati nayAnna jigIzatAM hi#}\n {#cetaH#} <ls>Ki. 10. 29</ls>, <ls n=\"Ki.\">2. 3</ls>, <ls n=\"Ki.\">6. 38</ls>, <ls n=\"Ki.\">16. 42</ls>.\n",
+                ".²6 A plan, design, scheme; {#hitEH sADusamAcArEH SAstrajYErmatiSAliBiH .#}\n {#kaTaMcinna vikalpante vidvadBiScintitA nayAH ..#} <ls>Pt. 1. 339</ls>, <ls n=\"Pt. 1.\">377</ls>; <ls>Mu. 6. 11</ls>, <ls n=\"Mu.\">7. 9</ls>.\n",
+                ".²7 A maxim, principle.\n",
+                ".²8 Course, method, manner.\n",
+                ".²9 A system, doctrine, opinion.\n",
+                ".²10 A philosophical system; {#vESezike naye#} <ls>Bhāṣā P. 105</ls>.\n",
+                ".²11 <ab>N.</ab> of Viṣṇu.\n",
+                ".²12 A kind of game.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 163209,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-kovida#}@}"
+            ],
+            "_banner": ".{@{#-kovida#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayakovida"
+                }
+            ],
+            "_meanings": [
+                ", {#-jYa#} {%a.%} skilled in policy, prudent.\n"
+            ]
+        },
+        {
+            "__line": 163210,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-ga#}@}"
+            ],
+            "_banner": ".{@{#-ga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "behaving properly or prudently.\n"
+            ]
+        },
+        {
+            "__line": 163211,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-cakzus#}@}"
+            ],
+            "_banner": ".{@{#-cakzus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayacakzus"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having political foresight, wise, prudent; {#arhaRAmarhate#}\n {#cakrurmunayo nayacakzuze#} <ls>R. 1. 55</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163213,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-netf#}@}"
+            ],
+            "_banner": ".{@{#-netf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanetf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a master in politics.\n"
+            ]
+        },
+        {
+            "__line": 163214,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-pIWI#}@}"
+            ],
+            "_banner": ".{@{#-pIWI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayapIWI"
+                }
+            ],
+            "_meanings": [
+                "the board or cloth on which men are moved in play.\n"
+            ]
+        },
+        {
+            "__line": 163215,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-prayogaH#}@}"
+            ],
+            "_banner": ".{@{#-prayogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayaprayogaH"
+                }
+            ],
+            "_meanings": [
+                "political wisdom, statesmanship.\n"
+            ]
+        },
+        {
+            "__line": 163216,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayavAdin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a politician; <ls>Pt. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163217,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-vid#}@}"
+            ],
+            "_banner": ".{@{#-vid#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayavid"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-viSAradaH#}@}"
+            ],
+            "_meanings": [
+                "a politician, statesman; {#sanDivigrahiko kAryo rAjYA#}\n {#nayaviSAradaH#} <ls>Matsya P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 163220,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-SAstram#}@}"
+            ],
+            "_banner": ".{@{#-SAstram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayaSAstram"
+                }
+            ],
+            "_meanings": [
+                ".²1 the science of politics.\n",
+                ".²2 any work on politics or political economy.\n",
+                ".²3 a work on morality.\n"
+            ]
+        },
+        {
+            "__line": 163224,
+            "_ancestry": [
+                "L_ 18346",
+                "B_ {#naya#}",
+                "S_ .{@{#-SAlin#}@}"
+            ],
+            "_banner": ".{@{#-SAlin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayaSAlin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "just, righteous; {#nayaSAlini Sriya ivADipatO viramanti#}\n {#na jvalitumOzaDayaH#} <ls>Ki. 5. 24</ls>."
+            ]
+        }
     ]
 }

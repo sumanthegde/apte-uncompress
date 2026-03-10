@@ -1,24 +1,62 @@
 {
-    "__line": 88310,
+    "__line": 87507,
     "_ancestry": [
         "L_ 10502",
-        "B_ {#kalikA, --kaliH#}"
+        "B_ {#Uzara#}"
     ],
-    "_banner": "{#kalikA, --kaliH#}",
+    "_banner": "{#Uzara#}",
     "_bannerExp": [
         {
-            "Right": "kaliH"
-        },
-        {
-            "Right": "kalikA"
+            "Right": "Uzara"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#Uza-matvarTIyo raH#} <ls>P. V. 2. 107</ls>]"
     ],
     "_meanings": [
-        "{@--1@} An unblown\nflower, a bud; {#cUtAnAM ciranirgatApi#}\n{#kalikA baDnAti na svaM rajaH#} <ls>Ś. 6. 3</ls>;  \n{#kimAmrakalikABaMgamAraBase#} <ls>Ś. 6</ls>;  \n<ls>Rs. 6. 17</ls>; <ls>R. 9. 33.</ls> ",
-        "{@--2@} A digit, streak. ",
-        "{@--3@}\nThe bottom or peg of the Indian lute."
+        "Impregnated with\n salt or saline particles.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 87509,
+            "_ancestry": [
+                "L_ 10502",
+                "B_ {#Uzara#}",
+                "M_ .{@{#-raH, -ram#}@}"
+            ],
+            "_banner": ".{@{#-raH, -ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "UzaraH"
+                },
+                {
+                    "Right": "Uzaram"
+                }
+            ],
+            "_meanings": [
+                "A barren spot with saline soil; {#na hi tasmAtPalaM#}\n {#tasya sukfzwAdUzarAdiva#} <ls>Pt. 1. 47</ls>; <ls>Śi. 14. 46</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 87512,
+            "_ancestry": [
+                "L_ 10502",
+                "B_ {#Uzara#}",
+                "S_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Uzarajam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Salt produced from salt soil.\n",
+                ".²2 a kind of magnet."
+            ]
+        }
     ]
 }

@@ -1,24 +1,62 @@
 {
-    "__line": 174952,
+    "__line": 189292,
     "_ancestry": [
         "L_ 21123",
-        "B_ {#prAtiBAsika#}"
+        "B_ {#pAraMparyam#}"
     ],
-    "_banner": "{#prAtiBAsika#}",
+    "_banner": "{#pAraMparyam#}",
     "_bannerExp": [
         {
-            "Right": "prAtiBAsikI"
-        },
-        {
-            "Right": "prAtiBAsika"
+            "Right": "pAramparyam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "[{#paraMparEva svArTe zyaY#}]"
     ],
     "_meanings": [
-        "{@--1@} \nExisting only in appearance, not real.\n",
-        "{@--2@} Looking like."
+        ".²1 Hereditary succession, continuous order; {#tasmin deSe ya AcAraH pAraMparyakamAgataH .#}\n {#varRAnAM sAntarAlAnAM sa sadAcAra ucyate#} <ls>Ms. 2. 18</ls>.\n",
+        ".²2 Traditional instruction, tradition.\n",
+        ".²3 Intermediation.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 189297,
+            "_ancestry": [
+                "L_ 21123",
+                "B_ {#pAraMparyam#}",
+                "M_ .{@{#-pAraMparyeRa#}@}"
+            ],
+            "_banner": ".{@{#-pAraMparyeRa#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: pAraMparyaM pAraMparyeRa"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Successively, by degrees; {#nivfttezu#}\n {#ca sEnyezu pAraMparyeRa sarvaSaH . nimurktakavacAH sarve BIzmamIyurnarADipAH ..#}\n <ls>Mb. 6. 120. 29</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 189301,
+            "_ancestry": [
+                "L_ 21123",
+                "B_ {#pAraMparyam#}",
+                "S_ .{@{#-upadeSaH#}@}"
+            ],
+            "_banner": ".{@{#-upadeSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAramparyopadeSaH"
+                }
+            ],
+            "_meanings": [
+                "traditional instruction, tradition, regarded by the\n Paurāṇikas as a {#pramARa#} or proof."
+            ]
+        }
     ]
 }

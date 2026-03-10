@@ -1,38 +1,98 @@
 {
-    "__line": 42830,
+    "__line": 40713,
     "_ancestry": [
         "L_ 4754",
-        "B_ {#avartana#}"
+        "B_ {#av#}"
     ],
-    "_banner": "{#avartana#}",
+    "_banner": "{#av#}",
     "_bannerExp": [
         {
-            "Right": "avartana"
+            "Right": "av"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "[{#avati, Ava, AvIt, avizyati, avitum, avita#} or {#Uta#}]"
     ],
     "_meanings": [
-        "Destitute of \nlivelihood. "
+        ".²1 To protect, defend; {#saha nAvavatu#} <ls>T. Up. 2. 1. 1</ls>. {#yamavatAmavatAM#}\n {#ca Duri sTitaH#} <ls>R. 9. 1</ls>; {#pratyakzABiH prapannastanuBiravatu vastABirazwABirISaH#} <ls>Ś. 1. 1</ls>.\n",
+        ".²2 To please, satisfy, give pleasure to; do good to; {#vikramasena mAmavati#}\n {#nAjite tvayi#} <ls>R. 11. 75</ls>; {#na mAmavati sadvIpA ratnasUrapi#} <ls>Medinī. 1. 65</ls>.\n",
+        ".²3 To like, wish, desire, love.\n",
+        ".²4 To favour, promote, animate. (In the <ls>Dhātupāṭha.</ls> several other meanings\n are assigned to this root, but they are very rarely used in classical\n literature; {%<ab>e. g.</ab>%} {#gati, kAnti, avagama, praveSa, SravaRa, svAmyarTa#}\n or {#sAmarTya, yAcana, kriyA, dIpti, avApti, grahaRa, vyApti, AliNgana#},\n {#hiMsA, AdAna, dahana, BAva, BAga#}, and {#vfdDi#}). "
     ],
     "_morphisms": [
         {
-            "__line": 42831,
+            "__line": 40723,
             "_ancestry": [
                 "L_ 4754",
-                "B_ {#avartana#}",
-                "M_ {#--naM#}"
+                "B_ {#av#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "avartanaM"
+                    "Right": "av"
                 }
             ],
             "_meanings": [
-                "{@--1@} Want of livelihood.\n",
-                "{@--2@} Non-existence."
+                "To\n consume, devour. ",
+                "--{%With%} {@{#anu#}@} to encourage, inspire.\n"
+            ]
+        },
+        {
+            "__line": 40725,
+            "_ancestry": [
+                "L_ 4754",
+                "B_ {#av#}",
+                "M_ .{@{#-ud#}@}"
+            ],
+            "_banner": ".{@{#-ud#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udav"
+                }
+            ],
+            "_meanings": [
+                ".²1 to regard, attend to.\n",
+                ".²2 to wait for.\n",
+                ".²3 to promote, impel.\n"
+            ]
+        },
+        {
+            "__line": 40729,
+            "_ancestry": [
+                "L_ 4754",
+                "B_ {#av#}",
+                "M_ .{@{#-upa#}@}"
+            ],
+            "_banner": ".{@{#-upa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upAv"
+                }
+            ],
+            "_meanings": [
+                ".²1 to cherish, behave friendly towards.\n",
+                ".²2 to encourage.\n"
+            ]
+        },
+        {
+            "__line": 40732,
+            "_ancestry": [
+                "L_ 4754",
+                "B_ {#av#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "samav"
+                }
+            ],
+            "_meanings": [
+                ".²1 to satisfy, satiate.\n",
+                ".²2 to protect, maintain. [<ab>cf.</ab> <lang>L.</lang> {%aveo%}]."
             ]
         }
     ]

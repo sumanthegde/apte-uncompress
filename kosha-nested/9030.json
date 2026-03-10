@@ -1,20 +1,64 @@
 {
-    "__line": 76670,
+    "__line": 76024,
     "_ancestry": [
         "L_ 9030",
-        "B_ {#upasparSin#}"
+        "B_ {#udGAwita#}"
     ],
-    "_banner": "{#upasparSin#}",
+    "_banner": "{#udGAwita#}",
     "_bannerExp": [
         {
-            "Right": "upasparSin"
+            "Right": "udGAwita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Touching. ",
-        "{@--2@} \nSipping water."
+        ".²1 Opened, manifested.\n",
+        ".²2 Undertaken; commenced.\n",
+        ".²3 Raised, lifted up.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 76029,
+            "_ancestry": [
+                "L_ 9030",
+                "B_ {#udGAwita#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udGAwitANga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 Naked.\n",
+                ".²2 Intelligent, wise.\n"
+            ]
+        },
+        {
+            "__line": 76032,
+            "_ancestry": [
+                "L_ 9030",
+                "B_ {#udGAwita#}",
+                "S_ .{@{#-jYa#}@}"
+            ],
+            "_banner": ".{@{#-jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udGAwitajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Wise, intelligent."
+            ]
+        }
     ]
 }

@@ -1,19 +1,93 @@
 {
-    "__line": 164881,
+    "__line": 176645,
     "_ancestry": [
         "L_ 19718",
-        "B_ {#prajavana#}"
+        "B_ {#pacana#}"
     ],
-    "_banner": "{#prajavana#}",
+    "_banner": "{#pacana#}",
     "_bannerExp": [
         {
-            "Right": "prajavana"
+            "Right": "pacana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#pac-karaRe lyuw#}]"
     ],
     "_meanings": [
-        "Swift, fleet; <ls>U. 5. 1.</ls>"
+        "Cooking, dressing, maturing <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 176646,
+            "_ancestry": [
+                "L_ 19718",
+                "B_ {#pacana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Fire; {#aTa hEnamanvAhAryapacano'nuSaSAsa#} <ls>Ch. Up. 4. 12. 1</ls>; {#aTAnvAhAryapacanAdutTito#}\n {#GoradarSanaH#} <ls>Bhāg. 6. 9. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 176649,
+            "_ancestry": [
+                "L_ 19718",
+                "B_ {#pacana#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacanA"
+                }
+            ],
+            "_meanings": [
+                "Becoming ripe, ripening.\n"
+            ]
+        },
+        {
+            "__line": 176650,
+            "_ancestry": [
+                "L_ 19718",
+                "B_ {#pacana#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacanI"
+                }
+            ],
+            "_meanings": [
+                "The wild citron tree.\n"
+            ]
+        },
+        {
+            "__line": 176651,
+            "_ancestry": [
+                "L_ 19718",
+                "B_ {#pacana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacanam"
+                }
+            ],
+            "_meanings": [
+                "Cooking, dressing, maturing <ab>&c.</ab>; <ls>Bhāg. 3. 26. 40</ls>.\n",
+                ".²2 A means or instrument for cooking, a vessel, fuel <ab>&c.</ab>\n",
+                ".²3 Ripening, maturing.\n",
+                ".²4 Becoming cooked or ripe."
+            ]
+        }
     ]
 }

@@ -1,38 +1,103 @@
 {
-    "__line": 211744,
+    "__line": 224428,
     "_ancestry": [
         "L_ 24974",
-        "B_ {#vaniH#}"
+        "B_ {#Bavanam#}"
     ],
-    "_banner": "{#vaniH#}",
+    "_banner": "{#Bavanam#}",
     "_bannerExp": [
         {
-            "Right": "vaniH"
+            "Right": "Bavanam"
         }
     ],
+    "_gram": [
+        "[{#BU-ADAre lyuw#}]"
+    ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of Agni. ",
-        "{@--2@} A heap.\n",
-        "{@--3@} Asking, begging. "
+        ".²1 Being, existence.\n",
+        ".²2 Production, birth.\n",
+        ".²3 An abode, residence, dwelling, mansion; {#aTavA BavanapratyayAt pravizwo'smi#}\n <ls>Mk. 3</ls>; <ls>Me. 34</ls>; <ls>Rām. 7. 11. 50</ls>.\n",
+        ".²4 A site, abode, receptacle; as in {#avinayaBavanam#} <ls>Pt. 1. 191</ls>.\n",
+        ".²5 A building.\n",
+        ".²6 A field; {#sa SAliBavanaM ramyaM sarvasasyasamAcitam#} <ls>Mb. 5. 84. 15</ls>.\n",
+        ".²7 Nature.\n",
+        ".²8 Horoscope, natal star.\n"
     ],
     "_morphisms": [
         {
-            "__line": 211745,
+            "__line": 224438,
             "_ancestry": [
                 "L_ 24974",
-                "B_ {#vaniH#}",
-                "M_ {%--<ab>f.</ab>%}"
+                "B_ {#Bavanam#}",
+                "M_ .{@{#-naH#}@}"
             ],
+            "_banner": ".{@{#-naH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vaniH"
+                    "Right": "BavanaH"
+                }
+            ],
+            "_meanings": [
+                "A dog.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 224440,
+            "_ancestry": [
+                "L_ 24974",
+                "B_ {#Bavanam#}",
+                "S_ .{@{#-udaram#}@}"
+            ],
+            "_banner": ".{@{#-udaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bavanodaram"
+                }
+            ],
+            "_meanings": [
+                "the interior of a house.\n"
+            ]
+        },
+        {
+            "__line": 224441,
+            "_ancestry": [
+                "L_ 24974",
+                "B_ {#Bavanam#}",
+                "S_ .{@{#-dvAram#}@}"
+            ],
+            "_banner": ".{@{#-dvAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BavanadvAram"
+                }
+            ],
+            "_meanings": [
+                "a palace-gate.\n"
+            ]
+        },
+        {
+            "__line": 224442,
+            "_ancestry": [
+                "L_ 24974",
+                "B_ {#Bavanam#}",
+                "S_ .{@{#-patiH, -svAmin#}@}"
+            ],
+            "_banner": ".{@{#-patiH, -svAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BavanapatiH"
+                },
+                {
+                    "Right": "BavanasvAmin"
                 }
             ],
             "_gram": [
-                "{%--<ab>f.</ab>%}"
+                "{%m.%}"
             ],
             "_meanings": [
-                "Desire,\nwish."
+                "the lord of the house, a {%pater familias%}."
             ]
         }
     ]

@@ -1,22 +1,89 @@
 {
-    "__line": 229029,
+    "__line": 250136,
     "_ancestry": [
         "L_ 27222",
-        "B_ {#vyatyasta#}"
+        "B_ {#racita#}"
     ],
-    "_banner": "{#vyatyasta#}",
+    "_banner": "{#racita#}",
     "_bannerExp": [
         {
-            "Right": "vyatyasta"
+            "Right": "racita"
         }
     ],
     "_gram": [
         "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Reversed, \ninverted. ",
-        "{@--2@} Contrary, opposite. ",
-        "{@--3@}\nIncoherent; {#vyatyastaM lapati#}  \n<ls>Bv. 2. 84.</ls> ",
-        "{@--4@} Crossed, placed \ncrosswise; {#vyatyastapAdaH, vyatyastaBujaH#} &c."
+        ".²1 Arranged.\n",
+        ".²2 Prepared.\n",
+        ".²3 Made, formed.\n",
+        ".²4 Strong together.\n",
+        ".²5 Composed, written.\n",
+        ".²6 Adorned.\n",
+        ".²7 Furnished with.\n",
+        ".²8 Directed towards (as the mind).\n",
+        ".²9 Invented.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 250147,
+            "_ancestry": [
+                "L_ 27222",
+                "B_ {#racita#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "racitArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has obtained his object.\n"
+            ]
+        },
+        {
+            "__line": 250148,
+            "_ancestry": [
+                "L_ 27222",
+                "B_ {#racita#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "racitaDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose mind is intent upon.\n"
+            ]
+        },
+        {
+            "__line": 250149,
+            "_ancestry": [
+                "L_ 27222",
+                "B_ {#racita#}",
+                "S_ .{@{#-pUrva#}@}"
+            ],
+            "_banner": ".{@{#-pUrva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "racitapUrva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "what has been performed before."
+            ]
+        }
     ]
 }

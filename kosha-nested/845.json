@@ -1,46 +1,299 @@
 {
-    "__line": 9816,
+    "__line": 8114,
     "_ancestry": [
         "L_ 845",
-        "B_ {#adIna#}"
+        "B_ {#atyanta#}"
     ],
-    "_banner": "{#adIna#}",
+    "_banner": "{#atyanta#}",
     "_bannerExp": [
         {
-            "Right": "adIna"
+            "Right": "atyanta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#atikAntaH antaM sImAM nASam#}]"
     ],
     "_meanings": [
-        "Not low or depressed,\nhigh-spirited; mighty, not poor;\nrich, happy. "
+        ".²1 Excessive, much, very great or strong; {#˚vEram#} great enmity; {#˚mEtrI#};\n {#˚himotkirAnilAH#} <ls>Ku. 5. 26</ls>.\n",
+        ".²2 Complete, perfect, absolute; {#˚aBAvaH#} absolute non-existence; see below.\n",
+        ".²3 Endless, perpetual, permanent, everlasting, uninterrupted, unbroken;\n {#kiM vA tavAtyantaviyogamoGe hatajIvite#} <ls>R. 14. 65</ls>; {#Bavatyajaramatyantam#}\n <ls>Pt. 1. 151</ls>; {#yo banDanavaDakleSAn prARinAM na cikIrzati . sa sarvasya#}\n {#hitaprepsuH suKamatyantamaSnute ..#} <ls>Ms. 5. 46</ls>; <ls>Bg. 6. 28</ls>; {#kasyAtyantaM#}\n {#suKamupanatam#} <ls>Me. 111</ls>. {#nAyamatyantasaMvAso lamyate yena kenacit#} <ls>H. 4. 73</ls>.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 9818,
+            "__line": 8123,
             "_ancestry": [
                 "L_ 845",
-                "B_ {#adIna#}",
-                "S_  {#--Atman, --vftti#},  \n{#--sattva#}"
+                "B_ {#atyanta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": " {#--Atman, --vftti#},  \n{#--sattva#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "adInAtman"
-                },
-                {
-                    "Right": "adInasattva"
-                },
-                {
-                    "Right": "adInavftti"
+                    "Right": "atyantam"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "not depressed in spirit, \nhighspirited, high-mettled."
+                ".²1 Exceedingly, excessively, very much, to the highest degree; {#sTAyIBavati#}\n {#cAtyantaM raNgaH Suklapawe yaTA#} <ls>Pt. 1. 33</ls>; {#stanaMDayo'tyantaSiSuH#}\n {#stanAdiva#} <ls>Mu. 4. 14</ls> very young.\n",
+                ".²2 For ever, to the end (of life), through life; {#atyantamAtmasadfSekzaRavallaBABirAho#}\n {#nivatsyati#} <ls>Ś. 1. 26</ls>. For all time, in perpetuity; {#sA cAtyantamadarSanaM#}\n {#nayanayoryAtA#}\n\n <ls>V. 4. 9</ls>; <ab>oft.</ab> in <ab>comp.</ab>; {#˚gatA#} See below; {#priyamatyantaviluptadarSanam#}\n <ls>Ku. 4. 2</ls>. For ever lost to view; <ls>R. 14. 39</ls>.\n",
+                ".²3 Absolutely, perfectly, completely.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 8135,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-apahnavaH#}@}"
+            ],
+            "_banner": ".{@{#-apahnavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantApahnavaH"
+                }
+            ],
+            "_meanings": [
+                "A flat, categorical or total denial; a denial nipping\n the accusation in the bud (<ls>P. Vārttika III. 2. 115.</ls>).\n"
+            ]
+        },
+        {
+            "__line": 8137,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-aBAvaH#}@}"
+            ],
+            "_banner": ".{@{#-aBAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantABAvaH"
+                }
+            ],
+            "_meanings": [
+                "absolute or complete non-existence, absolute non-entity,\n a thing which does not exist at any one of the three periods of time,\n or does not exist for all time; {#trEkAlikasaMsargAvAcCinnapratiyogikaH#}\n (This is considered to be {#nitya#} or eternal and different from the\n other kinds of {#aBAva#}).\n"
+            ]
+        },
+        {
+            "__line": 8142,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-ga#}@}"
+            ],
+            "_banner": ".{@{#-ga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going or walking too much or too fast.\n"
+            ]
+        },
+        {
+            "__line": 8143,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantagata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 gone or departed forever, gone never to return; {#kaTamatyantagatAM na mAM daheH#} <ls>R. 8. 56</ls>.\n",
+                ".²2 always applicable, perfectly intimate or pertinent.\n"
+            ]
+        },
+        {
+            "__line": 8145,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-gati#}@}"
+            ],
+            "_banner": ".{@{#-gati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantagati"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 sense of ‘completely’; {#anatyantagatO ktAt#} <ls>P. V. 4. 4</ls>.\n completion, accomplishment.\n"
+            ]
+        },
+        {
+            "__line": 8147,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-gAmin#}@}"
+            ],
+            "_banner": ".{@{#-gAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantagAmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 going or walking very much, going too fast or quickly.\n",
+                ".²2 excessive, much.\n"
+            ]
+        },
+        {
+            "__line": 8150,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-nivfttiH#}@}"
+            ],
+            "_banner": ".{@{#-nivfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantanivfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "complete disappearance, absolute cessation.\n"
+            ]
+        },
+        {
+            "__line": 8151,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-vAsin#}@}"
+            ],
+            "_banner": ".{@{#-vAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantavAsin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "[{#vas-Rini#}]"
+            ],
+            "_meanings": [
+                "one who constantly stays with his\n preceptor, as a student.\n"
+            ]
+        },
+        {
+            "__line": 8153,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-sahacarita#}@}"
+            ],
+            "_banner": ".{@{#-sahacarita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantasahacarita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going together invariably (<ls>P.</ls> {#vArttika#} <ls n=\"P.\">VIII. 1. 15.</ls>)\n"
+            ]
+        },
+        {
+            "__line": 8154,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-saMyogaH#}@}"
+            ],
+            "_banner": ".{@{#-saMyogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantasaMyogaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 close proximity, uninterrupted continuity; {#kAlADvanoratyantasaMyoge#} <ls>P. II. 1. 29</ls>.\n",
+                ".²2 Inseparable co-existence.\n"
+            ]
+        },
+        {
+            "__line": 8157,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-saMparkaH#}@}"
+            ],
+            "_banner": ".{@{#-saMparkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantasamparkaH"
+                }
+            ],
+            "_meanings": [
+                "excessive sexual intercourse.\n"
+            ]
+        },
+        {
+            "__line": 8158,
+            "_ancestry": [
+                "L_ 845",
+                "B_ {#atyanta#}",
+                "S_ .{@{#-sukumAra#}@}"
+            ],
+            "_banner": ".{@{#-sukumAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atyantasukumAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very tender.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 8159,
+                    "_ancestry": [
+                        "L_ 845",
+                        "B_ {#atyanta#}",
+                        "S_ .{@{#-sukumAra#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "atyantasukumAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a kind of grain."
+                    ]
+                }
             ]
         }
     ]

@@ -1,17 +1,123 @@
 {
-    "__line": 175316,
+    "__line": 189600,
     "_ancestry": [
         "L_ 21174",
-        "B_ {#prAbalyaM#}"
+        "B_ {#pAriplava#}"
     ],
-    "_banner": "{#prAbalyaM#}",
+    "_banner": "{#pAriplava#}",
     "_bannerExp": [
         {
-            "Right": "prAbalyaM"
+            "Right": "pAriplava"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#pari-plu ac svArTe aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} Ascendancy, \nsuperiority, predominance. ",
-        "{@--2@} Power, force,\nmight."
+        ".²1 Moving to and fro, rolling, shaking, unsteady, tremulous; {#nananda#}\n {#pAriplavanetrayA nfpaH#} <ls>R. 3. 11</ls>.\n",
+        ".²2 Swimming, floating; <ls>R. 13. 30</ls>; {#pAriplavAH srotasi nimnagAyAH#} <ls n=\"R.\">16. 61</ls>.\n",
+        ".²3 Agitated, bewildered, disturbed or perplexed; {#hA hA dEva kimutpaTErmama#}\n {#manaH pAriplavaM DAvati#} <ls>U. 4. 22</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 189606,
+            "_ancestry": [
+                "L_ 21174",
+                "B_ {#pAriplava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAriplavaH"
+                }
+            ],
+            "_meanings": [
+                "A boat; {#pAriplavagatAScApi devatAstatra vizWitAH#} <ls>Rām. 1. 43. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 189607,
+            "_ancestry": [
+                "L_ 21174",
+                "B_ {#pAriplava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAriplavam"
+                }
+            ],
+            "_meanings": [
+                "Restlessness, uneasiness; {#pratizWAmavyAjaM vrajatu mayi#}\n {#pAriplavaDurA#} <ls>Māl. 4. 3</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 189610,
+            "_ancestry": [
+                "L_ 21174",
+                "B_ {#pAriplava#}",
+                "S_ .{@{#-dvazwi, -netra#}@}"
+            ],
+            "_banner": ".{@{#-dvazwi, -netra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAriplavadvazwi"
+                },
+                {
+                    "Right": "pAriplavanetra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having tremulous eyes.\n"
+            ]
+        },
+        {
+            "__line": 189611,
+            "_ancestry": [
+                "L_ 21174",
+                "B_ {#pAriplava#}",
+                "S_ .{@{#-praBa#}@}"
+            ],
+            "_banner": ".{@{#-praBa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAriplavapraBa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "spreading lustre.\n"
+            ]
+        },
+        {
+            "__line": 189612,
+            "_ancestry": [
+                "L_ 21174",
+                "B_ {#pAriplava#}",
+                "S_ .{@{#-mati#}@}"
+            ],
+            "_banner": ".{@{#-mati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAriplavamati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fickle-minded."
+            ]
+        }
     ]
 }

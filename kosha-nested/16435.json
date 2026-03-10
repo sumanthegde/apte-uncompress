@@ -1,20 +1,35 @@
 {
-    "__line": 138085,
+    "__line": 142493,
     "_ancestry": [
         "L_ 16435",
-        "B_ {#nahus#}"
+        "B_ {#titOH#}"
     ],
-    "_banner": "{#nahus#}",
+    "_banner": "{#titOH#}",
     "_bannerExp": [
         {
-            "Right": "nahus"
+            "Right": "titOH"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} A neighbour. ",
-        "{@--2@} A man."
+        "A sieve. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 142493,
+            "_ancestry": [
+                "L_ 16435",
+                "B_ {#titOH#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#titOH#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "A parasol."
+            ]
+        }
     ]
 }

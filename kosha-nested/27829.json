@@ -1,16 +1,287 @@
 {
-    "__line": 234152,
+    "__line": 257019,
     "_ancestry": [
         "L_ 27829",
-        "B_ {#SAmIlI#}"
+        "B_ {#lamba#}"
     ],
-    "_banner": "{#SAmIlI#}",
+    "_banner": "{#lamba#}",
     "_bannerExp": [
         {
-            "Right": "SAmIlI"
+            "Right": "lamba"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#lamb-ac#}]"
+    ],
     "_meanings": [
-        "A chaplet, garland."
+        ".²1 Hanging down, hanging from, pendent, dangling; {#pARqapo'yamaMsArpitalambahAraH#}\n <ls>R. 6. 60</ls>, <ls n=\"R. 6.\">84</ls>; {#SatabudDiH kftonnAmaH salambaSca sahasraDIH#} <ls>Pt. 5. 45</ls>; <ls>Me. 86</ls>.\n",
+        ".²2 Hanging upon, attached to.\n",
+        ".²3 Great, large.\n",
+        ".²4 Spacious.\n",
+        ".²5 Long, tall.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 257026,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "M_ .{@{#-mbaH#}@}"
+            ],
+            "_banner": ".{@{#-mbaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A perpendicular.\n",
+                ".²2 Colatitude, the arc between the pole of any place and the zenith, complement of latitude.\n",
+                ".²3 A bribe.\n",
+                ".²4 <ab>N.</ab> of a particular throw or move (at a kind of chess).\n"
+            ]
+        },
+        {
+            "__line": 257031,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "M_ .{@{#-mbI#}@}"
+            ],
+            "_banner": ".{@{#-mbI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of food prepared from grain.\n",
+                ".²2 A flowering branch.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 257035,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-udara#}@}"
+            ],
+            "_banner": ".{@{#-udara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambodara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "big-bellied, pot-bellied, portly.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 257036,
+                    "_ancestry": [
+                        "L_ 27829",
+                        "B_ {#lamba#}",
+                        "S_ .{@{#-udara#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "lambodaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 <ab>N.</ab> of Gaṇeśa.\n",
+                        ".²2 a glutton. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 257038,
+                            "_ancestry": [
+                                "L_ 27829",
+                                "B_ {#lamba#}",
+                                "S_ .{@{#-udara#}@}",
+                                "S_M_ ({@{#-raH#}@}",
+                                "S_M_S_ {#˚jananI#}"
+                            ],
+                            "_banner": "{#˚jananI#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "lambodarajananI"
+                                }
+                            ],
+                            "_meanings": [
+                                "<ab>N.</ab> of Pārvatī; {#nirAlambo lambodarajanani#}\n {#kaM yAmi SaraRam#} <ls>Ā. L. 11</ls>.\n."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__line": 257040,
+                    "_ancestry": [
+                        "L_ 27829",
+                        "B_ {#lamba#}",
+                        "S_ .{@{#-udara#}@}",
+                        "S_M_ ({@{#-rI#}@}"
+                    ],
+                    "_banner": "({@{#-rI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "lambodarI"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of the goddess Tārā.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 257041,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-ozWaH#}@}"
+            ],
+            "_banner": ".{@{#-ozWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambOzWaH"
+                }
+            ],
+            "_gram": [
+                "({@{#lambo(mbO)zWaH#}@})"
+            ],
+            "_meanings": [
+                "a camel.\n"
+            ]
+        },
+        {
+            "__line": 257042,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-karRaH#}@}"
+            ],
+            "_banner": ".{@{#-karRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambakarRaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an ass.\n",
+                ".²2 a goat.\n",
+                ".²3 an elephant.\n",
+                ".²4 a falcon.\n",
+                ".²5 a demon or Rākṣasa.\n"
+            ]
+        },
+        {
+            "__line": 257048,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-guRaH, -jyA, -reKA#}@}"
+            ],
+            "_banner": ".{@{#-guRaH, -jyA, -reKA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambaguRaH"
+                },
+                {
+                    "Left": "S error: 1 syl guRaH jyA"
+                },
+                {
+                    "Right": "lambareKA"
+                }
+            ],
+            "_meanings": [
+                "the sine of the co-latitude; {#svAbADABujakftyorantaramUlaM#}\n {#prajAyate lambaH . lambaguRaM BUmyarDaM spazwaM triBujaM PalaM Bavati#} <ls>Līlā.</ls>\n"
+            ]
+        },
+        {
+            "__line": 257050,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-jaWara#}@}"
+            ],
+            "_banner": ".{@{#-jaWara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambajaWara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pot-bellied, portly.\n"
+            ]
+        },
+        {
+            "__line": 257051,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-dantA, -bIjA#}@}"
+            ],
+            "_banner": ".{@{#-dantA, -bIjA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambadantA"
+                },
+                {
+                    "Right": "lambabIjA"
+                }
+            ],
+            "_meanings": [
+                "a kind of pepper.\n"
+            ]
+        },
+        {
+            "__line": 257052,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-payoDarA#}@}"
+            ],
+            "_banner": ".{@{#-payoDarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambapayoDarA"
+                }
+            ],
+            "_meanings": [
+                "a woman with large pendent breasts.\n"
+            ]
+        },
+        {
+            "__line": 257053,
+            "_ancestry": [
+                "L_ 27829",
+                "B_ {#lamba#}",
+                "S_ .{@{#-sPic#}@}"
+            ],
+            "_banner": ".{@{#-sPic#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lambasPic"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having fat or protuberant buttocks."
+            ]
+        }
     ]
 }

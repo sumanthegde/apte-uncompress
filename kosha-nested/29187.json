@@ -1,21 +1,146 @@
 {
-    "__line": 244965,
+    "__line": 270153,
     "_ancestry": [
         "L_ 29187",
-        "B_ {#saMdarSanaM#}"
+        "B_ {#vikala#}"
     ],
-    "_banner": "{#saMdarSanaM#}",
+    "_banner": "{#vikala#}",
     "_bannerExp": [
         {
-            "Right": "saMdarSanaM"
+            "Right": "vikala"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Seeing, beholding, \nviewing. ",
-        "{@--2@} Gazing, looking steadfastly.\n",
-        "{@--3@} Meeting, seeing one another. ",
-        "{@--4@}\nSight, appearance, vision. ",
-        "{@--5@} Regard,\nconsideration. ",
-        "{@--6@} Showing, \ndisplaying."
+        ".²1 Deprived of a part or member, defective, imperfect, maimed, mutilated;\n {#kUwakfdvikalendriyAH#} <ls>Y. 2. 70</ls>; <ls>Ms. 8. 66</ls>; <ls>U. 4. 24</ls>.\n",
+        ".²2 Frightened, alarmed; {#nAdastAvadvikalakurarIkUjitasnigDatAraH#} <ls>Māl. 5. 20</ls>.\n",
+        ".²3 Devoid or destitute of (in <ab>comp.</ab>); {#ArAmADipatirvivekavikalaH#} <ls>Bv. 1. 31</ls>;\n {#prasUti˚#} <ls>Ś. 6. 24</ls>; <ls>Pt. 5. 8</ls>; <ls>Mk. 5. 41</ls>; {#na tu kulavikalAnAM#}\n {#vartate vfttaSudDiH#} <ls>Avimārakam 2. 5</ls>.\n",
+        ".²4 Agitated, weakened, dispirited, unnerved, drooping, sinking, languid;\n {#kimiti vizIdasi rodizi vikalA vihasati yuvatisaBA tava sakalA#} <ls>Gīt. 9</ls>;\n {#viraheRa vikalahfdayA#} <ls>Bv. 2. 71</ls>, <ls n=\"Bv. 2.\">164</ls>; {#Srutiyugale pikarutavikale#}\n <ls>Gīt. 12</ls>; {#vahati vikalaH kAyo mohaM na muYcati cetanAm#} <ls>U. 3. 31</ls>; <ls>Māl. 7. 1</ls>, <ls n=\"Māl.\">9. 12</ls>.\n",
+        ".²5 Ineffective, useless; {#vikalamiha pUrvasukftam#} <ls>Pt. 5. 9</ls>.\n",
+        ".²6 Wanting, failing.\n",
+        ".²7 Withered, decayed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 270167,
+            "_ancestry": [
+                "L_ 29187",
+                "B_ {#vikala#}",
+                "M_ .{@{#-lA, -lI#}@}"
+            ],
+            "_banner": ".{@{#-lA, -lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikalA"
+                },
+                {
+                    "Right": "vikalI"
+                }
+            ],
+            "_meanings": [
+                "A woman during her courses; (<ls>L. D. B.</ls> however says ‘A\n woman who has passed child-bearing’, {#ftuhInA#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 270170,
+            "_ancestry": [
+                "L_ 29187",
+                "B_ {#vikala#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikalANga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a redundant or deficient limb.\n"
+            ]
+        },
+        {
+            "__line": 270171,
+            "_ancestry": [
+                "L_ 29187",
+                "B_ {#vikala#}",
+                "S_ .{@{#-indriya#}@}"
+            ],
+            "_banner": ".{@{#-indriya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikalendriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having impaired or defective organs of sense.\n"
+            ]
+        },
+        {
+            "__line": 270172,
+            "_ancestry": [
+                "L_ 29187",
+                "B_ {#vikala#}",
+                "S_ .{@{#-karaRa#}@}"
+            ],
+            "_banner": ".{@{#-karaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikalakaraRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with drooping limbs, languid; <ls>U. 3. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 270173,
+            "_ancestry": [
+                "L_ 29187",
+                "B_ {#vikala#}",
+                "S_ .{@{#-karuRa#}@}"
+            ],
+            "_banner": ".{@{#-karuRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikalakaruRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "helpless, piteous; {#vikalakaruRErmarmacCedavyaTAviDurEriva#}\n (<ab>v. l.</ab> {#vikalakaraREH#}) <ls>Māl. 9. 11</ls>; <ls>U. 1. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 270175,
+            "_ancestry": [
+                "L_ 29187",
+                "B_ {#vikala#}",
+                "S_ .{@{#-pARikaH#}@}"
+            ],
+            "_banner": ".{@{#-pARikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikalapARikaH"
+                }
+            ],
+            "_meanings": [
+                "a cripple."
+            ]
+        }
     ]
 }

@@ -1,21 +1,38 @@
 {
-    "__line": 226585,
+    "__line": 245629,
     "_ancestry": [
         "L_ 26861",
-        "B_ {#vfdDimat#}"
+        "B_ {#yajYin#}"
     ],
-    "_banner": "{#vfdDimat#}",
+    "_banner": "{#yajYin#}",
     "_bannerExp": [
         {
-            "Right": "vfdDimat"
+            "Right": "yajYin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Increased, increasing.\n",
-        "{@--2@} Rich, wealthy. ",
-        "{@--3@} Prosperous,\nthriving."
+        "Full of sacrifices. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 245629,
+            "_ancestry": [
+                "L_ 26861",
+                "B_ {#yajYin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#yajYin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu."
+            ]
+        }
     ]
 }

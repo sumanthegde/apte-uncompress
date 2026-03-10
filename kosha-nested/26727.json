@@ -1,21 +1,60 @@
 {
-    "__line": 225364,
+    "__line": 244409,
     "_ancestry": [
         "L_ 26727",
-        "B_ {#vismita#}"
+        "B_ {#mocaka#}"
     ],
-    "_banner": "{#vismita#}",
+    "_banner": "{#mocaka#}",
     "_bannerExp": [
         {
-            "Right": "vismita"
+            "Right": "mocaka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#muc-Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Astonished, \nsurprised, amazed, wonder-struck. ",
-        "{@--2@}\nDisconcerted. ",
-        "{@--3@} Proud."
+        ".²1 Liberating, freeing.\n",
+        ".²2 Finally emancipated, absolved.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 244412,
+            "_ancestry": [
+                "L_ 26727",
+                "B_ {#mocaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mocakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A devotee, an ascetic.\n",
+                ".²2 Emancipation, deliverance.\n",
+                ".²3 A plantain tree.\n",
+                ".²4 The tree called {#SoBAYjana#}.\n"
+            ]
+        },
+        {
+            "__line": 244417,
+            "_ancestry": [
+                "L_ 26727",
+                "B_ {#mocaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mocakam"
+                }
+            ],
+            "_meanings": [
+                "A kind of shoe."
+            ]
+        }
     ]
 }

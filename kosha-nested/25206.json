@@ -1,19 +1,171 @@
 {
-    "__line": 213552,
+    "__line": 226927,
     "_ancestry": [
         "L_ 25206",
-        "B_ {#valikaH --kaM#}"
+        "B_ {#Bukta#}"
     ],
-    "_banner": "{#valikaH --kaM#}",
+    "_banner": "{#Bukta#}",
     "_bannerExp": [
         {
-            "Right": "valikaH"
-        },
-        {
-            "Right": "valikaM"
+            "Right": "Bukta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#Buj-karmaRi kta#}]"
+    ],
     "_meanings": [
-        "The edge of a \nthatched roof."
+        ".²1 Eaten.\n",
+        ".²2 Enjoyed, used; {#BogA na BuktA vayameva BuktAH#} <ls>Bh. 3. 12</ls>; {#na tad#}\n {#BuktaM na tat pItaM na tat suptaM na tadgatam#} <ls>Udb.</ls>\n",
+        ".²3 Suffered, experienced.\n",
+        ".²4 Possessed, occupied (in law).\n",
+        ".²5 Passed (as time).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 226934,
+            "_ancestry": [
+                "L_ 25206",
+                "B_ {#Bukta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Buktam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The act of eating or enjoying.\n",
+                ".²2 That which is eaten, food.\n",
+                ".²3 The place where any one has eaten.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 226939,
+            "_ancestry": [
+                "L_ 25206",
+                "B_ {#Bukta#}",
+                "S_ .{@{#-ucCizwam, -SezaH, -samujJitam#}@}"
+            ],
+            "_banner": ".{@{#-ucCizwam, -SezaH, -samujJitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BuktocCizwam"
+                },
+                {
+                    "Right": "BuktaSezaH"
+                },
+                {
+                    "Right": "BuktasamujJitam"
+                }
+            ],
+            "_meanings": [
+                "remnants of the food eaten, leavings of food, orts.\n"
+            ]
+        },
+        {
+            "__line": 226940,
+            "_ancestry": [
+                "L_ 25206",
+                "B_ {#Bukta#}",
+                "S_ .{@{#-pIta#}@}"
+            ],
+            "_banner": ".{@{#-pIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BuktapIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has eaten and drunk.\n"
+            ]
+        },
+        {
+            "__line": 226941,
+            "_ancestry": [
+                "L_ 25206",
+                "B_ {#Bukta#}",
+                "S_ .{@{#-Boga#}@}"
+            ],
+            "_banner": ".{@{#-Boga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BuktaBoga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 one who has enjoyed or suffered (anything).\n",
+                ".²2 that which has been used, enjoyed, or employed.\n"
+            ]
+        },
+        {
+            "__line": 226944,
+            "_ancestry": [
+                "L_ 25206",
+                "B_ {#Bukta#}",
+                "S_ .{@{#-mAtre#}@}"
+            ],
+            "_banner": ".{@{#-mAtre#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BuktamAtre"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "immediately on having eaten; <ls>Ms. 4. 121</ls>.\n"
+            ]
+        },
+        {
+            "__line": 226945,
+            "_ancestry": [
+                "L_ 25206",
+                "B_ {#Bukta#}",
+                "S_ .{@{#-vfdDiH#}@}"
+            ],
+            "_banner": ".{@{#-vfdDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BuktavfdDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the swelling of food (in the stomach).\n"
+            ]
+        },
+        {
+            "__line": 226946,
+            "_ancestry": [
+                "L_ 25206",
+                "B_ {#Bukta#}",
+                "S_ .{@{#-supta#}@}"
+            ],
+            "_banner": ".{@{#-supta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Buktasupta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sleeping after a meal."
+            ]
+        }
     ]
 }

@@ -1,22 +1,120 @@
 {
-    "__line": 117502,
+    "__line": 120259,
     "_ancestry": [
         "L_ 14050",
-        "B_ {#jenya#}"
+        "B_ {#gir#}"
     ],
-    "_banner": "{#jenya#}",
+    "_banner": "{#gir#}",
     "_bannerExp": [
         {
-            "Right": "jenya"
+            "Right": "gir"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#gF-kvip vA wAp#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Of noble origin,\nwell-born. ",
-        "{@--2@} Genuine, true. ",
-        "{@--3@}\nVictorious."
+        "<ab>Ved.</ab> Addressing, invoking. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 120259,
+            "_ancestry": [
+                "L_ 14050",
+                "B_ {#gir#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gir#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "(<ab>nom.</ab> <ab>sing.</ab> {#gIH#}; <ab>instr.</ab> dual {#gIrByAm#} <ab>&c.</ab>)\n",
+                ".²1 Speech, words, language; {#vacasyavasite tasmin sasarja giramAtmaBUH#}\n <ls>Ku. 2. 53</ls>, <ls n=\"Ku.\">3. 72</ls>; {#BavatInAM sUnftayEva girA kftamAtiTyam#} <ls>Ś. 1</ls>; {#pravfttisArAH#}\n {#Kalu mAdfSAM giraH#} <ls>Ki. 1. 25</ls>; <ls>Śi. 2. 15</ls>; <ls>Y. 1. 71</ls>.\n",
+                ".²2 Invocation, praise, song.\n",
+                ".²3 <ab>N.</ab> of Sarasvatī, the goddess of speech and learning.\n",
+                ".²4 Intellect; <ab>cf.</ab> {#girDIH#} <ls>Enm.</ls>\n",
+                ".²5 Knowledge from hearing ({#SravaRajajYAna#}); {#prapUrvagO pUrvajO citraBAnU#}\n {#girA vA''SaMsAmi tapasA hyanantO#} <ls>Mb. 1. 3. 57. <ab>com.</ab></ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 120270,
+            "_ancestry": [
+                "L_ 14050",
+                "B_ {#gir#}",
+                "S_ .{@{#-devI#}@}"
+            ],
+            "_banner": ".{@{#-devI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "girdevI"
+                }
+            ],
+            "_gram": [
+                "({@{#gIrdevI#}@})"
+            ],
+            "_meanings": [
+                "Sarasvatī, the goddess of speech.\n"
+            ]
+        },
+        {
+            "__line": 120271,
+            "_ancestry": [
+                "L_ 14050",
+                "B_ {#gir#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gIrpatiH"
+                }
+            ],
+            "_meanings": [
+                "(written as {@{#gIHpatiH, gIzpatiH#}@} and {@{#gIrpatiH#}@})\n",
+                ".²1 <ab>N.</ab> of Bṛhaspati, the preceptor of the gods.\n",
+                ".²2 a learned man; so {@{#girISaH, -raTaH#}@} ({@{#gIraTaH#}@}) <ab>N.</ab> of Bṛhaspati.\n"
+            ]
+        },
+        {
+            "__line": 120274,
+            "_ancestry": [
+                "L_ 14050",
+                "B_ {#gir#}",
+                "S_ .{@{#-vA(bA)RaH#}@}"
+            ],
+            "_banner": ".{@{#-vA(bA)RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gir#} S_ .{@{#-vA(bA)RaH#}@}"
+                }
+            ],
+            "_gram": [
+                "({@{#gIrvARa#}@})"
+            ],
+            "_meanings": [
+                "a god, deity; {#parimalo#}\n {#gIrvARacetoharaH#} <ls>Bv. 1. 63</ls>, <ls n=\"Bv. 1.\">84</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 120275,
+                    "_ancestry": [
+                        "L_ 14050",
+                        "B_ {#gir#}",
+                        "S_ .{@{#-vA(bA)RaH#}@}",
+                        "S_S_ {#˚kusumam#}"
+                    ],
+                    "_banner": "{#˚kusumam#}",
+                    "_meanings": [
+                        "cloves."
+                    ]
+                }
+            ]
+        }
     ]
 }

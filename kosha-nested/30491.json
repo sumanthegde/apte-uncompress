@@ -1,19 +1,122 @@
 {
-    "__line": 255808,
+    "__line": 281502,
     "_ancestry": [
         "L_ 30491",
-        "B_ {#sfkkin#}"
+        "B_ {#vizvac, vizvaYc#}"
     ],
-    "_banner": "{#sfkkin#}",
+    "_banner": "{#vizvac, vizvaYc#}",
     "_bannerExp": [
         {
-            "Right": "sfkkin"
+            "Right": "vizvac"
+        },
+        {
+            "Right": "vizvaYc"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "The corner of\nthe mouth;  \n{#sfkkaRI parilolihan#}\n<ls>Pt. 1.</ls>"
+        "(<ab>Nom.</ab> <ab>sing.</ab> {%m.%} {#vizvaq#}, {%f.%}\n {#vizUcI#}, {%n.%} {#vizvak#})\n",
+        ".²1 Going or being everywhere, all-pervading; {#viDvaMsamAnA vizvaYco vineSuH#}\n <ls>Bṛ. Up. 1. 3 7</ls>; {#yuDi turagarajoviDUmravizvakkacalulitaSramavAryalaNkftAsye#}\n <ls>Bhāg. 1. 9. 34</ls>; {#vizvaNmohaH sTagayati kaTaM mandaBAgyaH karomi#} <ls>U. 3. 38</ls>;\n <ls>Māl. 9. 20</ls>.\n",
+        ".²2 Separating into parts.\n",
+        ".²3 Different.\n",
+        ".²4 Alternately. ({#vizvak#} is used adverbially in the sense of ‘everywhere,\n on all sides, all around’; {#balaM prakopAdiva vizvagAyatA#} <ls>Ki. 14. 59</ls>;\n {#CAyAsuptamfgaH SakuntanivahErvizvagviluptacCadaH#} <ls>Pt. 2. 2</ls>; <ls>Māl. 5. 4</ls>, <ls n=\"Māl.\">9. 25</ls>).\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 281514,
+            "_ancestry": [
+                "L_ 30491",
+                "B_ {#vizvac, vizvaYc#}",
+                "S_ .{@{#-gati#}@}"
+            ],
+            "_banner": ".{@{#-gati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vizvaggati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going everywhere; entering into every topic; <ls>Ki. 11. 38</ls>.\n"
+            ]
+        },
+        {
+            "__line": 281515,
+            "_ancestry": [
+                "L_ 30491",
+                "B_ {#vizvac, vizvaYc#}",
+                "S_ .{@{#-lopaH#}@}"
+            ],
+            "_banner": ".{@{#-lopaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vizvaglopaH"
+                }
+            ],
+            "_meanings": [
+                "confusion, disturbance.\n"
+            ]
+        },
+        {
+            "__line": 281516,
+            "_ancestry": [
+                "L_ 30491",
+                "B_ {#vizvac, vizvaYc#}",
+                "S_ .{@{#-vAtaH#}@}"
+            ],
+            "_banner": ".{@{#-vAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vizvagvAtaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of noxious wind.\n"
+            ]
+        },
+        {
+            "__line": 281517,
+            "_ancestry": [
+                "L_ 30491",
+                "B_ {#vizvac, vizvaYc#}",
+                "S_ .{@{#-senaH#}@}"
+            ],
+            "_banner": ".{@{#-senaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vizvaksenaH"
+                }
+            ],
+            "_gram": [
+                "({@{#vizvaksenaH#}@}|{@{#vizvakzeRaH#}@})"
+            ],
+            "_meanings": [
+                "an epithet\n of Viṣṇu; {#sAmyamApa kamalAsaKavizvaksenasevitayugAntapayoDeH#} <ls>Śi. 10. 55</ls>;\n {#vizvaksenaH svatanumaviSatsarvalokapratizWAm#} <ls>R. 15. 103</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 281519,
+                    "_ancestry": [
+                        "L_ 30491",
+                        "B_ {#vizvac, vizvaYc#}",
+                        "S_ .{@{#-senaH#}@}",
+                        "S_S_ {#˚priyA#}"
+                    ],
+                    "_banner": "{#˚priyA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vizvaksenapriyA"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Lakṣmī."
+                    ]
+                }
+            ]
+        }
     ]
 }

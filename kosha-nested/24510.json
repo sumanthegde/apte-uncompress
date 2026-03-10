@@ -1,55 +1,61 @@
 {
-    "__line": 207865,
+    "__line": 218859,
     "_ancestry": [
         "L_ 24510",
-        "B_ {#lalitA#}"
+        "B_ {#ballavaH#}"
     ],
-    "_banner": "{#lalitA#}",
+    "_banner": "{#ballavaH#}",
     "_bannerExp": [
         {
-            "Right": "lalitA"
+            "Right": "ballavaH"
         }
     ],
     "_meanings": [
-        "{@--1@} A woman(in general).\n",
-        "{@--2@} A wanton woman. ",
-        "{@--3@} Musk. ",
-        "{@--4@}\nA form of Durgā. ",
-        "{@--5@} <ab>N.</ab> of \nvarious metres. "
+        ".²1 A cowherd; {#kuYjezvAkAntavIrunnicayaparicayA ballavAH saMcarantu#}\n <ls>Ve. 6. 2</ls>; <ls>Śi. 11. 8</ls>.\n",
+        ".²2 A cook.\n",
+        ".²3 The name assumed by Bhīma when serving as a cook at the court of Virāṭa.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 218864,
+            "_ancestry": [
+                "L_ 24510",
+                "B_ {#ballavaH#}",
+                "M_ .{@{#-vI#}@}"
+            ],
+            "_banner": ".{@{#-vI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ballavI"
+                }
+            ],
+            "_meanings": [
+                "A cowherdess; {#nirIkzituM nopararAma ballavIraBipranfttA#}\n {#iva vArayozitaH#} <ls>Ki. 4. 17</ls>.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 207868,
+            "__line": 218867,
             "_ancestry": [
                 "L_ 24510",
-                "B_ {#lalitA#}",
-                "S_  {#--paMcamI#}"
+                "B_ {#ballavaH#}",
+                "S_ .{@{#-yuvatiH, -tI#}@}"
             ],
-            "_banner": " {#--paMcamI#}",
+            "_banner": ".{@{#-yuvatiH, -tI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "lalitApaMcamI"
-                }
-            ],
-            "_meanings": [
-                "the\nfifth day in the bright half of\nĀśvina. "
-            ]
-        },
-        {
-            "__line": 207870,
-            "_ancestry": [
-                "L_ 24510",
-                "B_ {#lalitA#}",
-                "S_ {#--saptamI#}"
-            ],
-            "_banner": "{#--saptamI#}",
-            "_bannerExp": [
+                    "Right": "ballavayuvatiH"
+                },
                 {
-                    "Right": "lalitAsaptamI"
+                    "Right": "ballavayuvatI"
                 }
             ],
+            "_gram": [
+                "{%f.%}"
+            ],
             "_meanings": [
-                "the seventh day \n\nin the bright half of Bhādrapada."
+                "a young cowherdess ({#gopI#}); {#harivirahAkulaballavayuvatisaKIvacanaM#}\n {#paWanIyam#} <ls>Gīt. 4</ls>."
             ]
         }
     ]

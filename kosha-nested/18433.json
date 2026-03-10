@@ -1,19 +1,60 @@
 {
-    "__line": 154588,
+    "__line": 164176,
     "_ancestry": [
         "L_ 18433",
-        "B_ {#paryAkulatA --tvaM#}"
+        "B_ {#nAkzatra#}"
     ],
-    "_banner": "{#paryAkulatA --tvaM#}",
+    "_banner": "{#nAkzatra#}",
     "_bannerExp": [
         {
-            "Right": "paryAkulatA"
+            "Right": "nAkzatra"
         },
         {
-            "Right": "paryAkulatvaM"
+            "Right": "nAkzatrI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-trI#}|{%f.%})",
+        "[{#nakzatrARAmidam-aR#}]"
+    ],
     "_meanings": [
-        "Confusion;  \n<ls>Ku. 2. 25.</ls>"
+        "Starry, sidereal.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 164178,
+            "_ancestry": [
+                "L_ 18433",
+                "B_ {#nAkzatra#}",
+                "M_ .{@{#-traH#}@}"
+            ],
+            "_banner": ".{@{#-traH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAkzatraH"
+                }
+            ],
+            "_meanings": [
+                "an astronomer or astrologer; {#AhvAyakA devalakA nAkzatrA#}\n {#grAmayAjakAH . ete brAhmaRacARqAlA mahApaTikapaYcamAH ..#} <ls>Mb. 12. 76. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 164180,
+            "_ancestry": [
+                "L_ 18433",
+                "B_ {#nAkzatra#}",
+                "M_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAkzatram"
+                }
+            ],
+            "_meanings": [
+                "A month computed by the moonʼs passage through the 27 lunar\n mansions, a month of 30 days of six Ghaṭīs each; {#nAqIzazWapA tu nAkzatramahorAtraM#}\n {#prakIrtitam#} <ls>Sūrya S.</ls>"
+            ]
+        }
     ]
 }

@@ -1,19 +1,43 @@
 {
-    "__line": 167361,
+    "__line": 180638,
     "_ancestry": [
         "L_ 20036",
-        "B_ {#prativiSizwa#}"
+        "B_ {#parAsu#}"
     ],
-    "_banner": "{#prativiSizwa#}",
+    "_banner": "{#parAsu#}",
     "_bannerExp": [
         {
-            "Right": "prativiSizwa"
+            "Right": "parAsu"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Most excellent."
+        ".²1 Lifeless, dead; {#prAk parAsurdvijAtmajaH#} <ls>R. 15. 56</ls>, <ls n=\"R.\">9. 78</ls>.\n",
+        ".²2 One whose vital spirit is departed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 180641,
+            "_ancestry": [
+                "L_ 20036",
+                "B_ {#parAsu#}",
+                "M_ .{@{#-parAsutA, -parAsutvam#}@}"
+            ],
+            "_banner": ".{@{#-parAsutA, -parAsutvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAsutA"
+                },
+                {
+                    "Right": "parAsutvam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Exhaustion, death; {#vrajati purA hi parAsutAM tvadarTe#} <ls>Ki. 10. 50</ls>.\n",
+                ".²2 A dependent life ({#parADInaprARatva#}); {#loBAnmohaSca mAyA ca mAnastamBaH#}\n {#parAsutA#} <ls>Mb. 12. 158. 4</ls>."
+            ]
+        }
     ]
 }

@@ -1,16 +1,58 @@
 {
-    "__line": 166677,
+    "__line": 179229,
     "_ancestry": [
         "L_ 19919",
-        "B_ {#pratipAnaM#}"
+        "B_ {#panasaH#}"
     ],
-    "_banner": "{#pratipAnaM#}",
+    "_banner": "{#panasaH#}",
     "_bannerExp": [
         {
-            "Right": "pratipAnaM"
+            "Right": "panasaH"
         }
     ],
     "_meanings": [
-        "Water for drinking."
+        ".²1 The bread-fruit or jack tree.\n",
+        ".²2 A thorn.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 179232,
+            "_ancestry": [
+                "L_ 19919",
+                "B_ {#panasaH#}",
+                "M_ .{@{#-sA, -sI#}@}"
+            ],
+            "_banner": ".{@{#-sA, -sI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "panasA"
+                },
+                {
+                    "Right": "panasI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of malady, pustular and phlegmonoid inflammation of the skin\n or external organs.\n",
+                ".²2 A female monkey.\n",
+                ".²3 A female demon.\n"
+            ]
+        },
+        {
+            "__line": 179237,
+            "_ancestry": [
+                "L_ 19919",
+                "B_ {#panasaH#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "panasam"
+                }
+            ],
+            "_meanings": [
+                "The fruit of the bread-fruit tree."
+            ]
+        }
     ]
 }

@@ -1,44 +1,103 @@
 {
-    "__line": 121199,
+    "__line": 125976,
     "_ancestry": [
         "L_ 14570",
-        "B_ {#tAMtava#}"
+        "B_ {#cakita#}"
     ],
-    "_banner": "{#tAMtava#}",
+    "_banner": "{#cakita#}",
     "_bannerExp": [
         {
-            "Right": "tAMtavI"
-        },
-        {
-            "Right": "tAMtava"
+            "Right": "cakita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#vI#}|{%<ab>f.</ab>%})",
-        "[{#taMtorvikAraH aY#}]"
+        "{%a.%}",
+        "[{#cak-kartari kta#}]"
     ],
     "_meanings": [
-        "{@--1@}\nMade of threads. "
+        ".²1 Shaking, trembling (through fear); {#Baya˚, sADvasa˚#} <ls>Me. 27</ls>.\n",
+        ".²2 Frightened, made to tremble, startled; {#vyADAnusAracakitA hariRIva#}\n {#yAsi#} <ls>Mk. 1. 17</ls>; <ls>Amaru. 46</ls>; <ls>Me. 14</ls>; <ls>R. 10. 73</ls>; <ls>Śivamahimna 2</ls>.\n",
+        ".²3 Afraid, timid, apprehensive; {#cakitavilokitasakaladiSA#} <ls>Gīt. 2</ls>;\n {#pOlastyacakiteSvarAH#} ({#diSaH#}) <ls>R. 10. 73</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 121200,
+            "__line": 125982,
             "_ancestry": [
                 "L_ 14570",
-                "B_ {#tAMtava#}",
-                "M_ {#--vaM#}"
+                "B_ {#cakita#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--vaM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tAMtavaM"
+                    "Right": "cakitam"
                 }
             ],
             "_meanings": [
-                "{1} Spinning,\nweaving. ",
-                "{@--2@} A web. ",
-                "{@--3@} A woven\ncloth."
+                ".²1 Trembling.\n",
+                ".²2 Alarm, fear.\n"
+            ]
+        },
+        {
+            "__line": 125985,
+            "_ancestry": [
+                "L_ 14570",
+                "B_ {#cakita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cakitam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "With fear, in a startled manner, alarmingly, with\n awe; {#cakitamupEmi taTApi pArSvamasya#} <ls>M. 1. 11</ls>; {#saBayacakitam#} <ls>Gīt. 5</ls>;\n <ls>Śānti. 4. 4</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 125989,
+            "_ancestry": [
+                "L_ 14570",
+                "B_ {#cakita#}",
+                "S_ .{@{#-cakita#}@}"
+            ],
+            "_banner": ".{@{#-cakita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cakitacakita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "greatly alarmed.\n"
+            ]
+        },
+        {
+            "__line": 125990,
+            "_ancestry": [
+                "L_ 14570",
+                "B_ {#cakita#}",
+                "S_ .{@{#-hfdaya#}@}"
+            ],
+            "_banner": ".{@{#-hfdaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cakitahfdaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "faint-hearted."
             ]
         }
     ]

@@ -1,44 +1,65 @@
 {
-    "__line": 256783,
+    "__line": 282594,
     "_ancestry": [
         "L_ 30630",
-        "B_ {#sOtra#}"
+        "B_ {#vihvala#}"
     ],
-    "_banner": "{#sOtra#}",
+    "_banner": "{#vihvala#}",
     "_bannerExp": [
         {
-            "Right": "sOtrI"
-        },
-        {
-            "Right": "sOtra"
+            "Right": "vihvala"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#trI#}|{%<ab>f.</ab>%})",
-        "[{#sUtra-aR#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nBelonging to or having a thread or\nstring. ",
-        "{@--2@} Belonging to, mentioned,\noccurring or declared in, a \nSūtra <ab>q. v.</ab> "
+        ".²1 Agitated, disquieted, perturbed, confused; {#kzaRamAtrasaKIM sujAtayoH#}\n {#stanayostAmavalokya vihvalA#} <ls>R. 8. 37</ls>.\n",
+        ".²2 Overcome with fear, alarmed.\n",
+        ".²3 Delirious, beside oneself.\n",
+        ".²4 Afflicted, distressed; {#vittavyADivikAravihvalagirAM nAmApi na SrUyate#}\n <ls>Bh. 3. 59</ls>; <ls>Ku. 4. 4</ls>.\n",
+        ".²5 Desponding.\n",
+        ".²6 Fused, liquid.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 256787,
+            "__line": 282604,
             "_ancestry": [
                 "L_ 30630",
-                "B_ {#sOtra#}",
-                "M_ {#--traH#}"
+                "B_ {#vihvala#}",
+                "S_ .{@{#-cetas#}@}"
             ],
-            "_banner": "{#--traH#}",
+            "_banner": ".{@{#-cetas#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sOtraH"
+                    "Right": "vihvalacetas"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} A Brāhmaṇa.\n",
-                "{@--2@} An artificial root occurring in\ngrammatical Sūtras which can not be\nconjugated like a regular verb,\nbut is used only to form \nderivative words."
+                "low-spirited.\n"
+            ]
+        },
+        {
+            "__line": 282605,
+            "_ancestry": [
+                "L_ 30630",
+                "B_ {#vihvala#}",
+                "S_ .{@{#-tanu#}@}"
+            ],
+            "_banner": ".{@{#-tanu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vihvalatanu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose body is exhausted."
             ]
         }
     ]

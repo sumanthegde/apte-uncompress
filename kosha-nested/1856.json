@@ -1,22 +1,41 @@
 {
-    "__line": 18409,
+    "__line": 16208,
     "_ancestry": [
         "L_ 1856",
-        "B_ {#anuroDin, --Daka#}"
+        "B_ {#anupagIta#}"
     ],
-    "_banner": "{#anuroDin, --Daka#}",
+    "_banner": "{#anupagIta#}",
     "_bannerExp": [
         {
-            "Right": "anuroDaka"
-        },
-        {
-            "Right": "anuroDin"
+            "Right": "anupagIta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Compliant,\ncomplying with, obeying or \nconforming to, having regard to, \ncaring for; {#pativratAnAM samayAnuroDinI#} <ls>Rām.</ls>"
+        "Not praised.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 16209,
+            "_ancestry": [
+                "L_ 1856",
+                "B_ {#anupagIta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anupagItam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "So that no other person accompanies in singing."
+            ]
+        }
     ]
 }

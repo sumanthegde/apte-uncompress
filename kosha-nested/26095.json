@@ -1,23 +1,160 @@
 {
-    "__line": 220384,
+    "__line": 238277,
     "_ancestry": [
         "L_ 26095",
-        "B_ {#vinyas#}"
+        "B_ {#mAnava#}"
     ],
-    "_banner": "{#vinyas#}",
+    "_banner": "{#mAnava#}",
     "_bannerExp": [
         {
-            "Right": "vinyas"
+            "Right": "mAnava"
+        },
+        {
+            "Right": "mAnavI"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-vI#}|{%f.%})",
+        "[{#manorapatyam aR#}]"
     ],
     "_meanings": [
-        "{@--1@} To put down, \ndeposit, place; {#vinyasyaMtI Buvi gaRanayA#}\n{#dehalIdattazuzpEH#} <ls>Me. 87</ls>; <ls>Bk. 3. 3.</ls> ",
-        "{@--2@}\nTo fix in or on, direct towards; {#rAme#}\n{#vinyastamAnasAH#} <ls>Rām.</ls> ",
-        "{@--3@} To deliver\nor make over, commit to the care of,\nentrust; {#sutavinyastapatnIkaH#} <ls>Y. 3. 45.</ls>\n",
-        "{@--4@} To arrange, dispose, adjust."
+        ".²1 Relating to or descended from Manu; {#mAnavasya rAjarzivaMSasya prasavitAraM#}\n {#savitAram#} <ls>U. 3</ls>; <ls>Ms. 12. 107</ls>.\n",
+        ".²2 Human.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 238282,
+            "_ancestry": [
+                "L_ 26095",
+                "B_ {#mAnava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A man, human being; {#manorvaMSo mAnavAnAM tato'yaM praTito'Bavat .#}\n {#brahmakzatrAdayastasmAnmanorjAtAstu mAnavAH#} <ls>Mb.</ls>; <ls>Ms. 2. 9</ls>, <ls n=\"Ms.\">5. 35</ls>.\n",
+                ".²2 A lad, boy.\n",
+                ".²3 Mankind (<ab>pl.</ab>).\n",
+                ".²4 The subjects of a kind (<ab>pl.</ab>)\n"
+            ]
+        },
+        {
+            "__line": 238288,
+            "_ancestry": [
+                "L_ 26095",
+                "B_ {#mAnava#}",
+                "M_ .{@{#-vAH#}@}"
+            ],
+            "_banner": ".{@{#-vAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavAH"
+                }
+            ],
+            "_meanings": [
+                "({%m.%} <ab>pl.</ab>) <ab>N.</ab> of a school on Arthaśāstra; {#tezAmAnupUrvyA#}\n {#yAvAnarTopaGAtastAvAnekottaro daRqaH iti#}\n\n {#mAnavAH#} <ls>Kau. A. 2. 7. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 238292,
+            "_ancestry": [
+                "L_ 26095",
+                "B_ {#mAnava#}",
+                "M_ .{@{#-vI#}@}"
+            ],
+            "_banner": ".{@{#-vI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A woman.\n",
+                ".²2 <ab>N.</ab> of the daughter of {#svayaMBU manu#}; {#yaTA sasarja BUtAni labDvA BAryAM#}\n {#ca mAnavIm#} <ls>Bhāg. 3. 21. 5</ls>.\n",
+                ".²3 <ab>N.</ab> of a Jain {#SAsanadevatA#}.\n"
+            ]
+        },
+        {
+            "__line": 238297,
+            "_ancestry": [
+                "L_ 26095",
+                "B_ {#mAnava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A particular fine, penance.\n",
+                ".²2 A manʼs length (as a measure).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 238301,
+            "_ancestry": [
+                "L_ 26095",
+                "B_ {#mAnava#}",
+                "S_ .{@{#-indraH, -devaH, -patiH#}@}"
+            ],
+            "_banner": ".{@{#-indraH, -devaH, -patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavendraH"
+                },
+                {
+                    "Left": "S error: midAlign devaH iMdevaH"
+                },
+                {
+                    "Right": "mAnavapatiH"
+                }
+            ],
+            "_meanings": [
+                "a lord of men, king, sovereign; {#anyatra#}\n {#rakzoBavanozitAyAH parigrahAnmAnavadeva devyAH#} <ls>R. 14. 32</ls>.\n"
+            ]
+        },
+        {
+            "__line": 238303,
+            "_ancestry": [
+                "L_ 26095",
+                "B_ {#mAnava#}",
+                "S_ .{@{#-DarmaSAstram#}@}"
+            ],
+            "_banner": ".{@{#-DarmaSAstram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavaDarmaSAstram"
+                }
+            ],
+            "_meanings": [
+                "the institutes of Manu.\n"
+            ]
+        },
+        {
+            "__line": 238304,
+            "_ancestry": [
+                "L_ 26095",
+                "B_ {#mAnava#}",
+                "S_ .{@{#-rAkzasaH#}@}"
+            ],
+            "_banner": ".{@{#-rAkzasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavarAkzasaH"
+                }
+            ],
+            "_meanings": [
+                "a demon or fiend in the form of a man; {#te'mI mAnavarAkzasAH#}\n {#parahitaM svArTAya niGnanti ye#} <ls>Bh. 2. 74</ls>."
+            ]
+        }
     ]
 }

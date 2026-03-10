@@ -1,24 +1,44 @@
 {
-    "__line": 112354,
+    "__line": 113997,
     "_ancestry": [
         "L_ 13365",
-        "B_ {#ciratna#}"
+        "B_ {#kzipaRiH#}, {#-RI#}"
     ],
-    "_banner": "{#ciratna#}",
+    "_banner": "{#kzipaRiH#}, {#-RI#}",
     "_bannerExp": [
         {
-            "Right": "ciratnI"
+            "Right": "kzipaRiH"
         },
         {
-            "Right": "ciratna"
+            "Right": "kzipaRI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tnI#}|{%<ab>f.</ab>%})",
-        "[{#cire BavaH cira-tna#}]"
+        "{%f.%}"
     ],
     "_meanings": [
-        "Of long standing, old, ancient."
+        ".²1 An oar.\n",
+        ".²2 A priest.\n",
+        ".²3 A net.\n",
+        ".²4 A weapon.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 114002,
+            "_ancestry": [
+                "L_ 13365",
+                "B_ {#kzipaRiH#}, {#-RI#}",
+                "M_ .{@{#-RiH#}@}"
+            ],
+            "_banner": ".{@{#-RiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzipaRiH"
+                }
+            ],
+            "_meanings": [
+                "A stroke with a whip."
+            ]
+        }
     ]
 }

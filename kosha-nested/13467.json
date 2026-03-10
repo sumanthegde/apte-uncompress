@@ -1,22 +1,83 @@
 {
-    "__line": 112912,
+    "__line": 114907,
     "_ancestry": [
         "L_ 13467",
-        "B_ {#cUR#}"
+        "B_ {#kzORiH#}, {#-RI#}"
     ],
-    "_banner": "{#cUR#}",
+    "_banner": "{#kzORiH#}, {#-RI#}",
     "_bannerExp": [
         {
-            "Right": "cUR"
+            "Right": "kzORiH"
+        },
+        {
+            "Right": "kzORI"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>P.</ab>",
-        "({#cURayati#})"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} To \n\ncontract. ",
-        "{@--2@} To close, shrink."
+        "See {#kzoRi#}.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 114910,
+            "_ancestry": [
+                "L_ 13467",
+                "B_ {#kzORiH#}, {#-RI#}",
+                "S_ .{@{#-prAcIraH#}@}"
+            ],
+            "_banner": ".{@{#-prAcIraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzORiprAcIraH"
+                }
+            ],
+            "_meanings": [
+                "the ocean.\n"
+            ]
+        },
+        {
+            "__line": 114911,
+            "_ancestry": [
+                "L_ 13467",
+                "B_ {#kzORiH#}, {#-RI#}",
+                "S_ .{@{#-Buj#}@}"
+            ],
+            "_banner": ".{@{#-Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzORiBuj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-patiH#}@}"
+            ],
+            "_meanings": [
+                "a king.\n"
+            ]
+        },
+        {
+            "__line": 114913,
+            "_ancestry": [
+                "L_ 13467",
+                "B_ {#kzORiH#}, {#-RI#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzORiBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-DaraH#}@}"
+            ],
+            "_meanings": [
+                "a mountain; <ls>U. 2. 30</ls>."
+            ]
+        }
     ]
 }

@@ -1,20 +1,35 @@
 {
-    "__line": 57725,
+    "__line": 55911,
     "_ancestry": [
         "L_ 6650",
-        "B_ {#AyAmin#}"
+        "B_ {#Ajananam#}"
     ],
-    "_banner": "{#AyAmin#}",
+    "_banner": "{#Ajananam#}",
     "_bannerExp": [
         {
-            "Right": "AyAmin"
+            "Right": "Ajananam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} One who restrains.\n",
-        "{@--2@} Long (in space or time); <ls>K. 25</ls>,\n<ls n=\"K.\">55</ls>; {#°yAmAsu#} <ls>Ki. 11. 48.</ls>"
+        "High birth or origin, famous or well-known origin. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 55911,
+            "_ancestry": [
+                "L_ 6650",
+                "B_ {#Ajananam#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#AjananaM#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "From birth."
+            ]
+        }
     ]
 }

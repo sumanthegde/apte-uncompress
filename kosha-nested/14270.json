@@ -1,16 +1,59 @@
 {
-    "__line": 118854,
+    "__line": 123039,
     "_ancestry": [
         "L_ 14270",
-        "B_ {#QAlaM#}"
+        "B_ {#gomat#}"
     ],
-    "_banner": "{#QAlaM#}",
+    "_banner": "{#gomat#}",
     "_bannerExp": [
         {
-            "Right": "QAlaM"
+            "Right": "gomat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A shield."
+        ".²1 Rich in cows.\n",
+        ".²2 Possessing or containing cattle.\n",
+        ".²3 Mixed with milk. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 123042,
+            "_ancestry": [
+                "L_ 14270",
+                "B_ {#gomat#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gomat#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Possession of cattle, property consisting in herds.\n"
+            ]
+        },
+        {
+            "__line": 123043,
+            "_ancestry": [
+                "L_ 14270",
+                "B_ {#gomat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gomatI"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a river falling into the Indus; {#gomatImava tizWati#} <ls>Rv. 8. 24. 30</ls>.\n",
+                ".²2 A place abounding in herds; {#yo vAyunA jayati gomatIzu#} <ls>Rv. 4. 21. 4</ls>.\n",
+                ".²3 <ab>N.</ab> of a Vedic {#mantra#} to be repeated during expiation for killing\n cows; <ls>Hch. 1. 7</ls>."
+            ]
+        }
     ]
 }

@@ -1,21 +1,54 @@
 {
-    "__line": 255738,
+    "__line": 281380,
     "_ancestry": [
         "L_ 30480",
-        "B_ {#sUz#}"
+        "B_ {#vizWA#}"
     ],
-    "_banner": "{#sUz#}",
+    "_banner": "{#vizWA#}",
     "_bannerExp": [
         {
-            "Right": "sUz"
+            "Right": "vizWA"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#sUzati#})"
-    ],
     "_meanings": [
-        "To bring forth,\nbear, produce, beget."
+        ".²1 Feces, ordure, excrement; {#somavikrayiRe vizWA Bizaje pUyaSoRitam#}\n <ls>Ms. 3. 180</ls>, <ls n=\"Ms.\">10. 91</ls>.\n",
+        ".²2 The belly.\n",
+        ".²3 <ab>Ved.</ab> Interval.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 281386,
+            "_ancestry": [
+                "L_ 30480",
+                "B_ {#vizWA#}",
+                "S_ .{@{#-ASin#}@}"
+            ],
+            "_banner": ".{@{#-ASin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vizWASin"
+                }
+            ],
+            "_meanings": [
+                "a hog.\n"
+            ]
+        },
+        {
+            "__line": 281387,
+            "_ancestry": [
+                "L_ 30480",
+                "B_ {#vizWA#}",
+                "S_ .{@{#-BUH#}@}"
+            ],
+            "_banner": ".{@{#-BUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vizWABUH"
+                }
+            ],
+            "_meanings": [
+                "a worm living in ordure; {#nEkatrAste sUtivAtErvizWABUriva#}\n {#sodaraH#} <ls>Bhāg. 3. 31. 10</ls>."
+            ]
+        }
     ]
 }

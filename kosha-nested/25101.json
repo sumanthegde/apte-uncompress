@@ -1,37 +1,175 @@
 {
-    "__line": 212707,
+    "__line": 225556,
     "_ancestry": [
         "L_ 25101",
-        "B_ {#vargIya#}"
+        "B_ {#BAlam#}"
     ],
-    "_banner": "{#vargIya#}",
+    "_banner": "{#BAlam#}",
     "_bannerExp": [
         {
-            "Right": "vargIya"
+            "Right": "BAlam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#BA-lac#}]"
     ],
     "_meanings": [
-        "Belonging to a class or\ncategory. "
+        ".²1 The forehead, brow; {#yadDAtrA nijaBAlapawwaliKitaM stokaM mahadvA#}\n {#Danam#} <ls>Bh. 2. 49</ls>; ({#smarasya#}) {#vapuH sadyo BAlAnalaBasitajAlaspadamaBUt#}\n <ls>Bv. 1. 84</ls>; {#svAmin BaNgurayAlakaM satilakaM BAlaM vilAsin kuru#} <ls>S. D.</ls>\n",
+        ".²2 Light.\n",
+        ".²3 Darkness.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 212708,
+            "__line": 225563,
             "_ancestry": [
                 "L_ 25101",
-                "B_ {#vargIya#}",
-                "M_ {#--yaH#}"
+                "B_ {#BAlam#}",
+                "S_ .{@{#-aNkaH#}@}"
             ],
-            "_banner": "{#--yaH#}",
+            "_banner": ".{@{#-aNkaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vargIyaH"
+                    "Right": "BAlANkaH"
                 }
             ],
             "_meanings": [
-                "A class-fellow."
+                ".²1 a man born with lucky lines on his forehead.\n",
+                ".²2 an epithet of Śiva.\n",
+                ".²3 a saw.\n",
+                ".²4 a tortoise.\n"
+            ]
+        },
+        {
+            "__line": 225568,
+            "_ancestry": [
+                "L_ 25101",
+                "B_ {#BAlam#}",
+                "S_ .{@{#-candraH#}@}"
+            ],
+            "_banner": ".{@{#-candraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAlacandraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Śiva.\n",
+                ".²2 of Gaṇeśa.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 225571,
+                    "_ancestry": [
+                        "L_ 25101",
+                        "B_ {#BAlam#}",
+                        "S_ .{@{#-candraH#}@}",
+                        "S_M_ ({@{#-drA#}@}"
+                    ],
+                    "_banner": "({@{#-drA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "BAlacandrA"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Durgā.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 225572,
+            "_ancestry": [
+                "L_ 25101",
+                "B_ {#BAlam#}",
+                "S_ .{@{#-darSanaH#}@}"
+            ],
+            "_banner": ".{@{#-darSanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAladarSanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 225573,
+            "_ancestry": [
+                "L_ 25101",
+                "B_ {#BAlam#}",
+                "S_ .{@{#-darSanam#}@}"
+            ],
+            "_banner": ".{@{#-darSanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAladarSanam"
+                }
+            ],
+            "_meanings": [
+                "red lead.\n"
+            ]
+        },
+        {
+            "__line": 225574,
+            "_ancestry": [
+                "L_ 25101",
+                "B_ {#BAlam#}",
+                "S_ .{@{#-darSin#}@}"
+            ],
+            "_banner": ".{@{#-darSin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAladarSin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘looking at or watching the brow’, said of a servant\n who is attentive to his masterʼs wishes.\n"
+            ]
+        },
+        {
+            "__line": 225576,
+            "_ancestry": [
+                "L_ 25101",
+                "B_ {#BAlam#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAladfS"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-locanaH#}@}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 225578,
+            "_ancestry": [
+                "L_ 25101",
+                "B_ {#BAlam#}",
+                "S_ .{@{#-pawwaH, -wwam#}@}"
+            ],
+            "_banner": ".{@{#-pawwaH, -wwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAlapawwaH"
+                },
+                {
+                    "Right": "BAlapawwam"
+                }
+            ],
+            "_meanings": [
+                "the forehead."
             ]
         }
     ]

@@ -1,25 +1,83 @@
 {
-    "__line": 214278,
+    "__line": 228524,
     "_ancestry": [
         "L_ 25299",
-        "B_ {#vasnaM#}"
+        "B_ {#BekaH#}"
     ],
-    "_banner": "{#vasnaM#}",
+    "_banner": "{#BekaH#}",
     "_bannerExp": [
         {
-            "Right": "vasnaM"
+            "Right": "BekaH"
         }
     ],
     "_gram": [
-        "[{#vas-man#} <ls>Uṇ. 3. 6</ls>]"
+        "[{#BI kan kasya netvam#}; <ls>Uṇ. 3. 43</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Hire,\nwages in this sense ({%<ab>m.</ab>%} also).\n",
-        "{@--2@} Dwelling, abiding. ",
-        "{@--3@} Wealth,\nsubstance. ",
-        "{@--4@} A cloth, clothes. ",
-        "{@--5@}\nA skin. ",
-        "{@--6@} Price. ",
-        "{@--7@} Death."
+        ".²1 A frog; {#paNke nimagne kariRi Beko Bavati mUrDagaH#}.\n",
+        ".²2 A timid man.\n",
+        ".²3 A cloud; {#tejaH sadyo balakaro Bramatfq dAhamehanut . svApakuzWacCardinASI#}\n {#Bekastu parikIrtitaH ..#} <ls>Rājanighaṇṭu.</ls>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 228529,
+            "_ancestry": [
+                "L_ 25299",
+                "B_ {#BekaH#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BekI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A small frog.\n",
+                ".²2 A female frog.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 228533,
+            "_ancestry": [
+                "L_ 25299",
+                "B_ {#BekaH#}",
+                "S_ .{@{#-Buj#}@}"
+            ],
+            "_banner": ".{@{#-Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BekaBuj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a serpent.\n"
+            ]
+        },
+        {
+            "__line": 228534,
+            "_ancestry": [
+                "L_ 25299",
+                "B_ {#BekaH#}",
+                "S_ .{@{#-ravaH, -SabdaH#}@}"
+            ],
+            "_banner": ".{@{#-ravaH, -SabdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BekaravaH"
+                },
+                {
+                    "Right": "BekaSabdaH"
+                }
+            ],
+            "_meanings": [
+                "the croaking of frogs."
+            ]
+        }
     ]
 }

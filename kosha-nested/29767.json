@@ -1,25 +1,60 @@
 {
-    "__line": 249192,
+    "__line": 274919,
     "_ancestry": [
         "L_ 29767",
-        "B_ {#saMmatiH#}"
+        "B_ {#vinihata#}"
     ],
-    "_banner": "{#saMmatiH#}",
+    "_banner": "{#vinihata#}",
     "_bannerExp": [
         {
-            "Right": "saMmatiH"
+            "Right": "vinihata"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Agreement. ",
-        "{@--2@} \nConcurrence, assent, approbation, \napproval. ",
-        "{@--3@} Wish, desire. ",
-        "{@--4@} \nKnowledge of self, knowledge of the soul,\ntrue knowledge. ",
-        "{@--5@} Regard, respect,\nesteem; {#kaTamiva tava saMmatirBavitrA#}\n{#samamftuBirmuninAvaDIritasya#} <ls>Ki. 10. 36.</ls>\n",
-        "{@--6@} Love, affection. ",
-        "{@--7@} Command,\norder."
+        ".²1 Struck down, wounded.\n",
+        ".²2 Killed.\n",
+        ".²3 Completely overcome.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 274923,
+            "_ancestry": [
+                "L_ 29767",
+                "B_ {#vinihata#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinihataH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Any great or unavoidable calamity, such as that inflicted by fate or heaven.\n",
+                ".²2 A portent, comet.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 274927,
+            "_ancestry": [
+                "L_ 29767",
+                "B_ {#vinihata#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinihatAtman"
+                }
+            ],
+            "_meanings": [
+                "one who has lost his soul; {#sa tvAM vinihatAtmAnaM … … jAne pApasamAcAram#}\n <ls>Rām. 4. 17. 22</ls>."
+            ]
+        }
     ]
 }

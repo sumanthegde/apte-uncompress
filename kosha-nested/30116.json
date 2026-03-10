@@ -1,44 +1,55 @@
 {
-    "__line": 251797,
+    "__line": 277897,
     "_ancestry": [
         "L_ 30116",
-        "B_ {#sAmavAyika#}"
+        "B_ {#virAwaH#}"
     ],
-    "_banner": "{#sAmavAyika#}",
+    "_banner": "{#virAwaH#}",
     "_bannerExp": [
         {
-            "Right": "sAmavAyikI"
-        },
-        {
-            "Right": "sAmavAyika"
+            "Right": "virAwaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#samavAye#}\n{#prasftaH WaY#}]"
-    ],
     "_meanings": [
-        "{@--1@} Belonging to an \nassembly or collection. ",
-        "{@--2@} Belonging\nto inseparable connection. "
+        ".²1 <ab>N.</ab> of a district in India.\n",
+        ".²2 <ab>N.</ab> of a king of the Matsyas. The Pāṇḍavas lived {%incognito%} in\n the service of this king for one year, (the thirteenth of their exile)\n having assumed different disguises. His daughter Uttarā was married to\n Abhimanyu and was mother of Parīkṣit who succeeded Yudhiṣṭhira to\n the throne of Hastināpura.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 251800,
+            "__line": 277905,
             "_ancestry": [
                 "L_ 30116",
-                "B_ {#sAmavAyika#}",
-                "M_ {#--kaH#}"
+                "B_ {#virAwaH#}",
+                "S_ .{@{#-jaH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-jaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sAmavAyikaH"
+                    "Right": "virAwajaH"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nA minister, counsellor. ",
-                "{@--2@} The chief\nof a company or corporation."
+                "a sort of inferior diamond.\n"
+            ]
+        },
+        {
+            "__line": 277906,
+            "_ancestry": [
+                "L_ 30116",
+                "B_ {#virAwaH#}",
+                "S_ .{@{#-parvan#}@}"
+            ],
+            "_banner": ".{@{#-parvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virAwaparvan"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the fourth book of the Mahābhārata."
             ]
         }
     ]

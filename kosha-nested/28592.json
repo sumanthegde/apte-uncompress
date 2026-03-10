@@ -1,23 +1,113 @@
 {
-    "__line": 240308,
+    "__line": 264377,
     "_ancestry": [
         "L_ 28592",
-        "B_ {#saMrudDa#}"
+        "B_ {#vartana#}"
     ],
-    "_banner": "{#saMrudDa#}",
+    "_banner": "{#vartana#}",
     "_bannerExp": [
         {
-            "Right": "saMrudDa"
+            "Right": "vartana"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#vft-lyu lyuw vA#}]"
     ],
     "_meanings": [
-        "{@--1@} Checked, \nimpeded, opposed. ",
-        "{@--2@} Blocked up,\nfilled up. ",
-        "{@--3@} Blockaded, \ninvested, besieged. ",
-        "{@--4@} Covered over,\nconcealed. ",
-        "{@--5@} Refused, withheld."
+        ".²1 Abiding, living, staying, being <ab>&c.</ab>\n",
+        ".²2 Stationary.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 264380,
+            "_ancestry": [
+                "L_ 28592",
+                "B_ {#vartana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartanaH"
+                }
+            ],
+            "_meanings": [
+                "A dwarf.\n"
+            ]
+        },
+        {
+            "__line": 264381,
+            "_ancestry": [
+                "L_ 28592",
+                "B_ {#vartana#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A road, way.\n",
+                ".²2 Living, life.\n",
+                ".²3 Pounding, grinding.\n",
+                ".²4 Sending off, despatching.\n",
+                ".²5 A spindle.\n"
+            ]
+        },
+        {
+            "__line": 264387,
+            "_ancestry": [
+                "L_ 28592",
+                "B_ {#vartana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Living, being.\n",
+                ".²2 Staying, abiding, residing.\n",
+                ".²3 Action, movement, mode or manner of living; {#smarasi ca tadupAntezvAvayorvartanAni#}\n <ls>U. 1. 26</ls>; (the word may here mean ‘abode or residence’, also).\n",
+                ".²4 Living on, subsisting (at the end of <ab>comp.</ab>).\n",
+                ".²5 Livelihood, maintenance, subsistence; {#tErevAsya kaleH kalevarapuzo#}\n {#dEnaMdinaM vartanam#} <ls>Bv. 1. 103</ls>.\n",
+                ".²6 Turning round, revolving.\n",
+                ".²7 Rolling on, moving about.\n",
+                ".²8 Appointing.\n",
+                ".²9 A means of subsistence, profession, occupation.\n",
+                ".²10 Conduct, behaviour, proceeding.\n",
+                ".²11 Wages, salary, hire.\n",
+                ".²12 Commerce, traffic.\n",
+                ".²13 A spindle.\n",
+                ".²14 A globe, ball.\n",
+                ".²15 Application of; colouring; {#nihitamalaktavartanABitAmram#} <ls>Ki. 10. 42</ls>.\n",
+                ".²16 An often-told word.\n",
+                ".²17 Decoction.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 264408,
+            "_ancestry": [
+                "L_ 28592",
+                "B_ {#vartana#}",
+                "S_ .{@{#-viniyogaH#}@}"
+            ],
+            "_banner": ".{@{#-viniyogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartanaviniyogaH"
+                }
+            ],
+            "_meanings": [
+                "salary, wages."
+            ]
+        }
     ]
 }

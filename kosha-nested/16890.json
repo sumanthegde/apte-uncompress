@@ -1,19 +1,55 @@
 {
-    "__line": 142322,
+    "__line": 146883,
     "_ancestry": [
         "L_ 16890",
-        "B_ {#nirISaM(zaM)#}"
+        "B_ {#trEvidyam#}"
     ],
-    "_banner": "{#nirISaM(zaM)#}",
+    "_banner": "{#trEvidyam#}",
     "_bannerExp": [
         {
-            "Right": "nirISaM"
-        },
-        {
-            "Right": "nirIzaM"
+            "Right": "trEvidyam"
         }
     ],
     "_meanings": [
-        "A plough-share."
+        ".²1 The three Vedas.\n",
+        ".²2 The study of the three Vedas.\n",
+        ".²3 An assembly of Brāhmaṇas familiar with the three Vedas.\n",
+        ".²4 The three sciences.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 146888,
+            "_ancestry": [
+                "L_ 16890",
+                "B_ {#trEvidyam#}",
+                "M_ .{@{#-dyaH#}@}"
+            ],
+            "_banner": ".{@{#-dyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trEvidyaH"
+                }
+            ],
+            "_meanings": [
+                "A\n\n Brāhmaṇa versed in the three Vedas; {#trEvidyA mAM somapAH pUtapApA#}\n {#yajYErizwvA svargatiM prArTayante#} <ls>Bg. 9. 20</ls>. "
+            ]
+        },
+        {
+            "__line": 146891,
+            "_ancestry": [
+                "L_ 16890",
+                "B_ {#trEvidyam#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#trEvidyaM#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                "Familiar or propounded\n by the three Vedas; {#DarmaM BAgavataM SudDaM trEvidyaM ca guRASrayam#}\n <ls>Bhāg. 6. 2. 24</ls>."
+            ]
+        }
     ]
 }

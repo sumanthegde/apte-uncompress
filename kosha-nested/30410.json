@@ -1,39 +1,101 @@
 {
-    "__line": 255028,
+    "__line": 280626,
     "_ancestry": [
         "L_ 30410",
-        "B_ {#suzira#}"
+        "B_ {#viSvAsaH#}"
     ],
-    "_banner": "{#suzira#}",
+    "_banner": "{#viSvAsaH#}",
     "_bannerExp": [
         {
-            "Right": "suzira"
+            "Right": "viSvAsaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Full of holes, hollow,\nperforated. ",
-        "{@--2@} Slow in articulation.\n"
+        ".²1 Trust, confidence, faith, reliance; {#durjanaH priyavAdIti nEtadviSvAsakAraRam#};\n {#viSvAsopagamAdaBinnagatayaH SabdaM sahante mfgAH#} <ls>Ś. 1. 14</ls>; <ls>R. 1. 51</ls>;\n <ls>H. 4. 103</ls>; {#na mAtari na dArezu na sodarye na cAtmani . viSvAsastAdfSaH#}\n {#puMsAM yAdfNmitre svaBAvaje#} <ls>Pt.</ls>\n",
+        ".²2 A secret, confidential communication.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 255030,
+            "__line": 280633,
             "_ancestry": [
                 "L_ 30410",
-                "B_ {#suzira#}",
-                "M_ {#--raM#}"
+                "B_ {#viSvAsaH#}",
+                "S_ .{@{#-kAryam#}@}"
             ],
-            "_banner": "{#--raM#}",
+            "_banner": ".{@{#-kAryam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "suziraM"
+                    "Right": "viSvAsakAryam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A hole, an aperture, a cavity.\n",
-                "{@--2@} Any wind-instrument."
+                "a confidential matter of business.\n"
+            ]
+        },
+        {
+            "__line": 280634,
+            "_ancestry": [
+                "L_ 30410",
+                "B_ {#viSvAsaH#}",
+                "S_ .{@{#-GAtaH, -BaNgaH#}@}"
+            ],
+            "_banner": ".{@{#-GAtaH, -BaNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvAsaGAtaH"
+                },
+                {
+                    "Right": "viSvAsaBaNgaH"
+                }
+            ],
+            "_meanings": [
+                "breach of faith, treachery, perfidy.\n"
+            ]
+        },
+        {
+            "__line": 280635,
+            "_ancestry": [
+                "L_ 30410",
+                "B_ {#viSvAsaH#}",
+                "S_ .{@{#-GAtakaH, -GAtin#}@}"
+            ],
+            "_banner": ".{@{#-GAtakaH, -GAtin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvAsaGAtakaH"
+                },
+                {
+                    "Right": "viSvAsaGAtin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a treacherous fellow, traitor.\n"
+            ]
+        },
+        {
+            "__line": 280636,
+            "_ancestry": [
+                "L_ 30410",
+                "B_ {#viSvAsaH#}",
+                "S_ .{@{#-pAtram, -BUmiH, -sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-pAtram, -BUmiH, -sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvAsapAtram"
+                },
+                {
+                    "Right": "viSvAsaBUmiH"
+                },
+                {
+                    "Right": "viSvAsasTAnam"
+                }
+            ],
+            "_meanings": [
+                "an object of confidence, a reliable or\n trusty person, a confidant."
             ]
         }
     ]

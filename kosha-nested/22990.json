@@ -1,21 +1,38 @@
 {
-    "__line": 193616,
+    "__line": 205911,
     "_ancestry": [
         "L_ 22990",
-        "B_ {#mAnitA --tvaM#}"
+        "B_ {#pradrava#}"
     ],
-    "_banner": "{#mAnitA --tvaM#}",
+    "_banner": "{#pradrava#}",
     "_bannerExp": [
         {
-            "Right": "mAnitA"
-        },
-        {
-            "Right": "mAnitvaM"
+            "Right": "pradrava"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Haughtiness, pride.\n",
-        "{@--2@} Honouring, respect. ",
-        "{@--3@} Being\nrespected or honoured."
+        "Fluid, liquid.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 205912,
+            "_ancestry": [
+                "L_ 22990",
+                "B_ {#pradrava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pradravaH"
+                }
+            ],
+            "_meanings": [
+                "Running."
+            ]
+        }
     ]
 }

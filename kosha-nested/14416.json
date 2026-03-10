@@ -1,20 +1,77 @@
 {
-    "__line": 120252,
+    "__line": 124560,
     "_ancestry": [
         "L_ 14416",
-        "B_ {#tApita#}"
+        "B_ {#Ga#}"
     ],
-    "_banner": "{#tApita#}",
+    "_banner": "{#Ga#}",
     "_bannerExp": [
         {
-            "Right": "tApita"
+            "Right": "Ga"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%n.%}"
     ],
     "_meanings": [
-        "{@--1@} Warmed Heated.\n",
-        "{@--2@} Distressed, pained."
+        "(Used only as the last member of <ab>comp.</ab>) Striking, killing,\n destroying; as in {#pARiGa, rAjaGa#} <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 124562,
+            "_ancestry": [
+                "L_ 14416",
+                "B_ {#Ga#}",
+                "M_ .{@{#-GaH#}@}"
+            ],
+            "_banner": ".{@{#-GaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A bell.\n",
+                ".²2 Rattling, gurgling or tinkling noise; {#‘GaH sUnurvahniH pUzA nfpo gajaH .’#} <ls>Enm.</ls>\n"
+            ]
+        },
+        {
+            "__line": 124565,
+            "_ancestry": [
+                "L_ 14416",
+                "B_ {#Ga#}",
+                "M_ .{@{#-Gam#}@}"
+            ],
+            "_banner": ".{@{#-Gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Gam"
+                }
+            ],
+            "_meanings": [
+                "Sin; {#GaM pApamucyate#} {%<ab>ibid.</ab>%} The {#ekArTanAmamAlA#}\n of {#rAGava#} says: {#meGe nidAGe kiMkiRyAM GaRwAyAM Gawwane ca GaH .#}\n {#GaM vAdyAmftayorGA BUvArtAGorezu ca trizu .#}\n"
+            ]
+        },
+        {
+            "__line": 124568,
+            "_ancestry": [
+                "L_ 14416",
+                "B_ {#Ga#}",
+                "M_ .{@{#-GA#}@}"
+            ],
+            "_banner": ".{@{#-GA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 A blow.\n",
+                ".²2 A tinkling ornament worn by women round the waist."
+            ]
+        }
     ]
 }

@@ -1,20 +1,87 @@
 {
-    "__line": 249355,
+    "__line": 275228,
     "_ancestry": [
         "L_ 29795",
-        "B_ {#saMmfzwa#}"
+        "B_ {#vipakza#}"
     ],
-    "_banner": "{#saMmfzwa#}",
+    "_banner": "{#vipakza#}",
     "_bannerExp": [
         {
-            "Right": "saMmfzwa"
+            "Right": "vipakza"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Well swept, cleansed.\n",
-        "{@--2@} Strained, filtered."
+        ".²1 Hostile, inimical, adverse, contrary.\n",
+        ".²2 Impartial.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 275231,
+            "_ancestry": [
+                "L_ 29795",
+                "B_ {#vipakza#}",
+                "M_ .{@{#-kzaH#}@}"
+            ],
+            "_banner": ".{@{#-kzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipakzaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An enemy, adversary, opponent; {#guRAstasya vipakze'pi guRino leBire'ntaram#}\n <ls>R. 17. 75</ls>; <ls>Śi. 11. 59</ls>.\n",
+                ".²2 A rival or fellow wife; {#premagarvitavipakzamatsarAt#} <ls>R. 19. 20</ls>.\n",
+                ".²3 A disputant; {#hftottaraM tattvavicAramaDye vakteva dozErguruBirvipakzam#} <ls>Ki. 17. 43</ls>.\n",
+                ".²4 (In logic) A negative instance, an instance on the opposite side, ({%<ab>i. e.</ab>%}\n that in which the {#sADya#} or major term is not found); {#niScitasADyABAvavAn#}\n {#vipakzaH#} <ls>T. S.</ls>; <ls>Mu. 5. 10</ls>.\n",
+                ".²5 (In <ab>gram.</ab>) An exception.\n",
+                ".²6 Impartiality, indifference.\n",
+                ".²7 The day of transition from one-half of a lunar month to another.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 275243,
+            "_ancestry": [
+                "L_ 29795",
+                "B_ {#vipakza#}",
+                "S_ .{@{#-BAvaH, vfttiH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH, vfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipakzaBAvaH"
+                },
+                {
+                    "Left": "S error: midAlign vfttiH BAvfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "hostility; {#vipakzaBAve ciramasya tasTuzaH#} <ls>R. 3. 62</ls>.\n"
+            ]
+        },
+        {
+            "__line": 275244,
+            "_ancestry": [
+                "L_ 29795",
+                "B_ {#vipakza#}",
+                "S_ .{@{#-ramaRI#}@}"
+            ],
+            "_banner": ".{@{#-ramaRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipakzaramaRI"
+                }
+            ],
+            "_meanings": [
+                "a female rival."
+            ]
+        }
     ]
 }

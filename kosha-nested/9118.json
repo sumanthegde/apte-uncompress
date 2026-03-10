@@ -1,19 +1,40 @@
 {
-    "__line": 77346,
+    "__line": 76761,
     "_ancestry": [
         "L_ 9118",
-        "B_ {#upAvasu#}"
+        "B_ {#udDama#}"
     ],
-    "_banner": "{#upAvasu#}",
+    "_banner": "{#udDama#}",
     "_bannerExp": [
         {
-            "Right": "upAvasu"
+            "Right": "udDama"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#ud--DmA--Sa#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Bringing or\ngranting wealth."
+        "Sounding, blowing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 76762,
+            "_ancestry": [
+                "L_ 9118",
+                "B_ {#udDama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udDamaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Sounding, blowing.\n",
+                ".²2 Breathing hard, panting."
+            ]
+        }
     ]
 }

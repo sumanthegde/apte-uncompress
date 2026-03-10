@@ -1,23 +1,67 @@
 {
-    "__line": 56767,
+    "__line": 54788,
     "_ancestry": [
         "L_ 6511",
-        "B_ {#ABirAmika#}"
+        "B_ {#Agantuka#}"
     ],
-    "_banner": "{#ABirAmika#}",
+    "_banner": "{#Agantuka#}",
     "_bannerExp": [
         {
-            "Right": "ABirAmikI"
+            "Right": "Agantuka"
         },
         {
-            "Right": "ABirAmika"
+            "Right": "AgantukA"
+        },
+        {
+            "Right": "AgantukI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "({#-kA, -kI#}|{%f.%})"
     ],
     "_meanings": [
-        "Good,\nagreeable; <ls>Mu. 4.</ls>"
+        ".²1 Coming of oneʼs own accord, arriving uninvited; {#AgantukA vayam#} <ls>Dhūrt.</ls>\n",
+        ".²2 Stray (as an animal); <ls>Y. 2. 163</ls>.\n",
+        ".²3 Incidental, accidental, adventitious; {#ityAgantukA vikArAH#} {%<ls>Aśval.</ls>%}\n",
+        ".²4 Interpolated, spurious (as a reading), having crept in without authority;\n {#aganDavadganDamAdanamityAgantukaH pAWaH#}\n\n <ls>Malli.</ls> on <ls>Ku. 6. 46</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 54797,
+            "_ancestry": [
+                "L_ 6511",
+                "B_ {#Agantuka#}",
+                "S_ .{@{#-jvaraH#}@}"
+            ],
+            "_banner": ".{@{#-jvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgantukajvaraH"
+                }
+            ],
+            "_meanings": [
+                "A kind of fever\n"
+            ]
+        },
+        {
+            "__line": 54798,
+            "_ancestry": [
+                "L_ 6511",
+                "B_ {#Agantuka#}",
+                "S_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgantukakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An intruder, interpoler.\n",
+                ".²2 A stranger, guest, new-comer; <ls>Ś. 4</ls>, <ls n=\"Ś.\">6</ls>.\n",
+                ".²3 Interpolated reading."
+            ]
+        }
     ]
 }

@@ -1,16 +1,149 @@
 {
-    "__line": 118367,
+    "__line": 121645,
     "_ancestry": [
         "L_ 14174",
-        "B_ {#JiMJimaH#}"
+        "B_ {#gulmaH#}, {#-lmam#}"
     ],
-    "_banner": "{#JiMJimaH#}",
+    "_banner": "{#gulmaH#}, {#-lmam#}",
     "_bannerExp": [
         {
-            "Right": "JiMJimaH"
+            "Right": "gulmaH"
+        },
+        {
+            "Right": "gulmam"
         }
     ],
+    "_gram": [
+        "[{#guq mak qasya laH#} <ls>Tv.</ls>]"
+    ],
     "_meanings": [
-        "A forest on fire."
+        ".²1 A clump or cluster of trees, a thicket, wood, bush; {#viSAlagulmaM#}\n {#prarujanvanaspatIn#} <ls>Bhāg. 8. 2. 20</ls>; <ls>Ms. 1. 48</ls>, <ls n=\"Ms.\">7. 192</ls>, <ls n=\"Ms.\">12. 58</ls>; <ls>Y. 2. 229</ls>.\n",
+        ".²2 A troop of soldiers; {%<ab>i. e.</ab>%} three {#senAmuKa#}s; <ab>cf.</ab> <ls>Mb. 1. 2. 20</ls>;\n a division of an army, consisting of 45 foot, 27 horse, 9 chariots and 9\n elephants (according to {#rAjaGarmakARqa#} of {#kftyakalpataru#} of\n {#lakzmIDara#}; <ab>cf.</ab> also <ls>Daṇḍaviveka, G. O. S. 52, p. 31</ls>).\n",
+        ".²3 A fort, entrenchment; {#maDyamena ca gulmena rakziBiH sA surakzitA#}, <ls>Mb. 3. 15. 11</ls>.\n",
+        ".²4 The spleen.\n",
+        ".²5 A chronic enlargement of the spleen.\n",
+        ".²6 A village police-station.\n",
+        ".²7 A wharf of stairs (<lang>Mar.</lang> <ns>{#GAwa#}</ns>).\n",
+        ".²8 Disciplining an army, keeping it in a posture of defence.\n",
+        ".²9 War-camp; {#taTEva gulme saMprekzya SayAnAnmaDyagOlmikAn#} <ls>Mb. 10. 8. 41</ls>.\n",
+        ".²10 A tent; <ls>Mb. 6. 86. 54</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 121661,
+            "_ancestry": [
+                "L_ 14174",
+                "B_ {#gulmaH#}, {#-lmam#}",
+                "M_ .{@{#-lmI#}@}"
+            ],
+            "_banner": ".{@{#-lmI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gulmI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cluster or clump of trees.\n",
+                ".²2 Jujube.\n",
+                ".²3 Small cardamoms.\n",
+                ".²4 A tent.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 121667,
+            "_ancestry": [
+                "L_ 14174",
+                "B_ {#gulmaH#}, {#-lmam#}",
+                "S_ .{@{#-kuzWam#}@}"
+            ],
+            "_banner": ".{@{#-kuzWam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gulmakuzWam"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "kind of leprosy.\n"
+            ]
+        },
+        {
+            "__line": 121668,
+            "_ancestry": [
+                "L_ 14174",
+                "B_ {#gulmaH#}, {#-lmam#}",
+                "S_ .{@{#-ketuH#}@}"
+            ],
+            "_banner": ".{@{#-ketuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gulmaketuH"
+                }
+            ],
+            "_meanings": [
+                "a small sort of cane, sorrel.\n"
+            ]
+        },
+        {
+            "__line": 121669,
+            "_ancestry": [
+                "L_ 14174",
+                "B_ {#gulmaH#}, {#-lmam#}",
+                "S_ .{@{#-keSa#}@}"
+            ],
+            "_banner": ".{@{#-keSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gulmakeSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having bushy hair.\n"
+            ]
+        },
+        {
+            "__line": 121670,
+            "_ancestry": [
+                "L_ 14174",
+                "B_ {#gulmaH#}, {#-lmam#}",
+                "S_ .{@{#-mUlam#}@}"
+            ],
+            "_banner": ".{@{#-mUlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gulmamUlam"
+                }
+            ],
+            "_meanings": [
+                "fresh ginger.\n"
+            ]
+        },
+        {
+            "__line": 121671,
+            "_ancestry": [
+                "L_ 14174",
+                "B_ {#gulmaH#}, {#-lmam#}",
+                "S_ .{@{#-vAtaH, -udaraH#}@}"
+            ],
+            "_banner": ".{@{#-vAtaH, -udaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gulmavAtaH"
+                },
+                {
+                    "Right": "gulmodaraH"
+                }
+            ],
+            "_meanings": [
+                "a disease of the spleen."
+            ]
+        }
     ]
 }

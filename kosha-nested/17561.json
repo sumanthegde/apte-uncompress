@@ -1,16 +1,61 @@
 {
-    "__line": 147693,
+    "__line": 155118,
     "_ancestry": [
         "L_ 17561",
-        "B_ {#paMktikA#}"
+        "B_ {#dehin#}"
     ],
-    "_banner": "{#paMktikA#}",
+    "_banner": "{#dehin#}",
     "_bannerExp": [
         {
-            "Right": "paMktikA"
+            "Right": "dehin"
+        },
+        {
+            "Right": "dehinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#deha-ini#}]"
+    ],
     "_meanings": [
-        "A row, line."
+        "Incarnate, embodied. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 155119,
+            "_ancestry": [
+                "L_ 17561",
+                "B_ {#dehin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#dehin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A living being, especially a man; {#tvadaDInaM Kalu dehinAM suKam#}\n <ls>Ku. 4. 10</ls>; <ls>Śi. 2. 46</ls>; <ls>Bg. 2. 13</ls>, <ls n=\"Bg.\">17. 2</ls>; <ls>Ms. 1. 30</ls>, <ls n=\"Ms.\">5. 49</ls>.\n",
+                ".²2 The soul, spirit (enshrined in the body); {#taTA SarIrARi vihAya jIrRAnyanyAni#}\n {#saMyAti navAni dehI#} <ls>Bg. 2. 22</ls>, <ls n=\"Bg.\">5. 13</ls>, <ls n=\"Bg.\">14. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155124,
+            "_ancestry": [
+                "L_ 17561",
+                "B_ {#dehin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dehinI"
+                }
+            ],
+            "_meanings": [
+                "The earth,"
+            ]
+        }
     ]
 }

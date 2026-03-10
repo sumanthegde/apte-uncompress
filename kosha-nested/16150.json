@@ -1,19 +1,190 @@
 {
-    "__line": 135671,
+    "__line": 139988,
     "_ancestry": [
         "L_ 16150",
-        "B_ {#Dfzita#}"
+        "B_ {#tapana#}"
     ],
-    "_banner": "{#Dfzita#}",
+    "_banner": "{#tapana#}",
     "_bannerExp": [
         {
-            "Right": "Dfzita"
+            "Right": "tapana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#tap-lyu#}]"
     ],
     "_meanings": [
-        "Brave, bold."
+        ".²1 Warming, heating, burning, shining <ab>&c.</ab>\n",
+        ".²2 Causing distress, paining; {#brahmadvizastapano#}\n\n {#manumIrasi#} <ls>Rv. 2. 23. 4</ls>.\n",
+        ".²3 The sun; {#pratApAttapano yaTA#} <ls>R. 4. 12</ls>; {#lalAwaMtapastapati tapanaH#} <ls>U. 6</ls>; <ls>Māl. 1</ls>.\n",
+        ".²4 The hot season.\n",
+        ".²5 The sun-stone.\n",
+        ".²6 <ab>N.</ab> of a hell; <ls>Ms. 4. 89</ls>.\n",
+        ".²7 An epithet of Śiva.\n",
+        ".²8 The Arka plant.\n",
+        ".²9 <ab>N.</ab> of Agastya.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 140000,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Heat, burning.\n",
+                ".²2 Paining, grieving.\n",
+                ".²3 Mental agony, anguish.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 140005,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "S_ .{@{#-aMSuH, -karaH, -dIDitiH#}@}"
+            ],
+            "_banner": ".{@{#-aMSuH, -karaH, -dIDitiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanAMSuH"
+                },
+                {
+                    "Right": "tapanakaraH"
+                },
+                {
+                    "Right": "tapanadIDitiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the sun.\n",
+                ".²2 a sun-beam.\n"
+            ]
+        },
+        {
+            "__line": 140008,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "S_ .{@{#-AtmajaH, -tanayaH#}@}"
+            ],
+            "_banner": ".{@{#-AtmajaH, -tanayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanAtmajaH"
+                },
+                {
+                    "Left": "S error: midAlign tanayaH AtanayaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet (1) of Yama. (2) of Karṇa. (3) of Sugrīva.\n"
+            ]
+        },
+        {
+            "__line": 140009,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "S_ .{@{#-AtmajA, -tanayA#}@}"
+            ],
+            "_banner": ".{@{#-AtmajA, -tanayA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanAtmajA"
+                },
+                {
+                    "Left": "S error: midAlign tanayA AtanayA"
+                }
+            ],
+            "_meanings": [
+                "an epithet of the Yamunā and of the Godāvarī.\n"
+            ]
+        },
+        {
+            "__line": 140010,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "S_ .{@{#-izwam#}@}"
+            ],
+            "_banner": ".{@{#-izwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanezwam"
+                }
+            ],
+            "_meanings": [
+                "copper.\n"
+            ]
+        },
+        {
+            "__line": 140011,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "S_ .{@{#-upalaH, -maRiH#}@}"
+            ],
+            "_banner": ".{@{#-upalaH, -maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanopalaH"
+                },
+                {
+                    "Right": "tapanamaRiH"
+                }
+            ],
+            "_meanings": [
+                "the sun-stone; {#nirvARamanu nirvAti tapanaM tapanopalaH#}\n <ls>Rāj. T. 3. 296</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140013,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "S_ .{@{#-cCadaH#}@}"
+            ],
+            "_banner": ".{@{#-cCadaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanacCadaH"
+                }
+            ],
+            "_meanings": [
+                "the sun-flower.\n"
+            ]
+        },
+        {
+            "__line": 140014,
+            "_ancestry": [
+                "L_ 16150",
+                "B_ {#tapana#}",
+                "S_ .{@{#-dyutiH#}@}"
+            ],
+            "_banner": ".{@{#-dyutiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapanadyutiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 the heat of the sun; <ls>Śi. 1. 42</ls>.\n",
+                ".²2 the sun-shine."
+            ]
+        }
     ]
 }

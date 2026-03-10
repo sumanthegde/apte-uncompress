@@ -1,42 +1,443 @@
 {
-    "__line": 212538,
+    "__line": 225313,
     "_ancestry": [
         "L_ 25077",
-        "B_ {#varIyas#}"
+        "B_ {#BAraH#}"
     ],
-    "_banner": "{#varIyas#}",
+    "_banner": "{#BAraH#}",
     "_bannerExp": [
         {
-            "Right": "varIyas"
+            "Right": "BAraH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#Bf-GaY#}]"
     ],
     "_meanings": [
-        "{@--1@} Better, more \nexcellent, preferable. ",
-        "{@--2@} Most \nexcellent, very good; <ls>Māl. 1. 16.</ls> ",
-        "{@--3@}\nLarger, wider, more extensive\n(<ab>compar.</ab> of {#uru#} <ab>q. v.</ab>). ",
-        "{@--4@} \nExtremely tender or younger. "
+        ".²1 A load, burden, weight (<ab>fig.</ab> also); {#kucaBArAnamitA na yozitaH#} <ls>Bh. 3. 27</ls>;\n so {#SroRIBAra#} <ls>Me. 84</ls>; {#BAraH kAyo jIvitaM vajrakIlam#} <ls>Māl. 9. 37</ls>.\n",
+        ".²2 Brunt, thickest part (as of a battle); <ls>N. 5. 5</ls>.\n",
+        ".²3 Excess, pitch; {#sA muktakaRWaM vyasanAtiBArAccakranda#} <ls>R. 14. 68</ls>.\n",
+        ".²4 Labour, toil, trouble.\n",
+        ".²5 A mass, large quantity; {#vizvagvfttirjawAnAM pracalati nibiqagranTibadDo'pi#}\n {#BAraH#} <ls>Māl. 5. 4</ls>. {#kuca˚, jawA˚#}.\n",
+        ".²6 A particular weight equal to 2000 {%palas%} of gold; {#kftaM BArasahasrasya#}\n {#SUlaM kAlAyasaM mahat#} <ls>Rām. 6. 67. 63</ls>.\n",
+        ".²7 A yoke for carrying burdens.\n",
+        ".²8 An epithet of Viṣṇu.\n",
+        ".²9 Task imposed on anyone; {#AnukUlyena kAryARAmantaraM saMviDIyate .#}\n {#BAraM hi raTakArasya na vyavasyanti paRqitAH ..#} <ls>Mb. 4. 49. 4</ls>.\n",
+        ".²10 A particular manner of beating a drum.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 212543,
+            "__line": 225329,
             "_ancestry": [
                 "L_ 25077",
-                "B_ {#varIyas#}",
-                "M_ {%--<ab>n.</ab>%}"
+                "B_ {#BAraH#}",
+                "S_ .{@{#-avataraRa, -tAraRam#}@}"
             ],
+            "_banner": ".{@{#-avataraRa, -tAraRam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "varIyas"
+                    "Right": "BArAvataraRa"
+                },
+                {
+                    "Left": "S error: midAlign tAraRaM avatAraRaM"
+                }
+            ],
+            "_meanings": [
+                "the removal of a load from.\n"
+            ]
+        },
+        {
+            "__line": 225330,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-AkrAnta#}@}"
+            ],
+            "_banner": ".{@{#-AkrAnta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArAkrAnta"
                 }
             ],
             "_gram": [
-                "{%--<ab>n.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "<ab>Ved.</ab>\nRest, repose."
+                "heavily laden, over-burdened.\n"
+            ]
+        },
+        {
+            "__line": 225331,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-AkrAntA#}@}"
+            ],
+            "_banner": ".{@{#-AkrAntA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArAkrAntA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre; {#BArAkrAntA maBanarasanA guruH SrutirasahayEH#} <ls>Chand. M.</ls>\n"
+            ]
+        },
+        {
+            "__line": 225332,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-udDaraRam#}@}"
+            ],
+            "_banner": ".{@{#-udDaraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArodDaraRam"
+                }
+            ],
+            "_meanings": [
+                "The lifting of a load.\n"
+            ]
+        },
+        {
+            "__line": 225333,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-udvahaH#}@}"
+            ],
+            "_banner": ".{@{#-udvahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArodvahaH"
+                }
+            ],
+            "_meanings": [
+                "a porter, burden-carrier.\n"
+            ]
+        },
+        {
+            "__line": 225334,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-upajIvanam#}@}"
+            ],
+            "_banner": ".{@{#-upajIvanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAropajIvanam"
+                }
+            ],
+            "_meanings": [
+                "living by carrying burdens, a porterʼs life; {#varaM#}\n {#BAropajIvanam#} <ls>Pt. 1. 280</ls>.\n"
+            ]
+        },
+        {
+            "__line": 225336,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-UQiH#}@}"
+            ],
+            "_banner": ".{@{#-UQiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAroQiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the bearing of a load.\n"
+            ]
+        },
+        {
+            "__line": 225337,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAragaH"
+                }
+            ],
+            "_meanings": [
+                "a mule.\n"
+            ]
+        },
+        {
+            "__line": 225338,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAraBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu; {#BAraBft kaTito yogI#} <ls>V. Sah.</ls>\n"
+            ]
+        },
+        {
+            "__line": 225339,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-yazwiH#}@}"
+            ],
+            "_banner": ".{@{#-yazwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArayazwiH"
+                }
+            ],
+            "_meanings": [
+                "a pole for carrying burdens. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 225339,
+                    "_ancestry": [
+                        "L_ 25077",
+                        "B_ {#BAraH#}",
+                        "S_ .{@{#-yazwiH#}@}",
+                        "S_S_ {#˚DaraH#}"
+                    ],
+                    "_banner": "{#˚DaraH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "BArayazwiDaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "one who carries\n loads suspended at the two ends of a pole borne on the shoulder (<lang>Mar.</lang>\n <ns>{#kAbaqaDArI#}</ns>); {#BArayazwiDarEScApi puruzErvizwikAriBiH#} <ls>Śiva B. 30. 23</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 225342,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-vAha#}@}"
+            ],
+            "_banner": ".{@{#-vAha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAravAha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#BArOhI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "bearer of burdens.\n"
+            ]
+        },
+        {
+            "__line": 225344,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-vAhaH#}@}"
+            ],
+            "_banner": ".{@{#-vAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAravAhaH"
+                }
+            ],
+            "_meanings": [
+                "a burden-carrier, porter; {#BAravAhasya panTAH#} <ls>Mb. 3. 133. 1</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 225345,
+                    "_ancestry": [
+                        "L_ 25077",
+                        "B_ {#BAraH#}",
+                        "S_ .{@{#-vAhaH#}@}",
+                        "S_M_ ({@{#-hI#}@}"
+                    ],
+                    "_banner": "({@{#-hI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "BAravAhI"
+                        }
+                    ],
+                    "_meanings": [
+                        "indigo.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 225348,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-vAhanaH#}@}"
+            ],
+            "_banner": ".{@{#-vAhanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAravAhanaH"
+                }
+            ],
+            "_meanings": [
+                "a beast of burden.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 225349,
+                    "_ancestry": [
+                        "L_ 25077",
+                        "B_ {#BAraH#}",
+                        "S_ .{@{#-vAhanaH#}@}",
+                        "S_M_ ({@{#-nam#}@}"
+                    ],
+                    "_banner": "({@{#-nam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "BAravAhanam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a cart, waggon.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 225350,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-vAhikaH#}@}"
+            ],
+            "_banner": ".{@{#-vAhikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAravAhikaH"
+                }
+            ],
+            "_meanings": [
+                "a porter.\n"
+            ]
+        },
+        {
+            "__line": 225351,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-saha, -sAha#}@}"
+            ],
+            "_banner": ".{@{#-saha, -sAha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArasaha"
+                },
+                {
+                    "Right": "BArasAha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘able to carry a great load’, very strong\n or powerful; {#vikfzya cApaM samare BArasAhamanuttamam#} <ls>Mb. 6. 74. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 225353,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-haH#}@}"
+            ],
+            "_banner": ".{@{#-haH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArahaH"
+                }
+            ],
+            "_meanings": [
+                "an ass.\n"
+            ]
+        },
+        {
+            "__line": 225354,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-sADana#}@}"
+            ],
+            "_banner": ".{@{#-sADana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArasADana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "effecting arduous works, accomplishing great objects;\n {#kArmukErBArasADanEH#} <ls>Mb. 2. 99. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 225356,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-haraH, -hAraH#}@}"
+            ],
+            "_banner": ".{@{#-haraH, -hAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAraharaH"
+                },
+                {
+                    "Right": "BArahAraH"
+                }
+            ],
+            "_meanings": [
+                "a burden-bearer, porter.\n"
+            ]
+        },
+        {
+            "__line": 225357,
+            "_ancestry": [
+                "L_ 25077",
+                "B_ {#BAraH#}",
+                "S_ .{@{#-hArin#}@}"
+            ],
+            "_banner": ".{@{#-hArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArahArin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Kṛṣṇa."
             ]
         }
     ]

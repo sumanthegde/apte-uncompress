@@ -1,25 +1,41 @@
 {
-    "__line": 25000,
+    "__line": 22082,
     "_ancestry": [
         "L_ 2464",
-        "B_ {#aparimARa, aparimita, aparimeya#}"
+        "B_ {#anvAyatana#}"
     ],
-    "_banner": "{#aparimARa, aparimita, aparimeya#}",
+    "_banner": "{#anvAyatana#}",
     "_bannerExp": [
         {
-            "Right": "aparimARa"
-        },
-        {
-            "Right": "aparimeya"
-        },
-        {
-            "Right": "aparimita"
+            "Right": "anvAyatana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Immeasurable, immense, unbounded."
+        "Latitudinal.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 22083,
+            "_ancestry": [
+                "L_ 2464",
+                "B_ {#anvAyatana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anvAyatanam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "In the house."
+            ]
+        }
     ]
 }

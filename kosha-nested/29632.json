@@ -1,17 +1,89 @@
 {
-    "__line": 248314,
+    "__line": 273805,
     "_ancestry": [
         "L_ 29632",
-        "B_ {#saMpAwaH#}"
+        "B_ {#vidvas#}"
     ],
-    "_banner": "{#saMpAwaH#}",
+    "_banner": "{#vidvas#}",
     "_bannerExp": [
         {
-            "Right": "saMpAwaH"
+            "Right": "vidvas"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#vid-kvasu#}]"
+    ],
     "_meanings": [
-        "{@--1@} Intersection. ",
-        "{@--2@} A\nspindle."
+        "(<ab>Nom.</ab> <ab>sing.</ab> {%m.%} {#vidvAn#}; {%f.%}\n {#viduzI#}; {%n.%} {#vidvat#})\n",
+        ".²1 Knowing (with <ab>acc.</ab>); {#AnandaM brahmaRo vidvAn na viBeti kadAcana#};\n {#tava vidvAnapi tApakAraRam#} <ls>R. 8. 76</ls>; <ls>Ki. 11. 30</ls>.\n",
+        ".²2 Wise, learned. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 273809,
+            "_ancestry": [
+                "L_ 29632",
+                "B_ {#vidvas#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vidvas#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A learned or wise man, scholar; {#kiM vastu#}\n {#vidvan gurave pradeyam#} <ls>R. 5. 18</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 273812,
+            "_ancestry": [
+                "L_ 29632",
+                "B_ {#vidvas#}",
+                "S_ .{@{#-kalpa, -deSIya, -deSya#}@}"
+            ],
+            "_banner": ".{@{#-kalpa, -deSIya, -deSya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vidvatkalpa"
+                },
+                {
+                    "Right": "vidvaddeSIya"
+                },
+                {
+                    "Right": "vidvaddeSya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "({#vidvatkalpa#}; {#vidvaddeSIya, vidvaddeSya#})\n slightly learned, a little learned.\n"
+            ]
+        },
+        {
+            "__line": 273814,
+            "_ancestry": [
+                "L_ 29632",
+                "B_ {#vidvas#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vidvajjanaH"
+                }
+            ],
+            "_gram": [
+                "({@{#vidvajjanaH#}@})"
+            ],
+            "_meanings": [
+                "a learned or wise man, sage."
+            ]
+        }
     ]
 }

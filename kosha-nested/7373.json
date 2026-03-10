@@ -1,19 +1,64 @@
 {
-    "__line": 63859,
+    "__line": 61695,
     "_ancestry": [
         "L_ 7373",
-        "B_ {#iMdrasvat#}"
+        "B_ {#Ayasa#}"
     ],
-    "_banner": "{#iMdrasvat#}",
+    "_banner": "{#Ayasa#}",
     "_bannerExp": [
         {
-            "Right": "iMdrasvat"
+            "Right": "Ayasa"
+        },
+        {
+            "Right": "AyasI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-sI#}|{%f.%})",
+        "[{#ayaso vikAraH aR#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Accompanied by\nIndra, possessed of power."
+        ".²1 Made of iron, iron, metallic; {#SataM mA pura AyasIrarakzan#} <ls>Ait. Up. 4. 5</ls>.\n {#AyasaM daRqameva vA#} <ls>Ms. 8. 315</ls>; {#saKi mA jalpa tavAyasI#}\n {#rasajYA#} <ls>Bv. 2. 59</ls>.\n",
+        ".²2 Armed with an iron weapon.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 61700,
+            "_ancestry": [
+                "L_ 7373",
+                "B_ {#Ayasa#}",
+                "M_ .{@{#-sI#}@}"
+            ],
+            "_banner": ".{@{#-sI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AyasI"
+                }
+            ],
+            "_meanings": [
+                "A coat of mail, an armour for the body.\n"
+            ]
+        },
+        {
+            "__line": 61701,
+            "_ancestry": [
+                "L_ 7373",
+                "B_ {#Ayasa#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ayasam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Iron; {#mUQaM budDamivAtmAnaM hEmIBUtamivAyasam#} <ls>Ku. 6. 55</ls>; {#sa cakarza#}\n {#parasmAttadayaskAnta ivAyasam#} <ls>R. 17. 63</ls>.\n",
+                ".²2 Anything made of iron.\n",
+                ".²3 A weapon.\n",
+                ".²4 A wind instrument."
+            ]
+        }
     ]
 }

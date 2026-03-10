@@ -1,21 +1,47 @@
 {
-    "__line": 78419,
+    "__line": 77871,
     "_ancestry": [
         "L_ 9271",
-        "B_ {#ullasa#}"
+        "B_ {#unnam#}"
     ],
-    "_banner": "{#ullasa#}",
+    "_banner": "{#unnam#}",
     "_bannerExp": [
         {
-            "Right": "ullasa"
+            "Right": "unnam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Bright, shining. ",
-        "{@--2@}\nMerry, happy. ",
-        "{@--3@} Going out, \nissuing, appearing; {#°tA#} splendour, \nbrilliancy; mirth, happiness, issuing &c."
+        "²1\n",
+        ".³({%a%}) To rise, appear; {#unnamyonnamya lIyante daridrARAM manoraTAH#} <ls>Pt. 2. 95</ls>.\n",
+        ".³({%b%}) To hang over, arise, impend; {#unnamatyakAladurdinam#} <ls>Mk. 4</ls>, <ls n=\"Mk.\">5</ls>\n an untimely storm impends; {#bahalonnamadambuDarAH#} <ls>Māl. 9. 18</ls>.\n",
+        ".³({%c%}) To rise, ascend, go up (<ab>fig.</ab> also); {#unnamati namati varzati#}\n {#garjati meGaH#} <ls>Mk. 5</ls>. {#namratvenonnamantaH#} <ls>Bh. 2. 69</ls>.\n",
+        ".²2 To bend up, raise, elevate, erect; {#dyOrunnanAmeva diSaH praseduH#}\n <ls>Ki. 16. 35</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 77879,
+            "_ancestry": [
+                "L_ 9271",
+                "B_ {#unnam#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "unnam"
+                }
+            ],
+            "_gram": [
+                "({#namayati#})"
+            ],
+            "_meanings": [
+                ".²1 To bend upwards, raise, erect; {#muKamunnamayya#} <ls>Ku. 7. 23</ls>; <ls>Ś. 3. 25</ls>; <ls>R. 1. 41</ls>.\n",
+                ".²2 (<ab>fig.</ab>) To elevate, raise to eminence; {#unnamaya banDuvargam#} <ls>K. 109</ls>."
+            ]
+        }
     ]
 }

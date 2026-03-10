@@ -1,20 +1,50 @@
 {
-    "__line": 214382,
+    "__line": 228630,
     "_ancestry": [
         "L_ 25309",
-        "B_ {#vahataH#}"
+        "B_ {#Bedaka#}"
     ],
-    "_banner": "{#vahataH#}",
+    "_banner": "{#Bedaka#}",
     "_bannerExp": [
         {
-            "Right": "vahataH"
+            "Right": "Bedaka"
+        },
+        {
+            "Right": "BedikA"
         }
     ],
     "_gram": [
-        "[{#vah-atac#}]"
+        "{%a.%}",
+        "({#-dikA#}|{%f.%})",
+        "[{#Bid-Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} A traveller.\n",
-        "{@--2@} An ox."
+        ".²1 Breaking, splitting, dividing, separating.\n",
+        ".²2 Breaking through, piercing.\n",
+        ".²3 Destroying, a destroyer; {#maryAdABedakaH#} <ls>Ms. 9. 291</ls>.\n",
+        ".²4 Distinguishing, discriminating.\n",
+        ".²5 Defining.\n",
+        ".²6 Evacuating the bowels, purgative.\n",
+        ".²7 Diverting (water-courses); {#srotasAM Bedako yaSca tezAM cAvaraRe rataH#} <ls>Ms. 3. 163</ls>.\n",
+        ".²8 Seducing (ministers); <ls>Ms. 3. 232. Kull.</ls>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 228639,
+            "_ancestry": [
+                "L_ 25309",
+                "B_ {#Bedaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BedakaH"
+                }
+            ],
+            "_meanings": [
+                "An adjective or differentiating attribute."
+            ]
+        }
     ]
 }

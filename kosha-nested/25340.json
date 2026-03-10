@@ -1,21 +1,65 @@
 {
-    "__line": 214632,
+    "__line": 228952,
     "_ancestry": [
         "L_ 25340",
-        "B_ {#vAMkz#}"
+        "B_ {#Bogavat#}"
     ],
-    "_banner": "{#vAMkz#}",
+    "_banner": "{#Bogavat#}",
     "_bannerExp": [
         {
-            "Right": "vAMkz"
+            "Right": "Bogavat"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#vAMkzati#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To wish, \ndesire."
+        ".²1 Giving pleasure or delight, delightful.\n",
+        ".²2 Happy, prosperous.\n",
+        ".²3 Having curves, ringed, coiled. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 228955,
+            "_ancestry": [
+                "L_ 25340",
+                "B_ {#Bogavat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Bogavat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A snake.\n",
+                ".²2 A mountain.\n",
+                ".²3 Dancing, acting, and singing together. "
+            ]
+        },
+        {
+            "__line": 228958,
+            "_ancestry": [
+                "L_ 25340",
+                "B_ {#Bogavat#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Bogavat#} M_ --{%f.%}"
+                }
+            ],
+            "_gram": [
+                "({@{#-tI#}@})"
+            ],
+            "_meanings": [
+                ".²1 An epithet of the Ganges of Pātāla or the lower world ({#pAtAlagaNgA#});\n {#BogavatI ca pAtAle svarge mandAkinI taTA#} <ls>Purāṇam</ls>; <ls>A. Rām. 6. 9. 8</ls>.\n",
+                ".²2 A female snake-demon; <ls>Mb. 1. 171. 38</ls>.\n",
+                ".²3 <ab>N.</ab> of the city of the snake-demons in the lower world; {#AtmatulyabalErguptAM#}\n {#nAgErBogavatImiva#} <ls>Bhāg. 1. 11. 11</ls>.\n",
+                ".²4 The night of the second day of a lunar month."
+            ]
+        }
     ]
 }

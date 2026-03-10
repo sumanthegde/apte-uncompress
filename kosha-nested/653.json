@@ -1,20 +1,59 @@
 {
-    "__line": 8139,
+    "__line": 6793,
     "_ancestry": [
         "L_ 653",
-        "B_ {#atirE#}"
+        "B_ {#atinidrA#}"
     ],
-    "_banner": "{#atirE#}",
+    "_banner": "{#atinidrA#}",
     "_bannerExp": [
         {
-            "Right": "atirE"
+            "Right": "atinidrA"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#ri#}|{%<ab>n.</ab>%})"
-    ],
     "_meanings": [
-        "Exceeding one's\nincome, extravagant."
+        "Excessive sleeping.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 6794,
+            "_ancestry": [
+                "L_ 653",
+                "B_ {#atinidrA#}",
+                "M_ .{@{#-dra#}@}"
+            ],
+            "_banner": ".{@{#-dra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atinidra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 Given to excessive sleep.\n",
+                ".²2 Without sleep, sleepless.\n"
+            ]
+        },
+        {
+            "__line": 6797,
+            "_ancestry": [
+                "L_ 653",
+                "B_ {#atinidrA#}",
+                "M_ .{@{#-dram#}@}"
+            ],
+            "_banner": ".{@{#-dram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atinidram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Past sleeping time ({#nidrA samprati na yujyate#})."
+            ]
+        }
     ]
 }

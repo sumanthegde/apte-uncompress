@@ -1,25 +1,38 @@
 {
-    "__line": 220394,
+    "__line": 238309,
     "_ancestry": [
         "L_ 26096",
-        "B_ {#vinyasta#}"
+        "B_ {#mAnavIya#}"
     ],
-    "_banner": "{#vinyasta#}",
+    "_banner": "{#mAnavIya#}",
     "_bannerExp": [
         {
-            "Right": "vinyasta"
+            "Right": "mAnavIya"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Placed or put\ndown. ",
-        "{@--2@} Inlaid, paved. ",
-        "{@--3@} Fixed.\n",
-        "{@--4@} Arranged. ",
-        "{@--5@} Delivered. ",
-        "{@--6@}\nPresented, offered. ",
-        "{@--7@} Deposited."
+        "Descended or derived from Manu.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 238310,
+            "_ancestry": [
+                "L_ 26096",
+                "B_ {#mAnavIya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnavIyam"
+                }
+            ],
+            "_meanings": [
+                "A particular fine."
+            ]
+        }
     ]
 }

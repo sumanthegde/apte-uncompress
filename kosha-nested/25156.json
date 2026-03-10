@@ -1,22 +1,83 @@
 {
-    "__line": 213201,
+    "__line": 226349,
     "_ancestry": [
         "L_ 25156",
-        "B_ {#varDita#}"
+        "B_ {#Bitti#}"
     ],
-    "_banner": "{#varDita#}",
+    "_banner": "{#Bitti#}",
     "_bannerExp": [
         {
-            "Right": "varDita"
+            "Right": "Bitti"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%f.%}",
+        "[{#Bid-ktin#}]"
     ],
     "_meanings": [
-        "{@--1@} Grown, increased.\n",
-        "{@--2@} Enlarged, magnified. ",
-        "{@--3@} Cut. ",
-        "{@--4@}\nFilled, full."
+        ".²1 Breaking, splitting; dividing.\n",
+        ".²2 A wall, partition; {#samayA sODaBittim#} <ls>Dk.</ls>; <ls>Śi. 4. 67</ls> fort-wall;\n {#izwakopalamfdBittiprAkAraM pAriGaM smftam#} <ls>Śukra. 4. 849</ls>.\n",
+        ".²3 (Hence) Any place, spot or ground ({#ASraya#}) to work anything upon;\n {#citrakarmaracanA BittiM vinA vartate#} <ls>Mu. 2. 4</ls>.\n",
+        ".²4 A fragment, bit, piece, portion.\n",
+        ".²5 Anything broken.\n",
+        ".²6 A rent, fissure.\n",
+        ".²7 A mat (made of split reeds).\n",
+        ".²8 A flaw, defect.\n",
+        ".²9 An opportunity.\n",
+        ".²10 A wall-like surface; {#kapolaBitti, gaRqaBitti#} <ab>&c.</ab>; {#siMhaH SiSurapi#}\n {#nipatati madamalinakapolaBittizu gajezu#} <ls>Bh. 1. 38</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 226364,
+            "_ancestry": [
+                "L_ 25156",
+                "B_ {#Bitti#}",
+                "S_ .{@{#-KAtanaH#}@}"
+            ],
+            "_banner": ".{@{#-KAtanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BittiKAtanaH"
+                }
+            ],
+            "_meanings": [
+                "a rat.\n"
+            ]
+        },
+        {
+            "__line": 226365,
+            "_ancestry": [
+                "L_ 25156",
+                "B_ {#Bitti#}",
+                "S_ .{@{#-cOraH#}@}"
+            ],
+            "_banner": ".{@{#-cOraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BitticOraH"
+                }
+            ],
+            "_meanings": [
+                "a house-breaker.\n"
+            ]
+        },
+        {
+            "__line": 226366,
+            "_ancestry": [
+                "L_ 25156",
+                "B_ {#Bitti#}",
+                "S_ .{@{#-pAtanaH#}@}"
+            ],
+            "_banner": ".{@{#-pAtanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BittipAtanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a kind of rat.\n",
+                ".²2 a rat."
+            ]
+        }
     ]
 }

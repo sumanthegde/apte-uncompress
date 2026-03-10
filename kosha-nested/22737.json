@@ -1,19 +1,83 @@
 {
-    "__line": 190670,
+    "__line": 203943,
     "_ancestry": [
         "L_ 22737",
-        "B_ {#marImfja#}"
+        "B_ {#pratIka#}"
     ],
-    "_banner": "{#marImfja#}",
+    "_banner": "{#pratIka#}",
     "_bannerExp": [
         {
-            "Right": "marImfja"
+            "Right": "pratIka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Repeatedly rubbing."
+        ".²1 Directed or turned towards.\n",
+        ".²2 Inverted, reverse.\n",
+        ".²3 Contrary, unfavourable, adverse.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 203947,
+            "_ancestry": [
+                "L_ 22737",
+                "B_ {#pratIka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratIkaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A limb, member; {#aprARadBiH prARaBAjAM pratIkEH#} <ls>Śi. 18. 79</ls>.\n",
+                ".²2 A part, portion.\n"
+            ]
+        },
+        {
+            "__line": 203950,
+            "_ancestry": [
+                "L_ 22737",
+                "B_ {#pratIka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratIkam"
+                }
+            ],
+            "_meanings": [
+                ".²1 An image.\n",
+                ".²2 Mouth, face.\n",
+                ".²3 The front (of anything).\n",
+                ".²4 The first word (of a verse, sentence <ab>&c.</ab>).\n",
+                ".²5 A lamp; <ls>L. D. B.</ls>\n",
+                ".²6 A symbol.\n",
+                ".²7 A copy.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 203959,
+            "_ancestry": [
+                "L_ 22737",
+                "B_ {#pratIka#}",
+                "S_ .{@{#-darSanam#}@}"
+            ],
+            "_banner": ".{@{#-darSanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratIkadarSanam"
+                }
+            ],
+            "_meanings": [
+                "a symbolic conception."
+            ]
+        }
     ]
 }

@@ -1,16 +1,565 @@
 {
-    "__line": 157057,
+    "__line": 166897,
     "_ancestry": [
         "L_ 18750",
-        "B_ {#pAravaSyaM#}"
+        "B_ {#nitya#}"
     ],
-    "_banner": "{#pAravaSyaM#}",
+    "_banner": "{#nitya#}",
     "_bannerExp": [
         {
-            "Right": "pAravaSyaM"
+            "Right": "nitya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#niyamena niyataM vA BavaM ni-tya-p#}; <ab>cf.</ab> <ls>P. IV. 2. 104</ls>; <ls>Vārt.</ls>]"
+    ],
     "_meanings": [
-        "Dependence, subjection,\nsubservience."
+        ".²1\n",
+        ".³({%a%}) Continual, perpetual, constant, everlasting, eternal, uninterrupted;\n {#yaTA tvamasi durDarzo DarmanityaH prajAhitaH#} <ls>Rām. 7. 37. 8</ls>; {#yadi#}\n {#nityamanityena laByate#} <ls>H. 1. 48</ls>; {#nityajyotsnAH pratihatatamovfttiramyAH#}\n {#pradozAH#} <ls>Me.</ls> (regarded by <ls>Malli.</ls> as an interpolation); <ls>Ms. 2. 206</ls>.\n",
+        ".³({%b%}) Imperishable, indestructible; {#pfTivI dviviDA nityA'nityA ca#} <ls>Tarka K.</ls>\n",
+        ".²2 Invariable, regular, fixed, not optional, regularly prescribed (<ab>opp.</ab> {#kAmya#}).\n",
+        ".²3 Necessary, obligatory, essential.\n",
+        ".²4 Ordinary, usual (<ab>opp.</ab> {#nOmittika#}).\n",
+        ".²5 (At the end of <ab>comp.</ab>) Constantly dwelling in, perpetually engaged in\n or busy with; {#jAhnavItIra˚, araRya˚, AdAna˚, DyAna˚#} <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 166909,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "M_ .{@{#-tyaH#}@}"
+            ],
+            "_banner": ".{@{#-tyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityaH"
+                }
+            ],
+            "_meanings": [
+                "The ocean.\n"
+            ]
+        },
+        {
+            "__line": 166910,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "M_ .{@{#-tyA#}@}"
+            ],
+            "_banner": ".{@{#-tyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityA"
+                }
+            ],
+            "_meanings": [
+                ".²1 An epithet of the goddess Durgā.\n",
+                ".²2 A plough-share.\n"
+            ]
+        },
+        {
+            "__line": 166913,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "M_ .{@{#-tyam#}@}"
+            ],
+            "_banner": ".{@{#-tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityam"
+                }
+            ],
+            "_meanings": [
+                "An indispensable or inevitable act.\n"
+            ]
+        },
+        {
+            "__line": 166914,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "M_ .{@{#-tyam#}@}"
+            ],
+            "_banner": ".{@{#-tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Daily, constantly, always, ever, perpetually, eternally.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 166916,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-anaDyAyaH#}@}"
+            ],
+            "_banner": ".{@{#-anaDyAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityAnaDyAyaH"
+                }
+            ],
+            "_meanings": [
+                "invariable suspension of Vedic studies; {#nityAnaDyAya#}\n {#eva syAd grAmezu nagarezu ca#} <ls>Ms. 4. 107</ls>.\n"
+            ]
+        },
+        {
+            "__line": 166918,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-anitya#}@}"
+            ],
+            "_banner": ".{@{#-anitya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityAnitya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eternal and perishable.\n"
+            ]
+        },
+        {
+            "__line": 166919,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-anubadDa#}@}"
+            ],
+            "_banner": ".{@{#-anubadDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityAnubadDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "always approached or resorted to.\n"
+            ]
+        },
+        {
+            "__line": 166920,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-anuvAdaH#}@}"
+            ],
+            "_banner": ".{@{#-anuvAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityAnuvAdaH"
+                }
+            ],
+            "_meanings": [
+                "a bare statement of fact; {#syAjjuhvapratizeDAnnityAnuvAdaH#} <ls>MS. 4. 1. 45</ls>.\n"
+            ]
+        },
+        {
+            "__line": 166921,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-aBiyukta#}@}"
+            ],
+            "_banner": ".{@{#-aBiyukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityABiyukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One who is completely absorbed in yogic practices.\n"
+            ]
+        },
+        {
+            "__line": 166922,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-ftu#}@}"
+            ],
+            "_banner": ".{@{#-ftu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityartu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "regularly recurring at the seasons.\n"
+            ]
+        },
+        {
+            "__line": 166923,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-kftyam, -kriyA#}@}"
+            ],
+            "_meanings": [
+                "any daily and necessary rite, a constant act or\n duty, as the five daily Yajñas.\n"
+            ]
+        },
+        {
+            "__line": 166926,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-kAlam#}@}"
+            ],
+            "_banner": ".{@{#-kAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityakAlam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "always, at all times; {#brAhmeRa viprastIrTena#}\n {#nityakAlamupaspfSet#} <ls>Ms. 2. 58</ls>, <ls n=\"Ms. 2.\">73</ls>.\n"
+            ]
+        },
+        {
+            "__line": 166928,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-gatiH#}@}"
+            ],
+            "_banner": ".{@{#-gatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityagatiH"
+                }
+            ],
+            "_meanings": [
+                "air, wind.\n"
+            ]
+        },
+        {
+            "__line": 166929,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-jAta#}@}"
+            ],
+            "_banner": ".{@{#-jAta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityajAta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "constantly born; {#aTa cEnaM nityajAtaM nityaM vA#}\n {#manyase mftam#} <ls>Bg. 2. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 166931,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityadAnam"
+                }
+            ],
+            "_meanings": [
+                "daily alms-giving.\n"
+            ]
+        },
+        {
+            "__line": 166932,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-niyamaH#}@}"
+            ],
+            "_banner": ".{@{#-niyamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityaniyamaH"
+                }
+            ],
+            "_meanings": [
+                "an invariable rule.\n"
+            ]
+        },
+        {
+            "__line": 166933,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-nEmittikam#}@}"
+            ],
+            "_banner": ".{@{#-nEmittikam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityanEmittikam"
+                }
+            ],
+            "_meanings": [
+                "an occasional act regularly recurring, or any ceremony\n constantly performed to accomplish a particular object, {%<ab>e. g.</ab>%} (a {#parvaSrAdDa#}).\n"
+            ]
+        },
+        {
+            "__line": 166935,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-puzwa#}@}"
+            ],
+            "_banner": ".{@{#-puzwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityapuzwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "always well-supplied.\n"
+            ]
+        },
+        {
+            "__line": 166936,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-pralayaH#}@}"
+            ],
+            "_banner": ".{@{#-pralayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityapralayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the constant dissolution of living beings.\n",
+                ".²2 sleep.\n"
+            ]
+        },
+        {
+            "__line": 166939,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-budDiH#}@}"
+            ],
+            "_banner": ".{@{#-budDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityabudDiH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "considering anything as constant or eternal.\n"
+            ]
+        },
+        {
+            "__line": 166940,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "eternity.\n"
+            ]
+        },
+        {
+            "__line": 166941,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-muktaH#}@}"
+            ],
+            "_banner": ".{@{#-muktaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityamuktaH"
+                }
+            ],
+            "_meanings": [
+                "the Supreme Spirit.\n"
+            ]
+        },
+        {
+            "__line": 166942,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-yukta#}@}"
+            ],
+            "_banner": ".{@{#-yukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityayukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "always busy or intent upon.\n"
+            ]
+        },
+        {
+            "__line": 166943,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-yuj#}@}"
+            ],
+            "_banner": ".{@{#-yuj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityayuj"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the mind always fixed upon one object; {#dfgBirhfdIkftamalaM#}\n {#pariraBya sarvAstadBAvamApurapi nityayujAM durApam#} <ls>Bhāg. 10. 82. 40</ls>.\n"
+            ]
+        },
+        {
+            "__line": 166945,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-yOvanA#}@}"
+            ],
+            "_banner": ".{@{#-yOvanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityayOvanA"
+                }
+            ],
+            "_meanings": [
+                "(ever youthful) an epithet of Draupadī.\n"
+            ]
+        },
+        {
+            "__line": 166946,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityavratam"
+                }
+            ],
+            "_meanings": [
+                "a perpetual observance (lasting for life).\n"
+            ]
+        },
+        {
+            "__line": 166947,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-SaNkita#}@}"
+            ],
+            "_banner": ".{@{#-SaNkita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityaSaNkita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "perpetually alarmed, ever suspicious.\n"
+            ]
+        },
+        {
+            "__line": 166948,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-samaH#}@}"
+            ],
+            "_banner": ".{@{#-samaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityasamaH"
+                }
+            ],
+            "_meanings": [
+                "the assertion that all things remain the same; <ls>Sarva. S.</ls>\n"
+            ]
+        },
+        {
+            "__line": 166949,
+            "_ancestry": [
+                "L_ 18750",
+                "B_ {#nitya#}",
+                "S_ .{@{#-samAsaH#}@}"
+            ],
+            "_banner": ".{@{#-samAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nityasamAsaH"
+                }
+            ],
+            "_meanings": [
+                "‘a necessary compound’, a compund the meaning of which\n cannot be expressed by its constituent members used separately (the separate\n ideas having merged in one); {%<ab>e. g.</ab>%} {#jamadagni, jayadraTa#} <ab>&c.</ab>; {#ivena#}\n {#nityasamAsaH#} <ab>&c.</ab>"
+            ]
+        }
     ]
 }

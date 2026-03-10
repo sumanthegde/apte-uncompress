@@ -1,19 +1,118 @@
 {
-    "__line": 94286,
+    "__line": 93989,
     "_ancestry": [
         "L_ 11251",
-        "B_ {#kulva#}"
+        "B_ {#kaWina#}"
     ],
-    "_banner": "{#kulva#}",
+    "_banner": "{#kaWina#}",
     "_bannerExp": [
         {
-            "Right": "kulva"
+            "Right": "kaWina"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Bald, bare."
+        ".²1 Hard, stiff; {#kaWinavizamAmekaveRIM sArayantIm#} <ls>Me. 93</ls>; <ls>Amaru. 72</ls>;\n <ls>Mu. 2. 20</ls>; so {#˚stanO#}.\n",
+        ".²2 Hard-hearted, cruel, ruthless; {#na vidIrye kaWinAH Kalu striyaH#}\n <ls>Ku. 4. 5</ls>; <ls>Pt. 1. 64</ls>; {#visfja kaWine mAnamaDunA#} <ls>Amaru. 7</ls>; so {#˚hfdaya#}; {@{#˚citta#}@}\n",
+        ".²3 Inexorable, inflexible.\n",
+        ".²4 Sharp, violent, intense (as pain <ab>&c.</ab>). {#nitAntakaWinAM rujaM mama#}\n {#na veda sA mAnasIm#} <ls>V. 2. 11</ls>.\n",
+        ".²5 Giving pain.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 93998,
+            "_ancestry": [
+                "L_ 11251",
+                "B_ {#kaWina#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWinaH"
+                }
+            ],
+            "_meanings": [
+                "A thicket.\n"
+            ]
+        },
+        {
+            "__line": 93999,
+            "_ancestry": [
+                "L_ 11251",
+                "B_ {#kaWina#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWinA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sweetmeat made with refined sugar.\n",
+                ".²2 An earthen vessel for cooking; ({%n.%} also in this sense).\n"
+            ]
+        },
+        {
+            "__line": 94002,
+            "_ancestry": [
+                "L_ 11251",
+                "B_ {#kaWina#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWinI"
+                }
+            ],
+            "_meanings": [
+                "Chalk. See {#kaWinikA#}.\n"
+            ]
+        },
+        {
+            "__line": 94003,
+            "_ancestry": [
+                "L_ 11251",
+                "B_ {#kaWina#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWinam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A Shovel, scoop; {#plave kaWinakAjaM ca rAmaScake samAhitaH#} <ls>Rām. 2. 55. 17</ls>.\n",
+                ".²2 An earthern vessel for cooking ({#sTAlI#}); {#kaWinaM pUrayAmAsa#} <ls>Mb. 3. 297. 1</ls>.\n",
+                ".²3 A strap or pole for carrying burden; <ls>P. IV. 4. 72</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 94008,
+            "_ancestry": [
+                "L_ 11251",
+                "B_ {#kaWina#}",
+                "S_ .{@{#-pfzWaH, -kaH#}@}"
+            ],
+            "_banner": ".{@{#-pfzWaH, -kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaWinapfzWaH"
+                },
+                {
+                    "Left": "S error: 1 syl pfzWaH kaH"
+                }
+            ],
+            "_meanings": [
+                "a tortoise."
+            ]
+        }
     ]
 }

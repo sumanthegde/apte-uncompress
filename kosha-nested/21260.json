@@ -1,21 +1,84 @@
 {
-    "__line": 175839,
+    "__line": 190258,
     "_ancestry": [
         "L_ 21260",
-        "B_ {#prAs#}"
+        "B_ {#pAlASa#}"
     ],
-    "_banner": "{#prAs#}",
+    "_banner": "{#pAlASa#}",
     "_bannerExp": [
         {
-            "Right": "prAs"
+            "Right": "pAlASa"
+        },
+        {
+            "Right": "pAlASI"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-SI#}|{%f.%})",
+        "[{#palASa-aR#}]"
     ],
     "_meanings": [
-        "{@--1@} To throw, hurl or\nfling. ",
-        "{@--2@} To discharge, cast (as a\nmissile)."
+        ".²1 Belonging to or coming from the Palāśa tree.\n",
+        ".²2 Made of the wood of the Palāśa tree; <ls>Ms. 2. 45</ls>.\n",
+        ".²3 Green; {#pAlASa-tAmrAsita-karburARAm#} <ls>Bṛ. S.</ls>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 190263,
+            "_ancestry": [
+                "L_ 21260",
+                "B_ {#pAlASa#}",
+                "M_ .{@{#-SaH#}@}"
+            ],
+            "_banner": ".{@{#-SaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAlASaH"
+                }
+            ],
+            "_meanings": [
+                "The green colour.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 190265,
+            "_ancestry": [
+                "L_ 21260",
+                "B_ {#pAlASa#}",
+                "S_ .{@{#-KaRqaH, -zaRqaH#}@}"
+            ],
+            "_banner": ".{@{#-KaRqaH, -zaRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAlASaKaRqaH"
+                },
+                {
+                    "Right": "pAlASazaRqaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of the Magadha country.\n"
+            ]
+        },
+        {
+            "__line": 190266,
+            "_ancestry": [
+                "L_ 21260",
+                "B_ {#pAlASa#}",
+                "S_ .{@{#-viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAlASaviDiH"
+                }
+            ],
+            "_meanings": [
+                "Burning a human corpse with Pālāśa wood in case it is\n not burnt in the normal course. <ls>Śabda Ch.</ls>"
+            ]
+        }
     ]
 }

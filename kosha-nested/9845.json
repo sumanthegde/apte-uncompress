@@ -1,20 +1,66 @@
 {
-    "__line": 82982,
+    "__line": 82333,
     "_ancestry": [
         "L_ 9845",
-        "B_ {#OpavastraM#}"
+        "B_ {#upalabDa#}"
     ],
-    "_banner": "{#OpavastraM#}",
+    "_banner": "{#upalabDa#}",
     "_bannerExp": [
         {
-            "Right": "OpavastraM"
+            "Right": "upalabDa"
         }
     ],
     "_gram": [
-        "[{#upavastra-aR#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Food\nsuitable for a fast. ",
-        "{@--2@} Fasting."
+        ".²1 Gained, obtained.\n",
+        ".²2 Conceived.\n",
+        ".²3 Perceived, understood, known, guessed.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 82338,
+            "_ancestry": [
+                "L_ 9845",
+                "B_ {#upalabDa#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upalabDArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the meaning understood.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 82339,
+                    "_ancestry": [
+                        "L_ 9845",
+                        "B_ {#upalabDa#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-bDArTA#}@}"
+                    ],
+                    "_banner": "({@{#-bDArTA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "upalabDArTA"
+                        }
+                    ],
+                    "_gram": [
+                        "{%f.%}"
+                    ],
+                    "_meanings": [
+                        "a tale, a true or probable story."
+                    ]
+                }
+            ]
+        }
     ]
 }

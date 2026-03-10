@@ -1,19 +1,39 @@
 {
-    "__line": 37255,
+    "__line": 33887,
     "_ancestry": [
         "L_ 4090",
-        "B_ {#aruza(zya)ti#}"
+        "B_ {#aByuzita#}"
     ],
-    "_banner": "{#aruza(zya)ti#}",
+    "_banner": "{#aByuzita#}",
     "_bannerExp": [
         {
-            "Right": "aruzati"
-        },
-        {
-            "Right": "aruzyati"
+            "Right": "aByuzita"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#vas-kta#}]"
+    ],
     "_meanings": [
-        "<ab>Den.</ab> <ab>P.</ab> To go."
+        "Dwelling near or with.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 33888,
+            "_ancestry": [
+                "L_ 4090",
+                "B_ {#aByuzita#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aByuzitaH"
+                }
+            ],
+            "_meanings": [
+                "A servant who is in attendance."
+            ]
+        }
     ]
 }

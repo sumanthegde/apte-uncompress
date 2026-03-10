@@ -1,21 +1,65 @@
 {
-    "__line": 240560,
+    "__line": 264757,
     "_ancestry": [
         "L_ 28631",
-        "B_ {#saMvAhanaM, --nA#}"
+        "B_ {#varman#}"
     ],
-    "_banner": "{#saMvAhanaM, --nA#}",
+    "_banner": "{#varman#}",
     "_bannerExp": [
         {
-            "Right": "saMvAhanA"
-        },
-        {
-            "Right": "saMvAhanaM"
+            "Right": "varman"
         }
     ],
+    "_gram": [
+        "{%n.%}",
+        "[{#AvfRoti aNgam vf-manin#} <ls>Uṇ. 4. 157</ls>]"
+    ],
     "_meanings": [
-        "{@--1@} Carrying or bearing\na burden. ",
-        "{@--2@} Shampooing; gentle\nrubbing: <ls>U. 1. 24.</ls> ",
-        "{@--3@} Bearing\nalong. propelling; <ls>Māl. 9. 25.</ls>"
+        ".²1 An armour, a coat of mail; {#svahfdayamarmaRi varma karoti sajalanalinIdalajAlam#}\n <ls>Gīt. 4</ls>; <ls>R. 4. 56</ls>; <ls>Mu. 2. 8</ls>; <ls>Śi. 15. 76</ls>.\n",
+        ".²2 (Hence) Shelter, protection.\n",
+        ".²3 Bark, rind.\n",
+        ".²4 <ab>N.</ab> of preservative mantras (<ab>esp.</ab> of {#hum#}). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 264762,
+            "_ancestry": [
+                "L_ 28631",
+                "B_ {#varman#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#varman#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An affix added\n to the names of Kṣatriyas; as {#caRqavarman, prahAravarman#}; <ab>cf.</ab> {#dAsa#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 264765,
+            "_ancestry": [
+                "L_ 28631",
+                "B_ {#varman#}",
+                "S_ .{@{#-hara#}@}"
+            ],
+            "_banner": ".{@{#-hara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varmahara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 wearing armour.\n",
+                ".²2 old enough to wear armour ({%<ab>i. e.</ab>%} to take part in battle); {#samyagvinItamaTa#}\n {#varmaharaM kumAram#} <ls>R. 8. 94</ls>."
+            ]
+        }
     ]
 }

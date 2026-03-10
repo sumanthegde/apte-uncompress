@@ -1,21 +1,131 @@
 {
-    "__line": 258676,
+    "__line": 285229,
     "_ancestry": [
         "L_ 30862",
-        "B_ {#sTAman#}"
+        "B_ {#veSman#}"
     ],
-    "_banner": "{#sTAman#}",
+    "_banner": "{#veSman#}",
     "_bannerExp": [
         {
-            "Right": "sTAman"
+            "Right": "veSman"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}",
-        "[{#sTA-manin#}]"
+        "{%n.%}",
+        "[{#viS-manin#}]"
     ],
     "_meanings": [
-        "{@--1@} Strength,\npower, stamina, as in the word\n{#aSvatTAman#}, see the quotation from\n<ls>Mb.</ls> under {#aSvatTAman#}. ",
-        "{@--2@} Fixity,\nstability."
+        ".²1 A house, dwelling, an abode, a mansion, palace; {#veSmAni rAmaH paribarhavanti#}\n {#viSrARya sOhArdaniDiH suhfdByaH#} <ls>R. 14. 15</ls>; <ls>Me. 25</ls>; <ls>Ms. 4. 73</ls>, <ls n=\"Ms.\">9. 85</ls>.\n",
+        ".²2 <ab>N.</ab> of the 4th astrological house.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 285234,
+            "_ancestry": [
+                "L_ 30862",
+                "B_ {#veSman#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSmakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "house-building.\n"
+            ]
+        },
+        {
+            "__line": 285235,
+            "_ancestry": [
+                "L_ 30862",
+                "B_ {#veSman#}",
+                "S_ .{@{#-kaliNgaH#}@}"
+            ],
+            "_banner": ".{@{#-kaliNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSmakaliNgaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of sparrow.\n"
+            ]
+        },
+        {
+            "__line": 285236,
+            "_ancestry": [
+                "L_ 30862",
+                "B_ {#veSman#}",
+                "S_ .{@{#-nakulaH#}@}"
+            ],
+            "_banner": ".{@{#-nakulaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSmanakulaH"
+                }
+            ],
+            "_meanings": [
+                "the musk-rat.\n"
+            ]
+        },
+        {
+            "__line": 285237,
+            "_ancestry": [
+                "L_ 30862",
+                "B_ {#veSman#}",
+                "S_ .{@{#-BUH#}@}"
+            ],
+            "_banner": ".{@{#-BUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSmaBUH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the site of a habitation, building-ground.\n"
+            ]
+        },
+        {
+            "__line": 285238,
+            "_ancestry": [
+                "L_ 30862",
+                "B_ {#veSman#}",
+                "S_ .{@{#-vAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSmavAsaH"
+                }
+            ],
+            "_meanings": [
+                "A sleeping room.\n"
+            ]
+        },
+        {
+            "__line": 285239,
+            "_ancestry": [
+                "L_ 30862",
+                "B_ {#veSman#}",
+                "S_ .{@{#-sTURA#}@}"
+            ],
+            "_banner": ".{@{#-sTURA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSmasTURA"
+                }
+            ],
+            "_meanings": [
+                "the main post of a house."
+            ]
+        }
     ]
 }

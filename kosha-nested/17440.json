@@ -1,30 +1,65 @@
 {
-    "__line": 146558,
+    "__line": 153286,
     "_ancestry": [
         "L_ 17440",
-        "B_ {#nESa#}"
+        "B_ {#dUtaH, dUtakaH#}"
     ],
-    "_banner": "{#nESa#}",
+    "_banner": "{#dUtaH, dUtakaH#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: nESa  kI"
+            "Right": "dUtaH"
         },
         {
-            "Right": "nESI"
-        },
-        {
-            "Right": "nESa"
+            "Right": "dUtakaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#SI#}|{%<ab>f.</ab>%})",
-        "{#nESika#}",
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "[<ab>cf.</ab> <ls>Uṇ. 3. 90</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Nocturnal, belonging to the night,\nnightly; {#tannESaM timiramapAkaroti caMdraH#}  \n<ls>Ś. 6. 29</ls>; {#nESasyArcirhutaBuja iva#} \n{#CinnaBUyizWaDUmA#} <ls>V. 1. 8</ls>; <ls>Ki. 5. 2.</ls> ",
-        "{@--2@} To be\nobserved at night."
+        ".²1 A messenger; {#arTAnarTAntare budDirniScitApi na SoBate . GAtayanti#}\n {#hi kAryARi dUtAH paRqitamAninaH ..#} <ls>Rām. 5. 30. 38</ls>.\n",
+        ".²2 An envoy, an ambassador; <ls>Chāṇ. 106</ls>. {@{#dUtayati#}@} {%<ab>Denom.</ab>%} To\n send as a messenger; {#aDistri taM dUtayatAm#} <ls>N. 9. 22</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 153292,
+            "_ancestry": [
+                "L_ 17440",
+                "B_ {#dUtaH, dUtakaH#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dUtamuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "speaking by an ambassador; <ls>Śi. 2. 82</ls>.\n"
+            ]
+        },
+        {
+            "__line": 153293,
+            "_ancestry": [
+                "L_ 17440",
+                "B_ {#dUtaH, dUtakaH#}",
+                "S_ .{@{#-saMpAtaH, -saMprezaRam#}@}"
+            ],
+            "_banner": ".{@{#-saMpAtaH, -saMprezaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dUtasampAtaH"
+                },
+                {
+                    "Right": "dUtasamprezaRam"
+                }
+            ],
+            "_meanings": [
+                "Sending a messenger; {#sa dArakasya kAraRAd#}\n {#dUtasaMpAtaM karoti#} <ls>Svapna. 1</ls>; <ls>Ms. 7. 153</ls>."
+            ]
+        }
     ]
 }

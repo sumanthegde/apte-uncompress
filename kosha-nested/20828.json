@@ -1,20 +1,38 @@
 {
-    "__line": 172634,
+    "__line": 186439,
     "_ancestry": [
         "L_ 20828",
-        "B_ {#praSAstf#}"
+        "B_ {#palASin#}"
     ],
-    "_banner": "{#praSAstf#}",
+    "_banner": "{#palASin#}",
     "_bannerExp": [
         {
-            "Right": "praSAstf"
+            "Right": "palASin"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} A king, ruler, \ngovernor. ",
-        "{@--2@} A director, adviser;  \n<ls>Pt. 5. 63.</ls>"
+        "Leafy. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 186439,
+            "_ancestry": [
+                "L_ 20828",
+                "B_ {#palASin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#palASin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A tree; {#plavantaSca palASizu#} <ls>Bhāg. 10. 12. 9</ls>."
+            ]
+        }
     ]
 }

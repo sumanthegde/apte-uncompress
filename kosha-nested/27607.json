@@ -1,17 +1,45 @@
 {
-    "__line": 232310,
+    "__line": 254818,
     "_ancestry": [
         "L_ 27607",
-        "B_ {#SapanaM#}"
+        "B_ {#recanam#}, {#-nA#}"
     ],
-    "_banner": "{#SapanaM#}",
+    "_banner": "{#recanam#}, {#-nA#}",
     "_bannerExp": [
         {
-            "Right": "SapanaM"
+            "Right": "recanam"
+        },
+        {
+            "Right": "recanA"
         }
     ],
+    "_gram": [
+        "[{#ric-lyuw#}]"
+    ],
     "_meanings": [
-        "{@--1@} See {#SapaTa#}. ",
-        "{@--2@} Reviling;\nabuse."
+        ".²1 Emptying.\n",
+        ".²2 Loosening, diminishing.\n",
+        ".²3 Emitting the breath.\n",
+        ".²4 Purging.\n",
+        ".²5 Evacuation.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 254825,
+            "_ancestry": [
+                "L_ 27607",
+                "B_ {#recanam#}, {#-nA#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "recanI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of various plants (such as Ipomoea Turpethus, <lang>Mar.</lang> <ns>{#teMqU#}</ns>;\n Croton Polyandrum, <lang>Mar.</lang> <ns>{#daMtI#}</ns>)."
+            ]
+        }
     ]
 }

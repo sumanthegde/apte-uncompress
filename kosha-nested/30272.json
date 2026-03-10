@@ -1,16 +1,42 @@
 {
-    "__line": 252980,
+    "__line": 279191,
     "_ancestry": [
         "L_ 30272",
-        "B_ {#sikyaM#}"
+        "B_ {#vivAsaH#}, {#-vivAsanam#}"
     ],
-    "_banner": "{#sikyaM#}",
+    "_banner": "{#vivAsaH#}, {#-vivAsanam#}",
     "_bannerExp": [
         {
-            "Right": "sikyaM"
+            "Right": "vivAsaH"
+        },
+        {
+            "Right": "vivAsanam"
         }
     ],
     "_meanings": [
-        "See {#Sikya#}."
+        ".²1 Banishment, sending into exile, expulsion; {#rAmasya gAtramasi durvahagarBaKinnasItAvivAsanapawoH#}\n {#karuRA kutaste#} <ls>U. 2. 10</ls>.\n",
+        ".²2 Separation from; {#priyErvivAso bahuSaH saMvAsaScApriyEH saha#} <ls>Mb. 14. 16. 34</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 279195,
+            "_ancestry": [
+                "L_ 30272",
+                "B_ {#vivAsaH#}, {#-vivAsanam#}",
+                "M_ .{@{#-vivAsakAle#}@}"
+            ],
+            "_banner": ".{@{#-vivAsakAle#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: vivAsaH/vivAsanam vivAsakAle"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "At the time of day-break."
+            ]
+        }
     ]
 }

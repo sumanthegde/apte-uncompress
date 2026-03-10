@@ -1,18 +1,58 @@
 {
-    "__line": 211813,
+    "__line": 224520,
     "_ancestry": [
         "L_ 24986",
-        "B_ {#vanIyati#}"
+        "B_ {#Bavila#}"
     ],
-    "_banner": "{#vanIyati#}",
+    "_banner": "{#Bavila#}",
     "_bannerExp": [
         {
-            "Right": "vanIyati"
+            "Right": "Bavila"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#BU-Bavizyati ilac#}]"
+    ],
     "_meanings": [
-        "<ab>Den.</ab> <ab>P.</ab> ",
-        "{@--1@} To beg, (as\nalms). ",
-        "{@--2@} To ask, entreat, request."
+        ".²1 Being, living.\n",
+        ".²2 Future.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 224523,
+            "_ancestry": [
+                "L_ 24986",
+                "B_ {#Bavila#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BavilaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A paramour.\n",
+                ".²2 A sensualist, voluptuary.\n"
+            ]
+        },
+        {
+            "__line": 224526,
+            "_ancestry": [
+                "L_ 24986",
+                "B_ {#Bavila#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bavilam"
+                }
+            ],
+            "_meanings": [
+                "A house."
+            ]
+        }
     ]
 }

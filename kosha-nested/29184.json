@@ -1,22 +1,99 @@
 {
-    "__line": 244933,
+    "__line": 270129,
     "_ancestry": [
         "L_ 29184",
-        "B_ {#saMdfB#}"
+        "B_ {#vikarman#}"
     ],
-    "_banner": "{#saMdfB#}",
+    "_banner": "{#vikarman#}",
     "_bannerExp": [
         {
-            "Right": "saMdfB"
+            "Right": "vikarman"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To string or bind\ntogether. ",
-        "{@--2@} To weave together,\nweave into a bunch or garland. ",
-        "{@--3@}\nTo arrange, connect, compose."
+        "Acting wrongly. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 270129,
+            "_ancestry": [
+                "L_ 29184",
+                "B_ {#vikarman#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vikarman#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An unlawful or prohibited act, an impious act; {#karmaRo hyapi bodDavyaM#}\n {#bodDavyaM ca vikarmaRaH#} <ls>Bg. 4. 17</ls>; <ls>Ms. 9. 226</ls>; <ls>Bhāg. 11. 3. 43</ls>.\n",
+                ".²2 Various or divergent duty.\n",
+                ".²3 Retiring from business.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 270135,
+            "_ancestry": [
+                "L_ 29184",
+                "B_ {#vikarman#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikarmakft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following unlawful occupation; <ls>Ms. 8. 66</ls>.\n"
+            ]
+        },
+        {
+            "__line": 270136,
+            "_ancestry": [
+                "L_ 29184",
+                "B_ {#vikarman#}",
+                "S_ .{@{#-kriyA#}@}"
+            ],
+            "_banner": ".{@{#-kriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikarmakriyA"
+                }
+            ],
+            "_meanings": [
+                "an illegal act, irreligious conduct; ({#pracCannataskarAH#})\n {#vikarmakriyayA nityaM bADante BadrikAH prajAH#} <ls>Ms. 9. 226</ls>.\n"
+            ]
+        },
+        {
+            "__line": 270138,
+            "_ancestry": [
+                "L_ 29184",
+                "B_ {#vikarman#}",
+                "S_ .{@{#-sTa#}@}"
+            ],
+            "_banner": ".{@{#-sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikarmasTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "doing prohibited acts, addicted to vice."
+            ]
+        }
     ]
 }

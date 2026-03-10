@@ -1,20 +1,38 @@
 {
-    "__line": 83615,
+    "__line": 82932,
     "_ancestry": [
         "L_ 9944",
-        "B_ {#kakK#}"
+        "B_ {#upaSAlam#}"
     ],
-    "_banner": "{#kakK#}",
+    "_banner": "{#upaSAlam#}",
     "_bannerExp": [
         {
-            "Right": "kakK"
+            "Right": "upaSAlam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
-    ],
     "_meanings": [
-        "To laugh."
+        "A place near a house, a court before a house.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 82933,
+            "_ancestry": [
+                "L_ 9944",
+                "B_ {#upaSAlam#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upaSAlam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Near a house."
+            ]
+        }
     ]
 }

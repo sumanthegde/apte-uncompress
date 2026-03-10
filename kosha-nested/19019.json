@@ -1,19 +1,81 @@
 {
-    "__line": 158922,
+    "__line": 170167,
     "_ancestry": [
         "L_ 19019",
-        "B_ {#piSIlaM --lakaM#}"
+        "B_ {#nirdara#}"
     ],
-    "_banner": "{#piSIlaM --lakaM#}",
+    "_banner": "{#nirdara#}",
     "_bannerExp": [
         {
-            "Right": "piSIlaM"
-        },
-        {
-            "Right": "piSIlakaM"
+            "Right": "nirdara"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> An earthern\nvessel."
+        ".²1 Hard.\n",
+        ".²2 Pitiless.\n",
+        ".²3 Shameless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 170171,
+            "_ancestry": [
+                "L_ 19019",
+                "B_ {#nirdara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nirdaraH"
+                }
+            ],
+            "_meanings": [
+                ",\n.({@{#-riH#}@})\n",
+                ".²1 A cave, cavern; {#santIha giridurgaRi nirdarAH kandarARi ca#} <ls>Rām. 3. 67. 5</ls>, <ls n=\"Rām.\">4. 13. 6</ls>.\n",
+                ".²2 waterfall, spring.\n"
+            ]
+        },
+        {
+            "__line": 170175,
+            "_ancestry": [
+                "L_ 19019",
+                "B_ {#nirdara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nirdaram"
+                }
+            ],
+            "_meanings": [
+                "Essence ({#sAra#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 170177,
+            "_ancestry": [
+                "L_ 19019",
+                "B_ {#nirdara#}",
+                "S_ .{@{#-vAsin#}@}"
+            ],
+            "_banner": ".{@{#-vAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nirdaravAsin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inhabiting a cave; {#girinirdaravAsinAm#} <ls>Rām.</ls>"
+            ]
+        }
     ]
 }

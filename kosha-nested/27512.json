@@ -1,41 +1,75 @@
 {
-    "__line": 231299,
+    "__line": 253777,
     "_ancestry": [
         "L_ 27512",
-        "B_ {#SakalaH --laM#}"
+        "B_ {#rItiH#}"
     ],
-    "_banner": "{#SakalaH --laM#}",
+    "_banner": "{#rItiH#}",
     "_bannerExp": [
         {
-            "Right": "SakalaH"
-        },
-        {
-            "Right": "SakalaM"
+            "Right": "rItiH"
         }
     ],
     "_gram": [
-        "[{#Sak-kalak#}  \n<ls>Uṇ. 1. 109</ls>]"
+        "{%f.%}",
+        "[{#rI-ktin#}]"
     ],
     "_meanings": [
-        "A part, portion, piece,\nfragment, bit; {#upalaSakalametadBedakaM#}\n{#gomayAnAM#} <ls>Mu. 3. 15</ls>; <ls>R. 2. 46</ls>, <ls n=\"R.\">5. 73.</ls>\n"
+        ".²1 Moving, flowing.\n",
+        ".²2 Motion, course.\n",
+        ".²3 A stream, river.\n",
+        ".²4 A line, boundary.\n\n",
+        ".²5 A method, mode, manner, way, fashion, course, general way; {#rItiM girAmamftavfzwikarIM#}\n {#tadIyAm#} <ls>Bv. 3. 19</ls>; {#putrAdapi DanaBAjAM BItiH sarvatrEzA vihitA rItiH#}\n <ls>Moha M. 2</ls>; {#uktarItyA, anayEva rItyA#} <ab>&c.</ab>\n",
+        ".²6 Usage, custom, practice.\n",
+        ".²7 Style, diction; {#padasaMGawanA rItiraNgasaMsTAviSezavat . upakatrIM#}\n {#rasAdInAM sA punaH syAccaturviDA .. vEdaBIM cATa gOqI ca pAYcAlI lAwikA#}\n {#taTA .#} <ls>S. D. 624-5</ls>.\n",
+        ".²8 Brass, bell-metal; ({#rItI#} also in this sense).\n",
+        ".²9 Rust of iron.\n",
+        ".²10 The oxide formed on the surface of metals.\n",
+        ".²11 Calx of brass.\n",
+        ".²12 Natural property or disposition.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 231303,
+            "__line": 253796,
             "_ancestry": [
                 "L_ 27512",
-                "B_ {#SakalaH --laM#}",
-                "M_ {#--laM#}"
+                "B_ {#rItiH#}",
+                "S_ .{@{#-kusumam, -jam, -puzpam#}@}"
             ],
-            "_banner": "{#--laM#}",
+            "_banner": ".{@{#-kusumam, -jam, -puzpam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SakalaM"
+                    "Right": "rItikusumam"
+                },
+                {
+                    "Left": "S error: 1 syl kusumaM jaM"
+                },
+                {
+                    "Right": "rItipuzpam"
                 }
             ],
             "_meanings": [
-                "{@--1@} Bark. ",
-                "{@--2@} The scales (of a\nfish)."
+                "calx of brass.\n"
+            ]
+        },
+        {
+            "__line": 253797,
+            "_ancestry": [
+                "L_ 27512",
+                "B_ {#rItiH#}",
+                "S_ .{@{#-badDa#}@}"
+            ],
+            "_banner": ".{@{#-badDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rItibadDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inlaid with brass."
             ]
         }
     ]

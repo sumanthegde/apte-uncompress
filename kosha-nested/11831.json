@@ -1,43 +1,39 @@
 {
-    "__line": 99067,
+    "__line": 99755,
     "_ancestry": [
         "L_ 11831",
-        "B_ {#kzap#}"
+        "B_ {#kazAyin#}"
     ],
-    "_banner": "{#kzap#}",
+    "_banner": "{#kazAyin#}",
     "_bannerExp": [
         {
-            "Right": "kzap"
+            "Right": "kazAyin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#kzapati-te, kzapita#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To fast,\nto be abstinent; <ls>Ms. 5. 69.</ls> "
+        ".²1 Yielding a resinous exudation, astringent\n",
+        ".²2 Dyed of a red colour.\n",
+        ".²3 Worldly-minded. "
     ],
     "_morphisms": [
         {
-            "__line": 99068,
+            "__line": 99758,
             "_ancestry": [
                 "L_ 11831",
-                "B_ {#kzap#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#kazAyin#}",
+                "M_ --{%m.%}"
             ],
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "kzap"
+                    "Left": "Parser error: {#kazAyin#} M_ --{%m.%}"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
-            ],
             "_meanings": [
-                "or {c10c} <ab>U.</ab> ({#kzapayati-te, kzapita#}) ",
-                "{@--1@} To throw,\nsend, cast. ",
-                "{@--2@} To miss."
+                "<ab>N.</ab> of several plants:-- {#KarjUra, SAla#} <ab>&c.</ab>"
             ]
         }
     ]

@@ -1,17 +1,43 @@
 {
-    "__line": 92781,
+    "__line": 92171,
     "_ancestry": [
         "L_ 11036",
-        "B_ {#kuwilikA#}"
+        "B_ {#Oraga#}"
     ],
-    "_banner": "{#kuwilikA#}",
+    "_banner": "{#Oraga#}",
     "_bannerExp": [
         {
-            "Right": "kuwilikA"
+            "Right": "Oraga"
+        },
+        {
+            "Right": "OragI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-gI#}|{%f.%})",
+        "[{#uraga-aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} Coming stealthily as\na hunter on his prey, crouching.\n",
-        "{@--2@} A blacksmith's forge."
+        "Serpentine, relating to a serpent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 92172,
+            "_ancestry": [
+                "L_ 11036",
+                "B_ {#Oraga#}",
+                "M_ .{@{#-gam#}@}"
+            ],
+            "_banner": ".{@{#-gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Oragam"
+                }
+            ],
+            "_meanings": [
+                "The constellation {#ASlezA#}."
+            ]
+        }
     ]
 }

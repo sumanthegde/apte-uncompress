@@ -1,21 +1,97 @@
 {
-    "__line": 223641,
+    "__line": 242535,
     "_ancestry": [
         "L_ 26529",
-        "B_ {#viSasta#}"
+        "B_ {#mUlaka#}"
     ],
-    "_banner": "{#viSasta#}",
+    "_banner": "{#mUlaka#}",
     "_bannerExp": [
         {
-            "Right": "viSasta"
+            "Right": "mUlaka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Cut up, hacked. \n\n",
-        "{@--2@} Rude, ill-mannered. ",
-        "{@--3@} Praised,\ncelebrated."
+        ".²1 (At the end of <ab>comp.</ab>) Rooted in, springing from, founded or based on;\n {#BrAntimUlaka#} ‘based on error’.\n",
+        ".²2 Born under the constellation Mūla; <ls>P. IV. 3. 28</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 242539,
+            "_ancestry": [
+                "L_ 26529",
+                "B_ {#mUlaka#}",
+                "M_ .{@{#-kaH, -kam#}@}"
+            ],
+            "_banner": ".{@{#-kaH, -kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUlakaH"
+                },
+                {
+                    "Right": "mUlakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A radish.\n",
+                ".²2 An esculent root.\n",
+                ".²3 A sort of yam.\n"
+            ]
+        },
+        {
+            "__line": 242543,
+            "_ancestry": [
+                "L_ 26529",
+                "B_ {#mUlaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUlakaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of poison.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 242545,
+            "_ancestry": [
+                "L_ 26529",
+                "B_ {#mUlaka#}",
+                "S_ .{@{#-paRaH#}@}"
+            ],
+            "_banner": ".{@{#-paRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUlakapaRaH"
+                }
+            ],
+            "_meanings": [
+                "a handful of radishes <ab>&c.</ab> (for sale).\n"
+            ]
+        },
+        {
+            "__line": 242546,
+            "_ancestry": [
+                "L_ 26529",
+                "B_ {#mUlaka#}",
+                "S_ .{@{#-potikA#}@}"
+            ],
+            "_banner": ".{@{#-potikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUlakapotikA"
+                }
+            ],
+            "_meanings": [
+                "a radish."
+            ]
+        }
     ]
 }

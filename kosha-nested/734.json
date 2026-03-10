@@ -1,19 +1,59 @@
 {
-    "__line": 8821,
+    "__line": 7322,
     "_ancestry": [
         "L_ 734",
-        "B_ {#atuMda#}"
+        "B_ {#ati(ro)lomaSa#}"
     ],
-    "_banner": "{#atuMda#}",
+    "_banner": "{#ati(ro)lomaSa#}",
     "_bannerExp": [
         {
-            "Right": "atuMda"
+            "Right": "atiromaSa"
+        },
+        {
+            "Right": "atilomaSa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Not bulky, lean, lank."
+        "Very hairy, shaggy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 7323,
+            "_ancestry": [
+                "L_ 734",
+                "B_ {#ati(ro)lomaSa#}",
+                "M_ .{@{#-SaH#}@}"
+            ],
+            "_banner": ".{@{#-SaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atiromaSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wild goat.\n",
+                ".²2 A large monkey.\n"
+            ]
+        },
+        {
+            "__line": 7326,
+            "_ancestry": [
+                "L_ 734",
+                "B_ {#ati(ro)lomaSa#}",
+                "M_ .{@{#-SA#}@}"
+            ],
+            "_banner": ".{@{#-SA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atiromaSA"
+                }
+            ],
+            "_meanings": [
+                "A pot-herb ({#nIlabuhnA#}) Convolvulus Argenteus. (<lang>Mar.</lang> <ns>{#SaMKavela#}</ns>)"
+            ]
+        }
     ]
 }

@@ -1,20 +1,72 @@
 {
-    "__line": 176463,
+    "__line": 190850,
     "_ancestry": [
         "L_ 21330",
-        "B_ {#pretvan#}"
+        "B_ {#picCila#}"
     ],
-    "_banner": "{#pretvan#}",
+    "_banner": "{#picCila#}",
     "_bannerExp": [
         {
-            "Right": "pretvan"
+            "Right": "picCila"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "[{#picC bA˚ ila#}]"
     ],
     "_meanings": [
-        "{@--1@} Wind. ",
-        "{@--2@} An \nepithet of Indra."
+        ".²1 Slimy, lubricous, slippery, smeary; <ls>Mb. 12. 184. 34</ls>; {#taruRaM sarzapaSAkaM#}\n {#navOdanaM picCilAni ca daDIni#} <ls>Chand. M. 1</ls>.\n",
+        ".²2 Having a tail.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 190854,
+            "_ancestry": [
+                "L_ 21330",
+                "B_ {#picCila#}",
+                "M_ .{@{#-laH, -lA, -lam#}@}"
+            ],
+            "_banner": ".{@{#-laH, -lA, -lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "picCilaH"
+                },
+                {
+                    "Right": "picCilA"
+                },
+                {
+                    "Right": "picCilam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The scum of boiled rice ({#BaktamaRqa#}).\n",
+                ".²2 Sauce mixed with rice-gruel.\n",
+                ".²3 Curds with cream on the surface.\n",
+                ".²4 Broth, soup.\n",
+                ".²5 Moist split pulse.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 190861,
+            "_ancestry": [
+                "L_ 21330",
+                "B_ {#picCila#}",
+                "S_ .{@{#-tvac#}@}"
+            ],
+            "_banner": ".{@{#-tvac#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "picCilatvac"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the orange tree or its peel."
+            ]
+        }
     ]
 }

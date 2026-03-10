@@ -1,25 +1,230 @@
 {
-    "__line": 75975,
+    "__line": 75205,
     "_ancestry": [
         "L_ 8942",
-        "B_ {#upasaMhf#}"
+        "B_ {#udAra#}"
     ],
-    "_banner": "{#upasaMhf#}",
+    "_banner": "{#udAra#}",
     "_bannerExp": [
         {
-            "Right": "upasaMhf"
+            "Right": "udAra"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To draw or bring\ntogether, collect. ",
-        "{@--2@} To sum or\nwind up, conclude; {#idAnImupasaMharati#};\n{#prakftamupasaMharati#} <ls>Kull.</ls> on <ls>Ms. 1. 57.</ls>\n",
-        "{@--3@} To contract; as {#kUrmoM'gAni#}. ",
-        "{@--4@} To\nwithdraw, take away, withhold:\n{#CettuH pArSvagatAM CAyAM nopasaMharate drumaH#}\n<ls>H. 1. 59.</ls> ",
-        "{@--5@} To check, stop, curb.\n",
-        "{@--6@} To absorb, destroy, annihilate."
+        ".²1 Generous, liberal, munificent.\n",
+        ".²2\n",
+        ".³({%a%}) Noble, exalted, dignified; {#sa taTeti vineturudAramateH#} <ls>R. 8. 91</ls>, <ls n=\"R.\">5. 12</ls>;\n {#vAcaH#} <ls n=\"R. 5.\">65</ls>; {#udArAH sarva evEte#} <ls>Bg. 7. 18</ls>.\n",
+        ".³({%b%}) High, lofty, great, best, illustrious, distinguished; {#˚kIrteH#}\n <ls>Ki. 1. 18</ls>; {#˚tapasaH#} <ls>Bh. 3. 51</ls>.\n",
+        ".²3 Honest, sincere, upright.\n",
+        ".²4 good, nice, fine; {#kftaH kawoBIzma udAraH SoBanaH#} <ls>Mbh. 2. 3. 1</ls>;\n {#udAraH kalpaH#} <ls>Ś. 5</ls>.\n",
+        ".²5 Proper, right.\n",
+        ".²6 Eloquent.\n",
+        ".²7 Kind, soft, agreeable; {#˚vAcaH kanyakAH#} <ls>R. 14. 77</ls>.\n",
+        ".²8 Rich, plentiful; {#udArA SrIH sTitA hyasyAm#} <ls>Rām. 4. 22. 16</ls>. {#udAramaByavahAraviDim#}\n <ls>Dk. 49</ls>; <ls>Mu. 3. 8</ls>.\n",
+        ".²9 Large, extensive, grand, splendid; {#sAketopavanamudAramaDyuvAsa#}\n <ls>R. 13. 79</ls>; {#udAranepaTyaBftAm#} <ls n=\"R.\">6. 6</ls> richly dressed.\n",
+        ".²10 Beautiful, charming, lovely; <ls>Ku. 7. 14</ls>; <ls>Śi. 5. 21</ls>; see {#udAradarSana#}\n below; <ls>R. 16. 26</ls>, <ls n=\"R. 16.\">51</ls>.\n",
+        ".²11 Unperplexed.\n",
+        ".²12 Exciting, driving forth (<ab>Ved.</ab>). {#SrIRAmudAro DaruRo rayIRAm#} <ls>Rv. 10. 45. 5</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 75226,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udAram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Loudly; {#pragIyate sidDagaRESca yozitAmudAramante kalaBAvikaKarEH#} <ls>Śi. 4. 33</ls>.\n",
+                ".²2 By means of arguments; {#iti tAnudAramanunIya#} <ls>Ki. 12. 40</ls>.\n"
+            ]
+        },
+        {
+            "__line": 75229,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udAraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 A rising fog or vapour.\n",
+                ".²2 A sort of grain with long stalks.\n",
+                ".²3 A figure in Rhetoric which attributes greatness to inanimate objects.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 75234,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "S_ .{@{#-Atman, -cetas, -carita, -manas, -sattva#}@}"
+            ],
+            "_banner": ".{@{#-Atman, -cetas, -carita, -manas, -sattva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udArAtman"
+                },
+                {
+                    "Right": "udAracetas"
+                },
+                {
+                    "Right": "udAracarita"
+                },
+                {
+                    "Right": "udAramanas"
+                },
+                {
+                    "Left": "S error: midAlign sattva manasattva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "noble-minded magnanimous;\n {#udAracaritAnAM tu vasuDEva kuwumbakam#} <ls>H. 1. 68</ls>.\n"
+            ]
+        },
+        {
+            "__line": 75236,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udAraDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 of sublime genius, highly intelligent; {#DiyaH samagrEH sa guRErudAraDIH#} <ls>R. 3. 30</ls>.\n",
+                ".²2 noble-minded. ({%m.%}) <ab>N.</ab> of Viṣṇu. ({%f.%}) good abilities.\n"
+            ]
+        },
+        {
+            "__line": 75239,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "S_ .{@{#-darSana#}@}"
+            ],
+            "_banner": ".{@{#-darSana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udAradarSana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "good-looking\n\n (having large-eyes); {#taTA hi te SalimudAradarSane#} <ls>Ku. 5. 36</ls>.\n"
+            ]
+        },
+        {
+            "__line": 75242,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "S_ .{@{#-ramaRIya#}@}"
+            ],
+            "_banner": ".{@{#-ramaRIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udAraramaRIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "grand and lovely, transcendental; <ls>Ś. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 75243,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "S_ .{@{#-vIrya#}@}"
+            ],
+            "_banner": ".{@{#-vIrya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udAravIrya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of great power.\n"
+            ]
+        },
+        {
+            "__line": 75244,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "S_ .{@{#-vfttArTapada#}@}"
+            ],
+            "_banner": ".{@{#-vfttArTapada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udAravfttArTapada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of excellent words and meaning and metre;\n {#udAravfttArTapadErmanoramEstadAsya rAmasya cakAra kIrtimAn#} <ls>Rām. 1. 2. 42</ls>.\n"
+            ]
+        },
+        {
+            "__line": 75246,
+            "_ancestry": [
+                "L_ 8942",
+                "B_ {#udAra#}",
+                "S_ .{@{#-sattvABijana#}@}"
+            ],
+            "_banner": ".{@{#-sattvABijana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udArasattvABijana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Of noble character and descent; {#udArasattvABijano#}\n {#hanUmAn#} <ls>Rām. 4. 47. 14</ls>."
+            ]
+        }
     ]
 }

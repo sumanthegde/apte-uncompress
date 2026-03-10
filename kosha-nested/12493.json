@@ -1,31 +1,38 @@
 {
-    "__line": 104278,
+    "__line": 105848,
     "_ancestry": [
         "L_ 12493",
-        "B_ {#gArBa#}"
+        "B_ {#kopanaka#}"
     ],
-    "_banner": "{#gArBa#}",
+    "_banner": "{#kopanaka#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: gArBa  kI"
-        },
-        {
-            "Right": "gArBI"
-        },
-        {
-            "Right": "gArBa"
+            "Right": "kopanaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#rBI#}|{%<ab>f.</ab>%})",
-        "[{#garBe sADu aR#}]",
-        "{#gArBika#}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Uterine, fetal.\n",
-        "{@--2@} Relating to gestation;  \n<ls>Ms. 2. 27.</ls>"
+        "Angry.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 105849,
+            "_ancestry": [
+                "L_ 12493",
+                "B_ {#kopanaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kopanakaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of perfume (<lang>Mar.</lang> <ns>{#kiramARI ovA#}</ns>)."
+            ]
+        }
     ]
 }

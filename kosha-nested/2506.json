@@ -1,23 +1,40 @@
 {
-    "__line": 25274,
+    "__line": 22443,
     "_ancestry": [
         "L_ 2506",
-        "B_ {#apavAdaka, --apavAdin#}"
+        "B_ {#apakf#}"
     ],
-    "_banner": "{#apavAdaka, --apavAdin#}",
+    "_banner": "{#apakf#}",
     "_bannerExp": [
         {
-            "Right": "apavAdaka"
-        },
-        {
-            "Right": "apavAdin"
+            "Right": "apakf"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€8",
+        "<ab>U.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Blaming, \n\ncensuring, reviling, traducing, \ndefaming; {#mfgayApavAdinA mAWavyena#} <ls>Ś. 2.</ls>\n",
-        "{@--2@} Opposing; contradicting, \nexcepting, setting aside, excluding."
+        "²1 To carry or bear away, remove, drag away, insult by dragging away;\n {#yo'pacakre vanAt sItAm#} <ls>Bk. 8. 20</ls> bore forcibly away.\n",
+        ".²2 To hurt, injure, wrong, harm, do harm or injury to (usually with <ab>gen.</ab>\n of person); {#Apadi yenApakftam#} <ls>Pt. 4. 16</ls>; <ls>Śi. 14. 78</ls>; {#na kiMcinmayA#}\n {#tasyApakartuM Sakyam#} <ls>Pt. 1</ls>; {#kiM tasyA mayApakftam#} <ls n=\"Pt.\">4</ls> what harm have\n I done to her? {#kiM ca rAkzasarAjasya rAmeRApakftaM purA#} <ls>Rām.</ls>; sometimes\n with <ab>acc.</ab> or <ab>loc.</ab> also; {#aTa vA sEnikAH kecidapakuryuryuDizWiram#} <ls>Mb.</ls>;\n {#kimiva bata nAtmanyapakftaM#} <ls>Bh. 3. 115</ls>; {#na parezu mahOjasaSCalAdapakurvanti#}\n {#malimlucA iva#} <ls>Śi. 16. 52</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 22452,
+            "_ancestry": [
+                "L_ 2506",
+                "B_ {#apakf#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "apakf"
+                }
+            ],
+            "_meanings": [
+                "To harm, injure <ab>&c.</ab>"
+            ]
+        }
     ]
 }

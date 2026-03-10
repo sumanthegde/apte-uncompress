@@ -1,43 +1,64 @@
 {
-    "__line": 136690,
+    "__line": 141157,
     "_ancestry": [
         "L_ 16278",
-        "B_ {#nagnaka#}"
+        "B_ {#talpaH#}, {#-lpam#}"
     ],
-    "_banner": "{#nagnaka#}",
+    "_banner": "{#talpaH#}, {#-lpam#}",
     "_bannerExp": [
         {
-            "Right": "nagnaka"
+            "Right": "talpaH"
         },
         {
-            "Right": "nagnikA"
+            "Right": "talpam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#gnikA#}|{%<ab>f.</ab>%})"
+        "[{#tal-pak#} <ls>Uṇ. 3. 28</ls>]"
     ],
     "_meanings": [
-        "Naked, nude.\n"
+        ".²1 A couch, bed, sofa; {#sapadi vigatanidrastalpamujJAYcakAra#} <ls>R. 5. 75</ls>\n ‘left the bed’, ‘rose’.\n",
+        ".²2 (<ab>Fig.</ab>) A wife (as in {#gurutalpaga#} <ab>q. v.</ab>);\n\n <ls>Ch. Up. 5. 10. 9</ls>.\n",
+        ".²3 The seat of a carriage.\n",
+        ".²4 An upper storey, a turret, tower; {#viSIrRatalpAdfSato niveSaH paryastaSAlaH#}\n {#praBuRA vinA me#} <ls>R. 16. 11</ls>.\n",
+        ".²5 A guard, one who protects; {#talpEScAByAsikEryuktaM SuSuBe yoDarakzitam#}\n <ls>Mb. 1. 207. 34</ls> ({#talpEH rakziBiH puruzEH#} <ab>com.</ab>)\n",
+        ".²6 (with {#aDigam#}) Sexual intercourse; {#SrAdDaBug vfzalItalpaM tadaharyo'DigacCati#} <ls>Ms. 3. 250</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 136691,
+            "__line": 141170,
             "_ancestry": [
                 "L_ 16278",
-                "B_ {#nagnaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#talpaH#}, {#-lpam#}",
+                "M_ .{@{#-lpA#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-lpA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nagnakaH"
+                    "Right": "talpA"
                 }
             ],
             "_meanings": [
-                "{@--1@} A naked mendicant. ",
-                "{@--2@} A\nJaina or Buddhist mendicant (of\nthe {#digaMbara#} class). ",
-                "{@--3@} A bard."
+                "A couch bed; {#talpA naH suSevA#} <ls>Av. 13. 1. 17</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 141172,
+            "_ancestry": [
+                "L_ 16278",
+                "B_ {#talpaH#}, {#-lpam#}",
+                "S_ .{@{#-kIwaH#}@}"
+            ],
+            "_banner": ".{@{#-kIwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talpakIwaH"
+                }
+            ],
+            "_meanings": [
+                "a bug."
             ]
         }
     ]

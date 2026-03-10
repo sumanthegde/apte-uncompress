@@ -1,56 +1,87 @@
 {
-    "__line": 253072,
+    "__line": 279282,
     "_ancestry": [
         "L_ 30285",
-        "B_ {#sitA#}"
+        "B_ {#vivikta#}"
     ],
-    "_banner": "{#sitA#}",
+    "_banner": "{#vivikta#}",
     "_bannerExp": [
         {
-            "Right": "sitA"
+            "Right": "vivikta"
         }
     ],
-    "_meanings": [
-        "{@--1@} Candied sugar, sugar;  \n{#pittena dUne rasane sitApi tiktAyate haMsakulA#}\n{#vataMsa#} <ls>N. 3. 94</ls>; <ls>Bv. 4. 13.</ls> ",
-        "{@--2@} \nMoonlight. ",
-        "{@--3@} A lovely woman. ",
-        "{@--4@} \nSpirituous liquor. ",
-        "{@--5@} White Dūrvā grass.\n",
-        "{@--6@} Arabian jasmine. "
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
     ],
-    "_samasas": [
+    "_meanings": [
+        ".²1 Separated, detached, disjoined, abstracted; {#apaSyamanekAni gosahasrARi#}\n {#varRaSo viviktAni#} <ls>Mb. 3. 198. 5</ls>; {#viviktavarRABaraRA#} <ls>Ki. 14. 3</ls>.\n",
+        ".²2 Lonely, solitary, retired, sequestered; {#viviktadeSasevitvamaratirjanasaMsadi#} <ls>Bg. 13. 10</ls>.\n",
+        ".²3 Single, alone.\n",
+        ".²4 Distinguished, discriminated; {#yaTA viviktaM yadvaktraM gfhRImo yuktisaMBavAt#}\n <ls>Bhāg. 11. 22. 9</ls>.\n",
+        ".²5 Judicious; {#vedavitsu viviktezu pretya svargaM samaSnute#} <ls>Ms. 11. 6</ls>.\n",
+        ".²6 Pure, faultless; {#strIpuMBidA na tu sutasya viviktadfzweH#} <ls>Bhāg. 1. 4. 5</ls>;\n {#pratyagramajjanaviSezaviviktamUrtiH#} <ls>Ratn. 1. 19</ls>.\n",
+        ".²7 Profound (as a judgment or thought).\n",
+        ".²8 Intent on.\n",
+        ".²9 Devoid of, free from; {#prasannadikpAMsuviviktavAtam#} <ls>Ku. 1. 23</ls>.\n",
+        ".²10 Having the knowledge, known; {#viviktaparavyaTo vyaTAmAcarati#} <ls>Bhāg. 5. 26. 17</ls>.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 253077,
+            "__line": 279296,
             "_ancestry": [
                 "L_ 30285",
-                "B_ {#sitA#}",
-                "S_  {#--KaMqaH#}"
+                "B_ {#vivikta#}",
+                "M_ .{@{#-ktam#}@}"
             ],
-            "_banner": " {#--KaMqaH#}",
+            "_banner": ".{@{#-ktam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sitAKaMqaH"
+                    "Right": "viviktam"
                 }
             ],
             "_meanings": [
-                "a kind of refined sugar. "
+                ".²1 A lonely or solitary place; {#viviktAdfte nAnyadutsukasya#}\n {#SaraRamasti#} <ls>V. 2</ls>; <ls>Ś. 5. 5</ls>; <ls>Śi. 8. 70</ls>; {#viviktasevI#} <ls>Bg. 18. 52</ls>.\n",
+                ".²2 Loneliness, privacy, seclusion.\n",
+                ".²3 Clearness, purity.\n"
             ]
         },
         {
-            "__line": 253078,
+            "__line": 279300,
             "_ancestry": [
                 "L_ 30285",
-                "B_ {#sitA#}",
-                "S_ {#--latA#}"
+                "B_ {#vivikta#}",
+                "M_ .{@{#-ktA#}@}"
             ],
-            "_banner": "{#--latA#}",
+            "_banner": ".{@{#-ktA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sitAlatA"
+                    "Right": "viviktA"
                 }
             ],
             "_meanings": [
-                "white Dūrvā grass."
+                "An unlucky or ill-fated woman, one disliked by her husband ({#durBagA#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 279302,
+            "_ancestry": [
+                "L_ 30285",
+                "B_ {#vivikta#}",
+                "S_ .{@{#-sevin#}@}"
+            ],
+            "_banner": ".{@{#-sevin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viviktasevin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "seeking solitude, lonely."
             ]
         }
     ]

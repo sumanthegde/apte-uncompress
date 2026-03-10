@@ -1,16 +1,60 @@
 {
-    "__line": 255333,
+    "__line": 281062,
     "_ancestry": [
         "L_ 30440",
-        "B_ {#sUtA#}"
+        "B_ {#vizayin#}"
     ],
-    "_banner": "{#sUtA#}",
+    "_banner": "{#vizayin#}",
     "_bannerExp": [
         {
-            "Right": "sUtA"
+            "Right": "vizayin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A woman recently delivered."
+        "Sensual, carnal. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 281062,
+            "_ancestry": [
+                "L_ 30440",
+                "B_ {#vizayin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vizayin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A man of the world, worldling.\n",
+                ".²2 A king.\n",
+                ".²3 The god of love.\n",
+                ".²4 A sensualist, voluptuary; {#vizayiRaH kasyApado'staM gatAH#} <ls>Pt. 1. 146</ls>; <ls>Ś. 5</ls>.\n",
+                ".²5 (<ab>Rhet.</ab>) The object of a comparison. "
+            ]
+        },
+        {
+            "__line": 281067,
+            "_ancestry": [
+                "L_ 30440",
+                "B_ {#vizayin#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vizayin#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An organ of sense.\n",
+                ".²2 Knowledge ({#jYAna#})."
+            ]
+        }
     ]
 }

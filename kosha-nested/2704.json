@@ -1,19 +1,63 @@
 {
-    "__line": 26780,
+    "__line": 23963,
     "_ancestry": [
         "L_ 2704",
-        "B_ {#apivrata#}"
+        "B_ {#aparAYc#}"
     ],
-    "_banner": "{#apivrata#}",
+    "_banner": "{#aparAYc#}",
     "_bannerExp": [
         {
-            "Right": "apivrata"
+            "Right": "aparAYc"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#˚rAN, ˚rAcI, ˚rAk#}]"
     ],
     "_meanings": [
-        "Sharing in the same\nreligious acts or other works; \nconnected by blood; {#apivratAScAnvAraBaMte#}\n{#yajamAnaM#} <ls>Kāty.</ls> ({#saMsfzwaM sADAraRakarma yezAM te#}\n{#apivratAH aviBaktA dAyAdAH, te hi ekenApi#}\n{#kfzyAdikarma kftaM sarve upajIvaMti#} <ab>Com.</ab>)."
+        "Not averted, fronting, facing,\n in front. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 23964,
+            "_ancestry": [
+                "L_ 2704",
+                "B_ {#aparAYc#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#aparAMc#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "In front of.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 23966,
+            "_ancestry": [
+                "L_ 2704",
+                "B_ {#aparAYc#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparANmuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-KI#}|{%f.%})"
+            ],
+            "_meanings": [
+                ".²1 not turning away the face; with unaverted face.\n",
+                ".²2 presenting a bold front."
+            ]
+        }
     ]
 }

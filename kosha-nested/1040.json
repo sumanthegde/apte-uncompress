@@ -1,41 +1,81 @@
 {
-    "__line": 11901,
+    "__line": 10090,
     "_ancestry": [
         "L_ 1040",
-        "B_ {#aDistri#}"
+        "B_ {#aDikarman#}"
     ],
-    "_banner": "{#aDistri#}",
+    "_banner": "{#aDikarman#}",
     "_bannerExp": [
         {
-            "Right": "aDistri"
+            "Right": "aDikarman"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}",
-        "[{#striyamaDikftya#}]"
+        "{%n.%}",
+        "[{#aDikaM karmaM#}]"
     ],
     "_meanings": [
-        "Concerning a woman or wife. "
+        ".²1 A higher or superior act.\n",
+        ".²2 Superintendence. "
     ],
     "_morphisms": [
         {
-            "__line": 11902,
+            "__line": 10092,
             "_ancestry": [
                 "L_ 1040",
-                "B_ {#aDistri#}",
-                "M_ {#--strI#}"
+                "B_ {#aDikarman#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--strI#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "aDistrI"
+                    "Left": "Parser error: {#aDikarman#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "One who is charged with superintendence.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 10094,
+            "_ancestry": [
+                "L_ 1040",
+                "B_ {#aDikarman#}",
+                "S_ .{@{#-karaH, -kft#}@}"
+            ],
+            "_banner": ".{@{#-karaH, -kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aDikarmakaraH"
+                },
+                {
+                    "Right": "aDikarmakft"
+                }
+            ],
+            "_meanings": [
+                "a sort of servant, overseer of workmen.\n"
+            ]
+        },
+        {
+            "__line": 10095,
+            "_ancestry": [
+                "L_ 1040",
+                "B_ {#aDikarman#}",
+                "S_ .{@{#-kftaH#}@}"
+            ],
+            "_banner": ".{@{#-kftaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aDikarmakftaH"
                 }
             ],
             "_gram": [
-                "[ \n{#aDikA strI#}]"
+                "[{#aDikarma kftaM yena nizWAntasya paranipAtaH#}]"
             ],
             "_meanings": [
-                "A superior or \ndistinguished woman."
+                "one appointed\n to superintend an institution or establishment; {#sarvezvaDikfto yaH syAt#}\n {#kuwumbasya taTopari . so'Dikarmakfto jYeyaH sa ca kOwumbikaH smftaH ..#}\n In families he is the head or {%pater familias%}."
             ]
         }
     ]

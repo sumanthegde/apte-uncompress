@@ -1,21 +1,55 @@
 {
-    "__line": 76369,
+    "__line": 75728,
     "_ancestry": [
         "L_ 8994",
-        "B_ {#upasevaka#}"
+        "B_ {#udgAQa#}"
     ],
-    "_banner": "{#upasevaka#}",
+    "_banner": "{#udgAQa#}",
     "_bannerExp": [
         {
-            "Right": "upasevaka"
+            "Right": "udgAQa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Worshipping, \nserving. ",
-        "{@--2@} Following, practising. ",
-        "{@--3@}\nEnjoying (carnally); <ls>Y. 3. 136.</ls>"
+        "Deep, intense, violent, strong, excessive, much; {#udgAQarAgodayAH#}\n <ls>Māl. 5. 7</ls>, <ls n=\"Māl.\">6. 6</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 75730,
+            "_ancestry": [
+                "L_ 8994",
+                "B_ {#udgAQa#}",
+                "M_ .{@{#-Qam#}@}"
+            ],
+            "_banner": ".{@{#-Qam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udgAQam"
+                }
+            ],
+            "_meanings": [
+                "Excess. "
+            ]
+        },
+        {
+            "__line": 75730,
+            "_ancestry": [
+                "L_ 8994",
+                "B_ {#udgAQa#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#udgAQa#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Excessively, extremely."
+            ]
+        }
     ]
 }

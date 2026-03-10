@@ -1,24 +1,83 @@
 {
-    "__line": 55451,
+    "__line": 53035,
     "_ancestry": [
         "L_ 6319",
-        "B_ {#Anupadika#}"
+        "B_ {#ahIna#}"
     ],
-    "_banner": "{#Anupadika#}",
+    "_banner": "{#ahIna#}",
     "_bannerExp": [
         {
-            "Right": "AnupadikI"
-        },
-        {
-            "Right": "Anupadika"
+            "Right": "ahIna"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#anupadaM#}\n{#DAvati Wak veda aDIte vA#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Following,\npursuing, tracking, studying. "
+        ".²1 Unimpaired, whole, entire, all; {#BftaBUtirahInaBogaBAk#} <ls>Śi. 16. 71</ls>.\n",
+        ".²2 Not inferior, great; {#ahInabAhudraviRaH SaSAsa#} <ls>R. 18. 14</ls>, <ls n=\"R.\">9. 5</ls>.\n",
+        ".²3 Not deprived of, possessed of; {#vedayajYErahInAnAm#} <ls>Ms. 2. 183</ls>.\n",
+        ".²4 Not outcast or vile.\n",
+        ".²5 ({#ahoBiH sADyate, ahan-Ka rAtryahaH saMvatsarAcca#} <ls>P. V. 1. 37</ls>) Lasting\n for several days; {#dvyahIna, tryahIna#} <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 53042,
+            "_ancestry": [
+                "L_ 6319",
+                "B_ {#ahIna#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahInaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sacrifice lasting for several days,\n.({@{#-nam#}@} also); <ls>Ms. 11. 198</ls>.\n",
+                ".²2 A large snake.\n",
+                ".²3 The lord of serpents, Vāsuki ({#ahi-inaH#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 53048,
+            "_ancestry": [
+                "L_ 6319",
+                "B_ {#ahIna#}",
+                "S_ .{@{#-guH#}@}"
+            ],
+            "_banner": ".{@{#-guH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahInaguH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a king of the solar race; {#ahInagurnAma hi gAM samagrAm#} <ls>R. 18. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 53049,
+            "_ancestry": [
+                "L_ 6319",
+                "B_ {#ahIna#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahInavAdin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a witness not unfit or incapable of giving evidence."
+            ]
+        }
     ]
 }

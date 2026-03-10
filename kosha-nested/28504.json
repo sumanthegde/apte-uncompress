@@ -1,20 +1,45 @@
 {
-    "__line": 239468,
+    "__line": 263559,
     "_ancestry": [
         "L_ 28504",
-        "B_ {#SvitraM#}"
+        "B_ {#varAka#}"
     ],
-    "_banner": "{#SvitraM#}",
+    "_banner": "{#varAka#}",
     "_bannerExp": [
         {
-            "Right": "SvitraM"
+            "Right": "varAka"
+        },
+        {
+            "Right": "varAkI"
         }
     ],
     "_gram": [
-        "[{#Svit-rak#}]"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} White leprosy.\n",
-        "{@--2@} A leprous spot (on the skin);\n{#tadalpamapi nopekzyaM kAvye duzwaM kaTaMcana .#}\n{#syAdvapuH suMdaramapi SvitreREkena durBagaM#}\n<ls>Kāv. 1. 7.</ls>"
+        ".²1 Poor, pitiable, miserable, wretched, unhappy, unfortunate (often used\n to show pity); {#tanmayA na yuktaM kftaM yat sa varAko'pamAnitaH#} <ls>Pt. 1</ls>;\n {#tat kimujjihAnajIvitAM varAkIM nAnukampase#} <ls>Māl. 10</ls>.\n",
+        ".²2 Low, vile.\n",
+        ".²3 Impure.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 263565,
+            "_ancestry": [
+                "L_ 28504",
+                "B_ {#varAka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varAkaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Śiva.\n",
+                ".²2 War, battle."
+            ]
+        }
     ]
 }

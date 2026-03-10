@@ -1,18 +1,68 @@
 {
-    "__line": 233156,
+    "__line": 255488,
     "_ancestry": [
         "L_ 27689",
-        "B_ {#SaryA#}"
+        "B_ {#roha#}"
     ],
-    "_banner": "{#SaryA#}",
+    "_banner": "{#roha#}",
     "_bannerExp": [
         {
-            "Right": "SaryA"
+            "Right": "roha"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#ruh-ac#}]"
+    ],
     "_meanings": [
-        "{@--1@} Night. ",
-        "{@--2@} A finger. ",
-        "{@--3@}\nAn arrow (<ab>Ved.</ab>)."
+        ".²1 Growing, springing up.\n",
+        ".²2 Rising, ascending.\n",
+        ".²3 Riding on; as in {#aSvarohaH#} ‘a rider’.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255492,
+            "_ancestry": [
+                "L_ 27689",
+                "B_ {#roha#}",
+                "M_ .{@{#-haH#}@}"
+            ],
+            "_banner": ".{@{#-haH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rohaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Rising, height, altitude.\n",
+                ".²2 The raising of anything (as of a number from a smaller to a higher denomination).\n",
+                ".²3 Growth, development (<ab>fig.</ab>).\n",
+                ".²4 Bud, blossom, shoot; {#bIjaM cEkaM rohasahasrameti#} <ls>Mb. 12. 120. 38</ls>.\n",
+                ".²5 The generating cause; {#kzite rohaH pravahaH SaSvadeva#} <ls>Mb. 13. 76. 10</ls>.\n",
+                ".²6 A rider; {#bARAkziptArohaSUnyAsanAnAm#} <ls>Śi. 18. 56</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 255500,
+            "_ancestry": [
+                "L_ 27689",
+                "B_ {#roha#}",
+                "S_ .{@{#-pUrva#}@}"
+            ],
+            "_banner": ".{@{#-pUrva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rohapUrva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the accents ascending."
+            ]
+        }
     ]
 }

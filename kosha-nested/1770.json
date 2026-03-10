@@ -1,16 +1,41 @@
 {
-    "__line": 17667,
+    "__line": 15651,
     "_ancestry": [
         "L_ 1770",
-        "B_ {#anuboDanaM#}"
+        "B_ {#anutila#}"
     ],
-    "_banner": "{#anuboDanaM#}",
+    "_banner": "{#anutila#}",
     "_bannerExp": [
         {
-            "Right": "anuboDanaM"
+            "Right": "anutila"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Recollection, reminding."
+        "Following {#tila#} (as a field).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 15652,
+            "_ancestry": [
+                "L_ 1770",
+                "B_ {#anutila#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anutilam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Grain after grain, {%<ab>i. e.</ab>%} by grains or very minutely."
+            ]
+        }
     ]
 }

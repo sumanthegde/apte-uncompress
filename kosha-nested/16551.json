@@ -1,21 +1,76 @@
 {
-    "__line": 139137,
+    "__line": 143576,
     "_ancestry": [
         "L_ 16551",
-        "B_ {#nAs#}"
+        "B_ {#tutTaH#}"
     ],
-    "_banner": "{#nAs#}",
+    "_banner": "{#tutTaH#}",
     "_bannerExp": [
         {
-            "Right": "nAs"
+            "Right": "tutTaH"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#nAsate#})"
+        "[{#tud-Tak#}]"
     ],
     "_meanings": [
-        "To sound."
+        ".²1 Fire.\n",
+        ".²2 A stone.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 143579,
+            "_ancestry": [
+                "L_ 16551",
+                "B_ {#tutTaH#}",
+                "M_ .{@{#-tTam#}@}"
+            ],
+            "_banner": ".{@{#-tTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tutTam"
+                }
+            ],
+            "_meanings": [
+                "Sulphate of copper, usually applied to the eyes as a sort\n of collyrium or medical ointment.\n"
+            ]
+        },
+        {
+            "__line": 143581,
+            "_ancestry": [
+                "L_ 16551",
+                "B_ {#tutTaH#}",
+                "M_ .{@{#-tTA#}@}"
+            ],
+            "_banner": ".{@{#-tTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tutTA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Small cardamoms.\n",
+                ".²2 The indigo plant.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 143585,
+            "_ancestry": [
+                "L_ 16551",
+                "B_ {#tutTaH#}",
+                "S_ .{@{#-aYjanam#}@}"
+            ],
+            "_banner": ".{@{#-aYjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tutTAYjanam"
+                }
+            ],
+            "_meanings": [
+                "blue vitriol applied to the eyes as a medical ointment."
+            ]
+        }
     ]
 }

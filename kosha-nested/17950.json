@@ -1,87 +1,72 @@
 {
-    "__line": 151562,
+    "__line": 159286,
     "_ancestry": [
         "L_ 17950",
-        "B_ {#parici#}"
+        "B_ {#DAtrI#}"
     ],
-    "_banner": "{#parici#}",
+    "_banner": "{#DAtrI#}",
     "_bannerExp": [
         {
-            "Right": "parici"
+            "Right": "DAtrI"
         }
     ],
-    "_gram": [
-        "{vI.v}",
-        "{c5c}",
-        "<ab>U.</ab>"
-    ],
     "_meanings": [
-        "{@--1@} To heap up,\naccumulate. ",
-        "{@--2@} To know;  \n<ls>Mv. 7. 11.</ls> ",
-        "{@--3@} To get, acquire. ",
-        "{@--4@} To \nincrease. ",
-        "{@--5@} To cover or fill with.\n"
+        ".²1 A nurse, wet-nurse, foster-mother; {#uvAca DAtryA praTamoditaM vacaH#}\n <ls>R. 3. 25</ls>; <ls>Ku. 7. 25</ls>.\n",
+        ".²2 A mother; <ls>Y. 3. 82</ls>; {#suvicArya guRAn dozAn kuryAd DAtrIM tadedfSIm#} <ls>Bhāva P.</ls>\n",
+        ".²3 The earth; {#sadyastanaM parimalaM paripIya DAtryAH#} <ls>Rām. Ch. 5. 5</ls>.\n",
+        ".²4 The tree called {#Amalaka#}.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 151566,
+            "__line": 159293,
             "_ancestry": [
                 "L_ 17950",
-                "B_ {#parici#}",
-                "M_ {vII.v}"
+                "B_ {#DAtrI#}",
+                "S_ .{@{#-putraH#}@}"
             ],
+            "_banner": ".{@{#-putraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "parici"
+                    "Right": "DAtrIputraH"
                 }
             ],
-            "_gram": [
-                "{vII.v}",
-                "{c3c}",
-                "<ab>P.</ab>"
-            ],
             "_meanings": [
-                "{@--1@} To practise, familiarize\noneself with. ",
-                "{@--2@} To become \nacquainted with. ",
-                "{@--3@} <ab>Ved.</ab> To \nexamine, investigate. "
+                ".²1 a foster-brother.\n",
+                ".²2 an actor.\n"
             ]
         },
         {
-            "__line": 151569,
+            "__line": 159296,
             "_ancestry": [
                 "L_ 17950",
-                "B_ {#parici#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#DAtrI#}",
+                "S_ .{@{#-puzpikA#}@}"
             ],
+            "_banner": ".{@{#-puzpikA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "parici"
+                    "Right": "DAtrIpuzpikA"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
-            ],
             "_meanings": [
-                "To\nsearch, seek for. "
+                "<ab>N.</ab> of a tree ({#Dava#}).\n"
             ]
         },
         {
-            "__line": 151570,
+            "__line": 159297,
             "_ancestry": [
                 "L_ 17950",
-                "B_ {#parici#}",
-                "M_ {%--<ab>Pass.</ab>%}"
+                "B_ {#DAtrI#}",
+                "S_ .{@{#-Palam#}@}"
             ],
+            "_banner": ".{@{#-Palam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "parici"
+                    "Right": "DAtrIPalam"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Pass.</ab>%}"
-            ],
             "_meanings": [
-                "To grow,\nbe developed; <ls>R. 3. 24.</ls>"
+                "An Āmalaka fruit."
             ]
         }
     ]

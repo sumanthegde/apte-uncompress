@@ -1,21 +1,87 @@
 {
-    "__line": 216783,
+    "__line": 231630,
     "_ancestry": [
         "L_ 25612",
-        "B_ {#vikaMpita#}"
+        "B_ {#maTana#}"
     ],
-    "_banner": "{#vikaMpita#}",
+    "_banner": "{#maTana#}",
     "_bannerExp": [
         {
-            "Right": "vikaMpita"
+            "Right": "maTana"
+        },
+        {
+            "Right": "maTanI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#maT lyu lyuw vA#}]"
     ],
     "_meanings": [
-        "{@--1@} Shaken, trembling,\ntremulous. ",
-        "{@--2@} Palpitating, heaving.\n",
-        "{@--3@} Unsteady. "
+        ".²1 Churning, stirring up.\n",
+        ".²2 Hurting, injuring.\n",
+        ".²3 Killing, destroying, a destroyer; {#mugDe maDumaTanamanugatamanusara#}\n {#rADike#} <ls>Gīt. 2</ls>.\n",
+        ".²4 Rubbing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 231636,
+            "_ancestry": [
+                "L_ 25612",
+                "B_ {#maTana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maTanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a tree ({#gaRikArikA#}, used in producing fire by attrition).\n"
+            ]
+        },
+        {
+            "__line": 231637,
+            "_ancestry": [
+                "L_ 25612",
+                "B_ {#maTana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maTanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Churning, stirring round, agitating.\n",
+                ".²2 Rubbing, friction.\n",
+                ".²3 Injury, hurting, destruction.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 231642,
+            "_ancestry": [
+                "L_ 25612",
+                "B_ {#maTana#}",
+                "S_ .{@{#-acalaH, -parvataH#}@}"
+            ],
+            "_banner": ".{@{#-acalaH, -parvataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maTanAcalaH"
+                },
+                {
+                    "Right": "maTanaparvataH"
+                }
+            ],
+            "_meanings": [
+                "the mountain Mandara used as a churning-stick."
+            ]
+        }
     ]
 }

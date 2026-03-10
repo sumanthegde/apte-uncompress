@@ -1,25 +1,79 @@
 {
-    "__line": 253662,
+    "__line": 280001,
     "_ancestry": [
         "L_ 30350",
-        "B_ {#sIsaM, sIsakaM, sIsapatrakaM, sIsapatraM#}"
+        "B_ {#viSezaka#}"
     ],
-    "_banner": "{#sIsaM, sIsakaM, sIsapatrakaM, sIsapatraM#}",
+    "_banner": "{#viSezaka#}",
     "_bannerExp": [
         {
-            "Right": "sIsaM"
-        },
-        {
-            "Right": "sIsakaM"
-        },
-        {
-            "Right": "sIsapatraM"
-        },
-        {
-            "Right": "sIsapatrakaM"
+            "Right": "viSezaka"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Lead; <ls>Ms. 5. 114</ls>; <ls>Y. 1. 190.</ls>"
+        ".²1 Distinguishing, distinctive.\n",
+        ".²2 Restrictive; {#nanu viSezakaH SabdaH SrUyate brahmavarcasakamiti .#}\n {#nEza viSezakaH . upADikara ezaH .#} <ls>ŚB. on MS. 4. 3. 20</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 280005,
+            "_ancestry": [
+                "L_ 30350",
+                "B_ {#viSezaka#}",
+                "M_ .{@{#-kaH, -kam#}@}"
+            ],
+            "_banner": ".{@{#-kaH, -kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSezakaH"
+                },
+                {
+                    "Right": "viSezakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A distinguishing feature or characteristic, an attribute.\n",
+                ".²2 A discriminative or distinguishing quality.\n",
+                ".²3 A mark on the forehead with sandal, saffron <ab>&c.</ab>\n",
+                ".²4 Drawing lines of painting on the face and person with coloured unguents\n and cosmetics; {#pratyAKyAtaviSezakaM kurabakaM SyAmAvadAtAruRam#} <ls>M. 3. 5</ls>;\n {#svedodgamaH kiMpuruzANganAnAM cakre padaM patraviSezakezu#} <ls>Ku. 3. 33</ls>;\n <ls>R. 9. 29</ls>; <ls>Śi. 3. 63</ls>, <ls n=\"Śi.\">10. 84</ls>.\n"
+            ]
+        },
+        {
+            "__line": 280013,
+            "_ancestry": [
+                "L_ 30350",
+                "B_ {#viSezaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSezakaH"
+                }
+            ],
+            "_meanings": [
+                "A particular form of speech; <ab>cf.</ab> {#viSezokti#}.\n"
+            ]
+        },
+        {
+            "__line": 280014,
+            "_ancestry": [
+                "L_ 30350",
+                "B_ {#viSezaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSezakam"
+                }
+            ],
+            "_meanings": [
+                "A group of three stanzas forming one grammatical sentence;\n {#dvAByAM yugmamiti proktaM triBiH SlokErviSezakam . kalApakaM caturBiH#}\n {#syAttadUrDvaM kulakaM smftam ..#}."
+            ]
+        }
     ]
 }

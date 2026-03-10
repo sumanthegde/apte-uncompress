@@ -1,21 +1,40 @@
 {
-    "__line": 81312,
+    "__line": 80065,
     "_ancestry": [
         "L_ 9564",
-        "B_ {#etf#}"
+        "B_ {#upadA#}"
     ],
-    "_banner": "{#etf#}",
+    "_banner": "{#upadA#}",
     "_bannerExp": [
         {
-            "Right": "etf"
+            "Right": "upadA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Going. ",
-        "{@--2@} Asking\nrequesting."
+        "<ab>Ved.</ab> Giving a present; <ls>Vāj. 30. 9</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 80066,
+            "_ancestry": [
+                "L_ 9564",
+                "B_ {#upadA#}",
+                "M_ .{@{#-dA#}@}"
+            ],
+            "_banner": ".{@{#-dA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upadA"
+                }
+            ],
+            "_meanings": [
+                "(<ab>cf.</ab> {#AtaScopasarge#} <ls>P. III. 3. 106</ls>)\n",
+                ".²1 A present, an offering to a king or a great man, a {%<ns>Nazarāṇā</ns>%};\n {#paYca upadA dIyante'smE paYcakaH#} <ls>Mbh. V. 1. 47</ls>. {#upadA viviSuH SaSvannotsekAH#}\n {#kosaleSvaram#} <ls>R. 4. 70</ls>, <ls n=\"R.\">5. 41</ls>, <ls n=\"R.\">7. 30</ls>; <ls>P. V. 1. 47</ls>. <ab>cf.</ab> also {#prIRayitvopadABiH#}\n <ls>Śiva B. 15. 53</ls>.\n",
+                ".²2 A bribe."
+            ]
+        }
     ]
 }

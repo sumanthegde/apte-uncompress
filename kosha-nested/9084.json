@@ -1,17 +1,91 @@
 {
-    "__line": 77062,
+    "__line": 76430,
     "_ancestry": [
         "L_ 9084",
-        "B_ {#upAtyayaH#}"
+        "B_ {#udData#}"
     ],
-    "_banner": "{#upAtyayaH#}",
+    "_banner": "{#udData#}",
     "_bannerExp": [
         {
-            "Right": "upAtyayaH"
+            "Right": "udData"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Transgression of,\ndeviation from, established customs.\n",
-        "{@--2@} Disorderly conduct, rudeness."
+        ".²1 Raised up, elevated, lifted up; {#lANgUlamudDataM Dunvan#} <ls>Bk. 9. 7</ls>;\n {#AtmodDatErapi rajoBiH#} <ls>Ś. 1. 8</ls> raised; {#Kura˚#} <ls>R. 9. 50</ls>, heaved; <ls>Ki. 8. 53</ls>.\n",
+        ".²2 Excessive, very much, exceeding.\n",
+        ".²3 Haughty, vain, puffed up; {#prahito rAvaRenEza saha vIrErmadodDatEH#}\n <ls>Rām. 5. 58. 130</ls>. {#akzavaDodDataH#} <ls>R. 12. 63</ls>.\n",
+        ".²4 Harsh; {#vacanE rasatAM mahIyaso na Kalu vyeti gurutvamudDatEH#} <ls>Śi. 16. 27</ls>.\n",
+        ".²5 Excited, inflamed, intensified; {#˚manoBavarAgA#} <ls>Ki. 9. 68</ls>, <ls n=\"Ki. 9.\">69</ls>; {#madodDatAH#}\n {#pratyanilaM viceruH#} <ls>Ku. 3. 31</ls>,\n",
+        ".²6 Majestic, stately; ill-mannered.\n",
+        ".²7 Abounding in, full; {#tatastu DArodDatameGakalpam#} <ls>Rām. 6. 67. 142</ls>.\n",
+        ".²8 Eager, ready; {#yudDodDatakftotsAhaH saMgrAmaM samprapadyata#} <ls>Rām. 5. 48. 16</ls>.\n",
+        ".²9 Shining, glittering; {#anyonyaM rajasA tena kOSeyodDatapARqunA#} <ls>Rām. 6. 55. 19</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 76443,
+            "_ancestry": [
+                "L_ 9084",
+                "B_ {#udData#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udDataH"
+                }
+            ],
+            "_meanings": [
+                "A kingʼs wrestler.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 76445,
+            "_ancestry": [
+                "L_ 9084",
+                "B_ {#udData#}",
+                "S_ .{@{#-manas, -manaska#}@}"
+            ],
+            "_banner": ".{@{#-manas, -manaska#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udDatamanas"
+                },
+                {
+                    "Right": "udDatamanaska"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "high-minded, haughty, proud, "
+            ],
+            "_samasas": [
+                {
+                    "__line": 76445,
+                    "_ancestry": [
+                        "L_ 9084",
+                        "B_ {#udData#}",
+                        "S_ .{@{#-manas, -manaska#}@}",
+                        "S_S_ {#˚tvam#}"
+                    ],
+                    "_banner": "{#˚tvam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "udDatamanastvam"
+                        }
+                    ],
+                    "_meanings": [
+                        "Pride."
+                    ]
+                }
+            ]
+        }
     ]
 }

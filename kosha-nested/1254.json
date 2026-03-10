@@ -1,20 +1,63 @@
 {
-    "__line": 13748,
+    "__line": 11757,
     "_ancestry": [
         "L_ 1254",
-        "B_ {#anavana#}"
+        "B_ {#aDvAntam#}"
     ],
-    "_banner": "{#anavana#}",
+    "_banner": "{#aDvAntam#}",
     "_bannerExp": [
         {
-            "Right": "anavana"
+            "Right": "aDvAntam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na#}. {#ba#}.]"
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "Affording\nno help or protection."
+        "Twilight, gloom, slight darkness, shade.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 11758,
+            "_ancestry": [
+                "L_ 1254",
+                "B_ {#aDvAntam#}",
+                "M_ .{@{#-ntaH#}@}"
+            ],
+            "_banner": ".{@{#-ntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aDvAntaH"
+                }
+            ],
+            "_gram": [
+                "[<sab>{#za˚ ta˚#}</sab>]"
+            ],
+            "_meanings": [
+                "End of the journey.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 11761,
+            "_ancestry": [
+                "L_ 1254",
+                "B_ {#aDvAntam#}",
+                "S_ .{@{#-SAtravaH#}@}"
+            ],
+            "_banner": ".{@{#-SAtravaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aDvAntaSAtravaH"
+                }
+            ],
+            "_gram": [
+                "[{#aDvAntasya mArgasImAyAH SAtrava iva#} <ls>Tv.</ls>]"
+            ],
+            "_meanings": [
+                "A plant\n ({#SconAka#}) Cassia Fistula or Bignonia Indica (blossoming in shade).\n (<lang>Mar.</lang> <ns>{#bAhavA, pAqaLa#}</ns>)."
+            ]
+        }
     ]
 }

@@ -1,19 +1,84 @@
 {
-    "__line": 109025,
+    "__line": 110667,
     "_ancestry": [
         "L_ 12993",
-        "B_ {#cakkala#}"
+        "B_ {#kolaH#}"
     ],
-    "_banner": "{#cakkala#}",
+    "_banner": "{#kolaH#}",
     "_bannerExp": [
         {
-            "Right": "cakkala"
+            "Right": "kolaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#kul saMstyAne ac#}]"
     ],
     "_meanings": [
-        "Round, circular."
+        ".²1 A hog, boar; <ls>Y. 3. 273</ls>; <ls>Śi. 14. 43</ls>, <ls n=\"Śi. 14.\">86</ls>.\n",
+        ".²2 A raft, boat.\n",
+        ".²3 The breast.\n",
+        ".²4 The haunch, hip, lap.\n",
+        ".²5 An embrace.\n",
+        ".²6 The planet Saturn.\n",
+        ".²7 An out-cast, one of a degraded tribe.\n",
+        ".²8 A barbarian.\n",
+        ".²9 <ab>N.</ab> of a tribe inhabiting the hills in Central India.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 110677,
+            "_ancestry": [
+                "L_ 12993",
+                "B_ {#kolaH#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kolam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The weight of one Tola.\n",
+                ".²2 Black pepper.\n",
+                ".²3 A kind of berry.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 110682,
+            "_ancestry": [
+                "L_ 12993",
+                "B_ {#kolaH#}",
+                "S_ .{@{#-aYcaH#}@}"
+            ],
+            "_banner": ".{@{#-aYcaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kolAYcaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the country of the Kaliṅgas.\n"
+            ]
+        },
+        {
+            "__line": 110683,
+            "_ancestry": [
+                "L_ 12993",
+                "B_ {#kolaH#}",
+                "S_ .{@{#-pucCaH#}@}"
+            ],
+            "_banner": ".{@{#-pucCaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kolapucCaH"
+                }
+            ],
+            "_meanings": [
+                "a heron."
+            ]
+        }
     ]
 }

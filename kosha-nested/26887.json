@@ -1,17 +1,266 @@
 {
-    "__line": 226810,
+    "__line": 246238,
     "_ancestry": [
         "L_ 26887",
-        "B_ {#vfzAyaRaH#}"
+        "B_ {#yad#}"
     ],
-    "_banner": "{#vfzAyaRaH#}",
+    "_banner": "{#yad#}",
     "_bannerExp": [
         {
-            "Right": "vfzAyaRaH"
+            "Right": "yad"
         }
     ],
+    "_gram": [
+        "{%<ab>pron. a.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} An epithet of Śiva.\n",
-        "{@--2@} A sparrow."
+        "(<ab>Nom.</ab> <ab>sing.</ab> {%m.%} {#yaH#}, {%f.%} {#yA#}, {%n.%}\n {#yat-d#}) The relative pronoun corresponding to ‘who’, ‘which’ or ‘what’ in <lang>English</lang>.\n",
+        ".³({%a%}) Its proper correlative is {#tad#}; {#yasya budDirbalaM tasya#}; but\n sometimes {#idam, adas, etad#}, take the place of {#tad#}; sometimes the\n relative is used alone, its antecedent being supplied from the context.\n Not unfrequently two relatives are used in the same sentence; {#yA yasya#}\n {#yujyate BUmikA tAM Kalu BAvena taTEva sarve vargyAHpAWitAH#} <ls>Māl. 1</ls>;\n {#yadeva rocate yasmE Bavet tat tasya sundaram#}.\n",
+        ".³({%b%}) When repeated, the relative pronoun has the sense of ‘totality’,\n and may be translated by ‘whoever’, ‘whatever’, in which case the correlative\n pronoun is generally repeated; {#yo yaH SastraM biBarti svaBujagurubalaH#}\n {#pARqavInAM camUnAM … kroDAnDastasya tasya svayamiha jagatAmantakasyAntako'ham#}\n <ls>Ve. 3. 30</ls>; {#kriyate yad yadezA kaTayati#} <ls>U. 1</ls>; {#yaM yaM paSyasi tasya#}\n {#tasya purato mA brUhi dInaM vacaH#} <ls>Bh. 2. 51</ls>. When joined with the interrogative\n pronoun or its derivatives with or without the particles {#cid, cana#},\n {#vA#}, or {#api#}, it expresses the sense of ‘whatever’, ‘any whatsoever’,\n ‘any’; {#sUto vA sUtaputro vA yo vA ko vA BavAmyaham#} <ls>Ve. 3. 33</ls>; {#yena#}\n {#kena prakAreRa#} anyhow, somehow or other; {#yatra kutrApi, yo vA ko vA#},\n {#yaH kaScana#} <ab>&c.</ab>; {#yat kiMcidetad#} ‘this is a mere trifle’; {#yAni#}\n {#kAni ca mitrARi#} <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 246257,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#yad#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "As an indeclinable {#yad#} is frequently used\n",
+                ".²1 to introduce a direct or subordinate assertion with or without {#iti#}\n at the end; {#satyo'yaM janapravAdo yat saMpat saMpadamanubaDnAtIti#}\n <ls>K. 73</ls>; {#tasya kadAciccintA samutpannA yadarTotpattyupAyAScintanIyAH kartavyASca#} <ls>Pt. 1</ls> or\n",
+                ".²2 in the sense of ‘because’, ‘since’; {#priyamAcaritaM late tvayA me …#}\n {#yadiyaM punarapyapANganetrA parivfttArDamuKI mayAdya dfzwA#} <ls>V. 1. 17</ls>;\n or {#kiM Sezasya BaravyaTA na vapuzi kzmAM na kzipatyeza yat#}\n <ls>Mu. 2. 18</ls>; <ls>R. 1. 27</ls>, <ls n=\"R. 1.\">87</ls>; in this sense {#yad#} is often followed by {#tad#}\n or {#tataH#} as its correlative; see\n\n {#yat prItimadBirvadanEH svasAmyAt … … tatastadIyADarayAvayogAt …#}\n <ls>N. 22. 46</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 246270,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-api#}@}"
+            ],
+            "_banner": ".{@{#-api#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadapi"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "although, though; {#vakraH panTA yadapi BavataH#} <ls>Me. 27</ls>.\n"
+            ]
+        },
+        {
+            "__line": 246271,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-arTam, -arTe#}@}"
+            ],
+            "_banner": ".{@{#-arTam, -arTe#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadarTam"
+                },
+                {
+                    "Right": "yadarTe"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 for which, wherefore, why, on which account; {#SrUyatAM yadarTamasmi#}\n {#hariRA BavatsakASaM prezitaH#} <ls>Ś. 6</ls>; <ls>Ku. 5. 52</ls>.\n",
+                ".²2 since, because; {#nUnaM dEvaM na SakyaM hi puruzeRAtivartitum . yadarTaM#}\n {#yatnavAneva na laBe vipratAM viBo ..#} <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 246276,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-avaDi#}@}"
+            ],
+            "_banner": ".{@{#-avaDi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadavaDi"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "since which time.\n"
+            ]
+        },
+        {
+            "__line": 246277,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-Atmaka#}@}"
+            ],
+            "_banner": ".{@{#-Atmaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadAtmaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having which essence or existence.\n"
+            ]
+        },
+        {
+            "__line": 246278,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-kAraRam, -kAraRAt#}@}"
+            ],
+            "_banner": ".{@{#-kAraRam, -kAraRAt#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yatkAraRam"
+                },
+                {
+                    "Right": "yatkAraRAt"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 wherefore, on which account.\n",
+                ".²2 since, because.\n"
+            ]
+        },
+        {
+            "__line": 246281,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-kfte#}@}"
+            ],
+            "_banner": ".{@{#-kfte#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yatkfte"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "wherefore, why, for which person or thing.\n"
+            ]
+        },
+        {
+            "__line": 246282,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-BAvizyaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvizyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadBAvizyaH"
+                }
+            ],
+            "_meanings": [
+                "a fatalist (one who says ‘what will be will be’); {#yadBavizyo#}\n {#vinazyati#} <ls>Pt. 1. 318</ls>.\n"
+            ]
+        },
+        {
+            "__line": 246284,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-vada#}@}"
+            ],
+            "_banner": ".{@{#-vada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadvada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "talking anything.\n"
+            ]
+        },
+        {
+            "__line": 246285,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-vA#}@}"
+            ],
+            "_banner": ".{@{#-vA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadvA"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "or else, whether; {#nEtadvidmaH kataranno garIyo#}\n {#yadvA jayema yadi vA no jayeyuH#} <ls>Bg. 2. 6</ls>; (often used by commentators\n in suggesting an alternative meaning).\n"
+            ]
+        },
+        {
+            "__line": 246288,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-vfttam#}@}"
+            ],
+            "_banner": ".{@{#-vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yadvfttam"
+                }
+            ],
+            "_meanings": [
+                "an adventure.\n"
+            ]
+        },
+        {
+            "__line": 246289,
+            "_ancestry": [
+                "L_ 26887",
+                "B_ {#yad#}",
+                "S_ .{@{#-satyam#}@}"
+            ],
+            "_banner": ".{@{#-satyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yatsatyam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "to be sure, to speak the truth, truly, forsooth;\n {#amaNgalASaMsayA vo vacanasya yat satyaM kampitamiva me hfdayam#} <ls>Ve. 1</ls>;\n <ls>Mu. 1</ls>; <ls>Mk. 4</ls>."
+            ]
+        }
     ]
 }

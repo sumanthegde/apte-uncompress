@@ -1,47 +1,99 @@
 {
-    "__line": 106869,
+    "__line": 108044,
     "_ancestry": [
         "L_ 12743",
-        "B_ {#gORa#}"
+        "B_ {#kUlam#}"
     ],
-    "_banner": "{#gORa#}",
+    "_banner": "{#kUlam#}",
     "_bannerExp": [
         {
-            "Right": "gORI"
-        },
-        {
-            "Right": "gORa"
+            "Right": "kUlam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#RI#}|{%<ab>f.</ab>%})",
-        "[{#guRamaDikftya#} \n{#pravfttA gORI, tata AgataH aR#}]"
-    ],
     "_meanings": [
-        "{@--1@} \nSubordinate, secondary, unessential. ",
-        "{@--2@}\n(In <ab>gram.</ab>) Indirect or less \nimmediate (<ab>opp.</ab> {#muKya#} or {#praDAna#}); {#gORe#}\n{#karmaRi duhyAdeH praDAne nIhfkfzvahAM#} <ls>Sk.</ls> ",
-        "{@--3@}\nFigurative, metaphorical, used in a\nsecondary sense (as a word or \n\nsense). ",
-        "{@--4@} Founded on some \nresemblance between the primary and\nsecondary sense of a word; as in\n{#gORIlakzaRA#}. ",
-        "{@--5@} Relating to \nenumeration or multiplication. ",
-        "{@--6@} \nAttributive. "
+        ".²1 A shore, bank; {#rADAmADavayorjayanti yamunAkUle rahaHkelayaH#} <ls>Gīt. 1</ls>;\n {#nadIvoBayakUlaBAk#} <ls>R. 12. 35</ls>, <ls n=\"R. 12.\">68</ls>; {#cukUja kUle kalahaMsamaRqalI#}\n <ls>N.</ls> {#yaTA mahAmatsya uBe kUle anusaMcarati#} <ls>Bṛ. Up. 4. 3. 18</ls>.\n",
+        ".²2 A slope, declivity.\n",
+        ".²3 Skirt, edge, border, proximity; {#AstIrya darBAnprAkkUlAn#} <ls>Bhāg. 8. 24. 40</ls>;\n {#kulAyakUlezu viluwya tezu te#} <ls>N. 1. 141</ls>.\n",
+        ".²4 A pond.\n",
+        ".²5 The rear of an army.\n",
+        ".²6 A heap, mound.\n"
     ],
     "_samasas": [
         {
-            "__line": 106883,
+            "__line": 108055,
             "_ancestry": [
                 "L_ 12743",
-                "B_ {#gORa#}",
-                "S_  {#--pakzaH#}"
+                "B_ {#kUlam#}",
+                "S_ .{@{#-cara#}@}"
             ],
-            "_banner": " {#--pakzaH#}",
+            "_banner": ".{@{#-cara#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gORapakzaH"
+                    "Right": "kUlacara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "frequenting or grazing on the banks of a river.\n"
+            ]
+        },
+        {
+            "__line": 108056,
+            "_ancestry": [
+                "L_ 12743",
+                "B_ {#kUlam#}",
+                "S_ .{@{#-taRqulaH#}@}"
+            ],
+            "_banner": ".{@{#-taRqulaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUlataRqulaH"
                 }
             ],
             "_meanings": [
-                "the minor\nor weaker side of an argument &c."
+                "Breakers, surges.\n"
+            ]
+        },
+        {
+            "__line": 108057,
+            "_ancestry": [
+                "L_ 12743",
+                "B_ {#kUlam#}",
+                "S_ .{@{#-BUH#}@}"
+            ],
+            "_banner": ".{@{#-BUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUlaBUH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the land on a bank.\n"
+            ]
+        },
+        {
+            "__line": 108058,
+            "_ancestry": [
+                "L_ 12743",
+                "B_ {#kUlam#}",
+                "S_ .{@{#-haRqakaH, -huRqakaH#}@}"
+            ],
+            "_banner": ".{@{#-haRqakaH, -huRqakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUlahaRqakaH"
+                },
+                {
+                    "Right": "kUlahuRqakaH"
+                }
+            ],
+            "_meanings": [
+                "an eddy."
             ]
         }
     ]

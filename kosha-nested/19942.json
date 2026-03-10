@@ -1,43 +1,58 @@
 {
-    "__line": 166806,
+    "__line": 179817,
     "_ancestry": [
         "L_ 19942",
-        "B_ {#pratibaMDaka#}"
+        "B_ {#paratra#}"
     ],
-    "_banner": "{#pratibaMDaka#}",
+    "_banner": "{#paratra#}",
     "_bannerExp": [
         {
-            "Right": "pratibaMDaka"
-        },
-        {
-            "Right": "pratibaMDikA"
+            "Right": "paratra"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#DikA#}|{%<ab>f.</ab>%})"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@} \nBinding, fastening. ",
-        "{@--2@} Impeding, \nobstructing, hindering. ",
-        "{@--3@} Resisting,\nopposing. "
+        ".²1 In another world, in a future birth; {#paratreha ca SarmaRe#} <ls>R. 1. 69</ls>;\n <ls>Ku. 4. 37</ls>; <ls>Ms. 3. 275</ls>, <ls n=\"Ms.\">5. 166</ls>, <ls n=\"Ms.\">8. 127</ls>.\n",
+        ".²2 In the sequel, further or later on.\n",
+        ".²3 Hereafter, in future.\n"
     ],
     "_morphisms": [
         {
-            "__line": 166809,
+            "__line": 179822,
             "_ancestry": [
                 "L_ 19942",
-                "B_ {#pratibaMDaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#paratra#}",
+                "M_ .{@{#-tram#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-tram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pratibaMDakaH"
+                    "Right": "paratram"
                 }
             ],
             "_meanings": [
-                "A branch, shoot."
+                "Future world.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 179824,
+            "_ancestry": [
+                "L_ 19942",
+                "B_ {#paratra#}",
+                "S_ .{@{#-BIruH#}@}"
+            ],
+            "_banner": ".{@{#-BIruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paratraBIruH"
+                }
+            ],
+            "_meanings": [
+                "one who stands in awe of the future world, a pious or religious man."
             ]
         }
     ]

@@ -1,32 +1,383 @@
 {
-    "__line": 154034,
+    "__line": 163235,
     "_ancestry": [
         "L_ 18348",
-        "B_ {#pari(rI)hAraH#}"
+        "B_ {#nayanam#}"
     ],
-    "_banner": "{#pari(rI)hAraH#}",
+    "_banner": "{#nayanam#}",
     "_bannerExp": [
         {
-            "Right": "parIhAraH"
-        },
-        {
-            "Right": "parihAraH"
+            "Right": "nayanam"
         }
     ],
+    "_gram": [
+        "[{#nI-karaRe lyuw#}]"
+    ],
     "_meanings": [
-        "{@--1@} Leaving, \nquitting, giving up, abandoning. ",
-        "{@--2@} \nRemoving, taking away; as in  \n{#viroDaparihAra#}. ",
-        "{@--3@} Shunning, avoiding. ",
-        "{@--4@}\nRefuting, repelling. ",
-        "{@--5@} Omitting\nto mention, omission, leaving out.\n",
-        "{@--6@} Reserve, concealment. ",
-        "{@--7@} A tract\nof common land round a village or\ntown; {#DanuHSataM parIhAro grAmasya#} \n{#syAtsamaMtataH#} <ls>Ms. 8. 237.</ls> ",
-        "{@--8@} A special grant,\nimmunity, privilege, exemption\nfrom taxes; <ls>Ms. 7. 201.</ls> ",
-        "{@--9@} \nContempt, disrespect. ",
-        "{@--10@} An objection.\n",
-        "{@--11@} Seizing, keeping back. ",
-        "{@--12@}\nBounty. ",
-        "{@--13@} (In <ab>gram.</ab>) The \nrepetition of a word before and after {#iti#};\n<ab>cf.</ab> {#parigraha#}. ",
-        "{@--14@} Atoning for any \nimproper action."
+        ".²1 Leading, guiding, conducting managing.\n",
+        ".²2 Taking, bringing to or near, drawing; {#pApApahaM svarnayanaM dustaraM#}\n {#pArTivarzaBEH#} <ls>Rām. 1. 14. 58</ls>.\n",
+        ".²3 Ruling, governing, polity; {#vAkyEH pavitrArTapadErnayanEH prAkftErapi#}\n <ls>Bhāg. 10. 50. 34</ls>.\n",
+        ".²4 Obtaining.\n",
+        ".²5 The eye.\n",
+        ".²6 Passing, spending (as time).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 163244,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "M_ .{@{#-nA, nI#}@}"
+            ],
+            "_banner": ".{@{#-nA, nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanA"
+                },
+                {
+                    "Right": "nayanI"
+                }
+            ],
+            "_meanings": [
+                "The pupil of the eye.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 163246,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-aYcalaH, -antaH#}@}"
+            ],
+            "_banner": ".{@{#-aYcalaH, -antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanAYcalaH"
+                },
+                {
+                    "Right": "nayanAntaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the eye-corner.\n",
+                ".²2 a side-glance.\n"
+            ]
+        },
+        {
+            "__line": 163249,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-aBirAma#}@}"
+            ],
+            "_banner": ".{@{#-aBirAma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanABirAma"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "gladdening the sight, lovely to behold.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 163250,
+                    "_ancestry": [
+                        "L_ 18348",
+                        "B_ {#nayanam#}",
+                        "S_ .{@{#-aBirAma#}@}",
+                        "S_M_ ({@{#-maH#}@}"
+                    ],
+                    "_banner": "({@{#-maH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nayanABirAmaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the moon.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 163251,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-Amozin#}@}"
+            ],
+            "_banner": ".{@{#-Amozin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanAmozin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "blinding the sight, obscuring.\n"
+            ]
+        },
+        {
+            "__line": 163252,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-utsavaH#}@}"
+            ],
+            "_banner": ".{@{#-utsavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanotsavaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a lamp.\n",
+                ".²2 delight of the eyes. ",
+                ".²3 any lovely object.\n"
+            ]
+        },
+        {
+            "__line": 163255,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-upAntaH#}@}"
+            ],
+            "_banner": ".{@{#-upAntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanopAntaH"
+                }
+            ],
+            "_meanings": [
+                "the corner of the eye; {#nayanopAntavilokitaM ca yat#}\n ({#smarAmi#}) <ls>Ku. 4. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163257,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-gocara#}@}"
+            ],
+            "_banner": ".{@{#-gocara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanagocara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "visible, within the range of sight.\n"
+            ]
+        },
+        {
+            "__line": 163258,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-caritam#}@}"
+            ],
+            "_banner": ".{@{#-caritam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanacaritam"
+                }
+            ],
+            "_meanings": [
+                "the play of the eyes, ogling.\n"
+            ]
+        },
+        {
+            "__line": 163259,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-CadaH#}@}"
+            ],
+            "_banner": ".{@{#-CadaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanacCadaH"
+                }
+            ],
+            "_meanings": [
+                "an eyelid.\n"
+            ]
+        },
+        {
+            "__line": 163260,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-jam, -jalam, -vAri#}@}"
+            ],
+            "_banner": ".{@{#-jam, -jalam, -vAri#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanajam"
+                },
+                {
+                    "Right": "nayanajalam"
+                },
+                {
+                    "Right": "nayanavAri"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "tears; {#deva tvadvErinArInayananayanajErnirmame#}\n {#nIraDirna#} <ls>Sūkti. 5. 117</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163262,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanapaTaH"
+                }
+            ],
+            "_meanings": [
+                "the range of sight.\n"
+            ]
+        },
+        {
+            "__line": 163263,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-puwam#}@}"
+            ],
+            "_banner": ".{@{#-puwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanapuwam"
+                }
+            ],
+            "_meanings": [
+                "the cavity of the eye, eye-lid.\n"
+            ]
+        },
+        {
+            "__line": 163264,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-prabanDaH#}@}"
+            ],
+            "_banner": ".{@{#-prabanDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanaprabanDaH"
+                }
+            ],
+            "_meanings": [
+                "the outer corner of the eye.\n"
+            ]
+        },
+        {
+            "__line": 163265,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-prItiH#}@}"
+            ],
+            "_banner": ".{@{#-prItiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanaprItiH"
+                }
+            ],
+            "_meanings": [
+                "lovely sight.\n"
+            ]
+        },
+        {
+            "__line": 163266,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-plavaH#}@}"
+            ],
+            "_banner": ".{@{#-plavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanaplavaH"
+                }
+            ],
+            "_meanings": [
+                "the swimming of the eyes.\n"
+            ]
+        },
+        {
+            "__line": 163267,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-budbudam#}@}"
+            ],
+            "_banner": ".{@{#-budbudam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanabudbudam"
+                }
+            ],
+            "_meanings": [
+                "an eye-ball.\n"
+            ]
+        },
+        {
+            "__line": 163268,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-vizayaH#}@}"
+            ],
+            "_banner": ".{@{#-vizayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanavizayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 any visible object; {#nayanavizayaM janmanyekaH sa eva mahotsavaH#} <ls>Māl. 1. 36</ls>.\n",
+                ".²2 the horizon. ",
+                ".²3 the range of sight.\n"
+            ]
+        },
+        {
+            "__line": 163271,
+            "_ancestry": [
+                "L_ 18348",
+                "B_ {#nayanam#}",
+                "S_ .{@{#-salilam#}@}"
+            ],
+            "_banner": ".{@{#-salilam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nayanasalilam"
+                }
+            ],
+            "_meanings": [
+                "tears; {#tasmin kAle nayanasalilaM yozitAM KaRqitAnAm#}\n ({#SAnti neyam#}) <ls>Me. 41</ls>."
+            ]
+        }
     ]
 }

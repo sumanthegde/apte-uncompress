@@ -1,19 +1,91 @@
 {
-    "__line": 252761,
+    "__line": 278942,
     "_ancestry": [
         "L_ 30245",
-        "B_ {#sAsa#}"
+        "B_ {#vilocanam#}"
     ],
-    "_banner": "{#sAsa#}",
+    "_banner": "{#vilocanam#}",
     "_bannerExp": [
         {
-            "Right": "sAsa"
+            "Right": "vilocanam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Having a bow; <ls>Ki. 15. 5.</ls>"
+        "The eye; <ls>R. 7. 8</ls>; <ls>Ku. 4. 1</ls>, <ls n=\"Ku.\">3. 67</ls>; {#tfzRAlolavilocane#}\n {#kalayati prAcIM cakorIgaRe .#} <ls>Bv. 1. 4</ls>; also seeing, sight. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 278943,
+            "_ancestry": [
+                "L_ 30245",
+                "B_ {#vilocanam#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vilocanaM#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                "Distorting\n the eyes ({#viparItadfzwi#}); {#SatrurmitramuKo yaSca jihmaprekzI vilocanaH#}\n <ls>Mb. 12. 168. 14</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 278947,
+            "_ancestry": [
+                "L_ 30245",
+                "B_ {#vilocanam#}",
+                "S_ .{@{#-ambu#}@}"
+            ],
+            "_banner": ".{@{#-ambu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilocanAmbu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "tears.\n"
+            ]
+        },
+        {
+            "__line": 278948,
+            "_ancestry": [
+                "L_ 30245",
+                "B_ {#vilocanam#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilocanapaTaH"
+                }
+            ],
+            "_meanings": [
+                "the range of vision.\n"
+            ]
+        },
+        {
+            "__line": 278949,
+            "_ancestry": [
+                "L_ 30245",
+                "B_ {#vilocanam#}",
+                "S_ .{@{#-pAtaH#}@}"
+            ],
+            "_banner": ".{@{#-pAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilocanapAtaH"
+                }
+            ],
+            "_meanings": [
+                "a glance, look."
+            ]
+        }
     ]
 }

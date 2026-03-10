@@ -1,25 +1,69 @@
 {
-    "__line": 155942,
+    "__line": 165882,
     "_ancestry": [
         "L_ 18617",
-        "B_ {#pARaH#}"
+        "B_ {#nikawa#}"
     ],
-    "_banner": "{#pARaH#}",
+    "_banner": "{#nikawa#}",
     "_bannerExp": [
         {
-            "Right": "pARaH"
+            "Right": "nikawa"
         }
     ],
     "_gram": [
-        "[{#paR BAve GaY#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Trade,\ntraffic. ",
-        "{@--2@} A trader. ",
-        "{@--3@} A game. ",
-        "{@--4@}\nA stake at play. ",
-        "{@--5@} An agreement.\n",
-        "{@--6@} Praise. ",
-        "{@--7@} The hand."
+        "Near, close, hard by, proximate.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 165883,
+            "_ancestry": [
+                "L_ 18617",
+                "B_ {#nikawa#}",
+                "M_ .{@{#-waH, -wam#}@}"
+            ],
+            "_banner": ".{@{#-waH, -wam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nikawaH"
+                },
+                {
+                    "Right": "nikawam"
+                }
+            ],
+            "_meanings": [
+                "Proximity. ({#nikawe#} is used adverbially in the sense\n of ‘near’, ‘at hand’, ‘hard’ or ‘close by’, {#vahati nikawe kAlasrotaH#}\n {#samastaBayAvaham#} <ls>Śānti. 3. 2</ls>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 165887,
+            "_ancestry": [
+                "L_ 18617",
+                "B_ {#nikawa#}",
+                "S_ .{@{#-ga, -vartin, -sTa#}@}"
+            ],
+            "_banner": ".{@{#-ga, -vartin, -sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nikawaga"
+                },
+                {
+                    "Right": "nikawavartin"
+                },
+                {
+                    "Left": "S error: 1 syl vartin sTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "near, at hand."
+            ]
+        }
     ]
 }

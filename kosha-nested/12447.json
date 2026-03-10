@@ -1,25 +1,82 @@
 {
-    "__line": 103972,
+    "__line": 105492,
     "_ancestry": [
         "L_ 12447",
-        "B_ {#gARapata#}"
+        "B_ {#kutapaH#}"
     ],
-    "_banner": "{#gARapata#}",
+    "_banner": "{#kutapaH#}",
     "_bannerExp": [
         {
-            "Right": "gARapatI"
-        },
-        {
-            "Right": "gARapata"
+            "Right": "kutapaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tI#}|{%<ab>f.</ab>%})",
-        "[{#gaRapati-aR#}]"
-    ],
     "_meanings": [
-        "{@--1@}\nRelating to the leader of a troop.\n",
-        "{@--2@} Relating to Gaṇeśa."
+        ".²1 A Brāhmaṇa.\n",
+        ".²2 A twice-born man ({#dvijanman#}).\n",
+        ".²3 The sun.\n",
+        ".²4 Fire.\n",
+        ".²5 A guest.\n",
+        ".²6 An ox, a bull.\n",
+        ".²7 A daughterʼs son.\n",
+        ".²8 A sisterʼs son.\n",
+        ".²9 Grain.\n",
+        ".²10 The eighth Muhūrta of the day; <ls>Mb. 13. 126. 36</ls>; <ab>cf.</ab> {#ahno muhUrtA#}\n {#viKyAtA daSa paYca ca sarvadA . tatrAzwamo muhUrto yaH sa kAlaH kutapaH smftaH ..#}\n",
+        ".²11 A musical instrument.\n",
+        ".²12 A time suitable for the performance of sacrifices to the manes.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 105506,
+            "_ancestry": [
+                "L_ 12447",
+                "B_ {#kutapaH#}",
+                "M_ .{@{#-pam#}@}"
+            ],
+            "_banner": ".{@{#-pam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kutapam"
+                }
+            ],
+            "_meanings": [
+                "The Kuśa grass.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 105508,
+            "_ancestry": [
+                "L_ 12447",
+                "B_ {#kutapaH#}",
+                "S_ .{@{#-azwakam#}@}"
+            ],
+            "_banner": ".{@{#-azwakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kutapAzwakam"
+                }
+            ],
+            "_meanings": [
+                "eight {#kutapa#}s namely, {#maDyAhna, SfNgapAtra, UrRAvastra#},\n {#rOpya, darBa, vatsa, Denu, dOhitra#}.\n"
+            ]
+        },
+        {
+            "__line": 105510,
+            "_ancestry": [
+                "L_ 12447",
+                "B_ {#kutapaH#}",
+                "S_ .{@{#-saptakam#}@}"
+            ],
+            "_banner": ".{@{#-saptakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kutapasaptakam"
+                }
+            ],
+            "_meanings": [
+                "seven things to be given in honour of the dead at the\n {#SrAdDa#} ceremony, namely, {#SfNgapAtra, UrRAvastra, rOpyaDAtu, kuSatfRa#},\n {#savatsA DenuH, aparAhRakAla, kfzRatila#}."
+            ]
+        }
     ]
 }

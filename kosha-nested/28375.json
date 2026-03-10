@@ -1,38 +1,132 @@
 {
-    "__line": 238406,
+    "__line": 262108,
     "_ancestry": [
         "L_ 28375",
-        "B_ {#SrARa#}"
+        "B_ {#vadanam#}"
     ],
-    "_banner": "{#SrARa#}",
+    "_banner": "{#vadanam#}",
     "_bannerExp": [
         {
-            "Right": "SrARa"
+            "Right": "vadanam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#udyate'nena vad karaRe lyuw#}]"
     ],
     "_meanings": [
-        "{@--1@} Cooked, dressed, boiled. \n\n",
-        "{@--2@} Wet, moist. "
+        ".²1 The face; {#AsIdvivfttavadanA ca vimocayantI#} <ls>Ś. 2. 13</ls>; so {#suvadanA#},\n {#kamalavadanA#} <ab>&c.</ab>\n",
+        ".²2 The mouth; {#vadane viniveSitA BujaNgI piSunAnAM rasanAmizeRa DAtrA#} <ls>Bv. 1. 111</ls>.\n",
+        ".²3 Aspect, look, appearance.\n",
+        ".²4 The front point.\n",
+        ".²5 First term (in a series).\n",
+        ".²6 The summit or apex of a triangle.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 238408,
+            "__line": 262117,
             "_ancestry": [
                 "L_ 28375",
-                "B_ {#SrARa#}",
-                "M_ {#--RaM#}"
+                "B_ {#vadanam#}",
+                "S_ .{@{#-AsavaH#}@}"
             ],
-            "_banner": "{#--RaM#}",
+            "_banner": ".{@{#-AsavaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SrARaM"
+                    "Right": "vadanAsavaH"
                 }
             ],
             "_meanings": [
-                "Boiled meat &c."
+                "saliva.\n"
+            ]
+        },
+        {
+            "__line": 262118,
+            "_ancestry": [
+                "L_ 28375",
+                "B_ {#vadanam#}",
+                "S_ .{@{#-udaram#}@}"
+            ],
+            "_banner": ".{@{#-udaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vadanodaram"
+                }
+            ],
+            "_meanings": [
+                "the jaws.\n"
+            ]
+        },
+        {
+            "__line": 262119,
+            "_ancestry": [
+                "L_ 28375",
+                "B_ {#vadanam#}",
+                "S_ .{@{#-kaYjam, paNkajam#}@}"
+            ],
+            "_banner": ".{@{#-kaYjam, paNkajam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vadanakaYjam"
+                },
+                {
+                    "Right": "vadanapaNkajam"
+                }
+            ],
+            "_meanings": [
+                "a lotus-face.\n"
+            ]
+        },
+        {
+            "__line": 262120,
+            "_ancestry": [
+                "L_ 28375",
+                "B_ {#vadanam#}",
+                "S_ .{@{#-pavanaH#}@}"
+            ],
+            "_banner": ".{@{#-pavanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vadanapavanaH"
+                }
+            ],
+            "_meanings": [
+                "breath.\n"
+            ]
+        },
+        {
+            "__line": 262121,
+            "_ancestry": [
+                "L_ 28375",
+                "B_ {#vadanam#}",
+                "S_ .{@{#-mAlinyam#}@}"
+            ],
+            "_banner": ".{@{#-mAlinyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vadanamAlinyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a troubled face.\n",
+                ".²2 shame-faced appearance.\n"
+            ]
+        },
+        {
+            "__line": 262124,
+            "_ancestry": [
+                "L_ 28375",
+                "B_ {#vadanam#}",
+                "S_ .{@{#-SyAmikA#}@}"
+            ],
+            "_banner": ".{@{#-SyAmikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vadanaSyAmikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 blackness of the face.\n",
+                ".²2 a kind of disease."
             ]
         }
     ]

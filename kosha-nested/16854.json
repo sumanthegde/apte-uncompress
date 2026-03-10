@@ -1,38 +1,99 @@
 {
-    "__line": 141353,
+    "__line": 146639,
     "_ancestry": [
         "L_ 16854",
-        "B_ {#niyojanaM#}"
+        "B_ {#trika#}"
     ],
-    "_banner": "{#niyojanaM#}",
+    "_banner": "{#trika#}",
     "_bannerExp": [
         {
-            "Right": "niyojanaM"
+            "Right": "trika"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#trayARAM saMGaH kan#}]"
+    ],
     "_meanings": [
-        "{@--1@} Fastening, attaching.\n",
-        "{@--2@} Ordering, prescribing. ",
-        "{@--3@} \nUrging, impelling. ",
-        "{@--4@} Appointing. ",
-        "{@--5@}\n<ab>Ved.</ab> That with which anything is\ntied. "
+        ".²1 Triple, three-fold.\n",
+        ".²2 Forming a triad; {#ava dvake ava trikA divaScaranti BezajA#} <ls>Rv. 10. 59. 9</ls>.\n",
+        ".²3 Three per cent; <ab>cf.</ab> <ls>Ms. 8. 152. Kull.</ls>\n",
+        ".²4 Happening the third time.\n"
     ],
     "_morphisms": [
         {
-            "__line": 141357,
+            "__line": 146644,
             "_ancestry": [
                 "L_ 16854",
-                "B_ {#niyojanaM#}",
-                "M_ {#--nI#}"
+                "B_ {#trika#}",
+                "M_ .{@{#-kam#}@}"
             ],
-            "_banner": "{#--nI#}",
+            "_banner": ".{@{#-kam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "niyojanI"
+                    "Right": "trikam"
                 }
             ],
             "_meanings": [
-                "A halter."
+                ".²1 A triad; {#BaktiH pareSAnuBavo viraktiranyatra cEza trika ekakAlaH#}\n <ls>Bhāg. 11. 2. 42</ls>.\n",
+                ".²2 A place where three roads meet.\n",
+                ".²3 The lower part of the spine, the part about the hips; {#pfzWavaMSADare#}\n {#trikam#} <ls>Ak.</ls> (<lang>Mar.</lang> <ns>{#mAkaqahAqa#}</ns>); {#trike sTUlatA#} <ls>Pt. 1. 190</ls>; {#kaScidvivfttatrikaBinnahAraH#}\n <ls>R. 6. 16</ls>; {#CinnatrikAstaTA kecit …#} <ls>Śiva B. 13. 126</ls>.\n",
+                ".²4 The part between the shoulderblades.\n",
+                ".²5 The three spices.\n"
+            ]
+        },
+        {
+            "__line": 146653,
+            "_ancestry": [
+                "L_ 16854",
+                "B_ {#trika#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A contrivance for raising water (like a wheel) over which passes the\n rope of the bucket.\n",
+                ".²2 The cover of a well.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 146658,
+            "_ancestry": [
+                "L_ 16854",
+                "B_ {#trika#}",
+                "S_ .{@{#-trayam#}@}"
+            ],
+            "_banner": ".{@{#-trayam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikatrayam"
+                }
+            ],
+            "_meanings": [
+                "the 3 triads ({#triPalA, trikawu#} and {#trimada#}).\n"
+            ]
+        },
+        {
+            "__line": 146659,
+            "_ancestry": [
+                "L_ 16854",
+                "B_ {#trika#}",
+                "S_ .{@{#-sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "trikasTAnam"
+                }
+            ],
+            "_meanings": [
+                "the loins."
             ]
         }
     ]

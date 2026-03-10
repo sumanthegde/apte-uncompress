@@ -1,17 +1,41 @@
 {
-    "__line": 183104,
+    "__line": 197756,
     "_ancestry": [
         "L_ 22016",
-        "B_ {#BavatI#}"
+        "B_ {#prakopana#}, {#-Ra#}"
     ],
-    "_banner": "{#BavatI#}",
+    "_banner": "{#prakopana#}, {#-Ra#}",
     "_bannerExp": [
         {
-            "Right": "BavatI"
+            "Right": "prakopana"
+        },
+        {
+            "Right": "prakopaRa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Your ladyship, lady. ",
-        "{@--2@}\nA poisoned arrow."
+        "Irritating, exciting, provoking.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 197758,
+            "_ancestry": [
+                "L_ 22016",
+                "B_ {#prakopana#}, {#-Ra#}",
+                "M_ .{@{#-nam, -Ram#}@}"
+            ],
+            "_banner": ".{@{#-nam, -Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakopanam"
+                }
+            ],
+            "_meanings": [
+                "Provocation, irritation."
+            ]
+        }
     ]
 }

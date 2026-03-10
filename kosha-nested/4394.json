@@ -1,19 +1,81 @@
 {
-    "__line": 40303,
+    "__line": 36884,
     "_ancestry": [
         "L_ 4394",
-        "B_ {#avakrayaH#}"
+        "B_ {#arata#}"
     ],
-    "_banner": "{#avakrayaH#}",
+    "_banner": "{#arata#}",
     "_bannerExp": [
         {
-            "Right": "avakrayaH"
+            "Right": "arata"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Price. ",
-        "{@--2@} Wages, hire,\nfarm, rent. ",
-        "{@--3@} Letting out to hire,\nleasing; <ls>Y. 2. 238.</ls> ",
-        "{@--4@} A tax or tribute\n(to be paid to the king), duty ( \n{#rAjagrAhyaM dravyaM#} <ls>Sk.</ls>)."
+        ".²1 Dull, languid, apathetic.\n",
+        ".²2 Dissatisfied, discontented, averse to.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 36887,
+            "_ancestry": [
+                "L_ 4394",
+                "B_ {#arata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aratam"
+                }
+            ],
+            "_meanings": [
+                "Non-copulation.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 36889,
+            "_ancestry": [
+                "L_ 4394",
+                "B_ {#arata#}",
+                "S_ .{@{#-trapa#}@}"
+            ],
+            "_banner": ".{@{#-trapa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aratatrapa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not ashamed of copulation.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 36890,
+                    "_ancestry": [
+                        "L_ 4394",
+                        "B_ {#arata#}",
+                        "S_ .{@{#-trapa#}@}",
+                        "S_M_ ({@{#-pa#}@}"
+                    ],
+                    "_banner": "({@{#-pa#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aratatrapa"
+                        }
+                    ],
+                    "_meanings": [
+                        "a dog (as copulating even in the streets without shame)."
+                    ]
+                }
+            ]
+        }
     ]
 }

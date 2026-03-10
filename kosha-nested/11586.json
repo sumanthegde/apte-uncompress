@@ -1,22 +1,35 @@
 {
-    "__line": 97208,
+    "__line": 97157,
     "_ancestry": [
         "L_ 11586",
-        "B_ {#koSi(zi)n#}"
+        "B_ {#kareRukam#}"
     ],
-    "_banner": "{#koSi(zi)n#}",
+    "_banner": "{#kareRukam#}",
     "_bannerExp": [
         {
-            "Right": "koSin"
-        },
-        {
-            "Right": "kozin"
+            "Right": "kareRukam"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}"
-    ],
     "_meanings": [
-        "The mango tree."
+        "The poisonous fruit of the plant Kareṇu.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 97158,
+            "_ancestry": [
+                "L_ 11586",
+                "B_ {#kareRukam#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kareRukA"
+                }
+            ],
+            "_meanings": [
+                "A female elephant."
+            ]
+        }
     ]
 }

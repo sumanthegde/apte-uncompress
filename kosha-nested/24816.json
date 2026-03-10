@@ -1,17 +1,82 @@
 {
-    "__line": 210371,
+    "__line": 222697,
     "_ancestry": [
         "L_ 24816",
-        "B_ {#vaMSikA#}"
+        "B_ {#brAhmya#}"
     ],
-    "_banner": "{#vaMSikA#}",
+    "_banner": "{#brAhmya#}",
     "_bannerExp": [
         {
-            "Right": "vaMSikA"
+            "Right": "brAhmya"
+        },
+        {
+            "Right": "brAhmayI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-hmayI#}|{%f.%})",
+        "[{#brahmaRa idaM zyaY#}]"
+    ],
     "_meanings": [
-        "{@--1@} A kind of flute. ",
-        "{@--2@} \nAloewood."
+        ".²1 Relating to Brahman, the creator.\n",
+        ".²2 Relating to the Supreme Spirit.\n",
+        ".²3 Relating to the Brāhmaṇas.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 222702,
+            "_ancestry": [
+                "L_ 24816",
+                "B_ {#brAhmya#}",
+                "M_ .{@{#-hmyam#}@}"
+            ],
+            "_banner": ".{@{#-hmyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "brAhmyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Wonder, astonishment ({#vismaya#}).\n",
+                ".²2 Worship of the Brāhmaṇas.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 222706,
+            "_ancestry": [
+                "L_ 24816",
+                "B_ {#brAhmya#}",
+                "S_ .{@{#-muhUrta#}@}"
+            ],
+            "_banner": ".{@{#-muhUrta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "brAhmyamuhUrta"
+                }
+            ],
+            "_meanings": [
+                "= {#brAhmamuhUrta#} <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 222707,
+            "_ancestry": [
+                "L_ 24816",
+                "B_ {#brAhmya#}",
+                "S_ .{@{#-hutam#}@}"
+            ],
+            "_banner": ".{@{#-hutam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "brAhmyahutam"
+                }
+            ],
+            "_meanings": [
+                "hospitality to guests; see {#brahmayajYa#}; <ab>cf.</ab> <ls>Ms. 3. 74</ls>;\n {#brAhmyahutaSabdena manuzyayajYAKyo brAhmaRaSrezWasyArcA#} <ls>Kull.</ls>"
+            ]
+        }
     ]
 }

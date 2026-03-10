@@ -1,16 +1,38 @@
 {
-    "__line": 240649,
+    "__line": 264845,
     "_ancestry": [
         "L_ 28643",
-        "B_ {#saMvedaH#}"
+        "B_ {#varviH#}"
     ],
-    "_banner": "{#saMvedaH#}",
+    "_banner": "{#varviH#}",
     "_bannerExp": [
         {
-            "Right": "saMvedaH"
+            "Right": "varviH"
         }
     ],
+    "_gram": [
+        "{%m.%}"
+    ],
     "_meanings": [
-        "Perception, knowledge,\nconsciousness, feeling."
+        "A glutton; <ls>L. D. B.</ls> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 264845,
+            "_ancestry": [
+                "L_ 28643",
+                "B_ {#varviH#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#varviH#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                "voracious, gluttonous."
+            ]
+        }
     ]
 }

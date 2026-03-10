@@ -1,63 +1,76 @@
 {
-    "__line": 126151,
+    "__line": 131396,
     "_ancestry": [
         "L_ 15182",
-        "B_ {#daMtAvalaH, daMtin#}"
+        "B_ {#Ca#}"
     ],
-    "_banner": "{#daMtAvalaH, daMtin#}",
+    "_banner": "{#Ca#}",
     "_bannerExp": [
         {
-            "Right": "daMtAvalaH"
-        },
-        {
-            "Right": "daMtin"
+            "Right": "Ca"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "An elephant;\n<ls>Bv. 1. 60</ls>; {#tfRErguRatvamApannErbaDyaMte#} \n{#mattadaMtinaH#} <ls>H. 1. 35</ls>; <ls>R. 1. 71</ls>;  \n<ls>Ku. 16. 2.</ls> "
+        ".²1 Pure, clean.\n",
+        ".²2 Trembling, unsteady.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 126154,
+            "__line": 131399,
             "_ancestry": [
                 "L_ 15182",
-                "B_ {#daMtAvalaH, daMtin#}",
-                "S_  {#--daMtaH#}"
+                "B_ {#Ca#}",
+                "M_ .{@{#-CaH#}@}"
             ],
-            "_banner": " {#--daMtaH#}",
+            "_banner": ".{@{#-CaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "daMtAvaladaMtaH"
-                },
-                {
-                    "Right": "daMtidaMtaH"
+                    "Right": "CaH"
                 }
             ],
             "_meanings": [
-                "ivory. "
+                ".²1 A part, fragment.\n",
+                ".²2 Cutting, dividing. <ls>Enm.</ls> says: {#CaH somaH#}\n"
             ]
         },
         {
-            "__line": 126154,
+            "__line": 131402,
             "_ancestry": [
                 "L_ 15182",
-                "B_ {#daMtAvalaH, daMtin#}",
-                "S_ {#--madaH#}"
+                "B_ {#Ca#}",
+                "M_ .{@{#-CA#}@}"
             ],
-            "_banner": "{#--madaH#}",
+            "_banner": ".{@{#-CA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "daMtAvalamadaH"
-                },
-                {
-                    "Right": "daMtimadaH"
+                    "Right": "CA"
                 }
             ],
             "_meanings": [
-                "the\njuice exuding from the temples of\nan elephant in rut."
+                ".²1 Covering, concealing.\n",
+                ".²2 An infant, a child.\n",
+                ".²3 Quick-silver.\n",
+                ".²4 The number seven; {#CA ca ruw#} {%<ab>ibid.</ab>%}\n"
+            ]
+        },
+        {
+            "__line": 131407,
+            "_ancestry": [
+                "L_ 15182",
+                "B_ {#Ca#}",
+                "M_ .{@{#-Cam#}@}"
+            ],
+            "_banner": ".{@{#-Cam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Cam"
+                }
+            ],
+            "_meanings": [
+                "A house; {#CamarcirBUtalaM svaH syAt kUwaM kUlaM muKaM kulam .#}\n {%<ab>ibid.</ab>%} <ls>Nm.</ls> says: {#‘Ca ityAcCAdane'bje ca CaM klIbe saMvftO pumAn .#}\n {#trizvayaM nirmale nitye maline Bedake'pi ca ..’#}"
             ]
         }
     ]

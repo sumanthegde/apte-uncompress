@@ -1,17 +1,60 @@
 {
-    "__line": 204812,
+    "__line": 215424,
     "_ancestry": [
         "L_ 24141",
-        "B_ {#rAzwrikaH#}"
+        "B_ {#prezaRam#}, {#-RA#}"
     ],
-    "_banner": "{#rAzwrikaH#}",
+    "_banner": "{#prezaRam#}, {#-RA#}",
     "_bannerExp": [
         {
-            "Right": "rAzwrikaH"
+            "Right": "prezaRam"
+        },
+        {
+            "Right": "prezaRA"
         }
     ],
     "_meanings": [
-        "{@--1@} An inhabitant of a\nkingdom or country, a subject;  \n<ls>Ms. 10. 61.</ls> ",
-        "{@--2@} The ruler of a \nkingdom, governor."
+        ".²1 Sending, despatching.\n",
+        ".²2 Sending on a mission, directing, commissioning.\n",
+        ".²3 Executing a commission.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 215429,
+            "_ancestry": [
+                "L_ 24141",
+                "B_ {#prezaRam#}, {#-RA#}",
+                "S_ .{@{#-aDyakzaH#}@}"
+            ],
+            "_banner": ".{@{#-aDyakzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezaRADyakzaH"
+                }
+            ],
+            "_meanings": [
+                "a superintendent of the commands, chief of the administration.\n"
+            ]
+        },
+        {
+            "__line": 215430,
+            "_ancestry": [
+                "L_ 24141",
+                "B_ {#prezaRam#}, {#-RA#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezaRakft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who executes a commission; {#puzpAhAraH prezaRakft#}\n {#kacastAta na dfSyate#} <ls>Mb. 1. 76. 44</ls>."
+            ]
+        }
     ]
 }

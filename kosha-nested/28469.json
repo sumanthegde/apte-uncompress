@@ -1,21 +1,43 @@
 {
-    "__line": 239248,
+    "__line": 263112,
     "_ancestry": [
         "L_ 28469",
-        "B_ {#SvaMW#}"
+        "B_ {#vamiH#}"
     ],
-    "_banner": "{#SvaMW#}",
+    "_banner": "{#vamiH#}",
     "_bannerExp": [
         {
-            "Right": "SvaMW"
+            "Right": "vamiH"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#SvaMWayati#})"
+        "[{#vam-in#}]"
     ],
     "_meanings": [
-        "To speak ill."
+        ".²1 Fire.\n",
+        ".²2 A cheat, rogue.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 263115,
+            "_ancestry": [
+                "L_ 28469",
+                "B_ {#vamiH#}",
+                "M_ .{@{#-miH#}@}"
+            ],
+            "_banner": ".{@{#-miH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vamiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 Sickness, nausea.\n",
+                ".²2 An emetic."
+            ]
+        }
     ]
 }

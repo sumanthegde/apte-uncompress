@@ -1,115 +1,133 @@
 {
-    "__line": 121770,
+    "__line": 126873,
     "_ancestry": [
         "L_ 14642",
-        "B_ {#tikta#}"
+        "B_ {#caturTa#}"
     ],
-    "_banner": "{#tikta#}",
+    "_banner": "{#caturTa#}",
     "_bannerExp": [
         {
-            "Right": "tikta"
+            "Right": "caturTa"
+        },
+        {
+            "Right": "caturTI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#tij-bA°kartari kta#}]"
+        "{%a.%}",
+        "({#rTI#}|{%f.%})",
+        "[{#caturRAM pUraRaH qaw yuk ca#}]"
     ],
     "_meanings": [
-        "{@--1@} Bitter,\npungent (as one of the six flavours\nor {%Rasas%}); <ls>Me. 20.</ls> ",
-        "{@--2@} Fragrant;\n<ls>Me. 33.</ls> "
+        "The fourth.\n"
     ],
     "_morphisms": [
         {
-            "__line": 121773,
+            "__line": 126874,
             "_ancestry": [
                 "L_ 14642",
-                "B_ {#tikta#}",
-                "M_ {#--ktaH#}"
+                "B_ {#caturTa#}",
+                "M_ .{@{#-rTaH#}@}"
             ],
-            "_banner": "{#--ktaH#}",
+            "_banner": ".{@{#-rTaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tiktaH"
+                    "Right": "caturTaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Bitter taste; (see\nunder {#kawu#}). ",
-                "{@--2@} The Kuṭaja tree.\n",
-                "{@--3@} Pungency. ",
-                "{@--4@} Fragrance. "
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 121775,
-            "_ancestry": [
-                "L_ 14642",
-                "B_ {#tikta#}",
-                "S_ \n{#--gaMDA#}"
-            ],
-            "_banner": "\n{#--gaMDA#}",
-            "_bannerExp": [
-                {
-                    "Right": "tiktagaMDA"
-                }
-            ],
-            "_meanings": [
-                "mustard. "
+                "The fourth letter of any class.\n"
             ]
         },
         {
-            "__line": 121776,
+            "__line": 126875,
             "_ancestry": [
                 "L_ 14642",
-                "B_ {#tikta#}",
-                "S_ {#--taMqulA#}"
+                "B_ {#caturTa#}",
+                "M_ .{@{#-rTam#}@}"
             ],
-            "_banner": "{#--taMqulA#}",
+            "_banner": ".{@{#-rTam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tiktataMqulA"
+                    "Right": "caturTam"
                 }
             ],
             "_meanings": [
-                "long \npepper. "
+                "A quarter, a fourth part.\n"
             ]
         },
         {
-            "__line": 121777,
+            "__line": 126876,
             "_ancestry": [
                 "L_ 14642",
-                "B_ {#tikta#}",
-                "S_ {#--DAtuH#}"
+                "B_ {#caturTa#}",
+                "M_ .{@{#-aMSa#}@}"
             ],
-            "_banner": "{#--DAtuH#}",
+            "_banner": ".{@{#-aMSa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tiktaDAtuH"
+                    "Left": "surjectivity error: caturTa/caturTI aMSa"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "bile. "
+                "receiving a fourth part.\n.({@{#-SaH#}@}) a quarter or fourth part.\n"
             ]
         },
         {
-            "__line": 121777,
+            "__line": 126878,
             "_ancestry": [
                 "L_ 14642",
-                "B_ {#tikta#}",
-                "S_ {#--PalaH, --maricaH#}"
+                "B_ {#caturTa#}",
+                "M_ .{@{#-ASramaH#}@}"
             ],
-            "_banner": "{#--PalaH, --maricaH#}",
+            "_banner": ".{@{#-ASramaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tiktaPalaH"
-                },
-                {
-                    "Right": "tiktamaricaH"
+                    "Left": "surjectivity error: caturTa/caturTI ASramaH"
                 }
             ],
             "_meanings": [
-                "the clearing-nut plant."
+                "the fourth stage of a Brāhmaṇaʼs religious life, {%Saṃnyāsa%}.\n"
+            ]
+        },
+        {
+            "__line": 126879,
+            "_ancestry": [
+                "L_ 14642",
+                "B_ {#caturTa#}",
+                "M_ .{@{#-Palam#}@}"
+            ],
+            "_banner": ".{@{#-Palam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: caturTa/caturTI PalaM"
+                }
+            ],
+            "_meanings": [
+                "the second inequality or equation of a planet.\n"
+            ]
+        },
+        {
+            "__line": 126880,
+            "_ancestry": [
+                "L_ 14642",
+                "B_ {#caturTa#}",
+                "M_ .{@{#-Bakta#}@}"
+            ],
+            "_banner": ".{@{#-Bakta#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: caturTa/caturTI Bakta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eating the fourth meal. {@{#BAj#}@} {%a.%} receiving\n a fourth part of every source of income from the subjects, as a king;\n (this is allowed only in times of financial embarrassments, the usual share\n being a sixth.)"
             ]
         }
     ]

@@ -1,31 +1,88 @@
 {
-    "__line": 32139,
+    "__line": 29364,
     "_ancestry": [
         "L_ 3440",
-        "B_ {#aBisaMDA#}"
+        "B_ {#aBihita#}"
     ],
-    "_banner": "{#aBisaMDA#}",
+    "_banner": "{#aBihita#}",
     "_bannerExp": [
         {
-            "Right": "aBisaMDA"
+            "Right": "aBihita"
         }
     ],
     "_gram": [
-        "{c3c}",
-        "<ab>U.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To hold together\n",
-        "{@--2@} To acknowledge, recognize;\nown. ",
-        "{@--3@} To fit or fix a missile,\narrow &c. to the bow. ",
-        "{@--4@} To throw\nor shoot at, aim at; ({#SUlaM#}) {#cikzepa#}\n{#paramakrudDo lakzmaRAyABisaMhitaM#} <ls>Rām.</ls> ",
-        "{@--5@}\nTo aim at, have in view, think of,\n(with <ab>acc.</ab>); {#padAvidDaM yAMtI#} \n{#sKalitamaBisaMDAya bahuSaH#} <ls>V. 4. 28</ls> calling to\nmind, thinking of my fault;\n{#fzyamUkamaBisaMDAya#} <ls>Mv. 5</ls> towards,\nin the direction of; <ls>Mv. 6</ls>;  \n<ls>Bg. 17. 12</ls>, <ls n=\"Bg. 17.\">25</ls>; sometimes with <ab>dat.</ab>;\n{#aBisaMdaDate ye ca viSvAsAyAsya mAnavAH#}\n<ls>Mb.</ls> ",
-        "{@--6@} To deceive, cheat; {#janaM#} \n{#vidvAnekaH sakalamaBisaMDAya#} <ls>Māl. 1. 14.</ls> ",
-        "{@--7@}\nTo come to an understanding or\nagreement; {#PalaM tvanaBisaMDAya#}  \n<ls>Ms. 9. 52</ls> ({#evaM yatra niyamo na kftaH#}). ",
-        "{@--8@} To win\nover, make friendship with, ally\noneself with; {#tAn#} \n{#sarvAnaBisaMdaDyAtsAmAdiBirupakramEH#} <ls>Ms. 7. 159</ls> ({#vaSIkuryAt#}).\n",
-        "{@--9@} To declare solemnly, agree,\npromise. ",
-        "{@--10@} To calumniate, \ntraduce. ",
-        "{@--11@} To add. ",
-        "{@--12@} To prefer."
+        ".²1\n",
+        ".³({%a%}) Said, declared, spoken, mentioned; {#mayABihitam, tenABihitam#} <ab>&c.</ab>\n",
+        ".³({%b%}) Predicated, asserted; {#anaBihite karmaRi dvitIyA#} <ls>P. II. 3. 1-2</ls>.\n",
+        ".³({%c%}) Spoken to, addressed, called, named.\n",
+        ".³({%d%}) Whispered, prompted to say; determined.\n",
+        ".²2 Fastened, placed upon.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 29371,
+            "_ancestry": [
+                "L_ 3440",
+                "B_ {#aBihita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBihitam"
+                }
+            ],
+            "_meanings": [
+                "A name, expression, word; {#haranti smarataScittaM govindABihitAni#}\n {#ca#} <ls>Bhāg. 1. 15. 27</ls>. {#˚tvam#} being said or spoken to, a declaration;\n authority, test.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 29375,
+            "_ancestry": [
+                "L_ 3440",
+                "B_ {#aBihita#}",
+                "S_ .{@{#-anvayavAdaH, -vAdin#}@}"
+            ],
+            "_banner": ".{@{#-anvayavAdaH, -vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBihitAnvayavAdaH"
+                },
+                {
+                    "Right": "aBihitavAdin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a particular doctrine (or the follower\n of that doctrine) on the import of words, as opposed to {#anvitABiDAnavAda#},\n {#-vAdin#}. The {%anvitābhidhānavādins%} (the Mīmāṃsakas, the followers\n of Prabhākara) hold that words only express a meaning ({#aBiDAna#}) as\n parts of a sentence and grammatically connected with one another ({#anvita#});\n that they, in fact, only imply an action or something connected with an\n action; {%<ab>e. g.</ab>%} {#Gawam#} in {#Gawam Anaya#} means not merely ‘jar’,\n but ‘jar’ as connected with the action of ‘bringing’ expressed by the\n verb. The {%abhihitānvayavādins%} (the Bhāṭṭas or the followers\n of Kumārilabhaṭṭa who hold the doctrine) on the other hand hold that\n words by themselves can express their own independent meanings which are\n afterwards combined into a sentence expressing one connected idea; that,\n in other words, it is the logical connection between the words of a sentence,\n and not the sense of the words themselves, that suggests the import or\n purport of that sentence; they thus believe in a {%tātparyārtha%}\n as distinguished\n\n from {%vācyārtha%}; see <ls>K. P. 2</ls> and Maheśvaraʼs commentary\n {%ad hoc%}. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 29393,
+                    "_ancestry": [
+                        "L_ 3440",
+                        "B_ {#aBihita#}",
+                        "S_ .{@{#-anvayavAdaH, -vAdin#}@}",
+                        "S_S_ {#˚tiH#}"
+                    ],
+                    "_banner": "{#˚tiH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aBihitAnvayavAdatiH"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%f.%} Naming, speaking <ab>&c.</ab>"
+                    ]
+                }
+            ]
+        }
     ]
 }

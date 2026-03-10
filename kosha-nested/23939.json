@@ -1,21 +1,70 @@
 {
-    "__line": 202379,
+    "__line": 213752,
     "_ancestry": [
         "L_ 23939",
-        "B_ {#raK#}"
+        "B_ {#prApya, prAptavya#}"
     ],
-    "_banner": "{#raK#}",
+    "_banner": "{#prApya, prAptavya#}",
     "_bannerExp": [
         {
-            "Right": "raK"
+            "Right": "prApya"
+        },
+        {
+            "Right": "prAptavya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#raKati#})"
+        "{%<ab>pot. p.</ab>%}"
     ],
     "_meanings": [
-        "To go, move."
+        ".²1 To be got or obtained.\n",
+        ".²2 Attainable, procurable; destined to be got; {#prAptavyamarTaM laBate#}\n {#manuzyaH#} <ls>Pt. 2. 110</ls>.\n",
+        ".²3 To be reached, attainable.\n",
+        ".²4 To be met with or found.\n",
+        ".²5 Proper, fit, suitable.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 213760,
+            "_ancestry": [
+                "L_ 23939",
+                "B_ {#prApya, prAptavya#}",
+                "S_ .{@{#-kArin#}@}"
+            ],
+            "_banner": ".{@{#-kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prApyakArin"
+                }
+            ],
+            "_gram": [
+                "({@{#prApyakArin#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "effective (only) when touched.\n"
+            ]
+        },
+        {
+            "__line": 213761,
+            "_ancestry": [
+                "L_ 23939",
+                "B_ {#prApya, prAptavya#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prApyarUpa"
+                }
+            ],
+            "_gram": [
+                "({@{#prApyarUpa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "rather easy to attain."
+            ]
+        }
     ]
 }

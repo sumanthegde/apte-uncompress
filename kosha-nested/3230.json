@@ -1,42 +1,83 @@
 {
-    "__line": 30711,
+    "__line": 27727,
     "_ancestry": [
         "L_ 3230",
-        "B_ {#aBimAnin#}"
+        "B_ {#aPala#}"
     ],
-    "_banner": "{#aBimAnin#}",
+    "_banner": "{#aPala#}",
     "_bannerExp": [
         {
-            "Right": "aBimAnin"
+            "Right": "aPala"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Possessed of \nselfrespect; <ls>Ki. 1. 31</ls>; <ls>K. 212.</ls> ",
-        "{@--2@}\nHaving a high opinion of oneself,\nproud, arrogant, conceited. ",
-        "{@--3@} \nRegarding all objects as referring to\none's own self; {#aBimAnivyapadeSastu#}\n{#viSezAnugatiByAM#} <ls>Br. Sūt.</ls> ",
-        "{@--4@} Fancying,\npretending, or regarding oneself to\nbe; {#nareMdra°#} <ls>Dk. 51</ls>; <ls>K. 194.</ls> "
+        ".²1 Unfruitful, fruitless, barren (<ab>lit.</ab> & <ab>fig.</ab>); {#yAH PalinIryA aPalAH#}\n <ls>Rv. 10. 97. 15</ls>. {#˚lA ozaDayaH, ˚laM kAryam#} <ab>&c.</ab>\n",
+        ".²2 Unproductive, useless, vain; {#yaTA zaRQo'PalaH strIzu yaTA gOrgavi#}\n {#cAPalA . yaTA cAjYe'PalaM dAnaM taTA vipro'nfco'PalaH#} <ls>Ms. 2. 158</ls>.\n",
+        ".²3 Deprived of virility, castrated; emasculated; {#aPalo'haM kftastena#}\n {#kroDAtsA ca nirAkftA#} <ls>Rām. 1. 49. 3</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 30719,
+            "__line": 27734,
             "_ancestry": [
                 "L_ 3230",
-                "B_ {#aBimAnin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#aPala#}",
+                "M_ .{@{#-laH#}@}"
             ],
+            "_banner": ".{@{#-laH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "aBimAnin"
+                    "Right": "aPalaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a plant (<lang>Mar.</lang> <ns>{#JAbuka#}</ns>) Tamarix Indica\n",
+                ".²2 A goat.\n"
+            ]
+        },
+        {
+            "__line": 27737,
+            "_ancestry": [
+                "L_ 3230",
+                "B_ {#aPala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aPalA"
+                }
+            ],
+            "_meanings": [
+                "The Aloe plant (<lang>Mar.</lang> <ns>{#GftakumArI koraPaqa#}</ns>); another plant\n (<lang>Mar.</lang> <ns>{#BUmyAmalakI#}</ns>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 27740,
+            "_ancestry": [
+                "L_ 3230",
+                "B_ {#aPala#}",
+                "S_ .{@{#-AkANkzin, -prepsu#}@}"
+            ],
+            "_banner": ".{@{#-AkANkzin, -prepsu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aPalAkANkzin"
+                },
+                {
+                    "Right": "aPalaprepsu"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "A\nform of Agni."
+                "one who desires no reward (for his labours),\n disinterested; {#aPalAkANkziBiryajYaH kriyate brahmavAdiBiH#} <ls>Mb.</ls>"
             ]
         }
     ]

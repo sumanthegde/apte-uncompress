@@ -1,19 +1,81 @@
 {
-    "__line": 41564,
+    "__line": 38978,
     "_ancestry": [
         "L_ 4578",
-        "B_ {#avaDAnin#}"
+        "B_ {#ardana#}"
     ],
-    "_banner": "{#avaDAnin#}",
+    "_banner": "{#ardana#}",
     "_bannerExp": [
         {
-            "Right": "avaDAnin"
+            "Right": "ardana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Attentive."
+        ".²1 Distressing, afflicting, tormenting; {#pura˚, bala˚#}.\n",
+        ".²2 Moving restlessly, being agitated.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 38981,
+            "_ancestry": [
+                "L_ 4578",
+                "B_ {#ardana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ardanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śiva; <ls>Mbh. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 38982,
+            "_ancestry": [
+                "L_ 4578",
+                "B_ {#ardana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ardanam"
+                }
+            ],
+            "_gram": [
+                "[{#BAve-lyuw#}]"
+            ],
+            "_meanings": [
+                "Distressing, afflicting; pain,\n\n trouble, anxiety, disturbance, excitement, agitation, restlessness.\n"
+            ]
+        },
+        {
+            "__line": 38985,
+            "_ancestry": [
+                "L_ 4578",
+                "B_ {#ardana#}",
+                "M_ .{@{#-nam, -nA#}@}"
+            ],
+            "_banner": ".{@{#-nam, -nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ardanam"
+                },
+                {
+                    "Right": "ardanA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Going, moving.\n",
+                ".²2 Asking, begging.\n",
+                ".²3 Killing, hurting, giving pain."
+            ]
+        }
     ]
 }

@@ -1,57 +1,74 @@
 {
-    "__line": 212971,
+    "__line": 226031,
     "_ancestry": [
         "L_ 25128",
-        "B_ {#vartaka#}"
+        "B_ {#BAzita#}"
     ],
-    "_banner": "{#vartaka#}",
+    "_banner": "{#BAzita#}",
     "_bannerExp": [
         {
-            "Right": "vartaka"
+            "Right": "BAzita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#vft-Rvul#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#BAz-karmaRi-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Living, \nbeing, existing. ",
-        "{@--2@} Devoted to. "
+        "Spoken, said, uttered.\n"
     ],
     "_morphisms": [
         {
-            "__line": 212972,
+            "__line": 226032,
             "_ancestry": [
                 "L_ 25128",
-                "B_ {#vartaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#BAzita#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vartakaH"
+                    "Right": "BAzitam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A quail. ",
-                "{@--2@} A horse's hoof.\n"
+                "Speech, utterance, words, language; {#AkArEriNgitErgatyA#}\n {#cezwayA BAzitena ca . netravaktravikArESca gfhyate'ntargataM manaH ..#} <ls>Ms. 8. 26</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 226035,
+            "_ancestry": [
+                "L_ 25128",
+                "B_ {#BAzita#}",
+                "S_ .{@{#-ISA#}@}"
+            ],
+            "_banner": ".{@{#-ISA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAziteSA"
+                }
+            ],
+            "_meanings": [
+                "Sarasvatī; <ls>N. 11. 16</ls>.\n"
             ]
         },
         {
-            "__line": 212974,
+            "__line": 226036,
             "_ancestry": [
                 "L_ 25128",
-                "B_ {#vartaka#}",
-                "M_ {#--kaM#}"
+                "B_ {#BAzita#}",
+                "S_ .{@{#-puMska#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-puMska#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vartakaM"
+                    "Right": "BAzitapuMska"
                 }
             ],
             "_meanings": [
-                "A sort of brass or \nbellmetal."
+                "= {#uktapuMska#} <ab>q. v.</ab>"
             ]
         }
     ]

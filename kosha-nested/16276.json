@@ -1,21 +1,57 @@
 {
-    "__line": 136666,
+    "__line": 141145,
     "_ancestry": [
         "L_ 16276",
-        "B_ {#naj#}"
+        "B_ {#taluna#}"
     ],
-    "_banner": "{#naj#}",
+    "_banner": "{#taluna#}",
     "_bannerExp": [
         {
-            "Right": "naj"
+            "Right": "taluna"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#najate#})"
+        "{%a.%}",
+        "[{#tal-unan#}]"
     ],
     "_meanings": [
-        "To be ashamed,\nmodest or bashful."
+        "Young.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 141146,
+            "_ancestry": [
+                "L_ 16276",
+                "B_ {#taluna#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talunaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A youth.\n",
+                ".²2 Wind, air.\n"
+            ]
+        },
+        {
+            "__line": 141149,
+            "_ancestry": [
+                "L_ 16276",
+                "B_ {#taluna#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talunI"
+                }
+            ],
+            "_meanings": [
+                "A girl, young woman."
+            ]
+        }
     ]
 }

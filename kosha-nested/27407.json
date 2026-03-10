@@ -1,22 +1,83 @@
 {
-    "__line": 230467,
+    "__line": 252757,
     "_ancestry": [
         "L_ 27407",
-        "B_ {#vyAvf#}"
+        "B_ {#rAti#}"
     ],
-    "_banner": "{#vyAvf#}",
+    "_banner": "{#rAti#}",
     "_bannerExp": [
         {
-            "Right": "vyAvf"
+            "Right": "rAti"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To select, choose.\n",
-        "{@--2@} To hide, conceal. ",
-        "{@--3@} To obstruct,\nimpede."
+        "<ab>Ved.</ab>\n",
+        ".²1 Liberal, favourable, generous.\n",
+        ".²2 Ready.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 252760,
+            "_ancestry": [
+                "L_ 27407",
+                "B_ {#rAti#}",
+                "M_ .{@{#-tiH#}@}"
+            ],
+            "_banner": ".{@{#-tiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rAtiH"
+                }
+            ],
+            "_meanings": [
+                "A friend (<ab>opp.</ab> to {#arAtiH#}). "
+            ]
+        },
+        {
+            "__line": 252760,
+            "_ancestry": [
+                "L_ 27407",
+                "B_ {#rAti#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#rAti#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Giving, bestowing, presentation.\n",
+                ".²2 Wealth; {#vijYAnamAnandaM brahma rAtirdAtuH parAyaRam#} <ls>Bṛ. Up. 3. 9. 28</ls>;\n <ls>Bhāg. 5. 5. 3</ls>.\n",
+                ".²3 A favour.\n",
+                ".²4 A gift, present.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 252767,
+            "_ancestry": [
+                "L_ 27407",
+                "B_ {#rAti#}",
+                "S_ .{@{#-sAc#}@}"
+            ],
+            "_banner": ".{@{#-sAc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rAtisAc"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-zAc#})"
+            ],
+            "_meanings": [
+                "bestowing gifts, liberal, bountiful."
+            ]
+        }
     ]
 }

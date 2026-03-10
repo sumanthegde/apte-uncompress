@@ -1,37 +1,77 @@
 {
-    "__line": 89291,
+    "__line": 88726,
     "_ancestry": [
         "L_ 10626",
-        "B_ {#kAkzaH#}"
+        "B_ {#F#}"
     ],
-    "_banner": "{#kAkzaH#}",
+    "_banner": "{#F#}",
     "_bannerExp": [
         {
-            "Right": "kAkzaH"
+            "Right": "F"
         }
     ],
     "_gram": [
-        "[{#kutsitamakzaM atra, koH kAdeSaH#};\n<ab>cf.</ab> <ls>P. VI. 3. 104</ls>]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "A side-long look,\na glance. "
+        "An interjection of (1) terror; (2) warding off; (3) reproach\n or censure; (4) compassion; (5) remembrance; (6) Commencement of speech;\n (7) protection; (8) pride; (9) looking up. "
     ],
     "_morphisms": [
         {
-            "__line": 89293,
+            "__line": 88728,
             "_ancestry": [
                 "L_ 10626",
-                "B_ {#kAkzaH#}",
-                "M_ {#--kzaM#}"
+                "B_ {#F#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--kzaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "kAkzaM"
+                    "Left": "Parser error: {#F#} M_ --{%m.%}"
+                }
+            ],
+            "_gram": [
+                "({@{#FH#}@})"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Bhairava.\n",
+                ".²2 A Dānava or demon. "
+            ]
+        },
+        {
+            "__line": 88730,
+            "_ancestry": [
+                "L_ 10626",
+                "B_ {#F#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#F#} M_ --{%f.%}"
                 }
             ],
             "_meanings": [
-                "Frown, look of \ndispleasure, malicious look;  \n{#kAkzeRAnAdarekzitaH#} <ls>Bk. 5. 24.</ls>"
+                ".²1 The\n\n mother of the gods; also of the demons.\n",
+                ".²2 Recollection.\n",
+                ".²3 Motion, going. "
+            ]
+        },
+        {
+            "__line": 88735,
+            "_ancestry": [
+                "L_ 10626",
+                "B_ {#F#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#F#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "The breast. (<ab>cf.</ab> also {#FrnizeDo BavaH pUzA#}\n {#varuRo'mararAqajaH . karI tarurnaraH pApmA vidvAnaTa ramApatiH ..#} <ls>Enm.</ls>)"
             ]
         }
     ]

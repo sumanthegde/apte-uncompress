@@ -1,45 +1,97 @@
 {
-    "__line": 207399,
+    "__line": 218302,
     "_ancestry": [
         "L_ 24462",
-        "B_ {#lap#}"
+        "B_ {#barhin#}"
     ],
-    "_banner": "{#lap#}",
+    "_banner": "{#barhin#}",
     "_bannerExp": [
         {
-            "Right": "lap"
+            "Right": "barhin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#lapati#})"
+        "{%m.%}",
+        "[{#barha astyarTe ini#}]"
     ],
     "_meanings": [
-        "{@--1@} To speak,\ntalk in general. ",
-        "{@--2@} To prate, chatter.\n",
-        "{@--3@} To whisper; {#kapolatale militA#} \n{#lapituM kimapi SrutimUle#} <ls>Gīt. 1.</ls> ",
-        "{@--4@} To wail,\nlament. "
+        "A peacock; <ls>R. 16. 64</ls>; {#utkIrRA#}\n {#iva vAsayazwizu niSAnidrAlasA barhiRaH#} <ls>V. 3. 2</ls>, <ls n=\"V.\">4. 10</ls>; {#pravfttanftyaM#}\n {#kulamadya barhiRAm#} <ls>Ṛs. 2. 6</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 207403,
+            "__line": 218304,
             "_ancestry": [
                 "L_ 24462",
-                "B_ {#lap#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#barhin#}",
+                "M_ --{%n.%}"
             ],
+            "_banner": "--{%n.%}",
             "_bannerExp": [
                 {
-                    "Right": "lap"
+                    "Left": "Parser error: {#barhin#} M_ --{%n.%}"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#lApayati-te#})"
+            "_meanings": [
+                "A kind of perfume.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 218306,
+            "_ancestry": [
+                "L_ 24462",
+                "B_ {#barhin#}",
+                "S_ .{@{#-kusumam, -puzpam#}@}"
+            ],
+            "_banner": ".{@{#-kusumam, -puzpam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhikusumam"
+                },
+                {
+                    "Right": "barhipuzpam"
+                }
             ],
             "_meanings": [
-                "To\ncause to talk &c. WITH {#ud#} to call\nout loudly to."
+                "a kind of perfume.\n"
+            ]
+        },
+        {
+            "__line": 218307,
+            "_ancestry": [
+                "L_ 24462",
+                "B_ {#barhin#}",
+                "S_ .{@{#-DvajA#}@}"
+            ],
+            "_banner": ".{@{#-DvajA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhiDvajA"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 218308,
+            "_ancestry": [
+                "L_ 24462",
+                "B_ {#barhin#}",
+                "S_ .{@{#-yAnaH, -vAhanaH#}@}"
+            ],
+            "_banner": ".{@{#-yAnaH, -vAhanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhiyAnaH"
+                },
+                {
+                    "Right": "barhivAhanaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Kārtikeya."
             ]
         }
     ]

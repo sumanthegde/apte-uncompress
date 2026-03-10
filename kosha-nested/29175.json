@@ -1,20 +1,40 @@
 {
-    "__line": 244882,
+    "__line": 270079,
     "_ancestry": [
         "L_ 29175",
-        "B_ {#saMdehin#}"
+        "B_ {#vikampita#}"
     ],
-    "_banner": "{#saMdehin#}",
+    "_banner": "{#vikampita#}",
     "_bannerExp": [
         {
-            "Right": "saMdehin"
+            "Right": "vikampita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Doubtful. ",
-        "{@--2@} \nDoubting, uncertain, diffident."
+        ".²1 Shaken, trembling, tremulous.\n",
+        ".²2 Palpitating, heaving.\n",
+        ".²3 Unsteady.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 270083,
+            "_ancestry": [
+                "L_ 29175",
+                "B_ {#vikampita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikampitam"
+                }
+            ],
+            "_meanings": [
+                "A faulty pronunciation of the vowels."
+            ]
+        }
     ]
 }

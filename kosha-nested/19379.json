@@ -1,42 +1,3636 @@
 {
-    "__line": 162565,
+    "__line": 173136,
     "_ancestry": [
         "L_ 19379",
-        "B_ {#pEzwika#}"
+        "B_ {#nis#}"
     ],
-    "_banner": "{#pEzwika#}",
+    "_banner": "{#nis#}",
     "_bannerExp": [
         {
-            "Right": "pEzwikI"
-        },
-        {
-            "Right": "pEzwika"
+            "Right": "nis"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "Made of flour\nor meal. "
+        ".²1 As a prefix to verbs it implies separation (away from, outside of),\n certainty, completeness or fulness, enjoyment, crossing over, transgressing\n <ab>&c.</ab>; (for examples see under ({#nir#}).\n.²2 As a prefix to nouns, not directly derived from verbs, it forms nouns\n or adjectives), and has the sense of\n",
+        ".³({%a%}) ‘out of’, ‘away from’; as in {#nirvana, nizkOSAmbi#}; or\n",
+        ".³({%b%}) more usually, ‘not’, ‘without’, ‘devoid of’ (having a privative\n force); {#niHSeza#} ‘without a remainder’; {#nizPala, nirjala#}, <ab>&c.</ab>\n {%<ab>N. B.</ab>%} In compound the {#s#} of {#nis#} is changed to {#r#} before vowels\n and soft consonants (see {#nir#}), to a visarga before sibilants, to {#S#}\n before {#c#} and {#C#}, and to {#z#} before {#k#} and {#p#}; <ab>cf.</ab> {#dus#}.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 162566,
+            "__line": 173149,
             "_ancestry": [
                 "L_ 19379",
-                "B_ {#pEzwika#}",
-                "M_ {#--kaM#}"
+                "B_ {#nis#}",
+                "S_ .{@{#-kaRwaka#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-kaRwaka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pEzwikaM"
+                    "Right": "nizkaRwaka"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkaRwaka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 thornless.\n",
+                ".²2 free from thorns or enemies, free from\n\n danger or nuisance.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173154,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-kaRwaka#}@}",
+                        "S_M_ ({@{#-kaH#}@}"
+                    ],
+                    "_banner": "({@{#-kaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: nizkaMwaka ({@{#-kaH#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Śiva.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173155,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kanda#}@}"
+            ],
+            "_banner": ".{@{#-kanda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkanda"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkanda#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without edible roots.\n"
+            ]
+        },
+        {
+            "__line": 173156,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kapawa#}@}"
+            ],
+            "_banner": ".{@{#-kapawa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkapawa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkapawa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "guileless, sincere.\n"
+            ]
+        },
+        {
+            "__line": 173157,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kampa#}@}"
+            ],
+            "_banner": ".{@{#-kampa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkampa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkampa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "motionless, steady, immovable;\n {#nizkampacAmaraSiKAH#} <ls>Ś. 1. 8</ls>; <ls>Ku. 3. 48</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173159,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-karuRa#}@}"
+            ],
+            "_banner": ".{@{#-karuRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkaruRa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkaruRa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "merciless, pitiless, cruel.\n"
+            ]
+        },
+        {
+            "__line": 173160,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-karUza#}@}"
+            ],
+            "_banner": ".{@{#-karUza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkarUza"
+                }
+            ],
+            "_gram": [
+                "({@{#nizka rUza#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from dirt.\n"
+            ]
+        },
+        {
+            "__line": 173161,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkarman"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkarman#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inactive.\n"
+            ]
+        },
+        {
+            "__line": 173162,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kala#}@}"
+            ],
+            "_banner": ".{@{#-kala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkala"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkala#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 without parts, undivided, whole.\n",
+                ".²2 waned, decayed, diminished.\n",
+                ".²3 impotent, barren.\n",
+                ".²4 maimed.\n",
+                ".²5 inarticulate (a musical term); <ls>N. 21. 16</ls>.\n",
+                ".²6 Without attributes, or qualities; {#nizkalaM nizkriyaM SAntaM niravadyaM#}\n {#niraYjanam#} <ls>Śvet. Up.</ls>; <ls>Bhāg. 1. 9. 44</ls>; {#tad brahma nizkalamahaM#} ({#smarAmi#}.)\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173170,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-kala#}@}",
+                        "S_M_ ({@{#-laH#}@}"
+                    ],
+                    "_banner": "({@{#-laH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nizkalaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a receptacle.\n",
+                        ".²2 the pudendum muliebre.\n",
+                        ".²3 <ab>N.</ab> of Brahmā. ({@{#lA, -lI#}@}) an elderly woman, one who is past\n child-bearing, or one in whom menstruation has ceased.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173175,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kalaNka#}@}"
+            ],
+            "_banner": ".{@{#-kalaNka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkalaNka"
                 }
             ],
             "_meanings": [
-                "{@--1@} A number of cakes.\n",
-                "{@--2@} A spirituous liquor distilled\nfrom meal."
+                ", ({@{#nizkalaNka#}@})\n"
+            ]
+        },
+        {
+            "__line": 173176,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kalmaza#}@}"
+            ],
+            "_banner": ".{@{#-kalmaza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkalmaza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "stainless, spotless.\n"
+            ]
+        },
+        {
+            "__line": 173177,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kazAya#}@}"
+            ],
+            "_banner": ".{@{#-kazAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkazAya"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkazAya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from dirt or impure passions.\n"
+            ]
+        },
+        {
+            "__line": 173178,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kAnta#}@}"
+            ],
+            "_banner": ".{@{#-kAnta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkAnta"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkAnta#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not lovely, ugly.\n"
+            ]
+        },
+        {
+            "__line": 173179,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kAma#}@}"
+            ],
+            "_banner": ".{@{#-kAma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkAma"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkAma#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 free from wish or desire, desireless, disinterested, unselfish.\n",
+                ".²2 free from all worldly desires; {#viSizwaPaladAH puMzAM nizkAmARAM vimuktidAH#} <ls>V. P.</ls>\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173182,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-kAma#}@}",
+                        "S_M_ ({@{#-mam#}@}"
+                    ],
+                    "_banner": "({@{#-mam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nizkAmam"
+                        }
+                    ],
+                    "_gram": [
+                        "{%ind.%}"
+                    ],
+                    "_meanings": [
+                        ".²1 without wish or desire.\n",
+                        ".²2 unwillingly.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173185,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kAraRa#}@}"
+            ],
+            "_banner": ".{@{#-kAraRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkAraRa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkAraRa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 causeless, unnecessary.\n",
+                ".²2 disinterested, free from any motive; {#nizkAraRo banDuH#}.\n",
+                ".²3 groundless, not proceeding from any cause.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173189,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-kAraRa#}@}",
+                        "S_M_ ({@{#-Ram#}@}"
+                    ],
+                    "_banner": "({@{#-Ram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nizkAraRam"
+                        }
+                    ],
+                    "_gram": [
+                        "{%ind.%}"
+                    ],
+                    "_meanings": [
+                        "without any cause or reason, causelessly, needlessly.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173190,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kAlakaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkAlakaH"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkAlakaH#}@})"
+            ],
+            "_meanings": [
+                "a penitent shaven and smeared with\n clarified butter.\n"
+            ]
+        },
+        {
+            "__line": 173192,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kAlika#}@}"
+            ],
+            "_banner": ".{@{#-kAlika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkAlika"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkAlika#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 one whose term of life is over or elapsed, whose days are numbered.\n",
+                ".²2 one who has no conqueror, invincible ({#ajayya#}.)\n"
+            ]
+        },
+        {
+            "__line": 173195,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kiYcana#}@}"
+            ],
+            "_banner": ".{@{#-kiYcana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkiYcana"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkiYcana#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "penniless, poor, indigent;\n {#prajYAnaM SOcamevAtra SarIrasya viSezataH . taTA nizkiYcanatvaM ca#}\n {#manasaSca prasannatA ..#} <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 173198,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kilviza#}@}"
+            ],
+            "_banner": ".{@{#-kilviza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkilviza"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkilviza#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sinless, faultless.\n"
+            ]
+        },
+        {
+            "__line": 173199,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kula#}@}"
+            ],
+            "_banner": ".{@{#-kula#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkula"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkula#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no kindred, left alone in\n the world. ({#nizkulaM kf#} ‘to cut off completely, exterminate’; {#nizkulA kf#}\n.²1 to exterminate oneʼs family\n.²2 to shell, strip off the husk; {#nizkulAkaroti dAqimam#} <ls>Sk.</ls>; <ls>N. 22. 15.</ls>)\n"
+            ]
+        },
+        {
+            "__line": 173203,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kulIna#}@}"
+            ],
+            "_banner": ".{@{#-kulIna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkulIna"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkulIna#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of low family.\n"
+            ]
+        },
+        {
+            "__line": 173204,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kUja#}@}"
+            ],
+            "_banner": ".{@{#-kUja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkUja"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkUja#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "still, silent; <ls>U. 2. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173205,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kUwa#}@}"
+            ],
+            "_banner": ".{@{#-kUwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkUwa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkUwa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pitiless, merciless, cruel.\n"
+            ]
+        },
+        {
+            "__line": 173206,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kEvalya#}@}"
+            ],
+            "_banner": ".{@{#-kEvalya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkEvalya"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkEvalya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 mere, pure, absolute.\n",
+                ".²2 deprived of final beatitude ({#mokzahIna#}).\n"
+            ]
+        },
+        {
+            "__line": 173209,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-koSa#}@}"
+            ],
+            "_banner": ".{@{#-koSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkoSa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkoSa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unsheathed.\n"
+            ]
+        },
+        {
+            "__line": 173210,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kOSAmbi#}@}"
+            ],
+            "_banner": ".{@{#-kOSAmbi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkOSAmbi"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkOSAmbi#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "who has gone out of Kauśāmbī.\n"
+            ]
+        },
+        {
+            "__line": 173211,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kriya#}@}"
+            ],
+            "_banner": ".{@{#-kriya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizkriya"
+                }
+            ],
+            "_gram": [
+                "({@{#nizkriya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 inactive.\n",
+                ".²2 not performing ceremonial rites; <ls>Ms. 10. 58</ls>.\n",
+                ".²3 knowing higher know. ledge as a sage, Saṃnyāsin; {#nyAse kuwIcakaH#}\n {#pUrvaM bahvodo haMsanizkriyO#} <ls>Bhāg. 3. 12. 43</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173216,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niryam"
+                }
+            ],
+            "_meanings": [
+                "the Supreme Spirit ({#brahma#}).\n"
+            ]
+        },
+        {
+            "__line": 173217,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kzatra#}@}"
+            ],
+            "_banner": ".{@{#-kzatra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHkzatra"
+                }
+            ],
+            "_gram": [
+                "({@{#niHkzatra#}@})",
+                "{@{#-kzatriya#}@}",
+                "({@{#niHkzatriya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "destitute of the military tribe.\n"
+            ]
+        },
+        {
+            "__line": 173219,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-kzepaH#}@}"
+            ],
+            "_banner": ".{@{#-kzepaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHkzepaH"
+                }
+            ],
+            "_gram": [
+                "({@{#niHkzepa#}@})"
+            ],
+            "_meanings": [
+                "= {#nikzepa#} <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 173220,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cakram#}@}"
+            ],
+            "_banner": ".{@{#-cakram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScakram"
+                }
+            ],
+            "_gram": [
+                "({@{#niScakam#}@})",
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "completely; {#niScakaM hatarAkzasaH#}\n {#punaragAdbrahmatvamAdyaM sTirAm#} <ls>A. Rām. 1. 1. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173222,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cakrika#}@}"
+            ],
+            "_banner": ".{@{#-cakrika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScakrika"
+                }
+            ],
+            "_gram": [
+                "({@{#niScakrika#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without tricks, honest.\n"
+            ]
+        },
+        {
+            "__line": 173223,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cakzus#}@}"
+            ],
+            "_banner": ".{@{#-cakzus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScakzus"
+                }
+            ],
+            "_gram": [
+                "({@{#niScakzus#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "blind, eyeless.\n"
+            ]
+        },
+        {
+            "__line": 173224,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-catvAriMSaH#}@}"
+            ],
+            "_banner": ".{@{#-catvAriMSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScatvAriMSaH"
+                }
+            ],
+            "_gram": [
+                "({@{#niScatvAriMSa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "past forty.\n"
+            ]
+        },
+        {
+            "__line": 173225,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cinta#}@}"
+            ],
+            "_banner": ".{@{#-cinta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScinta"
+                }
+            ],
+            "_gram": [
+                "({@{#niScinta#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 free from anxiety, unconcerned, secure.\n",
+                ".²2 thoughtless, unthinking.\n"
+            ]
+        },
+        {
+            "__line": 173228,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cetana#}@}"
+            ],
+            "_banner": ".{@{#-cetana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScetana"
+                }
+            ],
+            "_gram": [
+                "({@{#niScetana#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unconscious.\n"
+            ]
+        },
+        {
+            "__line": 173231,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cetas#}@}"
+            ],
+            "_banner": ".{@{#-cetas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScetas"
+                }
+            ],
+            "_gram": [
+                "({@{#niScetas#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not in oneʼs right senses, mad.\n"
+            ]
+        },
+        {
+            "__line": 173232,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cezwa#}@}"
+            ],
+            "_banner": ".{@{#-cezwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScezwa"
+                }
+            ],
+            "_gram": [
+                "({@{#niScezwa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "motionless, powerless.\n"
+            ]
+        },
+        {
+            "__line": 173233,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-cezwAkaraRa#}@}"
+            ],
+            "_banner": ".{@{#-cezwAkaraRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScezwAkaraRa"
+                }
+            ],
+            "_gram": [
+                "({@{#niScezwAkaraRa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "depriving (one) of\n motion, causing motionlessness (said of one the arrows of Cupid).\n"
+            ]
+        },
+        {
+            "__line": 173235,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Candas#}@}"
+            ],
+            "_banner": ".{@{#-Candas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niSCandas"
+                }
+            ],
+            "_gram": [
+                "({@{#niSCandas#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not studying the Vedas ({#Candas#}) <ls>Ms. 3</ls>, <ls n=\"Ms.\">7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173236,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Cidra#}@}"
+            ],
+            "_banner": ".{@{#-Cidra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niSCidra"
+                }
+            ],
+            "_gram": [
+                "({@{#niSCidra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 without holes.\n",
+                ".²2 without defects or weak points.\n",
+                ".²3 uninterrupted, unhurt.\n"
+            ]
+        },
+        {
+            "__line": 173240,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tantu#}@}"
+            ],
+            "_banner": ".{@{#-tantu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistantu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having no offspring, childless.\n",
+                ".²2 a Brahmachārin; {#muRqA nistantavaScApi vasatyarTArTinaH pfTak#}\n <ls>Mb. 12. 167. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173244,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tandra, -tandri#}@}"
+            ],
+            "_banner": ".{@{#-tandra, -tandri#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistandra"
+                },
+                {
+                    "Right": "nistandri"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not lazy, fresh, healthy.\n"
+            ]
+        },
+        {
+            "__line": 173245,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tamaska, -timira#}@}"
+            ],
+            "_banner": ".{@{#-tamaska, -timira#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistamaska"
+                },
+                {
+                    "Right": "nistimira"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 free from darkness, bright; {#tasya dvitIyaharivikramanistamaskaM vAyorimaM#}\n {#parivahasya vadanti mArgam#} <ls>Ś. 7. 6</ls>.\n",
+                ".²2 freed from sin or moral impurities.\n"
+            ]
+        },
+        {
+            "__line": 173249,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tarkya#}@}"
+            ],
+            "_banner": ".{@{#-tarkya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistarkya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unimaginable, inconceivable.\n"
+            ]
+        },
+        {
+            "__line": 173250,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tala#}@}"
+            ],
+            "_banner": ".{@{#-tala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 round, globular; {#muktAkalApasya ca nistalasya#} <ls>Ku. 1. 42</ls>; <ls>Kau. A. 2. 9</ls>.\n",
+                ".²2 moving, trembling, shaking.\n",
+                ".²3 bottomless.\n",
+                ".²4 down, below.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173255,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-tala#}@}",
+                        "S_M_ ({@{#-lA#}@}"
+                    ],
+                    "_banner": "({@{#-lA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nistalA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a pill, round ball.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173256,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tula#}@}"
+            ],
+            "_banner": ".{@{#-tula#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistula"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "matchless, incomparable.\n"
+            ]
+        },
+        {
+            "__line": 173257,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tuza#}@}"
+            ],
+            "_banner": ".{@{#-tuza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistuza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 freed from chaff.\n",
+                ".²2 purified, cleansed.\n",
+                ".²3 simplified. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 173260,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-tuza#}@}",
+                        "S_S_ {#˚kzIraH#}"
+                    ],
+                    "_banner": "{#˚kzIraH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nistuzakzIraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "wheat. "
+                    ]
+                },
+                {
+                    "__line": 173260,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-tuza#}@}",
+                        "S_S_ {#˚ratnam#}"
+                    ],
+                    "_banner": "{#˚ratnam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nistuzaratnam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a crystal.\n",
+                        ".²4 faultless, pure; {#SaSaMsa guRErarIRErudayAstanistuzam#} <ls>N. 15. 8</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173262,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tuzatvam#}@}"
+            ],
+            "_banner": ".{@{#-tuzatvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistuzatvam"
+                }
+            ],
+            "_meanings": [
+                "faultlessness; {#kaveH puzyati nistuzatvam#} <ls>Maṅkhaka 2. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173263,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tuzita#}@}"
+            ],
+            "_banner": ".{@{#-tuzita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistuzita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 husked.\n",
+                ".²2 made thin. ",
+                ".²3 abandoned.\n"
+            ]
+        },
+        {
+            "__line": 173266,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-tejas#}@}"
+            ],
+            "_banner": ".{@{#-tejas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistejas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "destitute of fire, heat or energy, powerless, impotent;\n {#na BetavyaM BfSaM cEte mAtrA nistejasaH kftAH#} <ls>Mārk. P.</ls>\n",
+                ".²2 spiritless, dull.\n",
+                ".²3 obscure.\n"
+            ]
+        },
+        {
+            "__line": 173270,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-trapa#}@}"
+            ],
+            "_banner": ".{@{#-trapa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistrapa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "impudent, shameless.\n"
+            ]
+        },
+        {
+            "__line": 173271,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-triMSa#}@}"
+            ],
+            "_banner": ".{@{#-triMSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistriMSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 more than thirty; {#nistriMSAni varzARi cEtrasya#} <ls>P. V. 4. 73</ls>; <ls>Sk.</ls>\n",
+                ".²2 pitiless, merciless, cruel; {#he nistriMSa vimuktakaRWakaruRaM tAvat#}\n {#saKI roditu#} <ls>Amaru. 6</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173275,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-triMSa#}@}",
+                        "S_M_ ({@{#-SaH#}@}"
+                    ],
+                    "_banner": "({@{#-SaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nistriMSaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a sword; {#nijaDnuH SaranistriMSakuntatomaraSaktiBiH#}\n <ls>Śiva B. 3. 19</ls>; {#SUrOrnistriMSapARiBiH#} <ls>Parṇāl. 1. 5</ls>. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 173276,
+                            "_ancestry": [
+                                "L_ 19379",
+                                "B_ {#nis#}",
+                                "S_ .{@{#-triMSa#}@}",
+                                "S_M_ ({@{#-SaH#}@}",
+                                "S_M_S_ {#˚Bft#}"
+                            ],
+                            "_banner": "{#˚Bft#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "nistriMSaBft"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%m.%}\n a sword-bearer.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173278,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-trEguRya#}@}"
+            ],
+            "_banner": ".{@{#-trEguRya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nistrEguRya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "destitute of the three qualities ({#sattva, rajas#}\n and {#tamas#}); {#nistrEguRyo BavArjuna#} <ls>Bg. 2. 45</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173280,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pakva#}@}"
+            ],
+            "_banner": ".{@{#-pakva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpakva"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpakva#}@})"
+            ],
+            "_meanings": [
+                "well cooked, boiled.\n"
+            ]
+        },
+        {
+            "__line": 173281,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-paNka#}@}"
+            ],
+            "_banner": ".{@{#-paNka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpaNka"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpaNka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from mud, clear, pure.\n"
+            ]
+        },
+        {
+            "__line": 173282,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-patAka#}@}"
+            ],
+            "_banner": ".{@{#-patAka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpatAka"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpatAka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no flag or banner.\n"
+            ]
+        },
+        {
+            "__line": 173283,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-patisutA#}@}"
+            ],
+            "_banner": ".{@{#-patisutA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpatisutA"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpatisutA#}@})"
+            ],
+            "_meanings": [
+                "a woman having no husband and no sons.\n"
+            ]
+        },
+        {
+            "__line": 173284,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-patra#}@}"
+            ],
+            "_banner": ".{@{#-patra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpatra"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpatra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 leafless.\n",
+                ".²2 unfeathered, featherless. [{#nizpatrAkf#} ‘to pierce with an arrow\n so that the feathers come through on the other side’; to cause excessive\n bodily pain (<ab>fig.</ab>); {#nizpatrAkaroti mfgaM vyADaH#} ({#sapuNKasya Sarasya#}\n {#aparapArSve nirgamanAnnizpatraM karoti#} <ls>Sk.</ls>); {#ekaSca mfgaH sapatrAkfto'nyaSca#}\n {#nizpatrAkfto'patat#} <ls>Dk. 165</ls>; so {#yAntI gurujanEH sAkaM smayamAnAnanAmbujA .#}\n {#tiryagagrIvaM yadadrAkzIttannizpatrAkarojjagat#} <ls>Bv. 2. 132.</ls>]\n"
+            ]
+        },
+        {
+            "__line": 173292,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-paTya#}@}"
+            ],
+            "_banner": ".{@{#-paTya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpaTya"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpaTya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unwell, ill\n"
+            ]
+        },
+        {
+            "__line": 173293,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pada#}@}"
+            ],
+            "_banner": ".{@{#-pada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpada"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpada#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no foot.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173294,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-pada#}@}",
+                        "S_M_ ({@{#-dam#}@}"
+                    ],
+                    "_banner": "({@{#-dam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nizpadam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a vehicle moving without feet (as a ship).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173295,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-parAkrama#}@}"
+            ],
+            "_banner": ".{@{#-parAkrama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparAkrama"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparAkrama#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "weak, powerless.\n"
+            ]
+        },
+        {
+            "__line": 173296,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-parAmarSa#}@}"
+            ],
+            "_banner": ".{@{#-parAmarSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparAmarSa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparAmarSa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without advice, helpless; <ls>M. 4. 2/3</ls>\n"
+            ]
+        },
+        {
+            "__line": 173297,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-parikara#}@}"
+            ],
+            "_banner": ".{@{#-parikara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparikara"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparikara#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without preparations.\n"
+            ]
+        },
+        {
+            "__line": 173298,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-parigraha#}@}"
+            ],
+            "_banner": ".{@{#-parigraha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparigraha"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparigraha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no property or\n possessions; <ls>Mu. 2</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173300,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-parigraha#}@}",
+                        "S_M_ ({@{#-haH#}@}"
+                    ],
+                    "_banner": "({@{#-haH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nizparigrahaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an ascetic without family, dependents, or other belongings.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173301,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-paricCada#}@}"
+            ],
+            "_banner": ".{@{#-paricCada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparicCada"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparicCada#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no retinue or train.\n"
+            ]
+        },
+        {
+            "__line": 173302,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-paridAha#}@}"
+            ],
+            "_banner": ".{@{#-paridAha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparidAha"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparidAha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "incombustible.\n"
+            ]
+        },
+        {
+            "__line": 173303,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-parihArya#}@}"
+            ],
+            "_banner": ".{@{#-parihArya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparihArya"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparihAryaM#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "To be applied by all means.\n"
+            ]
+        },
+        {
+            "__line": 173304,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-parIkza#}@}"
+            ],
+            "_banner": ".{@{#-parIkza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparIkza"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparIkza#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not examining or\n\n testing accurately.\n"
+            ]
+        },
+        {
+            "__line": 173307,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-parIhAra#}@}"
+            ],
+            "_banner": ".{@{#-parIhAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparIhAra"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparIhAra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 not avoiding.\n",
+                ".²2 not observing caution.\n"
+            ]
+        },
+        {
+            "__line": 173310,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-paruza#}@}"
+            ],
+            "_banner": ".{@{#-paruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparuza"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparuza#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(in music) soft.\n"
+            ]
+        },
+        {
+            "__line": 173311,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-paryanta#}@}"
+            ],
+            "_banner": ".{@{#-paryanta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparyanta"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparyanta#}@})",
+                "{@{#-pAra#}@}",
+                "({@{#nizpAra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "boundless, unbounded.\n"
+            ]
+        },
+        {
+            "__line": 173313,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-paryAya#}@}"
+            ],
+            "_banner": ".{@{#-paryAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizparyAya"
+                }
+            ],
+            "_gram": [
+                "({@{#nizparyAya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "out of order.\n"
+            ]
+        },
+        {
+            "__line": 173314,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pApa#}@}"
+            ],
+            "_banner": ".{@{#-pApa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpApa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpApa#}@})"
+            ],
+            "_meanings": [
+                "sinless, guiltless, pure.\n"
+            ]
+        },
+        {
+            "__line": 173315,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-putra#}@}"
+            ],
+            "_banner": ".{@{#-putra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizputra"
+                }
+            ],
+            "_gram": [
+                "({@{#nizputra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sonless, childless.\n"
+            ]
+        },
+        {
+            "__line": 173316,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-purARa#}@}"
+            ],
+            "_banner": ".{@{#-purARa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpurARa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpurARa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not existing before, unheard of, new.\n"
+            ]
+        },
+        {
+            "__line": 173317,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-puruza#}@}"
+            ],
+            "_banner": ".{@{#-puruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpuruza"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpuruza#}@})"
+            ],
+            "_meanings": [
+                ".²1 unpeopled, tenantless, desolate. ",
+                ".²2 without male issue; <ls>Ms. 3. 7</ls>.\n",
+                ".²2 not male, feminine, neuter.\n"
+            ]
+        },
+        {
+            "__line": 173320,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-zaH#}@}"
+            ],
+            "_banner": ".{@{#-zaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHzaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a eunuch.\n",
+                ".²2 a coward.\n"
+            ]
+        },
+        {
+            "__line": 173323,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pulAka#}@}"
+            ],
+            "_banner": ".{@{#-pulAka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpulAka"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpulAka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "freed from chaff.\n"
+            ]
+        },
+        {
+            "__line": 173324,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pOruza#}@}"
+            ],
+            "_banner": ".{@{#-pOruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpOruza"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpOruza#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unmanly.\n"
+            ]
+        },
+        {
+            "__line": 173325,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prakampa#}@}"
+            ],
+            "_banner": ".{@{#-prakampa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprakampa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprakampa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "steady, immovable, motionless.\n"
+            ]
+        },
+        {
+            "__line": 173326,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prakAraka#}@}"
+            ],
+            "_banner": ".{@{#-prakAraka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprakAraka"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprakAraka#}@})"
+            ],
+            "_meanings": [
+                ".²1 {%a.%} without ditinction of species, without specification, absolute.\n",
+                ".²2 without the relation of the qualifier and the qualified, see {#nirvikalpa#}\n (7); {#nizprakArakaM jYAnaM nirvikalpakam#} <ls>T. S.</ls>\n"
+            ]
+        },
+        {
+            "__line": 173330,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prakASa#}@}"
+            ],
+            "_banner": ".{@{#-prakASa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprakASa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprakASa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not transparent, not clear, dark.\n"
+            ]
+        },
+        {
+            "__line": 173331,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pracAra#}@}"
+            ],
+            "_banner": ".{@{#-pracAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpracAra"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpracAra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 not moving away, remaining in one place.\n",
+                ".²2 concentrated, intently fixed; {#nizpracAreRa manasA paraM tadaDigacCati#}\n <ls>Mb. 12. 215. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173335,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prajYa#}@}"
+            ],
+            "_banner": ".{@{#-prajYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprajYa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprajYa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ignorant, stupid.\n"
+            ]
+        },
+        {
+            "__line": 173336,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-praRaya#}@}"
+            ],
+            "_banner": ".{@{#-praRaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpraRaya"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpraRaya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "cold.\n"
+            ]
+        },
+        {
+            "__line": 173337,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratApa#}@}"
+            ],
+            "_banner": ".{@{#-pratApa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratApa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratApa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "destitute of glory, mean,\n base; {#SaNkanIyA hi sarvatra nizpratApA daridratA#} <ls>Pt. 2. 94</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173339,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prati(tI)kAra#}@}"
+            ],
+            "_banner": ".{@{#-prati(tI)kAra#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#nis#} S_ .{@{#-prati(tI)kAra#}@}"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprati(tI)kAra#}@})",
+                "{@{#-pratikriya#}@}",
+                "({@{#nizpratikriya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 incurable, irremediable; {#sarvaTA nizpratIkAreyamApadupasTitA#} <ls>K. 151</ls>.\n",
+                ".²2 unobstructed, uninterrupted.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173342,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-prati(tI)kAra#}@}",
+                        "S_M_ ({@{#-ram#}@}"
+                    ],
+                    "_banner": "({@{#-ram#}@}",
+                    "_meanings": [
+                        "{%ind.%} uninterruptedly.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173343,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratigraha#}@}"
+            ],
+            "_banner": ".{@{#-pratigraha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratigraha"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratigraha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not accepting gifts.\n"
+            ]
+        },
+        {
+            "__line": 173344,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratiGa#}@}"
+            ],
+            "_banner": ".{@{#-pratiGa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratiGa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratiGa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unhindered, unobstructed,\n unimpeded; {#sa hi nizpratiGena cakzuzA tritayaM jYAnamayena paSyati#} <ls>R. 8. 78</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173346,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratidvandva#}@}"
+            ],
+            "_banner": ".{@{#-pratidvandva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratidvandva"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratidvandva#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without enemies, unopposed.\n",
+                ".²2 matchless, unrivalled, unequalled.\n"
+            ]
+        },
+        {
+            "__line": 173348,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratiBa#}@}"
+            ],
+            "_banner": ".{@{#-pratiBa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratiBa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratiBa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 devoid of splendour.\n",
+                ".²2 having no intelligence, not ready-witted, dull, stupid.\n",
+                ".²3 apathetic.\n"
+            ]
+        },
+        {
+            "__line": 173352,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratiBAna#}@}"
+            ],
+            "_banner": ".{@{#-pratiBAna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratiBAna"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratiBAna#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "cowardly, timid.\n"
+            ]
+        },
+        {
+            "__line": 173353,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratIpa#}@}"
+            ],
+            "_banner": ".{@{#-pratIpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratIpa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratIpa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 looking straightforward, not turned backwards.\n",
+                ".²2 unconcerned (as a look).\n"
+            ]
+        },
+        {
+            "__line": 173356,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratyASa#}@}"
+            ],
+            "_banner": ".{@{#-pratyASa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratyASa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratyASa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hopeless, despondent.\n"
+            ]
+        },
+        {
+            "__line": 173357,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pratyUha#}@}"
+            ],
+            "_banner": ".{@{#-pratyUha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpratyUha"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpratyUha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unobstructed, unimpeded;\n {#nizpratyUhAH priyasaKi yadA duHsahAH saMbaBUvuH#} <ls>Māl. 9. 45</ls>; {#nizpratyUhamupAsmahe#}\n {#BagavataH kOmodakIlakzmaRaH#} <ls>Murārināṭakam.</ls>\n"
+            ]
+        },
+        {
+            "__line": 173360,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prapaYca#}@}"
+            ],
+            "_banner": ".{@{#-prapaYca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprapaYca"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprapaYca#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 without extension.\n",
+                ".²2 without deceit, honest.\n"
+            ]
+        },
+        {
+            "__line": 173363,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-praBa#}@}"
+            ],
+            "_banner": ".{@{#-praBa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpraBa"
+                }
+            ],
+            "_gram": [
+                "({@{#niHpraBa#}@}|{@{#nizpraBa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 lustreless, pale-looking; {#nizpraBaSca ripurAsa BUBftAm#} <ls>R. 11. 81</ls>.\n",
+                ".²2 powerless. ",
+                ".²3 gloomy, obscure, dim, dark.\n"
+            ]
+        },
+        {
+            "__line": 173366,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pramARaka#}@}"
+            ],
+            "_banner": ".{@{#-pramARaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpramARaka"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpramARaka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without authority.\n"
+            ]
+        },
+        {
+            "__line": 173367,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prayatna#}@}"
+            ],
+            "_banner": ".{@{#-prayatna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprayatna"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprayatna#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inactive, dull.\n"
+            ]
+        },
+        {
+            "__line": 173368,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prayojana#}@}"
+            ],
+            "_banner": ".{@{#-prayojana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprayojana"
+                }
+            ],
+            "_gram": [
+                "({@{#nizprayojana#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 without motive, not influenced by any motive.\n",
+                ".²2 causeless, groundless,\n",
+                ".²3 useless.\n",
+                ".²4 needless, unnecessary.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173373,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-prayojana#}@}",
+                        "S_M_ ({@{#-nam#}@}"
+                    ],
+                    "_banner": "({@{#-nam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: nizprayojana ({@{#-naM#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} causelessly, without reason, without any object; <ls>Mu. 3</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173374,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-pravaRi, -pravARa, -pravARi#}@}"
+            ],
+            "_banner": ".{@{#-pravaRi, -pravARa, -pravARi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizpravaRi"
+                },
+                {
+                    "Right": "nizpravARa"
+                },
+                {
+                    "Right": "nizpravARi"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpravaRi, -zpravARa, -zpravARi#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fresh from loom, quite new (cloth, <ab>&c.</ab>)\n"
+            ]
+        },
+        {
+            "__line": 173376,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-prARa#}@}"
+            ],
+            "_banner": ".{@{#-prARa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizprARa"
+                }
+            ],
+            "_gram": [
+                "({@{#nizpARa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 lifeless, dead.\n",
+                ".²2 Weak ({#nirbala#}); {#nizprARo nABihantavyaH#} <ls>Mb. 12. 95. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173379,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Pala#}@}"
+            ],
+            "_banner": ".{@{#-Pala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizPala"
+                }
+            ],
+            "_gram": [
+                "({@{#nizPala#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 bearing no fruit, fruitless (<ab>fig.</ab> also), unsuccessful,\n\n futile; {#nizPalAramBayatnAH#} <ls>Me. 56</ls>.\n",
+                ".²2 useless, profitless, vain; <ls>Ku. 4. 13</ls>.\n",
+                ".²3 barren (as a tree).\n",
+                ".²4 meaningless (as a word).\n",
+                ".²5 seedless, impotent.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173387,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-Pala#}@}",
+                        "S_M_ ({@{#-lA, -lI#}@}"
+                    ],
+                    "_banner": "({@{#-lA, -lI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "nizPalA"
+                        },
+                        {
+                            "Right": "nizPalI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a woman past child-bearing.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173388,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Pena#}@}"
+            ],
+            "_banner": ".{@{#-Pena#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nizPena"
+                }
+            ],
+            "_gram": [
+                "({@{#nizPena#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "foamless. --{%n.%} opium.\n"
+            ]
+        },
+        {
+            "__line": 173389,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-SaNka#}@}"
+            ],
+            "_banner": ".{@{#-SaNka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSaNka"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSaNka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from fear or risk, secure,\n fearless. ({@{#niHSaNkaH#}@}) (in music) a kind of dance. --{%f.%} ({#niHSaNkA#})\n absence of fear. --{%ind.%} fearlessly, securely, easily.\n"
+            ]
+        },
+        {
+            "__line": 173392,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Sabda#}@}"
+            ],
+            "_banner": ".{@{#-Sabda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSabda"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSabda#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not expressed in words, inaudible;\n {#niHSabdaM roditumAreBe#} <ls>K. 135</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173394,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-Sabda#}@}",
+                        "S_M_ ({@{#-bdaH, -bdam#}@}"
+                    ],
+                    "_banner": "({@{#-bdaH, -bdam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHSabdaH"
+                        },
+                        {
+                            "Right": "niHSabdam"
+                        }
+                    ],
+                    "_meanings": [
+                        "silence, a calm.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173395,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-SamaH#}@}"
+            ],
+            "_banner": ".{@{#-SamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSamaH"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSamaH#}@})"
+            ],
+            "_meanings": [
+                "uneasiness, anxiety.\n"
+            ]
+        },
+        {
+            "__line": 173396,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-SaraRa#}@}"
+            ],
+            "_banner": ".{@{#-SaraRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSaraRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#niHSaraRa#})"
+            ],
+            "_meanings": [
+                "helpless, forlorn.\n"
+            ]
+        },
+        {
+            "__line": 173397,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Sarkara#}@}"
+            ],
+            "_banner": ".{@{#-Sarkara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSarkara"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSarkara#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from pebbles (as a bathing place).\n"
+            ]
+        },
+        {
+            "__line": 173398,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-SalAka#}@}"
+            ],
+            "_banner": ".{@{#-SalAka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSalAka"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSalAka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lonely, solitary, retired.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173399,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-SalAka#}@}",
+                        "S_M_ ({@{#-kam#}@}"
+                    ],
+                    "_banner": "({@{#-kam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHSalAkam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a retired place, solitude; {#araRye niHSalAke vA mantrayedaviBAvitaH#} <ls>Ms. 7. 147</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173400,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Salya#}@}"
+            ],
+            "_banner": ".{@{#-Salya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSalya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 free from arrows.\n",
+                ".²2 free from thorns or darts.\n"
+            ]
+        },
+        {
+            "__line": 173403,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-SUka#}@}"
+            ],
+            "_banner": ".{@{#-SUka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSUka"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSUka#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "merciless, cruel.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173404,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-SUka#}@}",
+                        "S_M_ ({@{#-kaH#}@}"
+                    ],
+                    "_banner": "({@{#-kaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHSUkaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "beardless rice.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173405,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Seza#}@}"
+            ],
+            "_banner": ".{@{#-Seza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSeza"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSeza#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without remainder (either finished\n or passed away).\n"
+            ]
+        },
+        {
+            "__line": 173407,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-SoDya#}@}"
+            ],
+            "_banner": ".{@{#-SoDya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSoDya"
+                }
+            ],
+            "_gram": [
+                "({@{#niHSoDya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "washed, pure, clean.\n"
+            ]
+        },
+        {
+            "__line": 173408,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-SrIkaH#}@}"
+            ],
+            "_banner": ".{@{#-SrIkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSrIkaH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 deprived of lustre, beauty.\n",
+                ".²2 unhappy.\n"
+            ]
+        },
+        {
+            "__line": 173411,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-Sreyasa#}@}"
+            ],
+            "_banner": ".{@{#-Sreyasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHSreyasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "the best, most excellent.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173412,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-Sreyasa#}@}",
+                        "S_M_ ({@{#-saH#}@}"
+                    ],
+                    "_banner": "({@{#-saH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHSreyasaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Śiva.\n."
+                    ]
+                },
+                {
+                    "__line": 173413,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-Sreyasa#}@}",
+                        "S_M_ ({@{#-sam#}@}"
+                    ],
+                    "_banner": "({@{#-sam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHSreyasam"
+                        }
+                    ],
+                    "_meanings": [
+                        "final beatitude, absolution; {#yaH karoti vaDodarkA niHSreyasakarIH#}\n {#kriyAH#} <ls>Ki. 11. 19</ls>; see {#niHSreyasa#} also.\n",
+                        ".²2 devotion, faith, belief.\n",
+                        ".²3 apprehension, conception.\n",
+                        ".²4 happiness (in general), welfare; {#idaM niHSreyasaM param#} <ls>Ms. 1. 106</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173418,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMSaya#}@}"
+            ],
+            "_banner": ".{@{#-saMSaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaMSaya"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMSaya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 undoubted, certain.\n",
+                ".²2 not doubtful, not suspecting or doubting; {#kuru niHsaMSayaM vatse#}\n {#svavftte lokamityaSAt#} <ls>R. 15. 79</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173422,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-saMSaya#}@}",
+                        "S_M_ ({@{#-yam#}@}"
+                    ],
+                    "_banner": "({@{#-yam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHsaMSayam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} doubtlessly, undoubtedly, surely, certainly.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173423,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMskAra#}@}"
+            ],
+            "_banner": ".{@{#-saMskAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaMskAra"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMskAra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "uneducated, ill-mannered.\n"
+            ]
+        },
+        {
+            "__line": 173424,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMKya#}@}"
+            ],
+            "_banner": ".{@{#-saMKya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaNKya"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMKya#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "innumerable.\n"
+            ]
+        },
+        {
+            "__line": 173425,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMga#}@}"
+            ],
+            "_banner": ".{@{#-saMga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaNga"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMga#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 not attached or devoted to, regardless of, indifferent to; {#yanniHsaMgastvaM#}\n {#PalasyAnateByaH#} <ls>Ki. 18. 24</ls>.\n",
+                ".²2 one who has renounced all worldly attachments; {#Barturye pralaye'pi#}\n {#pUrvasukftAsaNgena niHsaNgayA BaktyA kAryaDuraM vahanti kftinaste durlaBAstvAdfSAH#} <ls>Mu. 1. 14</ls>.\n",
+                ".²3 unconnected, separated, detached.\n",
+                ".²4 unobstructed; {#niHsaNgaM pratiBirupAdade vivfttiH#} <ls>Ki. 7. 12</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173432,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-saMga#}@}",
+                        "S_M_ ({@{#-gam#}@}"
+                    ],
+                    "_banner": "({@{#-gam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHsaNgam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} unselfishly.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173433,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMcAraH#}@}"
+            ],
+            "_banner": ".{@{#-saMcAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaYcAraH"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMcAraH#}@})"
+            ],
+            "_meanings": [
+                "not taking a walk; <ls>Māl.</ls>\n"
+            ]
+        },
+        {
+            "__line": 173434,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMjYa#}@}"
+            ],
+            "_banner": ".{@{#-saMjYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaYjYa"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMjYa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unconscious.\n"
+            ]
+        },
+        {
+            "__line": 173435,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sattva#}@}"
+            ],
+            "_banner": ".{@{#-sattva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsattva"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsattva#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 unenergetic, weak, impotent.\n",
+                ".²2 mean, insignificant, low.\n",
+                ".²3 non-existent, unsubstantial.\n",
+                ".²4 deprived of living beings.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173440,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-sattva#}@}",
+                        "S_M_ ({@{#-ttvam#}@}"
+                    ],
+                    "_banner": "({@{#-ttvam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHsattvam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 absence of power or energy.\n",
+                        ".²2 non-existence.\n",
+                        ".²3 insignificance.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173444,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMtati#}@}"
+            ],
+            "_banner": ".{@{#-saMtati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsantati"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMtati#}@})",
+                "{@{#-saMtAna#}@}",
+                "({@{#niHsaMtAna#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "childless.\n"
+            ]
+        },
+        {
+            "__line": 173446,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMdigDa#}@}"
+            ],
+            "_banner": ".{@{#-saMdigDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsandigDa"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMdigDa#}@})",
+                "{@{#-saMdeha#}@}",
+                "({@{#niHsaMdeha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "see {#niHsaMSaya#}.\n"
+            ]
+        },
+        {
+            "__line": 173448,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMDi#}@}"
+            ],
+            "_banner": ".{@{#-saMDi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsanDi"
+                }
+            ],
+            "_gram": [
+                "({@{#nissaMDi, niHsaMDi#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no joints perceptible,\n compact, firm, close.\n"
+            ]
+        },
+        {
+            "__line": 173450,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sapatna#}@}"
+            ],
+            "_banner": ".{@{#-sapatna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsapatna"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsapatna#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having no rival or enemy; {#GanarucirakalApo niHsapatno'dya jAtaH#} <ls>V. 4. 10</ls>.\n",
+                ".²2 not claimed by another, belonging exclusively to one possessor.\n",
+                ".²3 having no foes.\n"
+            ]
+        },
+        {
+            "__line": 173454,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-samam#}@}"
+            ],
+            "_banner": ".{@{#-samam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsamam"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsamam#}@})",
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 unseasonably, at a wrong time.\n",
+                ".²2 wickedly.\n"
+            ]
+        },
+        {
+            "__line": 173457,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMpAta#}@}"
+            ],
+            "_banner": ".{@{#-saMpAta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsampAta"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMpAta#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "affording no passage, blocked up.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173458,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-saMpAta#}@}",
+                        "S_M_ ({@{#-taH#}@}"
+                    ],
+                    "_banner": "({@{#-taH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHsampAtaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the darkness of midnight, thick darkness.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173459,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMbADa#}@}"
+            ],
+            "_banner": ".{@{#-saMbADa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsambADa"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMbADa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not contracted, spacious, large.\n\n"
+            ]
+        },
+        {
+            "__line": 173461,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saMBrama#}@}"
+            ],
+            "_banner": ".{@{#-saMBrama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsamBrama"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaMBrama#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not perplexed, unembarrassed.\n"
+            ]
+        },
+        {
+            "__line": 173462,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saraRi#}@}"
+            ],
+            "_banner": ".{@{#-saraRi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaraRi"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaraRi#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pathless.\n"
+            ]
+        },
+        {
+            "__line": 173463,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-saha#}@}"
+            ],
+            "_banner": ".{@{#-saha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsaha"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsaha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 Exhausted, powerless; {#kusumAvacayapariSramaniHsahaM me SarIram#} <ls>Nāg. 2</ls>.\n",
+                ".²2 intolerable, irresistible.\n"
+            ]
+        },
+        {
+            "__line": 173466,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sAra#}@}"
+            ],
+            "_banner": ".{@{#-sAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsAra"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsAra#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 sapless, pithless.\n",
+                ".²2 worthless, vain, unsubstantial. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 173468,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-sAra#}@}",
+                        "S_S_ {#˚tA#}"
+                    ],
+                    "_banner": "{#˚tA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHsAratA"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 sapless, pithlessness; {#niHsAratvAllaGIyasaH#} ({#tfRasya ca samA#}\n {#gatiH#}) <ls>Pt. 1. 106</ls>.\n",
+                        ".²2 worthlessness. ",
+                        ".²3 vanity, unsubstantial or transitory nature.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173472,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sIma#}@}"
+            ],
+            "_banner": ".{@{#-sIma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsIma"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsIma#}@})",
+                "{@{#-sIman#}@}",
+                "({@{#niHsIman#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "immeasurable, boundless; {#ahaha#}\n {#mahatAM niHsImAnaScaritraviBUtayaH#} <ls>Bh. 2. 35</ls>; {#niHsImaSarmapradam#} <ls n=\"Bh.\">3. 97</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173475,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-stamBa#}@}"
+            ],
+            "_banner": ".{@{#-stamBa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHstamBa"
+                }
+            ],
+            "_gram": [
+                "({@{#niHstamBa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no pillars.\n",
+                ".²2 having no support.\n",
+                ".²3 not proud; {#niHstamBo BrazwasaMkalpaH svAn meGAn sa nyavArayat#} <ls>Bhāg. 10. 25. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173478,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sUtra#}@}"
+            ],
+            "_banner": ".{@{#-sUtra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsUtra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "helpless; {#niHsUtramAste GanapaNkamftsu#} <ls>N. 7. 69</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173479,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sneha#}@}"
+            ],
+            "_banner": ".{@{#-sneha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsneha"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsneha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 not unctuous or greasy, without unction or oil, dry.\n",
+                ".²2 not showing affection, unfeeling, unkind, indifferent.\n",
+                ".²3 not loved, not cared for; {#keSA api virajyanto niHsnehAH kiM na sevakAH#} <ls>Pt. 1. 82</ls>.\n",
+                ".²4 not longing for, indifferent to.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 173484,
+                    "_ancestry": [
+                        "L_ 19379",
+                        "B_ {#nis#}",
+                        "S_ .{@{#-sneha#}@}",
+                        "S_M_ ({@{#-hA#}@}"
+                    ],
+                    "_banner": "({@{#-hA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "niHsnehA"
+                        }
+                    ],
+                    "_meanings": [
+                        "lin-seed.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 173485,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-spanda#}@}"
+            ],
+            "_banner": ".{@{#-spanda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHspanda"
+                }
+            ],
+            "_gram": [
+                "({@{#niHspanda#}@}|{@{#nisspanda#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "motionless,\n steady; {#jyAbanDanisspandaBujena yasya#} <ls>R. 6. 40</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173487,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sparSa#}@}"
+            ],
+            "_banner": ".{@{#-sparSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsparSa"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsparSa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hard, rough.\n"
+            ]
+        },
+        {
+            "__line": 173488,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-spfha#}@}"
+            ],
+            "_banner": ".{@{#-spfha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHspfha"
+                }
+            ],
+            "_gram": [
+                "({@{#niHspfha#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from desire; {#niHspfhasya tfRaM jagat#}.\n",
+                ".²2 regardless of, indifferent to; {#nanu vaktfviSezaniHspfhAH#} <ls>Ki. 2. 5</ls>;\n <ls>R. 8. 10</ls>; {#BogeByaH spfhayAlavo na hi vayaM kA niHspfhARAmasi#} <ls>Bh.</ls>\n",
+                ".²3 content, unenvious.\n",
+                ".²4 free from any worldly ties.\n"
+            ]
+        },
+        {
+            "__line": 173493,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-sva#}@}"
+            ],
+            "_banner": ".{@{#-sva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsva"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsva#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "poor, indigent; {#nisvo vazwi Satam#}\n <ls>Śānti. 2. 6</ls>; {#tyaktvA janayitAraM svaM niHsvaM gacCati dUrataH#} <ls>Pt. 1. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 173495,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-svana#}@}"
+            ],
+            "_banner": ".{@{#-svana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsvana"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsvana#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "soundless.\n"
+            ]
+        },
+        {
+            "__line": 173496,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-svaBAvaH#}@}"
+            ],
+            "_banner": ".{@{#-svaBAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsvaBAvaH"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsvaBAvaH#}@})"
+            ],
+            "_meanings": [
+                "poverty. --{%a.%} void of peculiarities.\n"
+            ]
+        },
+        {
+            "__line": 173497,
+            "_ancestry": [
+                "L_ 19379",
+                "B_ {#nis#}",
+                "S_ .{@{#-svAdu#}@}"
+            ],
+            "_banner": ".{@{#-svAdu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niHsvAdu"
+                }
+            ],
+            "_gram": [
+                "({@{#niHsvAdu#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "tasteless, insipid."
             ]
         }
     ]

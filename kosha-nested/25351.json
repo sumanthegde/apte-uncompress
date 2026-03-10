@@ -1,18 +1,125 @@
 {
-    "__line": 214843,
+    "__line": 229108,
     "_ancestry": [
         "L_ 25351",
-        "B_ {#vAcA#}"
+        "B_ {#Bojya#}"
     ],
-    "_banner": "{#vAcA#}",
+    "_banner": "{#Bojya#}",
     "_bannerExp": [
         {
-            "Right": "vAcA"
+            "Right": "Bojya"
         }
     ],
+    "_gram": [
+        "{%<ab>pot. p.</ab>%}",
+        "[{#Buj-Ryat#}]"
+    ],
     "_meanings": [
-        "{@--1@} Speech. ",
-        "{@--2@} A sacred text,\na text or aphorism. ",
-        "{@--3@} An oath."
+        ".²1 To be eaten.\n",
+        ".²2 To be enjoyed or possessed.\n",
+        ".²3 To be suffered or experienced.\n",
+        ".²4 To be enjoyed carnally.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 229113,
+            "_ancestry": [
+                "L_ 25351",
+                "B_ {#Bojya#}",
+                "M_ .{@{#-jyam#}@}"
+            ],
+            "_banner": ".{@{#-jyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bojyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Food, meal; {#tvaM BoktA ahaM ca BojyaBUtaH#} <ls>Pt. 2</ls>; <ls>Ku. 2. 15</ls>; <ls>Ms. 3. 240</ls>;\n {#BojyaM BojanaSaktiSca ratiSaktirnarAH striyaH#} <ls>Chāṇ.</ls>\n",
+                ".²2 A store of provisions, eatables; {#varDayedbAhuyudDArTaM BojyEH SArIrakevalam#}\n <ls>Śukra. 4. 877</ls>.\n",
+                ".²3 A dainty.\n",
+                ".²4 Enjoyment.\n",
+                ".²5 Advantage, profit.\n",
+                ".²6 Food given to the Manes.\n",
+                ".²7 Wounding the mortal spot ({#marmaBeda#}); {#Bojye pAMsuvikarzaRe#}\n <ls>Mb. 5. 169. 12</ls> (<ab>com.</ab> {#Bojye kOwilye marmapIqane#}).\n",
+                ".²8 A festive dinner, feast.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 229126,
+            "_ancestry": [
+                "L_ 25351",
+                "B_ {#Bojya#}",
+                "S_ .{@{#-anna#}@}"
+            ],
+            "_banner": ".{@{#-anna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BojyAnna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose food may be eaten; {#ete SUdrezu BojyAnnAH#} <ls>Ms. 4. 253</ls>.\n"
+            ]
+        },
+        {
+            "__line": 229127,
+            "_ancestry": [
+                "L_ 25351",
+                "B_ {#Bojya#}",
+                "S_ .{@{#-uzRa#}@}"
+            ],
+            "_banner": ".{@{#-uzRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BojyozRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "too hot to be eaten.\n"
+            ]
+        },
+        {
+            "__line": 229128,
+            "_ancestry": [
+                "L_ 25351",
+                "B_ {#Bojya#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BojyakAlaH"
+                }
+            ],
+            "_meanings": [
+                "meal-time.\n"
+            ]
+        },
+        {
+            "__line": 229129,
+            "_ancestry": [
+                "L_ 25351",
+                "B_ {#Bojya#}",
+                "S_ .{@{#-saMBavaH#}@}"
+            ],
+            "_banner": ".{@{#-saMBavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BojyasamBavaH"
+                }
+            ],
+            "_meanings": [
+                "chyme, the primary juice of the body."
+            ]
+        }
     ]
 }

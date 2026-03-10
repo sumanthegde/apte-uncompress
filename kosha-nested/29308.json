@@ -1,22 +1,64 @@
 {
-    "__line": 246123,
+    "__line": 271172,
     "_ancestry": [
         "L_ 29308",
-        "B_ {#samada#}"
+        "B_ {#vigarhita#}"
     ],
-    "_banner": "{#samada#}",
+    "_banner": "{#vigarhita#}",
     "_bannerExp": [
         {
-            "Right": "samada"
+            "Right": "vigarhita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Intoxicated, furious.\n",
-        "{@--2@} Mad with rut. ",
-        "{@--3@} Drunk with\npassion; <ls>U. 2. 20</ls>; <ls>Mv. 5. 40.</ls> ",
-        "{@--4@}\nDelighted, glad."
+        ".²1 Censured, reviled, abused.\n",
+        ".²2 Disdained.\n",
+        ".²3 Condemned, reprobated, prohibited.\n",
+        ".²4 Low, vile.\n",
+        ".²5 Bad, wicked.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 271178,
+            "_ancestry": [
+                "L_ 29308",
+                "B_ {#vigarhita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vigarhitam"
+                }
+            ],
+            "_meanings": [
+                "Censure.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 271180,
+            "_ancestry": [
+                "L_ 29308",
+                "B_ {#vigarhita#}",
+                "S_ .{@{#-AcAra#}@}"
+            ],
+            "_banner": ".{@{#-AcAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vigarhitAcAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of reprehensible conduct; {#etAn vigarhitAcArAnapANkteyAn#}\n {#dvijADamAn#} <ls>Ms. 3. 167</ls>."
+            ]
+        }
     ]
 }

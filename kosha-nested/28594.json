@@ -1,16 +1,97 @@
 {
-    "__line": 240322,
+    "__line": 264422,
     "_ancestry": [
         "L_ 28594",
-        "B_ {#saMroDanaM#}"
+        "B_ {#vartamAna#}"
     ],
-    "_banner": "{#saMroDanaM#}",
+    "_banner": "{#vartamAna#}",
     "_bannerExp": [
         {
-            "Right": "saMroDanaM"
+            "Right": "vartamAna"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#vft-SAnac#}]"
+    ],
     "_meanings": [
-        "Obstructing, stopping."
+        ".²1 Being, existing.\n",
+        ".²2 Living, being alive, contemporary; {#praTitayaSasAM BAsakavisOmillakavi-miSrAdInAM#}\n {#prabanDAnatikramya vartamAnakaveH kAlidAsasya kriyAyAM kaTaM parizado#}\n {#bahumAnaH#} <ls>M. 1</ls>.\n",
+        ".²3 Turning or moving round, revolving.\n",
+        ".²4 Dwelling in.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 264429,
+            "_ancestry": [
+                "L_ 28594",
+                "B_ {#vartamAna#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartamAnaH"
+                }
+            ],
+            "_meanings": [
+                "The present tense (in <ab>gram.</ab>); {#vartamAnasAmIpye vartamAnavadvA#}\n <ls>P. III. 3. 131</ls>.\n"
+            ]
+        },
+        {
+            "__line": 264431,
+            "_ancestry": [
+                "L_ 28594",
+                "B_ {#vartamAna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartamAnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Presence.\n",
+                ".²2 The present time.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 264435,
+            "_ancestry": [
+                "L_ 28594",
+                "B_ {#vartamAna#}",
+                "S_ .{@{#-AkzepaH#}@}"
+            ],
+            "_banner": ".{@{#-AkzepaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartamAnAkzepaH"
+                }
+            ],
+            "_meanings": [
+                "not agreeing with the present.\n"
+            ]
+        },
+        {
+            "__line": 264436,
+            "_ancestry": [
+                "L_ 28594",
+                "B_ {#vartamAna#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartamAnakAlaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the present tense.\n",
+                ".²2 the present time."
+            ]
+        }
     ]
 }

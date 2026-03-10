@@ -1,18 +1,68 @@
 {
-    "__line": 210965,
+    "__line": 223529,
     "_ancestry": [
         "L_ 24881",
-        "B_ {#vaMcaTaH#}"
+        "B_ {#BawwAraka#}"
     ],
-    "_banner": "{#vaMcaTaH#}",
+    "_banner": "{#BawwAraka#}",
     "_bannerExp": [
         {
-            "Right": "vaMcaTaH"
+            "Right": "BawwAraka"
+        },
+        {
+            "Right": "BawwArikA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-rikA#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} Cheating, roguery, \ndeceit, trickery. ",
-        "{@--2@} A cheat, rogue,\nswindler. ",
-        "{@--3@} The cuckoo."
+        "Venerable, worshipful <ab>&c.</ab>; see {#BawwAra#} above.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 223531,
+            "_ancestry": [
+                "L_ 24881",
+                "B_ {#BawwAraka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BawwArakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sage, saint.\n",
+                ".²2 The sun.\n",
+                ".²3 A god, deity.\n",
+                ".²4 (In dramas) A king.\n",
+                ".²5 An epithet applied to great and learned men.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 223538,
+            "_ancestry": [
+                "L_ 24881",
+                "B_ {#BawwAraka#}",
+                "S_ .{@{#-vAraH, -vAsaraH#}@}"
+            ],
+            "_banner": ".{@{#-vAraH, -vAsaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BawwArakavAraH"
+                },
+                {
+                    "Right": "BawwArakavAsaraH"
+                }
+            ],
+            "_meanings": [
+                "Sunday."
+            ]
+        }
     ]
 }

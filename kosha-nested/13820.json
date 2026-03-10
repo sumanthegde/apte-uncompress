@@ -1,19 +1,38 @@
 {
-    "__line": 115700,
+    "__line": 118120,
     "_ancestry": [
         "L_ 13820",
-        "B_ {#jalpiH#}"
+        "B_ {#ganDin#}"
     ],
-    "_banner": "{#jalpiH#}",
+    "_banner": "{#ganDin#}",
     "_bannerExp": [
         {
-            "Right": "jalpiH"
+            "Right": "ganDin"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Inarticulate speech."
+        "Having a smell, smelling. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 118120,
+            "_ancestry": [
+                "L_ 13820",
+                "B_ {#ganDin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gaMDin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A bug."
+            ]
+        }
     ]
 }

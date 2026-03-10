@@ -1,18 +1,199 @@
 {
-    "__line": 204673,
+    "__line": 215294,
     "_ancestry": [
         "L_ 24127",
-        "B_ {#rAmilaH#}"
+        "B_ {#preman#}"
     ],
-    "_banner": "{#rAmilaH#}",
+    "_banner": "{#preman#}",
     "_bannerExp": [
         {
-            "Right": "rAmilaH"
+            "Right": "preman"
         }
     ],
+    "_gram": [
+        "{%m., n.%}",
+        "[{#priyasya BAvaH imanic prAdeSaH ekAckatvAt na wilopaH#} <ls>Tv.</ls>]"
+    ],
     "_meanings": [
-        "{@--1@} A lover; husband. ",
-        "{@--2@}\nThe god of love. ",
-        "{@--3@} <ab>N.</ab> of a poet."
+        ".²1 Love, affection; {#tat prema hemanikazopalatAM tanoti#} <ls>Gīt. 11</ls>; <ls>Me. 46</ls>;\n {#BadraM prema sumAnuzasya kaTamapyekaM hi tat prApyate#} <ls>U. 1</ls>.\n",
+        ".²2 Favour, kindness, kind or tender regard.\n",
+        ".²3 Sport, pastime.\n",
+        ".²4 Joy, delight, gladness. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 215299,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#preman#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A jest, joke.\n",
+                ".²2 Wind, air.\n",
+                ".²3 An epithet of Indra.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 215304,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-aSru#}@}"
+            ],
+            "_banner": ".{@{#-aSru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premASru"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a tear of joy or affection.\n"
+            ]
+        },
+        {
+            "__line": 215305,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-Ardra#}@}"
+            ],
+            "_banner": ".{@{#-Ardra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premArdra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "overflowing with love.\n"
+            ]
+        },
+        {
+            "__line": 215306,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-fdDiH#}@}"
+            ],
+            "_banner": ".{@{#-fdDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premardDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "increase of affection, ardent love.\n"
+            ]
+        },
+        {
+            "__line": 215307,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-para#}@}"
+            ],
+            "_banner": ".{@{#-para#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premapara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "affectionate, loving.\n"
+            ]
+        },
+        {
+            "__line": 215308,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-pAtanam#}@}"
+            ],
+            "_banner": ".{@{#-pAtanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premapAtanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 tears (of joy).\n",
+                ".²2 the eye (that sheds them).\n",
+                ".²3 rheum.\n"
+            ]
+        },
+        {
+            "__line": 215312,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-pAvam#}@}"
+            ],
+            "_banner": ".{@{#-pAvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premapAvam"
+                }
+            ],
+            "_meanings": [
+                "‘an object of love’, any beloved person or thing.\n"
+            ]
+        },
+        {
+            "__line": 215313,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-banDaH, -banDanam#}@}"
+            ],
+            "_banner": ".{@{#-banDaH, -banDanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premabanDaH"
+                },
+                {
+                    "Right": "premabanDanam"
+                }
+            ],
+            "_meanings": [
+                "a bond or tie of affection.\n"
+            ]
+        },
+        {
+            "__line": 215314,
+            "_ancestry": [
+                "L_ 24127",
+                "B_ {#preman#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "premaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "affection, love."
+            ]
+        }
     ]
 }

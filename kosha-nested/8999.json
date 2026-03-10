@@ -1,20 +1,44 @@
 {
-    "__line": 76402,
+    "__line": 75756,
     "_ancestry": [
         "L_ 8999",
-        "B_ {#upaskaraRaM#}"
+        "B_ {#udgF#}"
     ],
-    "_banner": "{#upaskaraRaM#}",
+    "_banner": "{#udgF#}",
     "_bannerExp": [
         {
-            "Right": "upaskaraRaM"
+            "Right": "udgF"
         }
     ],
+    "_gram": [
+        "€6",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "{@--1@} Killing, injuring.\n",
-        "{@--2@} A collection. ",
-        "{@--3@} A change, \n\nmodification. ",
-        "{@--4@} An ellipsis. ",
-        "{@--5@}\nBlame, censure."
+        "²1 To eject, spit out, vomit; {#udgirato yadgaralaM PaRinaH puzRAsi parimalodgArEH#}\n <ls>Bv. 1. 11</ls>; {#udgiranniva sneham#} <ls>Śi. 14. 1</ls>.\n\n",
+        ".²2\n",
+        ".³({%a%}) To emit, send or put forth, pour down or out, discharge, belch\n out; {#sahAmBasEvApadamudgiranti#} <ls>Pt. 5. 67</ls>; {#nikzepaRAt rAgamivodgirantO#} <ls>Ku. 1. 33</ls>.\n",
+        ".³({%b%}) To send out of the mouth, speak, utter (as words); {#mahIpateH#}\n {#SAsanamujjagAra#} <ls>R. 14. 53</ls>; <ls>Ve. 5. 14</ls>; {#yadudgirati BramaraH#} <ls>Mu. 2. 11</ls>\n (where it also means ‘vomits’ or ‘emits’).\n",
+        ".²3 To breathe out.\n",
+        ".²4 To rise from. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 75767,
+            "_ancestry": [
+                "L_ 8999",
+                "B_ {#udgF#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "udgF"
+                }
+            ],
+            "_meanings": [
+                "To cause to pour forth, raise (as sound)."
+            ]
+        }
     ]
 }

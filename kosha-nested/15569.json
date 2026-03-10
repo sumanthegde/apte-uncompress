@@ -1,49 +1,58 @@
 {
-    "__line": 130123,
+    "__line": 135038,
     "_ancestry": [
         "L_ 15569",
-        "B_ {#df#}"
+        "B_ {#jAmbUnadam#}"
     ],
-    "_banner": "{#df#}",
+    "_banner": "{#jAmbUnadam#}",
     "_bannerExp": [
         {
-            "Right": "df"
+            "Right": "jAmbUnadam"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c6c}",
-        "<ab>A.</ab>",
-        "({#driyate, dfta#}; {%<ab>desid.</ab>%}  \n{#didarizate#})"
+        "[{#jambUnadyAM Bavam aR#}]"
     ],
     "_meanings": [
-        "(rarely used by itself, \nusually found in combination with {#A#}) ",
-        "{@--1@}\nTo respect, honor, worship, \nreverence; {#dvitIyAdriyate sadA#} <ls>H. Pr. 7</ls>;\n<ls>Mv. 7. 3</ls>; <ls>Bk. 6. 55.</ls> ",
-        "{@--2@} To care for,\nmind; usually with {#na#}. ",
-        "{@--3@} To apply\nor devote oneself closely to, have\nregard for; {#BUri SrutaM SASvatamAdriyaMte#}\n<ls>Māl. 1. 5.</ls> ",
-        "{@--4@} To desire. "
+        ".²1 Gold, <ls>R. 18. 44</ls>.\n",
+        ".²2 A golden ornament; {#kftarucaSca jAmbUnadEH#} <ls>Śi. 4. 66</ls>.\n",
+        ".²3 The Dhattūra plant. "
     ],
     "_morphisms": [
         {
-            "__line": 130132,
+            "__line": 135041,
             "_ancestry": [
                 "L_ 15569",
-                "B_ {#df#}",
-                "M_ {vII.v}"
+                "B_ {#jAmbUnadam#}",
+                "M_ --{%a.%}"
             ],
+            "_banner": "--{%a.%}",
             "_bannerExp": [
                 {
-                    "Right": "df"
+                    "Left": "Parser error: {#jAMbUnadaM#} M_ --{%a.%}"
                 }
             ],
-            "_gram": [
-                "{vII.v}",
-                "{c5c}",
-                "<ab>P.</ab>",
-                "({#dfRoti#})"
+            "_meanings": [
+                "golden; {#tato jAmbUnadIH pAtrIrvajrANkA#}\n {#vimalAH SuBAH#} <ls>Mb. 12. 171. 16</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 135044,
+            "_ancestry": [
+                "L_ 15569",
+                "B_ {#jAmbUnadam#}",
+                "S_ .{@{#-parvataH#}@}"
+            ],
+            "_banner": ".{@{#-parvataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAmbUnadaparvataH"
+                }
             ],
             "_meanings": [
-                "To hurt, kill."
+                "the Meru mountain."
             ]
         }
     ]

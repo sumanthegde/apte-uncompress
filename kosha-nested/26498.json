@@ -1,22 +1,116 @@
 {
-    "__line": 223368,
+    "__line": 242082,
     "_ancestry": [
         "L_ 26498",
-        "B_ {#vivarjita#}"
+        "B_ {#mUka#}"
     ],
-    "_banner": "{#vivarjita#}",
+    "_banner": "{#mUka#}",
     "_bannerExp": [
         {
-            "Right": "vivarjita"
+            "Right": "mUka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#mU-kak#}]"
     ],
     "_meanings": [
-        "{@--1@} Left, abandoned.\n",
-        "{@--2@} Shunned. ",
-        "{@--3@} Deprived of, \ndestitute of, without (usually in comp);\n<ls>Pt. 1. 34.</ls> ",
-        "{@--4@} Given, distributed."
+        ".²1 Dumb, silent, mute, speechless; {#mUkaM karoti vAcAlam#}; {#mUkARqajam#}\n ({#kAnanam#}) <ls>Ku. 3. 42</ls>; {#saKImiyaM vIkzya vizAdamUkAm#} <ls>Gīt. 7</ls>; {#mUkIBUtaGaRwAsvarAsvantaHpuradolAsu#}\n <ls>K. 9</ls>; {#mUkIBUtavIRA#} <ls>K. 132</ls>.\n",
+        ".²2 Poor, miserable, wretched.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 242087,
+            "_ancestry": [
+                "L_ 26498",
+                "B_ {#mUka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUkaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A mute; {#mOnAnmUkaH#} <ls>H. 2. 26</ls> <ab>v. l.</ab>; <ls>Ms. 7. 149</ls>.\n",
+                ".²2 A poor or miserable man.\n",
+                ".²3 A fish.\n",
+                ".²4 The offspring of a mule and a mare.\n"
+            ]
+        },
+        {
+            "__line": 242092,
+            "_ancestry": [
+                "L_ 26498",
+                "B_ {#mUka#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUkA"
+                }
+            ],
+            "_meanings": [
+                "A crucible; see {#mUzA#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 242094,
+            "_ancestry": [
+                "L_ 26498",
+                "B_ {#mUka#}",
+                "S_ .{@{#-aRqaja#}@}"
+            ],
+            "_banner": ".{@{#-aRqaja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUkARqaja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(a forest) whose birds are silent; <ls>Ku.</ls>\n"
+            ]
+        },
+        {
+            "__line": 242095,
+            "_ancestry": [
+                "L_ 26498",
+                "B_ {#mUka#}",
+                "S_ .{@{#-ambA#}@}"
+            ],
+            "_banner": ".{@{#-ambA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUkAmbA"
+                }
+            ],
+            "_meanings": [
+                "a form of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 242096,
+            "_ancestry": [
+                "L_ 26498",
+                "B_ {#mUka#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUkaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "silence, muteness, dumbness (also {#mUkatA, -tvam#} in this sense)."
+            ]
+        }
     ]
 }

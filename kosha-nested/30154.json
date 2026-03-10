@@ -1,16 +1,182 @@
 {
-    "__line": 252113,
+    "__line": 278225,
     "_ancestry": [
         "L_ 30154",
-        "B_ {#sAraGaM#}"
+        "B_ {#virUpa#}"
     ],
-    "_banner": "{#sAraGaM#}",
+    "_banner": "{#virUpa#}",
     "_bannerExp": [
         {
-            "Right": "sAraGaM"
+            "Right": "virUpa"
+        },
+        {
+            "Right": "virUpI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-pA#}|{#-pI#}|{%f.%})"
+    ],
     "_meanings": [
-        "Honey."
+        ".²1 Deformed, ugly, misshapen, disfigured; {#virUpaM rUpavantaM vA pumAnityeva#}\n {#BuYjate#} <ls>Pt. 1. 143</ls>.\n",
+        ".²2 Unnatural, monstrous.\n",
+        ".²3 Multiform, diverse; {#prakftisarUpaM virUpaM ca#} <ls>Sāṅ. K. 8</ls>.\n",
+        ".²4 Less by one.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 278231,
+            "_ancestry": [
+                "L_ 30154",
+                "B_ {#virUpa#}",
+                "M_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virUpaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Jaundice.\n",
+                ".²2 <ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 278234,
+            "_ancestry": [
+                "L_ 30154",
+                "B_ {#virUpa#}",
+                "M_ .{@{#-pA#}@}"
+            ],
+            "_banner": ".{@{#-pA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virUpA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Alhagi Maurorum (<lang>Mar.</lang> <ns>{#DamAsA#}</ns>).\n",
+                ".²2 Aconitum Ferox (<lang>Mar.</lang> <ns>{#ativiza#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 278237,
+            "_ancestry": [
+                "L_ 30154",
+                "B_ {#virUpa#}",
+                "M_ .{@{#-pam#}@}"
+            ],
+            "_banner": ".{@{#-pam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virUpam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Deformity, ugliness.\n",
+                ".²2 Variety of form, nature, or character.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 278241,
+            "_ancestry": [
+                "L_ 30154",
+                "B_ {#virUpa#}",
+                "S_ .{@{#-akza#}@}"
+            ],
+            "_banner": ".{@{#-akza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virUpAkza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having deformed eyes; {#vapurvirUpAkzam#} <ls>Ku. 5. 72</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 278242,
+                    "_ancestry": [
+                        "L_ 30154",
+                        "B_ {#virUpa#}",
+                        "S_ .{@{#-akza#}@}",
+                        "S_M_ ({@{#-kzaH#}@}"
+                    ],
+                    "_banner": "({@{#-kzaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "virUpAkzaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Śiva (having an unusual number of eyes); {#dfSA#}\n {#dagDaM manasijaM jIvayanti dfSEva yAH . virUpAkzasya jayinIstAH stuve#}\n {#vAmalocanAH ..#} <ls>Vb. 1. 2</ls>; <ls>Ku. 6. 21</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 278245,
+            "_ancestry": [
+                "L_ 30154",
+                "B_ {#virUpa#}",
+                "S_ .{@{#-karaRam#}@}"
+            ],
+            "_banner": ".{@{#-karaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virUpakaraRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 disfiguring.\n",
+                ".²2 injuring.\n"
+            ]
+        },
+        {
+            "__line": 278248,
+            "_ancestry": [
+                "L_ 30154",
+                "B_ {#virUpa#}",
+                "S_ .{@{#-cakzus#}@}"
+            ],
+            "_banner": ".{@{#-cakzus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virUpacakzus"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 278249,
+            "_ancestry": [
+                "L_ 30154",
+                "B_ {#virUpa#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virUparUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deformed."
+            ]
+        }
     ]
 }

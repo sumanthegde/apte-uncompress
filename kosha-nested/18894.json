@@ -1,23 +1,156 @@
 {
-    "__line": 157941,
+    "__line": 168153,
     "_ancestry": [
         "L_ 18894",
-        "B_ {#pAzaMqakaH, pAzaMqin#}"
+        "B_ {#niyata#}"
     ],
-    "_banner": "{#pAzaMqakaH, pAzaMqin#}",
+    "_banner": "{#niyata#}",
     "_bannerExp": [
         {
-            "Right": "pAzaMqakaH"
-        },
-        {
-            "Right": "pAzaMqin"
+            "Right": "niyata"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "{#pAKaMqikaH#}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "A\nheretic, a religious hypocrite;  \n<ls>Y. 1. 130</ls>; <ls n=\"Y.\">2. 70.</ls>"
+        ".²1 Curbed, restrained; {#taM taM niyamamAsTAya prakftyA niyatAH svayA#} <ls>Bg. 7. 20</ls>.\n",
+        ".²2 Subdued, controlled, self-possessed, self-governed.\n",
+        ".²3 Abstemious, temperate.\n",
+        ".²4 Attentive, intent.\n",
+        ".²5 Fixed, permanent, constant, steady; {#anyaTAsidDiSUnyasya niyatA pUrvavartitA#} <ls>Bhāṣā P.</ls>\n",
+        ".²6\n",
+        ".³({%a%}) Certain, settled, sure; <ls>Pt. 1. 284</ls>.\n",
+        ".³({%b%}) Fixed; {#prakftiniyatatvAdakftakaH#} <ls>U. 6. 14</ls>; fixed in number,\n limited; {#bARAH paYca manoBavasya niyatAstezAmasaMKyo janaH#} ({#lakzyaH#}) <ls>Ratn. 3. 3</ls>.\n",
+        ".²7 Inevitable.\n",
+        ".²8 Positive, definite.\n",
+        ".²9 Forming the subject of consideration, relevant or irrelevant; see {#tulyayogitA#}.\n",
+        ".²10 Maintained, observed (as a vow <ab>&c.</ab>); {#niyatEkapativratAni paScAttarumUlAni#}\n {#gfhIBavanti tezAm#} <ls>Ś. 7. 20</ls>.\n",
+        ".²11 Held back, fastened, tied; {#paSUnAM triSataM tatra yUpezu niyataM#}\n {#tadA#} <ls>Rām. 1. 14. 32</ls>.\n",
+        ".²12 Connected with, dependent on; {#vAcyarTA niyatAH sarve#} <ls>Ms. 4. 256</ls>.\n",
+        ".²13 (in <ab>gram.</ab>) Pronounced with {#anudAtta#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 168172,
+            "_ancestry": [
+                "L_ 18894",
+                "B_ {#niyata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyatam"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) (in Sāṅkhya) the organs of sense.\n"
+            ]
+        },
+        {
+            "__line": 168173,
+            "_ancestry": [
+                "L_ 18894",
+                "B_ {#niyata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyatam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Always, constantly.\n",
+                ".²2 Positively, certainly, invariably, inevitably, surely.\n",
+                ".²3 Forcibly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 168178,
+            "_ancestry": [
+                "L_ 18894",
+                "B_ {#niyata#}",
+                "S_ .{@{#-kAla#}@}"
+            ],
+            "_banner": ".{@{#-kAla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyatakAla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Limited in time, temporary; <ls>Kāśi.</ls> on <ls>P. I. 4. 44</ls>.\n"
+            ]
+        },
+        {
+            "__line": 168179,
+            "_ancestry": [
+                "L_ 18894",
+                "B_ {#niyata#}",
+                "S_ .{@{#-mAnasa#}@}"
+            ],
+            "_banner": ".{@{#-mAnasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyatamAnasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of subdued mind.\n"
+            ]
+        },
+        {
+            "__line": 168180,
+            "_ancestry": [
+                "L_ 18894",
+                "B_ {#niyata#}",
+                "S_ .{@{#-vAca#}@}"
+            ],
+            "_banner": ".{@{#-vAca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyatavAca"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "limited as to the use of words.\n"
+            ]
+        },
+        {
+            "__line": 168181,
+            "_ancestry": [
+                "L_ 18894",
+                "B_ {#niyata#}",
+                "S_ .{@{#-vrata#}@}"
+            ],
+            "_banner": ".{@{#-vrata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyatavrata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pious, religious."
+            ]
+        }
     ]
 }

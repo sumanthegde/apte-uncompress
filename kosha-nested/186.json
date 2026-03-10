@@ -1,45 +1,59 @@
 {
-    "__line": 2711,
+    "__line": 1775,
     "_ancestry": [
         "L_ 186",
-        "B_ {#agada#}"
+        "B_ {#akzRayA#}"
     ],
-    "_banner": "{#agada#}",
+    "_banner": "{#akzRayA#}",
     "_bannerExp": [
         {
-            "Right": "agada"
+            "Right": "akzRayA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#nAsti gado rogo yasya#}]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@}\nHealthy, sound, free from disease,\nin good health; {#naro'gadaH#} <ls>Ms. 8. 107.</ls>\n",
-        "{@--2@} ({#gad-BAzaRe ac, na#}. {#ta#}.) Not \nspeaking or telling. ",
-        "{@--3@} Free from judicial\naffliction. "
+        "<ab>Ved.</ab>\n",
+        ".²1 Tortuously, circuitously, in a crooked way; {#tAnakzRayA saMtfndanti#}.\n <ls>Śat. Br.</ls> ({#vakramArgeRa, kOwilyena#}).\n",
+        ".²2 Wrongly; {#˚druh#} <ab>Ved.</ab> seeking to hurt in a wrongful way.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 2716,
+            "__line": 1780,
             "_ancestry": [
                 "L_ 186",
-                "B_ {#agada#}",
-                "M_ {#--daH#}"
+                "B_ {#akzRayA#}",
+                "S_ .{@{#-rajjuH#}@}"
             ],
-            "_banner": "{#--daH#}",
+            "_banner": ".{@{#-rajjuH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "agadaH"
+                    "Right": "akzRayArajjuH"
                 }
             ],
             "_gram": [
-                "[{#nAsti gado rogo yasmAt#}]"
+                "{%f.%}"
             ],
             "_meanings": [
-                "{@--1@} A medicine, a medicinal drug;\n{#iti ciMtAvizaGnoyamagadaH kiM na pIyate#}  \n<ls>H. Pr. 29</ls>; {#vizaGnEragadEScAsya sarvadravyARi yojayet#}\n<ls>Ms. 7. 218.</ls> ",
-                "{@--2@} Health, freedom from\ndisease; {#OzaDAnyagado vidyA devI ca#} \n{#viviDA sTitiH . tapasEva prasiDyaMti tapastezAM hi#} \n\n{#sADanaM#} <ls>Ms. 11. 238</ls> ({#agadaH gadABAvaH#} \n{#nErujyamiti yAvat#} <ls>Kull.</ls>) ",
-                "{@--3@} The science\nof antidotes; one of the 8 parts of\nmedical science."
+                "diagonal line; <ls>Śulba. S.</ls>\n"
+            ]
+        },
+        {
+            "__line": 1781,
+            "_ancestry": [
+                "L_ 186",
+                "B_ {#akzRayA#}",
+                "S_ .{@{#-stomIyA#}@}"
+            ],
+            "_banner": ".{@{#-stomIyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akzRayAstomIyA"
+                }
+            ],
+            "_meanings": [
+                "Name of an Iṣṭakā, <ls>Ts.</ls>; <ls>Śat. Br.</ls> {#akzRayADruk#} <ls>Rv. 1. 122. 9</ls>."
             ]
         }
     ]

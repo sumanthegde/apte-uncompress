@@ -1,16 +1,92 @@
 {
-    "__line": 138828,
+    "__line": 143132,
     "_ancestry": [
         "L_ 16504",
-        "B_ {#nAmaka#}"
+        "B_ {#tIram#}"
     ],
-    "_banner": "{#nAmaka#}",
+    "_banner": "{#tIram#}",
     "_bannerExp": [
         {
-            "Right": "nAmaka"
+            "Right": "tIram"
         }
     ],
     "_meanings": [
-        "(At the end of adj. <ab>comp.</ab>)\n= {#nAman#}; as {#kftanAmakaH#}."
+        ".²1 A shore, bank; {#nadItIra, sAgaratIra#} <ab>&c.</ab>\n",
+        ".²2 Margin, brim, edge.\n",
+        ".²3 The bank of the Ganges.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 143136,
+            "_ancestry": [
+                "L_ 16504",
+                "B_ {#tIram#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sort of an arrow.\n",
+                ".²2 Lead.\n",
+                ".²3 Tin.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 143141,
+            "_ancestry": [
+                "L_ 16504",
+                "B_ {#tIram#}",
+                "S_ .{@{#-antaram#}@}"
+            ],
+            "_banner": ".{@{#-antaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIrAntaram"
+                }
+            ],
+            "_meanings": [
+                "the opposite bank.\n"
+            ]
+        },
+        {
+            "__line": 143142,
+            "_ancestry": [
+                "L_ 16504",
+                "B_ {#tIram#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIrajaH"
+                }
+            ],
+            "_meanings": [
+                "a tree near a shore.\n"
+            ]
+        },
+        {
+            "__line": 143143,
+            "_ancestry": [
+                "L_ 16504",
+                "B_ {#tIram#}",
+                "S_ .{@{#-BuktiH#}@}"
+            ],
+            "_banner": ".{@{#-BuktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tIraBuktiH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a country in middle India (Tirhut)."
+            ]
+        }
     ]
 }

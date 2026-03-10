@@ -1,19 +1,45 @@
 {
-    "__line": 90587,
+    "__line": 90510,
     "_ancestry": [
         "L_ 10782",
-        "B_ {#kArtayuga#}"
+        "B_ {#EtihAsika#}"
     ],
-    "_banner": "{#kArtayuga#}",
+    "_banner": "{#EtihAsika#}",
     "_bannerExp": [
         {
-            "Right": "kArtayuga"
+            "Right": "EtihAsika"
+        },
+        {
+            "Right": "EtihAsikI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#itihAsa-Wak#}]"
     ],
     "_meanings": [
-        "Relating to the  \n{#kftayuga#}."
+        ".²1 Traditional.\n",
+        ".²2 Historical\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 90513,
+            "_ancestry": [
+                "L_ 10782",
+                "B_ {#EtihAsika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "EtihAsikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An historian.\n",
+                ".²2 One who knows or studies ancient legends."
+            ]
+        }
     ]
 }

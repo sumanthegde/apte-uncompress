@@ -1,16 +1,66 @@
 {
-    "__line": 252030,
+    "__line": 278161,
     "_ancestry": [
         "L_ 30146",
-        "B_ {#sAyaRaH#}"
+        "B_ {#viroDin#}"
     ],
-    "_banner": "{#sAyaRaH#}",
+    "_banner": "{#viroDin#}",
     "_bannerExp": [
         {
-            "Right": "sAyaRaH"
+            "Right": "viroDin"
+        },
+        {
+            "Right": "viroDinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a very learned\nBrāhmaṇa supposed to have \nflourished about 1370 <ab>A. D.</ab>"
+        ".²1 Resisting, opposing, obstructing.\n",
+        ".²2 Besieging.\n",
+        ".²3 Contradictory, opposed to, inconsistent with; {#tapovana˚#} <ls>Ś. 1</ls>.\n",
+        ".²4 Hostile, inimical, adverse; {#viroDisattvojJitapUrvamatsaram#} <ls>Ku. 5. 17</ls>.\n",
+        ".²5 Quarrelsome. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 278166,
+            "_ancestry": [
+                "L_ 30146",
+                "B_ {#viroDin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#viroDin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An enemy; {#kalayantyuzRakaraM viroDinaH#}\n <ls>Śi. 16. 64</ls>. "
+            ]
+        },
+        {
+            "__line": 278167,
+            "_ancestry": [
+                "L_ 30146",
+                "B_ {#viroDin#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#viroDin#} M_ --{%f.%}"
+                }
+            ],
+            "_gram": [
+                "({@{#viroDinI#}@})"
+            ],
+            "_meanings": [
+                "A woman who promotes quarrel."
+            ]
+        }
     ]
 }

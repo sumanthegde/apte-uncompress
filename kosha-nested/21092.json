@@ -1,19 +1,58 @@
 {
-    "__line": 174653,
+    "__line": 189083,
     "_ancestry": [
         "L_ 21092",
-        "B_ {#prAR#}"
+        "B_ {#pArakya#}"
     ],
-    "_banner": "{#prAR#}",
+    "_banner": "{#pArakya#}",
     "_bannerExp": [
         {
-            "Right": "prAR"
+            "Right": "pArakya"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "= {#prARa#} below."
+        ".²1 Alien, belonging to another; {#varaM svaDarmo viguRo na pArakyaH svanuzWitaH#}\n <ls>Ms. 10. 97</ls>; {#pArakyasyEva dehasya bahvapo me'kzOhiRIrhatAH#} <ls>Bhāg. 1. 8. 48</ls>.\n",
+        ".²2 Intended for others.\n",
+        ".²3 Hostile, inimical.\n",
+        ".²4 Useful in the next world.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 189089,
+            "_ancestry": [
+                "L_ 21092",
+                "B_ {#pArakya#}",
+                "M_ .{@{#-kyaH#}@}"
+            ],
+            "_banner": ".{@{#-kyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArakyaH"
+                }
+            ],
+            "_meanings": [
+                "An enemy, adversary.\n"
+            ]
+        },
+        {
+            "__line": 189090,
+            "_ancestry": [
+                "L_ 21092",
+                "B_ {#pArakya#}",
+                "M_ .{@{#-kyam#}@}"
+            ],
+            "_banner": ".{@{#-kyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArakyam"
+                }
+            ],
+            "_meanings": [
+                "Doing anything for future happiness ({#paralokasADana#}); pious conduct."
+            ]
+        }
     ]
 }

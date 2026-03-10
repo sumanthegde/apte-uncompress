@@ -1,24 +1,118 @@
 {
-    "__line": 186244,
+    "__line": 200265,
     "_ancestry": [
         "L_ 22307",
-        "B_ {#BF#}"
+        "B_ {#praRIta#}"
     ],
-    "_banner": "{#BF#}",
+    "_banner": "{#praRIta#}",
     "_bannerExp": [
         {
-            "Right": "BF"
+            "Right": "praRIta"
         }
     ],
     "_gram": [
-        "{c9c}",
-        "<ab>P.</ab>",
-        "({#BfRAti#})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To bear, \nnourish, support, maintain. ",
-        "{@--2@} To fry.\n",
-        "{@--3@} To blame, censure. ",
-        "{@--4@} To bend,\nbe crooked."
+        ".²1 Put forward, advanced, presented.\n",
+        ".²2 Delivered, given, offered, presented.\n",
+        ".²3 Brought into, reduced to.\n",
+        ".²4 Executed, effected, performed.\n",
+        ".²5 Taught, prescribed.\n",
+        ".²6 Cast, sent, discharged.\n",
+        ".²7 Brought to, set.\n",
+        ".²8 Written, composed.\n",
+        ".²9 Set aside, removed.\n",
+        ".²10 Agreeable or pleasing.\n",
+        ".²11 Inflicted (as punishment); see {#praRI#} above.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 200277,
+            "_ancestry": [
+                "L_ 22307",
+                "B_ {#praRIta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praRItaH"
+                }
+            ],
+            "_meanings": [
+                "Fire consecrated by prayers.\n"
+            ]
+        },
+        {
+            "__line": 200278,
+            "_ancestry": [
+                "L_ 22307",
+                "B_ {#praRIta#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praRItA"
+                }
+            ],
+            "_meanings": [
+                "A sacrificed vessel.\n"
+            ]
+        },
+        {
+            "__line": 200279,
+            "_ancestry": [
+                "L_ 22307",
+                "B_ {#praRIta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praRItam"
+                }
+            ],
+            "_meanings": [
+                "Anything cooked or dressed, such as a condiment.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 200281,
+            "_ancestry": [
+                "L_ 22307",
+                "B_ {#praRIta#}",
+                "S_ .{@{#-agni#}@}"
+            ],
+            "_banner": ".{@{#-agni#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praRItAgni"
+                }
+            ],
+            "_meanings": [
+                "fire consecrated by prayers.\n"
+            ]
+        },
+        {
+            "__line": 200282,
+            "_ancestry": [
+                "L_ 22307",
+                "B_ {#praRIta#}",
+                "S_ .{@{#-Apas#}@}"
+            ],
+            "_banner": ".{@{#-Apas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "praRItApas"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) holy water."
+            ]
+        }
     ]
 }

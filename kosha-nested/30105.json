@@ -1,19 +1,162 @@
 {
-    "__line": 251690,
+    "__line": 277772,
     "_ancestry": [
         "L_ 30105",
-        "B_ {#sAmagryaM#}"
+        "B_ {#virala#}"
     ],
-    "_banner": "{#sAmagryaM#}",
+    "_banner": "{#virala#}",
     "_bannerExp": [
         {
-            "Right": "sAmagryaM"
+            "Right": "virala"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Entireness, perfection,\ncompleteness, totality; {#prAyeRa#} \n\n{#sAmagryaviDO guRAnAM parANmuKI viSvasfjaH pravfttiH#}\n<ls>Ku. 3. 28.</ls> ",
-        "{@--2@} Train, retinue. ",
-        "{@--3@} A\ncollection of implements, apparatus.\n",
-        "{@--4@} Stock, effects."
+        ".²1 Having interstices, separated by intervals, thin, not thick or compact;\n {#viparyAsaM yAto GanaviralaBAvaH kzitiruhAm#} <ls>U. 2. 27</ls>, <ls n=\"U.\">1. 20</ls>; {#Bavati#}\n {#viralaBaktirmlAnapuzpApahAraH#} <ls>R. 5. 74</ls>.\n",
+        ".²2 Fine, declicate.\n",
+        ".²3 Loose, wide apart.\n",
+        ".²4 Rare, scarcely found, unfrequent; {#viralA hi tezAmupadezwAraH#} <ls>K.</ls>;\n {#stimitonnatasaMcArA janasaMtApahAriRaH . jAyante viralA loke jaladA#}\n {#iva sajjanAH ..#} <ls>Pt. 1. 29</ls>.\n",
+        ".²5 Few, little (referring to number or quantity); {#tattvaM kimapi kAvyAnAM#}\n {#jAnAti viralo Buvi#} <ls>Bv. 1. 117</ls>; {#viralAtapacCaviH#} <ls>Śi. 9. 3</ls>.\n",
+        ".²6 Remote, distant, long (as time, distance <ab>&c.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 277784,
+            "_ancestry": [
+                "L_ 30105",
+                "B_ {#virala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viralam"
+                }
+            ],
+            "_meanings": [
+                "Curds, coagulated milk.\n"
+            ]
+        },
+        {
+            "__line": 277785,
+            "_ancestry": [
+                "L_ 30105",
+                "B_ {#virala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viralam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Scarcely, rarely, not frequently.\n\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 277788,
+            "_ancestry": [
+                "L_ 30105",
+                "B_ {#virala#}",
+                "S_ .{@{#-jAnuka#}@}"
+            ],
+            "_banner": ".{@{#-jAnuka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viralajAnuka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bandy-legged, bow-kneed.\n"
+            ]
+        },
+        {
+            "__line": 277789,
+            "_ancestry": [
+                "L_ 30105",
+                "B_ {#virala#}",
+                "S_ .{@{#-dravA#}@}"
+            ],
+            "_banner": ".{@{#-dravA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viraladravA"
+                }
+            ],
+            "_meanings": [
+                "a kind of gruel.\n"
+            ]
+        },
+        {
+            "__line": 277790,
+            "_ancestry": [
+                "L_ 30105",
+                "B_ {#virala#}",
+                "S_ .{@{#-pAtaka#}@}"
+            ],
+            "_banner": ".{@{#-pAtaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viralapAtaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sinning rarely.\n"
+            ]
+        },
+        {
+            "__line": 277791,
+            "_ancestry": [
+                "L_ 30105",
+                "B_ {#virala#}",
+                "S_ .{@{#-pArSvaga#}@}"
+            ],
+            "_banner": ".{@{#-pArSvaga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viralapArSvaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having scanty retinue.\n"
+            ]
+        },
+        {
+            "__line": 277792,
+            "_ancestry": [
+                "L_ 30105",
+                "B_ {#virala#}",
+                "S_ .{@{#-Bakti#}@}"
+            ],
+            "_banner": ".{@{#-Bakti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viralaBakti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "monotonous."
+            ]
+        }
     ]
 }

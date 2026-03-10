@@ -1,92 +1,151 @@
 {
-    "__line": 232347,
+    "__line": 254852,
     "_ancestry": [
         "L_ 27612",
-        "B_ {#Saba(va)la#}"
+        "B_ {#reRuH#}"
     ],
-    "_banner": "{#Saba(va)la#}",
+    "_banner": "{#reRuH#}",
     "_bannerExp": [
         {
-            "Right": "Sabala"
-        },
-        {
-            "Right": "Savala"
+            "Right": "reRuH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%m., f.%}",
+        "[{#rIyateH RuH nit#} <ls>Uṇ. 3. 38</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Spotted, \nbrindled, variegated; {#kvacitpraBA cAMdramasI#} \n{#tamoBiSrCAyAvilInEH SabalIkfteva#}  \n<ls>R. 13. 56</ls>, <ls n=\"R.\">5. 44</ls>; <ls>Mv. 7. 26.</ls> ",
-        "{@--2@} Varied,\ndivided into various parts. ",
-        "{@--3@} \nArticulate; imitative. "
+        ".²1 Dust, an atom of dust, sand <ab>&c.</ab>; {#turagaKurahatastaTA hi reRuH#} <ls>Ś. 1. 32</ls>.\n",
+        ".²2 The pollen of flowers.\n",
+        ".²3 A particular measure.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 232352,
+            "__line": 254857,
             "_ancestry": [
                 "L_ 27612",
-                "B_ {#Saba(va)la#}",
-                "M_ {#--laH#}"
+                "B_ {#reRuH#}",
+                "S_ .{@{#-utpAtaH#}@}"
             ],
-            "_banner": "{#--laH#}",
+            "_banner": ".{@{#-utpAtaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SabalaH"
-                },
-                {
-                    "Right": "SavalaH"
+                    "Right": "reRUtpAtaH"
                 }
             ],
             "_meanings": [
-                "A \nvariegated colour. "
+                "rising of dust.\n"
             ]
         },
         {
-            "__line": 232353,
+            "__line": 254858,
             "_ancestry": [
                 "L_ 27612",
-                "B_ {#Saba(va)la#}",
-                "M_ {#--lA, --lI#}"
+                "B_ {#reRuH#}",
+                "S_ .{@{#-garBaH#}@}"
             ],
-            "_banner": "{#--lA, --lI#}",
+            "_banner": ".{@{#-garBaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SabalA"
-                },
-                {
-                    "Right": "SabalI"
-                },
-                {
-                    "Right": "SavalA"
-                },
-                {
-                    "Right": "SavalI"
+                    "Right": "reRugarBaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A spotted or\nbrindled cow. ",
-                "{@--2@} The cow of plenty\nor Kāmadhenu <ab>q. v.</ab> "
+                "an hour-glass.\n"
             ]
         },
         {
-            "__line": 232355,
+            "__line": 254859,
             "_ancestry": [
                 "L_ 27612",
-                "B_ {#Saba(va)la#}",
-                "M_ {#--laM#}"
+                "B_ {#reRuH#}",
+                "S_ .{@{#-padavI#}@}"
             ],
-            "_banner": "{#--laM#}",
+            "_banner": ".{@{#-padavI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SabalaM"
-                },
-                {
-                    "Right": "SavalaM"
+                    "Right": "reRupadavI"
                 }
             ],
             "_meanings": [
-                "Water."
+                "a path of dust.\n"
+            ]
+        },
+        {
+            "__line": 254860,
+            "_ancestry": [
+                "L_ 27612",
+                "B_ {#reRuH#}",
+                "S_ .{@{#-rUzita#}@}"
+            ],
+            "_banner": ".{@{#-rUzita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "reRurUzita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "soiled with dust.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 254861,
+                    "_ancestry": [
+                        "L_ 27612",
+                        "B_ {#reRuH#}",
+                        "S_ .{@{#-rUzita#}@}",
+                        "S_M_ ({@{#-taH#}@}"
+                    ],
+                    "_banner": "({@{#-taH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "reRurUzitaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an ass.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 254862,
+            "_ancestry": [
+                "L_ 27612",
+                "B_ {#reRuH#}",
+                "S_ .{@{#-vAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "reRuvAsaH"
+                }
+            ],
+            "_meanings": [
+                "a bee.\n"
+            ]
+        },
+        {
+            "__line": 254863,
+            "_ancestry": [
+                "L_ 27612",
+                "B_ {#reRuH#}",
+                "S_ .{@{#-sAraH, -sArakaH#}@}"
+            ],
+            "_banner": ".{@{#-sAraH, -sArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "reRusAraH"
+                },
+                {
+                    "Right": "reRusArakaH"
+                }
+            ],
+            "_meanings": [
+                "camphor."
             ]
         }
     ]

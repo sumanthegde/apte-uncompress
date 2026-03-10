@@ -1,19 +1,57 @@
 {
-    "__line": 50083,
+    "__line": 47212,
     "_ancestry": [
         "L_ 5683",
-        "B_ {#ahavi#}"
+        "B_ {#avela#}"
     ],
-    "_banner": "{#ahavi#}",
+    "_banner": "{#avela#}",
     "_bannerExp": [
         {
-            "Right": "ahavi"
+            "Right": "avela"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Without oblations or\nsacrifices."
+        ".²1 Having no boundary or limit, unlimited.\n",
+        ".²2 Having no time, untimely.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 47215,
+            "_ancestry": [
+                "L_ 5683",
+                "B_ {#avela#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avelaH"
+                }
+            ],
+            "_meanings": [
+                "Concealment of knowledge.\n"
+            ]
+        },
+        {
+            "__line": 47216,
+            "_ancestry": [
+                "L_ 5683",
+                "B_ {#avela#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avelA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Unfavourable time.\n",
+                ".²2 Chewed betel (supposed to be = {#ava + ilA#})."
+            ]
+        }
     ]
 }

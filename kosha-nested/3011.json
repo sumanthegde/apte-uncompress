@@ -1,21 +1,35 @@
 {
-    "__line": 28985,
+    "__line": 26156,
     "_ancestry": [
         "L_ 3011",
-        "B_ {#aBikrAMtin#}"
+        "B_ {#aputrikA#}"
     ],
-    "_banner": "{#aBikrAMtin#}",
+    "_banner": "{#aputrikA#}",
     "_bannerExp": [
         {
-            "Right": "aBikrAMtin"
+            "Right": "aputrikA"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#izwAdigaRa#}]"
-    ],
     "_meanings": [
-        "{@--1@} One\nwho has approached or \nundertaken or begun. ",
-        "{@--2@} Skilled or versed\nin, conversant with (with <ab>loc.</ab>)."
+        "The daughter of a sonless father, who herself has no male\n child; one who is not appointed by her father to beget male issue for\n him on failure of a son; <ab>cf.</ab> {#akftA#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 26159,
+            "_ancestry": [
+                "L_ 3011",
+                "B_ {#aputrikA#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aputrikaH"
+                }
+            ],
+            "_meanings": [
+                "The father of such a daughter."
+            ]
+        }
     ]
 }

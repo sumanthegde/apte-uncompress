@@ -1,19 +1,110 @@
 {
-    "__line": 37624,
+    "__line": 34230,
     "_ancestry": [
         "L_ 4131",
-        "B_ {#arca#}"
+        "B_ {#amanas#}, {#-amanaska#}"
     ],
-    "_banner": "{#arca#}",
+    "_banner": "{#amanas#}, {#-amanaska#}",
     "_bannerExp": [
         {
-            "Right": "arca"
+            "Right": "amanas"
+        },
+        {
+            "Right": "amanaska"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Shining."
+        ".²1 Without the organ of desire, thought <ab>&c.</ab>\n",
+        ".²2 Devoid of intellect (as a child).\n",
+        ".²3 Inattentive, careless.\n",
+        ".²4 Having no control over the mind.\n",
+        ".²5 Devoid of affection. {%n.%} ({@{#-naH#}@})\n",
+        ".²1 Not the organ of desire, non-perception.\n",
+        ".²2 Inattention. {%m.%} The Supreme Being.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 34239,
+            "_ancestry": [
+                "L_ 4131",
+                "B_ {#amanas#}, {#-amanaska#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amanogata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Unknown, unthought of.\n"
+            ]
+        },
+        {
+            "__line": 34240,
+            "_ancestry": [
+                "L_ 4131",
+                "B_ {#amanas#}, {#-amanaska#}",
+                "S_ .{@{#-nIta, -jYa#}@}"
+            ],
+            "_banner": ".{@{#-nIta, -jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amanonIta"
+                },
+                {
+                    "Left": "S error: 1 syl nIta jYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Disapproved, condemned; reprobate.\n"
+            ]
+        },
+        {
+            "__line": 34241,
+            "_ancestry": [
+                "L_ 4131",
+                "B_ {#amanas#}, {#-amanaska#}",
+                "S_ .{@{#-yogaH#}@}"
+            ],
+            "_banner": ".{@{#-yogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amanoyogaH"
+                }
+            ],
+            "_meanings": [
+                "Absence of concentration of mind, inattention.\n"
+            ]
+        },
+        {
+            "__line": 34242,
+            "_ancestry": [
+                "L_ 4131",
+                "B_ {#amanas#}, {#-amanaska#}",
+                "S_ .{@{#-hara#}@}"
+            ],
+            "_banner": ".{@{#-hara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amanohara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "displeasing, disagreeable."
+            ]
+        }
     ]
 }

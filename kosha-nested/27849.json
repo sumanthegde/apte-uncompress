@@ -1,18 +1,100 @@
 {
-    "__line": 234267,
+    "__line": 257227,
     "_ancestry": [
         "L_ 27849",
-        "B_ {#SArI#}"
+        "B_ {#lalat#}"
     ],
-    "_banner": "{#SArI#}",
+    "_banner": "{#lalat#}",
     "_bannerExp": [
         {
-            "Right": "SArI"
+            "Right": "lalat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A kind of bird. ",
-        "{@--2@} <ab>Ved.</ab>\nAn arrow. ",
-        "{@--3@} Kuśa grass."
+        ".²1 Playing, sporting.\n",
+        ".²2 Shaking, flashing, moving about; {#lalannarajANgalaH#} <ls>Māl. 5. 5</ls>.\n",
+        ".²3 Lolling.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 257232,
+            "_ancestry": [
+                "L_ 27849",
+                "B_ {#lalat#}",
+                "S_ .{@{#-ambuH#}@}"
+            ],
+            "_banner": ".{@{#-ambuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "laladambuH"
+                }
+            ],
+            "_meanings": [
+                "the citron tree.\n"
+            ]
+        },
+        {
+            "__line": 257233,
+            "_ancestry": [
+                "L_ 27849",
+                "B_ {#lalat#}",
+                "S_ .{@{#-jihva#}@}"
+            ],
+            "_banner": ".{@{#-jihva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lalajjihva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#lalajjihva#})"
+            ],
+            "_meanings": [
+                ".²1 lolling the tongue.\n",
+                ".²2 savage, fierce.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 257236,
+                    "_ancestry": [
+                        "L_ 27849",
+                        "B_ {#lalat#}",
+                        "S_ .{@{#-jihva#}@}",
+                        "S_M_ ({@{#-hvaH#}@}"
+                    ],
+                    "_banner": "({@{#-hvaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "lalajjihvaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a dog.\n",
+                        ".²2 a camel.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 257239,
+            "_ancestry": [
+                "L_ 27849",
+                "B_ {#lalat#}",
+                "S_ .{@{#-qimbam#}@}"
+            ],
+            "_banner": ".{@{#-qimbam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lalaqqimbam"
+                }
+            ],
+            "_meanings": [
+                "a top (<ns>{#BavarA#}</ns> in <lang>Mar.</lang>) {#bAlena naktaMsamayena muktaM#}\n {#rOpyaM lalaqqimbamivendubimbam#} ({#lasaqqimbam#} <ab>v. l.</ab>) <ls>N. 22. 53</ls>."
+            ]
+        }
     ]
 }

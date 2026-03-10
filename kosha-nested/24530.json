@@ -1,44 +1,3339 @@
 {
-    "__line": 208006,
+    "__line": 219060,
     "_ancestry": [
         "L_ 24530",
-        "B_ {#las#}"
+        "B_ {#bahu#}"
     ],
-    "_banner": "{#las#}",
+    "_banner": "{#bahu#}",
     "_bannerExp": [
         {
-            "Right": "las"
+            "Right": "bahu"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "I. {c1c} <ab>P.</ab> ({#lasati, lasita#}) ",
-        "{@--1@} To\nshine, glitter, flash; {#muktahareRa#} \n{#lasatA hasatIva stanadvayaM#} <ls>K. P. 10</ls>;  \n{#karavARi caraRadvayaM sarasalasadalaktakarAgaM#}  \n<ls>Gīt. 10</ls>; <ls>Amaru. 16</ls>; <ls>N. 22. 53.</ls> ",
-        "{@--2@} To\nappear, arise, come to light. ",
-        "{@--3@} To\nembrace. ",
-        "{@--4@} To play, frolic about,\nskip about, dance. ",
-        "{@--5@} To sound, \nresound. "
+        "({#hu#} or {#hvI#} {%f.%}; <ab>compar.</ab> {#BUyas#}; <ab>superl.</ab> {#BUyizWa#})\n",
+        ".²1 Much, plentiful, abundant, great; {#tasmin bahu etadapi#} <ls>Ś. 4</ls> ‘even\n this was much for him’ (was too much to be expected of him); {#bahu prazwavyamatra#}\n <ls>Mu. 3</ls>; {#alpasya hetorbahu hAtumicCan#} <ls>R. 2. 47</ls>.\n",
+        ".²2 Many, numerous; as in {#bahvakzara, bahuprakAra#}.\n",
+        ".²3 Frequented, repeated.\n",
+        ".²4 Large, great.\n",
+        ".²5 Abounding or rich in (as first member of <ab>comp.</ab>); {#bahukaRwako deSaH#} <ab>&c.</ab> "
     ],
     "_morphisms": [
         {
-            "__line": 208014,
+            "__line": 219067,
             "_ancestry": [
                 "L_ 24530",
-                "B_ {#las#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#bahu#}",
+                "M_ --{%ind.%}"
             ],
+            "_banner": "--{%ind.%}",
             "_bannerExp": [
                 {
-                    "Right": "las"
+                    "Left": "Parser error: {#bahu#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Much, abundantly, very much, exceedingly, greatly, in a high degree.\n\n",
+                ".²2 Somewhat, nearly, almost; as in {#bahutfRa#}. ({#kiM bahunA#} ‘why say\n much’, ‘in short’; {#bahu man#} to think or esteem highly, rate high,\n prize, value; {#tvatsaMBAvitamAtmAnaM bahu manyAmahe vayam#} <ls>Ku. 6. 20</ls>;\n {#yayAteriva SarmizWA BarturbahumatA Bava#} <ls>Ś. 4. 7</ls>, <ls n=\"Ś.\">7. 1</ls>; <ls>R. 12. 89</ls>;\n {#yezAM ca tvaM bahumato BUtvA yAsyasi lAGavam#} <ls>Bg. 2. 35</ls>; <ls>Bk. 3. 53</ls>, <ls n=\"Bk.\">5. 84</ls>, <ls n=\"Bk.\">8. 12.</ls>)\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 219076,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-akzara#}@}"
+            ],
+            "_banner": ".{@{#-akzara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvakzara"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#lAsayati-te#})"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To\ncause to shine, grace, adorn. ",
-                "{@--2@} To\ncause to dance. ",
-                "{@--3@} To exercise an art."
+                "having many syllables, polysyllabic (as a word).\n"
+            ]
+        },
+        {
+            "__line": 219077,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-ac, -acka#}@}"
+            ],
+            "_banner": ".{@{#-ac, -acka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvac"
+                },
+                {
+                    "Right": "bahvacka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many vowels, polysyllabic.\n"
+            ]
+        },
+        {
+            "__line": 219078,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-anarTa#}@}"
+            ],
+            "_banner": ".{@{#-anarTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvanarTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fraught with many evils.\n"
+            ]
+        },
+        {
+            "__line": 219079,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-ap, -apa#}@}"
+            ],
+            "_banner": ".{@{#-ap, -apa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvap"
+                },
+                {
+                    "Right": "bahvapa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "watery.\n"
+            ]
+        },
+        {
+            "__line": 219080,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-apatya#}@}"
+            ],
+            "_banner": ".{@{#-apatya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvapatya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having a numerous progeny.\n",
+                ".²2 (in <ab>astrol.</ab>) promising a numerous progeny.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219083,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-apatya#}@}",
+                        "S_M_ ({@{#-tyaH#}@}"
+                    ],
+                    "_banner": "({@{#-tyaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahvapatyaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a hog.\n",
+                        ".²2 a mouse, rat.\n."
+                    ]
+                },
+                {
+                    "__line": 219086,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-apatya#}@}",
+                        "S_M_ ({@{#-tyA#}@}"
+                    ],
+                    "_banner": "({@{#-tyA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahvapatyA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a cow that has often calved.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219087,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-apAya#}@}"
+            ],
+            "_banner": ".{@{#-apAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvapAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "exposed to many risks; {#svagfhodyAnagate'pi snigDEH#}\n {#pApaM viSaNkyate mohAt . kimu dfzwabahvapAyapratiBayakAntAramaDyasTe .#}\n <ls>Pt. 2. 166</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219090,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvarTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having many senses.\n",
+                ".²2 having many objects.\n",
+                ".²3 important.\n"
+            ]
+        },
+        {
+            "__line": 219094,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-ASin#}@}"
+            ],
+            "_banner": ".{@{#-ASin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvASin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "voracious, gluttonous, {#bahvASI svalpasantuzwaH#}\n {#sunidro laGucetanaH . praBuBaktaSca SUraSca jYAtavyAH zaw Suno guRAH ..#}\n <ls>Chāṇ.</ls> --{%m.%} <ab>N.</ab> of a son of Dhṛtarāṣṭra.\n"
+            ]
+        },
+        {
+            "__line": 219097,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-udakaH#}@}"
+            ],
+            "_banner": ".{@{#-udakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahUdakaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of mendicant who lives in a strange town and maintains\n himself with alms got by begging from door to door; <ab>cf.</ab> {#kuwIcaka#}.\n"
+            ]
+        },
+        {
+            "__line": 219099,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-upayukta#}@}"
+            ],
+            "_banner": ".{@{#-upayukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahUpayukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "made to serve a manifold purpose; {#bahUpayuktA#}\n {#ca budDiH#} <ls>Dk. 2. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219101,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-upAya#}@}"
+            ],
+            "_banner": ".{@{#-upAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahUpAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "effective.\n"
+            ]
+        },
+        {
+            "__line": 219102,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-fc#}@}"
+            ],
+            "_banner": ".{@{#-fc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvfc"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many verses. --({%f.%}) a term applied to the Ṛgveda.\n"
+            ]
+        },
+        {
+            "__line": 219103,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-fca#}@}"
+            ],
+            "_banner": ".{@{#-fca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvfca"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many verses.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219104,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-fca#}@}",
+                        "S_M_ ({@{#-caH#}@}"
+                    ],
+                    "_banner": "({@{#-caH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahvfcaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "one conversant with the Ṛgveda.\n."
+                    ]
+                },
+                {
+                    "__line": 219105,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-fca#}@}",
+                        "S_M_ ({@{#-cI#}@}"
+                    ],
+                    "_banner": "({@{#-cI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahvfcI"
+                        }
+                    ],
+                    "_meanings": [
+                        "The wife of one who studies the Ṛgveda. Hence "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 219105,
+                            "_ancestry": [
+                                "L_ 24530",
+                                "B_ {#bahu#}",
+                                "S_ .{@{#-fca#}@}",
+                                "S_M_ ({@{#-cI#}@}",
+                                "S_M_S_ {#˚brAhmaRam#}"
+                            ],
+                            "_banner": "{#˚brAhmaRam#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "bahvfcabrAhmaRam"
+                                }
+                            ],
+                            "_meanings": [
+                                "means the Aitareya Brāhmaṇa which belongs to the Ṛgveda; {#bahvfcabrAhmaRe#}\n {#SrUyate#} <ls>ŚB. on MS. 6. 3. 1</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219108,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-enas#}@}"
+            ],
+            "_banner": ".{@{#-enas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahvenas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very sinful.\n"
+            ]
+        },
+        {
+            "__line": 219109,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 doing much, busy, industrious.\n",
+                ".²2 useful in many ways.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219112,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahukaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a sweeper, cleaner.\n",
+                        ".²2 a camel.\n",
+                        ".²3 the sun; {#bahukarakftAt prAtaHsaMmArjanAt#} <ls>N. 19. 13</ls>.\n."
+                    ]
+                },
+                {
+                    "__line": 219116,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-rI#}@}"
+                    ],
+                    "_banner": "({@{#-rI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahukarI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a broom.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219117,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kAram#}@}"
+            ],
+            "_banner": ".{@{#-kAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukAram"
+                }
+            ],
+            "_meanings": [
+                "abundance; {#bahukAraM ca sasyAnAm#} <ls>Mb. 12. 193. 21</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219118,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kAlam#}@}"
+            ],
+            "_banner": ".{@{#-kAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukAlam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "for a long time.\n"
+            ]
+        },
+        {
+            "__line": 219119,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kAlIna#}@}"
+            ],
+            "_banner": ".{@{#-kAlIna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukAlIna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of a long standing, old, ancient.\n"
+            ]
+        },
+        {
+            "__line": 219120,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kUrcaH#}@}"
+            ],
+            "_banner": ".{@{#-kUrcaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukUrcaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of cocoa-nut tree.\n"
+            ]
+        },
+        {
+            "__line": 219121,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kramaH#}@}"
+            ],
+            "_banner": ".{@{#-kramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukramaH"
+                }
+            ],
+            "_meanings": [
+                "a Krama of more than three words; <ab>cf.</ab> {#kama#}.\n"
+            ]
+        },
+        {
+            "__line": 219122,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kzama#}@}"
+            ],
+            "_banner": ".{@{#-kzama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukzama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "patient; {#ato'tra kiMcidBavatIM bahukzamAM dvijAtiBAvAdupapannacApalaH#} <ls>Ku. 5. 40</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219123,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-kzama#}@}",
+                        "S_M_ ({@{#-maH#}@}"
+                    ],
+                    "_banner": "({@{#-maH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahukzamaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a Buddha.\n",
+                        ".²2 a Jaina deified saint.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219126,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kzAram#}@}"
+            ],
+            "_banner": ".{@{#-kzAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukzAram"
+                }
+            ],
+            "_meanings": [
+                "Soap; <ls>Nigh.</ls>\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219127,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-kzAram#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahukzAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a kind of alkali.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219128,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-kzIrA#}@}"
+            ],
+            "_banner": ".{@{#-kzIrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahukzIrA"
+                }
+            ],
+            "_meanings": [
+                "a cow giving much milk.\n"
+            ]
+        },
+        {
+            "__line": 219129,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-ganDa#}@}"
+            ],
+            "_banner": ".{@{#-ganDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuganDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "strong-scented.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219130,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-ganDa#}@}",
+                        "S_M_ ({@{#-nDam#}@}"
+                    ],
+                    "_banner": "({@{#-nDam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahuganDam"
+                        }
+                    ],
+                    "_meanings": [
+                        "cinnamon.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219131,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-ganDadA#}@}"
+            ],
+            "_banner": ".{@{#-ganDadA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuganDadA"
+                }
+            ],
+            "_meanings": [
+                "musk.\n"
+            ]
+        },
+        {
+            "__line": 219132,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-ganDA#}@}"
+            ],
+            "_banner": ".{@{#-ganDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuganDA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the Yūthikā creeper.\n",
+                ".²2 a bud of the Champaka tree.\n"
+            ]
+        },
+        {
+            "__line": 219135,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-guRa#}@}"
+            ],
+            "_banner": ".{@{#-guRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuguRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many threads or qualities.\n"
+            ]
+        },
+        {
+            "__line": 219136,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-guruH#}@}"
+            ],
+            "_banner": ".{@{#-guruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuguruH"
+                }
+            ],
+            "_meanings": [
+                "One who has read much but superficially; sciolist.\n"
+            ]
+        },
+        {
+            "__line": 219137,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-gotraja#}@}"
+            ],
+            "_banner": ".{@{#-gotraja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahugotraja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many blood relations.\n"
+            ]
+        },
+        {
+            "__line": 219138,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-granTiH#}@}"
+            ],
+            "_banner": ".{@{#-granTiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahugranTiH"
+                }
+            ],
+            "_meanings": [
+                "Tamarix Indica (<lang>Mar.</lang> <ns>{#veLu ?#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 219139,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-cCala#}@}"
+            ],
+            "_banner": ".{@{#-cCala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahucCala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deceitful.\n"
+            ]
+        },
+        {
+            "__line": 219140,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-CinnA#}@}"
+            ],
+            "_banner": ".{@{#-CinnA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahucCinnA"
+                }
+            ],
+            "_meanings": [
+                "a species of Cocculus (<lang>Mar.</lang> <ns>{#guLavela#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 219141,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahujanaH"
+                }
+            ],
+            "_meanings": [
+                "a great multitude of people. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 219141,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-janaH#}@}",
+                        "S_S_ {#˚hitam#}"
+                    ],
+                    "_banner": "{#˚hitam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahujanahitam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the common weal.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219142,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-jalpa#}@}"
+            ],
+            "_banner": ".{@{#-jalpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahujalpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "garrulous, talkative, loquacious.\n"
+            ]
+        },
+        {
+            "__line": 219143,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-jYa#}@}"
+            ],
+            "_banner": ".{@{#-jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahujYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "knowing much, well informed, possessed of great knowledge.\n"
+            ]
+        },
+        {
+            "__line": 219144,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-tantrIka#}@}"
+            ],
+            "_banner": ".{@{#-tantrIka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahutantrIka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "many-stringed (as a musical instrument).\n"
+            ]
+        },
+        {
+            "__line": 219145,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-tfRam#}@}"
+            ],
+            "_banner": ".{@{#-tfRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahutfRam"
+                }
+            ],
+            "_meanings": [
+                "anything much like grass; (hence) what is unimportant or\n contemptible; {#nidarSanamasArARAM laGurbahutfRaM naraH#} <ls>Śi. 2. 50</ls>; <ls>N. 22. 137</ls>.\n",
+                ".²2 abounding\n\n in grass.\n"
+            ]
+        },
+        {
+            "__line": 219150,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-tvakkaH, -tvac#}@}"
+            ],
+            "_banner": ".{@{#-tvakkaH, -tvac#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahutvakkaH"
+                },
+                {
+                    "Right": "bahutvac"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a kind of birch tree.\n"
+            ]
+        },
+        {
+            "__line": 219151,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "liberal, generous.\n"
+            ]
+        },
+        {
+            "__line": 219152,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-dakziRa#}@}"
+            ],
+            "_banner": ".{@{#-dakziRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudakziRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 attended with many gifts or donations.\n",
+                ".²2 liberal, munificent.\n"
+            ]
+        },
+        {
+            "__line": 219155,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-darSaka, -darSin#}@}"
+            ],
+            "_banner": ".{@{#-darSaka, -darSin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudarSaka"
+                },
+                {
+                    "Right": "bahudarSin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "prudent, circumspect; {#kftyezu bAlI#}\n {#meDAvI rAjAno bahudarSinaH#} <ls>Rām. 4. 2. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219157,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-dAyin#}@}"
+            ],
+            "_banner": ".{@{#-dAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudAyin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "liberal, munificent, a liberal donor; <ls>Ch. Up.</ls>\n"
+            ]
+        },
+        {
+            "__line": 219158,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-dugDa#}@}"
+            ],
+            "_banner": ".{@{#-dugDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudugDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "yielding much milk.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219159,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-dugDa#}@}",
+                        "S_M_ ({@{#-gDaH#}@}"
+                    ],
+                    "_banner": "({@{#-gDaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahudugDaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "wheat.\n."
+                    ]
+                },
+                {
+                    "__line": 219160,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-dugDa#}@}",
+                        "S_M_ ({@{#-gDA#}@}"
+                    ],
+                    "_banner": "({@{#-gDA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahudugDA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a cow yielding much milk.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219161,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-dfSvan#}@}"
+            ],
+            "_banner": ".{@{#-dfSvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudfSvan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "greatly experienced, a great observer.\n"
+            ]
+        },
+        {
+            "__line": 219162,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-dfzwa#}@}"
+            ],
+            "_banner": ".{@{#-dfzwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudfzwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very experienced.\n"
+            ]
+        },
+        {
+            "__line": 219163,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-doza#}@}"
+            ],
+            "_banner": ".{@{#-doza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudoza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having many faults or defects, very wicked or sinful.\n",
+                ".²2 full of crimes or dangers; {#bahudozA hi SarvarI#} <ls>Mk. 1. 58</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219166,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-dohanA#}@}"
+            ],
+            "_banner": ".{@{#-dohanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahudohanA"
+                }
+            ],
+            "_meanings": [
+                "yielding much milk.\n"
+            ]
+        },
+        {
+            "__line": 219167,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-Dana#}@}"
+            ],
+            "_banner": ".{@{#-Dana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuDana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very rich, wealthy.\n"
+            ]
+        },
+        {
+            "__line": 219168,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-DAram#}@}"
+            ],
+            "_banner": ".{@{#-DAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuDAram"
+                }
+            ],
+            "_meanings": [
+                ".²1 the thunderbolt of Indra.\n",
+                ".²2 a diamond.\n"
+            ]
+        },
+        {
+            "__line": 219171,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-Denukam#}@}"
+            ],
+            "_banner": ".{@{#-Denukam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuDenukam"
+                }
+            ],
+            "_meanings": [
+                "a great number of milch-cows.\n"
+            ]
+        },
+        {
+            "__line": 219172,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-nAqikaH#}@}"
+            ],
+            "_banner": ".{@{#-nAqikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahunAqikaH"
+                }
+            ],
+            "_meanings": [
+                "the body.\n"
+            ]
+        },
+        {
+            "__line": 219173,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-nAqIkaH#}@}"
+            ],
+            "_banner": ".{@{#-nAqIkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahunAqIkaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 day.\n",
+                ".²2 pillar; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 219176,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-nAdaH#}@}"
+            ],
+            "_banner": ".{@{#-nAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahunAdaH"
+                }
+            ],
+            "_meanings": [
+                "a conch-shell.\n"
+            ]
+        },
+        {
+            "__line": 219177,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-patnIkatA#}@}"
+            ],
+            "_banner": ".{@{#-patnIkatA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupatnIkatA"
+                }
+            ],
+            "_meanings": [
+                "polygamy.\n"
+            ]
+        },
+        {
+            "__line": 219178,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupatraH"
+                }
+            ],
+            "_meanings": [
+                "an onion.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219179,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-patraH#}@}",
+                        "S_M_ ({@{#-tram#}@}"
+                    ],
+                    "_banner": "({@{#-tram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahupatram"
+                        }
+                    ],
+                    "_meanings": [
+                        "talc.\n."
+                    ]
+                },
+                {
+                    "__line": 219180,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-patraH#}@}",
+                        "S_M_ ({@{#-trI#}@}"
+                    ],
+                    "_banner": "({@{#-trI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahupatrI"
+                        }
+                    ],
+                    "_meanings": [
+                        "the holy basil.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219181,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-pad, -pAd, -pAda#}@}"
+            ],
+            "_banner": ".{@{#-pad, -pAd, -pAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupad"
+                },
+                {
+                    "Right": "bahupAd"
+                },
+                {
+                    "Right": "bahupAda"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the <ab>fig.</ab> tree.\n"
+            ]
+        },
+        {
+            "__line": 219182,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-puzpaH#}@}"
+            ],
+            "_banner": ".{@{#-puzpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupuzpaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the coral tree.\n",
+                ".²2 the Nimba tree.\n"
+            ]
+        },
+        {
+            "__line": 219185,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-parvan#}@}"
+            ],
+            "_banner": ".{@{#-parvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuparvan"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(see {#-granTiH#}).\n"
+            ]
+        },
+        {
+            "__line": 219186,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-prakAra#}@}"
+            ],
+            "_banner": ".{@{#-prakAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuprakAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of many kinds, various, manifold.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219187,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-prakAra#}@}",
+                        "S_M_ ({@{#-ram#}@}"
+                    ],
+                    "_banner": "({@{#-ram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: bahuprakAra ({@{#-raM#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} in many ways, manifoldly.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219188,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-prakfti#}@}"
+            ],
+            "_banner": ".{@{#-prakfti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuprakfti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "consisting of many primary parts or verbal elements\n (as a compound).\n"
+            ]
+        },
+        {
+            "__line": 219190,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-praja#}@}"
+            ],
+            "_banner": ".{@{#-praja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupraja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many children, prolific.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219191,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-praja#}@}",
+                        "S_M_ ({@{#-jaH#}@}"
+                    ],
+                    "_banner": "({@{#-jaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahuprajaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a hog.\n",
+                        ".²2 the {%munja%} grass.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219194,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-prajYa#}@}"
+            ],
+            "_banner": ".{@{#-prajYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuprajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very wise.\n"
+            ]
+        },
+        {
+            "__line": 219195,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-pratijYa#}@}"
+            ],
+            "_banner": ".{@{#-pratijYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupratijYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 comprising many statements or assertions, complicated.\n",
+                ".²2 (in law) involving many counts, as a plaint; {#bahupratijYaM yat kAryaM#}\n {#vyavahArezu niScitam . kAmaM tadapi gfhRIyAd rAjA tattvabuButsayA#} <ls>Mit.</ls>\n"
+            ]
+        },
+        {
+            "__line": 219199,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-pratyarTika#}@}"
+            ],
+            "_banner": ".{@{#-pratyarTika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupratyarTika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many opponents.\n"
+            ]
+        },
+        {
+            "__line": 219200,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-pratyavAya#}@}"
+            ],
+            "_banner": ".{@{#-pratyavAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupratyavAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "connected with many difficulties.\n"
+            ]
+        },
+        {
+            "__line": 219201,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-prada#}@}"
+            ],
+            "_banner": ".{@{#-prada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuprada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "exceedingly liberal, a munificent donor.\n"
+            ]
+        },
+        {
+            "__line": 219202,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-prapaYca#}@}"
+            ],
+            "_banner": ".{@{#-prapaYca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuprapaYca"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very diffuse or prolix.\n"
+            ]
+        },
+        {
+            "__line": 219203,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-prasUH#}@}"
+            ],
+            "_banner": ".{@{#-prasUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuprasUH"
+                }
+            ],
+            "_meanings": [
+                "the mother of many children.\n"
+            ]
+        },
+        {
+            "__line": 219204,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-preyasI#}@}"
+            ],
+            "_banner": ".{@{#-preyasI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahupreyasI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many loved ones.\n"
+            ]
+        },
+        {
+            "__line": 219205,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-Pala#}@}"
+            ],
+            "_banner": ".{@{#-Pala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuPala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "rich in fruits.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219206,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-Pala#}@}",
+                        "S_M_ ({@{#-laH#}@}"
+                    ],
+                    "_banner": "({@{#-laH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahuPalaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the Kadamba tree.\n."
+                    ]
+                },
+                {
+                    "__line": 219207,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-Pala#}@}",
+                        "S_M_ ({@{#-lI#}@}"
+                    ],
+                    "_banner": "({@{#-lI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahuPalI"
+                        }
+                    ],
+                    "_meanings": [
+                        "the opposite-leaved fig-tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219208,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-balaH#}@}"
+            ],
+            "_banner": ".{@{#-balaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahubalaH"
+                }
+            ],
+            "_meanings": [
+                "a lion.\n"
+            ]
+        },
+        {
+            "__line": 219209,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-bIjam#}@}"
+            ],
+            "_banner": ".{@{#-bIjam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahubIjam"
+                }
+            ],
+            "_meanings": [
+                "the fruit of Anona Reticulata (<lang>Mar.</lang> <ns>{#sItAPaLa#}</ns>).\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219210,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-bIjam#}@}",
+                        "S_M_ ({@{#-jA#}@}"
+                    ],
+                    "_banner": "({@{#-jA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahubIjA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a kind of Musa (<lang>Mar.</lang> <ns>{#rAnakeLa#}</ns>).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219211,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-bolaka#}@}"
+            ],
+            "_banner": ".{@{#-bolaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahubolaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "a great talker; <ls>Buddh.</ls>\n"
+            ]
+        },
+        {
+            "__line": 219212,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-BAgya#}@}"
+            ],
+            "_banner": ".{@{#-BAgya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuBAgya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very lucky or fortunate.\n"
+            ]
+        },
+        {
+            "__line": 219213,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-BAzin#}@}"
+            ],
+            "_banner": ".{@{#-BAzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuBAzin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "garrulous, talkative.\n"
+            ]
+        },
+        {
+            "__line": 219214,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-BAzyam#}@}"
+            ],
+            "_banner": ".{@{#-BAzyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuBAzyam"
+                }
+            ],
+            "_meanings": [
+                "talkativeness, garrulity; {#utTAnena jayettandrI vitarkaM#}\n {#niScayAjjayet . mOnena bahuBAzyaM ca SOryeRa ca BayaM tyajet ..#} <ls>Mb. 12. 274. 11</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219216,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-BujA#}@}"
+            ],
+            "_banner": ".{@{#-BujA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuBujA"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 219217,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-BUmika#}@}"
+            ],
+            "_banner": ".{@{#-BUmika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuBUmika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many floors or stories.\n"
+            ]
+        },
+        {
+            "__line": 219218,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-BogyA#}@}"
+            ],
+            "_banner": ".{@{#-BogyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuBogyA"
+                }
+            ],
+            "_meanings": [
+                "a prostitute.\n"
+            ]
+        },
+        {
+            "__line": 219219,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-Bojin#}@}"
+            ],
+            "_banner": ".{@{#-Bojin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuBojin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "voracious.\n"
+            ]
+        },
+        {
+            "__line": 219220,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-maYjarI#}@}"
+            ],
+            "_banner": ".{@{#-maYjarI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumaYjarI"
+                }
+            ],
+            "_meanings": [
+                "the holy basil.\n"
+            ]
+        },
+        {
+            "__line": 219221,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mata#}@}"
+            ],
+            "_banner": ".{@{#-mata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 highly esteemed or prized, valued, respected; {#yezAM ca tvaM bahumato BUtvA yAsyasi lAGavam#} <ls>Bg. 2. 35</ls>.\n",
+                ".²2 having many different opinions.\n"
+            ]
+        },
+        {
+            "__line": 219224,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-matiH#}@}"
+            ],
+            "_banner": ".{@{#-matiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "great value or estimation; {#kAntAnAM bahumatimAyayuH#}\n {#payodAH#} <ls>Ki. 7. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219226,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-maDyaga#}@}"
+            ],
+            "_banner": ".{@{#-maDyaga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumaDyaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to many; {#na nirhAraM striyaH kuryuH#}\n {#kuwumbAdbahumaDyagAt#} <ls>Ms. 9. 199</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219228,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-malam#}@}"
+            ],
+            "_banner": ".{@{#-malam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumalam"
+                }
+            ],
+            "_meanings": [
+                "lead.\n"
+            ]
+        },
+        {
+            "__line": 219229,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mAnaH#}@}"
+            ],
+            "_banner": ".{@{#-mAnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumAnaH"
+                }
+            ],
+            "_meanings": [
+                "great respect or regard, high esteem; {#puruzabahumAno#}\n {#vigalitaH#} <ls>Bh. 3. 9</ls>; {#vartamAnakaveH kAlidAsasya kriyAyAM kaTaM parizado#}\n {#bahumAnaH#} <ls>M. 1</ls>; <ls>V. 1. 2</ls>; <ls>Ku. 5. 31</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219232,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-mAnaH#}@}",
+                        "S_M_ ({@{#-nam#}@}"
+                    ],
+                    "_banner": "({@{#-nam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahumAnam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a gift given by a superior to an inferior.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219233,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mAnya#}@}"
+            ],
+            "_banner": ".{@{#-mAnya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumAnya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "respectable, esteemable; <ls>Kull.</ls> on <ls>Ms. 2. 117</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219234,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mAya#}@}"
+            ],
+            "_banner": ".{@{#-mAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "artful, deceitful, treacherous; {#paradeSaBayAdBItA#}\n {#bahumAyA napuMsakAH . svadeSe niDanaM#}\n\n {#yAnti#} <ls>Pt. 1. 321</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219238,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumArgaH"
+                }
+            ],
+            "_meanings": [
+                "a place where many roads meet.\n"
+            ]
+        },
+        {
+            "__line": 219239,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mArgagA#}@}"
+            ],
+            "_banner": ".{@{#-mArgagA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumArgagA"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of the river Ganges; {#tadyuktaM bahumArgagAM mama#}\n {#puro nirlajja voQustava#} <ls>Ratn. 1. 3</ls>.\n",
+                ".²2 a wanton or unchaste woman.\n"
+            ]
+        },
+        {
+            "__line": 219242,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mArgI#}@}"
+            ],
+            "_banner": ".{@{#-mArgI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumArgI"
+                }
+            ],
+            "_meanings": [
+                "a place where several roads meet.\n"
+            ]
+        },
+        {
+            "__line": 219243,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 much, excessive; {#asyA BarturbahumuKamanurAgam#} <ls>Ś. 6</ls>.\n",
+                ".²2 speaking variously.\n"
+            ]
+        },
+        {
+            "__line": 219246,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mUtra#}@}"
+            ],
+            "_banner": ".{@{#-mUtra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumUtra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "suffering from diabetes.\n"
+            ]
+        },
+        {
+            "__line": 219247,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mUrti#}@}"
+            ],
+            "_banner": ".{@{#-mUrti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumUrti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "multiform, variously shaped.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219248,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-mUrti#}@}",
+                        "S_M_ ({@{#-rtiH#}@}"
+                    ],
+                    "_banner": "({@{#-rtiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahumUrtiH"
+                        }
+                    ],
+                    "_gram": [
+                        "{%f.%}"
+                    ],
+                    "_meanings": [
+                        "the wild cotton-shrub.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219249,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mUrDan#}@}"
+            ],
+            "_banner": ".{@{#-mUrDan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumUrDan"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 219250,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mUlA#}@}"
+            ],
+            "_banner": ".{@{#-mUlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumUlA"
+                }
+            ],
+            "_meanings": [
+                "Asparagus Racemosus ({#SatAvarI#}).\n"
+            ]
+        },
+        {
+            "__line": 219251,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mUlya#}@}"
+            ],
+            "_banner": ".{@{#-mUlya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumUlya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "costly, high-priced.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219252,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-mUlya#}@}",
+                        "S_M_ ({@{#-lyam#}@}"
+                    ],
+                    "_banner": "({@{#-lyam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahumUlyam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a large sum of money, heavy or costly price.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219253,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-mfga#}@}"
+            ],
+            "_banner": ".{@{#-mfga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahumfga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "abounding in deer.\n"
+            ]
+        },
+        {
+            "__line": 219254,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-rajas#}@}"
+            ],
+            "_banner": ".{@{#-rajas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahurajas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very dusty.\n"
+            ]
+        },
+        {
+            "__line": 219255,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-ratna#}@}"
+            ],
+            "_banner": ".{@{#-ratna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuratna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "rich in jewels.\n"
+            ]
+        },
+        {
+            "__line": 219256,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-rasa#}@}"
+            ],
+            "_banner": ".{@{#-rasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahurasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "juicy, succulent.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219257,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-rasa#}@}",
+                        "S_M_ ({@{#-saH#}@}"
+                    ],
+                    "_banner": "({@{#-saH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahurasaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "sugar-cane.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219258,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-rASi#}@}"
+            ],
+            "_banner": ".{@{#-rASi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahurASi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(in <ab>arith.</ab>) consisting of many terms.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219259,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-rASi#}@}",
+                        "S_M_ ({@{#-SiH#}@}"
+                    ],
+                    "_banner": "({@{#-SiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahurASiH"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%m.%} a series of many terms.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219260,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahurUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 many-formed, multiform, manifold.\n",
+                ".²2 variegated, spotted, chequered; {#vESvadevaM bahurUpaM hi rAjan#} <ls>Mb. 14. 10. 30</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219263,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-rUpa#}@}",
+                        "S_M_ ({@{#-paH#}@}"
+                    ],
+                    "_banner": "({@{#-paH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahurUpaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a lizard, chameleon.\n",
+                        ".²2 hair.\n",
+                        ".²3 the sun.\n",
+                        ".²4 <ab>N.</ab> of Śiva.\n",
+                        ".²5 of Viṣṇu.\n",
+                        ".²6 of Brahmā.\n",
+                        ".²7 of the god of love.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219271,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-rUpaka#}@}"
+            ],
+            "_banner": ".{@{#-rUpaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahurUpaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "multiform, manifold.\n"
+            ]
+        },
+        {
+            "__line": 219272,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-retas#}@}"
+            ],
+            "_banner": ".{@{#-retas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuretas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Brahmā.\n"
+            ]
+        },
+        {
+            "__line": 219273,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-roman#}@}"
+            ],
+            "_banner": ".{@{#-roman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuroman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hairy, shaggy. --({%m.%}) a sheep.\n"
+            ]
+        },
+        {
+            "__line": 219274,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-lavaRam#}@}"
+            ],
+            "_banner": ".{@{#-lavaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahulavaRam"
+                }
+            ],
+            "_meanings": [
+                "a soil impregnated with salt.\n"
+            ]
+        },
+        {
+            "__line": 219275,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vacanam#}@}"
+            ],
+            "_banner": ".{@{#-vacanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvacanam"
+                }
+            ],
+            "_meanings": [
+                "the plural number (in <ab>gram.</ab>); {#dvapEkayordvivacanEkavacane#},\n {#bahuzu bahuvacanam#}.\n"
+            ]
+        },
+        {
+            "__line": 219277,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-varRa#}@}"
+            ],
+            "_banner": ".{@{#-varRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvarRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "many-coloured.\n"
+            ]
+        },
+        {
+            "__line": 219278,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvAdin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "garrulous.\n"
+            ]
+        },
+        {
+            "__line": 219279,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vAram#}@}"
+            ],
+            "_banner": ".{@{#-vAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvAram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "many times, often.\n"
+            ]
+        },
+        {
+            "__line": 219280,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vAraH, -vArakaH#}@}"
+            ],
+            "_banner": ".{@{#-vAraH, -vArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvAraH"
+                },
+                {
+                    "Right": "bahuvArakaH"
+                }
+            ],
+            "_meanings": [
+                "Cordia Myxa (<lang>Mar.</lang> <ns>{#Bokara#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 219281,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vArzika#}@}"
+            ],
+            "_banner": ".{@{#-vArzika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvArzika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lasting for many years.\n"
+            ]
+        },
+        {
+            "__line": 219282,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vikrama#}@}"
+            ],
+            "_banner": ".{@{#-vikrama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvikrama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very powerful, heroic, a great warrior.\n"
+            ]
+        },
+        {
+            "__line": 219283,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-viDna#}@}"
+            ],
+            "_banner": ".{@{#-viDna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuviDna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "presenting many difficulties, attended with many dangers.\n"
+            ]
+        },
+        {
+            "__line": 219284,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-viDa#}@}"
+            ],
+            "_banner": ".{@{#-viDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuviDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of many kinds, manifold, diverse.\n"
+            ]
+        },
+        {
+            "__line": 219285,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vI(bI)jam#}@}"
+            ],
+            "_banner": ".{@{#-vI(bI)jam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#bahu#} S_ .{@{#-vI(bI)jaM#}@}"
+                }
+            ],
+            "_meanings": [
+                "the custard apple.\n"
+            ]
+        },
+        {
+            "__line": 219286,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vIrya#}@}"
+            ],
+            "_banner": ".{@{#-vIrya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvIrya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very powerful or efficacious.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219287,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-vIrya#}@}",
+                        "S_M_ ({@{#-ryaH#}@}"
+                    ],
+                    "_banner": "({@{#-ryaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahuvIryaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of various plants (such as Terminalia Bellerica, <lang>Mar.</lang> <ns>{#behaqA#}</ns>).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219288,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vyayin#}@}"
+            ],
+            "_banner": ".{@{#-vyayin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvyayin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lavish, prodigal, spendthrift.\n"
+            ]
+        },
+        {
+            "__line": 219289,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vyApin#}@}"
+            ],
+            "_banner": ".{@{#-vyApin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvyApin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "far-spreading, wide.\n"
+            ]
+        },
+        {
+            "__line": 219290,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-vrIhi#}@}"
+            ],
+            "_banner": ".{@{#-vrIhi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuvrIhi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "possessing much rice; {#tatpuruza karmaDAraya yenAhaM#}\n {#syAM bahuvrIhiH#} <ls>Udb.</ls> (where it is also the name of the compound).\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219292,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-vrIhi#}@}",
+                        "S_M_ ({@{#-hiH#}@}"
+                    ],
+                    "_banner": "({@{#-hiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: bahuvrIhi ({@{#-hiH#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "one of the four principal kinds of compounds in Sanskrit.\n In it, two or more nouns in apposition to each other are compouded, the\n attributive member (whether a noun or an adjective) being placed first,\n and made to qualify another substantive, and neither of the two members\n separately, but the sense of the whole compound, qualifies that substantive;\n <ab>cf.</ab> {#anyapadArTapraDAno bahuvrIhiH#}. This compound is adjectival in\n character, but there are several instances of Bahuvrihi compounds which\n have come to be regarded and used as nouns (their application being restricted\n by usage to particular individuals); {%<ab>i. e.</ab>%} {#cakrapARi, SaSiSeKara#},\n {#pItAmbara, caturmuKa, trinetra, kusumaSara#} <ab>&c.</ab>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219302,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-SatruH#}@}"
+            ],
+            "_banner": ".{@{#-SatruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuSatruH"
+                }
+            ],
+            "_meanings": [
+                "a sparrow.\n"
+            ]
+        },
+        {
+            "__line": 219303,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-SalyaH#}@}"
+            ],
+            "_banner": ".{@{#-SalyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuSalyaH"
+                }
+            ],
+            "_meanings": [
+                "a species of Khadira.\n"
+            ]
+        },
+        {
+            "__line": 219304,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-Sasta#}@}"
+            ],
+            "_banner": ".{@{#-Sasta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuSasta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very good, right or happy.\n"
+            ]
+        },
+        {
+            "__line": 219305,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-SAKa#}@}"
+            ],
+            "_banner": ".{@{#-SAKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuSAKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many branches or ramifications.\n"
+            ]
+        },
+        {
+            "__line": 219306,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-SiKa#}@}"
+            ],
+            "_banner": ".{@{#-SiKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuSiKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having many points.\n"
+            ]
+        },
+        {
+            "__line": 219307,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-SfNgaH#}@}"
+            ],
+            "_banner": ".{@{#-SfNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuSfNgaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 219308,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-Sruta#}@}"
+            ],
+            "_banner": ".{@{#-Sruta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahuSruta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 well-informed, very learned; {#tasmin puravare hfzwA DarmAtmAno bahuSrutAH#}\n <ls>Rām.</ls>; <ls>H. 1. 1</ls>; <ls>Pt. 2. 1</ls>; <ls>R. 15. 36</ls>.\n",
+                ".²2 well-versed in the Vedas; {#guruM vA bAla#}-\n\n {#-vfdDO vA brAhmaRaM vA bahuSrutam . AtatAyinamAyAntaM hanyAdevAvicArayan ..#}\n <ls>Ms. 8. 350</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219315,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-Sruta#}@}",
+                        "S_M_ ({@{#-tiH#}@}"
+                    ],
+                    "_banner": "({@{#-tiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahuSrutiH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the occurrence of the plural in a text.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219316,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-saMKyAka#}@}"
+            ],
+            "_banner": ".{@{#-saMKyAka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusaNKyAka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "numerous.\n"
+            ]
+        },
+        {
+            "__line": 219317,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-sattva#}@}"
+            ],
+            "_banner": ".{@{#-sattva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusattva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "abounding in animals.\n"
+            ]
+        },
+        {
+            "__line": 219318,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-saMtati#}@}"
+            ],
+            "_banner": ".{@{#-saMtati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusantati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a numerous progeny.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219319,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-saMtati#}@}",
+                        "S_M_ ({@{#-tiH#}@}"
+                    ],
+                    "_banner": "({@{#-tiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: bahusaMtati ({@{#-tiH#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "a kind of bamboo.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219320,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-sAra#}@}"
+            ],
+            "_banner": ".{@{#-sAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "possessed of great pith or essence, substantial.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219321,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-sAra#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahusAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the Khadira tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219322,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-sAhasra#}@}"
+            ],
+            "_banner": ".{@{#-sAhasra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusAhasra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "amounting to many thousands.\n"
+            ]
+        },
+        {
+            "__line": 219323,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-sUH#}@}"
+            ],
+            "_banner": ".{@{#-sUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusUH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a mother of many children.\n",
+                ".²2 a cow.\n"
+            ]
+        },
+        {
+            "__line": 219326,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-sUtiH#}@}"
+            ],
+            "_banner": ".{@{#-sUtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusUtiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 a mother of many children.\n",
+                ".²2 a cow that often calves.\n"
+            ]
+        },
+        {
+            "__line": 219329,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-svana#}@}"
+            ],
+            "_banner": ".{@{#-svana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusvana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "vociferous.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 219330,
+                    "_ancestry": [
+                        "L_ 24530",
+                        "B_ {#bahu#}",
+                        "S_ .{@{#-svana#}@}",
+                        "S_M_ ({@{#-naH#}@}"
+                    ],
+                    "_banner": "({@{#-naH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "bahusvanaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an owl.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 219331,
+            "_ancestry": [
+                "L_ 24530",
+                "B_ {#bahu#}",
+                "S_ .{@{#-svAmika#}@}"
+            ],
+            "_banner": ".{@{#-svAmika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahusvAmika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "owned by many."
             ]
         }
     ]

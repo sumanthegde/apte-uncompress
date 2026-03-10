@@ -1,21 +1,56 @@
 {
-    "__line": 239059,
+    "__line": 262815,
     "_ancestry": [
         "L_ 28438",
-        "B_ {#SlAK#}"
+        "B_ {#vandAru#}"
     ],
-    "_banner": "{#SlAK#}",
+    "_banner": "{#vandAru#}",
     "_bannerExp": [
         {
-            "Right": "SlAK"
+            "Right": "vandAru"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#SlAKati#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To pervade,\npenetrate."
+        ".²1 Praising.\n",
+        ".²2 Reverential, respectful, polite, civil; {#paramanugfhIto mahAmunivandAruH#}\n <ls>Mu. 7</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 262818,
+            "_ancestry": [
+                "L_ 28438",
+                "B_ {#vandAru#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vaMdAru#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Praise. "
+            ]
+        },
+        {
+            "__line": 262818,
+            "_ancestry": [
+                "L_ 28438",
+                "B_ {#vandAru#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vaMdAru#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A panegyrist, bard."
+            ]
+        }
     ]
 }

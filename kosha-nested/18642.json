@@ -1,27 +1,86 @@
 {
-    "__line": 156186,
+    "__line": 166068,
     "_ancestry": [
         "L_ 18642",
-        "B_ {#pAtin#}"
+        "B_ {#nikfta#}"
     ],
-    "_banner": "{#pAtin#}",
+    "_banner": "{#nikfta#}",
     "_bannerExp": [
         {
-            "Right": "pAtin"
-        },
-        {
-            "Right": "pAtinI"
+            "Right": "nikfta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#pat-Rini#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@}\nGoing to, descending, alighting on.\n",
-        "{@--2@} Falling, sinking. Being \ncontained in. ",
-        "{@--3@} Felling or throwing\ndown. ",
-        "{@--4@} Pouring forth, \ndischarging, emitting."
+        ".²1 Humbled, cast down, humiliated; {#asmABirhyeza nikftaH#} <ls>Mb. 4. 49. 18</ls>.\n",
+        ".²2 Insulted, offended; {#kimAgneyo grAvA nikfta iva tejAMsi vamati#} <ls>U. 6. 14</ls>.\n",
+        ".²3 Deceived, cheated; {#ekadA'satprasaNgagAnnikftamatiH#} <ls>Bhāg. 5. 14. 13</ls>.\n",
+        ".²4 Removed.\n",
+        ".²5 Afflicted, injured.\n",
+        ".²6 Wicked, dishonest.\n",
+        ".²7 Base, low, vile.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 166076,
+            "_ancestry": [
+                "L_ 18642",
+                "B_ {#nikfta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nikftam"
+                }
+            ],
+            "_meanings": [
+                "Humiliation.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 166078,
+            "_ancestry": [
+                "L_ 18642",
+                "B_ {#nikfta#}",
+                "S_ .{@{#-prajYa#}@}"
+            ],
+            "_banner": ".{@{#-prajYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nikftaprajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "evil-minded.\n"
+            ]
+        },
+        {
+            "__line": 166079,
+            "_ancestry": [
+                "L_ 18642",
+                "B_ {#nikfta#}",
+                "S_ .{@{#-mati#}@}"
+            ],
+            "_banner": ".{@{#-mati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nikftamati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "depraved in mind, base."
+            ]
+        }
     ]
 }

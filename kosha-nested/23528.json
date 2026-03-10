@@ -1,28 +1,49 @@
 {
-    "__line": 198057,
+    "__line": 210109,
     "_ancestry": [
         "L_ 23528",
-        "B_ {#mokz#}"
+        "B_ {#praSam#}"
     ],
-    "_banner": "{#mokz#}",
+    "_banner": "{#praSam#}",
     "_bannerExp": [
         {
-            "Right": "mokz"
+            "Right": "praSam"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#mokzati#}, \n{#mokzayati-te#})"
+        "€4",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} To release, set free, \nliberate, emancipate. ",
-        "{@--2@} To loose, \nuntie, undo. ",
-        "{@--3@} To wrest away. ",
-        "{@--4@} To\ncast, hurl, fling. ",
-        "{@--5@} To shed. ",
-        "{@--6@} To\ndetach, extract."
+        "²1 To become calm or tranquil.\n",
+        ".²2 To be soothed or appeased.\n",
+        ".²3 To stop, cease, terminate.\n",
+        ".²4 To be allayed, be quenched or extinguished; {#praSAntaM pAvakAstram#}\n <ls>U. 6</ls>; {#nirvAte jvalito vahniH svayameva praSAmyati#} <ls>Pt. 3. 56</ls>.\n",
+        ".²5 To decay, wither away. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 210115,
+            "_ancestry": [
+                "L_ 23528",
+                "B_ {#praSam#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "praSam"
+                }
+            ],
+            "_meanings": [
+                ".²1 To soothe, appease, pacify; {#sAntvena praSamayyAdO svaDarmaM pratipAdayet#} <ls>Ms. 8. 391</ls>.\n",
+                ".²2 To allay, extinguish, quench, put down; {#tvAmAsArapraSamitavanopaplavam#} <ls>Me. 17</ls>.\n",
+                ".²3 To remove, put an end to; {#tam#} ({#apacAraM#}) {#anvizya praSamayeH#} <ls>R. 15. 47</ls>.\n",
+                ".²4 To conquer, vanquish, subdue; {#pAntu pfTvIM praSamitaripavo DarmanizWASca#}\n {#BUpAH#} <ls>Mk. 10. 60</ls>.\n",
+                ".²5 To settle, adjust, compose; {#praSamayasi vivAdaM kalpase rakzaRAya#} <ls>Ś. 5. 8</ls>.\n",
+                ".²6 To kill, destroy.\n",
+                ".²7 To cure, heal."
+            ]
+        }
     ]
 }

@@ -1,19 +1,63 @@
 {
-    "__line": 149573,
+    "__line": 156462,
     "_ancestry": [
         "L_ 17730",
-        "B_ {#padvan#}"
+        "B_ {#drAvaka#}"
     ],
-    "_banner": "{#padvan#}",
+    "_banner": "{#drAvaka#}",
     "_bannerExp": [
         {
-            "Right": "padvan"
+            "Right": "drAvaka"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "[{#dru-Rvul#}]",
+        "{%a.%}"
     ],
     "_meanings": [
-        "A road, way."
+        ".²1 Attracting, captivating.\n",
+        ".²2 Solvent.\n",
+        ".²3 Liquefying.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 156466,
+            "_ancestry": [
+                "L_ 17730",
+                "B_ {#drAvaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "drAvakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 flux used to assist the fusion of metals.\n",
+                ".²2 The loadstone.\n",
+                ".²3 Moon-stone.\n",
+                ".²4 A thief.\n",
+                ".²5 A sharp or clever man, wit, wag.\n",
+                ".²6 A libertine, lecher.\n"
+            ]
+        },
+        {
+            "__line": 156473,
+            "_ancestry": [
+                "L_ 17730",
+                "B_ {#drAvaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "drAvakam"
+                }
+            ],
+            "_meanings": [
+                "Wax."
+            ]
+        }
     ]
 }

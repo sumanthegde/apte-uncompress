@@ -1,19 +1,60 @@
 {
-    "__line": 48426,
+    "__line": 45870,
     "_ancestry": [
         "L_ 5472",
-        "B_ {#asamAti#}"
+        "B_ {#avikalpa#}"
     ],
-    "_banner": "{#asamAti#}",
+    "_banner": "{#avikalpa#}",
     "_bannerExp": [
         {
-            "Right": "asamAti"
+            "Right": "avikalpa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Having nothing\nequal, unparalleled."
+        "Unchangeable.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 45871,
+            "_ancestry": [
+                "L_ 5472",
+                "B_ {#avikalpa#}",
+                "M_ .{@{#-lpaH#}@}"
+            ],
+            "_banner": ".{@{#-lpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avikalpaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Absence of doubt\n",
+                ".²2 Absence of option or alternative.\n",
+                ".²3 Positive act or precept.\n"
+            ]
+        },
+        {
+            "__line": 45875,
+            "_ancestry": [
+                "L_ 5472",
+                "B_ {#avikalpa#}",
+                "M_ .{@{#-lpam#}@}"
+            ],
+            "_banner": ".{@{#-lpam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avikalpam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Without doubt, unhesitatingly."
+            ]
+        }
     ]
 }

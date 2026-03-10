@@ -1,17 +1,173 @@
 {
-    "__line": 103019,
+    "__line": 104591,
     "_ancestry": [
         "L_ 12331",
-        "B_ {#gamaTaH#}"
+        "B_ {#kukkuwaH#}"
     ],
-    "_banner": "{#gamaTaH#}",
+    "_banner": "{#kukkuwaH#}",
     "_bannerExp": [
         {
-            "Right": "gamaTaH"
+            "Right": "kukkuwaH"
         }
     ],
     "_meanings": [
-        "{@--1@} A traveller. ",
-        "{@--2@} A road."
+        ".²1 A cock, wild cock.\n",
+        ".²2 A wisp of lighted straw, a firebrand.\n",
+        ".²3 A spark of fire.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 104595,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "M_ .{@{#-wI#}@}"
+            ],
+            "_banner": ".{@{#-wI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A hen.\n",
+                ".²2 A small house-lizard.\n",
+                ".²3 The silk-cotton tree.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 104600,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "S_ .{@{#-aRqam#}@}"
+            ],
+            "_banner": ".{@{#-aRqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwARqam"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fowlʼs egg; {#kukkuwyA aRqa kukkuwARqam#} <ls>Mbh.</ls> on\n <ls>P. VI. 3. 42</ls>; <ls>Vārt. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 104602,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "S_ .{@{#-ABaH, -ahiH#}@}"
+            ],
+            "_banner": ".{@{#-ABaH, -ahiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwABaH"
+                },
+                {
+                    "Right": "kukkuwAhiH"
+                }
+            ],
+            "_meanings": [
+                "a kind of snake.\n"
+            ]
+        },
+        {
+            "__line": 104603,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "S_ .{@{#-Asanam#}@}"
+            ],
+            "_banner": ".{@{#-Asanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwAsanam"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "particular posture of an ascetic in religious meditation.\n"
+            ]
+        },
+        {
+            "__line": 104604,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "S_ .{@{#-maRqapaH#}@}"
+            ],
+            "_banner": ".{@{#-maRqapaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwamaRqapaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a place where one gets liberation (<ab>Jaina</ab>).\n",
+                ".²2 <ab>N.</ab> of a sanctuary in Benares; <ab>cf.</ab> {#muktimaRqapa#} <ls>Skanda P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 104607,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "S_ .{@{#-mastakaH#}@}"
+            ],
+            "_banner": ".{@{#-mastakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwamastakaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a kind of herb ({#mirIBeda#}).\n"
+            ]
+        },
+        {
+            "__line": 104608,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwavratam"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "vow observed on the seventh day of the bright half\n of {#BAdrapada#} in honour of Śiva, by ladies for progeny.\n"
+            ]
+        },
+        {
+            "__line": 104610,
+            "_ancestry": [
+                "L_ 12331",
+                "B_ {#kukkuwaH#}",
+                "S_ .{@{#-SiKaH#}@}"
+            ],
+            "_banner": ".{@{#-SiKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukkuwaSiKaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant (<lang>Mar.</lang> <ns>{#karqaI#}</ns>)."
+            ]
+        }
     ]
 }

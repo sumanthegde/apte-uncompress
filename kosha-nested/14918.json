@@ -1,67 +1,79 @@
 {
-    "__line": 123713,
+    "__line": 129251,
     "_ancestry": [
         "L_ 14918",
-        "B_ {#tariH --rIH#}"
+        "B_ {#cikkaRa#}"
     ],
-    "_banner": "{#tariH --rIH#}",
+    "_banner": "{#cikkaRa#}",
     "_bannerExp": [
         {
-            "Right": "tarIH"
+            "Right": "cikkaRa"
         },
         {
-            "Right": "tariH"
+            "Right": "cikkaRI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#tF karaRe i#}]"
+        "{%a.%}",
+        "({#-RA#}|{#-RI#}|{%f.%})",
+        "[{#cikk, kvip cik, taM kaRati, kaR-Sabde ac#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} A boat;  \n{#jIrRA tariH saridatIva gaBIranIrA#} <ls>Udb.</ls>;  \n<ls>Śi. 3. 76.</ls> ",
-        "{@--2@} A box for clothes. ",
-        "{@--3@}\nThe end or hem of a garment. "
+        ".²1 Smooth, glossy, {#kaWinaScikkaRaH SlakzRaH picCilo mfdudAruRaH#} <ls>Mb. 12. 184. 34</ls>.\n",
+        ".²2 Slippery.\n",
+        ".²3 Bland.\n",
+        ".²4 Unctuous, greasy; {#laGu paritrAyatAmenAM BavAn mA kasyApi tapasvina#}\n {#iNgudItElacikkaRaSIrzasya haste patizyati#} <ls>Ś. 2</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 123716,
+            "__line": 129258,
             "_ancestry": [
                 "L_ 14918",
-                "B_ {#tariH --rIH#}",
-                "M_ {#--rI#}"
+                "B_ {#cikkaRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
-            "_banner": "{#--rI#}",
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tarI"
+                    "Right": "cikkaRaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A small wooden baling-vessel. ",
-                "{@--2@}\nA club. ",
-                "{@--3@} Smoke. "
+                "The betel-nut tree.\n"
             ]
-        }
-    ],
-    "_samasas": [
+        },
         {
-            "__line": 123718,
+            "__line": 129259,
             "_ancestry": [
                 "L_ 14918",
-                "B_ {#tariH --rIH#}",
-                "S_  {#--raTaH#}"
+                "B_ {#cikkaRa#}",
+                "M_ .{@{#-RA#}@}"
             ],
-            "_banner": " {#--raTaH#}",
+            "_banner": ".{@{#-RA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tarIraTaH"
-                },
-                {
-                    "Right": "tariraTaH"
+                    "Right": "cikkaRA"
                 }
             ],
             "_meanings": [
-                "an oar, a paddle."
+                "An excellent cow.\n"
+            ]
+        },
+        {
+            "__line": 129260,
+            "_ancestry": [
+                "L_ 14918",
+                "B_ {#cikkaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cikkaRam"
+                }
+            ],
+            "_meanings": [
+                "A betel-nut."
             ]
         }
     ]

@@ -1,22 +1,43 @@
 {
-    "__line": 222222,
+    "__line": 240493,
     "_ancestry": [
         "L_ 26341",
-        "B_ {#virahita#}"
+        "B_ {#mIlita#}"
     ],
-    "_banner": "{#virahita#}",
+    "_banner": "{#mIlita#}",
     "_bannerExp": [
         {
-            "Right": "virahita"
+            "Right": "mIlita"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#mIl-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Deserted, \nabandoned, forsaken. ",
-        "{@--2@} Separated from.\n",
-        "{@--3@} Lonely, solitary. ",
-        "{@--4@} Bereft\nof, devoid or destitute of, free from\n(mostly in <ab>comp.</ab>)."
+        ".²1 Shut, closed.\n",
+        ".²2 Twinkled.\n",
+        ".²3 Half-opened, unblown.\n",
+        ".²4 Vanished, disappeared.\n",
+        ".²5 Assembled, gathered (for {#milita#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 240499,
+            "_ancestry": [
+                "L_ 26341",
+                "B_ {#mIlita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mIlitam"
+                }
+            ],
+            "_meanings": [
+                "(In <ab>Rhet.</ab>) A figure of speech in which the difference or\n distinction between two objects is shown to be completely obscured on account\n of their similarity, whether natural or artificial, in some respects;\n it is thus defined by Mammaṭa:-- {#samena lakzmaRA vastu vastunA yannigUhyate .#}\n {#nijenAgantunA vApi tanmIlitamiti smftam ..#} <ls>K. P. 10</ls>."
+            ]
+        }
     ]
 }

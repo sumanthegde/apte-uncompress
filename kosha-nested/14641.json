@@ -1,49 +1,1852 @@
 {
-    "__line": 121762,
+    "__line": 126709,
     "_ancestry": [
         "L_ 14641",
-        "B_ {#tik#}"
+        "B_ {#catur#}"
     ],
-    "_banner": "{#tik#}",
+    "_banner": "{#catur#}",
     "_bannerExp": [
         {
-            "Right": "tik"
+            "Right": "catur"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#tekate#})"
+        "{%<ab>num. a.</ab>%}",
+        "[{#cat-uran#} <ls>Uṇ. 5. 58</ls>]"
     ],
     "_meanings": [
-        "To go or\nmove. "
+        "(always in <ab>pl.</ab>; {%m.%}\n {#catvAraH#}; {%f.%} {#catasraH#}; {%n.%} {#catvAri#}) Four; {#catvAro#}\n {#vayamftvijaH#} <ls>Ve. 1. 25</ls>; {#catasro'vasTA bAlyaM kOmAraM yOvanaM vArDakaM#}\n {#ceti#}; {#catvAri SfNgA trayo asya pAdAH#} <ab>&c.</ab>; {#SezAn mAsAn gamaya caturo#}\n {#locane mIlayitvA#} <ls>Me. 110</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 121763,
+            "__line": 126713,
             "_ancestry": [
                 "L_ 14641",
-                "B_ {#tik#}",
-                "M_ {vII.v}"
+                "B_ {#catur#}",
+                "M_ --{%ind.%}"
             ],
+            "_banner": "--{%ind.%}",
             "_bannerExp": [
                 {
-                    "Right": "tik"
+                    "Left": "Parser error: {#catur#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Four times. [<ab>cf.</ab> <lang>Zend.</lang> {%chathru%};\n <lang>Gr.</lang> {%tessares%}; <lang>L.</lang> {%quatuor%}.] [In <ab>comp.</ab> the {#r#} of {#catur#}\n is changed to a Visarga (which in some cases becomes {#S, z#} or {#s#},\n or remains unchanged) before words beginning with hard consonants.]\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 126718,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aMSaH#}@}"
+            ],
+            "_banner": ".{@{#-aMSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaMSaH"
+                }
+            ],
+            "_meanings": [
+                "a fourth part.\n"
+            ]
+        },
+        {
+            "__line": 126719,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaNga"
                 }
             ],
             "_gram": [
-                "{vII.v}",
-                "{c5c}",
-                "<ab>P.</ab>",
-                "({#tiknoti#})"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To go.\n",
-                "{@--2@} To attack, assail. ",
-                "{@--3@} To wound.\n",
-                "{@--4@} To seek to injure or kill. ",
-                "{@--5@} To\nchallenge; also written {#tig#} or\n{#tiG#} in this sense."
+                "having 4 members, quadripartite. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126719,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-aNga#}@}",
+                        "S_M_ ({@{#-Ngam#}@}"
+                    ],
+                    "_banner": "({@{#-Ngam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturaNgam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a complete army consisting of elephants, chariots, cavalry and infantry;\n {#caturaNgasamAyuktaM mayA saha ca taM naya#} <ls>Rām. 1. 20. 10</ls>; {#eko hi#}\n {#KaYjanavaro nalinIdalasTo dfzwaH karoti caturaNgabalADipatyam#}\n\n <ls>Ś. Til. 4</ls>; {#caturaNgabalo rAjA jagatIM vaSamAnayet . ahaM paYcANgabalavAnAkASaM#}\n {#vaSamAnaye ..#} <ls>Subhāṣ.</ls>\n",
+                        ".²2 a sort of chess.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126727,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aNgikaH#}@}"
+            ],
+            "_banner": ".{@{#-aNgikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaNgikaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of horse, having four curls on the forehead; {#yasya#}\n {#lalAwe BramaracatuzwayaM sa caturaNgiko nAma .#} <ls>Śālihotra of Bhoj. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126729,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aNgin#}@}"
+            ],
+            "_banner": ".{@{#-aNgin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaNgin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having four parts. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126729,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-aNgin#}@}",
+                        "S_M_ ({@{#-nI#}@}"
+                    ],
+                    "_banner": "({@{#-nI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturaNginI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a complete army,\n see {#caturaNga#}.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126731,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aNgulam#}@}"
+            ],
+            "_banner": ".{@{#-aNgulam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaNgulam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the four fingers of the hand.\n",
+                ".²2 four fingers broad.\n"
+            ]
+        },
+        {
+            "__line": 126734,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-anta#}@}"
+            ],
+            "_banner": ".{@{#-anta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturanta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bordered on all sides; {#BUtvA cirAya caturantamahIsapatnI#} <ls>Ś. 4. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126735,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-antA#}@}"
+            ],
+            "_banner": ".{@{#-antA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturantA"
+                }
+            ],
+            "_meanings": [
+                "the earth.\n"
+            ]
+        },
+        {
+            "__line": 126736,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aSIta#}@}"
+            ],
+            "_banner": ".{@{#-aSIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaSIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eighty-fourth.\n"
+            ]
+        },
+        {
+            "__line": 126737,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aSIti#}@}"
+            ],
+            "_banner": ".{@{#-aSIti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaSIti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "or {%f.%} eighty four.\n"
+            ]
+        },
+        {
+            "__line": 126738,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-aSra, -asra#}@}"
+            ],
+            "_banner": ".{@{#-aSra, -asra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturaSra"
+                },
+                {
+                    "Right": "caturasra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(for {#aSri-sri#})\n",
+                ".²1 four cornered, quadrangular; <ls>R. 6. 10</ls>. A quality of gems; <ls>Kau. A. 2. 11</ls>.\n",
+                ".²2 symmetrical, regular or handsome in all parts; {#baBUva tasyAScaturasraSoBi#}\n {#vapuH#} <ls>Ku. 1. 32</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126742,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-aSra, -asra#}@}",
+                        "S_M_ ({@{#-SraH, sraH#}@}"
+                    ],
+                    "_banner": "({@{#-SraH, sraH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturaSraH"
+                        },
+                        {
+                            "Left": "S_M_ 1 error: caturaSra ({@{#-SraH, sraH#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a square.\n",
+                        ".²2 a quadrangular figure.\n",
+                        ".²3 (in <ab>astr.</ab>) <ab>N.</ab> of the fourth and eighth lunar mansions.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126746,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-ahan#}@}"
+            ],
+            "_banner": ".{@{#-ahan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturahan"
+                }
+            ],
+            "_meanings": [
+                "a period of four days.\n"
+            ]
+        },
+        {
+            "__line": 126747,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturAtman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 126748,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-AnanaH, -muKaH#}@}"
+            ],
+            "_banner": ".{@{#-AnanaH, -muKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturAnanaH"
+                },
+                {
+                    "Right": "caturmuKaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Brahmā; {#itaratApaSatAni yaTecCayA#}\n {#vitara tAni sahe caturAnana#} <ls>Udb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 126750,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-ASramam#}@}"
+            ],
+            "_banner": ".{@{#-ASramam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturASramam"
+                }
+            ],
+            "_meanings": [
+                "the four orders or stages of the religious life of a Brāhmaṇa.\n"
+            ]
+        },
+        {
+            "__line": 126751,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-uttara#}@}"
+            ],
+            "_banner": ".{@{#-uttara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturuttara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "increased by four.\n"
+            ]
+        },
+        {
+            "__line": 126752,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-uzaRam#}@}"
+            ],
+            "_banner": ".{@{#-uzaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturuzaRam"
+                }
+            ],
+            "_meanings": [
+                "the four hot spices, {%<ab>i. e.</ab>%} black pepper, long pepper,\n dry ginger, and the root of long pepper.\n"
+            ]
+        },
+        {
+            "__line": 126754,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-karRa#}@}"
+            ],
+            "_banner": ".{@{#-karRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzkarRa"
+                }
+            ],
+            "_gram": [
+                "({#catuzkarRa#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "heard by two persons only; <ls>Pt. 1. 99</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126755,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-zkAzWam#}@}"
+            ],
+            "_banner": ".{@{#-zkAzWam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuHzkAzWam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "In four directions. {#catuzkAzWaM kzipan vfkzAn …#}\n <ls>Bk. 9. 62</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126757,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-koRa#}@}"
+            ],
+            "_banner": ".{@{#-koRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzkoRa"
+                }
+            ],
+            "_gram": [
+                "({#catuzkoRa#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "square, quadrangular.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126758,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-koRa#}@}",
+                        "S_M_ ({@{#-RaH#}@}"
+                    ],
+                    "_banner": "({@{#-RaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "catuzkoRaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a square, tetragon, any quadrilateral figure.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126759,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-gatiH#}@}"
+            ],
+            "_banner": ".{@{#-gatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturgatiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the Supreme Soul.\n",
+                ".²2 a tortoise.\n"
+            ]
+        },
+        {
+            "__line": 126762,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-gavaH#}@}"
+            ],
+            "_banner": ".{@{#-gavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturgavaH"
+                }
+            ],
+            "_meanings": [
+                "a carriage drawn by four oxen.\n"
+            ]
+        },
+        {
+            "__line": 126763,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-guRa#}@}"
+            ],
+            "_banner": ".{@{#-guRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturguRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "four times, four-fold, quadruple.\n"
+            ]
+        },
+        {
+            "__line": 126764,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-catvAriMSat#}@}"
+            ],
+            "_banner": ".{@{#-catvAriMSat#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuScatvAriMSat"
+                }
+            ],
+            "_gram": [
+                "({#catuScatvAriMSat#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "forty-four; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 126764,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-catvAriMSat#}@}",
+                        "S_S_ {#˚riMSa#},\n {#˚riMSattama#}"
+                    ],
+                    "_banner": "{#˚riMSa#},\n {#˚riMSattama#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "catuScatvAriMSadriMSa"
+                        },
+                        {
+                            "Right": "catuScatvAriMSadriMSattama"
+                        }
+                    ],
+                    "_meanings": [
+                        "forty-fourth.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126766,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-cityaH#}@}"
+            ],
+            "_banner": ".{@{#-cityaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuScityaH"
+                }
+            ],
+            "_meanings": [
+                "A pedestal, a raised square; {#catuScityaSca tasyAsIdazwAdaSakarAtmakaH#}\n <ls>Mb. 14. 88. 32</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126768,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-Ravata#}@}"
+            ],
+            "_banner": ".{@{#-Ravata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturRavata"
+                }
+            ],
+            "_gram": [
+                "({#caturnavata#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ninety-fourth, or with ninety-four\n added; {#caturRavataM Satam#} ‘one hundred and ninety four’.\n"
+            ]
+        },
+        {
+            "__line": 126770,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-dantaH#}@}"
+            ],
+            "_banner": ".{@{#-dantaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdantaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Airāvata, the elephant of Indra.\n"
+            ]
+        },
+        {
+            "__line": 126771,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-daSa#}@}"
+            ],
+            "_banner": ".{@{#-daSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdaSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fourteenth.\n"
+            ]
+        },
+        {
+            "__line": 126772,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-daSan#}@}"
+            ],
+            "_banner": ".{@{#-daSan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdaSan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fourteen. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 126772,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-daSan#}@}",
+                        "S_S_ {#˚ratnAni#}"
+                    ],
+                    "_banner": "{#˚ratnAni#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturdaSaratnAni"
+                        }
+                    ],
+                    "_meanings": [
+                        "(<ab>pl.</ab>) the fourteen ‘jewels’\n churned out of the ocean; (their names are contained in the following\n popular Maṅgalāṣṭaka:-- {#lakzmIH kOstuBapArijAtakasurA DanvantariScandramA#}\n {#gAvaH kAmaduGAH sureSvaragajo ramBAdidevANganAH . aSvaH saptamuKo vizaM#}\n {#hariDanuH SaNKo'mftaM cAmbuDe ratnAnIha caturdaSa pratidinaM kuryuH sadA#}\n {#maNgalam ..#}). "
+                    ]
+                },
+                {
+                    "__line": 126777,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-daSan#}@}",
+                        "S_S_ {#˚vidyA#}"
+                    ],
+                    "_banner": "{#˚vidyA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturdaSavidyA"
+                        }
+                    ],
+                    "_meanings": [
+                        "(<ab>pl.</ab>) the fourteen lores; (they are:-- {#zaqaNgamiSritA#}\n {#vedA DarmaSAstraM purARakam . mImAMsA tarkamapi ca etA vidyAScaturdaSa ..#}).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126779,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-daSI#}@}"
+            ],
+            "_banner": ".{@{#-daSI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdaSI"
+                }
+            ],
+            "_meanings": [
+                "the fourteenth day of a lunar fortnight.\n"
+            ]
+        },
+        {
+            "__line": 126780,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-diSam#}@}"
+            ],
+            "_banner": ".{@{#-diSam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdiSam"
+                }
+            ],
+            "_meanings": [
+                "the four quarters taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 126781,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-diSam#}@}"
+            ],
+            "_banner": ".{@{#-diSam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdiSam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "towards the four quarters, on all sides.\n"
+            ]
+        },
+        {
+            "__line": 126782,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-dolaH, -lam#}@}"
+            ],
+            "_banner": ".{@{#-dolaH, -lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdolaH"
+                },
+                {
+                    "Right": "caturdolam"
+                }
+            ],
+            "_meanings": [
+                "a royal litter.\n"
+            ]
+        },
+        {
+            "__line": 126783,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-dvAram#}@}"
+            ],
+            "_banner": ".{@{#-dvAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturdvAram"
+                }
+            ],
+            "_meanings": [
+                ".²1 a house with four entrances on four sides.\n",
+                ".²2 four doors taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 126786,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-navati#}@}"
+            ],
+            "_banner": ".{@{#-navati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturnavati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "or {%f.%} ninety-four.\n"
+            ]
+        },
+        {
+            "__line": 126787,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-paYca#}@}"
+            ],
+            "_banner": ".{@{#-paYca#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpaYca"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#catupaYca#}|{#catuzpaYca#})"
+            ],
+            "_meanings": [
+                "four or five.\n"
+            ]
+        },
+        {
+            "__line": 126788,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-paYcASat#}@}"
+            ],
+            "_banner": ".{@{#-paYcASat#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpaYcASat"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "({#catuHpaYcASat#}|{#catuzpaYcASat#})"
+            ],
+            "_meanings": [
+                "fifty-four.\n"
+            ]
+        },
+        {
+            "__line": 126789,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpaTaH"
+                }
+            ],
+            "_gram": [
+                "({#catuHpaTaH#}|{#catuzpaTaH#})"
+            ],
+            "_meanings": [
+                "({@{#-Tam#}@} also)\n a place where four roads meet, a cross-way; <ls>Ms. 4. 39</ls>, <ls n=\"Ms.\">9. 264</ls>. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126790,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-paTaH#}@}",
+                        "S_M_ ({@{#-TaH#}@}"
+                    ],
+                    "_banner": "({@{#-TaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "catuzpaTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a Brāhmaṇa.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126791,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-pada#}@}"
+            ],
+            "_banner": ".{@{#-pada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpada"
+                }
+            ],
+            "_meanings": [
+                "or {@{#-pad#}@} {%a.%} ({#catuzpada#})\n",
+                ".²1 having four feet; {#yaTA catuzpatsu ca kesarI varaH#} <ls>Rām. 4. 11. 93</ls>.\n",
+                ".²2 consisting of four limbs.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126794,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-pada#}@}",
+                        "S_M_ ({@{#-daH#}@}"
+                    ],
+                    "_banner": "({@{#-daH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "catuzpadaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a quadruped.\n."
+                    ]
+                },
+                {
+                    "__line": 126795,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-pada#}@}",
+                        "S_M_ ({@{#-dI#}@}"
+                    ],
+                    "_banner": "({@{#-dI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "catuzpadI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a stanza of four lines; {#padyaM catuzpadI tacca vfttaM jAtiriti dviDA#} <ls>Chand. M. 1</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126798,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-pAwI#}@}"
+            ],
+            "_banner": ".{@{#-pAwI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpAwI"
+                }
+            ],
+            "_meanings": [
+                "A river. <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 126799,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-pAWI#}@}"
+            ],
+            "_banner": ".{@{#-pAWI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpAWI"
+                }
+            ],
+            "_gram": [
+                "({#catuzpAWI#})"
+            ],
+            "_meanings": [
+                "a school for Brāhmaṇas in which the four\n Vedas are taught and repeated.\n"
+            ]
+        },
+        {
+            "__line": 126801,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-pARiH#}@}"
+            ],
+            "_banner": ".{@{#-pARiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpARiH"
+                }
+            ],
+            "_gram": [
+                "({#catuzpARiH#})"
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 126802,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-pAd, -da#}@}"
+            ],
+            "_banner": ".{@{#-pAd, -da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpAd"
+                },
+                {
+                    "Right": "catuzpAda"
+                }
+            ],
+            "_gram": [
+                "({#catuzpad-da#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 quadruped.\n",
+                ".²2 consisting of four members or parts. --({%m.%})\n",
+                ".²1 a quadruped.\n",
+                ".²2 (in law) a judicial procedure (trial of suits) consisting of four processes;\n {%<ab>i. e.</ab>%} plea, defence, rejoinder, and judgment.\n",
+                ".²3 The science of archery consisting of {#grahaRa, DAraRa, prayoga#} and\n {#pratikAra#}; {#yo'straM catuzpAt punareva cakre . droRaH prasanno'BivAdyastvayA'sO#}\n <ls>Mb. 5. 30. 12-13</ls>; {#pratipede catuzpAdaM DanurvedaM nfpAtmajaH#} {%<ab>ibid.</ab>%} <ls n=\"Mb. 5. 30.\">192</ls>, <ls n=\"Mb. 5. 30.\">61</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126810,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-pArSvam#}@}"
+            ],
+            "_banner": ".{@{#-pArSvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuzpArSvam"
+                }
+            ],
+            "_meanings": [
+                "the four sides of a square.\n"
+            ]
+        },
+        {
+            "__line": 126811,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-bAhuH#}@}"
+            ],
+            "_banner": ".{@{#-bAhuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturbAhuH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126811,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-bAhuH#}@}",
+                        "S_M_ ({@{#-hu#}@}"
+                    ],
+                    "_banner": "({@{#-hu#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturbAhu"
+                        }
+                    ],
+                    "_gram": [
+                        "{%n.%}"
+                    ],
+                    "_meanings": [
+                        "a square.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126812,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-Badram#}@}"
+            ],
+            "_banner": ".{@{#-Badram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturBadram"
+                }
+            ],
+            "_meanings": [
+                "the aggregate of the four ends of human life ({#puruzArTa#});\n {%<ab>i. e.</ab>%} {#Garma, arTa, kAma#} and {#mokza#}.\n"
+            ]
+        },
+        {
+            "__line": 126814,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-BAgaH#}@}"
+            ],
+            "_banner": ".{@{#-BAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturBAgaH"
+                }
+            ],
+            "_meanings": [
+                "the fourth part, a quarter.\n"
+            ]
+        },
+        {
+            "__line": 126815,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturBAvaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 126816,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-Buja#}@}"
+            ],
+            "_banner": ".{@{#-Buja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturBuja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 quadrangular.\n",
+                ".²2 having four arms; <ls>Bg. 11. 46</ls>. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126818,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-Buja#}@}",
+                        "S_M_ ({@{#-jaH#}@}"
+                    ],
+                    "_banner": "({@{#-jaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturBujaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an epithet of Viṣṇu; <ls>R. 16. 3</ls>.\n",
+                        ".²2 a quadrangular figure.\n",
+                        ".²3 square.\n."
+                    ]
+                },
+                {
+                    "__line": 126822,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-Buja#}@}",
+                        "S_M_ ({@{#-jam#}@}"
+                    ],
+                    "_banner": "({@{#-jam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturBujam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a square.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126823,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-mAsam#}@}"
+            ],
+            "_banner": ".{@{#-mAsam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturmAsam"
+                }
+            ],
+            "_meanings": [
+                "a period of four months; (reckoned from the 11th day in\n the bright half of {#AzAQa#} to the 11th day in the bright half of {#kArtika#}).\n"
+            ]
+        },
+        {
+            "__line": 126825,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturmuKa"
+                }
+            ],
+            "_meanings": [
+                "having four faces. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126825,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-muKa#}@}",
+                        "S_M_ ({@{#-KaH#}@}"
+                    ],
+                    "_banner": "({@{#-KaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturmuKaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Brahmā;\n {#tvattaH sarvaM caturmuKAt#} <ls>R. 10. 22</ls>. "
+                    ]
+                },
+                {
+                    "__line": 126826,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-muKa#}@}",
+                        "S_M_ ({@{#-Kam#}@}"
+                    ],
+                    "_banner": "({@{#-Kam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturmuKam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 four faces; <ls>Ku. 2. 17</ls>.\n",
+                        ".²2 a house with four entrances.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126828,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturmaRqalam"
+                }
+            ],
+            "_meanings": [
+                "a four-fold arrangement (of troops <ab>&c.</ab>)\n"
+            ]
+        },
+        {
+            "__line": 126829,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-meDaH#}@}"
+            ],
+            "_banner": ".{@{#-meDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturmeDaH"
+                }
+            ],
+            "_meanings": [
+                "One who has offered four sacrifices, namely {#aSvameDa#},\n {#puruzameDa, sarvameDa#}, and {#pitfmeDa#}.\n"
+            ]
+        },
+        {
+            "__line": 126831,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-yugam#}@}"
+            ],
+            "_banner": ".{@{#-yugam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturyugam"
+                }
+            ],
+            "_meanings": [
+                "the aggregate of the four {%Yugas%} or ages of the world.\n"
+            ]
+        },
+        {
+            "__line": 126832,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-yuj#}@}"
+            ],
+            "_banner": ".{@{#-yuj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturyuj"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Consisting of four; {#caturyujo raTAH sarve#} <ls>Mb. 5. 155. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126833,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-rAtram#}@}"
+            ],
+            "_banner": ".{@{#-rAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catUrAtram"
+                }
+            ],
+            "_gram": [
+                "({#catUrAtram#})"
+            ],
+            "_meanings": [
+                "an aggregate of four nights.\n"
+            ]
+        },
+        {
+            "__line": 126834,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-vaktraH#}@}"
+            ],
+            "_banner": ".{@{#-vaktraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturvaktraH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Brahmā.\n"
+            ]
+        },
+        {
+            "__line": 126835,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-vargaH#}@}"
+            ],
+            "_banner": ".{@{#-vargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturvargaH"
+                }
+            ],
+            "_meanings": [
+                "the four ends of human life taken collectively ({#puruzArTa#});\n {%<ab>i. e.</ab>%} {#Darma, arTa, kAma#} and {#mokza#}; {#caturvargaPalaM jYAnaM kAlAvasTAScaturyugAH#} <ls>R. 10. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126837,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-varRaH#}@}"
+            ],
+            "_banner": ".{@{#-varRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturvarRaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the four classes or castes of the Hindus; {%<ab>i. e.</ab>%}\n {#brAhmaRa, kzatriya, vESya#} and {#SUdra#}; {#caturvarRamayo lokaH#} <ls>R. 10. 22</ls>.\n",
+                ".²2 four principal colours.\n"
+            ]
+        },
+        {
+            "__line": 126840,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-varzikA#}@}"
+            ],
+            "_banner": ".{@{#-varzikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturvarzikA"
+                }
+            ],
+            "_meanings": [
+                "a cow four years old.\n"
+            ]
+        },
+        {
+            "__line": 126841,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-viMSa#}@}"
+            ],
+            "_banner": ".{@{#-viMSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturviMSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 twenty fourth.\n",
+                ".²2 having twenty-four added; as {#caturviMSaM Satam#} (124).\n"
+            ]
+        },
+        {
+            "__line": 126844,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-viMSati#}@}"
+            ],
+            "_banner": ".{@{#-viMSati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturviMSati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "or {%f.%} twenty-four.\n"
+            ]
+        },
+        {
+            "__line": 126845,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-viMSatika#}@}"
+            ],
+            "_banner": ".{@{#-viMSatika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturviMSatika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "consisting of twenty-four.\n"
+            ]
+        },
+        {
+            "__line": 126846,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-vidya#}@}"
+            ],
+            "_banner": ".{@{#-vidya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturvidya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has studied the four Vedas.\n"
+            ]
+        },
+        {
+            "__line": 126847,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-vidyA#}@}"
+            ],
+            "_banner": ".{@{#-vidyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturvidyA"
+                }
+            ],
+            "_meanings": [
+                "the four Vedas.\n"
+            ]
+        },
+        {
+            "__line": 126848,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-viDa#}@}"
+            ],
+            "_banner": ".{@{#-viDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturviDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of four sorts or kinds, four-fold.\n"
+            ]
+        },
+        {
+            "__line": 126849,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-veda#}@}"
+            ],
+            "_banner": ".{@{#-veda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturveda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "familiar with the four Vedas. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126849,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-veda#}@}",
+                        "S_M_ ({@{#-daH#}@}"
+                    ],
+                    "_banner": "({@{#-daH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturvedaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the Supreme Soul.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126850,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-vyUhaH#}@}"
+            ],
+            "_banner": ".{@{#-vyUhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturvyUhaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 126850,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-vyUhaH#}@}",
+                        "S_M_ ({@{#-ham#}@}"
+                    ],
+                    "_banner": "({@{#-ham#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caturvyUham"
+                        }
+                    ],
+                    "_meanings": [
+                        "medical science. --{%a.%}\n having four kinds of appearance; hence "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 126851,
+                            "_ancestry": [
+                                "L_ 14641",
+                                "B_ {#catur#}",
+                                "S_ .{@{#-vyUhaH#}@}",
+                                "S_M_ ({@{#-ham#}@}",
+                                "S_M_S_ {#˚vAdin#}"
+                            ],
+                            "_banner": "{#˚vAdin#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "caturvyUhavAdin"
+                                }
+                            ],
+                            "_meanings": [
+                                "asserting the four\n forms of {#puruzottama#} {%<ab>viz.</ab>%} {#vAsudeva, saMkarzaRa, pradyumna#} and {#anirudDa#}.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126853,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-SAlam#}@}"
+            ],
+            "_banner": ".{@{#-SAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuHSAlam"
+                }
+            ],
+            "_gram": [
+                "({#catuHSAlam, catuSSAlam, catuHSAlI, catuSSAlI#})"
+            ],
+            "_meanings": [
+                "a square\n of four buildings, a quadrangle enclosed by four buildings; {#alaM catu#}\n {#SAlamimaM praveSya#} <ls>Mk. 3. 7</ls>; {#devInAM catuHSAlamidam#} <ls>Pratimā 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126856,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-zazwi#}@}"
+            ],
+            "_banner": ".{@{#-zazwi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuHzazwi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "or {%f.%}\n",
+                ".²1 sixty-four.\n",
+                ".²2 <ab>N.</ab> for the Ṛgveda containing 64 Adhyāyas. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 126858,
+                    "_ancestry": [
+                        "L_ 14641",
+                        "B_ {#catur#}",
+                        "S_ .{@{#-zazwi#}@}",
+                        "S_S_ {#˚kalAH#}"
+                    ],
+                    "_banner": "{#˚kalAH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "catuHzazwikalAH"
+                        }
+                    ],
+                    "_meanings": [
+                        "(<ab>pl.</ab>) the sixty-four arts.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 126859,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-sanaH#}@}"
+            ],
+            "_banner": ".{@{#-sanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuHsanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu having four embodiments of {#sanaka, sanandana#},\n {#sanatkumAra#} and {#sanAtana#}; {#AdO sanAt svatapasaH sa catuHsano'BUt#}\n <ls>Bhāg. 2. 7. 5</ls>.\n\n"
+            ]
+        },
+        {
+            "__line": 126863,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-saptati#}@}"
+            ],
+            "_banner": ".{@{#-saptati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuHsaptati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "or {%f.%} seventy-four.\n"
+            ]
+        },
+        {
+            "__line": 126864,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-samam#}@}"
+            ],
+            "_banner": ".{@{#-samam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuHsamam"
+                }
+            ],
+            "_meanings": [
+                "an unguent of four things, sandal, agallochum, saffron\n and musk; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 126866,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-sImA#}@}"
+            ],
+            "_banner": ".{@{#-sImA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "catuHsImA"
+                }
+            ],
+            "_meanings": [
+                "the boundaries on all four sides.\n"
+            ]
+        },
+        {
+            "__line": 126867,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-hAyana, -Ra#}@}"
+            ],
+            "_banner": ".{@{#-hAyana, -Ra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturhAyana"
+                },
+                {
+                    "Left": "S error: 1 syl hAyana Ra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "four years old; (the {%f.%} of this word ends\n in {#A#} if it refers to an inanimate object, and in {#I#} if it refers to an animal).\n"
+            ]
+        },
+        {
+            "__line": 126869,
+            "_ancestry": [
+                "L_ 14641",
+                "B_ {#catur#}",
+                "S_ .{@{#-hotrakam#}@}"
+            ],
+            "_banner": ".{@{#-hotrakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caturhotrakam"
+                }
+            ],
+            "_meanings": [
+                "the four priests taken collectively."
             ]
         }
     ]

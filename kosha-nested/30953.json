@@ -1,25 +1,35 @@
 {
-    "__line": 259559,
+    "__line": 285862,
     "_ancestry": [
         "L_ 30953",
-        "B_ {#spaS#}"
+        "B_ {#vEdaH#}"
     ],
-    "_banner": "{#spaS#}",
+    "_banner": "{#vEdaH#}",
     "_bannerExp": [
         {
-            "Right": "spaS"
+            "Right": "vEdaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#spaSati-te#})"
-    ],
     "_meanings": [
-        "{@--1@} To \nobstruct. ",
-        "{@--2@} To undertake, perform\n",
-        "{@--3@} To string together. ",
-        "{@--4@} To touch.\n",
-        "{@--5@} To see, behold, perceive clearly,\nspy out, espy."
+        "A wise man, learned man.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 285863,
+            "_ancestry": [
+                "L_ 30953",
+                "B_ {#vEdaH#}",
+                "M_ .{@{#-dI#}@}"
+            ],
+            "_banner": ".{@{#-dI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdI"
+                }
+            ],
+            "_meanings": [
+                "The wife of a wise man."
+            ]
+        }
     ]
 }

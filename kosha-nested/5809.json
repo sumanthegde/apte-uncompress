@@ -1,22 +1,59 @@
 {
-    "__line": 51302,
+    "__line": 48131,
     "_ancestry": [
         "L_ 5809",
-        "B_ {#AkroSaH, --SanaM#}"
+        "B_ {#aSiSu#}"
     ],
-    "_banner": "{#AkroSaH, --SanaM#}",
+    "_banner": "{#aSiSu#}",
     "_bannerExp": [
         {
-            "Right": "AkroSaH"
-        },
-        {
-            "Right": "AkroSanaM"
+            "Right": "aSiSu"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Calling or crying\nout, vociferation, loud cry or sound.\n",
-        "{@--2@} Censure, blame, reviling;  \n{#AkroSamapi parihAsamAkalayaMti#} <ls>K. 235</ls>,\n<ls n=\"K.\">291</ls>; abuse <ls>Y. 2. 302.</ls> ",
-        "{@--3@} A curse,\nimprecation; {#°garBamevamuktaM#} <ls>K. 291</ls>,\n<ls n=\"K.\">346.</ls> ",
-        "{@--4@} An oath."
+        "Childless, without young ones.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 48132,
+            "_ancestry": [
+                "L_ 5809",
+                "B_ {#aSiSu#}",
+                "M_ .{@{#-SuH#}@}"
+            ],
+            "_banner": ".{@{#-SuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSiSuH"
+                }
+            ],
+            "_meanings": [
+                "A youth.\n"
+            ]
+        },
+        {
+            "__line": 48133,
+            "_ancestry": [
+                "L_ 5809",
+                "B_ {#aSiSu#}",
+                "M_ .{@{#-SvIH, -aSiSvikA#}@}"
+            ],
+            "_banner": ".{@{#-SvIH, -aSiSvikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSiSvIH"
+                },
+                {
+                    "Left": "1Align error: aSiSu aSiSvikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A childless female; without young ones (as a cow); {#stanABujo aSiSvIH#} <ls>Rv. 1. 120. 8</ls>.\n",
+                ".²2 A childless woman."
+            ]
+        }
     ]
 }

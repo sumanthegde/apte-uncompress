@@ -1,19 +1,87 @@
 {
-    "__line": 11288,
+    "__line": 9110,
     "_ancestry": [
         "L_ 959",
-        "B_ {#aDidaMqanetf#}"
+        "B_ {#adeva#}"
     ],
-    "_banner": "{#aDidaMqanetf#}",
+    "_banner": "{#adeva#}",
     "_bannerExp": [
         {
-            "Right": "aDidaMqanetf"
+            "Right": "adeva"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "<ab>N.</ab> of Yama."
+        ".²1 Not god-like or divine, not pertaining to a deity.\n",
+        ".²2 Godless, impious, irreligious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 9113,
+            "_ancestry": [
+                "L_ 959",
+                "B_ {#adeva#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "adevaH"
+                }
+            ],
+            "_gram": [
+                "[<sab>{#na˚ ta˚#}</sab>]"
+            ],
+            "_meanings": [
+                "One who is not a god.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 9115,
+            "_ancestry": [
+                "L_ 959",
+                "B_ {#adeva#}",
+                "S_ .{@{#-tra#}@}"
+            ],
+            "_banner": ".{@{#-tra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "adevatra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#na devAH trAyante prIyante anena, trE-karaRe ka#}]"
+            ],
+            "_meanings": [
+                "not gratifying the gods, such as food.\n"
+            ]
+        },
+        {
+            "__line": 9117,
+            "_ancestry": [
+                "L_ 959",
+                "B_ {#adeva#}",
+                "S_ .{@{#-mAtfka#}@}"
+            ],
+            "_banner": ".{@{#-mAtfka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "adevamAtfka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#na devo meGo mAtA vfzwikArakaH yasya#}]"
+            ],
+            "_meanings": [
+                "not\n rained upon; (<ab>lit.</ab>) not having the god of rain as mother to suckle or water;\n hence (artificially) supplied with the water of rivers, canals <ab>&c.</ab>, irrigated;\n {#vitanvati kzemamadevamAtfkAScirAya tasminkuravaScakAsate#} <ls>Ki. 1. 17</ls>."
+            ]
+        }
     ]
 }

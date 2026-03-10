@@ -1,22 +1,41 @@
 {
-    "__line": 213082,
+    "__line": 226168,
     "_ancestry": [
         "L_ 25141",
-        "B_ {#vartis#}"
+        "B_ {#BAsura#}"
     ],
-    "_banner": "{#vartis#}",
+    "_banner": "{#BAsura#}",
     "_bannerExp": [
         {
-            "Right": "vartis"
+            "Right": "BAsura"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%a.%}",
+        "[{#BAs-Gurac#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Circuit, orbit.\n",
-        "{@--2@} A way, path. ",
-        "{@--3@} Abode, \nresidence."
+        ".²1 Shining, bright, splendid; {#maRimayUKacayAMSukaBAsurAH#} <ls>Ki. 5. 5</ls>;\n {#taM BUpatirBAsurahemarASiM#} ({#dideSa#}) <ls>R. 5. 30</ls>.\n",
+        ".²2 Terrible.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 226172,
+            "_ancestry": [
+                "L_ 25141",
+                "B_ {#BAsura#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAsuraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A hero.\n",
+                ".²2 A crystal."
+            ]
+        }
     ]
 }

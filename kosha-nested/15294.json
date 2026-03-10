@@ -1,21 +1,101 @@
 {
-    "__line": 127084,
+    "__line": 132280,
     "_ancestry": [
         "L_ 15294",
-        "B_ {#dAhin#}"
+        "B_ {#Ceka#}"
     ],
-    "_banner": "{#dAhin#}",
+    "_banner": "{#Ceka#}",
     "_bannerExp": [
         {
-            "Right": "dAhin"
+            "Right": "Ceka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#dah-Rini#}]"
+        "{%a.%}",
+        "[{#Co-bA˚ qekan#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Burning,\nsetting on fire. ",
-        "{@--2@} Tormenting,\npaining, distressing."
+        ".²1 Tame, domesticated (as a beast).\n",
+        ".²2 Citizen, town-bred.\n",
+        ".²3 Shrewd, trained in the acuteness and vice of towns.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 132284,
+            "_ancestry": [
+                "L_ 15294",
+                "B_ {#Ceka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CekaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A bee.\n",
+                ".²2 A kind of {#anuprAsa#}. See below.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 132288,
+            "_ancestry": [
+                "L_ 15294",
+                "B_ {#Ceka#}",
+                "S_ .{@{#-anuprAsaH#}@}"
+            ],
+            "_banner": ".{@{#-anuprAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CekAnuprAsaH"
+                }
+            ],
+            "_meanings": [
+                "one of the five kinds of {#anuprAsa#}s, ‘the single\n alliteration’, which is a similarity occurring {%once%} (or singly)\n and in more than one way among a collection of consonants; {%<ab>e. g.</ab>%} {#AdAya#}\n {#bakulaganDAnanDIkurvan pade pade BramarAn . ayameti mandamandaM kAverIvAripAvanaH#}\n {#pavanaH ..#} <ls>S. D. 634</ls>.\n"
+            ]
+        },
+        {
+            "__line": 132293,
+            "_ancestry": [
+                "L_ 15294",
+                "B_ {#Ceka#}",
+                "S_ .{@{#-apahnutiH#}@}"
+            ],
+            "_banner": ".{@{#-apahnutiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CekApahnutiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a figure of speech; one of the varieties of\n {#apahnuti#}. The Chandrāloka thus defines and illustrates it:-- {#CekApahnutiranyasya#}\n {#SaNkAtastasya nihnave . prajalpan matpade lagnaH kAntaH kiM na hi nUpuraH#} <ls n=\"Chandr.\">5. 27</ls>.\n"
+            ]
+        },
+        {
+            "__line": 132296,
+            "_ancestry": [
+                "L_ 15294",
+                "B_ {#Ceka#}",
+                "S_ .{@{#-uktiH#}@}"
+            ],
+            "_banner": ".{@{#-uktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CekoktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "insinuation, {%double entendre%}."
+            ]
+        }
     ]
 }

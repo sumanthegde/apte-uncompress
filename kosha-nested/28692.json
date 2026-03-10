@@ -1,43 +1,44 @@
 {
-    "__line": 241005,
+    "__line": 265280,
     "_ancestry": [
         "L_ 28692",
-        "B_ {#saMSuD#}"
+        "B_ {#valkalaH#}, {#-lam#}"
     ],
-    "_banner": "{#saMSuD#}",
+    "_banner": "{#valkalaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "saMSuD"
+            "Right": "valkalaH"
+        },
+        {
+            "Right": "valkalam"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "[{#val-kalac kasya netvam#} <ls>Uṇ. 4. 5</ls>]"
     ],
     "_meanings": [
-        "To be completely\npurified. "
+        ".²1 The bark of a tree.\n",
+        ".²2 A garment made of bark, bark-garment; {#iyamaDikamanojYA valkalenApi#}\n {#tanvI#} <ls>Ś. 1. 20</ls>, <ls n=\"Ś. 1.\">19</ls>; <ls>R. 12. 8</ls>; <ls>Ku. 5. 8</ls>; {#hEmavalkalAH#} <ls n=\"Ku.\">6. 6</ls> ‘wearing\n golden bark-dresses’; (<ab>cf.</ab> {#cIraparigrahAH#} in <ls>Ku. 6. 93</ls>).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 241006,
+            "__line": 265287,
             "_ancestry": [
                 "L_ 28692",
-                "B_ {#saMSuD#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#valkalaH#}, {#-lam#}",
+                "S_ .{@{#-saMvIta#}@}"
             ],
+            "_banner": ".{@{#-saMvIta#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMSuD"
+                    "Right": "valkalasaMvIta"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To purify \ncompletely. ",
-                "{@--2@} To clear, pay off \n(expenses). ",
-                "{@--3@} To correct, rectify. ",
-                "{@--4@}\nTo examine, inquire into, \ninvestigate."
+                "clad in bark."
             ]
         }
     ]

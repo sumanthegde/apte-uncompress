@@ -1,19 +1,39 @@
 {
-    "__line": 42839,
+    "__line": 40742,
     "_ancestry": [
         "L_ 4756",
-        "B_ {#avartra#}"
+        "B_ {#avana#}"
     ],
-    "_banner": "{#avartra#}",
+    "_banner": "{#avana#}",
     "_bannerExp": [
         {
-            "Right": "avartra"
+            "Right": "avana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#av-lyuw#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Not turning back."
+        "Protecting, defending; {#anavanI navanIpavanAvaliH#} <ls>Śi. 6. 37</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 40743,
+            "_ancestry": [
+                "L_ 4756",
+                "B_ {#avana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avanam"
+                }
+            ],
+            "_meanings": [
+                "Protection <ab>&c.</ab>"
+            ]
+        }
     ]
 }

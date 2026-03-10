@@ -1,16 +1,82 @@
 {
-    "__line": 264788,
+    "__line": 290761,
     "_ancestry": [
         "L_ 31555",
-        "B_ {#hoqaH#}"
+        "B_ {#SakulaH#}, {#-lI#}"
     ],
-    "_banner": "{#hoqaH#}",
+    "_banner": "{#SakulaH#}, {#-lI#}",
     "_bannerExp": [
         {
-            "Right": "hoqaH"
+            "Right": "SakulaH"
+        },
+        {
+            "Right": "SakulI"
         }
     ],
+    "_gram": [
+        "[{#Sak-ulac#} <ls>Uṇ. 1. 93</ls>]"
+    ],
     "_meanings": [
-        "A raft, float."
+        "A kind of fish.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 290764,
+            "_ancestry": [
+                "L_ 31555",
+                "B_ {#SakulaH#}, {#-lI#}",
+                "S_ .{@{#-akzakA, -akzI#}@}"
+            ],
+            "_banner": ".{@{#-akzakA, -akzI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakulAkzakA"
+                },
+                {
+                    "Right": "SakulAkzI"
+                }
+            ],
+            "_meanings": [
+                "white bent grass, Panicum Dactylon (<lang>Mar.</lang> <ns>{#SukladUrvA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 290765,
+            "_ancestry": [
+                "L_ 31555",
+                "B_ {#SakulaH#}, {#-lI#}",
+                "S_ .{@{#-adanI#}@}"
+            ],
+            "_banner": ".{@{#-adanI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakulAdanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 a kind of medicinal plant (called Kaṭki).\n",
+                ".²2 an earth-worm.\n"
+            ]
+        },
+        {
+            "__line": 290768,
+            "_ancestry": [
+                "L_ 31555",
+                "B_ {#SakulaH#}, {#-lI#}",
+                "S_ .{@{#-arBakaH, -gaRqaH#}@}"
+            ],
+            "_banner": ".{@{#-arBakaH, -gaRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakulArBakaH"
+                },
+                {
+                    "Right": "SakulagaRqaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of fish."
+            ]
+        }
     ]
 }

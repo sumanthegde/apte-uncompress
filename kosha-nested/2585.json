@@ -1,42 +1,61 @@
 {
-    "__line": 25850,
+    "__line": 23030,
     "_ancestry": [
         "L_ 2585",
-        "B_ {#apasfp#}"
+        "B_ {#apawI#}"
     ],
-    "_banner": "{#apasfp#}",
+    "_banner": "{#apawI#}",
     "_bannerExp": [
         {
-            "Right": "apasfp"
+            "Right": "apawI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "[{#alpaH pawaH pawI#}, <sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} To glide or move\ngently along, glide away or off. ",
-        "{@--2@}\nTo withdraw, retire, go away;  \n{#tvaritamanena tarugahanenApasarpata#} <ls>U. 4</ls>;  \n{#utprekzitavikAraH apasarpeta#} <ls>Mv. 4</ls> retire, go \ninto voluntary exile. ",
-        "{@--3@} To observe\nclosely (as a spy); {#SudDAMtacArI durmuKaH#}\n{#sa mayA pOrajAnapadAnapasarpituM prayuktaH#}  \n<ls>U. 1.</ls> "
+        ".²1 A screen or wall of cloth, particularly the screen or {%kanāt%} surrounding a tent.\n",
+        ".²2 A curtain.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 25858,
+            "__line": 23034,
             "_ancestry": [
                 "L_ 2585",
-                "B_ {#apasfp#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#apawI#}",
+                "S_ .{@{#-kzepaH#}@}"
             ],
+            "_banner": ".{@{#-kzepaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "apasfp"
+                    "Right": "apawIkzepaH"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "({#apawakzepaH#})"
             ],
             "_meanings": [
-                "To drive away or off."
+                "tossing aside the curtain; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 23034,
+                    "_ancestry": [
+                        "L_ 2585",
+                        "B_ {#apawI#}",
+                        "S_ .{@{#-kzepaH#}@}",
+                        "S_S_ {#˚kzepeRa#}"
+                    ],
+                    "_banner": "{#˚kzepeRa#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "apawIkzepakzepeRa"
+                        }
+                    ],
+                    "_meanings": [
+                        "(= {#akasmAt#}) ‘with a (hurried) toss of the curtain’, frequently occurring\n as a stage direction and denoting precipitate entrance on the stage which\n arises from fear, hurry, agitation <ab>&c.</ab>, as when a character tossing up\n the curtain suddenly enters without the usual introduction {#tataH praviSati#} <ab>&c.</ab>"
+                    ]
+                }
             ]
         }
     ]

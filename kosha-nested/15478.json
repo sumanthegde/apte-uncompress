@@ -1,19 +1,40 @@
 {
-    "__line": 128692,
+    "__line": 134286,
     "_ancestry": [
         "L_ 15478",
-        "B_ {#dIptimat#}"
+        "B_ {#jalpanam#}"
     ],
-    "_banner": "{#dIptimat#}",
+    "_banner": "{#jalpanam#}",
     "_bannerExp": [
         {
-            "Right": "dIptimat"
+            "Right": "jalpanam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#jalp-lyuw#}]"
     ],
     "_meanings": [
-        "Splendid, brilliant,\nshining."
+        "Speaking, saying, talking <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 134287,
+            "_ancestry": [
+                "L_ 15478",
+                "B_ {#jalpanam#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jalpanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Saying, talking.\n",
+                ".²2 Chattering, garrulity."
+            ]
+        }
     ]
 }

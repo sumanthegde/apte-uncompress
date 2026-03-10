@@ -1,20 +1,44 @@
 {
-    "__line": 209920,
+    "__line": 221711,
     "_ancestry": [
         "L_ 24770",
-        "B_ {#lopin#}"
+        "B_ {#bElva#}"
     ],
-    "_banner": "{#lopin#}",
+    "_banner": "{#bElva#}",
     "_bannerExp": [
         {
-            "Right": "lopin"
+            "Right": "bElva"
+        },
+        {
+            "Right": "bElvI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-lvI#}|{%f.%})",
+        "[{#bilvasyedam aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Injuring, harming. ",
-        "{@--2@}\nSubject to elision. "
+        ".²1 Relating to or made of the Bilva tree or its wood; {#tato yUpocCraye#}\n {#prApte zaq bElvAn BaratarzaBa#} <ls>Mb. 14. 88. 27</ls>.\n",
+        ".²2 Covered with Bilva trees.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 221716,
+            "_ancestry": [
+                "L_ 24770",
+                "B_ {#bElva#}",
+                "M_ .{@{#-lvam#}@}"
+            ],
+            "_banner": ".{@{#-lvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bElvam"
+                }
+            ],
+            "_meanings": [
+                "The fruit of the Bilva tree."
+            ]
+        }
     ]
 }

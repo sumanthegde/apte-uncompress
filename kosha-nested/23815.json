@@ -1,17 +1,58 @@
 {
-    "__line": 200962,
+    "__line": 212516,
     "_ancestry": [
         "L_ 23815",
-        "B_ {#yAvasaH#}"
+        "B_ {#prAgram#}"
     ],
-    "_banner": "{#yAvasaH#}",
+    "_banner": "{#prAgram#}",
     "_bannerExp": [
         {
-            "Right": "yAvasaH"
+            "Right": "prAgram"
         }
     ],
     "_meanings": [
-        "{@--1@} A heap of grass. ",
-        "{@--2@}\nFodder, provisions."
+        "The highest point.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 212518,
+            "_ancestry": [
+                "L_ 23815",
+                "B_ {#prAgram#}",
+                "S_ .{@{#-sara#}@}"
+            ],
+            "_banner": ".{@{#-sara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgrasara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "first, foremost; {#tvamarhatAM prAgrasaraH smfto'si#}\n {#naH#} <ls>Ś. 5. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 212520,
+            "_ancestry": [
+                "L_ 23815",
+                "B_ {#prAgram#}",
+                "S_ .{@{#-hara#}@}"
+            ],
+            "_banner": ".{@{#-hara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgrahara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "chief, principal; {#viSvAvasuprAgraharEH pravIREH#}\n <ls>Ku. 7. 48</ls>; <ls>R. 16. 23</ls>."
+            ]
+        }
     ]
 }

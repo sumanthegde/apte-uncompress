@@ -1,19 +1,44 @@
 {
-    "__line": 261455,
+    "__line": 287366,
     "_ancestry": [
         "L_ 31166",
-        "B_ {#svalpizWa#}"
+        "B_ {#vyatirikta#}"
     ],
-    "_banner": "{#svalpizWa#}",
+    "_banner": "{#vyatirikta#}",
     "_bannerExp": [
         {
-            "Right": "svalpizWa"
+            "Right": "vyatirikta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Smallest, least, most \n\nminute (<ab>superl.</ab> of {#svalpa#} <ab>q. v.</ab>)."
+        ".²1 Separated or distinct from; {#avyatirikteyamasmacCarIrAt#} <ls>K.</ls>; {#kAmasya#}\n {#puzpavyatiriktamastram#} <ls>Ku. 1. 31</ls>, <ls n=\"Ku.\">5. 22</ls>.\n",
+        ".²2 Surpassing, excelling, going beyond.\n",
+        ".²3 Withdrawn, withheld.\n",
+        ".²4 Excepted.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 287372,
+            "_ancestry": [
+                "L_ 31166",
+                "B_ {#vyatirikta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyatiriktam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "With the exception of, except, without."
+            ]
+        }
     ]
 }

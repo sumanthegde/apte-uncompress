@@ -1,19 +1,107 @@
 {
-    "__line": 15177,
+    "__line": 13304,
     "_ancestry": [
         "L_ 1452",
-        "B_ {#anirvida#}"
+        "B_ {#anAtman#}"
     ],
-    "_banner": "{#anirvida#}",
+    "_banner": "{#anAtman#}",
     "_bannerExp": [
         {
-            "Right": "anirvida"
+            "Right": "anAtman"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "Not fatigued or tired;\n{#anirvidAyA vidaDe viDAtrA#} <ls>Śi. 3. 34.</ls>"
+        ".²1 Destitute of spirit or mind.\n",
+        ".²2 Not spiritual, corporeal.\n",
+        ".²3 One who has not restrained his self; {#anAtmanastu Satrutve vartetAtmEvaSatruvat#}\n <ls>Bg. 6. 6</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 13308,
+            "_ancestry": [
+                "L_ 1452",
+                "B_ {#anAtman#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#anAtman#} M_ --{%m.%}"
+                }
+            ],
+            "_gram": [
+                "[{#apraSasto Binno vA AtmA#}, <sab>{#na˚ ta˚#}</sab>]"
+            ],
+            "_meanings": [
+                "Not self,\n another, something different from {#Atman#} (spirit or soul) {%<ab>i. e.</ab>%}\n the perishable body; {#aprAptaH prApyate yo'yamatyantaM tyajyate'TavA .#}\n {#jAnIyAttamanAtmAnaM budDayantaM vapurAdikam .. anAtmanyAtmabudDiryA sA'vidyA#}\n {#parikIrtitA ..#}\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 13314,
+            "_ancestry": [
+                "L_ 1452",
+                "B_ {#anAtman#}",
+                "S_ .{@{#-jYA, vedin#}@}"
+            ],
+            "_banner": ".{@{#-jYA, vedin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAtmajYA"
+                },
+                {
+                    "Right": "anAtmavedin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 devoid of spiritual knowledge or true wisdom.\n",
+                ".²2 not knowing oneself, foolish, silly; {#mA tAvadanAtmajYe#} <ls>Ś. 6</ls>; {#kaTaM#}\n {#kAryavinimayena vyavaharati mayi ˚jYaH#} <ls>M. 1</ls>; {#sPuwamApadAM padamanAtmaveditA#} <ls>Śi. 15. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 13318,
+            "_ancestry": [
+                "L_ 1452",
+                "B_ {#anAtman#}",
+                "S_ .{@{#-pratyavekzA#}@}"
+            ],
+            "_banner": ".{@{#-pratyavekzA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAtmapratyavekzA"
+                }
+            ],
+            "_meanings": [
+                "reflection that there is no spirit or soul (with Buddhists).\n"
+            ]
+        },
+        {
+            "__line": 13319,
+            "_ancestry": [
+                "L_ 1452",
+                "B_ {#anAtman#}",
+                "S_ .{@{#-saMpanna#}@}"
+            ],
+            "_banner": ".{@{#-saMpanna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAtmasampanna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "foolish, destitute of qualities (of the soul)\n not self-possessed; {#na tvevAnAtmasaMpannAd vfttimIheta paRqitaH#} <ls>Pt. 1. 49</ls>."
+            ]
+        }
     ]
 }

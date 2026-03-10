@@ -1,44 +1,107 @@
 {
-    "__line": 258601,
+    "__line": 285168,
     "_ancestry": [
         "L_ 30854",
-        "B_ {#sTAnin#}"
+        "B_ {#veSaH#}"
     ],
-    "_banner": "{#sTAnin#}",
+    "_banner": "{#veSaH#}",
     "_bannerExp": [
         {
-            "Right": "sTAnin"
+            "Right": "veSaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#sTAnamasyAsti rakzyatvena#}\n{#ini#}]"
+        "[{#viS-GaY#}]"
     ],
     "_meanings": [
-        "{@--1@} Having a place. ",
-        "{@--2@} Having\nfixedness, permanent. ",
-        "{@--3@} Having a\nsubstitute. "
+        ".²1 Entrance.\n",
+        ".²2 Ingress, access.\n",
+        ".²3 A house, dwelling; {#na veSamAcakramurasya nItyA#} <ls>Bu. Ch. 1. 3</ls>.\n",
+        ".²4 A house or residence of prostitutes; {#taruRajanasahAyaScintyatAM#}\n {#veSavAsaH#} <ls>Mk. 1. 31</ls>.\n",
+        ".²5 Dress, apparel (also written {#veza#} in this sense); {#mfgayAvezaDArI#};\n {#vinItavezeRa#} <ls>Ś. 1</ls>; {#kftaveSe keSave#} <ls>Gīt. 11</ls>.\n",
+        ".²6 Disguise.\n",
+        ".²7 Hire, wages.\n",
+        ".²8 The prostitute-class ({#veSyAjana#}); <ls>Mb. 5. 196. 26</ls>; <ls>Dk. 2. 6</ls>.\n",
+        ".²9 The wages of prostitutes; {#veSenEva ca jIvatAm#} ({#na pratigfhRIyAt#}) <ls>Ms. 4. 84</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 258604,
+            "__line": 285181,
             "_ancestry": [
                 "L_ 30854",
-                "B_ {#sTAnin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#veSaH#}",
+                "S_ .{@{#-dAnaH#}@}"
             ],
+            "_banner": ".{@{#-dAnaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sTAnin"
+                    "Right": "veSadAnaH"
+                }
+            ],
+            "_meanings": [
+                "the sun-flower.\n"
+            ]
+        },
+        {
+            "__line": 285182,
+            "_ancestry": [
+                "L_ 30854",
+                "B_ {#veSaH#}",
+                "S_ .{@{#-DArin#}@}"
+            ],
+            "_banner": ".{@{#-DArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSaDArin"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} The original\nform or primitive element, that for\nwhich anything else is substituted;\n{#sTAnivadAdeSo'nalviDO#} <ls>P. I. 1. 59.</ls> ",
-                "{@--2@}\nThe form so substituted for \nanything. ",
-                "{@--3@} That which has a place,\nor is actually expressed."
+                "disguised. --({%m.%})\n",
+                ".²1 a hypocrite, false ascetic.\n",
+                ".²2 an actor.\n"
+            ]
+        },
+        {
+            "__line": 285185,
+            "_ancestry": [
+                "L_ 30854",
+                "B_ {#veSaH#}",
+                "S_ .{@{#-nArI, -vaDU, -vanitA#}@}"
+            ],
+            "_banner": ".{@{#-nArI, -vaDU, -vanitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSanArI"
+                },
+                {
+                    "Right": "veSavaDU"
+                },
+                {
+                    "Right": "veSavanitA"
+                }
+            ],
+            "_meanings": [
+                "a harlot; {#DUrtEranvIyamAnAH sPuwacaturakaTAkovidErveSanAryaH#}\n <ls>Mu. 3. 10</ls>; {#purA hi kASisundaryA veSavaDvA mahAn fziH#} <ls>Bu. Ch. 4. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 285187,
+            "_ancestry": [
+                "L_ 30854",
+                "B_ {#veSaH#}",
+                "S_ .{@{#-vAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veSavAsaH"
+                }
+            ],
+            "_meanings": [
+                "the residence of harlots."
             ]
         }
     ]

@@ -1,16 +1,58 @@
 {
-    "__line": 173212,
+    "__line": 187172,
     "_ancestry": [
         "L_ 20901",
-        "B_ {#prasavitrI#}"
+        "B_ {#pAMsa(Sa)na#}"
     ],
-    "_banner": "{#prasavitrI#}",
+    "_banner": "{#pAMsa(Sa)na#}",
     "_bannerExp": [
         {
-            "Right": "prasavitrI"
+            "Right": "pAMsana"
+        },
+        {
+            "Right": "pAMSana"
+        },
+        {
+            "Right": "pAMsanA"
+        },
+        {
+            "Right": "pAMSanA"
+        },
+        {
+            "Right": "pAMsanI"
+        },
+        {
+            "Right": "pAMSanI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nA, -nI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A mother."
+        "(Usually at the end of <ab>comp.</ab>)\n",
+        ".²1 Disgracing, dishonouring, defiling; {#sadaspatInatikramya gopAlaH#}\n {#kulapAMsanaH#} <ls>Bhāg. 10. 74. 34</ls>; {#pOlastyakulapAMsana#} <ls>Mv. 5</ls>.\n",
+        ".²2 Vitiating, spoiling.\n",
+        ".²3 Wicked, contemptible.\n",
+        ".²4 Infamous.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 187179,
+            "_ancestry": [
+                "L_ 20901",
+                "B_ {#pAMsa(Sa)na#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAMsanam"
+                }
+            ],
+            "_meanings": [
+                "Contempt."
+            ]
+        }
     ]
 }

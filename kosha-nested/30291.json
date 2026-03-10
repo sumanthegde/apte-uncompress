@@ -1,20 +1,187 @@
 {
-    "__line": 253219,
+    "__line": 279351,
     "_ancestry": [
         "L_ 30291",
-        "B_ {#sidDatA --tvaM#}"
+        "B_ {#vivfta#}"
     ],
-    "_banner": "{#sidDatA --tvaM#}",
+    "_banner": "{#vivfta#}",
     "_bannerExp": [
         {
-            "Right": "sidDatA"
-        },
-        {
-            "Right": "sidDatvaM"
+            "Right": "vivfta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Accomplishment, \nfulfilment, perfection. ",
-        "{@--2@} Validity of\na rule or doctrine."
+        ".²1 Displayed, manifested, expressed.\n",
+        ".²2 Evident, clear, open.\n",
+        ".²3 Uncovered, exposed, laid bare; {#jYAtAsvAdo vivftajaGanAM ko vihAtuM#}\n {#samarTaH#} <ls>Me. 43</ls>.\n",
+        ".²4 Opened, unclosed, bare, open; {#kfzRAyasaM ca vivftaM DArayan mucyate#}\n {#dvijaH#} <ls>Mb. 13. 136. 6</ls>.\n",
+        ".²5 Proclaimed.\n",
+        ".²6 Expounded, explained, commented upon; {#vivfta iva niruktaH#} <ls>Bhāg. 12. 11. 24</ls>.\n",
+        ".²7 Expanded, spread out.\n",
+        ".²8 Extensive, large, spacious.\n",
+        ".²9 Bare, barren (as ground).\n",
+        ".²10 Unhurt, woundless; <ls>Mb. 4</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 279364,
+            "_ancestry": [
+                "L_ 30291",
+                "B_ {#vivfta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivftam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Open articulation.\n",
+                ".²2 Publicity.\n"
+            ]
+        },
+        {
+            "__line": 279367,
+            "_ancestry": [
+                "L_ 30291",
+                "B_ {#vivfta#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivftA"
+                }
+            ],
+            "_meanings": [
+                "A particular disease, ulcer.\n"
+            ]
+        },
+        {
+            "__line": 279368,
+            "_ancestry": [
+                "L_ 30291",
+                "B_ {#vivfta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivftam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Openly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 279370,
+            "_ancestry": [
+                "L_ 30291",
+                "B_ {#vivfta#}",
+                "S_ .{@{#-akza#}@}"
+            ],
+            "_banner": ".{@{#-akza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivftAkza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "large-eyed.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 279371,
+                    "_ancestry": [
+                        "L_ 30291",
+                        "B_ {#vivfta#}",
+                        "S_ .{@{#-akza#}@}",
+                        "S_M_ ({@{#-kzaH#}@}"
+                    ],
+                    "_banner": "({@{#-kzaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vivftAkzaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a cock.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 279372,
+            "_ancestry": [
+                "L_ 30291",
+                "B_ {#vivfta#}",
+                "S_ .{@{#-dvAra#}@}"
+            ],
+            "_banner": ".{@{#-dvAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivftadvAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with the gates thrown open; <ls>Ku. 4. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 279373,
+            "_ancestry": [
+                "L_ 30291",
+                "B_ {#vivfta#}",
+                "S_ .{@{#-pOruza#}@}"
+            ],
+            "_banner": ".{@{#-pOruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivftapOruza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "displaying valour; {#nityaM vivftapOruzaH#} <ls>Ms. 7. 102</ls>.\n"
+            ]
+        },
+        {
+            "__line": 279374,
+            "_ancestry": [
+                "L_ 30291",
+                "B_ {#vivfta#}",
+                "S_ .{@{#-BAva#}@}"
+            ],
+            "_banner": ".{@{#-BAva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivftaBAva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "candid, sincere."
+            ]
+        }
     ]
 }

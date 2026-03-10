@@ -1,20 +1,38 @@
 {
-    "__line": 50603,
+    "__line": 47614,
     "_ancestry": [
         "L_ 5738",
-        "B_ {#Akazika#}"
+        "B_ {#avyasana#}"
     ],
-    "_banner": "{#Akazika#}",
+    "_banner": "{#avyasana#}",
     "_bannerExp": [
         {
-            "Right": "Akazika"
+            "Right": "avyasana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#AkazeRa carati zWal#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Testing, touching."
+        "Free from evil practices, not vicious, moral. {#DArmiko'vyasanaScEva#} <ls>Y. 1. 310</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 47615,
+            "_ancestry": [
+                "L_ 5738",
+                "B_ {#avyasana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avyasanam"
+                }
+            ],
+            "_meanings": [
+                "Absence of vice, morality, virtue."
+            ]
+        }
     ]
 }

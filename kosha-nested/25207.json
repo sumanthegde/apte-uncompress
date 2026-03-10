@@ -1,23 +1,80 @@
 {
-    "__line": 213556,
+    "__line": 226950,
     "_ancestry": [
         "L_ 25207",
-        "B_ {#valina, valiBa#}"
+        "B_ {#BuktiH#}"
     ],
-    "_banner": "{#valina, valiBa#}",
+    "_banner": "{#BuktiH#}",
     "_bannerExp": [
         {
-            "Right": "valiBa"
-        },
-        {
-            "Right": "valina"
+            "Right": "BuktiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#vali-na Ba vA#}]"
+        "{%f.%}",
+        "[{#Buj-ktin#}]"
     ],
     "_meanings": [
-        "Wrinkled, shriveled, contracted into\nwrinkles, flaccid; <ls>Śi. 6. 13.</ls>"
+        ".²1 Eating, enjoyment; {#BuktiM muktiM ca vindati#} <ls>Rāmarakṣā 12</ls>.\n",
+        ".²2 (In law) Possession, fruition; {#pramARaM liKitaM BuktiH sAkziRaSceti#}\n {#kIrtitam#} <ls>Y. 2. 22</ls>; <ls>Pt. 3. 94</ls>.\n",
+        ".²3 Food.\n",
+        ".²4 The daily motion of a planet.\n",
+        ".²5 A limit.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 226958,
+            "_ancestry": [
+                "L_ 25207",
+                "B_ {#BuktiH#}",
+                "S_ .{@{#-pAtram#}@}"
+            ],
+            "_banner": ".{@{#-pAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BuktipAtram"
+                }
+            ],
+            "_meanings": [
+                "a food-dish.\n"
+            ]
+        },
+        {
+            "__line": 226959,
+            "_ancestry": [
+                "L_ 25207",
+                "B_ {#BuktiH#}",
+                "S_ .{@{#-pradaH#}@}"
+            ],
+            "_banner": ".{@{#-pradaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BuktipradaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of plant ({#mudga#}).\n"
+            ]
+        },
+        {
+            "__line": 226960,
+            "_ancestry": [
+                "L_ 25207",
+                "B_ {#BuktiH#}",
+                "S_ .{@{#-varjita#}@}"
+            ],
+            "_banner": ".{@{#-varjita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Buktivarjita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not allowed to be enjoyed."
+            ]
+        }
     ]
 }

@@ -1,19 +1,139 @@
 {
-    "__line": 146884,
+    "__line": 153805,
     "_ancestry": [
         "L_ 17485",
-        "B_ {#nyAsin#}"
+        "B_ {#darSa#}"
     ],
-    "_banner": "{#nyAsin#}",
+    "_banner": "{#darSa#}",
     "_bannerExp": [
         {
-            "Right": "nyAsin"
+            "Right": "darSa"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "[{#dfS-BAve GaY#}]"
     ],
     "_meanings": [
-        "One who has \nrenounced all worldly ties, a Saṃnyāsin."
+        "Seeing, looking\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 153806,
+            "_ancestry": [
+                "L_ 17485",
+                "B_ {#darSa#}",
+                "M_ .{@{#-rSaH#}@}"
+            ],
+            "_banner": ".{@{#-rSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "darSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Sight, view, appearance (usually in <ab>comp.</ab>); {#durdarSaH, priyadarSaH#}\n <ab>&c.</ab> {#durdarSA kecidABAnti narAH kAzWamayA iva . priyadarSAstaTA cAnye#}\n {#darSanAdeva mAnavAH ..#} <ls>Mb. 13. 144. 45</ls>.\n",
+                ".²2 Ocular evidence or proof.\n",
+                ".²3 The day of the new moon ({#amAvAsyA#}); {#ekatrasTitacandArkadarSanAd#}\n {#darSa ucyate#}; {#Sakyate ca candrasyAdarSanena amAvAsyA darSa iti lakzayitum .#}\n {#yaTA cakzuzoraBAve sati cakzuzmAn iti cakzurByAM lakzyate .#} <ls>ŚB. on MS. 4. 4. 36</ls>.\n",
+                ".²4 The new moon.\n",
+                ".²5 The half-monthly sacrifice, a sacrificial rite performed on the day\n of the new moon. It comprises of the {#Agneya, EndrAgna#} and {#sAMnAgya yAga#}s.\n"
+            ]
+        },
+        {
+            "__line": 153817,
+            "_ancestry": [
+                "L_ 17485",
+                "B_ {#darSa#}",
+                "M_ .{@{#-darSa, -darSam#}@}"
+            ],
+            "_banner": ".{@{#-darSa, -darSam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "darSa"
+                },
+                {
+                    "Right": "darSam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "At every sight; <ls>Ks.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 153819,
+            "_ancestry": [
+                "L_ 17485",
+                "B_ {#darSa#}",
+                "S_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "darSapaH"
+                }
+            ],
+            "_meanings": [
+                "a god.\n"
+            ]
+        },
+        {
+            "__line": 153820,
+            "_ancestry": [
+                "L_ 17485",
+                "B_ {#darSa#}",
+                "S_ .{@{#-pUrRamAsanyAyaH#}@}"
+            ],
+            "_banner": ".{@{#-pUrRamAsanyAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "darSapUrRamAsanyAyaH"
+                }
+            ],
+            "_meanings": [
+                "The rule according to which the same act can\n be said to yield all desired objects but only one at a time (and not simultaneously).\n This is established by {#jEmini#} and {#Sabara#} in <ls>MS. 4. 3. 25-28</ls> (see\n {#yogasidDinyAya#}).\n"
+            ]
+        },
+        {
+            "__line": 153824,
+            "_ancestry": [
+                "L_ 17485",
+                "B_ {#darSa#}",
+                "S_ .{@{#-yAminI#}@}"
+            ],
+            "_banner": ".{@{#-yAminI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "darSayAminI"
+                }
+            ],
+            "_meanings": [
+                "the night of the new moon.\n"
+            ]
+        },
+        {
+            "__line": 153825,
+            "_ancestry": [
+                "L_ 17485",
+                "B_ {#darSa#}",
+                "S_ .{@{#-vipad#}@}"
+            ],
+            "_banner": ".{@{#-vipad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "darSavipad"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the moon."
+            ]
+        }
     ]
 }

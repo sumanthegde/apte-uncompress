@@ -1,19 +1,58 @@
 {
-    "__line": 54582,
+    "__line": 51857,
     "_ancestry": [
         "L_ 6192",
-        "B_ {#Adardira#}"
+        "B_ {#asevita#}"
     ],
-    "_banner": "{#Adardira#}",
+    "_banner": "{#asevita#}",
     "_bannerExp": [
         {
-            "Right": "Adardira"
+            "Right": "asevita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Crushing, \nsplitting open."
+        "Neglected; disused, abstained from.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 51859,
+            "_ancestry": [
+                "L_ 6192",
+                "B_ {#asevita#}",
+                "S_ .{@{#-ISvara#}@}"
+            ],
+            "_banner": ".{@{#-ISvara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aseviteSvara"
+                }
+            ],
+            "_meanings": [
+                "or "
+            ],
+            "_samasas": [
+                {
+                    "__line": 51859,
+                    "_ancestry": [
+                        "L_ 6192",
+                        "B_ {#asevita#}",
+                        "S_ .{@{#-ISvara#}@}",
+                        "S_S_ {#˚dvAra#}"
+                    ],
+                    "_banner": "{#˚dvAra#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aseviteSvaradvAra"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%a.%} not waiting at the doors of the rich or great. <ls>H.</ls>"
+                    ]
+                }
+            ]
+        }
     ]
 }

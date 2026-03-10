@@ -1,38 +1,63 @@
 {
-    "__line": 183886,
+    "__line": 198740,
     "_ancestry": [
         "L_ 22123",
-        "B_ {#BArya#}"
+        "B_ {#prage#}"
     ],
-    "_banner": "{#BArya#}",
+    "_banner": "{#prage#}",
     "_bannerExp": [
         {
-            "Right": "BArya"
+            "Right": "prage"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#Bf-Ryat#}]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "To be supported\nor cherished. "
+        "Early in the morning, at day-break; {#itTaM raTASveBanizAdinAM#}\n {#prage gaRo nfpARAmaTa toraRAd bahiH#} <ls>Śi. 12. 1</ls>; {#sAyaM snAyAt prage#}\n {#taTA#} <ls>Ms. 6. 6</ls>, <ls n=\"Ms.\">4. 62</ls>; {#aTa prage prajAnATaH sa AsTAya hayottamam#}\n <ls>Śiva B. 29. 65</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 183887,
+            "__line": 198745,
             "_ancestry": [
                 "L_ 22123",
-                "B_ {#BArya#}",
-                "M_ {#--ryaH#}"
+                "B_ {#prage#}",
+                "S_ .{@{#-tana#}@}"
             ],
-            "_banner": "{#--ryaH#}",
+            "_banner": ".{@{#-tana#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BAryaH"
+                    "Right": "pragetana"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "A servant, a \ndependant (to be supported)."
+                "to be performed in the morning; {#utTAya ca DOtavaktrO#}\n {#pragetanAni maNgalAnyanuzWAya#} <ls>Dk. 2. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 198747,
+            "_ancestry": [
+                "L_ 22123",
+                "B_ {#prage#}",
+                "S_ .{@{#-niSa, -Saya#}@}"
+            ],
+            "_banner": ".{@{#-niSa, -Saya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prageniSa"
+                },
+                {
+                    "Left": "S error: midAlign Saya niSaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "who is asleep at day-break; {#utsUryaSAyinaScAsan#}\n {#sarve cAsan prageniSAH#} <ls>Bm.</ls> {#nEnAnaByudiyAt sUryo na cApyAsan#}\n {#prageSayAH#} <ls>Mb. 12. 228. 37</ls>."
             ]
         }
     ]

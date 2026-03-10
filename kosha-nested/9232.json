@@ -1,17 +1,91 @@
 {
-    "__line": 78155,
+    "__line": 77579,
     "_ancestry": [
         "L_ 9232",
-        "B_ {#urvawaH#}"
+        "B_ {#udvega#}"
     ],
-    "_banner": "{#urvawaH#}",
+    "_banner": "{#udvega#}",
     "_bannerExp": [
         {
-            "Right": "urvawaH"
+            "Right": "udvega"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#udgato vego'smAt#}]"
+    ],
     "_meanings": [
-        "{@--1@} A calf. ",
-        "{@--2@} A year."
+        ".²1 Going swiftly (as an express messenger), courier.\n",
+        ".²2 Steady, calm, tranquil.\n",
+        ".²3 Ascending, mounting.\n",
+        ".²4 One whose arms by long practice continue always raised above the head\n (as an ascetic).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 77585,
+            "_ancestry": [
+                "L_ 9232",
+                "B_ {#udvega#}",
+                "M_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udvegaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Trembling, shaking, waving.\n",
+                ".²2 Agitation, excitement; {#harzAmarzaBayodvegErmukto yaH sa ca me priyaH#} <ls>Bg. 12. 15</ls>.\n",
+                ".²3 Alarm, fear; {#SAntodvegastimitanayanaM dfzwaBaktirBavAnyA#} <ls>Me. 38</ls>;\n {#sahasodvegamiyaM vrajediti#} <ls>R. 8. 7</ls>.\n",
+                ".²4 Anxiety, regret, sorrow, distress (caused by separation from oneʼs\n favourite object). {#nivasantyatra rAjendra gatodvegA nirutsukAH#} <ls>Mb. 3. 173. 14</ls>.\n",
+                ".²5 Admiration, astonishment.\n"
+            ]
+        },
+        {
+            "__line": 77593,
+            "_ancestry": [
+                "L_ 9232",
+                "B_ {#udvega#}",
+                "M_ .{@{#-gam#}@}"
+            ],
+            "_banner": ".{@{#-gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udvegam"
+                }
+            ],
+            "_meanings": [
+                "A betelnut (fruit.).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 77595,
+            "_ancestry": [
+                "L_ 9232",
+                "B_ {#udvega#}",
+                "S_ .{@{#-kara, -kAraka, -kArin#}@}"
+            ],
+            "_banner": ".{@{#-kara, -kAraka, -kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udvegakara"
+                },
+                {
+                    "Right": "udvegakAraka"
+                },
+                {
+                    "Right": "udvegakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Causing anxiety, agitation or distress; <ls>Pt.</ls>"
+            ]
+        }
     ]
 }

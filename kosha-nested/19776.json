@@ -1,20 +1,217 @@
 {
-    "__line": 165365,
+    "__line": 177511,
     "_ancestry": [
         "L_ 19776",
-        "B_ {#praRutta#}"
+        "B_ {#pawu#}"
     ],
-    "_banner": "{#praRutta#}",
+    "_banner": "{#pawu#}",
     "_bannerExp": [
         {
-            "Right": "praRutta"
+            "Right": "pawu"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Driven away, \n\nrepelled. ",
-        "{@--2@} Scared away."
+        "({#wu#} or {#wvI#} {%f.%}; <ab>compar.</ab> {#pawIyas#}, <ab>superl.</ab> {#pawizWa#})\n",
+        ".²1 Clever, skilful, dexterous, proficient; {#pAwIra tava pawIyAn kaH paripAwImimAmurIkartum#}\n <ls>Jag.</ls>; <ab>cf.</ab> also {#aGawitaGawanApawIyasI#}; (usually with a <ab>loc.</ab>)\n {#vAci pawuH#} <ab>&c.</ab>\n",
+        ".²2 Sharp, acrid, pungent.\n",
+        ".²3 Sharp, smart (as intellect), intelligent.\n",
+        ".²4 Violent, strong, sharp, intense; {#ayamapi pawurDArAsAro na bARaparaMparA#}\n <ls>V. 4. 1</ls>; <ls>U. 4. 3</ls>.\n",
+        ".²5 Shrill, clear, sharp-sounding; {#kimidaM pawupawahaSaNKamiSro nAndInAdaH#}\n <ls>Mu. 6</ls>; {#pawupawahaDvaniBirvinItanidraH#} <ls>R. 9. 71</ls>, <ls n=\"R. 9.\">73</ls>; <ls>Māl. 5. 4</ls>.\n",
+        ".²6 Apt, disposed; {#smartumaDigataguRasmaraRAH pawavo na dozamaKilaM KalUttamA#}; <ls>Śi. 15. 43</ls>.\n",
+        ".²7 Harsh, cruel, hard-hearted.\n",
+        ".²8 Sly, cunning, crafty, roguish.\n",
+        ".²9 Healthy, sound; {#mfdusUryAH sunIhArAH pawuSItAH samAhitAH#} ({#SUnyAraRyAH#})\n <ls>Rām. 3. 16. 12</ls>.\n",
+        ".²10 Active, busy.\n",
+        ".²11 Eloquent, talkative,\n",
+        ".²12 Blown, expanded.\n",
+        ".²13 Hard, rough, fierce.\n",
+        ".²14 Contumelious (as a speech).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 177531,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "M_ .{@{#-wuH, -wu#}@}"
+            ],
+            "_banner": ".{@{#-wuH, -wu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawuH"
+                },
+                {
+                    "Right": "pawu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "A mushroom ({#CatrA#}).\n"
+            ]
+        },
+        {
+            "__line": 177532,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "M_ .{@{#-wu#}@}"
+            ],
+            "_banner": ".{@{#-wu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "Salt.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 177534,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "S_ .{@{#-karaRa#}@}"
+            ],
+            "_banner": ".{@{#-karaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawukaraRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having sound organs.\n"
+            ]
+        },
+        {
+            "__line": 177535,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "S_ .{@{#-kalpa, -deSIya#}@}"
+            ],
+            "_banner": ".{@{#-kalpa, -deSIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawukalpa"
+                },
+                {
+                    "Right": "pawudeSIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Pretty clever, tolerably sharp.\n"
+            ]
+        },
+        {
+            "__line": 177536,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "S_ .{@{#-GaRwA#}@}"
+            ],
+            "_banner": ".{@{#-GaRwA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawuGaRwA"
+                }
+            ],
+            "_meanings": [
+                "a shrill bell; <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 177537,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "S_ .{@{#-tfRam, -tfRakam#}@}"
+            ],
+            "_banner": ".{@{#-tfRam, -tfRakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawutfRam"
+                },
+                {
+                    "Right": "pawutfRakam"
+                }
+            ],
+            "_meanings": [
+                "a kind of pungent grass.\n"
+            ]
+        },
+        {
+            "__line": 177538,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "S_ .{@{#-trayam#}@}"
+            ],
+            "_banner": ".{@{#-trayam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawutrayam"
+                }
+            ],
+            "_meanings": [
+                "a collection of three salts (<lang>Mar.</lang> <ns>{#sEMDava, biqaloRa#}</ns>\n {#va saMcaLaKAra#}).\n"
+            ]
+        },
+        {
+            "__line": 177540,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "S_ .{@{#-mati#}@}"
+            ],
+            "_banner": ".{@{#-mati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawumati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "clever-minded.\n"
+            ]
+        },
+        {
+            "__line": 177541,
+            "_ancestry": [
+                "L_ 19776",
+                "B_ {#pawu#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawurUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very clever."
+            ]
+        }
     ]
 }

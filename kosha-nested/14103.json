@@ -1,21 +1,58 @@
 {
-    "__line": 117934,
+    "__line": 120994,
     "_ancestry": [
         "L_ 14103",
-        "B_ {#jyut#}"
+        "B_ {#guRanIya#}"
     ],
-    "_banner": "{#jyut#}",
+    "_banner": "{#guRanIya#}",
     "_bannerExp": [
         {
-            "Right": "jyut"
+            "Right": "guRanIya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#jyotati-te#})"
+        "{%a.%}",
+        "[{#guR karaRe anIyar#}]"
     ],
     "_meanings": [
-        "To shine."
+        ".²1 To be multiplied.\n",
+        ".²2 To be enumerated.\n",
+        ".²3 To be advised.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 120998,
+            "_ancestry": [
+                "L_ 14103",
+                "B_ {#guRanIya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guRanIyaH"
+                }
+            ],
+            "_meanings": [
+                "Study, practice.\n"
+            ]
+        },
+        {
+            "__line": 120999,
+            "_ancestry": [
+                "L_ 14103",
+                "B_ {#guRanIya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "guRanIyam"
+                }
+            ],
+            "_meanings": [
+                "The multiplicand."
+            ]
+        }
     ]
 }

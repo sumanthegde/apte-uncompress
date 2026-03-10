@@ -1,57 +1,60 @@
 {
-    "__line": 126214,
+    "__line": 131488,
     "_ancestry": [
         "L_ 15192",
-        "B_ {#daBra#}"
+        "B_ {#Catrin#}"
     ],
-    "_banner": "{#daBra#}",
+    "_banner": "{#Catrin#}",
     "_bannerExp": [
         {
-            "Right": "daBra"
+            "Right": "Catrin"
+        },
+        {
+            "Right": "CatriRI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})"
     ],
     "_meanings": [
-        "Little, small;  \n{#adaBradarBAmaDiSayya sa sTalIM#} <ls>Ki. 1. 38</ls>; see {#adaBra#}.\n"
+        "Having or bearing an umbrella.\n"
     ],
     "_morphisms": [
         {
-            "__line": 126216,
+            "__line": 131489,
             "_ancestry": [
                 "L_ 15192",
-                "B_ {#daBra#}",
-                "M_ {#--BraH#}"
+                "B_ {#Catrin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--BraH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "daBraH"
+                    "Left": "Parser error: {#Catrin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "The ocean. "
+                "A barber.\n"
             ]
-        },
+        }
+    ],
+    "_samasas": [
         {
-            "__line": 126216,
+            "__line": 131491,
             "_ancestry": [
                 "L_ 15192",
-                "B_ {#daBra#}",
-                "M_ {#--BraM#}"
+                "B_ {#Catrin#}",
+                "S_ .{@{#-nyAyaH#}@}"
             ],
-            "_banner": "{#--BraM#}",
+            "_banner": ".{@{#-nyAyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "daBraM"
+                    "Right": "CatrinyAyaH"
                 }
             ],
-            "_gram": [
-                "{%<ab>ind.</ab>%}"
-            ],
             "_meanings": [
-                "A little,\nslightly, to some extent."
+                "‘the manner of applying the term {#Catrin#} to a king’,\n permitted synonym; <ls>Mbh. 3. 19</ls>."
             ]
         }
     ]

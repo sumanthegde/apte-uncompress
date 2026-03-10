@@ -1,19 +1,67 @@
 {
-    "__line": 225369,
+    "__line": 244421,
     "_ancestry": [
         "L_ 26728",
-        "B_ {#vismitiH#}"
+        "B_ {#mocana#}"
     ],
-    "_banner": "{#vismitiH#}",
+    "_banner": "{#mocana#}",
     "_bannerExp": [
         {
-            "Right": "vismitiH"
+            "Right": "mocana"
+        },
+        {
+            "Right": "mocanI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#muc-lyu lyuw vA#}]"
     ],
     "_meanings": [
-        "Astonishment, wonder,\nsurprise."
+        "Releasing, freeing from.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 244423,
+            "_ancestry": [
+                "L_ 26728",
+                "B_ {#mocana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mocanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Releasing, liberating, setting free, emancipating.\n",
+                ".²2 Unyoking.\n",
+                ".²3 Discharging, emitting.\n",
+                ".²4 Acquittance of a debt or obligation.\n",
+                ".²5 Arrogance, pride.\n",
+                ".²6 Deceit, fraud.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 244431,
+            "_ancestry": [
+                "L_ 26728",
+                "B_ {#mocana#}",
+                "S_ .{@{#-padfkaH#}@}"
+            ],
+            "_banner": ".{@{#-padfkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mocanapadfkaH"
+                }
+            ],
+            "_meanings": [
+                "a filter."
+            ]
+        }
     ]
 }

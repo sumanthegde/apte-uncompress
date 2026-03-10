@@ -1,20 +1,85 @@
 {
-    "__line": 257813,
+    "__line": 284318,
     "_ancestry": [
         "L_ 30765",
-        "B_ {#stavanaM#}"
+        "B_ {#vfzRi#}"
     ],
-    "_banner": "{#stavanaM#}",
+    "_banner": "{#vfzRi#}",
     "_bannerExp": [
         {
-            "Right": "stavanaM"
+            "Right": "vfzRi"
         }
     ],
     "_gram": [
-        "[{#stu-lyuw#}]"
+        "[{#vfzeH niH kicca#} <ls>Uṇ. 4. 50-51</ls>]",
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Praising,\npraise. ",
-        "{@--2@} A hymn."
+        ".²1 Heretical; heterodox.\n",
+        ".²2 Angry, passionate.\n",
+        ".²3 <ab>Ved.</ab> Raining. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 284321,
+            "_ancestry": [
+                "L_ 30765",
+                "B_ {#vfzRi#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vfzRi#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cloud.\n",
+                ".²2 A ram.\n",
+                ".²3 A ray of light.\n",
+                ".²4 <ab>N.</ab> of an ancestor of Kṛṣṇa.\n",
+                ".²5 <ab>N.</ab> of Kṛṣṇa.\n",
+                ".²6 Of Indra.\n",
+                ".²7 Of Agni.\n",
+                ".²8 Air, wind.\n",
+                ".²9 A heretic.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 284332,
+            "_ancestry": [
+                "L_ 30765",
+                "B_ {#vfzRi#}",
+                "S_ .{@{#-garBaH#}@}"
+            ],
+            "_banner": ".{@{#-garBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vfzRigarBaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Kṛṣṇa.\n"
+            ]
+        },
+        {
+            "__line": 284333,
+            "_ancestry": [
+                "L_ 30765",
+                "B_ {#vfzRi#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vfzRipAlaH"
+                }
+            ],
+            "_meanings": [
+                "a shepherd; {#kenApi kfpAlunA vfzRipAlena svakuwIramAveSya#} <ls>Dk. 1. 1</ls>."
+            ]
+        }
     ]
 }

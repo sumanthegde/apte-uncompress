@@ -1,20 +1,44 @@
 {
-    "__line": 244487,
+    "__line": 269606,
     "_ancestry": [
         "L_ 29118",
-        "B_ {#saniH#}"
+        "B_ {#vAstava#}"
     ],
-    "_banner": "{#saniH#}",
+    "_banner": "{#vAstava#}",
     "_bannerExp": [
         {
-            "Right": "saniH"
+            "Right": "vAstava"
+        },
+        {
+            "Right": "vAstavI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-vI#}|{%f.%})",
+        "[{#vastveva-aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} Worship, service. ",
-        "{@--2@} A\ngift, donation. ",
-        "{@--3@} An entreaty, a\nrespectful solicitation ({%<ab>f.</ab>%} also in\nthis sense). ",
-        "{@--4@} Obtaining. ",
-        "{@--5@} A\nquarter or point of the compass ({%<ab>f.</ab>%}\nalso)."
+        ".²1 Real, true, substantial; {#vedyaM vAstavamatra vastu SivadaM tApatrayonmUlanam#}\n <ls>Bhāg. 1. 1. 2</ls>.\n",
+        ".²2 Determined, fixed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 269611,
+            "_ancestry": [
+                "L_ 29118",
+                "B_ {#vAstava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAstavam"
+                }
+            ],
+            "_meanings": [
+                "Anything fixed or determined."
+            ]
+        }
     ]
 }

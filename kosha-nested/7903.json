@@ -1,17 +1,145 @@
 {
-    "__line": 68062,
+    "__line": 66050,
     "_ancestry": [
         "L_ 7903",
-        "B_ {#utpAdikA#}"
+        "B_ {#Asanna#}"
     ],
-    "_banner": "{#utpAdikA#}",
+    "_banner": "{#Asanna#}",
     "_bannerExp": [
         {
-            "Right": "utpAdikA"
+            "Right": "Asanna"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of a certain insect,\nthe white ant. ",
-        "{@--2@} A mother."
+        ".²1 Drawn near, approached, near (in time, place or number); {#AsannaviMSAH#}\n nearly or about 20; at hand, close by {#Asannameva nfpatirBajate manuzyam#}\n <ls>Pt.</ls>; impending, imminent; {#pUrvamAsannaSfNgA vE gAva ityanuSuSruma#}\n <ls>Mb. 13. 81. 13</ls>; {#Asannapatane kUle#} <ls>Ś. B.</ls>; {#˚maraRa ˚kAla#} <ab>q. v.</ab>\n",
+        ".²2 Adjacent, adjoining.\n",
+        ".²3 Well-placed.\n",
+        ".²4 about to die.\n",
+        ".²5 Obtained, got; {#bAhvorAsannAmatimAtraM nananda#} <ls>Rām. 5. 63. 33</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 66059,
+            "_ancestry": [
+                "L_ 7903",
+                "B_ {#Asanna#}",
+                "M_ .{@{#-nnaH#}@}"
+            ],
+            "_banner": ".{@{#-nnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsannaH"
+                }
+            ],
+            "_meanings": [
+                "The setting sun.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 66061,
+            "_ancestry": [
+                "L_ 7903",
+                "B_ {#Asanna#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsannakAlaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the hour of death.\n",
+                ".²2 one whose death is near.\n"
+            ]
+        },
+        {
+            "__line": 66064,
+            "_ancestry": [
+                "L_ 7903",
+                "B_ {#Asanna#}",
+                "S_ .{@{#-cara#}@}"
+            ],
+            "_banner": ".{@{#-cara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Asannacara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "moving round about in the proximity; <ls>Ku.</ls>\n"
+            ]
+        },
+        {
+            "__line": 66065,
+            "_ancestry": [
+                "L_ 7903",
+                "B_ {#Asanna#}",
+                "S_ .{@{#-paricArakaH, -cArikA#}@}"
+            ],
+            "_banner": ".{@{#-paricArakaH, -cArikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsannaparicArakaH"
+                },
+                {
+                    "Left": "S error: midAlign cArikA paricArikA"
+                }
+            ],
+            "_meanings": [
+                "personal attendant, body-guard; <ls>U. 1</ls>; <ls>Ś. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 66066,
+            "_ancestry": [
+                "L_ 7903",
+                "B_ {#Asanna#}",
+                "S_ .{@{#-prasava#}@}"
+            ],
+            "_banner": ".{@{#-prasava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Asannaprasava"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "about to be confined or delivered; about to bring\n forth or lay eggs (as a hen <ab>&c.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 66068,
+            "_ancestry": [
+                "L_ 7903",
+                "B_ {#Asanna#}",
+                "S_ .{@{#-mftyu, -SarIrapAta#}@}"
+            ],
+            "_banner": ".{@{#-mftyu, -SarIrapAta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Asannamftyu"
+                },
+                {
+                    "Right": "AsannaSarIrapAta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose death has drawn near; {#AsInamAsannaSarIrapAtastriyambakaM#}\n {#saMyaminaM dadarSa#} <ls>Ku. 3. 44</ls>."
+            ]
+        }
     ]
 }

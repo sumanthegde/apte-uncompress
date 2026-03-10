@@ -1,21 +1,275 @@
 {
-    "__line": 144177,
+    "__line": 149536,
     "_ancestry": [
         "L_ 17146",
-        "B_ {#niScar#}"
+        "B_ {#datta#}"
     ],
-    "_banner": "{#niScar#}",
+    "_banner": "{#datta#}",
     "_bannerExp": [
         {
-            "Right": "niScar"
+            "Right": "datta"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%<ab>p. p.</ab>%}",
+        "[{#dA karmaRi-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} To issue, go out.\n",
-        "{@--2@} To arise, be produced, appear."
+        ".²1 Given, given away, presented.\n",
+        ".²2 Made over, delivered, assigned.\n",
+        ".²3 Placed, stretched forth.\n",
+        ".²4 Preserved, guarded; see {#dA#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 149541,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "M_ .{@{#-ttaH#}@}"
+            ],
+            "_banner": ".{@{#-ttaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 One of the twelve kinds of sons in Hindu law; (also called {#dattrima#});\n {#mAtA pitA vA dadyAtAM yamadBiH putramApadi . sadfSaM prItisaMyuktaM#}\n {#sa jYeyo datrimaH sutaH ..#} <ls>Ms. 9. 168</ls>.\n",
+                ".²2 A title added to the names of Vaiśyas; <ab>cf.</ab> the quotation under {#gupta#}.\n",
+                ".²3 <ab>N.</ab> of a son of Atri and Anasūyā; see {#dattAtreya#} below.\n"
+            ]
+        },
+        {
+            "__line": 149547,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "M_ .{@{#-ttam#}@}"
+            ],
+            "_banner": ".{@{#-ttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattam"
+                }
+            ],
+            "_meanings": [
+                "Gift, donation; {#ya ime grAma izwApUrte dattamityupAsate#}\n <ls>Ch. Up. 5. 10. 3</ls>; {#svadattakftasAkzI yo dvitIya iva pAvakaH#} <ls>Rām. 7. 20. 29</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 149550,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-anapa(pA)karman, -apradAnikam#}@}"
+            ],
+            "_banner": ".{@{#-anapa(pA)karman, -apradAnikam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#datta#} S_ .{@{#-anapa(pA)karman, -apradAnikaM#}@}"
+                }
+            ],
+            "_meanings": [
+                "non-delivery\n or resumption of gifts, one of the 18 titles of Hindu law; <ls>Ms. 8. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149552,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-avaDAna#}@}"
+            ],
+            "_banner": ".{@{#-avaDAna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattAvaDAna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "attentive; {#dattAvaDAnaH kusftizviva DyAnaM tatAna#}\n {#saH#} <ls>Ks. 24. 98</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149554,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattAtman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an orphan or a son who being deserted by his parents,\n offers himself to persons disposed to adopt him; {#dattAtmA tu svayaM#}\n {#dattaH#} <ls>Y. 2. 131</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149557,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-AtreyaH#}@}"
+            ],
+            "_banner": ".{@{#-AtreyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattAtreyaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a sage, son of Atri and Anasūyā, considered as\n an incarnation of Brahmā, Viṣṇu and Maheśa; <ls>Bhāg. 9. 23. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149559,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-Adatta#}@}"
+            ],
+            "_banner": ".{@{#-Adatta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattAdatta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "given and received.\n"
+            ]
+        },
+        {
+            "__line": 149560,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-Adara#}@}"
+            ],
+            "_banner": ".{@{#-Adara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattAdara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 showing respect, respectful.\n",
+                ".²2 treated with respect.\n"
+            ]
+        },
+        {
+            "__line": 149564,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-kzaRa#}@}"
+            ],
+            "_banner": ".{@{#-kzaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattakzaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "to whom occasion or a festival has been given; {#reme#}\n {#kzaRadayA dattakzaRastrIkzaRasOhfdaH#} <ls>Bhāg. 3. 3. 21</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149566,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-dfzwi#}@}"
+            ],
+            "_banner": ".{@{#-dfzwi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattadfzwi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "looking at; <ls>Ś. 1. 7</ls> (<ab>v. l.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 149567,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-nftyopahAra#}@}"
+            ],
+            "_banner": ".{@{#-nftyopahAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattanftyopahAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "presented with the offering of a dance, {%<ab>i. e.</ab>%}\n complimented with a dance; {#banDuprItyA BavanaSiKiBirdattanftyopahAraH#} <ls>Me. 34</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149569,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-SulkA#}@}"
+            ],
+            "_banner": ".{@{#-SulkA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattaSulkA"
+                }
+            ],
+            "_meanings": [
+                "a bride for whom a dowry has been paid; <ls>Ms. 9. 97</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149570,
+            "_ancestry": [
+                "L_ 17146",
+                "B_ {#datta#}",
+                "S_ .{@{#-hasta#}@}"
+            ],
+            "_banner": ".{@{#-hasta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dattahasta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a hand given for support, supported by the\n hand of; {#SaMBunA dattahastA#} <ls>Me. 60</ls> ‘leaning on Śambhuʼs arm’; {#sa#}\n {#kAmarUpeSvaradattahastaH#} <ls>R. 7. 17</ls>; (<ab>fig.</ab>) being given a helping hand,\n supported, aided, assisted; {#dEvenetTaM dattahastAvalambe#} <ls>Ratn. 1. 8</ls>;\n {#vAtyA svedaM kfSANgyAH suciramavayavErdattahastA karoti#} <ls>Ve. 2. 21</ls>."
+            ]
+        }
     ]
 }

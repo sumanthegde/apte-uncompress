@@ -1,23 +1,40 @@
 {
-    "__line": 74216,
+    "__line": 73005,
     "_ancestry": [
         "L_ 8687",
-        "B_ {#upanyasta#}"
+        "B_ {#uttaraNga#}"
     ],
-    "_banner": "{#upanyasta#}",
+    "_banner": "{#uttaraNga#}",
     "_bannerExp": [
         {
-            "Right": "upanyasta"
+            "Right": "uttaraNga"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Placed near, \ndeposited. ",
-        "{@--2@} Said, proposed, spoken.\n",
-        "{@--3@} Pledged, entrusted. ",
-        "{@--4@} Given,\ncommunicated. ",
-        "{@--5@} Brought \nforward as an example, adduced,\nhinted."
+        ".²1 Ruffled or washed by waves, inundated; trembling, tremulous; {#kaSAprahAraBayena#}\n {#jAtakampottaraNgAH#} ({#turaNgAH#}) <ls>Mu. 6. 3</ls>.\n",
+        ".²2 With surging waves; {#pratyagrahIt pArTivavAhinIM tAM BAgIraTIM SoRa#}\n {#ivottaraNgaH#} <ls>R. 7. 36</ls>; <ls>Ku. 3. 48</ls>.\n",
+        ".²3 Bouncing; <ls>Dk. 1</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 73011,
+            "_ancestry": [
+                "L_ 8687",
+                "B_ {#uttaraNga#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uttaraH"
+                }
+            ],
+            "_meanings": [
+                "A high wave. <ls>Ks. 123. 196</ls>."
+            ]
+        }
     ]
 }

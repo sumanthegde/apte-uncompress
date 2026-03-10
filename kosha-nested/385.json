@@ -1,41 +1,77 @@
 {
-    "__line": 5934,
+    "__line": 4551,
     "_ancestry": [
         "L_ 385",
-        "B_ {#ajAgara#}"
+        "B_ {#acCidra#}"
     ],
-    "_banner": "{#ajAgara#}",
+    "_banner": "{#acCidra#}",
     "_bannerExp": [
         {
-            "Right": "ajAgara"
+            "Right": "acCidra"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na#}. {#ba#}.]"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "Not wakeful,\nnot requiring keeping up. "
+        "Unbroken, uninjured, complete, unimpaired,\n without holes or weak points, faultless, without defect; {#acCidrEH sustamBErmantriBiH#}\n <ls>Pt. 1. 126</ls>; {#japacCidraM#}\n\n {#tapacCidraM yacCidraM SrAdDakarmaRi . sarvaM Bavatu me'cCidraM brAhmaRAnAM#}\n {#prasAdataH ..#}; {#tattaTA kriyatAM rAjanyaTA'cCidraH katurBavet#} <ls>Rām.</ls>, {#˚Uti#}\n giving perfect protection <ls>Rv. 1. 245. 3</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 5935,
+            "__line": 4558,
             "_ancestry": [
                 "L_ 385",
-                "B_ {#ajAgara#}",
-                "M_ {#--raH#}"
+                "B_ {#acCidra#}",
+                "M_ .{@{#-dram#}@}"
             ],
-            "_banner": "{#--raH#}",
+            "_banner": ".{@{#-dram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ajAgaraH"
+                    "Right": "acCidram"
+                }
+            ],
+            "_meanings": [
+                "A faultless action or condition, absence of defect; {#˚dreRa#}\n uninterruptedly, from first to last.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 4561,
+            "_ancestry": [
+                "L_ 385",
+                "B_ {#acCidra#}",
+                "S_ .{@{#-UDan#}@}"
+            ],
+            "_banner": ".{@{#-UDan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "acCidroDan"
                 }
             ],
             "_gram": [
-                "[ \n{#jAgarayatIti jAgaraH na jAgaro yasmAt#}]"
+                "[{@{#UDnI#}@}]"
             ],
             "_meanings": [
-                "A\nplant, Verbesina Prostrata ( \n{#BfMgarAjavfkza#}) ({#sevanena nidrArAhityakArakaH, yadapekzayA#}\n{#anyasmin jAgaraRakartftvaM nAsti#}.)"
+                "having a faultless udder. {#acCidroDnI pIpayadyaTA#}\n {#naH sahasraDArA payasA mahI gOH ..#} <ls>Rv. 10. 133. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 4563,
+            "_ancestry": [
+                "L_ 385",
+                "B_ {#acCidra#}",
+                "S_ .{@{#-kARqam#}@}"
+            ],
+            "_banner": ".{@{#-kARqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "acCidrakARqam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a chapter of the {#tEttirIya brAhmaRa#}."
             ]
         }
     ]

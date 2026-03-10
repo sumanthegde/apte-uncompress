@@ -1,57 +1,56 @@
 {
-    "__line": 95948,
+    "__line": 95625,
     "_ancestry": [
         "L_ 11436",
-        "B_ {#kfzakaH#}"
+        "B_ {#kandukaH#}, {#-kam#}"
     ],
-    "_banner": "{#kfzakaH#}",
+    "_banner": "{#kandukaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "kfzakaH"
+            "Right": "kandukaH"
+        },
+        {
+            "Right": "kandukam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#kfz-kvun#}]"
-    ],
     "_meanings": [
-        "{@--1@} Attractive,\ndrawing. ",
-        "{@--2@} Ploughing. "
+        "A ball for playing with; {#pAtito'pi karAGAtErutpatatyeva#}\n {#kandukaH#} <ls>Bh. 2. 83</ls>; <ls>Ku. 1. 29</ls>, <ls n=\"Ku.\">5. 11</ls>, <ls n=\"Ku. 5.\">19</ls>; <ls>R. 16. 83</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 95949,
+            "__line": 95628,
             "_ancestry": [
                 "L_ 11436",
-                "B_ {#kfzakaH#}",
-                "M_ {#--kaH#}"
+                "B_ {#kandukaH#}, {#-kam#}",
+                "M_ .{@{#-kam#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-kam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kfzakaH"
+                    "Right": "kandukam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A\nploughman, husbandman. ",
-                "{@--2@} An ox.\n"
+                "A pillow; {#BUH paryaNko nijaBujalatA kandukaM KaM vitAnam#} <ls>Bh. 3. 145</ls>.\n"
             ]
-        },
+        }
+    ],
+    "_samasas": [
         {
-            "__line": 95951,
+            "__line": 95630,
             "_ancestry": [
                 "L_ 11436",
-                "B_ {#kfzakaH#}",
-                "M_ {#--kaM#}"
+                "B_ {#kandukaH#}, {#-kam#}",
+                "S_ .{@{#-lIlA#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-lIlA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kfzakaM"
+                    "Right": "kandukalIlA"
                 }
             ],
             "_meanings": [
-                "A ploughshare. (also {%<ab>m.</ab>%})."
+                "any game with a ball."
             ]
         }
     ]

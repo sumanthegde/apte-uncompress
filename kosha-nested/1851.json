@@ -1,20 +1,61 @@
 {
-    "__line": 18330,
+    "__line": 16181,
     "_ancestry": [
         "L_ 1851",
-        "B_ {#anurud#}"
+        "B_ {#anunnata#}"
     ],
-    "_banner": "{#anurud#}",
+    "_banner": "{#anunnata#}",
     "_bannerExp": [
         {
-            "Right": "anurud"
+            "Right": "anunnata"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To weep along with,\ncondole with, sympathize;  \n{#guruSokAmanuroditIva mAM#} <ls>Ku. 4. 15</ls>; {#anuroditIva#}\n{#karuRena patriRAM#} <ls>Śi. 4. 47.</ls>"
+        "Not raised or elevated, not lifted up.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 16183,
+            "_ancestry": [
+                "L_ 1851",
+                "B_ {#anunnata#}",
+                "S_ .{@{#-Anata#}@}"
+            ],
+            "_banner": ".{@{#-Anata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anunnatAnata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "level (neither raised nor lowered).\n"
+            ]
+        },
+        {
+            "__line": 16184,
+            "_ancestry": [
+                "L_ 1851",
+                "B_ {#anunnata#}",
+                "S_ .{@{#-gAtra#}@}"
+            ],
+            "_banner": ".{@{#-gAtra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anunnatagAtra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having limbs not stout or prominent."
+            ]
+        }
     ]
 }

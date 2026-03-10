@@ -1,19 +1,80 @@
 {
-    "__line": 175453,
+    "__line": 189716,
     "_ancestry": [
         "L_ 21193",
-        "B_ {#prAyaSas#}"
+        "B_ {#pArizada#}"
     ],
-    "_banner": "{#prAyaSas#}",
+    "_banner": "{#pArizada#}",
     "_bannerExp": [
         {
-            "Right": "prAyaSas"
+            "Right": "pArizada"
+        },
+        {
+            "Right": "pArizadI"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "({#-dI#}|{%f.%})"
     ],
     "_meanings": [
-        "Generally, mostly,\nfor the most part, in all probability;\n{#ASAbaMDaH kusumasadfSaM prAyaSo hyaMganAnAM#}\n{#sadyaHpAti praRayi hfdayaM viprayoge ruRadDi#} \n\n<ls>Me. 10.</ls>"
+        "Belonging to an assembly or council.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 189718,
+            "_ancestry": [
+                "L_ 21193",
+                "B_ {#pArizada#}",
+                "M_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArizadaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A person present at an assembly, a member of an assembly, such as an assessor.\n",
+                ".²2 A kingʼs companion.\n"
+            ]
+        },
+        {
+            "__line": 189721,
+            "_ancestry": [
+                "L_ 21193",
+                "B_ {#pArizada#}",
+                "M_ .{@{#-dAH#}@}"
+            ],
+            "_banner": ".{@{#-dAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArizadAH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) The retinue of a god; {#tiTizviva mahAdevo vftaH#}\n {#pArizadAM gaREH#} <ls>Rām. 3. 25. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 189723,
+            "_ancestry": [
+                "L_ 21193",
+                "B_ {#pArizada#}",
+                "M_ .{@{#-dam#}@}"
+            ],
+            "_banner": ".{@{#-dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pArizadam"
+                }
+            ],
+            "_meanings": [
+                "Taking part in an assembly."
+            ]
+        }
     ]
 }

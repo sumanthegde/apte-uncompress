@@ -1,41 +1,202 @@
 {
-    "__line": 115893,
+    "__line": 118598,
     "_ancestry": [
         "L_ 13856",
-        "B_ {#jAgrat#}"
+        "B_ {#gara#}"
     ],
-    "_banner": "{#jAgrat#}",
+    "_banner": "{#gara#}",
     "_bannerExp": [
         {
-            "Right": "jAgrat"
+            "Right": "gara"
+        },
+        {
+            "Right": "garI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#gIryate gF-karmAdO ac#}]"
     ],
     "_meanings": [
-        "{@--1@} Watching, being \nawake. ",
-        "{@--2@} Attentive, careful, \nwatchful. ",
-        "{@--3@} Clear, bright. "
+        "Swallowing.\n"
     ],
     "_morphisms": [
         {
-            "__line": 115895,
+            "__line": 118599,
             "_ancestry": [
                 "L_ 13856",
-                "B_ {#jAgrat#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#gara#}",
+                "M_ .{@{#-raH#}@}"
             ],
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "jAgrat"
+                    "Right": "garaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Any drink or fluid, beverage.\n",
+                ".²2 Sickness, disease.\n",
+                ".²3 Swallowing ({#garA#} also in this sense).\n",
+                ".²4 A factitious poison.\n"
+            ]
+        },
+        {
+            "__line": 118604,
+            "_ancestry": [
+                "L_ 13856",
+                "B_ {#gara#}",
+                "M_ .{@{#-raH, -ram#}@}"
+            ],
+            "_banner": ".{@{#-raH, -ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garaH"
+                },
+                {
+                    "Right": "garam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Poison.\n",
+                ".²2 An antidote.\n"
+            ]
+        },
+        {
+            "__line": 118607,
+            "_ancestry": [
+                "L_ 13856",
+                "B_ {#gara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Sprinkling, wetting.\n",
+                ".²2 The fifth of the eleven Karaṇas.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 118611,
+            "_ancestry": [
+                "L_ 13856",
+                "B_ {#gara#}",
+                "S_ .{@{#-aDikA#}@}"
+            ],
+            "_banner": ".{@{#-aDikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garADikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the insect called Lākṣā.\n",
+                ".²2 the red dye obtained from it.\n"
+            ]
+        },
+        {
+            "__line": 118614,
+            "_ancestry": [
+                "L_ 13856",
+                "B_ {#gara#}",
+                "S_ .{@{#-Gna#}@}"
+            ],
+            "_banner": ".{@{#-Gna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garaGna"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "<ab>Ved.</ab>\nDreaming in a waking state, \ndaydream."
+                ".²1 destroying poison.\n",
+                ".²2 healthy.\n"
+            ]
+        },
+        {
+            "__line": 118617,
+            "_ancestry": [
+                "L_ 13856",
+                "B_ {#gara#}",
+                "S_ .{@{#-SrIH#}@}"
+            ],
+            "_banner": ".{@{#-SrIH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garaSrIH"
+                }
+            ],
+            "_meanings": [
+                "a kind of fish.\n"
+            ]
+        },
+        {
+            "__line": 118618,
+            "_ancestry": [
+                "L_ 13856",
+                "B_ {#gara#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "poisoning, giving poison.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 118619,
+                    "_ancestry": [
+                        "L_ 13856",
+                        "B_ {#gara#}",
+                        "S_ .{@{#-da#}@}",
+                        "S_M_ ({@{#-daH, -dam#}@}"
+                    ],
+                    "_banner": "({@{#-daH, -dam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "garadaH"
+                        },
+                        {
+                            "Right": "garadam"
+                        }
+                    ],
+                    "_meanings": [
+                        "poison; {#agAradAhI garadaH#} <ls>Ms. 3. 158</ls>; {#kiM kurmaH#}\n {#kaM prati brUmo garadAyAM svamAtari#} <ls>Udb.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 118621,
+            "_ancestry": [
+                "L_ 13856",
+                "B_ {#gara#}",
+                "S_ .{@{#-vrataH#}@}"
+            ],
+            "_banner": ".{@{#-vrataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garavrataH"
+                }
+            ],
+            "_meanings": [
+                "a peacock."
             ]
         }
     ]

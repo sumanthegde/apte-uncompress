@@ -1,244 +1,1100 @@
 {
-    "__line": 201073,
+    "__line": 212563,
     "_ancestry": [
         "L_ 23824",
-        "B_ {#yugaM#}"
+        "B_ {#prAc, prAYc#}"
     ],
-    "_banner": "{#yugaM#}",
+    "_banner": "{#prAc, prAYc#}",
     "_bannerExp": [
         {
-            "Right": "yugaM"
+            "Right": "prAc"
+        },
+        {
+            "Right": "prAYc"
+        },
+        {
+            "Right": "prAcI"
+        },
+        {
+            "Right": "prAYcI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-cI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} A yoke (<ab>m.</ab> also in this\nsense); {#yugavyAyataba huH#} <ls>R. 3. 34</ls>,  \n<ls n=\"R.\">10. 87</ls>; <ls>Śi. 3. 68.</ls> ",
-        "{@--2@} A pair, couple,\nbrace; {#kucayoryugena tarasA kalitA#}  \n<ls>Śi. 9. 72</ls>; {#stanayuga#} <ls>Ś. 1. 19.</ls> ",
-        "{@--3@} A couple\nof stanzas forming one sentence;\nsee {#yugma#}. ",
-        "{@--4@} An age of the world;\n(the Yugas are four:-- {#kf ta#} or {#satya#},\n{#tretA, dvApara#} and {#kali#}; the duration of\neach is said to be respectively\n1,728,000; 1,296,000; 864,000;\nand 432,000 years of men, the four\ntogether comprising 4,320,000 years\nof men which is equal to one \nMahāyuga <ab>q. v.</ab>; it is also supposed that\nthe regularly descending length of\nthe Yugas represents a \ncorresponding physical and moral deterioration\nin the people who live during each\nage, {%Kṛta%} being called the ‘golden’\nand {%Kali%} or the present age the\n‘iron’ age); {#DarmasaMsTApanArTAya#} \n{#saMBavAmi yuge yuge#} <ls>Bg. 4. 8</ls>;  \n{#yugaSataparivartAn#} <ls>Ś. 7. 34.</ls> ",
-        "{@--5@} (Hence) A long\nperiod of years. ",
-        "{@--6@} A generation,\nlife; {#AsaptamAd yugAt#} <ls>Ms. 10. 64</ls>;  \n{#jAtyutkarzo yuge jYeyaH paMcame saptame'pi vA#}  \n<ls>Y. 1. 96</ls> ({#yuge#} = {#janmani#} <ls>Mit.</ls>). ",
-        "{@--7@} An \nexpression for the number ‘four’,\nrarely for ‘twelve’. ",
-        "{@--8@} A period\nof five years. ",
-        "{@--9@} A measure of length\nequal to four {%Hastas%}. ",
-        "{@--10@} A part of\na chariot or plough. "
+        ".²1 Turned towards the front, in front, foremost.\n",
+        ".²2 Eastern, easterly.\n",
+        ".²3 Prior, previous, former. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 212566,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#prAc#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>)\n",
+                ".²1 The people of the east.\n",
+                ".²2 Eastern grammarians.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 201105,
+            "__line": 212570,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_  {#--aMSakaH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-agra#}@}"
             ],
-            "_banner": " {#--aMSakaH#}",
+            "_banner": ".{@{#-agra#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugAMSakaH"
+                    "Right": "prAgagra"
                 }
             ],
+            "_gram": [
+                "{%a.%}",
+                "({#prAgagra#})"
+            ],
             "_meanings": [
-                "a year. "
+                "having the point turned towards the east.\n"
             ]
         },
         {
-            "__line": 201106,
+            "__line": 212571,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--aDyakzaH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-anurAgaH#}@}"
             ],
-            "_banner": "{#--aDyakzaH#}",
+            "_banner": ".{@{#-anurAgaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugADyakzaH"
+                    "Right": "prAganurAgaH"
                 }
             ],
+            "_gram": [
+                "({#prAganurAgaH#})"
+            ],
             "_meanings": [
-                "{1} <ab>N.</ab> of Prajāpati.\n",
-                "{2} of Śiva. "
+                "former affection.\n"
             ]
         },
         {
-            "__line": 201107,
+            "__line": 212572,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--aMtaH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-aBAvaH#}@}"
             ],
-            "_banner": "{#--aMtaH#}",
+            "_banner": ".{@{#-aBAvaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugAMtaH"
+                    "Right": "prAgaBAvaH"
                 }
             ],
+            "_gram": [
+                "({#prAgaBAvaH#})"
+            ],
             "_meanings": [
-                "{1} the end of\nthe yoke. ",
-                "{2} the end of an age,\nend or destruction of the world;\n{#yugAMtakAlapratisaMhftAtmano jagaMti yasyAM#}\n{#savikASamAsata#} <ls>Śi. 1. 23</ls>; <ls>R. 13. 6.</ls> ",
-                "{3}\nmeridian, midday. "
+                ".²1 antecedent non-existence, non-existence of a thing previous to its\n production, as of an effect previous to its production; {#prAgaBAvastaTA#}\n {#DvaMso'pyatyantABAva eva ca . evaM trEviDyamApannaH saMsargABAva izyate ..#}\n <ls>Bhāṣā P.</ls>\n",
+                ".²2 (in law) non-possession of property (that may be possessed).\n"
             ]
         },
         {
-            "__line": 201112,
+            "__line": 212578,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--aMtara#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-aBihita#}@}"
             ],
-            "_banner": "{#--aMtara#}",
+            "_banner": ".{@{#-aBihita#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugAMtara"
+                    "Right": "prAgaBihita"
                 }
             ],
+            "_gram": [
+                "({#prAgaBihita#})",
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{1} a kind\nof yoke. ",
-                "{2} a succeeding \ngeneration. ",
-                "{3} another division of the sky;\n{#yugAMtaramArUQaH savitA#} <ls>Ś. 4.</ls> "
+                "mentioned before.\n"
             ]
         },
         {
-            "__line": 201115,
+            "__line": 212579,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--avaDiH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-avasTA#}@}"
             ],
-            "_banner": "{#--avaDiH#}",
+            "_banner": ".{@{#-avasTA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugAvaDiH"
+                    "Right": "prAgavasTA"
                 }
             ],
+            "_gram": [
+                "({#prAgavasTA#})"
+            ],
             "_meanings": [
-                "end or destruction of the world;  \n<ls>Śi. 17. 40.</ls> "
+                "the former state; {#na tarhi prAgavasTAyAH#}\n {#parihIyase#} <ls>Māl. 4</ls> ‘you are none the worse for it’.\n"
             ]
         },
         {
-            "__line": 201117,
+            "__line": 212581,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--AdyA#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-Ayata#}@}"
             ],
-            "_banner": "{#--AdyA#}",
+            "_banner": ".{@{#-Ayata#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugAdyA"
+                    "Right": "prAgAyata"
                 }
             ],
+            "_gram": [
+                "({#prAgAyata#})",
+                "{%a.%}"
+            ],
             "_meanings": [
-                "the first day of a\nYuga. "
+                "extending towards the east.\n"
             ]
         },
         {
-            "__line": 201118,
+            "__line": 212582,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--kIlakaH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-uktiH#}@}"
             ],
-            "_banner": "{#--kIlakaH#}",
+            "_banner": ".{@{#-uktiH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugakIlakaH"
+                    "Right": "prAguktiH"
                 }
             ],
+            "_gram": [
+                "{%f.%}",
+                "({#prAguktiH#})"
+            ],
             "_meanings": [
-                "the pin of a yoke.\n"
+                "previous utterance.\n"
             ]
         },
         {
-            "__line": 201119,
+            "__line": 212583,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--kzayaH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-uttara#}@}"
             ],
-            "_banner": "{#--kzayaH#}",
+            "_banner": ".{@{#-uttara#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugakzayaH"
+                    "Right": "prAguttara"
                 }
             ],
+            "_gram": [
+                "({#prAguttara#})",
+                "{%a.%}"
+            ],
             "_meanings": [
-                "destruction of the world.\n"
+                "north-eastern.\n"
             ]
         },
         {
-            "__line": 201120,
+            "__line": 212584,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--DaraH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-utpattiH#}@}"
             ],
-            "_banner": "{#--DaraH#}",
+            "_banner": ".{@{#-utpattiH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugaDaraH"
+                    "Right": "prAgutpattiH"
                 }
             ],
+            "_gram": [
+                "({#prAgutpattiH#})"
+            ],
             "_meanings": [
-                "the pole of a carriage. "
+                "first appearance\n\n (of a disease).\n"
             ]
         },
         {
-            "__line": 201120,
+            "__line": 212587,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--patraH#}\n{#--patrakaH#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-udaYc#}@}"
             ],
-            "_banner": "{#--patraH#}\n{#--patrakaH#}",
+            "_banner": ".{@{#-udaYc#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugapatraH"
+                    "Right": "prAgudaYc"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#prAgudaYc#})"
+            ],
+            "_meanings": [
+                "north-eastern.\n"
+            ]
+        },
+        {
+            "__line": 212588,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-udIcI#}@}"
+            ],
+            "_banner": ".{@{#-udIcI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgudIcI"
+                }
+            ],
+            "_gram": [
+                "({#prAgudIcI#})",
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the north-east.\n"
+            ]
+        },
+        {
+            "__line": 212589,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkkarman"
+                }
+            ],
+            "_gram": [
+                "({#prAkkarman#})",
+                "{%n.%}"
+            ],
+            "_meanings": [
+                ".²1 an action done in a former life.\n",
+                ".²2 a preliminary medical treatment.\n",
+                ".²3 a preliminary action in general.\n"
+            ]
+        },
+        {
+            "__line": 212593,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkkAlaH"
+                }
+            ],
+            "_gram": [
+                "({#prAkkAlaH#})"
+            ],
+            "_meanings": [
+                "a former age.\n"
+            ]
+        },
+        {
+            "__line": 212594,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-kAlIna#}@}"
+            ],
+            "_banner": ".{@{#-kAlIna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkkAlIna"
+                }
+            ],
+            "_gram": [
+                "({#prAkkAlIna#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to the former times, old, ancient.\n"
+            ]
+        },
+        {
+            "__line": 212595,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-kUla#}@}"
+            ],
+            "_banner": ".{@{#-kUla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkkUla"
+                }
+            ],
+            "_gram": [
+                "({#prAkkUla#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the points turned towards\n the east (said of Kuśa grass); {#prAkkUlAn#} {#paryupAsInaH pavitrEScEva#}\n {#pAvitaH#} <ls>Ms. 2. 75</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 212598,
+                    "_ancestry": [
+                        "L_ 23824",
+                        "B_ {#prAc, prAYc#}",
+                        "S_ .{@{#-kUla#}@}",
+                        "S_M_ ({@{#-lam#}@}"
+                    ],
+                    "_banner": "({@{#-lam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "prAkkUlam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the point of a blade of such Kuśa grass.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 212599,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-kftam#}@}"
+            ],
+            "_banner": ".{@{#-kftam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkkftam"
+                }
+            ],
+            "_gram": [
+                "({#prAkkftam#})"
+            ],
+            "_meanings": [
+                "an act done in a former life.\n"
+            ]
+        },
+        {
+            "__line": 212600,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-kevala#}@}"
+            ],
+            "_banner": ".{@{#-kevala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkkevala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#prAkkevala#})"
+            ],
+            "_meanings": [
+                "manifested from the first\n in a distinct form.\n"
+            ]
+        },
+        {
+            "__line": 212602,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-gAmin#}@}"
+            ],
+            "_banner": ".{@{#-gAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAggAmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#prAggAmin#})"
+            ],
+            "_meanings": [
+                ".²1 going before, preceding.\n",
+                ".²2 a precursor, forerunner.\n",
+                ".²3 going eastward.\n"
+            ]
+        },
+        {
+            "__line": 212606,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-caraRA#}@}"
+            ],
+            "_banner": ".{@{#-caraRA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkcaraRA"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#prAkcaraRA#})"
+            ],
+            "_meanings": [
+                "the female organ of generation.\n"
+            ]
+        },
+        {
+            "__line": 212607,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-ciram#}@}"
+            ],
+            "_banner": ".{@{#-ciram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkciram"
+                }
+            ],
+            "_gram": [
+                "({#prAkciram#})",
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "in due or good time, before too late.\n"
+            ]
+        },
+        {
+            "__line": 212608,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-janman#}@}"
+            ],
+            "_banner": ".{@{#-janman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgjanman"
+                }
+            ],
+            "_gram": [
+                "({#prAgjanman#})",
+                "{%n.%}",
+                "{@{#-jAtiH#}@}",
+                "({#prAgjAtiH#})",
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a former birth.\n"
+            ]
+        },
+        {
+            "__line": 212610,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-jyotizaH#}@}"
+            ],
+            "_banner": ".{@{#-jyotizaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgjyotizaH"
+                }
+            ],
+            "_gram": [
+                "({@{#prAgjyotizaH#}@})"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of country, also called Kāmarūpa.\n",
+                ".²2 (<ab>pl.</ab>). the people of this country\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 212613,
+                    "_ancestry": [
+                        "L_ 23824",
+                        "B_ {#prAc, prAYc#}",
+                        "S_ .{@{#-jyotizaH#}@}",
+                        "S_M_ ({@{#-zam#}@}"
+                    ],
+                    "_banner": "({@{#-zam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "prAgjyotizam"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of a city. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 212613,
+                            "_ancestry": [
+                                "L_ 23824",
+                                "B_ {#prAc, prAYc#}",
+                                "S_ .{@{#-jyotizaH#}@}",
+                                "S_M_ ({@{#-zam#}@}",
+                                "S_M_S_ {#˚jyezWaH#}"
+                            ],
+                            "_banner": "{#˚jyezWaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "prAgjyotizajyezWaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "an epithet of Viṣṇu.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 212614,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-dakziRa#}@}"
+            ],
+            "_banner": ".{@{#-dakziRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgdakziRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#prAgdakziRa#})"
+            ],
+            "_meanings": [
+                "south-eastern.\n"
+            ]
+        },
+        {
+            "__line": 212615,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-deSaH#}@}"
+            ],
+            "_banner": ".{@{#-deSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgdeSaH"
+                }
+            ],
+            "_gram": [
+                "({#prAgdeSaH#})"
+            ],
+            "_meanings": [
+                "the eastern country.\n"
+            ]
+        },
+        {
+            "__line": 212616,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-dvAra, -dvArika#}@}"
+            ],
+            "_banner": ".{@{#-dvAra, -dvArika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgdvAra"
                 },
                 {
-                    "Right": "yugapatrakaH"
-                }
-            ],
-            "_meanings": [
-                "the mountain ebony. "
-            ]
-        },
-        {
-            "__line": 201121,
-            "_ancestry": [
-                "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--pArSvaga#}"
-            ],
-            "_banner": "{#--pArSvaga#}",
-            "_bannerExp": [
-                {
-                    "Right": "yugapArSvaga"
+                    "Right": "prAgdvArika"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "going to the side of the yoke,\n(said of an ox while being broken \n\nin to the yoke). "
+                "({#prAgdvAra#} <ab>&c.</ab>) having doors facing the east.\n"
             ]
         },
         {
-            "__line": 201125,
+            "__line": 212617,
             "_ancestry": [
                 "L_ 23824",
-                "B_ {#yugaM#}",
-                "S_ {#--bAhu#}"
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-nyAyaH#}@}"
             ],
-            "_banner": "{#--bAhu#}",
+            "_banner": ".{@{#-nyAyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yugabAhu"
+                    "Right": "prANnyAyaH"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "({#prANnyAyaH#})"
             ],
             "_meanings": [
-                "long-armed; <ls>Ku. 2. 18.</ls>"
+                "the plea of a former trial, {%res%}\n {%judicata%}; {#AcAreRAvasanno'pi punarleKayate yadi . so'BiDeyo jitaH#}\n {#pUrvaM prANnyAyastu sa ucyate ..#}\n"
+            ]
+        },
+        {
+            "__line": 212620,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkpadam"
+                }
+            ],
+            "_gram": [
+                "({#prAkpadam#})"
+            ],
+            "_meanings": [
+                "the first member of a compound.\n"
+            ]
+        },
+        {
+            "__line": 212621,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-prahAraH#}@}"
+            ],
+            "_banner": ".{@{#-prahAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkprahAraH"
+                }
+            ],
+            "_gram": [
+                "({#prAkprahAraH#})"
+            ],
+            "_meanings": [
+                "the first blow.\n"
+            ]
+        },
+        {
+            "__line": 212622,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-PalaH#}@}"
+            ],
+            "_banner": ".{@{#-PalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkPalaH"
+                }
+            ],
+            "_meanings": [
+                "(@{#prAkPalaH#}) the bread-fruit tree.\n"
+            ]
+        },
+        {
+            "__line": 212623,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-Pa(PA)lgunI#}@}"
+            ],
+            "_banner": ".{@{#-Pa(PA)lgunI#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#prAc#} S_ .{@{#-Pa(PA)lgunI#}@}"
+                }
+            ],
+            "_gram": [
+                "({#prAkPalgunI#})"
+            ],
+            "_meanings": [
+                "the eleventh\n lunar mansion, ({#pUrvA#}). "
+            ],
+            "_samasas": [
+                {
+                    "__line": 212624,
+                    "_ancestry": [
+                        "L_ 23824",
+                        "B_ {#prAc, prAYc#}",
+                        "S_ .{@{#-Pa(PA)lgunI#}@}",
+                        "S_S_ {#˚BavaH#}"
+                    ],
+                    "_banner": "{#˚BavaH#}",
+                    "_meanings": [
+                        ".²1 the planet Jupiter.\n",
+                        ".²2 <ab>N.</ab> of Bṛhaspati.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 212627,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-PAlgunaH#}@}"
+            ],
+            "_banner": ".{@{#-PAlgunaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkPAlgunaH"
+                }
+            ],
+            "_meanings": [
+                ", {@{#-PAlguneyaH#}@} ({#prAkPAlgunaH#} <ab>&c.</ab>)\n the planet Jupiter.\n"
+            ]
+        },
+        {
+            "__line": 212629,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-Baktam#}@}"
+            ],
+            "_banner": ".{@{#-Baktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgBaktam"
+                }
+            ],
+            "_gram": [
+                "({#prAgBaktam#})"
+            ],
+            "_meanings": [
+                "taking medicine before meals.\n"
+            ]
+        },
+        {
+            "__line": 212630,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-BavaH#}@}"
+            ],
+            "_banner": ".{@{#-BavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgBavaH"
+                }
+            ],
+            "_gram": [
+                "({#prAgBavaH#})"
+            ],
+            "_meanings": [
+                "a previous life.\n"
+            ]
+        },
+        {
+            "__line": 212631,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-BAgaH#}@}"
+            ],
+            "_banner": ".{@{#-BAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgBAgaH"
+                }
+            ],
+            "_gram": [
+                "({#prAgBAgaH#})"
+            ],
+            "_meanings": [
+                ".²1 the front.\n",
+                ".²2 the fore-part.\n"
+            ]
+        },
+        {
+            "__line": 212634,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-BAraH#}@}"
+            ],
+            "_banner": ".{@{#-BAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgBAraH"
+                }
+            ],
+            "_gram": [
+                "({#prAgBAraH#})"
+            ],
+            "_meanings": [
+                ".²1 the top or summit of a mountain; {#prAgBArezu SiKaRqitARqavaviDO meDErvitAnAyyate#} <ls>Māl. 9. 15</ls>.\n",
+                ".²2 the front part, fore-part or end (of anything); {#kandatPeravacaRqqAtkftiBftaprAgBAraBImEstawEH#} <ls>Māl. 5. 19</ls>.\n",
+                ".²3 a large quantity, heap, multitude, flood; {#timiraprAgBAramuccAwayan … … vijayate#}\n {#jYAnapradIpo haraH#} <ls>Bh. 3. 129</ls>; <ls>Māl. 5. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 212639,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgBAvaH"
+                }
+            ],
+            "_gram": [
+                "({#prAgBAvaH#})"
+            ],
+            "_meanings": [
+                ".²1 previous existence.\n",
+                ".²2 excellence, superiority.\n"
+            ]
+        },
+        {
+            "__line": 212642,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prANmuKa"
+                }
+            ],
+            "_gram": [
+                "({#prANmuKa#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 turned towards or facing the east; {#tAM prANmuKIM tatra niveSya tanvIm#}\n <ls>Ku. 7. 13</ls>; <ls>Ms. 2. 51</ls>, <ls n=\"Ms.\">8. 87</ls>.\n",
+                ".²2 inclined towards, wishing, desirous of.\n"
+            ]
+        },
+        {
+            "__line": 212646,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-rUpam#}@}"
+            ],
+            "_banner": ".{@{#-rUpam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgrUpam"
+                }
+            ],
+            "_gram": [
+                "({#prAgrUpam#})"
+            ],
+            "_meanings": [
+                "Previous symptom (of disease).\n"
+            ]
+        },
+        {
+            "__line": 212647,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-lagnam#}@}"
+            ],
+            "_banner": ".{@{#-lagnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAglagnam"
+                }
+            ],
+            "_gram": [
+                "({#prAglagnam#})"
+            ],
+            "_meanings": [
+                "horoscope.\n"
+            ]
+        },
+        {
+            "__line": 212648,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-vaMSaH#}@}"
+            ],
+            "_banner": ".{@{#-vaMSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgvaMSaH"
+                }
+            ],
+            "_gram": [
+                "({#prAgvaMSaH#})"
+            ],
+            "_meanings": [
+                ".²1 a kind of sacrificial room having its columns turned towards the east;\n {#SlAGyastyAgo'pi vEdehyAH patyuH prAgvaMSavAsinaH#} <ls>R. 15. 61</ls>. ({#prAcInasTURo#}\n {#yajYaSAlAviSezaH#} <ls>Malli.</ls>; but some interpret the word to mean ‘a room\n in which the friends and family of the sacrificer assemble’); {#kecid#}\n {#baBaYjuH prAgvaMSaM palISAlaM taTA'pare#} <ls>Bhāg. 4. 5. 14</ls>.\n",
+                ".²2 a former dynasty or generation.\n"
+            ]
+        },
+        {
+            "__line": 212655,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-vacanam#}@}"
+            ],
+            "_banner": ".{@{#-vacanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgvacanam"
+                }
+            ],
+            "_gram": [
+                "({#prAgvacanam#})"
+            ],
+            "_meanings": [
+                "anything formerly decided; statement by\n the ancient authorities;\n\n {#prAgidaM vacanaM poktam ataH prAgvacanaM viduH#} <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 212659,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-vfttam#}@}"
+            ],
+            "_banner": ".{@{#-vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgvfttam"
+                }
+            ],
+            "_meanings": [
+                "= {#prANnyAyaH#} <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 212660,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-vfttAntaH#}@}"
+            ],
+            "_banner": ".{@{#-vfttAntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAgvfttAntaH"
+                }
+            ],
+            "_gram": [
+                "({#prAgvfttAntaH#})"
+            ],
+            "_meanings": [
+                "a former event.\n"
+            ]
+        },
+        {
+            "__line": 212661,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-Siras, -sa, -Siraska#}@}"
+            ],
+            "_banner": ".{@{#-Siras, -sa, -Siraska#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAkSiras"
+                },
+                {
+                    "Right": "prAkSirasa"
+                },
+                {
+                    "Right": "prAkSiraska"
+                }
+            ],
+            "_meanings": [
+                "({#prAkSiras#} <ab>&c.</ab>) {%a.%} having the\n head turned towards the east.\n"
+            ]
+        },
+        {
+            "__line": 212663,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-saMDyA#}@}"
+            ],
+            "_banner": ".{@{#-saMDyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAksanDyA"
+                }
+            ],
+            "_gram": [
+                "({#prAksaMDyA#})"
+            ],
+            "_meanings": [
+                "the morning twilight.\n"
+            ]
+        },
+        {
+            "__line": 212664,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-savanam#}@}"
+            ],
+            "_banner": ".{@{#-savanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAksavanam"
+                }
+            ],
+            "_gram": [
+                "({#prAksavanam#})"
+            ],
+            "_meanings": [
+                "a morning libation or sacrifice.\n"
+            ]
+        },
+        {
+            "__line": 212665,
+            "_ancestry": [
+                "L_ 23824",
+                "B_ {#prAc, prAYc#}",
+                "S_ .{@{#-srotas#}@}"
+            ],
+            "_banner": ".{@{#-srotas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAksrotas"
+                }
+            ],
+            "_gram": [
+                "({#prAksrotas#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "flowing eastward. --({%f.%}) a river."
             ]
         }
     ]

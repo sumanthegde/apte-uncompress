@@ -1,16 +1,47 @@
 {
-    "__line": 100996,
+    "__line": 102107,
     "_ancestry": [
         "L_ 12094",
-        "B_ {#KarikA#}"
+        "B_ {#kArmaRa#}"
     ],
-    "_banner": "{#KarikA#}",
+    "_banner": "{#kArmaRa#}",
     "_bannerExp": [
         {
-            "Right": "KarikA"
+            "Right": "kArmaRa"
+        },
+        {
+            "Right": "kArmaRI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#karman-aR#}]"
+    ],
     "_meanings": [
-        "Powdered musk."
+        ".²1 Finishing a work,\n",
+        ".²2 Doing any work well or completely.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 102110,
+            "_ancestry": [
+                "L_ 12094",
+                "B_ {#kArmaRa#}",
+                "M_ .{@{#-Ram, -karman#}@}"
+            ],
+            "_banner": ".{@{#-Ram, -karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArmaRam"
+                },
+                {
+                    "Right": "karman"
+                }
+            ],
+            "_meanings": [
+                "Magic, witch-craft; {#niKilanayanAkarzaRe kArmaRajYA#}\n <ls>Bv. 2. 79</ls>; <ls>Vikr. 2. 14</ls>, <ls n=\"Vikr.\">8. 2</ls>."
+            ]
+        }
     ]
 }

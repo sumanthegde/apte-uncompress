@@ -1,19 +1,41 @@
 {
-    "__line": 57360,
+    "__line": 55500,
     "_ancestry": [
         "L_ 6601",
-        "B_ {#Amozin#}"
+        "B_ {#AcamanIya#}"
     ],
-    "_banner": "{#Amozin#}",
+    "_banner": "{#AcamanIya#}",
     "_bannerExp": [
         {
-            "Right": "Amozin"
+            "Right": "AcamanIya"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%<ab>pot. p.</ab>%}"
     ],
     "_meanings": [
-        "A thief."
+        "Used for rinsing the mouth.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 55501,
+            "_ancestry": [
+                "L_ 6601",
+                "B_ {#AcamanIya#}",
+                "M_ .{@{#-yam, -AcamanIyakam#}@}"
+            ],
+            "_banner": ".{@{#-yam, -AcamanIyakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcamanIyam"
+                },
+                {
+                    "Right": "AcamanIyakam"
+                }
+            ],
+            "_meanings": [
+                "Water used for rinsing the mouth; a gargle."
+            ]
+        }
     ]
 }

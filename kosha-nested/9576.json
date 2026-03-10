@@ -1,19 +1,38 @@
 {
-    "__line": 81381,
+    "__line": 80168,
     "_ancestry": [
         "L_ 9576",
-        "B_ {#enA#}"
+        "B_ {#upadeSaka#}"
     ],
-    "_banner": "{#enA#}",
+    "_banner": "{#upadeSaka#}",
     "_bannerExp": [
         {
-            "Right": "enA"
+            "Right": "upadeSaka"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Thus; then, at\nthat time. "
+        "Giving instruction, teaching.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 80169,
+            "_ancestry": [
+                "L_ 9576",
+                "B_ {#upadeSaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upadeSakaH"
+                }
+            ],
+            "_meanings": [
+                "An instructor, a guide, preceptor."
+            ]
+        }
     ]
 }

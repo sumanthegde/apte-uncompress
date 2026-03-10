@@ -1,38 +1,58 @@
 {
-    "__line": 105547,
+    "__line": 106970,
     "_ancestry": [
         "L_ 12618",
-        "B_ {#gurutama#}"
+        "B_ {#kulmAzam(sam)#}"
     ],
-    "_banner": "{#gurutama#}",
+    "_banner": "{#kulmAzam(sam)#}",
     "_bannerExp": [
         {
-            "Right": "gurutama"
+            "Right": "kulmAzam"
+        },
+        {
+            "Right": "kulmAsam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Most important. "
+        "Gruel.\n"
     ],
     "_morphisms": [
         {
-            "__line": 105547,
+            "__line": 106971,
             "_ancestry": [
                 "L_ 12618",
-                "B_ {#gurutama#}",
-                "M_ {#--maH#}"
+                "B_ {#kulmAzam(sam)#}",
+                "M_ .{@{#-zaH#}@}"
             ],
-            "_banner": "{#--maH#}",
+            "_banner": ".{@{#-zaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gurutamaH"
+                    "Right": "kulmAzaH"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nA best teacher. ",
-                "{@--2@} <ab>N.</ab> of Viṣṇu."
+                ".²1 A kind of grain. half-ripe barley; {#sa heByaM kulmAzAnKAdantaM biBikze#}\n <ls>Ch. Up. 1. 10. 2</ls>.\n",
+                ".²2 A hotch potch of half-boiled rice and pulse; <ls>Bhāg. 5. 9. 11</ls>.\n",
+                ".²3 A kind of disease.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 106977,
+            "_ancestry": [
+                "L_ 12618",
+                "B_ {#kulmAzam(sam)#}",
+                "S_ .{@{#-aBizutam#}@}"
+            ],
+            "_banner": ".{@{#-aBizutam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kulmAzABizutam"
+                }
+            ],
+            "_meanings": [
+                "gruel."
             ]
         }
     ]

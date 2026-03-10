@@ -1,17 +1,83 @@
 {
-    "__line": 241561,
+    "__line": 265809,
     "_ancestry": [
         "L_ 28756",
-        "B_ {#saMstaraH#}"
+        "B_ {#vasanam#}"
     ],
-    "_banner": "{#saMstaraH#}",
+    "_banner": "{#vasanam#}",
     "_bannerExp": [
         {
-            "Right": "saMstaraH"
+            "Right": "vasanam"
         }
     ],
+    "_gram": [
+        "[{#vas-ADAre lyuw#}]"
+    ],
     "_meanings": [
-        "{@--1@} A bed, couch, layer;\na bed of leaves &c.; {#navapallavasaMstare'pi#}\n{#te#} <ls>R. 8. 57</ls>; {#navapallavasaMstare yaTA#}\n{#racayizyAmi tanuM viBAvasO#} <ls>Ku. 4. 34.</ls>\n",
-        "{@--2@} A sacrifice."
+        ".²1 Dwelling, residing, staying.\n",
+        ".²2 A house, residence.\n",
+        ".²3 Dressing, clothing, covering.\n",
+        ".²4 A garment, cloth, dress, clothes; {#vasane pariDUsare vasAnA#} <ls>Ś. 7. 21</ls>;\n {#utsaNge vA malinavasane sOmya nikzipya vIRAm#} <ls>Me. 88</ls>, <ls n=\"Me.\">43</ls>.\n",
+        ".²5 An ornament worn (by women)\n\n round the loins, (probably for {#rasanA#}).\n",
+        ".²6 Siege.\n",
+        ".²7 A leaf of the cinnamon tree.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 265820,
+            "_ancestry": [
+                "L_ 28756",
+                "B_ {#vasanam#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasanA"
+                }
+            ],
+            "_meanings": [
+                "(in <ab>comp.</ab>)\n",
+                ".²1 Clothed in.\n",
+                ".²2 Surrounded by; {#samudravasane devi parvatastanamaRqale#}. ",
+                ".²3 Engrossed by.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 265824,
+            "_ancestry": [
+                "L_ 28756",
+                "B_ {#vasanam#}",
+                "S_ .{@{#-paryAyaH#}@}"
+            ],
+            "_banner": ".{@{#-paryAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasanaparyAyaH"
+                }
+            ],
+            "_meanings": [
+                "change of clothes.\n"
+            ]
+        },
+        {
+            "__line": 265825,
+            "_ancestry": [
+                "L_ 28756",
+                "B_ {#vasanam#}",
+                "S_ .{@{#-sadman#}@}"
+            ],
+            "_banner": ".{@{#-sadman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasanasadman"
+                }
+            ],
+            "_meanings": [
+                "a tent."
+            ]
+        }
     ]
 }

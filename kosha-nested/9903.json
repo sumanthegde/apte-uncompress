@@ -1,19 +1,40 @@
 {
-    "__line": 83308,
+    "__line": 82674,
     "_ancestry": [
         "L_ 9903",
-        "B_ {#Ozasya#}"
+        "B_ {#upavid#}"
     ],
-    "_banner": "{#Ozasya#}",
+    "_banner": "{#upavid#}",
     "_bannerExp": [
         {
-            "Right": "Ozasya"
+            "Right": "upavid"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Sacred to Uṣas or the\ndawn."
+        ".²1 Gaining, obtaining.\n",
+        ".²2 Knowing. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 82676,
+            "_ancestry": [
+                "L_ 9903",
+                "B_ {#upavid#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#upavid#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Acquisition.\n",
+                ".²2 Investigating, inquiring into, knowledge, practical knowledge."
+            ]
+        }
     ]
 }

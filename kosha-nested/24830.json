@@ -1,20 +1,44 @@
 {
-    "__line": 210528,
+    "__line": 222944,
     "_ancestry": [
         "L_ 24830",
-        "B_ {#vakri#}"
+        "B_ {#Bakzaka#}"
     ],
-    "_banner": "{#vakri#}",
+    "_banner": "{#Bakzaka#}",
     "_bannerExp": [
         {
-            "Right": "vakri"
+            "Right": "Bakzaka"
+        },
+        {
+            "Right": "BakzikA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kzikA#}|{%f.%})",
+        "[{#Bakz-Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Equivocating. ",
-        "{@--2@} \nSpeaking falsely, lying."
+        ".²1 One who eats or lives upon.\n",
+        ".²2 Gluttonous, voracious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 222948,
+            "_ancestry": [
+                "L_ 24830",
+                "B_ {#Bakzaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BakzakaH"
+                }
+            ],
+            "_meanings": [
+                "Food."
+            ]
+        }
     ]
 }

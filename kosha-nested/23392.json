@@ -1,21 +1,67 @@
 {
-    "__line": 197102,
+    "__line": 209164,
     "_ancestry": [
         "L_ 23392",
-        "B_ {#mfgayuH#}"
+        "B_ {#pravAsaH#}"
     ],
-    "_banner": "{#mfgayuH#}",
+    "_banner": "{#pravAsaH#}",
     "_bannerExp": [
         {
-            "Right": "mfgayuH"
+            "Right": "pravAsaH"
         }
     ],
-    "_gram": [
-        "[{#mfga-astyarTe yuc#}]"
-    ],
     "_meanings": [
-        "{@--1@} A \nhunter, fowler; {#haMti nopaSayasTo'pi SayA#}\n{#lurmfgayurmfgAn#} <ls>Śi. 2. 80.</ls> ",
-        "{@--2@} A jackal.\n",
-        "{@--3@} An epithet of Brahman."
+        ".²1\n",
+        ".³({%a%}) Going or journeying abroad, being absent from oneʼs home, foreign\n residence; {#kuSaH pravAsasTakalatravezAm#} ({#vanitAmapaSyat#}) <ls>R. 16. 4</ls>;\n <ls>Ś. 4. 3</ls>; <ls>U. 6. 38</ls>; {#snehaH pravAsASrayAt#} <ls>Pt. 1. 169</ls>; <ls>Bh. 3. 94</ls>.\n",
+        ".³({%b%}) A temporary sojourn; {#pravAsAdupAvfttena kASyapenAdizwo'smi#} <ls>Ś. 4</ls>.\n",
+        ".²2 (In <ab>astr.</ab>) Heliacal setting of the planets.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 209172,
+            "_ancestry": [
+                "L_ 23392",
+                "B_ {#pravAsaH#}",
+                "S_ .{@{#-gata, -sTa, -sTita#}@}"
+            ],
+            "_banner": ".{@{#-gata, -sTa, -sTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravAsagata"
+                },
+                {
+                    "Left": "S error: 1 syl gata sTa"
+                },
+                {
+                    "Right": "pravAsasTita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "journeying abroad, being absent from home.\n"
+            ]
+        },
+        {
+            "__line": 209173,
+            "_ancestry": [
+                "L_ 23392",
+                "B_ {#pravAsaH#}",
+                "S_ .{@{#-para#}@}"
+            ],
+            "_banner": ".{@{#-para#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravAsapara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "addicted to living abroad."
+            ]
+        }
     ]
 }

@@ -1,21 +1,59 @@
 {
-    "__line": 122559,
+    "__line": 127864,
     "_ancestry": [
         "L_ 14740",
-        "B_ {#tuj#}"
+        "B_ {#carcA#}, {#-carcikA#}"
     ],
-    "_banner": "{#tuj#}",
+    "_banner": "{#carcA#}, {#-carcikA#}",
     "_bannerExp": [
         {
-            "Right": "tuj"
+            "Right": "carcA"
+        },
+        {
+            "Right": "carcikA"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#tojati#})"
-    ],
     "_meanings": [
-        "To hurt,\ninjure."
+        ".²1 Repetition, recitation, study, repeated reading, perusal.\n",
+        ".²2 Discussion, inquiry, investigation; {#AvarjitEH sa niKilEraDikotkocacarcayA#}\n <ls>Rāj. T. 5. 304</ls>; {#AbadDapaNktayaScarcAmuccalASrayiRIM vyaDuH#} {%<ab>ibid.</ab>%} <ls n=\"Rāj. T.\">7. 1463</ls>.\n",
+        ".²3 Reflection.\n",
+        ".²4 Smearing the body with unguents; {#aNgacarcAmaracayam#} <ls>K. 157</ls>; {#SrIKaRqacarcA#}\n {#viza …#} <ls>Gīt. 9</ls>.\n",
+        ".²5 An epithet of the goddess Durgā,\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 127873,
+            "_ancestry": [
+                "L_ 14740",
+                "B_ {#carcA#}, {#-carcikA#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carcApadam"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) the words repeated in reciting the veda while {#iti#} is added.\n"
+            ]
+        },
+        {
+            "__line": 127874,
+            "_ancestry": [
+                "L_ 14740",
+                "B_ {#carcA#}, {#-carcikA#}",
+                "S_ .{@{#-pAraH#}@}"
+            ],
+            "_banner": ".{@{#-pAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "carcApAraH"
+                }
+            ],
+            "_meanings": [
+                "Repetition of a word."
+            ]
+        }
     ]
 }

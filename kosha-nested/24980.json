@@ -1,20 +1,44 @@
 {
-    "__line": 211780,
+    "__line": 224480,
     "_ancestry": [
         "L_ 24980",
-        "B_ {#vanita#}"
+        "B_ {#Bavika#}"
     ],
-    "_banner": "{#vanita#}",
+    "_banner": "{#Bavika#}",
     "_bannerExp": [
         {
-            "Right": "vanita"
+            "Right": "Bavika"
+        },
+        {
+            "Right": "BavikI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Begged, asked, \nsolicited &c. ",
-        "{@--2@} Served, worshipped."
+        ".²1 Beneficial, suitable, useful.\n",
+        ".²2 Happy, prosperous.\n",
+        ".²3 Righteous, pious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 224484,
+            "_ancestry": [
+                "L_ 24980",
+                "B_ {#Bavika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bavikam"
+                }
+            ],
+            "_meanings": [
+                "Prosperity, welfare."
+            ]
+        }
     ]
 }

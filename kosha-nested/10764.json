@@ -1,84 +1,43 @@
 {
-    "__line": 90476,
+    "__line": 90399,
     "_ancestry": [
         "L_ 10764",
-        "B_ {#kArA#}"
+        "B_ {#Ekzava#}"
     ],
-    "_banner": "{#kArA#}",
+    "_banner": "{#Ekzava#}",
     "_bannerExp": [
         {
-            "Right": "kArA"
+            "Right": "Ekzava"
+        },
+        {
+            "Right": "EkzavI"
         }
     ],
-    "_meanings": [
-        "{@--1@} Imprisonment, \nconfinement. ",
-        "{@--2@} A prison-house, a jail. ",
-        "{@--3@}\nPart of a lute below the neck. ",
-        "{@--4@}\nPain, affliction. ",
-        "{@--5@} A female \nmessenger. ",
-        "{@--6@} A female worker in gold.\n",
-        "{@--7@} A sound. ",
-        "{@--8@} An instrument for\ndrowning the sound of the lute.\n"
+    "_gram": [
+        "{%a.%}",
+        "({#-vI#}|{%f.%})",
+        "[{#ikzu-aR#}]"
     ],
-    "_samasas": [
+    "_meanings": [
+        "Made of, or produced\n from, sugarcane, sugary.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 90483,
+            "__line": 90401,
             "_ancestry": [
                 "L_ 10764",
-                "B_ {#kArA#}",
-                "S_  {#--agAraM, --gfhaM, --veSman#}"
+                "B_ {#Ekzava#}",
+                "M_ .{@{#-vam#}@}"
             ],
-            "_banner": " {#--agAraM, --gfhaM, --veSman#}",
+            "_banner": ".{@{#-vam#}@}",
             "_bannerExp": [
                 {
-                    "Left": "S error: midAlign gfhaM agfhaM"
-                },
-                {
-                    "Right": "kArAgAraM"
-                },
-                {
-                    "Right": "kArAveSman"
-                }
-            ],
-            "_gram": [
-                "{%<ab>n.</ab>%}"
-            ],
-            "_meanings": [
-                "a prison\nhouse, a jail; {#kArAgfhe nirjitavAsavena#} \n{#laMkeSvaraRozitamA prasAdAt#} <ls>R. 6. 40</ls>,  \n<ls>Śānti. 4. 10</ls>. "
-            ]
-        },
-        {
-            "__line": 90486,
-            "_ancestry": [
-                "L_ 10764",
-                "B_ {#kArA#}",
-                "S_ {#--guptaH#}"
-            ],
-            "_banner": "{#--guptaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "kArAguptaH"
+                    "Right": "Ekzavam"
                 }
             ],
             "_meanings": [
-                "a prisoner. "
-            ]
-        },
-        {
-            "__line": 90486,
-            "_ancestry": [
-                "L_ 10764",
-                "B_ {#kArA#}",
-                "S_ {#--pAlaH#}"
-            ],
-            "_banner": "{#--pAlaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "kArApAlaH"
-                }
-            ],
-            "_meanings": [
-                "a\nguard of a prison, jailor."
+                ".²1 Sugar.\n",
+                ".²2 A kind of spirituous liquor."
             ]
         }
     ]

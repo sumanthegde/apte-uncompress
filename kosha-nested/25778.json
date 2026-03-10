@@ -1,22 +1,41 @@
 {
-    "__line": 217954,
+    "__line": 234157,
     "_ancestry": [
         "L_ 25778",
-        "B_ {#viciH#}"
+        "B_ {#mayas#}"
     ],
-    "_banner": "{#viciH#}",
+    "_banner": "{#mayas#}",
     "_bannerExp": [
         {
-            "Right": "viciH"
+            "Right": "mayas"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "{%<ab>f.</ab>%}",
-        "{#vicI#}",
-        "{%<ab>f.</ab>%}"
+        "{%n.%}"
     ],
     "_meanings": [
-        "A wave; <ab>cf.</ab>\n{#vIci#}."
+        "<ab>Ved.</ab> Pleasure, delight, satisfaction; {#sarasvatI naH#}\n {#suBagA mayaskarat#} <ls>Rv. 1. 89. 3</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 234160,
+            "_ancestry": [
+                "L_ 25778",
+                "B_ {#mayas#}",
+                "S_ .{@{#-Ba(Bu)va, -Bu, -BU#}@}"
+            ],
+            "_banner": ".{@{#-Ba(Bu)va, -Bu, -BU#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#mayas#} S_ .{@{#-Ba(Bu)va, -Bu, -BU#}@}"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "causing pleasure,\n delighting; {#Apo hi zWA mayoBuvaH#} <ls>Rv. 10. 9. 1</ls>."
+            ]
+        }
     ]
 }

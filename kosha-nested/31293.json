@@ -1,44 +1,39 @@
 {
-    "__line": 262654,
+    "__line": 288509,
     "_ancestry": [
         "L_ 31293",
-        "B_ {#hartf#}"
+        "B_ {#vyavAyin#}"
     ],
-    "_banner": "{#hartf#}",
+    "_banner": "{#vyavAyin#}",
     "_bannerExp": [
         {
-            "Right": "hartf"
-        },
-        {
-            "Right": "hartrI"
+            "Right": "vyavAyin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#rtrI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "One who takes\naway, seizes, robs, accepts &c. "
+        ".²1 Resolving, decomposing.\n",
+        ".²2 Lustful, dissolute. "
     ],
     "_morphisms": [
         {
-            "__line": 262655,
+            "__line": 288511,
             "_ancestry": [
                 "L_ 31293",
-                "B_ {#hartf#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#vyavAyin#}",
+                "M_ --{%m.%}"
             ],
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "hartf"
+                    "Left": "Parser error: {#vyavAyin#} M_ --{%m.%}"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
-            ],
             "_meanings": [
-                "{@--1@} A thief, robber, <ls>Bh. 2. 16.</ls> ",
-                "{@--2@}\nThe sun."
+                ".²1 A sensualist, libertine.\n",
+                ".²2 An aphrodisiac."
             ]
         }
     ]

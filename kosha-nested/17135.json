@@ -1,20 +1,117 @@
 {
-    "__line": 144118,
+    "__line": 149389,
     "_ancestry": [
         "L_ 17135",
-        "B_ {#niSAta#}"
+        "B_ {#dagDa#}"
     ],
-    "_banner": "{#niSAta#}",
+    "_banner": "{#dagDa#}",
     "_bannerExp": [
         {
-            "Right": "niSAta"
+            "Right": "dagDa"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#dah-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Sharpened, \nwhetted, sharp; <ls>Ki. 14. 30.</ls> ",
-        "{@--2@} Polished,\nburnished, bright."
+        ".²1 Burnt, consumed by fire.\n",
+        ".²2 (<ab>Fig.</ab>) Consumed by grief, tormented, distressed; ({#mahI#}) {#na Sakyate#}\n {#drazwumapi pravAsiBiH priyAviyogAnaladagDamAnasEH#} <ls>Ṛs. 1. 10</ls>.\n",
+        ".²3 Famished.\n",
+        ".²4 Inauspicious, as in {#dagDayoga#}.\n",
+        ".²5 Dry, tasteless, insipid\n",
+        ".²6 Wretched, accursed, vile, (used\n\n as a term of abuse before a word); {#nAdyApi me dagDadehaH patati#} <ls>U. 4</ls>;\n {#asya dagDodarasyArTe kaH kuryAt pAtakaM mahat#} <ls>H. 1. 68</ls>; so {#dagDajaWarasyArTe#} <ls>Bh. 3. 8</ls>.\n",
+        ".²7 Cunning ({#vidagDa#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 149401,
+            "_ancestry": [
+                "L_ 17135",
+                "B_ {#dagDa#}",
+                "M_ .{@{#-gDA#}@}"
+            ],
+            "_banner": ".{@{#-gDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dagDA"
+                }
+            ],
+            "_meanings": [
+                ".²1 The quarter where the sun remains overhead.\n",
+                ".²2 A lunar day or {#tiTi#} on which it is considered inauspicious or unlucky to do any act.\n"
+            ]
+        },
+        {
+            "__line": 149404,
+            "_ancestry": [
+                "L_ 17135",
+                "B_ {#dagDa#}",
+                "M_ .{@{#-gDam#}@}"
+            ],
+            "_banner": ".{@{#-gDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dagDam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Burning; <ls>Mb. 12. 303. 6</ls>.\n",
+                ".²2 Cauterizing.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 149408,
+            "_ancestry": [
+                "L_ 17135",
+                "B_ {#dagDa#}",
+                "S_ .{@{#-kAkaH#}@}"
+            ],
+            "_banner": ".{@{#-kAkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dagDakAkaH"
+                }
+            ],
+            "_meanings": [
+                "a raven.\n"
+            ]
+        },
+        {
+            "__line": 149409,
+            "_ancestry": [
+                "L_ 17135",
+                "B_ {#dagDa#}",
+                "S_ .{@{#-jaWaram#}@}"
+            ],
+            "_banner": ".{@{#-jaWaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dagDajaWaram"
+                }
+            ],
+            "_meanings": [
+                "the hungry stomach; <ls>Bh. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149410,
+            "_ancestry": [
+                "L_ 17135",
+                "B_ {#dagDa#}",
+                "S_ .{@{#-vraRaH#}@}"
+            ],
+            "_banner": ".{@{#-vraRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dagDavraRaH"
+                }
+            ],
+            "_meanings": [
+                "a burn, singe."
+            ]
+        }
     ]
 }

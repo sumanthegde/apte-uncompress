@@ -1,19 +1,62 @@
 {
-    "__line": 81131,
+    "__line": 79903,
     "_ancestry": [
         "L_ 9539",
-        "B_ {#ejaka#}"
+        "B_ {#upatap#}"
     ],
-    "_banner": "{#ejaka#}",
+    "_banner": "{#upatap#}",
     "_bannerExp": [
         {
-            "Right": "ejaka"
+            "Right": "upatap"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Shaking."
+        "²1 To make warm, heat; {#upataptodakA nadyaH#} <ls>Rām.</ls>; <ls>Śi. 9. 65</ls> (where\n it means to pain also).\n",
+        ".²2 To feel pain, become sick; {#AhitAgniScedupatapet#} <ls>Āśval.</ls>\n",
+        ".²3 To afflict, befall (as a sickness); sometimes used impersonally. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 79907,
+            "_ancestry": [
+                "L_ 9539",
+                "B_ {#upatap#}",
+                "M_ --{%<ab>pass.</ab>%}"
+            ],
+            "_banner": "--{%<ab>pass.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "upatap"
+                }
+            ],
+            "_meanings": [
+                ".²1 To be pained, become ill, be afflicted with; {#ityapUrvamupatapyate'smABiH#} <ls>Mv. 2</ls>; so {#duHKenopatapyate#} <ab>&c.</ab>\n",
+                ".²2 To be emaciated with penance, practise penance; {#upatapyAmahe tapaH#} <ls>Av.</ls>\n."
+            ]
+        },
+        {
+            "__line": 79910,
+            "_ancestry": [
+                "L_ 9539",
+                "B_ {#upatap#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "upatap"
+                }
+            ],
+            "_meanings": [
+                ".²1 To kindle, ignite, burn; {#na no gfhARAmupa tItapAsi#} <ls>Av. 6. 32. 1</ls>.\n",
+                ".²2 To torment, hurt, pain.\n",
+                ".²3 To offend, oppress.\n",
+                ".²4 To mortify the body by penance."
+            ]
+        }
     ]
 }

@@ -1,24 +1,67 @@
 {
-    "__line": 257591,
+    "__line": 283993,
     "_ancestry": [
         "L_ 30738",
-        "B_ {#stanayitnuH#}"
+        "B_ {#vfScikaH#}"
     ],
-    "_banner": "{#stanayitnuH#}",
+    "_banner": "{#vfScikaH#}",
     "_bannerExp": [
         {
-            "Right": "stanayitnuH"
+            "Right": "vfScikaH"
         }
     ],
     "_gram": [
-        "[{#stan-itnu#}]"
+        "[{#vraSc kikan#}]"
     ],
     "_meanings": [
-        "{@--1@} \nThundering, thunder, the muttering of\nclouds. ",
-        "{@--2@} A cloud; <ls>U. 3. 7</ls>, <ls n=\"U. 3.\">5</ls>, <ls n=\"U. 3.\">8.</ls>\n",
-        "{@--3@} Lightning. ",
-        "{@--4@} Sickness. ",
-        "{@--5@}\nDeath. ",
-        "{@--6@} A kind of grass."
+        ".²1 A scorpion.\n",
+        ".²2 The sign {%Scorpio%} of the zodiac.\n",
+        ".²3 A crab.\n",
+        ".²4 A centipede.\n",
+        ".²5 A kind of beetle.\n",
+        ".²6 A hairy caterpillar.\n",
+        ".²7 The month when the sun is in {%Scorpio%}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 284001,
+            "_ancestry": [
+                "L_ 30738",
+                "B_ {#vfScikaH#}",
+                "M_ .{@{#-kA, -kI#}@}"
+            ],
+            "_banner": ".{@{#-kA, -kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vfScikA"
+                },
+                {
+                    "Right": "vfScikI"
+                }
+            ],
+            "_meanings": [
+                "An ornament for the toes.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 284003,
+            "_ancestry": [
+                "L_ 30738",
+                "B_ {#vfScikaH#}",
+                "S_ .{@{#-ISaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vfScikeSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 ruler of the (zodiacal sign) Scorpio.\n",
+                ".²2 the planet Mercury."
+            ]
+        }
     ]
 }

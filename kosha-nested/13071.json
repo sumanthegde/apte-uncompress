@@ -1,20 +1,44 @@
 {
-    "__line": 109841,
+    "__line": 111297,
     "_ancestry": [
         "L_ 13071",
-        "B_ {#canas#}"
+        "B_ {#kOrava#}"
     ],
-    "_banner": "{#canas#}",
+    "_banner": "{#kOrava#}",
     "_bannerExp": [
         {
-            "Right": "canas"
+            "Right": "kOrava"
+        },
+        {
+            "Right": "kOravI"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%a.%}",
+        "({#-vI#}|{%f.%})",
+        "[{#kurorapatyaM, taddeSasya rAjA#}\n {#tezu Bavo vA, kuru aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Food. ",
-        "{@--2@} Delight, \nsatisfaction, pleasure."
+        "Relating to the Kurus; {#kzetraM kzatrapraDanapiSunaM#}\n {#kOravaM tad BajeTAH#} <ls>Me. 50</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 111300,
+            "_ancestry": [
+                "L_ 13071",
+                "B_ {#kOrava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOravaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A descendant of Kuru; {#maTnAmi kOravaSataM samare na kopAt#} <ls>Ve. 1. 15</ls>;\n <ls>Chāṇ. 50</ls>.\n",
+                ".²2 A ruler of the Kurus. (so {#kOravaka, kOravAyaRi#} and {#kOraveya#})."
+            ]
+        }
     ]
 }

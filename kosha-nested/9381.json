@@ -1,21 +1,42 @@
 {
-    "__line": 79279,
+    "__line": 78688,
     "_ancestry": [
         "L_ 9381",
-        "B_ {#Urmimat#}"
+        "B_ {#upakumBa#}"
     ],
-    "_banner": "{#Urmimat#}",
+    "_banner": "{#upakumBa#}",
     "_bannerExp": [
         {
-            "Right": "Urmimat"
+            "Right": "upakumBa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Wavy, undulating.\n",
-        "{@--2@} Crooked. ",
-        "{@--3@} Plaited, curled (as\nhair)."
+        ".²1 Near, proximate.\n",
+        ".²2 Solitary, retired, secluded.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 78691,
+            "_ancestry": [
+                "L_ 9381",
+                "B_ {#upakumBa#}",
+                "M_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upakumBam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Near a jar."
+            ]
+        }
     ]
 }

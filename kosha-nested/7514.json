@@ -1,19 +1,69 @@
 {
-    "__line": 64901,
+    "__line": 62793,
     "_ancestry": [
         "L_ 7514",
-        "B_ {#IrmAMta#}"
+        "B_ {#Arta#}"
     ],
-    "_banner": "{#IrmAMta#}",
+    "_banner": "{#Arta#}",
     "_bannerExp": [
         {
-            "Right": "IrmAMta"
+            "Right": "Arta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#A-f-kta#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Full-haunched, or\nthin-haunched."
+        ".²1 Afflicted with, struck by, suffering from, pained by; {#sA triyAmA#}\n {#tadArtasya candramaRqalamaRqitA#} <ls>Rām. 2. 13. 15</ls>; usually in <ab>comp.</ab>, {#kAmArta#},\n {#kzuDArta, tfzArta#} <ab>&c.</ab>\n",
+        ".²2 Sick, diseased; {#Artasya yaTOzaDam#} <ls>R. 1. 28</ls>; <ls>Ms. 4. 236</ls>.\n",
+        ".²3 Distressed, afflicted, struck by calamity, oppressed, unhappy; {#Arto#}\n {#jijYAsurarTArTI#} <ls>Bg. 7. 16</ls>; {#ArtatrARAya vaH SastraM na prahartumanAgasi#}\n <ls>Ś. 1. 11</ls>; <ls>R. 2. 28</ls>, <ls n=\"R.\">8. 31</ls>, <ls n=\"R.\">12. 10</ls>, <ls n=\"R. 12.\">32</ls>.\n",
+        ".²4 Perishable ({#vinASin ato'nyadArtam#}) <ls>Bṛ. Up. 3. 4. 2</ls>.\n",
+        ".²5 Inconvenient; {#ArtA yasmin kAle Bavanti sa ArtaH kAlaH .#} <ls>ŚB. on MS. 6. 5. 37</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 62804,
+            "_ancestry": [
+                "L_ 7514",
+                "B_ {#Arta#}",
+                "S_ .{@{#-nAdaH, -DvaniH, -svaraH#}@}"
+            ],
+            "_banner": ".{@{#-nAdaH, -DvaniH, -svaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArtanAdaH"
+                },
+                {
+                    "Right": "ArtaDvaniH"
+                },
+                {
+                    "Right": "ArtasvaraH"
+                }
+            ],
+            "_meanings": [
+                "a cry of distress.\n"
+            ]
+        },
+        {
+            "__line": 62805,
+            "_ancestry": [
+                "L_ 7514",
+                "B_ {#Arta#}",
+                "S_ .{@{#-banDuH, -sADuH#}@}"
+            ],
+            "_banner": ".{@{#-banDuH, -sADuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArtabanDuH"
+                },
+                {
+                    "Right": "ArtasADuH"
+                }
+            ],
+            "_meanings": [
+                "a friend of the distressed."
+            ]
+        }
     ]
 }

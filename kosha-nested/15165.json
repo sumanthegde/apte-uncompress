@@ -1,21 +1,44 @@
 {
-    "__line": 125968,
+    "__line": 131247,
     "_ancestry": [
         "L_ 15165",
-        "B_ {#dad#}"
+        "B_ {#cOqa#} "
     ],
-    "_banner": "{#dad#}",
+    "_banner": "{#cOqa#} ",
     "_bannerExp": [
         {
-            "Right": "dad"
+            "Right": "cOqa"
+        },
+        {
+            "Right": "cOqI"
+        },
+        {
+            "Left": "fFromGramCore error: cOqa  lI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#dadate#})"
+        "({#-qI#}|{%f.%})",
+        "{#cOla#}",
+        "({#-lI#}|{%f.%})",
+        "{%a.%}"
     ],
     "_meanings": [
-        "To give, offer,\npresent."
+        "¦\n [{#cUqA prayojanamasya cUqA˚ RaH vA qasya laH#}]\n",
+        ".²1 Crested.\n",
+        ".²2 Relating to tonsure.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 131251,
+            "_ancestry": [
+                "L_ 15165",
+                "B_ {#cOqa#} ",
+                "M_ .{@{#-qam, -lam#}@}"
+            ],
+            "_banner": ".{@{#-qam, -lam#}@}",
+            "_meanings": [
+                "The ceremony of tonsure."
+            ]
+        }
     ]
 }

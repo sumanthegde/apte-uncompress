@@ -1,40 +1,63 @@
 {
-    "__line": 232299,
+    "__line": 254803,
     "_ancestry": [
         "L_ 27606",
-        "B_ {#SapaTaH#}"
+        "B_ {#recaka#}"
     ],
-    "_banner": "{#SapaTaH#}",
+    "_banner": "{#recaka#}",
     "_bannerExp": [
         {
-            "Right": "SapaTaH"
+            "Right": "recaka"
+        },
+        {
+            "Right": "recikA"
         }
     ],
     "_gram": [
-        "[{#Sap-aTan#}]"
+        "{%a.%}",
+        "({#-cikA#}|{%f.%})",
+        "[{#recayati ric-Ric Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Cursing. ",
-        "{@--2@} A\ncurse, an imprecation, anathema.\n",
-        "{@--3@} An oath, swearing, taking or \nadministering an oath, asseveration\nby oath or ordeal; {#Amodo na hi#} \n{#kastUryAH SapaTenAnuBa vyate#} <ls>Bv. 1. 120</ls>;  \n<ls>Ms. 8. 109.</ls> ",
-        "{@--4@} Conjuration, binding by\noaths; <ls>Māl. 3. 2.</ls> "
+        ".²1 Emptying, purging.\n",
+        ".²2 Purgative, aperient.\n",
+        ".²3 Emptying the lungs, emitting the breath.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 232306,
+            "__line": 254808,
             "_ancestry": [
                 "L_ 27606",
-                "B_ {#SapaTaH#}",
-                "S_  {#--patraM#}"
+                "B_ {#recaka#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": " {#--patraM#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SapaTapatraM"
+                    "Right": "recakaH"
                 }
             ],
             "_meanings": [
-                "an\naffidavit, a statement on oath."
+                ".²1 Emission of breath, breathing out; exhalation, especially through one\n of the nostrils (<ab>opp.</ab> {#pUraka#} which means ‘inhaling breath’, and {#kumBaka#}\n ‘suspending breath’); {#prARApAnO saMnirunDyAt pUrakumBakarecakEH#} <ls>Bhāg. 7. 15. 32</ls>.\n",
+                ".²2 A syringe; {#sicyamAno'cyutastABirhasantIBiH sma recakEH#} <ls>Bhāg. 10. 90. 9</ls>.\n",
+                ".²3 Nitre, salt-petre.\n"
+            ]
+        },
+        {
+            "__line": 254814,
+            "_ancestry": [
+                "L_ 27606",
+                "B_ {#recaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "recakam"
+                }
+            ],
+            "_meanings": [
+                "A purgative, cathartic."
             ]
         }
     ]

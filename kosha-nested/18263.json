@@ -1,19 +1,38 @@
 {
-    "__line": 153539,
+    "__line": 162338,
     "_ancestry": [
         "L_ 18263",
-        "B_ {#pariSaMkin#}"
+        "B_ {#nawitam#}"
     ],
-    "_banner": "{#pariSaMkin#}",
+    "_banner": "{#nawitam#}",
     "_bannerExp": [
         {
-            "Right": "pariSaMkin"
+            "Right": "nawitam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Fearing, \napprehensive."
+        "Representation, gesticulation, acting. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 162338,
+            "_ancestry": [
+                "L_ 18263",
+                "B_ {#nawitam#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#nawitaM#} M_ --{%a.%}"
+                }
+            ],
+            "_gram": [
+                "({#nawita#})"
+            ],
+            "_meanings": [
+                "Disgusted with, tired; <ls>Hem.</ls> ({#pariSizwaparvan#})."
+            ]
+        }
     ]
 }

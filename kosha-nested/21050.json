@@ -1,17 +1,81 @@
 {
-    "__line": 174237,
+    "__line": 188632,
     "_ancestry": [
         "L_ 21050",
-        "B_ {#prAkAraH#}"
+        "B_ {#pAduka#}"
     ],
-    "_banner": "{#prAkAraH#}",
+    "_banner": "{#pAduka#}",
     "_bannerExp": [
         {
-            "Right": "prAkAraH"
+            "Right": "pAduka"
+        },
+        {
+            "Right": "pAdukA"
+        },
+        {
+            "Right": "pAdukI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kA, -kI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} A fence, a wall, an\nenclosure. ",
-        "{@--2@} An encircling or \nsurrounding wall, rampart; {#dvitIyaM#} \n{#hemaprAkAraM kurvadBiriva vAnarEH#} <ls>R. 12. 71</ls>;  \n<ls>Pt. 1. 229.</ls>"
+        "Going on foot.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 188634,
+            "_ancestry": [
+                "L_ 21050",
+                "B_ {#pAduka#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAdukA"
+                }
+            ],
+            "_meanings": [
+                "A wooden shoe, sandal; {#vraja Barata gfhItvA pAduke tvaM#}\n {#madIye#} <ls>Bk. 3. 56</ls>; <ls>R. 12. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 188636,
+            "_ancestry": [
+                "L_ 21050",
+                "B_ {#pAduka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAdukam"
+                }
+            ],
+            "_meanings": [
+                "the plinth, the pedestal, the base.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 188638,
+            "_ancestry": [
+                "L_ 21050",
+                "B_ {#pAduka#}",
+                "S_ .{@{#-kAraH#}@}"
+            ],
+            "_banner": ".{@{#-kAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAdukakAraH"
+                }
+            ],
+            "_meanings": [
+                "a shoemaker."
+            ]
+        }
     ]
 }

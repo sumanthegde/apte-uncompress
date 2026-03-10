@@ -1,26 +1,46 @@
 {
-    "__line": 76462,
+    "__line": 75871,
     "_ancestry": [
         "L_ 9011",
-        "B_ {#upastf, --stF#}"
+        "B_ {#udgranT#}"
     ],
-    "_banner": "{#upastf, --stF#}",
+    "_banner": "{#udgranT#}",
     "_bannerExp": [
         {
-            "Right": "upastF"
-        },
-        {
-            "Right": "upastf"
+            "Right": "udgranT"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "{c9c}",
+        "€1",
+        "€9",
         "<ab>U.</ab>"
     ],
     "_meanings": [
-        "{@--1@} To spread\nout (for another); spread under.\n",
-        "{@--2@} To strew or cover with. ",
-        "{@--3@} To\narrange, set in order."
+        "²1 To bind up, tie into bundles.\n",
+        ".²2 To tie up, put or sew together (as garlands <ab>&c.</ab>); {#iyamudgraTate srajo#}\n {#vicitrAH#} <ls>Mu. 1. 4</ls>; tie or fasten, intertwine; {#latApratAnodgraTitEH#}\n {#sa keSEH#} <ls>R. 2. 8</ls>.\n",
+        ".²3 To unbind, loosen (as a knot <ab>&c.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 75876,
+            "_ancestry": [
+                "L_ 9011",
+                "B_ {#udgranT#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "udgranT"
+                }
+            ],
+            "_gram": [
+                "{#karmASayaM graTitamudgraTayanti#}",
+                "{#santaH#}"
+            ],
+            "_meanings": [
+                "<ls>Bhāg. 4. 22. 39</ls>; {#granTimudgraTayituM hfdayeSe vAsasaH spfSati#}\n {#mAnaDanAyAH#} <ls>Śi. 10. 63</ls>."
+            ]
+        }
     ]
 }

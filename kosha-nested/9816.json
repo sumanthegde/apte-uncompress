@@ -1,16 +1,44 @@
 {
-    "__line": 82824,
+    "__line": 82000,
     "_ancestry": [
         "L_ 9816",
-        "B_ {#OpacCaMdasikaM#}"
+        "B_ {#uparam#}"
     ],
-    "_banner": "{#OpacCaMdasikaM#}",
+    "_banner": "{#uparam#}",
     "_bannerExp": [
         {
-            "Right": "OpacCaMdasikaM"
+            "Right": "uparam"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>P.</ab>",
+        "(Sometimes <ab>Ā.</ab> also)"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a metre;\nsee App."
+        ".²1 To cease, end, terminate; {#saMgatAvupararAma ca lajjA#} <ls>Ki. 9. 44</ls>, <ls n=\"Ki.\">13. 69</ls>;\n {#ityuktvopararAma#}; {#yudDamupAramat#} ceased <ab>&c.</ab>\n",
+        ".²2 To cease or desist from, stop (<ab>oft.</ab> with <ab>pres. part.</ab>); {#vyApAdayannopararAma#}\n <ls>Pt. 1</ls>; or with <ab>abl.</ab>; <ls>Bg. 2. 35</ls>; <ls>Bk. 8. 54</ls>, <ls n=\"Bk.\">9. 51</ls>; or with <ab>inf.</ab>; <ls>Ki. 4. 17</ls>;\n or by itself; <ls>Bk. 8. 55</ls>.\n",
+        ".²3 To be quiet or calm; {#yatroparamate cittam#} <ls>Bg. 6. 20</ls>.\n",
+        ".²4 To await, wait for; <ls>Śat. Br. 2. 2. 1-2</ls>, <ls n=\"Śat. Br.\">3. 8. 2-29</ls>.\n",
+        ".²5 To make quiet (= {%<ab>Caus.</ab>%}). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 82008,
+            "_ancestry": [
+                "L_ 9816",
+                "B_ {#uparam#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "uparam"
+                }
+            ],
+            "_meanings": [
+                "To cause to cease, stop,\n make quiet or still."
+            ]
+        }
     ]
 }

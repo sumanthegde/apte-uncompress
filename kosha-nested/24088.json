@@ -1,57 +1,71 @@
 {
-    "__line": 204244,
+    "__line": 214906,
     "_ancestry": [
         "L_ 24088",
-        "B_ {#rAjanya#}"
+        "B_ {#prIta#}"
     ],
-    "_banner": "{#rAjanya#}",
+    "_banner": "{#prIta#}",
     "_bannerExp": [
         {
-            "Right": "rAjanya"
+            "Right": "prIta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#rAjan-yat nalopaH#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#prI-kartari kta#}]"
     ],
     "_meanings": [
-        "Royal,\nkingly. "
+        ".²1 Pleased, delighted, rejoiced, gladdened; {#prItAsmi te putra varaM#}\n {#vfRIzva#} <ls>R. 2. 63</ls>, <ls n=\"R.\">1. 81</ls>, <ls n=\"R.\">12. 94</ls>.\n",
+        ".²2 Glad, happy, joyful; <ls>Me. 4</ls>.\n",
+        ".²3 Content.\n",
+        ".²4 Dear, beloved.\n",
+        ".²5 Kind, affectionate.\n"
     ],
     "_morphisms": [
         {
-            "__line": 204245,
+            "__line": 214913,
             "_ancestry": [
                 "L_ 24088",
-                "B_ {#rAjanya#}",
-                "M_ {#--nyaH#}"
+                "B_ {#prIta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--nyaH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "rAjanyaH"
+                    "Right": "prItam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A man of the\nKṣatriya caste, royal personage;\n{#rAjanyAn svapuranivfttaye'numene#} <ls>R. 4. 87</ls>;\n{#saMprati karaRIyo rAjanyepi praSrayaH#} <ls>U. 6</ls>;\n<ls>R. 3. 48</ls>; <ls>Me. 48.</ls> ",
-                "{@--2@} <ab>N.</ab> of Agni.\n",
-                "{@--3@} A noble or distinguished \npersonage. "
+                ".²1 Jest, mirth.\n",
+                ".²2 Delight, pleasure.\n"
             ]
-        },
+        }
+    ],
+    "_samasas": [
         {
-            "__line": 204251,
+            "__line": 214917,
             "_ancestry": [
                 "L_ 24088",
-                "B_ {#rAjanya#}",
-                "M_ {#--nyA#}"
+                "B_ {#prIta#}",
+                "S_ .{@{#-Atman, -citta, -manas#}@}"
             ],
-            "_banner": "{#--nyA#}",
+            "_banner": ".{@{#-Atman, -citta, -manas#}@}",
             "_bannerExp": [
                 {
-                    "Right": "rAjanyA"
+                    "Right": "prItAtman"
+                },
+                {
+                    "Right": "prItacitta"
+                },
+                {
+                    "Right": "prItamanas"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "A lady of royal rank."
+                "delighted at heart."
             ]
         }
     ]

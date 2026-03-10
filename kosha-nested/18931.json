@@ -1,57 +1,134 @@
 {
-    "__line": 158191,
+    "__line": 169454,
     "_ancestry": [
         "L_ 18931",
-        "B_ {#piMjala#}"
+        "B_ {#nirasta#}"
     ],
-    "_banner": "{#piMjala#}",
+    "_banner": "{#nirasta#}",
     "_bannerExp": [
         {
-            "Right": "piMjala"
+            "Right": "nirasta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#piMj kalac#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} \nOvercome with grief or terror, \nextremely confounded or perplexed. ",
-        "{@--2@}\nPanic-struck (as an army). "
+        ".²1 Cast off or away, thrown out or away, repudiated, driven, expelled,\n banished; {#kOlInaBItena gfhAnnirastA#} <ls>R. 14. 84</ls>.\n",
+        ".²2 Dispelled, destroyed.\n",
+        ".²3 Abandoned, deserted.\n",
+        ".²4 Removed, deprived or void of; {#nirastapAdape deSa eraRqopi drumAyate#} <ls>H. 1. 67</ls>.\n",
+        ".²5 Discharged (as an arrow).\n",
+        ".²6 Refuted.\n",
+        ".²7 Vomited, spit out.\n",
+        ".²8 Uttered rapidly; {#sarve UzmARo'grastA anirastA vivftA vaktavyAH#}\n <ls>Ch. Up. 2. 22. 5</ls>.\n",
+        ".²9 Torn out or destroyed.\n",
+        ".²10 Suppressed, checked.\n",
+        ".²11 Broken (as an agreement <ab>&c.</ab>).\n",
+        ".²12 Thrown off (as from a horse).\n",
+        ".²13 Offered, given; {#tvaM puRqarIkamuKa banDutayA nirastameko nivApasalilaM#}\n {#pibasItyayuktam#} <ls>Māl. 9. 40</ls>.\n",
+        ".²14 Rejected, disallowed.\n",
+        ".²15 Sent forth or away.\n"
     ],
     "_morphisms": [
         {
-            "__line": 158194,
+            "__line": 169473,
             "_ancestry": [
                 "L_ 18931",
-                "B_ {#piMjala#}",
-                "M_ {#--laM#}"
+                "B_ {#nirasta#}",
+                "M_ .{@{#-staH#}@}"
             ],
-            "_banner": "{#--laM#}",
+            "_banner": ".{@{#-staH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "piMjalaM"
+                    "Right": "nirastaH"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nYellow orpiment. ",
-                "{@--2@} The leaf of the\nKuśa grass. "
+                "An arrow discharged.\n"
             ]
         },
         {
-            "__line": 158196,
+            "__line": 169474,
             "_ancestry": [
                 "L_ 18931",
-                "B_ {#piMjala#}",
-                "M_ {#--lI#}"
+                "B_ {#nirasta#}",
+                "M_ .{@{#-stam#}@}"
             ],
-            "_banner": "{#--lI#}",
+            "_banner": ".{@{#-stam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "piMjalI"
+                    "Right": "nirastam"
                 }
             ],
             "_meanings": [
-                "Two blades of \n\nKuśa grass used in holding certain\narticles at a sacrifice."
+                ".²1 Rejecting, refusal <ab>&c.</ab>\n",
+                ".²2 Dropping or leaving out, rapid pronunciation.\n",
+                ".²3 Spitting out.\n",
+                ".²4 Preventing, warding of.\n",
+                ".²5 Throwing or casting.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 169481,
+            "_ancestry": [
+                "L_ 18931",
+                "B_ {#nirasta#}",
+                "S_ .{@{#-Bade#}@}"
+            ],
+            "_banner": ".{@{#-Bade#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nirastaBade"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having all differences removed, same, identical.\n"
+            ]
+        },
+        {
+            "__line": 169482,
+            "_ancestry": [
+                "L_ 18931",
+                "B_ {#nirasta#}",
+                "S_ .{@{#-rAga#}@}"
+            ],
+            "_banner": ".{@{#-rAga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nirastarAga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has renounced all worldly attachments.\n"
+            ]
+        },
+        {
+            "__line": 169483,
+            "_ancestry": [
+                "L_ 18931",
+                "B_ {#nirasta#}",
+                "S_ .{@{#-saMKya#}@}"
+            ],
+            "_banner": ".{@{#-saMKya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nirastasaNKya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "innumerable."
             ]
         }
     ]

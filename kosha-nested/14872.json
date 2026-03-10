@@ -1,21 +1,355 @@
 {
-    "__line": 123358,
+    "__line": 128880,
     "_ancestry": [
         "L_ 14872",
-        "B_ {#tfR#}"
+        "B_ {#cAru#}"
     ],
-    "_banner": "{#tfR#}",
+    "_banner": "{#cAru#}",
     "_bannerExp": [
         {
-            "Right": "tfR"
+            "Right": "cAru"
+        },
+        {
+            "Right": "cArvI"
         }
     ],
     "_gram": [
-        "{c8c}",
-        "<ab>U.</ab>",
-        "({#tfRoti-tfRute#} or {#tarRoti#}\n{#tarRute#})"
+        "{%a.%}",
+        "({#-ru#}|{#-rvI#}|{%f.%})",
+        "[{#carati citte car uR#} <ab>cf.</ab> <ls>Uṇ. 1. 3.</ls>]"
     ],
     "_meanings": [
-        "To eat, grass graze."
+        ".²1 Agreeable, welcome, beloved, esteemed, dear (with <ab>dat.</ab> or <ab>loc.</ab>); {#varuRAya#}\n or {#varuRe cAruH#}.\n",
+        ".²2 Pleasing, lovely, beautiful, elegant, pretty; {#priye cAruSIle muYca#}\n {#mayi mAnamanidAnam#} <ls>Gīt. 10</ls>; {#sarvaM priye cArutaraM vasante#} <ls>Ṛs. 6. 2</ls>;\n {#cakAsataM cAru camUrucarmaRA#} <ls>Śi. 1. 8</ls>, <ls n=\"Śi.\">4. 49</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 128887,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "M_ .{@{#-ruH#}@}"
+            ],
+            "_banner": ".{@{#-ruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruH"
+                }
+            ],
+            "_meanings": [
+                "An epithet of Bṛhaspati.\n"
+            ]
+        },
+        {
+            "__line": 128888,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "M_ .{@{#-ru#}@}"
+            ],
+            "_banner": ".{@{#-ru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAru"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "Saffron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 128890,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-aNgI#}@}"
+            ],
+            "_banner": ".{@{#-aNgI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cArvaNgI"
+                }
+            ],
+            "_meanings": [
+                "a beautifully formed woman.\n"
+            ]
+        },
+        {
+            "__line": 128891,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-GoRa#}@}"
+            ],
+            "_banner": ".{@{#-GoRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruGoRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "handsome-nosed.\n"
+            ]
+        },
+        {
+            "__line": 128892,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-darSana#}@}"
+            ],
+            "_banner": ".{@{#-darSana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cArudarSana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "good-looking, lovely.\n"
+            ]
+        },
+        {
+            "__line": 128893,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-DAmA, -DArA, -rAvA#}@}"
+            ],
+            "_banner": ".{@{#-DAmA, -DArA, -rAvA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruDAmA"
+                },
+                {
+                    "Right": "cAruDArA"
+                },
+                {
+                    "Left": "S error: midAlign rAvA DArAvA"
+                }
+            ],
+            "_meanings": [
+                "Śachī, Indraʼs wife.\n"
+            ]
+        },
+        {
+            "__line": 128894,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-netra, -locana#}@}"
+            ],
+            "_banner": ".{@{#-netra, -locana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cArunetra"
+                },
+                {
+                    "Right": "cArulocana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having beautiful eyes.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 128895,
+                    "_ancestry": [
+                        "L_ 14872",
+                        "B_ {#cAru#}",
+                        "S_ .{@{#-netra, -locana#}@}",
+                        "S_M_ ({@{#-netraH, -naH#}@}"
+                    ],
+                    "_banner": "({@{#-netraH, -naH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "cArunetraH"
+                        },
+                        {
+                            "Right": "cArunaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a deer; <ls>L. D. B.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 128896,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-puwaH#}@}"
+            ],
+            "_banner": ".{@{#-puwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cArupuwaH"
+                }
+            ],
+            "_meanings": [
+                "a particular time in music.\n"
+            ]
+        },
+        {
+            "__line": 128897,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-PalA#}@}"
+            ],
+            "_banner": ".{@{#-PalA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruPalA"
+                }
+            ],
+            "_meanings": [
+                "a vine, grape.\n"
+            ]
+        },
+        {
+            "__line": 128898,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-locanA#}@}"
+            ],
+            "_banner": ".{@{#-locanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cArulocanA"
+                }
+            ],
+            "_meanings": [
+                "a woman with lovely eyes.\n"
+            ]
+        },
+        {
+            "__line": 128899,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-vaktra#}@}"
+            ],
+            "_banner": ".{@{#-vaktra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruvaktra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a beautiful face.\n"
+            ]
+        },
+        {
+            "__line": 128900,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-varDanA#}@}"
+            ],
+            "_banner": ".{@{#-varDanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruvarDanA"
+                }
+            ],
+            "_meanings": [
+                "a woman.\n"
+            ]
+        },
+        {
+            "__line": 128901,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-vratA#}@}"
+            ],
+            "_banner": ".{@{#-vratA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruvratA"
+                }
+            ],
+            "_meanings": [
+                "a female who fasts for a whole month.\n"
+            ]
+        },
+        {
+            "__line": 128902,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-SilA#}@}"
+            ],
+            "_banner": ".{@{#-SilA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruSilA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a jewel, gem.\n",
+                ".²2 a beautiful slab of stone.\n"
+            ]
+        },
+        {
+            "__line": 128905,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-SIla#}@}"
+            ],
+            "_banner": ".{@{#-SIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruSIla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of a lovely disposition or character.\n"
+            ]
+        },
+        {
+            "__line": 128906,
+            "_ancestry": [
+                "L_ 14872",
+                "B_ {#cAru#}",
+                "S_ .{@{#-hAsin#}@}"
+            ],
+            "_banner": ".{@{#-hAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAruhAsin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sweet-smiling."
+            ]
+        }
     ]
 }

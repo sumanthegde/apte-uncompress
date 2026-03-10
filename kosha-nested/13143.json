@@ -1,20 +1,144 @@
 {
-    "__line": 110524,
+    "__line": 111959,
     "_ancestry": [
         "L_ 13143",
-        "B_ {#carcanaM#}"
+        "B_ {#krAntiH#}"
     ],
-    "_banner": "{#carcanaM#}",
+    "_banner": "{#krAntiH#}",
     "_bannerExp": [
         {
-            "Right": "carcanaM"
+            "Right": "krAntiH"
         }
     ],
     "_gram": [
-        "[{#carc-lyuw#}]"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} Studying, \nrepetition, reading repeatedly. ",
-        "{@--2@} \nSmearing the body with unguents."
+        ".²1 Going, proceeding.\n",
+        ".²2 A step, pace.\n",
+        ".²3 Surpassing.\n",
+        ".²4 Attacking, overcoming.\n",
+        ".²5 Declination of a planet.\n",
+        ".²6 The ecliptic.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 111967,
+            "_ancestry": [
+                "L_ 13143",
+                "B_ {#krAntiH#}",
+                "S_ .{@{#-kakzaH, -maRqalam, -valayaH, -vfttam#}@}"
+            ],
+            "_banner": ".{@{#-kakzaH, -maRqalam, -valayaH, -vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntikakzaH"
+                },
+                {
+                    "Right": "krAntimaRqalam"
+                },
+                {
+                    "Right": "krAntivalayaH"
+                },
+                {
+                    "Right": "krAntivfttam"
+                }
+            ],
+            "_meanings": [
+                "the ecliptic.\n"
+            ]
+        },
+        {
+            "__line": 111968,
+            "_ancestry": [
+                "L_ 13143",
+                "B_ {#krAntiH#}",
+                "S_ .{@{#-kzetram#}@}"
+            ],
+            "_banner": ".{@{#-kzetram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntikzetram"
+                }
+            ],
+            "_meanings": [
+                "a figure described by the ecliptic.\n"
+            ]
+        },
+        {
+            "__line": 111969,
+            "_ancestry": [
+                "L_ 13143",
+                "B_ {#krAntiH#}",
+                "S_ .{@{#-jIvA, -jyakA, -jyA#}@}"
+            ],
+            "_banner": ".{@{#-jIvA, -jyakA, -jyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntijIvA"
+                },
+                {
+                    "Right": "krAntijyakA"
+                },
+                {
+                    "Left": "S error: 1 syl jyakA jyA"
+                }
+            ],
+            "_meanings": [
+                "the sine of the declination or of the ecliptic.\n"
+            ]
+        },
+        {
+            "__line": 111970,
+            "_ancestry": [
+                "L_ 13143",
+                "B_ {#krAntiH#}",
+                "S_ .{@{#-pAtaH#}@}"
+            ],
+            "_banner": ".{@{#-pAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntipAtaH"
+                }
+            ],
+            "_meanings": [
+                "the equinoctial points or nodes of the ecliptic.\n"
+            ]
+        },
+        {
+            "__line": 111971,
+            "_ancestry": [
+                "L_ 13143",
+                "B_ {#krAntiH#}",
+                "S_ .{@{#-BAgaH#}@}"
+            ],
+            "_banner": ".{@{#-BAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntiBAgaH"
+                }
+            ],
+            "_meanings": [
+                "the declination of a point of the ecliptic.\n"
+            ]
+        },
+        {
+            "__line": 111972,
+            "_ancestry": [
+                "L_ 13143",
+                "B_ {#krAntiH#}",
+                "S_ .{@{#-valayaH#}@}"
+            ],
+            "_banner": ".{@{#-valayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntivalayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the ecliptic.\n",
+                ".²2 the tropical zone, space within the tropics."
+            ]
+        }
     ]
 }

@@ -1,16 +1,40 @@
 {
-    "__line": 149267,
+    "__line": 156353,
     "_ancestry": [
         "L_ 17716",
-        "B_ {#paTilaH#}"
+        "B_ {#drARa#}"
     ],
-    "_banner": "{#paTilaH#}",
+    "_banner": "{#drARa#}",
     "_bannerExp": [
         {
-            "Right": "paTilaH"
+            "Right": "drARa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A traveller, way-farer."
+        ".²1 Flown, run away.\n",
+        ".²2 Sleeping, sleepy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 156356,
+            "_ancestry": [
+                "L_ 17716",
+                "B_ {#drARa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "drARam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Running away, flight, retreat.\n",
+                ".²2 Sleep."
+            ]
+        }
     ]
 }

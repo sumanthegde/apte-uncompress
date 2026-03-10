@@ -1,39 +1,81 @@
 {
-    "__line": 152282,
+    "__line": 160250,
     "_ancestry": [
         "L_ 18050",
-        "B_ {#pariDAvin#}"
+        "B_ {#Durya#}"
     ],
-    "_banner": "{#pariDAvin#}",
+    "_banner": "{#Durya#}",
     "_bannerExp": [
         {
-            "Right": "pariDAvin"
+            "Right": "Durya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#DuraM vahati, yat#}]"
     ],
     "_meanings": [
-        "Running round. "
+        ".²1 Fit for a burden, able to bear a burden <ab>&c.</ab>\n",
+        ".²2 Fit to be entrusted with important duties.\n",
+        ".²3 Standing at the head, chief, foremost; see below.\n"
     ],
     "_morphisms": [
         {
-            "__line": 152282,
+            "__line": 160254,
             "_ancestry": [
                 "L_ 18050",
-                "B_ {#pariDAvin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#Durya#}",
+                "M_ .{@{#-ryaH#}@}"
             ],
+            "_banner": ".{@{#-ryaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pariDAvin"
+                    "Right": "DuryaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                ".²1 A beast of burden.\n",
+                ".²2 A horse or bullock yoked to the pole of a carriage; {#nAvinItErvrajed#}\n {#DuryEH#} <ls>Ms. 4. 67</ls>; {#yenedaM Driyate viSvaM DuryEryAnamivADvani#} <ls>Ku. 6. 76</ls>;\n {#DuryAn viSrAmayeti#} <ls>R. 1. 54</ls>, <ls n=\"R.\">6. 78</ls>, <ls n=\"R.\">17. 19</ls>.\n",
+                ".²3 One who carries a burden (of responsibility); {#tasyA BavAnaparaDuryapadAvalambI#} <ls>R. 5. 66</ls>.\n",
+                ".²4 A chief, leader, head; {#na hi sati kulaDurye sUryavaMSyA gfhAya#} <ls>R. 7. 71</ls>.\n",
+                ".²5 A minister, one charged with important duties; {#tato yugaMDarAKyasya#}\n {#haste Duryasya mantriRaH#} <ls>Ks. 9. 14</ls>.\n",
+                ".²6 An epithet of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 160264,
+            "_ancestry": [
+                "L_ 18050",
+                "B_ {#Durya#}",
+                "M_ .{@{#-ryam#}@}"
+            ],
+            "_banner": ".{@{#-ryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Duryam"
+                }
             ],
             "_meanings": [
-                "<ab>N.</ab> of a year ({#saMvatsara#})"
+                "The forepart of a pole.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 160266,
+            "_ancestry": [
+                "L_ 18050",
+                "B_ {#Durya#}",
+                "S_ .{@{#-vAhaH#}@}"
+            ],
+            "_banner": ".{@{#-vAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DuryavAhaH"
+                }
+            ],
+            "_meanings": [
+                "a beast for draught."
             ]
         }
     ]

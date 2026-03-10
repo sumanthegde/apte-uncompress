@@ -1,16 +1,121 @@
 {
-    "__line": 194580,
+    "__line": 206796,
     "_ancestry": [
         "L_ 23114",
-        "B_ {#mAhA#}"
+        "B_ {#prabA(vA)laH, -lam#}"
     ],
-    "_banner": "{#mAhA#}",
+    "_banner": "{#prabA(vA)laH, -lam#}",
     "_bannerExp": [
         {
-            "Right": "mAhA"
+            "Right": "prabAlaH"
+        },
+        {
+            "Right": "pravAlaH"
+        },
+        {
+            "Right": "prabAlam"
+        },
+        {
+            "Right": "pravAlam"
         }
     ],
     "_meanings": [
-        "A cow."
+        ".²1 A sprout, shoot, new leaf; {#api … … pravAlamAsAmanubanDi vIruDAm#}\n <ls>Ku. 5. 34</ls>, <ls n=\"Ku.\">1. 44</ls>, <ls n=\"Ku.\">3. 8</ls>; <ls>R. 6. 12</ls>, <ls n=\"R.\">13. 49</ls>.\n",
+        ".²2 Coral; {#SudDaM dfQaM GanaM vfttaM snigDaM pAtrasuraNgakam . samaM#}\n {#guru sirAhInaM prabAlaM DArayecCuBam ..#} <ls>Rājanighaṇṭu.</ls>\n",
+        ".²3 The neck of the Indian lute.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 206802,
+            "_ancestry": [
+                "L_ 23114",
+                "B_ {#prabA(vA)laH, -lam#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prabAlaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A pupil.\n",
+                ".²2 An animal.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 206806,
+            "_ancestry": [
+                "L_ 23114",
+                "B_ {#prabA(vA)laH, -lam#}",
+                "S_ .{@{#-aSmantakaH#}@}"
+            ],
+            "_banner": ".{@{#-aSmantakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prabAlASmantakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the red Aśmantaka tree.\n",
+                ".²2 the coral tree.\n"
+            ]
+        },
+        {
+            "__line": 206809,
+            "_ancestry": [
+                "L_ 23114",
+                "B_ {#prabA(vA)laH, -lam#}",
+                "S_ .{@{#-padmam#}@}"
+            ],
+            "_banner": ".{@{#-padmam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prabAlapadmam"
+                }
+            ],
+            "_meanings": [
+                "a red lotus.\n"
+            ]
+        },
+        {
+            "__line": 206810,
+            "_ancestry": [
+                "L_ 23114",
+                "B_ {#prabA(vA)laH, -lam#}",
+                "S_ .{@{#-Palam#}@}"
+            ],
+            "_banner": ".{@{#-Palam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prabAlaPalam"
+                }
+            ],
+            "_meanings": [
+                "red sandal-wood.\n"
+            ]
+        },
+        {
+            "__line": 206811,
+            "_ancestry": [
+                "L_ 23114",
+                "B_ {#prabA(vA)laH, -lam#}",
+                "S_ .{@{#-Basman#}@}"
+            ],
+            "_banner": ".{@{#-Basman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prabAlaBasman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "calx of coral."
+            ]
+        }
     ]
 }

@@ -1,19 +1,60 @@
 {
-    "__line": 18478,
+    "__line": 16266,
     "_ancestry": [
         "L_ 1865",
-        "B_ {#anulIna#}"
+        "B_ {#anupaTa#}"
     ],
-    "_banner": "{#anulIna#}",
+    "_banner": "{#anupaTa#}",
     "_bannerExp": [
         {
-            "Right": "anulIna"
+            "Right": "anupaTa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#panTAnamanugataH#}]"
     ],
     "_meanings": [
-        "Hidden, clinging to,\nattached; <ls>Śi. 5. 46</ls>; {#janAdanulInaH#}  \n<ls>Dk. 104</ls> concealed from the people."
+        "Following the road.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 16267,
+            "_ancestry": [
+                "L_ 1865",
+                "B_ {#anupaTa#}",
+                "M_ .{@{#-TaH#}@}"
+            ],
+            "_banner": ".{@{#-TaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anupaTaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A road, favourable road; {#antaspaTA anupaTAH#} <ls>Rv. 5. 52. 10</ls>\n\n ({#anukUlamArgAH#})\n",
+                ".²2 an attendant; {#ka ete'nupaTA ye te ekAdaSa mahABawAH#} <ls>Bhāg. 4. 25. 27</ls>.\n"
+            ]
+        },
+        {
+            "__line": 16272,
+            "_ancestry": [
+                "L_ 1865",
+                "B_ {#anupaTa#}",
+                "M_ .{@{#-Tam#}@}"
+            ],
+            "_banner": ".{@{#-Tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anupaTam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "Along the road."
+            ]
+        }
     ]
 }

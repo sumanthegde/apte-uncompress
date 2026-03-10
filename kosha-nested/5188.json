@@ -1,20 +1,56 @@
 {
-    "__line": 45707,
+    "__line": 43806,
     "_ancestry": [
         "L_ 5188",
-        "B_ {#avyarTa#}"
+        "B_ {#avaroDaka#}"
     ],
-    "_banner": "{#avyarTa#}",
+    "_banner": "{#avaroDaka#}",
     "_bannerExp": [
         {
-            "Right": "avyarTa"
+            "Right": "avaroDaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Not useless or \nfruitless, fruitful, profitable. ",
-        "{@--2@} \nEffectual, successful."
+        ".²1 Obstruction, hindering, impeding.\n",
+        ".²2 Besieging; {#suDanvA vIryavAn rAjA miTilAmavaroDakaH#} <ls>Rām. 1. 71. 16</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 43809,
+            "_ancestry": [
+                "L_ 5188",
+                "B_ {#avaroDaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaroDakaH"
+                }
+            ],
+            "_meanings": [
+                "A guard.\n"
+            ]
+        },
+        {
+            "__line": 43810,
+            "_ancestry": [
+                "L_ 5188",
+                "B_ {#avaroDaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaroDakam"
+                }
+            ],
+            "_meanings": [
+                "A barrier, fence."
+            ]
+        }
     ]
 }

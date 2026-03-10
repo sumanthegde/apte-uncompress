@@ -1,16 +1,43 @@
 {
-    "__line": 29270,
+    "__line": 26585,
     "_ancestry": [
         "L_ 3058",
-        "B_ {#aBicaraRaM#}"
+        "B_ {#apOruza#}, {#-pOruzeya#}"
     ],
-    "_banner": "{#aBicaraRaM#}",
+    "_banner": "{#apOruza#}, {#-pOruzeya#}",
     "_bannerExp": [
         {
-            "Right": "aBicaraRaM"
+            "Right": "apOruza"
+        },
+        {
+            "Right": "apOruzeya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Enchanting, exorcising,\nemployment of spells for \nmalevolent purposes (such as {#SyenayAga#});\n<ls>Mu. 4. 12.</ls>"
+        ".²1 Unmanly, cowardly, timid.\n",
+        ".²2 Superhuman, not of the authorship of man, of divine origin; {#apOruzeyA#}\n {#vedAH#}; {#apOruzeyapratizWaH suvarRabindurityAKyAyate#} <ls>Māl. 9</ls> not set\n up by (the hand of) man.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 26590,
+            "_ancestry": [
+                "L_ 3058",
+                "B_ {#apOruza#}, {#-pOruzeya#}",
+                "M_ .{@{#-zam, -zeyam#}@}"
+            ],
+            "_banner": ".{@{#-zam, -zeyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apOruzam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Cowardice, pusillanimity.\n",
+                ".²2 Superhuman power."
+            ]
+        }
     ]
 }

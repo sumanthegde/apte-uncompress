@@ -1,16 +1,63 @@
 {
-    "__line": 243338,
+    "__line": 268342,
     "_ancestry": [
         "L_ 28990",
-        "B_ {#saMcalanaM#}"
+        "B_ {#vAyavIya, vAyavya#}"
     ],
-    "_banner": "{#saMcalanaM#}",
+    "_banner": "{#vAyavIya, vAyavya#}",
     "_bannerExp": [
         {
-            "Right": "saMcalanaM"
+            "Right": "vAyavIya"
+        },
+        {
+            "Right": "vAyavya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Agitation, trembling, \nshaking; {#acalasaMcalanAharaRoraRaH#} <ls>Ki. 18. 8.</ls>"
+        "Relating to the wind, aerial; {#vAyavyastu#}\n {#guRaH sparSaH#} <ls>Mb. 12. 184. 36</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 268344,
+            "_ancestry": [
+                "L_ 28990",
+                "B_ {#vAyavIya, vAyavya#}",
+                "M_ .{@{#-vAyavyA#}@}"
+            ],
+            "_banner": ".{@{#-vAyavyA#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: vAyavIya/vAyavya vAyavyA"
+                }
+            ],
+            "_meanings": [
+                "the northwest.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 268345,
+            "_ancestry": [
+                "L_ 28990",
+                "B_ {#vAyavIya, vAyavya#}",
+                "S_ {@{#purARam#}@}"
+            ],
+            "_banner": "{@{#purARam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vAyavIya#} S_ {@{#purARaM#}@}"
+                }
+            ],
+            "_gram": [
+                "({@{#vAyavIyapurARam#}@})"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a Purāṇa."
+            ]
+        }
     ]
 }

@@ -1,23 +1,38 @@
 {
-    "__line": 193981,
+    "__line": 206245,
     "_ancestry": [
         "L_ 23035",
-        "B_ {#mArakata#}"
+        "B_ {#pranftta#}"
     ],
-    "_banner": "{#mArakata#}",
+    "_banner": "{#pranftta#}",
     "_bannerExp": [
         {
-            "Right": "mArakatI"
-        },
-        {
-            "Right": "mArakata"
+            "Right": "pranftta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Belonging to\nan emerald; {#kAcaH kAMcanasaMsargAdDatte#}\n{#mArakatIM dyutiM#} <ls>H. Pr. 41.</ls>"
+        "Dancing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 206246,
+            "_ancestry": [
+                "L_ 23035",
+                "B_ {#pranftta#}",
+                "M_ .{@{#-ttam#}@}"
+            ],
+            "_banner": ".{@{#-ttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pranfttam"
+                }
+            ],
+            "_meanings": [
+                "A dance."
+            ]
+        }
     ]
 }

@@ -1,23 +1,273 @@
 {
-    "__line": 221969,
+    "__line": 240177,
     "_ancestry": [
         "L_ 26309",
-        "B_ {#viyu#}"
+        "B_ {#miSra#}"
     ],
-    "_banner": "{#viyu#}",
+    "_banner": "{#miSra#}",
     "_bannerExp": [
         {
-            "Right": "viyu"
+            "Right": "miSra"
         }
     ],
     "_gram": [
-        "{c3c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#miSr-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To be separated or\ndissolved (intran.). ",
-        "{@--2@} To lose or\nbe deprived of. ",
-        "{@--3@} To exclude, \ndeprive of. ",
-        "{@--4@} To keep or ward off,\nprevent."
+        ".²1 Mixed, blended, mingled, combined; {#gadyaM padyaM ca miSraM ca tat#}\n {#triDEva vyavasTitam#} <ls>Kāv. 1. 11</ls>, <ls n=\"Kāv. 1.\">31</ls>, <ls n=\"Kāv. 1.\">32</ls>; <ls>R. 16. 32</ls>; ({#sa rAjA#}) {#ahanyahanyarTagajASvamiSrErvfdDiM#}\n {#yayO sinDurivAmbuvegEH#} <ls>Bu. Ch. 2. 1</ls>.\n",
+        ".²2 Associated, connected.\n",
+        ".²3 Manifold, diverse; {#prasUtimiSrAH striya udvignacittA UcurvipAko vfjinasyEza#}\n {#tasya#} <ls>Bhāg. 4. 5. 9</ls>.\n",
+        ".²4 Tangled, intertwined.\n",
+        ".²5 (At the end of <ab>comp.</ab>) Having a mixture of, consisting for the most part of.\n",
+        ".²6 Mixing, adulterating.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 240187,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "M_ .{@{#-SraH#}@}"
+            ],
+            "_banner": ".{@{#-SraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A respectable or worthy person; usually affixed to the names of great\n men and scholars; {#AryamiSrAH pramARam#} <ls>M. 1</ls>; {#vasizWamiSraH#}; {#maRqanamiSraH#} <ab>&c.</ab>\n",
+                ".²2 A kind of elephant.\n",
+                ".²3 The group of the constellations {#kfttikA#} and {#viSAKA#}.\n",
+                ".²4 (In music) A kind of measure.\n"
+            ]
+        },
+        {
+            "__line": 240193,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "M_ .{@{#-Sram#}@}"
+            ],
+            "_banner": ".{@{#-Sram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A mixture.\n",
+                ".²2 A kind of radish.\n",
+                ".²3 (with {#Dana#}) Principal and interest.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 240198,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-odanaH#}@}"
+            ],
+            "_banner": ".{@{#-odanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSrOdanaH"
+                }
+            ],
+            "_meanings": [
+                "a food of rice and pulse boiled (<lang>Mar.</lang> <ns>{#KicaqI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 240199,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-coraH, -cOraH#}@}"
+            ],
+            "_banner": ".{@{#-coraH, -cOraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSracoraH"
+                },
+                {
+                    "Right": "miSracOraH"
+                }
+            ],
+            "_meanings": [
+                "an adulterator of grain.\n"
+            ]
+        },
+        {
+            "__line": 240200,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSrajaH"
+                }
+            ],
+            "_meanings": [
+                "a mule.\n"
+            ]
+        },
+        {
+            "__line": 240201,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-jAti#}@}"
+            ],
+            "_banner": ".{@{#-jAti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSrajAti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of mixed breed.\n"
+            ]
+        },
+        {
+            "__line": 240202,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-DAnyam#}@}"
+            ],
+            "_banner": ".{@{#-DAnyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSraDAnyam"
+                }
+            ],
+            "_meanings": [
+                "mixed grain.\n"
+            ]
+        },
+        {
+            "__line": 240203,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-varRa#}@}"
+            ],
+            "_banner": ".{@{#-varRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSravarRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of a mixed colour.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 240204,
+                    "_ancestry": [
+                        "L_ 26309",
+                        "B_ {#miSra#}",
+                        "S_ .{@{#-varRa#}@}",
+                        "S_M_ ({@{#-rRam#}@}"
+                    ],
+                    "_banner": "({@{#-rRam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "miSravarRam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a kind of black aloe-wood.\n",
+                        ".²2 a species of sugar-cane.\n",
+                        ".²3 (in music) a kind of measure. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 240207,
+                            "_ancestry": [
+                                "L_ 26309",
+                                "B_ {#miSra#}",
+                                "S_ .{@{#-varRa#}@}",
+                                "S_M_ ({@{#-rRam#}@}",
+                                "S_M_S_ {#˚PalA#}"
+                            ],
+                            "_banner": "{#˚PalA#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "miSravarRaPalA"
+                                }
+                            ],
+                            "_meanings": [
+                                "Solanum Melongena (<lang>Mar.</lang> <ns>{#qoralI vAMgI#}</ns>).\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 240208,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-vfttam#}@}"
+            ],
+            "_banner": ".{@{#-vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSravfttam"
+                }
+            ],
+            "_meanings": [
+                "a mixed story (partly popular and partly supernatural).\n"
+            ]
+        },
+        {
+            "__line": 240209,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-vyavahAraH#}@}"
+            ],
+            "_banner": ".{@{#-vyavahAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSravyavahAraH"
+                }
+            ],
+            "_meanings": [
+                "(in <ab>arith.</ab>) investigation of composition (of principal and interest).\n"
+            ]
+        },
+        {
+            "__line": 240210,
+            "_ancestry": [
+                "L_ 26309",
+                "B_ {#miSra#}",
+                "S_ .{@{#-SabdaH#}@}"
+            ],
+            "_banner": ".{@{#-SabdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSraSabdaH"
+                }
+            ],
+            "_meanings": [
+                "a mule."
+            ]
+        }
     ]
 }

@@ -1,23 +1,57 @@
 {
-    "__line": 155643,
+    "__line": 165562,
     "_ancestry": [
         "L_ 18568",
-        "B_ {#pAMkteya, pAMktya#}"
+        "B_ {#nAsikya#}"
     ],
-    "_banner": "{#pAMkteya, pAMktya#}",
+    "_banner": "{#nAsikya#}",
     "_bannerExp": [
         {
-            "Right": "pAMkteya"
-        },
-        {
-            "Right": "pAMktya"
+            "Right": "nAsikya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#nAsikA-Rya#}]"
     ],
     "_meanings": [
-        "{@--1@} Fit to sit in\nthe same row at a dinner-party. ",
-        "{@--2@}\nFit to be associated with."
+        ".²1 Nasal.\n",
+        ".²2 Being in the nose.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 165565,
+            "_ancestry": [
+                "L_ 18568",
+                "B_ {#nAsikya#}",
+                "M_ .{@{#-kyaH#}@}"
+            ],
+            "_banner": ".{@{#-kyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAsikyaH"
+                }
+            ],
+            "_meanings": [
+                "A nasal sound.\n"
+            ]
+        },
+        {
+            "__line": 165566,
+            "_ancestry": [
+                "L_ 18568",
+                "B_ {#nAsikya#}",
+                "M_ .{@{#-kyO#}@}"
+            ],
+            "_banner": ".{@{#-kyO#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAsikyO"
+                }
+            ],
+            "_meanings": [
+                "(<ab>du.</ab>) An epithet of the Aśvins."
+            ]
+        }
     ]
 }

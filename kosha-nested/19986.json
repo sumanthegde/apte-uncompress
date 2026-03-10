@@ -1,25 +1,68 @@
 {
-    "__line": 167097,
+    "__line": 180310,
     "_ancestry": [
         "L_ 19986",
-        "B_ {#pratimukta#}"
+        "B_ {#parAcIna#}"
     ],
-    "_banner": "{#pratimukta#}",
+    "_banner": "{#parAcIna#}",
     "_bannerExp": [
         {
-            "Right": "pratimukta"
+            "Right": "parAcIna"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#parAc-Ka#}]"
     ],
     "_meanings": [
-        "{@--1@} Put on, worn,\napplied. ",
-        "{@--2@} Tied, bound, fastened.\n",
-        "{@--3@} Armed, accoutred. ",
-        "{@--4@} Liberated,\nreleased. ",
-        "{@--5@} Restored, returned. ",
-        "{@--6@} \n\nFlung, hurled. ",
-        "{@--7@} Thrown, cast."
+        ".²1 Turned in an opposite direction, averted; {#parAcIno'BavatteByaH#}\n <ls>Śiva B. 27. 42</ls>.\n",
+        ".²2 Averse from, disinclined to.\n",
+        ".²3 Not minding, not caring about.\n",
+        ".²4 Happening subsequently or afterwards ({#uttarakAlaBava#}).\n",
+        ".²5 Situated on the other side, being beyond; {#na kadAcit parAcInA Bavitumutsahante#}\n <ls>Bhāg. 5. 20. 37</ls>.\n",
+        ".²6 Unfit, improper.\n",
+        ".²7 Outward ({#vahirmuKa#}); {#jYAnamekaM parAcInErindriyErbrahma nirguRam#}\n <ls>Bhāg. 3. 32. 28</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 180321,
+            "_ancestry": [
+                "L_ 19986",
+                "B_ {#parAcIna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAcInam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Away from, beyond.\n",
+                ".²2 More than.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 180325,
+            "_ancestry": [
+                "L_ 19986",
+                "B_ {#parAcIna#}",
+                "S_ .{@{#-rAtram#}@}"
+            ],
+            "_banner": ".{@{#-rAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAcInarAtram"
+                }
+            ],
+            "_meanings": [
+                "the second half of the night."
+            ]
+        }
     ]
 }

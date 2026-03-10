@@ -1,19 +1,43 @@
 {
-    "__line": 109757,
+    "__line": 111188,
     "_ancestry": [
         "L_ 13059",
-        "B_ {#caturDA#}"
+        "B_ {#kOpa#}"
     ],
-    "_banner": "{#caturDA#}",
+    "_banner": "{#kOpa#}",
     "_bannerExp": [
         {
-            "Right": "caturDA"
+            "Right": "kOpa"
+        },
+        {
+            "Right": "kOpI"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "({#-pI#}|{%f.%})",
+        "[{#kUpa-aR#}]"
     ],
     "_meanings": [
-        "In four ways, \nfourfold."
+        "Relating to or coming\n from a well (as water).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 111190,
+            "_ancestry": [
+                "L_ 13059",
+                "B_ {#kOpa#}",
+                "M_ .{@{#-pam#}@}"
+            ],
+            "_banner": ".{@{#-pam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOpam"
+                }
+            ],
+            "_meanings": [
+                "Well-water."
+            ]
+        }
     ]
 }

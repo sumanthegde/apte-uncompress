@@ -1,21 +1,44 @@
 {
-    "__line": 30652,
+    "__line": 27649,
     "_ancestry": [
         "L_ 3223",
-        "B_ {#aBimatiH#}"
+        "B_ {#apsaH#}, {#-psA#}"
     ],
-    "_banner": "{#aBimatiH#}",
+    "_banner": "{#apsaH#}, {#-psA#}",
     "_bannerExp": [
         {
-            "Right": "aBimatiH"
+            "Right": "apsaH"
+        },
+        {
+            "Right": "apsA"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%m.%}",
+        ".({@{#-psAH#}@})"
     ],
     "_meanings": [
-        "{@--1@} Desire. ",
-        "{@--2@} Pride. ",
-        "{@--3@}\nRespect, regard, see {#aBimAna#} below."
+        "<ab>Ved.</ab> [{#apaHsanoti, san-qa#}]\n",
+        ".²1 Giving or yielding water; forming the essential portion of water ({#apAM#}\n {#sAraBUto rasaH#}).\n",
+        ".²2 not destroying.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 27654,
+            "_ancestry": [
+                "L_ 3223",
+                "B_ {#apsaH#}, {#-psA#}",
+                "M_ .{@{#-psam#}@}"
+            ],
+            "_banner": ".{@{#-psam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apsam"
+                }
+            ],
+            "_meanings": [
+                "Form, see {#apsas#}."
+            ]
+        }
     ]
 }

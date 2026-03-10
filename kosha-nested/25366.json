@@ -1,22 +1,101 @@
 {
-    "__line": 214981,
+    "__line": 229220,
     "_ancestry": [
         "L_ 25366",
-        "B_ {#vAMC#}"
+        "B_ {#BOtika#}"
     ],
-    "_banner": "{#vAMC#}",
+    "_banner": "{#BOtika#}",
     "_bannerExp": [
         {
-            "Right": "vAMC"
+            "Right": "BOtika"
+        },
+        {
+            "Right": "BOtikI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#vAMCati, vAMCita#})"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#BUta-Wak#}]"
     ],
     "_meanings": [
-        "{@--1@} To\nwish, desire; {#na saMhatAstasya na#} \n{#BinnavfttayaH priyARi vAMCaMtyasuBiH samI hituM#}  \n<ls>Ki. 1. 19.</ls> ",
-        "{@--2@} To seek for, pursue. --WITH\n{#aBi, --saM#} to wish, desire or long for;\n<ls>Bk. 17. 53.</ls>"
+        ".²1 Belonging to created or living beings; {#prahuto BOtiko baliH#} <ls>Ms. 3. 74</ls>;\n {#AhaMkArikatvaSruterna BOtikAni#} <ls>Sāṅ. S.</ls>\n",
+        ".²2 Formed of coarse elements, elemental, material; {#vfkzARAM nAsti BOtikam#}\n <ls>Bhāg. 12. 184. 9</ls>; {#piRqezvanAsTA Kalu BOtikezu#} <ls>R. 2. 57</ls>.\n",
+        ".²3 Relating to evil spirits.\n",
+        ".²4 Possessed by evil spirits.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 229227,
+            "_ancestry": [
+                "L_ 25366",
+                "B_ {#BOtika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Śiva.\n",
+                ".²2 A being, animal ({#jIva#}); {#kAlasya te kimuta tatkftaBOtikAnAm#}\n <ls>Bhāg. 12. 8. 43</ls>.\n"
+            ]
+        },
+        {
+            "__line": 229231,
+            "_ancestry": [
+                "L_ 25366",
+                "B_ {#BOtika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtikam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A pearl.\n",
+                ".²2 Anything elemental.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 229235,
+            "_ancestry": [
+                "L_ 25366",
+                "B_ {#BOtika#}",
+                "S_ .{@{#-maWaH#}@}"
+            ],
+            "_banner": ".{@{#-maWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtikamaWaH"
+                }
+            ],
+            "_meanings": [
+                "a monastery.\n"
+            ]
+        },
+        {
+            "__line": 229236,
+            "_ancestry": [
+                "L_ 25366",
+                "B_ {#BOtika#}",
+                "S_ .{@{#-vidyA#}@}"
+            ],
+            "_banner": ".{@{#-vidyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtikavidyA"
+                }
+            ],
+            "_meanings": [
+                "sorcery, witch-craft."
+            ]
+        }
     ]
 }

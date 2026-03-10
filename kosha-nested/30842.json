@@ -1,18 +1,35 @@
 {
-    "__line": 258393,
+    "__line": 285071,
     "_ancestry": [
         "L_ 30842",
-        "B_ {#sTaviH#}"
+        "B_ {#velam#}"
     ],
-    "_banner": "{#sTaviH#}",
+    "_banner": "{#velam#}",
     "_bannerExp": [
         {
-            "Right": "sTaviH"
+            "Right": "velam"
         }
     ],
     "_meanings": [
-        "{@--1@} A weaver. ",
-        "{@--2@} Heaven.\n",
-        "{@--3@} A moveable thing."
+        "A garden, grove.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 285072,
+            "_ancestry": [
+                "L_ 30842",
+                "B_ {#velam#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "velaH"
+                }
+            ],
+            "_meanings": [
+                "The mango tree."
+            ]
+        }
     ]
 }

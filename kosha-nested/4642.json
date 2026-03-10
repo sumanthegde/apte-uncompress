@@ -1,43 +1,102 @@
 {
-    "__line": 42037,
+    "__line": 39785,
     "_ancestry": [
         "L_ 4642",
-        "B_ {#avapad#}"
+        "B_ {#alakzya#}"
     ],
-    "_banner": "{#avapad#}",
+    "_banner": "{#alakzya#}",
     "_bannerExp": [
         {
-            "Right": "avapad"
+            "Right": "alakzya"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>A.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To go down, glide\ndown; to descend, fall down as {#keSa#},\n{#garBa#} &c. ",
-        "{@--2@} To be deprived of (with\n<ab>abl.</ab>). ",
-        "{@--3@} To fall, meet with an \naccident. ",
-        "{@--4@} To overthrow, ruin.\n"
+        ".²1 Invisible, unknown, unobserved.\n",
+        ".²2 Unmarked.\n",
+        ".²3 Having no particular marks.\n",
+        ".²4 Insignificant in appearance.\n",
+        ".²5 Having no pretence, free from fraud.\n",
+        ".²6 Not {#lakzya#} or secondary (as meaning).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 42042,
+            "__line": 39793,
             "_ancestry": [
                 "L_ 4642",
-                "B_ {#avapad#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#alakzya#}",
+                "S_ .{@{#-gati#}@}"
             ],
+            "_banner": ".{@{#-gati#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avapad"
+                    "Right": "alakzyagati"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To cause to glide or go down."
+                "moving invisibly.\n"
+            ]
+        },
+        {
+            "__line": 39794,
+            "_ancestry": [
+                "L_ 4642",
+                "B_ {#alakzya#}",
+                "S_ .{@{#-janmatA#}@}"
+            ],
+            "_banner": ".{@{#-janmatA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alakzyajanmatA"
+                }
+            ],
+            "_meanings": [
+                "unknown birth, obscure origin; {#vapurvirUpAkzamalakzyajanmatA#} <ls>Ku. 5. 72</ls>.\n"
+            ]
+        },
+        {
+            "__line": 39795,
+            "_ancestry": [
+                "L_ 4642",
+                "B_ {#alakzya#}",
+                "S_ .{@{#-liNga#}@}"
+            ],
+            "_banner": ".{@{#-liNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alakzyaliNga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "disguised, {%incognito%}.\n"
+            ]
+        },
+        {
+            "__line": 39796,
+            "_ancestry": [
+                "L_ 4642",
+                "B_ {#alakzya#}",
+                "S_ .{@{#-vAc#}@}"
+            ],
+            "_banner": ".{@{#-vAc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alakzyavAc"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "addressing words to no visible object; {#nIlakaRWa#}\n {#vrajasItyalakzyavAc#} <ls>Ku. 5. 57</ls>."
             ]
         }
     ]

@@ -1,21 +1,40 @@
 {
-    "__line": 28086,
+    "__line": 25236,
     "_ancestry": [
         "L_ 2893",
-        "B_ {#aprahata#}"
+        "B_ {#apahA#}"
     ],
-    "_banner": "{#aprahata#}",
+    "_banner": "{#apahA#}",
     "_bannerExp": [
         {
-            "Right": "aprahata"
+            "Right": "apahA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€3",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Unhurt, intact. ",
-        "{@--2@}\nWaste, unploughed, <ls>K. 326.</ls> ",
-        "{@--3@} New\nand unbleached (as cloth); {#IzadDOtaM#}\n{#navaM SvetaM sadaSaM yaMtraDAritam . nirRejakAkzAlitaM#}\n{#cAprahataM vAsa ucyate ..#}."
+        "²1 To leave, abandon; {#sAkzAtpriyAmupagatAmapahAya pUrvam#} <ls>Ś. 6. 15</ls>.\n {#vilalApa sa bAzpagadgadaM sahajAmapyapahAya DIratAm#} <ls>R. 8. 43</ls>.\n",
+        ".²2 To discharge, pay off; {#fRAnyanapahAya#} <ls>Mb. 12. 7. 18</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 25239,
+            "_ancestry": [
+                "L_ 2893",
+                "B_ {#apahA#}",
+                "M_ --{%<ab>pass.</ab>%}"
+            ],
+            "_banner": "--{%<ab>pass.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "apahA"
+                }
+            ],
+            "_meanings": [
+                "To waste away, wane."
+            ]
+        }
     ]
 }

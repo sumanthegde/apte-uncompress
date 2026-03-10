@@ -1,18 +1,48 @@
 {
-    "__line": 240363,
+    "__line": 264501,
     "_ancestry": [
         "L_ 28601",
-        "B_ {#saMlApaH#}"
+        "B_ {#vartin#}"
     ],
-    "_banner": "{#saMlApaH#}",
+    "_banner": "{#vartin#}",
     "_bannerExp": [
         {
-            "Right": "saMlApaH"
+            "Right": "vartin"
+        },
+        {
+            "Right": "vartinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#vft-Rini#}]"
+    ],
     "_meanings": [
-        "{@--1@} Conversation, chat, \ndiscourse. ",
-        "{@--2@} Especially familiar or\nconfidential talk, secret \nconversation. ",
-        "{@--3@} (In dramas) A kind\nof dialogue."
+        "(Usually at the end of <ab>comp.</ab>)\n",
+        ".²1 Abiding, being, resting, staying, situated.\n",
+        ".²2 Going, moving, turning.\n",
+        ".²3 Acting, behaving.\n",
+        ".²4 Performing, practising.\n",
+        ".²5 Obeying, executing (an order). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 264507,
+            "_ancestry": [
+                "L_ 28601",
+                "B_ {#vartin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vartin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The meaning of an affix."
+            ]
+        }
     ]
 }

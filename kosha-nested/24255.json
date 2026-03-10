@@ -1,23 +1,85 @@
 {
-    "__line": 205661,
+    "__line": 216258,
     "_ancestry": [
         "L_ 24255",
-        "B_ {#rUkz#}"
+        "B_ {#pluta#}"
     ],
-    "_banner": "{#rUkz#}",
+    "_banner": "{#pluta#}",
     "_bannerExp": [
         {
-            "Right": "rUkz"
+            "Right": "pluta"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#rUkzayati-te#})"
+        "{%<ab>p. p.</ab>%}",
+        "[{#plu-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} To be\nrough or harsh. ",
-        "{@--2@} To be unkind.\n",
-        "{@--3@} <ab>Ved.</ab> To make dry."
+        ".²1 Swimming, floating.\n",
+        ".²2 Inundated, submerged, overflowed.\n",
+        ".²3 Leaped, jumped.\n",
+        ".²4 Lengthened, protracted or prolated (as a vowel); {#aSUdravizaye pratyaBivAde#}\n {#yadvAkyaM tasya weH plutaH syAt#} <ls>Sk.</ls>; {#yAnto'nyataH plutakftasvaramASu#}\n {#dUrAdudvAhunA juhuvire muhurAtmavargyAH#} <ls>Śi. 5. 15</ls>.\n",
+        ".²5 Covered with, filled with; {#manTAyastArRavAmBaHplutakuhara …#} <ls>Ve. 1. 22</ls>.\n",
+        ".²6 Bathed in; (see {#plu#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 216267,
+            "_ancestry": [
+                "L_ 24255",
+                "B_ {#pluta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "plutam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A jump, leap, spring; {#paSyodagraplutatvAdviyati bahutaraM stokamurvyAM#}\n {#prayAti#} <ls>Ś. 1. 7</ls>.\n",
+                ".²2 Capering, one of the paces of a horse.\n",
+                ".²3 Bounding, vaulting.\n",
+                ".²4 A flood, deluge.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 216274,
+            "_ancestry": [
+                "L_ 24255",
+                "B_ {#pluta#}",
+                "S_ .{@{#-gatiH#}@}"
+            ],
+            "_banner": ".{@{#-gatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "plutagatiH"
+                }
+            ],
+            "_meanings": [
+                "a hare. --({%f.%})\n",
+                ".²1 going by leaps.\n",
+                ".²2 a gallop, bounding motion.\n"
+            ]
+        },
+        {
+            "__line": 216277,
+            "_ancestry": [
+                "L_ 24255",
+                "B_ {#pluta#}",
+                "S_ .{@{#-meruH#}@}"
+            ],
+            "_banner": ".{@{#-meruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "plutameruH"
+                }
+            ],
+            "_meanings": [
+                "(in music) a kind of measure."
+            ]
+        }
     ]
 }

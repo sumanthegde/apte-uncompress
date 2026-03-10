@@ -1,21 +1,60 @@
 {
-    "__line": 239237,
+    "__line": 263093,
     "_ancestry": [
         "L_ 28467",
-        "B_ {#Svaj#}"
+        "B_ {#vamanam#}"
     ],
-    "_banner": "{#Svaj#}",
+    "_banner": "{#vamanam#}",
     "_bannerExp": [
         {
-            "Right": "Svaj"
+            "Right": "vamanam"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#Svajate#})"
+        "[{#vam-lyuw#}]"
     ],
     "_meanings": [
-        "To go, move."
+        ".²1 Ejecting, vomiting.\n",
+        ".²2 Drawing out, taking or getting out as in {#svargABizyandavamanam#}\n <ls>R. 15. 29</ls>; <ls>Ku. 6. 37</ls>.\n",
+        ".²3 An emetic; also {#vamanadravyam#}.\n",
+        ".²4 Offering oblations.\n",
+        ".²5 Pain.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 263100,
+            "_ancestry": [
+                "L_ 28467",
+                "B_ {#vamanam#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vamanaH"
+                }
+            ],
+            "_meanings": [
+                "Hemp.\n"
+            ]
+        },
+        {
+            "__line": 263101,
+            "_ancestry": [
+                "L_ 28467",
+                "B_ {#vamanam#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vamanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A leech.\n",
+                ".²2 The cotton shrub."
+            ]
+        }
     ]
 }

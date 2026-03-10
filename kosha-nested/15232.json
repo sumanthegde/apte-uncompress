@@ -1,19 +1,122 @@
 {
-    "__line": 126540,
+    "__line": 131790,
     "_ancestry": [
         "L_ 15232",
-        "B_ {#daridrita#}"
+        "B_ {#CAga#}"
     ],
-    "_banner": "{#daridrita#}",
+    "_banner": "{#CAga#}",
     "_bannerExp": [
         {
-            "Right": "daridrita"
+            "Right": "CAga"
+        },
+        {
+            "Right": "CAgI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-gI#}|{%f.%})"
     ],
     "_meanings": [
-        "Poor, pauper, distressed."
+        "Relating to a goat or she-goat; <ls>Y. 1. 258</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 131791,
+            "_ancestry": [
+                "L_ 15232",
+                "B_ {#CAga#}",
+                "M_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CAgaH"
+                }
+            ],
+            "_meanings": [
+                ".({@{#-gI#}@} {%f.%})\n",
+                ".²1 A goat; {#brAhmaRaSCAgato yaTA#} ({#vaYcitaH#}) <ls>H. 4. 53</ls>; <ls>Ms. 3. 269</ls>;\n {#CAgo vA mantravarRAt#} <ls>Ms. 6. 8. 31</ls>.\n",
+                ".²2 The sign Aries of the zodiac.\n",
+                ".²3 A horse whose movements have been cut off: {#yaSCinnagamano'SvaH sa#}\n {#CAgaH . CidergameSca CAgaSabdaH grasidDaH .#} <ls>ŚB. on MS. 6. 8. 36</ls>.\n"
+            ]
+        },
+        {
+            "__line": 131798,
+            "_ancestry": [
+                "L_ 15232",
+                "B_ {#CAga#}",
+                "M_ .{@{#-gam#}@}"
+            ],
+            "_banner": ".{@{#-gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CAgam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The milk of a she-goat.\n",
+                ".²2 An oblation.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 131802,
+            "_ancestry": [
+                "L_ 15232",
+                "B_ {#CAga#}",
+                "S_ .{@{#-Bojin#}@}"
+            ],
+            "_banner": ".{@{#-Bojin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CAgaBojin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a wolf.\n"
+            ]
+        },
+        {
+            "__line": 131803,
+            "_ancestry": [
+                "L_ 15232",
+                "B_ {#CAga#}",
+                "S_ .{@{#-muKaH#}@}"
+            ],
+            "_banner": ".{@{#-muKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CAgamuKaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Kārtikeya.\n"
+            ]
+        },
+        {
+            "__line": 131804,
+            "_ancestry": [
+                "L_ 15232",
+                "B_ {#CAga#}",
+                "S_ .{@{#-rayaH, -vAhanaH#}@}"
+            ],
+            "_banner": ".{@{#-rayaH, -vAhanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CAgarayaH"
+                },
+                {
+                    "Right": "CAgavAhanaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Agni, the god of fire."
+            ]
+        }
     ]
 }

@@ -1,47 +1,176 @@
 {
-    "__line": 145615,
+    "__line": 151118,
     "_ancestry": [
         "L_ 17312",
-        "B_ {#nIqaH, --qaM#}"
+        "B_ {#dizwa#}"
     ],
-    "_banner": "{#nIqaH, --qaM#}",
+    "_banner": "{#dizwa#}",
     "_bannerExp": [
         {
-            "Right": "nIqaH"
-        },
-        {
-            "Right": "nIqaM"
+            "Right": "dizwa"
         }
     ],
     "_gram": [
-        "[{#nitarAmilaMti KagA atra#} \n{#niil-ka lasyaqaH#} <ls>Tv.</ls>]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#diS-karmaRi-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} A bird's nest;  \n<ls>Ś. 7. 11</ls>. ",
-        "{@--2@} A bed, couch. ",
-        "{@--3@} A lair, den.\n",
-        "{@--4@} The interior of a carriage. ",
-        "{@--5@} A\nplace in general, abode, resting place\n"
+        ".²1 Shown, indicated, assigned, pointed out.\n",
+        ".²2 Described, referred to.\n",
+        ".²3 Fixed, settled.\n",
+        ".²4 Directed, ordered <ab>&c.</ab>\n",
+        ".²5 Destined ({#dEvavihita#}); {#na dizwamarTamatyetumISo martyaH kaTaMcana#}\n <ls>Mb. 3. 135. 55</ls>.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 145620,
+            "__line": 151125,
             "_ancestry": [
                 "L_ 17312",
-                "B_ {#nIqaH, --qaM#}",
-                "S_  {#--udBavaH, --jaH#}"
+                "B_ {#dizwa#}",
+                "M_ .{@{#-zwaH#}@}"
             ],
-            "_banner": " {#--udBavaH, --jaH#}",
+            "_banner": ".{@{#-zwaH#}@}",
             "_bannerExp": [
                 {
-                    "Left": "S error: 1 syl udBavaH jaH"
-                },
-                {
-                    "Right": "nIqodBavaH"
+                    "Right": "dizwaH"
                 }
             ],
             "_meanings": [
-                "a bird."
+                "Time.\n"
+            ]
+        },
+        {
+            "__line": 151126,
+            "_ancestry": [
+                "L_ 17312",
+                "B_ {#dizwa#}",
+                "M_ .{@{#-zwam#}@}"
+            ],
+            "_banner": ".{@{#-zwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dizwam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Assignment, allotment\n",
+                ".²2 Fate, destiny, good or ill-luck; {#Bo dizwam#} <ls>Ś. 2</ls>. {#yaSca dizwaparo#}\n {#loke yaScApi haWavAdikaH . uBAvapi SaWAvetO karmabudDiH praSasyate ..#} <ls>Mb. 3. 32. 13</ls>.\n",
+                ".²3 Order, direction, command; {#sEnikA BayanAmno ye barhizman dizwakAriRaH#}\n <ls>Bhāg. 4. 28. 1</ls>.\n",
+                ".²4 Aim, object.\n",
+                ".²5 An appointed place; {#taM pretaM dizwamito'gnaya eva haranti#} <ls>Ch. Up. 5. 9. 2</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 151135,
+            "_ancestry": [
+                "L_ 17312",
+                "B_ {#dizwa#}",
+                "S_ .{@{#-antaH#}@}"
+            ],
+            "_banner": ".{@{#-antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dizwAntaH"
+                }
+            ],
+            "_meanings": [
+                "‘the end of oneʼs appointed time’, death; {#dizwAntamApsyati#}\n {#BavAnapi putraSokAt#} <ls>R. 9. 79</ls>; <ls>Rām. 2. 65. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 151137,
+            "_ancestry": [
+                "L_ 17312",
+                "B_ {#dizwa#}",
+                "S_ .{@{#-gatiH#}@}"
+            ],
+            "_banner": ".{@{#-gatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dizwagatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "death; {#yAjamAnAsamBavAdaSakyaM hi dizwagatO uttaraM#}\n {#tantraM kartum#} <ls>ŚB. on MS. 10. 2. 57</ls>. Hence {#dizwAM gatiM gam#} = To\n die. {#tasmiMSca dizwAM gatiM gate PalaM darSayati yo dIkzitAnAM pramIyeta#}\n {#api tasya Palamiti .#} <ls>ŚB. on MS. 6. 3. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 151141,
+            "_ancestry": [
+                "L_ 17312",
+                "B_ {#dizwa#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dizwadfS"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the god; {#yasya tuzyati dizwadfk#} <ls>Bhāg. 4. 21. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 151142,
+            "_ancestry": [
+                "L_ 17312",
+                "B_ {#dizwa#}",
+                "S_ .{@{#-BAj#}@}"
+            ],
+            "_banner": ".{@{#-BAj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dizwaBAj"
+                }
+            ],
+            "_meanings": [
+                "God. <ls>N. 11. 129</ls>. Chaṇḍū Paṇḍita <ab>com.</ab>\n"
+            ]
+        },
+        {
+            "__line": 151143,
+            "_ancestry": [
+                "L_ 17312",
+                "B_ {#dizwa#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dizwaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "death; {#dizwaBAvaM gatasyApi vizaye modate prajA#} <ls>Mb. 5. 133. 37</ls>.\n"
+            ]
+        },
+        {
+            "__line": 151144,
+            "_ancestry": [
+                "L_ 17312",
+                "B_ {#dizwa#}",
+                "S_ .{@{#-Buk#}@}"
+            ],
+            "_banner": ".{@{#-Buk#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dizwaBuk"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "reaping the fruit as destined or ordained by god;\n {#vase'nyadapi saMprAptaM dizwaBuk tuzwaDIraham#} <ls>Bhāg. 7. 13. 39</ls>."
             ]
         }
     ]

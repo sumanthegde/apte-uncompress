@@ -1,21 +1,76 @@
 {
-    "__line": 198478,
+    "__line": 210685,
     "_ancestry": [
         "L_ 23590",
-        "B_ {#mOrvI#}"
+        "B_ {#prasaBaH#}"
     ],
-    "_banner": "{#mOrvI#}",
+    "_banner": "{#prasaBaH#}",
     "_bannerExp": [
         {
-            "Right": "mOrvI"
+            "Right": "prasaBaH"
         }
     ],
-    "_gram": [
-        "[{#mUrvAlatA tattaMtunA nirvfttA aR#}]"
-    ],
     "_meanings": [
-        "{@--1@}\n{1} A bow-string; {#mOrvIkiRAMko BujaH#}\n<ls>Ś. 1. 13</ls>; {#mOrvI Danuzi cAtatA#}  \n<ls>R. 1. 19</ls>; <ls n=\"R.\">18. 48</ls>; <ls>Ku. 3. 55.</ls> ",
-        "{@--2@} A girdle\nmade of Mūrvā grass (to be worn\nby a kshatriya); <ls>Ms. 2. 42.</ls> ",
-        "{@--3@} (In\ngeom.) The chord of an arc; (also\n{#mOrvikA#})."
+        "Force, violence, impetuosity; {#prasaBodDftAriH#} <ls>R. 2. 30</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 210686,
+            "_ancestry": [
+                "L_ 23590",
+                "B_ {#prasaBaH#}",
+                "M_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasaBam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Violently, forcibly, perforce; {#indriyARi pramATIni haranti prasaBaM#}\n {#manaH#} <ls>Bg. 2. 60</ls>; <ls>Ms. 8. 332</ls>.\n",
+                ".²2 Very much, exceedingly; {#tavAsmi gItarAgeRa hAriRA prasaBaM hftaH#}\n <ls>Ś. 1. 5</ls>; {#nAryo haranti hfdayaM prasaBaM narARAm#} <ls>Rs. 6. 25</ls>.\n",
+                ".²3 Importunately; {#saKeti matvA prasaBaM yaduktam#} <ls>Bg. 11. 41</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 210693,
+            "_ancestry": [
+                "L_ 23590",
+                "B_ {#prasaBaH#}",
+                "S_ .{@{#-damanam#}@}"
+            ],
+            "_banner": ".{@{#-damanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasaBadamanam"
+                }
+            ],
+            "_meanings": [
+                "subduing by force; {#ihAyaM sattvAnAM prasaBadamanAt#}\n {#sarvadamanaH#} <ls>Ś. 7. 33</ls>.\n"
+            ]
+        },
+        {
+            "__line": 210695,
+            "_ancestry": [
+                "L_ 23590",
+                "B_ {#prasaBaH#}",
+                "S_ .{@{#-haraRam#}@}"
+            ],
+            "_banner": ".{@{#-haraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasaBaharaRam"
+                }
+            ],
+            "_meanings": [
+                "forcible abduction."
+            ]
+        }
     ]
 }

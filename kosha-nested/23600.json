@@ -1,42 +1,78 @@
 {
-    "__line": 198558,
+    "__line": 210760,
     "_ancestry": [
         "L_ 23600",
-        "B_ {#mOhUrtika#}"
+        "B_ {#prasahya#}"
     ],
-    "_banner": "{#mOhUrtika#}",
+    "_banner": "{#prasahya#}",
     "_bannerExp": [
         {
-            "Right": "mOhUrtikI"
-        },
-        {
-            "Right": "mOhUrtika"
+            "Right": "prasahya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#muhUrta-Wak#}]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "Momentary, transient. "
+        ".²1 Forcibly, violently, by force; {#prasahya maRimudDarenmakaravaktradaMzwrANkurAt#}\n <ls>Bh. 2. 4</ls>; <ls>Śi. 1. 27</ls>.\n",
+        ".²2 Exceedingly, much.\n",
+        ".²3 Having conquered or won; {#nAhamicCAmi BIzmeRa gfhItAM tvAM prasahya#}\n {#vE#} <ls>Mb. 5. 175. 6</ls>; <ls>M. 1</ls>.\n",
+        ".²4 Instantly, at once; {#parasya BUyAn vivare'BiyogaH prasahya saMrakzaRamAtmaranDre#} <ls>Ki. 16. 23</ls>.\n",
+        ".²5 Necessarily, absolutely.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 198559,
+            "__line": 210769,
             "_ancestry": [
                 "L_ 23600",
-                "B_ {#mOhUrtika#}",
-                "M_ {#--kaH#}"
+                "B_ {#prasahya#}",
+                "S_ .{@{#-kArin#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-kArin#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mOhUrtikaH"
+                    "Right": "prasahyakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "acting with violence.\n"
+            ]
+        },
+        {
+            "__line": 210770,
+            "_ancestry": [
+                "L_ 23600",
+                "B_ {#prasahya#}",
+                "S_ .{@{#-cOraH#}@}"
+            ],
+            "_banner": ".{@{#-cOraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasahyacOraH"
                 }
             ],
             "_meanings": [
-                "An \nastrologer; {#mOhUrtikEH saMvAdyatAm#}."
+                "a plunderer, highwayman.\n"
+            ]
+        },
+        {
+            "__line": 210771,
+            "_ancestry": [
+                "L_ 23600",
+                "B_ {#prasahya#}",
+                "S_ .{@{#-haraRam#}@}"
+            ],
+            "_banner": ".{@{#-haraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasahyaharaRam"
+                }
+            ],
+            "_meanings": [
+                "violent or forcible seizure, plundering."
             ]
         }
     ]

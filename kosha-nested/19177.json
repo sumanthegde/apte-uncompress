@@ -1,25 +1,88 @@
 {
-    "__line": 160677,
+    "__line": 171460,
     "_ancestry": [
         "L_ 19177",
-        "B_ {#pulAkaH --kaM#}"
+        "B_ {#nivApaH#}"
     ],
-    "_banner": "{#pulAkaH --kaM#}",
+    "_banner": "{#nivApaH#}",
     "_bannerExp": [
         {
-            "Right": "pulAkaH"
-        },
-        {
-            "Right": "pulAkaM"
+            "Right": "nivApaH"
         }
     ],
     "_meanings": [
-        "{@--1@} Empty, bad or\nshrivelled grain; <ls>Ms. 10. 125.</ls> ",
-        "{@--2@}\nA lump of boiled rice. ",
-        "{@--3@} \nAbridgment, compendium. ",
-        "{@--4@} Brevity,\nconciseness. ",
-        "{@--5@} Rice-water. ",
-        "{@--6@} \nDespatch, celerity. ",
-        "{@--7@} Smallness."
+        ".²1 Seed, grain, seed-corn.\n",
+        ".²2 An offering to the manes of deceased parents or other relatives, a\n libation of water <ab>&c.</ab> at the Śrāddha ceremony; {#eko nivApasalilaM pibasItyayuktam#}\n <ls>Māl. 9. 40</ls>; {#nivApadattiBiH#} <ls>R. 8. 86</ls>; {#nivApaYjalayaH pitFRAm#} <ls n=\"R.\">5. 8</ls>, <ls n=\"R.\">15. 91</ls>;\n <ls>Mu. 4. 5</ls>.\n",
+        ".²3 A gift or offering in general.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 171468,
+            "_ancestry": [
+                "L_ 19177",
+                "B_ {#nivApaH#}",
+                "S_ .{@{#-aYjaliH#}@}"
+            ],
+            "_banner": ".{@{#-aYjaliH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nivApAYjaliH"
+                }
+            ],
+            "_meanings": [
+                "two handfuls of water as a libation.\n"
+            ]
+        },
+        {
+            "__line": 171469,
+            "_ancestry": [
+                "L_ 19177",
+                "B_ {#nivApaH#}",
+                "S_ .{@{#-annam#}@}"
+            ],
+            "_banner": ".{@{#-annam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nivApAnnam"
+                }
+            ],
+            "_meanings": [
+                "sacrificial food.\n"
+            ]
+        },
+        {
+            "__line": 171470,
+            "_ancestry": [
+                "L_ 19177",
+                "B_ {#nivApaH#}",
+                "S_ .{@{#-udakam#}@}"
+            ],
+            "_banner": ".{@{#-udakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nivApodakam"
+                }
+            ],
+            "_meanings": [
+                "a libation of water; {#atyalpamidamasmAkaM nivApodakaBojanam#} <ls>Mk. 10. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 171471,
+            "_ancestry": [
+                "L_ 19177",
+                "B_ {#nivApaH#}",
+                "S_ .{@{#-mAlyam#}@}"
+            ],
+            "_banner": ".{@{#-mAlyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nivApamAlyam"
+                }
+            ],
+            "_meanings": [
+                "funeral wreath."
+            ]
+        }
     ]
 }

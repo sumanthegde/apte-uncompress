@@ -1,16 +1,67 @@
 {
-    "__line": 108498,
+    "__line": 110144,
     "_ancestry": [
         "L_ 12919",
-        "B_ {#GuMqaH#}"
+        "B_ {#kEdAra#}"
     ],
-    "_banner": "{#GuMqaH#}",
+    "_banner": "{#kEdAra#}",
     "_bannerExp": [
         {
-            "Right": "GuMqaH"
+            "Right": "kEdAra"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A large black bee."
+        "Being on or growing in a field or meadow.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 110145,
+            "_ancestry": [
+                "L_ 12919",
+                "B_ {#kEdAra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kEdAraH"
+                }
+            ],
+            "_meanings": [
+                "Rice, corn.\n"
+            ]
+        },
+        {
+            "__line": 110146,
+            "_ancestry": [
+                "L_ 12919",
+                "B_ {#kEdAra#}",
+                "M_ .{@{#-ram, -kEdArakam, -kEdArikam, -kEdArikA, -kEdAryam#}@}"
+            ],
+            "_banner": ".{@{#-ram, -kEdArakam, -kEdArikam, -kEdArikA, -kEdAryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kEdAram"
+                },
+                {
+                    "Right": "kEdArakam"
+                },
+                {
+                    "Right": "kEdArikam"
+                },
+                {
+                    "Right": "kEdArikA"
+                },
+                {
+                    "Right": "kEdAryam"
+                }
+            ],
+            "_meanings": [
+                "A multitude\n of fields; {#kEdArikARAmaBitaH samAkulA#} <ls>Śi. 12. 42</ls>."
+            ]
+        }
     ]
 }

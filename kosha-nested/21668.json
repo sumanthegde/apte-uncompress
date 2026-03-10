@@ -1,22 +1,86 @@
 {
-    "__line": 179483,
+    "__line": 194650,
     "_ancestry": [
         "L_ 21668",
-        "B_ {#bAq#}"
+        "B_ {#pustakaH#}, {#-kam#}"
     ],
-    "_banner": "{#bAq#}",
+    "_banner": "{#pustakaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "bAq"
+            "Right": "pustakaH"
+        },
+        {
+            "Right": "pustakam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#bAqate#})"
-    ],
     "_meanings": [
-        "{@--1@} To bathe. ",
-        "{@--2@}\nTo emerge."
+        ".²1 A book, manuscript.\n",
+        ".²2 A protuberant ornament, boss.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 194653,
+            "_ancestry": [
+                "L_ 21668",
+                "B_ {#pustakaH#}, {#-kam#}",
+                "M_ .{@{#-AgAram#}@}"
+            ],
+            "_banner": ".{@{#-AgAram#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: pustakaH/pustakam AgAraM"
+                }
+            ],
+            "_meanings": [
+                "a library.\n"
+            ]
+        },
+        {
+            "__line": 194654,
+            "_ancestry": [
+                "L_ 21668",
+                "B_ {#pustakaH#}, {#-kam#}",
+                "M_ .{@{#-AstaraRam#}@}"
+            ],
+            "_banner": ".{@{#-AstaraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pustaraRam"
+                }
+            ],
+            "_meanings": [
+                "The wrapper of a manuscript; <ls>Hch.</ls>\n"
+            ]
+        },
+        {
+            "__line": 194655,
+            "_ancestry": [
+                "L_ 21668",
+                "B_ {#pustakaH#}, {#-kam#}",
+                "M_ .{@{#-mudrA#}@}"
+            ],
+            "_banner": ".{@{#-mudrA#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "a kind of\n\n mudrā mentioned in Tantraśāstra; {#vAmamuzwiM svABimuKIM kftvA pustakamudrikA#}.\n"
+            ]
+        },
+        {
+            "__line": 194658,
+            "_ancestry": [
+                "L_ 21668",
+                "B_ {#pustakaH#}, {#-kam#}",
+                "M_ .{@{#-pustikApUlikaH#}@}"
+            ],
+            "_banner": ".{@{#-pustikApUlikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pustikApUlikaH"
+                }
+            ],
+            "_meanings": [
+                "a collection of manuscripts; <ls>Hch. 3</ls>."
+            ]
+        }
     ]
 }

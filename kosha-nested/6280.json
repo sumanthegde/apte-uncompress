@@ -1,21 +1,83 @@
 {
-    "__line": 55221,
+    "__line": 52501,
     "_ancestry": [
         "L_ 6280",
-        "B_ {#AnaMdin#}"
+        "B_ {#asvara#}"
     ],
-    "_banner": "{#AnaMdin#}",
+    "_banner": "{#asvara#}",
     "_bannerExp": [
         {
-            "Right": "AnaMdin"
+            "Right": "asvara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#A-naMd-Rini#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nHappy, joyful, delighted. ",
-        "{@--2@} Pleasing,\ngiving delight."
+        ".²1 Having a bad voice.\n",
+        ".²2 Indistinct, not loud, in a low tone (as a speech); <ls>Rām. 2</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 52504,
+            "_ancestry": [
+                "L_ 6280",
+                "B_ {#asvara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asvaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A low tone.\n",
+                ".²2 A consonant.\n",
+                ".²3 Absence of any accent.\n"
+            ]
+        },
+        {
+            "__line": 52508,
+            "_ancestry": [
+                "L_ 6280",
+                "B_ {#asvara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asvaram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Not aloud, in a low tone.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 52510,
+            "_ancestry": [
+                "L_ 6280",
+                "B_ {#asvara#}",
+                "S_ .{@{#-Adi#}@}"
+            ],
+            "_banner": ".{@{#-Adi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asvarAdi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Not beginning with a vowel."
+            ]
+        }
     ]
 }

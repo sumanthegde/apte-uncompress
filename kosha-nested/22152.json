@@ -1,20 +1,51 @@
 {
-    "__line": 184309,
+    "__line": 198983,
     "_ancestry": [
         "L_ 22152",
-        "B_ {#BAzin#}"
+        "B_ {#pracar#}"
     ],
-    "_banner": "{#BAzin#}",
+    "_banner": "{#pracar#}",
     "_bannerExp": [
         {
-            "Right": "BAzin"
+            "Right": "pracar"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} (At the end of <ab>comp.</ab>)\nSpeaking, talking; as in {#alpa°#} &c.\n",
-        "{@--2@} Loquacious, talkative."
+        "²1 To walk about, stalk forth.\n",
+        ".²2 To go or issue forth, appear.\n",
+        ".²3 To roam, wander over.\n",
+        ".²4 To reach, arrive at.\n",
+        ".²5 To spread, circulate, be prevalent or current.\n",
+        ".²6 To prevail (as a custom).\n",
+        ".²7 To undertake, set about (anything), proceed to work; {#cikitsakAnAM#}\n {#sarvezAM miTyA pracaratAM damaH#} <ls>Ms. 9. 284</ls>.\n",
+        ".²8 To do, perform.\n",
+        ".²9 To behave, act towards, treat.\n",
+        ".²10 To be engaged in.\n",
+        ".²11 To thrive, prosper. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 198995,
+            "_ancestry": [
+                "L_ 22152",
+                "B_ {#pracar#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pracar"
+                }
+            ],
+            "_meanings": [
+                ".²1 To cause or allow to roam.\n",
+                ".²2 To turn out to graze.\n",
+                ".²3 To make public."
+            ]
+        }
     ]
 }

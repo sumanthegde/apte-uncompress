@@ -1,25 +1,113 @@
 {
-    "__line": 154607,
+    "__line": 164365,
     "_ancestry": [
         "L_ 18437",
-        "B_ {#paryAp#}"
+        "B_ {#nAgara#}"
     ],
-    "_banner": "{#paryAp#}",
+    "_banner": "{#nAgara#}",
     "_bannerExp": [
         {
-            "Right": "paryAp"
+            "Right": "nAgara"
+        },
+        {
+            "Right": "nAgarI"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "<ab>P.</ab>",
-        "(used generally in\n{%<ab>p. p.</ab>%})"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#nagare BavaH aR#}]"
     ],
     "_meanings": [
-        "{@--1@} To be competent; {#paryAptaM#} \n{#tvidametezAM balaM BIzmABirakzitaM#} <ls>Bg. 1. 10</ls>;\n<ls>Ms. 11. 7.</ls> ",
-        "{@--2@} To be able. ",
-        "{@--3@} To be\nfull: as in {#paryaptakalaH, paryAptadakziRaH#}.\n",
-        "{@--4@} To save, defend, preserve; {#imAM#}\n{#parIpsurdurjAteH#} <ls>M. 5. 11.</ls> ",
-        "{@--5@} To finish."
+        ".²1 Town-born, town-bred.\n",
+        ".²2 Relating to a town, civic.\n",
+        ".²3 Spoken in a town.\n",
+        ".²4 Polite, civil.\n",
+        ".²5 Clever, sharp.\n",
+        ".²6 Bad, vile, one who has contracted the vices of a town. {#nAganAgarayormaDye#}\n {#varaM nAgo na nAgaraH . nAgo daSati kAlena nAgarastu punaH punaH ..#} <ls>Subhāṣ.</ls>\n",
+        ".²7 Nameless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 164375,
+            "_ancestry": [
+                "L_ 18437",
+                "B_ {#nAgara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAgaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A citizen ({#pOra#}); {#yaH paRyastrIratiparimalodgAriBirnAgarARAmuddAmAni#}\n {#praTayati SilAveSmaBiryOvanAni#} <ls>Me. 25</ls>; <ls>Śānti. 4. 19</ls>; <ls>Bhāg. 10. 56. 17</ls>.\n",
+                ".²2 A husbandʼs brother.\n",
+                ".²3 A lecturer.\n",
+                ".²4 An orange.\n",
+                ".²5 Fatigue; hardship, toil.\n",
+                ".²6 Desire of final beatitude.\n",
+                ".²7 A term applied to a prince engaged in war under certain circumstances\n and also to a planet when in opposition to other planets (in <ab>astrol.</ab>)\n",
+                ".²8 Denial of knowledge.\n"
+            ]
+        },
+        {
+            "__line": 164386,
+            "_ancestry": [
+                "L_ 18437",
+                "B_ {#nAgara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAgaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Dry ginger; {#KarbUraM maricaM pUrRaM devadAru ca nAgaram#} <ls>Śiva B. 30. 16</ls>.\n {#pippalI sEnDavaM cEva nAgaraM ca guqAnvitam . prAtardattaM turaNgARAM#}\n {#nasyaM SlezmavinASanam ..#} <ls>Śālihotra.</ls>\n",
+                ".²2 A kind of coitus.\n",
+                ".²3 One of the three styles of architecture; it is quadrangular in shape;\n {#caturasrAkftiM yattu nAgaraM tat prakIrtitam#} <ls>Māna. 18. 94</ls>.\n"
+            ]
+        },
+        {
+            "__line": 164393,
+            "_ancestry": [
+                "L_ 18437",
+                "B_ {#nAgara#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAgarI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The character in which Sanskrit is generally written; <ab>cf.</ab> {#devanAgarI#}.\n",
+                ".²2 A clever, intriguing or shrewd woman; {#hantABIrIH smaratu sa kaTaM#}\n {#saMvfto nAgarIBiH#} <ls>Ud. D. 16</ls>.\n",
+                ".²3 The plant {#snuhI#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 164399,
+            "_ancestry": [
+                "L_ 18437",
+                "B_ {#nAgara#}",
+                "S_ .{@{#-Ahvam#}@}"
+            ],
+            "_banner": ".{@{#-Ahvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAgarAhvam"
+                }
+            ],
+            "_meanings": [
+                "dry ginger."
+            ]
+        }
     ]
 }

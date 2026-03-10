@@ -1,17 +1,116 @@
 {
-    "__line": 155143,
+    "__line": 165137,
     "_ancestry": [
         "L_ 18517",
-        "B_ {#pallikA#}"
+        "B_ {#nAra#}"
     ],
-    "_banner": "{#pallikA#}",
+    "_banner": "{#nAra#}",
     "_bannerExp": [
         {
-            "Right": "pallikA"
+            "Right": "nAra"
+        },
+        {
+            "Right": "nArI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#narasyedam-aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} A small village or\nstation. ",
-        "{@--2@} A house-lizard."
+        ".²1 Human, mortal.\n",
+        ".²2 Spiritual; {#Apo nArA iti proktAH#} <ls>Ms. 1. 10</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 165141,
+            "_ancestry": [
+                "L_ 18517",
+                "B_ {#nAra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A calf.\n",
+                ".²2 Water.\n"
+            ]
+        },
+        {
+            "__line": 165144,
+            "_ancestry": [
+                "L_ 18517",
+                "B_ {#nAra#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nArA"
+                }
+            ],
+            "_meanings": [
+                "Water; <ab>cf.</ab> <ls>Ms. 1. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 165145,
+            "_ancestry": [
+                "L_ 18517",
+                "B_ {#nAra#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nAram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A multitude or assemblage of men.\n",
+                ".²2 Dry ginger.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 165149,
+            "_ancestry": [
+                "L_ 18517",
+                "B_ {#nAra#}",
+                "S_ .{@{#-kIwaH#}@}"
+            ],
+            "_banner": ".{@{#-kIwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nArakIwaH"
+                }
+            ],
+            "_meanings": [
+                "a deceiver (disappointing expectations raised by himself).\n"
+            ]
+        },
+        {
+            "__line": 165150,
+            "_ancestry": [
+                "L_ 18517",
+                "B_ {#nAra#}",
+                "S_ .{@{#-jIvanam#}@}"
+            ],
+            "_banner": ".{@{#-jIvanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nArajIvanam"
+                }
+            ],
+            "_meanings": [
+                "gold."
+            ]
+        }
     ]
 }

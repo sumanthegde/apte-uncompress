@@ -1,20 +1,68 @@
 {
-    "__line": 259687,
+    "__line": 286005,
     "_ancestry": [
         "L_ 30968",
-        "B_ {#spfhayAlu#}"
+        "B_ {#vEdyuta#}"
     ],
-    "_banner": "{#spfhayAlu#}",
+    "_banner": "{#vEdyuta#}",
     "_bannerExp": [
         {
-            "Right": "spfhayAlu"
+            "Right": "vEdyuta"
+        },
+        {
+            "Right": "vEdyutI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#spfh-Aluc#}]"
+        "{%a.%}",
+        "({#-tI#}|{%f.%})",
+        "[{#vidyuta idam aR#}]"
     ],
     "_meanings": [
-        "Disposed\nto be desirous or envious of, \n\nlonging or eager for, covetous (with \ndator <ab>loc.</ab>); {#BogeByaH spfhayAlavo na hi vayaM#}\n<ls>Bh. 3. 64</ls>; {#tapovanezu spfhayAlureva#}  \n<ls>R. 14. 45</ls>."
+        "Belonging to or proceeding\n from lightning, electric; {#vfkzasya vEdyuta ivAgnirupasTito'yam#} <ls>V. 5. 16</ls>; <ls>U. 5. 13</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 286008,
+            "_ancestry": [
+                "L_ 30968",
+                "B_ {#vEdyuta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyutam"
+                }
+            ],
+            "_meanings": [
+                "The fire or lustre of lightning; {#piSaNgavAsA vanamAlayA#}\n {#baBO Gano yaTArkoqupacApavEdyutEH#} <ls>Bhāg. 1. 11. 27</ls>, <ls n=\"Bhāg.\">10. 36. 33</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 286011,
+            "_ancestry": [
+                "L_ 30968",
+                "B_ {#vEdyuta#}",
+                "S_ .{@{#-agniH, -analaH, -vahniH#}@}"
+            ],
+            "_banner": ".{@{#-agniH, -analaH, -vahniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyutAgniH"
+                },
+                {
+                    "Right": "vEdyutAnalaH"
+                },
+                {
+                    "Right": "vEdyutavahniH"
+                }
+            ],
+            "_meanings": [
+                "the fire of lightning."
+            ]
+        }
     ]
 }

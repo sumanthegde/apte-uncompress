@@ -1,20 +1,43 @@
 {
-    "__line": 152679,
+    "__line": 160945,
     "_ancestry": [
         "L_ 18119",
-        "B_ {#pariBinna#}"
+        "B_ {#De#}"
     ],
-    "_banner": "{#pariBinna#}",
+    "_banner": "{#De#}",
     "_bannerExp": [
         {
-            "Right": "pariBinna"
+            "Right": "De"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "({#Dayati, DIta#}; {%<ab>caus.</ab>%} {#DApayati#}; {%<ab>desid.</ab>%} {#Ditsati#})"
     ],
     "_meanings": [
-        "{@--1@} Split open,\ncracked. ",
-        "{@--2@} Deformed."
+        ".²1 To suck, drink, drink in, absorb (<ab>fig.</ab> also); {#aDAdvasAmaDAsIcca#}\n {#ruDiraM vanavAsinAm#} <ls>Bk. 15. 29</ls>, <ls n=\"Bk.\">6. 18</ls>; <ls>Ms. 4. 59</ls>; <ls>Y. 1. 140</ls>.\n",
+        ".²2 To kiss; {#Danyo DayatyAnanam#} <ls>Gīt. 12</ls>.\n",
+        ".²3 To suck out, draw or take away.\n",
+        ".²4 To appropriate. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 160950,
+            "_ancestry": [
+                "L_ 18119",
+                "B_ {#De#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "De"
+                }
+            ],
+            "_meanings": [
+                "To suckle, nourish."
+            ]
+        }
     ]
 }

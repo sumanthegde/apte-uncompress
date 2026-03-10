@@ -1,17 +1,62 @@
 {
-    "__line": 69297,
+    "__line": 67197,
     "_ancestry": [
         "L_ 8049",
-        "B_ {#udasanaM#}"
+        "B_ {#Ahna#}"
     ],
-    "_banner": "{#udasanaM#}",
+    "_banner": "{#Ahna#}",
     "_bannerExp": [
         {
-            "Right": "udasanaM"
+            "Right": "Ahna"
+        },
+        {
+            "Right": "AhnI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-hnI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} Throwing, raising, \nerecting. ",
-        "{@--2@} Expelling, turning out."
+        "Daily, performed in ad ay.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 67199,
+            "_ancestry": [
+                "L_ 8049",
+                "B_ {#Ahna#}",
+                "M_ .{@{#-hnam#}@}"
+            ],
+            "_banner": ".{@{#-hnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ahnam"
+                }
+            ],
+            "_gram": [
+                "[{#ahnAM samUhaH aY#}]"
+            ],
+            "_meanings": [
+                "A series of days, many days.\n"
+            ]
+        },
+        {
+            "__line": 67200,
+            "_ancestry": [
+                "L_ 8049",
+                "B_ {#Ahna#}",
+                "M_ .{@{#-AhnInEbukam#}@}"
+            ],
+            "_banner": ".{@{#-AhnInEbukam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhnInEbukam"
+                }
+            ],
+            "_meanings": [
+                "Some religious act performed by the Southerners ({%<ab>i. e.</ab>%}\n those that hail from South India). {#ye'pi SyAmA bfhanto lohitAkzAste'pi#}\n {#na sarve AhnInEbukAdIn kurvate#} <ls>ŚB. on MS. 1. 3. 18</ls>; {#ye dAkziRAtyA#}\n {#iti samAKyAtAste AhnInEbukAdIn karizyanti .#} <ls>ŚB. on MS. 1. 3. 19</ls>."
+            ]
+        }
     ]
 }

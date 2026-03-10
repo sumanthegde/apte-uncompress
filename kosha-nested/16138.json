@@ -1,19 +1,39 @@
 {
-    "__line": 135473,
+    "__line": 139877,
     "_ancestry": [
         "L_ 16138",
-        "B_ {#DUsarita#}"
+        "B_ {#tandra#}"
     ],
-    "_banner": "{#DUsarita#}",
+    "_banner": "{#tandra#}",
     "_bannerExp": [
         {
-            "Right": "DUsarita"
+            "Right": "tandra"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Made grey, greyish."
+        ".²1 Tired, fatigued.\n",
+        ".²2 Lazy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 139880,
+            "_ancestry": [
+                "L_ 16138",
+                "B_ {#tandra#}",
+                "M_ .{@{#-ndram#}@}"
+            ],
+            "_banner": ".{@{#-ndram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tandram"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> A series or row; <ls>Vāj. 15. 5</ls>."
+            ]
+        }
     ]
 }

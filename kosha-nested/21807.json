@@ -1,19 +1,39 @@
 {
-    "__line": 180759,
+    "__line": 196309,
     "_ancestry": [
         "L_ 21807",
-        "B_ {#budDimattA --ttvaM#}"
+        "B_ {#pelaH#}"
     ],
-    "_banner": "{#budDimattA --ttvaM#}",
+    "_banner": "{#pelaH#}",
     "_bannerExp": [
         {
-            "Right": "budDimattA"
-        },
-        {
-            "Right": "budDimatvaM"
+            "Right": "pelaH"
         }
     ],
     "_meanings": [
-        "Wisdom, sagacity."
+        ".²1 Going.\n",
+        ".²2 A small part.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 196312,
+            "_ancestry": [
+                "L_ 21807",
+                "B_ {#pelaH#}",
+                "M_ .{@{#-lam, -pelakaH#}@}"
+            ],
+            "_banner": ".{@{#-lam, -pelakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pelam"
+                },
+                {
+                    "Right": "pelakaH"
+                }
+            ],
+            "_meanings": [
+                "A testicle."
+            ]
+        }
     ]
 }

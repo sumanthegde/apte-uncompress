@@ -1,19 +1,80 @@
 {
-    "__line": 37534,
+    "__line": 34180,
     "_ancestry": [
         "L_ 4123",
-        "B_ {#argalita#}"
+        "B_ {#amati#}"
     ],
-    "_banner": "{#argalita#}",
+    "_banner": "{#amati#}",
     "_bannerExp": [
         {
-            "Right": "argalita"
+            "Right": "amati"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Fastened by a bolt,\nchained, bolted; {#°dvArA#} <ls>K. 357.</ls>"
+        "Evil-minded, wicked, depraved.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34181,
+            "_ancestry": [
+                "L_ 4123",
+                "B_ {#amati#}",
+                "M_ .{@{#-tiH#}@}"
+            ],
+            "_banner": ".{@{#-tiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amatiH"
+                }
+            ],
+            "_meanings": [
+                "A rogue, cheat.\n"
+            ]
+        },
+        {
+            "__line": 34182,
+            "_ancestry": [
+                "L_ 4123",
+                "B_ {#amati#}",
+                "M_ .{@{#-tiH#}@}"
+            ],
+            "_banner": ".{@{#-tiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 Ignorance, unconsciousness, absence of knowledge,\n intention, or fore-thought; {#amatyEtAni zaq jagDvA#} <ls>Ms. 5. 20</ls>, <ls n=\"Ms.\">4. 222</ls>.\n For some of the other senses see under {#am#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 34186,
+            "_ancestry": [
+                "L_ 4123",
+                "B_ {#amati#}",
+                "S_ .{@{#-pUrva#}@}"
+            ],
+            "_banner": ".{@{#-pUrva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amatipUrva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unconscious, unintentional."
+            ]
+        }
     ]
 }

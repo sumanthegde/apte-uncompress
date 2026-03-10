@@ -1,19 +1,105 @@
 {
-    "__line": 239183,
+    "__line": 262964,
     "_ancestry": [
         "L_ 28456",
-        "B_ {#SlezmaRa#}"
+        "B_ {#vapus#}"
     ],
-    "_banner": "{#SlezmaRa#}",
+    "_banner": "{#vapus#}",
     "_bannerExp": [
         {
-            "Right": "SlezmaRa"
+            "Right": "vapus"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#vap-usi#}]"
     ],
     "_meanings": [
-        "Phlegmatic."
+        "Handsome, beautiful (<ab>Ved.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 262964,
+            "_ancestry": [
+                "L_ 28456",
+                "B_ {#vapus#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vapus#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1\n",
+                ".³({%a%}) Body, person; ({#smaraM#}) {#vapuzA svena niyojayizyati#} <ls>Ku. 4. 42</ls>;\n {#navaM vayaH kAntamidaM vapuSca#} <ls>R. 2. 47</ls>; <ls>Śi. 10. 50</ls>.\n",
+                ".³({%b%}) Form, figure, appearance; {#liKitavapuzO SaNKapadmO ca dfzwvA#}\n <ls>Me. 82</ls>; {#pariGaH kzatajatulyavapuH#} <ls>Bṛ. S. 30. 25</ls>.\n",
+                ".²2 Essence, nature; {#azwAnAM lokapAlAnAM vapurDArayate nfpaH#} <ls>Ms. 5. 96</ls>.\n",
+                ".²3 Beauty, a beautiful form or appearance; {#‘vapuH klIbaM tanO SastAkftAvapi’#}\n {#iti medinI#}; {#SrameRa ca vivarRAnAM vaktrARAM viplutaM vapuH#} <ls>Mb. 11. 20. 34</ls>.\n",
+                ".²4 <ab>Ved.</ab> A wonderful phenomenon, wonder.\n",
+                ".²5 <ab>Ved.</ab> Water.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 262976,
+            "_ancestry": [
+                "L_ 28456",
+                "B_ {#vapus#}",
+                "S_ .{@{#-guRaH, -prakarzaH#}@}"
+            ],
+            "_banner": ".{@{#-guRaH, -prakarzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vapurguRaH"
+                },
+                {
+                    "Right": "vapuzprakarzaH"
+                }
+            ],
+            "_meanings": [
+                "excellence of form, personal beauty; {#saMDukzayantIva#}\n {#vapurguRena#} <ls>Ku. 3. 52</ls>; {#vapuHprakarzAdajayadguruM raGuH#} <ls>R. 3. 35</ls>; <ls>Ki. 3. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 262978,
+            "_ancestry": [
+                "L_ 28456",
+                "B_ {#vapus#}",
+                "S_ .{@{#-Dara#}@}"
+            ],
+            "_banner": ".{@{#-Dara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vapurDara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 embodied.\n",
+                ".²2 beautiful.\n"
+            ]
+        },
+        {
+            "__line": 262981,
+            "_ancestry": [
+                "L_ 28456",
+                "B_ {#vapus#}",
+                "S_ .{@{#-sravaH#}@}"
+            ],
+            "_banner": ".{@{#-sravaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vapuHsravaH"
+                }
+            ],
+            "_meanings": [
+                "a humour of the body."
+            ]
+        }
     ]
 }

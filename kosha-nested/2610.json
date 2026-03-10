@@ -1,19 +1,121 @@
 {
-    "__line": 25981,
+    "__line": 23233,
     "_ancestry": [
         "L_ 2610",
-        "B_ {#apahala#}"
+        "B_ {#apada#}"
     ],
-    "_banner": "{#apahala#}",
+    "_banner": "{#apada#}",
     "_bannerExp": [
         {
-            "Right": "apahala"
+            "Right": "apada"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Having a bad plough."
+        ".²1 Footless. ",
+        ".²2 Having no office or post.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 23235,
+            "_ancestry": [
+                "L_ 2610",
+                "B_ {#apada#}",
+                "M_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apadaH"
+                }
+            ],
+            "_meanings": [
+                "A reptile.\n"
+            ]
+        },
+        {
+            "__line": 23236,
+            "_ancestry": [
+                "L_ 2610",
+                "B_ {#apada#}",
+                "M_ .{@{#-dam#}@}"
+            ],
+            "_banner": ".{@{#-dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apadam"
+                }
+            ],
+            "_meanings": [
+                "No place or abode.\n",
+                ".²2 A wrong or\n\n bad place or abode; wrong timer {#ciramapade SaNkito'smi#} <ls>M. 1</ls> my doubts\n were out of place, ill-founded; {#prema paSyati BayAnyapade'pi#} <ls>Ki. 9. 70</ls>\n unreasonably.\n",
+                ".²3 A word which is not a {%pada%} or an inflected word.\n",
+                ".²4 Ether.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 23245,
+            "_ancestry": [
+                "L_ 2610",
+                "B_ {#apada#}",
+                "S_ .{@{#-antara#}@}"
+            ],
+            "_banner": ".{@{#-antara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apadAntara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "adjoining, contiguous, very near. {#DarmarAjamidaM#}\n {#vAkyamapadAntaramabravIt#} <ls>Mb. 7. 17. 38</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 23247,
+                    "_ancestry": [
+                        "L_ 2610",
+                        "B_ {#apada#}",
+                        "S_ .{@{#-antara#}@}",
+                        "S_M_ ({@{#-ram#}@}"
+                    ],
+                    "_banner": "({@{#-ram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "apadAntaram"
+                        }
+                    ],
+                    "_meanings": [
+                        "proximity, contiguity.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 23248,
+            "_ancestry": [
+                "L_ 2610",
+                "B_ {#apada#}",
+                "S_ .{@{#-ruhA, -rohiRI#}@}"
+            ],
+            "_banner": ".{@{#-ruhA, -rohiRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apadaruhA"
+                },
+                {
+                    "Right": "apadarohiRI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a parasitical plant; (<lang>Mar.</lang> <ns>{#bAdAMguLa, bAMqagULa#}</ns>)."
+            ]
+        }
     ]
 }

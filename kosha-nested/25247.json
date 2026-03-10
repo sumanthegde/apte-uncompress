@@ -1,50 +1,95 @@
 {
-    "__line": 213783,
+    "__line": 227940,
     "_ancestry": [
         "L_ 25247",
-        "B_ {#valh#}"
+        "B_ {#BUmI#}"
     ],
-    "_banner": "{#valh#}",
+    "_banner": "{#BUmI#}",
     "_bannerExp": [
         {
-            "Right": "valh"
+            "Right": "BUmI"
         }
     ],
-    "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#valhate#})"
-    ],
     "_meanings": [
-        "{@--1@} To be\npre-eminent or excellent. ",
-        "{@--2@} To\ncover. ",
-        "{@--3@} To kill, hurt. ",
-        "{@--4@} To\nspeak. ",
-        "{@--5@} To give. "
+        "The earth; see {#BUmi#}.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 213786,
+            "__line": 227942,
             "_ancestry": [
                 "L_ 25247",
-                "B_ {#valh#}",
-                "M_ {vII.v}"
+                "B_ {#BUmI#}",
+                "S_ .{@{#-kadambaH#}@}"
             ],
+            "_banner": ".{@{#-kadambaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "valh"
+                    "Right": "BUmIkadambaH"
+                }
+            ],
+            "_meanings": [
+                "= {#BUmikadambaH#}.\n"
+            ]
+        },
+        {
+            "__line": 227943,
+            "_ancestry": [
+                "L_ 25247",
+                "B_ {#BUmI#}",
+                "S_ .{@{#-DraH#}@}"
+            ],
+            "_banner": ".{@{#-DraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUmIDraH"
+                }
+            ],
+            "_meanings": [
+                "A mountain; {#ArAmaprAyaBUmIDraM tIrTaprAyanadInadaM#} ({#deSaM#})\n <ls>Śiva B. 29. 87</ls>.\n"
+            ]
+        },
+        {
+            "__line": 227945,
+            "_ancestry": [
+                "L_ 25247",
+                "B_ {#BUmI#}",
+                "S_ .{@{#-patiH, -Buj#}@}"
+            ],
+            "_banner": ".{@{#-patiH, -Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUmIpatiH"
+                },
+                {
+                    "Right": "BUmIBuj"
                 }
             ],
             "_gram": [
-                "{vII.v}",
-                "{c10c}",
-                "<ab>U.</ab>",
-                "({#valhayati-te#})"
+                "{%m.%}"
             ],
             "_meanings": [
-                "{@--1@} To speak. ",
-                "{@--2@} To\nshine."
+                "a king.\n"
+            ]
+        },
+        {
+            "__line": 227946,
+            "_ancestry": [
+                "L_ 25247",
+                "B_ {#BUmI#}",
+                "S_ .{@{#-ruh#}@}"
+            ],
+            "_banner": ".{@{#-ruh#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUmIruh"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-ruhaH#}@}"
+            ],
+            "_meanings": [
+                "a tree."
             ]
         }
     ]

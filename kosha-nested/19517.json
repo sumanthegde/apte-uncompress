@@ -1,43 +1,108 @@
 {
-    "__line": 163432,
+    "__line": 174891,
     "_ancestry": [
         "L_ 19517",
-        "B_ {#prakopana --Ra#}"
+        "B_ {#nepAlaH#}"
     ],
-    "_banner": "{#prakopana --Ra#}",
+    "_banner": "{#nepAlaH#}",
     "_bannerExp": [
         {
-            "Right": "prakopaRa"
-        },
-        {
-            "Right": "prakopana"
+            "Right": "nepAlaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Irritating, exciting,\nprovoking. "
+        "<ab>N.</ab> of a country in the north of India.\n"
     ],
     "_morphisms": [
         {
-            "__line": 163433,
+            "__line": 174892,
             "_ancestry": [
                 "L_ 19517",
-                "B_ {#prakopana --Ra#}",
-                "M_ {#--naM --RaM#}"
+                "B_ {#nepAlaH#}",
+                "M_ .{@{#-lAH#}@}"
             ],
-            "_banner": "{#--naM --RaM#}",
+            "_banner": ".{@{#-lAH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "prakopaRaM"
-                },
-                {
-                    "Right": "prakopanaM"
+                    "Right": "nepAlAH"
                 }
             ],
             "_meanings": [
-                "Provocation, \nirritation."
+                "(<ab>pl.</ab>) The people of this country.\n"
+            ]
+        },
+        {
+            "__line": 174893,
+            "_ancestry": [
+                "L_ 19517",
+                "B_ {#nepAlaH#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nepAlam"
+                }
+            ],
+            "_meanings": [
+                "Copper.\n"
+            ]
+        },
+        {
+            "__line": 174894,
+            "_ancestry": [
+                "L_ 19517",
+                "B_ {#nepAlaH#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nepAlI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The wild date tree or its fruit.\n",
+                ".²2 Red arsenic.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 174898,
+            "_ancestry": [
+                "L_ 19517",
+                "B_ {#nepAlaH#}",
+                "S_ .{@{#-jA, -jAtA#}@}"
+            ],
+            "_banner": ".{@{#-jA, -jAtA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nepAlajA"
+                },
+                {
+                    "Right": "nepAlajAtA"
+                }
+            ],
+            "_meanings": [
+                "red arsenic; {#nepAlajAmaricaSaNKarasAYjanAni#} <ls>Suśr.</ls>\n"
+            ]
+        },
+        {
+            "__line": 174899,
+            "_ancestry": [
+                "L_ 19517",
+                "B_ {#nepAlaH#}",
+                "S_ .{@{#-mUlakam#}@}"
+            ],
+            "_banner": ".{@{#-mUlakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nepAlamUlakam"
+                }
+            ],
+            "_meanings": [
+                "a radish."
             ]
         }
     ]

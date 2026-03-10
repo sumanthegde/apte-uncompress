@@ -1,21 +1,47 @@
 {
-    "__line": 173359,
+    "__line": 187340,
     "_ancestry": [
         "L_ 20916",
-        "B_ {#prasArita#}"
+        "B_ {#pAkzika#}"
     ],
-    "_banner": "{#prasArita#}",
+    "_banner": "{#pAkzika#}",
     "_bannerExp": [
         {
-            "Right": "prasArita"
+            "Right": "pAkzika"
+        },
+        {
+            "Right": "pAkzikI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Expanded, spread,\ndiffused, extended. ",
-        "{@--2@} Stretched\nout (as hands.). ",
-        "{@--3@} Exhibited, laid\nout, exposed (for sale). "
+        ".²1 Belonging to a fortnight, fortnightly.\n",
+        ".²2 Belonging to a bird.\n",
+        ".²3 Favouring\n\n a party or faction.\n",
+        ".²4 Belonging to an argument.\n",
+        ".²5 Optional, subject to an alternative, allowed but not specifically laid\n down; {#niyamaH pAkzike sati#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 187349,
+            "_ancestry": [
+                "L_ 20916",
+                "B_ {#pAkzika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAkzikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A fowler.\n",
+                ".²2 An alternative."
+            ]
+        }
     ]
 }

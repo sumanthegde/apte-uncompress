@@ -1,23 +1,172 @@
 {
-    "__line": 142774,
+    "__line": 147402,
     "_ancestry": [
         "L_ 16962",
-        "B_ {#nirdeSaH#}"
+        "B_ {#daSanaH#}, {#-nam#}"
     ],
-    "_banner": "{#nirdeSaH#}",
+    "_banner": "{#daSanaH#}, {#-nam#}",
     "_bannerExp": [
         {
-            "Right": "nirdeSaH"
+            "Right": "daSanaH"
+        },
+        {
+            "Right": "daSanam"
         }
     ],
+    "_gram": [
+        "[{#daMS BAve karaRAdO vA lyuw ni˚ nalepaH#}]"
+    ],
     "_meanings": [
-        "{@--1@} Pointing out, showing,\nindicating. ",
-        "{@--2@} Order, command, \ndirection; <ls>R. 12. 17.</ls> ",
-        "{@--3@} Advice, \ninstruction. ",
-        "{@--4@} Telling, saying, \ndeclaring. ",
-        "{@--5@} Specifying, \nparticularization, specification, specific mention;\n{#ayUktoyaM nirdeSaH#} <ls>Mbh.</ls>; <ls>Bg. 17. 23.</ls> \n\n",
-        "{@--6@} Ascertainment. ",
-        "{@--7@} Vicinity, \nproximity. ",
-        "{@--8@} Description, designation."
+        ".²1 A tooth; {#muhurmuhurdaSanaviKaRqitozWayA#} <ls>Śi. 17. 2</ls>; {#SiKaridaSanA#}\n <ls>Me. 84</ls>; <ls>Bg. 11. 27</ls>.\n",
+        ".²2 Biting.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 147407,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanaH"
+                }
+            ],
+            "_meanings": [
+                "The peak of a mountain.\n"
+            ]
+        },
+        {
+            "__line": 147408,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanam"
+                }
+            ],
+            "_meanings": [
+                "An armour (also {%m.%}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 147410,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "S_ .{@{#-aMSuH#}@}"
+            ],
+            "_banner": ".{@{#-aMSuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanAMSuH"
+                }
+            ],
+            "_meanings": [
+                "brightness of the teeth; {#aTa mOligatasyendorviSadErdaSanAMSuBiH#}\n ({#upacinvan#}) <ls>Ku. 6. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 147412,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "S_ .{@{#-aNkaH#}@}"
+            ],
+            "_banner": ".{@{#-aNkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanANkaH"
+                }
+            ],
+            "_meanings": [
+                "a tooth-mark, bite.\n"
+            ]
+        },
+        {
+            "__line": 147413,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "S_ .{@{#-ucCizwaH#}@}"
+            ],
+            "_banner": ".{@{#-ucCizwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanocCizwaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a lip.\n",
+                ".²2 a kiss.\n",
+                ".²3 a sigh.\n"
+            ]
+        },
+        {
+            "__line": 147417,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "S_ .{@{#-CadaH, -vAsas#}@}"
+            ],
+            "_banner": ".{@{#-CadaH, -vAsas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanacCadaH"
+                },
+                {
+                    "Right": "daSanavAsas"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                ".²1 a lip.\n",
+                ".²2 a kiss.\n"
+            ]
+        },
+        {
+            "__line": 147420,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanapadam"
+                }
+            ],
+            "_meanings": [
+                "a bite, tooth-mark; {#daSanapadaM BavadaDaragataM mama#}\n {#janayati cetasi Kedam#} <ls>Gīt. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 147422,
+            "_ancestry": [
+                "L_ 16962",
+                "B_ {#daSanaH#}, {#-nam#}",
+                "S_ .{@{#-bIjaH#}@}"
+            ],
+            "_banner": ".{@{#-bIjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSanabIjaH"
+                }
+            ],
+            "_meanings": [
+                "the pomegranate tree."
+            ]
+        }
     ]
 }

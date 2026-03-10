@@ -1,23 +1,38 @@
 {
-    "__line": 256055,
+    "__line": 281808,
     "_ancestry": [
         "L_ 30532",
-        "B_ {#sedivas#}"
+        "B_ {#visarjanIya#}"
     ],
-    "_banner": "{#sedivas#}",
+    "_banner": "{#visarjanIya#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: sedivas  seduzI"
-        },
-        {
-            "Right": "sedivas"
+            "Right": "visarjanIya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#seduzI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Sitting."
+        "To be abandoned <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 281809,
+            "_ancestry": [
+                "L_ 30532",
+                "B_ {#visarjanIya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visarjanIyaH"
+                }
+            ],
+            "_meanings": [
+                "= {#visarga#} (12) <ab>q. v.</ab>"
+            ]
+        }
     ]
 }

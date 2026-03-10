@@ -1,42 +1,59 @@
 {
-    "__line": 81639,
+    "__line": 80478,
     "_ancestry": [
         "L_ 9614",
-        "B_ {#Ekapadika#}"
+        "B_ {#upaDUpita#}"
     ],
-    "_banner": "{#Ekapadika#}",
+    "_banner": "{#upaDUpita#}",
     "_bannerExp": [
         {
-            "Right": "EkapadikI"
-        },
-        {
-            "Right": "Ekapadika"
+            "Right": "upaDUpita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nBelonging to a simple word. ",
-        "{@--2@} \nConsisting of single words. "
+        ".²1 Fumigated.\n",
+        ".²2 Being at the point of death;\n",
+        ".²3 Suffering extreme pain.\n"
     ],
     "_morphisms": [
         {
-            "__line": 81641,
+            "__line": 80482,
             "_ancestry": [
                 "L_ 9614",
-                "B_ {#Ekapadika#}",
-                "M_ {#--kaM#}"
+                "B_ {#upaDUpita#}",
+                "M_ .{@{#-taH#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "EkapadikaM"
+                    "Right": "upaDUpitaH"
                 }
             ],
             "_meanings": [
-                "The\nname given to the Naigama section\nof Yāska's commentary on the\nNighaṇṭavas."
+                "Death.\n"
+            ]
+        },
+        {
+            "__line": 80483,
+            "_ancestry": [
+                "L_ 9614",
+                "B_ {#upaDUpita#}",
+                "M_ .{@{#-tA, upaDUmitA#}@}"
+            ],
+            "_banner": ".{@{#-tA, upaDUmitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upaDUpitA"
+                },
+                {
+                    "Left": "1Align error: upaDUpita upaDUmitA"
+                }
+            ],
+            "_meanings": [
+                "The quarter of the heavens to which the sun is proceeding."
             ]
         }
     ]

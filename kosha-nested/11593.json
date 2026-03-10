@@ -1,20 +1,96 @@
 {
-    "__line": 97254,
+    "__line": 97222,
     "_ancestry": [
         "L_ 11593",
-        "B_ {#kozWya#}"
+        "B_ {#karkawakaH#}"
     ],
-    "_banner": "{#kozWya#}",
+    "_banner": "{#karkawakaH#}",
     "_bannerExp": [
         {
-            "Right": "kozWya"
+            "Right": "karkawakaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#kozWa-ya#}]"
-    ],
     "_meanings": [
-        "Proceeding from\nthe chest (as a sound)."
+        ".²1 A crab. {#karkawakasaDarmARo hi janakaBakzAH rAjaputrAH#} <ls>Kau. A. 1. 17</ls>.\n",
+        ".²2 Cancer, the fourth sign of the zodiac.\n",
+        ".²3 Compass, circuit.\n",
+        ".²4 A kind of sugarcane.\n",
+        ".²5 A hook.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 97227,
+            "_ancestry": [
+                "L_ 11593",
+                "B_ {#karkawakaH#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karkawakI"
+                }
+            ],
+            "_meanings": [
+                "A female crab.\n"
+            ]
+        },
+        {
+            "__line": 97228,
+            "_ancestry": [
+                "L_ 11593",
+                "B_ {#karkawakaH#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karkawakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A poisonous root.\n",
+                ".²2 A particular fracture of the bones.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 97232,
+            "_ancestry": [
+                "L_ 11593",
+                "B_ {#karkawakaH#}",
+                "S_ .{@{#-asTi#}@}"
+            ],
+            "_banner": ".{@{#-asTi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karkawakAsTi"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the shell or crust of a crab.\n"
+            ]
+        },
+        {
+            "__line": 97233,
+            "_ancestry": [
+                "L_ 11593",
+                "B_ {#karkawakaH#}",
+                "S_ .{@{#-rajjuH#}@}"
+            ],
+            "_banner": ".{@{#-rajjuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karkawakarajjuH"
+                }
+            ],
+            "_meanings": [
+                "a rope with a hook."
+            ]
+        }
     ]
 }

@@ -1,41 +1,82 @@
 {
-    "__line": 40499,
+    "__line": 37128,
     "_ancestry": [
         "L_ 4429",
-        "B_ {#avagAh#}"
+        "B_ {#arasa#}"
     ],
-    "_banner": "{#avagAh#}",
+    "_banner": "{#arasa#}",
     "_bannerExp": [
         {
-            "Right": "avagAh"
+            "Right": "arasa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} ({%a%}) To bathe \noneself in, plunge into, dive into;\nwith <ab>acc.</ab> or <ab>loc.</ab>; {#tamopahaMtrIM tamasAM#} \n{#vagAhya#} <ls>R. 14. 76</ls>;  \n{#anyamavakASamavagAhizye#} <ls>V. 4</ls>; {#svapne'vagAhatetyarTaM jalaM#}  \n<ls>Y. 1. 272</ls>; <ls>Bk. 6. 29</ls>, <ls n=\"Bk.\">16. 38.</ls>\n({%b%}) To go deep into, be \nabsorbed into (<ab>fig.</ab>);  \n{#amAtyarAkzasenApyanavagAhitayAryacARakyasya#} \n{#caritamavagAhitumicCasi#} <ls>Mu. 6.</ls> ",
-        "{@--2@} To enter, \npenetrate, fully pervade;  \n{#vimAnaSfMgARyavagAhamAnaH (GozaH)#} <ls>Ku. 7. 40</ls>; {#pUrvAparO#} \n{#toyaniDI vagAhya#} <ls>Ku. 1. 1</ls>;  \n\n{#pUrvAparasamudrAvagAQaH#} <ls>Ś. 7</ls>; <ls>Mk. 2</ls>; see {#avagAQa#} also.\n"
+        ".²1 Sapless, not juicy, tasteless, insipid; {#arasaM nityamaganDavacca#}\n {#yat#} <ls>Kaṭh. 3. 15</ls>.\n",
+        ".²2 Dull, flat.\n",
+        ".²3 Weak, having no strength, inefficacious. {#vfScikasyArasaM vizamarasaM#}\n {#vfScika te vizam#} <ls>Rv. 1. 191. 16</ls>.\n",
+        ".²4 One who has no sense of appreciation. {#kimasyA nAma syAdarasapuruzAnAdaraSatEH .#} <ls>N.</ls>\n",
+        ".²5 Unhappy. {#kfpaRaM bata yajjanaH svayaM sannaraso vyADijarAvinASaDarmA#} <ls>Bu. Ch. 5. 12</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 40514,
+            "__line": 37136,
             "_ancestry": [
                 "L_ 4429",
-                "B_ {#avagAh#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#arasa#}",
+                "M_ .{@{#-saH#}@}"
             ],
+            "_banner": ".{@{#-saH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avagAh"
+                    "Right": "arasaH"
+                }
+            ],
+            "_meanings": [
+                "No juice, absence of juice.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 37138,
+            "_ancestry": [
+                "L_ 4429",
+                "B_ {#arasa#}",
+                "S_ .{@{#-ASaH#}@}"
+            ],
+            "_banner": ".{@{#-ASaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arasASaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 eating sapless food.\n",
+                ".²2 maceration of the body.\n"
+            ]
+        },
+        {
+            "__line": 37141,
+            "_ancestry": [
+                "L_ 4429",
+                "B_ {#arasa#}",
+                "S_ .{@{#-ASin#}@}"
+            ],
+            "_banner": ".{@{#-ASin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arasASin"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To bathe, cause to bathe."
+                ".²1 eating sapless food.\n",
+                ".²2 macerating the body."
             ]
         }
     ]

@@ -1,24 +1,39 @@
 {
-    "__line": 238470,
+    "__line": 262182,
     "_ancestry": [
         "L_ 28385",
-        "B_ {#SrAvakaH#}"
+        "B_ {#vadya#}"
     ],
-    "_banner": "{#SrAvakaH#}",
+    "_banner": "{#vadya#}",
     "_bannerExp": [
         {
-            "Right": "SrAvakaH"
+            "Right": "vadya"
         }
     ],
     "_gram": [
-        "[{#Sri-Rbul#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} A hearer. ",
-        "{@--2@}\nA pupil, disciple; {#SrAbakAvasyAyAM#}\n<ls>Māl. 10</ls> ‘in their pupilage’. ",
-        "{@--3@} A\nclass of Buddhist saints or\nvotaries. ",
-        "{@--4@} A Buddhist votary\nin general. ",
-        "{@--5@} A heretic. ",
-        "{@--6@} A crow."
+        ".²1 Fit to be spoken, not blamable; <ab>cf.</ab> {#avadya#}.\n",
+        ".²2 Dark or second (said of the fortnight of a lunar month; {#vadyapakzaH#}\n the dark fortnight).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 262186,
+            "_ancestry": [
+                "L_ 28385",
+                "B_ {#vadya#}",
+                "M_ .{@{#-dyam#}@}"
+            ],
+            "_banner": ".{@{#-dyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vadyam"
+                }
+            ],
+            "_meanings": [
+                "Speech, speaking about."
+            ]
+        }
     ]
 }

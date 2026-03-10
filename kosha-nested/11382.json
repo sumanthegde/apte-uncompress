@@ -1,79 +1,612 @@
 {
-    "__line": 95549,
+    "__line": 95094,
     "_ancestry": [
         "L_ 11382",
-        "B_ {#kftya#}"
+        "B_ {#kad#}"
     ],
-    "_banner": "{#kftya#}",
+    "_banner": "{#kad#}",
     "_bannerExp": [
         {
-            "Right": "kftya"
+            "Right": "kad"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#kf-kyap#}; <ab>cf.</ab> \n<ls>P. III. 1. 120</ls>]"
+        "{%ind.%}",
+        "[{#kad-kvipa#}]"
     ],
     "_meanings": [
-        "{@--1@} What should or ought to be\ndone, right, proper, fit. ",
-        "{@--2@} Feasible,\npracticable. ",
-        "{@--3@} Who may be \n\nseduced from allegiance, treacherous;\n<ls>Rāj. T. 5. 247.</ls> "
+        "<ab>Ved.</ab> A particle of interrogation, ‘where’.\n This particle which is a substitute for the word {#ku#} is often used\n as the first member of a <ab>comp.</ab> and expresses the senses of badness, littleness,\n deterioration, uselessness, defectiveness <ab>&c.</ab> of anything; {#niyacCa manyuM#}\n {#kadadAH sma mAnaH#} <ls>Bhāg. 7. 5. 28</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 95555,
+            "__line": 95100,
             "_ancestry": [
                 "L_ 11382",
-                "B_ {#kftya#}",
-                "M_ {#--tyaM#}"
+                "B_ {#kad#}",
+                "S_ .{@{#-akzaram#}@}"
             ],
-            "_banner": "{#--tyaM#}",
+            "_banner": ".{@{#-akzaram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kftyaM"
+                    "Right": "kadakzaram"
                 }
             ],
             "_meanings": [
-                "{@--1@} What ought\nto be done, duty, function;  \n<ls>Ms. 2. 237</ls>; <ls n=\"Ms.\">7. 67.</ls> ",
-                "{@--2@} Work, business, deed,\ncommission; {#baMDukftyaM#} <ls>Me. 114</ls>;  \n{#anyonyakftyEH#} <ls>Ś. 7. 34.</ls> ",
-                "{@--3@} Purpose, \nobject, end; {#kUjadBirApAditavaMSakftyaM#}  \n<ls>R. 2. 12</ls>; <ls>Ku. 4. 15.</ls> ",
-                "{@--4@} Motive, cause.\n"
+                ".²1 a bad letter.\n",
+                ".²2 bad writing.\n"
             ]
         },
         {
-            "__line": 95562,
+            "__line": 95103,
             "_ancestry": [
                 "L_ 11382",
-                "B_ {#kftya#}",
-                "M_ {#--tyaH#}"
+                "B_ {#kad#}",
+                "S_ .{@{#-AgniH#}@}"
             ],
-            "_banner": "{#--tyaH#}",
+            "_banner": ".{@{#-AgniH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kftyaH"
+                    "Right": "kadAgniH"
                 }
             ],
             "_meanings": [
-                "A class of affixes used to\nform potential (future) passive \nparticiple; these are {#tavya, anIya, ya#} and\nalso {#elima#}. "
+                "a little fire.\n"
             ]
         },
         {
-            "__line": 95565,
+            "__line": 95104,
             "_ancestry": [
                 "L_ 11382",
-                "B_ {#kftya#}",
-                "M_ {#--tyA#}"
+                "B_ {#kad#}",
+                "S_ .{@{#-aDvan#}@}"
             ],
-            "_banner": "{#--tyA#}",
+            "_banner": ".{@{#-aDvan#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kftyA"
+                    "Right": "kadaDvan"
                 }
             ],
             "_meanings": [
-                "{@--1@} Action, deed. ",
-                "{@--2@}\nMagic. ",
-                "{@--3@} A female deity to whom\nsacrifices are offered for \ndestruetive and magical purposes."
+                "a bad road.\n"
+            ]
+        },
+        {
+            "__line": 95105,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-annam#}@}"
+            ],
+            "_banner": ".{@{#-annam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadannam"
+                }
+            ],
+            "_meanings": [
+                "bad food.\n"
+            ]
+        },
+        {
+            "__line": 95106,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-apatyam#}@}"
+            ],
+            "_banner": ".{@{#-apatyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadapatyam"
+                }
+            ],
+            "_meanings": [
+                "a bad child, bad posterity.\n"
+            ]
+        },
+        {
+            "__line": 95107,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-aByAsaH#}@}"
+            ],
+            "_banner": ".{@{#-aByAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadaByAsaH"
+                }
+            ],
+            "_meanings": [
+                "a bad habit or custom.\n"
+            ]
+        },
+        {
+            "__line": 95108,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadarTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 useless, unmeaning.\n",
+                ".²2 having what purpose or aim? {#kadarTA na A gfham#} <ls>Rv. 10. 22. 6</ls>. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 95110,
+                    "_ancestry": [
+                        "L_ 11382",
+                        "B_ {#kad#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-rTaH#}@}"
+                    ],
+                    "_banner": "({@{#-rTaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kadarTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a useless thing.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 95112,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-arTanam, -nA#}@}"
+            ],
+            "_banner": ".{@{#-arTanam, -nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadarTanam"
+                },
+                {
+                    "Right": "kadarTanA"
+                }
+            ],
+            "_meanings": [
+                "troubling, tormenting, torture.\n"
+            ]
+        },
+        {
+            "__line": 95113,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-arTayati#}@}"
+            ],
+            "_banner": ".{@{#-arTayati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadarTayati"
+                }
+            ],
+            "_meanings": [
+                "<ab>Den.</ab> <ab>P.</ab>\n",
+                ".²1 to despise, slight.\n",
+                ".²2 to trouble, torment; {#re kandarpa karaM kadarTayasi kiM kodaRqawaNkAritEH#}\n <ls>Bh. 3. 100</ls>; <ls>N. 8. 75</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95117,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-arTita#}@}"
+            ],
+            "_banner": ".{@{#-arTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadarTita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 despised, disdained, slighted; {#kadarTitasyApi hi DEryavftterna Sakyate#}\n {#DEryaguRaH pramArzwum#} <ls>Bh. 2. 106</ls>.\n",
+                ".²2 tormented, teased; {#AH kadarTito'hameBirvAraMvAraM vIrasaMvAdaviGnakAriBiH#} <ls>U. 5</ls>.\n",
+                ".²3 insignificant, mean.\n",
+                ".²4 bad, vile.\n"
+            ]
+        },
+        {
+            "__line": 95123,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-arTIkf#}@}"
+            ],
+            "_banner": ".{@{#-arTIkf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadarTIkf"
+                }
+            ],
+            "_meanings": [
+                "€8 <ab>U.</ab> to disdain, despise.\n"
+            ]
+        },
+        {
+            "__line": 95124,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-arTIkfta#}@}"
+            ],
+            "_banner": ".{@{#-arTIkfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadarTIkfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 despised, disdained. {#kleSEH kadarTIkftavIryasAraH#} <ls>Ki. 3. 47</ls>.\n",
+                ".²2 rendered useless and unavailing.\n"
+            ]
+        },
+        {
+            "__line": 95127,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-arya#}@}"
+            ],
+            "_banner": ".{@{#-arya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadarya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 avaricious, miserly.\n",
+                ".²2 little, insignificant, mean.\n",
+                ".²3 bad, disagreeable; {#janapade na kadaryo na madyapaH#} <ls>Ch. Up. 5. 11. 5</ls>.\n {#niHsaMSayaM mayA manye purA vIrakadaryayA#} <ls>Rām. 2. 43. 17</ls>. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 95131,
+                    "_ancestry": [
+                        "L_ 11382",
+                        "B_ {#kad#}",
+                        "S_ .{@{#-arya#}@}",
+                        "S_M_ ({@{#-ryaH#}@}"
+                    ],
+                    "_banner": "({@{#-ryaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kadaryaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a miser; <ls>Bhāg. 11. 23. 6</ls>; <ls>Ms. 4. 210</ls>, <ls n=\"Ms. 4.\">224</ls>; <ls>Y. 1. 161</ls>. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 95132,
+                            "_ancestry": [
+                                "L_ 11382",
+                                "B_ {#kad#}",
+                                "S_ .{@{#-arya#}@}",
+                                "S_M_ ({@{#-ryaH#}@}",
+                                "S_M_S_ {#˚tA, tvam#}"
+                            ],
+                            "_banner": "{#˚tA, tvam#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "kadaryatA"
+                                },
+                                {
+                                    "Right": "kadaryatvam"
+                                }
+                            ],
+                            "_meanings": [
+                                ".²1 avarice.\n",
+                                ".²2 insignificance.\n",
+                                ".²3 badness. "
+                            ]
+                        },
+                        {
+                            "__line": 95135,
+                            "_ancestry": [
+                                "L_ 11382",
+                                "B_ {#kad#}",
+                                "S_ .{@{#-arya#}@}",
+                                "S_M_ ({@{#-ryaH#}@}",
+                                "S_M_S_ {#˚BAvaH#}"
+                            ],
+                            "_banner": "{#˚BAvaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "kadaryaBAvaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "avarice, stinginess.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 95136,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-aSvaH#}@}"
+            ],
+            "_banner": ".{@{#-aSvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadaSvaH"
+                }
+            ],
+            "_meanings": [
+                "a bad horse.\n"
+            ]
+        },
+        {
+            "__line": 95137,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-AkAra#}@}"
+            ],
+            "_banner": ".{@{#-AkAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadAkAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deformed, ugly.\n"
+            ]
+        },
+        {
+            "__line": 95138,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-AKyam#}@}"
+            ],
+            "_banner": ".{@{#-AKyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadAKyam"
+                }
+            ],
+            "_meanings": [
+                "A medicinal plant ({#kuzWa#}).\n"
+            ]
+        },
+        {
+            "__line": 95139,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-AcAra#}@}"
+            ],
+            "_banner": ".{@{#-AcAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadAcAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following evil practices, wicked, depraved. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 95139,
+                    "_ancestry": [
+                        "L_ 11382",
+                        "B_ {#kad#}",
+                        "S_ .{@{#-AcAra#}@}",
+                        "S_M_ ({@{#-raH#}@}"
+                    ],
+                    "_banner": "({@{#-raH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kadAcAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "bad conduct.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 95140,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-indriyam#}@}"
+            ],
+            "_banner": ".{@{#-indriyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadindriyam"
+                }
+            ],
+            "_meanings": [
+                "a bad organ of sense; {#kadindriyARAmanavApyavartmane#}\n <ls>Bhāg. 8. 3. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95142,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-uzwraH#}@}"
+            ],
+            "_banner": ".{@{#-uzwraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaduzwraH"
+                }
+            ],
+            "_meanings": [
+                "a bad camel.\n"
+            ]
+        },
+        {
+            "__line": 95143,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-uzRa#}@}"
+            ],
+            "_banner": ".{@{#-uzRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaduzRa"
+                }
+            ],
+            "_meanings": [
+                "(also {#kozRa#}) {%a.%}\n",
+                ".²1 tepid, lukewarm; {#Svasan kaduzRaM puramAviveSa#} <ls>Bk. 3. 17</ls>.\n",
+                ".²2 Harsh, sharp (as a\n\n word); {#priyoktirapyAha kaduzRamakzaram#} <ls>N. 9. 38</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 95148,
+                    "_ancestry": [
+                        "L_ 11382",
+                        "B_ {#kad#}",
+                        "S_ .{@{#-uzRa#}@}",
+                        "S_M_ ({@{#-zRam#}@}"
+                    ],
+                    "_banner": "({@{#-zRam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kaduzRam"
+                        }
+                    ],
+                    "_meanings": [
+                        "lukewarmness.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 95149,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-tfRam#}@}"
+            ],
+            "_banner": ".{@{#-tfRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kattfRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a fragrant grass.\n",
+                ".²2 the plant {#kumBikA#}.\n"
+            ]
+        },
+        {
+            "__line": 95152,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-toyam#}@}"
+            ],
+            "_banner": ".{@{#-toyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kattoyam"
+                }
+            ],
+            "_meanings": [
+                "an intoxicating drink, wine.\n"
+            ]
+        },
+        {
+            "__line": 95153,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-tri#}@}"
+            ],
+            "_banner": ".{@{#-tri#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kattri"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) three inferior articles.\n"
+            ]
+        },
+        {
+            "__line": 95154,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-raTaH#}@}"
+            ],
+            "_banner": ".{@{#-raTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadraTaH"
+                }
+            ],
+            "_meanings": [
+                "a bad chariot or carriage; {#yuDi kadraTavadBImaM baBaYja#}\n {#DvajaSAlinam#} <ls>Bk. 5. 103</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95156,
+            "_ancestry": [
+                "L_ 11382",
+                "B_ {#kad#}",
+                "S_ .{@{#-vada#}@}"
+            ],
+            "_banner": ".{@{#-vada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kadvada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 speaking ill or inaccurately or indistinctly; {#yena jAtaM priyApAye#}\n {#kadvadaM haMsakokilam#} <ls>Bk. 6. 75</ls>; {#vAgvidAM varamakadvado nfpaH#} <ls>Śi. 14. 1</ls>.\n",
+                ".²2 vile, contemptible."
             ]
         }
     ]

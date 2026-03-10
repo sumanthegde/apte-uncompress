@@ -1,19 +1,125 @@
 {
-    "__line": 206111,
+    "__line": 216951,
     "_ancestry": [
         "L_ 24318",
-        "B_ {#roca#}"
+        "B_ {#Palgu#}"
     ],
-    "_banner": "{#roca#}",
+    "_banner": "{#Palgu#}",
     "_bannerExp": [
         {
-            "Right": "roca"
+            "Right": "Palgu"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#Pal-u guk ca#} <ls>Uṇ. 1. 18</ls>]"
     ],
     "_meanings": [
-        "Illuminating, \nenlightening."
+        ".²1 Pithless, unessential; unsubstantial; {#sAraM tato grAhyamapAsya Palgu#} <ls>Pt. 1</ls>.\n",
+        ".²2 Worthless, useless, unimportant; {#‘Palgu tucCamasAraM ca’#} <ls>Yādava.</ls>;\n {#tarIzu tatratyamaPalgu BARqam#} <ls>Śi. 3. 76</ls>.\n",
+        ".²3 Small, minute; {#nAmarUpaviBedena PalgvyA ca kalayA kftAH#} <ls>Bhāg. 8. 3. 22</ls>.\n",
+        ".²4 Vain, unmeaning.\n",
+        ".²5 Weak, feeble, flimsy; {#PalgUni tatra mahatAM jIvo jIvasya jIvanam#}\n <ls>Bhāg. 1. 13. 47</ls>.\n",
+        ".²6 Untrue.\n",
+        ".²7 Beautiful, lovely.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 216961,
+            "_ancestry": [
+                "L_ 24318",
+                "B_ {#Palgu#}",
+                "M_ .{@{#-lguH#}@}"
+            ],
+            "_banner": ".{@{#-lguH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PalguH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 The spring season.\n",
+                ".²2 The opposite-leaved fig-tree (<lang>Mar.</lang> <ns>{#boKAqA#}</ns>).\n",
+                ".²3 <ab>N.</ab> of a river at Gayā.\n",
+                ".²4 A red powder of wild ginger (<lang>Mar.</lang> <ns>{#gulAla#}</ns>) thrown by the Hindus\n over one another at the Holi festival.\n",
+                ".²5 (<ab>du.</ab>) (In <ab>astrol.</ab>) <ab>N.</ab> of a {#nakzatra#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 216969,
+            "_ancestry": [
+                "L_ 24318",
+                "B_ {#Palgu#}",
+                "S_ .{@{#-utsavaH#}@}"
+            ],
+            "_banner": ".{@{#-utsavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PalgUtsavaH"
+                }
+            ],
+            "_meanings": [
+                "the vernal festival, commonly called {%Holi%}.\n"
+            ]
+        },
+        {
+            "__line": 216970,
+            "_ancestry": [
+                "L_ 24318",
+                "B_ {#Palgu#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Palguda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "avaricious.\n"
+            ]
+        },
+        {
+            "__line": 216971,
+            "_ancestry": [
+                "L_ 24318",
+                "B_ {#Palgu#}",
+                "S_ .{@{#-vAk#}@}"
+            ],
+            "_banner": ".{@{#-vAk#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PalguvAk"
+                }
+            ],
+            "_meanings": [
+                "a falsehood, lie.\n"
+            ]
+        },
+        {
+            "__line": 216972,
+            "_ancestry": [
+                "L_ 24318",
+                "B_ {#Palgu#}",
+                "S_ .{@{#-vAwikA#}@}"
+            ],
+            "_banner": ".{@{#-vAwikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PalguvAwikA"
+                }
+            ],
+            "_meanings": [
+                "the opposite-leaved fig-tree."
+            ]
+        }
     ]
 }

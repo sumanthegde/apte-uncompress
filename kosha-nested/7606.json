@@ -1,20 +1,42 @@
 {
-    "__line": 65720,
+    "__line": 63601,
     "_ancestry": [
         "L_ 7606",
-        "B_ {#ucci#}"
+        "B_ {#Alepa#}"
     ],
-    "_banner": "{#ucci#}",
+    "_banner": "{#Alepa#}",
     "_bannerExp": [
         {
-            "Right": "ucci"
+            "Right": "Alepa"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To collect, gather,\naccumulate."
+        "To be anointed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 63602,
+            "_ancestry": [
+                "L_ 7606",
+                "B_ {#Alepa#}",
+                "M_ .{@{#-paH, -panam#}@}"
+            ],
+            "_banner": ".{@{#-paH, -panam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AlepaH"
+                },
+                {
+                    "Right": "Alepanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Anointing, smearing.\n",
+                ".²2 Liniment."
+            ]
+        }
     ]
 }

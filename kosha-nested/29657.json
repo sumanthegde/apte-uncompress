@@ -1,23 +1,38 @@
 {
-    "__line": 248461,
+    "__line": 274121,
     "_ancestry": [
         "L_ 29657",
-        "B_ {#saMpratIta#}"
+        "B_ {#viDitsita#}"
     ],
-    "_banner": "{#saMpratIta#}",
+    "_banner": "{#viDitsita#}",
     "_bannerExp": [
         {
-            "Right": "saMpratIta"
+            "Right": "viDitsita"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Returned. ",
-        "{@--2@} Fully\nconvinced. ",
-        "{@--3@} Proved, admitted. ",
-        "{@--4@}\nRenowned. ",
-        "{@--5@} Respectful."
+        "Intended to be done.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 274122,
+            "_ancestry": [
+                "L_ 29657",
+                "B_ {#viDitsita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viDitsitam"
+                }
+            ],
+            "_meanings": [
+                "Intention. design."
+            ]
+        }
     ]
 }

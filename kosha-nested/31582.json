@@ -1,22 +1,137 @@
 {
-    "__line": 264930,
+    "__line": 291100,
     "_ancestry": [
         "L_ 31582",
-        "B_ {#hmal#}"
+        "B_ {#SaMkara#}"
     ],
-    "_banner": "{#hmal#}",
+    "_banner": "{#SaMkara#}",
     "_bannerExp": [
         {
-            "Right": "hmal"
+            "Right": "SaNkara"
+        },
+        {
+            "Right": "SaNkarA"
+        },
+        {
+            "Right": "SaNkarI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#hmalati#})"
+        "{%a.%}",
+        "({#-rA, -rI#}|{%f.%})",
+        "[{#SaM suKaM karoti kf-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To go. ",
-        "{@--2@}\nTo shake, move."
+        "Conferring happiness\n or prosperity, auspicious, propitious; {#BItAH SitaSarABItAH SaMkaraM#}\n {#tatra SaMkaram#} ({#menire#}) <ls>Ki. 15. 31</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 291104,
+            "_ancestry": [
+                "L_ 31582",
+                "B_ {#SaMkara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaNkaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Śiva.\n",
+                ".²2 <ab>N.</ab> of a celebrated teacher and author ({#SaMkarAcArya#}).\n"
+            ]
+        },
+        {
+            "__line": 291107,
+            "_ancestry": [
+                "L_ 31582",
+                "B_ {#SaMkara#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaNkarI"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Pārvatī, wife of Śiva.\n",
+                ".²2 Bengal madder.\n",
+                ".²3 The Śamī tree.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 291112,
+            "_ancestry": [
+                "L_ 31582",
+                "B_ {#SaMkara#}",
+                "S_ .{@{#-AcAryaH#}@}"
+            ],
+            "_banner": ".{@{#-AcAryaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaNkarAcAryaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a celebrated teacher of Vedānta philosophy and\n reviver of Brāhmanism.\n"
+            ]
+        },
+        {
+            "__line": 291114,
+            "_ancestry": [
+                "L_ 31582",
+                "B_ {#SaMkara#}",
+                "S_ .{@{#-AvAsaH#}@}"
+            ],
+            "_banner": ".{@{#-AvAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaNkarAvAsaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the Kailāsa.\n",
+                ".²2 camphor.\n"
+            ]
+        },
+        {
+            "__line": 291117,
+            "_ancestry": [
+                "L_ 31582",
+                "B_ {#SaMkara#}",
+                "S_ .{@{#-priyaH#}@}"
+            ],
+            "_banner": ".{@{#-priyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaNkarapriyaH"
+                }
+            ],
+            "_meanings": [
+                "the francoline partridge.\n"
+            ]
+        },
+        {
+            "__line": 291118,
+            "_ancestry": [
+                "L_ 31582",
+                "B_ {#SaMkara#}",
+                "S_ .{@{#-Sukram#}@}"
+            ],
+            "_banner": ".{@{#-Sukram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaNkaraSukram"
+                }
+            ],
+            "_meanings": [
+                "quick-silver."
+            ]
+        }
     ]
 }

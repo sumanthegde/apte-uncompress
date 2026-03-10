@@ -1,37 +1,80 @@
 {
-    "__line": 182976,
+    "__line": 197580,
     "_ancestry": [
         "L_ 22002",
-        "B_ {#Bartsita#}"
+        "B_ {#prakAma#}"
     ],
-    "_banner": "{#Bartsita#}",
+    "_banner": "{#prakAma#}",
     "_bannerExp": [
         {
-            "Right": "Bartsita"
+            "Right": "prakAma"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Reviled, reproached,\nabused. "
+        ".²1 Amorous.\n",
+        ".²2 Excessive, much, to the heartʼs content, at pleasure; {#prakAmavistAra#}\n <ls>R. 2. 11</ls>; {#prakAmAlokanIyatAm#} <ls>Ku. 2. 24</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 182977,
+            "__line": 197584,
             "_ancestry": [
                 "L_ 22002",
-                "B_ {#Bartsita#}",
-                "M_ {#--taM#}"
+                "B_ {#prakAma#}",
+                "M_ .{@{#-maH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-maH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BartsitaM"
+                    "Right": "prakAmaH"
                 }
             ],
             "_meanings": [
-                "Reviling &c. See\n{#Bartsana#}."
+                "Desire, pleasure, satisfaction.\n"
+            ]
+        },
+        {
+            "__line": 197585,
+            "_ancestry": [
+                "L_ 22002",
+                "B_ {#prakAma#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakAmam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Very much, exceedingly; {#jAto mamAyaM viSadaH prakAmam#} ({#antarAtmA#})\n <ls>Ś. 4. 22</ls>; <ls>R. 6. 44</ls>; <ls>Mk. 5. 25</ls>.\n",
+                ".²2 Sufficiently, to the heartʼs content, according to wish or desire.\n",
+                ".²3 Voluntarily, willingly; {#ye tizWanti Bavantu te'pi gamane kAmaM prakAmodyamAH#} <ls>Mu. 1. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197590,
+            "_ancestry": [
+                "L_ 22002",
+                "B_ {#prakAma#}",
+                "M_ .{@{#-Buj#}@}"
+            ],
+            "_banner": ".{@{#-Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: prakAma Buj"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eating till satisfied or to the heartʼs content; {#na#}\n {#prakAmaBujaH SrAdDe svaDAsaMgrahatatparAH#} <ls>R. 1. 66</ls>."
             ]
         }
     ]

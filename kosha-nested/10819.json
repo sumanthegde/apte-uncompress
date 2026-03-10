@@ -1,42 +1,82 @@
 {
-    "__line": 90923,
+    "__line": 90763,
     "_ancestry": [
         "L_ 10819",
-        "B_ {#kArzRAyasa#}"
+        "B_ {#ESvara#}"
     ],
-    "_banner": "{#kArzRAyasa#}",
+    "_banner": "{#ESvara#}",
     "_bannerExp": [
         {
-            "Right": "kArzRAyasI"
+            "Right": "ESvara"
         },
         {
-            "Right": "kArzRAyasa"
+            "Right": "ESvarI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#sI#}|{%<ab>f.</ab>%})",
-        "[{#kfzRAyasa-aR#}]"
+        "{%a.%}",
+        "[{#ISvara-aR#}]",
+        "({#rI#}|{%f.%})"
     ],
     "_meanings": [
-        "Made of black iron; <ls>U. 3. 43.</ls> "
+        ".²1 Belonging to or produced by a lord or the Supreme Being, majestic.\n\n {#paSya me yogamESvaram#} <ls>Bg. 9. 5</ls>, <ls n=\"Bg.\">11. 3</ls>, <ls n=\"Bg. 11.\">9</ls>.\n",
+        ".²2 Powerful, mighty.\n",
+        ".²3 Belonging to Śiva; {#ESvaraM DanuraBAji yattvayA#} <ls>R. 11. 76</ls>.\n",
+        ".²4 Supreme, royal.\n",
+        ".²5 Divine.\n"
     ],
     "_morphisms": [
         {
-            "__line": 90924,
+            "__line": 90771,
             "_ancestry": [
                 "L_ 10819",
-                "B_ {#kArzRAyasa#}",
-                "M_ {#--saM#}"
+                "B_ {#ESvara#}",
+                "M_ .{@{#-ram#}@}"
             ],
-            "_banner": "{#--saM#}",
+            "_banner": ".{@{#-ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kArzRAyasaM"
+                    "Right": "ESvaram"
                 }
             ],
             "_meanings": [
-                "Iron."
+                "Supremacy, power; {#ekAntaDAma yaSasaH Sriya ESvarasya#}\n <ls>Bhāg. 10. 44. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 90773,
+            "_ancestry": [
+                "L_ 10819",
+                "B_ {#ESvara#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ESvarI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Durgā.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 90775,
+            "_ancestry": [
+                "L_ 10819",
+                "B_ {#ESvara#}",
+                "S_ .{@{#-kAraRikaH#}@}"
+            ],
+            "_banner": ".{@{#-kAraRikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ESvarakAraRikaH"
+                }
+            ],
+            "_meanings": [
+                "A Naiyāyika; <ls>Hch. 8</ls>."
             ]
         }
     ]

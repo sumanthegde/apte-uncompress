@@ -1,59 +1,102 @@
 {
-    "__line": 94633,
+    "__line": 94406,
     "_ancestry": [
         "L_ 11303",
-        "B_ {#kusuMBaH, --BaM#}"
+        "B_ {#kaRwakin#}"
     ],
-    "_banner": "{#kusuMBaH, --BaM#}",
+    "_banner": "{#kaRwakin#}",
     "_bannerExp": [
         {
-            "Right": "kusuMBaH"
+            "Right": "kaRwakin"
         },
         {
-            "Right": "kusuMBaM"
+            "Right": "kaRwakinI"
         }
     ],
     "_gram": [
-        "[<ls>Uṇ. 4. 106</ls>]"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Safflower;\n{#kusuMBAruRaM cAru celaM vasAnA#} <ls>Jag.</ls>;  \n<ls>Rs. 6. 4.</ls> ",
-        "{@--2@} Saffron. ",
-        "{@--3@} The \nwaterpot of an ascetic. "
+        ".²1 Thorny, prickly; {#kaRwakino vanAntAH#} <ls>Vikr. 1. 116</ls>.\n",
+        ".²2 Vexatious, troublesome. "
     ],
     "_morphisms": [
         {
-            "__line": 94636,
+            "__line": 94408,
             "_ancestry": [
                 "L_ 11303",
-                "B_ {#kusuMBaH, --BaM#}",
-                "M_ {#--BaM#}"
+                "B_ {#kaRwakin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--BaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "kusuMBaM"
+                    "Left": "Parser error: {#kaMwakin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "Gold. "
+                "A fish. --{%m., f.%} <ab>N.</ab> of several plants:--\n {#Kadira, madana, gokzura, vaMSa, badara#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 94411,
+            "_ancestry": [
+                "L_ 11303",
+                "B_ {#kaRwakin#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kaRwakija"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 produced from a fish.\n",
+                ".²2 produced by the Mimosa tree.\n"
             ]
         },
         {
-            "__line": 94636,
+            "__line": 94414,
             "_ancestry": [
                 "L_ 11303",
-                "B_ {#kusuMBaH, --BaM#}",
-                "M_ {#--BaH#}"
+                "B_ {#kaRwakin#}",
+                "S_ .{@{#-PalaH#}@}"
             ],
-            "_banner": "{#--BaH#}",
+            "_banner": ".{@{#-PalaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kusuMBaH"
+                    "Right": "kaRwakiPalaH"
                 }
             ],
             "_meanings": [
-                "Mere outward affection (compared\nwith the colour of safflower)."
+                "the bread-fruit tree ({#panasa#}). "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 94414,
+                    "_ancestry": [
+                        "L_ 11303",
+                        "B_ {#kaRwakin#}",
+                        "S_ .{@{#-PalaH#}@}",
+                        "S_M_ ({@{#-lA#}@}"
+                    ],
+                    "_banner": "({@{#-lA#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kaRwakiPalA"
+                        }
+                    ],
+                    "_meanings": [
+                        "{#maDuKarjurI#} plant."
+                    ]
+                }
             ]
         }
     ]

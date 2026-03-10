@@ -1,17 +1,158 @@
 {
-    "__line": 164508,
+    "__line": 175940,
     "_ancestry": [
         "L_ 19660",
-        "B_ {#pracodaH#}"
+        "B_ {#nyUna#}"
     ],
-    "_banner": "{#pracodaH#}",
+    "_banner": "{#nyUna#}",
     "_bannerExp": [
         {
-            "Right": "pracodaH"
+            "Right": "nyUna"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Driving onward, urging,\ninciting. ",
-        "{@--2@} Instigating."
+        ".²1 Lessened, diminished, shortened.\n",
+        ".²2 Defective, inferior, deficient, wanting, destitute of; as in {#arTanyUna#};\n {#aTa kasmAdetAni vEkftAni vAkyAni nyUnAnyeva nAnumanyante . kimeBiH pUritEH .#}\n {#nyUnAni anekArTAni Bavanti#} <ls>ŚB. on MS. 7. 4. 12</ls>.\n",
+        ".²3 Less (<ab>opp.</ab> {#aDika#}); {#nyUnADikaviBaktAnAM DarmyaH pitfkftaH smftaH#} <ls>Y. 2. 116</ls>.\n",
+        ".²4 Defective (in some organ); {#pAda˚#}.\n",
+        ".²5 Low, wicked, vile, despicable.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 175948,
+            "_ancestry": [
+                "L_ 19660",
+                "B_ {#nyUna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyUnam"
+                }
+            ],
+            "_meanings": [
+                "Want or omission of one of the five members in a Nyāya argument.\n"
+            ]
+        },
+        {
+            "__line": 175949,
+            "_ancestry": [
+                "L_ 19660",
+                "B_ {#nyUna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyUnam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Less, in a less degree.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 175951,
+            "_ancestry": [
+                "L_ 19660",
+                "B_ {#nyUna#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyUnANga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "maimed, mutilated.\n"
+            ]
+        },
+        {
+            "__line": 175952,
+            "_ancestry": [
+                "L_ 19660",
+                "B_ {#nyUna#}",
+                "S_ .{@{#-aDika#}@}"
+            ],
+            "_banner": ".{@{#-aDika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyUnADika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "more or less, unequal.\n"
+            ]
+        },
+        {
+            "__line": 175953,
+            "_ancestry": [
+                "L_ 19660",
+                "B_ {#nyUna#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyUnaDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deficient in intellect, ignorant, foolish.\n"
+            ]
+        },
+        {
+            "__line": 175954,
+            "_ancestry": [
+                "L_ 19660",
+                "B_ {#nyUna#}",
+                "S_ .{@{#-paYcASadBAvaH#}@}"
+            ],
+            "_banner": ".{@{#-paYcASadBAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyUnapaYcASadBAvaH"
+                }
+            ],
+            "_meanings": [
+                "an idiot (having no full 50 properties of human nature).\n"
+            ]
+        },
+        {
+            "__line": 175955,
+            "_ancestry": [
+                "L_ 19660",
+                "B_ {#nyUna#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyUnaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "inferiority, deficiency."
+            ]
+        }
     ]
 }

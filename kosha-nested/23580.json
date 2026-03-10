@@ -1,24 +1,167 @@
 {
-    "__line": 198428,
+    "__line": 210563,
     "_ancestry": [
         "L_ 23580",
-        "B_ {#mOdaka#}"
+        "B_ {#prasanna#}"
     ],
-    "_banner": "{#mOdaka#}",
+    "_banner": "{#prasanna#}",
     "_bannerExp": [
         {
-            "Right": "mOdakI"
-        },
-        {
-            "Right": "mOdaka"
+            "Right": "prasanna"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Relating\nto sweetmeats. ",
-        "{@--2@} Dealing in \nsweetmeats."
+        ".²1 Pure, clear, bright, limpid, pellucid, transparent; {#prasannadikpAMsuviviktavAtam#}\n <ls>Ku. 1. 23</ls>, <ls n=\"Ku.\">7. 74</ls>; {#kUlaMkazeva sinDuH prasannamamBastawataruM ca#} <ls>Ś. 5. 21</ls>.\n",
+        ".²2 Pleased, delighted, propitiated, soothed; {#mayA prasannena tavArjunedaM#}\n {#rUpaM paraM darSitamAtmayogAt#} <ls>Bg. 11. 47</ls>; {#gaNgAM Sarannayati sinDupatiM#}\n {#prasannAm#} <ls>Mu. 3. 9</ls>; {#gamBIrAyAH payasi saritaScetasIva prasanne#} <ls>Me. 42</ls>\n (where the first sense is also intended); <ls>Ku. 5. 35</ls>; <ls>R. 2. 68</ls>.\n",
+        ".²3 Kind, kindly disposed, gracious, propitious; {#avehi mAM kAmaduGAM#}\n {#prasannAm#} <ls>R. 2. 63</ls>.\n",
+        ".²4 Plain, open, clear, easily intelligible (as meaning).\n",
+        ".²5 True, correct; {#prasannaste tarkaH#} <ls>V. 2</ls>; {#prasannaprAyaste tarkaH#} <ls>Māl. 1</ls>.\n",
+        ".²6 Settled down, tranquil.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 210575,
+            "_ancestry": [
+                "L_ 23580",
+                "B_ {#prasanna#}",
+                "M_ .{@{#-nnA#}@}"
+            ],
+            "_banner": ".{@{#-nnA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasannA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Propitiation, pleasing.\n",
+                ".²2 Spirituous liquor.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 210579,
+            "_ancestry": [
+                "L_ 23580",
+                "B_ {#prasanna#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasannAtman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "gracious-minded, propitious. --({%m.%}) <ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 210580,
+            "_ancestry": [
+                "L_ 23580",
+                "B_ {#prasanna#}",
+                "S_ .{@{#-IrA#}@}"
+            ],
+            "_banner": ".{@{#-IrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasannerA"
+                }
+            ],
+            "_meanings": [
+                "spirituous liquor.\n"
+            ]
+        },
+        {
+            "__line": 210581,
+            "_ancestry": [
+                "L_ 23580",
+                "B_ {#prasanna#}",
+                "S_ .{@{#-kalpa#}@}"
+            ],
+            "_banner": ".{@{#-kalpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasannakalpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 almost calm.\n",
+                ".²2 almost true.\n"
+            ]
+        },
+        {
+            "__line": 210584,
+            "_ancestry": [
+                "L_ 23580",
+                "B_ {#prasanna#}",
+                "S_ .{@{#-muKa, -vadana#}@}"
+            ],
+            "_banner": ".{@{#-muKa, -vadana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasannamuKa"
+                },
+                {
+                    "Right": "prasannavadana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "gracious-looking, with a pleased countenance, smiling.\n"
+            ]
+        },
+        {
+            "__line": 210585,
+            "_ancestry": [
+                "L_ 23580",
+                "B_ {#prasanna#}",
+                "S_ .{@{#-rasa#}@}"
+            ],
+            "_banner": ".{@{#-rasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasannarasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "clear-juiced.\n"
+            ]
+        },
+        {
+            "__line": 210586,
+            "_ancestry": [
+                "L_ 23580",
+                "B_ {#prasanna#}",
+                "S_ .{@{#-salila#}@}"
+            ],
+            "_banner": ".{@{#-salila#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasannasalila"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having clear water."
+            ]
+        }
     ]
 }

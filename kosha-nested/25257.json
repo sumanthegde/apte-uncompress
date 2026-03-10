@@ -1,48 +1,71 @@
 {
-    "__line": 213874,
+    "__line": 228090,
     "_ancestry": [
         "L_ 25257",
-        "B_ {#vaSin#}"
+        "B_ {#BUrjaH#}"
     ],
-    "_banner": "{#vaSin#}",
+    "_banner": "{#BUrjaH#}",
     "_bannerExp": [
         {
-            "Right": "vaSin"
-        },
-        {
-            "Right": "vaSinI"
+            "Right": "BUrjaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#vaSaH astyasya#} \n{#ini#}]"
-    ],
     "_meanings": [
-        "{@--1@} Powerful. ",
-        "{@--2@} Being under\ncontrol, subdued, subject, \nsubmissive. ",
-        "{@--3@} One who has subdued his\npassions (used like a noun also);\n{#prasTApayAmAsa vaSI vasizWaH#} <ls>R. 2. 70</ls>,  \n<ls n=\"R.\">8. 90</ls>, <ls n=\"R.\">19. 1</ls>; <ls>Ś. 5. 28.</ls> "
+        "The birch-tree; {#BUrjagato'kzaravinyAsaH#} <ls>V. 2</ls>; <ls>Ku. 1. 7</ls>;\n {#‘BUrjaH kawuH kazAyozRo BUtarakzAkaraH paraH’#} <ls>Rājanighaṇṭu.</ls>\n"
     ],
     "_morphisms": [
         {
-            "__line": 213880,
+            "__line": 228092,
             "_ancestry": [
                 "L_ 25257",
-                "B_ {#vaSin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#BUrjaH#}",
+                "M_ .{@{#-rjam#}@}"
             ],
+            "_banner": ".{@{#-rjam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vaSin"
+                    "Right": "BUrjam"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                ".²1 A leaf made of birch-bark for writing on.\n",
+                ".²2 A written deed, document.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 228096,
+            "_ancestry": [
+                "L_ 25257",
+                "B_ {#BUrjaH#}",
+                "S_ .{@{#-kaRwakaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRwakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrjakaRwakaH"
+                }
             ],
             "_meanings": [
-                "<ab>Ved.</ab>\n",
-                "{@--1@} A ruler, lord. ",
-                "{@--2@} A sage."
+                "a man of one of the mixed tribes, the offspring of an\n outcast Brāhmaṇa by a woman of the same class; {#vrAtyAttu jAyate viprAt#}\n {#pApAtmA BUrjakaRwakaH#} <ls>Ms. 10. 21</ls>.\n"
+            ]
+        },
+        {
+            "__line": 228099,
+            "_ancestry": [
+                "L_ 25257",
+                "B_ {#BUrjaH#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrjapatraH"
+                }
+            ],
+            "_meanings": [
+                "the birch-tree."
             ]
         }
     ]

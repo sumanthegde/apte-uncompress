@@ -1,21 +1,716 @@
 {
-    "__line": 211103,
+    "__line": 223676,
     "_ancestry": [
         "L_ 24905",
-        "B_ {#vaR#}"
+        "B_ {#Badra#}"
     ],
-    "_banner": "{#vaR#}",
+    "_banner": "{#Badra#}",
     "_bannerExp": [
         {
-            "Right": "vaR"
+            "Right": "Badra"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#vaRati#})"
+        "{%a.%}",
+        "[{#Band-rak ni˚ nalopaH#} <ls>Uṇ. 2. 28</ls>]"
     ],
     "_meanings": [
-        "To sound."
+        ".²1 Good, happy, prosperous.\n",
+        ".²2 Auspicious, blessed; as in {#BadramuKa#}.\n",
+        ".²3 Foremost, best, chief; {#papracCa BadraM vijitAriBadraH#} <ls>R. 14. 31</ls>.\n",
+        ".²4 Favourable, propitious; {#BadraM karReBiH SfRuyAma devA BadraM paSyemAkzaBiryajatrAH#} <ls>Rv. 1. 89. 8</ls>.\n",
+        ".²5 Kind, gracious, excellent, friendly, good; often used in <ab>voc.</ab> <ab>sing.</ab>\n in the sense of ‘my good sir’, or ‘my good friend’, ‘my good lady’, ‘my dear madam’.\n",
+        ".²6 Pleasant, enjoyable, lovely, beautiful; {#na tu kfcCrAdapi BadraM nijakAntaM#}\n {#sA Bajatyeva#} <ls>Pt. 1. 181</ls>.\n",
+        ".²7 Laudable, desirable, praiseworthy.\n",
+        ".²8 Beloved, dear.\n",
+        ".²9 Specious, plausible, hypocritical. ",
+        ".²10 Skilful, expert; {#Badro'smi#}\n {#nftye kuSalo'smi gIte#} <ls>Mb. 4. 11. 8</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 223689,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "M_ .{@{#-dram#}@}"
+            ],
+            "_banner": ".{@{#-dram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Badram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Happiness, good fortune, welfare, blessing, prosperity; {#BadraM BadraM#}\n {#vitara Bagavan BUyase maNgalAya#} <ls>Māl. 1. 3</ls>, <ls n=\"Māl.\">6. 7</ls>; {#tvayi vitaratu#}\n {#BadraM BUyase maNgalAya#} <ls>U. 3. 48</ls>; <ab>oft.</ab> used in <ab>pl.</ab> in this sense; {#sarvo#}\n {#BadrARi paSyatu#}; {#BadraM te#} ‘god bless you’, ‘prosperity to you’.\n",
+                ".²2 Gold.\n",
+                ".²3 A fragrant grass.\n",
+                ".²4 Iron, steel. ",
+                ".²5 The seventh Karaṇa. {@{#draH#}@}\n",
+                ".²1 A bullock.\n",
+                ".²2 A species of wag-tail.\n",
+                ".²3 A term applied to a particular kind of elephants.\n",
+                ".²4 An impostor, a hypocrite; <ls>Ms. 9. 258</ls>.\n",
+                ".²5 <ab>N.</ab> of Śiva.\n",
+                ".²6 An epithet of mount Meru.\n",
+                ".²7 The Devadāru tree.\n",
+                ".²8 A kind of {%Kadamba%}. ({#BadrAkf#} means ‘to shave’; {#BadrAkaraRam#} shaving).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 223706,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-aNgaH#}@}"
+            ],
+            "_banner": ".{@{#-aNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrANgaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Balarāma.\n"
+            ]
+        },
+        {
+            "__line": 223707,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-aSvaH#}@}"
+            ],
+            "_banner": ".{@{#-aSvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrASvaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a Dvīpa.\n"
+            ]
+        },
+        {
+            "__line": 223708,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-AkAra, -Akfti#}@}"
+            ],
+            "_banner": ".{@{#-AkAra, -Akfti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrAkAra"
+                },
+                {
+                    "Right": "BadrAkfti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of auspicious features.\n"
+            ]
+        },
+        {
+            "__line": 223709,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-AtmajaH#}@}"
+            ],
+            "_banner": ".{@{#-AtmajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrAtmajaH"
+                }
+            ],
+            "_meanings": [
+                "a sword.\n"
+            ]
+        },
+        {
+            "__line": 223710,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-ASrayaH#}@}"
+            ],
+            "_banner": ".{@{#-ASrayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrASrayaH"
+                }
+            ],
+            "_meanings": [
+                "the sandal tree.\n"
+            ]
+        },
+        {
+            "__line": 223711,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-Asanam#}@}"
+            ],
+            "_banner": ".{@{#-Asanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrAsanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a chair of state, splendid seat, a throne.\n",
+                ".²2 a particular posture in meditation.\n"
+            ]
+        },
+        {
+            "__line": 223714,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-ISaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadreSaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 223715,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-elA#}@}"
+            ],
+            "_banner": ".{@{#-elA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrElA"
+                }
+            ],
+            "_meanings": [
+                "large cardamoms.\n"
+            ]
+        },
+        {
+            "__line": 223716,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-kapilaH#}@}"
+            ],
+            "_banner": ".{@{#-kapilaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrakapilaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 223717,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-kalpaH#}@}"
+            ],
+            "_banner": ".{@{#-kalpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrakalpaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the present age; <ls>Buddh.</ls>\n"
+            ]
+        },
+        {
+            "__line": 223718,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-kAntaH#}@}"
+            ],
+            "_banner": ".{@{#-kAntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrakAntaH"
+                }
+            ],
+            "_meanings": [
+                "a beautiful lover or husband.\n"
+            ]
+        },
+        {
+            "__line": 223719,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-kAraka#}@}"
+            ],
+            "_banner": ".{@{#-kAraka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrakAraka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "propitious.\n"
+            ]
+        },
+        {
+            "__line": 223720,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-kAlI#}@}"
+            ],
+            "_banner": ".{@{#-kAlI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrakAlI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Durgā; {#jayantI maNgalA kAlI BadrakAlI kapAlinI#}\n <ls>Durgāpūjāmantra</ls>; {#BadrakAlyE puruzapaSumAlaBatApatyakAmaH#} <ls>Bhāg. 5. 9. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 223722,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-kAzWam#}@}"
+            ],
+            "_banner": ".{@{#-kAzWam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrakAzWam"
+                }
+            ],
+            "_meanings": [
+                "the tree called Devadāru.\n"
+            ]
+        },
+        {
+            "__line": 223723,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-kumBaH#}@}"
+            ],
+            "_banner": ".{@{#-kumBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrakumBaH"
+                }
+            ],
+            "_meanings": [
+                "a golden jar filled with water from a holy place, particularly\n from the Ganges (<ab>esp.</ab> used at the consecration of a king).\n"
+            ]
+        },
+        {
+            "__line": 223725,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-gaRitam#}@}"
+            ],
+            "_banner": ".{@{#-gaRitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadragaRitam"
+                }
+            ],
+            "_meanings": [
+                "the construction of magical diagrams.\n"
+            ]
+        },
+        {
+            "__line": 223726,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-gOraH#}@}"
+            ],
+            "_banner": ".{@{#-gOraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadragOraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a mountain; <ls>Mārk. P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 223727,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-GawaH, -GawakaH#}@}"
+            ],
+            "_banner": ".{@{#-GawaH, -GawakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadraGawaH"
+                },
+                {
+                    "Right": "BadraGawakaH"
+                }
+            ],
+            "_meanings": [
+                "a vessel from which a lottery is drawn.\n"
+            ]
+        },
+        {
+            "__line": 223728,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-dAru#}@}"
+            ],
+            "_banner": ".{@{#-dAru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadradAru"
+                }
+            ],
+            "_gram": [
+                "{%m., n.%}"
+            ],
+            "_meanings": [
+                "a sort of pine.\n"
+            ]
+        },
+        {
+            "__line": 223729,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-nAman#}@}"
+            ],
+            "_banner": ".{@{#-nAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadranAman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a wag-tail.\n",
+                ".²2 the wood-pecker.\n"
+            ]
+        },
+        {
+            "__line": 223732,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-niDiH#}@}"
+            ],
+            "_banner": ".{@{#-niDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadraniDiH"
+                }
+            ],
+            "_meanings": [
+                "certain vessels of copper <ab>etc.</ab> fashioned for gifts; {#evaM#}\n {#tu taM BadraniDiM suvidvAn kftvAsane prAvaraRopayukte#} <ls>Vāmana P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 223734,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-nfpatiH#}@}"
+            ],
+            "_banner": ".{@{#-nfpatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadranfpatiH"
+                }
+            ],
+            "_meanings": [
+                "a gracious king.\n"
+            ]
+        },
+        {
+            "__line": 223735,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-pIWam#}@}"
+            ],
+            "_banner": ".{@{#-pIWam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrapIWam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a splendid seat, chair of state, throne; {#OdumbaraM BadrapIWamaBizekArTamAhftam#}\n <ls>Rām. 2. 14. 34</ls>; {#upatasTuH prakftayo BadrapIWopaveSitam#} <ls>R. 17. 10</ls>.\n",
+                ".²2 a kind of winged insect.\n"
+            ]
+        },
+        {
+            "__line": 223739,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-balanaH#}@}"
+            ],
+            "_banner": ".{@{#-balanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrabalanaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Balarāma.\n"
+            ]
+        },
+        {
+            "__line": 223740,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadramuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘of an auspicious face’, used as a polite address,\n ‘good sir’, ‘gentle sir’; <ls>Ś. 7</ls>; {#tato BadramuKAtrAhaM sTAsye sTARurivAcalaH#}\n\n <ls>Mārk. P.</ls>\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 223744,
+                    "_ancestry": [
+                        "L_ 24905",
+                        "B_ {#Badra#}",
+                        "S_ .{@{#-muKa#}@}",
+                        "S_M_ ({@{#-KI#}@}"
+                    ],
+                    "_banner": "({@{#-KI#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "BadramuKI"
+                        }
+                    ],
+                    "_meanings": [
+                        "good lady; <ls>V. 2</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 223745,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-mustakaH#}@}"
+            ],
+            "_banner": ".{@{#-mustakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadramustakaH"
+                }
+            ],
+            "_gram": [
+                ".({@{#-mustA#}@})"
+            ],
+            "_meanings": [
+                "Cyperus Rotunda (<lang>Mar.</lang> <ns>{#nAgaramoTA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 223747,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-mfgaH#}@}"
+            ],
+            "_banner": ".{@{#-mfgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadramfgaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of a particular kind of elephant.\n"
+            ]
+        },
+        {
+            "__line": 223748,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-reRuH#}@}"
+            ],
+            "_banner": ".{@{#-reRuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrareRuH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Indraʼs elephant.\n"
+            ]
+        },
+        {
+            "__line": 223749,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-varman#}@}"
+            ],
+            "_banner": ".{@{#-varman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Badravarman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a kind of jasmine.\n"
+            ]
+        },
+        {
+            "__line": 223750,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-vAc#}@}"
+            ],
+            "_banner": ".{@{#-vAc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadravAc"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a kind or friendly speech.\n"
+            ]
+        },
+        {
+            "__line": 223751,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-virAj#}@}"
+            ],
+            "_banner": ".{@{#-virAj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadravirAj"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre; {#oje taparO jarO guruScen msO jgO BadravirAw#} <ls>V. Ratn.</ls>\n"
+            ]
+        },
+        {
+            "__line": 223752,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-SAKaH#}@}"
+            ],
+            "_banner": ".{@{#-SAKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadraSAKaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Kārtikeya.\n"
+            ]
+        },
+        {
+            "__line": 223753,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-Srayam, -Sriyam#}@}"
+            ],
+            "_banner": ".{@{#-Srayam, -Sriyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadraSrayam"
+                },
+                {
+                    "Right": "BadraSriyam"
+                }
+            ],
+            "_meanings": [
+                "sandalwood.\n"
+            ]
+        },
+        {
+            "__line": 223754,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-SrIH#}@}"
+            ],
+            "_banner": ".{@{#-SrIH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadraSrIH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the sandal tree.\n"
+            ]
+        },
+        {
+            "__line": 223755,
+            "_ancestry": [
+                "L_ 24905",
+                "B_ {#Badra#}",
+                "S_ .{@{#-somA#}@}"
+            ],
+            "_banner": ".{@{#-somA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadrasomA"
+                }
+            ],
+            "_meanings": [
+                "an epithet of the Ganges."
+            ]
+        }
     ]
 }

@@ -1,19 +1,55 @@
 {
-    "__line": 9476,
+    "__line": 7838,
     "_ancestry": [
         "L_ 807",
-        "B_ {#aTarvI#}"
+        "B_ {#atisOraBa#}"
     ],
-    "_banner": "{#aTarvI#}",
+    "_banner": "{#atisOraBa#}",
     "_bannerExp": [
         {
-            "Right": "aTarvI"
+            "Right": "atisOraBa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> [{#na Turv-ac, pfzo°#}\n{#ulopaH gOrA°--NIz#} <ls>Tv.</ls>] Not injuring or\nhurting, not destructive; pierced by\na lance (?)."
+        "Very fragrant.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 7839,
+            "_ancestry": [
+                "L_ 807",
+                "B_ {#atisOraBa#}",
+                "M_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atisOraBam"
+                }
+            ],
+            "_meanings": [
+                "Great fragrance.\n"
+            ]
+        },
+        {
+            "__line": 7840,
+            "_ancestry": [
+                "L_ 807",
+                "B_ {#atisOraBa#}",
+                "M_ .{@{#-BaH#}@}"
+            ],
+            "_banner": ".{@{#-BaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atisOraBaH"
+                }
+            ],
+            "_meanings": [
+                "The mango tree."
+            ]
+        }
     ]
 }

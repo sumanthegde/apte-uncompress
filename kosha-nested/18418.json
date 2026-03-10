@@ -1,16 +1,71 @@
 {
-    "__line": 154493,
+    "__line": 164053,
     "_ancestry": [
         "L_ 18418",
-        "B_ {#paryavazwaMBanaM#}"
+        "B_ {#nastaH#}"
     ],
-    "_banner": "{#paryavazwaMBanaM#}",
+    "_banner": "{#nastaH#}",
     "_bannerExp": [
         {
-            "Right": "paryavazwaMBanaM"
+            "Right": "nastaH"
         }
     ],
     "_meanings": [
-        "Surrounding, investing."
+        "The nose.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 164054,
+            "_ancestry": [
+                "L_ 18418",
+                "B_ {#nastaH#}",
+                "M_ .{@{#-stam#}@}"
+            ],
+            "_banner": ".{@{#-stam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nastam"
+                }
+            ],
+            "_meanings": [
+                "A sternutatory, snuff.\n"
+            ]
+        },
+        {
+            "__line": 164055,
+            "_ancestry": [
+                "L_ 18418",
+                "B_ {#nastaH#}",
+                "M_ .{@{#-stA#}@}"
+            ],
+            "_banner": ".{@{#-stA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nastA"
+                }
+            ],
+            "_meanings": [
+                "A hole bored in the septum of the nose.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 164057,
+            "_ancestry": [
+                "L_ 18418",
+                "B_ {#nastaH#}",
+                "S_ .{@{#-UtaH#}@}"
+            ],
+            "_banner": ".{@{#-UtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nastotaH"
+                }
+            ],
+            "_meanings": [
+                "an ox led by a string through the nose."
+            ]
+        }
     ]
 }

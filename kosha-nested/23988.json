@@ -1,41 +1,60 @@
 {
-    "__line": 202972,
+    "__line": 214097,
     "_ancestry": [
         "L_ 23988",
-        "B_ {#ratniH#}"
+        "B_ {#prArTanam#}, {#-nA#}"
     ],
-    "_banner": "{#ratniH#}",
+    "_banner": "{#prArTanam#}, {#-nA#}",
     "_bannerExp": [
         {
-            "Right": "ratniH"
+            "Right": "prArTanam"
+        },
+        {
+            "Right": "prArTanA"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}",
-        "{%<ab>f.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} The elbow. ",
-        "{@--2@} The\ndistance from the elbow to the end\nof the closed fist, a cubit. "
+        ".²1 A request, entreaty, prayer, solicitation; {#ye varDante DanapatipuraHprArTanAduHKaBAjaH#} <ls>Bh. 3. 47</ls>.\n",
+        ".²2 A wish, desire; {#labDAvakASA me prArTanA#} or {#na duravApeyaM Kalu#}\n {#prArTanA#} <ls>Ś. 1</ls>, <ls n=\"Ś.\">2. 1</ls>; {#utsarpiRI Kalu mahatAM prArTanA#} <ls>Ś. 7</ls>, <ls n=\"Ś.\">7. 2</ls>.\n",
+        ".²3 A suit, petition, supplication, a love-suit; {#kadAcidasmatprArTanAmantaHpureByaH#}\n {#kaTayet#} <ls>Ś. 2</ls> (the object is expressed by the <ab>loc.</ab>; as in {#SakuntalAyAM prArTanA#}).\n",
+        ".²4 <ab>N.</ab> of a Mudrā; {#prasftANgulikO hastO miTaH SlizwO ca saMmuKe . kuryAt#}\n {#svahfdaye seyaM mudrA syAt prArTanABiDA#} <ls>Tantrasāra.</ls>\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 202974,
+            "__line": 214106,
             "_ancestry": [
                 "L_ 23988",
-                "B_ {#ratniH#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#prArTanam#}, {#-nA#}",
+                "S_ .{@{#-BaNgaH#}@}"
             ],
+            "_banner": ".{@{#-BaNgaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ratniH"
+                    "Right": "prArTanaBaNgaH"
+                }
+            ],
+            "_meanings": [
+                "refusal of a request.\n"
+            ]
+        },
+        {
+            "__line": 214107,
+            "_ancestry": [
+                "L_ 23988",
+                "B_ {#prArTanam#}, {#-nA#}",
+                "S_ .{@{#-sidDiH#}@}"
+            ],
+            "_banner": ".{@{#-sidDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prArTanasidDiH"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%f.%}"
             ],
             "_meanings": [
-                "The\nclosed fist. (This word appears to\nbe a corruption of {#aratni#} <ab>q. v.</ab>)."
+                "fulfilment of a desire; {#prArTanAsidDiSaMsinaH#} <ls>R. 1. 42</ls>."
             ]
         }
     ]

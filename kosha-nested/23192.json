@@ -1,16 +1,66 @@
 {
-    "__line": 195145,
+    "__line": 207502,
     "_ancestry": [
         "L_ 23192",
-        "B_ {#mihirARaH#}"
+        "B_ {#pramada#}"
     ],
-    "_banner": "{#mihirARaH#}",
+    "_banner": "{#pramada#}",
     "_bannerExp": [
         {
-            "Right": "mihirARaH"
+            "Right": "pramada"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "An epithet of Śiva."
+        ".²1 Drunk, intoxicated (<ab>fig.</ab> also).\n",
+        ".²2 Impassioned.\n",
+        ".²3 Careless.\n",
+        ".²4 Wanton, dissolute.\n",
+        ".²5 Violent, strong.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 207508,
+            "_ancestry": [
+                "L_ 23192",
+                "B_ {#pramada#}",
+                "M_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pramadaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Joy, pleasure, delight; {#biBranti yatra pramadAya puMsAm#} <ls>Śi. 3. 54</ls>, <ls n=\"Śi.\">13. 2</ls>;\n <ls>Māl. 9</ls>; {#apyamunA na vacovizayo yaH sa pramadaH sahAsAlasamUhe#}\n <ls>Rām. Ch. 4. 94</ls>.\n",
+                ".²2 The Dhattūra plant.\n",
+                ".²3 The ankle.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 207515,
+            "_ancestry": [
+                "L_ 23192",
+                "B_ {#pramada#}",
+                "S_ .{@{#-kAnanam, -vanam#}@}"
+            ],
+            "_banner": ".{@{#-kAnanam, -vanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pramadakAnanam"
+                },
+                {
+                    "Right": "pramadavanam"
+                }
+            ],
+            "_meanings": [
+                "a pleasure garden attached to the royal harem."
+            ]
+        }
     ]
 }

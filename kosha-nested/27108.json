@@ -1,42 +1,94 @@
 {
-    "__line": 228254,
+    "__line": 248617,
     "_ancestry": [
         "L_ 27108",
-        "B_ {#vEyAGra#}"
+        "B_ {#yuzmad#}"
     ],
-    "_banner": "{#vEyAGra#}",
+    "_banner": "{#yuzmad#}",
     "_bannerExp": [
         {
-            "Right": "vEyAGrI"
-        },
-        {
-            "Right": "vEyAGra"
+            "Right": "yuzmad"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#GrI#}|{%<ab>f.</ab>%})"
-    ],
     "_meanings": [
-        "{@--1@} Tiger-like.\n",
-        "{@--2@} Covered with a tiger's skin.\n"
+        "The base of the second personal pronoun; (<ab>nom.</ab> {#tvam, yuvAm#},\n {#yUyam#}) Thou, you; (at the beginning of several compounds).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 228256,
+            "__line": 248620,
             "_ancestry": [
                 "L_ 27108",
-                "B_ {#vEyAGra#}",
-                "M_ {#--GraH#}"
+                "B_ {#yuzmad#}",
+                "S_ .{@{#-arTam#}@}"
             ],
-            "_banner": "{#--GraH#}",
+            "_banner": ".{@{#-arTam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vEyAGraH"
+                    "Right": "yuzmadarTam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "for you.\n"
+            ]
+        },
+        {
+            "__line": 248621,
+            "_ancestry": [
+                "L_ 27108",
+                "B_ {#yuzmad#}",
+                "S_ .{@{#-Ayatta#}@}"
+            ],
+            "_banner": ".{@{#-Ayatta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yuzmadAyatta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "at your disposal.\n"
+            ]
+        },
+        {
+            "__line": 248622,
+            "_ancestry": [
+                "L_ 27108",
+                "B_ {#yuzmad#}",
+                "S_ .{@{#-vAcyam#}@}"
+            ],
+            "_banner": ".{@{#-vAcyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yuzmadvAcyam"
                 }
             ],
             "_meanings": [
-                "A cart covered with a tiger's\nskin."
+                "(in <ab>gram.</ab>) the second person.\n"
+            ]
+        },
+        {
+            "__line": 248623,
+            "_ancestry": [
+                "L_ 27108",
+                "B_ {#yuzmad#}",
+                "S_ .{@{#-viDa#}@}"
+            ],
+            "_banner": ".{@{#-viDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yuzmadviDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "like you."
             ]
         }
     ]

@@ -1,19 +1,60 @@
 {
-    "__line": 7424,
+    "__line": 6000,
     "_ancestry": [
         "L_ 549",
-        "B_ {#aticArin#}"
+        "B_ {#atawa#}"
     ],
-    "_banner": "{#aticArin#}",
+    "_banner": "{#atawa#}",
     "_bannerExp": [
         {
-            "Right": "aticArin"
+            "Right": "atawa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "Transgressing, \nsurpassing &c."
+        "Having no shore or beach; precipitate, steep.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 6001,
+            "_ancestry": [
+                "L_ 549",
+                "B_ {#atawa#}",
+                "M_ .{@{#-waH#}@}"
+            ],
+            "_banner": ".{@{#-waH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atawaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A precipice, a steep crag.\n",
+                ".²2 <ab>N.</ab> of a hill.\n",
+                ".²3 The lower part of the earth.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 6005,
+            "_ancestry": [
+                "L_ 549",
+                "B_ {#atawa#}",
+                "S_ {@{#-prapAtaH#}@}"
+            ],
+            "_banner": "{@{#-prapAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atawaprapAtaH"
+                }
+            ],
+            "_meanings": [
+                "a steep precipice; a fall headlong from a precipice;\n a precipitate fall; {#manoraTAnAmatawaprapAtaH#} <ls>Ś. 6. 10</ls> of my hopes\n there is a precipitate fall. (Some read the line as {#manoraTA nAma tawaprapAtaH#}\n and take it to mean ‘verily our desires are like the crumblings of river banks’.)"
+            ]
+        }
     ]
 }

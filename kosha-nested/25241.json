@@ -1,24 +1,38 @@
 {
-    "__line": 213743,
+    "__line": 227779,
     "_ancestry": [
         "L_ 25241",
-        "B_ {#vallariH --rI#}"
+        "B_ {#BUmat#}"
     ],
-    "_banner": "{#vallariH --rI#}",
+    "_banner": "{#BUmat#}",
     "_bannerExp": [
         {
-            "Right": "vallarI"
-        },
-        {
-            "Right": "vallariH"
+            "Right": "BUmat"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#vall-ari vA NIp#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@}\nA creeping plant; {#anapAyini saMSrayadume#}\n{#gajaBanne patanAya ballarI#} <ls>Ku. 4. 31</ls>;  \n{#tamovallarI#} <ls>Māl. 5. 7.</ls> ",
-        "{@--2@} A branching\nfoot-stalk."
+        "Possessed of land or earth. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 227779,
+            "_ancestry": [
+                "L_ 25241",
+                "B_ {#BUmat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BUmat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A king, sovereign."
+            ]
+        }
     ]
 }

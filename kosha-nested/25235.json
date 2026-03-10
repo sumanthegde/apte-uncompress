@@ -1,23 +1,40 @@
 {
-    "__line": 213701,
+    "__line": 227475,
     "_ancestry": [
         "L_ 25235",
-        "B_ {#vall#}"
+        "B_ {#BUkaH#}, {#-kam#}"
     ],
-    "_banner": "{#vall#}",
+    "_banner": "{#BUkaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "vall"
+            "Right": "BUkaH"
+        },
+        {
+            "Right": "BUkam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#vallate#})"
-    ],
     "_meanings": [
-        "{@--1@} To cover. ",
-        "{@--2@}\nTo be covered. ",
-        "{@--3@} To go, move."
+        ".²1 A cavity, hole, chasm.\n",
+        ".²2 The spring.\n",
+        ".²3 Time.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 227479,
+            "_ancestry": [
+                "L_ 25235",
+                "B_ {#BUkaH#}, {#-kam#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUkaH"
+                }
+            ],
+            "_meanings": [
+                "Darkness."
+            ]
+        }
     ]
 }

@@ -1,16 +1,44 @@
 {
-    "__line": 112802,
+    "__line": 114750,
     "_ancestry": [
         "L_ 13447",
-        "B_ {#curiH#}"
+        "B_ {#kzetrika#}"
     ],
-    "_banner": "{#curiH#}",
+    "_banner": "{#kzetrika#}",
     "_bannerExp": [
         {
-            "Right": "curiH"
+            "Right": "kzetrika"
+        },
+        {
+            "Right": "kzetrikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#kzetramastyasya Wan#}]"
+    ],
     "_meanings": [
-        "= {#cUrI#} {%<ab>f.</ab>%} A small well."
+        "Relating to a field.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 114752,
+            "_ancestry": [
+                "L_ 13447",
+                "B_ {#kzetrika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzetrikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A farmer; <ls>Ms. 8. 241</ls>, <ls n=\"Ms.\">9. 53</ls>.\n",
+                ".²2 A husband; {#harettatra niyuktAyAM jAtaH putro yaTOrasaH . kzetrikasya#}\n {#tu tadbIjaM DarmataH prasavaSca saH#} <ls>Ms. 9. 145</ls>."
+            ]
+        }
     ]
 }

@@ -1,21 +1,141 @@
 {
-    "__line": 37921,
+    "__line": 34512,
     "_ancestry": [
         "L_ 4157",
-        "B_ {#artiH#}"
+        "B_ {#amala#}"
     ],
-    "_banner": "{#artiH#}",
+    "_banner": "{#amala#}",
     "_bannerExp": [
         {
-            "Right": "artiH"
+            "Right": "amala"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#ard-ktin#}]"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Pain, \nsorrow, grief; {#Siro'rti#} head-ache. ",
-        "{@--2@}\nThe end of a bow."
+        ".²1 Free from dirt or impurities, pure, undefiled, stainless, spotless;\n {#kapAlamevAmalaSeKaraSrIH .#} ({#baBUva#}) <ls>Ku. 7. 32</ls>, <ls n=\"Ku. 7.\">33</ls>; {#lokAnamalAn#}\n {#pratipadyate#} <ls>Bg. 14. 14</ls>. {#amalAH suhfdaH#} <ls>Pt. 2. 171</ls> pure, sincere.\n",
+        ".²2 White, bright, shining; {#karRAvasaktAmaladantapatram#} <ls>Ku. 7. 23</ls>; <ls>R. 6. 80</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34517,
+            "_ancestry": [
+                "L_ 4157",
+                "B_ {#amala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amalA"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of the goddess Lakṣmī.\n",
+                ".²2 The navel cord.\n",
+                ".²3 <ab>N.</ab> of a tree (<lang>Mar.</lang> <ns>{#AMvaLA#}</ns>) Emblica Officinalis Gaertn; also of\n a plant ({#sAtalAvfkza#}) also {%n.%} in this sense. {#yaTA vE dve vAmalake#}\n <ls>Ch. Up. 7. 3. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 34523,
+            "_ancestry": [
+                "L_ 4157",
+                "B_ {#amala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Purity.\n",
+                ".²2 Talc.\n",
+                ".²3 The Supreme Spirit.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 34528,
+            "_ancestry": [
+                "L_ 4157",
+                "B_ {#amala#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amalAtman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Of pure or undefiled mind.\n"
+            ]
+        },
+        {
+            "__line": 34529,
+            "_ancestry": [
+                "L_ 4157",
+                "B_ {#amala#}",
+                "S_ .{@{#-garBaH#}@}"
+            ],
+            "_banner": ".{@{#-garBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amalagarBaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a Bodhisattva.\n"
+            ]
+        },
+        {
+            "__line": 34530,
+            "_ancestry": [
+                "L_ 4157",
+                "B_ {#amala#}",
+                "S_ .{@{#-patatrin#}@}"
+            ],
+            "_banner": ".{@{#-patatrin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amalapatatrin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "({@{#trI#}@})"
+            ],
+            "_meanings": [
+                "the wild goose; {#mADuryAdamalapatatriRAM#}\n {#kulAni#} <ls>Śi. 8. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 34532,
+            "_ancestry": [
+                "L_ 4157",
+                "B_ {#amala#}",
+                "S_ .{@{#-ratnam, -maRiH#}@}"
+            ],
+            "_banner": ".{@{#-ratnam, -maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amalaratnam"
+                },
+                {
+                    "Right": "amalamaRiH"
+                }
+            ],
+            "_meanings": [
+                "a crystal."
+            ]
+        }
     ]
 }

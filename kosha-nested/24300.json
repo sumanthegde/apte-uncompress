@@ -1,18 +1,41 @@
 {
-    "__line": 206013,
+    "__line": 216848,
     "_ancestry": [
         "L_ 24300",
-        "B_ {#rerihARaH#}"
+        "B_ {#Palakin#}"
     ],
-    "_banner": "{#rerihARaH#}",
+    "_banner": "{#Palakin#}",
     "_bannerExp": [
         {
-            "Right": "rerihARaH"
+            "Right": "Palakin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of Śiva. ",
-        "{@--2@} A\nthief. ",
-        "{@--3@} A demon."
+        ".²1 Boarded.\n",
+        ".²2 Armed with a shield. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 216850,
+            "_ancestry": [
+                "L_ 24300",
+                "B_ {#Palakin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Palakin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wooden bench.\n",
+                ".²2 Sandal-wood ({%n.%} also).\n",
+                ".²3 (also {#PaliH#} and {#Pallakin#}) A kind of small fish (Mystus Kapirat); <ls>L. D. B.</ls>"
+            ]
+        }
     ]
 }

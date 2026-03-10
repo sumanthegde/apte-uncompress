@@ -1,24 +1,59 @@
 {
-    "__line": 51369,
+    "__line": 48219,
     "_ancestry": [
         "L_ 5821",
-        "B_ {#Akzi#}"
+        "B_ {#aSudDa#}"
     ],
-    "_banner": "{#Akzi#}",
+    "_banner": "{#aSudDa#}",
     "_bannerExp": [
         {
-            "Right": "Akzi"
+            "Right": "aSudDa"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} To abide,\ndwell in, stay (with). ",
-        "{@--2@} To be or\nexist. ",
-        "{@--3@} To possess."
+        ".²1 Impure, foul.\n",
+        ".²2 Inaccurate, incorrect, wrong.\n",
+        ".²3 Unknown, unascertained.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 48223,
+            "_ancestry": [
+                "L_ 5821",
+                "B_ {#aSudDa#}",
+                "M_ .{@{#-dDam#}@}"
+            ],
+            "_banner": ".{@{#-dDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSudDam"
+                }
+            ],
+            "_meanings": [
+                "Blood.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 48225,
+            "_ancestry": [
+                "L_ 5821",
+                "B_ {#aSudDa#}",
+                "S_ .{@{#-vAsakaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSudDavAsakaH"
+                }
+            ],
+            "_meanings": [
+                "a vagrant, a suspicious person."
+            ]
+        }
     ]
 }

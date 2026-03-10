@@ -1,42 +1,70 @@
 {
-    "__line": 247680,
+    "__line": 272923,
     "_ancestry": [
         "L_ 29535",
-        "B_ {#samutpad#}"
+        "B_ {#vitAna#}"
     ],
-    "_banner": "{#samutpad#}",
+    "_banner": "{#vitAna#}",
     "_bannerExp": [
         {
-            "Right": "samutpad"
+            "Right": "vitAna"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>A.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To happen, take\nplace, occur. ",
-        "{@--2@} To arise, spring up.\n",
-        "{@--3@} To present oneself. "
+        ".²1 Vacant, empty.\n",
+        ".²2 Pithless.\n",
+        ".²3 Dismayed, sad; {#kzitipatimaRqalamanyato vitAnam#} <ls>R. 6. 86</ls>.\n",
+        ".²4 Dull, stupid.\n",
+        ".²5 Wicked, abandoned.\n"
     ],
     "_morphisms": [
         {
-            "__line": 247682,
+            "__line": 272929,
             "_ancestry": [
                 "L_ 29535",
-                "B_ {#samutpad#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#vitAna#}",
+                "M_ .{@{#-naH, -nam#}@}"
             ],
+            "_banner": ".{@{#-naH, -nam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "samutpad"
+                    "Right": "vitAnaH"
+                },
+                {
+                    "Right": "vitAnam"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                ".²1 Spreading out, expansion, extension; {#brahmAvarte yatra yajanti yajYEryajYeSvaraM#}\n {#yajYavitAnavijYAH#} <ls>Bhāg. 1. 17. 33</ls>; {#vilulitakamalOGaH kIrRavallIvitAnaH#}\n <ls>Śi. 11. 28</ls>; <ls>Ki. 7. 19</ls>.\n",
+                ".²2 An awning, a canopy; {#vidyuleKAkanakaruciraM SrIvitAnaM mamABram#}\n <ls>V. 4. 13</ls>; <ls>R. 19. 39</ls>;\n\n <ls>Ki. 3. 42</ls>; <ls>Śi. 3. 50</ls>.\n",
+                ".²3 A cushion.\n",
+                ".²4 A collection, quantity, an assemblage; {#prastArasTagitA ivonmuKamaRijyotirvitAnErdiSaH#}\n <ls>Māl. 6. 5</ls>; <ls>Ki. 17. 61</ls>.\n",
+                ".²5 A sacrifice, an oblation; {#vitAnezvapyevaM tava mama ca some viDiraBUt#}\n <ls>Ve. 6. 30</ls>, <ls n=\"Ve.\">3. 16</ls>; <ls>Śi. 14. 10</ls>.\n",
+                ".²6 The sacrificial hearth or altar.\n",
+                ".²7 Season, opportunity.\n",
+                ".²8 Plenty, abundance.\n",
+                ".²9 Performance, accomplishment.\n"
+            ]
+        },
+        {
+            "__line": 272946,
+            "_ancestry": [
+                "L_ 29535",
+                "B_ {#vitAna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vitAnam"
+                }
             ],
             "_meanings": [
-                "To\ncause, effect, produce."
+                ".²1 Leisure, rest.\n",
+                ".²2 A dual part of the elephantʼs head to which the hook is applied; <ls>Mātaṅga L. 12. 19</ls>."
             ]
         }
     ]

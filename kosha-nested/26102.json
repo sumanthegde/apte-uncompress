@@ -1,45 +1,160 @@
 {
-    "__line": 220439,
+    "__line": 238373,
     "_ancestry": [
         "L_ 26102",
-        "B_ {#vipac#}"
+        "B_ {#mAnuza#}"
     ],
-    "_banner": "{#vipac#}",
+    "_banner": "{#mAnuza#}",
     "_bannerExp": [
         {
-            "Right": "vipac"
+            "Right": "mAnuza"
+        },
+        {
+            "Right": "mAnuzI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-zI#}|{%f.%})",
+        "[{#manorayam aR suk ca#}]"
     ],
     "_meanings": [
-        "{@--1@} To mature, \ndevelop, ripen; bear fruit; ({#samAraMBAH#})\n{#garBaSAlisaDarmARastasya gUQaM vipecire#}  \n<ls>R. 17. 53.</ls> ",
-        "{@--2@} To digest. ",
-        "{@--3@} To cook\nthoroughly. ",
-        "{@--4@} To melt, dissolve,\nliquefy. ",
-        "{@--5@} To roast. "
+        ".²1 Human; {#mAnuzI tanuH, mAnuzI vAk#} <ab>&c.</ab>; <ls>R. 1. 60</ls>, <ls n=\"R.\">16. 22</ls>; {#mAnuze#}\n {#loke#} <ls>Bg. 4. 12</ls>; {#avajAnanti mAM mUQA mAnuzIM tanumASritam#} <ls n=\"Bg.\">9. 11</ls>; <ls>Ms. 4. 124</ls>.\n",
+        ".²2 Humane, kind.\n"
     ],
     "_morphisms": [
         {
-            "__line": 220444,
+            "__line": 238378,
             "_ancestry": [
                 "L_ 26102",
-                "B_ {#vipac#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#mAnuza#}",
+                "M_ .{@{#-zaH#}@}"
             ],
+            "_banner": ".{@{#-zaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vipac"
+                    "Right": "mAnuzaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A man, human being.\n",
+                ".²2 An\n\n epithet of the three signs of the zodiac, Gemini, Virgo, and Libra.\n"
+            ]
+        },
+        {
+            "__line": 238383,
+            "_ancestry": [
+                "L_ 26102",
+                "B_ {#mAnuza#}",
+                "M_ .{@{#-zI#}@}"
+            ],
+            "_banner": ".{@{#-zI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnuzI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A woman.\n",
+                ".²2 A branch of medicine, administering drugs and herbs.\n"
+            ]
+        },
+        {
+            "__line": 238386,
+            "_ancestry": [
+                "L_ 26102",
+                "B_ {#mAnuza#}",
+                "M_ .{@{#-zam#}@}"
+            ],
+            "_banner": ".{@{#-zam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnuzam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Humanity.\n",
+                ".²2 Human effort or action; {#mAnuzaM ca svADyAyapravacane ca#} <ls>T. Up. 1. 9. 1</ls>.\n",
+                ".²3 Manhood; {#SrIrezA drOpadIrUpA tvadarTe mAnuzaM gatA#} <ls>Mb. 18. 4. 12</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 238391,
+            "_ancestry": [
+                "L_ 26102",
+                "B_ {#mAnuza#}",
+                "S_ .{@{#-upeta#}@}"
+            ],
+            "_banner": ".{@{#-upeta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnuzopeta"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To\ncook thoroughly. ",
-                "{@--2@} To melt, liquefy."
+                "joined with human effort.\n"
+            ]
+        },
+        {
+            "__line": 238392,
+            "_ancestry": [
+                "L_ 26102",
+                "B_ {#mAnuza#}",
+                "S_ .{@{#-rAkzasaH#}@}"
+            ],
+            "_banner": ".{@{#-rAkzasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnuzarAkzasaH"
+                }
+            ],
+            "_meanings": [
+                "a fiend in human form.\n"
+            ]
+        },
+        {
+            "__line": 238393,
+            "_ancestry": [
+                "L_ 26102",
+                "B_ {#mAnuza#}",
+                "S_ .{@{#-lOkika#}@}"
+            ],
+            "_banner": ".{@{#-lOkika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnuzalOkika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to the world of men.\n"
+            ]
+        },
+        {
+            "__line": 238394,
+            "_ancestry": [
+                "L_ 26102",
+                "B_ {#mAnuza#}",
+                "S_ .{@{#-samBava#}@}"
+            ],
+            "_banner": ".{@{#-samBava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAnuzasamBava"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "coming from or produced by man."
             ]
         }
     ]

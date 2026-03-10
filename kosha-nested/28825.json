@@ -1,17 +1,59 @@
 {
-    "__line": 242105,
+    "__line": 266617,
     "_ancestry": [
         "L_ 28825",
-        "B_ {#saktukaH#}"
+        "B_ {#vAkam#}"
     ],
-    "_banner": "{#saktukaH#}",
+    "_banner": "{#vAkam#}",
     "_bannerExp": [
         {
-            "Right": "saktukaH"
+            "Right": "vAkam"
         }
     ],
     "_meanings": [
-        "{@--1@} = {#saktu#}. ",
-        "{@--2@} A kind of\npoison."
+        "A flght of cranes.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 266618,
+            "_ancestry": [
+                "L_ 28825",
+                "B_ {#vAkam#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAkaH"
+                }
+            ],
+            "_gram": [
+                "[{#vac-GaY#}]"
+            ],
+            "_meanings": [
+                ".²1 Speech, uttering; as in {#namovAkaM praSAsmahe#} <ls>U. 1. 1</ls>; {#sUktavAkenAtitarAmuditaguRagaRAvatArasujayaH#}\n <ls>Bhāg. 5. 1. 10</ls>.\n",
+                ".²2 Voice ({#vARI#}); {#sarvamidamaByAtto'vAkyanAdaraH#} <ls>Ch. Up. 3. 14. 2</ls>.\n",
+                ".²3 Text ({#saMhitA#}); a Vedic portion containing mantras; {#yaM vAkezvanuvAkezu#}\n {#nizatsUpanizatsu ca#} ({#guRanti#}) <ls>Mb. 12. 49. 26</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 266625,
+            "_ancestry": [
+                "L_ 28825",
+                "B_ {#vAkam#}",
+                "S_ .{@{#-upavAkam#}@}"
+            ],
+            "_banner": ".{@{#-upavAkam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAkopavAkam"
+                }
+            ],
+            "_meanings": [
+                "speech and reply, dialogue."
+            ]
+        }
     ]
 }

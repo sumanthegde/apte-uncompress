@@ -1,21 +1,38 @@
 {
-    "__line": 146037,
+    "__line": 151585,
     "_ancestry": [
         "L_ 17350",
-        "B_ {#nfvat#}"
+        "B_ {#dIptimat#}"
     ],
-    "_banner": "{#nfvat#}",
+    "_banner": "{#dIptimat#}",
     "_bannerExp": [
         {
-            "Right": "nfvat"
+            "Right": "dIptimat"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Manly, \npowerfully. ",
-        "{@--2@} Excessively, plentifully."
+        "Splendid, brilliant, shining.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 151586,
+            "_ancestry": [
+                "L_ 17350",
+                "B_ {#dIptimat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dIptimatI"
+                }
+            ],
+            "_meanings": [
+                "(in music) <ab>N.</ab> of a Śruti."
+            ]
+        }
     ]
 }

@@ -1,23 +1,110 @@
 {
-    "__line": 25198,
+    "__line": 22360,
     "_ancestry": [
         "L_ 2499",
-        "B_ {#apalAzin, --lAzuka#}"
+        "B_ {#ap#}"
     ],
-    "_banner": "{#apalAzin, --lAzuka#}",
+    "_banner": "{#ap#}",
     "_bannerExp": [
         {
-            "Right": "apalAzin"
-        },
-        {
-            "Right": "apalAzuka"
+            "Right": "ap"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}",
+        "[{#Ap-kvip-hrasvaSca#} <ls>Uṇ. 2. 58</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Thirsty (<ab>P.</ab>\n<ls>P. III. 2. 144.</ls>). ",
-        "{@--2@} Free from thirst\nor desire; {#pralApino BavizyaMti kadA#} \n{#nvete'palAzukAH#} <ls>Mb.</ls>"
+        "(Declined in classical\n language only in <ab>pl.</ab>; {#ApaH, apaH, adBiH, adByaH#},\n\n {#apAm#} and {#apsu#}, but in singular and <ab>pl.</ab> in Veda)\n",
+        ".²1 Water (regarded in <ab>Ved.</ab> as sacred divinities, {#Apo devIH#}); {#KAni#}\n {#cEva spfSedadBiH#} <ls>Ms. 2. 60</ls>. Water is generally considered to be the\n first of the 5 elements of creation, as in {#apa eva sasarjAdO tAsu bIjamavAsfjat#}\n <ls>Ms. 1. 8</ls>; {#yA sfzwiH srazwurAdyA#} <ls>Ś. 1. 1</ls>; but in <ls>Ms. 1. 78</ls> it is\n said to have been created from {#jyotis#} or {#tejas#} after {#manas, AkASa#},\n {#vAyu#} and {#jyotis#} or {#agni#}; {#jyotizaSca vikurvARAdApo rasaguRAH smftAH .#}\n {#adByo ganDaguRA BUmirityezA sfzwirAditaH ..#}\n",
+        ".²2 Air, the intermediate region.\n",
+        ".²3 The star S virginis ({#citrA#}). For the changes of {#ap#} at the end\n of <ab>comp.</ab> See <ls>P. V. 4. 74</ls>, <ls n=\"P.\">VI. 3. 97-98</ls>. [<ab>cf.</ab> <lang>L.</lang> {%aqua%}, <lang>Gr.</lang> {%appos%};\n <lang>Lith.</lang> {%uppe%}, <lang>Goth.</lang> {%ahva%}; <lang>Pers.</lang> {%ab%}; <lang>Zend.</lang> {%ap%};\n <lang>Old Germ.</lang> {%aha%}].\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 22377,
+            "_ancestry": [
+                "L_ 2499",
+                "B_ {#ap#}",
+                "S_ .{@{#-kftsnam#}@}"
+            ],
+            "_banner": ".{@{#-kftsnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apkftsnam"
+                }
+            ],
+            "_meanings": [
+                "deep meditation by means of water.\n"
+            ]
+        },
+        {
+            "__line": 22378,
+            "_ancestry": [
+                "L_ 2499",
+                "B_ {#ap#}",
+                "S_ .{@{#-caraH, -saraH#}@}"
+            ],
+            "_banner": ".{@{#-caraH, -saraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apcaraH"
+                },
+                {
+                    "Right": "apsaraH"
+                }
+            ],
+            "_meanings": [
+                "an aquatic animal. {#trIRyAdyAnyASritAstvezAM mfgagartASrayA'psarAH#}\n <ls>Ms. 7. 72</ls>. See {@{#apsaraH#}. {#-patiH#}@}\n",
+                ".²1 ‘Lord of waters’, <ab>N.</ab> of Varuṇa.\n",
+                ".²2 the ocean.\n"
+            ]
+        },
+        {
+            "__line": 22382,
+            "_ancestry": [
+                "L_ 2499",
+                "B_ {#ap#}",
+                "S_ .{@{#-pittam#}@}"
+            ],
+            "_banner": ".{@{#-pittam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "appittam"
+                }
+            ],
+            "_meanings": [
+                "fire. For other <ab>comps.</ab> see <ab>s. v.</ab> {#apAm#} enters into\n several compounds; <ab>e. g.</ab> {#apAMsaMvartaH#} destruction of the world by\n water; {#apAMvatsaH#} ‘calf of waters’, <ab>N.</ab> of a star; {#apAMnapAt, ˚naptA#},\n "
+            ],
+            "_samasas": [
+                {
+                    "__line": 22385,
+                    "_ancestry": [
+                        "L_ 2499",
+                        "B_ {#ap#}",
+                        "S_ .{@{#-pittam#}@}",
+                        "S_S_ {#˚naptriya, ˚garBa, apAnnapAt, aponapAt#}"
+                    ],
+                    "_banner": "{#˚naptriya, ˚garBa, apAnnapAt, aponapAt#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "appittanaptriya"
+                        },
+                        {
+                            "Right": "appittagarBa"
+                        },
+                        {
+                            "Right": "appittApAnnapAt"
+                        },
+                        {
+                            "Right": "appittAponapAt"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>Ved.</ab> <ab>N.</ab> of Agni or fire as sprung\n from water; <ab>cf.</ab> <ls>Ms. 9. 321</ls>; {#apAMpatiH, -niDiH, -nATaH#}; {#appatiH#} lord\n of waters, the ocean; <ab>N.</ab> of Varuṇa; {#apAMpittam#} fire."
+                    ]
+                }
+            ]
+        }
     ]
 }

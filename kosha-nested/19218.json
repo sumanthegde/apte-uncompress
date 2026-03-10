@@ -1,19 +1,63 @@
 {
-    "__line": 161121,
+    "__line": 171850,
     "_ancestry": [
         "L_ 19218",
-        "B_ {#pUtrima#}"
+        "B_ {#nivartita#}"
     ],
-    "_banner": "{#pUtrima#}",
+    "_banner": "{#nivartita#}",
     "_bannerExp": [
         {
-            "Right": "pUtrima"
+            "Right": "nivartita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Purified, clean."
+        ".²1 Turned or brought back.\n",
+        ".²2 Averted.\n",
+        ".²3 Removed.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 171855,
+            "_ancestry": [
+                "L_ 19218",
+                "B_ {#nivartita#}",
+                "S_ .{@{#-aKilADAraH#}@}"
+            ],
+            "_banner": ".{@{#-aKilADAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nivartitAKilADAraH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One who has abstained from all food.\n"
+            ]
+        },
+        {
+            "__line": 171856,
+            "_ancestry": [
+                "L_ 19218",
+                "B_ {#nivartita#}",
+                "S_ .{@{#-pUrva#}@}"
+            ],
+            "_banner": ".{@{#-pUrva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nivartitapUrva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has turned away before."
+            ]
+        }
     ]
 }

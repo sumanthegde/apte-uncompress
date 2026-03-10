@@ -1,16 +1,43 @@
 {
-    "__line": 130158,
+    "__line": 135085,
     "_ancestry": [
         "L_ 15575",
-        "B_ {#dfkaM#}"
+        "B_ {#jAyin#}"
     ],
-    "_banner": "{#dfkaM#}",
+    "_banner": "{#jAyin#}",
     "_bannerExp": [
         {
-            "Right": "dfkaM"
+            "Right": "jAyin"
+        },
+        {
+            "Right": "jAyinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#ji-Rini#}]"
+    ],
     "_meanings": [
-        "A hole, an opening."
+        "Conquering, subduing. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 135086,
+            "_ancestry": [
+                "L_ 15575",
+                "B_ {#jAyin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#jAyin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The burden\n of a song (in music)."
+            ]
+        }
     ]
 }

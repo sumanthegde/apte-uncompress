@@ -1,23 +1,127 @@
 {
-    "__line": 30494,
+    "__line": 27518,
     "_ancestry": [
         "L_ 3206",
-        "B_ {#aBiBAz#}"
+        "B_ {#aprApta#}"
     ],
-    "_banner": "{#aBiBAz#}",
+    "_banner": "{#aprApta#}",
     "_bannerExp": [
         {
-            "Right": "aBiBAz"
+            "Right": "aprApta"
         }
     ],
     "_gram": [
-        "<ab>A.</ab>",
-        "(<ab>P.</ab> in epic \npoetry)"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To speak to, address;\ntalk or converse with (with <ab>acc.</ab>);\n{#BoBavatpUrvakaM tvenamaBiBAzeta Darmavit#}  \n<ls>Ms. 2. 128</ls>; sometimes with <ab>instr.</ab> also;\n<ls>Ms. 4. 57.</ls> ",
-        "{@--2@} To speak, say (as\n{#vARIM, vacaH#} &c.); {#iti aBiBAzaMte#} so\nthey say. ",
-        "{@--3@} To relate, narrate,\nspeak of. ",
-        "{@--4@} To proclaim, announce,\nconfess; <ls>Ms. 11. 104.</ls>"
+        ".²1 Not obtained or got; {#aprAptayostu yA prAptiH sEva saMyoga IritaH .#} <ls>Bhāṣā P.</ls>\n",
+        ".²2 Not arrived or come, unaccomplished; {#aprAptavyavahAram#} <ls>Y. 2. 243</ls>.\n",
+        ".²3 Not authorised or following, as a rule.\n",
+        ".²4 Not come to or reached; {#rAGavo raTamaprAptAM tAmASAM ca suradvizAm#}\n ({#cicCeda#}) <ls>R. 12. 96</ls>.\n",
+        ".²5 Not of a marriageable age; <ls>Ms. 9. 88</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 27526,
+            "_ancestry": [
+                "L_ 3206",
+                "B_ {#aprApta#}",
+                "S_ .{@{#-kAla#}@}"
+            ],
+            "_banner": ".{@{#-kAla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aprAptakAla"
+                }
+            ],
+            "_meanings": [
+                ".²1 inopportune, ill-timed, unseasonable; {#˚laM vacanaM bfhaspatirapi bruvan . laBate budDapavajYAnamapamAnaM ca puzkalam#} <ls>Pt. 1. 63</ls>.\n",
+                ".²2 under age.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 27529,
+                    "_ancestry": [
+                        "L_ 3206",
+                        "B_ {#aprApta#}",
+                        "S_ .{@{#-kAla#}@}",
+                        "S_M_ ({@{#-lam#}@}"
+                    ],
+                    "_banner": "({@{#-lam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aprAptakAlam"
+                        }
+                    ],
+                    "_meanings": [
+                        "an irregular discussion (of any subject).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 27530,
+            "_ancestry": [
+                "L_ 3206",
+                "B_ {#aprApta#}",
+                "S_ .{@{#-prApaka#}@}"
+            ],
+            "_banner": ".{@{#-prApaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aprAptaprApaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1. conveying (the sense of) what is not otherwise\n specified, such as the use of the Potential mood in {#svargakAmo yajeta#}.\n",
+                ".²2 not yet tamed (as a young calf)\n"
+            ]
+        },
+        {
+            "__line": 27533,
+            "_ancestry": [
+                "L_ 3206",
+                "B_ {#aprApta#}",
+                "S_ .{@{#-yOvana#}@}"
+            ],
+            "_banner": ".{@{#-yOvana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aprAptayOvana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not arrived at puberty or who has not reached his\n youth; {#SiSumaprAptayOvanam#} <ls>R. 15. 42</ls>.\n"
+            ]
+        },
+        {
+            "__line": 27535,
+            "_ancestry": [
+                "L_ 3206",
+                "B_ {#aprApta#}",
+                "S_ .{@{#-vyavahAra, -vayas#}@}"
+            ],
+            "_banner": ".{@{#-vyavahAra, -vayas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aprAptavyavahAra"
+                },
+                {
+                    "Right": "aprAptavayas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(in law) under age, not old enough to\n engage in public business on his own responsibility, a minor (a boy before\n he reaches his 16th year); {#aprAptavyavahAro'sO yAvat zoqaSavArzikaH#} <ls>Dakṣa.</ls>"
+            ]
+        }
     ]
 }

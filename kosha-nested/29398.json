@@ -1,23 +1,44 @@
 {
-    "__line": 246857,
+    "__line": 271884,
     "_ancestry": [
         "L_ 29398",
-        "B_ {#samApaka#}"
+        "B_ {#vicezwita#}"
     ],
-    "_banner": "{#samApaka#}",
+    "_banner": "{#vicezwita#}",
     "_bannerExp": [
         {
-            "Right": "samApaka"
-        },
-        {
-            "Right": "samApikA"
+            "Right": "vicezwita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#pikA#}|{%<ab>f.</ab>%})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Finishing,\naccomplishing, fulfilling."
+        ".²1 Striven, tried, struggled.\n",
+        ".²2 Examined, investigated.\n",
+        ".²3 Misdone, done foolishly.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 271888,
+            "_ancestry": [
+                "L_ 29398",
+                "B_ {#vicezwita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vicezwitam"
+                }
+            ],
+            "_meanings": [
+                ".²1 An act, a deed; {#na hi me SfRvatastfptirasti tezAM vicezwitam#} <ls>Mb. 3. 160. 6</ls>.\n",
+                ".²2 Effort, movement, undertaking, enterprise.\n",
+                ".²3 Gesture.\n",
+                ".²4 Working, sensation, play; {#kimapi cedamanaNgavicezwitam#} <ls>V. 2. 9</ls>.\n",
+                ".²5 Machination."
+            ]
+        }
     ]
 }

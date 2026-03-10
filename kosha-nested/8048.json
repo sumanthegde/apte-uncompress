@@ -1,47 +1,84 @@
 {
-    "__line": 69280,
+    "__line": 67177,
     "_ancestry": [
         "L_ 8048",
-        "B_ {#udas#}"
+        "B_ {#Aho#}"
     ],
-    "_banner": "{#udas#}",
+    "_banner": "{#Aho#}",
     "_bannerExp": [
         {
-            "Right": "udas"
+            "Right": "Aho"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "[{#ud-as#}] ",
-        "{@--1@} To cast\nup, throw up; <ls>Śi. 15. 81</ls>; to\nraise, lift up, elevate, erect;  \n{#svayamiti mugDavaDUmudAsa dorByAM#}  \n<ls>Śi. 7. 49</ls>; {#pucCamudasyati#} <ls>Sk.</ls> ",
-        "{@--2@} To\nthrow down; {#udastADoraRaH#} <ls>Dk. 35.</ls>\n",
-        "{@--3@} To throw out, expel, drive away,\nleave, quit; {#udasya DEryaM dayitena sAdaraM#}\n<ls>Ki. 8. 50.</ls> ",
-        "{@--4@} To destroy, dispel;\n{#riputimiraM#} <ls>Ki. 1. 46.</ls> ",
-        "{@--5@} To drive,\npropel; <ls>Ki. 8. 55.</ls> ",
-        "{@--6@} To turn\naway. ",
-        "{@--7@} To take pains, make\nefforts. "
+        "An interjection expressing\n",
+        ".³({%a%}) Doubt or alternative (or), and usually standing as a correlative\n of {#kim#}; {#kim vEKAnasaM vrataM nizevitavyaM … Aho nivatsyati samam#}\n {#hariRANganABiH#} <ls>Ś. 1. 27</ls>; {#dAratyAgI BavAmyAho parastrIsparSapAMsulaH#} <ls>Ś. 5. 29</ls>.\n",
+        ".³({%b%}) Interrogation.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 69292,
+            "__line": 67183,
             "_ancestry": [
                 "L_ 8048",
-                "B_ {#udas#}",
-                "M_ {%--<ab>pass.</ab>%}"
+                "B_ {#Aho#}",
+                "S_ .{@{#-purIzakam#}@}"
             ],
+            "_banner": ".{@{#-purIzakam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "udas"
+                    "Right": "AhopurIzakam"
+                }
+            ],
+            "_meanings": [
+                "Officiousness, intrepidity, undue boldness of a man\n (against {#Sruti#}). {#Aho purIzakaM syAt#} <ls>MS. 12. 1. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 67185,
+            "_ancestry": [
+                "L_ 8048",
+                "B_ {#Aho#}",
+                "S_ .{@{#-puruzA, -puruzikA#}@}"
+            ],
+            "_banner": ".{@{#-puruzA, -puruzikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhopuruzA"
+                },
+                {
+                    "Right": "AhopuruzikA"
                 }
             ],
             "_gram": [
-                "{%--<ab>pass.</ab>%}"
+                "[{#aho puruza vuY#} <ls>P. II. 1. 72</ls> {#mayUravyaMsakAdi#}]"
             ],
             "_meanings": [
-                "To be driven off,\nfall off, deviate from; {#atimUQa udasyate#}\n{#nayAt#} <ls>Ki. 2. 49.</ls>"
+                ".²1 great self-conceit or pride; {#AhopuruzikA darpAdyA syAtsaMBAvanAtmani#}\n <ls>Ak.</ls>; {#AhopuruzikAM paSya mama sadratnakAntiBiH#} <ls>Bk. 5. 27</ls>.\n",
+                ".²2 military vaunting, boasting.\n",
+                ".²3 vaunting of oneʼs own prowess; {#nijaBujabalAhopuruzikAm#} <ls>Bv. 1. 84</ls>.\n {#aho raRarasotsAhAdAhopuruzikAmaDAt#} <ls>Śiva B. 26. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 67191,
+            "_ancestry": [
+                "L_ 8048",
+                "B_ {#Aho#}",
+                "S_ .{@{#-svit#}@}"
+            ],
+            "_banner": ".{@{#-svit#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ahosvit"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "a particle implying doubt, ‘or perhaps’, or ‘may … may\n it be’ <ab>&c.</ab> (<ab>corr.</ab> of {#kim#}); {#Ahosvitprasavo mamApacaritErvizwamBito#}\n {#vIruDAm#} <ls>Ś. 5. 9</ls>; {#kiM dvijaH pacati Ahosvid gacCati#} <ls>P. VIII. 1. 44. Sk.</ls>"
             ]
         }
     ]

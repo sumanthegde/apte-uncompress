@@ -1,44 +1,61 @@
 {
-    "__line": 30948,
+    "__line": 27923,
     "_ancestry": [
         "L_ 3256",
-        "B_ {#aBiyA#}"
+        "B_ {#aboDa#}"
     ],
-    "_banner": "{#aBiyA#}",
+    "_banner": "{#aboDa#}",
     "_bannerExp": [
         {
-            "Right": "aBiyA"
+            "Right": "aboDa"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To go up to, \napproach, go or repair to; {#aBiyayO sa#}\n{#himAcalamucCritaM#} <ls>Ki. 5. 1</ls>; <ls>R. 9. 27.</ls> ",
-        "{@--2@}\nTo come or draw near (without an \nobject); come (as time). ",
-        "{@--3@} To march\nagainst, attack, assail, encounter;\n{#kuberAdaBiyAsyamAnAt#} <ls>R. 5. 30</ls>; <ls>Dk. 30.</ls>\n",
-        "{@--4@} To give or resign oneself to,\ndevote, attach or betake oneself to. \n\n",
-        "{@--5@} To partake or share in, get, \nobtain. "
+        ".²1 Ignorant, foolish, stupid. ",
+        ".²2 Perplexed, puzzled.\n"
     ],
     "_morphisms": [
         {
-            "__line": 30959,
+            "__line": 27925,
             "_ancestry": [
                 "L_ 3256",
-                "B_ {#aBiyA#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#aboDa#}",
+                "M_ .{@{#-DaH#}@}"
             ],
+            "_banner": ".{@{#-DaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "aBiyA"
+                    "Right": "aboDaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Ignorance, stupidity, want of understanding; {#˚DopahatAScAnye#}\n <ls>Bh. 3. 2</ls>; {#nisargadurboDamaboDaviklavAH kva BUpatInAM caritaM kva jantavaH#} <ls>Ki. 1. 6</ls>.\n",
+                ".²2 Not knowing or being aware of. {#jaladakAlamaboDakftaM diSAmapa raTApa#}\n {#raTAvayavAyuDaH#} <ls>Śi. 6. 41</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 27930,
+            "_ancestry": [
+                "L_ 3256",
+                "B_ {#aboDa#}",
+                "S_ .{@{#-gamya#}@}"
+            ],
+            "_banner": ".{@{#-gamya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aboDagamya"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To send away."
+                "incomprehensible, inconceivable."
             ]
         }
     ]

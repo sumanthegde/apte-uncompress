@@ -1,41 +1,121 @@
 {
-    "__line": 133015,
+    "__line": 137641,
     "_ancestry": [
         "L_ 15871",
-        "B_ {#dvitaya#}"
+        "B_ {#JazaH#}"
     ],
-    "_banner": "{#dvitaya#}",
+    "_banner": "{#JazaH#}",
     "_bannerExp": [
         {
-            "Right": "dvitayI"
-        },
-        {
-            "Right": "dvitaya"
+            "Right": "JazaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#yI#}|{%<ab>f.</ab>%})"
-    ],
     "_meanings": [
-        "Consisting of\nor divided into two, double, \ntwofold; {#drumasAnumata kimaMtaraM yadi vAyO#}\n{#dvitaye'pi te calAH#} <ls>R. 8. 90</ls>; sometimes\nused in <ab>pl.</ab> "
+        ".²1 A fish in general; {#JazARAM makaraScAsmi#} <ls>Bg. 10. 31</ls>; <ab>cf.</ab>\n words like {#Jazaketana#} below.\n",
+        ".²2 A large fish.\n",
+        ".²3 The sign Pisces of the zodiac.\n",
+        ".²4 Heat, warmth.\n",
+        ".²5 The sign Capricornus of the zodiac.\n"
     ],
     "_morphisms": [
         {
-            "__line": 133019,
+            "__line": 137647,
             "_ancestry": [
                 "L_ 15871",
-                "B_ {#dvitaya#}",
-                "M_ {#--yaM#}"
+                "B_ {#JazaH#}",
+                "M_ .{@{#-zam#}@}"
             ],
-            "_banner": "{#--yaM#}",
+            "_banner": ".{@{#-zam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "dvitayaM"
+                    "Right": "Jazam"
                 }
             ],
             "_meanings": [
-                "A pair, couple;\n<ls>R. 8. 6.</ls>"
+                ".²1 A forest, wood.\n",
+                ".²2 A desert, dreary forest.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 137651,
+            "_ancestry": [
+                "L_ 15871",
+                "B_ {#JazaH#}",
+                "S_ .{@{#-aNkaH, -ketanaH, -ketuH, -DvajaH#}@}"
+            ],
+            "_banner": ".{@{#-aNkaH, -ketanaH, -ketuH, -DvajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "JazANkaH"
+                },
+                {
+                    "Left": "S error: midAlign ketanaH aMketanaH"
+                },
+                {
+                    "Right": "JazaketuH"
+                },
+                {
+                    "Right": "JazaDvajaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the god of love; {#strImudrAM#}\n {#Jazaketanasya#} <ls>Pt. 4. 34</ls>; {#svaM karma kArayannAste niScinto yA JazaDvajaH#} <ls>Bk. 8. 48</ls>.\n"
+            ]
+        },
+        {
+            "__line": 137653,
+            "_ancestry": [
+                "L_ 15871",
+                "B_ {#JazaH#}",
+                "S_ .{@{#-aSanaH#}@}"
+            ],
+            "_banner": ".{@{#-aSanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "JazASanaH"
+                }
+            ],
+            "_meanings": [
+                "a porpoise.\n"
+            ]
+        },
+        {
+            "__line": 137654,
+            "_ancestry": [
+                "L_ 15871",
+                "B_ {#JazaH#}",
+                "S_ .{@{#-udarI#}@}"
+            ],
+            "_banner": ".{@{#-udarI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "JazodarI"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Satyavatī, mother of Vyāsa.\n"
+            ]
+        },
+        {
+            "__line": 137655,
+            "_ancestry": [
+                "L_ 15871",
+                "B_ {#JazaH#}",
+                "S_ .{@{#-rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "JazarAjaH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "crocodile, {#… JazarAjakuRqalatvizollasacCrIvadanAmbujaH …#}\n <ls>Bhāg. 8. 18. 2</ls>."
             ]
         }
     ]

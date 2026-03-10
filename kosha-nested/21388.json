@@ -1,19 +1,38 @@
 {
-    "__line": 176806,
+    "__line": 191491,
     "_ancestry": [
         "L_ 21388",
-        "B_ {#prodgata#}"
+        "B_ {#pitfvat#}"
     ],
-    "_banner": "{#prodgata#}",
+    "_banner": "{#pitfvat#}",
     "_bannerExp": [
         {
-            "Right": "prodgata"
+            "Right": "pitfvat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Projecting, prominent."
+        "Having a father living. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 191491,
+            "_ancestry": [
+                "L_ 21388",
+                "B_ {#pitfvat#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pitfvat#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Like a father or the Manes."
+            ]
+        }
     ]
 }

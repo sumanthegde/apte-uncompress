@@ -1,42 +1,59 @@
 {
-    "__line": 221614,
+    "__line": 239713,
     "_ancestry": [
         "L_ 26256",
-        "B_ {#vimad#}"
+        "B_ {#mAheSvara#}"
     ],
-    "_banner": "{#vimad#}",
+    "_banner": "{#mAheSvara#}",
     "_bannerExp": [
         {
-            "Right": "vimad"
+            "Right": "mAheSvara"
+        },
+        {
+            "Right": "mAheSvarI"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} To become \n\nperplexed or confused. ",
-        "{@--2@} To be \nintoxicated or mad. "
+        ".²1 Belonging to a great lord or to Śiva; {#anena ca mahArAja mAheSvaramanuttamam .#}\n {#izwvA yajYaM …#} <ls>Rām. 6. 7. 19</ls>.\n",
+        ".²2 Worshipping Śiva.\n"
     ],
     "_morphisms": [
         {
-            "__line": 221617,
+            "__line": 239717,
             "_ancestry": [
                 "L_ 26256",
-                "B_ {#vimad#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#mAheSvara#}",
+                "M_ .{@{#-raH#}@}"
             ],
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vimad"
+                    "Right": "mAheSvaraH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "A worshipper of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 239718,
+            "_ancestry": [
+                "L_ 26256",
+                "B_ {#mAheSvara#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAheSvarI"
+                }
             ],
             "_meanings": [
-                "{@--1@} To\nconfound, perplex. ",
-                "{@--2@} To intoxicate,\nmadden."
+                "<ab>N.</ab> of Pārvatī or Durgā."
             ]
         }
     ]

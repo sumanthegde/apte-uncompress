@@ -1,39 +1,45 @@
 {
-    "__line": 60534,
+    "__line": 59120,
     "_ancestry": [
         "L_ 7024",
-        "B_ {#ASana#}"
+        "B_ {#Anta#}"
     ],
-    "_banner": "{#ASana#}",
+    "_banner": "{#Anta#}",
     "_bannerExp": [
         {
-            "Right": "ASana"
+            "Right": "Anta"
+        },
+        {
+            "Right": "AntI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#aSana-aR#}]"
+        "{%a.%}",
+        "({#-ntI#}|{%f.%})",
+        "[{#anta-aR#}]"
     ],
     "_meanings": [
-        "One who\nfeeds. "
+        "Final, terminal.\n"
     ],
     "_morphisms": [
         {
-            "__line": 60535,
+            "__line": 59122,
             "_ancestry": [
                 "L_ 7024",
-                "B_ {#ASana#}",
-                "M_ {#--naH#}"
+                "B_ {#Anta#}",
+                "M_ .{@{#-ntam#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-ntam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ASanaH"
+                    "Right": "Antam"
                 }
             ],
+            "_gram": [
+                "{%ind.%}"
+            ],
             "_meanings": [
-                "{@--1@} <ab>N.</ab> of a tree; see {#aSana#}.\n",
-                "{@--2@} The thunderbolt."
+                "Completely, to the end; <ls>Mbh. 4</ls>."
             ]
         }
     ]

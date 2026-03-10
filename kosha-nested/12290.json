@@ -1,46 +1,174 @@
 {
-    "__line": 102440,
+    "__line": 104143,
     "_ancestry": [
         "L_ 12290",
-        "B_ {#gadin#}"
+        "B_ {#kIwa#}"
     ],
-    "_banner": "{#gadin#}",
+    "_banner": "{#kIwa#}",
     "_bannerExp": [
         {
-            "Right": "gadin"
-        },
-        {
-            "Right": "gadinI"
+            "Right": "kIwa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#gada-ini#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Armed\nwith a club; <ls>Bg. 11. 17.</ls> ",
-        "{@--2@} Affected\nwith sickness, diseased. "
+        "Hard, harsh.\n"
     ],
     "_morphisms": [
         {
-            "__line": 102442,
+            "__line": 104144,
             "_ancestry": [
                 "L_ 12290",
-                "B_ {#gadin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#kIwa#}",
+                "M_ .{@{#-waH#}@}"
             ],
+            "_banner": ".{@{#-waH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gadin"
+                    "Right": "kIwaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A worm, an insect; <ls>Ms. 1. 40</ls>; {#kIwo'pi sumanaHsaNgAdArohati satAM#}\n {#SiraH#} <ls>H. Pr. 39</ls>.\n",
+                ".²2 A term expressive of contempt (generally at the\n\n end of <ab>comp.</ab>); {#dvipakIwaH#} a wretched elephant; so {#pakzikIwaH#} <ls>Pt. 1</ls>; <ab>&c.</ab>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 104151,
+            "_ancestry": [
+                "L_ 12290",
+                "B_ {#kIwa#}",
+                "S_ .{@{#-avapanna#}@}"
+            ],
+            "_banner": ".{@{#-avapanna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIwAvapanna"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}",
-                "[{#gadA#}\n{#astyasya ini#}]"
+                "{%a.%}"
             ],
             "_meanings": [
-                "An epithet of Viṣṇu."
+                "anything on which an insect has fallen; worm-eaten;\n {#kzataM kIwAvapannaM ca#} <ls>Mb. 9. 43. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 104153,
+            "_ancestry": [
+                "L_ 12290",
+                "B_ {#kIwa#}",
+                "S_ .{@{#-utkaram#}@}"
+            ],
+            "_banner": ".{@{#-utkaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIwotkaram"
+                }
+            ],
+            "_meanings": [
+                "an ant-hill; {#tatra kIwotkarAkIrRe#} <ls>Ks. 101. 290. 11</ls>\n"
+            ]
+        },
+        {
+            "__line": 104154,
+            "_ancestry": [
+                "L_ 12290",
+                "B_ {#kIwa#}",
+                "S_ .{@{#-GnaH#}@}"
+            ],
+            "_banner": ".{@{#-GnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIwaGnaH"
+                }
+            ],
+            "_meanings": [
+                "sulphur.\n"
+            ]
+        },
+        {
+            "__line": 104155,
+            "_ancestry": [
+                "L_ 12290",
+                "B_ {#kIwa#}",
+                "S_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIwajam"
+                }
+            ],
+            "_meanings": [
+                "silk; <ls>Ms. 168</ls>.\n"
+            ]
+        },
+        {
+            "__line": 104156,
+            "_ancestry": [
+                "L_ 12290",
+                "B_ {#kIwa#}",
+                "S_ .{@{#-jA#}@}"
+            ],
+            "_banner": ".{@{#-jA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIwajA"
+                }
+            ],
+            "_meanings": [
+                "lac.\n"
+            ]
+        },
+        {
+            "__line": 104157,
+            "_ancestry": [
+                "L_ 12290",
+                "B_ {#kIwa#}",
+                "S_ .{@{#-nAmA, -pAdikA, -pAdI, -mAtA#}@}"
+            ],
+            "_banner": ".{@{#-nAmA, -pAdikA, -pAdI, -mAtA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIwanAmA"
+                },
+                {
+                    "Right": "kIwapAdikA"
+                },
+                {
+                    "Right": "kIwapAdI"
+                },
+                {
+                    "Right": "kIwamAtA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant (<lang>Mar.</lang> <ns>{#raktalAjALU#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 104158,
+            "_ancestry": [
+                "L_ 12290",
+                "B_ {#kIwa#}",
+                "S_ .{@{#-maRiH#}@}"
+            ],
+            "_banner": ".{@{#-maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIwamaRiH"
+                }
+            ],
+            "_meanings": [
+                "a fire-fly (<lang>Mar.</lang> <ns>{#kAjavA#}</ns>)."
             ]
         }
     ]

@@ -1,25 +1,53 @@
 {
-    "__line": 205997,
+    "__line": 216559,
     "_ancestry": [
         "L_ 24296",
-        "B_ {#reb(va)#}"
+        "B_ {#ParParIkaH#}"
     ],
-    "_banner": "{#reb(va)#}",
+    "_banner": "{#ParParIkaH#}",
     "_bannerExp": [
         {
-            "Right": "reb"
-        },
-        {
-            "Right": "rev"
+            "Right": "ParParIkaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#reba-va-te#})"
-    ],
     "_meanings": [
-        "{@--1@} To go.\n",
-        "{@--2@} To jump, leap."
+        "The palm of the hand with the fingers extended; <ls>Uṇ. 4. 20</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 216560,
+            "_ancestry": [
+                "L_ 24296",
+                "B_ {#ParParIkaH#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ParParIkam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A young shoot or branch.\n",
+                ".²2 Softness.\n"
+            ]
+        },
+        {
+            "__line": 216563,
+            "_ancestry": [
+                "L_ 24296",
+                "B_ {#ParParIkaH#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ParParIkA"
+                }
+            ],
+            "_meanings": [
+                "A shoe."
+            ]
+        }
     ]
 }

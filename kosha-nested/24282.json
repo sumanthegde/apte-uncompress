@@ -1,19 +1,44 @@
 {
-    "__line": 205929,
+    "__line": 216449,
     "_ancestry": [
         "L_ 24282",
-        "B_ {#rej#}"
+        "B_ {#PaR#}"
     ],
-    "_banner": "{#rej#}",
+    "_banner": "{#PaR#}",
     "_bannerExp": [
         {
-            "Right": "rej"
+            "Right": "PaR"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "({#PaRati, PaRita#})"
     ],
     "_meanings": [
-        "<ab>N.</ab> of Agni."
+        ".²1 To move, move about; {#rurujurBejire PeRurbahuDA harirAkzasAH#} <ls>Bk. 14. 78</ls>.\n",
+        ".²2 To produce easily or without exertion; (this sense according to some\n belongs to the <ab>Caus.</ab> of {#PaR#}). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 216452,
+            "_ancestry": [
+                "L_ 24282",
+                "B_ {#PaR#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "PaR"
+                }
+            ],
+            "_gram": [
+                "({#PARayati#})"
+            ],
+            "_meanings": [
+                "To skim,\n take off (the surface of a fluid.)."
+            ]
+        }
     ]
 }

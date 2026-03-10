@@ -1,37 +1,93 @@
 {
-    "__line": 250248,
+    "__line": 276213,
     "_ancestry": [
         "L_ 29919",
-        "B_ {#saSasya#}"
+        "B_ {#vipluta#}"
     ],
-    "_banner": "{#saSasya#}",
+    "_banner": "{#vipluta#}",
     "_bannerExp": [
         {
-            "Right": "saSasya"
+            "Right": "vipluta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Having or yielding\ncorn. "
+        ".²1 Drifted about.\n",
+        ".²2 Drowned, submerged, deluged, overflowed.\n",
+        ".²3 Confounded, disturbed.\n",
+        ".²4 Ravaged, devastated.\n",
+        ".²5 Lost, disappeared.\n",
+        ".²6 Disgraced, dishonoured.\n",
+        ".²7 Ruined.\n",
+        ".²8 Obscured, disfigured.\n",
+        ".²9 Depraved, dissolute, profligate, guilty of lewdness; {#viplutO SUdravaddaRqyO#} <ls>Ms. 8. 377</ls>.\n",
+        ".²10 Contrary, reverse.\n",
+        ".²11 Turning out false; {#nEte vAcaM viplutAM vyAharanti#} <ls>U. 4. 18</ls>.\n",
+        ".²12 Agitated, troubled; {#BayaviplutamIkzito naBaHsTErjagatIM grAha ivApagAM#}\n {#jagAhe#} <ls>Ki. 13. 24</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 250249,
+            "__line": 276227,
             "_ancestry": [
                 "L_ 29919",
-                "B_ {#saSasya#}",
-                "M_ {#--syA#}"
+                "B_ {#vipluta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--syA#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saSasyA"
+                    "Right": "viplutam"
                 }
             ],
             "_meanings": [
-                "A variety of sun-flower. "
+                "Springing, bursting asunder.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 276229,
+            "_ancestry": [
+                "L_ 29919",
+                "B_ {#vipluta#}",
+                "S_ .{@{#-netra, -locana#}@}"
+            ],
+            "_banner": ".{@{#-netra, -locana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viplutanetra"
+                },
+                {
+                    "Right": "viplutalocana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the eyes suffused (with tears, joy <ab>etc.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 276230,
+            "_ancestry": [
+                "L_ 29919",
+                "B_ {#vipluta#}",
+                "S_ .{@{#-BAzin#}@}"
+            ],
+            "_banner": ".{@{#-BAzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viplutaBAzin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "speaking confusedly, stammering."
             ]
         }
     ]

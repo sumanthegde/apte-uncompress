@@ -1,16 +1,91 @@
 {
-    "__line": 106773,
+    "__line": 107929,
     "_ancestry": [
         "L_ 12730",
-        "B_ {#gordaH#}"
+        "B_ {#kUrcaH#}, {#-rcam#}"
     ],
-    "_banner": "{#gordaH#}",
+    "_banner": "{#kUrcaH#}, {#-rcam#}",
     "_bannerExp": [
         {
-            "Right": "gordaH"
+            "Right": "kUrcaH"
+        },
+        {
+            "Right": "kUrcam"
         }
     ],
     "_meanings": [
-        "Brain; (also {#goda#})."
+        ".²1 A bunch of any thing, a bundle.\n",
+        ".²2 A handful of Kuśa grass; <ls>Mb. 14. 72. 10</ls>.\n",
+        ".²3 A peacockʼs feather.\n",
+        ".²4 The beard; {#AgatamanaDyAyakAraRaM saviSezaBUtamadya jIrRakUrcAnAm#}\n <ls>U. 4</ls>; or {#pUrayitavyamanena citraPalakaM lambakUrcAnAM tApasAnAM kadambEH#} <ls>Ś. 6</ls>.\n",
+        ".²5 The tip of the thumb and the middle finger brought in contact so as to pinch <ab>&c.</ab>\n",
+        ".²6 The upper part of the rose, the part (or hair) between the eye-brows.\n",
+        ".²7 A brush.\n",
+        ".²8 Deceit, fraud.\n",
+        ".²9 Boasting, bragging.\n",
+        ".²10 Hypocrisy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 107941,
+            "_ancestry": [
+                "L_ 12730",
+                "B_ {#kUrcaH#}, {#-rcam#}",
+                "M_ .{@{#-rcaH#}@}"
+            ],
+            "_banner": ".{@{#-rcaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUrcaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The head.\n",
+                ".²2 A store-room.\n",
+                ".²3 A seat of Kuśa grass ({#kuSAsana#}); {#janako ha vEdehaH kUrcAdupAvasarpannuvAca#}\n <ls>Bṛ. Up. 4. 2. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 107947,
+            "_ancestry": [
+                "L_ 12730",
+                "B_ {#kUrcaH#}, {#-rcam#}",
+                "S_ .{@{#-Siras#}@}"
+            ],
+            "_banner": ".{@{#-Siras#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUrcaSiras"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the upper part of the palm of the hand and foot.\n"
+            ]
+        },
+        {
+            "__line": 107948,
+            "_ancestry": [
+                "L_ 12730",
+                "B_ {#kUrcaH#}, {#-rcam#}",
+                "S_ .{@{#-SIrzaH, -SeKaraH#}@}"
+            ],
+            "_banner": ".{@{#-SIrzaH, -SeKaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUrcaSIrzaH"
+                },
+                {
+                    "Right": "kUrcaSeKaraH"
+                }
+            ],
+            "_meanings": [
+                "the cocoa-nut tree."
+            ]
+        }
     ]
 }

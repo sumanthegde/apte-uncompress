@@ -1,84 +1,37 @@
 {
-    "__line": 120031,
+    "__line": 124385,
     "_ancestry": [
         "L_ 14392",
-        "B_ {#tapa#}"
+        "B_ {#grIvin#}"
     ],
-    "_banner": "{#tapa#}",
+    "_banner": "{#grIvin#}",
     "_bannerExp": [
         {
-            "Right": "tapa"
+            "Right": "grIvin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#tap-ac#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Burning,\nwarming, consuming by heat. ",
-        "{@--2@}\nCausing pain or trouble, distressing.\n"
+        "Long-necked, handsome-necked. "
     ],
     "_morphisms": [
         {
-            "__line": 120034,
+            "__line": 124385,
             "_ancestry": [
                 "L_ 14392",
-                "B_ {#tapa#}",
-                "M_ {#--paH#}"
+                "B_ {#grIvin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--paH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "tapaH"
+                    "Left": "Parser error: {#grIvin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Heat, fire, warmth. ",
-                "{@--2@} The\nsun. ",
-                "{@--3@} The hot season; <ls>Śi. 1. 66.</ls>\n",
-                "{@--4@} Penance, religious austerities.\n"
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 120037,
-            "_ancestry": [
-                "L_ 14392",
-                "B_ {#tapa#}",
-                "S_  {#--atyayaH, --aMtaH#}"
-            ],
-            "_banner": " {#--atyayaH, --aMtaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "tapAMtaH"
-                },
-                {
-                    "Right": "tapAtyayaH"
-                }
-            ],
-            "_meanings": [
-                "the\nend of the hot season and the \n\nbeginning of the rainy season;\n{#ravipItajalA tapAtyaye punaroGena hi yujyate#}\n{#nadI#} <ls>Ku. 4. 44</ls>; <ls n=\"Ku.\">5. 23</ls>; <ls>Ś. 3. 12.</ls>\n"
-            ]
-        },
-        {
-            "__line": 120043,
-            "_ancestry": [
-                "L_ 14392",
-                "B_ {#tapa#}",
-                "S_ {#--Atmaka#}"
-            ],
-            "_banner": "{#--Atmaka#}",
-            "_bannerExp": [
-                {
-                    "Right": "tapAtmaka"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "practising austerities."
+                "A camel."
             ]
         }
     ]

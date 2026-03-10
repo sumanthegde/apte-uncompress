@@ -1,22 +1,40 @@
 {
-    "__line": 66913,
+    "__line": 64946,
     "_ancestry": [
         "L_ 7790",
-        "B_ {#utkleSana, --Sin#}"
+        "B_ {#ASana#}"
     ],
-    "_banner": "{#utkleSana, --Sin#}",
+    "_banner": "{#ASana#}",
     "_bannerExp": [
         {
-            "Right": "utkleSana"
-        },
-        {
-            "Right": "utkleSin"
+            "Right": "ASana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#aSana-aR#}]"
     ],
     "_meanings": [
-        "Exciting, \nstirring up, producing disorder; as in\n{#kaPa°#} exciting phlegm."
+        "One who feeds.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 64947,
+            "_ancestry": [
+                "L_ 7790",
+                "B_ {#ASana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a tree (<lang>Mar.</lang> <ns>{#AsaRA#}</ns>); see {#aSana#}.\n",
+                ".²2 The thunderbolt."
+            ]
+        }
     ]
 }

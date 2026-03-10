@@ -1,18 +1,85 @@
 {
-    "__line": 100699,
+    "__line": 101800,
     "_ancestry": [
         "L_ 12055",
-        "B_ {#KaqgikaH#}"
+        "B_ {#kArA#}"
     ],
-    "_banner": "{#KaqgikaH#}",
+    "_banner": "{#kArA#}",
     "_bannerExp": [
         {
-            "Right": "KaqgikaH"
+            "Right": "kArA"
         }
     ],
     "_meanings": [
-        "{@--1@} A swordsman. ",
-        "{@--2@} A\nbutcher. ",
-        "{@--3@} The cream of buffalo's\nmilk."
+        ".²1 Imprisonment, confinement.\n",
+        ".²2 A prisonhouse, a jail; <ls>Mv. 6. 25</ls>.\n",
+        ".²3 Part of a lute below the neck.\n",
+        ".²4 Pain, affliction.\n",
+        ".²5 A female messenger.\n",
+        ".²6 A female worker in gold.\n",
+        ".²7 A sound.\n",
+        ".²8 An instrument for drawing the sound of the lute.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 101810,
+            "_ancestry": [
+                "L_ 12055",
+                "B_ {#kArA#}",
+                "S_ .{@{#-agAram, -gfham, -veSman#}@}"
+            ],
+            "_banner": ".{@{#-agAram, -gfham, -veSman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArAgAram"
+                },
+                {
+                    "Left": "S error: midAlign gfhaM agfhaM"
+                },
+                {
+                    "Right": "kArAveSman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a prison-house, a jail; {#kArAgfhe#}\n {#nirjitavAsavena laNkeSvareRozitamA prasAdAt#} <ls>R. 6. 40</ls>; <ls>Śānti. 4. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 101812,
+            "_ancestry": [
+                "L_ 12055",
+                "B_ {#kArA#}",
+                "S_ .{@{#-guptaH#}@}"
+            ],
+            "_banner": ".{@{#-guptaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArAguptaH"
+                }
+            ],
+            "_meanings": [
+                "a prisoner.\n"
+            ]
+        },
+        {
+            "__line": 101813,
+            "_ancestry": [
+                "L_ 12055",
+                "B_ {#kArA#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArApAlaH"
+                }
+            ],
+            "_meanings": [
+                "a guard of a prison, jailor."
+            ]
+        }
     ]
 }

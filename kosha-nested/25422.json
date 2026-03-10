@@ -1,16 +1,86 @@
 {
-    "__line": 215366,
+    "__line": 229696,
     "_ancestry": [
         "L_ 25422",
-        "B_ {#vAdalaH#}"
+        "B_ {#BrAnta#}"
     ],
-    "_banner": "{#vAdalaH#}",
+    "_banner": "{#BrAnta#}",
     "_bannerExp": [
         {
-            "Right": "vAdalaH"
+            "Right": "BrAnta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#Bram-kta#}]"
+    ],
     "_meanings": [
-        "The sheat-fish."
+        ".²1 Wandered or roamed about.\n",
+        ".²2 Turned round, whirled, revolved.\n",
+        ".²3 Erred, mistaken, gone astray.\n",
+        ".²4 Perplexed, confused.\n",
+        ".²5 Moving about, moving to and fro, wheeling.\n",
+        ".²6 Whirling or turning round, roaming or wandering about.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 229703,
+            "_ancestry": [
+                "L_ 25422",
+                "B_ {#BrAnta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAntaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An elephant in rut.\n",
+                ".²2 A kind of thorn-apple.\n"
+            ]
+        },
+        {
+            "__line": 229706,
+            "_ancestry": [
+                "L_ 25422",
+                "B_ {#BrAnta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAntam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Roaming, moving about; {#varaM parvatadurgezu BrAntaM vanacarEH saha#} <ls>Bh. 2. 14</ls>.\n",
+                ".²2 A mistake, an error.\n",
+                ".²3 A particular mode of fighting.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 229711,
+            "_ancestry": [
+                "L_ 25422",
+                "B_ {#BrAnta#}",
+                "S_ .{@{#-budDi#}@}"
+            ],
+            "_banner": ".{@{#-budDi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAntabudDi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "confused or perplexed in mind, puzzled."
+            ]
+        }
     ]
 }

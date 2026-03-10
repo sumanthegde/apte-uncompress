@@ -1,28 +1,63 @@
 {
-    "__line": 24142,
+    "__line": 20783,
     "_ancestry": [
         "L_ 2354",
-        "B_ {#apad --pAd#}"
+        "B_ {#antarDA#}"
     ],
-    "_banner": "{#apad --pAd#}",
+    "_banner": "{#antarDA#}",
     "_bannerExp": [
         {
-            "Right": "apAd"
-        },
-        {
-            "Right": "apad"
-        },
-        {
-            "Right": "apadI"
+            "Right": "antarDA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#padI#}|{%<ab>f.</ab>%})",
-        "[{#na padyate#} \n{#jYAyate#}. {#pad-kvip-na#}. {#ta#}.]"
+        "€3",
+        "<ab>U.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Incomprehensible,\nunknowable. ",
-        "{@--2@} Having no feet,\nfootless."
+        "²1 To place or keep within, deposit; {#udumbaraSAKAmantarDAya aBiziYcati#} <ls>Ait. Br.</ls>\n",
+        ".²2 To receive within or into oneself, admit, take in; {#taTA viSvaMBare#}\n {#devi mAmantarDAtumarhasi#} <ls>R. 15. 81</ls>; contain, comprise, include; ({#SAstrametat#})\n {#antarDAsyati tatsarvametadvaH kaTitaM mayA#} <ls>Mb.</ls>\n",
+        ".²3 To indicate, exhibit, display.\n",
+        ".²4 To hide or conceal oneself from, avoid the sight of, (with <ab>abl.</ab> and\n used in {%<ab>Ātm.</ab>%}); {#upADyAyAdantarDatte#} <ls>P. I. 4. 28. <ab>Com.</ab></ls> {#antarDatsva#}\n {#raGuvyAGrAt#} <ls>Bk. 5. 32</ls>; {#matto mAntarDiTAH sIte#} <ls n=\"Bk.\">6. 15</ls>. {#antardaDAnAM#}\n {#rakzoByaH#} <ls n=\"Bk.\">8. 71</ls>;\n",
+        ".²5 To cover up, conceal from view, hide, obscure, envelope, wrap up, veil;\n {#saDvajaM saraTaM sASvaM BIzmamantardaDe SarEH#} <ls>Mb. 6. 118. 37</ls> eclipse\n (<ab>fig.</ab>); {#anftenAtmAnamantarDAya#} <ls>Ch. Up.</ls>; {#BOmaM#} ({#rajaH#}) {#antardaDe#}\n {#lokamAvftya savituH praBAM#} <ls>Rām.</ls> enveloped, covered; {#piturantardaDe#}\n {#kIrtiM SIlavfttisamADiBiH#} <ls>Mb.</ls> obscured or eclipsed. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 20797,
+            "_ancestry": [
+                "L_ 2354",
+                "B_ {#antarDA#}",
+                "M_ --{%<ab>pass.</ab>%}"
+            ],
+            "_banner": "--{%<ab>pass.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "antarDA"
+                }
+            ],
+            "_meanings": [
+                ".²1 To\n be received within, be absorbed; to be covered up or concealed, be obscured\n or rendered invisible, become invisible; to vanish, disappear, cease to\n exist; {#izuBirvyatisarpadBirAdityo'ntaraDIyata#} <ls>Mb.</ls>; {#te cAntardaDire#}\n {#nAgAH#} {%<ab>ibid.</ab>%}; {#rAtrirAdityodaye'ntarDIyate#} <ls>Nir.</ls> disappears; {#AtmanyantardaDe#},\n {#tatrEvAntaraDIyata#} <ab>&c.</ab>\n."
+            ]
+        },
+        {
+            "__line": 20803,
+            "_ancestry": [
+                "L_ 2354",
+                "B_ {#antarDA#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "antarDA"
+                }
+            ],
+            "_gram": [
+                "({#-DApayati#})"
+            ],
+            "_meanings": [
+                "To render invisible, conceal."
+            ]
+        }
     ]
 }

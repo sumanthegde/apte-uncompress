@@ -1,16 +1,61 @@
 {
-    "__line": 92951,
+    "__line": 92372,
     "_ancestry": [
         "L_ 11065",
-        "B_ {#kuWArikaH#}"
+        "B_ {#OzaDiH#}, {#-DI#}"
     ],
-    "_banner": "{#kuWArikaH#}",
+    "_banner": "{#OzaDiH#}, {#-DI#}",
     "_bannerExp": [
         {
-            "Right": "kuWArikaH"
+            "Right": "OzaDiH"
+        },
+        {
+            "Right": "OzaDI"
         }
     ],
+    "_gram": [
+        "{%f.%}"
+    ],
     "_meanings": [
-        "A wood-cutter."
+        ".²1 A herb, plant (in general); <ls>Y. 3. 276</ls> <ab>v. l.</ab>; see {#ozaDi#}.\n",
+        ".²2 A medicinal herb; {#acintyo hi maRimantrOzaDInAM praBAvaH#} <ls>Ratn. 2</ls>.\n",
+        ".²3 An herb which emits fire; {#viramanti na jvalitumOzaDayaH#} <ls>Ki. 5. 24</ls>\n ({#tfRajyotIMzi#} <ls>Malli.</ls>); <ab>cf.</ab> <ls>Ku. 1. 10</ls>.\n",
+        ".²4 An annual or deciduous plant; {#˚DIpatiH#} <ab>N.</ab> of Soma, the lord of plants.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 92378,
+            "_ancestry": [
+                "L_ 11065",
+                "B_ {#OzaDiH#}, {#-DI#}",
+                "M_ .{@{#-paYcaprakArAH#}@}"
+            ],
+            "_banner": ".{@{#-paYcaprakArAH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: OzaDiH/OzaDI paMcaprakArAH"
+                }
+            ],
+            "_meanings": [
+                "(1) Juice of a green herb ({#rasa#}). (2) Powder\n\n of dry medicinal billets {#cUrRa#}. (3) Decoction of medicinal herbs ({#kazAya#}).\n (4) Decoction mixed with medicinal powder ({#avaleha#}). (5) A medicine\n to be pounded like condiment ({#kalka#}). {#-paYcAmftaM guqUcI, gokzura#},\n {#musalI, muRqI, SatAvarI#}.\n"
+            ]
+        },
+        {
+            "__line": 92384,
+            "_ancestry": [
+                "L_ 11065",
+                "B_ {#OzaDiH#}, {#-DI#}",
+                "M_ .{@{#-pratiniDiH#}@}"
+            ],
+            "_banner": ".{@{#-pratiniDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: OzaDiH/OzaDI pratiniDiH"
+                }
+            ],
+            "_meanings": [
+                "A substitute for a herb which cannot be secured."
+            ]
+        }
     ]
 }

@@ -1,20 +1,41 @@
 {
-    "__line": 204791,
+    "__line": 215395,
     "_ancestry": [
         "L_ 24137",
-        "B_ {#rASIkf#}"
+        "B_ {#prertvan#}"
     ],
-    "_banner": "{#rASIkf#}",
+    "_banner": "{#prertvan#}",
     "_bannerExp": [
         {
-            "Right": "rASIkf"
+            "Right": "prertvan"
         }
     ],
     "_gram": [
-        "{c8c}",
-        "<ab>U.</ab>"
+        "{%m.%}"
     ],
     "_meanings": [
-        "To pile up, heap \ntogether, accumulate."
+        "<ab>Ved.</ab> The ocean. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 215395,
+            "_ancestry": [
+                "L_ 24137",
+                "B_ {#prertvan#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#prertvan#} M_ --{%f.%}"
+                }
+            ],
+            "_gram": [
+                "({#prertvarI#})"
+            ],
+            "_meanings": [
+                "A river."
+            ]
+        }
     ]
 }

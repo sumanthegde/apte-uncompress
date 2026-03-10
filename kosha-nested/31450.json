@@ -1,21 +1,42 @@
 {
-    "__line": 263930,
+    "__line": 289805,
     "_ancestry": [
         "L_ 31450",
-        "B_ {#hil#}"
+        "B_ {#vyutpad#}"
     ],
-    "_banner": "{#hil#}",
+    "_banner": "{#vyutpad#}",
     "_bannerExp": [
         {
-            "Right": "hil"
+            "Right": "vyutpad"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#hilati#})"
+        "€4",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "To sport\namorously, wanton, dally, express\namorous desire."
+        "²1 To be produced from, originate in.\n",
+        ".²2 To be derived from (a root <ab>&c.</ab>); {#nAma rUQamapi ca vyudapAdi#} <ls>Śi. 10. 23</ls>.\n",
+        ".²3 To become proficient in or conversant with. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 289808,
+            "_ancestry": [
+                "L_ 31450",
+                "B_ {#vyutpad#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vyutpad"
+                }
+            ],
+            "_meanings": [
+                ".²1 To produce, cause.\n",
+                ".²2 To derive, trace to a root (as a word); {#brahmaSabdasya vyutpAdyamAnasya#} <ls>Ś. B.</ls>"
+            ]
+        }
     ]
 }

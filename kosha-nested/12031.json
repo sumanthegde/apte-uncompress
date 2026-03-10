@@ -1,21 +1,105 @@
 {
-    "__line": 100563,
+    "__line": 101591,
     "_ancestry": [
         "L_ 12031",
-        "B_ {#Kaw#}"
+        "B_ {#kAraka#}"
     ],
-    "_banner": "{#Kaw#}",
+    "_banner": "{#kAraka#}",
     "_bannerExp": [
         {
-            "Right": "Kaw"
+            "Right": "kAraka"
+        },
+        {
+            "Right": "kArikA"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#Kawati#})"
+        "{%a.%}",
+        "({#-rikA#}|{%f.%})",
+        "[{#kf-Rvul#}]"
     ],
     "_meanings": [
-        "To desire;\nwish."
+        "(Usually at the end of <ab>comp.</ab>)\n",
+        ".²1 Making, acting, doing, performing, creating, doer <ab>&c.</ab> {#svapnasya kArakaH#}\n <ls>Y. 3. 150</ls>, <ls n=\"Y.\">2. 156</ls>; {#varRasaMkara-#}\n\n {#-kArakEH#} <ls>Bg. 1. 42</ls>; <ls>Ms. 7. 204</ls>; <ls>Pt. 5. 36</ls>. {#kArakA mitrakAryARi#}\n {#sItAlABAya so'bravIt#} <ls>Bk. 7. 29</ls>.\n",
+        ".²2 An agent.\n",
+        ".²3 Intending to act or do.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 101599,
+            "_ancestry": [
+                "L_ 12031",
+                "B_ {#kAraka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 (In <ab>Gram.</ab>) The relation subsisting between a noun and a verb in a sentence,\n (or between a noun and other words governing it); there are six such Kārakas,\n belonging to the first seven cases, except the genitive: (1) {#kartf#};\n (2) {#karman#}; (3) {#karaRa#}; (4) {#saMpradAna#}; (5) {#apAdAna#}; (6) {#aDikaraRa#}.\n",
+                ".²2 That part of grammar which treats of these relations; {%<ab>i. e.</ab>%} syntax.\n",
+                ".²3 Water produced from hail.\n",
+                ".²4 An organ ({#indriya#}); {#jagAda jImUtagaBIrayA girA badDAYjalInsaMvftasarvakArakAn#}\n <ls>Bhāg. 8. 6. 16</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 101609,
+            "_ancestry": [
+                "L_ 12031",
+                "B_ {#kAraka#}",
+                "S_ .{@{#-guptiH#}@}"
+            ],
+            "_banner": ".{@{#-guptiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArakaguptiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a sentence with a hidden meaning.\n.--{@<ab>Comp.</ab>@}\n"
+            ]
+        },
+        {
+            "__line": 101611,
+            "_ancestry": [
+                "L_ 12031",
+                "B_ {#kAraka#}",
+                "S_ .{@{#-dIpakam#}@}"
+            ],
+            "_banner": ".{@{#-dIpakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArakadIpakam"
+                }
+            ],
+            "_meanings": [
+                "(in <ab>Rhet.</ab>) Case illuminator, a figure of speech in which\n the same Kāraka is connected with several verbs in succession; {%<ab>e. g.</ab>%}\n {#rivadyati kURati vellati vicalati nimizati vilokayati tiryak . antarnandati#}\n {#cumbitumicCati navapariRayA vaDUH Sayane ..#} <ls>K. P. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 101615,
+            "_ancestry": [
+                "L_ 12031",
+                "B_ {#kAraka#}",
+                "S_ .{@{#-hetuH#}@}"
+            ],
+            "_banner": ".{@{#-hetuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArakahetuH"
+                }
+            ],
+            "_meanings": [
+                "the active or efficient cause (<ab>opp.</ab> {#jYApakahetu#})."
+            ]
+        }
     ]
 }

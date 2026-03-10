@@ -1,24 +1,82 @@
 {
-    "__line": 203101,
+    "__line": 214171,
     "_ancestry": [
         "L_ 23998",
-        "B_ {#rad#}"
+        "B_ {#prAleyam#}"
     ],
-    "_banner": "{#rad#}",
+    "_banner": "{#prAleyam#}",
     "_bannerExp": [
         {
-            "Right": "rad"
+            "Right": "prAleyam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#radati#})"
-    ],
     "_meanings": [
-        "{@--1@} To split, rend.\n",
-        "{@--2@} To scratch. ",
-        "{@--3@} To gnaw. ",
-        "{@--4@} To\ndig."
+        "Snow, frost, hoar frost, dew; {#ISAcalaM prAleyaplavanecCayA#}\n <ls>Gīt. 1</ls>; {#prAleyaSItamacaleSvaramISvaro'pi#} ({#aDiSete#}) <ls>Śi. 4. 64</ls>;\n <ls>Me. 41</ls>; <ls>Ki. 11. 4</ls>; <ls>Ve. 2. 7</ls>; <ls>Bhāg. 10. 65. 22</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 214175,
+            "_ancestry": [
+                "L_ 23998",
+                "B_ {#prAleyam#}",
+                "S_ .{@{#-adriH, -BUDaraH, -SElaH#}@}"
+            ],
+            "_banner": ".{@{#-adriH, -BUDaraH, -SElaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAleyAdriH"
+                },
+                {
+                    "Right": "prAleyaBUDaraH"
+                },
+                {
+                    "Right": "prAleyaSElaH"
+                }
+            ],
+            "_meanings": [
+                "‘the snowy mountain’, the Himālaya; <ls>Me. 59</ls>.\n"
+            ]
+        },
+        {
+            "__line": 214176,
+            "_ancestry": [
+                "L_ 23998",
+                "B_ {#prAleyam#}",
+                "S_ .{@{#-aMSuH, -karaH, -raSimaH#}@}"
+            ],
+            "_banner": ".{@{#-aMSuH, -karaH, -raSimaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAleyAMSuH"
+                },
+                {
+                    "Right": "prAleyakaraH"
+                },
+                {
+                    "Left": "S error: midAlign raSimaH karaSimaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the moon.\n",
+                ".²2 camphor.\n"
+            ]
+        },
+        {
+            "__line": 214179,
+            "_ancestry": [
+                "L_ 23998",
+                "B_ {#prAleyam#}",
+                "S_ .{@{#-leSaH#}@}"
+            ],
+            "_banner": ".{@{#-leSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAleyaleSaH"
+                }
+            ],
+            "_meanings": [
+                "a hail-stone."
+            ]
+        }
     ]
 }

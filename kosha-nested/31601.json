@@ -1,22 +1,85 @@
 {
-    "__line": 265029,
+    "__line": 291332,
     "_ancestry": [
         "L_ 31601",
-        "B_ {#hrAd#}"
+        "B_ {#SaWa#}"
     ],
-    "_banner": "{#hrAd#}",
+    "_banner": "{#SaWa#}",
     "_bannerExp": [
         {
-            "Right": "hrAd"
+            "Right": "SaWa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#hrAdate#})"
+        "{%a.%}",
+        "[{#SaW-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To sound.\n",
-        "{@--2@} To roar."
+        ".²1 Crafty, deceitful, fraudulent, dishonest, perfidious.\n",
+        ".²2 Wicked, depraved.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 291335,
+            "_ancestry": [
+                "L_ 31601",
+                "B_ {#SaWa#}",
+                "M_ .{@{#-WaH#}@}"
+            ],
+            "_banner": ".{@{#-WaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaWaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A rogue, cheat, knave, swindler; <ls>Ms. 4. 30</ls>; <ls>Bg. 18. 28</ls>.\n",
+                ".²2 A false or deceitful lover (who pretends to love one woman while his\n heart is fixed on another); {#Druvamasmi SaWaH Sucismite viditaH kEtavavatsalastava#}\n <ls>R. 8. 49</ls>, <ls n=\"R.\">19. 31</ls>; {#SaWa iti mayi tAvadastu te paricayavatyavaDIraRA priye#}\n <ls>M. 3. 19</ls>; (the <ls>S. D.</ls> thus defines a {#SaWaH--SaWo'yamekatra badDaBAvo#}\n {#yaH . darSitabahiranurAgo vipriyamanyatra gUQamAcarati ..#} <ls n=\"S. D.\">74</ls>).\n",
+                ".²3 A fool, blockhead.\n",
+                ".²4 A mediator, arbitrator.\n",
+                ".²5 The Dhattūra plant.\n",
+                ".²6 An idler, a lazy fellow.\n"
+            ]
+        },
+        {
+            "__line": 291346,
+            "_ancestry": [
+                "L_ 31601",
+                "B_ {#SaWa#}",
+                "M_ .{@{#-Wam#}@}"
+            ],
+            "_banner": ".{@{#-Wam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaWam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Iron.\n",
+                ".²2 Saffron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 291350,
+            "_ancestry": [
+                "L_ 31601",
+                "B_ {#SaWa#}",
+                "S_ .{@{#-udarka#}@}"
+            ],
+            "_banner": ".{@{#-udarka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaWodarka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deceitful in the end."
+            ]
+        }
     ]
 }

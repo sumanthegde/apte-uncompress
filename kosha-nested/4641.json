@@ -1,16 +1,62 @@
 {
-    "__line": 42032,
+    "__line": 39775,
     "_ancestry": [
         "L_ 4641",
-        "B_ {#avapAtanaM#}"
+        "B_ {#alakzita#}"
     ],
-    "_banner": "{#avapAtanaM#}",
+    "_banner": "{#alakzita#}",
     "_bannerExp": [
         {
-            "Right": "avapAtanaM"
+            "Right": "alakzita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Felling, knocking down,\nthrowing down; {#drumARAM#}  \n<ls>Ms. 11. 65</ls>; {#kuqyAvapAtanaM#} <ls>Y. 2. 223.</ls>"
+        ".²1 Unseen, unperceived, unobserved; {#alakzitopasTita#} <ls>H. 1</ls>; {#alakzitAByutpatano#}\n {#nfpeRa#} <ls>R. 2. 27</ls>.\n",
+        ".²2 Uncharacterized; not marked.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 39780,
+            "_ancestry": [
+                "L_ 4641",
+                "B_ {#alakzita#}",
+                "S_ .{@{#-antaka#}@}"
+            ],
+            "_banner": ".{@{#-antaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alakzitAntaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "suddenly dead.\n"
+            ]
+        },
+        {
+            "__line": 39781,
+            "_ancestry": [
+                "L_ 4641",
+                "B_ {#alakzita#}",
+                "S_ .{@{#-upasTita#}@}"
+            ],
+            "_banner": ".{@{#-upasTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alakzitopasTita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has approached unobserved."
+            ]
+        }
     ]
 }

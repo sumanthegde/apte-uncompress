@@ -1,21 +1,118 @@
 {
-    "__line": 221794,
+    "__line": 239919,
     "_ancestry": [
         "L_ 26279",
-        "B_ {#vimuktiH#}"
+        "B_ {#miTuna#}"
     ],
-    "_banner": "{#vimuktiH#}",
+    "_banner": "{#miTuna#}",
     "_bannerExp": [
         {
-            "Right": "vimuktiH"
+            "Right": "miTuna"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "[{#miT-unan kicca#} <ls>Uṇ. 3. 55</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Release, liberation.\n",
-        "{@--2@} Separation. ",
-        "{@--3@} Absolution, final\nliberation."
+        "Paired, forming a pair, or couple.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 239920,
+            "_ancestry": [
+                "L_ 26279",
+                "B_ {#miTuna#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTunaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> A pair, couple.\n"
+            ]
+        },
+        {
+            "__line": 239921,
+            "_ancestry": [
+                "L_ 26279",
+                "B_ {#miTuna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTunam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A pair, couple; {#miTunaM parikalpitaM tvayA sahakAraH PalinI ca nanvimO#}\n <ls>R. 8. 61</ls>; <ls>Me. 18</ls>; <ls>U. 2. 5</ls>.\n",
+                ".²2 Twins.\n",
+                ".²3 Union, junction.\n",
+                ".²4 Sexual union, copulation, cohabitation\n",
+                ".²5 The third sign of the zodiac, {%Gemini%}.\n",
+                ".²6 (In <ab>gram.</ab>) A root compounded with a preposition.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 239930,
+            "_ancestry": [
+                "L_ 26279",
+                "B_ {#miTuna#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTunaBAvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 forming a couple, state of being a pair.\n",
+                ".²2 copulation.\n"
+            ]
+        },
+        {
+            "__line": 239933,
+            "_ancestry": [
+                "L_ 26279",
+                "B_ {#miTuna#}",
+                "S_ .{@{#-yamakam#}@}"
+            ],
+            "_banner": ".{@{#-yamakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTunayamakam"
+                }
+            ],
+            "_meanings": [
+                "a particular kind of {#yamaka#}; <ab>cf.</ab> <ls>Bk. 10. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 239934,
+            "_ancestry": [
+                "L_ 26279",
+                "B_ {#miTuna#}",
+                "S_ .{@{#-vratin#}@}"
+            ],
+            "_banner": ".{@{#-vratin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miTunavratin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "practising cohabitation."
+            ]
+        }
     ]
 }

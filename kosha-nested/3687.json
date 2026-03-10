@@ -1,19 +1,42 @@
 {
-    "__line": 33695,
+    "__line": 31218,
     "_ancestry": [
         "L_ 3687",
-        "B_ {#aByutTAyin#}"
+        "B_ {#aBivyakta#}"
     ],
-    "_banner": "{#aByutTAyin#}",
+    "_banner": "{#aBivyakta#}",
     "_bannerExp": [
         {
-            "Right": "aByutTAyin"
+            "Right": "aBivyakta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Rising to greet or\nin honour of."
+        ".²1 Manifested, revealed, declared.\n",
+        ".²2 Distinct, plain, clear; {#tAM pratyaBivyaktamanoraTAnAm#} <ls>R. 6. 12</ls>, <ls n=\"R.\">16. 23</ls>,\n <ls>Mu. 1</ls>; <ls>V. 3</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 31222,
+            "_ancestry": [
+                "L_ 3687",
+                "B_ {#aBivyakta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBivyaktam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Clearly, distinctly, plainly."
+            ]
+        }
     ]
 }

@@ -1,37 +1,81 @@
 {
-    "__line": 123023,
+    "__line": 128435,
     "_ancestry": [
         "L_ 14811",
-        "B_ {#tolya#}"
+        "B_ {#cAtura#}"
     ],
-    "_banner": "{#tolya#}",
+    "_banner": "{#cAtura#}",
     "_bannerExp": [
         {
-            "Right": "tolya"
+            "Right": "cAtura"
+        },
+        {
+            "Right": "cAturI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#catura eva svArTe aR#}]"
     ],
     "_meanings": [
-        "To be weighed. "
+        ".²1 Relating to four.\n",
+        ".²2 Clever, able, shrewd.\n",
+        ".²3 Speaking well, flattering.\n",
+        ".²4 Drawn by four (as a carriage).\n",
+        ".²5 Governing, ruling.\n",
+        ".²6 Visible, perceptible.\n"
     ],
     "_morphisms": [
         {
-            "__line": 123023,
+            "__line": 128442,
             "_ancestry": [
                 "L_ 14811",
-                "B_ {#tolya#}",
-                "M_ {#--lyaM#}"
+                "B_ {#cAtura#}",
+                "M_ .{@{#-raH#}@}"
             ],
-            "_banner": "{#--lyaM#}",
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tolyaM"
+                    "Right": "cAturaH"
                 }
             ],
             "_meanings": [
-                "Weighing."
+                "A small round pillow.\n"
+            ]
+        },
+        {
+            "__line": 128443,
+            "_ancestry": [
+                "L_ 14811",
+                "B_ {#cAtura#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAturam"
+                }
+            ],
+            "_meanings": [
+                "A four-wheeled carriage.\n"
+            ]
+        },
+        {
+            "__line": 128444,
+            "_ancestry": [
+                "L_ 14811",
+                "B_ {#cAtura#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAturI"
+                }
+            ],
+            "_meanings": [
+                "Skill, dexterity, ability; {#tadBawacAturIturI#} <ls>N. 1. 12</ls>."
             ]
         }
     ]

@@ -1,35 +1,84 @@
 {
-    "__line": 231764,
+    "__line": 254248,
     "_ancestry": [
         "L_ 27554",
-        "B_ {#SaMkulA#}"
+        "B_ {#rudDa#}"
     ],
-    "_banner": "{#SaMkulA#}",
+    "_banner": "{#rudDa#}",
     "_bannerExp": [
         {
-            "Right": "SaMkulA"
+            "Right": "rudDa"
         }
     ],
-    "_meanings": [
-        "{@--1@} A kind of knife or \nlancet. ",
-        "{@--2@} A pair of scissors. "
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
     ],
-    "_samasas": [
+    "_meanings": [
+        ".²1 Obstructed, impeded, opposed.\n",
+        ".²2 Besieged, enclosed, hemmed.\n",
+        ".²3 Shut up.\n",
+        ".²4 Kept, detained.\n",
+        ".²5 Held, withheld.\n",
+        ".²6 Covered.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 231765,
+            "__line": 254255,
             "_ancestry": [
                 "L_ 27554",
-                "B_ {#SaMkulA#}",
-                "S_ \n{#--KaMqaH#}"
+                "B_ {#rudDa#}",
+                "M_ .{@{#-dDA#}@}"
             ],
-            "_banner": "\n{#--KaMqaH#}",
+            "_banner": ".{@{#-dDA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SaMkulAKaMqaH"
+                    "Right": "rudDA"
                 }
             ],
             "_meanings": [
-                "a piece cut off with a pair of\nscissors."
+                "A siege.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 254257,
+            "_ancestry": [
+                "L_ 27554",
+                "B_ {#rudDa#}",
+                "S_ .{@{#-mUtra#}@}"
+            ],
+            "_banner": ".{@{#-mUtra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rudDamUtra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "suffering from retention of urine.\n"
+            ]
+        },
+        {
+            "__line": 254258,
+            "_ancestry": [
+                "L_ 27554",
+                "B_ {#rudDa#}",
+                "S_ .{@{#-vaktra#}@}"
+            ],
+            "_banner": ".{@{#-vaktra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rudDavaktra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the face covered."
             ]
         }
     ]

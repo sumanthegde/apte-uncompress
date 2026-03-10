@@ -1,40 +1,309 @@
 {
-    "__line": 229094,
+    "__line": 250228,
     "_ancestry": [
         "L_ 27230",
-        "B_ {#vyaDaH#}"
+        "B_ {#rajas#}"
     ],
-    "_banner": "{#vyaDaH#}",
+    "_banner": "{#rajas#}",
     "_bannerExp": [
         {
-            "Right": "vyaDaH"
+            "Right": "rajas"
         }
     ],
     "_gram": [
-        "[{#vyaD-ac#}]"
+        "{%n.%}",
+        "[{#raYj-asun nalopaH#} <ls>Uṇ. 4. 224</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Piercing, \nsplitting, hitting; <ls>Śi. 7. 24.</ls> ",
-        "{@--2@} \nSmiting, wounding, striking. ",
-        "{@--3@} \nPerforating. ",
-        "{@--4@} A stroke, wound. "
+        ".²1 Dust, powder, dirt; {#DanyAstadaNgarajasA malinIBavanti#} <ls>Ś. 7. 17</ls>;\n {#AtmodDatErapi rajoBiralaNGanIyAH#} <ls n=\"Ś.\">1. 8</ls>; <ls>R. 1. 42</ls>, <ls n=\"R.\">6. 33</ls>.\n",
+        ".²2 The dust or pollen of flowers; {#BUyAt kuSeSayarajomfdureRurasyAH#}\n ({#panTAH#}) <ls>Ś. 4. 11</ls>; <ls>Me. 35</ls>, <ls n=\"Me.\">67</ls>; <ls>Śi. 7. 42</ls>.\n",
+        ".²3 A mote in a sun-beam, any small particle (of matter); <ab>cf.</ab> <ls>Ms. 8. 132</ls>;\n {#jAlasUryamarIcisTaM trasareRU rajaH smftam#} <ls>Y. 1. 362</ls>.\n",
+        ".²4 A ploughed or cultivated land, arable field.\n",
+        ".²5 Gloom, darkness.\n",
+        ".²6 Foulness, passion, emotion, moral or mental darkness; {#apaTe padamarpayanti#}\n {#hi Srutavanto'pi rajonimIlitAH#} <ls>R. 9. 74</ls>.\n",
+        ".²7 The second of the three Guṇas or constituent qualities of all material\n substances (the other two being {#sattva#} and {#tamas#}; {#rajas#} is supposed\n to be the cause of the great activity seen in creatures; it predominates\n in men, as {%Sattva%} and {%Tamas%} predominate in gods and demons);\n {#antargatamapAstaM me rajaso'pi paraM tamaH#} <ls>Ku. 6. 60</ls>; <ls>Bg. 6. 27</ls>; {#rajojuze#}\n {#janmani#} <ls>K.</ls>; <ls>Māl. 1. 20</ls>.\n",
+        ".²8 Menstrual discharge, menses; {#rajasABiplutAM nArIM narasya hyupagacCataH .#}\n {#prajYA tejo balaM cakzurAyuScEva prahIyate ..#} <ls>Ms. 4. 41</ls>, <ls n=\"Ms.\">5. 66</ls>.\n",
+        ".²9 Safflower.\n",
+        ".²10 Tin.\n",
+        ".²11 <ab>Ved.</ab> Air, atmosphere.\n",
+        ".²12 A division of the world.\n",
+        ".²13 Vapour.\n",
+        ".²14 Cloud or rain-water.\n",
+        ".²15 Sin ({#pApa#}); {#prAyaScittaM ca kurvAnte tena tacCAmyate rajaH#}\n <ls>Rām. 4. 18. 34</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 229097,
+            "__line": 250256,
             "_ancestry": [
                 "L_ 27230",
-                "B_ {#vyaDaH#}",
-                "M_ {#--DA#}"
+                "B_ {#rajas#}",
+                "S_ .{@{#-guRaH#}@}"
             ],
-            "_banner": "{#--DA#}",
+            "_banner": ".{@{#-guRaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vyaDA"
+                    "Right": "rajoguRaH"
                 }
             ],
             "_meanings": [
-                "Bleeding."
+                "see (7) above.\n"
+            ]
+        },
+        {
+            "__line": 250257,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-juz#}@}"
+            ],
+            "_banner": ".{@{#-juz#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajojuz"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who is addicted to Rajoguṇa; {#rajojuze janmani#}\n {#sattvavfttaye#} <ls>K.</ls>\n"
+            ]
+        },
+        {
+            "__line": 250259,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-tamaska#}@}"
+            ],
+            "_banner": ".{@{#-tamaska#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajastamaska"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being under the influence of both {%rajas%}\n and {%tamas%}.\n"
+            ]
+        },
+        {
+            "__line": 250261,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-tokaH, -kam, -putraH#}@}"
+            ],
+            "_banner": ".{@{#-tokaH, -kam, -putraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajastokaH"
+                },
+                {
+                    "Right": "rajastokam"
+                },
+                {
+                    "Right": "rajaHputraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 greediness, avarice; {#munaye prezayAmAsa rajastokamadO taTA#} <ls>Bhāg. 12. 8. 16</ls>.\n",
+                ".²2 ‘the child of passion’, a term applied to a person to show that he\n is quite insignificant.\n"
+            ]
+        },
+        {
+            "__line": 250265,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-darSanam#}@}"
+            ],
+            "_banner": ".{@{#-darSanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajodarSanam"
+                }
+            ],
+            "_meanings": [
+                "the first appearance of the menstrual excretion, first\n menstrual flow.\n"
+            ]
+        },
+        {
+            "__line": 250267,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-nimIlita#}@}"
+            ],
+            "_banner": ".{@{#-nimIlita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajonimIlita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "blinded by passion; {#apaTe padamarpayanti hi#}\n {#Srutavanto'pi rajonimIlitAH#} <ls>R. 9. 74</ls>.\n"
+            ]
+        },
+        {
+            "__line": 250269,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-pawalam#}@}"
+            ],
+            "_banner": ".{@{#-pawalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajaHpawalam"
+                }
+            ],
+            "_meanings": [
+                "a coating of\n\n dust.\n"
+            ]
+        },
+        {
+            "__line": 250272,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-banDaH#}@}"
+            ],
+            "_banner": ".{@{#-banDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajobanDaH"
+                }
+            ],
+            "_meanings": [
+                "suppression of menstruation.\n"
+            ]
+        },
+        {
+            "__line": 250273,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-mUrtiH#}@}"
+            ],
+            "_banner": ".{@{#-mUrtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajomUrtiH"
+                }
+            ],
+            "_meanings": [
+                "the god Brahmā.\n"
+            ]
+        },
+        {
+            "__line": 250274,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-meGaH#}@}"
+            ],
+            "_banner": ".{@{#-meGaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajomeGaH"
+                }
+            ],
+            "_meanings": [
+                "a cloud of dust.\n"
+            ]
+        },
+        {
+            "__line": 250275,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-rasaH, -va(ba)lam#}@}"
+            ],
+            "_banner": ".{@{#-rasaH, -va(ba)lam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#rajas#} S_ .{@{#-rasaH, -va(ba)laM#}@}"
+                }
+            ],
+            "_meanings": [
+                "darkness.\n"
+            ]
+        },
+        {
+            "__line": 250276,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-SayaH#}@}"
+            ],
+            "_banner": ".{@{#-SayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajaHSayaH"
+                }
+            ],
+            "_meanings": [
+                "a dog; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 250277,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-SudDiH#}@}"
+            ],
+            "_banner": ".{@{#-SudDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajaHSudDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "pure condition of the menses.\n"
+            ]
+        },
+        {
+            "__line": 250278,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-sAraTiH#}@}"
+            ],
+            "_banner": ".{@{#-sAraTiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajaHsAraTiH"
+                }
+            ],
+            "_meanings": [
+                "wind; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 250279,
+            "_ancestry": [
+                "L_ 27230",
+                "B_ {#rajas#}",
+                "S_ .{@{#-haraH#}@}"
+            ],
+            "_banner": ".{@{#-haraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rajoharaH"
+                }
+            ],
+            "_meanings": [
+                "‘dirt-remover’, a washerman."
             ]
         }
     ]

@@ -1,17 +1,39 @@
 {
-    "__line": 15699,
+    "__line": 13676,
     "_ancestry": [
         "L_ 1506",
-        "B_ {#anukUlatA --tvaM#}"
+        "B_ {#anArjava#}"
     ],
-    "_banner": "{#anukUlatA --tvaM#}",
+    "_banner": "{#anArjava#}",
     "_bannerExp": [
         {
-            "Left": "lookup based expansion error:  {#anukUlatA --tvaM#}"
+            "Right": "anArjava"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Favour, conformity,\nkindness, good will;  \n{#pavanasyAnukUlatvAt#} <ls>R. 1. 42</ls> the wind being \nfavourable. ",
-        "{@--2@} Prosperity."
+        "Crooked; dishonest.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 13677,
+            "_ancestry": [
+                "L_ 1506",
+                "B_ {#anArjava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anArjavam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Crookedness (moral also), fraud, insincerity {#kAminyaH SradaDuranArjavaM#}\n {#narezu#} <ls>Śi. 8. 11</ls>.\n",
+                ".²2 [{#nAsti ArjavaM sAralyaM svAcCandyaM vA yasmin#}] Disease."
+            ]
+        }
     ]
 }

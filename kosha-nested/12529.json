@@ -1,16 +1,60 @@
 {
-    "__line": 104619,
+    "__line": 106140,
     "_ancestry": [
         "L_ 12529",
-        "B_ {#gItakaM#}"
+        "B_ {#kumbaH#}"
     ],
-    "_banner": "{#gItakaM#}",
+    "_banner": "{#kumbaH#}",
     "_bannerExp": [
         {
-            "Right": "gItakaM"
+            "Right": "kumbaH"
         }
     ],
     "_meanings": [
-        "A song. "
+        "<ab>Ved.</ab>\n",
+        ".²1 A kind of head-dress for women (?) {#kurIramasya SIrzaRi kumbaM cADinidaDmasi#} <ls>Av. 6. 138. 3</ls>.\n",
+        ".²2 The upper part of a club.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 106143,
+            "_ancestry": [
+                "L_ 12529",
+                "B_ {#kumbaH#}",
+                "M_ .{@{#-bA#}@}"
+            ],
+            "_banner": ".{@{#-bA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kumbA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A thick petticoat.\n",
+                ".²2 An enclosure round the sacrificial ground.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 106147,
+            "_ancestry": [
+                "L_ 12529",
+                "B_ {#kumbaH#}",
+                "S_ .{@{#-kurIraH#}@}"
+            ],
+            "_banner": ".{@{#-kurIraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kumbakurIraH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "kind of head-dress for women."
+            ]
+        }
     ]
 }

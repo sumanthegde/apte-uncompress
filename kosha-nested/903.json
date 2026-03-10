@@ -1,21 +1,79 @@
 {
-    "__line": 10373,
+    "__line": 8642,
     "_ancestry": [
         "L_ 903",
-        "B_ {#aDana#}"
+        "B_ {#ad#}"
     ],
-    "_banner": "{#aDana#}",
+    "_banner": "{#ad#}",
     "_bannerExp": [
         {
-            "Right": "aDana"
+            "Right": "ad"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na#}. {#ba#}.]"
+        "€2",
+        "<ab>P.</ab>",
+        "[{#atti, Ada, -jaGAsa, aGasat#}. {#atsyati, attum, anna-jagDa, jagDvA#}]"
     ],
     "_meanings": [
-        "{@--1@} Without\nwealth, poor. ",
-        "{@--2@} Not entitled or \ncompetent to possess independent \nproperty (in law); {#BAryA putraSca dAsaSca traya#} \n{#evADanAH smftAH . yatte samaDigacCaMti yasya te tasya#}\n{#tadDanam ..#} <ls>Ms. 8. 416.</ls>"
+        ".²1 To eat, devour.\n",
+        ".²2 To destroy.\n",
+        ".²3 = {#and#}, <ab>q. v.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 8645,
+            "_ancestry": [
+                "L_ 903",
+                "B_ {#ad#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "ad"
+                }
+            ],
+            "_meanings": [
+                "to feed with, cause to eat; {#AdayatyannaM#}\n {#vawunA#} <ls>Sk.</ls> "
+            ]
+        },
+        {
+            "__line": 8646,
+            "_ancestry": [
+                "L_ 903",
+                "B_ {#ad#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "ad"
+                }
+            ],
+            "_gram": [
+                "{#jiGatsati#}"
+            ],
+            "_meanings": [
+                "To wish to eat. [<ab>cf.</ab> <lang>L.</lang> {%edo%},\n <lang>Gr.</lang> {%edo%}, <lang>Germ.</lang> {%essen%}, <lang>Eng.</lang> {%eat%}; <lang>Lith.</lang> {%edmi%}, Sans. {%admi%},\n <lang>Goth.</lang> {%at%}, <lang>Zend.</lang> {%ad%}] With {#ava#} to satisfy by food, get rid of\n with feeding; (<ab>fig.</ab>) stop the mouth of. {#-A#} to eat <ab>&c.</ab> {#-pra-sam#}\n to use up, consume, devour; {#samadantyAmizaM KagAH#} <ls>Bk. 18. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 8651,
+            "_ancestry": [
+                "L_ 903",
+                "B_ {#ad#}",
+                "M_ .{@{#-vi#}@}"
+            ],
+            "_banner": ".{@{#-vi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyad"
+                }
+            ],
+            "_meanings": [
+                "to gnaw."
+            ]
+        }
     ]
 }

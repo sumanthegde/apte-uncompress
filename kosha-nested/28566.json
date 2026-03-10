@@ -1,16 +1,39 @@
 {
-    "__line": 240119,
+    "__line": 264028,
     "_ancestry": [
         "L_ 28566",
-        "B_ {#saMyAma#}"
+        "B_ {#varcasvin#}"
     ],
-    "_banner": "{#saMyAma#}",
+    "_banner": "{#varcasvin#}",
     "_bannerExp": [
         {
-            "Right": "saMyAma"
+            "Right": "varcasvin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "See {#saMyama#}."
+        ".²1 Vigorous, energetic, active.\n",
+        ".²2 Bright, brilliant, radiant. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 264030,
+            "_ancestry": [
+                "L_ 28566",
+                "B_ {#varcasvin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#varcasvin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The moon; <ls>L. D. B.</ls>"
+            ]
+        }
     ]
 }

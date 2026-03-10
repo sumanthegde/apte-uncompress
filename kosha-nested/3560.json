@@ -1,19 +1,86 @@
 {
-    "__line": 32887,
+    "__line": 30282,
     "_ancestry": [
         "L_ 3560",
-        "B_ {#aBojin#}"
+        "B_ {#aBimAnaH#}"
     ],
-    "_banner": "{#aBojin#}",
+    "_banner": "{#aBimAnaH#}",
     "_bannerExp": [
         {
-            "Right": "aBojin"
+            "Right": "aBimAnaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Not eating, fasting."
+        ".²1 Pride (in a good sense), self-respect, honourable or worthy feeling;\n {#sadABimAnEkaDanA hi mAninaH#} <ls>Śi. 1. 67</ls>; {#tyaktvA jAtikulABimAnamucitam#}\n <ls>Bh. 3. 5</ls>. {#aBimAnaDanasya#}\n\n {#gatvarEH#} <ls>Ki. 2. 19</ls>; {#saMkalpayoneraBimAnaBUtam#} <ls>Ku. 3. 24</ls>.\n",
+        ".²2 Self-conceit, pride, arrogance, haughtiness, egotism, high opinion\n of oneself; {#SiTila˚ nAH saMvfttAH#} <ls>M. 2</ls>; <ls>Bh. 3. 46</ls>; <ls>Bg. 16. 4</ls>; ({#atimAnaH#}\n is another reading) {#˚vat#} proud, conceited.\n",
+        ".²3 Referring all objects to self, the act of {#ahaMkAra#}, personality,\n misconception ({#miTyAjYAnam#}), see {#ahaMkAra#}.\n",
+        ".²4 Conceit, conception; supposition, belief, opinion; {#munirasmi nirAgasaH#}\n {#kuto me Bayamityeza na BUtaye'BimAnaH#} <ls>Ki. 13. 7</ls>.\n",
+        ".²5 Knowledge, consciousness ({#budDi, jYAna#}); {#sADAraRyABimAnataH#} <ls>S. D.</ls>\n",
+        ".²6 Affection, love.\n",
+        ".²7 Desire, wishing for.\n",
+        ".²8 Laying claim to.\n",
+        ".²9 Injury, Killing, seeking to injure.\n",
+        ".²10 A sort of state occasioned by love.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 30301,
+            "_ancestry": [
+                "L_ 3560",
+                "B_ {#aBimAnaH#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBimAnam"
+                }
+            ],
+            "_meanings": [
+                "Authority ({#pramARa#}); {#ye carantyaBimAnAni sfzwArTamanuzaNgiRaH#}\n <ls>Mb. 12. 168. 23</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 30304,
+            "_ancestry": [
+                "L_ 3560",
+                "B_ {#aBimAnaH#}",
+                "S_ .{@{#-SAlin#}@}"
+            ],
+            "_banner": ".{@{#-SAlin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBimAnaSAlin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "proud.\n"
+            ]
+        },
+        {
+            "__line": 30305,
+            "_ancestry": [
+                "L_ 3560",
+                "B_ {#aBimAnaH#}",
+                "S_ .{@{#-SUnya#}@}"
+            ],
+            "_banner": ".{@{#-SUnya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBimAnaSUnya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "void of pride or arrogance, humble."
+            ]
+        }
     ]
 }

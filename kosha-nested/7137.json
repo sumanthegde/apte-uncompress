@@ -1,19 +1,73 @@
 {
-    "__line": 61620,
+    "__line": 59981,
     "_ancestry": [
         "L_ 7137",
-        "B_ {#Asanvat#}"
+        "B_ {#ApyAyana#}"
     ],
-    "_banner": "{#Asanvat#}",
+    "_banner": "{#ApyAyana#}",
     "_bannerExp": [
         {
-            "Right": "Asanvat"
+            "Right": "ApyAyana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Having a mouth."
+        "Causing fulness or stoutness, promoting welfare.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 59982,
+            "_ancestry": [
+                "L_ 7137",
+                "B_ {#ApyAyana#}",
+                "M_ .{@{#-nam, -nA#}@}"
+            ],
+            "_banner": ".{@{#-nam, -nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApyAyanam"
+                },
+                {
+                    "Right": "ApyAyanA"
+                }
+            ],
+            "_gram": [
+                "[{#pyAy-lyuw#}]"
+            ],
+            "_meanings": [
+                ".²1 The act of making full or fat; {#kledanaM piRqanaM tfptiH prARanApyAyanondanam#} <ls>Bhāg. 3. 26. 43</ls>.\n\n",
+                ".²2 Satisfying, refreshing, pleasing.\n",
+                ".²3 Satisfaction, satiety; {#devasyApyAyanA Bavati#} <ls>Pt. 1</ls>; <ls>Ms. 3. 211</ls>.\n",
+                ".²4 Advancing, promoting.\n",
+                ".²5 Corpulency, growing fat or stout.\n",
+                ".²6 Anything which causes corpulency or good condition.\n",
+                ".²7 A strengthening medicine.\n",
+                ".²8 Pouring water on Soma and thus causing it to swell.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 59993,
+            "_ancestry": [
+                "L_ 7137",
+                "B_ {#ApyAyana#}",
+                "S_ .{@{#-SIla#}@}"
+            ],
+            "_banner": ".{@{#-SIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApyAyanaSIla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "satisfying."
+            ]
+        }
     ]
 }

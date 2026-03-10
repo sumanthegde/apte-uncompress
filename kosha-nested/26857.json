@@ -1,72 +1,95 @@
 {
-    "__line": 226485,
+    "__line": 245462,
     "_ancestry": [
         "L_ 26857",
-        "B_ {#vfD#}"
+        "B_ {#yajus#}"
     ],
-    "_banner": "{#vfD#}",
+    "_banner": "{#yajus#}",
     "_bannerExp": [
         {
-            "Right": "vfD"
+            "Right": "yajus"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>A.</ab>",
-        "(but Paras, also in \n\nthe Second Future, Aorist and \nConditional, also in the Desiderative)"
+        "{%n.%}",
+        "[{#yaj-usi#}]"
     ],
     "_meanings": [
-        "({#varDate, vavfDe, avfDat-avarDizwa, varDi'yate#} \n{#varstyati, vfdDa#}; {%<ab>desid.</ab>%} {#vivftsati#}, or {#vivarDizate#}) ",
-        "{@--1@}\nTo grow, increase, become larger,\nstronger, or greater, thrive, prosper;\n{#anyonyajayasaMraMBo vavfDe vAdinoriva#}  \n<ls>R. 12. 92</ls>, <ls n=\"R.\">10. 78</ls>; {#Danakzaye varDati#} \n{#jAWarAgniH#} <ls>Subhāṣ.</ls>; <ls>Bk. 14. 13</ls>, <ls n=\"Bk.\">19. 26.</ls>\n",
-        "{@--2@} To continue, last. ",
-        "{@--3@} To rise, \nascend. ",
-        "{@--4@} To have cause for \ncongratulation, usually with {#dizwyA#}; {#dizwyA#}\n{#DarmapatnIsamAgamena putramuKadarSanena cAyuzmAn#}\n{#varDate#} <ls>Ś. 7</ls> ‘your honour is to be \ncongratulated upon your union’ &c.\n"
+        ".²1 A sacrificial prayer or formula; {#tAM kAmayAnAM BagavAnuvAha yajuzAM#}\n {#patiH#} <ls>Bhāg. 4. 1. 6</ls>.\n",
+        ".²2 A text of the Yajurveda, or the body of sacred {%mantras%} in prose\n muttered at sacrifices; {#vfttagItivajiMtatvena praSlizwapaWitA mantrA#}\n {#yajUMzi#} Sāyaṇa; <ab>cf.</ab> {#mantra#}.\n",
+        ".²3 <ab>N.</ab> of the Yajurveda.\n",
+        ".²4 <ab>Ved.</ab> Worship, oblation.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 226502,
+            "__line": 245471,
             "_ancestry": [
                 "L_ 26857",
-                "B_ {#vfD#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#yajus#}",
+                "S_ .{@{#-udaraH#}@}"
             ],
+            "_banner": ".{@{#-udaraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vfD"
+                    "Right": "yajurudaraH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
-            ],
             "_meanings": [
-                "({#varDayati-te#}, also {#varDApayati-te#})\n",
-                "{@--1@} To cause to grow, increase, \naugment, heighten, amplify, enhance;\n{#varDayanniva tatkUwAnudDUtErDAtureRuBiH#}  \n<ls>R. 4. 71.</ls> ",
-                "{@--2@} To cause to prosper or thrive,\nglorify, magnify, exalt; <ls>H. 3. 3.</ls> ",
-                "{@--3@}\nTo congratulate, felicitate ({#varDApayAti#}\nin this sense); {#yadi kopi tvAM#} \n{#sAMprataM madayaMtikAlABena varDApayati tadA kiM#}\n{#tasya pAritozikaM karozi#} <ls>Māl. 8.</ls> "
+                "<ab>Ved.</ab> an epithet of Brahman.\n"
             ]
         },
         {
-            "__line": 226511,
+            "__line": 245472,
             "_ancestry": [
                 "L_ 26857",
-                "B_ {#vfD#}",
-                "M_ {vII.v}"
+                "B_ {#yajus#}",
+                "S_ .{@{#-patiH#}@}"
             ],
+            "_banner": ".{@{#-patiH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vfD"
+                    "Right": "yajuzpatiH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 245473,
+            "_ancestry": [
+                "L_ 26857",
+                "B_ {#yajus#}",
+                "S_ .{@{#-vid#}@}"
+            ],
+            "_banner": ".{@{#-vid#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yajurvid"
                 }
             ],
             "_gram": [
-                "{vII.v}",
-                "{c10c}",
-                "<ab>U.</ab>",
-                "({#varDayati-te#})"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To speak. ",
-                "{@--2@} To\nshine."
+                "knowing the sacrificial formulae.\n"
+            ]
+        },
+        {
+            "__line": 245474,
+            "_ancestry": [
+                "L_ 26857",
+                "B_ {#yajus#}",
+                "S_ .{@{#-vedaH#}@}"
+            ],
+            "_banner": ".{@{#-vedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yajurvedaH"
+                }
+            ],
+            "_meanings": [
+                "the second of the three (or four, including the Atharvaveda)\n principal Vedas, which is a collection of sacred texts in prose relating\n to sacrifices; it has two chief branches or recensions:-- the {#tEttirIya#}\n or {#kfzRayajurveda#} and {#vAjasaneyI#} or {#Suklayajurveda#}."
             ]
         }
     ]

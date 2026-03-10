@@ -1,55 +1,153 @@
 {
-    "__line": 144126,
+    "__line": 149418,
     "_ancestry": [
         "L_ 17137",
-        "B_ {#niSita#}"
+        "B_ {#dAhaH#}"
     ],
-    "_banner": "{#niSita#}",
+    "_banner": "{#dAhaH#}",
     "_bannerExp": [
         {
-            "Right": "niSita"
+            "Right": "dAhaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#dah-BAve-GaY#}]"
     ],
     "_meanings": [
-        "{@--1@} Sharpened, whetted,\nsharp; {#niSitanipAtAH SarAH#} <ls>Ś. 1. 10.</ls>\n",
-        "{@--2@} Stimulated. "
+        ".²1 Burning, conflagration; {#dAhaSaktimiva kfzRavartmani#} <ls>R. 11. 42</ls>;\n {#Cedo daMSasya dAho vA#} <ls>M. 4. 4</ls>; <ls>Ki. 5. 14</ls>.\n",
+        ".²2 Glowing redness (as of the sky).\n",
+        ".²3 The sensation of burning, internal heat.\n",
+        ".²4 Feverish or morbid heat.\n",
+        ".²5 A place of cremation; <ls>Vās. 19. 26</ls>.\n",
+        ".²6 Cauterizing; <ls>M. 4. 4</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 144128,
+            "__line": 149427,
             "_ancestry": [
                 "L_ 17137",
-                "B_ {#niSita#}",
-                "M_ {#--taM#}"
+                "B_ {#dAhaH#}",
+                "S_ .{@{#-aguruH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-aguruH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "niSitaM"
+                    "Right": "dAhAguruH"
                 }
             ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-kAzWam#}@}"
+            ],
             "_meanings": [
-                "Iron. "
+                "a kind of agallochum.\n"
             ]
         },
         {
-            "__line": 144128,
+            "__line": 149429,
             "_ancestry": [
                 "L_ 17137",
-                "B_ {#niSita#}",
-                "M_ {#--tA#}"
+                "B_ {#dAhaH#}",
+                "S_ .{@{#-Atmaka#}@}"
             ],
-            "_banner": "{#--tA#}",
+            "_banner": ".{@{#-Atmaka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "niSitA"
+                    "Right": "dAhAtmaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "destructive, having power to burn, combustible;\n {#SamapraDAnezu tapoDanezu gUQaM hi dAhAtmakamasti tejaH#} <ls>Ś. 2. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 149431,
+            "_ancestry": [
+                "L_ 17137",
+                "B_ {#dAhaH#}",
+                "S_ .{@{#-jvaraH#}@}"
+            ],
+            "_banner": ".{@{#-jvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dAhajvaraH"
                 }
             ],
             "_meanings": [
-                "Night."
+                "inflammatory fever.\n"
+            ]
+        },
+        {
+            "__line": 149432,
+            "_ancestry": [
+                "L_ 17137",
+                "B_ {#dAhaH#}",
+                "S_ .{@{#-saraH, -saras#}@}"
+            ],
+            "_banner": ".{@{#-saraH, -saras#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dAhasaraH"
+                },
+                {
+                    "Right": "dAhasaras"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-sTalam#}@}"
+            ],
+            "_meanings": [
+                "a place where dead bodies are burnt, cemetery.\n"
+            ]
+        },
+        {
+            "__line": 149434,
+            "_ancestry": [
+                "L_ 17137",
+                "B_ {#dAhaH#}",
+                "S_ .{@{#-hara, -haraRa#}@}"
+            ],
+            "_banner": ".{@{#-hara, -haraRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dAhahara"
+                },
+                {
+                    "Right": "dAhaharaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "allaying heat.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 149435,
+                    "_ancestry": [
+                        "L_ 17137",
+                        "B_ {#dAhaH#}",
+                        "S_ .{@{#-hara, -haraRa#}@}",
+                        "S_M_ ({@{#-ram, Ram#}@}"
+                    ],
+                    "_banner": "({@{#-ram, Ram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "dAhaharam"
+                        },
+                        {
+                            "Left": "S_M_ 1 error: dAhahara ({@{#-raM, RaM#}@}"
+                        }
+                    ],
+                    "_meanings": [
+                        "the Uśīra plant."
+                    ]
+                }
             ]
         }
     ]

@@ -1,39 +1,83 @@
 {
-    "__line": 44161,
+    "__line": 41953,
     "_ancestry": [
         "L_ 4939",
-        "B_ {#avahAraka#}"
+        "B_ {#avawuH#}"
     ],
-    "_banner": "{#avahAraka#}",
+    "_banner": "{#avawuH#}",
     "_bannerExp": [
         {
-            "Right": "avahAraka"
+            "Right": "avawuH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#ava-wIk mit˚qu#}]"
     ],
     "_meanings": [
-        "{@--1@} One taking away\nfrom one place to another. ",
-        "{@--2@} One\nwho desists from fighting. ",
-        "{@--3@} \nPreventing, stopping. "
+        ".²1 A hole in the ground.\n",
+        ".²2 A well.\n",
+        ".²3 The back or nape of the neck; {#‘avawurGAwA kfkAwikA’ ityamaraH#}.\n",
+        ".²4 The depressed part of the body.\n",
+        ".²5 A kind of tree.\n"
     ],
     "_morphisms": [
         {
-            "__line": 44164,
+            "__line": 41959,
             "_ancestry": [
                 "L_ 4939",
-                "B_ {#avahAraka#}",
-                "M_ {#--kaH#}"
+                "B_ {#avawuH#}",
+                "M_ .{@{#-wuH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-wuH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avahArakaH"
+                    "Right": "avawuH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "The raised portion of the neck.\n"
+            ]
+        },
+        {
+            "__line": 41960,
+            "_ancestry": [
+                "L_ 4939",
+                "B_ {#avawuH#}",
+                "M_ .{@{#-wu#}@}"
+            ],
+            "_banner": ".{@{#-wu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avawu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "A hole, a rent.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 41962,
+            "_ancestry": [
+                "L_ 4939",
+                "B_ {#avawuH#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avawujaH"
                 }
             ],
             "_meanings": [
-                "A shark,\na marine monster."
+                "a hind curl; hair on the back of the head; {#rAgavAnavawujezvavakfzya#} <ls>Śi. 10. 52</ls>."
             ]
         }
     ]

@@ -1,29 +1,85 @@
 {
-    "__line": 163447,
+    "__line": 174935,
     "_ancestry": [
         "L_ 19521",
-        "B_ {#prakf#}"
+        "B_ {#nemiH#}, {#-mI#}"
     ],
-    "_banner": "{#prakf#}",
+    "_banner": "{#nemiH#}, {#-mI#}",
     "_bannerExp": [
         {
-            "Right": "prakf"
+            "Right": "nemiH"
+        },
+        {
+            "Right": "nemI"
         }
     ],
     "_gram": [
-        "{c8c}",
-        "<ab>U.</ab>"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} To do, perform, \ncommence (used much in the same\nsense as {#kf#}); {#jAnannapi naro#} \n{#dEvAtprakaroti vigarhitaM#} <ls>Pt. 4. 35</ls>; <ls>Ki. 4. 30</ls>,\n<ls>Mv. 2. 13</ls>, <ls>Bk. 2. 36</ls>; <ls>Rs. 1. 6</ls>;\n<ls>Ms. 8. 54</ls>, <ls n=\"Ms. 8.\">60</ls>; <ls n=\"Ms.\">8. 230</ls>; <ls>Amaru. 13.</ls>\n",
-        "{@--2@} To accomplish, achieve, effect.\n",
-        "{@--3@} To assault, outrage, insult;  \n<ls>Bk. 8. 19.</ls> ",
-        "{@--4@} To honor, worship. ",
-        "{@--5@}\nTo express, utter. ",
-        "{@--6@} To place in\nfront, mention first. ",
-        "{@--7@} To appoint\n(to a post, office &c.). ",
-        "{@--8@} <ab>Ved.</ab> To\ninduce. ",
-        "{@--9@} To win, conquer. ",
-        "{@--10@}\nTo destroy."
+        ".²1 The circumference, ring or felly of a wheel; {#upoQaSabdA na raTANganemayaH#}\n <ls>Ś. 7. 10</ls>; {#cakranemikrameRa#} <ls>Me. 111</ls>; <ls>R. 1. 17</ls>, <ls n=\"R. 1.\">39</ls>.\n",
+        ".²2 Edge, rim; {#BujAn kuWAreRa kaWoraneminA cicCeda rAmaH prasaBaM tvaheriva#}\n <ls>Bhāg. 9. 15. 34</ls>.\n",
+        ".²3 A windlass.\n",
+        ".²4 A circumference (in general); {#udaDinemi#} <ls>R. 9. 10</ls>.\n",
+        ".²5 A thunderbolt.\n",
+        ".²6 The earth.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 174944,
+            "_ancestry": [
+                "L_ 19521",
+                "B_ {#nemiH#}, {#-mI#}",
+                "M_ .{@{#-miH#}@}"
+            ],
+            "_banner": ".{@{#-miH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nemiH"
+                }
+            ],
+            "_meanings": [
+                "The tree {#tiniSa#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 174946,
+            "_ancestry": [
+                "L_ 19521",
+                "B_ {#nemiH#}, {#-mI#}",
+                "S_ .{@{#-tumbAram#}@}"
+            ],
+            "_banner": ".{@{#-tumbAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nemitumbAram"
+                }
+            ],
+            "_meanings": [
+                "The felly and nave; {#SoBanamasya cakrasya nemitumbAram#}\n <ls>ŚB. on MS. 1. 4. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 174948,
+            "_ancestry": [
+                "L_ 19521",
+                "B_ {#nemiH#}, {#-mI#}",
+                "S_ .{@{#-vftti#}@}"
+            ],
+            "_banner": ".{@{#-vftti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nemivftti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following the course of, acting like, the outer\n rims of the wheel; {#na vyatIyuH prajAstasya niyanturnemivfttayaH#} <ls>R. 1. 17</ls>."
+            ]
+        }
     ]
 }

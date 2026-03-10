@@ -1,37 +1,81 @@
 {
-    "__line": 148381,
+    "__line": 155582,
     "_ancestry": [
         "L_ 17613",
-        "B_ {#pawamaya#}"
+        "B_ {#dohadaH#}, {#-dam#}"
     ],
-    "_banner": "{#pawamaya#}",
+    "_banner": "{#dohadaH#}, {#-dam#}",
     "_bannerExp": [
         {
-            "Right": "pawamaya"
+            "Right": "dohadaH"
+        },
+        {
+            "Right": "dohadam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#dohamAkarzaM dadAti dA-ka#}]"
     ],
     "_meanings": [
-        "Made of cloth. "
+        ".²1\n",
+        ".³({%a%}) The longing of a pregnant woman; {#prajAvatI dohadaSaMsinI te#}\n <ls>R. 14. 45</ls>; {#upetya sA dohadaduHKaSIlatAM yadeva vavre tadapaSyadAhftam#} <ls n=\"R.\">3. 6</ls>, <ls n=\"R. 3.\">7</ls>.\n",
+        ".³({%b%}) The desired object itself.\n",
+        ".²2 Pregnancy.\n",
+        ".²3 The desire of plants at budding time (as, for instance, of the Aśoka\n to be kicked by young ladies, of the Bakula to be sprinkled by mouthfuls\n of liquor <ab>&c.</ab>); {#mahIruhA dohadasekaSakterAkAlikaM korakamudgiranti#}\n <ls>N. 3. 21</ls>; <ls>R. 8. 63</ls>; <ls>Me. 78</ls>; see {#aSoka#}.\n",
+        ".²4 Vehement desire; {#pravartitamahAsamaradohadA narapatayaH#} <ls>Ve. 4</ls>.\n",
+        ".²5 Wish or desire in general.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 148381,
+            "__line": 155596,
             "_ancestry": [
                 "L_ 17613",
-                "B_ {#pawamaya#}",
-                "M_ {#--yaH#}"
+                "B_ {#dohadaH#}, {#-dam#}",
+                "S_ .{@{#-duHKaSIlatA#}@}"
             ],
-            "_banner": "{#--yaH#}",
+            "_banner": ".{@{#-duHKaSIlatA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pawamayaH"
+                    "Right": "dohadaduHKaSIlatA"
                 }
             ],
             "_meanings": [
-                "A\ntent."
+                "pregnancy; {#upetya sA dohadaduHKaSIlatAm#} <ls>R. 3. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155597,
+            "_ancestry": [
+                "L_ 17613",
+                "B_ {#dohadaH#}, {#-dam#}",
+                "S_ .{@{#-DUpaH#}@}"
+            ],
+            "_banner": ".{@{#-DUpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dohadaDUpaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of fragrant substance used as manure; {#dAqime dohadaDUpini#}\n {#drume#} <ls>N. 1. 82</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155599,
+            "_ancestry": [
+                "L_ 17613",
+                "B_ {#dohadaH#}, {#-dam#}",
+                "S_ .{@{#-lakzaRam#}@}"
+            ],
+            "_banner": ".{@{#-lakzaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dohadalakzaRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the foetus, the embryo (= {#dOrhfdalakzaRa#} <ab>q. v.</ab>).\n",
+                ".²2 the period of passing from one stage of life to another."
             ]
         }
     ]

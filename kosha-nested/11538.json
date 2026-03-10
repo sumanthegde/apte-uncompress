@@ -1,61 +1,192 @@
 {
-    "__line": 96846,
+    "__line": 96688,
     "_ancestry": [
         "L_ 11538",
-        "B_ {#kokilaH, --lA#}"
+        "B_ {#karakaH#}, {#-kam#}"
     ],
-    "_banner": "{#kokilaH, --lA#}",
+    "_banner": "{#karakaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "kokilA"
+            "Right": "karakaH"
         },
         {
-            "Right": "kokilaH"
+            "Right": "karakam"
         }
     ],
     "_gram": [
-        "[{#kuk-ilac#}  \n<ls>Uṇ. 1. 54</ls>]"
+        "[{#kirati karoti vA jalamatra, kF-kf-vun#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} The (Indian or black) \ncuckoo; {#puMskokilo yanmaDuraM cukUja#}  \n<ls>Ku. 3. 32</ls>; <ls n=\"Ku.\">4. 16</ls>; <ls>R. 12. 39.</ls> ",
-        "{@--2@} A fire-brand.\n"
+        ".²1 The water-pot (of an ascetic); <ls>K. 41</ls>. {#eza pArSvataH karakaH tamAnaya#}\n <ls>Mbh.</ls> on <ls>P. VIII. 2. 84</ls>. {#ajinAni viDunvantaH karakAMSca dvijarzaBAH#}\n <ls>Mb. 1. 190. 1</ls>. {#tripadEH karakEH sTAlEScazakESca patadgrahEH#} <ls>Śiva B. 22. 62</ls>.\n",
+        ".²2 The shell of the cocoa-nut (used as a pot).\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 96850,
+            "__line": 96694,
             "_ancestry": [
                 "L_ 11538",
-                "B_ {#kokilaH, --lA#}",
-                "S_  {#--AvAsaH, --utsavaH#}"
+                "B_ {#karakaH#}, {#-kam#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": " {#--AvAsaH, --utsavaH#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kokilAvAsaH"
-                },
-                {
-                    "Right": "kokilotsavaH"
+                    "Right": "karakaH"
                 }
             ],
             "_meanings": [
-                "the mango\ntree. "
+                ".²1 The pomegranate tree.\n",
+                ".²2 Hand.\n",
+                ".²3 Tax.\n",
+                ".²4 A kind of bird\n",
+                ".²5 A loud cry.\n"
             ]
         },
         {
-            "__line": 96851,
+            "__line": 96700,
             "_ancestry": [
                 "L_ 11538",
-                "B_ {#kokilaH, --lA#}",
-                "S_ {#--ikzuH#}"
+                "B_ {#karakaH#}, {#-kam#}",
+                "M_ .{@{#-kaH, -kA, -kam#}@}"
             ],
-            "_banner": "{#--ikzuH#}",
+            "_banner": ".{@{#-kaH, -kA, -kam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kokilekzuH"
+                    "Right": "karakaH"
+                },
+                {
+                    "Right": "karakA"
+                },
+                {
+                    "Right": "karakam"
                 }
             ],
             "_meanings": [
-                "a kind of sugar cane."
+                "Hail; {#tAnkurvAMTAstumulakarakAvfzwipAtAvakIrRAn#}\n <ls>Me. 56</ls>; <ls>Bv. 1. 35</ls>; <ls>U. 3. 40</ls>;\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 96702,
+            "_ancestry": [
+                "L_ 11538",
+                "B_ {#karakaH#}, {#-kam#}",
+                "S_ {@{#amBas#}@}"
+            ],
+            "_banner": "{@{#amBas#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#karakaH#} S_ {@{#aMBas#}@}"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the cocoa-nut tree.\n"
+            ]
+        },
+        {
+            "__line": 96703,
+            "_ancestry": [
+                "L_ 11538",
+                "B_ {#karakaH#}, {#-kam#}",
+                "S_ .{@{#-AsAraH#}@}"
+            ],
+            "_banner": ".{@{#-AsAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karakAsAraH"
+                }
+            ],
+            "_meanings": [
+                "a shower of hail.\n"
+            ]
+        },
+        {
+            "__line": 96704,
+            "_ancestry": [
+                "L_ 11538",
+                "B_ {#karakaH#}, {#-kam#}",
+                "S_ .{@{#-caturTI#}@}"
+            ],
+            "_banner": ".{@{#-caturTI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karakacaturTI"
+                }
+            ],
+            "_meanings": [
+                "The fourth day in the dark half of {#ASvina#}.\n"
+            ]
+        },
+        {
+            "__line": 96705,
+            "_ancestry": [
+                "L_ 11538",
+                "B_ {#karakaH#}, {#-kam#}",
+                "S_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karakajam"
+                }
+            ],
+            "_meanings": [
+                "water.\n"
+            ]
+        },
+        {
+            "__line": 96706,
+            "_ancestry": [
+                "L_ 11538",
+                "B_ {#karakaH#}, {#-kam#}",
+                "S_ .{@{#-toyaH#}@}"
+            ],
+            "_banner": ".{@{#-toyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karakatoyaH"
+                }
+            ],
+            "_meanings": [
+                "The cocoa-nut tree.\n"
+            ]
+        },
+        {
+            "__line": 96707,
+            "_ancestry": [
+                "L_ 11538",
+                "B_ {#karakaH#}, {#-kam#}",
+                "S_ .{@{#-pAtrikA#}@}"
+            ],
+            "_banner": ".{@{#-pAtrikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karakapAtrikA"
+                }
+            ],
+            "_meanings": [
+                "a water-pot used by ascetics.\n"
+            ]
+        },
+        {
+            "__line": 96708,
+            "_ancestry": [
+                "L_ 11538",
+                "B_ {#karakaH#}, {#-kam#}",
+                "S_ .{@{#-vAri#}@}"
+            ],
+            "_banner": ".{@{#-vAri#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karakavAri"
+                }
+            ],
+            "_meanings": [
+                "Hail-water; <ls>Kau. A. 1. 20</ls>."
             ]
         }
     ]

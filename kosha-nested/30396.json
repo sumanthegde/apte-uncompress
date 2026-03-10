@@ -1,19 +1,1379 @@
 {
-    "__line": 254902,
+    "__line": 280397,
     "_ancestry": [
         "L_ 30396",
-        "B_ {#suraBimat#}"
+        "B_ {#viSva#}"
     ],
-    "_banner": "{#suraBimat#}",
+    "_banner": "{#viSva#}",
     "_bannerExp": [
         {
-            "Right": "suraBimat"
+            "Right": "viSva"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%<ab>pron. a.</ab>%}",
+        "[{#viS-va#} <ls>Uṇ. 1. 151</ls>]"
     ],
     "_meanings": [
-        "<ab>N.</ab> of fire."
+        ".²1 All, whole, entire, universal; {#sa sarvanAmA sa ca viSvarUpaH#} <ls>Bhāg. 6. 4. 28</ls>.\n",
+        ".²2 Every, every one.\n",
+        ".²3 All-pervading, omnipresent. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 280400,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#viSva#} M_ --{%m.%}"
+                }
+            ],
+            "_gram": [
+                "{%<ab>pl.</ab>%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a particular group of\n deities, ten in number and supposed to be sons of {#viSvA#}; their names\n are:-- {#vasuH satyaH kraturdakzaH kAlaH kAmo DftiH kuruH . purUravA mAdravaSca#}\n {#viSvedevAH prakIrtitAH .. devAH sADyAstaTA viSve taTEva ca maharzayaH#}\n <ls>Mb. 3. 261. 6</ls>; <ls>Bg. 11. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 280405,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "M_ .{@{#-Svam#}@}"
+            ],
+            "_banner": ".{@{#-Svam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The universe, the (whole) world; {#idaM viSvaM pAlyam#} <ls>U. 3. 30</ls>; {#viSvasminnaDunAnyaH#}\n {#kulavrataM pAlayizyati kaH#} <ls>Bv. 1. 13</ls>.\n",
+                ".²2 Dry ginger.\n",
+                ".²3 <ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 280410,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "M_ .{@{#-SvaH#}@}"
+            ],
+            "_banner": ".{@{#-SvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The soul; <ls>Bhāg. 7. 15. 54</ls>; <ls>A. Rām. 7. 5. 49-50</ls>; the intellectual faculty.\n",
+                ".²2 A citizen ({#nAgara#}).\n"
+            ]
+        },
+        {
+            "__line": 280413,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "M_ .{@{#-SvA#}@}"
+            ],
+            "_banner": ".{@{#-SvA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvA"
+                }
+            ],
+            "_meanings": [
+                ".²1 The earth.\n",
+                ".²2 Asparagus Racemosus (<lang>Mar.</lang> <ns>{#SatAvarI#}</ns>).\n",
+                ".²3 Dry ginger.\n",
+                ".²4 The plant {#ativizA#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 280419,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvAtman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the Supreme Being (soul of the universe).\n",
+                ".²2 an epithet of Brahman.\n",
+                ".²3 of Śiva; {#aTa viSvAtmane gOrI saMdideSa miTaH saKIm#} <ls>Ku. 6. 1</ls>.\n",
+                ".²4 of Viṣṇu.\n",
+                ".²5 of the sun.\n"
+            ]
+        },
+        {
+            "__line": 280425,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-AtmanA#}@}"
+            ],
+            "_banner": ".{@{#-AtmanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvAtmanA"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "thoroughly; {#viSvAtmanA yatra nivartate BIH#}\n <ls>Bhāg. 11. 2. 33</ls>.\n"
+            ]
+        },
+        {
+            "__line": 280427,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-ADAraH#}@}"
+            ],
+            "_banner": ".{@{#-ADAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvADAraH"
+                }
+            ],
+            "_meanings": [
+                "support of the universe; {#viSvADAraM gaganasadfSaM meGavarRaM#}\n {#SuBANgam#} <ls>Viṣṇustotra.</ls>\n"
+            ]
+        },
+        {
+            "__line": 280429,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-invaH#}@}"
+            ],
+            "_banner": ".{@{#-invaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvenvaH"
+                }
+            ],
+            "_gram": [
+                "({#viSvaminvaH#})"
+            ],
+            "_meanings": [
+                "All-moving (an epithet of Śiva).\n"
+            ]
+        },
+        {
+            "__line": 280430,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-ISaH, -ISvaraH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH, -ISvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSveSaH"
+                },
+                {
+                    "Right": "viSveSvaraH"
+                }
+            ],
+            "_meanings": [
+                "(also {#viSvamISvaraH#} as one word used in the\n <ls>Mbh.</ls> and <ls>Kūrmapurāṇa ch. 26.</ls>)\n",
+                ".²1 the Supreme Being, lord of the universe.\n",
+                ".²2 an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 280434,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-OzaDam#}@}"
+            ],
+            "_banner": ".{@{#-OzaDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvOzaDam"
+                }
+            ],
+            "_meanings": [
+                "dry ginger.\n"
+            ]
+        },
+        {
+            "__line": 280435,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-kadru#}@}"
+            ],
+            "_banner": ".{@{#-kadru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvakadru"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wicked, low, vile.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 280436,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-kadru#}@}",
+                        "S_M_ ({@{#-druH#}@}"
+                    ],
+                    "_banner": "({@{#-druH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvakadruH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a hound, dog trained for the chase.\n",
+                        ".²2 sound.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 280439,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvakarman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of the architect of gods; <ab>cf.</ab> {#tvazwf#}.\n",
+                ".²2 an epithet of the sun.\n",
+                ".²3 one of the seven principal rays of the sun.\n",
+                ".²4 a great saint.\n",
+                ".²5 the Supreme Being. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 280444,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-karman#}@}",
+                        "S_S_ {#˚jA, ˚sutA#}"
+                    ],
+                    "_banner": "{#˚jA, ˚sutA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvakarmajA"
+                        },
+                        {
+                            "Right": "viSvakarmasutA"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of {#saMjYA#}, one of\n the wives of the sun.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 280446,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-kAruH#}@}"
+            ],
+            "_banner": ".{@{#-kAruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvakAruH"
+                }
+            ],
+            "_meanings": [
+                "the architect of the universe ({#viSvakarmA#}).\n"
+            ]
+        },
+        {
+            "__line": 280447,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-kAryaH#}@}"
+            ],
+            "_banner": ".{@{#-kAryaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvakAryaH"
+                }
+            ],
+            "_meanings": [
+                "one of the rays of the sun.\n"
+            ]
+        },
+        {
+            "__line": 280448,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvakft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the creator of all beings; {#nivedito'TANgirasA somaM nirBartsya viSvakft#}\n <ls>Bhāg. 9. 14. 8</ls>.\n",
+                ".²2 an epithet of Viśvakarman.\n"
+            ]
+        },
+        {
+            "__line": 280452,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-ketuH#}@}"
+            ],
+            "_banner": ".{@{#-ketuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaketuH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Aniruddha.\n"
+            ]
+        },
+        {
+            "__line": 280453,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvagaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Brahman.\n"
+            ]
+        },
+        {
+            "__line": 280454,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvagata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Omnipresent.\n"
+            ]
+        },
+        {
+            "__line": 280455,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-ganDaH#}@}"
+            ],
+            "_banner": ".{@{#-ganDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaganDaH"
+                }
+            ],
+            "_meanings": [
+                "an onion.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 280456,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-ganDaH#}@}",
+                        "S_M_ ({@{#-nDam#}@}"
+                    ],
+                    "_banner": "({@{#-nDam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvaganDam"
+                        }
+                    ],
+                    "_meanings": [
+                        "myrrh.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 280457,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-ganDA#}@}"
+            ],
+            "_banner": ".{@{#-ganDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaganDA"
+                }
+            ],
+            "_meanings": [
+                "the earth.\n"
+            ]
+        },
+        {
+            "__line": 280458,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-gocara#}@}"
+            ],
+            "_banner": ".{@{#-gocara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvagocara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "accessible to all men.\n"
+            ]
+        },
+        {
+            "__line": 280459,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-goptf#}@}"
+            ],
+            "_banner": ".{@{#-goptf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvagoptf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Viṣṇu. ",
+                ".²2 Indra.\n"
+            ]
+        },
+        {
+            "__line": 280461,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-granTiH#}@}"
+            ],
+            "_banner": ".{@{#-granTiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvagranTiH"
+                }
+            ],
+            "_meanings": [
+                "the plant called {#haMsapadI#}.\n"
+            ]
+        },
+        {
+            "__line": 280462,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-cakram#}@}"
+            ],
+            "_banner": ".{@{#-cakram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvacakram"
+                }
+            ],
+            "_meanings": [
+                "a kind of valuable gift ({#mahAdAna#}) of pure gold.\n"
+            ]
+        },
+        {
+            "__line": 280463,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-carzaRi#}@}"
+            ],
+            "_banner": ".{@{#-carzaRi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvacarzaRi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> all-pervading, worldwide, extending everywhere.\n"
+            ]
+        },
+        {
+            "__line": 280464,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-janam#}@}"
+            ],
+            "_banner": ".{@{#-janam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvajanam"
+                }
+            ],
+            "_meanings": [
+                "mankind.\n"
+            ]
+        },
+        {
+            "__line": 280465,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-janIna, -janya, -janIya#}@}"
+            ],
+            "_banner": ".{@{#-janIna, -janya, -janIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvajanIna"
+                },
+                {
+                    "Right": "viSvajanya"
+                },
+                {
+                    "Right": "viSvajanIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "good for all men, suitable to\n all mankind, beneficial to all men; {#viSvajanyamimaM puRyamupanyAsaM niboData#}\n <ls>Ms. 9. 31</ls>; <ls>Śi. 1. 41</ls>; {#ko vA viSvajanInezu karmasu prAGawizyata#} <ls>Bk. 21. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 280468,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-jit#}@}"
+            ],
+            "_banner": ".{@{#-jit#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvajit"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a particular sacrifice; <ls>Ms. 11. 74</ls>; {#tamaDvare#}\n {#viSvajiti kzitISaM niHSezaviSrARitakoSa-jAtam#}\n\n <ls>R. 5. 1</ls>.\n",
+                ".²2 the noose of Varuṇa.\n",
+                ".²3 <ab>N.</ab> of Viṣṇu. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 280473,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-jit#}@}",
+                        "S_S_ {#˚nyAyaH#}"
+                    ],
+                    "_banner": "{#˚nyAyaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvajinnyAyaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the rule according to which an action for\n which no fruit is enjoined directly should be considered as having {#svarga#}\n as its {#Pala#}. This is established in connection with the {#viSvajit#}\n sacrifice by Jaimini and Śabara in <ls>MS. 4. 3. 15-16</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 280477,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-jIvaH#}@}"
+            ],
+            "_banner": ".{@{#-jIvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvajIvaH"
+                }
+            ],
+            "_meanings": [
+                "the universal soul.\n"
+            ]
+        },
+        {
+            "__line": 280478,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-deva#}@}"
+            ],
+            "_banner": ".{@{#-deva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvadeva"
+                }
+            ],
+            "_meanings": [
+                "see under {#viSva#} {%m.%} above.\n"
+            ]
+        },
+        {
+            "__line": 280479,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-dEvam, -dEvatam#}@}"
+            ],
+            "_banner": ".{@{#-dEvam, -dEvatam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvadEvam"
+                },
+                {
+                    "Right": "viSvadEvatam"
+                }
+            ],
+            "_meanings": [
+                "the asterism {#uttarAzAQA#}.\n"
+            ]
+        },
+        {
+            "__line": 280480,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-DAriRI#}@}"
+            ],
+            "_banner": ".{@{#-DAriRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaDAriRI"
+                }
+            ],
+            "_meanings": [
+                "the earth.\n"
+            ]
+        },
+        {
+            "__line": 280481,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-DArin#}@}"
+            ],
+            "_banner": ".{@{#-DArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaDArin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a deity.\n"
+            ]
+        },
+        {
+            "__line": 280482,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-DenA#}@}"
+            ],
+            "_banner": ".{@{#-DenA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaDenA"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> the earth.\n"
+            ]
+        },
+        {
+            "__line": 280483,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-nATaH#}@}"
+            ],
+            "_banner": ".{@{#-nATaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvanATaH"
+                }
+            ],
+            "_meanings": [
+                "lord of the universe, an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 280484,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-pA#}@}"
+            ],
+            "_banner": ".{@{#-pA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvapA"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the protector of all.\n",
+                ".²2 the sun.\n",
+                ".²3 the moon.\n",
+                ".²4 fire.\n"
+            ]
+        },
+        {
+            "__line": 280489,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-pAvanI, -pUjitA#}@}"
+            ],
+            "_banner": ".{@{#-pAvanI, -pUjitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvapAvanI"
+                },
+                {
+                    "Right": "viSvapUjitA"
+                }
+            ],
+            "_meanings": [
+                "holy basil.\n"
+            ]
+        },
+        {
+            "__line": 280490,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-psan#}@}"
+            ],
+            "_banner": ".{@{#-psan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvapsan"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a god.\n",
+                ".²2 the sun.\n",
+                ".²3 the moon.\n",
+                ".²4 an epithet of Agni.\n",
+                ".²5 <ab>N.</ab> of Viśvakarman.\n"
+            ]
+        },
+        {
+            "__line": 280496,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-bIjam#}@}"
+            ],
+            "_banner": ".{@{#-bIjam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvabIjam"
+                }
+            ],
+            "_meanings": [
+                "the seed of everything.\n"
+            ]
+        },
+        {
+            "__line": 280497,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-boDaH#}@}"
+            ],
+            "_banner": ".{@{#-boDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaboDaH"
+                }
+            ],
+            "_meanings": [
+                "a Buddha.\n"
+            ]
+        },
+        {
+            "__line": 280498,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-BAvanaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaBAvanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 280499,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-Buja#}@}"
+            ],
+            "_banner": ".{@{#-Buja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaBuja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "all-enjoying, all-eating; --({%m.%}) an epithet of Indra.\n"
+            ]
+        },
+        {
+            "__line": 280500,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-Bezajam#}@}"
+            ],
+            "_banner": ".{@{#-Bezajam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaBezajam"
+                }
+            ],
+            "_meanings": [
+                "dry ginger.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 280501,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-Bezajam#}@}",
+                        "S_M_ ({@{#-jaH#}@}"
+                    ],
+                    "_banner": "({@{#-jaH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvaBezajaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a universal remedy.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 280502,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-Bojas#}@}"
+            ],
+            "_banner": ".{@{#-Bojas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaBojas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "all-pervading; <ls>Rv.</ls>\n"
+            ]
+        },
+        {
+            "__line": 280503,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-mUrti#}@}"
+            ],
+            "_banner": ".{@{#-mUrti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvamUrti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "existing in all forms, all-pervading, omnipresent;\n {#kalyARAnAM tvamasi mahasAM BAjanaM viSvamUrte#} <ls>Māl. 1. 3</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 280505,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-mUrti#}@}",
+                        "S_M_ ({@{#-rtiH#}@}"
+                    ],
+                    "_banner": "({@{#-rtiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvamUrtiH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the Supreme Being.\n",
+                        ".²2 <ab>N.</ab> of Śiva.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 280508,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-yoniH#}@}"
+            ],
+            "_banner": ".{@{#-yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvayoniH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Brahman.\n",
+                ".²2 of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 280511,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-rAj#}@}"
+            ],
+            "_banner": ".{@{#-rAj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvarAj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-rAjaH#}@}"
+            ],
+            "_meanings": [
+                "a universal sovereign.\n"
+            ]
+        },
+        {
+            "__line": 280513,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-rucI#}@}"
+            ],
+            "_banner": ".{@{#-rucI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvarucI"
+                }
+            ],
+            "_meanings": [
+                "one of the seven tongues of fire.\n"
+            ]
+        },
+        {
+            "__line": 280514,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvarUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "omnipresent, existing everywhere; {#tasmin yaSo nihitaM#}\n {#viSvarUpam#} <ls>Bṛ. Up. 2. 2. 2</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 280516,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-rUpa#}@}",
+                        "S_M_ ({@{#-paH#}@}"
+                    ],
+                    "_banner": "({@{#-paH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvarUpaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Viṣṇu.\n."
+                    ]
+                },
+                {
+                    "__line": 280517,
+                    "_ancestry": [
+                        "L_ 30396",
+                        "B_ {#viSva#}",
+                        "S_ .{@{#-rUpa#}@}",
+                        "S_M_ ({@{#-pam#}@}"
+                    ],
+                    "_banner": "({@{#-pam#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "viSvarUpam"
+                        }
+                    ],
+                    "_meanings": [
+                        "agallochum.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 280518,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-retas#}@}"
+            ],
+            "_banner": ".{@{#-retas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaretas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 an epithet of Brahman.\n",
+                ".²2 of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 280521,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-vAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvavAsaH"
+                }
+            ],
+            "_meanings": [
+                "the receptacle of all things.\n"
+            ]
+        },
+        {
+            "__line": 280522,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-vAh#}@}"
+            ],
+            "_banner": ".{@{#-vAh#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvavAh"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#viSvOhI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "all-sustaining.\n"
+            ]
+        },
+        {
+            "__line": 280523,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-viBAvanam#}@}"
+            ],
+            "_banner": ".{@{#-viBAvanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvaviBAvanam"
+                }
+            ],
+            "_meanings": [
+                "creation of the universe.\n"
+            ]
+        },
+        {
+            "__line": 280524,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-vedas#}@}"
+            ],
+            "_banner": ".{@{#-vedas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvavedas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 all-knowing, omniscient; {#svasti naH pUzA viSvavedAH#} <ls>Āśīrvādamantra.</ls>\n",
+                ".²2 a saint, sage.\n"
+            ]
+        },
+        {
+            "__line": 280527,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-vyacas#}@}"
+            ],
+            "_banner": ".{@{#-vyacas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvavyacas"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Aditi.\n"
+            ]
+        },
+        {
+            "__line": 280528,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-vyApaka, -vyApin#}@}"
+            ],
+            "_banner": ".{@{#-vyApaka, -vyApin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvavyApaka"
+                },
+                {
+                    "Right": "viSvavyApin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "all-pervading.\n"
+            ]
+        },
+        {
+            "__line": 280529,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-saMvananam#}@}"
+            ],
+            "_banner": ".{@{#-saMvananam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvasaMvananam"
+                }
+            ],
+            "_meanings": [
+                "means of bewitching all.\n"
+            ]
+        },
+        {
+            "__line": 280530,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-saMhAraH#}@}"
+            ],
+            "_banner": ".{@{#-saMhAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvasaMhAraH"
+                }
+            ],
+            "_meanings": [
+                "general destruction.\n"
+            ]
+        },
+        {
+            "__line": 280531,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-sattama#}@}"
+            ],
+            "_banner": ".{@{#-sattama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvasattama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "the best of all.\n"
+            ]
+        },
+        {
+            "__line": 280532,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-sahA#}@}"
+            ],
+            "_banner": ".{@{#-sahA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvasahA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the earth. ",
+                ".²2 one of the tongues of fire.\n"
+            ]
+        },
+        {
+            "__line": 280534,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-sArakam#}@}"
+            ],
+            "_banner": ".{@{#-sArakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvasArakam"
+                }
+            ],
+            "_meanings": [
+                "the prickly pear.\n"
+            ]
+        },
+        {
+            "__line": 280535,
+            "_ancestry": [
+                "L_ 30396",
+                "B_ {#viSva#}",
+                "S_ .{@{#-sfj#}@}"
+            ],
+            "_banner": ".{@{#-sfj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viSvasfj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 an epithet of Brahman, the creator; {#upahUtA viSvasfgBirharigATopagAyane#}\n <ls>Bhāg. 7. 15. 71-72</ls>; {#prAyeRa sAmagryaviDO guRAnAM parANmuKI viSvasfjaH#}\n {#pravfttiH#} <ls>Ku. 3. 28</ls>, <ls n=\"Ku.\">1. 49</ls>.\n",
+                ".²2 an epithet of {#mayAsura#}; {#nAnA viBAnti kila viSvasfjopakxptAH#} <ls>Bhāg. 10. 75. 32</ls>."
+            ]
+        }
     ]
 }
