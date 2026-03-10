@@ -142,6 +142,35 @@
             font-weight: bold;
         }
 
+        .edition-shimmer {
+            background: linear-gradient(
+                90deg, 
+                #74591f 0%, 
+                #74591f 40%, 
+                #f1d388 50%, 
+                #74591f 60%, 
+                #74591f 100%
+            );
+            background-size: 300% auto;
+            color: #74591f;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-position: 100% center;
+            animation: shine 3s ease-in-out 3 forwards;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        @keyframes shine {
+            from {
+                background-position: 100% center;
+            }
+            to {
+                background-position: 0% center;
+            }
+        }
+
         .special-text {
             color: #9c7c38; /* Teak wood color - matching Devanagari */
             font-style: italic;
