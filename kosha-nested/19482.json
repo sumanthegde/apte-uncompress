@@ -268,6 +268,84 @@
             "_meanings": [
                 "a ruler of men, king, sovereign;\n {#caturyojanaparyantamaDikAro nfpasya ca#} <ls>Brav. P.</ls> ({#SrIkfzRajanmaKaRqe#}). "
             ],
+            "_morphisms": [
+                {
+                    "__line": 174553,
+                    "_ancestry": [
+                        "L_ 19482",
+                        "B_ {#nf#}",
+                        "S_ .{@{#-paH#}@}",
+                        "S_M_ ({@{#-BA#}@})"
+                    ],
+                    "_banner": "({@{#-BA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: nfpaH ({@{#-BA#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a queen. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 174553,
+                            "_ancestry": [
+                                "L_ 19482",
+                                "B_ {#nf#}",
+                                "S_ .{@{#-paH#}@}",
+                                "S_M_ ({@{#-BA#}@})",
+                                "S_M_S_ {#˚SAsanam#}"
+                            ],
+                            "_banner": "{#˚SAsanam#}",
+                            "_meanings": [
+                                "a royal grant or edict. "
+                            ]
+                        },
+                        {
+                            "__line": 174553,
+                            "_ancestry": [
+                                "L_ 19482",
+                                "B_ {#nf#}",
+                                "S_ .{@{#-paH#}@}",
+                                "S_M_ ({@{#-BA#}@})",
+                                "S_M_S_ {#˚saMSraya#}"
+                            ],
+                            "_banner": "{#˚saMSraya#}",
+                            "_meanings": [
+                                "{%a.%} seeking the protection of a king. "
+                            ]
+                        },
+                        {
+                            "__line": 174554,
+                            "_ancestry": [
+                                "L_ 19482",
+                                "B_ {#nf#}",
+                                "S_ .{@{#-paH#}@}",
+                                "S_M_ ({@{#-BA#}@})",
+                                "S_M_S_ {#˚sutA#}"
+                            ],
+                            "_banner": "{#˚sutA#}",
+                            "_meanings": [
+                                "the musk-rat. "
+                            ]
+                        },
+                        {
+                            "__line": 174554,
+                            "_ancestry": [
+                                "L_ 19482",
+                                "B_ {#nf#}",
+                                "S_ .{@{#-paH#}@}",
+                                "S_M_ ({@{#-BA#}@})",
+                                "S_M_S_ {#˚saBam#},\n {#˚saBA#}"
+                            ],
+                            "_banner": "{#˚saBam#},\n {#˚saBA#}",
+                            "_meanings": [
+                                "an assembly of kings.\n"
+                            ]
+                        }
+                    ]
+                }
+            ],
             "_samasas": [
                 {
                     "__line": 174535,
@@ -526,102 +604,6 @@
                     "_meanings": [
                         ".²1 the friend or favourite of a king.\n",
                         ".²2 a kind of mango.\n."
-                    ],
-                    "_morphisms": [
-                        {
-                            "__line": 174553,
-                            "_ancestry": [
-                                "L_ 19482",
-                                "B_ {#nf#}",
-                                "S_ .{@{#-paH#}@}",
-                                "S_S_ {#˚vallaBaH#}",
-                                "S_S_M_ ({@{#-BA#}@}"
-                            ],
-                            "_banner": "({@{#-BA#}@}",
-                            "_bannerExp": [
-                                {
-                                    "Left": "Default Folder error: nfpavallaBaH ({@{#-BA#}@}"
-                                }
-                            ],
-                            "_meanings": [
-                                "a queen. "
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "__line": 174553,
-                    "_ancestry": [
-                        "L_ 19482",
-                        "B_ {#nf#}",
-                        "S_ .{@{#-paH#}@}",
-                        "S_S_ {#˚SAsanam#}"
-                    ],
-                    "_banner": "{#˚SAsanam#}",
-                    "_bannerExp": [
-                        {
-                            "Right": "nfpaSAsanam"
-                        }
-                    ],
-                    "_meanings": [
-                        "a royal grant or edict. "
-                    ]
-                },
-                {
-                    "__line": 174553,
-                    "_ancestry": [
-                        "L_ 19482",
-                        "B_ {#nf#}",
-                        "S_ .{@{#-paH#}@}",
-                        "S_S_ {#˚saMSraya#}"
-                    ],
-                    "_banner": "{#˚saMSraya#}",
-                    "_bannerExp": [
-                        {
-                            "Right": "nfpasaMSraya"
-                        }
-                    ],
-                    "_meanings": [
-                        "{%a.%} seeking the protection of a king. "
-                    ]
-                },
-                {
-                    "__line": 174554,
-                    "_ancestry": [
-                        "L_ 19482",
-                        "B_ {#nf#}",
-                        "S_ .{@{#-paH#}@}",
-                        "S_S_ {#˚sutA#}"
-                    ],
-                    "_banner": "{#˚sutA#}",
-                    "_bannerExp": [
-                        {
-                            "Right": "nfpasutA"
-                        }
-                    ],
-                    "_meanings": [
-                        "the musk-rat. "
-                    ]
-                },
-                {
-                    "__line": 174554,
-                    "_ancestry": [
-                        "L_ 19482",
-                        "B_ {#nf#}",
-                        "S_ .{@{#-paH#}@}",
-                        "S_S_ {#˚saBam#},\n {#˚saBA#}"
-                    ],
-                    "_banner": "{#˚saBam#},\n {#˚saBA#}",
-                    "_bannerExp": [
-                        {
-                            "Right": "nfpasaBam"
-                        },
-                        {
-                            "Right": "nfpasaBA"
-                        }
-                    ],
-                    "_meanings": [
-                        "an assembly of kings.\n"
                     ]
                 }
             ]
