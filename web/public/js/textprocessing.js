@@ -467,6 +467,10 @@ const lsReferences = {
     "title": "Ramacharitam by Yuvarāja Kavi",
     "confidence": "Exact"
   },
+  "Rs.": {
+    "title": "Rasikasarvasva",
+    "confidence": "Exact"
+  },
   "S. D.": {
     "title": "Sahityadarpaņa",
     "confidence": "Exact"
@@ -605,6 +609,10 @@ const lsReferences = {
   },
   "Up.": {
     "title": "Upanisad",
+    "confidence": "Exact"
+  },
+  "Ve.": {
+    "title": "Venisamhara",
     "confidence": "Exact"
   },
   "Y.": {
@@ -764,9 +772,25 @@ const lsReferences = {
 
             // Handle <ls> </ls> tags for epic references (e.g., Mb. 12. 7. 33)
             text = text.replace(/<ls>(.*?)<\/ls>/g, function(match, innerContent) {
-                const abbrMatch = innerContent.match(/^[^0-9IVX,(]+/);
-                let ref_string = abbrMatch ? abbrMatch[0] : '';
-                ref_string = ref_string.trim();
+                // Strip HTML tags and trim for cleaner lookup
+                const cleanContent = innerContent.replace(/<[^>]*>/g, '').trim();
+                let ref_string = '';
+
+                // Try to find the longest prefix of the content that exists in our map
+                // This is more robust than regex as it handles 'V', 'I', 'X' prefixes correctly.
+                for (let i = cleanContent.length; i > 0; i--) {
+                    const prefix = cleanContent.substring(0, i).trim();
+                    if (lsReferences[prefix]) {
+                        // Boundary check: ensure the next character in cleanContent is not a letter
+                        // This prevents matching 'M' when the text is 'Mb.'
+                        const nextChar = cleanContent.charAt(i);
+                        if (!nextChar || !/[a-zA-Zāīūṛḷṅñṭḍṇśṣḥṁ]/.test(nextChar)) {
+                            ref_string = prefix;
+                            break;
+                        }
+                    }
+                }
+                
                 const refData = lsReferences[ref_string];
                 
                 if (refData && refData.title) {
