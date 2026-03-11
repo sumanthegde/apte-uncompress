@@ -283,6 +283,10 @@ const lsReferences = {
     "title": "Līlāvati",
     "confidence": "Exact"
   },
+  "M.": {
+    "title": "Mälavikāgnimitra",
+    "confidence": "Exact"
+  },
   "Malli.": {
     "title": "Mallinātha",
     "confidence": "Exact"
@@ -296,7 +300,7 @@ const lsReferences = {
     "confidence": "Exact"
   },
   "Māl.": {
-    "title": "Mälavikāgnimitra",
+    "title": "Mälatimādhava",
     "confidence": "Exact"
   },
   "Māna.": {
@@ -477,6 +481,10 @@ const lsReferences = {
   },
   "Sid. Mukt.": {
     "title": "Siddhantamuktāvali",
+    "confidence": "Exact"
+  },
+  "Ś.": {
+    "title": "Śākuntalam",
     "confidence": "Exact"
   },
   "Ś. B.": {
