@@ -80,7 +80,7 @@ const lsReferences = {
     "confidence": "Exact"
   },
   "Bv.": {
-    "title": "Bhavisya Purana",
+    "title": "Bhaminivilasa",
     "confidence": "Exact"
   },
   "Bīj.": {
