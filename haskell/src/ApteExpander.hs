@@ -624,17 +624,3 @@ koshaFormShardAndStore es = do
         jsonOutput = encodePretty' keyConfig obj
     BL.writeFile wpath jsonOutput
 
-tabSimple :: [Term] -> FilePath -> IO ()
-tabSimple es k1ReverseMapPath = do
-  k1ReverseMap <- load k1ReverseMapPath (M.empty :: M.Map String String)
-  let esFlat = concat $ tToList <$> es
-      --showAncestry e = unwords.lines $ showLocs (e ^. ancestry . _Just)
---      toDevanagari = uncanon . e2s'
-      stripAndSqueeze = unwords . words . unwords . lines
-      isDevanagari c = ord c >= 0x0900 && ord c <= 0x097F
-      eToExps e = (fmap (uncanon . e2s') . rights) (e ^.. bannerExp . _Just . traverse)
-      eToAncestor e = ((takeWhile isDevanagari . removeParenthesized . braceHashToDevanagari) (loc ((e ^. ancestry . _Just)!!1)))
-      overrideK1 k = maybe k (uncanon.e2s) (k1ReverseMap M.!? (s2e.canon) k)
-      eToRows e = [[exp, a] | exp <- eToExps e, let a = (overrideK1 . eToAncestor) e]
-      table = concat $ eToRows <$> esFlat
-  store (apteOutput</>"simpleTable.json") table
