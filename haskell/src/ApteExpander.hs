@@ -190,6 +190,7 @@ data ExpEnv = ExpEnv
   , unparenMap :: M.Map String [String]
   , preservingSM :: [[Location]]
   , preserveMakara :: [String]
+  , purvapadaOverrides :: M.Map [Location] [String]
   }
 
 -- | Expands feminine forms that are enclosed in 'gram' attribute. (Recall: gram is a list)
@@ -336,7 +337,9 @@ appender _ prev cur = ExceptT [Left $ "Default Folder error: " ++ prev ++ " " ++
 
 folder :: ExpEnv -> [Either String String] -> Location -> [Either String String]
 folder expEnv prevs cur = runExceptT $ do
-  prev <- ExceptT (take 1 prevs) --- take 1 to avoid bandISUlA types (which are many). TODO May be avoid list monad totally
+  let overrides = purvapadaOverrides expEnv M.!? (parentTerm expEnv ^. ancestry . _Just)
+  let getUnlessM_ = case cur of (M_ _) -> const Nothing; _ -> id -- ideally M_, S_M_
+  prev <- ExceptT $ maybe (take 1 prevs) (fmap Right) (getUnlessM_ overrides)
   appender expEnv prev cur
 
 morphismFolder :: ExpEnv -> Term -> [Either String String]
@@ -480,6 +483,7 @@ run start len = do
   rs <- load (apteOutput</>"0.json") recordMNil
   pSM <- load (apteDir </> "preserve_S_M.json") ([]::[[Location]])
   pMakara <- load (apteDir </> "preserve_makara.json") ([]::[String])
+  pOverrides <- load (apteDir </> "purvapada_overrides.json") (M.empty :: M.Map [Location] [String])
   let tks = (\r -> (r ^. term & fromJust, r^. k1 . _Just)) <$> M.elems rs -- rs ^.. traverse . term . _Just
   let tks1 = L.sortOn (\(t,k) -> let (L_ l:_) = t^. ancestry . _Just in (read l:: Float)) tks
   let ts1 = map fst tks1
@@ -497,6 +501,7 @@ run start len = do
         , unparenMap = d
         , preservingSM = pSM
         , preserveMakara = pMakara
+        , purvapadaOverrides = pOverrides
         }
   let traverseTermE (t,k) = traverseTerm (expEnv t k) t
   forM (take len $ drop start tks1) traverseTermE
