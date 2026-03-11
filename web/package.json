@@ -1,10 +1,11 @@
 {
   "name": "apte-dictionary-server",
-  "version": "1.0.0",
+  "version": "1.0.0.13",
   "description": "Server for Sanskrit Apte Dictionary",
   "main": "server/serve.js",
   "scripts": {
-    "start": "node server/serve.js"
+    "start": "node server/serve.js",
+    "update-refs": "node ../scripts/update-refs.js"
   },
   "engines": {
     "node": ">=14.0.0"
