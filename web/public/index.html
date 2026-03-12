@@ -167,100 +167,88 @@
                     const startTime = performance.now();
                     isLoading = true;
 
-                    // First load pagemarks if not already loaded
-                    if (Object.keys(pagemarks).length === 0) {
-                        const pgStart = performance.now();
-                        await loadPagemarks();
-                        console.log(`Pagemarks loaded in ${performance.now() - pgStart}ms`);
-                    }
-
-                    // Set current term ID and requested term ID
-                    currentTermId = termId;
-                    requestedTermId = termId; // This is the term the user specifically requested
-
-                    // Calculate the range of terms to load
-                    const startTermId = termId; // Start from the current term (no terms before)
-                    const endTermId = termId + WINDOW_AFTER; // Load 15 terms after
-
-                    // Show loading message
-                    document.getElementById('error').style.display = 'none';
-                    document.getElementById('loading').style.display = 'block';
-                    document.getElementById('loading').innerHTML = `
-                        <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
-                        <span>Loading dictionary...</span>
-                    `;
-
-                    // Set a safety timeout to ensure the loading message doesn't get stuck
-                    const loadingTimeout = setTimeout(() => {
-                        document.getElementById('loading').style.display = 'none';
-                    }, 60000); // 60 second timeout (increased for slow connections)
-
-                    // Load all terms in the range
-                    const fetchStart = performance.now();
-                    const loadPromises = [];
-                    let completed = 0;
-                    const total = endTermId - startTermId + 1;
-
-                    for (let id = startTermId; id <= endTermId; id++) {
-                        loadPromises.push(loadSingleTerm(id).then(res => {
-                            completed++;
-                            const label = document.querySelector('#loading span');
-                            if (label) label.textContent = `Loading entries (${completed}/${total})...`;
-                            return res;
-                        }));
-                    }
-
-                    await Promise.all(loadPromises);
-                    console.log(`All network requests for terms completed in ${performance.now() - fetchStart}ms`);
-
-                    // Clear the safety timeout
-                    clearTimeout(loadingTimeout);
-
-                    // Defer rendering slightly to allow progress display and event loop breathing
-                    setTimeout(() => {
-                        const renderStart = performance.now();
+                    // Defer heavy work slightly to allow the 'Loading dictionary...' spinner to show up
+                    setTimeout(async () => {
                         try {
+                            // First load pagemarks if not already loaded
+                            if (Object.keys(pagemarks).length === 0) {
+                                const pgStart = performance.now();
+                                await loadPagemarks();
+                                console.log(`Pagemarks loaded in ${performance.now() - pgStart}ms`);
+                            }
+
+                            // Set current term ID and requested term ID
+                            currentTermId = termId;
+                            requestedTermId = termId; // This is the term the user specifically requested
+
+                            // Calculate the range of terms to load
+                            const startTermId = termId; // Start from the current term (no terms before)
+                            const endTermId = termId + WINDOW_AFTER; // Load 15 terms after
+
+                            // Show initial loading state
+                            document.getElementById('error').style.display = 'none';
+                            document.getElementById('loading').style.display = 'block';
+                            document.getElementById('loading').innerHTML = `
+                                <div style="display: inline-block; animation: spin 1s linear infinite; font-size: 24px; margin-right: 10px;">⟳</div>
+                                <span>Loading entries...</span>
+                            `;
+
+                            // Set a safety timeout to ensure the loading message doesn't get stuck
+                            const loadingTimeout = setTimeout(() => {
+                                document.getElementById('loading').style.display = 'none';
+                            }, 60000); // 60 second timeout (increased for slow connections)
+
+                            // Render the placeholders immediately
+                            renderTermsInRange(startTermId, endTermId, true);
+
+                            // Load all terms in the range
+                            const fetchStart = performance.now();
+                            const loadPromises = [];
+                            let completed = 0;
+                            const total = endTermId - startTermId + 1;
+
+                            for (let id = startTermId; id <= endTermId; id++) {
+                                loadPromises.push(loadSingleTerm(id).then(res => {
+                                    completed++;
+                                    const label = document.querySelector('#loading span');
+                                    if (label) label.textContent = `Loading entries (${completed}/${total})...`;
+                                    
+                                    // Incrementally render this term as soon as it's fetched
+                                    renderSingleTermById(id);
+                                    
+                                    return res;
+                                }));
+                            }
+
+                            await Promise.all(loadPromises);
+                            console.log(`All network requests for terms completed in ${performance.now() - fetchStart}ms`);
+
+                            // Clear the safety timeout
+                            clearTimeout(loadingTimeout);
+
                             // Check if the source term was actually loaded
                             if (!loadedTermIds.has(termId)) {
                                 throw new Error(`Term ${termId} could not be loaded from ${TERM_URL_BASE}`);
                             }
 
-                            // Render the terms
-                            renderTermsInRange(startTermId, endTermId);
-                            console.log(`renderTermsInRange completed in ${performance.now() - renderStart}ms`);
-
-                            // Hide loading message
+                            // Hide loading message and show keyboard hints
                             document.getElementById('loading').style.display = 'none';
-
-                            // Show keyboard navigation hints
                             document.getElementById('keyboard-hint-top').style.display = 'block';
                             document.getElementById('keyboard-hint-bottom').style.display = 'block';
 
                             console.log(`Total loadAndRenderTermsFrom took ${performance.now() - startTime}ms`);
                             isLoading = false;
                             resolve();
-                        } catch (renderError) {
-                            console.error('Render error:', renderError);
+                        } catch (loadError) {
+                            console.error('Load Error:', loadError);
                             document.getElementById('loading').style.display = 'none';
                             document.getElementById('error').style.display = 'block';
-                            document.getElementById('error').textContent = `Error rendering terms: ${renderError.message}`;
+                            document.getElementById('error').textContent = `Error loading terms: ${loadError.message}`;
                             isLoading = false;
-                            reject(renderError);
+                            reject(loadError);
                         }
                     }, 5);
                 } catch (error) {
-
-
-                    // Make sure to clear any loading timeouts
-                    if (typeof loadingTimeout !== 'undefined') {
-                        clearTimeout(loadingTimeout);
-                    }
-
-                    // Hide loading message and show error
-                    document.getElementById('loading').style.display = 'none';
-                    document.getElementById('error').style.display = 'block';
-                    document.getElementById('error').textContent = `Error loading terms: ${error.message}`;
-                    document.getElementById('keyboard-hint-top').style.display = 'none';
                     isLoading = false;
                     reject(error);
                 }
@@ -268,41 +256,50 @@
         }
 
         // Function to render terms in a specific range
-        function renderTermsInRange(startTermId, endTermId) {
+        function renderTermsInRange(startTermId, endTermId, asPlaceholders = false) {
             const termsContainer = document.getElementById('terms-container');
             termsContainer.innerHTML = '';
 
-            console.log(`Debug: searchedWord ${searchedWord}`);
             for (let id = startTermId; id <= endTermId; id++) {
-                if (loadedTermIds.has(id)) {
-                    const termData = loadedTerms[id];
+                const termContainer = document.createElement('div');
+                termContainer.className = 'term-container';
+                termContainer.dataset.termId = id;
 
-                    // Create a container for this term
-                    const termContainer = document.createElement('div');
-                    termContainer.className = 'term-container';
-                    termContainer.dataset.termId = id;
-
-                    // Add highlighting class if this is the requested term
-                    if (id === requestedTermId) {
-                        termContainer.classList.add('highlighted');
-                    }
-
-                    // Check if it's a placeholder
-                    if (termData[0].__placeholder) {
-                        termContainer.innerHTML = `<div class="term-row"><em>Term ${id} not available</em></div>`;
-                    } else {
-                        // Always re-render the term to ensure highlighting is updated
-                        // This is important when looking up different words within the same term
-                        termContainer.innerHTML = termData.map(term => processTerm(term)).join('');
-                    }
-
-                    // Add term ID as a clickable link
-                    termContainer.appendChild(createPdfLink(termContainer, id));
-
-                    termsContainer.appendChild(termContainer);
+                if (id === requestedTermId) {
+                    termContainer.classList.add('highlighted');
                 }
-            }
 
+                if (asPlaceholders && !loadedTermIds.has(id)) {
+                    termContainer.classList.add('placeholder');
+                    termContainer.innerHTML = `<div class="term-row" style="color: #999; font-style: italic; font-size: 0.9em; padding: 10px;">Loading entry ${id}...</div>`;
+                } else if (loadedTermIds.has(id)) {
+                    renderTermContent(termContainer, loadedTerms[id], id);
+                } else {
+                    // Not loaded and not requested as placeholder? skip.
+                    continue;
+                }
+
+                termsContainer.appendChild(termContainer);
+            }
+        }
+
+        // Helper to render a term's content into a container
+        function renderTermContent(container, termData, termId) {
+            if (termData[0].__placeholder) {
+                container.innerHTML = `<div class="term-row"><em>Term ${termId} not available</em></div>`;
+            } else {
+                container.innerHTML = termData.map(term => processTerm(term)).join('');
+            }
+            container.appendChild(createPdfLink(container, termId));
+        }
+
+        // Function to render a single term by ID into its existing placeholder
+        function renderSingleTermById(id) {
+            const container = document.querySelector(`.term-container[data-term-id="${id}"]`);
+            if (container && loadedTermIds.has(id)) {
+                container.classList.remove('placeholder');
+                renderTermContent(container, loadedTerms[id], id);
+            }
         }
 
         // Function to navigate to a specific term
@@ -625,7 +622,6 @@
 
                     // Get the terms container
                     const termsContainer = document.getElementById('terms-container');
-
                     // Create a container for this term
                     const termContainer = document.createElement('div');
                     termContainer.className = 'term-container';
@@ -636,16 +632,7 @@
                         termContainer.classList.add('highlighted');
                     }
 
-                    // Check if it's a placeholder
-                    if (termData[0].__placeholder) {
-                        termContainer.innerHTML = `<div class="term-row"><em>Term ${termId} not available</em></div>`;
-                    } else {
-                        // Render the term
-                        termContainer.innerHTML = termData.map(term => processTerm(term)).join('');
-                    }
-
-                    // Add term ID as a clickable link
-                    termContainer.appendChild(createPdfLink(termContainer, termId));
+                    renderTermContent(termContainer, termData, termId);
 
                     // Add to the DOM in the appropriate position
                     if (direction === 'above') {

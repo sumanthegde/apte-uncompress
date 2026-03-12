@@ -171,6 +171,18 @@
             }
         }
 
+        .placeholder {
+            min-height: 80px;
+            animation: pulse 1.5s infinite ease-in-out;
+            border-left: 3px solid #eee;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+
         .special-text {
             color: #9c7c38; /* Teak wood color - matching Devanagari */
             font-style: italic;
