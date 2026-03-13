@@ -99,6 +99,9 @@ snd4 = (\(_,a,_,_)->a)
 trd4 = (\(_,_,a,_)->a)
 frh4 = (\(_,_,_,a)->a)
 
+fst5 = (\(a,_,_,_,_)->a)
+fst6 = (\(a,_,_,_,_,_)->a)
+
 takeEnd' k = reverse . take k . reverse
 
 apteDir = "apteDir.nosync"
