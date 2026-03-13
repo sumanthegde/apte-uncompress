@@ -1,6 +1,9 @@
 # apte-uncompress
 Generate searchable lists of Sanskrit compounds from Apte's dictionary for easier lookup.
 
+# Update (2025-03-14)
+- We now use the 1957 edition. Check the example JSON for the word संस्कृत here http://raw.githack.com/sumanthegde/apte-uncompress/ap57/kosha-flat/%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%83%E0%A4%A4.json
+
 ## Introduction
 [V S Apte's Sanskrit-English Dictionary](https://www.sanskrit-lexicon.uni-koeln.de/scans/AP90Scan/2020/web/webtc2/index.php) (1890)
 is an invaluable resource for students of Sanskrit.
