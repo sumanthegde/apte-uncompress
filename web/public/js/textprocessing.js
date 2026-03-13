@@ -615,6 +615,10 @@ const lsReferences = {
     "title": "Venisamhara",
     "confidence": "Exact"
   },
+  "Vikr.": {
+    "title": "",
+    "confidence": ""
+  },
   "Y.": {
     "title": "Yājñavalkya Smriti",
     "confidence": "Exact"
