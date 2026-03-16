@@ -550,7 +550,7 @@ sqliteStore es = do
   putStrLn $ "Successfully wrote meanings TSV to " ++ meaningsTsvPath
   writeFile metadata2TsvPath metadata2Content
   putStrLn $ "Successfully wrote metadata2 TSV to " ++ metadata2TsvPath
-  bulkLoadFromTSV metadataRows meaningsRows metadata2Rows
+  bulkLoadFromTSV metadataRows meaningsRows
   putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
 
 -- | make sqlite for Kridantadarshika server
