@@ -1,16 +1,39 @@
 {
-    "__line": 61418,
+    "__line": 59858,
     "_ancestry": [
         "L_ 7117",
-        "B_ {#AsyA#}"
+        "B_ {#Apfc#}"
     ],
-    "_banner": "{#AsyA#}",
+    "_banner": "{#Apfc#}",
     "_bannerExp": [
         {
-            "Right": "AsyA"
+            "Right": "Apfc"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#pfc-kvip#}]"
+    ],
     "_meanings": [
-        "Sitting, abode, state of rest."
+        "Connected, blended. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 59858,
+            "_ancestry": [
+                "L_ 7117",
+                "B_ {#Apfc#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Apfc#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "In a mixed\n manner, confusedly."
+            ]
+        }
     ]
 }

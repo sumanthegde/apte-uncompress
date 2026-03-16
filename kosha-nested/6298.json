@@ -1,37 +1,529 @@
 {
-    "__line": 55341,
+    "__line": 52631,
     "_ancestry": [
         "L_ 6298",
-        "B_ {#Anirhata#}"
+        "B_ {#ahan#}"
     ],
-    "_banner": "{#Anirhata#}",
+    "_banner": "{#ahan#}",
     "_bannerExp": [
         {
-            "Right": "Anirhata"
+            "Right": "ahan"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}",
+        "[{#na jahAti na tyajati sarvaTA parivartanaM, na hA-kanin#}\n <ls>Uṇ. 1. 55.</ls>]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Of \nindestructible nature; wholly gone out of the\nworld (Mahīdhara). "
+        "(<ab>Nom.</ab> {#ahaH, ahnI-ahanI, ahAni, ahnA, ahoByAm#} <ab>&c.</ab>; {#ahariti#}\n {#hanti pApmAnaM jahAti ca#} <ls>Śat. Br.</ls>)\n",
+        ".²1 A day (including day and night); {#ahaH Sabdo'pi ahorAtravacanaH .#}\n {#rAtriSabdo'pi .#} <ls>ŚB. on MS. 8. 1. 16</ls>. {#aGAhAni#} <ls>Ms. 5. 84</ls>.\n",
+        ".²2 Day time {#savyApArAmahani na taTA pIqayenmadviyogaH#} <ls>Me. 90</ls>; {#yadahnA#}\n {#kurute pApam#} by day; {#agnirjyotirahaH SuklaH#} <ls>Bg. 8. 54</ls>.\n",
+        ".²3 The sky (as traversed by the sun); {#samArUQe ca maDyamahnaH savitari#} <ls>K. 99</ls>; <ls>M. 2</ls>.\n",
+        ".²4 A sacrificial or festival day.\n",
+        ".²5 A dayʼs work.\n",
+        ".²6 Viṣṇu.\n",
+        ".²7 Night.\n",
+        ".²8 A portion of a book appointed for a day. ",
+        ".²9 A day personified as one\n of the eight Vasus.\n"
     ],
     "_morphisms": [
         {
-            "__line": 55343,
+            "__line": 52645,
             "_ancestry": [
                 "L_ 6298",
-                "B_ {#Anirhata#}",
-                "M_ {#--taH#}"
+                "B_ {#ahan#}",
+                "M_ .{@{#-nI#}@}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": ".{@{#-nI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AnirhataH"
+                    "Right": "ahanI"
                 }
             ],
             "_meanings": [
-                "A\nclass of principal deities."
+                "(<ab>du.</ab>) Day and night (At the end of <ab>comp.</ab> {#ahan#} is changed\n to {#ahaH, -haM#} or to {#ahna#}; see <ls>P. V. 4. 88-91</ls>, <ls n=\"P.\">VI. 3. 110</ls>, <ls n=\"P.\">VIII. 4. 7</ls>.\n {%Note%}: At the beginning of <ab>comp.</ab> it assumes\n\n the forms {#ahas#} or {#ahar#}; {%<ab>e. g.</ab>%} {#saptAhaH, ekAhaH, pUrvAhRaH#},\n {#aparAhRaH puRyAhaM, sudinAhaM, ahaHpatiH#} or {#aharpatiH#} <ab>&c.</ab> <ab>&c.</ab>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 52652,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-ahaH#}@}"
+            ],
+            "_banner": ".{@{#-ahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharahaH"
+                }
+            ],
+            "_gram": [
+                "({#aharahaH#})",
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Day by day, daily. {#aharahaHsnAtvA#}\n {#sanDyAmupAsIta#}; {#aharaharnayamAno gAmaSvaM puruzaM paSum#} <ls>Mbh.</ls> on <ls n=\"P.\">2. 2. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 52654,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-AgamaH#}@}"
+            ],
+            "_banner": ".{@{#-AgamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharAgamaH"
+                }
+            ],
+            "_gram": [
+                "({#aharA˚#})"
+            ],
+            "_meanings": [
+                "the approach of day\n"
+            ]
+        },
+        {
+            "__line": 52655,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-AdiH#}@}"
+            ],
+            "_banner": ".{@{#-AdiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharAdiH"
+                }
+            ],
+            "_meanings": [
+                "dawn; {#SaSaDaramaharAdO rAgavAnuzRaraSmiH#} <ls>Śi. 11. 62</ls>.\n"
+            ]
+        },
+        {
+            "__line": 52656,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahaskaraH"
+                }
+            ],
+            "_gram": [
+                "({#˚haH#}|{#˚skaraH#})"
+            ],
+            "_meanings": [
+                ".²1 the sun; {#alaMcakArAsya vaDUrahaskaraH#} <ls>Śi. 1. 58</ls>; (<ls>P. III. 2. 21.</ls>)\n",
+                ".²2 a kind of tree.\n"
+            ]
+        },
+        {
+            "__line": 52659,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-gaRaH#}@}"
+            ],
+            "_banner": ".{@{#-gaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahargaRaH"
+                }
+            ],
+            "_meanings": [
+                ", ({#˚harga˚#})\n",
+                ".²1 a series of sacrificial days.\n",
+                ".²2 a month.\n",
+                ".²3 any calculated term (<ls>Wilson</ls>).\n"
+            ]
+        },
+        {
+            "__line": 52663,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-jaraH#}@}"
+            ],
+            "_banner": ".{@{#-jaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharjaraH"
+                }
+            ],
+            "_gram": [
+                "[{#ahoBiH parivartamAno lokAn jarayati jF-Ric ac, ahAni#}\n {#vA asmin jIryanti ADAre ap-vA#} <ls>Tv.</ls>]"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> the year as making days old.\n"
+            ]
+        },
+        {
+            "__line": 52665,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-jAta#}@}"
+            ],
+            "_banner": ".{@{#-jAta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharjAta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> born in the day or from day, not belonging to night.\n"
+            ]
+        },
+        {
+            "__line": 52666,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-diva#}@}"
+            ],
+            "_banner": ".{@{#-diva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahardiva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#˚hardi˚#})"
+            ],
+            "_meanings": [
+                "existing every day.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 52667,
+                    "_ancestry": [
+                        "L_ 6298",
+                        "B_ {#ahan#}",
+                        "S_ .{@{#-diva#}@}",
+                        "S_M_ ({@{#-vam#}@})"
+                    ],
+                    "_banner": "({@{#-vam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ahardivam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} [{#ahaSca divA ca samA˚ dva˚#}] daily, every day,\n day by day; {#ya itTamasvAsTyamahardivaM divaH#} <ls>Śi. 1. 51</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 52669,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-divi#}@}"
+            ],
+            "_banner": ".{@{#-divi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahardivi"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "day by day, every day, constantly; {#yaTA SyenAt#}\n {#patatriRaH saMvijante ahardivi siMhasya stanayoryaTA#} <ls>Av. 5. 21. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 52671,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahardfS"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> belonging to the day; living; {#indro viSvAn#}\n {#bekanAwA~ ahardfSaH#} <ls>Rv. 8. 66. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 52673,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-nATaH#}@}"
+            ],
+            "_banner": ".{@{#-nATaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharnATaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the sun, the lord of the day.\n",
+                ".²2 a kind of tree.\n"
+            ]
+        },
+        {
+            "__line": 52676,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-niSam#}@}"
+            ],
+            "_banner": ".{@{#-niSam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharniSam"
+                }
+            ],
+            "_gram": [
+                "[{#ahaSca niSA ca samA˚ dva˚#}]"
+            ],
+            "_meanings": [
+                "a day and night, a whole\n day; {#tasya soharniSasyAnte prasuptaH pratibudDayate#} <ls>Ms. 1. 74</ls>, <ls n=\"Ms.\">4. 97</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 52678,
+                    "_ancestry": [
+                        "L_ 6298",
+                        "B_ {#ahan#}",
+                        "S_ .{@{#-niSam#}@}",
+                        "S_M_ ({@{#-Sam#}@})"
+                    ],
+                    "_banner": "({@{#-Sam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "aharniSam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} day and night, during the whole day, continually.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 52679,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharpatiH"
+                }
+            ],
+            "_gram": [
+                "[{#ahaHpatiH, aharpatiH, ahaspatiH#} <ls>P. VIII. 2. 70. Mbh. Vārt.</ls>]"
+            ],
+            "_meanings": [
+                ".²1 the sun; {#nanu rAhvAhnamaharpatiM tamaH#} <ls>Śi. 16. 57</ls>; <ls>R. 10. 54</ls>.\n",
+                ".²2 an epithet of Śiva.\n",
+                ".²3 a kind of tree.\n",
+                ".²4 swallowwort.\n"
+            ]
+        },
+        {
+            "__line": 52684,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-bAnDavaH#}@}"
+            ],
+            "_banner": ".{@{#-bAnDavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharbAnDavaH"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 52685,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-BAj, -loka#}@}"
+            ],
+            "_banner": ".{@{#-BAj, -loka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharBAj"
+                },
+                {
+                    "Right": "aharloka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> partaking of the day.\n"
+            ]
+        },
+        {
+            "__line": 52686,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-maRiH#}@}"
+            ],
+            "_banner": ".{@{#-maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharmaRiH"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 52687,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-muKam#}@}"
+            ],
+            "_banner": ".{@{#-muKam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharmuKam"
+                }
+            ],
+            "_meanings": [
+                "commencement of the day, morning, dawn.\n"
+            ]
+        },
+        {
+            "__line": 52688,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-raTantaram#}@}"
+            ],
+            "_banner": ".{@{#-raTantaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahoraTantaram"
+                }
+            ],
+            "_meanings": [
+                "(<ls>P. VIII. 2. 68. Vārt.</ls>) a portion of Sāma to be chanted at day.\n"
+            ]
+        },
+        {
+            "__line": 52689,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-rAtraH#}@}"
+            ],
+            "_banner": ".{@{#-rAtraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahorAtraH"
+                }
+            ],
+            "_meanings": [
+                "."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 52690,
+                    "_ancestry": [
+                        "L_ 6298",
+                        "B_ {#ahan#}",
+                        "S_ .{@{#-rAtraH#}@}",
+                        "S_M_ ({@{#-tram#}@}"
+                    ],
+                    "_banner": "({@{#-tram#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "ahorAtram"
+                        }
+                    ],
+                    "_gram": [
+                        "also)"
+                    ],
+                    "_meanings": [
+                        ".²1 a day and night (<ls>P. II. 4. 29.</ls>); {#trInahorAtrAn#} <ls>Nala. 12. 44</ls>; {#triMSatkalA#}\n {#muhUrtaH syAdahorAtraM tu tAvataH#} <ls>Ms. 1. 64</ls>, <ls n=\"Ms. 1.\">65</ls>; <ls>Y. 1. 147</ls>.\n",
+                        ".²2 a day of the Pitṛs, a month of the gods and a year of Brahmā.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 52694,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-vid#}@}"
+            ],
+            "_banner": ".{@{#-vid#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aharvid"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 existing many days.\n",
+                ".²2 known long ago.\n",
+                ".²3 one who knows the fit time or season of a sacrifice.\n"
+            ]
+        },
+        {
+            "__line": 52698,
+            "_ancestry": [
+                "L_ 6298",
+                "B_ {#ahan#}",
+                "S_ .{@{#-SezaH, -zam#}@}"
+            ],
+            "_banner": ".{@{#-SezaH, -zam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahaHSezaH"
+                },
+                {
+                    "Right": "ahaHSezam"
+                }
+            ],
+            "_gram": [
+                "({#˚haH Sezam#})"
+            ],
+            "_meanings": [
+                ".²1 evening.\n",
+                ".²2 the last day of defilement."
             ]
         }
     ]

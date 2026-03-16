@@ -1,46 +1,105 @@
 {
-    "__line": 241223,
+    "__line": 265507,
     "_ancestry": [
         "L_ 28722",
-        "B_ {#saMsf#}"
+        "B_ {#vallI#}"
     ],
-    "_banner": "{#saMsf#}",
+    "_banner": "{#vallI#}",
     "_bannerExp": [
         {
-            "Right": "saMsf"
+            "Right": "vallI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} To go towards, \napproach. ",
-        "{@--2@} To revolve, turn round.\n",
-        "{@--3@} To spread. ",
-        "{@--4@} To move. ",
-        "{@--5@} To\ngo or flow together. ",
-        "{@--6@} To go to,\nobtain; {#pApAn saMsftya saMsArAn prezyatAM#}\n{#yAti Satruzu#} <ls>Ms. 12. 70.</ls> "
+        "A creeping plant, winding plant, creeper.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 241228,
+            "__line": 265509,
             "_ancestry": [
                 "L_ 28722",
-                "B_ {#saMsf#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#vallI#}",
+                "S_ .{@{#-karRaH#}@}"
             ],
+            "_banner": ".{@{#-karRaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMsf"
+                    "Right": "vallIkarRaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "a particular deformity of the ear, also {#vallUrakaH#}.\n"
+            ]
+        },
+        {
+            "__line": 265510,
+            "_ancestry": [
+                "L_ 28722",
+                "B_ {#vallI#}",
+                "S_ .{@{#-gaqaH#}@}"
+            ],
+            "_banner": ".{@{#-gaqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vallIgaqaH"
+                }
             ],
             "_meanings": [
-                "{@--1@}\nTo spread over, cause to move\nover. ",
-                "{@--2@} To revolve or turn\nround; {#janmavfdDikzayErnityaM#} \n{#saMsArayati cakravat#} <ls>Ms. 12. 124.</ls>"
+                "a kind of fish (<ns>{#BolA, bAlikaqA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 265511,
+            "_ancestry": [
+                "L_ 28722",
+                "B_ {#vallI#}",
+                "S_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vallIjam"
+                }
+            ],
+            "_meanings": [
+                "pepper.\n"
+            ]
+        },
+        {
+            "__line": 265512,
+            "_ancestry": [
+                "L_ 28722",
+                "B_ {#vallI#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vallIpadam"
+                }
+            ],
+            "_meanings": [
+                "a kind of cloth.\n"
+            ]
+        },
+        {
+            "__line": 265513,
+            "_ancestry": [
+                "L_ 28722",
+                "B_ {#vallI#}",
+                "S_ .{@{#-vfkzaH#}@}"
+            ],
+            "_banner": ".{@{#-vfkzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vallIvfkzaH"
+                }
+            ],
+            "_meanings": [
+                "the {%Śāla%} tree."
             ]
         }
     ]

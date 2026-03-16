@@ -1,57 +1,339 @@
 {
-    "__line": 148821,
+    "__line": 155848,
     "_ancestry": [
         "L_ 17663",
-        "B_ {#pata#}"
+        "B_ {#dyu#}"
     ],
-    "_banner": "{#pata#}",
+    "_banner": "{#dyu#}",
     "_bannerExp": [
         {
-            "Right": "pata"
+            "Right": "dyu"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}"
     ],
     "_meanings": [
-        "Cherished, well-fed, \nprotected ({#puzwa#}). "
+        ".²1 A day.\n",
+        ".²2 The sky.\n",
+        ".²3 Brightness.\n",
+        ".²4 Heaven.\n",
+        ".²5 Sharpness; <ab>cf.</ab> {#adyu#} "
     ],
     "_morphisms": [
         {
-            "__line": 148822,
+            "__line": 155853,
             "_ancestry": [
                 "L_ 17663",
-                "B_ {#pata#}",
-                "M_ {#--taH#}"
+                "B_ {#dyu#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "pataH"
+                    "Left": "Parser error: {#dyu#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Flying, flight.\n",
-                "{@--2@} Going, falling, alighting. "
+                "Fire. ({#dyu#} is a substitute for\n {#div#} {%f.%} before terminations beginning with consonants and in compounds.)\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 148823,
+            "__line": 155856,
             "_ancestry": [
                 "L_ 17663",
-                "B_ {#pata#}",
-                "S_ \n{#--gaH#}"
+                "B_ {#dyu#}",
+                "S_ .{@{#-gaH#}@}"
             ],
-            "_banner": "\n{#--gaH#}",
+            "_banner": ".{@{#-gaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "patagaH"
+                    "Right": "dyugaH"
                 }
             ],
             "_meanings": [
-                "a bird; <ls>Ms. 7. 23.</ls>"
+                "a bird.\n"
+            ]
+        },
+        {
+            "__line": 155857,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-caraH#}@}"
+            ],
+            "_banner": ".{@{#-caraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyucaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a planet.\n",
+                ".²2 a bird.\n"
+            ]
+        },
+        {
+            "__line": 155860,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-jayaH#}@}"
+            ],
+            "_banner": ".{@{#-jayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyujayaH"
+                }
+            ],
+            "_meanings": [
+                "attainment or gaining of heaven.\n"
+            ]
+        },
+        {
+            "__line": 155861,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-jyA#}@}"
+            ],
+            "_banner": ".{@{#-jyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyujyA"
+                }
+            ],
+            "_meanings": [
+                "the diameter of a circle made by an asterism in its daily revolution.\n"
+            ]
+        },
+        {
+            "__line": 155862,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-dalaH#}@}"
+            ],
+            "_banner": ".{@{#-dalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyudalaH"
+                }
+            ],
+            "_meanings": [
+                "noon.\n"
+            ]
+        },
+        {
+            "__line": 155863,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-DuniH#}@}"
+            ],
+            "_banner": ".{@{#-DuniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyuDuniH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-nadI#}@}"
+            ],
+            "_meanings": [
+                "the heavenly Ganges; {#sidDErnuto dyuDunipAtaSivasvanAsu#}\n {#reme ciraM DanadavallalanAvarUTI#} <ls>Bhāg. 3. 23. 39</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155866,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-nivAsaH#}@}"
+            ],
+            "_banner": ".{@{#-nivAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyunivAsaH"
+                }
+            ],
+            "_meanings": [
+                "a deity, god; {#SokAgninA'gAd dyunivAsaBUyam#} <ls>Bk. 3. 21</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155867,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-nivAsin#}@}"
+            ],
+            "_banner": ".{@{#-nivAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyunivAsin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a deity.\n",
+                ".²2 a virtuous man.\n"
+            ]
+        },
+        {
+            "__line": 155870,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyupatiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the sun.\n",
+                ".²2 an epithet of Indra.\n"
+            ]
+        },
+        {
+            "__line": 155873,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyupaTaH"
+                }
+            ],
+            "_meanings": [
+                "the upper part of the sky.\n\n"
+            ]
+        },
+        {
+            "__line": 155875,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-maRiH#}@}"
+            ],
+            "_banner": ".{@{#-maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyumaRiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the sun; {#kfzRadyumaRinimloce … …#} <ls>Bhāg. 3. 2. 7</ls>.\n",
+                ".²2 Calcined copper.\n"
+            ]
+        },
+        {
+            "__line": 155878,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-yozit#}@}"
+            ],
+            "_banner": ".{@{#-yozit#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyuyozit"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "an {%apsaras%}.\n"
+            ]
+        },
+        {
+            "__line": 155879,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-ratnam#}@}"
+            ],
+            "_banner": ".{@{#-ratnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyuratnam"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 155880,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyulokaH"
+                }
+            ],
+            "_meanings": [
+                "heaven.\n"
+            ]
+        },
+        {
+            "__line": 155881,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-zad, -sad#}@}"
+            ],
+            "_banner": ".{@{#-zad, -sad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyuzad"
+                },
+                {
+                    "Right": "dyusad"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a god, deity; {#manaHsu yezAM dyusadAM nyaDIyata#} <ls>Śi. 1. 43</ls>.\n",
+                ".²2 a planet.\n"
+            ]
+        },
+        {
+            "__line": 155884,
+            "_ancestry": [
+                "L_ 17663",
+                "B_ {#dyu#}",
+                "S_ .{@{#-sarit#}@}"
+            ],
+            "_banner": ".{@{#-sarit#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyusarit"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the Ganges."
             ]
         }
     ]

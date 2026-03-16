@@ -1,16 +1,62 @@
 {
-    "__line": 57208,
+    "__line": 55319,
     "_ancestry": [
         "L_ 6577",
-        "B_ {#AmIlanaM#}"
+        "B_ {#AGfRi#}"
     ],
-    "_banner": "{#AmIlanaM#}",
+    "_banner": "{#AGfRi#}",
     "_bannerExp": [
         {
-            "Right": "AmIlanaM"
+            "Right": "AGfRi"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#Agato GfRirdIptirasya#}]"
+    ],
     "_meanings": [
-        "Shutting or closing of\nthe eyes; <ls>K. 256.</ls>"
+        "Glowing with heat or endowed\n with splendour, having splendid wealth.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 55321,
+            "_ancestry": [
+                "L_ 6577",
+                "B_ {#AGfRi#}",
+                "M_ .{@{#-RiH#}@}"
+            ],
+            "_banner": ".{@{#-RiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AGfRiH"
+                }
+            ],
+            "_meanings": [
+                "The sun.\n"
+            ]
+        },
+        {
+            "__line": 55322,
+            "_ancestry": [
+                "L_ 6577",
+                "B_ {#AGfRi#}",
+                "M_ .{@{#AGfRI-vasu#}@}"
+            ],
+            "_banner": ".{@{#AGfRI-vasu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AGfRI"
+                },
+                {
+                    "Left": "1Align error: AGfRi vasu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Rich with heat (<ab>N.</ab> of Agni); {#mAno rakza AveSIdAGfRIvaso#} <ls>Rv. 8. 60. 20</ls>."
+            ]
+        }
     ]
 }

@@ -1,40 +1,51 @@
 {
-    "__line": 11936,
+    "__line": 10158,
     "_ancestry": [
         "L_ 1043",
-        "B_ {#aDIta#}"
+        "B_ {#aDikArin, aDikAravat#}"
     ],
-    "_banner": "{#aDIta#}",
+    "_banner": "{#aDikArin, aDikAravat#}",
     "_bannerExp": [
         {
-            "Right": "aDIta"
+            "Right": "aDikArin"
+        },
+        {
+            "Right": "aDikAravat"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#astyarTe ini matup vA#}]"
     ],
     "_meanings": [
-        "Learnt, studied, read,\nremembered, attained &c. "
+        ".²1 Possessed of authority, having power; {#niHspfho nADikArI syAt#} <ls>Pt. 1. 164</ls>;\n {#sanDivigrahakArya˚, kArya˚#} <ls>H. 3</ls>.\n",
+        ".²2 Entitled to, having a right to; {#sarve syuraDikAriRaH#}; so {#uttarADikArin#}\n heir; {#DanagrahaRa˚#} <ab>&c.</ab>; {#tapasyanaDikAritvAt#} <ls>R. 15. 51</ls> not qualified or authorised.\n",
+        ".²3 Belonging to, owned by.\n",
+        ".²4 Fit for. "
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 11937,
+            "__line": 10164,
             "_ancestry": [
                 "L_ 1043",
-                "B_ {#aDIta#}",
-                "S_ \n{#--vidya#}"
+                "B_ {#aDikArin, aDikAravat#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "\n{#--vidya#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "aDItavidya"
+                    "Left": "Parser error: {#aDikArin#} M_ --{%m.%}"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "({@{#-rI, -vAn#}@})"
             ],
             "_meanings": [
-                "who has studied the Vedas\nor finished his studies."
+                ".²1 An official, officer; {#na nizprayojanam aDikAravantaH praBuBirAhUyante#}\n <ls>Mu. 3</ls>; a functionary, superintendent, head, director, governor.\n",
+                ".²2 A rightful claimant, proprietor, master, owner.\n",
+                ".²3 One qualified to sacrifice or perform sacred works.\n",
+                ".²4 Man as the lord of creation.\n",
+                ".²5 One well versed in the Vedānta."
             ]
         }
     ]

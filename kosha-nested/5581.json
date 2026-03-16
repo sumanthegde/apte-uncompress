@@ -1,38 +1,74 @@
 {
-    "__line": 49293,
+    "__line": 46534,
     "_ancestry": [
         "L_ 5581",
-        "B_ {#asevana#}"
+        "B_ {#aviyoga#}"
     ],
-    "_banner": "{#asevana#}",
+    "_banner": "{#aviyoga#}",
     "_bannerExp": [
         {
-            "Right": "asevana"
+            "Right": "aviyoga"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}"
     ],
     "_meanings": [
-        "{@--1@} Not serving, \ndisregarding. ",
-        "{@--2@} Not following or \npractising, shunning. "
+        "Not separated, united, connected.\n"
     ],
     "_morphisms": [
         {
-            "__line": 49295,
+            "__line": 46535,
             "_ancestry": [
                 "L_ 5581",
-                "B_ {#asevana#}",
-                "M_ {#--naM#}"
+                "B_ {#aviyoga#}",
+                "M_ .{@{#-gaH#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-gaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "asevanaM"
+                    "Right": "aviyogaH"
                 }
             ],
             "_meanings": [
-                "Disregard,\ndisobedience, inattention."
+                ".²1 Non-separation, presence.\n",
+                ".²2 Conjunction, association.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 46539,
+            "_ancestry": [
+                "L_ 5581",
+                "B_ {#aviyoga#}",
+                "S_ .{@{#-tftIyA#}@}"
+            ],
+            "_banner": ".{@{#-tftIyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aviyogatftIyA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a certain festival or holiday.\n"
+            ]
+        },
+        {
+            "__line": 46540,
+            "_ancestry": [
+                "L_ 5581",
+                "B_ {#aviyoga#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aviyogavratam"
+                }
+            ],
+            "_meanings": [
+                "a vow to be observed by women on the third day of the\n first fortnight of Mārgaśīrṣa."
             ]
         }
     ]

@@ -1,22 +1,74 @@
 {
-    "__line": 69301,
+    "__line": 67207,
     "_ancestry": [
         "L_ 8050",
-        "B_ {#udasta#}"
+        "B_ {#Ahnika#}"
     ],
-    "_banner": "{#udasta#}",
+    "_banner": "{#Ahnika#}",
     "_bannerExp": [
         {
-            "Right": "udasta"
+            "Right": "Ahnika"
+        },
+        {
+            "Right": "AhnikI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#ahni BavaH, ahnA nirvfttaH sADyaH WaY#}]"
     ],
     "_meanings": [
-        "{@--1@} Thrown or cast up,\nraised, erected. ",
-        "{@--2@} Turned out, \nexpelled. ",
-        "{@--3@} Removed, scattered. ",
-        "{@--4@}\nShamed, humbled, humiliated."
+        ".²1 Daily, diurnal, performed every day or on a day; {#saMgrAmAdvayapayAtavyametatkarma#}\n {#mamAhnikam#} <ls>Mb. 6. 109. 27</ls>. {#AhnikaH svADyAyaH#} daily course of study;\n {#˚AcAraH#} daily observances.\n\n",
+        ".²2 Employed or occurring every day (as a teacher, servant, or fever).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 67214,
+            "_ancestry": [
+                "L_ 8050",
+                "B_ {#Ahnika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ahnikam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Any religious rite or duty which is to be performed every day at a\n fixed hour; {#atrAhnikaM suraSrezWo japate#} <ls>Mb.</ls>\n",
+                ".²2 Anything to be performed daily, such as taking meals, bathing <ab>&c.</ab>;\n {#praBAte kAlyamutTAya kftvAhnikamariMdamaH#} <ls>Rām. 7. 82. 5</ls>. {#kftAhnikaH#}\n {#saMvfttaH#} <ls>V. 4</ls>; {#samudre kftAhnikaH#} <ls>Mv. 5</ls>.\n",
+                ".²3 Daily food.\n",
+                ".²4 Daily work or occupation, what may be read on one day.\n",
+                ".²5 A division of a work (such as that of the Mahābhāṣya).\n"
+            ]
+        },
+        {
+            "__line": 67223,
+            "_ancestry": [
+                "L_ 8050",
+                "B_ {#Ahnika#}",
+                "M_ .{@{#-candrikA, -dIpikA, -pradIpa, -maYjarI#}@}"
+            ],
+            "_banner": ".{@{#-candrikA, -dIpikA, -pradIpa, -maYjarI#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: Ahnika/AhnikI caMdrikA"
+                },
+                {
+                    "Left": "surjectivity error: Ahnika/AhnikI dIpikA"
+                },
+                {
+                    "Left": "surjectivity error: Ahnika/AhnikI pradIpa"
+                },
+                {
+                    "Left": "surjectivity error: Ahnika/AhnikI maMjarI"
+                }
+            ],
+            "_meanings": [
+                "<ab>&c.</ab> <ab>N.</ab> of works."
+            ]
+        }
     ]
 }

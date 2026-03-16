@@ -1,16 +1,66 @@
 {
-    "__line": 180808,
+    "__line": 196356,
     "_ancestry": [
         "L_ 21815",
-        "B_ {#buburaM#}"
+        "B_ {#peSa(za, sa)la#}"
     ],
-    "_banner": "{#buburaM#}",
+    "_banner": "{#peSa(za, sa)la#}",
     "_bannerExp": [
         {
-            "Right": "buburaM"
+            "Right": "peSala"
+        },
+        {
+            "Right": "pezala"
+        },
+        {
+            "Right": "pesala"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> Water."
+        ".²1 Soft, tender, delicate; {#puzpacApamiva peSalaM smaraH#} <ls>R. 11. 45</ls>, <ls n=\"R.\">9. 40</ls>;\n <ls>Me. 95</ls> (<ab>v. l.</ab>)\n",
+        ".²2 Thin, slender (as waist); {#ezA tvayA peSalamaDyayApi GawAmbusaMvarDitabAlacUtA#} <ls>R. 13. 34</ls>\n",
+        ".²3 Lovely, beautiful, charming, good; {#na mfRAlAni vicArapeSalAni#} <ls>Bv. 2. 2</ls>.\n",
+        ".²4 Expert, clever, skilful; {#kiM vA tattvavivekapeSalamatiryogISvaraH#}\n {#ko'pi kim#} <ls>Bh. 3. 56</ls>; {#ekonmIlanapeSalaH#} <ls>U. 6. 34</ls>.\n",
+        ".²5 Crafty, fraudulent.\n",
+        ".²6 Decorated, adorned.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 196365,
+            "_ancestry": [
+                "L_ 21815",
+                "B_ {#peSa(za, sa)la#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "peSalam"
+                }
+            ],
+            "_meanings": [
+                "Beauty, charm, loveliness.\n"
+            ]
+        },
+        {
+            "__line": 196366,
+            "_ancestry": [
+                "L_ 21815",
+                "B_ {#peSa(za, sa)la#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "peSalaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu."
+            ]
+        }
     ]
 }

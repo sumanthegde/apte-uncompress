@@ -1,16 +1,77 @@
 {
-    "__line": 66137,
+    "__line": 64040,
     "_ancestry": [
         "L_ 7671",
-        "B_ {#ujjIvin#}"
+        "B_ {#AvasaTya#}"
     ],
-    "_banner": "{#ujjIvin#}",
+    "_banner": "{#AvasaTya#}",
     "_bannerExp": [
         {
-            "Right": "ujjIvin"
+            "Right": "AvasaTya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#AvasaTa-Yya#}]"
+    ],
     "_meanings": [
-        "Reviving, coming to life\nagain."
+        "Being in a house.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 64041,
+            "_ancestry": [
+                "L_ 7671",
+                "B_ {#AvasaTya#}",
+                "M_ .{@{#-TyaH#}@}"
+            ],
+            "_banner": ".{@{#-TyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AvasaTyaH"
+                }
+            ],
+            "_meanings": [
+                "The sacred fire kept in the house, one of the five fires\n used in sacrifices; see {#paYcAgni#}; <ls>Bhāg. 3. 13. 37</ls>.\n"
+            ]
+        },
+        {
+            "__line": 64043,
+            "_ancestry": [
+                "L_ 7671",
+                "B_ {#AvasaTya#}",
+                "M_ .{@{#-TyaH, -Tyam#}@}"
+            ],
+            "_banner": ".{@{#-TyaH, -Tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AvasaTyaH"
+                },
+                {
+                    "Right": "AvasaTyam"
+                }
+            ],
+            "_meanings": [
+                "A dwelling for pupils and ascetics.\n"
+            ]
+        },
+        {
+            "__line": 64044,
+            "_ancestry": [
+                "L_ 7671",
+                "B_ {#AvasaTya#}",
+                "M_ .{@{#-Tyam#}@}"
+            ],
+            "_banner": ".{@{#-Tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AvasaTyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Placing a sacred fire within a house.\n",
+                ".²2 A house."
+            ]
+        }
     ]
 }

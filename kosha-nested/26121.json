@@ -1,16 +1,39 @@
 {
-    "__line": 220572,
+    "__line": 238513,
     "_ancestry": [
         "L_ 26121",
-        "B_ {#viparivartanaM#}"
+        "B_ {#mAmaka#}"
     ],
-    "_banner": "{#viparivartanaM#}",
+    "_banner": "{#mAmaka#}",
     "_bannerExp": [
         {
-            "Right": "viparivartanaM"
+            "Right": "mAmaka"
+        },
+        {
+            "Left": "fFromGramCore error: mAmaka  mikA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-mikA#}|{%f.%})"
+    ],
     "_meanings": [
-        "Turning about, \nrolling."
+        ".²1 My, mine, belonging to my side; {#mAmakAH pARqavAScEva kimakurvata#}\n {#saMjaya#} <ls>Bg. 1. 1</ls>.\n",
+        ".²2 Selfish, covetous, greedy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 238517,
+            "_ancestry": [
+                "L_ 26121",
+                "B_ {#mAmaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_meanings": [
+                ".²1 A miser.\n",
+                ".²2 A maternal uncle."
+            ]
+        }
     ]
 }

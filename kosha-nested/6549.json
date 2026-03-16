@@ -1,24 +1,76 @@
 {
-    "__line": 57030,
+    "__line": 55090,
     "_ancestry": [
         "L_ 6549",
-        "B_ {#AmaMtr#}"
+        "B_ {#AgnIDra#}"
     ],
-    "_banner": "{#AmaMtr#}",
+    "_banner": "{#AgnIDra#}",
     "_bannerExp": [
         {
-            "Right": "AmaMtr"
+            "Right": "AgnIDra"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>A.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To bid \nfarewell, bid adieu; {#AmaMtrayasva sahacaraM#}\n<ls>Ś. 3</ls>; {#latABaginIM#} <ls>Ś. 4</ls>; <ls>Ku. 6. 94</ls>;\n<ls>K. 223.</ls> ",
-        "{@--2@} To speak to, call\nout to, address, converse with;  \n{#tamAmaMtrayAMbaBUva#} <ls>K. 81</ls>, <ls n=\"K.\">197</ls>, <ls>Ve. 1</ls>;  \n<ls>A. R. 3.</ls> ",
-        "{@--3@} To say, speak;  \n{#parijanopyevamAmaMtrayate#} <ls>K. 195.</ls> ",
-        "{@--4@} To call, invite, ask\n(to come); {#AmaMtrayaDvaM rAzwrezu brAhmaRAn#}\n<ls>Mb.</ls> ",
-        "{@--5@} To invoke."
+        "Belonging to the {#agnIDra#} (the priest who kindles the fire).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 55091,
+            "_ancestry": [
+                "L_ 6549",
+                "B_ {#AgnIDra#}",
+                "M_ .{@{#-Dram#}@}"
+            ],
+            "_banner": ".{@{#-Dram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgnIDram"
+                }
+            ],
+            "_gram": [
+                "[{#agniminDe agnIt tasya SaraRam, raR BatvAnna jaS#} <ls>Tv.</ls>]"
+            ],
+            "_meanings": [
+                ".²1 The place where the sacrificial or sacred fire is kindled. {#sada AgnIDraSAlAM#}\n {#ca tadvihAraM mahAnasam#} ({#kecid baBaYjuH#}) <ls>Bhāg. 4. 5. 14</ls>.\n",
+                ".²2 The duty of the priest who kindles the sacred fire.\n"
+            ]
+        },
+        {
+            "__line": 55095,
+            "_ancestry": [
+                "L_ 6549",
+                "B_ {#AgnIDra#}",
+                "M_ .{@{#-DrA#}@}"
+            ],
+            "_banner": ".{@{#-DrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgnIDrA"
+                }
+            ],
+            "_meanings": [
+                "Care of the sacred fire.\n"
+            ]
+        },
+        {
+            "__line": 55096,
+            "_ancestry": [
+                "L_ 6549",
+                "B_ {#AgnIDra#}",
+                "M_ .{@{#-DraH#}@}"
+            ],
+            "_banner": ".{@{#-DraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgnIDraH"
+                }
+            ],
+            "_meanings": [
+                "The priest who kindles the sacred fire. {#AgnIDraScottarAM#}\n {#diSam#} <ls>Mb. 12. 98. 38</ls>."
+            ]
+        }
     ]
 }

@@ -1,21 +1,43 @@
 {
-    "__line": 151589,
+    "__line": 159308,
     "_ancestry": [
         "L_ 17952",
-        "B_ {#paricita#}"
+        "B_ {#DAnam#}, {#-nI#}"
     ],
-    "_banner": "{#paricita#}",
+    "_banner": "{#DAnam#}, {#-nI#}",
     "_bannerExp": [
         {
-            "Right": "paricita"
+            "Right": "DAnam"
+        },
+        {
+            "Right": "DAnI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "[{#DA BAve-lyuw#}]"
     ],
     "_meanings": [
-        "{@--1@} Heaped up, \naccumulated. ",
-        "{@--2@} Familiar, intimate or\nacquainted with; <ls>Ś. 5. 10.</ls> ",
-        "{@--3@}\nLearnt, practised."
+        ".²1 A receptacle, seat; as in {#masIDAnI, rAjaDAnI, yamaDAnI#}; {#raviM daDAne'pyaravindaDAne#} <ls>Śi. 4. 12</ls>.\n",
+        ".²2 Nourishing, nourishment.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 159312,
+            "_ancestry": [
+                "L_ 17952",
+                "B_ {#DAnam#}, {#-nI#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DAnI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The site of a habitation.\n",
+                ".²2 Coriander."
+            ]
+        }
     ]
 }

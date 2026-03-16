@@ -1,16 +1,65 @@
 {
-    "__line": 140038,
+    "__line": 144732,
     "_ancestry": [
         "L_ 16693",
-        "B_ {#nicCiviH#}"
+        "B_ {#tfp#}"
     ],
-    "_banner": "{#nicCiviH#}",
+    "_banner": "{#tfp#}",
     "_bannerExp": [
         {
-            "Right": "nicCiviH"
+            "Right": "tfp"
         }
     ],
+    "_gram": [
+        "I.",
+        "€4",
+        "€5",
+        "€6",
+        "<ab>P.</ab>",
+        "({#tfpyati, tfpnoti, tfpati, tfpta#})"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of one of the \ndegraded castes (sprung from \noutcast Kṣatriyas); see <ls>Ms. 10. 22.</ls>"
+        ".²1 To become satisfied, be pleased or contented; {#adya tarpsyanti mAMsAdAH#}\n <ls>Bk. 16. 29</ls>; {#prASInna cAtfpat krUraH#} <ls n=\"Bk.\">15. 29</ls>; (usually with <ab>instr.</ab>,\n but sometimes with <ab>gen.</ab> or <ab>loc.</ab> also); {#ko na tfpyati vittena#} <ls>H. 2. 133</ls>\n (<ab>v. l.</ab> {#dfpyati#}); {#tfptastatpiSitena#} <ls>Bh. 2. 84</ls>; {#nAgnistfpyati#}\n {#kAzWAnAM nApagAnAM mahodaDiH . nAntakaH sarvaBUtAnAM na puMsAM vAmalocanA ..#}\n <ls>Pt. 1. 137</ls>; {#tasminhi tatfpurdevAstate yajYe#} <ls>Mb.</ls>\n",
+        ".²2 To please, gratify. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 144739,
+            "_ancestry": [
+                "L_ 16693",
+                "B_ {#tfp#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "tfp"
+                }
+            ],
+            "_meanings": [
+                "To gratify, please. "
+            ]
+        },
+        {
+            "__line": 144739,
+            "_ancestry": [
+                "L_ 16693",
+                "B_ {#tfp#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "tfp"
+                }
+            ],
+            "_meanings": [
+                ".\n {#titfpsati#}; {#titarpizati#}. --II. €1 <ab>P.</ab>, €10 <ab>U.</ab> ({#tarpati, tarpayati-te#})\n",
+                ".²1 To light up, kindle.\n",
+                ".²2 (<ab>Ātm.</ab>) To be satisfied.\n",
+                ".²3 To please, satisfy.\n",
+                ".²4 To gladden, refresh, reanimate; {#svEraM svEraM preritEstarpayeti#} <ls>U. 3. 2</ls>."
+            ]
+        }
     ]
 }

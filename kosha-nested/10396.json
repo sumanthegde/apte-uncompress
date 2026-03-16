@@ -1,19 +1,38 @@
 {
-    "__line": 87346,
+    "__line": 86491,
     "_ancestry": [
         "L_ 10396",
-        "B_ {#karRikin#}"
+        "B_ {#uSij#}"
     ],
-    "_banner": "{#karRikin#}",
+    "_banner": "{#uSij#}",
     "_bannerExp": [
         {
-            "Right": "karRikin"
+            "Right": "uSij"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}"
-    ],
     "_meanings": [
-        "An elephant."
+        "<ab>Ved.</ab>\n",
+        ".²1 Desiring, striving earnestly.\n",
+        ".²2 Devoted to, willing. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 86493,
+            "_ancestry": [
+                "L_ 10396",
+                "B_ {#uSij#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#uSij#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Fire.\n",
+                ".²2 Ghee or clarified butter."
+            ]
+        }
     ]
 }

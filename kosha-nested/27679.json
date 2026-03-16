@@ -1,26 +1,477 @@
 {
-    "__line": 233102,
+    "__line": 255385,
     "_ancestry": [
         "L_ 27679",
-        "B_ {#Sarkarika#}"
+        "B_ {#roman#}"
     ],
-    "_banner": "{#Sarkarika#}",
+    "_banner": "{#roman#}",
     "_bannerExp": [
         {
-            "Right": "SarkarikI"
-        },
-        {
-            "Right": "Sarkarika"
+            "Right": "roman"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "{#Sarkarila#}",
-        "{#SarkarAvat#}",
-        "{%<ab>a.</ab>%}"
+        "{%n.%}",
+        "[{#ru-manin#} <ls>Uṇ. 4. 150</ls>]"
     ],
     "_meanings": [
-        "Stony, gravelly, gritty."
+        ".²1 The hair on the body of men and animals; especially, short hair, bristles\n or down; {#romARi ca rahasyAni sarvARyeva vivarjayet#} <ls>Ms. 4. 144</ls>, <ls n=\"Ms.\">8. 116</ls>;\n <ls>Bhāg. 11. 18. 3</ls>.\n",
+        ".²2 The feathers of birds.\n",
+        ".²3 The scales of a fish.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 255392,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-aNkaH#}@}"
+            ],
+            "_banner": ".{@{#-aNkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romANkaH"
+                }
+            ],
+            "_meanings": [
+                "a mark of hair; {#biBratI SvetaromANkam#} <ls>R. 1. 83</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255393,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-aNkuraH, -aYcaH#}@}"
+            ],
+            "_banner": ".{@{#-aNkuraH, -aYcaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romANkuraH"
+                },
+                {
+                    "Right": "romAYcaH"
+                }
+            ],
+            "_meanings": [
+                "a thrill (of rapture, horror, surprise <ab>&c.</ab>),\n horripilation; {#harzAdButaBayAdiByo romAYco romavikriyA#} <ls>S. D. 167</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255395,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-aYcita#}@}"
+            ],
+            "_banner": ".{@{#-aYcita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romAYcita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with the hair erect or thrilled with joy.\n"
+            ]
+        },
+        {
+            "__line": 255396,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-antaH#}@}"
+            ],
+            "_banner": ".{@{#-antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romAntaH"
+                }
+            ],
+            "_meanings": [
+                "the hair on the back or upper side of the hand.\n"
+            ]
+        },
+        {
+            "__line": 255397,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-AlI, -AvaliH, -lI#}@}"
+            ],
+            "_banner": ".{@{#-AlI, -AvaliH, -lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romAlI"
+                },
+                {
+                    "Right": "romAvaliH"
+                },
+                {
+                    "Right": "romAvalI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 a line of hair on the abdomen (above the navel); {#SiKA DUmasyeyaM#}\n {#pariRamati romAvalivapuH#} <ls>K. P. 10</ls>; {#romarAji#} also.\n",
+                ".²2 Puberty.\n"
+            ]
+        },
+        {
+            "__line": 255401,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-udgamaH, -udBedaH#}@}"
+            ],
+            "_banner": ".{@{#-udgamaH, -udBedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romodgamaH"
+                },
+                {
+                    "Right": "romodBedaH"
+                }
+            ],
+            "_meanings": [
+                "erection of the hair (on the body), thrill,\n horripilation; {#romodgamaH prAduraBUdumAyAH#} <ls>Ku. 7. 77</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255403,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-karRakaH#}@}"
+            ],
+            "_banner": ".{@{#-karRakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romakarRakaH"
+                }
+            ],
+            "_meanings": [
+                "a hare.\n"
+            ]
+        },
+        {
+            "__line": 255404,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-kUpaH, -pam, -gartaH#}@}"
+            ],
+            "_banner": ".{@{#-kUpaH, -pam, -gartaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romakUpaH"
+                },
+                {
+                    "Right": "romakUpam"
+                },
+                {
+                    "Right": "romagartaH"
+                }
+            ],
+            "_meanings": [
+                "a pore of the skin; {#so'sfjadromakUpeByo#}\n {#rOmyAnnAma gaReSvarAn#} <ls>Mb. 12. 284. 35</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255406,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-keSaram, -kesaram, -gucCam#}@}"
+            ],
+            "_banner": ".{@{#-keSaram, -kesaram, -gucCam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romakeSaram"
+                },
+                {
+                    "Right": "romakesaram"
+                },
+                {
+                    "Right": "romagucCam"
+                }
+            ],
+            "_meanings": [
+                "whisk, {%chowrie%}.\n"
+            ]
+        },
+        {
+            "__line": 255407,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-pulakaH#}@}"
+            ],
+            "_banner": ".{@{#-pulakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romapulakaH"
+                }
+            ],
+            "_meanings": [
+                "bristling of the hair, thrill; {#udBinnaromapulakErbahuBiH#}\n {#samantAjjAgarti rakzati vilokayati smarAmi#} <ls>Ch. P. 34</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255409,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-BUmiH#}@}"
+            ],
+            "_banner": ".{@{#-BUmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaBUmiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "‘the place of the hair’, {%<ab>i. e.</ab>%} the skin.\n"
+            ]
+        },
+        {
+            "__line": 255410,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-ranDram#}@}"
+            ],
+            "_banner": ".{@{#-ranDram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaranDram"
+                }
+            ],
+            "_meanings": [
+                "a pore of the skin.\n"
+            ]
+        },
+        {
+            "__line": 255411,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-rAjiH, -jI, -latA#}@}"
+            ],
+            "_banner": ".{@{#-rAjiH, -jI, -latA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romarAjiH"
+                },
+                {
+                    "Right": "romarAjI"
+                },
+                {
+                    "Right": "romalatA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a line of hair on the abdomen (above\n the navel); {#rarAja tanvI navaro#} ({#lo#}) {#marAjiH#} <ls>Ku. 1. 38</ls>; <ls>Śi. 9. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255413,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-vAhin#}@}"
+            ],
+            "_banner": ".{@{#-vAhin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romavAhin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "cutting-off hair.\n"
+            ]
+        },
+        {
+            "__line": 255414,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-vikAraH, -vikriyA, -viBedaH#}@}"
+            ],
+            "_banner": ".{@{#-vikAraH, -vikriyA, -viBedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romavikAraH"
+                },
+                {
+                    "Right": "romavikriyA"
+                },
+                {
+                    "Right": "romaviBedaH"
+                }
+            ],
+            "_meanings": [
+                "thrill, horripilation; {#SaMsati#}\n {#sma GanaromaviBedaH#} <ls>Ki. 9. 46</ls>; {#pratikzaRaM sA kftaromavikriyAm#} <ls>Ku. 5. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255416,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-viDvaMsaH#}@}"
+            ],
+            "_banner": ".{@{#-viDvaMsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaviDvaMsaH"
+                }
+            ],
+            "_meanings": [
+                "a louse.\n"
+            ]
+        },
+        {
+            "__line": 255417,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-SAtanam#}@}"
+            ],
+            "_banner": ".{@{#-SAtanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaSAtanam"
+                }
+            ],
+            "_meanings": [
+                "a depilatory for removing the hair.\n"
+            ]
+        },
+        {
+            "__line": 255418,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-sUcI#}@}"
+            ],
+            "_banner": ".{@{#-sUcI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romasUcI"
+                }
+            ],
+            "_meanings": [
+                "a hair-pin.\n"
+            ]
+        },
+        {
+            "__line": 255419,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-harzaH#}@}"
+            ],
+            "_banner": ".{@{#-harzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaharzaH"
+                }
+            ],
+            "_meanings": [
+                "bristling of the hair, thrill; {#vepaTuSca SarIre me romaharzaSca#}\n {#jAyate#} <ls>Bg. 1. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 255421,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-harzaRa#}@}"
+            ],
+            "_banner": ".{@{#-harzaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romaharzaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "causing thrill or horripilation, thrilling, awe-inspiring;\n {#etAni Kalu sarvaBUtaro#} ({#lo#}) {#maharzaRAni dIrGAraRyAni#} <ls>U. 2</ls>;\n {#saMvAdamimamaSrOzamadButaM romaharzaRam#} <ls>Bg. 18. 74</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 255424,
+                    "_ancestry": [
+                        "L_ 27679",
+                        "B_ {#roman#}",
+                        "S_ .{@{#-harzaRa#}@}",
+                        "S_M_ ({@{#-RaH#}@})"
+                    ],
+                    "_banner": "({@{#-RaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "romaharzaRaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Sūta, a pupil of Vyāsa who narrated several Purāṇas to Śaunaka.\n."
+                    ]
+                },
+                {
+                    "__line": 255425,
+                    "_ancestry": [
+                        "L_ 27679",
+                        "B_ {#roman#}",
+                        "S_ .{@{#-harzaRa#}@}",
+                        "S_M_ ({@{#-Ram#}@})"
+                    ],
+                    "_banner": "({@{#-Ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "romaharzaRam"
+                        }
+                    ],
+                    "_meanings": [
+                        "erection of hair on the body, thrill.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 255426,
+            "_ancestry": [
+                "L_ 27679",
+                "B_ {#roman#}",
+                "S_ .{@{#-hft#}@}"
+            ],
+            "_banner": ".{@{#-hft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romahft"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "sulphuret of arsenic."
+            ]
+        }
     ]
 }

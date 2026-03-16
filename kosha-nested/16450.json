@@ -1,16 +1,38 @@
 {
-    "__line": 138323,
+    "__line": 142590,
     "_ancestry": [
         "L_ 16450",
-        "B_ {#nAgarukaH#}"
+        "B_ {#tindukam#}, {#-kI#}"
     ],
-    "_banner": "{#nAgarukaH#}",
+    "_banner": "{#tindukam#}, {#-kI#}",
     "_bannerExp": [
         {
-            "Right": "nAgarukaH"
+            "Right": "tindukam"
+        },
+        {
+            "Right": "tindukI"
         }
     ],
     "_meanings": [
-        "Orange."
+        "The fruit of the ebony tree.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 142592,
+            "_ancestry": [
+                "L_ 16450",
+                "B_ {#tindukam#}, {#-kI#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tindukam"
+                }
+            ],
+            "_meanings": [
+                "A kind of measure ({#karza#})."
+            ]
+        }
     ]
 }

@@ -1,16 +1,77 @@
 {
-    "__line": 164878,
+    "__line": 176632,
     "_ancestry": [
         "L_ 19717",
-        "B_ {#prajavaH#}"
+        "B_ {#pacata#}"
     ],
-    "_banner": "{#prajavaH#}",
+    "_banner": "{#pacata#}",
     "_bannerExp": [
         {
-            "Right": "prajavaH"
+            "Right": "pacata"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> Haste."
+        ".²1 Cooked, dressed.\n",
+        ".²2 Ripe, developed, mature.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 176635,
+            "_ancestry": [
+                "L_ 19717",
+                "B_ {#pacata#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacataH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Fire.\n",
+                ".²2 The sun.\n",
+                ".²3 <ab>N.</ab> of Indra.\n"
+            ]
+        },
+        {
+            "__line": 176639,
+            "_ancestry": [
+                "L_ 19717",
+                "B_ {#pacata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacatam"
+                }
+            ],
+            "_meanings": [
+                "Cooked food.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 176641,
+            "_ancestry": [
+                "L_ 19717",
+                "B_ {#pacata#}",
+                "S_ .{@{#-BfjjatA#}@}"
+            ],
+            "_banner": ".{@{#-BfjjatA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pacataBfjjatA"
+                }
+            ],
+            "_meanings": [
+                "continual baking and roasting; <ab>cf.</ab> {#KAdatamodatA#}."
+            ]
+        }
     ]
 }

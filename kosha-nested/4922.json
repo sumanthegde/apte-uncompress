@@ -1,22 +1,45 @@
 {
-    "__line": 44057,
+    "__line": 41837,
     "_ancestry": [
         "L_ 4922",
-        "B_ {#avahan#}"
+        "B_ {#avacCedaka#}"
     ],
-    "_banner": "{#avahan#}",
+    "_banner": "{#avacCedaka#}",
     "_bannerExp": [
         {
-            "Right": "avahan"
+            "Right": "avacCedaka"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To strike, beat\noff, hit, kill. ",
-        "{@--2@} To destroy, remove;\n{#duritaM, kzuDAM, dvizaH#} &c. ",
-        "{@--3@} To thresh\n(as rice); {#avahatya taMqulAn#} <ls>Dk. 132.</ls>"
+        ".²1 Separating.\n",
+        ".²2 Determining, deciding, {#pratiyogikAvacCedakAvacCinnam#}.\n",
+        ".²3 Bounding, limiting,\n",
+        ".²4 Pervading.\n",
+        ".²5 Distinguishing, particularizing.\n",
+        ".²6 Peculiar, characteristic.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 41844,
+            "_ancestry": [
+                "L_ 4922",
+                "B_ {#avacCedaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avacCedakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 That which distinguishes.\n",
+                ".²2 A predicate, characteristic property.\n",
+                ".²3 Boundary, limit."
+            ]
+        }
     ]
 }

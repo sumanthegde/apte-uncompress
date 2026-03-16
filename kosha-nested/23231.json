@@ -1,17 +1,45 @@
 {
-    "__line": 195636,
+    "__line": 207837,
     "_ancestry": [
         "L_ 23231",
-        "B_ {#muKarikA#}"
+        "B_ {#pramI#}"
     ],
-    "_banner": "{#muKarikA#}",
+    "_banner": "{#pramI#}",
     "_bannerExp": [
         {
-            "Right": "muKarikA"
+            "Right": "pramI"
         }
     ],
+    "_gram": [
+        "€9",
+        "<ab>U.</ab>"
+    ],
     "_meanings": [
-        "{@--1@} The bit of a bridle. ",
-        "{@--2@}\nConversation."
+        "²1 To destroy, annihilate, kill, slay.\n",
+        ".²2 To diminish.\n",
+        ".²3 To surmount, get over.\n",
+        ".²4 To surpass, outstrip.\n",
+        ".²5 <ab>Ved.</ab> To transgress, infringe.\n",
+        ".²6 <ab>Ved.</ab> To lose or miss (oneʼs way).\n",
+        ".²7 To perish, die. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 207844,
+            "_ancestry": [
+                "L_ 23231",
+                "B_ {#pramI#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pramI"
+                }
+            ],
+            "_meanings": [
+                "To destroy, annihilate <ab>&c.</ab>"
+            ]
+        }
     ]
 }

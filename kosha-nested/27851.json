@@ -1,62 +1,56 @@
 {
-    "__line": 234280,
+    "__line": 257253,
     "_ancestry": [
         "L_ 27851",
-        "B_ {#SArIraka#}"
+        "B_ {#lalanA#}"
     ],
-    "_banner": "{#SArIraka#}",
+    "_banner": "{#lalanA#}",
     "_bannerExp": [
         {
-            "Right": "SArIrakI"
-        },
-        {
-            "Right": "SArIraka"
+            "Right": "lalanA"
         }
-    ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
     ],
     "_meanings": [
-        "{@--1@} Relating to\nthe body, corporeal. ",
-        "{@--2@} Incorporate, \n\nembodied (as the soul). "
-    ],
-    "_morphisms": [
-        {
-            "__line": 234283,
-            "_ancestry": [
-                "L_ 27851",
-                "B_ {#SArIraka#}",
-                "M_ {#--kaM#}"
-            ],
-            "_banner": "{#--kaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "SArIrakaM"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} The\nembodied spirit. ",
-                "{@--2@} The inquiry into\nthe nature of that spirit (a term\napplied to the Bhāṣya of \nŚankarāchārya on the Brahma-sūtras).\n"
-            ]
-        }
+        ".²1 A woman (in general); {#SaWa nAkalokalalanABiraviratarataM riraMsase#} <ls>Śi. 15. 88</ls>.\n",
+        ".²2 A wanton woman.\n",
+        ".²3 The tongue.\n"
     ],
     "_samasas": [
         {
-            "__line": 234288,
+            "__line": 257258,
             "_ancestry": [
                 "L_ 27851",
-                "B_ {#SArIraka#}",
-                "S_  {#--sUtraM#}"
+                "B_ {#lalanA#}",
+                "S_ .{@{#-priyaH#}@}"
             ],
-            "_banner": " {#--sUtraM#}",
+            "_banner": ".{@{#-priyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SArIrakasUtraM"
+                    "Right": "lalanApriyaH"
                 }
             ],
             "_meanings": [
-                "the aphorisms of the\nVedānta philosophy."
+                "the {%Kadamba%} tree.\n"
+            ]
+        },
+        {
+            "__line": 257259,
+            "_ancestry": [
+                "L_ 27851",
+                "B_ {#lalanA#}",
+                "S_ .{@{#-varUTin#}@}"
+            ],
+            "_banner": ".{@{#-varUTin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lalanAvarUTin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "surrounded by a troop of women."
             ]
         }
     ]

@@ -1,19 +1,40 @@
 {
-    "__line": 183240,
+    "__line": 198065,
     "_ancestry": [
         "L_ 22036",
-        "B_ {#BazaH, --BazakaH#}"
+        "B_ {#prakarzita#}"
     ],
-    "_banner": "{#BazaH, --BazakaH#}",
+    "_banner": "{#prakarzita#}",
     "_bannerExp": [
         {
-            "Right": "BazaH"
-        },
-        {
-            "Right": "BazakaH"
+            "Right": "prakarzita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A dog."
+        ".²1 Drawn out or forth.\n",
+        ".²2 Stretched out.\n",
+        ".²3 Exceeded in profit (as the interest of a loan).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 198069,
+            "_ancestry": [
+                "L_ 22036",
+                "B_ {#prakarzita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakarzitam"
+                }
+            ],
+            "_meanings": [
+                "Profit on a pledge exceeding the interest of the money lent upon it."
+            ]
+        }
     ]
 }

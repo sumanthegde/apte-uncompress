@@ -1,19 +1,60 @@
 {
-    "__line": 234260,
+    "__line": 257214,
     "_ancestry": [
         "L_ 27848",
-        "B_ {#SArikA#}"
+        "B_ {#lala#}"
     ],
-    "_banner": "{#SArikA#}",
+    "_banner": "{#lala#}",
     "_bannerExp": [
         {
-            "Right": "SArikA"
+            "Right": "lala"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A kind of bird. ",
-        "{@--2@} A\nbow or stick for playing any \nstringed instrument. ",
-        "{@--3@} Playing at chess\n&c. ",
-        "{@--4@} A chessman, a piece at\nchess."
+        ".²1 Playful, sportive.\n",
+        ".²2 Lolling.\n",
+        ".²3 Wishing, desirous.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 257218,
+            "_ancestry": [
+                "L_ 27848",
+                "B_ {#lala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A shoot, sprout.\n",
+                ".²2 A garden.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 257222,
+            "_ancestry": [
+                "L_ 27848",
+                "B_ {#lala#}",
+                "S_ .{@{#-jihva#}@}"
+            ],
+            "_banner": ".{@{#-jihva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lalajihva"
+                }
+            ],
+            "_meanings": [
+                "= {#lalajjihva#} <ab>q. v.</ab>"
+            ]
+        }
     ]
 }

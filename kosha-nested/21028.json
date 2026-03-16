@@ -1,16 +1,63 @@
 {
-    "__line": 174066,
+    "__line": 188297,
     "_ancestry": [
         "L_ 21028",
-        "B_ {#prahfzwakaH#}"
+        "B_ {#pAtrika#}"
     ],
-    "_banner": "{#prahfzwakaH#}",
+    "_banner": "{#pAtrika#}",
     "_bannerExp": [
         {
-            "Right": "prahfzwakaH"
+            "Right": "pAtrika"
+        },
+        {
+            "Right": "pAtrikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A crow."
+        ".²1 Measured out with any vessel or a measure called {#AQakaM#}.\n",
+        ".²2 Fit, adequate, appropriate.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 188300,
+            "_ancestry": [
+                "L_ 21028",
+                "B_ {#pAtrika#}",
+                "M_ .{@{#-kam, -kI#}@}"
+            ],
+            "_banner": ".{@{#-kam, -kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAtrikam"
+                },
+                {
+                    "Right": "pAtrikI"
+                }
+            ],
+            "_meanings": [
+                "A vessel, cup, dish; {#tasmA ityupanItAya yakzarAw pAtrikAmadAt#}\n <ls>Bhāg. 8. 18. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 188302,
+            "_ancestry": [
+                "L_ 21028",
+                "B_ {#pAtrika#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAtrikA"
+                }
+            ],
+            "_meanings": [
+                "An alms-bowl."
+            ]
+        }
     ]
 }

@@ -1,16 +1,43 @@
 {
-    "__line": 174887,
+    "__line": 189201,
     "_ancestry": [
         "L_ 21110",
-        "B_ {#prAtikA#}"
+        "B_ {#pAradeSika#}"
     ],
-    "_banner": "{#prAtikA#}",
+    "_banner": "{#pAradeSika#}",
     "_bannerExp": [
         {
-            "Right": "prAtikA"
+            "Right": "pAradeSika"
+        },
+        {
+            "Right": "pAradeSikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})"
+    ],
     "_meanings": [
-        "The China rose ({#javA#})."
+        "Foreign, out-landish.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 189203,
+            "_ancestry": [
+                "L_ 21110",
+                "B_ {#pAradeSika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAradeSikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A foreigner.\n",
+                ".²2 A traveller."
+            ]
+        }
     ]
 }

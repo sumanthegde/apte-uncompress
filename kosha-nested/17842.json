@@ -1,19 +1,61 @@
 {
-    "__line": 150827,
+    "__line": 157809,
     "_ancestry": [
         "L_ 17842",
-        "B_ {#parASarin#}"
+        "B_ {#dvEpa#}"
     ],
-    "_banner": "{#parASarin#}",
+    "_banner": "{#dvEpa#}",
     "_bannerExp": [
         {
-            "Right": "parASarin"
+            "Right": "dvEpa"
+        },
+        {
+            "Right": "dvEpI"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "({#-pI#}|{%f.%})",
+        "[{#dvIpino vikAraH aY dvIpAdAgataH aR vA#}]"
     ],
     "_meanings": [
-        "A beggar, \nmendicant."
+        ".²1 Relating to or living on an island.\n",
+        ".²2 Belonging to a\n\n tiger, made of or covered with a tigerʼs skin.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 157815,
+            "_ancestry": [
+                "L_ 17842",
+                "B_ {#dvEpa#}",
+                "M_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvEpaH"
+                }
+            ],
+            "_meanings": [
+                "A car covered with a tigerʼs skin.\n"
+            ]
+        },
+        {
+            "__line": 157816,
+            "_ancestry": [
+                "L_ 17842",
+                "B_ {#dvEpa#}",
+                "M_ .{@{#-pam#}@}"
+            ],
+            "_banner": ".{@{#-pam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvEpam"
+                }
+            ],
+            "_meanings": [
+                "The skin of a tiger."
+            ]
+        }
     ]
 }

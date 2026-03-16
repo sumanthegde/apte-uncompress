@@ -1,36 +1,222 @@
 {
-    "__line": 238152,
+    "__line": 261786,
     "_ancestry": [
         "L_ 28339",
-        "B_ {#Syeta#}"
+        "B_ {#vaRij#}"
     ],
-    "_banner": "{#Syeta#}",
+    "_banner": "{#vaRij#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: Syeta  nA"
-        },
-        {
-            "Right": "Syeta"
+            "Right": "vaRij"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tA#}|{#nA#}|{%<ab>f.</ab>%})"
+        "{%m.%}",
+        "[<ls>Uṇ. 2. 70</ls>]"
     ],
     "_meanings": [
-        "White. "
+        ".²1 A merchant, trader; {#yasyAgamaH kevalajIvikAyE taM jYAnapaRyaM vaRijaM#}\n {#vadanti#} <ls>M. 1. 17</ls>.\n",
+        ".²2 The sign {%Libra%} of the zodiac. "
     ],
     "_morphisms": [
         {
-            "__line": 238152,
+            "__line": 261789,
             "_ancestry": [
                 "L_ 28339",
-                "B_ {#Syeta#}",
-                "M_ {#--taH#}"
+                "B_ {#vaRij#}",
+                "M_ --{%f.%}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vaRij#} M_ --{%f.%}"
+                }
+            ],
             "_meanings": [
-                "The white colour."
+                "Merchandise, trade.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 261791,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-kawakaH#}@}"
+            ],
+            "_banner": ".{@{#-kawakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRikkawakaH"
+                }
+            ],
+            "_meanings": [
+                "a caravan.\n"
+            ]
+        },
+        {
+            "__line": 261792,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRikkarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-kriyA#}@}"
+            ],
+            "_meanings": [
+                "traffic, trade.\n"
+            ]
+        },
+        {
+            "__line": 261794,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-grAmaH#}@}"
+            ],
+            "_banner": ".{@{#-grAmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRiggrAmaH"
+                }
+            ],
+            "_meanings": [
+                "a guild of merchants.\n"
+            ]
+        },
+        {
+            "__line": 261795,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRigjanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 merchants (collectively).\n",
+                ".²2 a trader, merchant.\n"
+            ]
+        },
+        {
+            "__line": 261798,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRikpaTaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 trade, traffic; {#vEdehakAnAM strIkAryaM mAgaDAnAM vaRikpaTaH#} <ls>Ms. 10. 47</ls>.\n",
+                ".²2 a merchant; <ls>Bhāg. 11. 12. 6</ls>.\n",
+                ".²3 a merchantʼs shop, a stall.\n",
+                ".²4 the sign {%Libra%} of the zodiac.\n"
+            ]
+        },
+        {
+            "__line": 261803,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-banDuH#}@}"
+            ],
+            "_banner": ".{@{#-banDuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRigbanDuH"
+                }
+            ],
+            "_meanings": [
+                "the indigo plant.\n"
+            ]
+        },
+        {
+            "__line": 261804,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-vahaH#}@}"
+            ],
+            "_banner": ".{@{#-vahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRigvahaH"
+                }
+            ],
+            "_meanings": [
+                "a camel.\n"
+            ]
+        },
+        {
+            "__line": 261805,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-vITI#}@}"
+            ],
+            "_banner": ".{@{#-vITI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRigvITI"
+                }
+            ],
+            "_meanings": [
+                "a market street, bazaar.\n"
+            ]
+        },
+        {
+            "__line": 261806,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-vfttiH#}@}"
+            ],
+            "_banner": ".{@{#-vfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRigvfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "trade, traffic; business; (<ab>fig.</ab>) mercenary doing;\n {#muktvEkaM BavabanDaduHKaracanAviDvaMsakAlAnalaM svAtmAnandapadapraveSakalanaM#}\n {#SezA vaRigvfttayaH#} <ls>Bh. 3. 81</ls>.\n"
+            ]
+        },
+        {
+            "__line": 261809,
+            "_ancestry": [
+                "L_ 28339",
+                "B_ {#vaRij#}",
+                "S_ .{@{#-sArTaH#}@}"
+            ],
+            "_banner": ".{@{#-sArTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vaRiksArTaH"
+                }
+            ],
+            "_meanings": [
+                "a caravan."
             ]
         }
     ]

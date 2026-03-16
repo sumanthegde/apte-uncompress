@@ -1,22 +1,133 @@
 {
-    "__line": 251026,
+    "__line": 277104,
     "_ancestry": [
         "L_ 30022",
-        "B_ {#sAtInaH, sAtInakaH, sAtIlakaH#}"
+        "B_ {#vimala#}"
     ],
-    "_banner": "{#sAtInaH, sAtInakaH, sAtIlakaH#}",
+    "_banner": "{#vimala#}",
     "_bannerExp": [
         {
-            "Right": "sAtIlakaH"
-        },
-        {
-            "Right": "sAtInaH"
-        },
-        {
-            "Right": "sAtInakaH"
+            "Right": "vimala"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Pease."
+        ".²1 Pure, stainless, spotless, clean (fig also).\n",
+        ".²2 Clear, limpid, pellucid, transparent (as water); {#vimalaM jalam#}.\n",
+        ".²3 White, bright.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 277108,
+            "_ancestry": [
+                "L_ 30022",
+                "B_ {#vimala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimalaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An {%Arhat%}.\n",
+                ".²2 A magical formula recited over weapons.\n",
+                ".²3 A lunar year.\n"
+            ]
+        },
+        {
+            "__line": 277112,
+            "_ancestry": [
+                "L_ 30022",
+                "B_ {#vimala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Silver-gilt.\n",
+                ".²2 Talc.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 277116,
+            "_ancestry": [
+                "L_ 30022",
+                "B_ {#vimala#}",
+                "S_ .{@{#-akza#}@}"
+            ],
+            "_banner": ".{@{#-akza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimalAkza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Having ten hair-curlings ({#Avarta#}) (as a horse);\n {#tasya sarvaguRopetA vimalAkzA hayottamAH#} <ls>Mb. 3. 161. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 277118,
+            "_ancestry": [
+                "L_ 30022",
+                "B_ {#vimala#}",
+                "S_ .{@{#-adriH#}@}"
+            ],
+            "_banner": ".{@{#-adriH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimalAdriH"
+                }
+            ],
+            "_meanings": [
+                "the mountain Girnār in Gujarāt (famous for its inscriptions).\n"
+            ]
+        },
+        {
+            "__line": 277119,
+            "_ancestry": [
+                "L_ 30022",
+                "B_ {#vimala#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimaladAnam"
+                }
+            ],
+            "_meanings": [
+                "an offering to a deity.\n"
+            ]
+        },
+        {
+            "__line": 277120,
+            "_ancestry": [
+                "L_ 30022",
+                "B_ {#vimala#}",
+                "S_ .{@{#-maRiH#}@}"
+            ],
+            "_banner": ".{@{#-maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimalamaRiH"
+                }
+            ],
+            "_meanings": [
+                "a crystal."
+            ]
+        }
     ]
 }

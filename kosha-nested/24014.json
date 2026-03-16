@@ -1,21 +1,43 @@
 {
-    "__line": 203211,
+    "__line": 214267,
     "_ancestry": [
         "L_ 24014",
-        "B_ {#raBas#}"
+        "B_ {#prAvfta#}"
     ],
-    "_banner": "{#raBas#}",
+    "_banner": "{#prAvfta#}",
     "_bannerExp": [
         {
-            "Right": "raBas"
+            "Right": "prAvfta"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Violence, zeal, \n\nvehemence. ",
-        "{@--2@} Rashness, precipitation.\n",
-        "{@--3@} Force, strength."
+        ".²1 Enclosed, surrounded, covered, screened.\n",
+        ".²2 Put on (as a garment).\n",
+        ".²3 Filled with.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 214271,
+            "_ancestry": [
+                "L_ 24014",
+                "B_ {#prAvfta#}",
+                "M_ .{@{#-taH, -tam#}@}"
+            ],
+            "_banner": ".{@{#-taH, -tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAvftaH"
+                },
+                {
+                    "Right": "prAvftam"
+                }
+            ],
+            "_meanings": [
+                "A veil, mantle, wrapper. ({%f.%} also)."
+            ]
+        }
     ]
 }

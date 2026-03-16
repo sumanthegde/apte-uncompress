@@ -1,65 +1,189 @@
 {
-    "__line": 162938,
+    "__line": 174077,
     "_ancestry": [
         "L_ 19444",
-        "B_ {#pOruzeya#}"
+        "B_ {#nIram#}"
     ],
-    "_banner": "{#pOruzeya#}",
+    "_banner": "{#nIram#}",
     "_bannerExp": [
         {
-            "Right": "pOruzeyI"
-        },
-        {
-            "Right": "pOruzeya"
+            "Right": "nIram"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#yI#}|{%<ab>f.</ab>%})",
-        "[{#puruza-WaY#}]"
+        "[<ls>Uṇ. 2. 13</ls>]"
     ],
     "_meanings": [
-        "{@--1@}\nDerived from or belonging to man,\nhuman, incidental to man; made,\nestablished or propounded by man;\nas in {#apOruzeyA vE vedAH#}. ",
-        "{@--2@} Manly,\nvirile. ",
-        "{@--3@} Spiritual. "
+        ".²1 Water; {#nIrAnnirmalato janiH#} <ls>Bv. 1. 63</ls>.\n",
+        ".²2 Juice, liquor.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 162943,
+            "__line": 174081,
             "_ancestry": [
                 "L_ 19444",
-                "B_ {#pOruzeya#}",
-                "M_ {#--yaH#}"
+                "B_ {#nIram#}",
+                "S_ .{@{#-cara#}@}"
             ],
-            "_banner": "{#--yaH#}",
+            "_banner": ".{@{#-cara#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pOruzeyaH"
+                    "Right": "nIracara"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} \nManslaughter ({#puruzavaDa#}). ",
-                "{@--2@} A crowd of\nmen. ",
-                "{@--3@} A day labourer, hireling.\n",
-                "{@--4@} Human action, man's work. ",
-                "{@--5@}\nLaw as affecting persons. "
+                "Loitering in water, aquatic; {#nIre nIracarEH samaM#}\n {#sa BagavAnnidrAti nArAyaRaH#} <ls>Bv.</ls>\n"
             ]
         },
         {
-            "__line": 162947,
+            "__line": 174083,
             "_ancestry": [
                 "L_ 19444",
-                "B_ {#pOruzeya#}",
-                "M_ {#--yaM#}"
+                "B_ {#nIram#}",
+                "S_ .{@{#-ja#}@}"
             ],
-            "_banner": "{#--yaM#}",
+            "_banner": ".{@{#-ja#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pOruzeyaM"
+                    "Right": "nIraja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "aquatic.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 174084,
+                    "_ancestry": [
+                        "L_ 19444",
+                        "B_ {#nIram#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jaH#}@})"
+                    ],
+                    "_banner": "({@{#-jaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "nIrajaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an otter.\n",
+                        ".²2 a kind of grass ({#uSIra#}).\n."
+                    ]
+                },
+                {
+                    "__line": 174087,
+                    "_ancestry": [
+                        "L_ 19444",
+                        "B_ {#nIram#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jam#}@})"
+                    ],
+                    "_banner": "({@{#-jam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "nIrajam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a lotus; {#asi yadyapi sarvatra nIraM nIrajamaRqitam#} <ls>Udb.</ls>\n",
+                        ".²2 a pearl.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 174090,
+            "_ancestry": [
+                "L_ 19444",
+                "B_ {#nIram#}",
+                "S_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nIradaH"
                 }
             ],
             "_meanings": [
-                "Human work, action of man."
+                "a cloud; {#DIraDvaniBiralaM te nIrada me mAsiko garBaH#}\n <ls>Bv. 1. 61</ls>; <ls>Śi. 4. 52</ls>. {#navInanIradaSyAmaM rAmaM rAjIvalocanam#} <ls>Rāmakavacha.</ls>\n"
+            ]
+        },
+        {
+            "__line": 174092,
+            "_ancestry": [
+                "L_ 19444",
+                "B_ {#nIram#}",
+                "S_ .{@{#-DaraH#}@}"
+            ],
+            "_banner": ".{@{#-DaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nIraDaraH"
+                }
+            ],
+            "_meanings": [
+                "a cloud; {#navanIlanIraDaraDIragarjitakzaRe#} <ls>U. 6. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 174093,
+            "_ancestry": [
+                "L_ 19444",
+                "B_ {#nIram#}",
+                "S_ .{@{#-DiH, -niDiH#}@}"
+            ],
+            "_banner": ".{@{#-DiH, -niDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nIraDiH"
+                },
+                {
+                    "Right": "nIraniDiH"
+                }
+            ],
+            "_meanings": [
+                "the ocean.\n"
+            ]
+        },
+        {
+            "__line": 174094,
+            "_ancestry": [
+                "L_ 19444",
+                "B_ {#nIram#}",
+                "S_ .{@{#-priyaH#}@}"
+            ],
+            "_banner": ".{@{#-priyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nIrapriyaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of reed.\n"
+            ]
+        },
+        {
+            "__line": 174095,
+            "_ancestry": [
+                "L_ 19444",
+                "B_ {#nIram#}",
+                "S_ .{@{#-ruham#}@}"
+            ],
+            "_banner": ".{@{#-ruham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nIraruham"
+                }
+            ],
+            "_meanings": [
+                "a lotus."
             ]
         }
     ]

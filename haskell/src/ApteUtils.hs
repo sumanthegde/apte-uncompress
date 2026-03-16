@@ -20,6 +20,7 @@ slpCharSet= "aAiIuU"++"fFxX"++"eEoOMH" ++"~'"++"kKgGN" ++"cCjJY" ++"wWqQR"++"tTd
 syllableEnds = "aAiIuU"++"fFxX"++"eEoOMH"++"~'"
 syllableConts = slpCharSet L.\\ syllableEnds
 slpStr = munch (`elem` slpCharSet)
+slpParenStr = munch (`elem` (slpCharSet++"()"))
 slpStr1 = munch1 (`elem` slpCharSet)
 trim = dropWhile isSpace
 e2s' = map (\x -> fromMaybe x (e2sMap M.!? x))

@@ -1,25 +1,61 @@
 {
-    "__line": 247152,
+    "__line": 272261,
     "_ancestry": [
         "L_ 29445",
-        "B_ {#samASri#}"
+        "B_ {#vijita#}"
     ],
-    "_banner": "{#samASri#}",
+    "_banner": "{#vijita#}",
     "_bannerExp": [
         {
-            "Right": "samASri"
+            "Right": "vijita"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To go to for\nprotection, fly for refuge. ",
-        "{@--2@} To\nsuffer, experience, or enjoy;  \n<ls>Pt. 1. 372.</ls> ",
-        "{@--3@} To observe, practise, follow.\n",
-        "{@--4@} To rest or depend on. ",
-        "{@--5@} To\nconfide in. ",
-        "{@--6@} To attain to, obtain,\nassume. "
+        "Subdued, conquered, overcome, defeated.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 272263,
+            "_ancestry": [
+                "L_ 29445",
+                "B_ {#vijita#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vijitAtman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "self-subdued, self-controlled.\n"
+            ]
+        },
+        {
+            "__line": 272264,
+            "_ancestry": [
+                "L_ 29445",
+                "B_ {#vijita#}",
+                "S_ .{@{#-indriya#}@}"
+            ],
+            "_banner": ".{@{#-indriya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vijitendriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the organs of sense subdued or controlled."
+            ]
+        }
     ]
 }

@@ -1,113 +1,109 @@
 {
-    "__line": 178649,
+    "__line": 193798,
     "_ancestry": [
         "L_ 21600",
-        "B_ {#bal#}"
+        "B_ {#purIzam#}"
     ],
-    "_banner": "{#bal#}",
+    "_banner": "{#purIzam#}",
     "_bannerExp": [
         {
-            "Right": "bal"
+            "Right": "purIzam"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#balati#})"
+        "[{#pF-Izan kicca#} <ls>Uṇ. 4. 27</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To breathe\nor live. ",
-        "{@--2@} To hoard grain. "
+        ".²1 Feces, excrement, ordure; {#tasyAH purIze tanmAMsaM pitarastasya Serate#}\n <ls>Ms. 3. 250</ls>, <ls n=\"Ms.\">4. 56</ls>, <ls n=\"Ms.\">5. 123</ls>, <ls n=\"Ms.\">6. 76</ls>.\n",
+        ".²2 Rubbish, dirt.\n"
     ],
     "_morphisms": [
         {
-            "__line": 178650,
+            "__line": 193802,
             "_ancestry": [
                 "L_ 21600",
-                "B_ {#bal#}",
-                "M_ {vII.v}"
+                "B_ {#purIzam#}",
+                "M_ .{@{#-zyam#}@}"
             ],
+            "_banner": ".{@{#-zyam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bal"
+                    "Left": "1Align error: purIzaM zyaM"
                 }
             ],
-            "_gram": [
-                "{vII.v}",
-                "{c1c}",
-                "<ab>U.</ab>",
-                "({#balati-te#})"
+            "_meanings": [
+                "excremental dirt; {#dravatpurIzyAH pulinEH samantataH#}\n <ls>Bhāg. 10. 18. 6</ls>.\n",
+                ".²3 <ab>Ved.</ab> Water.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 193806,
+            "_ancestry": [
+                "L_ 21600",
+                "B_ {#purIzam#}",
+                "S_ .{@{#-ADAnam#}@}"
+            ],
+            "_banner": ".{@{#-ADAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "purIzADAnam"
+                }
             ],
             "_meanings": [
-                "{@--1@} To give. ",
-                "{@--2@} To hurt,\ninjure, kill. ",
-                "{@--3@} To speak. ",
-                "{@--4@} To see,\nmark. "
+                "the rectum.\n"
             ]
         },
         {
-            "__line": 178653,
+            "__line": 193807,
             "_ancestry": [
                 "L_ 21600",
-                "B_ {#bal#}",
-                "M_ {vIII.v}"
+                "B_ {#purIzam#}",
+                "S_ .{@{#-utsargaH#}@}"
             ],
+            "_banner": ".{@{#-utsargaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bal"
+                    "Right": "purIzotsargaH"
                 }
             ],
-            "_gram": [
-                "{vIII.v}",
-                "{c10c}",
-                "<ab>U.</ab>",
-                "({#balayati-te#})"
-            ],
             "_meanings": [
-                "To\nlive. "
+                "voiding excrement.\n"
             ]
         },
         {
-            "__line": 178654,
+            "__line": 193808,
             "_ancestry": [
                 "L_ 21600",
-                "B_ {#bal#}",
-                "M_ {vIV.v}"
+                "B_ {#purIzam#}",
+                "S_ .{@{#-nigrahaRam#}@}"
             ],
+            "_banner": ".{@{#-nigrahaRam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bal"
+                    "Right": "purIzanigrahaRam"
                 }
             ],
-            "_gram": [
-                "{vIV.v}",
-                "{c10c}",
-                "<ab>A.</ab>",
-                "({#bAlayate#})"
-            ],
             "_meanings": [
-                "To \ndescribe. "
+                "obstruction of the bowels.\n"
             ]
         },
         {
-            "__line": 178655,
+            "__line": 193809,
             "_ancestry": [
                 "L_ 21600",
-                "B_ {#bal#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#purIzam#}",
+                "S_ .{@{#-BedaH#}@}"
             ],
+            "_banner": ".{@{#-BedaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "bal"
+                    "Right": "purIzaBedaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#bAlayati-te#})"
-            ],
             "_meanings": [
-                "To \nnourish, support."
+                "diarrhoea."
             ]
         }
     ]

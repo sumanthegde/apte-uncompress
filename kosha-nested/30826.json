@@ -1,22 +1,39 @@
 {
-    "__line": 258271,
+    "__line": 284971,
     "_ancestry": [
         "L_ 30826",
-        "B_ {#sTag#}"
+        "B_ {#veDin#}"
     ],
-    "_banner": "{#sTag#}",
+    "_banner": "{#veDin#}",
     "_bannerExp": [
         {
-            "Right": "sTag"
+            "Right": "veDin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "or {%<ab>Caus.</ab>%} ({#sTagati#}, \n{#sTagayati#}) ",
-        "{@--1@} To cover, conceal, hide,\nveil; {#parAByUhasTAnAnyapi tanutarARi#} \n{#sTagayati#} <ls>Māl. 1. 14.</ls> ",
-        "{@--2@} To cover, \npervade, fill; {#ravaH SravaRaBEravaH#} \n{#sTagitarodasIkaMdaraH#} <ls>K. P. 7.</ls>"
+        ".²1 Piercing, boring.\n",
+        ".²2 Hitting (a mark).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 284974,
+            "_ancestry": [
+                "L_ 30826",
+                "B_ {#veDin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "veDinI"
+                }
+            ],
+            "_meanings": [
+                "A leech."
+            ]
+        }
     ]
 }

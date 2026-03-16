@@ -1,22 +1,48 @@
 {
-    "__line": 230248,
+    "__line": 252208,
     "_ancestry": [
         "L_ 27374",
-        "B_ {#vyApad#}"
+        "B_ {#rAj#}"
     ],
-    "_banner": "{#vyApad#}",
+    "_banner": "{#rAj#}",
     "_bannerExp": [
         {
-            "Right": "vyApad"
+            "Right": "rAj"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "€1",
+        "<ab>U.</ab>",
+        "({#rAjati-te, rAjita#})"
     ],
     "_meanings": [
-        "{@--1@} Calamity, \nmisfortune, affliction; <ls>Māl. 9. 36</ls>;  \n<ls>Bh. 3. 105.</ls> ",
-        "{@--2@} Disease. ",
-        "{@--3@} Derangement.\n",
-        "{@--4@} Death, decease."
+        ".²1\n",
+        ".³({%a%}) To shine, glitter, appear splendid or beautiful, be eminent;\n {#reje grahamayIva sA#} <ls>Bh. 1. 17</ls>; {#tasyAH pravizwA natanABiranDraM rarAja#}\n {#tanvI navalomarAjiH#} <ls>Ku. 1. 38</ls>; {#rAjan rAjati vIravErivanitAvEDavyadaste#}\n {#BujaH#} <ls>K. P. 10</ls>; <ls>R. 3. 7</ls>; <ls>Ki. 4. 24</ls>, <ls n=\"Ki.\">11. 6</ls>.\n",
+        ".³({%b%}) To appear or look (like), shine (like); {#toyAntarBAskarAlIva#}\n {#reje muniparaMparA#} <ls>Ku. 6. 49</ls>.\n",
+        ".²2 To rule, govern.\n",
+        ".²3 To direct, regulate.\n",
+        ".²4 To be the first or chief, be at the head. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 252218,
+            "_ancestry": [
+                "L_ 27374",
+                "B_ {#rAj#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "rAj"
+                }
+            ],
+            "_gram": [
+                "({#rAjayati-te#})"
+            ],
+            "_meanings": [
+                "To cause to shine, illuminate, brighten."
+            ]
+        }
     ]
 }

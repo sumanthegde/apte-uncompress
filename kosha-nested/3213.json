@@ -1,28 +1,138 @@
 {
-    "__line": 30574,
+    "__line": 27577,
     "_ancestry": [
         "L_ 3213",
-        "B_ {#aBiBAvin, --BAva(vu)ka#}"
+        "B_ {#apriya#}"
     ],
-    "_banner": "{#aBiBAvin, --BAva(vu)ka#}",
+    "_banner": "{#apriya#}",
     "_bannerExp": [
         {
-            "Right": "aBiBAvaka"
-        },
-        {
-            "Right": "aBiBAvin"
-        },
-        {
-            "Right": "aBiBAvuka"
+            "Right": "apriya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nOverpowering, defeating, conquering;\n{#SokABiBAvinA BayenABiBUtA#} <ls>K. 170</ls>\nfear which conquered grief. ",
-        "{@--2@} \n\nSurpassing, excelling; {#sarvatejoBiBAvinA#}\n<ls>R. 1. 14</ls>; <ls>Ki. 11. 6.</ls> ",
-        "{@--3@} \nDisrespecting, humiliating. ",
-        "{@--4@} Attacking."
+        ".²1 Disliked, disagreeable, unpleasant, offensive {#apriyasya ca paTyasya#}\n {#vaktA SrotA ca durlaBaH#} <ls>Rām.</ls>; <ls>Ms. 4. 138</ls>; {#ataH samIpe pariReturizyate#}\n {#tadapriyApi pramadA svabanDuBiH#} <ls>Ś. 5. 17</ls>; hated, distasteful.\n",
+        ".²2 Unkind, unfriendly.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 27582,
+            "_ancestry": [
+                "L_ 3213",
+                "B_ {#apriya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apriyaH"
+                }
+            ],
+            "_meanings": [
+                "A foe, an enemy.\n"
+            ]
+        },
+        {
+            "__line": 27583,
+            "_ancestry": [
+                "L_ 3213",
+                "B_ {#apriya#}",
+                "M_ .{@{#-yA#}@}"
+            ],
+            "_banner": ".{@{#-yA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apriyA"
+                }
+            ],
+            "_meanings": [
+                "A sort of fish ({#SfNgImatsyaH#}).\n"
+            ]
+        },
+        {
+            "__line": 27584,
+            "_ancestry": [
+                "L_ 3213",
+                "B_ {#apriya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apriyam"
+                }
+            ],
+            "_meanings": [
+                "An unfriendly or offensive act; {#pARigrAhasya sADvI strI …#}\n {#nAcaretkiYcidapriyam#} <ls>Ms. 5. 156</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 27587,
+            "_ancestry": [
+                "L_ 3213",
+                "B_ {#apriya#}",
+                "S_ .{@{#-kara, -kArin, -kAraka#}@}"
+            ],
+            "_banner": ".{@{#-kara, -kArin, -kAraka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apriyakara"
+                },
+                {
+                    "Right": "apriyakArin"
+                },
+                {
+                    "Right": "apriyakAraka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unfriendly, ill-disposed.\n"
+            ]
+        },
+        {
+            "__line": 27588,
+            "_ancestry": [
+                "L_ 3213",
+                "B_ {#apriya#}",
+                "S_ .{@{#-BAgin#}@}"
+            ],
+            "_banner": ".{@{#-BAgin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apriyaBAgin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ill-fated.\n"
+            ]
+        },
+        {
+            "__line": 27589,
+            "_ancestry": [
+                "L_ 3213",
+                "B_ {#apriya#}",
+                "S_ .{@{#-vada#}@}"
+            ],
+            "_banner": ".{@{#-vada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apriyavada"
+                }
+            ],
+            "_meanings": [
+                ", ({#˚yam˚#}), {@{#-vAdin#}@} {%a.%}\n speaking unkind or harsh words; {#vanDyArTaGnyapriyaMvadA#}\n <ls>Y. 1. 73</ls>; {#mAtA yasya gfhe nAsti BAryA cApriyavAdinI#} <ls>Chāṇ. 44</ls>."
+            ]
+        }
     ]
 }

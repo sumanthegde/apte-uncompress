@@ -1,45 +1,56 @@
 {
-    "__line": 34142,
+    "__line": 31573,
     "_ancestry": [
         "L_ 3746",
-        "B_ {#amavat#}"
+        "B_ {#aBizekaH#}"
     ],
-    "_banner": "{#amavat#}",
+    "_banner": "{#aBizekaH#}",
     "_bannerExp": [
         {
-            "Right": "amavat"
+            "Right": "aBizekaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Violent, strong,\nstormy (winds); powerful (sound\nalso). ",
-        "{@--2@} Persevering, constant. ",
-        "{@--3@} \nCapable, fit, proper. ",
-        "{@--4@} Attended by\nministers. ",
-        "{@--5@} Attended by diseases.\n",
-        "{@--6@} Possessed of self. "
+        ".²1 Sprinkling, watering, wetting.\n",
+        ".²2 Anointing, inaugurating or consecrating by sprinkling water (a king,\n idol <ab>&c.</ab>). {#tato hi naH priyataraM nAnyAtkiMcidBavizyati . yaTABizeko#}\n {#rAmasya#} <ls>Rām. 2. 17. 11</ls>; {#agnihotrABizekO#} <ls>Kau. A. 1. 3</ls>.\n",
+        ".²3 (Particularly) Coronation, inauguration, installation (of kings); royal\n unction; {#aTABizekaM raGuvaMSaketoH#} <ls>R. 14. 7</ls>.\n",
+        ".²4 The (holy) water required at inauguration, coronation water; {#amAtyaparizadaM#}\n {#brUhi saMBriyatAmAyuzo rAjyABizeka iti#} <ls>V. 5</ls>; {#yOvarAjya˚#} {%<ab>ibid.</ab>%}; <ls>R. 17. 14</ls>.\n",
+        ".²5 Bathing; ablution, holy or religious bathing; {#aBizekottIrRAya kASyapAya#}\n <ls>Ś. 4</ls>; {#atrABizekAya tapoDanAnAm#} <ls>R. 13. 51</ls>, <ls n=\"R.\">1. 85</ls>, <ls n=\"R.\">10. 63</ls>, <ls n=\"R.\">13. 58</ls>, <ls n=\"R.\">14. 82</ls>;\n <ls>K. 22</ls>, <ls n=\"K.\">36</ls>, <ls n=\"K.\">96</ls>; <ls>Ku. 5. 16</ls>, <ls n=\"Ku.\">7. 11</ls>; <ls>Ś. 7. 12</ls>; <ls>H. 4. 87</ls>.\n",
+        ".²6 Bathing or sprinkling with water (of a divinity to whom worship is offered).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 34147,
+            "__line": 31587,
             "_ancestry": [
                 "L_ 3746",
-                "B_ {#amavat#}",
-                "M_ {%--<ab>ind.</ab>%}"
+                "B_ {#aBizekaH#}",
+                "S_ .{@{#-ahaH#}@}"
             ],
+            "_banner": ".{@{#-ahaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "amavat"
+                    "Right": "aBizekAhaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>ind.</ab>%}"
+            "_meanings": [
+                "day of coronation.\n"
+            ]
+        },
+        {
+            "__line": 31588,
+            "_ancestry": [
+                "L_ 3746",
+                "B_ {#aBizekaH#}",
+                "S_ .{@{#-SAlA#}@}"
+            ],
+            "_banner": ".{@{#-SAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBizekaSAlA"
+                }
             ],
             "_meanings": [
-                "Violently."
+                "coronation-hall."
             ]
         }
     ]

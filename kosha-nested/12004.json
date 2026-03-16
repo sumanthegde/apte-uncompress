@@ -1,22 +1,80 @@
 {
-    "__line": 100334,
+    "__line": 101360,
     "_ancestry": [
         "L_ 12004",
-        "B_ {#kzviq#}"
+        "B_ {#kAmuka#}"
     ],
-    "_banner": "{#kzviq#}",
+    "_banner": "{#kAmuka#}",
     "_bannerExp": [
         {
-            "Right": "kzviq"
+            "Right": "kAmuka"
+        },
+        {
+            "Right": "kAmukI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
+        "{%a.%}",
+        "({#-kA#}|{#-kI#}|{%f.%})",
+        "[{#kam-ukaY#} <ls>P. III. 2. 154.</ls>]"
     ],
     "_meanings": [
-        "{#kzvid#} {c4c} <ab>P.</ab> ",
-        "{@--1@} To be\nwet or unctuous. ",
-        "{@--2@} To emit\nsap, or discharge juice, ichor &c.,\nexude. --WITH {#pra#} to murmur, hum;\n<ls>Bk. 7. 103.</ls>"
+        ".²1 Wishing, desirous. {#duryoDanamavAcInaM rAjyakAmukamAturam#} <ls>Mb. 8. 8. 17</ls>.\n",
+        ".²2 Lustful, libidinous.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 101364,
+            "_ancestry": [
+                "L_ 12004",
+                "B_ {#kAmuka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmukaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A lover, a libidinous man. {#dAsyAH kAmukaH, vfzalyAH kAmukaH#} <ls>Mbh.</ls>\n on <ls>P. II. 3. 69</ls>. {#kAmukEH kumBIlakESca parihartavyA candrikA#} <ls>M. 4</ls>;\n <ls>R. 19. 33</ls>; <ls>Ṛs. 6. 9</ls>.\n",
+                ".²2 A sparrow.\n",
+                ".²3 The Aśoka tree. {#˚kAntA#} {%f.%} <ab>N.</ab> of Mādhavi creeper.\n"
+            ]
+        },
+        {
+            "__line": 101370,
+            "_ancestry": [
+                "L_ 12004",
+                "B_ {#kAmuka#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmukA"
+                }
+            ],
+            "_meanings": [
+                "A woman desirous of wealth.\n"
+            ]
+        },
+        {
+            "__line": 101371,
+            "_ancestry": [
+                "L_ 12004",
+                "B_ {#kAmuka#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmukI"
+                }
+            ],
+            "_meanings": [
+                "A libidinous or lustful woman."
+            ]
+        }
     ]
 }

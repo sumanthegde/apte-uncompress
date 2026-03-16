@@ -1,40 +1,41 @@
 {
-    "__line": 161068,
+    "__line": 171787,
     "_ancestry": [
         "L_ 19213",
-        "B_ {#pustaM#}"
+        "B_ {#nivfta#}"
     ],
-    "_banner": "{#pustaM#}",
+    "_banner": "{#nivfta#}",
     "_bannerExp": [
         {
-            "Right": "pustaM"
+            "Right": "nivfta"
         }
     ],
-    "_meanings": [
-        "{@--1@} Plastering, painting, \nanointing. ",
-        "{@--2@} Working in clay, \nmodelling. ",
-        "{@--3@} Anything made of clay,\nwood or metal. ",
-        "{@--4@} A book, \nmanuscript. "
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
     ],
-    "_samasas": [
+    "_meanings": [
+        ".²1 Surrounded, enclosed.\n",
+        ".²2 Held back, withheld.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 161072,
+            "__line": 171790,
             "_ancestry": [
                 "L_ 19213",
-                "B_ {#pustaM#}",
-                "S_  {#--karman#}"
+                "B_ {#nivfta#}",
+                "M_ .{@{#-taH, -tam#}@}"
             ],
-            "_banner": " {#--karman#}",
+            "_banner": ".{@{#-taH, -tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pustakarman"
+                    "Right": "nivftaH"
+                },
+                {
+                    "Right": "nivftam"
                 }
             ],
-            "_gram": [
-                "{%<ab>n.</ab>%}"
-            ],
             "_meanings": [
-                "plastering,\npainting."
+                "A veil, mantle, wrapper."
             ]
         }
     ]

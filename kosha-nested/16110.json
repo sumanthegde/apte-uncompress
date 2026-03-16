@@ -1,19 +1,39 @@
 {
-    "__line": 135267,
+    "__line": 139515,
     "_ancestry": [
         "L_ 16110",
-        "B_ {#DUniH#}"
+        "B_ {#taniman#}"
     ],
-    "_banner": "{#DUniH#}",
+    "_banner": "{#taniman#}",
     "_bannerExp": [
         {
-            "Right": "DUniH"
+            "Right": "taniman"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%m.%}",
+        "[{#tanu-imani c#}]"
     ],
     "_meanings": [
-        "Shaking, agitating."
+        "Thinness, slenderness, minuteness\n <ab>&c.</ab>; {#nitAntadIrGaM tanimAnamAgatAH#} <ls>Vikr. 13. 6</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 139516,
+            "_ancestry": [
+                "L_ 16110",
+                "B_ {#taniman#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#taniman#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "The liver."
+            ]
+        }
     ]
 }

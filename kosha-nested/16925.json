@@ -1,19 +1,43 @@
 {
-    "__line": 142572,
+    "__line": 147126,
     "_ancestry": [
         "L_ 16925",
-        "B_ {#nirjAta#}"
+        "B_ {#tvarA, tvariH#}"
     ],
-    "_banner": "{#nirjAta#}",
+    "_banner": "{#tvarA, tvariH#}",
     "_bannerExp": [
         {
-            "Right": "nirjAta"
+            "Right": "tvarA"
+        },
+        {
+            "Right": "tvariH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}",
+        "[{#tvar-aN#}]"
     ],
     "_meanings": [
-        "Visible, come forth,\nappeared."
+        ".²1 Haste, hurry, speed; {#Otsukyena kftatvarA sahaBuvA vyAvartamAnA hriyA#} <ls>Ratn. 1. 2</ls>.\n",
+        ".²2 Urgency or pressing nature; {#manasA kAryasaMsidDO tvarAdiguRaraMhasA#} <ls>Ku. 2. 63</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 147130,
+            "_ancestry": [
+                "L_ 16925",
+                "B_ {#tvarA, tvariH#}",
+                "S_ .{@{#-ArohaH#}@}"
+            ],
+            "_banner": ".{@{#-ArohaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tvarArohaH"
+                }
+            ],
+            "_meanings": [
+                "a pigeon."
+            ]
+        }
     ]
 }

@@ -1,47 +1,43 @@
 {
-    "__line": 170126,
+    "__line": 183769,
     "_ancestry": [
         "L_ 20466",
-        "B_ {#praboDana#}"
+        "B_ {#parivarjita#}"
     ],
-    "_banner": "{#praboDana#}",
+    "_banner": "{#parivarjita#}",
     "_bannerExp": [
         {
-            "Right": "praboDanI"
-        },
-        {
-            "Right": "praboDana"
+            "Right": "parivarjita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Awakening,\nrousing. "
+        ".²1 Abandoned.\n",
+        ".²2 Deprived of.\n",
+        ".²3 accomplished ({#saMpAdita, arjita#}); {#svaM svaM sTAnamupAgamya svakarmaparivarjitam#}\n <ls>Mb. 12. 264. 21</ls>.\n",
+        ".²4 Wound round, girt.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 170127,
+            "__line": 183776,
             "_ancestry": [
                 "L_ 20466",
-                "B_ {#praboDana#}",
-                "M_ {#--naM#}"
+                "B_ {#parivarjita#}",
+                "S_ .{@{#-saMKyA#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-saMKyA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "praboDanaM"
+                    "Right": "parivarjitasaNKyA"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} Waking. ",
-                "{@--2@} \nAwakening, rousing. ",
-                "{@--3@} Regaining one's\nconsciousness; recovery of senses;\n<ls>U. 6. 41.</ls> ",
-                "{@--4@} Knowledge, wisdom.\n",
-                "{@--5@} Instructing, advising. ",
-                "{@--6@} \nReviving the scent of a perfume. ",
-                "{@--7@} \nRefinement, enlightenment; <ls>Pt. 1.</ls>"
+                "countless, innumerable."
             ]
         }
     ]

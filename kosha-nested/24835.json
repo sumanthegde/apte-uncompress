@@ -1,21 +1,116 @@
 {
-    "__line": 210553,
+    "__line": 222980,
     "_ancestry": [
         "L_ 24835",
-        "B_ {#vakrIBU#}"
+        "B_ {#Bakzya#}"
     ],
-    "_banner": "{#vakrIBU#}",
+    "_banner": "{#Bakzya#}",
     "_bannerExp": [
         {
-            "Right": "vakrIBU"
+            "Right": "Bakzya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#Bakz-karmaRi Ryat#}]"
     ],
     "_meanings": [
-        "{@--1@} To become crooked.\n",
-        "{@--2@} To retrograde."
+        "Eatable, fit for food.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 222981,
+            "_ancestry": [
+                "L_ 24835",
+                "B_ {#Bakzya#}",
+                "M_ .{@{#-kzyam#}@}"
+            ],
+            "_banner": ".{@{#-kzyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bakzyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Anything eatable, an article of food, food (<ab>fig.</ab> also); {#BakzyaBakzakayoH#}\n {#prItirvipattereva kAraRam#} <ls>H. 1. 55</ls>; <ls>Ms. 1. 113</ls>.\n",
+                ".²2 Water.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 222986,
+            "_ancestry": [
+                "L_ 24835",
+                "B_ {#Bakzya#}",
+                "S_ .{@{#-aBakzyam#}@}"
+            ],
+            "_banner": ".{@{#-aBakzyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BakzyABakzyam"
+                }
+            ],
+            "_meanings": [
+                "food allowed and prohibited; {#etaduktaM dvijAtInAM#}\n {#BakzyABakzyamaSezataH#} <ls>Ms. 5. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 222988,
+            "_ancestry": [
+                "L_ 24835",
+                "B_ {#Bakzya#}",
+                "S_ .{@{#-kAraH#}@}"
+            ],
+            "_banner": ".{@{#-kAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BakzyakAraH"
+                }
+            ],
+            "_meanings": [
+                "(also {#BakzyaMkAraH#}) a baker, cook.\n"
+            ]
+        },
+        {
+            "__line": 222989,
+            "_ancestry": [
+                "L_ 24835",
+                "B_ {#Bakzya#}",
+                "S_ .{@{#-Bojyamaya#}@}"
+            ],
+            "_banner": ".{@{#-Bojyamaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BakzyaBojyamaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Consisting of food of all kinds.\n"
+            ]
+        },
+        {
+            "__line": 222990,
+            "_ancestry": [
+                "L_ 24835",
+                "B_ {#Bakzya#}",
+                "S_ .{@{#-vastu#}@}"
+            ],
+            "_banner": ".{@{#-vastu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bakzyavastu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "eatables, victuals."
+            ]
+        }
     ]
 }

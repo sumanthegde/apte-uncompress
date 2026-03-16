@@ -1,20 +1,94 @@
 {
-    "__line": 224795,
+    "__line": 243768,
     "_ancestry": [
         "L_ 26648",
-        "B_ {#vizwap#}"
+        "B_ {#medaH#}"
     ],
-    "_banner": "{#vizwap#}",
+    "_banner": "{#medaH#}",
     "_bannerExp": [
         {
-            "Right": "vizwap"
+            "Right": "medaH"
         }
     ],
-    "_gram": [
-        "{%<ab>f.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} A place, region, world.\n",
-        "{@--2@} Heaven."
+        ".²1 Fat.\n",
+        ".²2 A particular mixed tribe; <ab>cf.</ab> <ls>Ms. 10. 36</ls>; <ls>Mb. 13. 22. 22</ls> (<ab>com.</ab> {#medA#}\n {#gomahizyAdInAM mftAnAM mAMsamaSnantaH#}).\n",
+        ".²3 <ab>N.</ab> of a serpent-demon.\n",
+        ".²4 <ab>N.</ab> of a plant ({#alaMbuzA#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 243774,
+            "_ancestry": [
+                "L_ 26648",
+                "B_ {#medaH#}",
+                "M_ .{@{#-dA#}@}"
+            ],
+            "_banner": ".{@{#-dA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medA"
+                }
+            ],
+            "_meanings": [
+                "A root resembling ginger (one of the eight principal medicines).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 243776,
+            "_ancestry": [
+                "L_ 26648",
+                "B_ {#medaH#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medakft"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the flesh.\n"
+            ]
+        },
+        {
+            "__line": 243777,
+            "_ancestry": [
+                "L_ 26648",
+                "B_ {#medaH#}",
+                "S_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medajam"
+                }
+            ],
+            "_meanings": [
+                "a species of bdellium.\n"
+            ]
+        },
+        {
+            "__line": 243778,
+            "_ancestry": [
+                "L_ 26648",
+                "B_ {#medaH#}",
+                "S_ .{@{#-BillaH#}@}"
+            ],
+            "_banner": ".{@{#-BillaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "medaBillaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a degraded tribe."
+            ]
+        }
     ]
 }

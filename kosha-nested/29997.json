@@ -1,20 +1,86 @@
 {
-    "__line": 250854,
+    "__line": 276910,
     "_ancestry": [
         "L_ 29997",
-        "B_ {#sAgni#}"
+        "B_ {#viBrAnta#}"
     ],
-    "_banner": "{#sAgni#}",
+    "_banner": "{#viBrAnta#}",
     "_bannerExp": [
         {
-            "Right": "sAgni"
+            "Right": "viBrAnta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Having fire. ",
-        "{@--2@} \nTaking the sacred fire."
+        ".²1 Whirled about.\n",
+        ".²2 Agitated, bewildered, confused, flurried.\n",
+        ".²3 Mistaken, erring.\n",
+        ".²4 Spread abroad (as fame).\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 276916,
+            "_ancestry": [
+                "L_ 29997",
+                "B_ {#viBrAnta#}",
+                "S_ .{@{#-nayana#}@}"
+            ],
+            "_banner": ".{@{#-nayana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viBrAntanayana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with rolling eyes.\n"
+            ]
+        },
+        {
+            "__line": 276917,
+            "_ancestry": [
+                "L_ 29997",
+                "B_ {#viBrAnta#}",
+                "S_ .{@{#-SIla#}@}"
+            ],
+            "_banner": ".{@{#-SIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viBrAntaSIla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 confused in mind.\n",
+                ".²2 intoxicated, drunk.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 276920,
+                    "_ancestry": [
+                        "L_ 29997",
+                        "B_ {#viBrAnta#}",
+                        "S_ .{@{#-SIla#}@}",
+                        "S_M_ ({@{#-laH#}@})"
+                    ],
+                    "_banner": "({@{#-laH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "viBrAntaSIlaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a monkey.\n",
+                        ".²2 the disc of the sun or moon."
+                    ]
+                }
+            ]
+        }
     ]
 }

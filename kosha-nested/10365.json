@@ -1,19 +1,55 @@
 {
-    "__line": 87002,
+    "__line": 86286,
     "_ancestry": [
         "L_ 10365",
-        "B_ {#karena(va)raH#}"
+        "B_ {#ullAsana#}"
     ],
-    "_banner": "{#karena(va)raH#}",
+    "_banner": "{#ullAsana#}",
     "_bannerExp": [
         {
-            "Right": "karenaraH"
-        },
-        {
-            "Right": "karevaraH"
+            "Right": "ullAsana"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Storax."
+        "Causing to leap or dance.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 86287,
+            "_ancestry": [
+                "L_ 10365",
+                "B_ {#ullAsana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ullAsanam"
+                }
+            ],
+            "_meanings": [
+                "Splendour\n"
+            ]
+        },
+        {
+            "__line": 86288,
+            "_ancestry": [
+                "L_ 10365",
+                "B_ {#ullAsana#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ullAsanA"
+                }
+            ],
+            "_meanings": [
+                "Causing to come forth or appear; <ls>B. R.</ls>"
+            ]
+        }
     ]
 }

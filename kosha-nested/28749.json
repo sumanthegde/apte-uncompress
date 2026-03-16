@@ -1,23 +1,75 @@
 {
-    "__line": 241516,
+    "__line": 265743,
     "_ancestry": [
         "L_ 28749",
-        "B_ {#saMstu#}"
+        "B_ {#vazaw#}"
     ],
-    "_banner": "{#saMstu#}",
+    "_banner": "{#vazaw#}",
     "_bannerExp": [
         {
-            "Right": "saMstu"
+            "Right": "vazaw"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@} To praise. ",
-        "{@--2@} To\nextol, celebrate. ",
-        "{@--3@} To praise in\nchorus. ",
-        "{@--4@} To be acquainted with,\nbe familiar or intimate with (chiefly\nin {%<ab>p. p.</ab>%} in this sense); {#anekaSaH#}\n{#saMstutamapyanalpA navaM navaM prItiraho karoti#}\n<ls>Śi. 3. 31</ls>; <ls>Ki. 3. 2</ls>; see {#saMstuta#}."
+        "An exclamation used on making an oblation to a deity,\n (with <ab>dat.</ab> of the deity); {#indrAya vazaw, pUzRe vazaw#} <ab>&c.</ab>\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 265746,
+            "_ancestry": [
+                "L_ 28749",
+                "B_ {#vazaw#}",
+                "S_ .{@{#-kartf#}@}"
+            ],
+            "_banner": ".{@{#-kartf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vazawkartf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the priest who makes the oblation with the exclamation {#vazaw#}.\n"
+            ]
+        },
+        {
+            "__line": 265747,
+            "_ancestry": [
+                "L_ 28749",
+                "B_ {#vazaw#}",
+                "S_ .{@{#-kAraH#}@}"
+            ],
+            "_banner": ".{@{#-kAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vazawkAraH"
+                }
+            ],
+            "_meanings": [
+                "the formula or exclamation {#vazaw#}.\n"
+            ]
+        },
+        {
+            "__line": 265748,
+            "_ancestry": [
+                "L_ 28749",
+                "B_ {#vazaw#}",
+                "S_ .{@{#-kfta#}@}"
+            ],
+            "_banner": ".{@{#-kfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vazawkfta"
+                }
+            ],
+            "_meanings": [
+                "offered in fire (with {#vazaw#}); {#prAjyamAjyamasakfdvazawkftam#} <ls>Śi. 14. 25</ls>."
+            ]
+        }
     ]
 }

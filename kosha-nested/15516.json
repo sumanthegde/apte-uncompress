@@ -1,22 +1,40 @@
 {
-    "__line": 129472,
+    "__line": 134528,
     "_ancestry": [
         "L_ 15516",
-        "B_ {#dul#}"
+        "B_ {#jAgrat#}"
     ],
-    "_banner": "{#dul#}",
+    "_banner": "{#jAgrat#}",
     "_bannerExp": [
         {
-            "Right": "dul"
+            "Right": "jAgrat"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#dolayati-te, dolita#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@}\nTo swing, shake to and fro, cause\nto oscillate or move about; {#kawiM#} \n{#ceddolayedASu#} <ls>Ratimañjarī</ls>; {#dolayandvAvivAkzO#}\n<ls>Bh. 3. 39.</ls> ",
-        "{@--2@} To move or shake \nupwards, throw up; {#dolayati DUliM vAyuH#}\n<ls>Śabdak.</ls>"
+        ".²1 Watching, being awake.\n",
+        ".²2 Attentive, careful, watchful.\n",
+        ".²3 Clear, bright. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 134531,
+            "_ancestry": [
+                "L_ 15516",
+                "B_ {#jAgrat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#jAgrat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> Dreaming in a waking state, day-dream."
+            ]
+        }
     ]
 }

@@ -1,17 +1,122 @@
 {
-    "__line": 148278,
+    "__line": 155469,
     "_ancestry": [
         "L_ 17601",
-        "B_ {#paMcikA#}"
+        "B_ {#dolA, dolikA#}"
     ],
-    "_banner": "{#paMcikA#}",
+    "_banner": "{#dolA, dolikA#}",
     "_bannerExp": [
         {
-            "Right": "paMcikA"
+            "Right": "dolA"
+        },
+        {
+            "Right": "dolikA"
         }
     ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of each book of the\nAitareya Brāhmaṇa. ",
-        "{@--2@} A game\nplayed with five dice."
+        ".²1 A litter, palanquin.\n",
+        ".²2 A swing, hammock (<ab>fig.</ab> also); {#AsIt sa dolAcalacittavfttiH#} <ls>R. 14. 34</ls>, <ls n=\"R.\">9. 46</ls>, <ls n=\"R.\">19. 44</ls>;\n {#saMdehadolAmAropyate#} <ls>K. 207</ls>.\n",
+        ".²3 Swinging, fluctuation.\n",
+        ".²4 Doubt, uncertainty.\n",
+        ".²5 The Indigo plant.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 155477,
+            "_ancestry": [
+                "L_ 17601",
+                "B_ {#dolA, dolikA#}",
+                "S_ .{@{#-aDirUQa, -ArUQa#}@}"
+            ],
+            "_banner": ".{@{#-aDirUQa, -ArUQa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dolADirUQa"
+                },
+                {
+                    "Right": "dolArUQa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(<ab>lit.</ab>) mounted on a swing; (<ab>fig.</ab>) uncertain,\n irresolute, disquieted.\n"
+            ]
+        },
+        {
+            "__line": 155479,
+            "_ancestry": [
+                "L_ 17601",
+                "B_ {#dolA, dolikA#}",
+                "S_ .{@{#-calacittavftti#}@}"
+            ],
+            "_banner": ".{@{#-calacittavftti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dolAcalacittavftti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One whose mind is agitated like a swing.\n"
+            ]
+        },
+        {
+            "__line": 155480,
+            "_ancestry": [
+                "L_ 17601",
+                "B_ {#dolA, dolikA#}",
+                "S_ .{@{#-yantram#}@}"
+            ],
+            "_banner": ".{@{#-yantram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dolAyantram"
+                }
+            ],
+            "_meanings": [
+                "drugs tied up in a cloth and boiled out over a fire; <ls>Bhāva P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 155481,
+            "_ancestry": [
+                "L_ 17601",
+                "B_ {#dolA, dolikA#}",
+                "S_ .{@{#-yudDam#}@}"
+            ],
+            "_banner": ".{@{#-yudDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dolAyudDam"
+                }
+            ],
+            "_meanings": [
+                "uncertainty of success, a fight with varying success;\n {#dolAyudDaM kftagurutaraDvAnamOdDatyaBAjAm#} <ls>Śi. 18. 80</ls>.\n"
+            ]
+        },
+        {
+            "__line": 155483,
+            "_ancestry": [
+                "L_ 17601",
+                "B_ {#dolA, dolikA#}",
+                "S_ .{@{#-lola#}@}"
+            ],
+            "_banner": ".{@{#-lola#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dolAlola"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "uncertain."
+            ]
+        }
     ]
 }

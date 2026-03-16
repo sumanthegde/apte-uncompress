@@ -1,16 +1,92 @@
 {
-    "__line": 134876,
+    "__line": 138907,
     "_ancestry": [
         "L_ 16065",
-        "B_ {#Dinv#}"
+        "B_ {#taqit#}"
     ],
-    "_banner": "{#Dinv#}",
+    "_banner": "{#taqit#}",
     "_bannerExp": [
         {
-            "Right": "Dinv"
+            "Right": "taqit"
         }
     ],
+    "_gram": [
+        "{%f.%}"
+    ],
     "_meanings": [
-        "See {#Di#} II."
+        ".²1 Lightning; {#GanaM GanAnte taqitAM guREriva#} <ls>Śi. 1. 7</ls>; <ls>Me. 77</ls>; <ls>R. 6. 65</ls>;\n {#taqito mAnuzatAM gatA iva#} <ls>Śāhendra. 2. 71</ls>.\n",
+        ".²2 Killing, injury. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 138910,
+            "_ancestry": [
+                "L_ 16065",
+                "B_ {#taqit#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#taqit#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Closely, near.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 138912,
+            "_ancestry": [
+                "L_ 16065",
+                "B_ {#taqit#}",
+                "S_ .{@{#-garBaH#}@}"
+            ],
+            "_banner": ".{@{#-garBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taqidgarBaH"
+                }
+            ],
+            "_meanings": [
+                "a cloud.\n"
+            ]
+        },
+        {
+            "__line": 138913,
+            "_ancestry": [
+                "L_ 16065",
+                "B_ {#taqit#}",
+                "S_ .{@{#-latA#}@}"
+            ],
+            "_banner": ".{@{#-latA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taqillatA"
+                }
+            ],
+            "_meanings": [
+                "forked lightning.\n"
+            ]
+        },
+        {
+            "__line": 138914,
+            "_ancestry": [
+                "L_ 16065",
+                "B_ {#taqit#}",
+                "S_ .{@{#-leKA#}@}"
+            ],
+            "_banner": ".{@{#-leKA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taqilleKA"
+                }
+            ],
+            "_meanings": [
+                "a streak of lightning."
+            ]
+        }
     ]
 }

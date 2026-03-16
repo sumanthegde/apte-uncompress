@@ -1,19 +1,61 @@
 {
-    "__line": 38856,
+    "__line": 34881,
     "_ancestry": [
         "L_ 4207",
-        "B_ {#arvaSa#}"
+        "B_ {#amukta#}"
     ],
-    "_banner": "{#arvaSa#}",
+    "_banner": "{#amukta#}",
     "_bannerExp": [
         {
-            "Right": "arvaSa"
+            "Right": "amukta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Possessed of coursers,\nquick."
+        ".²1 Not loosened, not let go.\n",
+        ".²2 Not liberated from recurring birth and death, not having got final beatitude.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34884,
+            "_ancestry": [
+                "L_ 4207",
+                "B_ {#amukta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amuktam"
+                }
+            ],
+            "_meanings": [
+                "A weapon (a knife, sword <ab>&c.</ab>) that is always grasped and\n not thrown. {#caturviDamAyuDam . muktamamuktaM muktAmuktaM yantramuktaM#}\n {#ceti#} <ls>Dhanur. V. 4</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 34888,
+            "_ancestry": [
+                "L_ 4207",
+                "B_ {#amukta#}",
+                "S_ .{@{#-hasta#}@}"
+            ],
+            "_banner": ".{@{#-hasta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amuktahasta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose hand is not open or free (to give), sparing,\n stingy (in a bad sense); frugal, economical, prudent (in a good sense);\n {#sadA prahfzwayA BAvyaM vyaye cAmuktahastayA#} <ls>Ms. 5. 150</ls>."
+            ]
+        }
     ]
 }

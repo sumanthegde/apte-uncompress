@@ -1,34 +1,77 @@
 {
-    "__line": 232612,
+    "__line": 254942,
     "_ancestry": [
         "L_ 27623",
-        "B_ {#SamanI#}"
+        "B_ {#rePa#}"
     ],
-    "_banner": "{#SamanI#}",
+    "_banner": "{#rePa#}",
     "_bannerExp": [
         {
-            "Right": "SamanI"
+            "Right": "rePa"
         }
     ],
-    "_meanings": [
-        "Night. "
+    "_gram": [
+        "{%a.%}"
     ],
-    "_samasas": [
+    "_meanings": [
+        "Low, vile, contemptible.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 232612,
+            "__line": 254943,
             "_ancestry": [
                 "L_ 27623",
-                "B_ {#SamanI#}",
-                "S_  {#--sadaH (--zadaH)#}"
+                "B_ {#rePa#}",
+                "M_ .{@{#-PaH#}@}"
             ],
-            "_banner": " {#--sadaH (--zadaH)#}",
+            "_banner": ".{@{#-PaH#}@}",
             "_bannerExp": [
                 {
-                    "Left": "Parser error: {#SamanI#} S_  {#--sadaH (--zadaH)#}"
+                    "Right": "rePaH"
                 }
             ],
             "_meanings": [
-                "a demon, goblin."
+                ".²1 A burr, grating sound.\n",
+                ".²2 The letter {#r#}.\n",
+                ".²3 Passion, affection.\n",
+                ".²4 A word; {#kaRWe ca sAmAni samastarePAn#} <ls>Bhāg. 8. 20. 25</ls>.\n",
+                ".²5 (In prosody) A cretic (– ⏑ –).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 254950,
+            "_ancestry": [
+                "L_ 27623",
+                "B_ {#rePa#}",
+                "S_ .{@{#-vipulA#}@}"
+            ],
+            "_banner": ".{@{#-vipulA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rePavipulA"
+                }
+            ],
+            "_meanings": [
+                "a kind of metre.\n"
+            ]
+        },
+        {
+            "__line": 254951,
+            "_ancestry": [
+                "L_ 27623",
+                "B_ {#rePa#}",
+                "S_ .{@{#-saMDiH#}@}"
+            ],
+            "_banner": ".{@{#-saMDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rePasanDiH"
+                }
+            ],
+            "_meanings": [
+                "the euphonic junction of {#r#}."
             ]
         }
     ]

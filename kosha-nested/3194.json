@@ -1,21 +1,46 @@
 {
-    "__line": 30411,
+    "__line": 27431,
     "_ancestry": [
         "L_ 3194",
-        "B_ {#aBipre#}"
+        "B_ {#aprastuta#}"
     ],
-    "_banner": "{#aBipre#}",
+    "_banner": "{#aprastuta#}",
     "_bannerExp": [
         {
-            "Right": "aBipre"
+            "Right": "aprastuta"
         }
     ],
     "_gram": [
-        "[{#aBipra-i#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{c2c} <ab>P.</ab> ",
-        "{@--1@} To go to\nor near, approach; {#karmaRA yamaBiprEti sa#}\n{#saMpradAnaM#} <ls>P. I. 4. 32.</ls> ",
-        "{@--2@} To intend,\naim at, think of, mean; <ab>cf.</ab> {#aBipreta#}."
+        ".²1 Unsuitable to the time or subject, not to the point, irrelevant.\n",
+        ".²2 Absurd, nonsensical; {#re goramBa kimaprastutaM lapasi#} <ls>Pt. 1</ls>.\n",
+        ".²3 Accidental or extraneous.\n",
+        ".²4 Not ready.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 27437,
+            "_ancestry": [
+                "L_ 3194",
+                "B_ {#aprastuta#}",
+                "S_ .{@{#-praSaMsA#}@}"
+            ],
+            "_banner": ".{@{#-praSaMsA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aprastutapraSaMsA"
+                }
+            ],
+            "_meanings": [
+                "a figure of speech which, by describing the {#aprastuta#}\n (what is not the subject-matter) conveys a reference to the {#prastuta#}\n or subject-matter; {#aprastutapraSaMsA sA yA sEva prastutASrayA#} <ls>K. P. 10</ls>.\n It is of 5 kinds:-- {#kArye nimitte sAmAnye viSeze prastute sati .#}\n {#tadanyasya vacastulye tulyasyeti ca paYcaDA ..#} {%<ab>i. e.</ab>%} when the subject-matter is viewed\n",
+                ".³({%a%}) as an effect, information of which is conveyed by stating the cause;\n",
+                ".³({%b%}) when viewed as a cause by stating the effect;\n",
+                ".³({%c%}) when viewed as a general assertion by stating a particular instance;\n",
+                ".³({%d%}) when viewed as a particular instance by stating a general assertion; and\n",
+                ".³({%e%}) when viewed as similar by stating what is similar to it. See\n <ls>K. P. 10</ls> and <ls>S. D. 706</ls> for examples."
+            ]
+        }
     ]
 }

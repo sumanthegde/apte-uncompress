@@ -1,55 +1,392 @@
 {
-    "__line": 96336,
+    "__line": 95917,
     "_ancestry": [
         "L_ 11470",
-        "B_ {#kedAraH#}"
+        "B_ {#kapiH#}"
     ],
-    "_banner": "{#kedAraH#}",
+    "_banner": "{#kapiH#}",
     "_bannerExp": [
         {
-            "Right": "kedAraH"
+            "Right": "kapiH"
         }
     ],
-    "_meanings": [
-        "{@--1@} A field under water;\nmeadow. ",
-        "{@--2@} A basin for water\nround the root of a tree. ",
-        "{@--3@}\nA mountain. ",
-        "{@--4@} A particular \nmountain forming part of the Himālayas\n(modern Kedār). ",
-        "{@--5@} A form of\nŚiva. "
+    "_gram": [
+        "[{#kap-in nalopaH#}; <ls>Uṇ. 4. 143.</ls>]"
     ],
-    "_samasas": [
+    "_meanings": [
+        ".²1 An ape, a monkey; {#kaperatrAsizurnAdAt#} <ls>Bk. 9. 11</ls>.\n",
+        ".²2 An elephant.\n",
+        ".²3 A species of Karañja.\n",
+        ".²4 Incense, storax or impure benzoin ({#SilArasa#}).\n",
+        ".²5 The sun.\n",
+        ".²6 <ab>N.</ab> of Viṣṇu.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 96342,
+            "__line": 95924,
             "_ancestry": [
                 "L_ 11470",
-                "B_ {#kedAraH#}",
-                "S_  {#--KaqaM#}"
+                "B_ {#kapiH#}",
+                "M_ .{@{#-piH#}@}"
             ],
-            "_banner": " {#--KaqaM#}",
+            "_banner": ".{@{#-piH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kedAraKaqaM"
+                    "Right": "kapiH"
                 }
             ],
-            "_meanings": [
-                "a small dyke,\nearth raised to keep out water.\n"
+            "_gram": [
+                "{%f.%}"
             ]
         },
         {
-            "__line": 96344,
+            "__line": 95925,
             "_ancestry": [
                 "L_ 11470",
-                "B_ {#kedAraH#}",
-                "S_ {#--nATaH#}"
+                "B_ {#kapiH#}",
+                "M_ .{@{#-pI#}@}"
             ],
-            "_banner": "{#--nATaH#}",
+            "_banner": ".{@{#-pI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kedAranATaH"
+                    "Right": "kapI"
                 }
             ],
             "_meanings": [
-                "a particular form of Śiva."
+                "A female monkey.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 95927,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-AKyaH#}@}"
+            ],
+            "_banner": ".{@{#-AKyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapyAKyaH"
+                }
+            ],
+            "_meanings": [
+                "Incense.\n"
+            ]
+        },
+        {
+            "__line": 95928,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-ijyaH#}@}"
+            ],
+            "_banner": ".{@{#-ijyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapIjyaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of (1) Rāma; (2) Sugrīva.\n"
+            ]
+        },
+        {
+            "__line": 95929,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-Asam#}@}"
+            ],
+            "_banner": ".{@{#-Asam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapyAsam"
+                }
+            ],
+            "_meanings": [
+                "The buttocks of an ape; {#yaTA kapyAsaM puRqarIkameva#}\n <ls>Ch. Up. 1. 6. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95931,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-indraH#}@}"
+            ],
+            "_banner": ".{@{#-indraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapIndraH"
+                }
+            ],
+            "_meanings": [
+                "(the chief of monkeys) an epithet of (1) Hanūmat; {#naSyanti#}\n {#dadarSa vfndAni kapIndraH#} <ls>Bk. 10. 12</ls>; (2) of Sugrīva; {#vyarTaM yatra#}\n {#kapIndrasaKyamapi me#} <ls>U. 3. 45</ls>; (3) of Jāmbuvat.\n"
+            ]
+        },
+        {
+            "__line": 95934,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-kacCuH#}@}"
+            ],
+            "_banner": ".{@{#-kacCuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapikacCuH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant.\n"
+            ]
+        },
+        {
+            "__line": 95935,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-kandukam#}@}"
+            ],
+            "_banner": ".{@{#-kandukam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapikandukam"
+                }
+            ],
+            "_meanings": [
+                "the skull.\n"
+            ]
+        },
+        {
+            "__line": 95936,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-ketana, -DvajaH#}@}"
+            ],
+            "_banner": ".{@{#-ketana, -DvajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapiketana"
+                },
+                {
+                    "Right": "kapiDvajaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Arjuna; <ls>Bg. 1. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95937,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-cUqA, -cUtaH#}@}"
+            ],
+            "_banner": ".{@{#-cUqA, -cUtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapicUqA"
+                },
+                {
+                    "Right": "kapicUtaH"
+                }
+            ],
+            "_meanings": [
+                "the hog plum tree (<lang>Mar.</lang> <ns>{#aMbAqA#}</ns>)\n"
+            ]
+        },
+        {
+            "__line": 95938,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-jaH, -tElam -nAman#}@}"
+            ],
+            "_banner": ".{@{#-jaH, -tElam -nAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapijaH"
+                },
+                {
+                    "Right": "kapitElam"
+                },
+                {
+                    "Right": "kapinAman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "storax or benzoin.\n"
+            ]
+        },
+        {
+            "__line": 95939,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-praBuH#}@}"
+            ],
+            "_banner": ".{@{#-praBuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapipraBuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An epithet of Rāma.\n",
+                ".²2 of Sugrīva.\n"
+            ]
+        },
+        {
+            "__line": 95942,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-raTaH#}@}"
+            ],
+            "_banner": ".{@{#-raTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapiraTaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of (1) Rāma; (2) Arjuna.\n"
+            ]
+        },
+        {
+            "__line": 95943,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-loman#}@}"
+            ],
+            "_banner": ".{@{#-loman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapiloman"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a kind of perfume.\n"
+            ]
+        },
+        {
+            "__line": 95944,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-lAhem#}@}"
+            ],
+            "_banner": ".{@{#-lAhem#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapilAhem"
+                }
+            ],
+            "_meanings": [
+                "Brass.\n"
+            ]
+        },
+        {
+            "__line": 95945,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-vaktraH#}@}"
+            ],
+            "_banner": ".{@{#-vaktraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapivaktraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Nārada.\n"
+            ]
+        },
+        {
+            "__line": 95946,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-SAkaH, -kam#}@}"
+            ],
+            "_banner": ".{@{#-SAkaH, -kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapiSAkaH"
+                },
+                {
+                    "Right": "kapiSAkam"
+                }
+            ],
+            "_meanings": [
+                "a cabbage.\n"
+            ]
+        },
+        {
+            "__line": 95947,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-SIrzam#}@}"
+            ],
+            "_banner": ".{@{#-SIrzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapiSIrzam"
+                }
+            ],
+            "_meanings": [
+                "the upper part (coping) of a wall. having a sphere like\n the head of a monkey; <ls>Kau. A. 1. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 95949,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-SIrzakam#}@}"
+            ],
+            "_banner": ".{@{#-SIrzakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapiSIrzakam"
+                }
+            ],
+            "_meanings": [
+                "vermilion (<lang>Mar.</lang> <ns>{#hiMgULa#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 95950,
+            "_ancestry": [
+                "L_ 11470",
+                "B_ {#kapiH#}",
+                "S_ .{@{#-SIrzRI#}@}"
+            ],
+            "_banner": ".{@{#-SIrzRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kapiSIrzRI"
+                }
+            ],
+            "_meanings": [
+                "a kind of musical instrument."
             ]
         }
     ]

@@ -1,38 +1,54 @@
 {
-    "__line": 50012,
+    "__line": 47176,
     "_ancestry": [
         "L_ 5677",
-        "B_ {#ahaMyu#}"
+        "B_ {#avedaH#}"
     ],
-    "_banner": "{#ahaMyu#}",
+    "_banner": "{#avedaH#}",
     "_bannerExp": [
         {
-            "Right": "ahaMyu"
+            "Right": "avedaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#ahaM ahaMkAro'styasya, ahaM#}\n{#yus#} <ls>P. V. 2. 140</ls>]"
-    ],
     "_meanings": [
-        "Selfish, proud,\nhaughty; <ls>Bk. 1. 20.</ls> "
+        "Not the Veda; {#vedA avedAH#} <ls>Bṛ. Up. 4. 3. 22</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 50014,
+            "__line": 47178,
             "_ancestry": [
                 "L_ 5677",
-                "B_ {#ahaMyu#}",
-                "M_ {#--yuH#}"
+                "B_ {#avedaH#}",
+                "S_ .{@{#-vid#}@}"
             ],
-            "_banner": "{#--yuH#}",
+            "_banner": ".{@{#-vid#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ahaMyuH"
+                    "Right": "avedavid"
                 }
             ],
             "_meanings": [
-                "A warrior."
+                "Not knowing the Vedas.\n"
+            ]
+        },
+        {
+            "__line": 47179,
+            "_ancestry": [
+                "L_ 5677",
+                "B_ {#avedaH#}",
+                "S_ .{@{#-vihita#}@}"
+            ],
+            "_banner": ".{@{#-vihita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avedavihita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Not prescribed by the Vedas."
             ]
         }
     ]

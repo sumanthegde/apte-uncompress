@@ -1,17 +1,77 @@
 {
-    "__line": 140604,
+    "__line": 145391,
     "_ancestry": [
         "L_ 16767",
-        "B_ {#nipatanaM#}"
+        "B_ {#tEttirIya#}"
     ],
-    "_banner": "{#nipatanaM#}",
+    "_banner": "{#tEttirIya#}",
     "_bannerExp": [
         {
-            "Right": "nipatanaM"
+            "Right": "tEttirIya"
         }
     ],
+    "_gram": [
+        "{%m.%}"
+    ],
     "_meanings": [
-        "{@--1@} Falling down, \ndescending, alighting. ",
-        "{@--2@} Flying down."
+        "(<ab>pl.</ab>) The followers of the Taittirīya school of the Yajurveda.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145392,
+            "_ancestry": [
+                "L_ 16767",
+                "B_ {#tEttirIya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tEttirIyaH"
+                }
+            ],
+            "_meanings": [
+                "The Taittirīya branch of the Yajurveda ({#kfzRayajurveda#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 145394,
+            "_ancestry": [
+                "L_ 16767",
+                "B_ {#tEttirIya#}",
+                "S_ .{@{#-caraRam, -SAKA#}@}"
+            ],
+            "_banner": ".{@{#-caraRam, -SAKA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tEttirIyacaraRam"
+                },
+                {
+                    "Right": "tEttirIyaSAKA"
+                }
+            ],
+            "_meanings": [
+                "the school of the <ab n=\"Taittirīya\">T.</ab>\n"
+            ]
+        },
+        {
+            "__line": 145395,
+            "_ancestry": [
+                "L_ 16767",
+                "B_ {#tEttirIya#}",
+                "S_ .{@{#-saMhitA#}@}"
+            ],
+            "_banner": ".{@{#-saMhitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tEttirIyasaMhitA"
+                }
+            ],
+            "_meanings": [
+                "the Saṃhitā of the <ab n=\"Taittirīya\">T.</ab>, chief recension of the Black <ab n=\"Yajurveda\">Yv.</ab>"
+            ]
+        }
     ]
 }

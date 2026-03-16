@@ -1,39 +1,56 @@
 {
-    "__line": 220651,
+    "__line": 238618,
     "_ancestry": [
         "L_ 26128",
-        "B_ {#viparyasta#}"
+        "B_ {#mAyika#}"
     ],
-    "_banner": "{#viparyasta#}",
+    "_banner": "{#mAyika#}",
     "_bannerExp": [
         {
-            "Right": "viparyasta"
+            "Right": "mAyika"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#mAyA-Wan#}]"
     ],
     "_meanings": [
-        "{@--1@} Changed, \ninverted, reversed; {#haMta viparyastaH saMprati#} \n{#jIvalokaH#} <ls>U. 1.</ls> ",
-        "{@--2@} Opposite, contrary.\n",
-        "{@--3@} Wrongly considered to be real.\n"
+        ".²1 Deceitful, fraudulent.\n",
+        ".²2 Illusory, unreal.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 220655,
+            "__line": 238621,
             "_ancestry": [
                 "L_ 26128",
-                "B_ {#viparyasta#}",
-                "S_  {#--putrA#}"
+                "B_ {#mAyika#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": " {#--putrA#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "viparyastaputrA"
+                    "Right": "mAyikaH"
                 }
             ],
             "_meanings": [
-                "a woman bearing no\nmale children."
+                "A juggler.\n"
+            ]
+        },
+        {
+            "__line": 238622,
+            "_ancestry": [
+                "L_ 26128",
+                "B_ {#mAyika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAyikam"
+                }
+            ],
+            "_meanings": [
+                "A gall-nut."
             ]
         }
     ]

@@ -1,25 +1,63 @@
 {
-    "__line": 153085,
+    "__line": 161484,
     "_ancestry": [
         "L_ 18188",
-        "B_ {#parirakzitin, parirakzitf, parirakzin#}"
+        "B_ {#DvaMsaH#}"
     ],
-    "_banner": "{#parirakzitin, parirakzitf, parirakzin#}",
+    "_banner": "{#DvaMsaH#}",
     "_bannerExp": [
         {
-            "Right": "parirakzin"
-        },
-        {
-            "Right": "parirakzitf"
-        },
-        {
-            "Right": "parirakzitin"
+            "Right": "DvaMsaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#DvaMs-BAve GaY#}]"
     ],
     "_meanings": [
-        "Protecting, a protector, defender."
+        ".²1 Falling down, sinking, falling to pieces.\n",
+        ".²2 Vanishing, disappearance; {#DruvaM DvaMso BAvI jalaniDimahISElasaritAm#}.\n",
+        ".²3 Loss, destruction, ruin.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 161488,
+            "_ancestry": [
+                "L_ 18188",
+                "B_ {#DvaMsaH#}",
+                "M_ .{@{#-sI#}@}"
+            ],
+            "_banner": ".{@{#-sI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DvaMsI"
+                }
+            ],
+            "_meanings": [
+                "A mote in the sun-beam.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 161490,
+            "_ancestry": [
+                "L_ 18188",
+                "B_ {#DvaMsaH#}",
+                "S_ .{@{#-kArin#}@}"
+            ],
+            "_banner": ".{@{#-kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DvaMsakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 destroying; {#sa hi gaganavihArI kalmazaDvaMsakArI#} <ls>H. 1. 19</ls>.\n",
+                ".²2 violating; {#martyo'pyantaHpuraDvaMsakArI#} <ls>Ks. 106. 166</ls>."
+            ]
+        }
     ]
 }

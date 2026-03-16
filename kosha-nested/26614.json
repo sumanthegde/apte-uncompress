@@ -1,43 +1,212 @@
 {
-    "__line": 224450,
+    "__line": 243431,
     "_ancestry": [
         "L_ 26614",
-        "B_ {#vizad#}"
+        "B_ {#mfzA#}"
     ],
-    "_banner": "{#vizad#}",
+    "_banner": "{#mfzA#}",
     "_bannerExp": [
         {
-            "Right": "vizad"
+            "Right": "mfzA"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@} To sink down, be\nexhausted. ",
-        "{@--2@} To be dispirited or\ncast down, be afflicted or sorrowful,\ndespond, despair; {#vilapati hasati#}\n{#vizIdati roditi caMcati muMcati tApaM#}\n<ls>Gīt. 4</ls>; {#bAlasUnuravalokya BArgavaM svAM#}\n{#daSAM ca vizasAda parTivaH#} <ls>R. 11. 67</ls>;\n<ls>Bg. 2. 1</ls>; <ls>Bk. 7. 89</ls>; <ls>R. 9. 75.</ls> ",
-        "{@--3@}\nTo be afraid. "
+        ".²1 Falsely, wrongly, untruly, lyingly; {#yad vaktraM muhurIkzase na DaninAM#}\n {#brUze na cAwuM mfzA#} <ls>Bh. 3. 147</ls>; {#mfzABAzAsinDo#} <ls>Bv. 2. 21</ls>.\n",
+        ".²2 In vain, to no purpose, uselessly.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 224458,
+            "__line": 243436,
             "_ancestry": [
                 "L_ 26614",
-                "B_ {#vizad#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#mfzA#}",
+                "S_ .{@{#-aDyAyin#}@}"
             ],
+            "_banner": ".{@{#-aDyAyin#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vizad"
+                    "Right": "mfzADyAyin"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%m.%}"
             ],
             "_meanings": [
-                "{@--1@} To cause\nto despond or despair, discourage.\n",
-                "{@--2@} To make afflicted, pain."
+                "a kind of crane.\n"
+            ]
+        },
+        {
+            "__line": 243437,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-arTaka#}@}"
+            ],
+            "_banner": ".{@{#-arTaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzArTaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 untrue.\n",
+                ".²2 absurd.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 243440,
+                    "_ancestry": [
+                        "L_ 26614",
+                        "B_ {#mfzA#}",
+                        "S_ .{@{#-arTaka#}@}",
+                        "S_M_ ({@{#-kam#}@})"
+                    ],
+                    "_banner": "({@{#-kam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "mfzArTakam"
+                        }
+                    ],
+                    "_meanings": [
+                        "an absurdity, an impossibility.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 243441,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-udyam#}@}"
+            ],
+            "_banner": ".{@{#-udyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzodyam"
+                }
+            ],
+            "_meanings": [
+                "falsehood, lying, a false statement; {#tat kiM manyase#}\n {#rAjaputri mfzodyaM taditi#} <ls>U. 4</ls>; {#mfzodyaM pravadantIM tAm#} <ls>Bk. 5. 60</ls>.\n"
+            ]
+        },
+        {
+            "__line": 243443,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-jYAnam#}@}"
+            ],
+            "_banner": ".{@{#-jYAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzAjYAnam"
+                }
+            ],
+            "_meanings": [
+                "ignorance, error.\n"
+            ]
+        },
+        {
+            "__line": 243444,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzAdAnam"
+                }
+            ],
+            "_meanings": [
+                "insincere promise of a gift.\n"
+            ]
+        },
+        {
+            "__line": 243445,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-BAzin, -vAdin#}@}"
+            ],
+            "_banner": ".{@{#-BAzin, -vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzABAzin"
+                },
+                {
+                    "Right": "mfzAvAdin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a liar.\n"
+            ]
+        },
+        {
+            "__line": 243446,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-vAc#}@}"
+            ],
+            "_banner": ".{@{#-vAc#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzAvAc"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "an untrue or satirical speech, satire, irony.\n"
+            ]
+        },
+        {
+            "__line": 243447,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-vAdaH#}@}"
+            ],
+            "_banner": ".{@{#-vAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzAvAdaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an untrue speech; a lie, falsehood.\n",
+                ".²2 insincere speech, flattery.\n",
+                ".²3 irony, satire.\n"
+            ]
+        },
+        {
+            "__line": 243451,
+            "_ancestry": [
+                "L_ 26614",
+                "B_ {#mfzA#}",
+                "S_ .{@{#-sAkzin#}@}"
+            ],
+            "_banner": ".{@{#-sAkzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzAsAkzin"
+                }
+            ],
+            "_meanings": [
+                "false witness."
             ]
         }
     ]

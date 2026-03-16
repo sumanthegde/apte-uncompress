@@ -1,18 +1,69 @@
 {
-    "__line": 229599,
+    "__line": 251141,
     "_ancestry": [
         "L_ 27295",
-        "B_ {#vyavasTApanaM#}"
+        "B_ {#ram#}"
     ],
-    "_banner": "{#vyavasTApanaM#}",
+    "_banner": "{#ram#}",
     "_bannerExp": [
         {
-            "Right": "vyavasTApanaM"
+            "Right": "ram"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>Ā.</ab>",
+        "({#ramate#}, but <ab>Paras.</ab> when preceded by {#vi, A, pari#}\n and {#upa#}; {#reme, araMsta, araMsIt#} <ab>P.</ab> {#raMsyate, rantum, rata#})"
+    ],
     "_meanings": [
-        "{@--1@} Arranging, proper\nadjustment. ",
-        "{@--2@} Fixing, \ndetermining, settling, deciding. ",
-        "{@--3@} Fixing,\nplacing (in general)."
+        ".²1 To be pleased or delighted, rejoice, be gratified; {#rahasi ramate#}\n <ls>Māl. 3. 2</ls>; <ls>Ms. 2. 223</ls>; <ls>U. 2. 18</ls>.\n",
+        ".²2 To rejoice at, be pleased with, take delight in, be fond of (with <ab>instr.</ab>\n or <ab>loc.</ab>); {#lolApANgEryadi na ramase locanErvaYcito'si#}\n\n <ls>Me. 27</ls>; {#vyajezwa zaqvargamaraMsta nItO#} <ls>Bk. 1. 2</ls>.\n",
+        ".²3 To play, sport, dally, amuse oneself with; {#rAjapriyAH kEraviRyo ramante#}\n {#maDupEH saha#} <ls>Bv. 1. 126</ls> (where the next meaning is also hinted); <ls>Bk. 6. 15</ls>, <ls n=\"Bk. 6.\">67</ls>;\n {#raMramyate#} ({#atiSayena ramate#}) {#sarasanAgarikaRa nABnA#}\n {#SrIbilhaRena kavinA kzitipAlaputrI#} <ls>Bil. Ch. 48</ls>.\n",
+        ".²4 To have sexual intercourse with; {#sA tatputreRa saha ramate#} <ls>H. 3</ls>;\n {#viSaNkamAnA ramitaM kayApi janArdanam#} <ls>Gīt. 7</ls>.\n",
+        ".²5 To remain, stay, pause.\n",
+        ".²6 To take rest, remain quiet.\n",
+        ".²7 To gladden, delight. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 251157,
+            "_ancestry": [
+                "L_ 27295",
+                "B_ {#ram#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "ram"
+                }
+            ],
+            "_gram": [
+                "({#ramayati-te#})"
+            ],
+            "_meanings": [
+                "To please, delight,\n satisfy. "
+            ]
+        },
+        {
+            "__line": 251158,
+            "_ancestry": [
+                "L_ 27295",
+                "B_ {#ram#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "ram"
+                }
+            ],
+            "_gram": [
+                "({#riraMsate#})"
+            ],
+            "_meanings": [
+                "To wish to sport <ab>&c.</ab>; <ls>Śi. 15. 18</ls>."
+            ]
+        }
     ]
 }

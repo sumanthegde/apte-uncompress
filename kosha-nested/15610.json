@@ -1,42 +1,424 @@
 {
-    "__line": 130525,
+    "__line": 135437,
     "_ancestry": [
         "L_ 15610",
-        "B_ {#dfSIka#}"
+        "B_ {#jita#}"
     ],
-    "_banner": "{#dfSIka#}",
+    "_banner": "{#jita#}",
     "_bannerExp": [
         {
-            "Right": "dfSIka"
+            "Right": "jita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#dfS karmaRi bA° IMkak#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#ji-karmaRi kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Worthy of regard, fit to be seen,\nconspicuous. ",
-        "{@--2@} Beautiful. "
+        ".²1 Conquered, subdued, curbed, restrained, (as enemies, passions <ab>&c.</ab>).\n",
+        ".²2 Won, got, obtained (by conquest).\n",
+        ".²3 Surpassed, excelled. ",
+        ".²4 Subject to, enslaved or influenced by; {#kAmajita#}; {#strIjita#} <ab>&c.</ab>\n"
     ],
     "_morphisms": [
         {
-            "__line": 130527,
+            "__line": 135441,
             "_ancestry": [
                 "L_ 15610",
-                "B_ {#dfSIka#}",
-                "M_ {#--kA, --kaM#}"
+                "B_ {#jita#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--kA, --kaM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "dfSIkA"
-                },
-                {
-                    "Right": "dfSIkaM"
+                    "Right": "jitam"
                 }
             ],
             "_meanings": [
-                "Appearance, becoming manifest."
+                "Victory.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 135443,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-akzara#}@}"
+            ],
+            "_banner": ".{@{#-akzara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitAkzara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "reading well or readily.\n"
+            ]
+        },
+        {
+            "__line": 135444,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-amitra#}@}"
+            ],
+            "_banner": ".{@{#-amitra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitAmitra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has conquered his foes, triumphant, victorious.\n",
+                ".²2 one who has subdued his passions.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 135446,
+                    "_ancestry": [
+                        "L_ 15610",
+                        "B_ {#jita#}",
+                        "S_ .{@{#-amitra#}@}",
+                        "S_M_ ({@{#-traH#}@})"
+                    ],
+                    "_banner": "({@{#-traH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "jitAmitraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Viṣṇu.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 135447,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-ari#}@}"
+            ],
+            "_banner": ".{@{#-ari#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitAri"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has conquered his enemies or passions.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 135448,
+                    "_ancestry": [
+                        "L_ 15610",
+                        "B_ {#jita#}",
+                        "S_ .{@{#-ari#}@}",
+                        "S_M_ ({@{#-riH#}@})"
+                    ],
+                    "_banner": "({@{#-riH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "jitAriH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Buddha.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 135449,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitAtman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "self-subdued, void of passion; {#jitAtmanaH praSAntasya#} <ls>Bg. 6. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 135450,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-Ahava#}@}"
+            ],
+            "_banner": ".{@{#-Ahava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitAhava"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "victorious.\n"
+            ]
+        },
+        {
+            "__line": 135451,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-indriya#}@}"
+            ],
+            "_banner": ".{@{#-indriya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitendriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has conquered his passions or subdued\n the senses ({#rUpa, rasa, ganDa, sparSa#} & {#Sabda#}); {#SrutvA spfzwvA'Ta#}\n {#dfzwvA ca BuktvA GrAtvA ca yo naraH . na hfzyati glAyati vA sa vijYeyo#}\n {#jitendriyaH#} <ls>Ms. 2. 98</ls>.\n"
+            ]
+        },
+        {
+            "__line": 135455,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-kASiH#}@}"
+            ],
+            "_banner": ".{@{#-kASiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitakASiH"
+                }
+            ],
+            "_meanings": [
+                "the fist doubled.\n"
+            ]
+        },
+        {
+            "__line": 135456,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-kASin#}@}"
+            ],
+            "_banner": ".{@{#-kASin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitakASin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "appearing victorious, proud of victory, assuming\n the airs of a victor; {#jitakASinaSca KacarAH#} <ls>Mb. 3. 244. 6</ls>; {#BIzmaH#}\n {#puruzamAnI ca jitakASI taTEva ca#} {%<ab>ibid.</ab>%} <ls n=\"Mb.\">5. 177. 12</ls>; {#cARakyo'pi#}\n {#jitakASitayA#} <ls>Mu. 2</ls>; {#jitakASI rAjasevakaH#} {%<ab>ibid.</ab>%}\n"
+            ]
+        },
+        {
+            "__line": 135460,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-kopa, -kroDa, -manyu#}@}"
+            ],
+            "_banner": ".{@{#-kopa, -kroDa, -manyu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitakopa"
+                },
+                {
+                    "Right": "jitakroDa"
+                },
+                {
+                    "Right": "jitamanyu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "imperturbable, not excitable.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 135461,
+                    "_ancestry": [
+                        "L_ 15610",
+                        "B_ {#jita#}",
+                        "S_ .{@{#-kopa, -kroDa, -manyu#}@}",
+                        "S_M_ ({@{#-DaH#}@})"
+                    ],
+                    "_banner": "({@{#-DaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: jitakopa ({@{#-DaH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Viṣṇu.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 135462,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-nemiH#}@}"
+            ],
+            "_banner": ".{@{#-nemiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitanemiH"
+                }
+            ],
+            "_meanings": [
+                "a staff made of the Aśvattha tree.\n"
+            ]
+        },
+        {
+            "__line": 135463,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-loka#}@}"
+            ],
+            "_banner": ".{@{#-loka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitaloka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘one who has won heaven’ (epithet of a class of manes).\n"
+            ]
+        },
+        {
+            "__line": 135464,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-Satru#}@}"
+            ],
+            "_banner": ".{@{#-Satru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitaSatru"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "victorious.\n"
+            ]
+        },
+        {
+            "__line": 135465,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-SiSnodara#}@}"
+            ],
+            "_banner": ".{@{#-SiSnodara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitaSiSnodara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One who has overcome lust and appetite.\n"
+            ]
+        },
+        {
+            "__line": 135466,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-Srama#}@}"
+            ],
+            "_banner": ".{@{#-Srama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitaSrama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inured to fatigue, hardy; {#kftahasto jitaSramaH#} <ls>Mb. 7. 16. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 135467,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-svarga#}@}"
+            ],
+            "_banner": ".{@{#-svarga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitasvarga"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "one who has won heaven.\n"
+            ]
+        },
+        {
+            "__line": 135468,
+            "_ancestry": [
+                "L_ 15610",
+                "B_ {#jita#}",
+                "S_ .{@{#-hasta#}@}"
+            ],
+            "_banner": ".{@{#-hasta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jitahasta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has exercised his hand."
             ]
         }
     ]

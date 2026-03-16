@@ -1,16 +1,39 @@
 {
-    "__line": 167759,
+    "__line": 181146,
     "_ancestry": [
         "L_ 20103",
-        "B_ {#pratispaMdanaM#}"
+        "B_ {#pariKid#}"
     ],
-    "_banner": "{#pratispaMdanaM#}",
+    "_banner": "{#pariKid#}",
     "_bannerExp": [
         {
-            "Right": "pratispaMdanaM"
+            "Right": "pariKid"
         }
     ],
+    "_gram": [
+        "€4",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "Throbbing."
+        "To suffer pain or misery, be distressed or wearied.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 181147,
+            "_ancestry": [
+                "L_ 20103",
+                "B_ {#pariKid#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pariKid"
+                }
+            ],
+            "_meanings": [
+                "To injure, hurt."
+            ]
+        }
     ]
 }

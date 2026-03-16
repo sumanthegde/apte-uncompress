@@ -1,21 +1,65 @@
 {
-    "__line": 56759,
+    "__line": 54772,
     "_ancestry": [
         "L_ 6510",
-        "B_ {#ABimuKyaM#}"
+        "B_ {#Agantu#}"
     ],
-    "_banner": "{#ABimuKyaM#}",
+    "_banner": "{#Agantu#}",
     "_bannerExp": [
         {
-            "Right": "ABimuKyaM"
+            "Right": "Agantu"
         }
     ],
     "_gram": [
-        "[{#aBimuKasya BAvaH zyaY#}]"
+        "{%a.%}",
+        "[{#A-gam-tun#}]"
     ],
     "_meanings": [
-        "{@--1@} Direction towards; {#°KyaM yAti#}\ngoes to meet or encounter. ",
-        "{@--2@} \nBeing in front of or face to face;\n{#nItABimuKyaM punaH#} <ls>Ratn. 1. 2.</ls> ",
-        "{@--3@} \nFavourableness."
+        ".²1 Coming, arriving.\n",
+        ".²2 Stray.\n",
+        ".²3 Coming from the outside; external (as a cause <ab>&c.</ab>)\n",
+        ".²4 Adventitious, accidental, casual {#niyamastu sa yatkarma nityamAgantusADanam#}\n <ls>Ak. 5</ls> what (or who) comes later or afterwards. {#vAstavyErAkAnte deSe#}\n {#Aganturjano'samBavAdante niviSate .#} <ls>ŚB. on MS. 10. 5. 4</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 54779,
+            "_ancestry": [
+                "L_ 6510",
+                "B_ {#Agantu#}",
+                "M_ .{@{#-ntuH#}@}"
+            ],
+            "_banner": ".{@{#-ntuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgantuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A newcomer, stranger, guest; ({#mene#}) {#vEdarBamAgantumajaM gfheSam#}\n <ls>R. 5. 62</ls>; <ls>H. 1</ls>.\n",
+                ".²2 A late-comer, what comes later or afterwards (See {#AgamaH#} for quotation)\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 54784,
+            "_ancestry": [
+                "L_ 6510",
+                "B_ {#Agantu#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Agantuja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "arising accidentally or casually; {#Agantuje roge#} <ls>Suśr.</ls>"
+            ]
+        }
     ]
 }

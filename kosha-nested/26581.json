@@ -1,19 +1,78 @@
 {
-    "__line": 224087,
+    "__line": 243096,
     "_ancestry": [
         "L_ 26581",
-        "B_ {#viSravas#}"
+        "B_ {#mftakaH#}, {#-kam#}"
     ],
-    "_banner": "{#viSravas#}",
+    "_banner": "{#mftakaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "viSravas"
+            "Right": "mftakaH"
+        },
+        {
+            "Right": "mftakam"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}"
-    ],
     "_meanings": [
-        "<ab>N.</ab> of a son of \nPulastya, and father of Rāvaṇa, \nKumbhakarṇa, Bibhīṣaṇa and \n\nŚūrpaṇakhā by his wife Kaikasī, and of\nKubera by his wife Iḍaviḍā."
+        "A dead person, a corpse; {#uvAca mftakopAnte patitaM mftakopamam#}\n <ls>A. Rām. 6. 12. 9</ls>; {#DruvaM te jIvanto'pyahaha mftakA mandamatayo na yezAmAnandaM#}\n {#janayati jagannATaBaRitiH#} <ls>Bv. 4. 39</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 243100,
+            "_ancestry": [
+                "L_ 26581",
+                "B_ {#mftakaH#}, {#-kam#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mftakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Impurity contracted through the death of a relation.\n",
+                ".²2 Death.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 243104,
+            "_ancestry": [
+                "L_ 26581",
+                "B_ {#mftakaH#}, {#-kam#}",
+                "S_ .{@{#-antakaH#}@}"
+            ],
+            "_banner": ".{@{#-antakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mftakAntakaH"
+                }
+            ],
+            "_meanings": [
+                "a jackal.\n"
+            ]
+        },
+        {
+            "__line": 243105,
+            "_ancestry": [
+                "L_ 26581",
+                "B_ {#mftakaH#}, {#-kam#}",
+                "S_ .{@{#-svamoktf#}@}"
+            ],
+            "_banner": ".{@{#-svamoktf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mftakasvamoktf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a royal sage; <ls>L. D. B.</ls>"
+            ]
+        }
     ]
 }

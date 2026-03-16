@@ -1,20 +1,38 @@
 {
-    "__line": 55288,
+    "__line": 52553,
     "_ancestry": [
         "L_ 6288",
-        "B_ {#Anartaka#}"
+        "B_ {#asvAmika#}"
     ],
-    "_banner": "{#Anartaka#}",
+    "_banner": "{#asvAmika#}",
     "_bannerExp": [
         {
-            "Right": "Anartaka"
+            "Right": "asvAmika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Belonging to Ānarta.\n",
-        "{@--2@} Dancing about."
+        "Unowned, unclaimed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 52554,
+            "_ancestry": [
+                "L_ 6288",
+                "B_ {#asvAmika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asvAmikam"
+                }
+            ],
+            "_meanings": [
+                "(Unclaimed) Treasure <ab>&c.</ab>"
+            ]
+        }
     ]
 }

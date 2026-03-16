@@ -1,37 +1,120 @@
 {
-    "__line": 57810,
+    "__line": 55982,
     "_ancestry": [
         "L_ 6662",
-        "B_ {#AyAta#}"
+        "B_ {#AjiH#}"
     ],
-    "_banner": "{#AyAta#}",
+    "_banner": "{#AjiH#}",
     "_bannerExp": [
         {
-            "Right": "AyAta"
+            "Right": "AjiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%m. f.%}",
+        "[{#ajantyasyAM, aj-iR#} <ls>P. III. 3. 108. Vārt.</ls> {#iRajAdiByaH#}]"
     ],
     "_meanings": [
-        "Come, approached.\n"
+        ".²1 A battle, fight, combat; {#te tu yAvanta evAjO tAvAMSca dadfSe sa#}\n {#tEH#} <ls>R. 12. 45</ls>.\n",
+        ".²2 A fighting or running match; {#AjiM DAv#} or {#i, -aj#} or {#sf#} to\n run with or against any one for prize.\n",
+        ".²3 Battle-field, place for running; race-course, level ground; {#dIrGaM#}\n {#yadAjimaByaKyadaryaH#} <ls>Rv. 4. 24. 8</ls>. {#SastrARyAjO nayanasalilaM cApi#}\n {#tulyaM mumoca#} <ls>Ve. 3. 11</ls>.\n",
+        ".²4 Limit, boundary; {#yaTAgnermanTanamAjeH saraRam#} <ls>Bṛ. Up. 1. 3. 5</ls>.\n",
+        ".²5 A road, way ({%m.%}).\n",
+        ".²6 An instant ({%m.%}).\n",
+        ".²7 Abuse, invective.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 57811,
+            "__line": 55995,
             "_ancestry": [
                 "L_ 6662",
-                "B_ {#AyAta#}",
-                "M_ {#--taM#}"
+                "B_ {#AjiH#}",
+                "S_ .{@{#-antaH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-antaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AyAtaM"
+                    "Right": "AjyantaH"
                 }
             ],
             "_meanings": [
-                "Excess, superabundance ({#udreka#});\n<ls>Ki. 5. 23.</ls>"
+                "the goal in a race-course.\n"
+            ]
+        },
+        {
+            "__line": 55996,
+            "_ancestry": [
+                "L_ 6662",
+                "B_ {#AjiH#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ajikft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 running for a prize; {#yadAjiM yAtyAjikfdindraH svaSvayurupa#} <ls>Rv. 8. 45. 7</ls>.\n",
+                ".²2 making a war.\n"
+            ]
+        },
+        {
+            "__line": 55999,
+            "_ancestry": [
+                "L_ 6662",
+                "B_ {#AjiH#}",
+                "S_ .{@{#-kriyA#}@}"
+            ],
+            "_banner": ".{@{#-kriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjikriyA"
+                }
+            ],
+            "_meanings": [
+                "fighting.\n"
+            ]
+        },
+        {
+            "__line": 56000,
+            "_ancestry": [
+                "L_ 6662",
+                "B_ {#AjiH#}",
+                "S_ .{@{#-tur#}@}"
+            ],
+            "_banner": ".{@{#-tur#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ajitur"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> victorious in battles; {#AjituraM satpatiM viSvacarzARim#} <ls>Rv. 8. 53. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 56001,
+            "_ancestry": [
+                "L_ 6662",
+                "B_ {#AjiH#}",
+                "S_ .{@{#-muKam#}@}"
+            ],
+            "_banner": ".{@{#-muKam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjimuKam"
+                }
+            ],
+            "_meanings": [
+                "The front line in a battle; <ls>Ratn.</ls>"
             ]
         }
     ]

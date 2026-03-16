@@ -1,22 +1,69 @@
 {
-    "__line": 191330,
+    "__line": 204570,
     "_ancestry": [
         "L_ 22814",
-        "B_ {#maS#}"
+        "B_ {#pratyarTin#}"
     ],
-    "_banner": "{#maS#}",
+    "_banner": "{#pratyarTin#}",
     "_bannerExp": [
         {
-            "Right": "maS"
+            "Right": "pratyarTin"
+        },
+        {
+            "Right": "pratyarTinI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#maSati#})"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} To buzz,\nhum, make a sound. ",
-        "{@--2@} To be\nangry."
+        "Hostile, opposing, inimical to; {#nAsmi BavatyorISvaraniyogapratyaTIM#} <ls>V. 2</ls>.\n",
+        ".²2 Emulating.\n",
+        ".²3 Contradicting. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 204573,
+            "_ancestry": [
+                "L_ 22814",
+                "B_ {#pratyarTin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pratyarTin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An opponent, adversary, enemy.\n",
+                ".²2 A rival, equal, match; {#candro muKasya pratyaTIM#}.\n",
+                ".²3 (In law) A defendant; {#sa DarmasTasaKaH SaSvadarTipratyarTinAM svayam#}\n <ls>R. 17. 39</ls>; <ls>Ms. 8. 79</ls>; {#pratyarTino'grato leKyaM yaTAveditamarTinA#} <ls>Y. 2. 6</ls>.\n",
+                ".²4 An obstacle or impediment.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 204580,
+            "_ancestry": [
+                "L_ 22814",
+                "B_ {#pratyarTin#}",
+                "S_ .{@{#-BUta#}@}"
+            ],
+            "_banner": ".{@{#-BUta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyarTiBUta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "coming in the way, become an obstacle; {#pratyarTiBUtAmapi tAM#}\n {#samADeH SuSrUzamARAM girISo'numene#} <ls>Ku. 1. 59</ls>."
+            ]
+        }
     ]
 }

@@ -1,37 +1,59 @@
 {
-    "__line": 183559,
+    "__line": 198394,
     "_ancestry": [
         "L_ 22077",
-        "B_ {#BAjita#}"
+        "B_ {#prakzIRa#}"
     ],
-    "_banner": "{#BAjita#}",
+    "_banner": "{#prakzIRa#}",
     "_bannerExp": [
         {
-            "Right": "BAjita"
+            "Right": "prakzIRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Shared, divided. "
+        ".²1 Decayed, wasting, declining,\n",
+        ".²2 Destroyed.\n",
+        ".²3 Expiated.\n",
+        ".²4 Vanished, disappeared.\n"
     ],
     "_morphisms": [
         {
-            "__line": 183559,
+            "__line": 198399,
             "_ancestry": [
                 "L_ 22077",
-                "B_ {#BAjita#}",
-                "M_ {#--taM#}"
+                "B_ {#prakzIRa#}",
+                "M_ .{@{#-Ram#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-Ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BAjitaM"
+                    "Right": "prakzIRam"
                 }
             ],
             "_meanings": [
-                "A\nshare, portion."
+                "The spot where one has perished.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 198401,
+            "_ancestry": [
+                "L_ 22077",
+                "B_ {#prakzIRa#}",
+                "S_ .{@{#-candraH#}@}"
+            ],
+            "_banner": ".{@{#-candraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakzIRacandraH"
+                }
+            ],
+            "_meanings": [
+                "the waning moon."
             ]
         }
     ]

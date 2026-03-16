@@ -1,20 +1,42 @@
 {
-    "__line": 77001,
+    "__line": 76378,
     "_ancestry": [
         "L_ 9075",
-        "B_ {#upAgamaH#}"
+        "B_ {#uddfS#}"
     ],
-    "_banner": "{#upAgamaH#}",
+    "_banner": "{#uddfS#}",
     "_bannerExp": [
         {
-            "Right": "upAgamaH"
+            "Right": "uddfS"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "{@--1@} Approach, arrival. ",
-        "{@--2@}\nOccurrence. ",
-        "{@--3@} A promise, \nagreement. ",
-        "{@--4@} Acceptance. ",
-        "{@--5@} Suffering,\nfeeling."
+        "²1 To see above, look upwards (<ab>lit.</ab>)\n",
+        ".²2 To look into the future; expect; look up to; <ls>Mv. 6</ls>; {#utpaSyataH siMhanipAtamugram#} <ls>R. 2. 60</ls>.\n",
+        ".²3 To doubt.\n",
+        ".²4 To be aware of. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 76382,
+            "_ancestry": [
+                "L_ 9075",
+                "B_ {#uddfS#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "uddfS"
+                }
+            ],
+            "_meanings": [
+                "To make visible."
+            ]
+        }
     ]
 }

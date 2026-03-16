@@ -1,19 +1,41 @@
 {
-    "__line": 49771,
+    "__line": 47020,
     "_ancestry": [
         "L_ 5657",
-        "B_ {#asvapnaj#}"
+        "B_ {#avfka#}"
     ],
-    "_banner": "{#asvapnaj#}",
+    "_banner": "{#avfka#}",
     "_bannerExp": [
         {
-            "Right": "asvapnaj"
+            "Right": "avfka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Sleepless."
+        ".²1 Free from danger, safe.\n",
+        ".²2 Not hurting, inoffensive, true.\n",
+        ".²3 Free from one who obscures.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 47024,
+            "_ancestry": [
+                "L_ 5657",
+                "B_ {#avfka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avfkam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Safety, peace, security.\n",
+                ".²2 Quiet, repose."
+            ]
+        }
     ]
 }

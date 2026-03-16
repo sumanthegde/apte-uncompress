@@ -1,21 +1,101 @@
 {
-    "__line": 39898,
+    "__line": 36290,
     "_ancestry": [
         "L_ 4331",
-        "B_ {#alpatA, --tvaM#}"
+        "B_ {#ayAta#}"
     ],
-    "_banner": "{#alpatA, --tvaM#}",
+    "_banner": "{#ayAta#}",
     "_bannerExp": [
         {
-            "Right": "alpatA"
-        },
-        {
-            "Right": "alpatvaM"
+            "Right": "ayAta"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Smallness, \nminuteness; <ls>Bh. 3. 47.</ls> ",
-        "{@--2@} Smallness of\nintellect, folly; <ls>Ki. 6. 37.</ls> ",
-        "{@--3@} \nInferiority, insignificance."
+        "Not gone. {#ayAtamasya dadfSe na yAtam#} <ls>Av. 10. 8. 8</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 36292,
+            "_ancestry": [
+                "L_ 4331",
+                "B_ {#ayAta#}",
+                "S_ .{@{#-pUrva#}@}"
+            ],
+            "_banner": ".{@{#-pUrva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayAtapUrva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following, succeeding, subsequent to.\n\n"
+            ]
+        },
+        {
+            "__line": 36294,
+            "_ancestry": [
+                "L_ 4331",
+                "B_ {#ayAta#}",
+                "S_ .{@{#-yAma#}@}"
+            ],
+            "_banner": ".{@{#-yAma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayAtayAma"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not old or weakened, not stale, fresh, not worn out\n by use; {#ayAtayAmaM sarveByo BAgeByo BAgamuttamam#} <ls>Mb. 3. 114. 11</ls>. {#˚maM#}\n {#ca yOvanam#} <ls>Dk. 123</ls> fresh, blooming; {#˚maM vayaH#} <ls n=\"Dk.\">158</ls>; {#CandAMsyayAtayAmAni#}\n <ls>Bhāg. 10. 80. 42</ls>. (where Śrīdhara says {#a˚#} = {#vigatadozARi#} free from\n faults, faultless, pure.)\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 36299,
+                    "_ancestry": [
+                        "L_ 4331",
+                        "B_ {#ayAta#}",
+                        "S_ .{@{#-yAma#}@}",
+                        "S_M_ ({@{#-mam#}@})"
+                    ],
+                    "_banner": "({@{#-mam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ayAtayAmam"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of certain texts of the Yajurveda revealed to YājYavalkya.\n {#-˚yAmatA#} freshness, unimpaired nature, strength, or vigour, purity.\n.--{@<ab>Comp.</ab>@}\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 36302,
+            "_ancestry": [
+                "L_ 4331",
+                "B_ {#ayAta#}",
+                "S_ .{@{#-yAman#}@}"
+            ],
+            "_banner": ".{@{#-yAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayAtayAman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> not weak, fresh."
+            ]
+        }
     ]
 }

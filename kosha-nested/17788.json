@@ -1,142 +1,126 @@
 {
-    "__line": 150452,
+    "__line": 157019,
     "_ancestry": [
         "L_ 17788",
-        "B_ {#paras#}"
+        "B_ {#dvaya#}"
     ],
-    "_banner": "{#paras#}",
+    "_banner": "{#dvaya#}",
     "_bannerExp": [
         {
-            "Right": "paras"
+            "Right": "dvaya"
+        },
+        {
+            "Right": "dvayI"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "({#-yI#}|{%f.%})"
     ],
     "_meanings": [
-        "(Rarely used by itself\nin classical Sanskrit) ",
-        "{@--1@} Beyond,\nfurther, more than. ",
-        "{@--2@} On the other\nside of. ",
-        "{@--3@} Far away, at a distance.\n",
-        "{@--4@} With the exception of. ",
-        "{@--5@} <ab>Ved.</ab>\nIn future, afterwards. "
+        ".²1 Two-fold, double, of two kinds or sorts; {#anupekzaRe dvayI gatiH#}\n <ls>Mu. 3</ls>; {#kusumastabakasyeva dvayI vfttirmanasvinaH . mUrDni vA sarvalokasya#}\n {#viSIryeta vane'TavA ..#} <ls>Bh. 2. 104</ls> (<ab>v. l.</ab>); sometimes used in <ab>pl.</ab> also;\n see <ls>Śi. 3. 57</ls>.\n",
+        ".²2 Relating to {#dvEta#} (<ab>q. v.</ab>); {#avidyamAno'pyavaBAti hi dvayaH#} <ls>Bhāg. 11. 2. 38</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 157025,
+            "_ancestry": [
+                "L_ 17788",
+                "B_ {#dvaya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvayam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Pair, couple, brace (usually at the end of <ab>comp.</ab>); {#dvitayena dvayameva#}\n {#saMgatam#} <ls>R. 8. 6</ls>, <ls n=\"R.\">1. 19</ls>, <ls n=\"R.\">3. 8</ls>, <ls n=\"R.\">4. 4</ls>.\n",
+                ".²2 Two-fold nature, duplicity.\n",
+                ".²3 Untruthfulness.\n",
+                ".²4 (In <ab>gram.</ab>) The masculine and feminine gender.\n"
+            ]
+        },
+        {
+            "__line": 157031,
+            "_ancestry": [
+                "L_ 17788",
+                "B_ {#dvaya#}",
+                "M_ .{@{#-yI#}@}"
+            ],
+            "_banner": ".{@{#-yI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvayI"
+                }
+            ],
+            "_meanings": [
+                "A pair, couple.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 150457,
+            "__line": 157033,
             "_ancestry": [
                 "L_ 17788",
-                "B_ {#paras#}",
-                "S_  {#--kfzRa#}"
+                "B_ {#dvaya#}",
+                "S_ .{@{#-atiga#}@}"
             ],
-            "_banner": " {#--kfzRa#}",
+            "_banner": ".{@{#-atiga#}@}",
             "_bannerExp": [
                 {
-                    "Right": "paraHkfzRa"
+                    "Right": "dvayAtiga"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "very black. "
+                "one whose mind is freed from the influence of the\n two bad qualities {#rajas#} and {#tamas#}, a saint or a virtuous man.\n"
             ]
         },
         {
-            "__line": 150458,
+            "__line": 157035,
             "_ancestry": [
                 "L_ 17788",
-                "B_ {#paras#}",
-                "S_ {#--puMsA#}"
+                "B_ {#dvaya#}",
+                "S_ .{@{#-Atmaka#}@}"
             ],
-            "_banner": "{#--puMsA#}",
+            "_banner": ".{@{#-Atmaka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "paraHpuMsA"
-                }
-            ],
-            "_meanings": [
-                "<ab>Ved.</ab> a woman\nnet satisfied with her husband (and\ntherefore seeking for a paramour).\n"
-            ]
-        },
-        {
-            "__line": 150461,
-            "_ancestry": [
-                "L_ 17788",
-                "B_ {#paras#}",
-                "S_ {#--puruza#}"
-            ],
-            "_banner": "{#--puruza#}",
-            "_bannerExp": [
-                {
-                    "Right": "paraHpuruza"
+                    "Right": "dvayAtmaka"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "higher than a man. "
+                "of a two-fold nature. {@{#vAdin#}@} {%a.%}\n",
+                ".²1 double-tongued, insincere.\n",
+                ".²2 = {#dvEtavAdI#} <ab>q. v.</ab>\n"
             ]
         },
         {
-            "__line": 150461,
+            "__line": 157038,
             "_ancestry": [
                 "L_ 17788",
-                "B_ {#paras#}",
-                "S_ {#--Sata#}"
+                "B_ {#dvaya#}",
+                "S_ .{@{#-hIna#}@}"
             ],
-            "_banner": "{#--Sata#}",
+            "_banner": ".{@{#-hIna#}@}",
             "_bannerExp": [
                 {
-                    "Right": "paraHSata"
+                    "Right": "dvayahIna"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "more than a hundred;  \n<ls>Ki. 13. 26</ls>; <ls>Śi. 12. 50.</ls> "
-            ]
-        },
-        {
-            "__line": 150463,
-            "_ancestry": [
-                "L_ 17788",
-                "B_ {#paras#}",
-                "S_ {#--Svas#}"
-            ],
-            "_banner": "{#--Svas#}",
-            "_bannerExp": [
-                {
-                    "Right": "paraHSvas"
-                }
-            ],
-            "_gram": [
-                "{%<ab>ind.</ab>%}"
-            ],
-            "_meanings": [
-                "the day\nafter tomorrow. "
-            ]
-        },
-        {
-            "__line": 150464,
-            "_ancestry": [
-                "L_ 17788",
-                "B_ {#paras#}",
-                "S_ {#--sahasra#}"
-            ],
-            "_banner": "{#--sahasra#}",
-            "_bannerExp": [
-                {
-                    "Right": "paraHsahasra"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "more\nthan a thousand; {#paraHsahasrAH#} \n{#SaradastapAMsi taptvA#} <ls>U. 1. 15</ls>; {#paraHsahasrEH piSAcEH#}\n<ls>Mv. 5. 17.</ls>"
+                "of the neuter gender."
             ]
         }
     ]

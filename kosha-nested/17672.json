@@ -1,16 +1,63 @@
 {
-    "__line": 148880,
+    "__line": 155946,
     "_ancestry": [
         "L_ 17672",
-        "B_ {#patatriH#}"
+        "B_ {#dyotana#}"
     ],
-    "_banner": "{#patatriH#}",
+    "_banner": "{#dyotana#}",
     "_bannerExp": [
         {
-            "Right": "patatriH"
+            "Right": "dyotana"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#dyut-yuc#}]"
+    ],
     "_meanings": [
-        "A bird."
+        ".²1 Bright, shining; {#vilokya dyotanaM candraM lakzmaRaM Socano'vadat#} <ls>Bk. 7. 15</ls>.\n",
+        ".²2 Illuminating.\n",
+        ".²3 Explaining, elucidating.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 155950,
+            "_ancestry": [
+                "L_ 17672",
+                "B_ {#dyotana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyotanaH"
+                }
+            ],
+            "_meanings": [
+                "A lamp.\n"
+            ]
+        },
+        {
+            "__line": 155951,
+            "_ancestry": [
+                "L_ 17672",
+                "B_ {#dyotana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dyotanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Shining.\n",
+                ".²2 Illuminating.\n",
+                ".²3 Explaining.\n",
+                ".²4 Sight, seeing.\n",
+                ".²5 Light.\n",
+                ".²6 Dawn."
+            ]
+        }
     ]
 }

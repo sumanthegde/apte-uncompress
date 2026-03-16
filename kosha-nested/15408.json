@@ -1,16 +1,101 @@
 {
-    "__line": 127911,
+    "__line": 133410,
     "_ancestry": [
         "L_ 15408",
-        "B_ {#dAsyaM#}"
+        "B_ {#japa#}"
     ],
-    "_banner": "{#dAsyaM#}",
+    "_banner": "{#japa#}",
     "_bannerExp": [
         {
-            "Right": "dAsyaM"
+            "Right": "japa"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#jap-kartari ac#}]"
+    ],
     "_meanings": [
-        "Servitude, slavery, \nservice, bondage; {#patikule tava dAsyamapi#}\n{#kzamaM#} <ls>Ś. 5. 27</ls>; <ls>Ms. 8. 410.</ls>"
+        "Muttering, whispering.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 133411,
+            "_ancestry": [
+                "L_ 15408",
+                "B_ {#japa#}",
+                "M_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "japaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Muttering prayers, repeating prayers <ab>&c.</ab> in an\n\n under-tone.\n",
+                ".²2 Repeating passages of the Veda or names of deities <ab>&c.</ab>; <ls>Ms. 3. 74</ls>; <ls>Y. 1. 22</ls>.\n",
+                ".²3 A muttered prayer.\n",
+                ".²4 Counting silently the beads of a rosary <ab>&c.</ab>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 133419,
+            "_ancestry": [
+                "L_ 15408",
+                "B_ {#japa#}",
+                "S_ .{@{#-parAyaRa#}@}"
+            ],
+            "_banner": ".{@{#-parAyaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "japaparAyaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "engaged in muttering prayers.\n"
+            ]
+        },
+        {
+            "__line": 133420,
+            "_ancestry": [
+                "L_ 15408",
+                "B_ {#japa#}",
+                "S_ .{@{#-mAlA#}@}"
+            ],
+            "_banner": ".{@{#-mAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "japamAlA"
+                }
+            ],
+            "_meanings": [
+                "a rosary of beads.\n"
+            ]
+        },
+        {
+            "__line": 133421,
+            "_ancestry": [
+                "L_ 15408",
+                "B_ {#japa#}",
+                "S_ .{@{#-yajYaH, -homaH#}@}"
+            ],
+            "_banner": ".{@{#-yajYaH, -homaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "japayajYaH"
+                },
+                {
+                    "Right": "japahomaH"
+                }
+            ],
+            "_meanings": [
+                "muttering prayers as a sacrifice; {#viDiyajYAjjapayajYo#}\n {#viSizwo daSaBirguREH#} <ls>Ms. 2. 85</ls>; <ls>Y. 1. 101</ls>; <ls>Ms. 10. 111</ls>."
+            ]
+        }
     ]
 }

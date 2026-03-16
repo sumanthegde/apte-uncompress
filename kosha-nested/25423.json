@@ -1,31 +1,105 @@
 {
-    "__line": 215369,
+    "__line": 229715,
     "_ancestry": [
         "L_ 25423",
-        "B_ {#vAD, vADa, vADaka, vADana nA, vADA#}"
+        "B_ {#BrAntiH#}"
     ],
-    "_banner": "{#vAD, vADa, vADaka, vADana nA, vADA#}",
+    "_banner": "{#BrAntiH#}",
     "_bannerExp": [
         {
-            "Right": "vAD"
-        },
-        {
-            "Right": "vADA"
-        },
-        {
-            "Right": "vADa"
-        },
-        {
-            "Right": "vADaka"
-        },
-        {
-            "Right": "vADanA"
-        },
-        {
-            "Right": "vADana"
+            "Right": "BrAntiH"
         }
     ],
+    "_gram": [
+        "[{#Bram-ktin#}]",
+        "{%f.%}"
+    ],
     "_meanings": [
-        "See {#bAD, baDa, baDaka, bADana-nA, bADA#}."
+        ".²1 Moving or wandering about.\n",
+        ".²2 Turning round, rolling.\n",
+        ".²3 A revolution, circular or rotatory movement; {#cakraBrAntirarAntarezu#}\n {#vitanotyanyAmivArAvalIm#} <ls>V. 1. 5</ls>.\n",
+        ".²4 An error, a mistake, delusion, wrong\n\n notion, false idea or impression; {#SritAsi candanaBrAntyA durvipAkaM#}\n {#vizadrumam#} <ls>U. 1. 47</ls>; {#zARmAsike tu saMprApte BrAntiH saMjAyate nfRAm .#}\n {#DAtrAkzarARi sfzwAni patrArUQAnyataH purA ..#} <ls>Jyotistattvam.</ls>\n",
+        ".²5 Confusion, perplexity.\n",
+        ".²6 Doubt, uncertainty, suspense.\n",
+        ".²7 Unsteadiness.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 229729,
+            "_ancestry": [
+                "L_ 25423",
+                "B_ {#BrAntiH#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAntikara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "confounding, causing delusion.\n"
+            ]
+        },
+        {
+            "__line": 229730,
+            "_ancestry": [
+                "L_ 25423",
+                "B_ {#BrAntiH#}",
+                "S_ .{@{#-nASanaH#}@}"
+            ],
+            "_banner": ".{@{#-nASanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAntinASanaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 229731,
+            "_ancestry": [
+                "L_ 25423",
+                "B_ {#BrAntiH#}",
+                "S_ .{@{#-hara#}@}"
+            ],
+            "_banner": ".{@{#-hara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BrAntihara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "removing doubt or error. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 229731,
+                    "_ancestry": [
+                        "L_ 25423",
+                        "B_ {#BrAntiH#}",
+                        "S_ .{@{#-hara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: BrAMtihara ({@{#-raH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a counsellor, minister."
+                    ]
+                }
+            ]
+        }
     ]
 }

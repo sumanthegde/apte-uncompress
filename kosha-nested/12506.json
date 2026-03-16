@@ -1,39 +1,119 @@
 {
-    "__line": 104352,
+    "__line": 105929,
     "_ancestry": [
         "L_ 12506",
-        "B_ {#gAloqita#}"
+        "B_ {#kubja#}"
     ],
-    "_banner": "{#gAloqita#}",
+    "_banner": "{#kubja#}",
     "_bannerExp": [
         {
-            "Right": "gAloqita"
+            "Right": "kubja"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#ku Izat ubjamArjavaM yatra SakaM˚#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Drunk, \nintoxicated. ",
-        "{@--2@} Sick, diseased. ",
-        "{@--3@} Foolish.\n"
+        "Hump-backed,\n crooked. {#anDAH KaYjAH kubjA vAmanakASca#} <ls>Garbha. Up. 3</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 104354,
+            "__line": 105931,
             "_ancestry": [
                 "L_ 12506",
-                "B_ {#gAloqita#}",
-                "M_ {#--taM#}"
+                "B_ {#kubja#}",
+                "M_ .{@{#-bjaH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-bjaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gAloqitaM"
+                    "Right": "kubjaH"
                 }
             ],
             "_meanings": [
-                "Examination."
+                ".²1 A curved sword.\n",
+                ".²2 A hump on the back.\n",
+                ".²3 A sort of fish; <ls>Mb. 7. 56. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 105935,
+            "_ancestry": [
+                "L_ 12506",
+                "B_ {#kubja#}",
+                "M_ .{@{#-bjA#}@}"
+            ],
+            "_banner": ".{@{#-bjA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kubjA"
+                }
+            ],
+            "_meanings": [
+                "A young female servant of Kaṃsa, said to be deformed in\n three parts of her body. [Kṛṣṇa and Balarāma, while proceeding to\n Mathurā, saw her on the high road carrying unguent to Kaṃsa. They asked\n her if she would give them some portion of it, and she gave as much as\n they wanted. Kṛṣṇa, being very much pleased with her kindness, made\n her perfectly straight, and she began to appear a most beautiful woman.]\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 105942,
+            "_ancestry": [
+                "L_ 12506",
+                "B_ {#kubja#}",
+                "S_ .{@{#-kirAtaH, -vAmanaH#}@}"
+            ],
+            "_banner": ".{@{#-kirAtaH, -vAmanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kubjakirAtaH"
+                },
+                {
+                    "Right": "kubjavAmanaH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hump-backed person and a dwarf.\n"
+            ]
+        },
+        {
+            "__line": 105943,
+            "_ancestry": [
+                "L_ 12506",
+                "B_ {#kubja#}",
+                "S_ .{@{#-gAmin#}@}"
+            ],
+            "_banner": ".{@{#-gAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kubjagAmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going crookedly, going astray; {#budDayaH kubjagAminyo#}\n {#Bavanti mahatAmapi#} <ls>Pt. 2. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 105945,
+            "_ancestry": [
+                "L_ 12506",
+                "B_ {#kubja#}",
+                "S_ .{@{#-lIlA#}@}"
+            ],
+            "_banner": ".{@{#-lIlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kubjalIlA"
+                }
+            ],
+            "_meanings": [
+                "the manner, gait or character of a hump-backed person; <ls>Ś. 2</ls>."
             ]
         }
     ]

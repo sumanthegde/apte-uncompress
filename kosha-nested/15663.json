@@ -1,62 +1,110 @@
 {
-    "__line": 131304,
+    "__line": 135967,
     "_ancestry": [
         "L_ 15663",
-        "B_ {#dehin#}"
+        "B_ {#jIvat#}"
     ],
-    "_banner": "{#dehin#}",
+    "_banner": "{#jIvat#}",
     "_bannerExp": [
         {
-            "Right": "dehin"
+            "Right": "jIvat"
         },
         {
-            "Right": "dehinI"
+            "Left": "fFromGramCore error: jIvat  ntI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#deha-ini#}]"
+        "{%a.%}",
+        "({#-ntI#}|{%f.%})"
     ],
     "_meanings": [
-        "Incarnate, embodied. "
+        "Living, alive.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 131305,
+            "__line": 135970,
             "_ancestry": [
                 "L_ 15663",
-                "B_ {#dehin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#jIvat#}",
+                "S_ .{@{#-tokA#}@}"
             ],
-            "_bannerExp": [
-                {
-                    "Right": "dehin"
-                }
-            ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
-            ],
+            "_banner": ".{@{#-tokA#}@}",
             "_meanings": [
-                "{@--1@} A living\nbeing, especially a man; {#tvadaDInaM#}\n{#Kalu dehinAM suKaM#} <ls>Ku. 4. 10</ls>; <ls>Śi. 2. 46</ls>;\n<ls>Bg. 2. 13</ls>, <ls n=\"Bg.\">17. 2</ls>; <ls>Ms. 1. 30</ls>, <ls n=\"Ms.\">5. 49.</ls>\n",
-                "{@--2@} The soul, spirit (enshrined in\nthe body); {#taTA SarIrARi vihAya#} \n{#jIrRAnyanyAni saMyAti navAni dehI#}  \n<ls>Bg. 2. 22</ls>, <ls n=\"Bg.\">5. 13.</ls>, <ls n=\"Bg.\">14. 5.</ls> "
+                "a woman whose children are living.\n"
             ]
         },
         {
-            "__line": 131312,
+            "__line": 135971,
             "_ancestry": [
                 "L_ 15663",
-                "B_ {#dehin#}",
-                "M_ {#--nI#}"
+                "B_ {#jIvat#}",
+                "S_ .{@{#-patiH#}@}"
             ],
-            "_banner": "{#--nI#}",
-            "_bannerExp": [
-                {
-                    "Right": "dehinI"
-                }
+            "_banner": ".{@{#-patiH#}@}",
+            "_gram": [
+                "{%f.%}",
+                "{@{#-patnI#}@}",
+                "{%f.%}"
             ],
             "_meanings": [
-                "The earth."
+                "a woman whose husband is living.\n"
+            ]
+        },
+        {
+            "__line": 135973,
+            "_ancestry": [
+                "L_ 15663",
+                "B_ {#jIvat#}",
+                "S_ .{@{#-pitfkaH#}@}"
+            ],
+            "_banner": ".{@{#-pitfkaH#}@}",
+            "_meanings": [
+                "one whose father is alive.\n"
+            ]
+        },
+        {
+            "__line": 135974,
+            "_ancestry": [
+                "L_ 15663",
+                "B_ {#jIvat#}",
+                "S_ .{@{#-mukta#}@}"
+            ],
+            "_banner": ".{@{#-mukta#}@}",
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘liberated while living’, a man who, being purified\n by a true knowledge of the Supreme Spirit, is freed from the future birth\n and all ceremonial rites while yet living.\n"
+            ]
+        },
+        {
+            "__line": 135977,
+            "_ancestry": [
+                "L_ 15663",
+                "B_ {#jIvat#}",
+                "S_ .{@{#-muktiH#}@}"
+            ],
+            "_banner": ".{@{#-muktiH#}@}",
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "final liberation in the present state of life.\n"
+            ]
+        },
+        {
+            "__line": 135978,
+            "_ancestry": [
+                "L_ 15663",
+                "B_ {#jIvat#}",
+                "S_ .{@{#-mfta#}@}"
+            ],
+            "_banner": ".{@{#-mfta#}@}",
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘dead while alive’, one who, though alive, is as\n good as dead and useless to the world (said of a mad man or one whose character is lost)."
             ]
         }
     ]

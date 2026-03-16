@@ -1,19 +1,42 @@
 {
-    "__line": 1394,
+    "__line": 551,
     "_ancestry": [
         "L_ 59",
-        "B_ {#akavi#}"
+        "B_ {#akalpa#}"
     ],
-    "_banner": "{#akavi#}",
+    "_banner": "{#akalpa#}",
     "_bannerExp": [
         {
-            "Right": "akavi"
+            "Right": "akalpa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Unwise, foolish."
+        ".²1 Uncontrolled, not subject to control or rules, unrestrained, unfettered.\n",
+        ".²2 Weak, unable.\n",
+        ".²3 Incomparable.\n",
+        ".²4 Incapable, unfit.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 556,
+            "_ancestry": [
+                "L_ 59",
+                "B_ {#akalpa#}",
+                "M_ .{@{#-lpaH#}@}"
+            ],
+            "_banner": ".{@{#-lpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akalpaH"
+                }
+            ],
+            "_meanings": [
+                "A patient; <ls>Nigh.</ls>"
+            ]
+        }
     ]
 }

@@ -1,21 +1,58 @@
 {
-    "__line": 198729,
+    "__line": 210981,
     "_ancestry": [
         "L_ 23626",
-        "B_ {#mlAsnu#}"
+        "B_ {#prasUta#}"
     ],
-    "_banner": "{#mlAsnu#}",
+    "_banner": "{#prasUta#}",
     "_bannerExp": [
         {
-            "Right": "mlAsnu"
+            "Right": "prasUta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Becoming faded or\nwithered. ",
-        "{@--2@} Growing thin or \nemaciated. ",
-        "{@--3@} Growing languid or weary. "
+        ".²1 Begotten, engendered; {#tacca BIzmaprasUtaM#} ({#duHKaM#}) {#me taM#}\n {#jahISvara#} <ls>Mb. 5. 178. 5</ls>.\n",
+        ".²2 Brought forth, born, produced.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 210985,
+            "_ancestry": [
+                "L_ 23626",
+                "B_ {#prasUta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasUtam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A flower.\n",
+                ".²2 Any productive source.\n",
+                ".²3 (In Sāṅkhya) The primordial essence or matter.\n"
+            ]
+        },
+        {
+            "__line": 210989,
+            "_ancestry": [
+                "L_ 23626",
+                "B_ {#prasUta#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasUtA"
+                }
+            ],
+            "_meanings": [
+                "A woman recently delivered."
+            ]
+        }
     ]
 }

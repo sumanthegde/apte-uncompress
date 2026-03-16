@@ -1,20 +1,38 @@
 {
-    "__line": 131581,
+    "__line": 136278,
     "_ancestry": [
         "L_ 15699",
-        "B_ {#dolikA, dolI#}"
+        "B_ {#juzya#}"
     ],
-    "_banner": "{#dolikA, dolI#}",
+    "_banner": "{#juzya#}",
     "_bannerExp": [
         {
-            "Right": "dolI"
-        },
-        {
-            "Right": "dolikA"
+            "Right": "juzya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A cradle. ",
-        "{@--2@} A\nswing."
+        "To be served, worshipped <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 136279,
+            "_ancestry": [
+                "L_ 15699",
+                "B_ {#juzya#}",
+                "M_ .{@{#-zyam#}@}"
+            ],
+            "_banner": ".{@{#-zyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "juzyam"
+                }
+            ],
+            "_meanings": [
+                "Service."
+            ]
+        }
     ]
 }

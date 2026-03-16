@@ -1,17 +1,54 @@
 {
-    "__line": 207392,
+    "__line": 218284,
     "_ancestry": [
         "L_ 24460",
-        "B_ {#latikA#}"
+        "B_ {#barhiH#}"
     ],
-    "_banner": "{#latikA#}",
+    "_banner": "{#barhiH#}",
     "_bannerExp": [
         {
-            "Right": "latikA"
+            "Right": "barhiH"
         }
     ],
     "_meanings": [
-        "{@--1@} A small creeper. ",
-        "{@--2@} A\nstring of pearls."
+        "Fire. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 218284,
+            "_ancestry": [
+                "L_ 24460",
+                "B_ {#barhiH#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#barhiH#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "The Kuśa grass.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 218286,
+            "_ancestry": [
+                "L_ 24460",
+                "B_ {#barhiH#}",
+                "S_ .{@{#-nyAyaH#}@}"
+            ],
+            "_banner": ".{@{#-nyAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "barhinyAyaH"
+                }
+            ],
+            "_meanings": [
+                "a rule of interpretation according to which an expression\n must be understood in its primary sense rathar than in its secondary sense.\n This is discussed and established by Jaimini and Śabara at <ls>MS. 3. 2. 1</ls> and <ls n=\"MS. 3. 2.\">2</ls>."
+            ]
+        }
     ]
 }

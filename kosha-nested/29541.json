@@ -1,17 +1,55 @@
 {
-    "__line": 247710,
+    "__line": 272982,
     "_ancestry": [
         "L_ 29541",
-        "B_ {#samutsAraRaM#}"
+        "B_ {#vitAla#}"
     ],
-    "_banner": "{#samutsAraRaM#}",
+    "_banner": "{#vitAla#}",
     "_bannerExp": [
         {
-            "Right": "samutsAraRaM"
+            "Right": "vitAla"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Driving away. ",
-        "{@--2@}\nPursuing, hunting."
+        "Breaking time (in music).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 272983,
+            "_ancestry": [
+                "L_ 29541",
+                "B_ {#vitAla#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vitAlaH"
+                }
+            ],
+            "_meanings": [
+                "Wrong time.\n"
+            ]
+        },
+        {
+            "__line": 272984,
+            "_ancestry": [
+                "L_ 29541",
+                "B_ {#vitAla#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vitAlI"
+                }
+            ],
+            "_meanings": [
+                "An instrument for beating time."
+            ]
+        }
     ]
 }

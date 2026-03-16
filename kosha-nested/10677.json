@@ -1,40 +1,180 @@
 {
-    "__line": 89619,
+    "__line": 89772,
     "_ancestry": [
         "L_ 10677",
-        "B_ {#kAdaMbaH#}"
+        "B_ {#etad#}"
     ],
-    "_banner": "{#kAdaMbaH#}",
+    "_banner": "{#etad#}",
     "_bannerExp": [
         {
-            "Right": "kAdaMbaH"
+            "Right": "etad"
         }
     ],
     "_gram": [
-        "[<ab>cf.</ab> <ls>Uṇ. 4. 83</ls>]"
+        "{%<ab>pron. a.</ab>%}",
+        "({%m.%}|{#ezaH#}|{%f.%}|{#ezA#}|{%n.%}|{#etad#})"
     ],
     "_meanings": [
-        "{@--1@} A\nkind of goose ({#kalahaMsa#});  \n<ls>R. 13. 55</ls>; <ls>Rs. 4. 9.</ls> ",
-        "{@--2@} An arrow;  \n<ls>Śi. 18. 29.</ls> ",
-        "{@--3@} A sugarcane. ",
-        "{@--4@} The Kadamba\ntree. "
+        ".²1 This, this here, yonder [referring to what is nearest to the speaker,\n ({#samIpataravarti cEtado rUpama#}); {#ete vayamamI dArAH kanyeyaM kulajIvitam#}\n <ls>K.</ls>; the <ab>Nom.</ab> forms are used like those of {#idam#} the sense of ‘here’;\n {#eza pfcCAmi, eza kaTayAmi#} <ls>Mu. 3</ls> here I ask <ab>&c.</ab>; {#kadA gamizyasi-eza#}\n {#gacCAmi#} <ls>Sk.</ls>; {#ezo'smi kAmandakI saMvfttaH#} <ls>Māl. 1</ls>; {#ete navIkftAH#}\n {#smaH#} <ls>Ś. 5</ls>. In this sense {#etad#} is sometimes used to give emphasis\n to the personal pronouns; {#ezo'haM kAryavaSAdAyoDyikastadAnIMtanaSca#}\n {#saMvfttaH#} <ls>U. 1.</ls>]\n",
+        ".²2 As the subject of a sentence it agrees in gender and number with the\n predicate without reference to the noun to which it refers; {#etad#} ({#SavalA#})\n {#me Danam#}; but many sometimes remain in the neuter; {#etadeva guruzu#}\n {#vfttiH#} <ls>Ms. 2. 206</ls>.\n",
+        ".²3 It often refers to what\n\n precedes, especially when it is joined with {#idam#} or any other pronoun;\n {#eza vE praTamaH kalpaH#} <ls>Ms. 3. 147</ls>; {#iti yaduktaM tadetaccintyam#};\n {#etAnImAni, ete te#} <ab>&c.</ab>\n",
+        ".²4 It is used in connection with a relative clause, in which case the\n relative generally follows; {#pracCannavaYcakAstvete ye stenAwavikAdayaH#}\n <ls>Ms. 9. 257</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 89623,
+            "__line": 89792,
             "_ancestry": [
                 "L_ 10677",
-                "B_ {#kAdaMbaH#}",
-                "M_ {#--baM#}"
+                "B_ {#etad#}",
+                "M_ --{%ind.%}"
             ],
-            "_banner": "{#--baM#}",
+            "_banner": "--{%ind.%}",
             "_bannerExp": [
                 {
-                    "Right": "kAdaMbaM"
+                    "Left": "Parser error: {#etad#} M_ --{%iMd.%}"
                 }
             ],
             "_meanings": [
-                "Flower of the Kadamba\ntree; <ls>R. 13. 27.</ls>"
+                "In this manner, thus, so, here, at this time, now.\n {%Note%}:-- {#etad#} appears as the first member of compounds which\n are mostly self-explaining; {%<ab>e. g.</ab>%} {#˚atirikta#} Besides this. {#˚anantara#}\n immediately after this; {#˚anta#} ending thus; {#˚arTaH#} this matter;\n {#˚arTe#} on this account, therefore; {#˚avaDi#} to this limit, so far;\n {#˚avasTa#} {%a.%} of such a state or condition.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 89799,
+            "_ancestry": [
+                "L_ 10677",
+                "B_ {#etad#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "etatkAlaH"
+                }
+            ],
+            "_meanings": [
+                "the present time.\n"
+            ]
+        },
+        {
+            "__line": 89800,
+            "_ancestry": [
+                "L_ 10677",
+                "B_ {#etad#}",
+                "S_ .{@{#-kAlIna#}@}"
+            ],
+            "_banner": ".{@{#-kAlIna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "etatkAlIna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to the present time.\n"
+            ]
+        },
+        {
+            "__line": 89801,
+            "_ancestry": [
+                "L_ 10677",
+                "B_ {#etad#}",
+                "S_ .{@{#-kzaRAt#}@}"
+            ],
+            "_banner": ".{@{#-kzaRAt#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "etatkzaRAt"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "hence-forth.\n"
+            ]
+        },
+        {
+            "__line": 89802,
+            "_ancestry": [
+                "L_ 10677",
+                "B_ {#etad#}",
+                "S_ .{@{#-dvitIya#}@}"
+            ],
+            "_banner": ".{@{#-dvitIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "etaddvitIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who does anything for the second time.\n"
+            ]
+        },
+        {
+            "__line": 89803,
+            "_ancestry": [
+                "L_ 10677",
+                "B_ {#etad#}",
+                "S_ .{@{#-para#}@}"
+            ],
+            "_banner": ".{@{#-para#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "etatpara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Intent on or absorbed in this.\n"
+            ]
+        },
+        {
+            "__line": 89804,
+            "_ancestry": [
+                "L_ 10677",
+                "B_ {#etad#}",
+                "S_ .{@{#-praTama#}@}"
+            ],
+            "_banner": ".{@{#-praTama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "etatpraTama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who does anything for the first time.\n"
+            ]
+        },
+        {
+            "__line": 89805,
+            "_ancestry": [
+                "L_ 10677",
+                "B_ {#etad#}",
+                "S_ .{@{#-yonin#}@}"
+            ],
+            "_banner": ".{@{#-yonin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "etadyonin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having oneʼs origin in that. {#etadyonIni BUtAni#} <ls>Bg. 7. 6</ls>."
             ]
         }
     ]

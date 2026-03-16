@@ -1,16 +1,36 @@
 {
-    "__line": 183276,
+    "__line": 198149,
     "_ancestry": [
         "L_ 22044",
-        "B_ {#BastrikA#}"
+        "B_ {#prakIrtanam#}"
     ],
-    "_banner": "{#BastrikA#}",
+    "_banner": "{#prakIrtanam#}",
     "_bannerExp": [
         {
-            "Right": "BastrikA"
+            "Right": "prakIrtanam"
         }
     ],
     "_meanings": [
-        "A little bag."
+        ".²1 Proclaiming, announcing.\n",
+        ".²2 Praising, extolling, lauding.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 198152,
+            "_ancestry": [
+                "L_ 22044",
+                "B_ {#prakIrtanam#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakIrtanA"
+                }
+            ],
+            "_meanings": [
+                "Mentioning, naming."
+            ]
+        }
     ]
 }

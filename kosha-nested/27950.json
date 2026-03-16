@@ -1,17 +1,63 @@
 {
-    "__line": 235044,
+    "__line": 258034,
     "_ancestry": [
         "L_ 27950",
-        "B_ {#SiMjinI#}"
+        "B_ {#lAlana#}"
     ],
-    "_banner": "{#SiMjinI#}",
+    "_banner": "{#lAlana#}",
     "_bannerExp": [
         {
-            "Right": "SiMjinI"
+            "Right": "lAlana"
+        },
+        {
+            "Right": "lAlanI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} A bow-string. ",
-        "{@--2@} An\nanklet (worn round the feet)."
+        "Fondling, coaxing, caressing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 258036,
+            "_ancestry": [
+                "L_ 27950",
+                "B_ {#lAlana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAlanaH"
+                }
+            ],
+            "_meanings": [
+                "A sort of poisonous mouse.\n"
+            ]
+        },
+        {
+            "__line": 258037,
+            "_ancestry": [
+                "L_ 27950",
+                "B_ {#lAlana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAlanam"
+                }
+            ],
+            "_gram": [
+                "[{#lal-lyuw#}]"
+            ],
+            "_meanings": [
+                ".²1 Caressing, fondling, coaxing; {#sutalAlanam#} <ab>&c.</ab>\n",
+                ".²2 Indulging, over-indulgence, fondling too much; {#lAlane bahavo dozAstAqane#}\n {#bahavo guRAH#}; <ls>Pt. 1. 169</ls>; <ls>Bh. 2. 42</ls>."
+            ]
+        }
     ]
 }

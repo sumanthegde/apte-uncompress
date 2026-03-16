@@ -1,20 +1,35 @@
 {
-    "__line": 22900,
+    "__line": 18843,
     "_ancestry": [
         "L_ 2205",
-        "B_ {#anvasta#}"
+        "B_ {#anusaMcaraRam#}"
     ],
-    "_banner": "{#anvasta#}",
+    "_banner": "{#anusaMcaraRam#}",
     "_bannerExp": [
         {
-            "Right": "anvasta"
+            "Right": "anusaYcaraRam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[<ab>fr.</ab> {#as#} to throw]"
-    ],
     "_meanings": [
-        "Shot\nor hurled along, shot; interwoven\n(as in silk); chequered."
+        "Following, pursuing. --"
+    ],
+    "_morphisms": [
+        {
+            "__line": 18843,
+            "_ancestry": [
+                "L_ 2205",
+                "B_ {#anusaMcaraRam#}",
+                "M_ {%<ab>adv.</ab>%}"
+            ],
+            "_banner": "{%<ab>adv.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "anusaYcaraRam"
+                }
+            ],
+            "_meanings": [
+                "At every occasion of coming."
+            ]
+        }
     ]
 }

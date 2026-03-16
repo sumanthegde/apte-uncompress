@@ -1,47 +1,93 @@
 {
-    "__line": 224047,
+    "__line": 243019,
     "_ancestry": [
         "L_ 26576",
-        "B_ {#viSrabDa#}"
+        "B_ {#mfRAlaH#}, {#-lam#}"
     ],
-    "_banner": "{#viSrabDa#}",
+    "_banner": "{#mfRAlaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "viSrabDa"
+            "Right": "mfRAlaH"
+        },
+        {
+            "Right": "mfRAlam"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "[{#mfRa-kAlan#}]"
     ],
     "_meanings": [
-        "(also written  \n{#visrabDa#}) ",
-        "{@--1@} Confided in, confided to,\nentrusted. ",
-        "{@--2@} Confident, fearless,\nconfiding; <ls>Mu. 3. 3.</ls> ",
-        "{@--3@} Trusty,\nconfidential. ",
-        "{@--4@} Quiet, calm, \ntranquil, free from anxiety. ",
-        "{@--5@} Firm,\nsteady. ",
-        "{@--6@} Meek, lowly. ",
-        "{@--7@} \nExcessive, exceeding. "
+        "The fibrous root of a lotus, a lotus-fibre;\n {#BaNge'pi hi mfRAlAnAmanubaDnanti tantavaH#} <ls>H. 1. 91</ls>; {#sUtraM mfRAlAdiva#}\n {#rAjahaMsI#} <ls>V. 1. 19</ls>; <ls>Ṛs. 1. 19</ls>; <ls>V. 3. 13</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 224054,
+            "__line": 243023,
             "_ancestry": [
                 "L_ 26576",
-                "B_ {#viSrabDa#}",
-                "M_ {#--bDaM#}"
+                "B_ {#mfRAlaH#}, {#-lam#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": "{#--bDaM#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "viSrabDaM"
+                    "Right": "mfRAlam"
                 }
             ],
-            "_gram": [
-                "{%<ab>ind.</ab>%}"
+            "_meanings": [
+                "The root of a fragrant grass ({#vIraRamUla#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 243025,
+            "_ancestry": [
+                "L_ 26576",
+                "B_ {#mfRAlaH#}, {#-lam#}",
+                "S_ .{@{#-kaRWaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfRAlakaRWaH"
+                }
             ],
             "_meanings": [
-                "Confidently, fearlessly, without reserve,\nfear, or hesitation; {#viSrabDaM kriyatAM#}\n{#varAhatatiBirmustAkzatiH palle#} <ls>Ś. 2. 6</ls>;\n{#vfzala viSrabDaM pfcCa mamApi vahvAKyeyamatra#}\n<ls>Mu. 3.</ls>"
+                "a particular aquatic bird.\n"
+            ]
+        },
+        {
+            "__line": 243026,
+            "_ancestry": [
+                "L_ 26576",
+                "B_ {#mfRAlaH#}, {#-lam#}",
+                "S_ .{@{#-BaNgaH#}@}"
+            ],
+            "_banner": ".{@{#-BaNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfRAlaBaNgaH"
+                }
+            ],
+            "_meanings": [
+                "a bit of a lotus-fibre.\n"
+            ]
+        },
+        {
+            "__line": 243027,
+            "_ancestry": [
+                "L_ 26576",
+                "B_ {#mfRAlaH#}, {#-lam#}",
+                "S_ .{@{#-sUtram#}@}"
+            ],
+            "_banner": ".{@{#-sUtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfRAlasUtram"
+                }
+            ],
+            "_meanings": [
+                "the fibre of a lotus-stalk."
             ]
         }
     ]

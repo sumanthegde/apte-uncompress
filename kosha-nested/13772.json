@@ -1,42 +1,63 @@
 {
-    "__line": 115151,
+    "__line": 117566,
     "_ancestry": [
         "L_ 13772",
-        "B_ {#jaMBaka#}"
+        "B_ {#gaRita#}"
     ],
-    "_banner": "{#jaMBaka#}",
+    "_banner": "{#gaRita#}",
     "_bannerExp": [
         {
-            "Right": "jaMBaka"
+            "Right": "gaRita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#gaR-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Eating, devouring. ",
-        "{@--2@}\nKilling, crushing; destroying. ",
-        "{@--3@}\nBiting asunder. ",
-        "{@--4@} Explaining, \ninterpreting. ",
-        "{@--5@} Opening, expanding.\n",
-        "{@--6@} Yawning. "
+        ".²1 Counted, numbered, calculated.\n",
+        ".²2 Regarded, cared for <ab>&c.</ab>; see {#gaR#}.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 115155,
+            "__line": 117570,
             "_ancestry": [
                 "L_ 13772",
-                "B_ {#jaMBaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#gaRita#}",
+                "S_ .{@{#-divasaka#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-divasaka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "jaMBakaH"
+                    "Right": "gaRitadivasaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Consisting of a definite number of days; {#vicAlI#}\n {#hi saMvatsaraSabdaH sAvano'pi gaRitadivasakaH#} <ls>ŚB. on MS. 6. 7. 39</ls>.\n"
+            ]
+        },
+        {
+            "__line": 117572,
+            "_ancestry": [
+                "L_ 13772",
+                "B_ {#gaRita#}",
+                "S_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gaRitatam"
                 }
             ],
             "_meanings": [
-                "A lime or citron."
+                ".²1 Reckoning, calculating.\n",
+                ".²2 The science of computation, mathematics; (it comprises {#pAwIgaRita#}\n or {#vyaktagaRita#} ‘arithmetic’, {#bIjagaRita#}, ‘algebra’, and {#reKAgaRita#}\n ‘geometry’); {#gaRitamaTa kalAM vESikIM hastiSikzAM jYAtvA#} <ls>Mk. 1. 4</ls>.\n",
+                ".²3 The sum of a progression.\n",
+                ".²4 A sum (in general).\n\n",
+                ".²5 Study, practice; {#vettumarhasi rAjendra svADyAyagaRitaM mahat#} <ls>Mb. 12. 62. 9</ls>."
             ]
         }
     ]

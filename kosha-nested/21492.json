@@ -1,20 +1,85 @@
 {
-    "__line": 177667,
+    "__line": 192423,
     "_ancestry": [
         "L_ 21492",
-        "B_ {#PARi#}"
+        "B_ {#pIvara#}"
     ],
-    "_banner": "{#PARi#}",
+    "_banner": "{#pIvara#}",
     "_bannerExp": [
         {
-            "Right": "PARi"
+            "Right": "pIvara"
+        },
+        {
+            "Right": "pIvarA"
+        },
+        {
+            "Right": "pIvarI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-rA, -rI#}|{%f.%})",
+        "[{#pyE-pvarac saMpra˚ dIrGaH#}]"
     ],
     "_meanings": [
-        "{@--1@} Molasses. ",
-        "{@--2@} Flour\nmixed with curds ({#karaMBa#})."
+        ".²1 Fat, large, stout, fleshy, corpulent; {#nitAntapIvaraM tadIyamAnIlamuKaM#}\n {#stanadvayam#} <ls>R. 3. 8</ls>, <ls n=\"R.\">5. 65</ls>, <ls n=\"R.\">19. 32</ls>.\n",
+        ".²2 Plump, thick.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 192428,
+            "_ancestry": [
+                "L_ 21492",
+                "B_ {#pIvara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pIvaraH"
+                }
+            ],
+            "_meanings": [
+                "A tortoise.\n"
+            ]
+        },
+        {
+            "__line": 192429,
+            "_ancestry": [
+                "L_ 21492",
+                "B_ {#pIvara#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pIvarI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A young woman.\n",
+                ".²2 A cow.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 192433,
+            "_ancestry": [
+                "L_ 21492",
+                "B_ {#pIvara#}",
+                "S_ .{@{#-stanI#}@}"
+            ],
+            "_banner": ".{@{#-stanI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pIvarastanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 a woman with fat or large breasts.\n",
+                ".²2 a cow with a large udder."
+            ]
+        }
     ]
 }

@@ -1,44 +1,81 @@
 {
-    "__line": 161456,
+    "__line": 172166,
     "_ancestry": [
         "L_ 19252",
-        "B_ {#pUrta#}"
+        "B_ {#niScala#}"
     ],
-    "_banner": "{#pUrta#}",
+    "_banner": "{#niScala#}",
     "_bannerExp": [
         {
-            "Right": "pUrta"
+            "Right": "niScala"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#pUr-kta ni°#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Full, \ncomplete. ",
-        "{@--2@} Concealed, covered. ",
-        "{@--3@}\nNourished, protected. "
+        ".²1 Immovable, steady, fixed, still.\n",
+        ".²2 Invariable, unchangeable; {#SrutivipratipannA te yadA sTAsyati niScalA#} <ls>Bg. 2. 53</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 161458,
+            "__line": 172169,
             "_ancestry": [
                 "L_ 19252",
-                "B_ {#pUrta#}",
-                "M_ {#--rtaM#}"
+                "B_ {#niScala#}",
+                "M_ .{@{#-lA#}@}"
             ],
-            "_banner": "{#--rtaM#}",
+            "_banner": ".{@{#-lA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pUrtaM"
+                    "Right": "niScalA"
                 }
             ],
             "_meanings": [
-                "{@--1@} \nFulfilment. ",
-                "{@--2@} Cherishing, nourishing.\n",
-                "{@--3@} Granting. ",
-                "{@--4@} A reward, merit.\n",
-                "{@--5@} An act of pious liberality; it is\nthus defined; --{#vApIkUpataqAgAdi#} \n{#devatAyatanAni ca . annapradAnamAra maH#} \n{#pUrtamityaBiDIyate#} <ls>Ms. 4. 226</ls>; <ls>Māl. 1. 5</ls> (<ab>opp.</ab>\n{#izwa#} which is thus defined by Atri.\n--{#agnihotraM tazaH satyaM vedAnAM cEva pAlanam .#} \n{#AtiTyaM vESvadevaSca izwImatyaBiDIyate#}); cf, {#izwapUrva#}."
+                "The earth.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 172171,
+            "_ancestry": [
+                "L_ 19252",
+                "B_ {#niScala#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScalANga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "firm.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 172172,
+                    "_ancestry": [
+                        "L_ 19252",
+                        "B_ {#niScala#}",
+                        "S_ .{@{#-aNga#}@}",
+                        "S_M_ ({@{#-NgaH#}@})"
+                    ],
+                    "_banner": "({@{#-NgaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "niScalANgaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a species of crane.\n",
+                        ".²2 a rock or mountain."
+                    ]
+                }
             ]
         }
     ]

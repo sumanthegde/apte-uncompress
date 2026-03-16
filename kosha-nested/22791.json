@@ -1,16 +1,353 @@
 {
-    "__line": 191139,
+    "__line": 204375,
     "_ancestry": [
         "L_ 22791",
-        "B_ {#malikaH#}"
+        "B_ {#pratyaYc#}, {#-pratyac#}"
     ],
-    "_banner": "{#malikaH#}",
+    "_banner": "{#pratyaYc#}, {#-pratyac#}",
     "_bannerExp": [
         {
-            "Right": "malikaH"
+            "Right": "pratyaYc"
+        },
+        {
+            "Right": "pratyac"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A king."
+        ".({@{#-pratIcI#}@} {%f.%} or according to Vopadeva {#pratyaYcI#} also)\n",
+        ".²1 Turned or directed towards; turned inward; {#manaH pratyak citte saviDamavaDAyAttamarutaH#}\n <ls>Śivamahimna 25</ls>.\n",
+        ".²2 Being behind.\n",
+        ".²3 Following, subsequent; {#sametya tarasA pratyagdvAByAM padByAM balaM#}\n {#balI . nihatya#} <ls>Bhāg. 10. 15. 30</ls>.\n",
+        ".²4 Averted, turned away, turning back;\n\n <ls>Pt. 3. 181</ls>.\n",
+        ".²5 Western, westerly.\n",
+        ".²6 Inner, interior.\n",
+        ".²7 Equal to, a match for. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 204387,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pratyaMc#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The individual soul.\n",
+                ".²2 Future time.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 204391,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-akzam#}@}"
+            ],
+            "_banner": ".{@{#-akzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagakzam"
+                }
+            ],
+            "_gram": [
+                "({@{#pratyagakzam#}@})"
+            ],
+            "_meanings": [
+                "an inner organ.\n"
+            ]
+        },
+        {
+            "__line": 204392,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagAtman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "({@{#pratyagAtman#}@})"
+            ],
+            "_meanings": [
+                "the individual soul; {#kaScidDIraH#}\n {#pratyagAtmAnamEkzadAvfttacakzuramftatvAmicCan#} <ls>Kaṭh. 2. 1. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 204394,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-Ananda#}@}"
+            ],
+            "_banner": ".{@{#-Ananda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagAnanda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inwardly joyful.\n"
+            ]
+        },
+        {
+            "__line": 204395,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-ASApatiH#}@}"
+            ],
+            "_banner": ".{@{#-ASApatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagASApatiH"
+                }
+            ],
+            "_gram": [
+                "({@{#pratyagASApatiH#}@})"
+            ],
+            "_meanings": [
+                "‘The lord of the western direction’,\n an epithet of Varuna.\n"
+            ]
+        },
+        {
+            "__line": 204397,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-udac#}@}"
+            ],
+            "_banner": ".{@{#-udac#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagudac"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "({@{#pratyagudac#}@})"
+            ],
+            "_meanings": [
+                "the north-west.\n"
+            ]
+        },
+        {
+            "__line": 204398,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-cetana#}@}"
+            ],
+            "_banner": ".{@{#-cetana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyakcetana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 whose thoughts are turned upon himself.\n",
+                ".²2 intelligent.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 204401,
+                    "_ancestry": [
+                        "L_ 22791",
+                        "B_ {#pratyaYc#}, {#-pratyac#}",
+                        "S_ .{@{#-cetana#}@}",
+                        "S_M_ ({@{#-naH#}@})"
+                    ],
+                    "_banner": "({@{#-naH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "pratyakcetanaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the supreme soul; the Puruṣa in the Sāṅkhya philosophy.\n",
+                        ".²2 the soul.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 204404,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-dakziRataH#}@}"
+            ],
+            "_banner": ".{@{#-dakziRataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagdakziRataH"
+                }
+            ],
+            "_gram": [
+                "({@{#pratyagdakziRataH#}@})",
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "towards the south-west.\n"
+            ]
+        },
+        {
+            "__line": 204405,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagdfS"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "({@{#pratyagdfS#}@})"
+            ],
+            "_meanings": [
+                "an inward glance, a glance directed\n inwards; {#svAMSena sarvatanuBfnmanasi pratItapratyagdfSe Bagavate bfhate#}\n {#namaste#} <ls>Bhāg. 8. 3. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 204408,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-DAman#}@}"
+            ],
+            "_banner": ".{@{#-DAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagDAman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "internally illuminated.\n"
+            ]
+        },
+        {
+            "__line": 204409,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-puzpA#}@}"
+            ],
+            "_banner": ".{@{#-puzpA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyakpuzpA"
+                }
+            ],
+            "_meanings": [
+                "Achyranthes aspera (<lang>Mar.</lang> <ns>{#AGAqA#}</ns>); <ls>Mātaṅga L. 11. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 204410,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-pravaRa#}@}"
+            ],
+            "_banner": ".{@{#-pravaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyakpravaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "devoted to the individual soul.\n"
+            ]
+        },
+        {
+            "__line": 204411,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyaNmuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(@{#pratyaNmuKa#})\n",
+                ".²1 facing the west; {#SriyaM pratyaNmuKo BuNkte#} <ls>Ms. 2. 52</ls>.\n",
+                ".²2 having the face averted.\n"
+            ]
+        },
+        {
+            "__line": 204414,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-raTAH#}@}"
+            ],
+            "_banner": ".{@{#-raTAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyagraTAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>Pl.</ab>) ({@{#pratyagraTAH#}@}) <ab>N.</ab> of the Ahichchhatra country; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 204415,
+            "_ancestry": [
+                "L_ 22791",
+                "B_ {#pratyaYc#}, {#-pratyac#}",
+                "S_ .{@{#-srotas#}@}"
+            ],
+            "_banner": ".{@{#-srotas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratyaksrotas"
+                }
+            ],
+            "_gram": [
+                "({@{#pratyaksrotas#}@})"
+            ],
+            "_meanings": [
+                "flowing towards the west; <ls>Malli.</ls>\n on <ls>Śi. 4. 66</ls>. --({%f.%}) an epithet of the river Narmadā."
+            ]
+        }
     ]
 }

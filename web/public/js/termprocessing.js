@@ -52,7 +52,7 @@ function processBannerExp(term) {
         });
 
         return {
-            text: convertedValues.sort().join(', '),
+            text: convertedValues.join(', '),
             tooltip: term._banner ? `${processPlainText(term._banner)}` : '',
             isExpanded: true,
             matchesSearch: matchesSearch
@@ -116,17 +116,19 @@ function processBannerGramMeans(term) {
         });
     }
     // Meanings
-    term._meanings.forEach(meaning => {
-        const processedMeaning = processMeaning(processSpecialText(meaning));
-        // Check if the processed meaning contains the searched word (case-insensitive)
-        // let hasMatch = false;
-        // if (typeof searchedWord === 'string' && searchedWord.length) {
-        //     hasMatch = processedMeaning.toLowerCase().includes(searchedWord.toLowerCase());
-        //     meaningTextMatchesSeach = meaningTextMatchesSeach || hasMatch;
-        // }
-        const spanClass = textSearchMode && hasMatch(processedMeaning) ? 'meaning meaning-match' : 'meaning';
-        content += `<span class="${spanClass}">${processedMeaning}</span>`;
-    });
+    if (term._meanings && term._meanings.length) {
+        term._meanings.forEach(meaning => {
+            const processedMeaning = processMeaning(processSpecialText(meaning));
+            // Check if the processed meaning contains the searched word (case-insensitive)
+            // let hasMatch = false;
+            // if (typeof searchedWord === 'string' && searchedWord.length) {
+            //     hasMatch = processedMeaning.toLowerCase().includes(searchedWord.toLowerCase());
+            //     meaningTextMatchesSeach = meaningTextMatchesSeach || hasMatch;
+            // }
+            const spanClass = textSearchMode && hasMatch(processedMeaning) ? 'meaning meaning-match' : 'meaning';
+            content += `<span class="${spanClass}">${processedMeaning}</span>`;
+        });
+    }
 
     return { content, matchesSearch, meaningTextMatchesSeach };
 }

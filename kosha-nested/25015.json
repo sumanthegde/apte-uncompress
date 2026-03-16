@@ -1,23 +1,183 @@
 {
-    "__line": 212000,
+    "__line": 224776,
     "_ancestry": [
         "L_ 25015",
-        "B_ {#vaptf#}"
+        "B_ {#BA#}"
     ],
-    "_banner": "{#vaptf#}",
+    "_banner": "{#BA#}",
     "_bannerExp": [
         {
-            "Right": "vaptf"
+            "Right": "BA"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "[{#vap-tfc#}]"
+        "[{#BA-aN wAp#}]"
     ],
     "_meanings": [
-        "{@--1@} A sower (of\nseed), planter, husbandman; {#na#} \n{#SAleH staMbakaritA vapturguRamapekzate#}  \n<ls>Mu. 1. 3</ls>, <ls>Ms. 3. 142.</ls> ",
-        "{@--2@} A father, procreator.\n",
-        "{@--3@} A poet, an inspired sage. ",
-        "{@--4@} A\nshaver, cutter."
+        ".²1 Light, splendour, lustre, beauty; {#tatra tArADipasyABA tArARAM BA#}\n {#taTEva ca . tayorABaraRABA ca jvalitA#}\n\n {#dyAmaBAsayat ..#} <ls>Rām. 6. 75. 51</ls>; {#tAvad BA BAraverBAti yAvanmAGasya nodayaH#} <ls>Udb.</ls>\n",
+        ".²2 A shadow, reflection.\n",
+        ".²3 Likeness, resemblance.\n",
+        ".²4 The shadow of a gnomon.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 224785,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-ku(kU)waH#}@}"
+            ],
+            "_banner": ".{@{#-ku(kU)waH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BA#} S_ .{@{#-ku(kU)waH#}@}"
+                }
+            ],
+            "_meanings": [
+                "a species of fish.\n"
+            ]
+        },
+        {
+            "__line": 224786,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-koSaH, -zaH#}@}"
+            ],
+            "_banner": ".{@{#-koSaH, -zaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAkoSaH"
+                },
+                {
+                    "Left": "S error: 1 syl koSaH zaH"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 224787,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-gaRaH#}@}"
+            ],
+            "_banner": ".{@{#-gaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAgaRaH"
+                }
+            ],
+            "_meanings": [
+                "the whole group of constellations; {#karAladaMzwrABirudastaBAgaRam#}\n <ls>Bhāg. 4. 5. 11</ls>.\n"
+            ]
+        },
+        {
+            "__line": 224789,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-nikaraH#}@}"
+            ],
+            "_banner": ".{@{#-nikaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAnikaraH"
+                }
+            ],
+            "_meanings": [
+                "a mass of light, collection of rays.\n"
+            ]
+        },
+        {
+            "__line": 224790,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-nemiH#}@}"
+            ],
+            "_banner": ".{@{#-nemiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAnemiH"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 224791,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAmaRqalam"
+                }
+            ],
+            "_meanings": [
+                "a halo of light.\n"
+            ]
+        },
+        {
+            "__line": 224792,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-rUpaH#}@}"
+            ],
+            "_banner": ".{@{#-rUpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArUpaH"
+                }
+            ],
+            "_meanings": [
+                "the soul.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 224793,
+                    "_ancestry": [
+                        "L_ 25015",
+                        "B_ {#BA#}",
+                        "S_ .{@{#-rUpaH#}@}",
+                        "S_M_ ({@{#-pam#}@})"
+                    ],
+                    "_banner": "({@{#-pam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "BArUpam"
+                        }
+                    ],
+                    "_meanings": [
+                        "Brahman.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 224794,
+            "_ancestry": [
+                "L_ 25015",
+                "B_ {#BA#}",
+                "S_ .{@{#-vanam#}@}"
+            ],
+            "_banner": ".{@{#-vanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAvanam"
+                }
+            ],
+            "_meanings": [
+                "a mass of rays or light."
+            ]
+        }
     ]
 }

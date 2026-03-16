@@ -1,19 +1,43 @@
 {
-    "__line": 96456,
+    "__line": 96146,
     "_ancestry": [
         "L_ 11488",
-        "B_ {#kev#}"
+        "B_ {#kaPin#}"
     ],
-    "_banner": "{#kev#}",
+    "_banner": "{#kaPin#}",
     "_bannerExp": [
         {
-            "Right": "kev"
+            "Right": "kaPin"
+        },
+        {
+            "Right": "kaPinI"
         }
     ],
     "_gram": [
-        "({#kevate#})"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#kaPa-ini#}]"
     ],
     "_meanings": [
-        "To serve, attend to,\nwait upon."
+        "Affected with excess\n of phlegm, phlegmatic. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 96147,
+            "_ancestry": [
+                "L_ 11488",
+                "B_ {#kaPin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kaPin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An elephant (?)."
+            ]
+        }
     ]
 }

@@ -1,55 +1,43 @@
 {
-    "__line": 9637,
+    "__line": 8035,
     "_ancestry": [
         "L_ 830",
-        "B_ {#adala#}"
+        "B_ {#atejas#}"
     ],
-    "_banner": "{#adala#}",
+    "_banner": "{#atejas#}",
     "_bannerExp": [
         {
-            "Right": "adala"
+            "Right": "atejas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Leafless. ",
-        "{@--2@} Without\nparts. "
+        ".²1 Not bright, dim.\n",
+        ".²2 Weak, feeble.\n",
+        ".²3 Insignificant; so {#atejaska, atejasvin#}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 9638,
+            "__line": 8039,
             "_ancestry": [
                 "L_ 830",
-                "B_ {#adala#}",
-                "M_ {#--laH#}"
+                "B_ {#atejas#}",
+                "M_ .{@{#-s#}@}"
             ],
-            "_banner": "{#--laH#}",
+            "_banner": ".{@{#-s#}@}",
             "_bannerExp": [
                 {
-                    "Right": "adalaH"
+                    "Right": "atejas"
                 }
             ],
-            "_meanings": [
-                "A plant ({#hijjala#}) Eugenia\nor Barringtonia Acutangula. "
-            ]
-        },
-        {
-            "__line": 9639,
-            "_ancestry": [
-                "L_ 830",
-                "B_ {#adala#}",
-                "M_ {#--lA#}"
-            ],
-            "_banner": "{#--lA#}",
-            "_bannerExp": [
-                {
-                    "Right": "adalA"
-                }
+            "_gram": [
+                "{%n.%}"
             ],
             "_meanings": [
-                "A\nplant ({#GftakumArI#}) Aloe Indica Royle."
+                "Dimness, shadow, darkness; absence of vigour, feebleness, dullness."
             ]
         }
     ]

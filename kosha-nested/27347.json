@@ -1,99 +1,54 @@
 {
-    "__line": 230037,
+    "__line": 251892,
     "_ancestry": [
         "L_ 27347",
-        "B_ {#vyAjaH#}"
+        "B_ {#rasnam#}"
     ],
-    "_banner": "{#vyAjaH#}",
+    "_banner": "{#rasnam#}",
     "_bannerExp": [
         {
-            "Right": "vyAjaH"
+            "Right": "rasnam"
         }
     ],
     "_meanings": [
-        "{@--1@} Deceit, trick, deception. \n\nfraud. ",
-        "{@--2@} Art, cunning;  \n{#avyAjamanoharaM vapuH#} <ls>Ś. 1. 18</ls> ‘artlessly lovely.’ ",
-        "{@--3@} A\npretext, pretence, semblance;  \n{#DyAnavyAjamupetya#} <ls>Nāg. 1. 1</ls>; <ls>R. 4. 25</ls>, <ls n=\"R. 4.\">58</ls>;  \n<ls n=\"R.\">10. 76</ls>; <ls n=\"R.\">11. 66.</ls> ",
-        "{@--4@} An artifice, a device,\ncontrivance; {#vyAjArDasaMdarSitameKalAni#}\n<ls>R. 13. 42.</ls> ",
-        "{@--5@} Wickedness, \ndepravity. "
+        "A thing, object. "
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 230046,
+            "__line": 251892,
             "_ancestry": [
                 "L_ 27347",
-                "B_ {#vyAjaH#}",
-                "S_  {#--uktiH#}"
+                "B_ {#rasnam#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": " {#--uktiH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "vyAjoktiH"
+                    "Left": "Parser error: {#rasnaM#} M_ --{%m.%}"
                 }
             ],
             "_gram": [
-                "{%<ab>f.</ab>%}"
+                "[{#raseH nit kit#} <ls>Uṇ. 3. 12</ls>]"
             ],
             "_meanings": [
-                "{1} a figure of\nspeech in which what is \napparently the effect of one cause is \nintentionally ascribed to another; in\nother words, where a feeling is\ndissembled by being attributed\nto a different cause; see <ls>K. P. 10</ls>\nunder {#vyAjokti#}. ",
-                "{2} covert allusion,\ninsinuation. "
+                "A horse.\n"
             ]
         },
         {
-            "__line": 230054,
+            "__line": 251893,
             "_ancestry": [
                 "L_ 27347",
-                "B_ {#vyAjaH#}",
-                "S_ {#--niMdA#}"
+                "B_ {#rasnam#}",
+                "M_ .{@{#-snA#}@}"
             ],
-            "_banner": "{#--niMdA#}",
+            "_banner": ".{@{#-snA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vyAjaniMdA"
+                    "Right": "rasnA"
                 }
             ],
             "_meanings": [
-                "artful censure.\n"
-            ]
-        },
-        {
-            "__line": 230055,
-            "_ancestry": [
-                "L_ 27347",
-                "B_ {#vyAjaH#}",
-                "S_ {#--supta#}"
-            ],
-            "_banner": "{#--supta#}",
-            "_bannerExp": [
-                {
-                    "Right": "vyAjasupta"
-                }
-            ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
-            "_meanings": [
-                "feigning to be asleep.  \n"
-            ]
-        },
-        {
-            "__line": 230056,
-            "_ancestry": [
-                "L_ 27347",
-                "B_ {#vyAjaH#}",
-                "S_ {#--stutiH#}"
-            ],
-            "_banner": "{#--stutiH#}",
-            "_bannerExp": [
-                {
-                    "Right": "vyAjastutiH"
-                }
-            ],
-            "_gram": [
-                "{%<ab>f.</ab>%}"
-            ],
-            "_meanings": [
-                "a figure of speech resembling\nthe English ‘irony’, wherein \ncensure is implied by apparent praise,\nor praise by apparent censure;\n{#vyAjastutirmuKe niMdA stutirvA rUQiranyaTA#}\n<ls>K. P. 10.</ls>"
+                "A tongue."
             ]
         }
     ]

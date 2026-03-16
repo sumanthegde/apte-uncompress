@@ -1,19 +1,52 @@
 {
-    "__line": 127806,
+    "__line": 133208,
     "_ancestry": [
         "L_ 15393",
-        "B_ {#dAvita#}"
+        "B_ {#janitvaH#}"
     ],
-    "_banner": "{#dAvita#}",
+    "_banner": "{#janitvaH#}",
     "_bannerExp": [
         {
-            "Right": "dAvita"
+            "Right": "janitvaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Pained, troubled;\n<ls>Māl. 6.</ls>"
+        "A father.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 133209,
+            "_ancestry": [
+                "L_ 15393",
+                "B_ {#janitvaH#}",
+                "M_ .{@{#-tvA#}@}"
+            ],
+            "_banner": ".{@{#-tvA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "janitvA"
+                }
+            ],
+            "_meanings": [
+                "A mother.\n"
+            ]
+        },
+        {
+            "__line": 133210,
+            "_ancestry": [
+                "L_ 15393",
+                "B_ {#janitvaH#}",
+                "M_ .{@{#-tvO#}@}"
+            ],
+            "_banner": ".{@{#-tvO#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "janitvO"
+                }
+            ],
+            "_meanings": [
+                "({%dual%}) Parents."
+            ]
+        }
     ]
 }

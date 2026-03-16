@@ -1,16 +1,58 @@
 {
-    "__line": 91634,
+    "__line": 91323,
     "_ancestry": [
         "L_ 10890",
-        "B_ {#kAhakA#}"
+        "B_ {#O#}"
     ],
-    "_banner": "{#kAhakA#}",
+    "_banner": "{#O#}",
     "_bannerExp": [
         {
-            "Right": "kAhakA"
+            "Right": "O"
         }
     ],
+    "_gram": [
+        "{%m.%}"
+    ],
     "_meanings": [
-        "A kind of musical \ninstrument."
+        ".²1 A sound.\n",
+        ".²2 <ab>N.</ab> of Śeṣa or Ananta.\n",
+        ".²3 The number {#jalaDi#}; <ab>cf.</ab> also {#OH SvA yuvA naro nArI BAvaH sUkzmaH#}\n {#prajApatiH . sTUlo jAraH kalAvAMSca suKI durgA ratiH kaviH ..#} <ls>Enm.</ls>\n",
+        ".²4 The sacred syllable of the Śūdras; <ls>Kālikā P.</ls> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 91328,
+            "_ancestry": [
+                "L_ 10890",
+                "B_ {#O#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#O#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "The earth.\n"
+            ]
+        },
+        {
+            "__line": 91329,
+            "_ancestry": [
+                "L_ 10890",
+                "B_ {#O#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#O#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "An interjection of (1) calling (ho, hallo); (2) addressing (oh!);\n (3) opposition; (4) asseveration or determination."
+            ]
+        }
     ]
 }

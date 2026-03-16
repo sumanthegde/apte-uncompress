@@ -1,23 +1,39 @@
 {
-    "__line": 150845,
+    "__line": 157838,
     "_ancestry": [
         "L_ 17846",
-        "B_ {#parAsta#}"
+        "B_ {#dvEmAtura#}"
     ],
-    "_banner": "{#parAsta#}",
+    "_banner": "{#dvEmAtura#}",
     "_bannerExp": [
         {
-            "Right": "parAsta"
+            "Right": "dvEmAtura"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Thrown or cast\naway. ",
-        "{@--2@} Expelled, turned out. ",
-        "{@--3@}\nRepudiated. ",
-        "{@--4@} Refuted, rejected.\n",
-        "{@--5@} Defeated, overcome."
+        "Having two mothers, {%<ab>i. e.</ab>%} a natural mother and a stepmother.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 157839,
+            "_ancestry": [
+                "L_ 17846",
+                "B_ {#dvEmAtura#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvEmAturaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Gaṇeśa.\n",
+                ".²2 <ab>N.</ab> of Jarāsandha; {#hate hiqimbaripuRA rAjYi dvEmAture yuDi#} <ls>Śi. 2. 60</ls>"
+            ]
+        }
     ]
 }

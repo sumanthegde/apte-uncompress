@@ -1,17 +1,63 @@
 {
-    "__line": 172340,
+    "__line": 186067,
     "_ancestry": [
         "L_ 20784",
-        "B_ {#pravarzaRaM#}"
+        "B_ {#paryuzita#}"
     ],
-    "_banner": "{#pravarzaRaM#}",
+    "_banner": "{#paryuzita#}",
     "_bannerExp": [
         {
-            "Right": "pravarzaRaM"
+            "Right": "paryuzita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Raining. ",
-        "{@--2@} The first rain."
+        ".²1 Stale, not fresh; {#SuktaM paryuzitocCizwaM SvaspfzwaM patitekzitam#}\n <ls>Y. 1. 167</ls>; <ls>Ms. 4. 211</ls>; <ls>Bg. 17. 10</ls>; <ab>cf.</ab> {#aparyuzita#}.\n",
+        ".²2 Insipid.\n",
+        ".²3 Stupid.\n",
+        ".²4 Vain.\n",
+        ".²5 Having passed the night.\n",
+        ".²6 Having stood for a time or in some place.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 186076,
+            "_ancestry": [
+                "L_ 20784",
+                "B_ {#paryuzita#}",
+                "S_ .{@{#-Bojin#}@}"
+            ],
+            "_banner": ".{@{#-Bojin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryuzitaBojin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the eater of stale food.\n"
+            ]
+        },
+        {
+            "__line": 186077,
+            "_ancestry": [
+                "L_ 20784",
+                "B_ {#paryuzita#}",
+                "S_ .{@{#-vAkyam#}@}"
+            ],
+            "_banner": ".{@{#-vAkyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryuzitavAkyam"
+                }
+            ],
+            "_meanings": [
+                "a word that has not been strictly kept."
+            ]
+        }
     ]
 }

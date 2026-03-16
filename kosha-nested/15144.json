@@ -1,19 +1,138 @@
 {
-    "__line": 125684,
+    "__line": 131101,
     "_ancestry": [
         "L_ 15144",
-        "B_ {#dagA(kA)rgalaM#}"
+        "B_ {#cEtya#}"
     ],
-    "_banner": "{#dagA(kA)rgalaM#}",
+    "_banner": "{#cEtya#}",
     "_bannerExp": [
         {
-            "Right": "dagArgalaM"
-        },
-        {
-            "Right": "dakArgalaM"
+            "Right": "cEtya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Examining the\nground in searching for water, or\nrules for ascertaining the places of\nwaters."
+        "Relating to a pile.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 131102,
+            "_ancestry": [
+                "L_ 15144",
+                "B_ {#cEtya#}",
+                "M_ .{@{#-tyaH#}@}"
+            ],
+            "_banner": ".{@{#-tyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cEtyaH"
+                }
+            ],
+            "_meanings": [
+                "The individual soul.\n"
+            ]
+        },
+        {
+            "__line": 131103,
+            "_ancestry": [
+                "L_ 15144",
+                "B_ {#cEtya#}",
+                "M_ .{@{#-tyam#}@}"
+            ],
+            "_banner": ".{@{#-tyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cEtyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The ant-hill; {#nAgahetoH suparRena cEtyamunmaTitaM yaTA#} <ls>Rām. 4. 19. 24</ls>.\n",
+                ".²2 A pile of stones forming a landmark.\n",
+                ".²3 A monument, tomb-stone.\n",
+                ".²4 A sacrificial shed; {#devasTAnezu cEtyezu nAgAnAmAlayezu ca#} <ls>Mb. 3. 190. 67</ls>;\n {#kacciccEtyaSatErjuzwaH#} <ls>Rām. 2. 100. 43</ls>; {#prAsAdagopurasaBAcEtyadevagfhAdizu#}\n <ls>Bhāg. 9. 11. 27</ls>.\n",
+                ".²5 A place of religious worship, altar, sanctuary.\n",
+                ".²6 A temple.\n",
+                ".²7 A reflection.\n",
+                ".²8 A religious fig-tree or any tree growing by the side of streets; {#cEtyayUpANkitA#}\n {#BUmiryasyeyaM savanAkarA#} <ls>Mb. 1. 1. 229</ls>; <ls>Me. 23</ls> ({#raTyAvfkza#} <ls>Malli.</ls>)\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 131116,
+            "_ancestry": [
+                "L_ 15144",
+                "B_ {#cEtya#}",
+                "S_ .{@{#-agniH#}@}"
+            ],
+            "_banner": ".{@{#-agniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cEtyAgniH"
+                }
+            ],
+            "_meanings": [
+                "sacred fire, <ls>Pañch. 1. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 131117,
+            "_ancestry": [
+                "L_ 15144",
+                "B_ {#cEtya#}",
+                "S_ .{@{#-taruH, -drumaH, -vfkzaH#}@}"
+            ],
+            "_banner": ".{@{#-taruH, -drumaH, -vfkzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cEtyataruH"
+                },
+                {
+                    "Right": "cEtyadrumaH"
+                },
+                {
+                    "Right": "cEtyavfkzaH"
+                }
+            ],
+            "_meanings": [
+                "a fig-tree standing on a sacred spot.\n"
+            ]
+        },
+        {
+            "__line": 131118,
+            "_ancestry": [
+                "L_ 15144",
+                "B_ {#cEtya#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cEtyapAlaH"
+                }
+            ],
+            "_meanings": [
+                "the guardian of a sanctuary.\n"
+            ]
+        },
+        {
+            "__line": 131119,
+            "_ancestry": [
+                "L_ 15144",
+                "B_ {#cEtya#}",
+                "S_ .{@{#-muKaH#}@}"
+            ],
+            "_banner": ".{@{#-muKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cEtyamuKaH"
+                }
+            ],
+            "_meanings": [
+                "a hermitʼs water-pot."
+            ]
+        }
     ]
 }

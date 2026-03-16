@@ -1,16 +1,59 @@
 {
-    "__line": 213263,
+    "__line": 226449,
     "_ancestry": [
         "L_ 25168",
-        "B_ {#varvaRA#}"
+        "B_ {#Bindu#}"
     ],
-    "_banner": "{#varvaRA#}",
+    "_banner": "{#Bindu#}",
     "_bannerExp": [
         {
-            "Right": "varvaRA"
+            "Right": "Bindu"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "See {#barbaRA#}."
+        "Destroying.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 226450,
+            "_ancestry": [
+                "L_ 25168",
+                "B_ {#Bindu#}",
+                "M_ .{@{#-nduH#}@}"
+            ],
+            "_banner": ".{@{#-nduH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BinduH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A breaker, destroyer; {#purAM BinduryuvA kaviramitOjA ajAyata#} <ls>Rv. 1. 11. 4</ls>.\n",
+                ".²2 A drop; <ab>cf.</ab> {#bindu#}. "
+            ]
+        },
+        {
+            "__line": 226452,
+            "_ancestry": [
+                "L_ 25168",
+                "B_ {#Bindu#}",
+                "M_ {@{#-nduH#}@}"
+            ],
+            "_banner": "{@{#-nduH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BinduH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A woman bringing\n forth a dead child."
+            ]
+        }
     ]
 }

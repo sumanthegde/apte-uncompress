@@ -1,37 +1,133 @@
 {
-    "__line": 57069,
+    "__line": 55118,
     "_ancestry": [
         "L_ 6553",
-        "B_ {#AmaMtrya#}"
+        "B_ {#Agneya#}"
     ],
-    "_banner": "{#AmaMtrya#}",
+    "_banner": "{#Agneya#}",
     "_bannerExp": [
         {
-            "Right": "AmaMtrya"
+            "Right": "Agneya"
+        },
+        {
+            "Right": "AgneyI"
         }
     ],
     "_gram": [
-        "{%<ab>pot. p.</ab>%}"
+        "{%a.%}",
+        "({#-yI#}|{%f.%})",
+        "[{#agneridam agnirdevatA vAsya Qak#}]"
     ],
     "_meanings": [
-        "To be addressed\nor called to, to be invited &c. "
+        ".²1 Belonging to Agni; fiery. <ls>Vāj. 24. 6</ls>.\n",
+        ".²2 Offered or consecrated to Agni; {#aBiSasto mfzA kfcCraM caredAgneyameva#}\n {#vA#} <ls>Y. 3. 287</ls>.\n",
+        ".²3 Similar to fire (as an insect).\n",
+        ".²4 Increasing the fire in the stomach; stimulating digestion.\n",
+        ".²5 Kindling the fire (as ghee <ab>&c.</ab>) {#SaRasarjarasAdIni yAni dravyARi kAnicit .#}\n {#AgneyAnyuta santIha#} <ls>Mb. 1. 144. 9</ls>.\n",
+        ".²6 Belonging to Āgnāyī.\n"
     ],
     "_morphisms": [
         {
-            "__line": 57070,
+            "__line": 55128,
             "_ancestry": [
                 "L_ 6553",
-                "B_ {#AmaMtrya#}",
-                "M_ {#--tryaM#}"
+                "B_ {#Agneya#}",
+                "M_ .{@{#-yaH#}@}"
             ],
-            "_banner": "{#--tryaM#}",
+            "_banner": ".{@{#-yaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AmaMtryaM"
+                    "Right": "AgneyaH"
                 }
             ],
             "_meanings": [
-                "A word in the vocative case."
+                ".²1 An epithet of Skanda or Kārtikeya.\n",
+                ".²2 <ab>N.</ab> of Agastya.\n",
+                ".²3 <ab>N.</ab> of a country.\n",
+                ".²4 A worshipper of Agni.\n",
+                ".²5 An offering or oblation to Svāhā.\n"
+            ]
+        },
+        {
+            "__line": 55134,
+            "_ancestry": [
+                "L_ 6553",
+                "B_ {#Agneya#}",
+                "M_ .{@{#-yI#}@}"
+            ],
+            "_banner": ".{@{#-yI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgneyI"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of the wife of Agni.\n",
+                ".²2 The south-east quarter (presided over by Agni).\n",
+                ".²3 The first day of a month ({#pratipattiTi#} which is presided over by Agni).\n",
+                ".²4 A kind of {#yogaDAraRA#}; <ls>Bhāg. 11. 31. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 55139,
+            "_ancestry": [
+                "L_ 6553",
+                "B_ {#Agneya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Agneyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The lunar mansion called Kṛttikā. <ls>Mb. 13. 104. 127</ls>.\n",
+                ".²2 Gold.\n",
+                ".²3 Blood.\n",
+                ".²4 Lac, the red animal dye.\n",
+                ".²5 Ghee.\n",
+                ".²6 A missile presided over by Agni.\n",
+                ".²7 A {%Mantra%} used in the worship of Agni.\n",
+                ".²8 A descendant of Agni.\n",
+                ".²9 Bathing by applying sacred ashes to the body ({#BasmamardanapUrvakasnAnam#}).\n",
+                ".²10 A kind of worm.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 55151,
+            "_ancestry": [
+                "L_ 6553",
+                "B_ {#Agneya#}",
+                "S_ .{@{#-kIwaH#}@}"
+            ],
+            "_banner": ".{@{#-kIwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgneyakIwaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of insect which flies into the fire.\n"
+            ]
+        },
+        {
+            "__line": 55152,
+            "_ancestry": [
+                "L_ 6553",
+                "B_ {#Agneya#}",
+                "S_ .{@{#-purARam#}@}"
+            ],
+            "_banner": ".{@{#-purARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgneyapurARam"
+                }
+            ],
+            "_meanings": [
+                "= {#agnipurARa#} <ab>q. v.</ab>"
             ]
         }
     ]

@@ -1,42 +1,222 @@
 {
-    "__line": 121109,
+    "__line": 125793,
     "_ancestry": [
         "L_ 14555",
-        "B_ {#tAtala#}"
+        "B_ {#Gora#}"
     ],
-    "_banner": "{#tAtala#}",
+    "_banner": "{#Gora#}",
     "_bannerExp": [
         {
-            "Right": "tAtala"
+            "Right": "Gora"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#Gar-ac#} <ls>Uṇ. 5. 64</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Paternal. ",
-        "{@--2@} Hot.\n"
+        ".²1 Terrific, frightful, horrible, awful; {#SivAGorasvanAM paScAdbubuDe#}\n {#vikfteti tAm#} <ls>R. 12. 39</ls>;\n\n or {#tatkiM karmaRi Gore mAM niyojayasi keSava#} <ls>Mb.</ls>; {#GoraM loke vitatamayaSaH#}\n <ls>U. 7. 6</ls>; <ls>Ms. 1. 50</ls>, <ls n=\"Ms.\">12. 54</ls>.\n",
+        ".²2 Violent, vehement.\n",
+        ".²3 <ab>Ved.</ab> Venerable, awful, sublime.\n",
+        ".²4 Unsteady, displeasing; {#SAntA GorASca mUQASca#} <ls>Sāṅ. K. 38</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 121110,
+            "__line": 125802,
             "_ancestry": [
                 "L_ 14555",
-                "B_ {#tAtala#}",
-                "M_ {#--laH#}"
+                "B_ {#Gora#}",
+                "M_ .{@{#-raH#}@}"
             ],
-            "_banner": "{#--laH#}",
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tAtalaH"
+                    "Right": "GoraH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A disease. ",
-                "{@--2@} An iron club\nor spike. ",
-                "{@--3@} Cooking, maturing. ",
-                "{@--4@}\nHeat. ",
-                "{@--5@} A relative who may be \nregarded as a father."
+                "<ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 125803,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GorA"
+                }
+            ],
+            "_meanings": [
+                "Night.\n"
+            ]
+        },
+        {
+            "__line": 125804,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Goram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Horror, awfulness; {#aTApi me'vinItasya kzAtraM GoramupeyuzaH#} <ls>Bhāg. 4. 8. 36</ls>.\n",
+                ".²2 Poison.\n",
+                ".²3 Venerableness; <ls>Vāj. 2. 32</ls>.\n",
+                ".²4 Magic formulae and charms; {#mA no GoreRa caratABi GfzRu#} <ls>Rv. 10. 34. 14</ls>.\n",
+                ".²5 Saffron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 125811,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "S_ .{@{#-Akfti, -darSana#}@}"
+            ],
+            "_banner": ".{@{#-Akfti, -darSana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GorAkfti"
+                },
+                {
+                    "Right": "GoradarSana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "frightful in appearance, terrific, hideous. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 125811,
+                    "_ancestry": [
+                        "L_ 14555",
+                        "B_ {#Gora#}",
+                        "S_ .{@{#-Akfti, -darSana#}@}",
+                        "S_M_ ({@{#-naH#}@})"
+                    ],
+                    "_banner": "({@{#-naH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: GorAkfti ({@{#-naH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an owl.\n",
+                        ".²2 a hyena.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 125814,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "S_ .{@{#-Guzyam#}@}"
+            ],
+            "_banner": ".{@{#-Guzyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GoraGuzyam"
+                }
+            ],
+            "_meanings": [
+                "bell-metal.\n"
+            ]
+        },
+        {
+            "__line": 125815,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "S_ .{@{#-GorataraH#}@}"
+            ],
+            "_banner": ".{@{#-GorataraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GoraGorataraH"
+                }
+            ],
+            "_meanings": [
+                "Śiva.\n"
+            ]
+        },
+        {
+            "__line": 125816,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "S_ .{@{#-puzpam#}@}"
+            ],
+            "_banner": ".{@{#-puzpam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Gorapuzpam"
+                }
+            ],
+            "_meanings": [
+                "brass.\n"
+            ]
+        },
+        {
+            "__line": 125817,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "S_ .{@{#-rAsanaH, -rAsin, -vASanaH -vASin#}@}"
+            ],
+            "_banner": ".{@{#-rAsanaH, -rAsin, -vASanaH -vASin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GorarAsanaH"
+                },
+                {
+                    "Right": "GorarAsin"
+                },
+                {
+                    "Right": "GoravASanaH"
+                },
+                {
+                    "Right": "GoravASin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a jackal.\n"
+            ]
+        },
+        {
+            "__line": 125818,
+            "_ancestry": [
+                "L_ 14555",
+                "B_ {#Gora#}",
+                "S_ .{@{#-rUpaH#}@}"
+            ],
+            "_banner": ".{@{#-rUpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GorarUpaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva. --{%a.%} of a frightful appearance; <ls>Ms. 7. 121</ls>."
             ]
         }
     ]

@@ -1,22 +1,58 @@
 {
-    "__line": 238934,
+    "__line": 262697,
     "_ancestry": [
         "L_ 28421",
-        "B_ {#SroR#}"
+        "B_ {#vanitA#}"
     ],
-    "_banner": "{#SroR#}",
+    "_banner": "{#vanitA#}",
     "_bannerExp": [
         {
-            "Right": "SroR"
+            "Right": "vanitA"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#SroRati#})"
-    ],
     "_meanings": [
-        "{@--1@} To collect,\nheap. ",
-        "{@--2@} To be collected or \naccumulated."
+        ".²1 A woman in general; {#vaniteti vadantyetAM lokAH sarve vadantu te .#}\n {#yUnAM pariRatA seyaM tapasyeti mataM mama ..#} <ls>Bv. 2. 117</ls>; {#paTikavanitAH#} <ls>Me. 8</ls>.\n",
+        ".²2 A wife, mistress; {#vanecarARAM vanitAsaKAnAm#} <ls>Ku. 1. 10</ls>; <ls>R. 2. 19</ls>.\n",
+        ".²3 Any beloved woman.\n",
+        ".²4 The female of an animal.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 262704,
+            "_ancestry": [
+                "L_ 28421",
+                "B_ {#vanitA#}",
+                "S_ .{@{#-dviz#}@}"
+            ],
+            "_banner": ".{@{#-dviz#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vanitAdviz"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a misogynist (woman-hater).\n"
+            ]
+        },
+        {
+            "__line": 262705,
+            "_ancestry": [
+                "L_ 28421",
+                "B_ {#vanitA#}",
+                "S_ .{@{#-vilAsaH#}@}"
+            ],
+            "_banner": ".{@{#-vilAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vanitAvilAsaH"
+                }
+            ],
+            "_meanings": [
+                "wanton pastime of women."
+            ]
+        }
     ]
 }

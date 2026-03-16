@@ -1,24 +1,38 @@
 {
-    "__line": 168835,
+    "__line": 182491,
     "_ancestry": [
         "L_ 20276",
-        "B_ {#pratyUh#}"
+        "B_ {#pariDAvin#}"
     ],
-    "_banner": "{#pratyUh#}",
+    "_banner": "{#pariDAvin#}",
     "_bannerExp": [
         {
-            "Right": "pratyUh"
+            "Right": "pariDAvin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To oppose, resist.\n",
-        "{@--2@} To disturb, interrupt, impede.\n",
-        "{@--3@} To reject, refuse. ",
-        "{@--4@} To excel,\nsurpass. ",
-        "{@--5@} To offer, present."
+        "Running round. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 182491,
+            "_ancestry": [
+                "L_ 20276",
+                "B_ {#pariDAvin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pariDAvin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a year ({#saMvatsara#}),\n the 46th of the 60 years cycle."
+            ]
+        }
     ]
 }

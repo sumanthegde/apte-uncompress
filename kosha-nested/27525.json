@@ -1,61 +1,66 @@
 {
-    "__line": 231426,
+    "__line": 253906,
     "_ancestry": [
         "L_ 27525",
-        "B_ {#SakulaH, --lI#}"
+        "B_ {#ruc#}"
     ],
-    "_banner": "{#SakulaH, --lI#}",
+    "_banner": "{#ruc#}",
     "_bannerExp": [
         {
-            "Right": "SakulI"
-        },
-        {
-            "Right": "SakulaH"
+            "Right": "ruc"
         }
     ],
-    "_meanings": [
-        "A kin of fish.\n"
+    "_gram": [
+        "€1",
+        "<ab>Ā.</ab>",
+        "({#rocate, ruruce, arucat-arocizwa, rocizyate, rucita#})"
     ],
-    "_samasas": [
+    "_meanings": [
+        ".²1 To shine, look splendid or beautiful, be resplendent; {#rurucire rucirekzaRaviBramAH#}\n <ls>Śi. 6. 46</ls>; <ls>Ms. 3. 62</ls>.\n",
+        ".²2 To like, be pleased with (said of persons), be agreeable to, please\n (of things); used with <ab>dat.</ab> of the person who is pleased and <ab>nom.</ab> of the\n thing; {#na srajo rurucire ramaRIByaH#} <ls>Ki. 9. 35</ls>; {#yadeva rocate yasmE#}\n {#Bavet tat tasya sundaram#} <ls>H. 2. 53</ls>; sometimes with <ab>gen.</ab> of person; {#dAridyAnmaraRAd#}\n {#vA maraRaM mama rocate na dAridryam#} <ls>Mk. 1. 11</ls>. "
+    ],
+    "_morphisms": [
         {
-            "__line": 231427,
+            "__line": 253913,
             "_ancestry": [
                 "L_ 27525",
-                "B_ {#SakulaH, --lI#}",
-                "S_  {#--adanI#}"
+                "B_ {#ruc#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": " {#--adanI#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "SakulAdanI"
-                },
-                {
-                    "Right": "SakulyadanI"
+                    "Right": "ruc"
                 }
             ],
+            "_gram": [
+                "({#rocayati-te#})"
+            ],
             "_meanings": [
-                "{1} a kind of \nmedicinal plant (called Kaṭki). ",
-                "{2}\nan earthworm. "
+                ".²1 To cause to like, make pleasant or agreeable; {#yatAtmane rocayituM#}\n {#yatasva#} <ls>Ku. 3. 16</ls>.\n",
+                ".²2 To illuminate, irradiate.\n",
+                ".²3 To like, find pleasure in.\n",
+                ".²4 To resolve. "
             ]
         },
         {
-            "__line": 231429,
+            "__line": 253918,
             "_ancestry": [
                 "L_ 27525",
-                "B_ {#SakulaH, --lI#}",
-                "S_ {#--arBakaH#}"
+                "B_ {#ruc#}",
+                "M_ --{%<ab>Desid.</ab>%}"
             ],
-            "_banner": "{#--arBakaH#}",
+            "_banner": "--{%<ab>Desid.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "SakulArBakaH"
-                },
-                {
-                    "Right": "SakulyarBakaH"
+                    "Right": "ruc"
                 }
             ],
+            "_gram": [
+                "({#ruru(ro)cizate#})"
+            ],
             "_meanings": [
-                "a kind of\nfish."
+                "To wish to like <ab>&c.</ab>"
             ]
         }
     ]

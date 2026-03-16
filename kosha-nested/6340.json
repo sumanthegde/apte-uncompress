@@ -1,43 +1,57 @@
 {
-    "__line": 55587,
+    "__line": 53218,
     "_ancestry": [
         "L_ 6340",
-        "B_ {#AnUpa#}"
+        "B_ {#ahrI#}"
     ],
-    "_banner": "{#AnUpa#}",
+    "_banner": "{#ahrI#}",
     "_bannerExp": [
         {
-            "Right": "AnUpI"
-        },
-        {
-            "Right": "AnUpa"
+            "Right": "ahrI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#pI#}|{%<ab>f.</ab>%})",
-        "[{#anUpadeSe Bava#},\n{#aR#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Watery, marshy, wet. ",
-        "{@--2@}\nProduced in a marshy place. "
+        "Shameless. {%f.%} shamelessness, infamy; {#prasIdantu#}\n {#Bavanto me'hrIrezA tu mayA tulA#} <ls>Rām. 3. 10. 8</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 55589,
+            "__line": 53220,
             "_ancestry": [
                 "L_ 6340",
-                "B_ {#AnUpa#}",
-                "M_ {#--paH#}"
+                "B_ {#ahrI#}",
+                "M_ .{@{#-ka#}@}"
             ],
-            "_banner": "{#--paH#}",
+            "_banner": ".{@{#-ka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AnUpaH"
+                    "Left": "1Align error: ahrI ka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Shameless (beggar).\n"
+            ]
+        },
+        {
+            "__line": 53221,
+            "_ancestry": [
+                "L_ 6340",
+                "B_ {#ahrI#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: ahrI kaH"
                 }
             ],
             "_meanings": [
-                "Any animal frequenting marshy or\nwatery places (as a buffalo); {#°mAMsaM#}\nthe flesh of such animals."
+                "A Buddhist mendicant."
             ]
         }
     ]

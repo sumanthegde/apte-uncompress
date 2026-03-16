@@ -1,20 +1,39 @@
 {
-    "__line": 77931,
+    "__line": 77313,
     "_ancestry": [
         "L_ 9198",
-        "B_ {#urarIkfta#}"
+        "B_ {#udvat#}"
     ],
-    "_banner": "{#urarIkfta#}",
+    "_banner": "{#udvat#}",
     "_bannerExp": [
         {
-            "Right": "urarIkfta"
+            "Right": "udvat"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Promised, agreed,\naccepted. ",
-        "{@--2@} Spread, extended."
+        ".²1 Excellent.\n",
+        ".²2 Raised, elevated. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 77315,
+            "_ancestry": [
+                "L_ 9198",
+                "B_ {#udvat#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#udvat#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "An elevation, hill; {#sa udvato nivato yAti#}\n {#vevizat#} <ls>Rv. 3. 2. 10</ls> {@{#udvatI#}@} <ls>Mbh.</ls> on <ls>P. V. 2. 109</ls>."
+            ]
+        }
     ]
 }

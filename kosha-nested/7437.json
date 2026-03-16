@@ -1,47 +1,58 @@
 {
-    "__line": 64360,
+    "__line": 62248,
     "_ancestry": [
         "L_ 7437",
-        "B_ {#iz#}"
+        "B_ {#ArAt#}"
     ],
-    "_banner": "{#iz#}",
+    "_banner": "{#ArAt#}",
     "_bannerExp": [
         {
-            "Right": "iz"
+            "Right": "ArAt"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%ind.%}",
+        "[{#A-rA-bA˚ Ati#} <ls>Tv.</ls>; <ab>abl.</ab> of {#Ara#} <ab>q. v.</ab>]"
     ],
     "_meanings": [
-        "{@--1@} Speedy, going quickly.\n",
-        "{@--2@} Wishing, desirous. "
+        ".²1 Near, in the vicinity of; (with <ab>abl.</ab> or by itself); {#tamarcyamArAdaBivartamAnam#}\n <ls>R. 2. 10</ls>, <ls n=\"R.\">5. 3</ls>.\n",
+        ".²2 Far from; with <ab>acc.</ab> also in both these senses; <ls>Śi. 3. 31</ls>, <ls n=\"Śi.\">8. 29</ls>, {#kaTaMcidArAdapaTena#}\n {#ninyire#} <ls n=\"Śi.\">12. 28</ls>; to a distant place, distant.\n",
+        ".²3 Far, from a distance; {#meGamAleva yaScAyamArAdiva viBAvyate#} <ls>U. 2. 24</ls>.\n",
+        ".²4 Directly, immediately.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 64361,
+            "__line": 62256,
             "_ancestry": [
                 "L_ 7437",
-                "B_ {#iz#}",
-                "M_ {%--<ab>f.</ab>%}"
+                "B_ {#ArAt#}",
+                "S_ .{@{#-upakAraka#}@}"
             ],
+            "_banner": ".{@{#-upakAraka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "iz"
+                    "Right": "ArAdupakAraka"
                 }
             ],
-            "_gram": [
-                "{%--<ab>f.</ab>%}"
+            "_meanings": [
+                "(<ab>fem.</ab> {#upakArikA#}), (An {#aNga#}) that subserves\n the purpose of the principal act only indirectly; {#dviviDAnyaNgAni ArAdupakArakARi#}\n {#sAmavAyikAni ca . ArAdupakArakeByaH sAmavAyikAni garIyAMsi .#} <ls>ŚB. on MS. 10. 4. 38</ls>;\n Also <ls>ŚB. on MS. 10. 1. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 62260,
+            "_ancestry": [
+                "L_ 7437",
+                "B_ {#ArAt#}",
+                "S_ .{@{#-upakAriRI#}@}"
+            ],
+            "_banner": ".{@{#-upakAriRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArAdupakAriRI"
+                }
             ],
             "_meanings": [
-                "<ab>Ved.</ab> ",
-                "{@--1@} A\ndraught, refreshment, food. ",
-                "{@--2@}\nLibation. ",
-                "{@--3@} Strength, power, sap,\nfreshness. ",
-                "{@--4@} Comfort; increase. ",
-                "{@--5@}\nAffluence. ",
-                "{@--6@} Refreshing waters of\nthe sky. ",
-                "{@--7@} Wish."
+                "See {#ArAdupakAraka#}. {#ArAdupakAriRI tu sA .#} <ls>ŚB. on MS. 8. 1. 32</ls>."
             ]
         }
     ]

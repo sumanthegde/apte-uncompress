@@ -1,25 +1,63 @@
 {
-    "__line": 122451,
+    "__line": 127755,
     "_ancestry": [
         "L_ 14727",
-        "B_ {#tu#}"
+        "B_ {#caritram#}"
     ],
-    "_banner": "{#tu#}",
+    "_banner": "{#caritram#}",
     "_bannerExp": [
         {
-            "Right": "tu"
+            "Right": "caritram"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>",
-        "({#tOti#} and {#tavIti#})"
+        "[{#car itra#}]"
     ],
     "_meanings": [
-        "{@--1@} To\nhave authority or power, to be\nstrong. ",
-        "{@--2@} To get, attain. ",
-        "{@--3@} To\nthrive, increase, become full. ",
-        "{@--4@}\nTo go, move. ",
-        "{@--5@} To injure, hurt,\nstrike."
+        ".²1 Behaviour, habit, conduct, practice, acts, deeds.\n",
+        ".²2 Performance, observance.\n",
+        ".²3 History, life, biography, account, adventures.\n",
+        ".²4 Nature, disposition.\n",
+        ".²5 Duty, established or instituted observance; <ls>Ms. 2. 20</ls>, <ls n=\"Ms.\">9. 7</ls>.\n",
+        ".²6 A foot, leg.\n",
+        ".²7 Going.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 127763,
+            "_ancestry": [
+                "L_ 14727",
+                "B_ {#caritram#}",
+                "M_ .{@{#-trA#}@}"
+            ],
+            "_banner": ".{@{#-trA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caritrA"
+                }
+            ],
+            "_meanings": [
+                "The tamarind tree.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 127765,
+            "_ancestry": [
+                "L_ 14727",
+                "B_ {#caritram#}",
+                "S_ .{@{#-banDakaH#}@}"
+            ],
+            "_banner": ".{@{#-banDakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caritrabanDakaH"
+                }
+            ],
+            "_meanings": [
+                "a friendly pledge."
+            ]
+        }
     ]
 }

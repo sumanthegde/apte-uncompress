@@ -1,21 +1,71 @@
 {
-    "__line": 140309,
+    "__line": 145020,
     "_ancestry": [
         "L_ 16726",
-        "B_ {#nidarSaka#}"
+        "B_ {#taraRqaH#}, {#-RqA, -RqI, -Rqam#}"
     ],
-    "_banner": "{#nidarSaka#}",
+    "_banner": "{#taraRqaH#}, {#-RqA, -RqI, -Rqam#}",
     "_bannerExp": [
         {
-            "Right": "nidarSaka"
+            "Right": "taraRqaH"
+        },
+        {
+            "Right": "taraRqA"
+        },
+        {
+            "Right": "taraRqI"
+        },
+        {
+            "Right": "taraRqam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#tF-aRqac#}]"
     ],
     "_meanings": [
-        "{@--1@} Seeing. ",
-        "{@--2@} Seeing\ninto, perceiving. ",
-        "{@--3@} Pointing out,\nproclaiming, indicating, showing."
+        "A boat.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145022,
+            "_ancestry": [
+                "L_ 16726",
+                "B_ {#taraRqaH#}, {#-RqA, -RqI, -Rqam#}",
+                "M_ .{@{#-RqaH, -Rqam#}@}"
+            ],
+            "_banner": ".{@{#-RqaH, -Rqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRqaH"
+                },
+                {
+                    "Right": "taraRqam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A raft or float made of bamboos tied together and floated on jars or\n inverted hollow gourds.\n",
+                ".²2 The float of a fishing-line.\n",
+                ".²3 An oar.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 145028,
+            "_ancestry": [
+                "L_ 16726",
+                "B_ {#taraRqaH#}, {#-RqA, -RqI, -Rqam#}",
+                "S_ .{@{#-pAdA#}@}"
+            ],
+            "_banner": ".{@{#-pAdA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRqapAdA"
+                }
+            ],
+            "_meanings": [
+                "a kind of boat."
+            ]
+        }
     ]
 }

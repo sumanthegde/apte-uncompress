@@ -1,45 +1,57 @@
 {
-    "__line": 125248,
+    "__line": 130747,
     "_ancestry": [
         "L_ 15094",
-        "B_ {#tvarA, tvariH#}"
+        "B_ {#cUtaH#}"
     ],
-    "_banner": "{#tvarA, tvariH#}",
+    "_banner": "{#cUtaH#}",
     "_bannerExp": [
         {
-            "Right": "tvarA"
-        },
-        {
-            "Right": "tvariH"
+            "Right": "cUtaH"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#tvar-aN#}]"
+        "[{#cUz-kta, cotati rasaM cut-ac vA pfzo˚#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Haste,\nhurry, speed; {#Otsukyena kftatvarA#} \n{#sahaBuvA vyAvartamAtA hriyA#} <ls>Ratn. 1. 2.</ls> ",
-        "{@--2@}\nUrgency or pressing nature;  \n<ls>Ku. 2. 63.</ls> "
+        ".²1 The mango tree; {#IzadbadDarajaH kaRAgrakapiSA cUte navA maYjarI#}\n <ls>V. 2. 7</ls>; {#cUtANkurAsvAdakazAyakaRWaH#} <ls>Ku. 3. 32</ls>\n",
+        ".²2 one of the 5 arrows of\n\n Cupid; see {#paYcabARa#}.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 125252,
+            "__line": 130753,
             "_ancestry": [
                 "L_ 15094",
-                "B_ {#tvarA, tvariH#}",
-                "S_  {#--ArohaH#}"
+                "B_ {#cUtaH#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": " {#--ArohaH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tvarArohaH"
-                },
-                {
-                    "Right": "tvaryArohaH"
+                    "Right": "cUtam"
                 }
             ],
             "_meanings": [
-                "a pigeon."
+                "The anus.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 130755,
+            "_ancestry": [
+                "L_ 15094",
+                "B_ {#cUtaH#}",
+                "S_ .{@{#-yazwiH#}@}"
+            ],
+            "_banner": ".{@{#-yazwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cUtayazwiH"
+                }
+            ],
+            "_meanings": [
+                "The mango branch. {#cUtayazwayA samASlizwo dfSyatAM tilakadrumaH .#}\n <ls>Bu. Ch. 4. 46</ls>."
             ]
         }
     ]

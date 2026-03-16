@@ -1,40 +1,424 @@
 {
-    "__line": 183186,
+    "__line": 197896,
     "_ancestry": [
         "L_ 22029",
-        "B_ {#Bavila#}"
+        "B_ {#prakftiH#}"
     ],
-    "_banner": "{#Bavila#}",
+    "_banner": "{#prakftiH#}",
     "_bannerExp": [
         {
-            "Right": "Bavila"
+            "Right": "prakftiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#BU Bavi'yati ilac#}]"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} \nBeing, living. ",
-        "{@--2@} Future. "
+        ".²1 The natural condition or state of anything, nature, natural form (<ab>opp.</ab>\n {#vikfti#} which is a change or effect); {#taM taM niyamamAsTAya prakftyA#}\n {#niyatAH svayA#} <ls>Bg. 7. 20</ls>. {#prakftyA yadvakram#} <ls>Ś. 1. 9</ls>; {#uzRatvamagnyAtapasaMprayogAt#}\n {#SEtyaM hi yat sA prakftirjalasya#} <ls>R. 5. 54</ls>; {#maraRaM prakftiH SarIriRAM#}\n {#vikftirjIvitamucyate buDEH#} <ls>R. 8. 87</ls>; <ls>U. 7. 19</ls>; {#apehi re atraBavAn#}\n {#prakftimApannaH#} <ls>Ś. 2</ls> ‘has resumed his wonted nature’; {#prakftim Apad#}\n or {#pratipad#} or {#prakftO sTA#} ‘to come to oneʼs senses’, ‘regain\n oneʼs consciousness’.\n",
+        ".²2 Natural disposition, temper, temperament, nature, constitution; {#prakftiH#}\n {#Kalu sA mahIyasaH sahate nAnyasamunnatiM yayA#} <ls>Ki. 2. 21</ls>; {#kaTaM gata#}\n {#eva AtmanaH prakftim#} <ls>Ś. 7</ls> ‘natural character’; {#apaSyat pARqavaSrezwo#}\n {#harzeRa prakftiM gataH#} <ls>Mb. 39. 66</ls> (<ab>com.</ab> {#prakftiM svAsTyam#}); so {#prakftikfpaRa#},\n {#prakftisidDaH#} see below.\n",
+        ".²3 Make, form, figure; {#mahAnuBAvaprakftiH#} <ls>Māl. 1</ls>.\n",
+        ".²4 Extraction, descent; {#gopAlaprakftirAryako'smi#} <ls>Mk. 7</ls>.\n",
+        ".²5 Origin, source, original or material cause, the material of which anything\n is made; {#nArTAnAM prakftiM vetsi#} <ls>Mb. 4. 49. 1</ls>; {#prakftiScopAdAnakAraRaM#}\n {#ca brahmAByupagantavyam#} <ls>Ś. B.</ls> (see the full discussion on <ls>Br. Sūt. 1. 4. 23</ls>);\n {#yAmAhuH sarvaBUtaprakftiriti#} <ls>Ś. 1. 1</ls>; <ls>Bhāg. 4. 28. 24</ls>.\n",
+        ".²6 (In <ab>Sāṅ. phil.</ab>) Nature (as distinguished from {#puruza#}), the original\n source of the material world, consisting of the three essential qualities\n {#sattva, rajas#} and {#tamas#}. It is also mentioned as one of the four\n contentments; {#prakftyupAdAnakAlaBAgAKyAH#} <ls>Sāṅ. K. 50</ls>.\n",
+        ".²7 (In <ab>gram.</ab>) The radical or crude form of a word to which case-terminations\n and other affixes are applied; {#prakftipratyayayorivAnubanDaH#} <ls>Ki. 13. 19</ls>.\n",
+        ".²8 A model, pattern, standard, (especially in ritualistic works); <ls>Bhāg. 5. 7. 5</ls>.\n",
+        ".²9 A woman.\n",
+        ".²10 The personified will of the Supreme Spirit in the creation (identified\n with {#mAyA#} or illusion); {#mayADyakzeRa prakftiH sUyate sacarAcaram#} <ls>Bg. 9. 10</ls>.\n",
+        ".²11 The male or female organ of generation.\n",
+        ".²12 A mother.\n",
+        ".²13 (In <ab>arith.</ab>) A coefficient, or multiplier.\n",
+        ".²14 (In anatomy) Temperament of the humours; {#prakftiM yAnti BUtAni nigrahaH#}\n {#kiM karizyati#} <ls>Bg. 3. 33</ls>.\n",
+        ".²15 An animal.\n",
+        ".²16 An artisan.\n",
+        ".²17 The Supreme Being; {#na hyasti sarvaBUtezu duHKamasmin kutaH suKam .#}\n {#evaM prakftiBUtAnAM sarvasaMsargayAyinAm ..#} <ls>Mb. 12. 152. 16</ls>.\n",
+        ".²18 Eight forms of the Supreme Being; {#BUmirApo'nalo vAyuH KaM mano#}\n {#budDireva ca . ahaMkAra itIyaM me BinnA prakfti-razwaDA ..#} <ls>Bg. 7. 4</ls>.\n\n",
+        ".²19 The way of life ({#jIvana#}); {#satAM vE dadato'nnaM ca loke'smin#}\n {#prakftirDruvA#} <ls>Mb. 12. 18. 27</ls>. (<ab>pl.</ab>)\n",
+        ".²1 A kingʼs ministers, the body of ministers or counsellors, ministry;\n {#aTAnATAH prakftayo mAtfbanDunivAsinam#} <ls>R. 12. 12</ls>; <ls>Pt. 1. 48</ls>; {#aSudDaprakftO#}\n {#rAjYi janatA nAnurajyate#} <ls n=\"Pt. 1.\">301</ls>.\n",
+        ".²2 The subjects (of a king); {#pravartatAM prakftihitAya pArTivaH#} <ls>Ś. 7. 35</ls>;\n {#nfpatiH prakftIravekzitum#} <ls>R. 8. 18</ls>, <ls n=\"R. 8.\">10</ls>.\n",
+        ".²3 The constituent elements of the state ({#saptANgAni#}), {%<ab>i. e.</ab>%}\n",
+        ".²1 the king;\n",
+        ".²2 the minister;\n",
+        ".²3 the allies;\n",
+        ".²4 treasure;\n",
+        ".²5 army;\n",
+        ".²6 territory;\n",
+        ".²7 fortresses <ab>&c.</ab>; and the corporations of citizens (which is sometimes\n added to the 7); {#svAmyamAtyasuhftkoSarAzwradurgabalAni ca#} <ls>Ak.</ls>\n",
+        ".²4 The various sovereigns to be considered in case of war; (for full explanation\n see <ls>Kull.</ls> on <ls>Ms. 7. 155</ls> and 157).\n",
+        ".²5 The eight primary elements out of which everything else is evolved\n according to the Sāṅkhyas; see <ls>Sāṅ. K. 3</ls>.\n",
+        ".²6 The five primary elements of creations ({#paYcamahABUtAni#}) {%<ab>i. e.</ab>%}\n {#pfTvI, ap, tejas, vAyu#} and {#AkASa#}; {#prakftiM te Bajizyanti nazwaprakftayo#}\n {#mayi#} <ls>Mb. 5. 73. 17</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 183187,
+            "__line": 197962,
             "_ancestry": [
                 "L_ 22029",
-                "B_ {#Bavila#}",
-                "M_ {#--laH#}"
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-amitraH#}@}"
             ],
-            "_banner": "{#--laH#}",
+            "_banner": ".{@{#-amitraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BavilaH"
+                    "Right": "prakftyamitraH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A\nparamour. ",
-                "{@--2@} A sensualist, \nvoluptuary."
+                "an ordinary foe; {#prakftyamitrAnutTApya#} <ls>Dk. 2. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197963,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-ISaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftISaH"
+                }
+            ],
+            "_meanings": [
+                "a king or magistrate.\n"
+            ]
+        },
+        {
+            "__line": 197964,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-kalyARa#}@}"
+            ],
+            "_banner": ".{@{#-kalyARa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftikalyARa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "beautiful by nature.\n"
+            ]
+        },
+        {
+            "__line": 197965,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-kfpaRa#}@}"
+            ],
+            "_banner": ".{@{#-kfpaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftikfpaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "naturally slow or unable to discern; <ls>Me. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197966,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-guRaH#}@}"
+            ],
+            "_banner": ".{@{#-guRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftiguRaH"
+                }
+            ],
+            "_meanings": [
+                "one of the three constituent qualities of nature; see {#guRa#}.\n"
+            ]
+        },
+        {
+            "__line": 197967,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftija"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "innate, inborn, natural.\n"
+            ]
+        },
+        {
+            "__line": 197968,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-tarala#}@}"
+            ],
+            "_banner": ".{@{#-tarala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftitarala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fickle by nature, naturally inconsistent; {#prakftitarale#}\n {#kA naH pIqA gate hatajIvite#}; <ls>Amaru. 30</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197970,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-pAWaH#}@}"
+            ],
+            "_banner": ".{@{#-pAWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftipAWaH"
+                }
+            ],
+            "_meanings": [
+                "a list of verbal roots ({#DAtupAWa#}).\n"
+            ]
+        },
+        {
+            "__line": 197971,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-puruzaH#}@}"
+            ],
+            "_banner": ".{@{#-puruzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftipuruzaH"
+                }
+            ],
+            "_meanings": [
+                "a minister, a functionary (of the state); {#jAnAmi tvAM#}\n {#prakftipuruzaM kAmarUpaM maGonaH#} <ls>Me. 6</ls>.\n",
+                ".²2 a standard or model of a man.\n"
+            ]
+        },
+        {
+            "__line": 197974,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-zO#}@}"
+            ],
+            "_banner": ".{@{#-zO#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftizO"
+                }
+            ],
+            "_meanings": [
+                "nature and spirit.\n"
+            ]
+        },
+        {
+            "__line": 197975,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-BAva#}@}"
+            ],
+            "_banner": ".{@{#-BAva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftiBAva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "natural, usual.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 197976,
+                    "_ancestry": [
+                        "L_ 22029",
+                        "B_ {#prakftiH#}",
+                        "S_ .{@{#-BAva#}@}",
+                        "S_M_ ({@{#-vaH#}@})"
+                    ],
+                    "_banner": "({@{#-vaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "prakftiBAvaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "natural or original state.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 197977,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-Bojanam#}@}"
+            ],
+            "_banner": ".{@{#-Bojanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftiBojanam"
+                }
+            ],
+            "_meanings": [
+                "usual food.\n"
+            ]
+        },
+        {
+            "__line": 197978,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftimaRqalam"
+                }
+            ],
+            "_meanings": [
+                "the whole territory or kingdom; {#aDigataM viDivadyadapAlayat#}\n {#prakftimaRqalamAtmakulocitam#} <ls>R. 9. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197980,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-layaH#}@}"
+            ],
+            "_banner": ".{@{#-layaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftilayaH"
+                }
+            ],
+            "_meanings": [
+                "absorption into the Prakṛti, dissolution of the universe.\n"
+            ]
+        },
+        {
+            "__line": 197981,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-vikftiH#}@}"
+            ],
+            "_banner": ".{@{#-vikftiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftivikftiH"
+                }
+            ],
+            "_meanings": [
+                "mutation of the original form.\n"
+            ]
+        },
+        {
+            "__line": 197982,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-SrOzWyam#}@}"
+            ],
+            "_banner": ".{@{#-SrOzWyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftiSrOzWyam"
+                }
+            ],
+            "_meanings": [
+                "superiority of origin; <ls>Ms. 10. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197983,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-sidDa#}@}"
+            ],
+            "_banner": ".{@{#-sidDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftisidDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inborn, innate, natural; {#sujanabanDujanezvasahizRutA#}\n {#prakftisidDamidaM hi durAtmanAm#} <ls>Bh. 2. 52</ls>.\n"
+            ]
+        },
+        {
+            "__line": 197985,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-suBaga#}@}"
+            ],
+            "_banner": ".{@{#-suBaga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftisuBaga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "naturally lovely or agreeable.\n"
+            ]
+        },
+        {
+            "__line": 197986,
+            "_ancestry": [
+                "L_ 22029",
+                "B_ {#prakftiH#}",
+                "S_ .{@{#-sTa#}@}"
+            ],
+            "_banner": ".{@{#-sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftisTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 being in the natural state or condition, natural, genuine; {#dfzwvA#}\n {#cAprakftisTAM tAm#} <ls>Rām. 7. 58. 17</ls>.\n",
+                ".²2 inherent, innate, incidental to nature; {#raGurapyajayad guRatrayaM#}\n {#prakftisTaM samalozwakAYcanaH#} <ls>R. 8. 21</ls>.\n",
+                ".²3 healthy, in good health.\n",
+                ".²4 recovered.\n",
+                ".²5 come to oneself.\n",
+                ".²6 stripped of everything, bare."
             ]
         }
     ]

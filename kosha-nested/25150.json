@@ -1,22 +1,109 @@
 {
-    "__line": 213144,
+    "__line": 226258,
     "_ancestry": [
         "L_ 25150",
-        "B_ {#varDakiH, varDakin#}"
+        "B_ {#BikzuH#}"
     ],
-    "_banner": "{#varDakiH, varDakin#}",
+    "_banner": "{#BikzuH#}",
     "_bannerExp": [
         {
-            "Right": "varDakiH"
-        },
-        {
-            "Right": "varDakin"
+            "Right": "BikzuH"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "[{#Bikz-un#}]"
     ],
     "_meanings": [
-        "A carpenter."
+        ".²1 A beggar, mendicant in general; {#BikzAM ca Bikzave dadyAt#} <ls>Ms. 3. 94</ls>.\n",
+        ".²2 A religious mendicant, a Brāhmaṇa in the fourth order of his religious\n life (when he quits his house and family and lives only on alms), a {%Sannyāsin%}.\n",
+        ".²3 The fourth order or stage in the religious life of a Brāhmaṇa ({#saMnyAsa#}).\n",
+        ".²4 A Buddhist mendicant.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 226265,
+            "_ancestry": [
+                "L_ 25150",
+                "B_ {#BikzuH#}",
+                "S_ .{@{#-caryA#}@}"
+            ],
+            "_banner": ".{@{#-caryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BikzucaryA"
+                }
+            ],
+            "_meanings": [
+                "begging, a mendicantʼs life.\n"
+            ]
+        },
+        {
+            "__line": 226266,
+            "_ancestry": [
+                "L_ 25150",
+                "B_ {#BikzuH#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BikzuBAvaH"
+                }
+            ],
+            "_meanings": [
+                "monk-hood, priest-hood.\n"
+            ]
+        },
+        {
+            "__line": 226267,
+            "_ancestry": [
+                "L_ 25150",
+                "B_ {#BikzuH#}",
+                "S_ .{@{#-saNGaH#}@}"
+            ],
+            "_banner": ".{@{#-saNGaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BikzusaNGaH"
+                }
+            ],
+            "_meanings": [
+                "a society of Buddhist mendicants.\n"
+            ]
+        },
+        {
+            "__line": 226268,
+            "_ancestry": [
+                "L_ 25150",
+                "B_ {#BikzuH#}",
+                "S_ .{@{#-saNGAtI#}@}"
+            ],
+            "_banner": ".{@{#-saNGAtI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BikzusaNGAtI"
+                }
+            ],
+            "_meanings": [
+                "old or tattered clothes ({#cIvara#}).\n"
+            ]
+        },
+        {
+            "__line": 226269,
+            "_ancestry": [
+                "L_ 25150",
+                "B_ {#BikzuH#}",
+                "S_ .{@{#-sUtram#}@}"
+            ],
+            "_banner": ".{@{#-sUtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BikzusUtram"
+                }
+            ],
+            "_meanings": [
+                "a collection of rules for mendicants; <ls>P. IV. 3. 110</ls>."
+            ]
+        }
     ]
 }

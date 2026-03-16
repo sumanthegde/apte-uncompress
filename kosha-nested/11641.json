@@ -1,43 +1,63 @@
 {
-    "__line": 97562,
+    "__line": 97725,
     "_ancestry": [
         "L_ 11641",
-        "B_ {#kOrava#}"
+        "B_ {#kartf#}"
     ],
-    "_banner": "{#kOrava#}",
+    "_banner": "{#kartf#}",
     "_bannerExp": [
         {
-            "Right": "kOravI"
-        },
-        {
-            "Right": "kOrava"
+            "Right": "kartf"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#vI#}|{%<ab>f.</ab>%})",
-        "[{#kurorapatyaM#}, \n{#taddeSasya rAjA tezu Bavo vA, kuru-aR#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nRelating to the Kurus; {#kzetraM kzatrapraDAnapiSunaM#}\n{#kOravaM tadBajeTAH#} <ls>Me. 48.</ls> "
+        "or {%<ab>s.</ab>%} [{#kf-tfc#}] {#kartAhamiti manyate#} <ls>Bg. 3. 27</ls>.\n",
+        ".²1 A doer, one who does, makes, performs <ab>&c.</ab>, an agent; {#vaMSasya˚#}\n <ls>R. 2. 64</ls>; {#vyAkaraRasya kartA#} author of Grammar {#fRasya kartA#} one\n who incurs debt; {#hitakartA#} a benefactor; {#suvarRakartA#} a goldsmith <ab>&c.</ab>\n",
+        ".²2 (In <ab>gram.</ab>) An agent (the meaning of the instrumental case).\n",
+        ".²3 The Supreme Spirit.\n",
+        ".²4 An epithet of Brahmā.\n",
+        ".²5 <ab>N.</ab> of Viṣṇu and Śiva also.\n",
+        ".²6 A priest.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 97565,
+            "__line": 97735,
             "_ancestry": [
                 "L_ 11641",
-                "B_ {#kOrava#}",
-                "M_ {#--vaH#}"
+                "B_ {#kartf#}",
+                "S_ .{@{#-aBiprAya#}@}"
             ],
-            "_banner": "{#--vaH#}",
+            "_banner": ".{@{#-aBiprAya#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kOravaH"
+                    "Right": "kartraBiprAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(<ls>P. I. 3. 72</ls>) accruing to the agent.\n"
+            ]
+        },
+        {
+            "__line": 97736,
+            "_ancestry": [
+                "L_ 11641",
+                "B_ {#kartf#}",
+                "S_ .{@{#-vAcyaH#}@}"
+            ],
+            "_banner": ".{@{#-vAcyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kartfvAcyaH"
                 }
             ],
             "_meanings": [
-                "A \ndescendant of Kuru; {#maTnAmi kOravaSataM#} \n{#samare na kopAt#} <ls>Ve. 1. 15</ls>; <ls>Chāṇ. 50.</ls> ",
-                "{@--2@}\nA ruler of the Kurus. (so {#kOravaka#},\n{#kOravAyaRi#} and {#kOraveya#})."
+                "the active voice."
             ]
         }
     ]

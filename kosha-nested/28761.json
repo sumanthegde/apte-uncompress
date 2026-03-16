@@ -1,29 +1,40 @@
 {
-    "__line": 241615,
+    "__line": 265895,
     "_ancestry": [
         "L_ 28761",
-        "B_ {#saMsTA#}"
+        "B_ {#vasita#}"
     ],
-    "_banner": "{#saMsTA#}",
+    "_banner": "{#vasita#}",
     "_bannerExp": [
         {
-            "Right": "saMsTA"
+            "Right": "vasita"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} An assemblage, assembly.\n",
-        "{@--2@} Situation, state or condition of\nbeing. ",
-        "{@--3@} Form, nature;  \n<ls>R. 11. 38.</ls> ",
-        "{@--4@} Occupation, business, settled\nmode of life; {#pfTaksaMsTASca nirmame#}  \n<ls>Ms. 1. 21.</ls> ",
-        "{@--5@} Correct or proper conduct. \n\n",
-        "{@--6@} End, completion. ",
-        "{@--7@} Stop, stay.\n",
-        "{@--8@} Loss, destruction. ",
-        "{@--9@} \nDestruction of the world. ",
-        "{@--10@} Resemblance.\n",
-        "{@--11@} A royal decree or ordinance.\n",
-        "{@--12@} A form of Soma sacrifice. ",
-        "{@--13@}\nDeath, dying. ",
-        "{@--14@} Manifestation,\nappearance."
+        ".²1 Worn, put on.\n",
+        ".²2 Dwelling.\n",
+        ".²3 Stored (as grain).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 265899,
+            "_ancestry": [
+                "L_ 28761",
+                "B_ {#vasita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasitam"
+                }
+            ],
+            "_meanings": [
+                "Abode, residence."
+            ]
+        }
     ]
 }

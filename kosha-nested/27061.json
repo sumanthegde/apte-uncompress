@@ -1,60 +1,138 @@
 {
-    "__line": 227989,
+    "__line": 248088,
     "_ancestry": [
         "L_ 27061",
-        "B_ {#vEdala#}"
+        "B_ {#yuktiH#}"
     ],
-    "_banner": "{#vEdala#}",
+    "_banner": "{#yuktiH#}",
     "_bannerExp": [
         {
-            "Right": "vEdalI"
-        },
-        {
-            "Right": "vEdala"
+            "Right": "yuktiH"
         }
     ],
     "_gram": [
-        "({#lI#}|{%<ab>f.</ab>%})",
-        "[{#vidalasya vikAraH#}\n{#aR#}]"
+        "{%f.%}",
+        "[{#yuj-ktin#}]"
     ],
     "_meanings": [
-        "Made of wicker or cane. "
+        ".²1 Union, junction, combination.\n",
+        ".²2 Application, use, employment.\n",
+        ".²3 Yoking, harnessing.\n",
+        ".²4 A practice, usage.\n",
+        ".²5 A means, an expedient, a plan, scheme.\n",
+        ".²6 A contrivance, device, trick.\n",
+        ".²7 Propriety, fitness, adjustment, aptness, suitableness.\n",
+        ".²8 Skill, art.\n",
+        ".²9 Reasoning, arguing, an argument.\n",
+        ".²10 Inference, deduction.\n",
+        ".²11 Reason, ground.\n",
+        ".²12 Arrangement ({#racanA#}); {#yatra KalviyaM vAcoyuktiH#} <ls>Māl. 1</ls>.\n",
+        ".²13 (In law) Probability, enumeration or specification of circumstances,\n such as time, place <ab>&c.</ab>; {#yuktiprAptikriyAcihnasaMbanDABogahetuBiH#} <ls>Y. 2. 92</ls>, <ls n=\"Y. 2.\">212</ls>.\n",
+        ".²14 (In dramas) The regular chain or connection of events; <ab>cf.</ab> <ls>S. D. 343</ls>.\n",
+        ".²15 (In <ab>Rhet.</ab>) Emblematical or covert expression of oneʼs purpose or design.\n",
+        ".²16 Sum, total.\n",
+        ".²17 Alloying of metal.\n",
+        ".²18 Charm, spell.\n",
+        ".²19 (In <ab>gram.</ab>) A sentence.\n",
+        ".²20 (In <ab>astr.</ab>) A conjunction. ({@{#yuktyA#}@} {%ind.%}\n.²1 by means or virtue of.\n.²2 cleverly, skilfully.\n.²3 properly, fitly, duly).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 227990,
+            "__line": 248114,
             "_ancestry": [
                 "L_ 27061",
-                "B_ {#vEdala#}",
-                "M_ {#--laH#}"
+                "B_ {#yuktiH#}",
+                "S_ .{@{#-kaTanam#}@}"
             ],
-            "_banner": "{#--laH#}",
+            "_banner": ".{@{#-kaTanam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vEdalaH"
+                    "Right": "yuktikaTanam"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nA kind of cake. ",
-                "{@--2@} Any \nleguminous vegetable or grain. "
+                "statement of reasons.\n"
             ]
         },
         {
-            "__line": 227992,
+            "__line": 248115,
             "_ancestry": [
                 "L_ 27061",
-                "B_ {#vEdala#}",
-                "M_ {#--laM#}"
+                "B_ {#yuktiH#}",
+                "S_ .{@{#-kara#}@}"
             ],
-            "_banner": "{#--laM#}",
+            "_banner": ".{@{#-kara#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vEdalaM"
+                    "Right": "yuktikara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 suitable, fit.\n\n",
+                ".²2 proved.\n"
+            ]
+        },
+        {
+            "__line": 248119,
+            "_ancestry": [
+                "L_ 27061",
+                "B_ {#yuktiH#}",
+                "S_ .{@{#-jYa#}@}"
+            ],
+            "_banner": ".{@{#-jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yuktijYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "skilled in expedients, inventive.\n"
+            ]
+        },
+        {
+            "__line": 248120,
+            "_ancestry": [
+                "L_ 27061",
+                "B_ {#yuktiH#}",
+                "S_ .{@{#-yukta#}@}"
+            ],
+            "_banner": ".{@{#-yukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yuktiyukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 suitable, fit.\n",
+                ".²2 expert, skilful.\n",
+                ".²3 established, proved.\n",
+                ".²4 argumentative.\n"
+            ]
+        },
+        {
+            "__line": 248125,
+            "_ancestry": [
+                "L_ 27061",
+                "B_ {#yuktiH#}",
+                "S_ .{@{#-SAstram#}@}"
+            ],
+            "_banner": ".{@{#-SAstram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yuktiSAstram"
                 }
             ],
             "_meanings": [
-                "{@--1@} A \nshallow cup of a religious mendicant.\n",
-                "{@--2@} Any seat or vessel of \nwickerwork."
+                "the science of what is suitable."
             ]
         }
     ]

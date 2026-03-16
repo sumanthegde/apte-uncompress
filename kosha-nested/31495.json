@@ -1,25 +1,43 @@
 {
-    "__line": 264344,
+    "__line": 290239,
     "_ancestry": [
         "L_ 31495",
-        "B_ {#hfdayAlu, hfdayika, hfdayin#}"
+        "B_ {#vratika#}, {#-vratin#}"
     ],
-    "_banner": "{#hfdayAlu, hfdayika, hfdayin#}",
+    "_banner": "{#vratika#}, {#-vratin#}",
     "_bannerExp": [
         {
-            "Right": "hfdayAlu"
+            "Right": "vratika"
         },
         {
-            "Right": "hfdayika"
-        },
-        {
-            "Right": "hfdayin"
+            "Right": "vratin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Tenderhearted, good-hearted, affectionate."
+        "Observing a vow, practising penance, devout, pious;\n {#nAyajvaBirnAvratikEH#} <ls>Mb. 3. 43. 5</ls>; {#vratinaH pApaSIlAnAmasatInAM#}\n {#kulastriyaH#} ({#dveDyAH#}) <ls>Pt. 1. 416</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 290242,
+            "_ancestry": [
+                "L_ 31495",
+                "B_ {#vratika#}, {#-vratin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vratika#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A religious student; {#BEkzeRa vartayonnityaM nEkAnnAdI Baved vratI .#}\n {#BEkzeRa vratino vfttirupavAsasamA smftA ..#} <ls>Ms. 2. 188</ls>.\n",
+                ".²2 An ascetic, a devotee; {#kiM tAvad vratinAmupoQatapasAM viDnEstapo#}\n {#dUzitam#} <ls>Ś. 5. 9</ls>.\n",
+                ".²3 One who institutes a sacrifice; <ab>cf.</ab> {#yajamAna#}."
+            ]
+        }
     ]
 }

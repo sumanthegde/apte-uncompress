@@ -1,22 +1,168 @@
 {
-    "__line": 205932,
+    "__line": 216457,
     "_ancestry": [
         "L_ 24283",
-        "B_ {#rew#}"
+        "B_ {#PaRaH#}, {#-RA#}"
     ],
-    "_banner": "{#rew#}",
+    "_banner": "{#PaRaH#}, {#-RA#}",
     "_bannerExp": [
         {
-            "Right": "rew"
+            "Right": "PaRaH"
+        },
+        {
+            "Right": "PaRA"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#rewati-te#})"
+        "[{#PaR-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To speak.\n",
-        "{@--2@} To ask, request."
+        ".²1 The expanded hood of a cobra or any serpent; {#viprakftaH pannagaH#}\n {#PaRaM#} ({#PaRAM#}) {#kurute#} <ls>Ś. 6. 31</ls>; {#maRiBiH PaRasTEH#} <ls>R. 13. 12</ls>;\n <ls>Ku. 6. 68</ls>; {#vahati BuvanaSreRiM SezaH PaRAPalakasTitAm#} <ls>Bh. 2. 35</ls>.\n",
+        ".²2 The expanded side of the nostril, (also {#PaRam#} in this sense).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 216463,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "M_ .{@{#-RaH#}@}"
+            ],
+            "_banner": ".{@{#-RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> Scum.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 216465,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "S_ .{@{#-AwopaH#}@}"
+            ],
+            "_banner": ".{@{#-AwopaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRAwopaH"
+                }
+            ],
+            "_meanings": [
+                "the expanded hood (<ab>v. l.</ab> for {#PawAwopa#}); <ls>Pt. 1. 204</ls>.\n"
+            ]
+        },
+        {
+            "__line": 216466,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRakaraH"
+                }
+            ],
+            "_meanings": [
+                "a serpent.\n"
+            ]
+        },
+        {
+            "__line": 216467,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "S_ .{@{#-DaraH#}@}"
+            ],
+            "_banner": ".{@{#-DaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRaDaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a serpent.\n",
+                ".²2 <ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 216470,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "S_ .{@{#-BaraH#}@}"
+            ],
+            "_banner": ".{@{#-BaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRaBaraH"
+                }
+            ],
+            "_meanings": [
+                "A serpent; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 216471,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRaBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 a serpent.\n",
+                ".²2 the number ‘nine’ (there being nine chief Nāgas); also eight.\n"
+            ]
+        },
+        {
+            "__line": 216474,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "S_ .{@{#-maRiH#}@}"
+            ],
+            "_banner": ".{@{#-maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRamaRiH"
+                }
+            ],
+            "_meanings": [
+                "a jewel said to be found in the hood of a serpent; {#vasuDAntaniHsftamivAhipateH#}\n {#pawalaM PaRAmaRisahasrarucAm#} <ls>Śi. 9. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 216476,
+            "_ancestry": [
+                "L_ 24283",
+                "B_ {#PaRaH#}, {#-RA#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PaRamaRqalam"
+                }
+            ],
+            "_meanings": [
+                "the rounded body of a serpent; {#karAlaPaRamaRqalam#}\n <ls>R. 12. 98</ls>; {#tatPaRAmaRqalodarcirmaRidyotitavigraham#} <ls n=\"R.\">10. 7</ls>."
+            ]
+        }
     ]
 }

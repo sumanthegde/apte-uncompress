@@ -1,37 +1,90 @@
 {
-    "__line": 37857,
+    "__line": 34437,
     "_ancestry": [
         "L_ 4149",
-        "B_ {#arjunaka#}"
+        "B_ {#amartya#}"
     ],
-    "_banner": "{#arjunaka#}",
+    "_banner": "{#amartya#}",
     "_bannerExp": [
         {
-            "Right": "arjunaka"
+            "Right": "amartya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Belonging to Arjuna.\n"
+        "Immortal, divine, imperishable; {#˚BAve'pi#} <ls>R. 7. 53</ls>;\n {#˚Buvanam#} heaven; {#˚tA#} immortality.\n"
     ],
     "_morphisms": [
         {
-            "__line": 37858,
+            "__line": 34439,
             "_ancestry": [
                 "L_ 4149",
-                "B_ {#arjunaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#amartya#}",
+                "M_ .{@{#-rtyaH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-rtyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "arjunakaH"
+                    "Right": "amartyaH"
                 }
             ],
             "_meanings": [
-                "A worshipper of Arjuna."
+                "A god.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 34441,
+            "_ancestry": [
+                "L_ 4149",
+                "B_ {#amartya#}",
+                "S_ .{@{#-ApagA#}@}"
+            ],
+            "_banner": ".{@{#-ApagA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amartyApagA"
+                }
+            ],
+            "_meanings": [
+                "the celestial river, epithet of the Ganges; <ls>Vikr. 18. 104</ls>.\n"
+            ]
+        },
+        {
+            "__line": 34442,
+            "_ancestry": [
+                "L_ 4149",
+                "B_ {#amartya#}",
+                "S_ .{@{#-Buvanam#}@}"
+            ],
+            "_banner": ".{@{#-Buvanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amartyaBuvanam"
+                }
+            ],
+            "_meanings": [
+                "The heaven.\n"
+            ]
+        },
+        {
+            "__line": 34443,
+            "_ancestry": [
+                "L_ 4149",
+                "B_ {#amartya#}",
+                "S_ .{@{#-vaDUH#}@}"
+            ],
+            "_banner": ".{@{#-vaDUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amartyavaDUH"
+                }
+            ],
+            "_meanings": [
+                "An Apsaras or a nymph of heaven; {#leBe parAM dyutimamartyavaDUsamUhaH#} <ls>Ki. 6. 46</ls>."
             ]
         }
     ]

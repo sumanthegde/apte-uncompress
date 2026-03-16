@@ -1,18 +1,38 @@
 {
-    "__line": 126705,
+    "__line": 131997,
     "_ancestry": [
         "L_ 15256",
-        "B_ {#dalapaH#}"
+        "B_ {#Cid#}"
     ],
-    "_banner": "{#dalapaH#}",
+    "_banner": "{#Cid#}",
     "_bannerExp": [
         {
-            "Right": "dalapaH"
+            "Right": "Cid"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A weapon. ",
-        "{@--2@} Gold. ",
-        "{@--3@}\nŚāstra."
+        "(At the end of <ab>comp.</ab>) Cutting, dividing, destroying, removing,\n splitting <ab>&c.</ab>; {#SramacCidAmASramapAdapAnAm#} <ls>R. 5. 6</ls>; {#paNkacCidaH#}\n {#Palasya#} <ls>M. 2. 8</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 131999,
+            "_ancestry": [
+                "L_ 15256",
+                "B_ {#Cid#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Cid#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The divisor, denominator."
+            ]
+        }
     ]
 }

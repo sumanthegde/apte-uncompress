@@ -1,18 +1,42 @@
 {
-    "__line": 26534,
+    "__line": 23688,
     "_ancestry": [
         "L_ 2680",
-        "B_ {#apAsanaM#}"
+        "B_ {#apamuKa#}"
     ],
-    "_banner": "{#apAsanaM#}",
+    "_banner": "{#apamuKa#}",
     "_bannerExp": [
         {
-            "Right": "apAsanaM"
+            "Right": "apamuKa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Throwing away, \ndiscarding. ",
-        "{@--2@} Quitting. ",
-        "{@--3@} Killing."
+        ".²1 Having the face averted.\n",
+        ".²2 Ill-favoured, ill-looking.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 23691,
+            "_ancestry": [
+                "L_ 2680",
+                "B_ {#apamuKa#}",
+                "M_ .{@{#-Kam#}@}"
+            ],
+            "_banner": ".{@{#-Kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apamuKam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Without the face."
+            ]
+        }
     ]
 }

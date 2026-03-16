@@ -1,19 +1,75 @@
 {
-    "__line": 70320,
+    "__line": 68182,
     "_ancestry": [
         "L_ 8167",
-        "B_ {#uddIpanaM#}"
+        "B_ {#indirA#}"
     ],
-    "_banner": "{#uddIpanaM#}",
+    "_banner": "{#indirA#}",
     "_bannerExp": [
         {
-            "Right": "uddIpanaM"
+            "Right": "indirA"
         }
     ],
+    "_gram": [
+        "[{#ind-kirac#}]"
+    ],
     "_meanings": [
-        "{@--1@} Inflaming, exciting;  \n{#kroDa°, agni°#}. ",
-        "{@--2@} (In <ab>Rhet.</ab>) That which\nexcites or feeds (a sentiment or\n{%rasa%}), any aggravating or attendant\ncircumstance which gives \npoignancy to a feeling or passion;  \n{#uddIpanaviBAvAste rasamuddIpayaMti ye#} <ls>S. D. 160</ls>;\nsee {#AlaMbanaM#} also. ",
-        "{@--3@} Illuminating,\nlighting, setting fire to, burning;\n<ls>Ve. 5. 25.</ls> ",
-        "{@--4@} Burning of a body."
+        "<ab>N.</ab> of Lakṣmi, wife of Viṣṇu.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 68184,
+            "_ancestry": [
+                "L_ 8167",
+                "B_ {#indirA#}",
+                "S_ .{@{#-Alayam#}@}"
+            ],
+            "_banner": ".{@{#-Alayam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "indirAlayam"
+                }
+            ],
+            "_meanings": [
+                "‘abode of Indirā’, the blue lotus.\n"
+            ]
+        },
+        {
+            "__line": 68185,
+            "_ancestry": [
+                "L_ 8167",
+                "B_ {#indirA#}",
+                "S_ .{@{#-mandiraH#}@}"
+            ],
+            "_banner": ".{@{#-mandiraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "indirAmandiraH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 68186,
+                    "_ancestry": [
+                        "L_ 8167",
+                        "B_ {#indirA#}",
+                        "S_ .{@{#-mandiraH#}@}",
+                        "S_M_ ({@{#-ram#}@})"
+                    ],
+                    "_banner": "({@{#-ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: iMdirAmaMdiraH ({@{#-raM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "the blue lotus."
+                    ]
+                }
+            ]
+        }
     ]
 }

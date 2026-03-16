@@ -1,41 +1,175 @@
 {
-    "__line": 262943,
+    "__line": 288874,
     "_ancestry": [
         "L_ 31337",
-        "B_ {#hasita#}"
+        "B_ {#vyAGraH#}"
     ],
-    "_banner": "{#hasita#}",
+    "_banner": "{#vyAGraH#}",
     "_bannerExp": [
         {
-            "Right": "hasita"
+            "Right": "vyAGraH"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#has-kartari kta#}]"
+        "[{#vyAjiGrati, vyAGrA-ka#}]"
     ],
     "_meanings": [
-        "{@--1@}\nLaughed, laughing. ",
-        "{@--2@} Blown, \nexpanded. "
+        ".²1 A tiger.\n",
+        ".²2 (At the end of <ab>comp.</ab>) Best, pre-eminent, chief; as in {#naravyAGra#},\n {#puruzavyAGra#}.\n",
+        ".²3 The red variety of the castor-oil plant.\n"
     ],
     "_morphisms": [
         {
-            "__line": 262945,
+            "__line": 288879,
             "_ancestry": [
                 "L_ 31337",
-                "B_ {#hasita#}",
-                "M_ {#--taM#}"
+                "B_ {#vyAGraH#}",
+                "M_ .{@{#-GrI#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-GrI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "hasitaM"
+                    "Right": "vyAGrI"
                 }
             ],
             "_meanings": [
-                "{@--1@} Laughter. ",
-                "{@--2@} Joke,\njesting. ",
-                "{@--3@} The bow of the god of\nlove."
+                "A tigress; {#vyAGrIva tizWati jarA paritarjayanti#} <ls>Bh. 3. 109</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 288881,
+            "_ancestry": [
+                "L_ 31337",
+                "B_ {#vyAGraH#}",
+                "S_ .{@{#-awaH#}@}"
+            ],
+            "_banner": ".{@{#-awaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAGrAwaH"
+                }
+            ],
+            "_meanings": [
+                "a sky-lark.\n"
+            ]
+        },
+        {
+            "__line": 288882,
+            "_ancestry": [
+                "L_ 31337",
+                "B_ {#vyAGraH#}",
+                "S_ .{@{#-AsyaH#}@}"
+            ],
+            "_banner": ".{@{#-AsyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAGrAsyaH"
+                }
+            ],
+            "_meanings": [
+                "a cat.\n"
+            ]
+        },
+        {
+            "__line": 288883,
+            "_ancestry": [
+                "L_ 31337",
+                "B_ {#vyAGraH#}",
+                "S_ .{@{#-dalaH, -pucCaH#}@}"
+            ],
+            "_banner": ".{@{#-dalaH, -pucCaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAGradalaH"
+                },
+                {
+                    "Right": "vyAGrapucCaH"
+                }
+            ],
+            "_meanings": [
+                "the castor-oil plant.\n"
+            ]
+        },
+        {
+            "__line": 288884,
+            "_ancestry": [
+                "L_ 31337",
+                "B_ {#vyAGraH#}",
+                "S_ .{@{#-naKaH, -Kam#}@}"
+            ],
+            "_banner": ".{@{#-naKaH, -Kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAGranaKaH"
+                },
+                {
+                    "Right": "vyAGranaKam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a tigerʼs claw.\n",
+                ".²2 a kind of perfume.\n",
+                ".²3 a scratch, the impression of a finger-nail.\n"
+            ]
+        },
+        {
+            "__line": 288888,
+            "_ancestry": [
+                "L_ 31337",
+                "B_ {#vyAGraH#}",
+                "S_ .{@{#-nAyakaH#}@}"
+            ],
+            "_banner": ".{@{#-nAyakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAGranAyakaH"
+                }
+            ],
+            "_meanings": [
+                "a jackal.\n"
+            ]
+        },
+        {
+            "__line": 288889,
+            "_ancestry": [
+                "L_ 31337",
+                "B_ {#vyAGraH#}",
+                "S_ .{@{#-pAda#}@}"
+            ],
+            "_banner": ".{@{#-pAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAGrapAda"
+                }
+            ],
+            "_gram": [
+                ".({@{#-d#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "tiger-footed.\n"
+            ]
+        },
+        {
+            "__line": 288891,
+            "_ancestry": [
+                "L_ 31337",
+                "B_ {#vyAGraH#}",
+                "S_ .{@{#-Svan#}@}"
+            ],
+            "_banner": ".{@{#-Svan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyAGraSvan"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a tiger-like dog."
             ]
         }
     ]

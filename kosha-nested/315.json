@@ -1,21 +1,83 @@
 {
-    "__line": 5251,
+    "__line": 3904,
     "_ancestry": [
         "L_ 315",
-        "B_ {#acakra#}"
+        "B_ {#aNganA#}"
     ],
-    "_banner": "{#acakra#}",
+    "_banner": "{#aNganA#}",
     "_bannerExp": [
         {
-            "Right": "acakra"
+            "Right": "aNganA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#praSastam aNgaM yasyAH sA#}; {#aNgAt kalyARe naH#} <ls>P. V. 2. 100.</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Having no wheels. ",
-        "{@--2@}\nImmoveable. ",
-        "{@--3@} Not wavering."
+        ".²1 A woman or female in general; {#nfpa˚, gaja˚, hariRa˚#} <ab>&c.</ab>\n",
+        ".²2 A woman with well-rounded limbs, a beautiful woman.\n",
+        ".²3 (<ab>Astr.</ab>) Virgo. {#kanyArASiH#}\n",
+        ".²4 The female elephant of the north.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 3910,
+            "_ancestry": [
+                "L_ 315",
+                "B_ {#aNganA#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aNganAjanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the female sex, woman-kind.\n",
+                ".²2 woman.\n"
+            ]
+        },
+        {
+            "__line": 3913,
+            "_ancestry": [
+                "L_ 315",
+                "B_ {#aNganA#}",
+                "S_ .{@{#-priya#}@}"
+            ],
+            "_banner": ".{@{#-priya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aNganApriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "beloved of women.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 3914,
+                    "_ancestry": [
+                        "L_ 315",
+                        "B_ {#aNganA#}",
+                        "S_ .{@{#-priya#}@}",
+                        "S_M_ ({@{#-yaH#}@})"
+                    ],
+                    "_banner": "({@{#-yaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "aNganApriyaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 <ab>N.</ab> of a plant ({#aSoka#}) Jonesia Aśoka, for women are fond of decking\n their persons with Aśoka flowers.\n",
+                        ".²2 Name of a medicinal fragrant plant {#priyaNgu#} (<lang>Mar.</lang> <ns>{#gavhalA#}</ns>).\n It is a small plant used in perfumed oils and ointments."
+                    ]
+                }
+            ]
+        }
     ]
 }

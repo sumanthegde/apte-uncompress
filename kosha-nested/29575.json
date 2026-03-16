@@ -1,20 +1,63 @@
 {
-    "__line": 247924,
+    "__line": 273290,
     "_ancestry": [
         "L_ 29575",
-        "B_ {#samuMd#}"
+        "B_ {#vidala#}"
     ],
-    "_banner": "{#samuMd#}",
+    "_banner": "{#vidala#}",
     "_bannerExp": [
         {
-            "Right": "samuMd"
+            "Right": "vidala"
         }
     ],
     "_gram": [
-        "{c7c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To moisten \nthoroughly, water, wet."
+        ".²1 Split, rent asunder.\n",
+        ".²2 Opened, blown (as a flower <ab>&c.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 273293,
+            "_ancestry": [
+                "L_ 29575",
+                "B_ {#vidala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vidalaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Dividing, separating.\n",
+                ".²2 Rending, splitting.\n",
+                ".²3 A cake.\n",
+                ".²4 Mountain ebony.\n"
+            ]
+        },
+        {
+            "__line": 273298,
+            "_ancestry": [
+                "L_ 29575",
+                "B_ {#vidala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vidalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A basket of split bamboos or any vessel of wicker-work; <ab>cf.</ab> <ls>Y. 1. 182</ls>.\n",
+                ".²2 The bark of pomegranate.\n",
+                ".²3 A twig; {#SiPAvidalarajjvAdyErvidaDyAnnfpatirdamam#} <ls>Ms. 9. 230</ls>.\n",
+                ".²4 The chips of a substance.\n",
+                ".²5 Split peas."
+            ]
+        }
     ]
 }

@@ -1,21 +1,112 @@
 {
-    "__line": 136013,
+    "__line": 140593,
     "_ancestry": [
         "L_ 16207",
-        "B_ {#DrA#}"
+        "B_ {#tarala#}"
     ],
-    "_banner": "{#DrA#}",
+    "_banner": "{#tarala#}",
     "_bannerExp": [
         {
-            "Right": "DrA"
+            "Right": "tarala"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#DrAti#})"
+        "{%a.%}",
+        "[{#tF-alac#}]"
     ],
     "_meanings": [
-        "To go."
+        ".²1 Trembling, waving, shaking, tremulous; {#tArApatistaralavidyudivABravfndam#}\n <ls>R. 13. 76</ls>; {#Gana iva taralabalAke#} <ls>Gīt. 5</ls>; <ls>Śi. 10. 40</ls>; <ls>U. 5. 11</ls>; <ls>Ś. 1. 25</ls>.\n",
+        ".²2 Fickle, unsteady, transient; {#vErAyitArastaralAH svayaM matsariRaH#}\n {#param#} <ls>Śi. 2. 115</ls>; <ls>Amaru. 30</ls>.\n",
+        ".²3 Splendid, sparkling, glittering; {#tArAvitAnataralA iva yAmavatyaH#} <ls>Ki. 8. 56</ls>.\n",
+        ".²4 Liquid.\n",
+        ".²5 Libidinous, wanton.\n",
+        ".²6 Hollow.\n",
+        ".²7 Extensive, wide.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 140603,
+            "_ancestry": [
+                "L_ 16207",
+                "B_ {#tarala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taralaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The central gem of a necklace; {#muktAmayo'pyataralamaDyaH#} <ls>Vās. 35</ls>;\n or {#hArAMstArAMstaralaguwikAn#} (<ls>Malli.</ls> considers this as an interpolation\n in Meghadūta).\n",
+                ".²2 A necklace.\n",
+                ".²3 A level surface.\n",
+                ".²4 Bottom, depth.\n",
+                ".²5 A diamond.\n",
+                ".²6 Iron.\n",
+                ".²7 Thorn-apple.\n"
+            ]
+        },
+        {
+            "__line": 140613,
+            "_ancestry": [
+                "L_ 16207",
+                "B_ {#tarala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taralA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Rice-gruel.\n",
+                ".²2 Spirituous liquor.\n",
+                ".²3 A bee.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 140619,
+            "_ancestry": [
+                "L_ 16207",
+                "B_ {#tarala#}",
+                "S_ .{@{#-nayanA, -locanA#}@}"
+            ],
+            "_banner": ".{@{#-nayanA, -locanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taralanayanA"
+                },
+                {
+                    "Right": "taralalocanA"
+                }
+            ],
+            "_meanings": [
+                "a woman with rolling or tremulous eyes.\n"
+            ]
+        },
+        {
+            "__line": 140620,
+            "_ancestry": [
+                "L_ 16207",
+                "B_ {#tarala#}",
+                "S_ .{@{#-pratibanDam#}@}"
+            ],
+            "_banner": ".{@{#-pratibanDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taralapratibanDam"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "variety of necklace with a brilliant pearl\n in the centre; <ls>Kau. A. 2. 11</ls>."
+            ]
+        }
     ]
 }

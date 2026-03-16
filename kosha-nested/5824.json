@@ -1,35 +1,81 @@
 {
-    "__line": 51392,
+    "__line": 48244,
     "_ancestry": [
         "L_ 5824",
-        "B_ {#Akzip#}"
+        "B_ {#aSuBa#}"
     ],
-    "_banner": "{#Akzip#}",
+    "_banner": "{#aSuBa#}",
     "_bannerExp": [
         {
-            "Right": "Akzip"
+            "Right": "aSuBa"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To throw or cast\ndown, dash down; {#PalaM taraMgAkziptaM#}\n<ls>Pt. 4</ls>; {#SilAyAmAkzipya#} <ls>Pt. 1.</ls> ",
-        "{@--2@} To\nattract, entice, allure, win over;\n{#yaTA nAkzipyase vizayEH#} <ls>K. 109</ls>;  \n<ls>Śi. 10. 79.</ls> ",
-        "{@--3@} To strike with a dart, missile\n&c. ",
-        "{@--4@} To draw near or together, \ncontract, convulse (used in medicine). ",
-        "{@--5@}\nTo interrupt, cut short; {#evaMvAdino#} \n{#vacanamAkzipya#} <ls>K. 18</ls>, <ls n=\"K.\">207</ls>; <ls>Ve. 6.</ls>\n",
-        "{@--6@} To draw back or withdraw;\ntake or throw off, snatch or draw \n\naway, pull off; {#agrapAdamAkzipya#}  \n<ls>R. 7. 7</ls>; <ls>Ku. 7. 58</ls>; {#vAso balAdAkzipan#}  \n<ls>Bh. 1. 43</ls>; <ls>Me. 68.</ls> ",
-        "{@--7@} To chase, drive\nout of a place, remove; {#sa#} \n{#etAnAkzipadrAzwrAt#} <ls>Mb.</ls>; {#AkziptADikArayoH#}  \n<ls>Mu. 1.</ls> ",
-        "{@--8@} To hang out, expose to\nview (as a banner). ",
-        "{@--9@} To point to,\nrefer to, hint at, indicate; {#vastutastu neha#}\n{#pUrvapadamAkzipyate#} <ls>P. VI. 3. 34</ls> <ls>Sk.</ls>;  \n{#aSvAdaya AkzipyaMte#} <ls>S. D. 2.</ls> ",
-        "{@--10@} To \nreject, neglect, disregard, spurn;\n<ls>Amaru. 79.</ls> ",
-        "{@--11@} To object to (as\nargument). ",
-        "{@--12@} To insult; {#arere#} \n{#rADAgarBaBAraBUta kimevamAkzipasi#} <ls>Ve. 3</ls>;\nto blame; <ls>Śānti. 1. 18.</ls> ",
-        "{@--13@} To\neclipse, obscure; {#AkzipaMtImiva praBAM#}\n{#SaSinaH svena tejasA#} <ls>Mb.</ls> ",
-        "{@--14@} To infer\n(from circumstances); {#jAtyA#} \n{#vyaktirAkzipyate#} <ls>K. P. 2.</ls> ",
-        "{@--15@} To say or\nstate ironically. ",
-        "{@--16@} To pass (as\ntime); <ls>Śi. 14. 45.</ls>"
+        ".²1 Inauspicious.\n",
+        ".²2 Impure, dirty, foul (<ab>opp.</ab> {#SuBa#}); {#SuBenASuBena vopAyena#} <ls>K. 158</ls>\n by any means, fair or foul.\n",
+        ".²3 Unlucky, unfortunate.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 48249,
+            "_ancestry": [
+                "L_ 5824",
+                "B_ {#aSuBa#}",
+                "M_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSuBam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Inauspiciousness.\n\n",
+                ".²2 sin, a shameful deed.\n",
+                ".²3 Misfortune, calamity; {#nATe kutastvagyaSuBaM prajAnAm#} <ls>R. 5. 13</ls>;\n {#prAyaH SuBaM vidaDAtyaSuBaM ca jantoH#} <ls>Māl. 1. 23</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 48256,
+            "_ancestry": [
+                "L_ 5824",
+                "B_ {#aSuBa#}",
+                "S_ .{@{#-udayaH#}@}"
+            ],
+            "_banner": ".{@{#-udayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSuBodayaH"
+                }
+            ],
+            "_meanings": [
+                "an inauspicious omen.\n"
+            ]
+        },
+        {
+            "__line": 48257,
+            "_ancestry": [
+                "L_ 5824",
+                "B_ {#aSuBa#}",
+                "S_ .{@{#-darSana#}@}"
+            ],
+            "_banner": ".{@{#-darSana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSuBadarSana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ugly."
+            ]
+        }
     ]
 }

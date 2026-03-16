@@ -1,54 +1,76 @@
 {
-    "__line": 90072,
+    "__line": 90114,
     "_ancestry": [
         "L_ 10718",
-        "B_ {#kAmana#}"
+        "B_ {#eza#}"
     ],
-    "_banner": "{#kAmana#}",
+    "_banner": "{#eza#}",
     "_bannerExp": [
         {
-            "Right": "kAmana"
+            "Right": "eza"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Lustful, libidinous. "
+        ".²1 Desirable, to be desired.\n",
+        ".²2 Gliding, running; epithet of Viṣṇu.\n"
     ],
     "_morphisms": [
         {
-            "__line": 90072,
+            "__line": 90117,
             "_ancestry": [
                 "L_ 10718",
-                "B_ {#kAmana#}",
-                "M_ {#--naM#}"
+                "B_ {#eza#}",
+                "M_ .{@{#-zaH#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-zaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kAmanaM"
+                    "Right": "ezaH"
                 }
             ],
             "_meanings": [
-                "Desire, wish. "
+                ".²1 Running or hastening towards.\n",
+                ".²2 Seeking.\n",
+                ".²3 Wish, choice.\n"
             ]
         },
         {
-            "__line": 90073,
+            "__line": 90121,
             "_ancestry": [
                 "L_ 10718",
-                "B_ {#kAmana#}",
-                "M_ {#--nA#}"
+                "B_ {#eza#}",
+                "M_ .{@{#-zA#}@}"
             ],
-            "_banner": "{#--nA#}",
+            "_banner": ".{@{#-zA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kAmanA"
+                    "Right": "ezA"
                 }
             ],
             "_meanings": [
-                "Wish, desire."
+                "Wish, desire.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 90123,
+            "_ancestry": [
+                "L_ 10718",
+                "B_ {#eza#}",
+                "S_ .{@{#-vIraH#}@}"
+            ],
+            "_banner": ".{@{#-vIraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ezavIraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a despised Brāhmaṇa family."
             ]
         }
     ]

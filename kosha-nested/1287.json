@@ -1,19 +1,43 @@
 {
-    "__line": 14000,
+    "__line": 12017,
     "_ancestry": [
         "L_ 1287",
-        "B_ {#anasUyu#}"
+        "B_ {#anadyatana#}"
     ],
-    "_banner": "{#anasUyu#}",
+    "_banner": "{#anadyatana#}",
     "_bannerExp": [
         {
-            "Right": "anasUyu"
+            "Right": "anadyatana"
+        },
+        {
+            "Right": "anadyatanI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "= {#anasUya#}; {#idaM tu te guhyatamaM#}\n{#pravakzyAmyanasUyave#} <ls>Bg. 9. 1.</ls>"
+        "Not pertaining to this or the current\n day; a term used by Pāṇini to denote the sense of the Imperfect or the\n Periphrastic future <ls>P. III. 2. 111</ls>, <ls n=\"P.\">III. 3. 15</ls>; {#˚BUte laN-apacat#}; {#˚ne#}\n {#Bavizyati luw--paktA#}; {#parokzAnadyatane liw-papAca#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 12022,
+            "_ancestry": [
+                "L_ 1287",
+                "B_ {#anadyatana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anadyatanaH"
+                }
+            ],
+            "_meanings": [
+                "Not the current day; {#atItAyAH rAtreH paScArDena AgAminyA#}\n {#rAtreH pUrvArDena sahito divaso'dyatanaH#} <ls>Sk.</ls>, {#tadBinnaH kAlaH#}."
+            ]
+        }
     ]
 }

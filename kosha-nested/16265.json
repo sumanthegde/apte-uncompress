@@ -1,59 +1,357 @@
 {
-    "__line": 136575,
+    "__line": 141028,
     "_ancestry": [
         "L_ 16265",
-        "B_ {#naKaraH --raM#}"
+        "B_ {#talaH, -lam#}"
     ],
-    "_banner": "{#naKaraH --raM#}",
+    "_banner": "{#talaH, -lam#}",
     "_bannerExp": [
         {
-            "Right": "naKaraH"
+            "Right": "talaH"
         },
         {
-            "Right": "naKaraM"
+            "Right": "talam"
         }
     ],
     "_gram": [
-        "[{#naKaM rAti, rA-ka naKa bA°#}\n{#uRA° ara vA#}]"
+        "[{#tal-ac#}]"
     ],
     "_meanings": [
-        "A finger-nail, claw,\ntalon; <ls>Bv. 1. 52.</ls> "
+        ".²1 A surface; {#Buvastalamiva vyoma kurvan vyomeva BUtalam#} <ls>R. 4. 29</ls>;\n sometimes used at the end of <ab>comp.</ab> without much alteration of meaning;\n {#mahItalam#} ‘surface of the earth’ {%<ab>i. e.</ab>%} earth itself; {#SudDe tu#}\n {#darpaRatale sulaBAvakASA#} <ls>Ś. 7. 32</ls>; {#naBastalam#} <ab>&c.</ab>\n",
+        ".²2 The palm of the hand; <ls>R. 6. 18</ls>.\n",
+        ".²3 The sole of the foot; <ls>Bhāg. 10. 36. 8</ls>.\n",
+        ".²4 The fore-arm.\n",
+        ".²5 A slap with the hand.\n",
+        ".²6 Lowness, inferiority of position.\n",
+        ".²7 A lower part, part underneath, base, foot, bottom; {#revAroDasi vetasItarutale#}\n {#cetaH samutkaRWate#} <ls>K. P. 1</ls>.\n",
+        ".²8 (Hence) The ground under a tree or any other object, shelter afforded\n by anything; {#PaRI mayUrasya tale nizIdati#} <ls>Ṛs. 1. 13</ls>.\n",
+        ".²9 A hole, pit.\n",
+        ".²10 A span.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 136577,
+            "__line": 141045,
             "_ancestry": [
                 "L_ 16265",
-                "B_ {#naKaraH --raM#}",
-                "S_  {#--AyuDaH#}"
+                "B_ {#talaH, -lam#}",
+                "M_ .{@{#-laH#}@}"
             ],
-            "_banner": " {#--AyuDaH#}",
+            "_banner": ".{@{#-laH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "naKarAyuDaH"
+                    "Right": "talaH"
                 }
             ],
             "_meanings": [
-                "{1} a tiger. ",
-                "{2} a lion. ",
-                "{3} a cock.\n"
+                ".²1 The hilt of a sword.\n",
+                ".²2 The palmyra tree.\n",
+                ".²3 <ab>N.</ab> of Śiva.\n",
+                ".²4 Pressing the strings of a lute with the left hand; {#tatra tatra mahAnAdErutkfzwatalanAditEH#}\n\n <ls>Mb. 1. 221. 60</ls>.\n",
+                ".²5 A division of hell.\n"
             ]
         },
         {
-            "__line": 136579,
+            "__line": 141053,
             "_ancestry": [
                 "L_ 16265",
-                "B_ {#naKaraH --raM#}",
-                "S_ {#--AhvaH#}"
+                "B_ {#talaH, -lam#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": "{#--AhvaH#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "naKarAhvaH"
+                    "Right": "talam"
                 }
             ],
             "_meanings": [
-                "fragrant oleander ({#karavIra#})."
+                ".²1 A pond.\n",
+                ".²2 A forest, wood; {#BasmaprastaraSAyI ca BUmiSayyA ca talezu ca#} <ls>Mb. 12. 303. 11</ls>.\n",
+                ".²3 Cause, origin, motive.\n",
+                ".²4 A leathern fence worn round the left arm ({#talA#} also in this sense);\n {#udyatErAyuDEScitrAstalabadDAH kalApinaH#} <ls>Mb. 6. 16. 14</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 141060,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-aNguliH#}@}"
+            ],
+            "_banner": ".{@{#-aNguliH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talANguliH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a toe.\n"
+            ]
+        },
+        {
+            "__line": 141061,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-atalam#}@}"
+            ],
+            "_banner": ".{@{#-atalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talAtalam"
+                }
+            ],
+            "_meanings": [
+                "the fourth of the seven divisions of hell; <ls>Bhāg. 2. 5. 41</ls>.\n"
+            ]
+        },
+        {
+            "__line": 141062,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-IkzaRaH#}@}"
+            ],
+            "_banner": ".{@{#-IkzaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talekzaRaH"
+                }
+            ],
+            "_meanings": [
+                "a hog.\n"
+            ]
+        },
+        {
+            "__line": 141063,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-udara#}@}"
+            ],
+            "_banner": ".{@{#-udara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talodara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a protuberant belly, pot-bellied.\n"
+            ]
+        },
+        {
+            "__line": 141064,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-udarI#}@}"
+            ],
+            "_banner": ".{@{#-udarI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talodarI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A wife; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 141065,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-udA#}@}"
+            ],
+            "_banner": ".{@{#-udA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talodA"
+                }
+            ],
+            "_meanings": [
+                "a river.\n"
+            ]
+        },
+        {
+            "__line": 141066,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-GAtaH#}@}"
+            ],
+            "_banner": ".{@{#-GAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talaGAtaH"
+                }
+            ],
+            "_meanings": [
+                "a slap with the palm of the hand.\n"
+            ]
+        },
+        {
+            "__line": 141067,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-tAlaH#}@}"
+            ],
+            "_banner": ".{@{#-tAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talatAlaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a kind of musical instrument.\n",
+                ".²2 clapping of the hands.\n"
+            ]
+        },
+        {
+            "__line": 141070,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-tram, -trARam, -vAraRam#}@}"
+            ],
+            "_banner": ".{@{#-tram, -trARam, -vAraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talatram"
+                },
+                {
+                    "Right": "talatrARam"
+                },
+                {
+                    "Right": "talavAraRam"
+                }
+            ],
+            "_meanings": [
+                "a leathern glove of an archer; {#SarAsanajyAtalavAraRaDvaniH#}\n <ls>Ki. 14. 29</ls>; {#pARayaH satalatrASca …#} <ls>Śiva B. 12. 80</ls>.\n"
+            ]
+        },
+        {
+            "__line": 141072,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-prahAraH#}@}"
+            ],
+            "_banner": ".{@{#-prahAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talaprahAraH"
+                }
+            ],
+            "_meanings": [
+                "a slap with the hand.\n"
+            ]
+        },
+        {
+            "__line": 141073,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-badDa#}@}"
+            ],
+            "_banner": ".{@{#-badDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talabadDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having fastened round oneʼs arm the {#tala#} ({#tra#}); <ls>Mb. 6. 16. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 141074,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-yudDam#}@}"
+            ],
+            "_banner": ".{@{#-yudDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talayudDam"
+                }
+            ],
+            "_meanings": [
+                "a fight with the palms of the hands.\n"
+            ]
+        },
+        {
+            "__line": 141075,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talalokaH"
+                }
+            ],
+            "_meanings": [
+                "nether world ({#pAtAla#}); <ls>Bhāg. 2. 6. 42</ls>.\n"
+            ]
+        },
+        {
+            "__line": 141076,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-sArakam#}@}"
+            ],
+            "_banner": ".{@{#-sArakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talasArakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a martingale.\n",
+                ".²2 a horseʼs food-receptacle; <ls>MW.</ls>\n"
+            ]
+        },
+        {
+            "__line": 141079,
+            "_ancestry": [
+                "L_ 16265",
+                "B_ {#talaH, -lam#}",
+                "S_ .{@{#-sAraRam, -sArikA#}@}"
+            ],
+            "_banner": ".{@{#-sAraRam, -sArikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talasAraRam"
+                },
+                {
+                    "Right": "talasArikA"
+                }
+            ],
+            "_gram": [
+                "{%<ab>ibid.</ab>%}",
+                ".{@{#-hfdayam#}@}"
+            ],
+            "_meanings": [
+                "the centre of the sole of foot."
             ]
         }
     ]

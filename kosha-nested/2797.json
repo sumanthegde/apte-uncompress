@@ -1,19 +1,67 @@
 {
-    "__line": 27507,
+    "__line": 24584,
     "_ancestry": [
         "L_ 2797",
-        "B_ {#apracaMkaSa#}"
+        "B_ {#apavArita#}"
     ],
-    "_banner": "{#apracaMkaSa#}",
+    "_banner": "{#apavArita#}",
     "_bannerExp": [
         {
-            "Right": "apracaMkaSa"
+            "Right": "apavArita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Without the\npower of seeing."
+        "Covered, concealed; {#˚taM pravahaRaM tizWati#}\n <ls>Mk. 6</ls> covered; vanished, disappeared;\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 24586,
+            "_ancestry": [
+                "L_ 2797",
+                "B_ {#apavArita#}",
+                "M_ .{@{#-tam, -apavAritakam#}@}"
+            ],
+            "_banner": ".{@{#-tam, -apavAritakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apavAritam"
+                },
+                {
+                    "Right": "apavAritakam"
+                }
+            ],
+            "_meanings": [
+                "Concealed or secret manner.\n"
+            ]
+        },
+        {
+            "__line": 24587,
+            "_ancestry": [
+                "L_ 2797",
+                "B_ {#apavArita#}",
+                "M_ .{@{#-tam, apavAritakena, apavArya#}@}"
+            ],
+            "_banner": ".{@{#-tam, apavAritakena, apavArya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apavAritam"
+                },
+                {
+                    "Right": "apavAritakena"
+                },
+                {
+                    "Right": "apavArya"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Frequently occurring in\n dramas in the sense of ‘apart’, ‘aside to another’ (<ab>opp.</ab> {#prakASam#});\n it is speaking in such a way that only the person addressed may hear it;\n {#tadBavedapavAritam . rahasyaM tu yadanyasya parAvfttya prakASyate .#}\n {#tripatAkakareRAnyamapavAryAntarA kaTAm#} <ls>S. D. 6</ls>."
+            ]
+        }
     ]
 }

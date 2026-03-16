@@ -1,19 +1,39 @@
 {
-    "__line": 41598,
+    "__line": 38999,
     "_ancestry": [
         "L_ 4580",
-        "B_ {#avaDimat#}"
+        "B_ {#ardita#}"
     ],
-    "_banner": "{#avaDimat#}",
+    "_banner": "{#ardita#}",
     "_bannerExp": [
         {
-            "Right": "avaDimat"
+            "Right": "ardita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#ard-kta#}]"
     ],
     "_meanings": [
-        "Limited, bounded."
+        "Tormented, afflicted; begged <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 38999,
+            "_ancestry": [
+                "L_ 4580",
+                "B_ {#ardita#}",
+                "M_ {@{#-tam#}@}"
+            ],
+            "_banner": "{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arditam"
+                }
+            ],
+            "_meanings": [
+                "A disease, spasm of the jaw-bones, tetanus or hemiflegia (paralysis of\n the muscles on one side of the face and neck)."
+            ]
+        }
     ]
 }

@@ -1,18 +1,45 @@
 {
-    "__line": 233327,
+    "__line": 255706,
     "_ancestry": [
         "L_ 27713",
-        "B_ {#SalyakaH#}"
+        "B_ {#rOrava#}"
     ],
-    "_banner": "{#SalyakaH#}",
+    "_banner": "{#rOrava#}",
     "_bannerExp": [
         {
-            "Right": "SalyakaH"
+            "Right": "rOrava"
+        },
+        {
+            "Right": "rOravI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-vI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} A dart, javelin, spike. \n\n",
-        "{@--2@} A splinter, thorn. ",
-        "{@--3@} A \nporcupine."
+        ".²1 Made of the hide of {%Ruru%}; {#tvacaM sa meDyAM pariDAya rOravIm#} <ls>R. 3. 31</ls>.\n",
+        ".²2 Dreadful, terrible.\n\n",
+        ".²3 Fraudulent, dishonest.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255711,
+            "_ancestry": [
+                "L_ 27713",
+                "B_ {#rOrava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rOravaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A savage.\n",
+                ".²2 <ab>N.</ab> of one of the hells; <ls>Ms. 4. 88</ls>; {#rOrave kUwasAkzI tu yAti yaScAnfto#}\n {#naraH#} <ls>Mārk. P.</ls>; {#yadA rOravAdIn smaranneva BItyA#} <ls>Śaṅkara.</ls>"
+            ]
+        }
     ]
 }

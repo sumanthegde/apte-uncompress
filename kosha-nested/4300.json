@@ -1,61 +1,81 @@
 {
-    "__line": 39626,
+    "__line": 35987,
     "_ancestry": [
         "L_ 4300",
-        "B_ {#alIka#}"
+        "B_ {#ayakzma#}"
     ],
-    "_banner": "{#alIka#}",
+    "_banner": "{#ayakzma#}",
     "_bannerExp": [
         {
-            "Right": "alIka"
+            "Right": "ayakzma"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#al-vIkan#} <ls>Uṇ. 4. 25</ls>\n{#nipAtaH#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Unpleasing, disagreeable.\n",
-        "{@--2@} Untrue, false, pretended; {#°mugDaH#}\n<ls>K. 84</ls>; {#alIkakopakAMtena#} <ls>K. 147</ls>;  \n{#°vacana#} <ls>Amaru. 23</ls>, <ls n=\"Amaru.\">33</ls>, <ls n=\"Amaru.\">43.</ls> ",
-        "{@--3@} Little, not\nmuch, few. "
+        "<ab>Ved.</ab>\n",
+        ".²1 Not consumptive, healthy.\n",
+        ".²2 Causing health; {#ayakzmA vfhatIrizaH#} <ls>Rv. 9. 49. 1</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 39631,
+            "__line": 35990,
             "_ancestry": [
                 "L_ 4300",
-                "B_ {#alIka#}",
-                "M_ {#--kaM#}"
+                "B_ {#ayakzma#}",
+                "M_ .{@{#-kzmam#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-kzmam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "alIkaM"
+                    "Right": "ayakzmam"
                 }
             ],
             "_meanings": [
-                "{@--1@} The forehead;  \n{#diSAmalIkAlakaBaMgatAM gataH#} <ls>K. 4.</ls> ",
-                "{@--2@}\nAnything displeasing, falsehood,\nuntruth. ",
-                "{@--3@} Heaven. "
+                "Healthiness, freedom from disease.\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 39634,
+            "__line": 35992,
             "_ancestry": [
                 "L_ 4300",
-                "B_ {#alIka#}",
-                "S_  {#--matsyaH#}"
+                "B_ {#ayakzma#}",
+                "S_ .{@{#-karaRa#}@}"
             ],
-            "_banner": " {#--matsyaH#}",
+            "_banner": ".{@{#-karaRa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "alIkamatsyaH"
+                    "Right": "ayakzmakaraRa"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "a kind of dish resembling the taste\nof fish (‘mock-fish’)."
+                "causing health, making healthy and sound; <ls>Av. 19. 2. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 35993,
+            "_ancestry": [
+                "L_ 4300",
+                "B_ {#ayakzma#}",
+                "S_ .{@{#-tAtiH#}@}"
+            ],
+            "_banner": ".{@{#-tAtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayakzmatAtiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "health; {#ayakzmatAtiM maha iha Dattam#} <ls>Av. 4. 25. 5</ls>."
             ]
         }
     ]

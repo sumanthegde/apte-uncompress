@@ -1,17 +1,85 @@
 {
-    "__line": 86230,
+    "__line": 85575,
     "_ancestry": [
         "L_ 10273",
-        "B_ {#kapotI#}"
+        "B_ {#uraRaH#}"
     ],
-    "_banner": "{#kapotI#}",
+    "_banner": "{#uraRaH#}",
     "_bannerExp": [
         {
-            "Right": "kapotI"
+            "Right": "uraRaH"
+        },
+        {
+            "Right": "uraRI"
         }
     ],
+    "_gram": [
+        "[<ls>Uṇ. 5. 17.</ls>]",
+        ".({@{#-RI#}@}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} A female pigeon. ",
-        "{@--2@} A\nkind of sacrificial post."
+        ".²1 A ram, sheep; {#vfkIvoraRamAsAdya mftyurAdAya gacCati#} <ls>Mb.</ls>; <ls>Bhāg. 9. 14. 27</ls>.\n",
+        ".²2 A certain demon killed by Indra.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 85579,
+            "_ancestry": [
+                "L_ 10273",
+                "B_ {#uraRaH#}",
+                "M_ .{@{#-RI#}@}"
+            ],
+            "_banner": ".{@{#-RI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uraRI"
+                }
+            ],
+            "_meanings": [
+                "A ewe.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 85581,
+            "_ancestry": [
+                "L_ 10273",
+                "B_ {#uraRaH#}",
+                "S_ .{@{#-akzaH, -kzakaH, -AKyaH#}@}"
+            ],
+            "_banner": ".{@{#-akzaH, -kzakaH, -AKyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uraRAkzaH"
+                },
+                {
+                    "Left": "S error: midAlign kzakaH akzakaH"
+                },
+                {
+                    "Right": "uraRAKyaH"
+                }
+            ],
+            "_meanings": [
+                "the plant Cassia Alata or Tora. An esculent\n and medicinal plant (<lang>Mar.</lang> <ns>{#wAkaLA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 85583,
+            "_ancestry": [
+                "L_ 10273",
+                "B_ {#uraRaH#}",
+                "S_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uraRaRam"
+                }
+            ],
+            "_meanings": [
+                "Silver."
+            ]
+        }
     ]
 }

@@ -1,17 +1,62 @@
 {
-    "__line": 188459,
+    "__line": 202774,
     "_ancestry": [
         "L_ 22568",
-        "B_ {#matsaH#}"
+        "B_ {#pratiyAta#}"
     ],
-    "_banner": "{#matsaH#}",
+    "_banner": "{#pratiyAta#}",
     "_bannerExp": [
         {
-            "Right": "matsaH"
+            "Right": "pratiyAta"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A fish. ",
-        "{@--2@} A lord of the\nMatsyas."
+        ".²1 Resisted, opposed.\n",
+        ".²2 Turned, returned.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 202778,
+            "_ancestry": [
+                "L_ 22568",
+                "B_ {#pratiyAta#}",
+                "S_ .{@{#-nidra#}@}"
+            ],
+            "_banner": ".{@{#-nidra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratiyAtanidra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "awakened, awake.\n"
+            ]
+        },
+        {
+            "__line": 202779,
+            "_ancestry": [
+                "L_ 22568",
+                "B_ {#pratiyAta#}",
+                "S_ .{@{#-budDi#}@}"
+            ],
+            "_banner": ".{@{#-budDi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratiyAtabudDi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose mind is turned towards."
+            ]
+        }
     ]
 }

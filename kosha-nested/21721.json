@@ -1,18 +1,56 @@
 {
-    "__line": 179986,
+    "__line": 195491,
     "_ancestry": [
         "L_ 21721",
-        "B_ {#bAzpAyate#}"
+        "B_ {#pUrvavat#}"
     ],
-    "_banner": "{#bAzpAyate#}",
+    "_banner": "{#pUrvavat#}",
     "_bannerExp": [
         {
-            "Right": "bAzpAyate"
+            "Right": "pUrvavat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "<ab>Den.</ab> <ab>A.</ab> ",
-        "{@--1@} To shed tears,\nweep; {#tatkimiti bAzpAyitaM BagavatyA#}\n<ls>Māl. 6</ls>; <ls>V. 5. 9.</ls> ",
-        "{@--2@} To emit vapour\nor steam."
+        ".²1 Having something antecedent or a cause.\n",
+        ".²2 Relating to something preceding; {#pUrvavanto'viDAnArTAH˚#} <ls>MS. 1. 4. 17</ls>.\n (<ab>cf.</ab> {#ye hi pUrvavanto viditapUrvamarTamaBivadanti te aviDAnArTAH#}\n <ls>ŚB. on MS.</ls> on <ab>ibid.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 195495,
+            "_ancestry": [
+                "L_ 21721",
+                "B_ {#pUrvavat#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pUrvavat#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "One of the three kinds of {#anumAna#},\n inference of the effect from the cause; {%<ab>i. e.</ab>%} inferring from the rising\n of clouds that rain will fall. "
+            ]
+        },
+        {
+            "__line": 195497,
+            "_ancestry": [
+                "L_ 21721",
+                "B_ {#pUrvavat#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pUrvavat#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "As before."
+            ]
+        }
     ]
 }

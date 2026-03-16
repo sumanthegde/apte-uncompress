@@ -1,19 +1,99 @@
 {
-    "__line": 184619,
+    "__line": 199235,
     "_ancestry": [
         "L_ 22183",
-        "B_ {#Bidelima#}"
+        "B_ {#pracura#}"
     ],
-    "_banner": "{#Bidelima#}",
+    "_banner": "{#pracura#}",
     "_bannerExp": [
         {
-            "Right": "Bidelima"
+            "Right": "pracura"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Fragile, brittle."
+        ".²1 Much, ample, abundant, plentiful; {#nityavyayA pracuranityaDanAgamA#}\n {#ca#} <ls>Bh. 2. 47</ls>; <ls>Śi. 12. 72</ls>; {#mahAtmanAM vaH pracuraH samAgamaH#} <ls>Bhāg.</ls>\n",
+        ".²2 Great, large, extensive; {#pracurapurandaraDanuH#} <ls>Gīt. 2</ls>.\n",
+        ".²3 (At the end of <ab>comp.</ab>) Abounding in, filled or replete with.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 199240,
+            "_ancestry": [
+                "L_ 22183",
+                "B_ {#pracura#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pracuraH"
+                }
+            ],
+            "_meanings": [
+                "A thief.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 199242,
+            "_ancestry": [
+                "L_ 22183",
+                "B_ {#pracura#}",
+                "S_ .{@{#-pariBavaH#}@}"
+            ],
+            "_banner": ".{@{#-pariBavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pracurapariBavaH"
+                }
+            ],
+            "_meanings": [
+                "frequent humiliation.\n"
+            ]
+        },
+        {
+            "__line": 199243,
+            "_ancestry": [
+                "L_ 22183",
+                "B_ {#pracura#}",
+                "S_ .{@{#-puruza#}@}"
+            ],
+            "_banner": ".{@{#-puruza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pracurapuruza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "populous.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 199244,
+                    "_ancestry": [
+                        "L_ 22183",
+                        "B_ {#pracura#}",
+                        "S_ .{@{#-puruza#}@}",
+                        "S_M_ ({@{#-zaH#}@})"
+                    ],
+                    "_banner": "({@{#-zaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "pracurapuruzaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a thief."
+                    ]
+                }
+            ]
+        }
     ]
 }

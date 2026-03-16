@@ -1,19 +1,123 @@
 {
-    "__line": 120869,
+    "__line": 125448,
     "_ancestry": [
         "L_ 14513",
-        "B_ {#talimaM#}"
+        "B_ {#GozaH#}"
     ],
-    "_banner": "{#talimaM#}",
+    "_banner": "{#GozaH#}",
     "_bannerExp": [
         {
-            "Right": "talimaM"
+            "Right": "GozaH"
         }
     ],
+    "_gram": [
+        "[{#Guz-BAve GaY#}]"
+    ],
     "_meanings": [
-        "{@--1@} Paved ground, a \npavement. ",
-        "{@--2@} A bed, cot, couch. ",
-        "{@--3@}\nAn awning. ",
-        "{@--4@} A large sword or\nknife."
+        ".²1 Noise, tumult, cry or sound in general; {#sa Gozo GArtarAzwrARAM hfdayAni#}\n {#vyadArayat#} <ls>Bg. 1. 19</ls>; so {#raTa˚, tUrya˚, SaNKa˚#} <ab>&c.</ab>\n",
+        ".²2 The thundering of clouds; {#snigDa gamBIraGozam#} <ls>Me. 64</ls> (<ab>v. l.</ab>).\n",
+        ".²3 Proclamation.\n",
+        ".²4 Rumour, report; {#duHSAsurAgAditi Goza AsIt#} <ls>Rv. 10. 33. 1</ls>.\n",
+        ".²5 A herdsman; see {#GozavfdDa#} below.\n",
+        ".²6 A hamlet, station of cowherds; <ls>Bhāg. 5. 5. 30</ls>; {#vihAraBUmeraBiGozamutsukAH#}\n <ls>Ki. 4. 31</ls>; {#gaNgAyAM GozaH#} <ls>K. P. 2</ls>; {#GozAdAnIya#} <ls>Mk. 7</ls>.\n",
+        ".²7 (In <ab>gram.</ab>) The soft sound heard in the articulation of the soft consonants; <ls>Rv. Pr. 13. 5</ls>.\n",
+        ".²8 A Kāyastha (one of the writer class).\n",
+        ".²9 A vowel.\n",
+        ".²10 A gnat, mosquito.\n",
+        ".²11 An epithet of Śiva.\n",
+        ".²12 Recitation, the sound of prayers; {#sadasi nibiqacEtyabrahmaGozEH#}\n {#purastAt#} <ls>Mk. 10. 12</ls>.\n",
+        ".²13 An ornament that makes a tinkling sound; {#GozapraGozaruciram#} <ls>Bhāg. 10. 8. 22</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 125465,
+            "_ancestry": [
+                "L_ 14513",
+                "B_ {#GozaH#}",
+                "M_ .{@{#-zam#}@}"
+            ],
+            "_banner": ".{@{#-zam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Gozam"
+                }
+            ],
+            "_meanings": [
+                "Bell-metal.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 125467,
+            "_ancestry": [
+                "L_ 14513",
+                "B_ {#GozaH#}",
+                "S_ .{@{#-yAtrA#}@}"
+            ],
+            "_banner": ".{@{#-yAtrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GozayAtrA"
+                }
+            ],
+            "_meanings": [
+                "walk or procession to the stations of the herdsmen. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 125467,
+                    "_ancestry": [
+                        "L_ 14513",
+                        "B_ {#GozaH#}",
+                        "S_ .{@{#-yAtrA#}@}",
+                        "S_S_ {#˚parvan#}"
+                    ],
+                    "_banner": "{#˚parvan#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "GozayAtrAparvan"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of chapters 236-257 of the {#vanaparva#} in <ls>Mb.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 125469,
+            "_ancestry": [
+                "L_ 14513",
+                "B_ {#GozaH#}",
+                "S_ .{@{#-varRaH#}@}"
+            ],
+            "_banner": ".{@{#-varRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GozavarRaH"
+                }
+            ],
+            "_meanings": [
+                "a sonant letter.\n"
+            ]
+        },
+        {
+            "__line": 125470,
+            "_ancestry": [
+                "L_ 14513",
+                "B_ {#GozaH#}",
+                "S_ .{@{#-vfdDaH#}@}"
+            ],
+            "_banner": ".{@{#-vfdDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GozavfdDaH"
+                }
+            ],
+            "_meanings": [
+                "an elder at a station of herdsmen; {#hEyaNgavInamAdAya#}\n {#GozavfdDAnupasTitAn#} <ls>R. 1. 45</ls>."
+            ]
+        }
     ]
 }

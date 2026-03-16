@@ -1,22 +1,1971 @@
 {
-    "__line": 228737,
+    "__line": 249565,
     "_ancestry": [
         "L_ 27187",
-        "B_ {#vyac#}"
+        "B_ {#rakta#}"
     ],
-    "_banner": "{#vyac#}",
+    "_banner": "{#rakta#}",
     "_bannerExp": [
         {
-            "Right": "vyac"
+            "Right": "rakta"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#vicati#}, {%<ab>pass.</ab>%} {#vicyate#})"
+        "{%<ab>p. p.</ab>%}",
+        "[{#raYj-karaRe ktaH#}]"
     ],
     "_meanings": [
-        "{@--1@} To cheat, deceive, trick. ",
-        "{@--2@} To\nsurround, encompass, pervade. "
+        ".²1 Coloured, dyed, tinged, painted; {#ABAti bAlAtaparaktasAnuH#} <ls>R. 6. 60</ls>.\n",
+        ".²2 Red, crimson, blood-red; {#sAnDyaM tejaH pratinavajapApuzparaktaM daDAnaH#}\n <ls>Me. 36</ls>; so {#raktASoka, raktAMSuka#} <ab>&c.</ab>\n",
+        ".²3 Enamoured, impassioned, attached, affected with love; {#yAvad vittopArjanasaktastAvannijaparivAro#}\n {#raktaH#} <ls>Charpaṭa. S. 3</ls>; {#ayamEndrImuKaM paSya raktaScumbati#}\n {#candramAH#} <ls>Chandr. 5. 58</ls> (where it has sense 2 also).\n",
+        ".²4 Dear, liked, beloved.\n",
+        ".²4 Lovely, charming, sweet, pleasant; {#Srotrezu saMmUrCati raktamAsAM#}\n {#gItAnugaM vArimfdaNgavAdyam#} <ls>R. 16. 64</ls>; {#raktaM ca nAma maDuraM ca samaM#}\n {#sPuwaM ca#} <ls>Mk. 3. 4</ls>.\n",
+        ".²6 Fond of play, sporting, playful.\n",
+        ".²7 Nasalized (said of a vowel).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 249578,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "M_ .{@{#-ktaH#}@}"
+            ],
+            "_banner": ".{@{#-ktaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Red colour.\n",
+                ".²2 Safflower.\n\n",
+                ".²3 <ab>N.</ab> of Śiva.\n",
+                ".²4 <ab>N.</ab> of a tree ({#hijjala#}).\n",
+                ".²5 The planet Mars.\n"
+            ]
+        },
+        {
+            "__line": 249585,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "M_ .{@{#-ktA#}@}"
+            ],
+            "_banner": ".{@{#-ktA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Lac.\n",
+                ".²2 The plant {#guYjA#}.\n",
+                ".²3 One of the 7 tongues of fire.\n",
+                ".²4 (In music) <ab>N.</ab> of a {#Sruti#}.\n"
+            ]
+        },
+        {
+            "__line": 249590,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Blood; {#raktaM sarvaSarIrasTaM jIvasyADAramuttamam#} <ls>Bhāva P.</ls>\n",
+                ".²2 Copper.\n",
+                ".²3 Cinnabar.\n",
+                ".²4 Saffron.\n",
+                ".²5 Vermilion.\n",
+                ".²6 Dried Emblic Myrobalan; <ls>L. D. B.</ls>\n",
+                ".²7 A disease of the eyes.\n",
+                ".²8 The menstrual fluid.\n",
+                ".²9 Red sandal; {#raktaM pItaM guru svAdu CarditfzRAsrapittanut . pittanetrahitaM#}\n {#vfzyaM jvaravraRavizApaham#} <ls>Bhāva P.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 249602,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-akta#}@}"
+            ],
+            "_banner": ".{@{#-akta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktAkta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 dyed red, tinged.\n",
+                ".²2 smeared with blood.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249605,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-akta#}@}",
+                        "S_M_ ({@{#-ktam#}@})"
+                    ],
+                    "_banner": "({@{#-ktam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: raktAkta ({@{#-ktaM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "red sandal.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249606,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-akza#}@}"
+            ],
+            "_banner": ".{@{#-akza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktAkza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 red-eyed.\n",
+                ".²2 fearful.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249609,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-akza#}@}",
+                        "S_M_ ({@{#-kzaH#}@})"
+                    ],
+                    "_banner": "({@{#-kzaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "raktAkzaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a buffalo.\n",
+                        ".²2 a pigeon.\n",
+                        ".²3 a crane ({#sArasa#}).\n",
+                        ".²4 <ab>N.</ab> of a {#saMvatsara#}.\n",
+                        ".²5 the Chakora bird.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249615,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-aNkaH#}@}"
+            ],
+            "_banner": ".{@{#-aNkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktANkaH"
+                }
+            ],
+            "_meanings": [
+                "a coral.\n"
+            ]
+        },
+        {
+            "__line": 249616,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-aNgaH#}@}"
+            ],
+            "_banner": ".{@{#-aNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktANgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a bug.\n",
+                ".²2 the planet Mars.\n",
+                ".²3 the disc of the sun or moon.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249620,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-aNgaH#}@}",
+                        "S_M_ ({@{#-Ngam#}@})"
+                    ],
+                    "_banner": "({@{#-Ngam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "raktANgam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a coral (also {%m.%} and {%f.%})\n",
+                        ".²2 saffron.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249623,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-ati(tI)sAraH#}@}"
+            ],
+            "_banner": ".{@{#-ati(tI)sAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#rakta#} S_ .{@{#-ati(tI)sAraH#}@}"
+                }
+            ],
+            "_meanings": [
+                "dysentery, bloody flux; {#pittakft#}\n {#tu yadAtyarTaM dravyamaSnAti pEttike . taddozAjjAyate SIGraM raktAtIsAra#}\n {#ulbaRaH ..#} <ls>Bhāva P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 249626,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-aDarA#}@}"
+            ],
+            "_banner": ".{@{#-aDarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktADarA"
+                }
+            ],
+            "_meanings": [
+                "a Kinnarī.\n"
+            ]
+        },
+        {
+            "__line": 249627,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-aDimanTaH#}@}"
+            ],
+            "_banner": ".{@{#-aDimanTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktADimanTaH"
+                }
+            ],
+            "_meanings": [
+                "inflammation of the eyes.\n"
+            ]
+        },
+        {
+            "__line": 249628,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-apaham#}@}"
+            ],
+            "_banner": ".{@{#-apaham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktApaham"
+                }
+            ],
+            "_meanings": [
+                "myrrh.\n"
+            ]
+        },
+        {
+            "__line": 249629,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-ambara#}@}"
+            ],
+            "_banner": ".{@{#-ambara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktAmbara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "clad in red garments.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249630,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-ambara#}@}",
+                        "S_M_ ({@{#-ram#}@})"
+                    ],
+                    "_banner": "({@{#-ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: raktAMbara ({@{#-raM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a red garment.\n."
+                    ]
+                },
+                {
+                    "__line": 249631,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-ambara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: raktAMbara ({@{#-raH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a vagrant devotee wearing red garments.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249632,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-arbudaH#}@}"
+            ],
+            "_banner": ".{@{#-arbudaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktArbudaH"
+                }
+            ],
+            "_meanings": [
+                "a bloody tumour.\n"
+            ]
+        },
+        {
+            "__line": 249633,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-arSas#}@}"
+            ],
+            "_banner": ".{@{#-arSas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktArSas"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a form of piles.\n"
+            ]
+        },
+        {
+            "__line": 249634,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-aSokaH#}@}"
+            ],
+            "_banner": ".{@{#-aSokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktASokaH"
+                }
+            ],
+            "_meanings": [
+                "the red-flowered Aśoka; {#raktASokarucA viSezitaguRo#}\n {#bimbADarAlaktakaH#} <ls>M. 3. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 249636,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-AkAraH#}@}"
+            ],
+            "_banner": ".{@{#-AkAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktAkAraH"
+                }
+            ],
+            "_meanings": [
+                "coral\n"
+            ]
+        },
+        {
+            "__line": 249637,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-ADAraH#}@}"
+            ],
+            "_banner": ".{@{#-ADAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktADAraH"
+                }
+            ],
+            "_meanings": [
+                "the skin.\n"
+            ]
+        },
+        {
+            "__line": 249638,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-ABa#}@}"
+            ],
+            "_banner": ".{@{#-ABa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktABa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "red-looking.\n"
+            ]
+        },
+        {
+            "__line": 249639,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-ASayaH#}@}"
+            ],
+            "_banner": ".{@{#-ASayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktASayaH"
+                }
+            ],
+            "_meanings": [
+                "any viscus containing or secreting blood (as the heart,\n spleen, or liver).\n"
+            ]
+        },
+        {
+            "__line": 249641,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-utpalam#}@}"
+            ],
+            "_banner": ".{@{#-utpalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktotpalam"
+                }
+            ],
+            "_meanings": [
+                "the red lotus.\n"
+            ]
+        },
+        {
+            "__line": 249642,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-upalam#}@}"
+            ],
+            "_banner": ".{@{#-upalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktopalam"
+                }
+            ],
+            "_meanings": [
+                "red chalk, red earth.\n"
+            ]
+        },
+        {
+            "__line": 249643,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-kaRWa, -kaRWin#}@}"
+            ],
+            "_banner": ".{@{#-kaRWa, -kaRWin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakaRWa"
+                },
+                {
+                    "Right": "raktakaRWin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sweet-voiced. --({%m.%}) the cuckoo; {#plAvitE#}\n {#raktakaRWAnAM kUjitESca patatriRAm#} <ls>Bhāg. 4. 6. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 249645,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-kandaH, -kandalaH#}@}"
+            ],
+            "_banner": ".{@{#-kandaH, -kandalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakandaH"
+                },
+                {
+                    "Right": "raktakandalaH"
+                }
+            ],
+            "_meanings": [
+                "coral.\n"
+            ]
+        },
+        {
+            "__line": 249646,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-kadambaH#}@}"
+            ],
+            "_banner": ".{@{#-kadambaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakadambaH"
+                }
+            ],
+            "_meanings": [
+                "the red-flowering Kadamba.\n"
+            ]
+        },
+        {
+            "__line": 249647,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-kamalam#}@}"
+            ],
+            "_banner": ".{@{#-kamalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakamalam"
+                }
+            ],
+            "_meanings": [
+                "the red lotus.\n"
+            ]
+        },
+        {
+            "__line": 249648,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-kumudam#}@}"
+            ],
+            "_banner": ".{@{#-kumudam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakumudam"
+                }
+            ],
+            "_meanings": [
+                "a red lily.\n"
+            ]
+        },
+        {
+            "__line": 249649,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-kesaraH#}@}"
+            ],
+            "_banner": ".{@{#-kesaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakesaraH"
+                }
+            ],
+            "_meanings": [
+                "the coral tree.\n"
+            ]
+        },
+        {
+            "__line": 249650,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-kEravaH, -kokanadaH#}@}"
+            ],
+            "_banner": ".{@{#-kEravaH, -kokanadaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktakEravaH"
+                },
+                {
+                    "Right": "raktakokanadaH"
+                }
+            ],
+            "_meanings": [
+                "a red lotus-flower.\n"
+            ]
+        },
+        {
+            "__line": 249651,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-ganDakam#}@}"
+            ],
+            "_banner": ".{@{#-ganDakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaganDakam"
+                }
+            ],
+            "_meanings": [
+                "myrrh.\n"
+            ]
+        },
+        {
+            "__line": 249652,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-granTiH#}@}"
+            ],
+            "_banner": ".{@{#-granTiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktagranTiH"
+                }
+            ],
+            "_meanings": [
+                "a particular form of urinary disease.\n"
+            ]
+        },
+        {
+            "__line": 249653,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-grIvaH#}@}"
+            ],
+            "_banner": ".{@{#-grIvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktagrIvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a demon.\n",
+                ".²2 a kind of pigeon.\n"
+            ]
+        },
+        {
+            "__line": 249656,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-GnaH#}@}"
+            ],
+            "_banner": ".{@{#-GnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaGnaH"
+                }
+            ],
+            "_meanings": [
+                "the Rohitaka tree.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249657,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-GnaH#}@}",
+                        "S_M_ ({@{#-DnI#}@})"
+                    ],
+                    "_banner": "({@{#-DnI#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: raktaGnaH ({@{#-DnI#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "the Dūrvā grass.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249658,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-candanam#}@}"
+            ],
+            "_banner": ".{@{#-candanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktacandanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 red sandal.\n",
+                ".²2 saffron.\n"
+            ]
+        },
+        {
+            "__line": 249661,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-cUrRam#}@}"
+            ],
+            "_banner": ".{@{#-cUrRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktacUrRam"
+                }
+            ],
+            "_meanings": [
+                "vermilion.\n"
+            ]
+        },
+        {
+            "__line": 249662,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-cCada#}@}"
+            ],
+            "_banner": ".{@{#-cCada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktacCada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "red-leaved.\n"
+            ]
+        },
+        {
+            "__line": 249663,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-CardiH#}@}"
+            ],
+            "_banner": ".{@{#-CardiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktacCardiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "vomiting blood.\n"
+            ]
+        },
+        {
+            "__line": 249664,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-jihvaH#}@}"
+            ],
+            "_banner": ".{@{#-jihvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktajihvaH"
+                }
+            ],
+            "_meanings": [
+                "a lion.\n"
+            ]
+        },
+        {
+            "__line": 249665,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-tuRqaH#}@}"
+            ],
+            "_banner": ".{@{#-tuRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktatuRqaH"
+                }
+            ],
+            "_meanings": [
+                "a parrot.\n"
+            ]
+        },
+        {
+            "__line": 249666,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-tejas#}@}"
+            ],
+            "_banner": ".{@{#-tejas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktatejas"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "flesh.\n"
+            ]
+        },
+        {
+            "__line": 249667,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-dantikA, -dantI#}@}"
+            ],
+            "_banner": ".{@{#-dantikA, -dantI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktadantikA"
+                },
+                {
+                    "Right": "raktadantI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Durgā; {#stuvanto vyAharizyanti satataM#}\n {#raktadantikAm#} <ls>Devīmāhātmya.</ls>\n"
+            ]
+        },
+        {
+            "__line": 249669,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktadfS"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a pigeon.\n"
+            ]
+        },
+        {
+            "__line": 249670,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-DAtuH#}@}"
+            ],
+            "_banner": ".{@{#-DAtuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaDAtuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 red chalk, orpiment.\n",
+                ".²2 copper.\n"
+            ]
+        },
+        {
+            "__line": 249673,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-nAqI#}@}"
+            ],
+            "_banner": ".{@{#-nAqI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktanAqI"
+                }
+            ],
+            "_meanings": [
+                "a fistulous ulcer on the gum caused by a bad state of blood.\n"
+            ]
+        },
+        {
+            "__line": 249674,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-nAsikaH#}@}"
+            ],
+            "_banner": ".{@{#-nAsikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktanAsikaH"
+                }
+            ],
+            "_meanings": [
+                "an owl.\n"
+            ]
+        },
+        {
+            "__line": 249675,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapaH"
+                }
+            ],
+            "_meanings": [
+                "a demon, an evil spirit.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249676,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-paH#}@}",
+                        "S_M_ ({@{#-pA#}@})"
+                    ],
+                    "_banner": "({@{#-pA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "raktapA"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a leech.\n",
+                        ".²2 a Dākiṇī.\n\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249680,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pakzaH#}@}"
+            ],
+            "_banner": ".{@{#-pakzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapakzaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Garuḍa.\n"
+            ]
+        },
+        {
+            "__line": 249681,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pawaH#}@}"
+            ],
+            "_banner": ".{@{#-pawaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapawaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of mendicant; {#kecid raktapawIkftASca jawilAH kApAlikAScApare#}\n <ls>Pt. 4. 34</ls> (<ab>esp.</ab> Jains); {#Darma ityupaDarmezu nagnaraktapawAdizu . prAyeRa#}\n {#sajjate BrAntyA peSalezu ca vAgmizu ..#} <ls>Bhāg. 4. 19. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 249684,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-padmam#}@}"
+            ],
+            "_banner": ".{@{#-padmam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapadmam"
+                }
+            ],
+            "_meanings": [
+                "A red lotus.\n"
+            ]
+        },
+        {
+            "__line": 249685,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pallavaH#}@}"
+            ],
+            "_banner": ".{@{#-pallavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapallavaH"
+                }
+            ],
+            "_meanings": [
+                "the Aśoka tree.\n"
+            ]
+        },
+        {
+            "__line": 249686,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pAtaH#}@}"
+            ],
+            "_banner": ".{@{#-pAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapAtaH"
+                }
+            ],
+            "_meanings": [
+                "blood-shed.\n"
+            ]
+        },
+        {
+            "__line": 249687,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pAtA#}@}"
+            ],
+            "_banner": ".{@{#-pAtA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapAtA"
+                }
+            ],
+            "_meanings": [
+                "a leech.\n"
+            ]
+        },
+        {
+            "__line": 249688,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pAda#}@}"
+            ],
+            "_banner": ".{@{#-pAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapAda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "red-footed.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249689,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-pAda#}@}",
+                        "S_M_ ({@{#-daH#}@})"
+                    ],
+                    "_banner": "({@{#-daH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "raktapAdaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a bird with red feet, a parrot.\n",
+                        ".²2 a war-chariot.\n",
+                        ".²3 an elephant.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249693,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pAyin#}@}"
+            ],
+            "_banner": ".{@{#-pAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapAyin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a bug.\n"
+            ]
+        },
+        {
+            "__line": 249694,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pAyinI#}@}"
+            ],
+            "_banner": ".{@{#-pAyinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapAyinI"
+                }
+            ],
+            "_meanings": [
+                "a leech.\n"
+            ]
+        },
+        {
+            "__line": 249695,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pAradaH, -dam#}@}"
+            ],
+            "_banner": ".{@{#-pAradaH, -dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapAradaH"
+                },
+                {
+                    "Right": "raktapAradam"
+                }
+            ],
+            "_meanings": [
+                "cinnabar.\n"
+            ]
+        },
+        {
+            "__line": 249696,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-piRqam#}@}"
+            ],
+            "_banner": ".{@{#-piRqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapiRqam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a red pimple.\n",
+                ".²2 a spontaneous discharge of blood from the nose and mouth.\n"
+            ]
+        },
+        {
+            "__line": 249699,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pittam#}@}"
+            ],
+            "_banner": ".{@{#-pittam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapittam"
+                }
+            ],
+            "_meanings": [
+                "derangement of the blood produced by bile; {#saMyogAd#}\n {#dUzaRAt tat tu sAmAnyAd ganDavarRayoH . raktaM ca pittamAKyAtaM raktapittaM#}\n {#manIziBiH#} <ls>Bhāva P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 249702,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-puzpaH#}@}"
+            ],
+            "_banner": ".{@{#-puzpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapuzpaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of several plants:-- {#karavIra, rohitaka, dAqima#},\n {#banDUka, punnAga#} <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 249704,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-zpA#}@}"
+            ],
+            "_banner": ".{@{#-zpA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktazpA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the plant Punarnavā; {#punarnavA parAraktA raktapuzpA#}\n {#parArikA#} <ls>Bhāva P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 249706,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pUyam#}@}"
+            ],
+            "_banner": ".{@{#-pUyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapUyam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a hell.\n"
+            ]
+        },
+        {
+            "__line": 249707,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pUrakam#}@}"
+            ],
+            "_banner": ".{@{#-pUrakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapUrakam"
+                }
+            ],
+            "_meanings": [
+                "= {#vfkzAmla#} <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 249708,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-pramehaH#}@}"
+            ],
+            "_banner": ".{@{#-pramehaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktapramehaH"
+                }
+            ],
+            "_meanings": [
+                "the passing of blood in the urine.\n"
+            ]
+        },
+        {
+            "__line": 249709,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-PalaH#}@}"
+            ],
+            "_banner": ".{@{#-PalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaPalaH"
+                }
+            ],
+            "_meanings": [
+                "the figtree.\n"
+            ]
+        },
+        {
+            "__line": 249710,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-binduH#}@}"
+            ],
+            "_banner": ".{@{#-binduH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktabinduH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a demon; {#raktabinduryadA BUmO patatyasya SarIrataH .#}\n {#samutpatati medinyAstatpramARastadAsuraH#} <ls>Devīmāhātmya.</ls>\n"
+            ]
+        },
+        {
+            "__line": 249712,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-bIjaH#}@}"
+            ],
+            "_banner": ".{@{#-bIjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktabIjaH"
+                }
+            ],
+            "_meanings": [
+                "the pomegranate tree.\n"
+            ]
+        },
+        {
+            "__line": 249713,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-matsyaH#}@}"
+            ],
+            "_banner": ".{@{#-matsyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktamatsyaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of red fish.\n"
+            ]
+        },
+        {
+            "__line": 249714,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-Bavam#}@}"
+            ],
+            "_banner": ".{@{#-Bavam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaBavam"
+                }
+            ],
+            "_meanings": [
+                "flesh.\n"
+            ]
+        },
+        {
+            "__line": 249715,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-BAva#}@}"
+            ],
+            "_banner": ".{@{#-BAva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaBAva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 red.\n",
+                ".²2 loving, amorous.\n"
+            ]
+        },
+        {
+            "__line": 249718,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-maYjaraH#}@}"
+            ],
+            "_banner": ".{@{#-maYjaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktamaYjaraH"
+                }
+            ],
+            "_meanings": [
+                "the Nichula tree.\n"
+            ]
+        },
+        {
+            "__line": 249719,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktamaRqalam"
+                }
+            ],
+            "_meanings": [
+                "a red lotus-flower.\n"
+            ]
+        },
+        {
+            "__line": 249720,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-mehaH#}@}"
+            ],
+            "_banner": ".{@{#-mehaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktamehaH"
+                }
+            ],
+            "_meanings": [
+                "the voiding of blood with urine; {#visramuzRaM salavaRaM#}\n {#raktABaM raktamehataH#} <ls>Bhāva P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 249722,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-mokzaH, -mokzaRam#}@}"
+            ],
+            "_banner": ".{@{#-mokzaH, -mokzaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktamokzaH"
+                },
+                {
+                    "Right": "raktamokzaRam"
+                }
+            ],
+            "_meanings": [
+                "bleeding, letting out blood.\n"
+            ]
+        },
+        {
+            "__line": 249723,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-rAjiH#}@}"
+            ],
+            "_banner": ".{@{#-rAjiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktarAjiH"
+                }
+            ],
+            "_meanings": [
+                "a particular disease of the eye.\n"
+            ]
+        },
+        {
+            "__line": 249724,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-reRuH#}@}"
+            ],
+            "_banner": ".{@{#-reRuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktareRuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 vermilion.\n",
+                ".²2 the Punnāga tree.\n",
+                ".²3 an angry man.\n",
+                ".²4 a bud of the Palāśa tree.\n"
+            ]
+        },
+        {
+            "__line": 249729,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-locanaH#}@}"
+            ],
+            "_banner": ".{@{#-locanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktalocanaH"
+                }
+            ],
+            "_meanings": [
+                "a pigeon.\n"
+            ]
+        },
+        {
+            "__line": 249730,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vawI, -varawI#}@}"
+            ],
+            "_banner": ".{@{#-vawI, -varawI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavawI"
+                },
+                {
+                    "Right": "raktavarawI"
+                }
+            ],
+            "_meanings": [
+                "small-pox.\n"
+            ]
+        },
+        {
+            "__line": 249731,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vargaH#}@}"
+            ],
+            "_banner": ".{@{#-vargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavargaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 lac.\n",
+                ".²2 the pomegranate tree.\n",
+                ".²3 safflower.\n"
+            ]
+        },
+        {
+            "__line": 249735,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-varRa#}@}"
+            ],
+            "_banner": ".{@{#-varRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavarRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "red-coloured.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 249736,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-varRa#}@}",
+                        "S_M_ ({@{#-rRaH#}@})"
+                    ],
+                    "_banner": "({@{#-rRaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "raktavarRaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 red colour.\n",
+                        ".²2 cochineal insect.\n."
+                    ]
+                },
+                {
+                    "__line": 249739,
+                    "_ancestry": [
+                        "L_ 27187",
+                        "B_ {#rakta#}",
+                        "S_ .{@{#-varRa#}@}",
+                        "S_M_ ({@{#-rRam#}@})"
+                    ],
+                    "_banner": "({@{#-rRam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "raktavarRam"
+                        }
+                    ],
+                    "_meanings": [
+                        "gold.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 249740,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-varDanaH#}@}"
+            ],
+            "_banner": ".{@{#-varDanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavarDanaH"
+                }
+            ],
+            "_meanings": [
+                "Solanum Melongena (<lang>Mar.</lang> <ns>{#qoralI vAMgI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 249741,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vasana, -vAsas#}@}"
+            ],
+            "_banner": ".{@{#-vasana, -vAsas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavasana"
+                },
+                {
+                    "Right": "raktavAsas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "clothed in red; <ls>Ms. 8. 256</ls>. --({%m.%}) a\n Brāhmaṇa in the fourth order of life.\n"
+            ]
+        },
+        {
+            "__line": 249743,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vAlukam, -kA#}@}"
+            ],
+            "_banner": ".{@{#-vAlukam, -kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavAlukam"
+                },
+                {
+                    "Right": "raktavAlukA"
+                }
+            ],
+            "_meanings": [
+                "vermilion.\n"
+            ]
+        },
+        {
+            "__line": 249744,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vikAraH#}@}"
+            ],
+            "_banner": ".{@{#-vikAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavikAraH"
+                }
+            ],
+            "_meanings": [
+                "deterioration of blood.\n"
+            ]
+        },
+        {
+            "__line": 249745,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vidraDiH#}@}"
+            ],
+            "_banner": ".{@{#-vidraDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavidraDiH"
+                }
+            ],
+            "_meanings": [
+                "a boil filled with blood.\n"
+            ]
+        },
+        {
+            "__line": 249746,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vfzwiH#}@}"
+            ],
+            "_banner": ".{@{#-vfzwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavfzwiH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "shower of blood forboding evil; {#rakte#} ({#varzite#})\n {#SastrodyogaH#} <ls>Jyotistattvam.</ls>\n"
+            ]
+        },
+        {
+            "__line": 249748,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-vIjaH#}@}"
+            ],
+            "_banner": ".{@{#-vIjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktavIjaH"
+                }
+            ],
+            "_meanings": [
+                "the pomegranate tree; (see {#raktabIja#} above).\n"
+            ]
+        },
+        {
+            "__line": 249749,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-SAsanam#}@}"
+            ],
+            "_banner": ".{@{#-SAsanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaSAsanam"
+                }
+            ],
+            "_meanings": [
+                "vermilion.\n"
+            ]
+        },
+        {
+            "__line": 249750,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-SIrzakaH#}@}"
+            ],
+            "_banner": ".{@{#-SIrzakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaSIrzakaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of heron.\n"
+            ]
+        },
+        {
+            "__line": 249751,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-SfNgikam#}@}"
+            ],
+            "_banner": ".{@{#-SfNgikam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktaSfNgikam"
+                }
+            ],
+            "_meanings": [
+                "a kind of poison.\n"
+            ]
+        },
+        {
+            "__line": 249752,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-zWIvI#}@}"
+            ],
+            "_banner": ".{@{#-zWIvI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktazWIvI"
+                }
+            ],
+            "_meanings": [
+                "the spitting of blood.\n"
+            ]
+        },
+        {
+            "__line": 249753,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-saMkocaH#}@}"
+            ],
+            "_banner": ".{@{#-saMkocaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktasaNkocaH"
+                }
+            ],
+            "_meanings": [
+                "safflower.\n"
+            ]
+        },
+        {
+            "__line": 249754,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-saMkocakam#}@}"
+            ],
+            "_banner": ".{@{#-saMkocakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktasaNkocakam"
+                }
+            ],
+            "_meanings": [
+                "a red lotus-flower.\n"
+            ]
+        },
+        {
+            "__line": 249755,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-saMjYam#}@}"
+            ],
+            "_banner": ".{@{#-saMjYam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktasaYjYam"
+                }
+            ],
+            "_meanings": [
+                "saffron.\n"
+            ]
+        },
+        {
+            "__line": 249756,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-saMdaMSikA#}@}"
+            ],
+            "_banner": ".{@{#-saMdaMSikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktasandaMSikA"
+                }
+            ],
+            "_meanings": [
+                "a leech.\n"
+            ]
+        },
+        {
+            "__line": 249757,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-saMDyakam#}@}"
+            ],
+            "_banner": ".{@{#-saMDyakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktasanDyakam"
+                }
+            ],
+            "_meanings": [
+                "the red lotus.\n"
+            ]
+        },
+        {
+            "__line": 249758,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-sAram#}@}"
+            ],
+            "_banner": ".{@{#-sAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktasAram"
+                }
+            ],
+            "_meanings": [
+                "red sandal.\n"
+            ]
+        },
+        {
+            "__line": 249759,
+            "_ancestry": [
+                "L_ 27187",
+                "B_ {#rakta#}",
+                "S_ .{@{#-srAvaH#}@}"
+            ],
+            "_banner": ".{@{#-srAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raktasrAvaH"
+                }
+            ],
+            "_meanings": [
+                "hemorrhage."
+            ]
+        }
     ]
 }

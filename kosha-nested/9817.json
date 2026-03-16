@@ -1,24 +1,121 @@
 {
-    "__line": 82828,
+    "__line": 82013,
     "_ancestry": [
         "L_ 9817",
-        "B_ {#OpajAnuka#}"
+        "B_ {#uparata#}"
     ],
-    "_banner": "{#OpajAnuka#}",
+    "_banner": "{#uparata#}",
     "_bannerExp": [
         {
-            "Right": "OpajAnukI"
-        },
-        {
-            "Right": "OpajAnuka"
+            "Right": "uparata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[ \n{#upajAnuWak#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Being near the knees."
+        ".²1 Stopped, ceased; {#uparatAnyasmin kule vratAni#} <ls>Mbh.</ls> on <ls>P. I. 4. 110</ls>;\n {#rajasyuparate#} <ls>Ms. 5. 66</ls>.\n",
+        ".²2 Dead; {#adya daSamo mAsastAtasyoparatasya#} <ls>Mu. 4</ls>.\n",
+        ".²3 Withdrawn or retired from; {#raRAt, kalahAt#} <ab>&c.</ab> {#BayAdraRAduparatam#} <ls>Bg. 2. 34</ls>.\n",
+        ".²4 One who is disgusted with the world and has retired from it.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 82020,
+            "_ancestry": [
+                "L_ 9817",
+                "B_ {#uparata#}",
+                "S_ .{@{#-ari#}@}"
+            ],
+            "_banner": ".{@{#-ari#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparatAri"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no foe.\n"
+            ]
+        },
+        {
+            "__line": 82021,
+            "_ancestry": [
+                "L_ 9817",
+                "B_ {#uparata#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparatakarman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ceasing from works, not relying on worldly acts.\n"
+            ]
+        },
+        {
+            "__line": 82022,
+            "_ancestry": [
+                "L_ 9817",
+                "B_ {#uparata#}",
+                "S_ .{@{#-vizayABilAza#}@}"
+            ],
+            "_banner": ".{@{#-vizayABilAza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparatavizayABilAza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has renounced all desire for worldly things.\n\n"
+            ]
+        },
+        {
+            "__line": 82024,
+            "_ancestry": [
+                "L_ 9817",
+                "B_ {#uparata#}",
+                "S_ .{@{#-SoRitA#}@}"
+            ],
+            "_banner": ".{@{#-SoRitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparataSoRitA"
+                }
+            ],
+            "_meanings": [
+                "(a woman) whose menses have ceased.\n"
+            ]
+        },
+        {
+            "__line": 82025,
+            "_ancestry": [
+                "L_ 9817",
+                "B_ {#uparata#}",
+                "S_ .{@{#-spfha#}@}"
+            ],
+            "_banner": ".{@{#-spfha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparataspfha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "void of desire, indifferent to worldly attachments\n or possessions."
+            ]
+        }
     ]
 }

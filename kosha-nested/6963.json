@@ -1,39 +1,58 @@
 {
-    "__line": 60072,
+    "__line": 58744,
     "_ancestry": [
         "L_ 6963",
-        "B_ {#AvIta#}"
+        "B_ {#AnadDa#}"
     ],
-    "_banner": "{#AvIta#}",
+    "_banner": "{#AnadDa#}",
     "_bannerExp": [
         {
-            "Right": "AvIta"
+            "Right": "AnadDa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#A-vye-kta#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Worn,\nput on, held after throwing round.\n",
-        "{@--2@} Entered, passed, gone. "
+        ".²1 Bound, tied, fastened.\n",
+        ".²2 Costive (as stomach).\n"
     ],
     "_morphisms": [
         {
-            "__line": 60074,
+            "__line": 58747,
             "_ancestry": [
                 "L_ 6963",
-                "B_ {#AvIta#}",
-                "M_ {#--taM#}"
+                "B_ {#AnadDa#}",
+                "M_ .{@{#-dDaH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-dDaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AvItaM"
+                    "Right": "AnadDaH"
                 }
             ],
             "_meanings": [
-                "The\nsacrificial cord worn in any \nparticular position."
+                ".²1 A drum in general.\n",
+                ".²2 Dressing, putting on clothes, ornaments <ab>&c.</ab>, accoutring.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 58751,
+            "_ancestry": [
+                "L_ 6963",
+                "B_ {#AnadDa#}",
+                "S_ .{@{#-vastitA#}@}"
+            ],
+            "_banner": ".{@{#-vastitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AnadDavastitA"
+                }
+            ],
+            "_meanings": [
+                "retention of urine or constipation."
             ]
         }
     ]

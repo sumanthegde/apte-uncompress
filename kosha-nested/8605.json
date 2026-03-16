@@ -1,62 +1,48 @@
 {
-    "__line": 73570,
+    "__line": 72123,
     "_ancestry": [
         "L_ 8605",
-        "B_ {#upadfS#}"
+        "B_ {#utkara#}"
     ],
-    "_banner": "{#upadfS#}",
+    "_banner": "{#utkara#}",
     "_bannerExp": [
         {
-            "Right": "upadfS"
+            "Right": "utkara"
+        },
+        {
+            "Right": "utkarA"
+        },
+        {
+            "Right": "utkarI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-rA, -rI#}|{%f.%})",
+        "[{#kF-ap#}]"
     ],
     "_meanings": [
-        "To see, behold,\nlook at, perceive. "
+        "That which piles or throws up or raises.\n"
     ],
     "_morphisms": [
         {
-            "__line": 73571,
+            "__line": 72125,
             "_ancestry": [
                 "L_ 8605",
-                "B_ {#upadfS#}",
-                "M_ {%--<ab>pass.</ab>%}"
+                "B_ {#utkara#}",
+                "M_ .{@{#-raH#}@}"
             ],
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "upadfS"
+                    "Right": "utkaraH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>pass.</ab>%}"
-            ],
             "_meanings": [
-                "To be or\nbecome visible. "
-            ]
-        },
-        {
-            "__line": 73572,
-            "_ancestry": [
-                "L_ 8605",
-                "B_ {#upadfS#}",
-                "M_ {%--<ab>Caus.</ab>%}"
-            ],
-            "_bannerExp": [
-                {
-                    "Right": "upadfS"
-                }
-            ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
-            ],
-            "_meanings": [
-                "{@--1@} To cause\nto see, show or exhibit. ",
-                "{@--2@} To\nplace before, show up, communicate,\nmake (one) acquainted (with); {#rAjYaH#}\n{#puro mAmupadarSya#} <ls>H. 3</ls>; {#nayavidBirnave rAjYi#}\n{#sadasaccopadarSitaM#} <ls>R. 4. 10.</ls> ",
-                "{@--3@} To \npresent a false appearance, deceive a\nperson by a false appearance, illude.\n",
-                "{@--4@} To explain, illustrate; <ls>Y. 2. 8.</ls>"
+                ".²1 A heap, multitude; {#naKAMSUtkaraH#} <ls>Ki. 8. 5</ls>.\n",
+                ".²2 A pile, stack.\n",
+                ".²3 Rubbish, what is thrown up ({#mUzikotkara#}) <ls>Mk. 3</ls>.\n",
+                ".²4 A bunch (as of flowers); {#pAdapAnkusumotkarAn#} <ls>Rām. 2. 55. 30</ls>;\n <ls>Bhāg. 7. 10. 69</ls>."
             ]
         }
     ]

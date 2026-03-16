@@ -1,59 +1,206 @@
 {
-    "__line": 262730,
+    "__line": 288610,
     "_ancestry": [
         "L_ 31302",
-        "B_ {#harzayitnu#}"
+        "B_ {#vyasta#}"
     ],
-    "_banner": "{#harzayitnu#}",
+    "_banner": "{#vyasta#}",
     "_bannerExp": [
         {
-            "Right": "harzayitnu"
+            "Right": "vyasta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#hfz-Ric itnu#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Gladdening, pleasing, delighting. "
+        ".²1 Cast or thrown asunder, tossed about; {#vizajyotirujjfmBaRoqqAmaravyastAvistAridoHKaRqaparyAsitakzmADaram#} <ls>Māl. 5. 23</ls>.\n",
+        ".²2 Dispersed, scattered; {#kalpAkzepakaWoraBEravamarudvyastEravastIryate#} <ls>U. 5. 14</ls>.\n",
+        ".²3 Dispelled, cast away.\n",
+        ".²4 Separated, divided, severed; {#te yuzmAsu samastASca vyastAScEveha#}\n {#sadguRAH#} <ls>Mb. 3. 1. 32</ls>; {#caturyugezvaTa vyastA dvAparAdO maharziBiH#} <ls>Bhāg. 12. 6. 46</ls>;\n\n <ls>Śivamahimna 4</ls>; {#himavati jalaDO ca vyastatoyeva gaNgA#} <ls>V. 5. 22</ls>.\n",
+        ".²5 Taken or considered separately, taken singly (<ab>opp.</ab> {#samasta#}); {#eBiH#}\n {#samastErapi kimasya kiM punarvyastEH#} <ls>U. 5</ls>; {#tadasti kiM vyastamapi#}\n {#trilocane#} <ls>Ku. 5. 72</ls>.\n",
+        ".²6 Simple, uncompounded (as a word).\n",
+        ".²7 Manifold, different.\n",
+        ".²8 Removed, expelled; {#SastravyastasamudradattavizayaM labDvA tapastapyate#} <ls>Mv. 2. 19</ls>.\n",
+        ".²9 Agitated, troubled, confused.\n",
+        ".²10 Disordered, out of order, disarranged.\n",
+        ".²11 Reversed, upset\n",
+        ".²12 Inverse (as ratio); {#hradAmBasi vyastavaDUkarAhate ravaM mfdaNgaDvaniDIramujJati#} <ls>Ki. 8. 43</ls>.\n",
+        ".²13 Pervading, inherent in.\n"
     ],
     "_morphisms": [
         {
-            "__line": 262731,
+            "__line": 288629,
             "_ancestry": [
                 "L_ 31302",
-                "B_ {#harzayitnu#}",
-                "M_ {%--<ab>n.</ab>%}"
+                "B_ {#vyasta#}",
+                "M_ .{@{#-stam#}@}"
             ],
+            "_banner": ".{@{#-stam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "harzayitnu"
+                    "Right": "vyastam"
                 }
             ],
             "_gram": [
-                "{%--<ab>n.</ab>%}"
+                "{%n.%}"
             ],
             "_meanings": [
-                "Gold.\n"
+                "Rotation, turning; {#ayanaparivfttirvyastaSabdenocyate#}\n <ls>ŚB. on MS. 6. 5. 37</ls>.\n"
             ]
         },
         {
-            "__line": 262732,
+            "__line": 288631,
             "_ancestry": [
                 "L_ 31302",
-                "B_ {#harzayitnu#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#vyasta#}",
+                "M_ .{@{#-stam#}@}"
             ],
+            "_banner": ".{@{#-stam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "harzayitnu"
+                    "Right": "vyastam"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "A son."
+                "Severally, separately, singly.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 288633,
+            "_ancestry": [
+                "L_ 31302",
+                "B_ {#vyasta#}",
+                "S_ .{@{#-keSa#}@}"
+            ],
+            "_banner": ".{@{#-keSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyastakeSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with disordered or dishevelled hair.\n"
+            ]
+        },
+        {
+            "__line": 288634,
+            "_ancestry": [
+                "L_ 31302",
+                "B_ {#vyasta#}",
+                "S_ .{@{#-trErASikam#}@}"
+            ],
+            "_banner": ".{@{#-trErASikam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyastatrErASikam"
+                }
+            ],
+            "_meanings": [
+                "the rule of three inverted.\n"
+            ]
+        },
+        {
+            "__line": 288635,
+            "_ancestry": [
+                "L_ 31302",
+                "B_ {#vyasta#}",
+                "S_ .{@{#-nyAsa#}@}"
+            ],
+            "_banner": ".{@{#-nyAsa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyastanyAsa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "rumpled (as a couch).\n"
+            ]
+        },
+        {
+            "__line": 288636,
+            "_ancestry": [
+                "L_ 31302",
+                "B_ {#vyasta#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyastapadam"
+                }
+            ],
+            "_meanings": [
+                ".²1 (in law) a confused statement (of a case).\n",
+                ".²2 an uncompounded or simple word.\n"
+            ]
+        },
+        {
+            "__line": 288639,
+            "_ancestry": [
+                "L_ 31302",
+                "B_ {#vyasta#}",
+                "S_ .{@{#-pucCa#}@}"
+            ],
+            "_banner": ".{@{#-pucCa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyastapucCa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having an extended tail.\n"
+            ]
+        },
+        {
+            "__line": 288640,
+            "_ancestry": [
+                "L_ 31302",
+                "B_ {#vyasta#}",
+                "S_ .{@{#-viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyastaviDiH"
+                }
+            ],
+            "_meanings": [
+                "inverted rule.\n"
+            ]
+        },
+        {
+            "__line": 288641,
+            "_ancestry": [
+                "L_ 31302",
+                "B_ {#vyasta#}",
+                "S_ .{@{#-vftti#}@}"
+            ],
+            "_banner": ".{@{#-vftti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vyastavftti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "the meaning of which is changed, which has lost\n its force (as a word); {#vrIqamAvahati me sa saMprati vyastavfttirudayonmuKe#}\n {#tvayi#} <ls>R. 11. 73</ls>."
             ]
         }
     ]

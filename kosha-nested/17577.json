@@ -1,92 +1,85 @@
 {
-    "__line": 147829,
+    "__line": 155310,
     "_ancestry": [
         "L_ 17577",
-        "B_ {#pacana#}"
+        "B_ {#dEvata#}"
     ],
-    "_banner": "{#pacana#}",
+    "_banner": "{#dEvata#}",
     "_bannerExp": [
         {
-            "Right": "pacana"
+            "Right": "dEvata"
+        },
+        {
+            "Right": "dEvatI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#pac-karaRe lyuw#}]"
+        "{%a.%}",
+        "({#-tI#}|{%f.%})",
+        "[{#devatA-aR#}]"
     ],
     "_meanings": [
-        "Cooking,\ndressing, maturing &c. "
+        ".²1 Divine.\n",
+        ".²2 (At the end of an <ab>adj. comp.</ab>) Honouring or worshipping as oneʼs deity,\n as in {#sUryadEvatA janAH#}\n"
     ],
     "_morphisms": [
         {
-            "__line": 147830,
+            "__line": 155315,
             "_ancestry": [
                 "L_ 17577",
-                "B_ {#pacana#}",
-                "M_ {#--naH#}"
+                "B_ {#dEvata#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pacanaH"
+                    "Right": "dEvatam"
                 }
             ],
             "_meanings": [
-                "Fire.\n"
+                "A god, deity, divinity; {#mfdaM gAM dEvataM vipraM GftaM#}\n {#maDu catuzpaTaM pradakziRAni kurvIta#} <ls>Ms. 4. 39</ls>, <ls n=\"Ms. 4.\">153</ls>; <ls>U. 4. 4</ls>; <ls>Amaru. 3</ls>;\n {#hanta priyA dEvatamasya devI#} <ls>Bhāg. 4. 4. 28</ls>.\n",
+                ".²2 A number of gods, the whole class of gods; <ls>Ve. 2</ls>.\n",
+                ".²3 An idol. (The word is said to be {%m.%} also, but is rarely used in\n that gender. Mammaṭa notices it as a fault called {#aprayuktatva#}; see\n {#aprayukta#}).\n",
+                ".²4 <ab>N.</ab> of the third Kāṇḍa of Yāskas Nirukta.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 155324,
+            "_ancestry": [
+                "L_ 17577",
+                "B_ {#dEvata#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dEvatapatiH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Indra.\n"
             ]
         },
         {
-            "__line": 147831,
+            "__line": 155325,
             "_ancestry": [
                 "L_ 17577",
-                "B_ {#pacana#}",
-                "M_ {#--nA#}"
+                "B_ {#dEvata#}",
+                "S_ .{@{#-sarit#}@}"
             ],
-            "_banner": "{#--nA#}",
+            "_banner": ".{@{#-sarit#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pacanA"
+                    "Right": "dEvatasarit"
                 }
             ],
-            "_meanings": [
-                "Becoming ripe, ripening. "
-            ]
-        },
-        {
-            "__line": 147831,
-            "_ancestry": [
-                "L_ 17577",
-                "B_ {#pacana#}",
-                "M_ {#--nI#}"
-            ],
-            "_banner": "{#--nI#}",
-            "_bannerExp": [
-                {
-                    "Right": "pacanI"
-                }
+            "_gram": [
+                "{%f.%}"
             ],
             "_meanings": [
-                "The wild citron tree. "
-            ]
-        },
-        {
-            "__line": 147832,
-            "_ancestry": [
-                "L_ 17577",
-                "B_ {#pacana#}",
-                "M_ {#--naM#}"
-            ],
-            "_banner": "{#--naM#}",
-            "_bannerExp": [
-                {
-                    "Right": "pacanaM"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} \nCooking, dressing, maturing &c. ",
-                "{@--2@} A\nmeans or instrument for cooking, a\nvessel, fuel &c. ",
-                "{@--3@} Ripening, \nmaturing. ",
-                "{@--4@} Becoming cooked or ripe."
+                "the Ganges."
             ]
         }
     ]

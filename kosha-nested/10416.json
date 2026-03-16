@@ -1,22 +1,123 @@
 {
-    "__line": 87468,
+    "__line": 86663,
     "_ancestry": [
         "L_ 10416",
-        "B_ {#kardaH, --kardawaH#}"
+        "B_ {#uzmaH#}, {#-uzmakaH#}"
     ],
-    "_banner": "{#kardaH, --kardawaH#}",
+    "_banner": "{#uzmaH#}, {#-uzmakaH#}",
     "_bannerExp": [
         {
-            "Right": "kardaH"
+            "Right": "uzmaH"
         },
         {
-            "Right": "kardawaH"
+            "Right": "uzmakaH"
         }
     ],
+    "_gram": [
+        "[{#uz-mak#}]"
+    ],
     "_meanings": [
-        "{@--1@} Mud. ",
-        "{@--2@} Clay.\n",
-        "{@--3@} The fibrous root of the lotus.\n",
-        "{@--4@} Any aquatic weed."
+        ".²1 Heat.\n",
+        ".²2 The hot season, summer.\n",
+        ".²3 Spring.\n",
+        ".²4 Anger, warmth of temper.\n",
+        ".²5 Ardour, eagerness, zeal.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 86671,
+            "_ancestry": [
+                "L_ 10416",
+                "B_ {#uzmaH#}, {#-uzmakaH#}",
+                "S_ .{@{#-anvita#}@}"
+            ],
+            "_banner": ".{@{#-anvita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzmAnvita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "enraged.\n"
+            ]
+        },
+        {
+            "__line": 86672,
+            "_ancestry": [
+                "L_ 10416",
+                "B_ {#uzmaH#}, {#-uzmakaH#}",
+                "S_ .{@{#-AgamaH, -upagamaH#}@}"
+            ],
+            "_banner": ".{@{#-AgamaH, -upagamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzmAgamaH"
+                },
+                {
+                    "Right": "uzmopagamaH"
+                }
+            ],
+            "_meanings": [
+                "the hot season.\n"
+            ]
+        },
+        {
+            "__line": 86673,
+            "_ancestry": [
+                "L_ 10416",
+                "B_ {#uzmaH#}, {#-uzmakaH#}",
+                "S_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzmapaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the son of Bhṛgu.\n",
+                ".²2 the manes; a deceased ancestor.\n"
+            ]
+        },
+        {
+            "__line": 86676,
+            "_ancestry": [
+                "L_ 10416",
+                "B_ {#uzmaH#}, {#-uzmakaH#}",
+                "S_ .{@{#-BAs#}@}"
+            ],
+            "_banner": ".{@{#-BAs#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzmaBAs"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 86677,
+            "_ancestry": [
+                "L_ 10416",
+                "B_ {#uzmaH#}, {#-uzmakaH#}",
+                "S_ .{@{#-svedaH#}@}"
+            ],
+            "_banner": ".{@{#-svedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzmasvedaH"
+                }
+            ],
+            "_meanings": [
+                "a vapour bath."
+            ]
+        }
     ]
 }

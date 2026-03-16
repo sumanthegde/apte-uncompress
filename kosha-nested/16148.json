@@ -1,24 +1,102 @@
 {
-    "__line": 135647,
+    "__line": 139965,
     "_ancestry": [
         "L_ 16148",
-        "B_ {#Dfj, DfMj#}"
+        "B_ {#tapa#}"
     ],
-    "_banner": "{#Dfj, DfMj#}",
+    "_banner": "{#tapa#}",
     "_bannerExp": [
         {
-            "Right": "DfMj"
-        },
-        {
-            "Right": "Dfj"
+            "Right": "tapa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#Darjati DfMjati#})"
+        "{%a.%}",
+        "[{#tap-ac#}]"
     ],
     "_meanings": [
-        "To go,\nmove."
+        ".²1 Burning, warming, consuming by heat.\n",
+        ".²2 Causing pain or trouble, distressing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 139968,
+            "_ancestry": [
+                "L_ 16148",
+                "B_ {#tapa#}",
+                "M_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Heat, fire, warmth.\n",
+                ".²2 The sun; {#tapatapanasahasradyotavaddurnirIkzyam#} ({#tejaH#}) <ls>Rām. Ch. 2. 85</ls>.\n",
+                ".²3 The hot season; <ls>Śi. 1. 66</ls>.\n",
+                ".²4 Penance, religious austerities.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 139974,
+            "_ancestry": [
+                "L_ 16148",
+                "B_ {#tapa#}",
+                "S_ .{@{#-atyayaH, -antaH#}@}"
+            ],
+            "_banner": ".{@{#-atyayaH, -antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapAtyayaH"
+                },
+                {
+                    "Right": "tapAntaH"
+                }
+            ],
+            "_meanings": [
+                "the end of the hot season and the beginning of\n the rainy season; {#ravipItajalA tapAtyaye punaroGena hi yujyate nadI#}\n <ls>Ku. 4. 44</ls>, <ls n=\"Ku.\">5. 23</ls>; <ls>Ś. 3. 11</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139977,
+            "_ancestry": [
+                "L_ 16148",
+                "B_ {#tapa#}",
+                "S_ .{@{#-Atmaka#}@}"
+            ],
+            "_banner": ".{@{#-Atmaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapAtmaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "practising austerities.\n"
+            ]
+        },
+        {
+            "__line": 139978,
+            "_ancestry": [
+                "L_ 16148",
+                "B_ {#tapa#}",
+                "S_ .{@{#-ftuH#}@}"
+            ],
+            "_banner": ".{@{#-ftuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapartuH"
+                }
+            ],
+            "_meanings": [
+                "the hot season; {#tapartupUrtAvapi medasAM BarA#} <ls>N. 1. 41</ls>."
+            ]
+        }
     ]
 }

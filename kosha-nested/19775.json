@@ -1,45 +1,90 @@
 {
-    "__line": 165355,
+    "__line": 177489,
     "_ancestry": [
         "L_ 19775",
-        "B_ {#praRud#}"
+        "B_ {#pawIra#}"
     ],
-    "_banner": "{#praRud#}",
+    "_banner": "{#pawIra#}",
     "_bannerExp": [
         {
-            "Right": "praRud"
+            "Right": "pawIra"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To dispel, drive\noff, remove; <ls>Śi. 9. 71.</ls> ",
-        "{@--2@} To push\nor thrust forward, push on. ",
-        "{@--3@} To\ndrive, stir, set in motion. ",
-        "{@--4@} To\nscare way, frighten away. "
+        ".²1 Beautiful, lovely.\n",
+        ".²2 High, tall.\n"
     ],
     "_morphisms": [
         {
-            "__line": 165359,
+            "__line": 177492,
             "_ancestry": [
                 "L_ 19775",
-                "B_ {#praRud#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#pawIra#}",
+                "M_ .{@{#-raH#}@}"
             ],
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "praRud"
+                    "Right": "pawIraH"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "[{#paw Iran#}]"
             ],
             "_meanings": [
-                "{@--1@} To prompt, incite, urge forward.\n",
-                "{@--2@} To push away. ",
-                "{@--3@} To request or\nask any one."
+                ".²1 A ball for playing with.\n",
+                ".²2 Sandal-wood\n",
+                ".²3 Cupid, the god of love.\n"
+            ]
+        },
+        {
+            "__line": 177496,
+            "_ancestry": [
+                "L_ 19775",
+                "B_ {#pawIra#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawIram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Catechu.\n",
+                ".²2 A Sieve\n",
+                ".²3 The belly.\n",
+                ".²4 A field.\n",
+                ".²5 A cloud.\n",
+                ".²6 Height\n",
+                ".²7 A radish.\n",
+                ".²8 Rheumatism.\n",
+                ".²9 Catarrh.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 177507,
+            "_ancestry": [
+                "L_ 19775",
+                "B_ {#pawIra#}",
+                "S_ .{@{#-janman#}@}"
+            ],
+            "_banner": ".{@{#-janman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pawIrajanman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "sandal-tree; {#vahati vizaDarAn pawIrajanmA#} <ls>Bv. 1. 74</ls>"
             ]
         }
     ]

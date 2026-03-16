@@ -1,62 +1,269 @@
 {
-    "__line": 42393,
+    "__line": 40230,
     "_ancestry": [
         "L_ 4698",
-        "B_ {#avamUrDan#}"
+        "B_ {#aliH#}"
     ],
-    "_banner": "{#avamUrDan#}",
+    "_banner": "{#aliH#}",
     "_bannerExp": [
         {
-            "Right": "avamUrDan"
+            "Right": "aliH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#avanato mUrdDA'sya#}]"
+        "[{#al-in#} <ls>Uṇ. 4. 138</ls>]"
     ],
     "_meanings": [
-        "With one's head hanging down.\n"
+        ".²1 A black bee.\n",
+        ".²2 A scorpion.\n",
+        ".²3 A crow.\n",
+        ".²4 The (Indian) cuckoo.\n",
+        ".²5 The sign of the zodiac called {#vfScika#}.\n",
+        ".²6 Spirituous liquor. <ab>cf.</ab> {#… aliH paNktO ca vfScike . BfNge vayasyAM#}\n {#BUmO syAt … .#} <ls>Nm.</ls>\n"
     ],
     "_samasas": [
         {
-            "__line": 42395,
+            "__line": 40239,
             "_ancestry": [
                 "L_ 4698",
-                "B_ {#avamUrDan#}",
-                "S_  {#--Saya#}"
+                "B_ {#aliH#}",
+                "S_ .{@{#-kulam#}@}"
             ],
-            "_banner": " {#--Saya#}",
+            "_banner": ".{@{#-kulam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avamUrDaSaya"
+                    "Right": "alikulam"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}",
-                "[{#avamUrdDA san Sete#}; \n{#SIac#}]"
-            ],
             "_meanings": [
-                "lying with the head \nhanging down. "
+                "a flight or number of bees; "
             ],
-            "_morphisms": [
+            "_samasas": [
                 {
-                    "__line": 42397,
+                    "__line": 40239,
                     "_ancestry": [
                         "L_ 4698",
-                        "B_ {#avamUrDan#}",
-                        "S_  {#--Saya#}",
-                        "S_M_ ({#--yaH#}"
+                        "B_ {#aliH#}",
+                        "S_ .{@{#-kulam#}@}",
+                        "S_S_ {#˚saNkula#}"
                     ],
-                    "_banner": "({#--yaH#}",
+                    "_banner": "{#˚saNkula#}",
                     "_bannerExp": [
                         {
-                            "Right": "avamUrDaSayaH"
+                            "Right": "alikulasaNkula"
                         }
                     ],
                     "_meanings": [
-                        "one who sleeps\nwith his head hanging down, such\nas man (<ab>opp.</ab> {#deva#}); {#uttAnaSayA devA#} \n{#avamUrDaSayA manuzyAH#}."
+                        "full of a swarm\n of bees; {#alikulasaNkulakusumanirAkulanavadalamAlatamAle#} <ls>Gīt. 1</ls>;\n "
+                    ]
+                },
+                {
+                    "__line": 40241,
+                    "_ancestry": [
+                        "L_ 4698",
+                        "B_ {#aliH#}",
+                        "S_ .{@{#-kulam#}@}",
+                        "S_S_ {#˚saNkulaH#}"
+                    ],
+                    "_banner": "{#˚saNkulaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "alikulasaNkulaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the {%kubja%} plant.\n"
                     ]
                 }
+            ]
+        },
+        {
+            "__line": 40242,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-jihvA, -hvikA#}@}"
+            ],
+            "_banner": ".{@{#-jihvA, -hvikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alijihvA"
+                },
+                {
+                    "Left": "S error: midAlign hvikA jihvikA"
+                }
+            ],
+            "_gram": [
+                "[{#aliriva kzudrA jihvA#}]"
+            ],
+            "_meanings": [
+                "the uvula, soft palate.\n"
+            ]
+        },
+        {
+            "__line": 40243,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-dUrvA#}@}"
+            ],
+            "_banner": ".{@{#-dUrvA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alidUrvA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant ({#mAlAdUrvA#}).\n"
+            ]
+        },
+        {
+            "__line": 40244,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-patrikA, -parRI#}@}"
+            ],
+            "_banner": ".{@{#-patrikA, -parRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alipatrikA"
+                },
+                {
+                    "Right": "aliparRI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a tree ({#vfScikapatrAKyavfkzaH#}; <lang>Mar.</lang>\n <ns>{#KAjakuyalI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 40246,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-priya#}@}"
+            ],
+            "_banner": ".{@{#-priya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alipriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pleasing to the bees.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40247,
+                    "_ancestry": [
+                        "L_ 4698",
+                        "B_ {#aliH#}",
+                        "S_ .{@{#-priya#}@}",
+                        "S_M_ ({@{#-yaH#}@})"
+                    ],
+                    "_banner": "({@{#-yaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alipriyaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the red lotus.\n."
+                    ]
+                },
+                {
+                    "__line": 40248,
+                    "_ancestry": [
+                        "L_ 4698",
+                        "B_ {#aliH#}",
+                        "S_ .{@{#-priya#}@}",
+                        "S_M_ ({@{#-yA#}@})"
+                    ],
+                    "_banner": "({@{#-yA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alipriyA"
+                        }
+                    ],
+                    "_meanings": [
+                        "the trumpet flower.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40249,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-mAlA#}@}"
+            ],
+            "_banner": ".{@{#-mAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alimAlA"
+                }
+            ],
+            "_meanings": [
+                "a flight of bees.\n"
+            ]
+        },
+        {
+            "__line": 40250,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-modA#}@}"
+            ],
+            "_banner": ".{@{#-modA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alimodA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant ({#gaRikArI#}).\n"
+            ]
+        },
+        {
+            "__line": 40251,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-virAvaH, -rutam#}@}"
+            ],
+            "_banner": ".{@{#-virAvaH, -rutam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alivirAvaH"
+                },
+                {
+                    "Left": "S error: midAlign rutaM virutaM"
+                }
+            ],
+            "_meanings": [
+                "song or hum of a bee.\n"
+            ]
+        },
+        {
+            "__line": 40252,
+            "_ancestry": [
+                "L_ 4698",
+                "B_ {#aliH#}",
+                "S_ .{@{#-vallaBaH#}@}"
+            ],
+            "_banner": ".{@{#-vallaBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alivallaBaH"
+                }
+            ],
+            "_meanings": [
+                "= {#˚priya#} <ab>q. v.</ab>"
             ]
         }
     ]

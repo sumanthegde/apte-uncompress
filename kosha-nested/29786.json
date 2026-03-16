@@ -1,41 +1,136 @@
 {
-    "__line": 249307,
+    "__line": 275133,
     "_ancestry": [
         "L_ 29786",
-        "B_ {#saMmuh#}"
+        "B_ {#vinDyaH#}"
     ],
-    "_banner": "{#saMmuh#}",
+    "_banner": "{#vinDyaH#}",
     "_bannerExp": [
         {
-            "Right": "saMmuh"
+            "Right": "vinDyaH"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "[{#vidaDAti karoti Bayam#} <ls>Uṇ. 4. 121</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To be perplexed.\n",
-        "{@--2@} To be foolish, infatuated, or \nunconscious. "
+        ".²1 <ab>N.</ab> of a range of mountains which separates Hindustan proper from the\n Deccan or south; it is one of the seven {%Kulaparvatas%} (<ab>q. v.</ab>) and\n forms the southern limit of Madhyadeśa; see <ls>Ms. 2. 21</ls>. [According to\n a legend, the Vindhya mountain, being jealous of the mount Meru (or Himālaya)\n demanded that the sun should revolve round himself as about Meru, which\n the sun declined to do; whereupon the Vindhya began to rise higher and\n higher so as to obstruct the path of the sun and moon. The gods being\n alarmed sought the aid of the sage Agastya, who approached the mountain\n and requested that by bending down he would give him an easy passage to\n the south, and that he would retain the same position till his return.\n This Vindhya consented to do (because according to one account, he regarded\n Agastya as his teacher); but Agastya never returned from the south, and\n Vindhya never attained the height of Meru.]\n",
+        ".²2 A hunter.\n"
     ],
     "_morphisms": [
         {
-            "__line": 249309,
+            "__line": 275148,
             "_ancestry": [
                 "L_ 29786",
-                "B_ {#saMmuh#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#vinDyaH#}",
+                "M_ .{@{#-nDyA#}@}"
             ],
+            "_banner": ".{@{#-nDyA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMmuh"
+                    "Right": "vinDyA"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a plant ({#lavalI#}).\n",
+                ".²2 Small cardamoms.\n",
+                ".²3 A measure of time ({#truwi#}); <ls>L. D. B.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 275153,
+            "_ancestry": [
+                "L_ 29786",
+                "B_ {#vinDyaH#}",
+                "S_ .{@{#-awavI#}@}"
+            ],
+            "_banner": ".{@{#-awavI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinDyAwavI"
+                }
+            ],
+            "_meanings": [
+                "the great Vindhya forest.\n"
+            ]
+        },
+        {
+            "__line": 275154,
+            "_ancestry": [
+                "L_ 29786",
+                "B_ {#vinDyaH#}",
+                "S_ .{@{#-kUwaH, -kUwanam#}@}"
+            ],
+            "_banner": ".{@{#-kUwaH, -kUwanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinDyakUwaH"
+                },
+                {
+                    "Right": "vinDyakUwanam"
+                }
+            ],
+            "_meanings": [
+                "epithets of the sage Agastya.\n"
+            ]
+        },
+        {
+            "__line": 275155,
+            "_ancestry": [
+                "L_ 29786",
+                "B_ {#vinDyaH#}",
+                "S_ .{@{#-giriH#}@}"
+            ],
+            "_banner": ".{@{#-giriH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinDyagiriH"
+                }
+            ],
+            "_meanings": [
+                "the Vindhya range of hills; also {#vinDyAcala, vinDyAdri#}.\n"
+            ]
+        },
+        {
+            "__line": 275156,
+            "_ancestry": [
+                "L_ 29786",
+                "B_ {#vinDyaH#}",
+                "S_ .{@{#-vAsin#}@}"
+            ],
+            "_banner": ".{@{#-vAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinDyavAsin"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%m.%}"
             ],
             "_meanings": [
-                "To infatuate, \n\nstupefy."
+                "an epithet of the grammarian {#vyAqi#}.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 275157,
+                    "_ancestry": [
+                        "L_ 29786",
+                        "B_ {#vinDyaH#}",
+                        "S_ .{@{#-vAsin#}@}",
+                        "S_M_ ({@{#-nI#}@})"
+                    ],
+                    "_banner": "({@{#-nI#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "vinDyavAsinI"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Durgā."
+                    ]
+                }
             ]
         }
     ]

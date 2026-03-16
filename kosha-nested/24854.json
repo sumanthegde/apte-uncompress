@@ -1,22 +1,36 @@
 {
-    "__line": 210640,
+    "__line": 223245,
     "_ancestry": [
         "L_ 24854",
-        "B_ {#vaMg#}"
+        "B_ {#BaNgA#}"
     ],
-    "_banner": "{#vaMg#}",
+    "_banner": "{#BaNgA#}",
     "_bannerExp": [
         {
-            "Right": "vaMg"
+            "Right": "BaNgA"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#vaMgati#})"
-    ],
     "_meanings": [
-        "{@--1@} To go. ",
-        "{@--2@}\nTo limp, be lame."
+        ".²1 Hemp.\n",
+        ".²2 An intoxicating drink prepared from hemp.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 223249,
+            "_ancestry": [
+                "L_ 24854",
+                "B_ {#BaNgA#}",
+                "S_ .{@{#-kawam#}@}"
+            ],
+            "_banner": ".{@{#-kawam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BaNgAkawam"
+                }
+            ],
+            "_meanings": [
+                "the pollen of hemp."
+            ]
+        }
     ]
 }

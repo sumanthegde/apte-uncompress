@@ -1,21 +1,69 @@
 {
-    "__line": 78151,
+    "__line": 77570,
     "_ancestry": [
         "L_ 9231",
-        "B_ {#urv#}"
+        "B_ {#udvigna#}"
     ],
-    "_banner": "{#urv#}",
+    "_banner": "{#udvigna#}",
     "_bannerExp": [
         {
-            "Right": "urv"
+            "Right": "udvigna"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#urvati, OrvIt, urvita#})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "To\nkill or hurt."
+        ".²1 Grieved, afflicted, sorrowful, anxious (as for any absent lover);\n",
+        ".²2 Alarmed, frightened; <ls>U. 4</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 77573,
+            "_ancestry": [
+                "L_ 9231",
+                "B_ {#udvigna#}",
+                "S_ .{@{#-citta, -cetas, -manas, -hfdaya#}@}"
+            ],
+            "_banner": ".{@{#-citta, -cetas, -manas, -hfdaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udvignacitta"
+                },
+                {
+                    "Right": "udvignacetas"
+                },
+                {
+                    "Right": "udvignamanas"
+                },
+                {
+                    "Right": "udvignahfdaya"
+                }
+            ],
+            "_meanings": [
+                "depressed in mind, sorry, anxious.\n"
+            ]
+        },
+        {
+            "__line": 77574,
+            "_ancestry": [
+                "L_ 9231",
+                "B_ {#udvigna#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udvignadfS"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                ".{@{#-locanam#}@}"
+            ],
+            "_meanings": [
+                "A frightened glance."
+            ]
+        }
     ]
 }

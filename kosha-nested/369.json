@@ -1,20 +1,85 @@
 {
-    "__line": 5807,
+    "__line": 4416,
     "_ancestry": [
         "L_ 369",
-        "B_ {#ajananiH#}"
+        "B_ {#acira#}"
     ],
-    "_banner": "{#ajananiH#}",
+    "_banner": "{#acira#}",
     "_bannerExp": [
         {
-            "Right": "ajananiH"
+            "Right": "acira"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#naY jan-AkroSe ani#} \n<ls>P. III. 3. 112</ls>]"
+        "{%a.%}",
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "Cessation of existence;\n{#tasyAjananirevAstu jananIkleSakAriRaH#}  \n<ls>Śi. 2. 45</ls> may he not be born, may he\ncease to exist!"
+        ".²1 Brief, transitory, of short duration; {#˚dyuti, ˚BAs, ˚praBA#} <ab>&c.</ab> <ab>q. v.</ab>\n",
+        ".²2 Recent, late, new; {#akarodacireSvaraH kzitO#} <ls>R. 8. 20</ls> the new lord.\n In compounds {#acira#} may be rendered by ‘recently’, ‘just’, ‘not long\n ago’; {#˚pravfttaM grIzmasamayamaDikftya#} <ls>Ś. 1</ls>, just set in. {#˚prasUtA#};\n {#aciraprasUtayA jananyA vinA vivarDita eva#} <ls>Ś. 4</ls>; having recently brought\n forth (who died not long after delivery, said of a doe) or a cow that\n has recently calved.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 4424,
+            "_ancestry": [
+                "L_ 369",
+                "B_ {#acira#}",
+                "M_ .{@{#-rama#}@}"
+            ],
+            "_banner": ".{@{#-rama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aciram"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "(also {#acireRa, acirAya, acirAt, acirasya#} in\n the same senses)\n",
+                ".²1 Not long since, not long ago.\n",
+                ".²2 Recently, lately.\n",
+                ".²3 Soon, quickly, not long hence.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 4430,
+            "_ancestry": [
+                "L_ 369",
+                "B_ {#acira#}",
+                "S_ .{@{#-aMSu, -ABA, -dyutiH, -praBA, -BAs, -rocis#}@}"
+            ],
+            "_banner": ".{@{#-aMSu, -ABA, -dyutiH, -praBA, -BAs, -rocis#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "acirAMSu"
+                },
+                {
+                    "Right": "acirABA"
+                },
+                {
+                    "Right": "aciradyutiH"
+                },
+                {
+                    "Right": "acirapraBA"
+                },
+                {
+                    "Left": "S error: midAlign BAs praBAs"
+                },
+                {
+                    "Right": "acirarocis"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "[{#acirAH aMSavaH#}, {#acirA ABA-praBA#} <ab>&c.</ab> {#yasyAH sA#}]"
+            ],
+            "_meanings": [
+                ".²1 lightning; {#˚SuvilAsacaYcalA lakzmIH#}\n <ls>Ki. 2. 19</ls>; {#˚BAsAM tejasA cAnuliptEH#} <ls>Ś. 7. 7.</ls>; <ls>Ki. 4. 24</ls>, {#aciradyutitejasA#} <ls n=\"Ki.\">5. 6</ls>.\n {#samutpaPAla gagane meGAdaciraBA iva#} <ls>Parṇāl. 5. 98</ls>.\n",
+                ".²2 (<sab>{#karma˚#}</sab>) transitory lustre, short gleam."
+            ]
+        }
     ]
 }

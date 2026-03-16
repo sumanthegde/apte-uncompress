@@ -1,38 +1,59 @@
 {
-    "__line": 1683,
+    "__line": 801,
     "_ancestry": [
         "L_ 91",
-        "B_ {#akfcCra#}"
+        "B_ {#akutaH#}"
     ],
-    "_banner": "{#akfcCra#}",
+    "_banner": "{#akutaH#}",
     "_bannerExp": [
         {
-            "Right": "akfcCra"
+            "Right": "akutaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#na#}. {#ba#}.]"
+        "{%<ab>adv.</ab>%}",
+        "[{#na kutaH#}, <sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "Free from \ndifficulty. "
+        "Not from anywhere (in <ab>comp.</ab> only).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 1684,
+            "__line": 803,
             "_ancestry": [
                 "L_ 91",
-                "B_ {#akfcCra#}",
-                "M_ {#--cCraM#}"
+                "B_ {#akutaH#}",
+                "S_ .{@{#-calaH#}@}"
             ],
-            "_banner": "{#--cCraM#}",
+            "_banner": ".{@{#-calaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "akfcCraM"
+                    "Right": "akutacalaH"
                 }
             ],
             "_meanings": [
-                "Absence of difficulty,\nease, facility."
+                "<ab>N.</ab> of Śiva (not movable from any cause).\n"
+            ]
+        },
+        {
+            "__line": 804,
+            "_ancestry": [
+                "L_ 91",
+                "B_ {#akutaH#}",
+                "S_ .{@{#-Baya#}@}"
+            ],
+            "_banner": ".{@{#-Baya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akutaBaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#nAsti kuto'pi BayaM yasya#}]"
+            ],
+            "_meanings": [
+                "secure, not threatened\n from any quarter, free from danger or fear, safe; {#mAdfSAnAmapi ˚yaH#}\n {#saMcAro jAtaH#} <ls>U. 2</ls>; {#yAni trIRyakutoBayAni ca padAnyAsanKarAyoDane#}\n {%<ab>v. l.</ab>%} for {#aparANmuKARi#} <ls n=\"U.\">5. 34</ls>. ({#akutaScidBaya#} also in the same sense)."
             ]
         }
     ]

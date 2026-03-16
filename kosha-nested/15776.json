@@ -1,55 +1,132 @@
 {
-    "__line": 132025,
+    "__line": 136835,
     "_ancestry": [
         "L_ 15776",
-        "B_ {#drapsa#}"
+        "B_ {#jYAtiH#}"
     ],
-    "_banner": "{#drapsa#}",
+    "_banner": "{#jYAtiH#}",
     "_bannerExp": [
         {
-            "Right": "drapsa"
+            "Right": "jYAtiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#jYA-ktic#}]"
     ],
     "_meanings": [
-        "Dripping, trickling\ndown. "
+        ".²1 A paternal relation, a father, brother <ab>&c.</ab>; agnate relatives collectively.\n",
+        ".²2 A kinsman or kindred in general.\n",
+        ".²3 A distant kinsman who is not entitled to the oblations offered to deceased ancestors.\n",
+        ".²4 A father.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 132026,
+            "__line": 136841,
             "_ancestry": [
                 "L_ 15776",
-                "B_ {#drapsa#}",
-                "M_ {#--psaH#}"
+                "B_ {#jYAtiH#}",
+                "S_ .{@{#-karman#}@}"
             ],
-            "_banner": "{#--psaH#}",
+            "_banner": ".{@{#-karman#}@}",
             "_bannerExp": [
                 {
-                    "Right": "drapsaH"
+                    "Right": "jYAtikarman"
                 }
             ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-kAryam#}@}"
+            ],
             "_meanings": [
-                "{@--1@} A drop. ",
-                "{@--2@} A spark\n(of fire). "
+                "the duty of a kinsman.\n"
             ]
         },
         {
-            "__line": 132027,
+            "__line": 136843,
             "_ancestry": [
                 "L_ 15776",
-                "B_ {#drapsa#}",
-                "M_ {#--psaM#}"
+                "B_ {#jYAtiH#}",
+                "S_ .{@{#-celam#}@}"
             ],
-            "_banner": "{#--psaM#}",
+            "_banner": ".{@{#-celam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "drapsaM"
+                    "Right": "jYAticelam"
                 }
             ],
             "_meanings": [
-                "Diluted sour milk,\ndiluted curds; (also {#drapsyaM#})."
+                "A low-born person; {#viBinnakarmASayavAk kule no mA jYAticelaM#}\n {#Buvi karayacid BUt .#} <ls>Bk. 12. 78</ls>.\n"
+            ]
+        },
+        {
+            "__line": 136845,
+            "_ancestry": [
+                "L_ 15776",
+                "B_ {#jYAtiH#}",
+                "S_ .{@{#-prAyaH#}@}"
+            ],
+            "_banner": ".{@{#-prAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jYAtiprAyaH"
+                }
+            ],
+            "_meanings": [
+                "A meal for kinsmen (<lang>Mar.</lang> <ns>{#jAtiBojana#}</ns>); {#prakzAlya#}\n {#hastAvAcamya jYAtiprAyaM prakalpayet#} <ls>Ms. 3. 264</ls>.\n"
+            ]
+        },
+        {
+            "__line": 136847,
+            "_ancestry": [
+                "L_ 15776",
+                "B_ {#jYAtiH#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jYAtiBAvaH"
+                }
+            ],
+            "_meanings": [
+                "kin, relationship.\n"
+            ]
+        },
+        {
+            "__line": 136848,
+            "_ancestry": [
+                "L_ 15776",
+                "B_ {#jYAtiH#}",
+                "S_ .{@{#-BedaH#}@}"
+            ],
+            "_banner": ".{@{#-BedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jYAtiBedaH"
+                }
+            ],
+            "_meanings": [
+                "dissension among relatives.\n"
+            ]
+        },
+        {
+            "__line": 136849,
+            "_ancestry": [
+                "L_ 15776",
+                "B_ {#jYAtiH#}",
+                "S_ .{@{#-vid#}@}"
+            ],
+            "_banner": ".{@{#-vid#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jYAtivid"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has or makes near relatives."
             ]
         }
     ]

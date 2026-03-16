@@ -1,23 +1,87 @@
 {
-    "__line": 256679,
+    "__line": 282432,
     "_ancestry": [
         "L_ 30612",
-        "B_ {#sOkaryaM#}"
+        "B_ {#vihita#}"
     ],
-    "_banner": "{#sOkaryaM#}",
+    "_banner": "{#vihita#}",
     "_bannerExp": [
         {
-            "Right": "sOkaryaM"
+            "Right": "vihita"
         }
     ],
     "_gram": [
-        "[{#sukarasya BAvaH karma vA zyaY#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Hoggishness. ",
-        "{@--2@} Ease, facility;\n{#sOkaryaM ca kAryasyAnAyAseQa sidDyA#} \n{#sAMgasidDyA ca boDyam#}. ",
-        "{@--3@} Practicability,\nfeasibility. ",
-        "{@--4@} Adroitness, skill. ",
-        "{@--5@}\nAn easy or {%extempore%} preparation\nof food or medicine. "
+        ".²1 Done, performed, made, acted.\n",
+        ".²2 Arranged, fixed, settled, appointed, determined.\n",
+        ".²3 Ordered, prescribed, decreed; {#vihitA vyaNgitA tezAm#} <ls>Pt. 1. 201</ls>.\n",
+        ".²4 Framed, constructed.\n",
+        ".²5 Placed, deposited.\n",
+        ".²6 Furnished with, possessed of.\n",
+        ".²7 Fit to be done.\n",
+        ".²8 Distributed, apportioned. (See {#DA#} with {#vi#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 282441,
+            "_ancestry": [
+                "L_ 30612",
+                "B_ {#vihita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vihitam"
+                }
+            ],
+            "_meanings": [
+                "An order, a command, decree; {#parato dEvavihitAyattam#} <ls>Pt. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 282443,
+            "_ancestry": [
+                "L_ 30612",
+                "B_ {#vihita#}",
+                "S_ .{@{#-kzaRa#}@}"
+            ],
+            "_banner": ".{@{#-kzaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vihitakzaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "intent upon.\n"
+            ]
+        },
+        {
+            "__line": 282444,
+            "_ancestry": [
+                "L_ 30612",
+                "B_ {#vihita#}",
+                "S_ .{@{#-pratizidDa#}@}"
+            ],
+            "_banner": ".{@{#-pratizidDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vihitapratizidDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "enjoined and prohibited."
+            ]
+        }
     ]
 }

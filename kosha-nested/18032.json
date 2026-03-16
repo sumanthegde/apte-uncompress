@@ -1,19 +1,38 @@
 {
-    "__line": 152161,
+    "__line": 160090,
     "_ancestry": [
         "L_ 18032",
-        "B_ {#paridA#}"
+        "B_ {#DIvan#}"
     ],
-    "_banner": "{#paridA#}",
+    "_banner": "{#DIvan#}",
     "_bannerExp": [
         {
-            "Right": "paridA"
+            "Right": "DIvan"
+        },
+        {
+            "Left": "fFromGramCore error: DIvan  rI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-rI#}|{%f.%})"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Giving oneself up\nto the favour of another. ",
-        "{@--2@} \nSurrender. ",
-        "{@--3@} Devotion."
+        "Clever, skilful. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 160091,
+            "_ancestry": [
+                "L_ 18032",
+                "B_ {#DIvan#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_meanings": [
+                ".²1 An artist.\n",
+                ".²2 A fisherman."
+            ]
+        }
     ]
 }

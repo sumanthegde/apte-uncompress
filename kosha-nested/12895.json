@@ -1,56 +1,133 @@
 {
-    "__line": 108356,
+    "__line": 109949,
     "_ancestry": [
         "L_ 12895",
-        "B_ {#Gasra#}"
+        "B_ {#keSava#}"
     ],
-    "_banner": "{#Gasra#}",
+    "_banner": "{#keSava#}",
     "_bannerExp": [
         {
-            "Right": "Gasra"
+            "Right": "keSava"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#Gas-rak#}]"
+        "{%a.%}",
+        "[{#keSAH praSastAH santyasya#}; {#keSa-va#} <ls>P. V. 2. 109</ls>]"
     ],
     "_meanings": [
-        "Hurtful, \ninjurious. "
+        "Having much, fine or luxuriant hair.\n"
     ],
     "_morphisms": [
         {
-            "__line": 108357,
+            "__line": 109951,
             "_ancestry": [
                 "L_ 12895",
-                "B_ {#Gasra#}",
-                "M_ {#--sraH#}"
+                "B_ {#keSava#}",
+                "M_ .{@{#-vaH#}@}"
             ],
-            "_banner": "{#--sraH#}",
+            "_banner": ".{@{#-vaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "GasraH"
+                    "Right": "keSavaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A day; {#Gasro gamizyati#}\n{#Bavizyati supradozaM#} <ls>Subhāṣ.</ls> ",
-                "{@--2@} The\nsun; <ls>Mv. 6. 8.</ls> "
+                ".²1 An epithet\n\n of Viṣṇu; {#keSava jaya jagadISa hare#} <ls>Gīt. 1</ls>; {#keSavaM patitaM dfzwvA#}\n {#pARqavA harzanirBarAH#} <ls>Subhāṣ.</ls>\n",
+                ".²2 The Supreme Being.\n",
+                ".²3 The month of {#mArgaSIrza#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 109959,
+            "_ancestry": [
+                "L_ 12895",
+                "B_ {#keSava#}",
+                "S_ .{@{#-AyuDaH#}@}"
+            ],
+            "_banner": ".{@{#-AyuDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "keSavAyuDaH"
+                }
+            ],
+            "_meanings": [
+                "the mango tree. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 109959,
+                    "_ancestry": [
+                        "L_ 12895",
+                        "B_ {#keSava#}",
+                        "S_ .{@{#-AyuDaH#}@}",
+                        "S_M_ ({@{#-Dam#}@})"
+                    ],
+                    "_banner": "({@{#-Dam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "keSavAyuDam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a weapon of Viṣṇu.\n"
+                    ]
+                }
             ]
         },
         {
-            "__line": 108359,
+            "__line": 109960,
             "_ancestry": [
                 "L_ 12895",
-                "B_ {#Gasra#}",
-                "M_ {#--sraM#}"
+                "B_ {#keSava#}",
+                "S_ .{@{#-AlayaH, -AvAsaH#}@}"
             ],
-            "_banner": "{#--sraM#}",
+            "_banner": ".{@{#-AlayaH, -AvAsaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "GasraM"
+                    "Right": "keSavAlayaH"
+                },
+                {
+                    "Right": "keSavAvAsaH"
                 }
             ],
             "_meanings": [
-                "Saffron."
+                "the Aśvattha tree.\n"
+            ]
+        },
+        {
+            "__line": 109961,
+            "_ancestry": [
+                "L_ 12895",
+                "B_ {#keSava#}",
+                "S_ .{@{#-dEvajYaH#}@}"
+            ],
+            "_banner": ".{@{#-dEvajYaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "keSavadEvajYaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an astronomer.\n"
+            ]
+        },
+        {
+            "__line": 109962,
+            "_ancestry": [
+                "L_ 12895",
+                "B_ {#keSava#}",
+                "S_ .{@{#-svAmin#}@}"
+            ],
+            "_banner": ".{@{#-svAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "keSavasvAmin"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a grammarian."
             ]
         }
     ]

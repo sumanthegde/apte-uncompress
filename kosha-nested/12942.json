@@ -1,43 +1,77 @@
 {
-    "__line": 108620,
+    "__line": 110289,
     "_ancestry": [
         "L_ 12942",
-        "B_ {#GUrR#}"
+        "B_ {#kokaH#}"
     ],
-    "_banner": "{#GUrR#}",
+    "_banner": "{#kokaH#}",
     "_bannerExp": [
         {
-            "Right": "GUrR"
+            "Right": "kokaH"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "{c6c}",
-        "<ab>P.</ab>"
+        "[{#kuk-AdAne ac#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "[{#GUrRate, GUrRati, GUrRita#}]\nTo roll about, move to and fro,\nwhirl, turn round, shake, reel,\nstagger; {#yozitAmatimadena juGUrRu#} \n{#rviBramAtiSayapUMzi vapUMzi#} <ls>Śi. 10. 32</ls>;  \n{#BayAtkecidaGURizuH#} <ls>Bk. 15. 32</ls>, <ls n=\"Bk. 15.\">118</ls>;  \n<ls>Śi. 11. 18</ls>; {#adyApi tAM suratajAgaraGUrRamAnAM#}\n<ls>Ch. P. 5</ls>; {#BUpAlAH#} \n{#kamalAvilAsamadironmIlanmadAGUrRitAH#} <ls>Bv. 4. 42.</ls> "
+        ".²1 A wolf; {#vane yUTapariBrazwA mfgI kokErivArditA#} <ls>Rām. 5. 25. 5</ls>.\n",
+        ".²2 The ruddy goose ({#cakravAka#}); {#kokAnAM karuRasvareRa sadfSI dIrGA#}\n {#madaByarTanA#} <ls>Gīt. 5</ls>.\n",
+        ".²3 A cuckoo {#janitakokanadAni jalASaye, Saradi kokanadAni cakASire#}\n <ls>Rām. Ch. 4. 62</ls>; {#hiraRmayA hastimfgASca kokAH#} <ls>Bu. Ch. 2. 22</ls>.\n",
+        ".²4 A frog.\n",
+        ".²5 <ab>N.</ab> of Viṣṇu.\n",
+        ".²6 A wild lizard.\n",
+        ".²7 A wild date tree.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 108628,
+            "__line": 110300,
             "_ancestry": [
                 "L_ 12942",
-                "B_ {#GUrR#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#kokaH#}",
+                "S_ .{@{#-devaH#}@}"
             ],
+            "_banner": ".{@{#-devaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "GUrR"
+                    "Right": "kokadevaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#GUrRayati-te#})"
+            "_meanings": [
+                "a pigeon.\n"
+            ]
+        },
+        {
+            "__line": 110301,
+            "_ancestry": [
+                "L_ 12942",
+                "B_ {#kokaH#}",
+                "S_ .{@{#-banDuH#}@}"
+            ],
+            "_banner": ".{@{#-banDuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kokabanDuH"
+                }
             ],
             "_meanings": [
-                "To cause to shake, reel\nor roll about; {#nayanAnyaruRAni GUrRayan#}\n<ls>Ku. 4. 12</ls>; <ls>Śi. 2. 16</ls>; <ls>Bh. 1. 89</ls>\n(with prepositions like {#A, vi#} the\nroot retains the same meaning)."
+                "an epithet of the sun.\n"
+            ]
+        },
+        {
+            "__line": 110302,
+            "_ancestry": [
+                "L_ 12942",
+                "B_ {#kokaH#}",
+                "S_ .{@{#-SAstram#}@}"
+            ],
+            "_banner": ".{@{#-SAstram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kokaSAstram"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a treatise on the art of love (ascribed to a pandit\n named {#koka#})."
             ]
         }
     ]

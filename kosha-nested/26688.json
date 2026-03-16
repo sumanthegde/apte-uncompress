@@ -1,42 +1,123 @@
 {
-    "__line": 225042,
+    "__line": 244102,
     "_ancestry": [
         "L_ 26688",
-        "B_ {#visf#}"
+        "B_ {#mEtra#}"
     ],
-    "_banner": "{#visf#}",
+    "_banner": "{#mEtra#}",
     "_bannerExp": [
         {
-            "Right": "visf"
+            "Right": "mEtra"
+        },
+        {
+            "Right": "mEtrI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-trI#}|{%f.%})",
+        "[{#mitra-aR#}]"
     ],
     "_meanings": [
-        "{@--1@} To spread, be \nextended or diffused;  \n{#caMkrIvadaMgaruhaDUmraruco visasraH#} <ls>Śi. 5. 8</ls>; <ls n=\"Śi.\">9. 19</ls>, <ls n=\"Śi. 9.\">37</ls>;\n<ls>Ki. 10. 53.</ls> ",
-        "{@--2@} To return. "
+        ".²1 Belonging to a friend.\n",
+        ".²2 Given by a friend.\n",
+        ".²3 Friendly, well-disposed, amicable, kind; {#kuryAdanyanna vA kuryAnmEtro#}\n {#brAhmaRa ucyate#} <ls>Ms. 2. 87</ls>; {#advezwA sarvaBUtAnAM mEtraH karuRa eva#}\n {#ca#} <ls>Bg. 12. 13</ls>.\n",
+        ".²4 Relating to the god Mitra (as a Muhūrta); <ls>Ku. 7. 6</ls> (<ab>com.</ab> {#‘ArdraH#}\n {#sArdrastaTA mEtraH SuBo vAsava eva ca’ iti vfhaspatismaraRAt#}); {#mEtre#}\n {#muhUrte prayayO prayAgavanamuttamam#} <ls>Rām. 2. 89. 21</ls> (<ab>com.</ab> {#udayAt tftIyamuhUrte#}).\n"
     ],
     "_morphisms": [
         {
-            "__line": 225045,
+            "__line": 244112,
             "_ancestry": [
                 "L_ 26688",
-                "B_ {#visf#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#mEtra#}",
+                "M_ .{@{#-traH#}@}"
             ],
+            "_banner": ".{@{#-traH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "visf"
+                    "Right": "mEtraH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                ".²1 A high or perfect Brāhmaṇa; {#parinizWitakAryastu svADyAyenEva brAhmaRaH .#}\n {#kuryAdanyatra vA kuryAnmEtro brAhmaRa ucyate ..#} <ls>Mb. 12. 60. 12</ls>.\n",
+                ".²2 <ab>N.</ab> of a particular mixed tribe; <ls>Ms. 10. 23</ls>.\n",
+                ".²3 The anus; <ls>Ms. 12. 72</ls> (<ab>com.</ab>).\n",
+                ".²4 A friend.\n"
+            ]
+        },
+        {
+            "__line": 244118,
+            "_ancestry": [
+                "L_ 26688",
+                "B_ {#mEtra#}",
+                "M_ .{@{#-trI#}@}"
+            ],
+            "_banner": ".{@{#-trI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mEtrI"
+                }
             ],
             "_meanings": [
-                "{@--1@} To spread, stretch. ",
-                "{@--2@} To cause\nto prevail or spread."
+                ".²1 Friendship, good will.\n",
+                ".²2 Intimate connection or association, union, contact; {#pratyUzezu sPuwitakamalAmodamEtrIkazAyaH#} <ls>Me. 31</ls>.\n",
+                ".²3 The lunar mansion called {#anurADA#}; {#tIrTayAtrAM halaDaraH … … mEtranakzatrayoge#}\n {#sma#} <ls>Mb. 9. 35. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 244123,
+            "_ancestry": [
+                "L_ 26688",
+                "B_ {#mEtra#}",
+                "M_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mEtram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Friendship.\n",
+                ".²2 Voiding or evacuation of excrement; {#mEtraM prasADanaM snAnam#} ({#pUrvAha#}\n {#eva kurvIta#}) <ls>Ms. 4. 152</ls>.\n",
+                ".²3 A prayer addressed to Mitra; {#ajAtaSatruH kftamEtro hutAgniH#} <ls>Bhāg. 1. 13. 30</ls>.\n",
+                ".²4 The lunar mansion {#anurADA#} ({#mEtraBam#} in the same sense).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 244130,
+            "_ancestry": [
+                "L_ 26688",
+                "B_ {#mEtra#}",
+                "S_ .{@{#-cittam#}@}"
+            ],
+            "_banner": ".{@{#-cittam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mEtracittam"
+                }
+            ],
+            "_meanings": [
+                "benevolence.\n"
+            ]
+        },
+        {
+            "__line": 244131,
+            "_ancestry": [
+                "L_ 26688",
+                "B_ {#mEtra#}",
+                "S_ .{@{#-nakzatram#}@}"
+            ],
+            "_banner": ".{@{#-nakzatram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mEtranakzatram"
+                }
+            ],
+            "_meanings": [
+                "the {#anurADA#} constellation."
             ]
         }
     ]

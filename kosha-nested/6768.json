@@ -1,34 +1,79 @@
 {
-    "__line": 58639,
+    "__line": 56730,
     "_ancestry": [
         "L_ 6768",
-        "B_ {#ArevataH#}"
+        "B_ {#Atura#}"
     ],
-    "_banner": "{#ArevataH#}",
+    "_banner": "{#Atura#}",
     "_bannerExp": [
         {
-            "Right": "ArevataH"
+            "Right": "Atura"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#IzadarTe A, at-urac#}]"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a tree({#AragbaGa#}\n<ab>q. v.</ab>). "
+        ".²1 Hurt, injured.\n",
+        ".²2 Suffering from, influenced or affected by, tormented, afflicted; {#rAvaRAvarajA#}\n {#tatra rAGavaM madanAturA#} <ls>R. 12. 32</ls>; <ls>Ku. 4. 25</ls>; so {#kAma˚, Baya˚, vyADi˚#} <ab>&c.</ab>\n",
+        ".²3 Sick (in body or mind), disabled, diseased; {#AkASeSAstu vijYeyA bAlavfdDakfSAturAH#}\n <ls>Ms. 4. 184</ls>, <ls n=\"Ms.\">6. 77</ls>.\n",
+        ".²4 Eager, over-anxious; <ls>M. 2</ls>.\n",
+        ".²5 Weak, feeble, incapable of doing anything.\n"
     ],
     "_morphisms": [
         {
-            "__line": 58640,
+            "__line": 56738,
             "_ancestry": [
                 "L_ 6768",
-                "B_ {#ArevataH#}",
-                "M_ {#--taM#}"
+                "B_ {#Atura#}",
+                "M_ .{@{#-raH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ArevataM"
+                    "Right": "AturaH"
                 }
             ],
             "_meanings": [
-                "The fruit of this tree."
+                ".²1 A patient, one suffering from a disease <ls>V. 3</ls>; {#AturARAM cikitsakAH#} <ls>Pt. 1. 155</ls>.\n",
+                ".²2 Illness, disease; {#Ature vyasane prApte#} <ls>Pt. 5. 41</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 56742,
+            "_ancestry": [
+                "L_ 6768",
+                "B_ {#Atura#}",
+                "S_ .{@{#-SAlA#}@}"
+            ],
+            "_banner": ".{@{#-SAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AturaSAlA"
+                }
+            ],
+            "_meanings": [
+                "a hospital.\n"
+            ]
+        },
+        {
+            "__line": 56743,
+            "_ancestry": [
+                "L_ 6768",
+                "B_ {#Atura#}",
+                "S_ .{@{#-saMnyAsaH#}@}"
+            ],
+            "_banner": ".{@{#-saMnyAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AturasannyAsaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of {#saMnyAsa#} (taken by a person when sick\n and grown hopeless of life)."
             ]
         }
     ]

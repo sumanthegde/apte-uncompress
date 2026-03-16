@@ -1,28 +1,79 @@
 {
-    "__line": 166115,
+    "__line": 178104,
     "_ancestry": [
         "L_ 19836",
-        "B_ {#pratigrahaH#}"
+        "B_ {#patatrin#}"
     ],
-    "_banner": "{#pratigrahaH#}",
+    "_banner": "{#patatrin#}",
     "_bannerExp": [
         {
-            "Right": "pratigrahaH"
+            "Right": "patatrin"
         }
     ],
+    "_gram": [
+        "{%m.%}"
+    ],
     "_meanings": [
-        "{@--1@} Receiving, accepting. \n\n",
-        "{@--2@} Receiving or accepting a \ndonation. ",
-        "{@--3@} The right of receiving or\naccepting a donation. ",
-        "{@--4@} The right\nof receiving gifts (which is a \npeculiar prerogative of Brāhmaṇas);\n<ls>Ms. 1. 88</ls>; <ls n=\"Ms.\">4. 86</ls>; <ls>Y. 1. 118.</ls> ",
-        "{@--5@} A\ngift, present, donation; {#rAjYaH#} \n{#pratigraho'yaM#} <ls>Ś. 1</ls>; <ls>Śi. 14. 35.</ls> ",
-        "{@--6@} A \nreceiver (of a gift). ",
-        "{@--7@} Kind\nor friendly reception. ",
-        "{@--8@} \nFavour, grace. ",
-        "{@--9@} Marrying. ",
-        "{@--10@} \nListening to. ",
-        "{@--11@} The rear of an army.\n",
-        "{@--12@} A spitting-pot. ",
-        "{@--13@} The sun\nnear the moon's node."
+        ".²1 A bird; {#dayitA dvandvacaraM patatriRam#} ({#punareti#}) <ls>R. 8. 56</ls>, <ls n=\"R.\">9. 27</ls>, <ls n=\"R.\">11. 11</ls>, <ls n=\"R.\">12. 48</ls>;\n <ls>Ku. 5. 4</ls>.\n",
+        ".²2 An arrow; {#aBijagrAha sOmitrirvinadyoBO patatriBiH#} <ls>Mb. 3. 287. 22</ls>.\n",
+        ".²3 A horse; <ab>esp.</ab> in Aśvamedha sacrifice; {#patatriRA tadA sArDam#} <ls>Rām. 1. 14. 34</ls>;\n {#patatriRastasya vapAmudDftya niyatendriyaH#} <ls n=\"Rām. 1. 14.\">36</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 178109,
+            "_ancestry": [
+                "L_ 19836",
+                "B_ {#patatrin#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#patatrin#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "(dual) <ab>Ved.</ab> Day and night; {#mAmime patatriRI vi dugDAm#} <ls>Rv. 1. 158. 4</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 178112,
+            "_ancestry": [
+                "L_ 19836",
+                "B_ {#patatrin#}",
+                "S_ .{@{#-ketanaH#}@}"
+            ],
+            "_banner": ".{@{#-ketanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "patatriketanaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 178113,
+            "_ancestry": [
+                "L_ 19836",
+                "B_ {#patatrin#}",
+                "S_ .{@{#-rAjaH, -varaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH, -varaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "patatrirAjaH"
+                },
+                {
+                    "Right": "patatrivaraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Garuḍa; <ls>Mb. 7. 16. 14</ls>."
+            ]
+        }
     ]
 }

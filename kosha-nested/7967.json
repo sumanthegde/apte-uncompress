@@ -1,22 +1,65 @@
 {
-    "__line": 68562,
+    "__line": 66535,
     "_ancestry": [
         "L_ 7967",
-        "B_ {#utsukatA, --tvaM#}"
+        "B_ {#AsTAnam#}"
     ],
-    "_banner": "{#utsukatA, --tvaM#}",
+    "_banner": "{#AsTAnam#}",
     "_bannerExp": [
         {
-            "Right": "utsukatA"
-        },
-        {
-            "Right": "utsukatvaM"
+            "Right": "AsTAnam"
         }
     ],
     "_meanings": [
-        "{@--1@} Restlessness, \nuneasiness. ",
-        "{@--2@} Zeal, ardent desire. ",
-        "{@--3@}\nAttachment, affection. ",
-        "{@--4@} Sorrow,\nregret."
+        ".²1 A place, site.\n",
+        ".²2 Ground, base.\n",
+        ".²3 An assembly; {#AsTAnADyAsanASritaH#} <ls>Bhāg. 6. 7. 5</ls>.\n",
+        ".²4 Care, regard; see {#AsTA#}.\n",
+        ".²5 A hall of audience; <ls>K. 8</ls>, <ls n=\"K.\">14</ls>.\n",
+        ".²6 Recreation ground ({#viSrAmasTAnam#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 66542,
+            "_ancestry": [
+                "L_ 7967",
+                "B_ {#AsTAnam#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsTAnI"
+                }
+            ],
+            "_meanings": [
+                "An assembly-room. {#AsTAnIM samaye samaM nfpajanaH sAyaMtane#}\n {#saMpatan#} <ls>Ratnamālā</ls> {#nijAmaSAhamAsTAnImetya siMhAsane sTitam#} <ls>Śiva B. 3. 8</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 66546,
+            "_ancestry": [
+                "L_ 7967",
+                "B_ {#AsTAnam#}",
+                "S_ .{@{#-gfham, -niketanam, -maRqapaH#}@}"
+            ],
+            "_banner": ".{@{#-gfham, -niketanam, -maRqapaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsTAnagfham"
+                },
+                {
+                    "Right": "AsTAnaniketanam"
+                },
+                {
+                    "Right": "AsTAnamaRqapaH"
+                }
+            ],
+            "_meanings": [
+                "an assembly-room; {#tadIyamAsTAnaniketanAjiram#} <ls>Ki. 1. 16</ls>."
+            ]
+        }
     ]
 }

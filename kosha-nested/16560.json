@@ -1,38 +1,85 @@
 {
-    "__line": 139191,
+    "__line": 143649,
     "_ancestry": [
         "L_ 16560",
-        "B_ {#nAsIraM#}"
+        "B_ {#tundam#}"
     ],
-    "_banner": "{#nAsIraM#}",
+    "_banner": "{#tundam#}",
     "_bannerExp": [
         {
-            "Right": "nAsIraM"
+            "Right": "tundam"
         }
     ],
-    "_gram": [
-        "[{#nAsAya Irte Ir-ka#} <ls>Tv.</ls>]"
-    ],
     "_meanings": [
-        "Advancing or fighting in front of an\narmy. "
+        "The belly, a corpulent or protuberant belly.\n"
     ],
     "_morphisms": [
         {
-            "__line": 139193,
+            "__line": 143650,
             "_ancestry": [
                 "L_ 16560",
-                "B_ {#nAsIraM#}",
-                "M_ {#--raH#}"
+                "B_ {#tundam#}",
+                "M_ .{@{#-ndaH, -ndI#}@}"
             ],
-            "_banner": "{#--raH#}",
+            "_banner": ".{@{#-ndaH, -ndI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nAsIraH"
+                    "Right": "tundaH"
+                },
+                {
+                    "Right": "tundI"
                 }
             ],
             "_meanings": [
-                "{@--1@} The van or front (of\nan army &c.); {#nAsIracarayorBawayoH#}\n<ls>Mv. 6</ls>; <ls>N. 1. 68.</ls> ",
-                "{@--2@} A champion\nwho advances before the line."
+                "The navel.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 143652,
+            "_ancestry": [
+                "L_ 16560",
+                "B_ {#tundam#}",
+                "S_ .{@{#-kUpikA, -kUpI#}@}"
+            ],
+            "_banner": ".{@{#-kUpikA, -kUpI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tundakUpikA"
+                },
+                {
+                    "Right": "tundakUpI"
+                }
+            ],
+            "_meanings": [
+                "the cavity of the navel.\n"
+            ]
+        },
+        {
+            "__line": 143653,
+            "_ancestry": [
+                "L_ 16560",
+                "B_ {#tundam#}",
+                "S_ .{@{#-parimArja, -parimfj, -mfja#}@}"
+            ],
+            "_banner": ".{@{#-parimArja, -parimfj, -mfja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tundaparimArja"
+                },
+                {
+                    "Right": "tundaparimfj"
+                },
+                {
+                    "Left": "S error: midAlign mfja parimfja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lazy, sluggish; {#ApyAyitatundaparimfjaH#}\n {#Sete#} <ls>A. R. 7. 110</ls>."
             ]
         }
     ]

@@ -1,37 +1,59 @@
 {
-    "__line": 244095,
+    "__line": 269146,
     "_ancestry": [
         "L_ 29066",
-        "B_ {#satyaka#}"
+        "B_ {#vAlkala#}"
     ],
-    "_banner": "{#satyaka#}",
+    "_banner": "{#vAlkala#}",
     "_bannerExp": [
         {
-            "Right": "satyaka"
+            "Right": "vAlkala"
+        },
+        {
+            "Right": "vAlkalI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-lI#}|{%f.%})",
+        "[{#valkala-aR#}]"
     ],
     "_meanings": [
-        "See {#satya#}. "
+        "Made of the bark of trees.\n"
     ],
     "_morphisms": [
         {
-            "__line": 244095,
+            "__line": 269148,
             "_ancestry": [
                 "L_ 29066",
-                "B_ {#satyaka#}",
-                "M_ {#--kaM#}"
+                "B_ {#vAlkala#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "satyakaM"
+                    "Right": "vAlkalam"
                 }
             ],
             "_meanings": [
-                "Ratification of a contract &c."
+                "A bark-garment.\n"
+            ]
+        },
+        {
+            "__line": 269149,
+            "_ancestry": [
+                "L_ 29066",
+                "B_ {#vAlkala#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAlkalI"
+                }
+            ],
+            "_meanings": [
+                "Spirituous liquor."
             ]
         }
     ]

@@ -1,18 +1,65 @@
 {
-    "__line": 57253,
+    "__line": 55359,
     "_ancestry": [
         "L_ 6583",
-        "B_ {#AmocanaM#}"
+        "B_ {#ANga#}"
     ],
-    "_banner": "{#AmocanaM#}",
+    "_banner": "{#ANga#}",
     "_bannerExp": [
         {
-            "Right": "AmocanaM"
+            "Right": "ANga"
+        },
+        {
+            "Right": "ANgI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-gI#}|{%f.%})",
+        "[{#aNga-svArTe-aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} Loosing, liberating.\n",
-        "{@--2@} Emitting, shedding, letting\nforth, discharging. ",
-        "{@--3@} Putting or\ntying on."
+        ".²1 Bodily, corporeal.\n",
+        ".²2 (In <ab>gram.</ab>) Relating to the base ({#aNga#}).\n",
+        ".²3 Having limbs or parts.\n",
+        ".²4 Relating to the minor personages in a drama.\n",
+        ".²5 Belonging to a portion of the Vedas.\n",
+        ".²6 Produced or born in the country of the Aṅgas.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 55367,
+            "_ancestry": [
+                "L_ 6583",
+                "B_ {#ANga#}",
+                "M_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ANgaH"
+                }
+            ],
+            "_meanings": [
+                "A prince of the Aṅga country.\n"
+            ]
+        },
+        {
+            "__line": 55368,
+            "_ancestry": [
+                "L_ 6583",
+                "B_ {#ANga#}",
+                "M_ .{@{#-gam#}@}"
+            ],
+            "_banner": ".{@{#-gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ANgam"
+                }
+            ],
+            "_meanings": [
+                "A delicate body."
+            ]
+        }
     ]
 }

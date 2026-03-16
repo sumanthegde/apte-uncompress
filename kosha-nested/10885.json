@@ -1,22 +1,38 @@
 {
-    "__line": 91612,
+    "__line": 91287,
     "_ancestry": [
         "L_ 10885",
-        "B_ {#kAsaraH#}"
+        "B_ {#ozWaka#}"
     ],
-    "_banner": "{#kAsaraH#}",
+    "_banner": "{#ozWaka#}",
     "_bannerExp": [
         {
-            "Right": "kAsarI"
-        },
-        {
-            "Right": "kAsaraH"
+            "Right": "ozWaka"
         }
     ],
     "_gram": [
-        "({#rI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "A buffalo."
+        "(At the end of <ab>comp.</ab>) Taking care of the lips.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 91288,
+            "_ancestry": [
+                "L_ 10885",
+                "B_ {#ozWaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ozWakaH"
+                }
+            ],
+            "_meanings": [
+                "A lip."
+            ]
+        }
     ]
 }

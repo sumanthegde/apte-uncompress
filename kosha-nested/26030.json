@@ -1,26 +1,60 @@
 {
-    "__line": 219910,
+    "__line": 237579,
     "_ancestry": [
         "L_ 26030",
-        "B_ {#vinasa#}"
+        "B_ {#mAtulaH#}"
     ],
-    "_banner": "{#vinasa#}",
+    "_banner": "{#mAtulaH#}",
     "_bannerExp": [
         {
-            "Right": "vinasA"
-        },
-        {
-            "Right": "vinasI"
-        },
-        {
-            "Right": "vinasa"
+            "Right": "mAtulaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#sA --sI#}|{%<ab>f.</ab>%})"
+        "[{#mAturBrAtA mAtf-qulac#}]"
     ],
     "_meanings": [
-        "Noseless;\n<ls>Bk. 5. 8.</ls>"
+        ".²1 A maternal uncle; ({#tatrApaSyat#}) {#AcAryAn mAtulAn BrAtFn#} <ls>Bg. 1. 26</ls>;\n <ls>Ms. 2. 130</ls>, <ls n=\"Ms.\">5. 81</ls>.\n",
+        ".²2 The Dhattūra plant.\n",
+        ".²3 An epithet of the solar year.\n",
+        ".²4 A kind of rice.\n",
+        ".²5 A kind of snake.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 237587,
+            "_ancestry": [
+                "L_ 26030",
+                "B_ {#mAtulaH#}",
+                "S_ .{@{#-ahiH#}@}"
+            ],
+            "_banner": ".{@{#-ahiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAtulAhiH"
+                }
+            ],
+            "_meanings": [
+                "a kind of snake.\n"
+            ]
+        },
+        {
+            "__line": 237588,
+            "_ancestry": [
+                "L_ 26030",
+                "B_ {#mAtulaH#}",
+                "S_ .{@{#-putrakaH#}@}"
+            ],
+            "_banner": ".{@{#-putrakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAtulaputrakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the son of a maternal uncle.\n",
+                ".²2 the fruit of the Dhattūra plant; {#unmAdino mAtulaputrakasya kaTaM#}\n {#sahAmo bata kaRwakitvam#}."
+            ]
+        }
     ]
 }

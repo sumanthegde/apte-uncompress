@@ -1,21 +1,98 @@
 {
-    "__line": 205397,
+    "__line": 215919,
     "_ancestry": [
         "L_ 24223",
-        "B_ {#ruMw#}"
+        "B_ {#pro(prO)zWaH#}"
     ],
-    "_banner": "{#ruMw#}",
+    "_banner": "{#pro(prO)zWaH#}",
     "_bannerExp": [
         {
-            "Right": "ruMw"
+            "Right": "prozWaH"
+        },
+        {
+            "Right": "prOzWaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#ruMwati#})"
-    ],
     "_meanings": [
-        "To rob, steal;\n<ab>cf.</ab> {#luMw#}."
+        ".²1 A bull, an ox.\n",
+        ".²2 A bench, stool.\n",
+        ".²3 A kind of fish ({#zWI#} also).\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 215924,
+            "_ancestry": [
+                "L_ 24223",
+                "B_ {#pro(prO)zWaH#}",
+                "S_ .{@{#-padaH#}@}"
+            ],
+            "_banner": ".{@{#-padaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prOzWapadaH"
+                }
+            ],
+            "_meanings": [
+                "the month {#BAdrapada#}; {#kuryAdAparapakzIyaM mAsi prOzWapade#}\n {#dvijaH . SrAdDaM pitroryaTAvittaM tadbanDUnAM ca vittavAn#} <ls>Bhāg. 7. 14. 19</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 215926,
+                    "_ancestry": [
+                        "L_ 24223",
+                        "B_ {#pro(prO)zWaH#}",
+                        "S_ .{@{#-padaH#}@}",
+                        "S_M_ ({@{#-dA#}@})"
+                    ],
+                    "_banner": "({@{#-dA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "prozWapadA"
+                        }
+                    ],
+                    "_meanings": [
+                        "the 25th and 26th lunar mansions; {#pUrvABAdrapadA#} and\n {#uttarABAdrapadA#}; these are double stars. {#‘catvAra ekamaBikarma devAH#}\n {#prOzWapadAsa iti yAn vadanti’#} <ls>Ts.</ls>; {#guRavanto'nurUpASca rucyA prOzWapadopamAH#}\n <ls>Rām. 1. 18. 16</ls>.\n."
+                    ]
+                },
+                {
+                    "__line": 215930,
+                    "_ancestry": [
+                        "L_ 24223",
+                        "B_ {#pro(prO)zWaH#}",
+                        "S_ .{@{#-padaH#}@}",
+                        "S_M_ ({@{#-dI#}@})"
+                    ],
+                    "_banner": "({@{#-dI#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "prozWapadI"
+                        }
+                    ],
+                    "_meanings": [
+                        "The full-moon of {#BAdrapada#}; {#prOzwapadyAM prOrRamAsyAM#}\n {#hemasiMhasamanvitam . dadAti yo BAgavataM sa yAti paramAM gatim ..#} <ls>Bhāg. 12. 13. 13</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 215932,
+            "_ancestry": [
+                "L_ 24223",
+                "B_ {#pro(prO)zWaH#}",
+                "S_ .{@{#-pAda#}@}"
+            ],
+            "_banner": ".{@{#-pAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prOzWapAda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born under the above Nakṣatra; <ls>P. VII. 3. 18</ls>."
+            ]
+        }
     ]
 }

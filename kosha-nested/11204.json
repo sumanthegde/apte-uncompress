@@ -1,38 +1,38 @@
 {
-    "__line": 93908,
+    "__line": 93622,
     "_ancestry": [
         "L_ 11204",
-        "B_ {#kuruviMdaH, --daM#}"
+        "B_ {#kawin#}"
     ],
-    "_banner": "{#kuruviMdaH, --daM#}",
+    "_banner": "{#kawin#}",
     "_bannerExp": [
         {
-            "Right": "kuruviMdaH"
-        },
-        {
-            "Right": "kuruviMdaM"
+            "Right": "kawin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A ruby. "
+        ".²1 Matted, screened.\n",
+        ".²2 Having handsome loins <ab>&c.</ab> "
     ],
     "_morphisms": [
         {
-            "__line": 93908,
+            "__line": 93624,
             "_ancestry": [
                 "L_ 11204",
-                "B_ {#kuruviMdaH, --daM#}",
-                "M_ {#--daM#}"
+                "B_ {#kawin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--daM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "kuruviMdaM"
+                    "Left": "Parser error: {#kawin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Black\nsalt. ",
-                "{@--2@} A mirror."
+                "An elephant."
             ]
         }
     ]

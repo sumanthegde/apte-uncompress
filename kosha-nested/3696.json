@@ -1,21 +1,38 @@
 {
-    "__line": 33762,
+    "__line": 31271,
     "_ancestry": [
         "L_ 3696",
-        "B_ {#aByudgam#}"
+        "B_ {#aBivyApya#}"
     ],
-    "_banner": "{#aByudgam#}",
+    "_banner": "{#aBivyApya#}",
     "_bannerExp": [
         {
-            "Right": "aByudgam"
+            "Right": "aBivyApya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%<ab>pot. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To go forth to\nmeet. ",
-        "{@--2@} To extend, spread."
+        "To be included.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 31272,
+            "_ancestry": [
+                "L_ 3696",
+                "B_ {#aBivyApya#}",
+                "M_ .{@{#-pyam#}@}"
+            ],
+            "_banner": ".{@{#-pyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBivyApyam"
+                }
+            ],
+            "_meanings": [
+                "Validity of a rule."
+            ]
+        }
     ]
 }

@@ -1,21 +1,39 @@
 {
-    "__line": 167606,
+    "__line": 180959,
     "_ancestry": [
         "L_ 20075",
-        "B_ {#pratizWiti#}"
+        "B_ {#parikrAnta#}"
     ],
-    "_banner": "{#pratizWiti#}",
+    "_banner": "{#parikrAnta#}",
     "_bannerExp": [
         {
-            "Right": "pratizWiti"
+            "Right": "parikrAnta"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Standing \nfirmly. ",
-        "{@--2@} A station, position."
+        "Walked round.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 180960,
+            "_ancestry": [
+                "L_ 20075",
+                "B_ {#parikrAnta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parikrAntam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The place on which any one has walked about.\n",
+                ".²2 A foot-step, foot-print."
+            ]
+        }
     ]
 }

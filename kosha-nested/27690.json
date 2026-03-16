@@ -1,22 +1,80 @@
 {
-    "__line": 233160,
+    "__line": 255504,
     "_ancestry": [
         "L_ 27690",
-        "B_ {#Sarv#}"
+        "B_ {#rohaRaH#}"
     ],
-    "_banner": "{#Sarv#}",
+    "_banner": "{#rohaRaH#}",
     "_bannerExp": [
         {
-            "Right": "Sarv"
+            "Right": "rohaRaH"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#Sarvati#})"
+        "[{#ruh-lyuw#} <ls>Uṇ. 2. 74</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To go. ",
-        "{@--2@}\nTo hurt, injure, kill."
+        "<ab>N.</ab> of a mountain in Ceylon; {#maRipraroheRa#}\n {#vivfDya rohaRaH#} <ls>N. 12. 90</ls>; {#janaSca vAksuDAsUtirmaRisUtiSca rohaRaH#} <ls>B. R. 10. 49</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255506,
+            "_ancestry": [
+                "L_ 27690",
+                "B_ {#rohaRaH#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rohaRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The act of mounting, riding, ascending.\n",
+                ".²2 Growing over, healing.\n",
+                ".²3 Proceeding or arising from; consisting of.\n",
+                ".²4 Semen virile.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 255512,
+            "_ancestry": [
+                "L_ 27690",
+                "B_ {#rohaRaH#}",
+                "S_ .{@{#-giriH, -nagendraH#}@}"
+            ],
+            "_banner": ".{@{#-giriH, -nagendraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rohaRagiriH"
+                },
+                {
+                    "Right": "rohaRanagendraH"
+                }
+            ],
+            "_meanings": [
+                "The Rohaṇa mountain; {#rohaRagiriH sakalaguRaratnasamUhasya#} <ls>Vās.</ls>\n"
+            ]
+        },
+        {
+            "__line": 255513,
+            "_ancestry": [
+                "L_ 27690",
+                "B_ {#rohaRaH#}",
+                "S_ .{@{#-drumaH#}@}"
+            ],
+            "_banner": ".{@{#-drumaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rohaRadrumaH"
+                }
+            ],
+            "_meanings": [
+                "the sandal tree."
+            ]
+        }
     ]
 }

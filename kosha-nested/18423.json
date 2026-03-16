@@ -1,20 +1,62 @@
 {
-    "__line": 154523,
+    "__line": 164084,
     "_ancestry": [
         "L_ 18423",
-        "B_ {#paryavasTA, paryavasTAnaM#}"
+        "B_ {#nah#}"
     ],
-    "_banner": "{#paryavasTA, paryavasTAnaM#}",
+    "_banner": "{#nah#}",
     "_bannerExp": [
         {
-            "Right": "paryavasTA"
-        },
-        {
-            "Right": "paryavasTAnaM"
+            "Right": "nah"
         }
     ],
+    "_gram": [
+        "€4",
+        "<ab>U.</ab>",
+        "({#nahyati-te, nadDa#}; {%<ab>desid.</ab>%} {#ninatsati-te#})"
+    ],
     "_meanings": [
-        "{@--1@} Opposition,\nresistance, obstruction. ",
-        "{@--2@} \nContradiction."
+        ".²1 To tie, bind, bind on or round or together, gird, round; {#SEleyanadDAni#}\n {#SilAtalAni#} <ls>Ku. 1. 56</ls>; <ls>R. 4. 57</ls>, <ls n=\"R.\">16. 41</ls>.\n",
+        ".²2 To put on (oneself), to dress, arm oneself (<ab>Ātm.</ab>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 164087,
+            "_ancestry": [
+                "L_ 18423",
+                "B_ {#nah#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "nah"
+                }
+            ],
+            "_meanings": [
+                "To\n cause to put on. ",
+                "--{%With%} {#apa#} to untie.\n"
+            ]
+        },
+        {
+            "__line": 164089,
+            "_ancestry": [
+                "L_ 18423",
+                "B_ {#nah#}",
+                "M_ .{@{#-api#}@}"
+            ],
+            "_banner": ".{@{#-api#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apinah"
+                }
+            ],
+            "_meanings": [
+                "({#api#} being often changed to {#pi#})\n",
+                ".²1 to fasten, gird round, bind; {#atipinadDena valkalena#} <ls>Ś. 1</ls>; {#mandAramAlA#}\n {#hariRA pinadDA#} <ls>Ś. 7. 2</ls>.\n",
+                ".²2 to put on, wear; {#kavacaM pinahya#} <ls>Bk. 3. 47</ls>.\n",
+                ".²3 to cover, envelop; {#kusumamiva pinadDaM pARqupatrodareRa#} <ls>Ś. 1. 19</ls>."
+            ]
+        }
     ]
 }

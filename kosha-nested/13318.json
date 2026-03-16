@@ -1,16 +1,122 @@
 {
-    "__line": 111753,
+    "__line": 113501,
     "_ancestry": [
         "L_ 13318",
-        "B_ {#cicCilAH#}"
+        "B_ {#kzara#}"
     ],
-    "_banner": "{#cicCilAH#}",
+    "_banner": "{#kzara#}",
     "_bannerExp": [
         {
-            "Right": "cicCilAH"
+            "Right": "kzara"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#kzarati syandate muYcati bA, kzar-ac#}]"
+    ],
     "_meanings": [
-        "({%<ab>m.</ab>%} <ab>pl.</ab>) <ab>N.</ab> of a\ncountry and its people."
+        ".²1 Melting away.\n",
+        ".²2 Movable.\n",
+        ".²3 Perishable; {#kzaraH sarvARi BUtAni kUwasTo 'kzara ucyate#} <ls>Bg. 15. 16</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 113505,
+            "_ancestry": [
+                "L_ 13318",
+                "B_ {#kzara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzaraH"
+                }
+            ],
+            "_meanings": [
+                "A cloud.\n"
+            ]
+        },
+        {
+            "__line": 113506,
+            "_ancestry": [
+                "L_ 13318",
+                "B_ {#kzara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Water.\n",
+                ".²2 The body; {#tataH savedanaH sadyo jIvaH pracyavate kzarAt#} <ls>Mb. 14. 17. 17</ls>.\n",
+                ".²3 Ignorance.\n",
+                ".²4 The Supreme Being.\n",
+                ".²5 Cause and effect.\n",
+                ".²6 The natural form ({#prakfti#}); {#akzarakzarayoreva dvayoH sambanDa#}\n {#izyate#} <ls>Mb. 12. 305. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 113515,
+            "_ancestry": [
+                "L_ 13318",
+                "B_ {#kzara#}",
+                "S_ .{@{#-Atmaka#}@}"
+            ],
+            "_banner": ".{@{#-Atmaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzarAtmaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Of a perishable nature, perishable; <ls>Mārk. P. 23. 33</ls>.\n"
+            ]
+        },
+        {
+            "__line": 113516,
+            "_ancestry": [
+                "L_ 13318",
+                "B_ {#kzara#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzarajaH"
+                }
+            ],
+            "_meanings": [
+                "(also {#kzareja#}) {%a.%} produced by distillation or from a cloud.\n"
+            ]
+        },
+        {
+            "__line": 113517,
+            "_ancestry": [
+                "L_ 13318",
+                "B_ {#kzara#}",
+                "S_ .{@{#-BAva#}@}"
+            ],
+            "_banner": ".{@{#-BAva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzaraBAva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "mutable."
+            ]
+        }
     ]
 }

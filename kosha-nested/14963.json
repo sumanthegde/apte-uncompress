@@ -1,16 +1,63 @@
 {
-    "__line": 124009,
+    "__line": 129867,
     "_ancestry": [
         "L_ 14963",
-        "B_ {#tElinI#}"
+        "B_ {#cintita#}"
     ],
-    "_banner": "{#tElinI#}",
+    "_banner": "{#cintita#}",
     "_bannerExp": [
         {
-            "Right": "tElinI"
+            "Right": "cintita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The wick of a lamp."
+        ".²1 Thought, reflected. ",
+        ".²2 Devised, found out.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 129869,
+            "_ancestry": [
+                "L_ 14963",
+                "B_ {#cintita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cintitam"
+                }
+            ],
+            "_meanings": [
+                "Reflection, thought.\n",
+                ".²2 Care, attention.\n\n",
+                ".²3 Meditation; {#cintitenAgatAn paSya sametAn sapta sAgarAn#} <ls>Rām. 3. 74. 25</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 129874,
+            "_ancestry": [
+                "L_ 14963",
+                "B_ {#cintita#}",
+                "S_ .{@{#-upanata, -upasTita#}@}"
+            ],
+            "_banner": ".{@{#-upanata, -upasTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cintitopanata"
+                },
+                {
+                    "Right": "cintitopasTita"
+                }
+            ],
+            "_meanings": [
+                "thought of and immediately present; {#kare#}\n {#kfpARamAgneyaM cintitopanataM daDat#}; <ls>Ks. 18. 329</ls>; {#cintitopasTitAgneyaKaqgahastaH#}\n {%<ab>ibid.</ab>%} <ls n=\"Rāj. T.\">116</ls> and <ls n=\"Rāj. T.\">146</ls>."
+            ]
+        }
     ]
 }

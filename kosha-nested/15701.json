@@ -1,20 +1,62 @@
 {
-    "__line": 131588,
+    "__line": 136295,
     "_ancestry": [
         "L_ 15701",
-        "B_ {#dozan#}"
+        "B_ {#jozaH#}"
     ],
-    "_banner": "{#dozan#}",
+    "_banner": "{#jozaH#}",
     "_bannerExp": [
         {
-            "Right": "dozan"
+            "Right": "jozaH"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "{%<ab>n.</ab>%}"
+        "[{#juz-BAve GaY#}]"
     ],
     "_meanings": [
-        "(This word has no\nforms for the first five inflections,\n{%<ab>i. e.</ab>%} before <ab>acc.</ab> <ab>pl.</ab>) An arm."
+        ".²1 Satisfaction, enjoyment, happiness, pleasure.\n",
+        ".²2 Silence.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 136298,
+            "_ancestry": [
+                "L_ 15701",
+                "B_ {#jozaH#}",
+                "M_ .{@{#-zam#}@}"
+            ],
+            "_banner": ".{@{#-zam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jozam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 According to oneʼs wish, with ease.\n",
+                ".²2 Silently; {#kimiti jozamAsyate#} <ls>Ś. 5</ls>; <ls>Bv. 2. 17</ls>; {#jozamAsa na viSizya#}\n {#baBAze#} <ls>N. 5. 78</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 136303,
+            "_ancestry": [
+                "L_ 15701",
+                "B_ {#jozaH#}",
+                "S_ .{@{#-vAkaH#}@}"
+            ],
+            "_banner": ".{@{#-vAkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jozavAkaH"
+                }
+            ],
+            "_meanings": [
+                "chattering nonsense; {#jozavAkaM vadataH#} <ls>Rv. 6. 59. 4</ls>."
+            ]
+        }
     ]
 }

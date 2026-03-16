@@ -1,16 +1,42 @@
 {
-    "__line": 178983,
+    "__line": 194099,
     "_ancestry": [
         "L_ 21622",
-        "B_ {#baliMdamaH#}"
+        "B_ {#pulakin#}"
     ],
-    "_banner": "{#baliMdamaH#}",
+    "_banner": "{#pulakin#}",
     "_bannerExp": [
         {
-            "Right": "baliMdamaH"
+            "Right": "pulakin"
+        },
+        {
+            "Right": "pulakinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A epithet of Viṣṇu."
+        "Having the hairs of the body erect <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 194100,
+            "_ancestry": [
+                "L_ 21622",
+                "B_ {#pulakin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pulakin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A\n species of Kadamba tree."
+            ]
+        }
     ]
 }

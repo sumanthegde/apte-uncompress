@@ -1,19 +1,104 @@
 {
-    "__line": 56461,
+    "__line": 54327,
     "_ancestry": [
         "L_ 6463",
-        "B_ {#AprItapaH, --pAH#}"
+        "B_ {#Akzika#}"
     ],
-    "_banner": "{#AprItapaH, --pAH#}",
+    "_banner": "{#Akzika#}",
     "_bannerExp": [
         {
-            "Right": "AprItapAH"
+            "Right": "Akzika"
         },
         {
-            "Right": "AprItapaH"
+            "Right": "AkzikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#akzeRa dIvyati jayati jitaM vA#}; {#akza Wak#} <ls>P. IV. 4. 2.</ls>]"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of Viṣṇu \n(protecting those who have appeased\nhis anger)."
+        ".²1 One who plays at dice.\n",
+        ".²2 One who uses loaded dice. ({#BAraBUtAnakzAnAharati, vahati#}).\n",
+        ".²3 One who gains by gambling.\n",
+        ".²4 Won by gambling.\n",
+        ".²5 Relating to dice or gambling; {#Akzikam fRam#} <ls>Ms. 8. 159</ls> incurred in gambling.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 54334,
+            "_ancestry": [
+                "L_ 6463",
+                "B_ {#Akzika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AkzikaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a tree (= {#akzika#} <ab>q. v.</ab>)\n"
+            ]
+        },
+        {
+            "__line": 54335,
+            "_ancestry": [
+                "L_ 6463",
+                "B_ {#Akzika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Akzikam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Money gained by gambling.\n",
+                ".²2 Gambling debt, money lost at play.\n"
+            ]
+        },
+        {
+            "__line": 54338,
+            "_ancestry": [
+                "L_ 6463",
+                "B_ {#Akzika#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AkzikI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A kind of spirituous liquor prepared from the seeds\n of Teroninabia Bellerica ({#biBItaka#}; <lang>Mar.</lang> <ns>{#behaqA#}</ns>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 54341,
+            "_ancestry": [
+                "L_ 6463",
+                "B_ {#Akzika#}",
+                "S_ .{@{#-paRaH#}@}"
+            ],
+            "_banner": ".{@{#-paRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AkzikapaRaH"
+                }
+            ],
+            "_meanings": [
+                "a stake, a wager."
+            ]
+        }
     ]
 }

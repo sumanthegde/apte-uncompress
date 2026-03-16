@@ -1,46 +1,79 @@
 {
-    "__line": 102395,
+    "__line": 104096,
     "_ancestry": [
         "L_ 12285",
-        "B_ {#gad#}"
+        "B_ {#kIkasa#}"
     ],
-    "_banner": "{#gad#}",
+    "_banner": "{#kIkasa#}",
     "_bannerExp": [
         {
-            "Right": "gad"
+            "Right": "kIkasa"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#gadati, gadita#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To speak\narticulately, speak, say, relate;  \n{#jagAdAgre gadAgrajaM#} <ls>Śi. 2. 69</ls>; {#bahu jagada#} \n{#purastAttasya mattA kilAhaM#} <ls n=\"Śi.\">11. 39</ls>; {#SudDAtarakzyA#}\n{#jagade kumArI#} <ls>R. 6. 45.</ls> ",
-        "{@--2@} To \nenumerate. "
+        "Hard, firm.\n"
     ],
     "_morphisms": [
         {
-            "__line": 102400,
+            "__line": 104097,
             "_ancestry": [
                 "L_ 12285",
-                "B_ {#gad#}",
-                "M_ {vII.v}"
+                "B_ {#kIkasa#}",
+                "M_ .{@{#-sam#}@}"
             ],
+            "_banner": ".{@{#-sam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gad"
+                    "Right": "kIkasam"
+                }
+            ],
+            "_meanings": [
+                "A bone ({%m.%} also); <ls>Mv. 5. 19</ls>; <ab>cf.</ab> {#‘kIkasaM kulyamasTi#}\n {#ca’#} <ls>Ak.</ls>; {#aciranazwahimAgamakIkasaBramakftAM#} <ls>Rām. Ch. 4. 86</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 104100,
+            "_ancestry": [
+                "L_ 12285",
+                "B_ {#kIkasa#}",
+                "S_ .{@{#-asTi#}@}"
+            ],
+            "_banner": ".{@{#-asTi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIkasAsTi"
                 }
             ],
             "_gram": [
-                "{vII.v}",
-                "{c10c}",
-                "<ab>U.</ab>",
-                "({#gadayati-te#} &c.)"
+                "{%n.%}"
             ],
             "_meanings": [
-                "To\nthunder."
+                "Vertebra.\n"
+            ]
+        },
+        {
+            "__line": 104101,
+            "_ancestry": [
+                "L_ 12285",
+                "B_ {#kIkasa#}",
+                "S_ .{@{#-AsyaH, -muKaH#}@}"
+            ],
+            "_banner": ".{@{#-AsyaH, -muKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIkasAsyaH"
+                },
+                {
+                    "Right": "kIkasamuKaH"
+                }
+            ],
+            "_meanings": [
+                "a bird in general."
             ]
         }
     ]

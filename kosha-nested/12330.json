@@ -1,43 +1,61 @@
 {
-    "__line": 103011,
+    "__line": 104579,
     "_ancestry": [
         "L_ 12330",
-        "B_ {#gamaka#}"
+        "B_ {#kukUlaH#}, {#-lam#}"
     ],
-    "_banner": "{#gamaka#}",
+    "_banner": "{#kukUlaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "gamaka"
+            "Right": "kukUlaH"
         },
         {
-            "Right": "gamikA"
+            "Right": "kukUlam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#mikA#}|{%<ab>f.</ab>%})",
-        "[{#gam-Rvul#}]"
-    ],
     "_meanings": [
-        "{@--1@} \nIndicative or suggestive, a proof or\nindex of; {#tadeva gamakaM pAMqityavEdagDyayoH#}\n<ls>Māl. 1. 7.</ls> ",
-        "{@--2@} Convincing. "
+        ".²1 Chaff; {#kukUlAnAM rASO tadanu hfdayaM pacyata iva#} <ls>U. 5. 38</ls>.\n",
+        ".²2 A fire made of chaff.\n"
     ],
     "_morphisms": [
         {
-            "__line": 103014,
+            "__line": 104582,
             "_ancestry": [
                 "L_ 12330",
-                "B_ {#gamaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#kukUlaH#}, {#-lam#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gamakaH"
+                    "Right": "kukUlam"
                 }
             ],
             "_meanings": [
-                "A kind\nof musical note (of which there are\nseven)."
+                ".²1 A hole, ditch (filled with stakes).\n",
+                ".²2 An armour, mail.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 104586,
+            "_ancestry": [
+                "L_ 12330",
+                "B_ {#kukUlaH#}, {#-lam#}",
+                "S_ .{@{#-agniH#}@}"
+            ],
+            "_banner": ".{@{#-agniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kukUlAgniH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fire made of chaff; {#aNgArAstuhine nyastAH kukUlAgniSca#}\n {#candane#} <ls>Ks. 117. 92</ls>."
             ]
         }
     ]

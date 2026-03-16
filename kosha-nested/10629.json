@@ -1,23 +1,55 @@
 {
-    "__line": 89305,
+    "__line": 88758,
     "_ancestry": [
         "L_ 10629",
-        "B_ {#kAMkz#}"
+        "B_ {#X#}"
     ],
-    "_banner": "{#kAMkz#}",
+    "_banner": "{#X#}",
     "_bannerExp": [
         {
-            "Right": "kAMkz"
+            "Right": "X"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "(epic <ab>Atm.</ab> also)"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{#kAMkzati, kAMkzita#} ",
-        "{@--1@} To wish, desire,\nlong for; {#yatkAMkzaMti#} \n{#tapoBiranyamunayastasmiMstapasyaMtyamI#} <ls>Ś. 7. 12</ls>; {#na Socati#}\n{#na kAMkzati#} <ls>Bg. 12. 7</ls>; {#na kAMkze vijayaM#}\n{#kfzRa#} <ls n=\"Bg.\">1. 32</ls>; <ls>R. 12. 58</ls>; <ls>Ms. 2. 242.</ls>\n",
-        "{@--2@} To expect, wait for."
+        "A mother, a divine female. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 88758,
+            "_ancestry": [
+                "L_ 10629",
+                "B_ {#X#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#X#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "Śiva. "
+            ]
+        },
+        {
+            "__line": 88758,
+            "_ancestry": [
+                "L_ 10629",
+                "B_ {#X#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#X#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "= {#x#}.\n <ab>cf.</ab> {#XmahAtmA suro bAlo BUpaH stomaH kaTAnakaH#} ({#vaktA#}) L {#mUrKo#}\n {#SiSno gudaH kakzA keSaH pAparato naraH ..#} <ls>Enm.</ls>"
+            ]
+        }
     ]
 }

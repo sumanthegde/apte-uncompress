@@ -1,16 +1,38 @@
 {
-    "__line": 35094,
+    "__line": 32305,
     "_ancestry": [
         "L_ 3856",
-        "B_ {#amftAPalaM#}"
+        "B_ {#aBihrut#}"
     ],
-    "_banner": "{#amftAPalaM#}",
+    "_banner": "{#aBihrut#}",
     "_bannerExp": [
         {
-            "Right": "amftAPalaM"
+            "Right": "aBihrut"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The fruit of the \nTrichosanthes ({#pawolaPala#})."
+        "<ab>Ved.</ab> Bending, causing crookedness, acting injuriously.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 32306,
+            "_ancestry": [
+                "L_ 3856",
+                "B_ {#aBihrut#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#aBihrut#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "Fall; defeat, loss."
+            ]
+        }
     ]
 }

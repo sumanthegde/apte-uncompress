@@ -1,19 +1,40 @@
 {
-    "__line": 173738,
+    "__line": 187764,
     "_ancestry": [
         "L_ 20972",
-        "B_ {#prasyaMdaH --danaM#}"
+        "B_ {#pAWin#}"
     ],
-    "_banner": "{#prasyaMdaH --danaM#}",
+    "_banner": "{#pAWin#}",
     "_bannerExp": [
         {
-            "Right": "prasyaMdaH"
-        },
-        {
-            "Right": "prasyaMdanaM"
+            "Right": "pAWin"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#paW-Rini#}]"
+    ],
     "_meanings": [
-        "Flowing forth, \nexudation; trickling out, oozing."
+        ".²1 One who has read or studied any subject.\n",
+        ".²2 Knowing or familiar with. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 187766,
+            "_ancestry": [
+                "L_ 20972",
+                "B_ {#pAWin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pAWin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A Brāhmaṇa who has finished his studies."
+            ]
+        }
     ]
 }

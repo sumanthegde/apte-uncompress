@@ -1,16 +1,80 @@
 {
-    "__line": 249452,
+    "__line": 275328,
     "_ancestry": [
         "L_ 29807",
-        "B_ {#saraGA#}"
+        "B_ {#vipaRiH#}, {#-RI#}"
     ],
-    "_banner": "{#saraGA#}",
+    "_banner": "{#vipaRiH#}, {#-RI#}",
     "_bannerExp": [
         {
-            "Right": "saraGA"
+            "Right": "vipaRiH"
+        },
+        {
+            "Right": "vipaRI"
         }
     ],
+    "_gram": [
+        "{%f.%}"
+    ],
     "_meanings": [
-        "A bee; {#tastAra saraGAvyAptEH#}\n{#sa kzOdrapawalEriva#} <ls>R. 4. 63</ls>; <ls>Śi. 15. 23.</ls>"
+        ".²1 A market, market-place, stall; {#hA hA naSyati manmaTasya vipaRiH sOBAgyapaRyAkaraH#}\n <ls>Mk. 8. 38</ls>; <ls>Śi. 5. 24</ls>; <ls>R. 16. 41</ls>.\n",
+        ".²2 An article or commodity for sale.\n",
+        ".²3 Trade, traffic; <ls>Ms. 10. 116</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 275334,
+            "_ancestry": [
+                "L_ 29807",
+                "B_ {#vipaRiH#}, {#-RI#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipaRigata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being on the market.\n"
+            ]
+        },
+        {
+            "__line": 275335,
+            "_ancestry": [
+                "L_ 29807",
+                "B_ {#vipaRiH#}, {#-RI#}",
+                "S_ .{@{#-jIvikA#}@}"
+            ],
+            "_banner": ".{@{#-jIvikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipaRijIvikA"
+                }
+            ],
+            "_meanings": [
+                "subsistence by traffic.\n"
+            ]
+        },
+        {
+            "__line": 275336,
+            "_ancestry": [
+                "L_ 29807",
+                "B_ {#vipaRiH#}, {#-RI#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipaRipaTaH"
+                }
+            ],
+            "_meanings": [
+                "a shop-street."
+            ]
+        }
     ]
 }

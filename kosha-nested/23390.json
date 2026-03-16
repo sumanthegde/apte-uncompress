@@ -1,19 +1,40 @@
 {
-    "__line": 197090,
+    "__line": 209150,
     "_ancestry": [
         "L_ 23390",
-        "B_ {#mfgayas#}"
+        "B_ {#pravas#}"
     ],
-    "_banner": "{#mfgayas#}",
+    "_banner": "{#pravas#}",
     "_bannerExp": [
         {
-            "Right": "mfgayas"
+            "Right": "pravas"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> A wild animal."
+        "²1 To live, dwell.\n",
+        ".²2 To go abroad, sojourn, be absent from home, travel; {#viDAya vfttiM#}\n {#BAryAyAH pravaset kAryavAnnaraH#} <ls>Ms. 9. 74</ls>; <ls>R. 11. 4</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 209153,
+            "_ancestry": [
+                "L_ 23390",
+                "B_ {#pravas#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pravas"
+                }
+            ],
+            "_meanings": [
+                "To banish, send into exile; {#ekasTamaTa saMruDyAt putravAn vA pravAsayet#} <ls>Kau. A. 1. 15</ls>."
+            ]
+        }
     ]
 }

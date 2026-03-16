@@ -1,24 +1,41 @@
 {
-    "__line": 82788,
+    "__line": 81948,
     "_ancestry": [
         "L_ 9808",
-        "B_ {#ODasa#}"
+        "B_ {#uparakta#}"
     ],
-    "_banner": "{#ODasa#}",
+    "_banner": "{#uparakta#}",
     "_bannerExp": [
         {
-            "Right": "ODasI"
-        },
-        {
-            "Right": "ODasa"
+            "Right": "uparakta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#sI#}|{%<ab>f.</ab>%})",
-        "[{#UDasaH idaM aR#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Being or contained in the udder\n(as milk)."
+        ".²1 Afflicted, overtaken by calamity, distressed.\n",
+        ".²2 Eclipsed; <ls>K. 314</ls>.\n",
+        ".²3 Tinged, coloured; {#dvizaddvezoparaktANgasaNginIH#} <ls>Śi. 2. 18</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 81952,
+            "_ancestry": [
+                "L_ 9808",
+                "B_ {#uparakta#}",
+                "M_ .{@{#-ktaH#}@}"
+            ],
+            "_banner": ".{@{#-ktaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparaktaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The sun or moon in eclipse.\n",
+                ".²2 Rāhu."
+            ]
+        }
     ]
 }

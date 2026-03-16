@@ -136,7 +136,7 @@ const server = http.createServer((req, res) => {
       pagemarks: pagemarks,
       sortedKeys: sortedPagemarkKeys
     }));
-  } else if (req.url.endsWith('.js') || req.url.endsWith('.css')) {
+  } else if (req.url.endsWith('.js') || req.url.endsWith('.css') || req.url.endsWith('.json')) {
     // scripts themselves, or any resource (in public directory)
 
     const extname = String(path.extname(filePath)).toLowerCase();

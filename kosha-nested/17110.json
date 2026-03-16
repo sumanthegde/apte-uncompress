@@ -1,19 +1,60 @@
 {
-    "__line": 143883,
+    "__line": 149142,
     "_ancestry": [
         "L_ 17110",
-        "B_ {#nivItin#}"
+        "B_ {#daSaka#}"
     ],
-    "_banner": "{#nivItin#}",
+    "_banner": "{#daSaka#}",
     "_bannerExp": [
         {
-            "Right": "nivItin"
+            "Right": "daSaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Wearing the sacred\nthread round the neck (like a \ngarland)."
+        "Consisting of ten, tenfold; {#kAmajo daSako gaRaH#} <ls>Ms. 7. 47</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 149143,
+            "_ancestry": [
+                "L_ 17110",
+                "B_ {#daSaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSakam"
+                }
+            ],
+            "_meanings": [
+                "A group of ten; decad; {#padAtilakzadaSakam#} <ls>Ks. 102. 108</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 149145,
+            "_ancestry": [
+                "L_ 17110",
+                "B_ {#daSaka#}",
+                "S_ .{@{#-mAsika#}@}"
+            ],
+            "_banner": ".{@{#-mAsika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSakamAsika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hired for ten months."
+            ]
+        }
     ]
 }

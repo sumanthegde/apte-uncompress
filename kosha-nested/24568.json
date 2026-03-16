@@ -1,20 +1,101 @@
 {
-    "__line": 208274,
+    "__line": 219663,
     "_ancestry": [
         "L_ 24568",
-        "B_ {#lAwikA, lAwI#}"
+        "B_ {#bAD#}"
     ],
-    "_banner": "{#lAwikA, lAwI#}",
+    "_banner": "{#bAD#}",
     "_bannerExp": [
         {
-            "Right": "lAwI"
-        },
-        {
-            "Right": "lAwikA"
+            "Right": "bAD"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>Ā.</ab>",
+        "({#bADate, bADita#})"
+    ],
     "_meanings": [
-        "{@--1@} A particular style\nof composition; see <ls>S. D. 629.</ls> ",
-        "{@--2@}\n<ab>N.</ab> of a Prākṛta dialect; see  \n<ls>Kāv. 1. 35.</ls>"
+        ".²1 To harass, oppress, torment, press hard, annoy, trouble, disturb, vex,\n pain (persons or things); {#UnaM na sattvezvaDiko babADe#} <ls>R. 2. 14</ls>; {#BUriBAraBarAkrAntaH#}\n {#skanDa eza nu bADati . na taTA bADate skanDo yaTA bADati bADate#} <ls>Subhāṣ.</ls>;\n <ls>Me. 55</ls>; <ls>Ms. 9. 226</ls>, <ls n=\"Ms.\">10. 129</ls>; <ls>Bk. 14. 45</ls>.\n",
+        ".²2 To resist, oppose, thwart, check, obstruct, arrest, interfere with;\n {#guRAnurAgAdiva saKyamIyivAn na bADate'sya trigaRaH parasparam#} <ls>Ki. 1. 11</ls>;\n <ls>U. 5. 19</ls>.\n",
+        ".²3 To attack, assault, assail; {#sa tadA labDatIrTo'pi na babADe nirAyuDam#}\n <ls>Bhāg. 3. 19. 4</ls>.\n",
+        ".²4 To wrong, violate.\n",
+        ".²5 To hurt, injure.\n",
+        ".²6 To drive away, repel, remove; {#uzRena bADyate SItaM SItenozRaM prabADyate#}\n <ls>Mb. 12. 16. 12</ls>.\n",
+        ".²7 To suspend, set aside, annul, annihilate, abolish (as a rule <ab>&c.</ab>);\n {#na DarmamarTakAmAByAM babADe na ca tena tO#} <ls>R. 17. 57</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 219678,
+            "_ancestry": [
+                "L_ 24568",
+                "B_ {#bAD#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "bAD"
+                }
+            ],
+            "_meanings": [
+                ".²1 To oppress, torment, harass <ab>&c.</ab>\n",
+                ".²2 To subdue, conquer. ",
+                "--{%With%} {#aBi#}\n",
+                ".²1 to hurt, injure.\n",
+                ".²2 to vex, harass, torment.\n"
+            ]
+        },
+        {
+            "__line": 219683,
+            "_ancestry": [
+                "L_ 24568",
+                "B_ {#bAD#}",
+                "M_ .{@{#-A#}@}"
+            ],
+            "_banner": ".{@{#-A#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AbAD"
+                }
+            ],
+            "_meanings": [
+                "to vex, torment, injure.\n"
+            ]
+        },
+        {
+            "__line": 219684,
+            "_ancestry": [
+                "L_ 24568",
+                "B_ {#bAD#}",
+                "M_ .{@{#-pari#}@}"
+            ],
+            "_banner": ".{@{#-pari#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paribAD"
+                }
+            ],
+            "_meanings": [
+                "to trouble, afflict; {#mohAnmayA sutanu pUrvamupekzitaste#}\n {#yo bAzpabinduraDaraM paribADamAnaH#} <ls>Ś. 7. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 219686,
+            "_ancestry": [
+                "L_ 24568",
+                "B_ {#bAD#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "sambAD"
+                }
+            ],
+            "_meanings": [
+                "to trouble, torment."
+            ]
+        }
     ]
 }

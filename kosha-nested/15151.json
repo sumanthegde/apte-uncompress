@@ -1,42 +1,90 @@
 {
-    "__line": 125880,
+    "__line": 131156,
     "_ancestry": [
         "L_ 15151",
-        "B_ {#daMqakaH#}"
+        "B_ {#cEla#}"
     ],
-    "_banner": "{#daMqakaH#}",
+    "_banner": "{#cEla#}",
     "_bannerExp": [
         {
-            "Right": "daMqakaH"
+            "Right": "cEla"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A stick, staff &c. ",
-        "{@--2@} A\nline, row. ",
-        "{@--3@} <ab>N.</ab> of a metre; see\nApp. I. "
+        "Made of cloth.\n"
     ],
     "_morphisms": [
         {
-            "__line": 125882,
+            "__line": 131157,
             "_ancestry": [
                 "L_ 15151",
-                "B_ {#daMqakaH#}",
-                "M_ {#--kaH, --kA, --kaM#}"
+                "B_ {#cEla#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": "{#--kaH, --kA, --kaM#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "daMqakA"
-                },
-                {
-                    "Right": "daMqakaH"
-                },
-                {
-                    "Right": "daMqakaM"
+                    "Right": "cElam"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab> of a \ncelebrated district in the Deccan \nsituated between the rivers Narmadā\nand Godāvarī; (it was a vast region\nsaid to be tenantless in the time of\nRāma); {#prAptAni duHKAnyapi daMqakezu#}\n<ls>R. 14. 25</ls>; {#kiM nAma daMqakeyaM#} <ls>U. 2</ls>;  \n{#kvAyoDyAyAH punarupagamo daMqakAyAM vane vaH#}\n<ls>U. 2. 13</ls>, <ls n=\"U. 2.\">14</ls>, <ls n=\"U. 2.\">15.</ls>"
+                "A piece of cloth, garment.\n"
+            ]
+        },
+        {
+            "__line": 131158,
+            "_ancestry": [
+                "L_ 15151",
+                "B_ {#cEla#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cElaH"
+                }
+            ],
+            "_meanings": [
+                "A month.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 131160,
+            "_ancestry": [
+                "L_ 15151",
+                "B_ {#cEla#}",
+                "S_ .{@{#-aSakaH#}@}"
+            ],
+            "_banner": ".{@{#-aSakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cElASakaH"
+                }
+            ],
+            "_meanings": [
+                "A goblin feeding on moths <ls>Ms. 12. 72</ls>.\n"
+            ]
+        },
+        {
+            "__line": 131161,
+            "_ancestry": [
+                "L_ 15151",
+                "B_ {#cEla#}",
+                "S_ .{@{#-DAvaH#}@}"
+            ],
+            "_banner": ".{@{#-DAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cElaDAvaH"
+                }
+            ],
+            "_meanings": [
+                "a washerman; {#cElaDAvasurAjIvasahopapativeSmanAm#} <ls>Y. 1. 164</ls>."
             ]
         }
     ]

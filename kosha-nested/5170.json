@@ -1,40 +1,429 @@
 {
-    "__line": 45570,
+    "__line": 43619,
     "_ancestry": [
         "L_ 5170",
-        "B_ {#avyaMjana#}"
+        "B_ {#avara#}"
     ],
-    "_banner": "{#avyaMjana#}",
+    "_banner": "{#avara#}",
     "_bannerExp": [
         {
-            "Right": "avyaMjana"
+            "Right": "avara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#vf-bA˚ ap#}, <sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Having no \ndistinctive or characteristic marks or\nsigns (as of the sex); {#°nA kanyA#}.\n",
-        "{@--2@} Having no good marks. ",
-        "{@--3@} \nIndistinct. ",
-        "{@--4@} Not figurative. "
+        ".²1\n",
+        ".³({%a%}) Younger (in years); {#mAsenAvaraH#} = {#mAsAvaraH#} <ls>Sk.</ls>\n",
+        ".³({%b%}) Later; Posterior hinder (in time or space); {#dakzO vivasvAnavaraH#}\n <ls>Rām.</ls>; {#pUrvajenAvaraH putrO jyezWo rAjye'Bizicyate#} <ls>Rām.</ls>; {#yadavaraM#}\n {#kOSAmbyAH, yadavaramAgrahAyaRyAH#} <ls>P. III. 3. 136-7. Sk.</ls>; {#rAmAdvarzeRADokzajo'varaH#} <ls>Bop.</ls>\n",
+        ".²2 Following, succeeding; {#jarAvarAH#} ({#SabdAH#}) <ls>Ak.</ls>, {#avaraH SradDayopetaH#}\n <ls>Bhāg. 4. 18. 4</ls>. {#caturo'varAn#} <ls>Ms. 3. 33</ls>.\n",
+        ".²3 Below, under, lower, inferior, less; {#varRAvaro BrAtA#} <ls>M. 1</ls>.\n",
+        ".²4 Mean, unimportant, worst, lowest (<ab>opp.</ab> {#uttama#}); {#avyaNgyamavaraM#}\n {#smftam#} <ls>K. P. 1</ls>; {#dUreRa hyavaraM karma budDiyogAdDanaYjaya#} <ls>Bg. 2. 49</ls>;\n {#SraddaDAnaM SuBAM vidyAmAdadItAvarAdapi#} <ls>Ms. 2. 238</ls>.\n",
+        ".²5 Last (<ab>opp.</ab> {#praTama#}); {#sAmAnyamezAM praTamAvaratvam#} <ls>Ku. 7. 44</ls>.\n",
+        ".²6 Least; usually as the last member of <ab>comp.</ab> with numerals; {#tryavarEH#}\n {#sAkziBirBAvyaH#} <ls>Ms. 8. 60</ls>, <ls n=\"Ms.\">3. 187</ls>, <ls n=\"Ms.\">11. 80</ls>, <ls n=\"Ms.\">12. 110</ls>; {#tryavarA parizad#}\n {#jYeyA#} <ls n=\"Ms. 12.\">112</ls>; <ls>Y. 2. 69</ls>.\n",
+        ".²7 Western.\n",
+        ".²8 Nearer, next.\n",
+        ".²9 Most excellent ({#atyantaSrezWa#}).\n"
     ],
     "_morphisms": [
         {
-            "__line": 45574,
+            "__line": 43638,
             "_ancestry": [
                 "L_ 5170",
-                "B_ {#avyaMjana#}",
-                "M_ {#--naH#}"
+                "B_ {#avara#}",
+                "M_ .{@{#-raH#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avyaMjanaH"
+                    "Right": "avaraH"
                 }
             ],
             "_meanings": [
-                "An\nanimal without horns, though of an\nage to have them."
+                ".²1 A country behind.\n",
+                ".²2 Time gone.\n"
+            ]
+        },
+        {
+            "__line": 43641,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avarA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A Direction.\n",
+                ".²2 <ab>N.</ab> of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 43644,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaram"
+                }
+            ],
+            "_meanings": [
+                "The hind thigh of an elephant (also {#˚rA#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 43646,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-arDaH#}@}"
+            ],
+            "_banner": ".{@{#-arDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avarArDaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the least part, the minimum.\n",
+                ".²2 the last half.\n",
+                ".²3 the hinder part of the body.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 43650,
+                    "_ancestry": [
+                        "L_ 5170",
+                        "B_ {#avara#}",
+                        "S_ .{@{#-arDaH#}@}",
+                        "S_M_ ({@{#-rDam#}@})"
+                    ],
+                    "_banner": "({@{#-rDam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "avarArDam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} in a certain succession of parts, successively.\n.{@{#˚taH#}@} {%ind.%} from below.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 43652,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-arDya#}@}"
+            ],
+            "_banner": ".{@{#-arDya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avarArDya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#avarArDe BavaH yat#}]"
+            ],
+            "_meanings": [
+                ".²1 being or on the lower or near side.\n",
+                ".²2 belonging to the last half.\n",
+                ".²3 beginning from below.\n",
+                ".²4 defective ({#nyUna#}).\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 43657,
+                    "_ancestry": [
+                        "L_ 5170",
+                        "B_ {#avara#}",
+                        "S_ .{@{#-arDya#}@}",
+                        "S_M_ ({@{#-rDyam#}@})"
+                    ],
+                    "_banner": "({@{#-rDyam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "avarArDyam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the least or smallest part.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 43658,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-avara#}@}"
+            ],
+            "_banner": ".{@{#-avara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avarAvara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lowest, most inferior of all; {#na hi prakfzwAn#}\n {#prezyAMstu prezayatyavarAvarAn#} <ls>Rām.</ls>\n"
+            ]
+        },
+        {
+            "__line": 43660,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-ukta#}@}"
+            ],
+            "_banner": ".{@{#-ukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avarokta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "named last.\n\n"
+            ]
+        },
+        {
+            "__line": 43662,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaraja"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                ".²1 younger, junior, born afterwards <ls>Śi. 14. 74</ls>.\n",
+                ".²2 of a low birth, inferior.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 43665,
+                    "_ancestry": [
+                        "L_ 5170",
+                        "B_ {#avara#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jaH#}@})"
+                    ],
+                    "_banner": "({@{#-jaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "avarajaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a younger brother; {#BImasenAdavarajaH SrezWaH sarvaDanuzmatAm#} <ls>Mb. 14. 72. 14</ls>;\n <ls>R. 11. 54</ls>, <ls n=\"R.\">14. 11</ls>, <ls n=\"R. 14.\">36</ls>.\n",
+                        ".²2 a Śūdra. "
+                    ]
+                },
+                {
+                    "__line": 43668,
+                    "_ancestry": [
+                        "L_ 5170",
+                        "B_ {#avara#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jA#}@})"
+                    ],
+                    "_banner": "({@{#-jA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "avarajA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a younger sister; {#vidarBarAjAvarajA#} <ls>R. 6. 58</ls>, <ls n=\"R. 6.\">84</ls>, <ls n=\"R.\">12. 32</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 43669,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-param#}@}"
+            ],
+            "_banner": ".{@{#-param#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaraparam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "one after (upon) another; {#yasmintsamudro dyOrBUmistrayo'varaparaM#}\n {#SritAH#} <ls>Av. 11. 3. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 43671,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-puruzAH#}@}"
+            ],
+            "_banner": ".{@{#-puruzAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avarapuruzAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) oneʼs descendants.\n"
+            ]
+        },
+        {
+            "__line": 43672,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-varRa#}@}"
+            ],
+            "_banner": ".{@{#-varRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaravarRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to a low caste or tribe.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 43673,
+                    "_ancestry": [
+                        "L_ 5170",
+                        "B_ {#avara#}",
+                        "S_ .{@{#-varRa#}@}",
+                        "S_M_ ({@{#-rRaH#}@})"
+                    ],
+                    "_banner": "({@{#-rRaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "avaravarRaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a Śūdra, a man of the fourth tribe.\n",
+                        ".²2 the last or fourth tribe; {#sparSenAvaravarRajaH#} ({#hanti#}) <ls>Ms. 3. 241</ls>.\n {#brAhmaRAn bADamAnaM tu kAmAdavaravarRajam#} ({#hanyAt#}) <ls n=\"Ms\">9. 248</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 43677,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-varRakaH, -varRajaH#}@}"
+            ],
+            "_banner": ".{@{#-varRakaH, -varRajaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaravarRakaH"
+                },
+                {
+                    "Right": "avaravarRajaH"
+                }
+            ],
+            "_meanings": [
+                "a Śūdra.\n"
+            ]
+        },
+        {
+            "__line": 43678,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-vrata#}@}"
+            ],
+            "_banner": ".{@{#-vrata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaravrata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no vow ({#hInavrata#} or {#aDamavrata#}).\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 43679,
+                    "_ancestry": [
+                        "L_ 5170",
+                        "B_ {#avara#}",
+                        "S_ .{@{#-vrata#}@}",
+                        "S_M_ ({@{#-taH#}@})"
+                    ],
+                    "_banner": "({@{#-taH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "avaravrataH"
+                        }
+                    ],
+                    "_meanings": [
+                        "[{#avaram atyantaSrezWaM vratamasya#}]\n",
+                        ".²1 the Sun.\n",
+                        ".²2 a kind of tree ({%Arka%}).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 43682,
+            "_ancestry": [
+                "L_ 5170",
+                "B_ {#avara#}",
+                "S_ .{@{#-SElaH#}@}"
+            ],
+            "_banner": ".{@{#-SElaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avaraSElaH"
+                }
+            ],
+            "_gram": [
+                "[{#avaraH paScAdvartI SElaH#}]"
+            ],
+            "_meanings": [
+                "the western mountain (behind\n which the sun is supposed to set)."
             ]
         }
     ]

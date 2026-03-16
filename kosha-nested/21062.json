@@ -1,19 +1,151 @@
 {
-    "__line": 174348,
+    "__line": 188723,
     "_ancestry": [
         "L_ 21062",
-        "B_ {#prAgrya#}"
+        "B_ {#pAnIya#}"
     ],
-    "_banner": "{#prAgrya#}",
+    "_banner": "{#pAnIya#}",
     "_bannerExp": [
         {
-            "Right": "prAgrya"
+            "Right": "pAnIya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#pA-karmaRi anIyar#}]"
     ],
     "_meanings": [
-        "Chief, foremost, best,\nmost excellent."
+        ".²1 Drinkable.\n",
+        ".²2 To be protected or preserved.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 188726,
+            "_ancestry": [
+                "L_ 21062",
+                "B_ {#pAnIya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAnIyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Water; {#pAnIyaM pAtumicCAmi tvattaH kamalalocane#} <ls>Udb.</ls>; <ls>Ā. L. 9</ls>.\n",
+                ".²2 A drink, potion, beverage.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 188730,
+            "_ancestry": [
+                "L_ 21062",
+                "B_ {#pAnIya#}",
+                "S_ .{@{#-kAkikA#}@}"
+            ],
+            "_banner": ".{@{#-kAkikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAnIyakAkikA"
+                }
+            ],
+            "_meanings": [
+                "a cormorant.\n"
+            ]
+        },
+        {
+            "__line": 188731,
+            "_ancestry": [
+                "L_ 21062",
+                "B_ {#pAnIya#}",
+                "S_ .{@{#-nakulaH#}@}"
+            ],
+            "_banner": ".{@{#-nakulaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAnIyanakulaH"
+                }
+            ],
+            "_meanings": [
+                "an otter.\n"
+            ]
+        },
+        {
+            "__line": 188732,
+            "_ancestry": [
+                "L_ 21062",
+                "B_ {#pAnIya#}",
+                "S_ .{@{#-pfzWajA#}@}"
+            ],
+            "_banner": ".{@{#-pfzWajA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAnIyapfzWajA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "moss.\n"
+            ]
+        },
+        {
+            "__line": 188733,
+            "_ancestry": [
+                "L_ 21062",
+                "B_ {#pAnIya#}",
+                "S_ .{@{#-varRikA#}@}"
+            ],
+            "_banner": ".{@{#-varRikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAnIyavarRikA"
+                }
+            ],
+            "_meanings": [
+                "sand.\n"
+            ]
+        },
+        {
+            "__line": 188734,
+            "_ancestry": [
+                "L_ 21062",
+                "B_ {#pAnIya#}",
+                "S_ .{@{#-vArikaH#}@}"
+            ],
+            "_banner": ".{@{#-vArikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAnIyavArikaH"
+                }
+            ],
+            "_meanings": [
+                "the attendant of a convent who has the care of drinking water; <ls>Buddh.</ls>\n"
+            ]
+        },
+        {
+            "__line": 188735,
+            "_ancestry": [
+                "L_ 21062",
+                "B_ {#pAnIya#}",
+                "S_ .{@{#-SAlA, -SAlikA#}@}"
+            ],
+            "_banner": ".{@{#-SAlA, -SAlikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAnIyaSAlA"
+                },
+                {
+                    "Right": "pAnIyaSAlikA"
+                }
+            ],
+            "_meanings": [
+                "a place where water is distributed to travellers; <ab>cf.</ab> {#prapA#}."
+            ]
+        }
     ]
 }

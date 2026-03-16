@@ -1,24 +1,60 @@
 {
-    "__line": 229290,
+    "__line": 250879,
     "_ancestry": [
         "L_ 27265",
-        "B_ {#vyaBicar#}"
+        "B_ {#raTin#}"
     ],
-    "_banner": "{#vyaBicar#}",
+    "_banner": "{#raTin#}",
     "_bannerExp": [
         {
-            "Right": "vyaBicar"
+            "Right": "raTin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#raTa-ini#}]"
     ],
     "_meanings": [
-        "{@--1@} To go astray,\ndeviate from; as in {#avyaBicarita#} \n{#sADyasAmAnyADikaraRyaM vyaptiH#} <ls>Tarka K.</ls> ",
-        "{@--2@}\nTo transgress against, be faithless to.\n",
-        "{@--3@} To act crookedly. ",
-        "{@--4@} To offend,\ninjure. ",
-        "{@--5@} To fail, miscarry."
+        ".²1 Riding or driving in a carriage.\n",
+        ".²2 Possessing or owning a carriage. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 250881,
+            "_ancestry": [
+                "L_ 27265",
+                "B_ {#raTin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#raTin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An owner of a carriage.\n",
+                ".²2 A warrior who fights from a chariot; {#AtmAnaM raTinaM vidDi SarIraM#}\n {#raTameva tu . budDiM tu sAraTiM vidDi manaH pragrahameva ca ..#} <ls>Kaṭh. 1. 3. 3</ls>;\n <ls>R. 7. 37</ls>.\n",
+                ".²3 A man of {#kzatriya#} caste.\n",
+                ".²4 A driver.\n"
+            ]
+        },
+        {
+            "__line": 250888,
+            "_ancestry": [
+                "L_ 27265",
+                "B_ {#raTin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "raTinI"
+                }
+            ],
+            "_meanings": [
+                "A number of carriages or chariots."
+            ]
+        }
     ]
 }

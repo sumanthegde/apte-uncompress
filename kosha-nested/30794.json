@@ -1,21 +1,102 @@
 {
-    "__line": 257987,
+    "__line": 284584,
     "_ancestry": [
         "L_ 30794",
-        "B_ {#sten#}"
+        "B_ {#vetanam#}"
     ],
-    "_banner": "{#sten#}",
+    "_banner": "{#vetanam#}",
     "_bannerExp": [
         {
-            "Right": "sten"
+            "Right": "vetanam"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "(Strictly a <ab>denom.</ab>\nfrom {#stena; stenayati-te#})"
+        "[{#aj-tanan vIBAvaH#} <ls>Uṇ. 3. 150</ls>]"
     ],
     "_meanings": [
-        "To steal, rob;\n<ls>Ms. 8. 333.</ls>"
+        ".²1 Hire, wages, salary, pay, stipend; {#kiM muDA vetanadAnena#} <ls>M. 1</ls>;\n <ls>R. 17. 66</ls>; <ls>Ms. 8. 5</ls>.\n",
+        ".²2 Livelihood, subsistence.\n",
+        ".²3 Silver.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 284590,
+            "_ancestry": [
+                "L_ 30794",
+                "B_ {#vetanam#}",
+                "S_ .{@{#-adAnam, -anapAkarman#}@}"
+            ],
+            "_banner": ".{@{#-adAnam, -anapAkarman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vetanAdAnam"
+                },
+                {
+                    "Right": "vetanAnapAkarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-anapakriyA#}@}"
+            ],
+            "_meanings": [
+                ".²1 non-payment of wages; {#eza Darmo'Kilenokto vetanAdAnakarmaRaH#} <ls>Ms. 8. 218</ls>.\n",
+                ".²2 an action for non-payment of wages.\n"
+            ]
+        },
+        {
+            "__line": 284593,
+            "_ancestry": [
+                "L_ 30794",
+                "B_ {#vetanam#}",
+                "S_ .{@{#-jIvin#}@}"
+            ],
+            "_banner": ".{@{#-jIvin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vetanajIvin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a stipendiary.\n"
+            ]
+        },
+        {
+            "__line": 284594,
+            "_ancestry": [
+                "L_ 30794",
+                "B_ {#vetanam#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vetanadAnam"
+                }
+            ],
+            "_meanings": [
+                "hiring.\n"
+            ]
+        },
+        {
+            "__line": 284595,
+            "_ancestry": [
+                "L_ 30794",
+                "B_ {#vetanam#}",
+                "S_ .{@{#-Buj#}@}"
+            ],
+            "_banner": ".{@{#-Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vetanaBuj"
+                }
+            ],
+            "_meanings": [
+                "a servant."
+            ]
+        }
     ]
 }

@@ -1,19 +1,87 @@
 {
-    "__line": 4027,
+    "__line": 2192,
     "_ancestry": [
         "L_ 231",
-        "B_ {#agraBaRa#}"
+        "B_ {#aguru#}"
     ],
-    "_banner": "{#agraBaRa#}",
+    "_banner": "{#aguru#}",
     "_bannerExp": [
         {
-            "Right": "agraBaRa"
+            "Right": "aguru"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Having nothing\nacceptable."
+        ".²1 Not heavy, light.\n",
+        ".²2 (In prosody) Short.\n",
+        ".²3 Having no teacher.\n",
+        ".²4 One different from a teacher.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 2197,
+            "_ancestry": [
+                "L_ 231",
+                "B_ {#aguru#}",
+                "M_ .{@{#-ru#}@}"
+            ],
+            "_banner": ".{@{#-ru#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aguru"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "({%m.%} also) [{#na gururyasmAt#}]\n",
+                ".²1 The fragrant aloe wood and tree; Aquiluria Agallocha.\n",
+                ".²2 That which yields Bdellium, Amyris Agallocha.\n",
+                ".²3 The Śiśu tree ({#SiMSapA#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 2202,
+            "_ancestry": [
+                "L_ 231",
+                "B_ {#aguru#}",
+                "S_ .{@{#-SiMSapA#}@}"
+            ],
+            "_banner": ".{@{#-SiMSapA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aguruSiMSapA"
+                }
+            ],
+            "_gram": [
+                "[{#aguruH sAro yasyAstAdfSI SiMSapA#}; {#maDyamapadalo#}.]"
+            ],
+            "_meanings": [
+                "the Śiśu tree.\n"
+            ]
+        },
+        {
+            "__line": 2204,
+            "_ancestry": [
+                "L_ 231",
+                "B_ {#aguru#}",
+                "S_ .{@{#-sAraH#}@}"
+            ],
+            "_banner": ".{@{#-sAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agurusAraH"
+                }
+            ],
+            "_meanings": [
+                "a sort of perfume."
+            ]
+        }
     ]
 }

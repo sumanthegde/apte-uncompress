@@ -1,19 +1,44 @@
 {
-    "__line": 167171,
+    "__line": 180411,
     "_ancestry": [
         "L_ 20000",
-        "B_ {#pratiyogika#}"
+        "B_ {#parApat#}"
     ],
-    "_banner": "{#pratiyogika#}",
+    "_banner": "{#parApat#}",
     "_bannerExp": [
         {
-            "Right": "pratiyogika"
+            "Right": "parApat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Antithetical, \ncorrelative, relative."
+        "²1 To arrive, draw near, approach.\n",
+        ".²2 To return.\n",
+        ".²3 To escape.\n",
+        ".²4 To depart.\n",
+        ".²5 To fall out.\n",
+        ".²6 To fail. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 180417,
+            "_ancestry": [
+                "L_ 20000",
+                "B_ {#parApat#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "parApat"
+                }
+            ],
+            "_meanings": [
+                "To chase or drive away."
+            ]
+        }
     ]
 }

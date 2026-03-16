@@ -1,20 +1,39 @@
 {
-    "__line": 61712,
+    "__line": 60110,
     "_ancestry": [
         "L_ 7154",
-        "B_ {#AsiD#}"
+        "B_ {#AplavaH#}, {#-plavanam#}"
     ],
-    "_banner": "{#AsiD#}",
+    "_banner": "{#AplavaH#}, {#-plavanam#}",
     "_bannerExp": [
         {
-            "Right": "AsiD"
+            "Right": "AplavaH"
+        },
+        {
+            "Right": "Aplavanam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
-    ],
     "_meanings": [
-        "To arrest, keep in\ncustody (only in {%<ab>p. p.</ab>%})."
+        ".²1 Bathing, immersing.\n",
+        ".²2 Sprinkling with water (on all sides).\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 60114,
+            "_ancestry": [
+                "L_ 7154",
+                "B_ {#AplavaH#}, {#-plavanam#}",
+                "S_ .{@{#-vratin#}@}"
+            ],
+            "_banner": ".{@{#-vratin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Aplavavratin"
+                }
+            ],
+            "_meanings": [
+                "or {@{#Aplutavratin#}@} {%m.%} a house-holder who has\n passed through the first order ({#brahmacarya#}) and is admitted into the\n second ({#gArhasTya#}), an initiated householder; <ab>cf.</ab> {#snAtaka#}."
+            ]
+        }
     ]
 }

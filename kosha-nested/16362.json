@@ -1,19 +1,119 @@
 {
-    "__line": 137361,
+    "__line": 141737,
     "_ancestry": [
         "L_ 16362",
-        "B_ {#namrita#}"
+        "B_ {#tAmbUlam#}"
     ],
-    "_banner": "{#namrita#}",
+    "_banner": "{#tAmbUlam#}",
     "_bannerExp": [
         {
-            "Right": "namrita"
+            "Right": "tAmbUlam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Bent or bowed down, \n\nstooping."
+        ".²1 The areca-nut.\n",
+        ".²2 The leaf of piper-betel, which together with the areca-nut, catechu,\n chunam, and spices is usually chewed after meals; {#tAmbUlaBftagallo'yaM#}\n {#BallaM jalpati mAnuzaH#} <ls>K. P. 7</ls>; {#rAgo na sKalitastavADarapuwe tAmbUlasaMvarDitaH#} <ls>Ś. Til. 7</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 141743,
+            "_ancestry": [
+                "L_ 16362",
+                "B_ {#tAmbUlam#}",
+                "S_ .{@{#-aDikAraH#}@}"
+            ],
+            "_banner": ".{@{#-aDikAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tAmbUlADikAraH"
+                }
+            ],
+            "_meanings": [
+                "the office of carrying the betel-box; <ls>Pt. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 141744,
+            "_ancestry": [
+                "L_ 16362",
+                "B_ {#tAmbUlam#}",
+                "S_ .{@{#-karaNkaH, -pewikA#}@}"
+            ],
+            "_banner": ".{@{#-karaNkaH, -pewikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tAmbUlakaraNkaH"
+                },
+                {
+                    "Right": "tAmbUlapewikA"
+                }
+            ],
+            "_meanings": [
+                "a betel-box (<lang>Mar.</lang> <ns>{#pAnadAna, pAnapuqA#}</ns>);\n {#Akfzya tAmbUlakaraNkamaDyAtkarpUradAnaM vidaDe bahuByaH#} <ls>Vikr. 9. 82</ls>.\n "
+            ],
+            "_samasas": [
+                {
+                    "__line": 141746,
+                    "_ancestry": [
+                        "L_ 16362",
+                        "B_ {#tAmbUlam#}",
+                        "S_ .{@{#-karaNkaH, -pewikA#}@}",
+                        "S_S_ {#˚vAha, ˚hinI#}"
+                    ],
+                    "_banner": "{#˚vAha, ˚hinI#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "tAmbUlakaraNkavAha"
+                        },
+                        {
+                            "Right": "tAmbUlakaraNkahinI"
+                        }
+                    ],
+                    "_meanings": [
+                        "see next word.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 141747,
+            "_ancestry": [
+                "L_ 16362",
+                "B_ {#tAmbUlam#}",
+                "S_ .{@{#-daH, -DaraH, -vAhakaH#}@}"
+            ],
+            "_banner": ".{@{#-daH, -DaraH, -vAhakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tAmbUladaH"
+                },
+                {
+                    "Right": "tAmbUlaDaraH"
+                },
+                {
+                    "Right": "tAmbUlavAhakaH"
+                }
+            ],
+            "_meanings": [
+                "a servant attached to men of rank to carry\n the betel-box and to provide them with {#tAmbUla#} whenever necessary.\n"
+            ]
+        },
+        {
+            "__line": 141749,
+            "_ancestry": [
+                "L_ 16362",
+                "B_ {#tAmbUlam#}",
+                "S_ .{@{#-vallI#}@}"
+            ],
+            "_banner": ".{@{#-vallI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tAmbUlavallI"
+                }
+            ],
+            "_meanings": [
+                "the betel-plant; {#tAmbUlavallIpariRadDapUgAH#} <ls>R. 6. 64</ls>."
+            ]
+        }
     ]
 }

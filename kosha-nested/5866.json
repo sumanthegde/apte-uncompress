@@ -1,49 +1,54 @@
 {
-    "__line": 51784,
+    "__line": 48634,
     "_ancestry": [
         "L_ 5866",
-        "B_ {#AgaMtuka#}"
+        "B_ {#aSravaRa#}"
     ],
-    "_banner": "{#AgaMtuka#}",
+    "_banner": "{#aSravaRa#}",
     "_bannerExp": [
         {
-            "Right": "AgaMtukA"
-        },
-        {
-            "Right": "AgaMtukI"
-        },
-        {
-            "Right": "AgaMtuka"
+            "Right": "aSravaRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kA, kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nComing of one's own accord, arriving\nuninvited; {#AgaMtukA vayaM#} <ls>Dhūrtas.</ls> ",
-        "{@--2@}\nStray (as an animal); <ls>Y. 2. 163.</ls>\n",
-        "{@--3@} Incidental, accidental; \nadventitious; {#ityAgaMtukA vikArAH#} <ls>Āśval.</ls> ",
-        "{@--4@}\nInterpolated, spurious (as a \nreading), having crept in without \nauthority; {#atra#} \n{#gaMDavadgaMDamAdanamityAgaMtukaH pAWaH#} <ls>Malli.</ls> on <ls>Ku. 6. 46.</ls>\n"
+        "Deaf, having no ears.\n"
     ],
     "_morphisms": [
         {
-            "__line": 51794,
+            "__line": 48635,
             "_ancestry": [
                 "L_ 5866",
-                "B_ {#AgaMtuka#}",
-                "M_ {#--kaH#}"
+                "B_ {#aSravaRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AgaMtukaH"
+                    "Right": "aSravaRaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} An intruder, interloper. ",
-                "{@--2@}\nA stranger, guest, new-comer; \n<ls>Ś. 4</ls>, {6} ",
-                "{@--3@} Interpolated reading."
+                "A snake.\n"
+            ]
+        },
+        {
+            "__line": 48636,
+            "_ancestry": [
+                "L_ 5866",
+                "B_ {#aSravaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSravaRam"
+                }
+            ],
+            "_meanings": [
+                "Loss of hearing, deafness."
             ]
         }
     ]

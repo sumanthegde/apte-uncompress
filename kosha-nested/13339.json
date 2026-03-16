@@ -1,16 +1,39 @@
 {
-    "__line": 112148,
+    "__line": 113703,
     "_ancestry": [
         "L_ 13339",
-        "B_ {#citrikaH#}"
+        "B_ {#kzAman#}"
     ],
-    "_banner": "{#citrikaH#}",
+    "_banner": "{#kzAman#}",
     "_bannerExp": [
         {
-            "Right": "citrikaH"
+            "Right": "kzAman"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#kzE-manin#}]"
+    ],
     "_meanings": [
-        "The month Chaitra."
+        "Destructive. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 113703,
+            "_ancestry": [
+                "L_ 13339",
+                "B_ {#kzAman#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kzAman#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> The earth, ground."
+            ]
+        }
     ]
 }

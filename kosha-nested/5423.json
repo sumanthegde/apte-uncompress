@@ -1,40 +1,61 @@
 {
-    "__line": 48053,
+    "__line": 45520,
     "_ancestry": [
         "L_ 5423",
-        "B_ {#asaMga#}"
+        "B_ {#avAc#}"
     ],
-    "_banner": "{#asaMga#}",
+    "_banner": "{#avAc#}",
     "_bannerExp": [
         {
-            "Right": "asaMga"
+            "Right": "avAc"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Not attached, free\nfrom worldly ties. ",
-        "{@--2@} Not hindered\nor obstructed, not blunted;  \n{#asaMgamadrizvapi sAravattayA#} <ls>R. 3. 63</ls>; {#tasya#}\n{#mUrGni SitaM KaqgamasaktaM parvatezvapi#} <ls>Mb.</ls> ",
-        "{@--3@}\nNot united, solitary, unassailed.\n"
+        "Speechless, dumb. {%n.%} Brahman.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 48059,
+            "__line": 45522,
             "_ancestry": [
                 "L_ 5423",
-                "B_ {#asaMga#}",
-                "M_ {#--gaH#}"
+                "B_ {#avAc#}",
+                "S_ .{@{#-manasagocara#}@}"
             ],
-            "_banner": "{#--gaH#}",
+            "_banner": ".{@{#-manasagocara#}@}",
             "_bannerExp": [
                 {
-                    "Right": "asaMgaH"
+                    "Right": "avANmanasagocara"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@} Non-attachment; <ls>Ms. 6. 75.</ls>\n",
-                "{@--2@} {%Puruṣa%} or soul (in Sān. <ab>phil.</ab>)\n{#°vat#} {%<ab>a.</ab>%} not attached to."
+                "beyond the power of thought and words, indescribable\n and inconceivable.\n"
+            ]
+        },
+        {
+            "__line": 45524,
+            "_ancestry": [
+                "L_ 5423",
+                "B_ {#avAc#}",
+                "S_ .{@{#-Sruti#}@}"
+            ],
+            "_banner": ".{@{#-Sruti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avAkSruti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deaf and dumb."
             ]
         }
     ]

@@ -1,16 +1,58 @@
 {
-    "__line": 135773,
+    "__line": 140175,
     "_ancestry": [
         "L_ 16164",
-        "B_ {#DenuzyA#}"
+        "B_ {#tapus#}"
     ],
-    "_banner": "{#DenuzyA#}",
+    "_banner": "{#tapus#}",
     "_bannerExp": [
         {
-            "Right": "DenuzyA"
+            "Right": "tapus"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#tap-usi#}; <ab>cf.</ab> <ls>Uṇ. 2. 116</ls>]"
+    ],
     "_meanings": [
-        "A cow who or whose milk\nhas been pledged."
+        "Burning hot; {#tapUMzi#}\n {#tasmE vfjinAni santu#} <ls>Rv. 6. 52. 2</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 140176,
+            "_ancestry": [
+                "L_ 16164",
+                "B_ {#tapus#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tapus#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Fire.\n",
+                ".²2 The sun.\n",
+                ".²3 An enemy; "
+            ]
+        },
+        {
+            "__line": 140179,
+            "_ancestry": [
+                "L_ 16164",
+                "B_ {#tapus#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tapus#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Heat; {#namaste hetaye tapuze ca kfRmaH#} <ls>Av. 1. 13. 3</ls>."
+            ]
+        }
     ]
 }

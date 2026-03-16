@@ -1,20 +1,36 @@
 {
-    "__line": 241350,
+    "__line": 265644,
     "_ancestry": [
         "L_ 28734",
-        "B_ {#saMsfzwin#}"
+        "B_ {#vaSiH#}"
     ],
-    "_banner": "{#saMsfzwin#}",
+    "_banner": "{#vaSiH#}",
     "_bannerExp": [
         {
-            "Right": "saMsfzwin"
+            "Right": "vaSiH"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} A reunited kinsman.\n",
-        "{@--2@} A copartner."
+        ".²1 Subjugation.\n",
+        ".²2 Fascinating, bewitching. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 265646,
+            "_ancestry": [
+                "L_ 28734",
+                "B_ {#vaSiH#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vaSiH#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Subjection."
+            ]
+        }
     ]
 }

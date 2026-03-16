@@ -1,19 +1,67 @@
 {
-    "__line": 258754,
+    "__line": 285287,
     "_ancestry": [
         "L_ 30869",
-        "B_ {#sTAsu#}"
+        "B_ {#vezw#}"
     ],
-    "_banner": "{#sTAsu#}",
+    "_banner": "{#vezw#}",
     "_bannerExp": [
         {
-            "Right": "sTAsu"
+            "Right": "vezw"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "€1",
+        "<ab>Ā.</ab>",
+        "({#vezwate#})"
     ],
     "_meanings": [
-        "Bodily strength."
+        ".²1 To surround, enclose, encompass, envelop.\n",
+        ".²2 To wind or twist round.\n",
+        ".²3 To dress. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 285290,
+            "_ancestry": [
+                "L_ 30869",
+                "B_ {#vezw#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vezw"
+                }
+            ],
+            "_gram": [
+                "({#vezwayati-te#})"
+            ],
+            "_meanings": [
+                ".²1 To surround <ab>&c.</ab>\n",
+                ".²2 To blockade. ",
+                "--{%With%} {#A#} to fold, tie, bind; {#tfRErAvezwapate#}\n {#rajjuryayA nAgo'pi vaDyate#} <ls>Pt. 1. 331</ls>.\n"
+            ]
+        },
+        {
+            "__line": 285294,
+            "_ancestry": [
+                "L_ 30869",
+                "B_ {#vezw#}",
+                "M_ .{@{#-pari, -sam#}@}"
+            ],
+            "_banner": ".{@{#-pari, -sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parivezw"
+                },
+                {
+                    "Right": "saMvezw"
+                }
+            ],
+            "_meanings": [
+                "to fold together, clasp or wind round; {#prAyeRa BUmipatayaH#}\n {#pramadA latASca yat pArSvato Bavati tat parivezwayanti#} <ls>Pt. 1. 35</ls>."
+            ]
+        }
     ]
 }

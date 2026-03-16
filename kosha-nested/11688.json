@@ -1,39 +1,56 @@
 {
-    "__line": 97900,
+    "__line": 98281,
     "_ancestry": [
         "L_ 11688",
-        "B_ {#kraMdanaH#}"
+        "B_ {#karzin#}"
     ],
-    "_banner": "{#kraMdanaH#}",
+    "_banner": "{#karzin#}",
     "_bannerExp": [
         {
-            "Right": "kraMdanaH"
+            "Right": "karzin"
         }
     ],
     "_gram": [
-        "[{#kraMd BAve lyuw#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "A cat. "
+        ".²1 Who or what draws <ab>&c.</ab> {#stamberamA muKaraSfNKalakarziRaste#} <ls>R.</ls>\n",
+        ".²2 Attractive. {#GnARakAntamaDuganDakarziRIH#} <ls>R. 19. 11</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 97900,
+            "__line": 98283,
             "_ancestry": [
                 "L_ 11688",
-                "B_ {#kraMdanaH#}",
-                "M_ {#--naM#}"
+                "B_ {#karzin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "kraMdanaM"
+                    "Left": "Parser error: {#karzin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} A cry of distress or weeping,\nlamentation. ",
-                "{@--2@} Mutual defiance.\n",
-                "{@--3@} Calling, inviting."
+                "A ploughman.\n"
+            ]
+        },
+        {
+            "__line": 98284,
+            "_ancestry": [
+                "L_ 11688",
+                "B_ {#karzin#}",
+                "M_ .{@{#-RI#}@}"
+            ],
+            "_banner": ".{@{#-RI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "karziRI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The bit of a bridle.\n",
+                ".²2 A medicinal moon-plant (<lang>Mar.</lang> <ns>{#KiraRI#}</ns>)."
             ]
         }
     ]

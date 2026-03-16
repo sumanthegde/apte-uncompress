@@ -1,16 +1,66 @@
 {
-    "__line": 4383,
+    "__line": 3066,
     "_ancestry": [
         "L_ 256",
-        "B_ {#aMkupaM#}"
+        "B_ {#agrataH#}"
     ],
-    "_banner": "{#aMkupaM#}",
+    "_banner": "{#agrataH#}",
     "_bannerExp": [
         {
-            "Right": "aMkupaM"
+            "Right": "agrataH"
         }
     ],
+    "_gram": [
+        "{%<ab>adv.</ab>%}",
+        "[{#agre agrAdvA, agra-tasil#}]"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> Water."
+        "(with <ab>gen.</ab>)\n",
+        ".²1 Before (<ab>opp.</ab> {#pfzwataH#}), in front of, at the head of; forward; {#agrataScaturo#}\n {#vedAn pfzwataH saSaraM GanuH . idaM brAhmamidaM kzAtraM SApAdapi SarAdapi ..#}\n <ls>Subhāṣ.</ls> {#na gaRasyAgrato gacCet#} <ls>H. 1. 29</ls>. {#gacCAgrataH#} lead\n the way; {#˚to vilokya#} seeing before him.\n",
+        ".²2 In the presence of; {#meGanAdasya˚#} <ls>Pt. 1</ls>; {#amAtyasyAgrataH#} <ls>Mu. 5</ls>;\n {#DanurBftAmagrata eva rakziRAm#} <ls>R. 3. 39</ls> in the very presence of.\n",
+        ".²3 First; {#puruzaM jAtamagrataH#} <ls>Rv. 10. 20. 7</ls>; {#agrataH kf#} to give\n precedence to, consider most important; to put in front or at the head\n of {#purastAtpraTame prAcyAM puro'rTe'grata ityapi#} <ls>Nm. 4</ls>. From; {#tadagrataH#}\n {#svakarmasTaM smftvA#} <ls>Rām. 6. 79. 11</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 3078,
+            "_ancestry": [
+                "L_ 256",
+                "B_ {#agrataH#}",
+                "S_ .{@{#-sara#}@}"
+            ],
+            "_banner": ".{@{#-sara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agratasara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#agrataH sarati#}; {#sf-wa#}]"
+            ],
+            "_meanings": [
+                "going in front, taking the lead.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 3079,
+                    "_ancestry": [
+                        "L_ 256",
+                        "B_ {#agrataH#}",
+                        "S_ .{@{#-sara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: agratasara ({@{#-raH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a leader."
+                    ]
+                }
+            ]
+        }
     ]
 }

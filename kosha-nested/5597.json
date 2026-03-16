@@ -1,16 +1,61 @@
 {
-    "__line": 49376,
+    "__line": 46653,
     "_ancestry": [
         "L_ 5597",
-        "B_ {#astyAnaM#}"
+        "B_ {#avilamba#}"
     ],
-    "_banner": "{#astyAnaM#}",
+    "_banner": "{#avilamba#}",
     "_bannerExp": [
         {
-            "Right": "astyAnaM"
+            "Right": "avilamba"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Reproach, blame."
+        "Prompt, not delaying, quick.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 46654,
+            "_ancestry": [
+                "L_ 5597",
+                "B_ {#avilamba#}",
+                "M_ .{@{#-mbaH#}@}"
+            ],
+            "_banner": ".{@{#-mbaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avilambaH"
+                }
+            ],
+            "_meanings": [
+                "Absence of delay, quickness, promptitude.\n"
+            ]
+        },
+        {
+            "__line": 46655,
+            "_ancestry": [
+                "L_ 5597",
+                "B_ {#avilamba#}",
+                "M_ .{@{#-mbam, -avilambena#}@}"
+            ],
+            "_banner": ".{@{#-mbam, -avilambena#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avilambam"
+                },
+                {
+                    "Right": "avilambena"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Without delay, quickly."
+            ]
+        }
     ]
 }

@@ -1,21 +1,62 @@
 {
-    "__line": 51364,
+    "__line": 48203,
     "_ancestry": [
         "L_ 5820",
-        "B_ {#AkzArita#}"
+        "B_ {#aSuci#}"
     ],
-    "_banner": "{#AkzArita#}",
+    "_banner": "{#aSuci#}",
     "_bannerExp": [
         {
-            "Right": "AkzArita"
+            "Right": "aSuci"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Calumniated.\n",
-        "{@--2@} Accused of adultery or \nfornication. ",
-        "{@--3@} Guilty, criminal."
+        ".²1 Not clean, dirty, foul, impure; {#patanti narake'SucO#} <ls>Bg. 16. 16</ls>.\n {#so'SuciH sarvakarmasu#}; in mourning; {#trirAtramaSucirBavet#}.\n",
+        ".²2 Black.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 48207,
+            "_ancestry": [
+                "L_ 5820",
+                "B_ {#aSuci#}",
+                "M_ .{@{#-ciH#}@}"
+            ],
+            "_banner": ".{@{#-ciH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSuciH"
+                }
+            ],
+            "_meanings": [
+                "The black colour.\n"
+            ]
+        },
+        {
+            "__line": 48208,
+            "_ancestry": [
+                "L_ 5820",
+                "B_ {#aSuci#}",
+                "M_ .{@{#-ciH#}@}"
+            ],
+            "_banner": ".{@{#-ciH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSuciH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 Impurity.\n",
+                ".²2 Degradation; {#˚tA#} (= {#grIzmABAvaH#})\n",
+                ".²1 Absence of purity.\n",
+                ".²2 (= {#grIzmABAvaH#}) The months of {#jyezWa#} and {#AzAQa#} (<ab>cf.</ab> {#vESAKe#}\n {#mADavo, rADo jyezWaH SukraH Sucistvayam . AzAQe SrAvaRe tu syAt naBAH#}\n {#SrAvaRikaSca saH ..#} <ls>Ak.</ls>; {#aSucitA yadi kelivane, kaTaM SuciravaciravAcitazawpadEH .#}\n <ls>Rām. Ch. 5. 20.</ls>)"
+            ]
+        }
     ]
 }

@@ -1,21 +1,39 @@
 {
-    "__line": 126600,
+    "__line": 131860,
     "_ancestry": [
         "L_ 15242",
-        "B_ {#darma#}"
+        "B_ {#CAdmika#}"
     ],
-    "_banner": "{#darma#}",
+    "_banner": "{#CAdmika#}",
     "_bannerExp": [
         {
-            "Right": "darma"
+            "Right": "CAdmika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#CadmanA carati vyavaharati Wak#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Destroying. ",
-        "{@--2@}\nTearing, rending asunder."
+        "Fraudulent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 131861,
+            "_ancestry": [
+                "L_ 15242",
+                "B_ {#CAdmika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CAdmikaH"
+                }
+            ],
+            "_meanings": [
+                "A rogue; <ls>Ms. 4. 105</ls>."
+            ]
+        }
     ]
 }

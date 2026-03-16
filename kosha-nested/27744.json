@@ -1,21 +1,234 @@
 {
-    "__line": 233576,
+    "__line": 256136,
     "_ancestry": [
         "L_ 27744",
-        "B_ {#Sasya#}"
+        "B_ {#lagna#}"
     ],
-    "_banner": "{#Sasya#}",
+    "_banner": "{#lagna#}",
     "_bannerExp": [
         {
-            "Right": "Sasya"
+            "Right": "lagna"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "(from {#SaMs#}) ",
-        "{@--1@} Best, \nexcellent. ",
-        "{@--2@} Praiseworthy, laudable."
+        ".²1 Adhered or clung to, stuck, held fast; {#latAviwape ekAvalI lagnA#} <ls>V. 1</ls>.\n",
+        ".²2 Touching, coming in contact with.\n",
+        ".²3 Attached to, connected with.\n",
+        ".²4 Clinging or sticking to, remaining on; {#uvAca rAmaM saMprekzya paNkalagna#}\n {#iva dvipaH#} <ls>Rām. 4. 18. 49</ls>.\n",
+        ".²5 Cutting, meeting (as lines)\n",
+        ".²6 Following closely, impending.\n",
+        ".²7 Busy with, closely occupied about; {#pare brahmaRi ko'pi na lagnaH#} <ls>Skanda P.</ls>\n",
+        ".²8 Fastened on, directed towards.\n",
+        ".²9 Ashamed.\n",
+        ".²10 -Consumed, spent; <ls>Ms. 7. 127</ls> (<ab>com.</ab>)\n",
+        ".²11 Auspicious; (see {#lag#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 256149,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "M_ .{@{#-gnaH#}@}"
+            ],
+            "_banner": ".{@{#-gnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A bard, minstrel.\n",
+                ".²2 An elephant in rut.\n"
+            ]
+        },
+        {
+            "__line": 256152,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "M_ .{@{#-gnam#}@}"
+            ],
+            "_banner": ".{@{#-gnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The point of contact or intersection, the point where the horizon and\n the ecliptic or the path of planets meet.\n",
+                ".²2 The point of the ecliptic which at any given time is at the horizon\n or on the meridian.\n",
+                ".²3 The rising of the sun or of the planets.\n",
+                ".²4 The moment of the sunʼs entrance into a zodiacal sign.\n",
+                ".²5 A figure of the twelve zodiacal signs.\n",
+                ".²6 An auspicious or lucky moment.\n",
+                ".²7 (Hence) A decisive moment, time for action.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 256163,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-ahaH, -dinam, -divasaH, -vAsaraH#}@}"
+            ],
+            "_banner": ".{@{#-ahaH, -dinam, -divasaH, -vAsaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnAhaH"
+                },
+                {
+                    "Right": "lagnadinam"
+                },
+                {
+                    "Right": "lagnadivasaH"
+                },
+                {
+                    "Left": "S error: midAlign vAsaraH divAsaraH"
+                }
+            ],
+            "_meanings": [
+                "an auspicious day, a day chosen\n as lucky for the performance of any work.\n"
+            ]
+        },
+        {
+            "__line": 256165,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-kAlaH, -muhUrtaH, -velA, -samayaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH, -muhUrtaH, -velA, -samayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnakAlaH"
+                },
+                {
+                    "Right": "lagnamuhUrtaH"
+                },
+                {
+                    "Right": "lagnavelA"
+                },
+                {
+                    "Right": "lagnasamayaH"
+                }
+            ],
+            "_meanings": [
+                "auspicious time,\n\n the time fixed upon (by astrologers <ab>&c.</ab>) as auspicious for the performance\n of any work (marriage <ab>&c.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 256169,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-graha#}@}"
+            ],
+            "_banner": ".{@{#-graha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnagraha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "tenacious, insisting firmly on anything.\n"
+            ]
+        },
+        {
+            "__line": 256170,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-nakzatram#}@}"
+            ],
+            "_banner": ".{@{#-nakzatram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnanakzatram"
+                }
+            ],
+            "_meanings": [
+                "an auspicious asterism.\n"
+            ]
+        },
+        {
+            "__line": 256171,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-BujaH#}@}"
+            ],
+            "_banner": ".{@{#-BujaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnaBujaH"
+                }
+            ],
+            "_meanings": [
+                "(in <ab>astr.</ab>) ascensional difference.\n"
+            ]
+        },
+        {
+            "__line": 256172,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-maRqalam#}@}"
+            ],
+            "_banner": ".{@{#-maRqalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnamaRqalam"
+                }
+            ],
+            "_meanings": [
+                "the zodiac.\n"
+            ]
+        },
+        {
+            "__line": 256173,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-mAsaH#}@}"
+            ],
+            "_banner": ".{@{#-mAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnamAsaH"
+                }
+            ],
+            "_meanings": [
+                "an auspicious month.\n"
+            ]
+        },
+        {
+            "__line": 256174,
+            "_ancestry": [
+                "L_ 27744",
+                "B_ {#lagna#}",
+                "S_ .{@{#-SudDiH#}@}"
+            ],
+            "_banner": ".{@{#-SudDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lagnaSudDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "auspiciousness of the zodiacal signs <ab>&c.</ab> for the\n performance of any work."
+            ]
+        }
     ]
 }

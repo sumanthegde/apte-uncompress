@@ -1,16 +1,80 @@
 {
-    "__line": 110183,
+    "__line": 111579,
     "_ancestry": [
         "L_ 13106",
-        "B_ {#camarikaH#}"
+        "B_ {#kOsalya#}"
     ],
-    "_banner": "{#camarikaH#}",
+    "_banner": "{#kOsalya#}",
     "_bannerExp": [
         {
-            "Right": "camarikaH"
+            "Right": "kOsalya"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The Kovidāra tree."
+        "Belonging to the people of the Kosalas; <ls>Mb. 7. 49. 38</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 111580,
+            "_ancestry": [
+                "L_ 13106",
+                "B_ {#kOsalya#}",
+                "M_ .{@{#-lyaH#}@}"
+            ],
+            "_banner": ".{@{#-lyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOsalyaH"
+                }
+            ],
+            "_meanings": [
+                "A prince of the Kosalas; {#kOsalyaScASvalAyanaH#} <ls>Praśna. Up. 1. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 111581,
+            "_ancestry": [
+                "L_ 13106",
+                "B_ {#kOsalya#}",
+                "M_ .{@{#-lyA#}@}"
+            ],
+            "_banner": ".{@{#-lyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOsalyA"
+                }
+            ],
+            "_meanings": [
+                "The wife of Daśaratha and mother of Rāma.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 111583,
+            "_ancestry": [
+                "L_ 13106",
+                "B_ {#kOsalya#}",
+                "S_ .{@{#-nandanaH, -mAtf#}@}"
+            ],
+            "_banner": ".{@{#-nandanaH, -mAtf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOsalyanandanaH"
+                },
+                {
+                    "Right": "kOsalyamAtf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "epithet of Rāma."
+            ]
+        }
     ]
 }

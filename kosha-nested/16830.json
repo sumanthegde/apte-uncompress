@@ -1,20 +1,41 @@
 {
-    "__line": 141096,
+    "__line": 145897,
     "_ancestry": [
         "L_ 16830",
-        "B_ {#nimlukti#}"
+        "B_ {#trapulam#}, {#-zam, trapus#} "
     ],
-    "_banner": "{#nimlukti#}",
+    "_banner": "{#trapulam#}, {#-zam, trapus#} ",
     "_bannerExp": [
         {
-            "Right": "nimlukti"
+            "Right": "trapulam"
+        },
+        {
+            "Right": "trapuzam"
+        },
+        {
+            "Right": "trapus"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "{#nimlocaH#}"
+        "{%n.%}",
+        "{#trapusam#}"
     ],
     "_meanings": [
-        "Sunset."
+        "¦\n Tin.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145899,
+            "_ancestry": [
+                "L_ 16830",
+                "B_ {#trapulam#}, {#-zam, trapus#} ",
+                "M_ .{@{#-zam#}@}"
+            ],
+            "_banner": ".{@{#-zam#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "Cucumber."
+            ]
+        }
     ]
 }

@@ -1,19 +1,45 @@
 {
-    "__line": 92249,
+    "__line": 91731,
     "_ancestry": [
         "L_ 10959",
-        "B_ {#kIja#}"
+        "B_ {#OdBida#}"
     ],
-    "_banner": "{#kIja#}",
+    "_banner": "{#OdBida#}",
     "_bannerExp": [
         {
-            "Right": "kIja"
+            "Right": "OdBida"
+        },
+        {
+            "Right": "OdBidI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-dI#}|{%f.%})",
+        "[{#udBida-aR#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Wonderful."
+        ".²1 Issuing (as from a well).\n",
+        ".²2 Victorious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 91735,
+            "_ancestry": [
+                "L_ 10959",
+                "B_ {#OdBida#}",
+                "M_ .{@{#-dam#}@}"
+            ],
+            "_banner": ".{@{#-dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "OdBidam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Spring water.\n",
+                ".²2 Fossil salt, rock salt."
+            ]
+        }
     ]
 }

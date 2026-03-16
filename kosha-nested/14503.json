@@ -1,26 +1,36 @@
 {
-    "__line": 120792,
+    "__line": 125395,
     "_ancestry": [
         "L_ 14503",
-        "B_ {#tal#}"
+        "B_ {#GurGuraH#}"
     ],
-    "_banner": "{#tal#}",
+    "_banner": "{#GurGuraH#}",
     "_bannerExp": [
         {
-            "Right": "tal"
+            "Right": "GurGuraH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#talati, tAlayati-te#})"
-    ],
     "_meanings": [
-        "{@--1@} To be full or complete. ",
-        "{@--2@} To fix,\nfound, establish. ",
-        "{@--3@} To be fixed. ",
-        "{@--4@}\nTo accomplish a vow."
+        ".²1 Guinea-worm.\n",
+        ".²2 Snorting, growling, grumbling.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 125398,
+            "_ancestry": [
+                "L_ 14503",
+                "B_ {#GurGuraH#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GurGurA"
+                }
+            ],
+            "_meanings": [
+                "Growling <ab>&c.</ab> (as of a dog)."
+            ]
+        }
     ]
 }

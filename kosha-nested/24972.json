@@ -1,37 +1,55 @@
 {
-    "__line": 211736,
+    "__line": 224405,
     "_ancestry": [
         "L_ 24972",
-        "B_ {#vanAyuH#}"
+        "B_ {#Bavat#}"
     ],
-    "_banner": "{#vanAyuH#}",
+    "_banner": "{#Bavat#}",
     "_bannerExp": [
         {
-            "Right": "vanAyuH"
+            "Right": "Bavat"
+        },
+        {
+            "Left": "fFromGramCore error: Bavat  ntI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-ntI#}|{%f.%})"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a district; <ls>R. 5. 73.</ls>\n"
+        ".²1 Being, becoming, happening.\n",
+        ".²2 Present; {#samatItaM ca Bavacca BAvi ca#} <ls>R. 8. 78</ls>. --{%<ab>pron. a.</ab>%}\n.({@{#-tI#}@} {%f.%}) A respectful or honorific pronoun, translated by\n ‘your honour’, ‘your lordship, worship or highness’; (<ab>oft.</ab> used in the\n sense of the second personal pronoun, but with the third person of the\n verb); {#aTavA kaTaM BavAn manyate#} <ls>M. 1</ls>; {#Bavanta eva jAnanti raGURAM#}\n {#ca kulasTitim#} <ls>U. 5. 23</ls>; <ls>R. 2. 40</ls>, <ls n=\"R.\">3. 48</ls>, <ls n=\"R.\">5. 16</ls>. It is often joined to\n {#atra#} or {#tatra#} (see the words), and sometimes to {#sa#} also; {#yanmAM#}\n {#viDeyavizaye saBavAnniyuNkte#} <ls>Māl. 1. 9</ls>.\n"
     ],
     "_samasas": [
         {
-            "__line": 211737,
+            "__line": 224416,
             "_ancestry": [
                 "L_ 24972",
-                "B_ {#vanAyuH#}",
-                "S_  {#--ja#}"
+                "B_ {#Bavat#}",
+                "S_ .{@{#-BUtaBavye#}@}"
             ],
-            "_banner": " {#--ja#}",
-            "_bannerExp": [
-                {
-                    "Right": "vanAyuja"
-                }
-            ],
+            "_banner": ".{@{#-BUtaBavye#}@}",
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{%ind.%}"
             ],
             "_meanings": [
-                "produced in \nVanāyu, (as a horse)."
+                "in present, past and future.\n"
+            ]
+        },
+        {
+            "__line": 224417,
+            "_ancestry": [
+                "L_ 24972",
+                "B_ {#Bavat#}",
+                "S_ .{@{#-vasu#}@}"
+            ],
+            "_banner": ".{@{#-vasu#}@}",
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wealthy, opulent."
             ]
         }
     ]

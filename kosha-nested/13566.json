@@ -1,81 +1,99 @@
 {
-    "__line": 113516,
+    "__line": 115802,
     "_ancestry": [
         "L_ 13566",
-        "B_ {#Cadman#}"
+        "B_ {#KAta#}"
     ],
-    "_banner": "{#Cadman#}",
+    "_banner": "{#KAta#}",
     "_bannerExp": [
         {
-            "Right": "Cadman"
+            "Right": "KAta"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}",
-        "[{#CAdyate svarUpamanena; Cad-manin#}\n<ls>Uṇ. 4. 144</ls>]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} A deceptive dress, a\ndisguise. ",
-        "{@--2@} A plea, pretext, guise;\n{#brahmaCadmA sAmarTyasAraH#} <ls>Mv. 2. 25</ls>;  \n{#palitaCadmanA jarA#} <ls>R. 12. 2</ls>; <ls>Śi. 2. 21</ls>;  \n{#kuto'nyaTA sravatyeza svedacCadmA mftadravaH#}  \n<ls>Ratn. 2. 17.</ls> ",
-        "{@--3@} Fraud, dishonesty, trick;\n{#CadmanA paridadAmi mftyave#} <ls>U. 1. 46</ls>;  \n<ls>Ms. 4. 199</ls>; <ls n=\"Ms.\">9. 72.</ls> ",
-        "{@--4@} The thatch or\nroof of a house. "
+        ".²1 Dug up, excavated, bored; {#tuByaM KAtA avatA adridugDA#} <ls>Rv. 4. 50. 3</ls>;\n {#kIwa˚ … Sulkasya kIwaKAtasya vahnidagDasya sarvataH . tarorapyUzarasTasya#}\n {#varaM janma na cArTinaH ..#} <ls>Pt. 2. 89</ls>.\n",
+        ".²2 Torn, rent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 115807,
+            "_ancestry": [
+                "L_ 13566",
+                "B_ {#KAta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KAtam"
+                }
+            ],
+            "_meanings": [
+                ".²1 An excavation.\n",
+                ".²2 A hole.\n",
+                ".²3 A ditch, moat; {#patati kadAcinnaBasaH KAte#} <ls>Pt. 5. 29</ls>.\n",
+                ".²4 An oblong pond.\n",
+                ".²5 A cavern.\n",
+                ".²6 Digging a hole.\n"
+            ]
+        },
+        {
+            "__line": 115814,
+            "_ancestry": [
+                "L_ 13566",
+                "B_ {#KAta#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KAtA"
+                }
+            ],
+            "_meanings": [
+                "An artificial pond.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 113525,
+            "__line": 115816,
             "_ancestry": [
                 "L_ 13566",
-                "B_ {#Cadman#}",
-                "S_  {#--tApasaH#}"
+                "B_ {#KAta#}",
+                "S_ .{@{#-BUH#}@}"
             ],
-            "_banner": " {#--tApasaH#}",
+            "_banner": ".{@{#-BUH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "CadmatApasaH"
-                }
-            ],
-            "_meanings": [
-                "a\nreligious hypocrite. "
-            ]
-        },
-        {
-            "__line": 113526,
-            "_ancestry": [
-                "L_ 13566",
-                "B_ {#Cadman#}",
-                "S_ {#--rUpeRa#}"
-            ],
-            "_banner": "{#--rUpeRa#}",
-            "_bannerExp": [
-                {
-                    "Right": "CadmarUpeRa"
+                    "Right": "KAtaBUH"
                 }
             ],
             "_gram": [
-                "{%<ab>ind.</ab>%}"
+                "{%f.%}"
             ],
             "_meanings": [
-                "incognito, in disguise. "
+                "a moat, ditch.\n"
             ]
         },
         {
-            "__line": 113527,
+            "__line": 115817,
             "_ancestry": [
                 "L_ 13566",
-                "B_ {#Cadman#}",
-                "S_ {#--veSin#}"
+                "B_ {#KAta#}",
+                "S_ .{@{#-rUpakAraH#}@}"
             ],
-            "_banner": "{#--veSin#}",
+            "_banner": ".{@{#-rUpakAraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "CadmaveSin"
+                    "Right": "KAtarUpakAraH"
                 }
             ],
-            "_gram": [
-                "{%<ab>m.</ab>%}"
-            ],
             "_meanings": [
-                "a\nplayer, a cheat, one dressed in\ndisguise."
+                "a potter."
             ]
         }
     ]

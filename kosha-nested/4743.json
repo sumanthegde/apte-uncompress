@@ -1,17 +1,60 @@
 {
-    "__line": 42773,
+    "__line": 40650,
     "_ancestry": [
         "L_ 4743",
-        "B_ {#avarohaRaM#}"
+        "B_ {#alpaka#}"
     ],
-    "_banner": "{#avarohaRaM#}",
+    "_banner": "{#alpaka#}",
     "_bannerExp": [
         {
-            "Right": "avarohaRaM"
+            "Right": "alpaka"
+        },
+        {
+            "Right": "alpikA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-lpikA#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} Alighting, descending.\n",
-        "{@--2@} Ascending."
+        ".²1 Small, little, minute.\n",
+        ".²2 Contemptible, mean; <ls>Śi. 16. 28</ls>; {#nAgnipariSudDimapi alpakAH pratipadyante#} <ls>U. 4</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 40653,
+            "_ancestry": [
+                "L_ 4743",
+                "B_ {#alpaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpakam"
+                }
+            ],
+            "_meanings": [
+                "Little.\n"
+            ]
+        },
+        {
+            "__line": 40654,
+            "_ancestry": [
+                "L_ 4743",
+                "B_ {#alpaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpakaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant ({#yavAsa#}; <lang>Mar.</lang> <ns>{#DamAsA#}</ns>)."
+            ]
+        }
     ]
 }

@@ -1,38 +1,41 @@
 {
-    "__line": 202967,
+    "__line": 214090,
     "_ancestry": [
         "L_ 23987",
-        "B_ {#ratnavat#}"
+        "B_ {#prArTaka#}"
     ],
-    "_banner": "{#ratnavat#}",
+    "_banner": "{#prArTaka#}",
     "_bannerExp": [
         {
-            "Right": "ratnavat"
+            "Right": "prArTaka"
+        },
+        {
+            "Right": "prArTikA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-rTikA#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Abounding in, or full\nof, precious stones. ",
-        "{@--2@} Decorated\nwith jewels. "
+        "Asking, begging, requesting, soliciting, entreating,\n desiring, wishing <ab>&c.</ab>\n"
     ],
     "_morphisms": [
         {
-            "__line": 202969,
+            "__line": 214093,
             "_ancestry": [
                 "L_ 23987",
-                "B_ {#ratnavat#}",
-                "M_ {#--tI#}"
+                "B_ {#prArTaka#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--tI#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ratnavatI"
+                    "Right": "prArTakaH"
                 }
             ],
             "_meanings": [
-                "The earth."
+                "A suitor, petitioner."
             ]
         }
     ]

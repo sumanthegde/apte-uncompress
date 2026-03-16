@@ -1,41 +1,86 @@
 {
-    "__line": 68285,
+    "__line": 66273,
     "_ancestry": [
         "L_ 7937",
-        "B_ {#utPal#}"
+        "B_ {#Asura#}"
     ],
-    "_banner": "{#utPal#}",
+    "_banner": "{#Asura#}",
     "_bannerExp": [
         {
-            "Right": "utPal"
+            "Right": "Asura"
+        },
+        {
+            "Right": "AsurI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#asurasyedam aR#} <ab>opp.</ab> {#dEva#}]"
     ],
     "_meanings": [
-        "{@--1@} To spring, leap.\n",
-        "{@--2@} To part asunder, expand, open (as\na flower). "
+        ".²1 Belonging to {%Asuras%}.\n",
+        ".²2 Belonging to evil spirits; {#AsurI mAyA, AsurI rAtriH#} <ab>&c.</ab>\n",
+        ".²3 Infernal, demoniacal; {#AsuraM BAvamASritaH#} <ls>Bg. 7. 15</ls> (for a full\n exposition of what constitutes {#Asura#} conduct, see <ls>Bg. 16. 7-24</ls>).\n",
+        ".²4 Not performing sacrifices.\n",
+        ".²5 Divine, spiritual.\n"
     ],
     "_morphisms": [
         {
-            "__line": 68287,
+            "__line": 66281,
             "_ancestry": [
                 "L_ 7937",
-                "B_ {#utPal#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#Asura#}",
+                "M_ .{@{#-raH#}@}"
             ],
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "utPal"
+                    "Right": "AsuraH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                ".²1 A demon [{#svArTe aR#}].\n",
+                ".²2 One of the eight forms of marriage, in which the bridegroom purchases\n the bride from her father or other paternal kinsmen; (see {#udvAha#});\n {#Asuro draviRAdAnAt#} <ls>Y. 1. 61</ls>; <ls>Ms. 3. 31</ls>.\n",
+                ".²3 (<ab>pl.</ab>) The stars of the southern hemisphere.\n",
+                ".²4 A prince of the warrior-tribe Asura.\n"
+            ]
+        },
+        {
+            "__line": 66288,
+            "_ancestry": [
+                "L_ 7937",
+                "B_ {#Asura#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsurI"
+                }
             ],
             "_meanings": [
-                "To open, cause to\nexpand."
+                ".²1 Surgery, curing by cutting by instruments.\n",
+                ".²2 A female demon, demoness; {#saMBramAdAsurIBiH#} <ls>Ve. 1. 3</ls>.\n",
+                ".²3 <ab>N.</ab> of a plant Sinapis Ramosa Roxb. (<lang>Mar.</lang> <ns>{#moharI#}</ns>; {#rAI#})\n"
+            ]
+        },
+        {
+            "__line": 66292,
+            "_ancestry": [
+                "L_ 7937",
+                "B_ {#Asura#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Asuram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Blood.\n",
+                ".²2 Black salt."
             ]
         }
     ]

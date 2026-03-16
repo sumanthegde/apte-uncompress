@@ -1,21 +1,83 @@
 {
-    "__line": 161733,
+    "__line": 172220,
     "_ancestry": [
         "L_ 19260",
-        "B_ {#pUrvatas#}"
+        "B_ {#niScita#}"
     ],
-    "_banner": "{#pUrvatas#}",
+    "_banner": "{#niScita#}",
     "_bannerExp": [
         {
-            "Right": "pUrvatas"
+            "Right": "niScita"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} In the east, to the\neast; <ls>R. 3. 42.</ls> ",
-        "{@--2@} Before, in front\nof ",
-        "{@--3@} First, in the first place."
+        ".²1 Ascertained, determined, decided, settled, concluded (used actively\n also); {#rAkzasAnAM sahasrARi rAkzasADipaniScitAH#} <ls>Rām. 6. 8. 13</ls>; {#arAvaRamarAmaM#}\n {#vA jagadadyeti niScitaH#} <ls>R. 12. 83</ls>.\n",
+        ".²2 Sentenced, pronounced (as a sentence).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 172225,
+            "_ancestry": [
+                "L_ 19260",
+                "B_ {#niScita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScitam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Certainty, decision.\n",
+                ".²2 Design.\n"
+            ]
+        },
+        {
+            "__line": 172228,
+            "_ancestry": [
+                "L_ 19260",
+                "B_ {#niScita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScitam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Decidedly, positively, certainly; {#yacCreya etayorekaM#}\n {#tanme brUhi suniScitam#} <ls>Bg. 5. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 172231,
+            "_ancestry": [
+                "L_ 19260",
+                "B_ {#niScita#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niScitArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 One who has formed a certain opinion about.\n",
+                ".²2 judging rightly."
+            ]
+        }
     ]
 }

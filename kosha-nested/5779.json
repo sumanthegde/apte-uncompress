@@ -1,37 +1,59 @@
 {
-    "__line": 51042,
+    "__line": 47914,
     "_ancestry": [
         "L_ 5779",
-        "B_ {#Akarzin#}"
+        "B_ {#aSatru#}"
     ],
-    "_banner": "{#Akarzin#}",
+    "_banner": "{#aSatru#}",
     "_bannerExp": [
         {
-            "Right": "Akarzin"
+            "Right": "aSatru"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Attractive(as a smell\nat a distance). "
+        ".²1 One who has no enemy.\n",
+        ".²2 One whom no enemy defies or challenges.\n",
+        ".²3 Without opposition from foes. {#aSatrvaryaH samajAti vedaH#} <ls>Rv. 5. 2. 12</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 51043,
+            "__line": 47918,
             "_ancestry": [
                 "L_ 5779",
-                "B_ {#Akarzin#}",
-                "M_ {#--RI#}"
+                "B_ {#aSatru#}",
+                "M_ .{@{#-tru#}@}"
             ],
-            "_banner": "{#--RI#}",
+            "_banner": ".{@{#-tru#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AkarziRI"
+                    "Right": "aSatru"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "The condition of having no enemies.\n"
+            ]
+        },
+        {
+            "__line": 47919,
+            "_ancestry": [
+                "L_ 5779",
+                "B_ {#aSatru#}",
+                "M_ .{@{#-truH#}@}"
+            ],
+            "_banner": ".{@{#-truH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSatruH"
                 }
             ],
             "_meanings": [
-                "A rod with a\nhook at the end for pulling down\nboughs in order to gather fruits &c."
+                "The moon."
             ]
         }
     ]

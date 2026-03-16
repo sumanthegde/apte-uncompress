@@ -1,20 +1,106 @@
 {
-    "__line": 42623,
+    "__line": 40423,
     "_ancestry": [
         "L_ 4727",
-        "B_ {#avarugRa#}"
+        "B_ {#aloka#}"
     ],
-    "_banner": "{#avarugRa#}",
+    "_banner": "{#aloka#}",
     "_bannerExp": [
         {
-            "Right": "avarugRa"
+            "Right": "aloka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Broken, torn;  \n{#avarugRatuMgasuradArutarO#} <ls>Ki. 6. 5.</ls> ",
-        "{@--2@} Diseased."
+        ".²1 Not having space (<ab>Ved.</ab>).\n",
+        ".²2 That which cannot be seen, as in {#lokAloka ivAcalaH#} <ls>R. 1. 68</ls> ({#na#}\n {#lokyata ityalokaH#} <ls>Malli.</ls>); see {#lokAloka#} also.\n",
+        ".²3 Having no people.\n",
+        ".²4 One who does not go to any other world after death (not having performed\n meritorious deeds).\n",
+        ".²5 Beyond space ({#lokAtIta parabrahma#}); {#paSyatAM sarvalokAnAmalokaM#}\n {#samapadyata#} <ls>Bhāg. 6. 12. 35</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 40432,
+            "_ancestry": [
+                "L_ 4727",
+                "B_ {#aloka#}",
+                "M_ .{@{#-kaH, -kam#}@}"
+            ],
+            "_banner": ".{@{#-kaH, -kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alokaH"
+                },
+                {
+                    "Right": "alokam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Not the world.\n",
+                ".²2 End of, destruction of the world; absence of people; {#rakza sarvAnimA~llokAn#}\n {#nAlokaM kartumarhasi#} <ls>Rām.</ls>\n",
+                ".²3 The immaterial or spiritual world.\n",
+                ".²4 The nether world ({#pAtAla#}).\n",
+                ".²5 A {%Ritvij%} or any such priest.\n",
+                ".²6 One who is not a seer or observer.\n"
+            ]
+        },
+        {
+            "__line": 40440,
+            "_ancestry": [
+                "L_ 4727",
+                "B_ {#aloka#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alokA"
+                }
+            ],
+            "_meanings": [
+                "A kind of bird.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 40442,
+            "_ancestry": [
+                "L_ 4727",
+                "B_ {#aloka#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alokavratam"
+                }
+            ],
+            "_meanings": [
+                "Religious practice like {#brahmacarya#}; {#carantyalokavratamavraRaM#}\n {#vane#} <ls>Bhāg. 8. 3. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40444,
+            "_ancestry": [
+                "L_ 4727",
+                "B_ {#aloka#}",
+                "S_ .{@{#-sAmAnya#}@}"
+            ],
+            "_banner": ".{@{#-sAmAnya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alokasAmAnya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "extraordinary, uncommon; {#˚guRastanUjaH#} <ls>Māl. 1. 10</ls>."
+            ]
+        }
     ]
 }

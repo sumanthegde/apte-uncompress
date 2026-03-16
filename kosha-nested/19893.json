@@ -1,22 +1,39 @@
 {
-    "__line": 166416,
+    "__line": 178901,
     "_ancestry": [
         "L_ 19893",
-        "B_ {#pratiniDA#}"
+        "B_ {#padAtin#}"
     ],
-    "_banner": "{#pratiniDA#}",
+    "_banner": "{#padAtin#}",
     "_bannerExp": [
         {
-            "Right": "pratiniDA"
+            "Right": "padAtin"
         }
     ],
     "_gram": [
-        "{c3c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To substitute,\nput in the place of. ",
-        "{@--2@} To slight,\ndisregard. ",
-        "{@--3@} To order."
+        ".²1 Having foot-soldiers (as an army).\n",
+        ".²2 Being or going on foot. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 178903,
+            "_ancestry": [
+                "L_ 19893",
+                "B_ {#padAtin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#padAtin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A foot-soldier."
+            ]
+        }
     ]
 }

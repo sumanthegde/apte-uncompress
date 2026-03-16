@@ -1,21 +1,84 @@
 {
-    "__line": 209955,
+    "__line": 221774,
     "_ancestry": [
         "L_ 24776",
-        "B_ {#loBin#}"
+        "B_ {#boDana#}"
     ],
-    "_banner": "{#loBin#}",
+    "_banner": "{#boDana#}",
     "_bannerExp": [
         {
-            "Right": "loBin"
+            "Right": "boDana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#buD-Ric lyu-lyuw vA#}]"
     ],
     "_meanings": [
-        "(At the end of <ab>comp.</ab>)\n",
-        "{@--1@} Greedy or desirous of, longing for,\neager after. ",
-        "{@--2@} Alluring, attracting,\nenticing."
+        ".²1 Informing, acquainting.\n",
+        ".²2 Explaining, indicating.\n",
+        ".²3 Arousing, waking.\n",
+        ".²4 Kindling, inflaming.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 221779,
+            "_ancestry": [
+                "L_ 24776",
+                "B_ {#boDana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDanaH"
+                }
+            ],
+            "_meanings": [
+                "The planet Mercury ({#buDaH#}); {#buDa iva SiSirAMSorboDanasyeva#}\n {#devaH#} <ls>V. 5. 21</ls>.\n"
+            ]
+        },
+        {
+            "__line": 221781,
+            "_ancestry": [
+                "L_ 24776",
+                "B_ {#boDana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Informing, teaching, instruction, giving a knowledge of; {#BayaruzoSca#}\n {#tadiNgitaboDanam#} <ls>R. 9. 49</ls>.\n",
+                ".²2 Denoting, signifying.\n",
+                ".²3 Arousing, awakening; {#samayena tena cirasuptamanoBavaboDanaM samamaboDizata#} <ls>Śi. 9. 24</ls>.\n",
+                ".²4 Observing, perceiving.\n",
+                ".²5 Waking, being awake.\n",
+                ".²6 Making attentive.\n",
+                ".²7 Burning incense.\n"
+            ]
+        },
+        {
+            "__line": 221790,
+            "_ancestry": [
+                "L_ 24776",
+                "B_ {#boDana#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "boDanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The eleventh day in the bright half of Kārtika when Viṣṇu rises\n from his four monthsʼ sleep; {#SayanIboDanImaDye yA kfzREkAdaSI Bavet .#}\n {#sEvopozyA gfhasTena nAnyA kfzRA kadAcana#} <ls>Tithyādi.</ls>\n",
+                ".²2 Long pepper.\n",
+                ".²3 Understanding, knowledge."
+            ]
+        }
     ]
 }

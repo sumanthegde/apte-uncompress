@@ -1,39 +1,131 @@
 {
-    "__line": 1350,
+    "__line": 478,
     "_ancestry": [
         "L_ 51",
-        "B_ {#akalka#}"
+        "B_ {#akarman#}"
     ],
-    "_banner": "{#akalka#}",
+    "_banner": "{#akarman#}",
     "_bannerExp": [
         {
-            "Right": "akalka"
+            "Right": "akarman"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#nAsti kalko yatra#}]"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Free\nfrom sediment, pure. ",
-        "{@--2@} Sinless.\n"
+        ".²1 Without work, idle; inefficient.\n",
+        ".²2 Disqualified for performing the necessary rites, wicked, degraded;\n {#akarmA dasyuraBi no#} <ls>Rv. 10. 22. 8</ls>.\n",
+        ".²3 (<ab>Gram.</ab>) intransitive, generally in this sense {#akarmaka#}. "
     ],
     "_morphisms": [
         {
-            "__line": 1352,
+            "__line": 482,
             "_ancestry": [
                 "L_ 51",
-                "B_ {#akalka#}",
-                "M_ {#--lkA#}"
+                "B_ {#akarman#}",
+                "M_ --{%n.%}"
             ],
-            "_banner": "{#--lkA#}",
+            "_banner": "--{%n.%}",
             "_bannerExp": [
                 {
-                    "Right": "akalkA"
+                    "Left": "Parser error: {#akarman#} M_ --{%n.%}"
+                }
+            ],
+            "_gram": [
+                "({#rma#})",
+                "[<sab>{#na˚ ta˚#}</sab>]"
+            ],
+            "_meanings": [
+                ".²1 Absence of work; absence of necessary observances; neglect of essential\n observances; inaction; {#akarmaRaSca bodDavyaM gahanA karmaRo gatiH#} <ls>Bg. 4. 17</ls>, <ls n=\"Bg. 4.\">18</ls>.\n",
+                ".²2 An improper act; crime, sin.\n",
+                ".²3 Not doing (= {#akaraRam#}), non-performance; {#pratizeDAdakarma#} <ls>MS. 10. 8. 10</ls>.\n",
+                ".²4 What should not be done; {#akarma vA kftadUzA syAt .#} <ls>MS. 12. 1. 10</ls>\n (where {#Sabara#} explains {#akarma#} by {#na vA kartavyA dArSikI vediH .#}).\n",
+                ".²5 Non-act, non-activity; {#anyadDi karma BakzaRaM pratiziDyamAnam anyad#}\n {#akarma mAnasaH saMkalpaH .#} <ls>ŚB. on MS. 6. 2. 19</ls>.\n",
+                ".²6 Not doing, violation. {#tadakarmaRi ca dozaH#} <ls>MS. 6. 3. 3</ls>(where {#tadakarmaRi#}\n is explained as {#praDAnAtikrame#} by {#Sabara#}); {#akarmaRi cApratyavAyAt .#}\n <ls>MS. 6. 3. 10</ls>.\n",
+                ".²7 A wrong act, an improper act. {#akarma ca dArakriyA yA ADAnottarakAle .#}\n <ls>ŚB. on MS. 6. 8. 14</ls>; {#akarma#}\n\n {#corDvamADAnAt˚ .#} <ls>MS. 6. 8. 14</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 500,
+            "_ancestry": [
+                "L_ 51",
+                "B_ {#akarman#}",
+                "S_ .{@{#-anvita#}@}"
+            ],
+            "_banner": ".{@{#-anvita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akarmAnvita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 unengaged, unoccupied, idle.\n",
+                ".²2 criminal.\n"
+            ]
+        },
+        {
+            "__line": 503,
+            "_ancestry": [
+                "L_ 51",
+                "B_ {#akarman#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akarmakft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from action; {#na hi kaScit kzaRamapi jAtu tizWatyakarmakft .#}\n <ls>Bg. 3. 5</ls> doing an improper act.\n"
+            ]
+        },
+        {
+            "__line": 505,
+            "_ancestry": [
+                "L_ 51",
+                "B_ {#akarman#}",
+                "S_ .{@{#-BogaH#}@}"
+            ],
+            "_banner": ".{@{#-BogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akarmaBogaH"
                 }
             ],
             "_meanings": [
-                "Moonlight."
+                ".²1 enjoyment of freedom from the fruits of action.\n",
+                ".²2 renunciation of self-righteousness.\n"
+            ]
+        },
+        {
+            "__line": 508,
+            "_ancestry": [
+                "L_ 51",
+                "B_ {#akarman#}",
+                "S_ .{@{#-SIla#}@}"
+            ],
+            "_banner": ".{@{#-SIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akarmaSIla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lazy, indolent."
             ]
         }
     ]

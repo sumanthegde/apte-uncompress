@@ -1,21 +1,38 @@
 {
-    "__line": 247071,
+    "__line": 272140,
     "_ancestry": [
         "L_ 29433",
-        "B_ {#samAvas#}"
+        "B_ {#vijara#}"
     ],
-    "_banner": "{#samAvas#}",
+    "_banner": "{#vijara#}",
     "_bannerExp": [
         {
-            "Right": "samAvas"
+            "Right": "vijara"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To dwell, live.\n",
-        "{@--2@} To lodge, encamp, halt."
+        "Young, fresh.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 272141,
+            "_ancestry": [
+                "L_ 29433",
+                "B_ {#vijara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vijaram"
+                }
+            ],
+            "_meanings": [
+                "A stalk."
+            ]
+        }
     ]
 }

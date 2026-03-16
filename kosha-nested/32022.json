@@ -1,16 +1,84 @@
 {
-    "__line": 266476,
+    "__line": 295489,
     "_ancestry": [
         "L_ 32022",
-        "B_ {#ratnAkara#}"
+        "B_ {#Sikzita#}"
     ],
-    "_banner": "{#ratnAkara#}",
+    "_banner": "{#Sikzita#}",
     "_bannerExp": [
         {
-            "Right": "ratnAkara"
+            "Right": "Sikzita"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#SikzA jAtA'sya tAra˚ itac Sikz-kta vA#}]"
+    ],
     "_meanings": [
-        "Author of the Mahākāvya called Haravijaya\nand patronized by Avantivarman (855-884 <ab>A. D.</ab>)."
+        ".²1 Learnt, studied.\n",
+        ".²2 Taught, instructed; {#aSikzitapawutvam#} <ls>Ś. 5. 22</ls>; {#SikzitAsi mayEva#}\n {#yam#} <ls>N. 20. 64</ls>.\n",
+        ".²3 Trained, disciplined.\n",
+        ".²4 Tame, docile.\n",
+        ".²5 Skilful, clever.\n",
+        ".²6 Modest, diffident.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 295497,
+            "_ancestry": [
+                "L_ 32022",
+                "B_ {#Sikzita#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SikzitaH"
+                }
+            ],
+            "_meanings": [
+                "A pupil, scholar.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 295499,
+            "_ancestry": [
+                "L_ 32022",
+                "B_ {#Sikzita#}",
+                "S_ .{@{#-akzaraH#}@}"
+            ],
+            "_banner": ".{@{#-akzaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SikzitAkzaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a teacher.\n",
+                ".²2 a pupil.\n"
+            ]
+        },
+        {
+            "__line": 295502,
+            "_ancestry": [
+                "L_ 32022",
+                "B_ {#Sikzita#}",
+                "S_ .{@{#-AyuDa#}@}"
+            ],
+            "_banner": ".{@{#-AyuDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SikzitAyuDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "versed in the use of weapons."
+            ]
+        }
     ]
 }

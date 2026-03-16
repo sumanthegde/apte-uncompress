@@ -1,17 +1,83 @@
 {
-    "__line": 245440,
+    "__line": 270556,
     "_ancestry": [
         "L_ 29235",
-        "B_ {#saMniyogaH#}"
+        "B_ {#vikIrRa#}"
     ],
-    "_banner": "{#saMniyogaH#}",
+    "_banner": "{#vikIrRa#}",
     "_bannerExp": [
         {
-            "Right": "saMniyogaH"
+            "Right": "vikIrRa"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Union, attachment. ",
-        "{@--2@}\nAppointment."
+        ".²1 Scattered, dispersed.\n",
+        ".²2 Diffused.\n",
+        ".²3 Celebrated.\n",
+        ".²4 Dishevelled (as hair).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 270561,
+            "_ancestry": [
+                "L_ 29235",
+                "B_ {#vikIrRa#}",
+                "M_ .{@{#-rRam#}@}"
+            ],
+            "_banner": ".{@{#-rRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikIrRam"
+                }
+            ],
+            "_meanings": [
+                "A particular fault in pronouncing vowels.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 270563,
+            "_ancestry": [
+                "L_ 29235",
+                "B_ {#vikIrRa#}",
+                "S_ .{@{#-keSa, -mUrDaja#}@}"
+            ],
+            "_banner": ".{@{#-keSa, -mUrDaja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikIrRakeSa"
+                },
+                {
+                    "Right": "vikIrRamUrDaja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "tearing the hair, having dishevelled hair;\n {#vilalApa vikIrRamUrDajA#} <ls>Ku. 4. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 270565,
+            "_ancestry": [
+                "L_ 29235",
+                "B_ {#vikIrRa#}",
+                "S_ .{@{#-jYam#}@}"
+            ],
+            "_banner": ".{@{#-jYam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikIrRajYam"
+                }
+            ],
+            "_meanings": [
+                "a kind of perfume."
+            ]
+        }
     ]
 }

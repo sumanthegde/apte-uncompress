@@ -1,18 +1,62 @@
 {
-    "__line": 243890,
+    "__line": 269060,
     "_ancestry": [
         "L_ 29053",
-        "B_ {#satIlaH#}"
+        "B_ {#vArzika#}"
     ],
-    "_banner": "{#satIlaH#}",
+    "_banner": "{#vArzika#}",
     "_bannerExp": [
         {
-            "Right": "satIlaH"
+            "Right": "vArzika"
+        },
+        {
+            "Right": "vArzikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#varze varzAsu vA BavaH WaY#}]"
+    ],
     "_meanings": [
-        "{@--1@} A bamboo. ",
-        "{@--2@} Air,\nwind. ",
-        "{@--3@} Pease, pulse ({%<ab>f.</ab>%} also)."
+        ".²1 Belonging to the rains or rainy season; {#pUrvo'yaM vArziko mAsaH SrAvaRaH#}\n {#salilAgamaH . pravfttAH sOmya catvAro mAsA vArzikasaMjYitAH ..#} <ls>Rām. 4. 26. 14</ls>;\n {#vArzikaM saMjahArendro DanurjEtraM raGurdaDO#} <ls>R. 4. 16</ls>.\n",
+        ".²2 Annual, yearly.\n",
+        ".²3 Lasting for one year; {#mAnuzARAM pramARaM syAd BuktirvE daSavArzikI#};\n so {#vArzikamannam#} <ls>Y. 1. 124</ls>; <ls>Mb. 12. 168. 32</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 269068,
+            "_ancestry": [
+                "L_ 29053",
+                "B_ {#vArzika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArzikam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a medicinal plant ({#trAyamARA#}).\n"
+            ]
+        },
+        {
+            "__line": 269069,
+            "_ancestry": [
+                "L_ 29053",
+                "B_ {#vArzika#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArzikI"
+                }
+            ],
+            "_meanings": [
+                "A river, the water of which lasts the whole year; {#nadI Bavizyasi … vArzikI#}\n {#nAzwamAsikI#} <ls>Mb. 5. 186. 36</ls>."
+            ]
+        }
     ]
 }

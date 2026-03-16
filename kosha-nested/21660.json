@@ -1,21 +1,61 @@
 {
-    "__line": 179432,
+    "__line": 194580,
     "_ancestry": [
         "L_ 21660",
-        "B_ {#bahulatA --tvaM#}"
+        "B_ {#puzpita#}"
     ],
-    "_banner": "{#bahulatA --tvaM#}",
+    "_banner": "{#puzpita#}",
     "_bannerExp": [
         {
-            "Right": "bahulatA"
-        },
-        {
-            "Right": "bahulatvaM"
+            "Right": "puzpita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Abundance, \ncopiousness. ",
-        "{@--2@} Numerousness. ",
-        "{@--3@} \nComprehensiveness."
+        ".²1 Flowered, full of flowers, in bloom, blooming; {#ciraviraheRa vilokya#}\n {#puzpitAgrAm#} <ls>Gīt. 4</ls> (where {#puzpitAgrA#} is also the name of a metre).\n",
+        ".²2 Florid, flowery (as speech).\n",
+        ".²3 A bounding or rich in; as in {#suvarRapuzpitAM pfTvIm#} <ls>Pt. 1. 45</ls>.\n",
+        ".²4 Fully developed, completely manifested.\n",
+        ".²5 Spotted, variegated.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 194587,
+            "_ancestry": [
+                "L_ 21660",
+                "B_ {#puzpita#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "puzpitA"
+                }
+            ],
+            "_meanings": [
+                "A woman in her courses.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 194589,
+            "_ancestry": [
+                "L_ 21660",
+                "B_ {#puzpita#}",
+                "S_ .{@{#-agrA#}@}"
+            ],
+            "_banner": ".{@{#-agrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "puzpitAgrA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre; see <ls>App. II.</ls>"
+            ]
+        }
     ]
 }

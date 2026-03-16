@@ -1,20 +1,113 @@
 {
-    "__line": 103822,
+    "__line": 105264,
     "_ancestry": [
         "L_ 12421",
-        "B_ {#gavyA#}"
+        "B_ {#kuqyam#}"
     ],
-    "_banner": "{#gavyA#}",
+    "_banner": "{#kuqyam#}",
     "_bannerExp": [
         {
-            "Right": "gavyA"
+            "Right": "kuqyam"
         }
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Desire for cows. ",
-        "{@--2@}\nDesire, fervency. ",
-        "{@--3@} Desire for\nwhat comes from a cow (as milk\n&c.). ",
-        "{@--4@} Desire of battle."
+        ".²1 A wall; {#Bede kuqyAvapAtane#} <ls>Y. 2. 223</ls>; <ls>Śi. 3. 45</ls> {#vinamitapawalAntaM#}\n {#dfSyate jIrRakuqyam#} <ls>Mu. 3. 15</ls>.\n",
+        ".²2 Plastering (a wall).\n",
+        ".²3 Eagerness, curiosity.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 105269,
+            "_ancestry": [
+                "L_ 12421",
+                "B_ {#kuqyam#}",
+                "M_ .{@{#-qyA#}@}"
+            ],
+            "_banner": ".{@{#-qyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuqyA"
+                }
+            ],
+            "_meanings": [
+                "A wall; {#kIwaH peSaskftArudDaH kuqyAyAM tamanusmaran#} <ls>Bhāg. 7. 1. 28</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 105271,
+            "_ancestry": [
+                "L_ 12421",
+                "B_ {#kuqyam#}",
+                "S_ .{@{#-cCedin#}@}"
+            ],
+            "_banner": ".{@{#-cCedin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuqyacCedin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a house-breaker, a thief.\n"
+            ]
+        },
+        {
+            "__line": 105272,
+            "_ancestry": [
+                "L_ 12421",
+                "B_ {#kuqyam#}",
+                "S_ .{@{#-cCedyaH#}@}"
+            ],
+            "_banner": ".{@{#-cCedyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuqyacCedyaH"
+                }
+            ],
+            "_meanings": [
+                "a digger. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 105272,
+                    "_ancestry": [
+                        "L_ 12421",
+                        "B_ {#kuqyam#}",
+                        "S_ .{@{#-cCedyaH#}@}",
+                        "S_M_ ({@{#-dyam#}@})"
+                    ],
+                    "_banner": "({@{#-dyam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "kuqyacCedyam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a ditch, pit, breach or opening (in a wall).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 105273,
+            "_ancestry": [
+                "L_ 12421",
+                "B_ {#kuqyam#}",
+                "S_ .{@{#-matsI#}@}"
+            ],
+            "_banner": ".{@{#-matsI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuqyamatsI"
+                }
+            ],
+            "_meanings": [
+                "The house-lizard."
+            ]
+        }
     ]
 }

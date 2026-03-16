@@ -1,19 +1,69 @@
 {
-    "__line": 150797,
+    "__line": 157744,
     "_ancestry": [
         "L_ 17835",
-        "B_ {#parAvat#}"
+        "B_ {#dvEDa#}"
     ],
-    "_banner": "{#parAvat#}",
+    "_banner": "{#dvEDa#}",
     "_bannerExp": [
         {
-            "Right": "parAvat"
+            "Right": "dvEDa"
+        },
+        {
+            "Right": "dvEDI"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "({#-DI#}|{%f.%})"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> At a distance."
+        "Two-fold, double.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 157746,
+            "_ancestry": [
+                "L_ 17835",
+                "B_ {#dvEDa#}",
+                "M_ .{@{#-Dam#}@}"
+            ],
+            "_banner": ".{@{#-Dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvEDam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Duality, two-fold nature or state.\n",
+                ".²2 Separation into two parts.\n",
+                ".²3 Double resource, secondary reserve; {#kAryaM vIkzya prayuYjIta dvEDaM#}\n {#saMSrayameva ca#} <ls>Ms. 7. 161</ls>.\n",
+                ".²4 Diversity, difference, conflict, contest, variance; {#SrutidvEDaM tu#}\n {#yatra syAt tatra DarmAvuBO smftO#} <ls>Ms. 2. 14</ls>, <ls n=\"Ms.\">9. 32</ls>; <ls>Y. 2. 78</ls>.\n",
+                ".²5 Doubt, uncertainty; {#CinnadvEDAH#} ({#fzayaH#}) <ls>Bg. 5. 25</ls>; <ls>Ve. 6. 44</ls>.\n",
+                ".²6 Double-dealing, duplicity, one of the six modes of foreign policy;\n see {#dvEDIBAva#} below and {#guRa#}.\n",
+                ".²7 Contradiction.\n"
+            ]
+        },
+        {
+            "__line": 157757,
+            "_ancestry": [
+                "L_ 17835",
+                "B_ {#dvEDa#}",
+                "M_ .{@{#-Dam#}@}"
+            ],
+            "_banner": ".{@{#-Dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvEDam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 In two parts.\n",
+                ".²2 In two ways, doubly."
+            ]
+        }
     ]
 }

@@ -1,16 +1,89 @@
 {
-    "__line": 87500,
+    "__line": 86728,
     "_ancestry": [
         "L_ 10422",
-        "B_ {#karpaRaH#}"
+        "B_ {#uzA#}"
     ],
-    "_banner": "{#karpaRaH#}",
+    "_banner": "{#uzA#}",
     "_bannerExp": [
         {
-            "Right": "karpaRaH"
+            "Right": "uzA"
         }
     ],
+    "_gram": [
+        "[{#ozatyanDakAram uz-ka#}]"
+    ],
     "_meanings": [
-        "A kind of weapon;  \n{#cApacakrakaRapakarpaRaprAsapawwiSa#} &c.; <ls>Dk. 35.</ls>"
+        ".²1 Early morning, dawn; {#uzAmuzAM SreyasIM DehyasmE#} <ls>Av. 12. 2. 45</ls>.\n",
+        ".²2 Morning light.\n",
+        ".²3 Twilight.\n",
+        ".²4 Saline earth.\n",
+        ".²5 A cow.\n",
+        ".²6 Night.\n",
+        ".²7 A boiler, cooking vessel ({#sTAlI#}); <ab>cf.</ab> {#uKA#}.\n",
+        ".²8 <ab>N.</ab> of a wife of Bhava (who was a manifestation of Rudra). ",
+        ".²9 <ab>N.</ab> of a\n daughter of the demon Bāṇa and wife of Aniruddha. [She beheld Aniruddha\n in a dream and became passionately enamoured of him. She sought the assistance\n of her friend Chitralekhā, who advised her to have with her the portraits\n of all young princes living round about her. When this was done, she recognized\n Aniruddha and had him carried to her city, where she was married to him;\n see {#anirudDa#} also]. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 86742,
+            "_ancestry": [
+                "L_ 10422",
+                "B_ {#uzA#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#uzA#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Early in the morning.\n",
+                ".²2 At night.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 86746,
+            "_ancestry": [
+                "L_ 10422",
+                "B_ {#uzA#}",
+                "S_ .{@{#-kalaH#}@}"
+            ],
+            "_banner": ".{@{#-kalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzAkalaH"
+                }
+            ],
+            "_meanings": [
+                "a cock.\n"
+            ]
+        },
+        {
+            "__line": 86747,
+            "_ancestry": [
+                "L_ 10422",
+                "B_ {#uzA#}",
+                "S_ .{@{#-patiH, -ramaRaH, -ISaH#}@}"
+            ],
+            "_banner": ".{@{#-patiH, -ramaRaH, -ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzApatiH"
+                },
+                {
+                    "Right": "uzAramaRaH"
+                },
+                {
+                    "Right": "uzeSaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Aniruddha, husband of Uṣā."
+            ]
+        }
     ]
 }

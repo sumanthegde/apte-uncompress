@@ -1,59 +1,120 @@
 {
-    "__line": 3952,
+    "__line": 2131,
     "_ancestry": [
         "L_ 226",
-        "B_ {#agrima#}"
+        "B_ {#agADa#}"
     ],
-    "_banner": "{#agrima#}",
+    "_banner": "{#agADa#}",
     "_bannerExp": [
         {
-            "Right": "agrima"
+            "Right": "agADa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#agre BavaH; agra-qimac#} \n<ls>P. IV. 3. 23.</ls> <ab>Vārt.</ab>]"
+        "{%a.%}",
+        "[{#gAD--pratizWAyAM GaY#}; <sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} First (in order,\nrank &c); foremost, best, excellent,\npreferable, superior; {#vIrARAmagrimo#} \n{#BUtvA yuyuDe pArTivEH saha#} <ls>Mb.</ls> ",
-        "{@--2@} Prior,\npreceding. ",
-        "{@--3@} Elder, eldest. ",
-        "{@--4@} \nFurthest, advanced, first ripe. ",
-        "{@--5@}\nFurther. "
+        "Unfathomable,\n very deep, bottomless; {#agADasalilAtsamudrAt#} <ls>H. 1. 52</ls>; (<ab>fig.</ab>) profound,\n sound, very deep, {#yasya jYAnadayAsinDoragADasyAnaGA guRAH#} <ls>Ak.</ls> unfathomable,\n incomprehensible, inscrutable, Not learned; {#agADAScApratizWASca gatimantaSca#}\n {#nArada#} <ls>Mb. 12. 286. 7</ls> Not established, well-known; {#agADajanmAmaraRaM#}\n {#ca rAjan#} <ls>Mb. 12. 308. 39</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 3959,
+            "__line": 2137,
             "_ancestry": [
                 "L_ 226",
-                "B_ {#agrima#}",
-                "M_ {#--maH#}"
+                "B_ {#agADa#}",
+                "M_ .{@{#-DaH, -Dam#}@}"
             ],
-            "_banner": "{#--maH#}",
+            "_banner": ".{@{#-DaH, -Dam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "agrimaH"
+                    "Right": "agADaH"
+                },
+                {
+                    "Right": "agADam"
                 }
             ],
             "_meanings": [
-                "An elder brother.\n"
+                "a deep hole or chasm.\n"
             ]
         },
         {
-            "__line": 3960,
+            "__line": 2138,
             "_ancestry": [
                 "L_ 226",
-                "B_ {#agrima#}",
-                "M_ {#--mA#}"
+                "B_ {#agADa#}",
+                "M_ .{@{#-DaH#}@}"
             ],
-            "_banner": "{#--mA#}",
+            "_banner": ".{@{#-DaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "agrimA"
+                    "Right": "agADaH"
                 }
             ],
             "_meanings": [
-                "A kind of fruit, Annona \nReticulata."
+                "<ab>N.</ab> of one of the 5 fires at the {#svAhAkAra#} [<ab>cf.</ab> <lang>Gr.</lang> {%agathos%}].\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 2140,
+            "_ancestry": [
+                "L_ 226",
+                "B_ {#agADa#}",
+                "S_ .{@{#-jalaH#}@}"
+            ],
+            "_banner": ".{@{#-jalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agADajalaH"
+                }
+            ],
+            "_gram": [
+                "[{#agADaM jalaM yatra#}]"
+            ],
+            "_meanings": [
+                "a deep pool or pond, deep lake.\n"
+            ]
+        },
+        {
+            "__line": 2141,
+            "_ancestry": [
+                "L_ 226",
+                "B_ {#agADa#}",
+                "S_ .{@{#-sattva#}@}"
+            ],
+            "_banner": ".{@{#-sattva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agADasattva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "possessing profound inherent power. {#dvijamuKyatamaH#}\n {#kavirbaBUva praTitaH SUdraka ityagADasattvaH ..#} <ls>Mk. 1. 3</ls>, {#agADasattvo#}\n {#magaDapratizWaH .#} <ls>R. 6. 21</ls>; so {#˚jYAnam, ˚budDiH#}; great; as "
+            ],
+            "_samasas": [
+                {
+                    "__line": 2143,
+                    "_ancestry": [
+                        "L_ 226",
+                        "B_ {#agADa#}",
+                        "S_ .{@{#-sattva#}@}",
+                        "S_S_ {#˚Bayam#}"
+                    ],
+                    "_banner": "{#˚Bayam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "agADasattvaBayam"
+                        }
+                    ],
+                    "_meanings": [
+                        "."
+                    ]
+                }
             ]
         }
     ]

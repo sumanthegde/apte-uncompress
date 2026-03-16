@@ -1,21 +1,38 @@
 {
-    "__line": 149806,
+    "__line": 156705,
     "_ancestry": [
         "L_ 17755",
-        "B_ {#pay#}"
+        "B_ {#drugDa#}"
     ],
-    "_banner": "{#pay#}",
+    "_banner": "{#drugDa#}",
     "_bannerExp": [
         {
-            "Right": "pay"
+            "Right": "drugDa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#payate#})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "To go, move."
+        "Injured, plotted against; {#saMbanDiByo'pi yErdrugDaM#}\n {#kanyAM dattvetaretaram#} <ls>Rāj. T. 5. 299</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 156707,
+            "_ancestry": [
+                "L_ 17755",
+                "B_ {#drugDa#}",
+                "M_ .{@{#-gDam#}@}"
+            ],
+            "_banner": ".{@{#-gDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "drugDam"
+                }
+            ],
+            "_meanings": [
+                "An offence, injury, malevolent act; {#ava drugDAni pitryA#}\n {#sfjA naH#} <ls>Rv. 7. 86. 5</ls>."
+            ]
+        }
     ]
 }

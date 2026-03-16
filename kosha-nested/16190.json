@@ -1,25 +1,76 @@
 {
-    "__line": 135918,
+    "__line": 140474,
     "_ancestry": [
         "L_ 16190",
-        "B_ {#DmAM(DvAM)kz#}"
+        "B_ {#tamisra#}"
     ],
-    "_banner": "{#DmAM(DvAM)kz#}",
+    "_banner": "{#tamisra#}",
     "_bannerExp": [
         {
-            "Right": "DmAMkz"
-        },
-        {
-            "Right": "DvAMkz"
+            "Right": "tamisra"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#DmAMkzati#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To\ncrow, or caw. ",
-        "{@--2@} To desire."
+        "Dark.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 140475,
+            "_ancestry": [
+                "L_ 16190",
+                "B_ {#tamisra#}",
+                "M_ .{@{#-sram#}@}"
+            ],
+            "_banner": ".{@{#-sram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamisram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Darkness; {#etattamAladalanIlatamaM tamisram#} <ls>Gīt. 11</ls>; {#karacaraRorasi#}\n {#maRigaRaBUzaRakiraRaviBinnatamisram#} <ls n=\"Gīt.\">2</ls>; <ls>Ki. 5. 2</ls>.\n",
+                ".²2 Mental darkness, illusion.\n",
+                ".²3 Anger, wrath.\n"
+            ]
+        },
+        {
+            "__line": 140480,
+            "_ancestry": [
+                "L_ 16190",
+                "B_ {#tamisra#}",
+                "M_ .{@{#-sraH#}@}"
+            ],
+            "_banner": ".{@{#-sraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamisraH"
+                }
+            ],
+            "_meanings": [
+                "The dark half of the month.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 140482,
+            "_ancestry": [
+                "L_ 16190",
+                "B_ {#tamisra#}",
+                "S_ .{@{#-pakzaH#}@}"
+            ],
+            "_banner": ".{@{#-pakzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamisrapakzaH"
+                }
+            ],
+            "_meanings": [
+                "the dark fortnight (of a lunar month); <ls>R. 6. 34</ls>; {#tamisrapakzatruwikUwaBakzitam#} <ls>N.</ls>"
+            ]
+        }
     ]
 }

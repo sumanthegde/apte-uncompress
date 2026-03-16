@@ -1,19 +1,46 @@
 {
-    "__line": 136117,
+    "__line": 140680,
     "_ancestry": [
         "L_ 16218",
-        "B_ {#Druvi#}"
+        "B_ {#tarasvin#}"
     ],
-    "_banner": "{#Druvi#}",
+    "_banner": "{#tarasvin#}",
     "_bannerExp": [
         {
-            "Right": "Druvi"
+            "Right": "tarasvin"
+        },
+        {
+            "Right": "tarasvinI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Firm, stable."
+        ".²1 Swift, quick.\n",
+        ".²2 Strong, powerful, courageous; mighty; {#tataH sutumulaM yudDaM ganDarvARAM#}\n {#tarasvinAm#} ({#baBUva#}) <ls>Mb. 3. 244. 22</ls>; {#nirjitezu tarasA tarasvinAM#}\n {#Satruzu praRatireva kIrtaye#} <ls>R. 11. 89</ls>, <ls n=\"R.\">16. 77</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 140684,
+            "_ancestry": [
+                "L_ 16218",
+                "B_ {#tarasvin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tarasvin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A courier, an express.\n",
+                ".²2 A hero.\n",
+                ".²3 Air, wind.\n",
+                ".²4 An epithet of Garuḍa."
+            ]
+        }
     ]
 }

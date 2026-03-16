@@ -1,16 +1,45 @@
 {
-    "__line": 209239,
+    "__line": 221014,
     "_ancestry": [
         "L_ 24699",
-        "B_ {#luzaBaH#}"
+        "B_ {#bIjin#}"
     ],
-    "_banner": "{#luzaBaH#}",
+    "_banner": "{#bIjin#}",
     "_bannerExp": [
         {
-            "Right": "luzaBaH"
+            "Right": "bIjin"
+        },
+        {
+            "Right": "bIjiRI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-RI#}|{%f.%})"
+    ],
     "_meanings": [
-        "An elephant in rut."
+        ".²1 Possessed of seed, bearing seed.\n",
+        ".²2 (At the end of <ab>comp.</ab>) Of the seed or blood of. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 221016,
+            "_ancestry": [
+                "L_ 24699",
+                "B_ {#bIjin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#bIjin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The real father or progenitor (sower of seed) (<ab>opp.</ab> {#kzotrin#} the\n owner or husband of the {#kzetra#} or woman); see <ls>Ms. 9. 51</ls> {%et seq.%}\n",
+                ".²2 A father in general.\n",
+                ".²3 The sun."
+            ]
+        }
     ]
 }

@@ -1,20 +1,49 @@
 {
-    "__line": 28285,
+    "__line": 25471,
     "_ancestry": [
         "L_ 2919",
-        "B_ {#apsava#}"
+        "B_ {#apAc, apAYc#}"
     ],
-    "_banner": "{#apsava#}",
+    "_banner": "{#apAc, apAYc#}",
     "_bannerExp": [
         {
-            "Right": "apsava"
+            "Right": "apAc"
+        },
+        {
+            "Right": "apAYc"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#apsaM jalarasaM vAti hinAsti#},\n{#vA-ka#}]"
+        "({%m.%}|{#N#}|{%f.%}|{#cI#}|{%n.%}|{#k#})",
+        "[{#apAYcati, aYc kvip#}]"
     ],
     "_meanings": [
-        "Devoid of the essence \n(freshness) of water; possessed of form or\nshape; giving water (?)"
+        ".²1 Going or situated backwards, behind.\n",
+        ".²2 Not open or clear ({#aprakASa#}).\n",
+        ".²3 Western.\n",
+        ".²4 Southern (<ab>opp.</ab> {#udaYc#}); probably for {#avAYc#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 25476,
+            "_ancestry": [
+                "L_ 2919",
+                "B_ {#apAc, apAYc#}",
+                "M_ .{@{#-k#}@}"
+            ],
+            "_banner": ".{@{#-k#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: apAc/apAYc k"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Behind, backwards.\n",
+                ".²2 Westward or southward."
+            ]
+        }
     ]
 }

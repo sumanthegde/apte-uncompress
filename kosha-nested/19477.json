@@ -1,43 +1,68 @@
 {
-    "__line": 163108,
+    "__line": 174459,
     "_ancestry": [
         "L_ 19477",
-        "B_ {#pOzpa#}"
+        "B_ {#nUtana, nUtna#}"
     ],
-    "_banner": "{#pOzpa#}",
+    "_banner": "{#nUtana, nUtna#}",
     "_bannerExp": [
         {
-            "Right": "pOzpI"
+            "Right": "nUtana"
         },
         {
-            "Right": "pOzpa"
+            "Right": "nUtna"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#zpI#}|{%<ab>f.</ab>%})",
-        "[{#puzp-aR#}]"
+        "{%a.%}",
+        "[{#nava eva svArTe tanap nurAdeSaSca#}]"
     ],
     "_meanings": [
-        "Relating to or coming from flowers, \nfloral, flowery. "
+        ".²1 New; {#nUtano rAjA samAjYApayati#} <ls>U. 1</ls>; <ls>R. 8. 15</ls>; {#nUtanajalaDararucaye#}\n <ls>Bhāṣā P.</ls>; {#sAlAvfkARAM strIRAM ca svEriRInAM suradvizaH . saKyAnyAhuranityAni#}\n {#nUtnaM nUtnaM vicinvatAm ..#} <ls>Bhāg. 8. 9. 10</ls>.\n",
+        ".²2 Fresh, young.\n",
+        ".²3 Present.\n",
+        ".²4 Instantaneous.\n",
+        ".²5 Recent, modern.\n",
+        ".²6 Curious, strange.\n"
     ],
     "_morphisms": [
         {
-            "__line": 163110,
+            "__line": 174468,
             "_ancestry": [
                 "L_ 19477",
-                "B_ {#pOzpa#}",
-                "M_ {#--zpI#}"
+                "B_ {#nUtana, nUtna#}",
+                "M_ .{@{#-nam#}@}"
             ],
-            "_banner": "{#--zpI#}",
+            "_banner": ".{@{#-nam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pOzpI"
+                    "Right": "nUtanam"
                 }
             ],
             "_meanings": [
-                "{@--1@} <ab>N.</ab> of the \n\ntown {#pAwaliputra#} <ab>q. v.</ab> ",
-                "{@--2@} A kind of\nspirituous liquor (made from\nflowers)."
+                "Youth, juvenility.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 174470,
+            "_ancestry": [
+                "L_ 19477",
+                "B_ {#nUtana, nUtna#}",
+                "S_ .{@{#-vayas#}@}"
+            ],
+            "_banner": ".{@{#-vayas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nUtanavayas"
+                }
+            ],
+            "_gram": [
+                "({@{#nUtnavayas#}@})"
+            ],
+            "_meanings": [
+                "in the bloom of youth, in the spring of life."
             ]
         }
     ]

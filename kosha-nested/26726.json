@@ -1,61 +1,85 @@
 {
-    "__line": 225356,
+    "__line": 244396,
     "_ancestry": [
         "L_ 26726",
-        "B_ {#vismApana#}"
+        "B_ {#mocaH#}"
     ],
-    "_banner": "{#vismApana#}",
+    "_banner": "{#mocaH#}",
     "_bannerExp": [
         {
-            "Right": "vismApanI"
-        },
-        {
-            "Right": "vismApana"
+            "Right": "mocaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})"
+        "[{#muc-ac#}]"
     ],
     "_meanings": [
-        "Astonishing.\n"
+        ".²1 The plantain tree.\n",
+        ".²2 The tree called {#SoBAYjana#}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 225357,
+            "__line": 244399,
             "_ancestry": [
                 "L_ 26726",
-                "B_ {#vismApana#}",
-                "M_ {#--naH#}"
+                "B_ {#mocaH#}",
+                "M_ .{@{#-cA#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-cA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vismApanaH"
+                    "Right": "mocA"
                 }
             ],
             "_meanings": [
-                "{@--1@} The god of love. ",
-                "{@--2@} Trick,\ndeceit, illusion. "
+                ".²1 The plantain tree.\n",
+                ".²2 The cotton shrub.\n",
+                ".²3 The indigo plant.\n"
             ]
         },
         {
-            "__line": 225358,
+            "__line": 244403,
             "_ancestry": [
                 "L_ 26726",
-                "B_ {#vismApana#}",
-                "M_ {#--naM#}"
+                "B_ {#mocaH#}",
+                "M_ .{@{#-cam#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-cam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vismApanaM"
+                    "Right": "mocam"
                 }
             ],
             "_meanings": [
-                "{@--1@} Causing\nwonder. ",
-                "{@--2@} Anything causing \nwonder. ",
-                "{@--3@} A city of the Gandharvas\n(said to be {%<ab>m.</ab>%} also)."
+                "A plantain fruit.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 244405,
+            "_ancestry": [
+                "L_ 26726",
+                "B_ {#mocaH#}",
+                "S_ .{@{#-niryAsaH, -rasaH, -sAraH, -srAvaH#}@}"
+            ],
+            "_banner": ".{@{#-niryAsaH, -rasaH, -sAraH, -srAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mocaniryAsaH"
+                },
+                {
+                    "Left": "S error: midAlign rasaH nirasaH"
+                },
+                {
+                    "Left": "S error: midAlign sAraH rasAraH"
+                },
+                {
+                    "Right": "mocasrAvaH"
+                }
+            ],
+            "_meanings": [
+                "the resin of Gossampinus Rumphii."
             ]
         }
     ]

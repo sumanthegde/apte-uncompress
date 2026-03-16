@@ -1,22 +1,178 @@
 {
-    "__line": 38337,
+    "__line": 34576,
     "_ancestry": [
         "L_ 4166",
-        "B_ {#arTAt#}"
+        "B_ {#amA#}"
     ],
-    "_banner": "{#arTAt#}",
+    "_banner": "{#amA#}",
     "_bannerExp": [
         {
-            "Right": "arTAt"
+            "Right": "amA"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "[{#na mA--ka#}]"
     ],
     "_meanings": [
-        "(<ab>abl.</ab> of {#arTa#}) ",
-        "{@--1@} As\na matter of course, of course, in fact;\n{#mUzikeRa daMqo Bakzita ityanena#} \n{#tatsahacaritamapUpaBakzaRamarTAdAyAtaM Bavati#} <ls>S. D. 10.</ls>\n",
-        "{@--2@} According to the circumstances\nor state of the case; as a matter of\nfact. ",
-        "{@--3@} That is to say, namely."
+        "Measureless. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 34576,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#amA#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 At home, in the house; {#kAmaScaratAmamABUt#} <ls>Rv. 2. 38. 6</ls>.\n",
+                ".²2 In this world, here below ({#ihaloke#}).\n",
+                ".²3 With, near, close to; {#amEvAsAM tadBavati#} <ls>Bṛ. Up. 1. 5. 20</ls>.\n",
+                ".²4 Together with, in conjunction or company with, as in {#amAtya, amAvAsyA#}\n <ab>q. v.</ab>; {#amAkf#} to draw near, have near oneself. {#amA saha samIpe ca#} <ls>Nm.</ls> "
+            ]
+        },
+        {
+            "__line": 34581,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#amA#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The day of the new moon, the day of the conjunction of the sun and moon;\n\n {#amAyAM tu sadA soma ozaDIH pratipadyate#} <ls>Vyāsa.</ls>\n",
+                ".²2 The sixteenth digit of the moon.\n",
+                ".²3 The fifteenth digit also. {%m.%} The soul.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 34588,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "S_ .{@{#-akta#}@}"
+            ],
+            "_banner": ".{@{#-akta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amAkta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> met, come together.\n"
+            ]
+        },
+        {
+            "__line": 34589,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "S_ .{@{#-antaH#}@}"
+            ],
+            "_banner": ".{@{#-antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amAntaH"
+                }
+            ],
+            "_meanings": [
+                "The end of the day of new moon.\n"
+            ]
+        },
+        {
+            "__line": 34590,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "S_ .{@{#-izwa#}@}"
+            ],
+            "_banner": ".{@{#-izwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amezwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Sacrificed at home.\n"
+            ]
+        },
+        {
+            "__line": 34591,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "S_ .{@{#-jur#}@}"
+            ],
+            "_banner": ".{@{#-jur#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amAjur"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Living at home during life, growing old at home; {#amAjuraScidBavayo#}\n {#yuvaM Bago#} <ls>Rv. 10. 39. 3</ls>; being without husband in the same dwelling\n with her parents, as a maiden ({#pitfzad#}); {#amAjUriva pitroH sacA satI#} <ls>Rv. 2. 17. 7</ls>\n"
+            ]
+        },
+        {
+            "__line": 34594,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "S_ .{@{#-parvan#}@}"
+            ],
+            "_banner": ".{@{#-parvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amAparvan"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "The sacred time of {#amA#}, day of new moon.\n"
+            ]
+        },
+        {
+            "__line": 34595,
+            "_ancestry": [
+                "L_ 4166",
+                "B_ {#amA#}",
+                "S_ .{@{#-haWaH#}@}"
+            ],
+            "_banner": ".{@{#-haWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amAhaWaH"
+                }
+            ],
+            "_meanings": [
+                "Name of a snake-demon; <ls>Mb.</ls>"
+            ]
+        }
     ]
 }

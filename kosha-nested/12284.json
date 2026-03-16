@@ -1,19 +1,78 @@
 {
-    "__line": 102392,
+    "__line": 104084,
     "_ancestry": [
         "L_ 12284",
-        "B_ {#gata, gati#}"
+        "B_ {#kIkawa#}"
     ],
-    "_banner": "{#gata, gati#}",
+    "_banner": "{#kIkawa#}",
     "_bannerExp": [
         {
-            "Right": "gata"
+            "Right": "kIkawa"
         },
         {
-            "Right": "gati"
+            "Right": "kIkawI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-wI#}|{%f.%})"
+    ],
     "_meanings": [
-        ",¦ &c. see under {#gam#}."
+        ".²1 Poor, indigent.\n",
+        ".²2 Miserly.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 104087,
+            "_ancestry": [
+                "L_ 12284",
+                "B_ {#kIkawa#}",
+                "M_ .{@{#-wAH#}@}"
+            ],
+            "_banner": ".{@{#-wAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIkawAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) <ab>N.</ab> of a country (Behār). <ab>N.</ab> of a people not belonging\n to the Āryan race; {#kiM te kfRvanti kIkawezu gAvo nASiraM duhre na tapanti#}\n {#Darmam#} <ls>Rv. 3. 53. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 104090,
+            "_ancestry": [
+                "L_ 12284",
+                "B_ {#kIkawa#}",
+                "M_ .{@{#-waH#}@}"
+            ],
+            "_banner": ".{@{#-waH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kIkawaH"
+                }
+            ],
+            "_meanings": [
+                "A horse. "
+            ]
+        },
+        {
+            "__line": 104090,
+            "_ancestry": [
+                "L_ 12284",
+                "B_ {#kIkawa#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kIkawa#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Poor.\n",
+                ".²2 Avaricious. See {#kowaka#}."
+            ]
+        }
     ]
 }

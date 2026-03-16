@@ -1,25 +1,81 @@
 {
-    "__line": 259598,
+    "__line": 285903,
     "_ancestry": [
         "L_ 30957",
-        "B_ {#spf#}"
+        "B_ {#vEdika#}"
     ],
-    "_banner": "{#spf#}",
+    "_banner": "{#vEdika#}",
     "_bannerExp": [
         {
-            "Right": "spf"
+            "Right": "vEdika"
+        },
+        {
+            "Right": "vEdikI"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "<ab>P.</ab>",
-        "({#spfRoti#})"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#vedaM-vettyaDIte vA WaY vedezu vihitaH Wak vA#}]"
     ],
     "_meanings": [
-        "{@--1@} To deliver\nor extricate from. ",
-        "{@--2@} To gratify.\n",
-        "{@--3@} To grant, bestow. ",
-        "{@--4@} To protect.\n",
-        "{@--5@} To live."
+        ".²1 Derived from or conformable to the Vedas, Vedic.\n",
+        ".²2 Sacred, scriptural, holy; {#apekzyate sADujanena vEdikI SmaSAnaSUlasya#}\n {#na yUpasatkriyA#} <ls>Ku. 5. 73</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 285908,
+            "_ancestry": [
+                "L_ 30957",
+                "B_ {#vEdika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdikaH"
+                }
+            ],
+            "_meanings": [
+                "A Brāhmaṇa well-versed in the Vedas.\n"
+            ]
+        },
+        {
+            "__line": 285909,
+            "_ancestry": [
+                "L_ 30957",
+                "B_ {#vEdika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdikam"
+                }
+            ],
+            "_meanings": [
+                "A Vedic passage; {#ameDye vA patenmatto vEdikaM vApyudAharet#} <ls>Ms. 11. 96</ls>.\n",
+                ".²2 A Vedic precept; <ls>Mb.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 285912,
+            "_ancestry": [
+                "L_ 30957",
+                "B_ {#vEdika#}",
+                "S_ .{@{#-pASaH#}@}"
+            ],
+            "_banner": ".{@{#-pASaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdikapASaH"
+                }
+            ],
+            "_meanings": [
+                "a smatterer in Veda, one possessing an imperfect knowledge\n of the Vedas; <ls>P. V. 3. 47</ls>."
+            ]
+        }
     ]
 }

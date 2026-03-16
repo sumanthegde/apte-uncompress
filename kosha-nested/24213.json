@@ -1,22 +1,41 @@
 {
-    "__line": 205322,
+    "__line": 215864,
     "_ancestry": [
         "L_ 24213",
-        "B_ {#rucita#}"
+        "B_ {#pronmIl#}"
     ],
-    "_banner": "{#rucita#}",
+    "_banner": "{#pronmIl#}",
     "_bannerExp": [
         {
-            "Right": "rucita"
+            "Right": "pronmIl"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Bright, shining. ",
-        "{@--2@}\nSweet, dainty. ",
-        "{@--3@} Pleased, \ndelighted. ",
-        "{@--4@} Digested."
+        "²1 To bloom, blossom.\n",
+        ".²2 To come to light, appear. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 215866,
+            "_ancestry": [
+                "L_ 24213",
+                "B_ {#pronmIl#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pronmIl"
+                }
+            ],
+            "_meanings": [
+                ".²1 To open the eyes.\n",
+                ".²2 To reveal, disclose, bring to light, discover."
+            ]
+        }
     ]
 }

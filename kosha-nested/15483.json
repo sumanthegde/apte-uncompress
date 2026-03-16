@@ -1,20 +1,61 @@
 {
-    "__line": 128782,
+    "__line": 134320,
     "_ancestry": [
         "L_ 15483",
-        "B_ {#dIrGIBU#}"
+        "B_ {#javana#}"
     ],
-    "_banner": "{#dIrGIBU#}",
+    "_banner": "{#javana#}",
     "_bannerExp": [
         {
-            "Right": "dIrGIBU"
+            "Right": "javana"
+        },
+        {
+            "Right": "javanI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#ju BAve lyuw#}]"
     ],
     "_meanings": [
-        "To become long or\nprolonged."
+        "Quick, swift, fleet; <ls>R. 9. 56</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 134322,
+            "_ancestry": [
+                "L_ 15483",
+                "B_ {#javana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "javanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A courser, a swift horse.\n",
+                ".²2 An elephant in the third decade; <ls>Mātaṅga L. 5. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 134325,
+            "_ancestry": [
+                "L_ 15483",
+                "B_ {#javana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "javanam"
+                }
+            ],
+            "_meanings": [
+                "Speed, quickness, velocity."
+            ]
+        }
     ]
 }

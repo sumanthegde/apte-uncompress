@@ -1,21 +1,40 @@
 {
-    "__line": 256492,
+    "__line": 282326,
     "_ancestry": [
         "L_ 30597",
-        "B_ {#sopaplava#}"
+        "B_ {#vihata#}"
     ],
-    "_banner": "{#sopaplava#}",
+    "_banner": "{#vihata#}",
     "_bannerExp": [
         {
-            "Right": "sopaplava"
+            "Right": "vihata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Afflicted with any\ngreat calamity. ",
-        "{@--2@} Invaded or\noverrun by enemies. ",
-        "{@--3@} Eclipsed\n(as the sun or moon)."
+        ".²1 Struck completely, killed.\n",
+        ".²2 Hurt.\n",
+        ".²3 Opposed, impeded, resisted.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 282330,
+            "_ancestry": [
+                "L_ 30597",
+                "B_ {#vihata#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vihataH"
+                }
+            ],
+            "_meanings": [
+                "A Jaina temple."
+            ]
+        }
     ]
 }

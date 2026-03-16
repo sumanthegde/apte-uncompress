@@ -1,21 +1,109 @@
 {
-    "__line": 53075,
+    "__line": 50638,
     "_ancestry": [
         "L_ 6045",
-        "B_ {#AwopaH#}"
+        "B_ {#asama#}"
     ],
-    "_banner": "{#AwopaH#}",
+    "_banner": "{#asama#}",
     "_bannerExp": [
         {
-            "Right": "AwopaH"
+            "Right": "asama"
         }
     ],
     "_gram": [
-        "[{#A-tup-GaMY pfzo° watvaM#} <ls>Tv.</ls>]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Pride, self-conceit, arrogance;\n{#sAwopaM#} proudly, in a stately or \nmajestic manner, frequently used as a\nstage direction. ",
-        "{@--2@} Swelling, \nspreading, expanding, puffing; Prov.  \n{#PawAwopo BayaMkara#}; said also of clouds; {#adyApi#}\n{#sAwopA meGA dfSyaMte#} <ls>Pt. 1</ls>; <ls>Śi. 3. 74.</ls>\n",
-        "{@--3@} Flatulence (in the belly)."
+        ".²1 Uneven, odd (as a number); {#asamaSIlAH Kalu mfgAH#} <ls>Bv. 1. 2</ls>; mean, contemptible.\n",
+        ".²2 Unequal (in space, number or dignity); {#asamEH samIyamAnaH#} <ls>Pt. 1. 74</ls>.\n",
+        ".²3 Unequalled, matchless, unsurpassed; {#samavatArasamErasamEstawEH#}\n <ls>Ki. 5. 7</ls>; {#vAdyaviSezARAmasamaH SrotA#} <ls>K. 12</ls>; <ls>Ms. 10. 73</ls>.\n",
+        ".²4 Uneven, not level (as ground).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 50644,
+            "_ancestry": [
+                "L_ 6045",
+                "B_ {#asama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asamaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Buddha.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 50646,
+            "_ancestry": [
+                "L_ 6045",
+                "B_ {#asama#}",
+                "S_ .{@{#-izuH, -bARaH, -sAyakaH#}@}"
+            ],
+            "_banner": ".{@{#-izuH, -bARaH, -sAyakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asamezuH"
+                },
+                {
+                    "Right": "asamabARaH"
+                },
+                {
+                    "Right": "asamasAyakaH"
+                }
+            ],
+            "_meanings": [
+                "‘having an odd number of arrows’, epithets\n of Cupid who has five arrows.\n"
+            ]
+        },
+        {
+            "__line": 50648,
+            "_ancestry": [
+                "L_ 6045",
+                "B_ {#asama#}",
+                "S_ .{@{#-nayana, -netra, -locana#}@}"
+            ],
+            "_banner": ".{@{#-nayana, -netra, -locana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asamanayana"
+                },
+                {
+                    "Right": "asamanetra"
+                },
+                {
+                    "Right": "asamalocana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "‘having an odd number of eyes’,\n epithets of Śiva, who has three eyes.\n"
+            ]
+        },
+        {
+            "__line": 50650,
+            "_ancestry": [
+                "L_ 6045",
+                "B_ {#asama#}",
+                "S_ .{@{#-vfttam#}@}"
+            ],
+            "_banner": ".{@{#-vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asamavfttam"
+                }
+            ],
+            "_meanings": [
+                "a metre in which the {%gaṇas%} are not the same in all lines."
+            ]
+        }
     ]
 }

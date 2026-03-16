@@ -1,22 +1,95 @@
 {
-    "__line": 100871,
+    "__line": 101942,
     "_ancestry": [
         "L_ 12074",
-        "B_ {#Kan#}"
+        "B_ {#kArRa#}"
     ],
-    "_banner": "{#Kan#}",
+    "_banner": "{#kArRa#}",
     "_bannerExp": [
         {
-            "Right": "Kan"
+            "Right": "kArRa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#Kanati-te, KAta#}; {%<ab>pass.</ab>%}  \n{#Kanyate#} or {#KAyate#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To dig up, delve, \nexcavate; {#KanannAKubilaM siMhaH#} <ls>Pt. 3. 17</ls>;\n<ls>Ms. 2. 218</ls>; <ls>Rs. 1. 17.</ls> ",
-        "{@--2@} To dig\ninto the earth, bury."
+        "Relating to an ear.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 101943,
+            "_ancestry": [
+                "L_ 12074",
+                "B_ {#kArRa#}",
+                "M_ .{@{#-rRam#}@}"
+            ],
+            "_banner": ".{@{#-rRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The wax of the ear.\n",
+                ".²2 An ear-ring.\n"
+            ]
+        },
+        {
+            "__line": 101946,
+            "_ancestry": [
+                "L_ 12074",
+                "B_ {#kArRa#}",
+                "M_ .{@{#-rRaH#}@}"
+            ],
+            "_banner": ".{@{#-rRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArRaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Vṛṣaketu.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 101948,
+            "_ancestry": [
+                "L_ 12074",
+                "B_ {#kArRa#}",
+                "S_ .{@{#-Cidrakam#}@}"
+            ],
+            "_banner": ".{@{#-Cidrakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArRacCidrakam"
+                }
+            ],
+            "_meanings": [
+                "a sort of well.\n"
+            ]
+        },
+        {
+            "__line": 101949,
+            "_ancestry": [
+                "L_ 12074",
+                "B_ {#kArRa#}",
+                "S_ .{@{#-vezwakika#}@}"
+            ],
+            "_banner": ".{@{#-vezwakika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArRavezwakika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fit for ear-rings."
+            ]
+        }
     ]
 }

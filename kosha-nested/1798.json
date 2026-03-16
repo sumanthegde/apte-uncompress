@@ -1,20 +1,111 @@
 {
-    "__line": 17931,
+    "__line": 15825,
     "_ancestry": [
         "L_ 1798",
-        "B_ {#anumaMtr#}"
+        "B_ {#anudAtta#}"
     ],
-    "_banner": "{#anumaMtr#}",
+    "_banner": "{#anudAtta#}",
     "_bannerExp": [
         {
-            "Right": "anumaMtr"
+            "Right": "anudAtta"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>A.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To consecrate or\naccompany with sacred hymns or\nmagical formulas; to dismiss with\nsacred and auspicious words, \ndismiss with a blessing; {#visfzwaSca#} \n{#vAmadevAnumaMtrito'SvaH#} <ls>U. 2</ls> (<ab>v. l.</ab> for  \n{#aBimaMtrita#}); {#raTamAropya kfzRena yatra karRo'#} \n{#numaMtritaH#} <ls>Mb.</ls>"
+        "Grave (accent); not elevated or raised (not pronounced\n with the Udātta accent); {#uccErudAttaH nIcEranudAttaH#}; accentless,\n having the neutral, general tone; {#udAttaScAnudAttaSca svaritaSca trayaH#}\n {#svarAH#} uttered with the grave accent (as a vowel); {#prayatnaprerito#}\n {#vAyuryadorDvaBAge pratihato'caM nizpAdayati sa udAttaH#}; {#evamaDonizpanno'c#}\n {#anudAttaH#}; {#tAlvAdizu saBAgezu sTAnezu nIcaBAge nizpanno'c anudAttaH#};\n {#˚ttaM padamekavarjam#} <ls>Sk.</ls> (The term {#anudAtta#} is used by Pāṇini for\n the grave accent which immediately precedes the Udātta, and also for\n the general accentless tone neither high nor low, termed {#ekaSruti#},\n the one monotonous intonation belonging to the generality of syllables in a word).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 15835,
+            "_ancestry": [
+                "L_ 1798",
+                "B_ {#anudAtta#}",
+                "M_ .{@{#-ttaH#}@}"
+            ],
+            "_banner": ".{@{#-ttaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anudAttaH"
+                }
+            ],
+            "_meanings": [
+                "The grave accent.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 15837,
+            "_ancestry": [
+                "L_ 1798",
+                "B_ {#anudAtta#}",
+                "S_ .{@{#-AdiH#}@}"
+            ],
+            "_banner": ".{@{#-AdiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anudAttAdiH"
+                }
+            ],
+            "_meanings": [
+                "a nominal base of which the first syllable is {#anudAtta#}.\n"
+            ]
+        },
+        {
+            "__line": 15838,
+            "_ancestry": [
+                "L_ 1798",
+                "B_ {#anudAtta#}",
+                "S_ .{@{#-it#}@}"
+            ],
+            "_banner": ".{@{#-it#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anudAttet"
+                }
+            ],
+            "_meanings": [
+                "a verbal root having for its {#anubanDa#} the grave accent\n (denoting that it takes the <ab>Ātm.</ab> terminations only).\n"
+            ]
+        },
+        {
+            "__line": 15840,
+            "_ancestry": [
+                "L_ 1798",
+                "B_ {#anudAtta#}",
+                "S_ .{@{#-udayam#}@}"
+            ],
+            "_banner": ".{@{#-udayam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anudAttodayam"
+                }
+            ],
+            "_meanings": [
+                "a syllable followed (immediately) by the grave accent.\n"
+            ]
+        },
+        {
+            "__line": 15841,
+            "_ancestry": [
+                "L_ 1798",
+                "B_ {#anudAtta#}",
+                "S_ .{@{#-tara#}@}"
+            ],
+            "_banner": ".{@{#-tara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anudAttatara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "more than {#anudAtta#}; still lower or graver accent,\n {%<ab>i. e.</ab>%} that which immediately precedes a syllable having the {#udAtta#}\n or {#svarita#} accent and is thus more depressed than the ordinary {#anudAtta#} accent."
+            ]
+        }
     ]
 }

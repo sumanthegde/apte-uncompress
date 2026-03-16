@@ -1,21 +1,42 @@
 {
-    "__line": 150562,
+    "__line": 157456,
     "_ancestry": [
         "L_ 17801",
-        "B_ {#parAkrAMta#}"
+        "B_ {#dvitaya#}"
     ],
-    "_banner": "{#parAkrAMta#}",
+    "_banner": "{#dvitaya#}",
     "_bannerExp": [
         {
-            "Right": "parAkrAMta"
+            "Right": "dvitaya"
+        },
+        {
+            "Right": "dvitayI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-yI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Strong, valiant,\nbold, energetic. ",
-        "{@--2@} Attacked. ",
-        "{@--3@}\nTurned back."
+        "Consisting of or divided into two, double, twofold;\n {#drumasAnumatAM kimantaraM yadi vAyO dvitaye'pi te calAH#} <ls>R. 8. 90</ls>;\n sometimes used in <ab>pl.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 157460,
+            "_ancestry": [
+                "L_ 17801",
+                "B_ {#dvitaya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvitayam"
+                }
+            ],
+            "_meanings": [
+                "A pair, couple; {#aDikaM SuSuBe SuBaMyunA dvitayena dvayameva#}\n {#saMgatam#} <ls>R. 8. 6</ls>."
+            ]
+        }
     ]
 }

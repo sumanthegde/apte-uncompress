@@ -1,23 +1,39 @@
 {
-    "__line": 123568,
+    "__line": 129134,
     "_ancestry": [
         "L_ 14899",
-        "B_ {#tarzita, tarzula#}"
+        "B_ {#cikitu#}"
     ],
-    "_banner": "{#tarzita, tarzula#}",
+    "_banner": "{#cikitu#}",
     "_bannerExp": [
         {
-            "Right": "tarzita"
-        },
-        {
-            "Right": "tarzula"
+            "Right": "cikitu"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#kit un vede dvitvam#}]"
     ],
     "_meanings": [
-        "{@--1@} Thirsty. ",
-        "{@--2@}\nWishing, desiring."
+        "<ab>Ved.</ab> Knowing, experienced;\n {#acetyagniScikiturhavyavAw sa sumadraTaH#} <ls>Rv. 8. 56. 5</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 129135,
+            "_ancestry": [
+                "L_ 14899",
+                "B_ {#cikitu#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#cikitu#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "Understanding, intellect."
+            ]
+        }
     ]
 }

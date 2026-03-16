@@ -1,21 +1,40 @@
 {
-    "__line": 59528,
+    "__line": 58114,
     "_ancestry": [
         "L_ 6880",
-        "B_ {#Aloqita#}"
+        "B_ {#ADeya#}"
     ],
-    "_banner": "{#Aloqita#}",
+    "_banner": "{#ADeya#}",
     "_bannerExp": [
         {
-            "Right": "Aloqita"
+            "Right": "ADeya"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%<ab>pot. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Shaken, agitated.\n",
-        "{@--2@} Mixed, blended. ",
-        "{@--3@} Powdered."
+        ".²1 To be placed, pledged, appointed <ab>&c.</ab>\n",
+        ".²2 To be assigned, attributed, or given.\n",
+        ".²3 To be\n\n received, held, or supported; to be contained.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 58120,
+            "_ancestry": [
+                "L_ 6880",
+                "B_ {#ADeya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ADeyam"
+                }
+            ],
+            "_meanings": [
+                "= {#ADAnam#} Putting, placing; {#agnyADeyAni gurvarTam#} <ls>Mb. 12. 18. 36</ls>."
+            ]
+        }
     ]
 }

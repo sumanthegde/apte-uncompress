@@ -1,16 +1,45 @@
 {
-    "__line": 233143,
+    "__line": 255470,
     "_ancestry": [
         "L_ 27686",
-        "B_ {#SarmaraH#}"
+        "B_ {#rozaRa#}"
     ],
-    "_banner": "{#SarmaraH#}",
+    "_banner": "{#rozaRa#}",
     "_bannerExp": [
         {
-            "Right": "SarmaraH"
+            "Right": "rozaRa"
+        },
+        {
+            "Right": "rozaRI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#ruz-yuc#}]"
+    ],
     "_meanings": [
-        "A sort of garment."
+        "Angry, irascible, wrathful, passionate.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255472,
+            "_ancestry": [
+                "L_ 27686",
+                "B_ {#rozaRa#}",
+                "M_ .{@{#-RaH#}@}"
+            ],
+            "_banner": ".{@{#-RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rozaRaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A touchstone.\n",
+                ".²2 Quicksilver.\n",
+                ".²3 A desert soil containing salt."
+            ]
+        }
     ]
 }

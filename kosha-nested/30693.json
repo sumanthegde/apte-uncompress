@@ -1,41 +1,60 @@
 {
-    "__line": 257197,
+    "__line": 283249,
     "_ancestry": [
         "L_ 30693",
-        "B_ {#sOvastika#}"
+        "B_ {#vftiH#}"
     ],
-    "_banner": "{#sOvastika#}",
+    "_banner": "{#vftiH#}",
     "_bannerExp": [
         {
-            "Right": "sOvastikI"
-        },
-        {
-            "Right": "sOvastika"
+            "Right": "vftiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%f.%}"
     ],
     "_meanings": [
-        "Benedictive. "
+        ".²1 Choosing, selecting.\n",
+        ".²2 Hiding, covering, concealing.\n",
+        ".²3 Asking, soliciting.\n",
+        ".²4 An entreaty, a request.\n",
+        ".²5 Surrounding, encompassing.\n",
+        ".²6 A hedge, fence, an enclosure; {#pratyAsannO kurabakavftermAGavImaRqapasya#}\n <ls>Me. 80</ls>; <ls>Māl. 6. 19</ls>.\n",
+        ".²7 Cultivation (<ab>esp.</ab> that of the Piper Betel).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 257198,
+            "__line": 283259,
             "_ancestry": [
                 "L_ 30693",
-                "B_ {#sOvastika#}",
-                "M_ {#--kaH#}"
+                "B_ {#vftiH#}",
+                "S_ .{@{#-drumaH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-drumaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sOvastikaH"
+                    "Right": "vftidrumaH"
                 }
             ],
             "_meanings": [
-                "A family-priest or \nBrāhmaṇa."
+                "a boundary tree.\n"
+            ]
+        },
+        {
+            "__line": 283260,
+            "_ancestry": [
+                "L_ 30693",
+                "B_ {#vftiH#}",
+                "S_ .{@{#-mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vftimArgaH"
+                }
+            ],
+            "_meanings": [
+                "a fenced road."
             ]
         }
     ]

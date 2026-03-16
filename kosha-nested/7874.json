@@ -1,43 +1,96 @@
 {
-    "__line": 67820,
+    "__line": 65744,
     "_ancestry": [
         "L_ 7874",
-        "B_ {#utTApanaM#}"
+        "B_ {#AzAQaH#}"
     ],
-    "_banner": "{#utTApanaM#}",
+    "_banner": "{#AzAQaH#}",
     "_bannerExp": [
         {
-            "Right": "utTApanaM"
+            "Right": "AzAQaH"
         }
     ],
+    "_gram": [
+        "[{#AzAQI pUrRimA asminmAse aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} Causing to rise, come\nup, or get up. ",
-        "{@--2@} Raising, \nelevating. ",
-        "{@--3@} Causing to leave (a\nhouse). ",
-        "{@--4@} Exciting, instigating.\n",
-        "{@--5@} Awakening, rousing (<ab>fig.</ab> also).\n",
-        "{@--6@} Vomiting. ",
-        "{@--7@} Finishing, \ncompleting. ",
-        "{@--8@} Bringing about. ",
-        "{@--9@}\nBringing forth. ",
-        "{@--10@} (In <ab>Math.</ab>)\nFinding the quantity sought, an\nanswer to the question, \nsubstitution of a value (<ls>Colebr.</ls>). "
+        ".²1 <ab>N.</ab> of a Hindu month (corresponding to part of June and July); {#AzAQasya#}\n {#praTamadivase#} <ls>Me. 2</ls>; {#Sete vizRuH sadAzAQe kArtike pratiboDyate#} <ls>V. P.</ls>\n",
+        ".²2 A staff of the Palāśa wood carried by an ascetic; {#aTAjinAzAQaDaraH#}\n {#pragalBavAk#} <ls>Ku. 5. 30</ls>.\n",
+        ".²3 The Malaya mountain.\n"
     ],
     "_morphisms": [
         {
-            "__line": 67830,
+            "__line": 65750,
             "_ancestry": [
                 "L_ 7874",
-                "B_ {#utTApanaM#}",
-                "M_ {#--nI#}"
+                "B_ {#AzAQaH#}",
+                "M_ .{@{#-QA#}@}"
             ],
-            "_banner": "{#--nI#}",
+            "_banner": ".{@{#-QA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "utTApanI"
+                    "Right": "AzAQA"
                 }
             ],
             "_meanings": [
-                "The\nconcluding verse ({#fc#})."
+                "The 20th and the 21st lunar mansions usually called {#pUrvAzAQA#}\n and {#uttarAzAQA#}.\n"
+            ]
+        },
+        {
+            "__line": 65752,
+            "_ancestry": [
+                "L_ 7874",
+                "B_ {#AzAQaH#}",
+                "M_ .{@{#-QI#}@}"
+            ],
+            "_banner": ".{@{#-QI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AzAQI"
+                }
+            ],
+            "_meanings": [
+                "The day of full moon in the month of Āṣāḍha; {#tasya nityaM#}\n {#sadA ''zAQyAM mADyAM ca bahavo dvijAH#} <ls>Mb. 12. 171. 17</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 65755,
+            "_ancestry": [
+                "L_ 7874",
+                "B_ {#AzAQaH#}",
+                "S_ .{@{#-Bava, -BU#}@}"
+            ],
+            "_banner": ".{@{#-Bava, -BU#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AzAQaBava"
+                },
+                {
+                    "Left": "S error: 1 syl Bava BU"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "produced in the month of Āṣāḍha.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 65756,
+                    "_ancestry": [
+                        "L_ 7874",
+                        "B_ {#AzAQaH#}",
+                        "S_ .{@{#-Bava, -BU#}@}",
+                        "S_M_ ({@{#-vaH, -BUH#}@})"
+                    ],
+                    "_banner": "({@{#-vaH, -BUH#}@})",
+                    "_meanings": [
+                        "the planet Mars."
+                    ]
+                }
             ]
         }
     ]

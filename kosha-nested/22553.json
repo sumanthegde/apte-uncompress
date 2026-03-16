@@ -1,21 +1,119 @@
 {
-    "__line": 188274,
+    "__line": 202633,
     "_ancestry": [
         "L_ 22553",
-        "B_ {#maMqalIBU#}"
+        "B_ {#pratimA#}"
     ],
-    "_banner": "{#maMqalIBU#}",
+    "_banner": "{#pratimA#}",
     "_bannerExp": [
         {
-            "Right": "maMqalIBU"
+            "Right": "pratimA"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%m.%}"
     ],
     "_meanings": [
-        "{@--1@} To become round.\n",
-        "{@--2@} To form a globe or circle."
+        "<ab>Ved.</ab> A creator, maker.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 202634,
+            "_ancestry": [
+                "L_ 22553",
+                "B_ {#pratimA#}",
+                "M_ .{@{#-mA#}@}"
+            ],
+            "_banner": ".{@{#-mA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratimA"
+                }
+            ],
+            "_meanings": [
+                ".²1 An image, a likeness, statue, figure, an idol; {#puraH parArDyapratimAgfhAyAH#} <ls>R. 16. 39</ls>.\n",
+                ".²2 Resemblance, similitude; <ab>oft.</ab> in <ab>comp.</ab> in the sense of ‘like, similar,\n or equal to’; {#devapratima, apratima#} <ab>&c.</ab>; {#guroH kuSAnupratimAt#}\n <ls>R. 2. 49</ls>; {#patatpataNgapratimastaponiDiH#} <ls>Śi. 1. 12</ls>.\n",
+                ".²3 A reflection, reflected image; {#muKamindurujjvalakapolamataH pratimAcCalena#}\n {#sudfSAmaviSat#} <ls>Śi. 9. 48</ls>, <ls n=\"Śi. 9.\">73</ls>; <ls>R. 7. 64</ls>, <ls n=\"R.\">12. 100</ls>.\n",
+                ".²4 A measure, extent.\n",
+                ".²5 The part of an elephantʼs head between the tusks.\n",
+                ".²6 A symbol.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 202645,
+            "_ancestry": [
+                "L_ 22553",
+                "B_ {#pratimA#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratimAgata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "present in an idol.\n"
+            ]
+        },
+        {
+            "__line": 202646,
+            "_ancestry": [
+                "L_ 22553",
+                "B_ {#pratimA#}",
+                "S_ .{@{#-gfham, -geham#}@}"
+            ],
+            "_banner": ".{@{#-gfham, -geham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratimAgfham"
+                },
+                {
+                    "Right": "pratimAgeham"
+                }
+            ],
+            "_meanings": [
+                "A statue-house; <ls>Pratimā 3</ls>; <ls>R. 16. 39</ls>.\n"
+            ]
+        },
+        {
+            "__line": 202647,
+            "_ancestry": [
+                "L_ 22553",
+                "B_ {#pratimA#}",
+                "S_ .{@{#-candraH#}@}"
+            ],
+            "_banner": ".{@{#-candraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratimAcandraH"
+                }
+            ],
+            "_meanings": [
+                "the reflected moon, reflection of the moon; {#uvAsa pratimAcandraH#}\n {#prasannAnAmapAmiva#} <ls>R. 10. 65</ls>; so {#pratimenduH, pratimASaSANkaH#}.\n"
+            ]
+        },
+        {
+            "__line": 202649,
+            "_ancestry": [
+                "L_ 22553",
+                "B_ {#pratimA#}",
+                "S_ .{@{#-paricArakaH#}@}"
+            ],
+            "_banner": ".{@{#-paricArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratimAparicArakaH"
+                }
+            ],
+            "_meanings": [
+                "an attendant upon an idol."
+            ]
+        }
     ]
 }

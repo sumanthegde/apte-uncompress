@@ -1,40 +1,44 @@
 {
-    "__line": 137228,
+    "__line": 141591,
     "_ancestry": [
         "L_ 16344",
-        "B_ {#naBasvat#}"
+        "B_ {#tAntava#}"
     ],
-    "_banner": "{#naBasvat#}",
+    "_banner": "{#tAntava#}",
     "_bannerExp": [
         {
-            "Right": "naBasvat"
+            "Right": "tAntava"
+        },
+        {
+            "Right": "tAntavI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-vI#}|{%f.%})",
+        "[{#tantorvikAraH aY#}]"
     ],
     "_meanings": [
-        "{@--1@} Vaporous, misty,\ncloudy. ",
-        "{@--2@} Young. "
+        "Made of threads; {#carmajEstAntavEH#}\n {#pASErbadDvA patitamarBakAH#} <ls>Bhāg. 10. 64. 4</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 137229,
+            "__line": 141594,
             "_ancestry": [
                 "L_ 16344",
-                "B_ {#naBasvat#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#tAntava#}",
+                "M_ .{@{#-vam#}@}"
             ],
+            "_banner": ".{@{#-vam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "naBasvat"
+                    "Right": "tAntavam"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
-            ],
             "_meanings": [
-                "The wind,\nair; <ls>N. 1. 97</ls>; <ls>R. 4. 8</ls>; <ls n=\"R.\">10. 73</ls>,  \n<ls>Śi. 1. 10.</ls>"
+                ".²1 Spinning, weaving.\n",
+                ".²2 A web.\n",
+                ".²3 A woven cloth; <ls>Ms. 10. 87</ls>."
             ]
         }
     ]

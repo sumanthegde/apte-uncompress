@@ -1,19 +1,105 @@
 {
-    "__line": 212759,
+    "__line": 225831,
     "_ancestry": [
         "L_ 25111",
-        "B_ {#varjaM#}"
+        "B_ {#BAvita#}"
     ],
-    "_banner": "{#varjaM#}",
+    "_banner": "{#BAvita#}",
     "_bannerExp": [
         {
-            "Right": "varjaM"
+            "Right": "BAvita"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#BU-Ric karmaRi-kta#}]"
     ],
     "_meanings": [
-        "To the exclusion of, \nexcluding, except (at the end of\n<ab>comp.</ab>); {#gOtamIvarjamitarA nizkrAMtAH#} \n<ls>Ś. 4</ls>; <ls>Ku. 7. 72.</ls>"
+        ".²1 Created, produced; obtained, got.\n",
+        ".²2 Manifested, displayed, exhibited; {#BAvitavizavegavikriyaH#} <ls>Dk.</ls>; ({#Baje#})\n {#BaktezvalaM BAvitaBUtaBAvanam#} <ls>Bhāg. 5. 17. 18</ls>.\n",
+        ".²3 Cherished, fostered; {#tezAM dfzwvA BAvitAnINgitAni provAca rAjA janamejayo'Ta#} <ls>Mb. 1. 55. 17</ls>.\n",
+        ".²4\n",
+        ".³({%a%}) Conceived, imagined, supposed, presented to the imagination;\n {#taM tamevEti kOnteya sadA tadBAvaBAvitaH#} <ls>Bg. 8. 6</ls>.\n",
+        ".³({%b%}) Known, recognized, acknowledged.\n",
+        ".²5 Thought of, meditated upon.\n",
+        ".²6 Made to become, transformed into.\n",
+        ".²7 Sanctified by meditation; {#ananyaBAve nijaDarmaBAvite manasyavasTApya#}\n {#Bajasva pUruzam#} <ls>Bhāg. 4. 8. 22</ls>; see {#BAvitAtman#}.\n",
+        ".²8 Proved, established.\n",
+        ".²9 Pervaded by, filled or saturated with, inspired by.\n",
+        ".²10 Soaked, steeped, infused in; {#kiYcit snigDaM yaTA ca syAcCuzkacUrRamaBAvitam#}\n <ls>Mb. 12. 195. 18</ls>.\n",
+        ".²11 Perfumed, scented.\n",
+        ".²12 Mixed with.\n",
+        ".²13 (In <ab>math.</ab>). Involving the products of unknown quantities.\n",
+        ".²14 Directed towards, fixed upon; {#yadISvare Bagavati karma brahmaRi#}\n {#BAvitam#} <ls>Bhāg. 1. 5. 32</ls>.\n",
+        ".²15 Possessed, captured ({#vaSIkfta#}); {#tato'nye ca yaTAkAmaM duduhuH#}\n {#pfTuBAvitAm#} <ls>Bhāg. 4. 18. 13</ls>.\n\n",
+        ".²16 Engrossed, filled; {#raTANgapAReranuBAvaBAvitam#} <ls>Bhāg. 12. 10. 42</ls>.\n",
+        ".²17 Pleased, gladdened; {#izwAn BogAn hi vo devA dAsyante yajYaBAvitAH#} <ls>Bg. 3. 12</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 225858,
+            "_ancestry": [
+                "L_ 25111",
+                "B_ {#BAvita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAvitam"
+                }
+            ],
+            "_meanings": [
+                "Product obtained by multiplication, a factum.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 225860,
+            "_ancestry": [
+                "L_ 25111",
+                "B_ {#BAvita#}",
+                "S_ .{@{#-Atman, -budDi#}@}"
+            ],
+            "_banner": ".{@{#-Atman, -budDi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAvitAtman"
+                },
+                {
+                    "Right": "BAvitabudDi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 one whose soul is purified by meditating on the Supreme Spirit, one\n who has perceived the Supreme Soul; {#tasya devapraBAvasya tapasA BAvitAtmanaH#} <ls>Rām. 3. 5. 4</ls>.\n",
+                ".²2 pure, devout, holy; {#eko BAvaH sadA Sasto yatInAM BAvitAtmanAm#} <ls>Pt. 3. 65</ls>.\n",
+                ".²3 thoughtful, meditative; {#BAvitAtmA Buvo BarturaTEnaM pratyaboDayat#} <ls>R. 1. 74</ls>.\n",
+                ".²4 engaged in, occupied with; {#svagotrasaMkIrtanaBAvitAtmanaH#} <ls>Śi. 12. 38</ls>.\n--({%m.%}) a sage, saint.\n"
+            ]
+        },
+        {
+            "__line": 225867,
+            "_ancestry": [
+                "L_ 25111",
+                "B_ {#BAvita#}",
+                "S_ .{@{#-BAvana#}@}"
+            ],
+            "_banner": ".{@{#-BAvana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAvitaBAvana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being oneʼs self furthered and furthering others."
+            ]
+        }
     ]
 }

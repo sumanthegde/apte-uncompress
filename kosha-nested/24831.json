@@ -1,19 +1,46 @@
 {
-    "__line": 210532,
+    "__line": 222952,
     "_ancestry": [
         "L_ 24831",
-        "B_ {#vakrita#}"
+        "B_ {#BakzaRa#}"
     ],
-    "_banner": "{#vakrita#}",
+    "_banner": "{#BakzaRa#}",
     "_bannerExp": [
         {
-            "Right": "vakrita"
+            "Right": "BakzaRa"
+        },
+        {
+            "Right": "BakzaRI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})"
     ],
     "_meanings": [
-        "Bent, crooked."
+        "Eating, one who eats or devours.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 222954,
+            "_ancestry": [
+                "L_ 24831",
+                "B_ {#BakzaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BakzaRam"
+                }
+            ],
+            "_gram": [
+                "[{#Bakz-BAve lyuw#}]"
+            ],
+            "_meanings": [
+                ".²1 Eating, feeding or living upon.\n",
+                ".²2 <ab>Ved.</ab> A drinking vessel."
+            ]
+        }
     ]
 }

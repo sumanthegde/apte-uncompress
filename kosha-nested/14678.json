@@ -1,24 +1,40 @@
 {
-    "__line": 122006,
+    "__line": 127289,
     "_ancestry": [
         "L_ 14678",
-        "B_ {#tiraskf(tiraH --kf)#}"
+        "B_ {#candrin#}"
     ],
-    "_banner": "{#tiraskf(tiraH --kf)#}",
+    "_banner": "{#candrin#}",
     "_bannerExp": [
         {
-            "Right": "tiraskf"
+            "Right": "candrin"
         }
     ],
     "_gram": [
-        "{c8c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To \ndespise, contemn; <ls>H. 3. 8</ls>, <ls>Bk. 9. 62.</ls>\n",
-        "{@--2@} To blame, scold, abuse;  \n{#gIBirgurURAM paruzAkzarABistiraskftA yAMti narA#}\n{#mahattvaM#} <ls>Bv. 1. 73.</ls> ",
-        "{@--3@} To surpass, excel;\n<ls>R. 3. 8.</ls> ",
-        "{@--4@} To cover, conceal;  \n<ls>R. 16. 20</ls>; <ls>Ms. 4. 49</ls>, <ls>Amaru. 81.</ls> ",
-        "{@--5@}\nTo set aside, remove."
+        "<ab>Ved.</ab>\n",
+        ".²1 Golden, possessing gold.\n",
+        ".²2 Having the moon. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 127291,
+            "_ancestry": [
+                "L_ 14678",
+                "B_ {#candrin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#caMdrin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The planet Mercury (son of the moon)."
+            ]
+        }
     ]
 }

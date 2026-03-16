@@ -1,19 +1,84 @@
 {
-    "__line": 51950,
+    "__line": 48736,
     "_ancestry": [
         "L_ 5881",
-        "B_ {#AgastyAyana#}"
+        "B_ {#aSruti#}"
     ],
-    "_banner": "{#AgastyAyana#}",
+    "_banner": "{#aSruti#}",
     "_bannerExp": [
         {
-            "Right": "AgastyAyana"
+            "Right": "aSruti"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Connected with\nAgasti; <ls>U. 2.</ls>"
+        "Without ears.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 48737,
+            "_ancestry": [
+                "L_ 5881",
+                "B_ {#aSruti#}",
+                "M_ .{@{#-tiH#}@}"
+            ],
+            "_banner": ".{@{#-tiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSrutiH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(archaic) A serpent; {#devavaMSAnpitfvaMSAn brahmavaMSAMSca#}\n {#SASvatAn . santyajya mUQA vartante tato yAntyaSrutIpaTam ..#} <ls>Mb. 12. 11. 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 48739,
+            "_ancestry": [
+                "L_ 5881",
+                "B_ {#aSruti#}",
+                "M_ .{@{#-tiH#}@}"
+            ],
+            "_banner": ".{@{#-tiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSrutiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Not hearing, forgetfulness; {#aSrutimaBinIya#} <ls>U. 3</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 48741,
+            "_ancestry": [
+                "L_ 5881",
+                "B_ {#aSruti#}",
+                "S_ .{@{#-Dara#}@}"
+            ],
+            "_banner": ".{@{#-Dara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSrutiDara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 Not striking the ear or attention.\n",
+                ".²2 not knowing the Vedas."
+            ]
+        }
     ]
 }

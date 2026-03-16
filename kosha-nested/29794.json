@@ -1,16 +1,40 @@
 {
-    "__line": 249352,
+    "__line": 275220,
     "_ancestry": [
         "L_ 29794",
-        "B_ {#saMmArjanI#}"
+        "B_ {#vip#}"
     ],
-    "_banner": "{#saMmArjanI#}",
+    "_banner": "{#vip#}",
     "_bannerExp": [
         {
-            "Right": "saMmArjanI"
+            "Right": "vip"
         }
     ],
+    "_gram": [
+        "{%m.%}"
+    ],
     "_meanings": [
-        "A broom."
+        ".²1 A praiser, singer of hymns.\n",
+        ".²2 A wise man. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 275222,
+            "_ancestry": [
+                "L_ 29794",
+                "B_ {#vip#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vip#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Praise, a hymn.\n",
+                ".²2 A finger."
+            ]
+        }
     ]
 }

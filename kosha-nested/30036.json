@@ -1,23 +1,66 @@
 {
-    "__line": 251128,
+    "__line": 277237,
     "_ancestry": [
         "L_ 30036",
-        "B_ {#sAdyaska#}"
+        "B_ {#vimUQa#}"
     ],
-    "_banner": "{#sAdyaska#}",
+    "_banner": "{#vimUQa#}",
     "_bannerExp": [
         {
-            "Right": "sAdyaskI"
-        },
-        {
-            "Right": "sAdyaska"
+            "Right": "vimUQa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#skI#}|{%<ab>f.</ab>%})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Quick, \ninstantaneous."
+        ".²1 Confounded, bewildered.\n",
+        ".²2 Seduced, tempted, beguiled; {#apratizWo mahAbAho vimUQo brahmaRaH paTi#} <ls>Bg. 6. 38</ls>.\n",
+        ".²3 Stupid.\n",
+        ".²4 Wise, learned.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 277242,
+            "_ancestry": [
+                "L_ 30036",
+                "B_ {#vimUQa#}",
+                "M_ .{@{#-QaH#}@}"
+            ],
+            "_banner": ".{@{#-QaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimUQaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of divine being.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 277244,
+            "_ancestry": [
+                "L_ 30036",
+                "B_ {#vimUQa#}",
+                "S_ .{@{#-Atman, -saMjYa#}@}"
+            ],
+            "_banner": ".{@{#-Atman, -saMjYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimUQAtman"
+                },
+                {
+                    "Right": "vimUQasaYjYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "perplexed, senseless; {#idriyArTAn vimUQAtmA#}\n {#miTyAcAraH sa ucyate#} <ls>Bg. 3. 6</ls>, <ls n=\"Bg. 3.\">27</ls>."
+            ]
+        }
     ]
 }

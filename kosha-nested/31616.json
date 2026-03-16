@@ -1,21 +1,39 @@
 {
-    "__line": 265111,
+    "__line": 291646,
     "_ancestry": [
         "L_ 31616",
-        "B_ {#hrep#}"
+        "B_ {#Satin#}"
     ],
-    "_banner": "{#hrep#}",
+    "_banner": "{#Satin#}",
     "_bannerExp": [
         {
-            "Right": "hrep"
+            "Right": "Satin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#hrepate#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To go."
+        ".²1 A hundred-fold.\n",
+        ".²2 Numerous. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 291648,
+            "_ancestry": [
+                "L_ 31616",
+                "B_ {#Satin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Satin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The owner of a hundred; {#nisvo vazwi SataM SatI#}\n {#daSaSatam#} <ls>Śānti. 2. 6</ls>; {#icCati SatI sahasraM sahasrI lakzamIhate#} <ls>Pt. 5. 82</ls>."
+            ]
+        }
     ]
 }

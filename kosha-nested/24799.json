@@ -1,17 +1,38 @@
 {
-    "__line": 210177,
+    "__line": 222479,
     "_ancestry": [
         "L_ 24799",
-        "B_ {#lohityaH#}"
+        "B_ {#brahmin#}"
     ],
-    "_banner": "{#lohityaH#}",
+    "_banner": "{#brahmin#}",
     "_bannerExp": [
         {
-            "Right": "lohityaH"
+            "Right": "brahmin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A kind of rice. ",
-        "{@--2@} <ab>N.</ab>\nof the river Brahmaputra; see\n{#lOhitya#}."
+        "Relating to Brahma. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 222479,
+            "_ancestry": [
+                "L_ 24799",
+                "B_ {#brahmin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#brahmin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An epithet of Viṣṇu."
+            ]
+        }
     ]
 }

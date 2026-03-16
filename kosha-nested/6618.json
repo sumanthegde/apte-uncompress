@@ -1,19 +1,175 @@
 {
-    "__line": 57481,
+    "__line": 55666,
     "_ancestry": [
         "L_ 6618",
-        "B_ {#Amreq#}"
+        "B_ {#AcAryaH#}"
     ],
-    "_banner": "{#Amreq#}",
+    "_banner": "{#AcAryaH#}",
     "_bannerExp": [
         {
-            "Right": "Amreq"
+            "Right": "AcAryaH"
         }
     ],
     "_gram": [
-        "{%<ab>Caus.</ab>%}"
+        "[{#A-car-Ryat#} <ls>P. III. 1. 100. Vārt. Kāśi.</ls>]"
     ],
     "_meanings": [
-        "To repeat; {#etadeva#}\n{#yadA vAkyamAmreqayati devarAw#} <ls>Mb.</ls>"
+        ".²1 A teacher or preceptor (in general).\n",
+        ".²2 A spiritual guide or preceptor, holy teacher (one who invests a boy\n with the sacred thread, instructs him in the Vedas <ab>&c.</ab>); {#upanIya tu#}\n {#yaH Sizyam vedamaDyApayed dvijaH . sakalpaM sarahasyaM ca tamAcAryaM pracakzate#}\n <ls>Ms. 2. 140</ls>; <ab>cf.</ab> also {#Acinoti ca SAstrArTam AcAre sTApayatyapi . svayamAcarate#}\n {#yastu sa AcArya iti smftaH ..#} read also {#vedADyApanena ca AcAryo Bavati#}\n <ls>Ms. 6. 1. 35</ls>; see {#aDyApaka#} also.\n",
+        ".²3 One who propounds a particular doctrine.\n",
+        ".²4 (When affixed to proper names) Learned, venerable (somewhat like the <lang>English</lang> <ab>Dr.</ab>).\n",
+        ".²5 An adviser or preceptor at a sacrifice <ab>&c.</ab>\n",
+        ".²6 An epithet of Droṇa; {#AcAryamupasaMgamya rAjA vacanamabravIt#} <ls>Bg. 1. 2</ls>.\n",
+        ".²7 A degree or title of proficiency.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 55679,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "M_ .{@{#-ryA#}@}"
+            ],
+            "_banner": ".{@{#-ryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryA"
+                }
+            ],
+            "_meanings": [
+                "A female preceptor, a spiritual preceptress.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 55681,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "S_ .{@{#-upAsanam#}@}"
+            ],
+            "_banner": ".{@{#-upAsanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryopAsanam"
+                }
+            ],
+            "_meanings": [
+                "waiting upon or serving the spiritual preceptor; {#AcAryopAsanaM#}\n {#SOcam#} <ls>Bg. 13. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 55683,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "S_ .{@{#-karaRam#}@}"
+            ],
+            "_banner": ".{@{#-karaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryakaraRam"
+                }
+            ],
+            "_meanings": [
+                "acting as a teacher; <ls>P. I. 3. 36</ls>.\n"
+            ]
+        },
+        {
+            "__line": 55684,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "S_ .{@{#-devaH#}@}"
+            ],
+            "_banner": ".{@{#-devaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryadevaH"
+                }
+            ],
+            "_meanings": [
+                "one whose preceptor is his god.\n"
+            ]
+        },
+        {
+            "__line": 55685,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "S_ .{@{#-deSIya#}@}"
+            ],
+            "_banner": ".{@{#-deSIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryadeSIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Somewhat inferior to Ācārya (a title applied\n by commentators to scholars or disputants whose statements contain only\n a part of the truth. The term is opposed to ‘Ācārya’ and ‘Siddhāntin’\n <ls>Kaiyata and Nāgojibhatta on Pat.</ls>)\n"
+            ]
+        },
+        {
+            "__line": 55689,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "S_ .{@{#-BogIna#}@}"
+            ],
+            "_banner": ".{@{#-BogIna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryaBogIna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#AcAryaBogAya hitam Ka#}]"
+            ],
+            "_meanings": [
+                "to be enjoyed by, fit\n for the use of, a preceptor; delighting the preceptor.\n"
+            ]
+        },
+        {
+            "__line": 55691,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "S_ .{@{#-miSra#}@}"
+            ],
+            "_banner": ".{@{#-miSra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryamiSra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "venerable, honourable.\n"
+            ]
+        },
+        {
+            "__line": 55692,
+            "_ancestry": [
+                "L_ 6618",
+                "B_ {#AcAryaH#}",
+                "S_ .{@{#-savaH#}@}"
+            ],
+            "_banner": ".{@{#-savaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AcAryasavaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an Ekāha sacrifice."
+            ]
+        }
     ]
 }

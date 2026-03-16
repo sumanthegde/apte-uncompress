@@ -1,24 +1,42 @@
 {
-    "__line": 41247,
+    "__line": 38124,
     "_ancestry": [
         "L_ 4535",
-        "B_ {#avataraRaM#}"
+        "B_ {#arcana#}"
     ],
-    "_banner": "{#avataraRaM#}",
+    "_banner": "{#arcana#}",
     "_bannerExp": [
         {
-            "Right": "avataraRaM"
+            "Right": "arcana"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#arc-lyuw#}]"
+    ],
     "_meanings": [
-        "{@--1@} Descending for bathing\nin water &c., {#gaMgA°, apsarastIrTa°#};\ndescending or alighting (in general),\ncoming down; {#stanya°#}. ",
-        "{@--2@} An \nincarnation; see {#avatAra#}. ",
-        "{@--3@} Crossing.\n",
-        "{@--4@} Sudden disappearance. ",
-        "{@--5@} Steps\nor stairs leading to a river. ",
-        "{@--6@}\nA holy bathing-place ({#tIrTa#}). ",
-        "{@--7@}\nTranslating from one language into\nanother. ",
-        "{@--8@} Introduction. ",
-        "{@--9@} An\nextract, a quotation."
+        "worshipping, praising.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 38125,
+            "_ancestry": [
+                "L_ 4535",
+                "B_ {#arcana#}",
+                "M_ .{@{#-nam, -nA#}@}"
+            ],
+            "_banner": ".{@{#-nam, -nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arcanam"
+                },
+                {
+                    "Right": "arcanA"
+                }
+            ],
+            "_meanings": [
+                "Worshipping, reverence or respect paid to deities and superiors."
+            ]
+        }
     ]
 }

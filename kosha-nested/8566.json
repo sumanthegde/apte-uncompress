@@ -1,19 +1,39 @@
 {
-    "__line": 73321,
+    "__line": 71855,
     "_ancestry": [
         "L_ 8566",
-        "B_ {#upatapat#}"
+        "B_ {#utkamp#}"
     ],
-    "_banner": "{#upatapat#}",
+    "_banner": "{#utkamp#}",
     "_bannerExp": [
         {
-            "Right": "upatapat"
+            "Right": "utkamp"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "€1",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "Interior heat, disease\n(<ab>Ved.</ab>)."
+        "To tremble, quiver, shake. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 71855,
+            "_ancestry": [
+                "L_ 8566",
+                "B_ {#utkamp#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "utkamp"
+                }
+            ],
+            "_meanings": [
+                "To cause to\n tremble, shake, agitate."
+            ]
+        }
     ]
 }

@@ -1,24 +1,57 @@
 {
-    "__line": 55525,
+    "__line": 53117,
     "_ancestry": [
         "L_ 6330",
-        "B_ {#AnuSAsanika#}"
+        "B_ {#ahetu#}"
     ],
-    "_banner": "{#AnuSAsanika#}",
+    "_banner": "{#ahetu#}",
     "_bannerExp": [
         {
-            "Right": "AnuSAsanikI"
-        },
-        {
-            "Right": "AnuSAsanika"
+            "Right": "ahetu"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[ \n{#anuSAsanAya hitaM Wak#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Relating to or \ntreating of instruction."
+        "Causeless, spontaneous, involuntary; {#ahetuH pakzapAto#}\n {#yaH#} <ls>U. 5. 17</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 53119,
+            "_ancestry": [
+                "L_ 6330",
+                "B_ {#ahetu#}",
+                "M_ .{@{#-tuH#}@}"
+            ],
+            "_banner": ".{@{#-tuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahetuH"
+                }
+            ],
+            "_meanings": [
+                "Absence of cause and reason.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 53121,
+            "_ancestry": [
+                "L_ 6330",
+                "B_ {#ahetu#}",
+                "S_ .{@{#-samaH#}@}"
+            ],
+            "_banner": ".{@{#-samaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahetusamaH"
+                }
+            ],
+            "_meanings": [
+                "A particular sophism tending to prove an argument to be\n untenable, Nyāyadarśana."
+            ]
+        }
     ]
 }

@@ -1,21 +1,347 @@
 {
-    "__line": 238331,
+    "__line": 261970,
     "_ancestry": [
         "L_ 28364",
-        "B_ {#Sramin#}"
+        "B_ {#vatsaH#}"
     ],
-    "_banner": "{#Sramin#}",
+    "_banner": "{#vatsaH#}",
     "_bannerExp": [
         {
-            "Right": "Sramin"
+            "Right": "vatsaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#vad-saH#} <ls>Uṇ. 3. 61</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Laborious, toiling, \ndiligent. ",
-        "{@--2@} Undergoing fatigue or\nexertions. ",
-        "{@--3@} Tiring, fatiguing."
+        ".²1 A calf, the young of an animal; {#tenAdya vatsamiva lokamamuM puzARa#}\n <ls>Bh. 2. 46</ls>; {#yaM sarvaSElAH parikalpya vatsam#} <ls>Ku. 1. 2</ls>.\n",
+        ".²2 A boy, son; in this sense often used in the <ab>voc.</ab> as a term of endearment\n and translatable by ‘my dear’, ‘my darling’, ‘my dear child’; {#ayi vatsa#}\n {#kftaM kftamativinayena, kimaparAdDaM vatsena#} <ls>U. 6</ls>.\n",
+        ".²3 Offspring or children in general; {#jIvadvatsA#} ‘one whose children are living’.\n",
+        ".²4 A year.\n",
+        ".²5 <ab>N.</ab> of a\n\n country; (its chief town was {#kOSAmbI#} and ruled over by Udayana), or\n the inhabitants of that country (<ab>pl.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 261982,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "M_ .{@{#-tsA#}@}"
+            ],
+            "_banner": ".{@{#-tsA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A female calf.\n",
+                ".²2 A little girl; {#vatse sIte#} ‘dear Sītā’ <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 261985,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "M_ .{@{#-tsam#}@}"
+            ],
+            "_banner": ".{@{#-tsam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsam"
+                }
+            ],
+            "_meanings": [
+                "The breast.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 261987,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-akzI#}@}"
+            ],
+            "_banner": ".{@{#-akzI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsAkzI"
+                }
+            ],
+            "_meanings": [
+                "a kind of cucumber.\n"
+            ]
+        },
+        {
+            "__line": 261988,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-adanaH#}@}"
+            ],
+            "_banner": ".{@{#-adanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsAdanaH"
+                }
+            ],
+            "_meanings": [
+                "a wolf.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 261989,
+                    "_ancestry": [
+                        "L_ 28364",
+                        "B_ {#vatsaH#}",
+                        "S_ .{@{#-adanaH#}@}",
+                        "S_M_ ({@{#-nI#}@})"
+                    ],
+                    "_banner": "({@{#-nI#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "vatsAdanI"
+                        }
+                    ],
+                    "_meanings": [
+                        "Cocculus Cordifolius (<lang>Mar.</lang> <ns>{#guLavela#}</ns>).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 261990,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-anusAriRI#}@}"
+            ],
+            "_banner": ".{@{#-anusAriRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsAnusAriRI"
+                }
+            ],
+            "_meanings": [
+                "a hiatus between a long and a short syllable; also\n {#vatsAnusftA-tiH#}.\n"
+            ]
+        },
+        {
+            "__line": 261992,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-ISaH, -rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH, -rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatseSaH"
+                },
+                {
+                    "Right": "vatsarAjaH"
+                }
+            ],
+            "_meanings": [
+                "a king of the {%Vatsas%}; {#loke hAri ca vatsarAjacaritaM#}\n {#nAwye ca dakzA vayam#} <ls>Ratn. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 261994,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-kAma#}@}"
+            ],
+            "_banner": ".{@{#-kAma#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsakAma"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fond of children.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 261995,
+                    "_ancestry": [
+                        "L_ 28364",
+                        "B_ {#vatsaH#}",
+                        "S_ .{@{#-kAma#}@}",
+                        "S_M_ ({@{#-mA#}@})"
+                    ],
+                    "_banner": "({@{#-mA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "vatsakAmA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a cow longing for her calf or a mother for her child.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 261996,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-tantrI#}@}"
+            ],
+            "_banner": ".{@{#-tantrI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsatantrI"
+                }
+            ],
+            "_meanings": [
+                "a rope for tying calves; {#na laNGayedvatsatantrIM na#}\n {#praDAvecca varzati#} <ls>Ms. 4. 38</ls>.\n"
+            ]
+        },
+        {
+            "__line": 261998,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-dantaH#}@}"
+            ],
+            "_banner": ".{@{#-dantaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsadantaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of arrow.\n"
+            ]
+        },
+        {
+            "__line": 261999,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-nABaH#}@}"
+            ],
+            "_banner": ".{@{#-nABaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsanABaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a tree.\n",
+                ".²2 a kind of very strong poison.\n"
+            ]
+        },
+        {
+            "__line": 262002,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-pattanam#}@}"
+            ],
+            "_banner": ".{@{#-pattanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsapattanam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the town Kauśāmbī.\n"
+            ]
+        },
+        {
+            "__line": 262003,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsapadam"
+                }
+            ],
+            "_meanings": [
+                "a ford (<lang>Mar.</lang> <ns>{#utAra#}</ns>); {#BavAmbuDirvatsapadaM paraM padam#}\n <ls>Bhāg. 10. 14. 58</ls>.\n"
+            ]
+        },
+        {
+            "__line": 262005,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsapAlaH"
+                }
+            ],
+            "_meanings": [
+                "‘a keeper of calves’, <ab>N.</ab> of Kṛṣṇa or Balarāma.\n"
+            ]
+        },
+        {
+            "__line": 262006,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-banDA#}@}"
+            ],
+            "_banner": ".{@{#-banDA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsabanDA"
+                }
+            ],
+            "_meanings": [
+                "a cow longing for her calf.\n"
+            ]
+        },
+        {
+            "__line": 262007,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-rUpaH#}@}"
+            ],
+            "_banner": ".{@{#-rUpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsarUpaH"
+                }
+            ],
+            "_meanings": [
+                "a small calf; <ls>Hch.</ls>\n"
+            ]
+        },
+        {
+            "__line": 262008,
+            "_ancestry": [
+                "L_ 28364",
+                "B_ {#vatsaH#}",
+                "S_ .{@{#-SAlA#}@}"
+            ],
+            "_banner": ".{@{#-SAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vatsaSAlA"
+                }
+            ],
+            "_meanings": [
+                "a cow-shed."
+            ]
+        }
     ]
 }

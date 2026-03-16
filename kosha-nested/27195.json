@@ -1,20 +1,43 @@
 {
-    "__line": 228798,
+    "__line": 249821,
     "_ancestry": [
         "L_ 27195",
-        "B_ {#vyaktIBU#}"
+        "B_ {#rakzaka#}"
     ],
-    "_banner": "{#vyaktIBU#}",
+    "_banner": "{#rakzaka#}",
     "_bannerExp": [
         {
-            "Right": "vyaktIBU"
+            "Right": "rakzaka"
+        },
+        {
+            "Right": "rakzikA"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-kzikA#}|{%f.%})",
+        "[{#rakz-Rvul#}]"
     ],
     "_meanings": [
-        "To become distinct\nor clear, become clearly visible."
+        "Guarding, protecting.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 249823,
+            "_ancestry": [
+                "L_ 27195",
+                "B_ {#rakzaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rakzakaH"
+                }
+            ],
+            "_meanings": [
+                "A protector, guardian, guard, watchman."
+            ]
+        }
     ]
 }

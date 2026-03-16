@@ -1,16 +1,60 @@
 {
-    "__line": 65773,
+    "__line": 63667,
     "_ancestry": [
         "L_ 7615",
-        "B_ {#ucCalanaM#}"
+        "B_ {#AluH#}"
     ],
-    "_banner": "{#ucCalanaM#}",
+    "_banner": "{#AluH#}",
     "_bannerExp": [
         {
-            "Right": "ucCalanaM"
+            "Right": "AluH"
         }
     ],
     "_meanings": [
-        "Going or moving \nupwards."
+        ".²1 An owl.\n",
+        ".²2 An esculent root (not applied to potato <ab>&c.</ab>).\n",
+        ".²3 Ebony; black ebony.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 63671,
+            "_ancestry": [
+                "L_ 7615",
+                "B_ {#AluH#}",
+                "M_ .{@{#-luH#}@}"
+            ],
+            "_banner": ".{@{#-luH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AluH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A pitcher, waterjar.\n"
+            ]
+        },
+        {
+            "__line": 63672,
+            "_ancestry": [
+                "L_ 7615",
+                "B_ {#AluH#}",
+                "M_ .{@{#-lu#}@}"
+            ],
+            "_banner": ".{@{#-lu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Alu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "A raft, float."
+            ]
+        }
     ]
 }

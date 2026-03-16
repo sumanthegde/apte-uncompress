@@ -1,20 +1,81 @@
 {
-    "__line": 110521,
+    "__line": 111945,
     "_ancestry": [
         "L_ 13142",
-        "B_ {#carcaka#}"
+        "B_ {#krAnta#}"
     ],
-    "_banner": "{#carcaka#}",
+    "_banner": "{#krAnta#}",
     "_bannerExp": [
         {
-            "Right": "carcaka"
+            "Right": "krAnta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#carc-Rvul#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Repeating."
+        "Gone, passed over, traversed <ab>&c.</ab>; ({%<ab>p. p.</ab>%} of {#kram#} <ab>q. v.</ab>)\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 111946,
+            "_ancestry": [
+                "L_ 13142",
+                "B_ {#krAnta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A horse.\n",
+                ".²2 A foot, step; <ls>Ms. 12. 121</ls>.\n",
+                ".²3 Declination.\n"
+            ]
+        },
+        {
+            "__line": 111950,
+            "_ancestry": [
+                "L_ 13142",
+                "B_ {#krAnta#}",
+                "M_ .{@{#-ntam#}@}"
+            ],
+            "_banner": ".{@{#-ntam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Going, passing.\n",
+                ".²2 A step.\n",
+                ".²3 A certain aspect in astronomy (when the moon is in conjunction with a planet).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 111955,
+            "_ancestry": [
+                "L_ 13142",
+                "B_ {#krAnta#}",
+                "S_ .{@{#-darSin#}@}"
+            ],
+            "_banner": ".{@{#-darSin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krAntadarSin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "omniscient."
+            ]
+        }
     ]
 }

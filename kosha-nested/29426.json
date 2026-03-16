@@ -1,18 +1,38 @@
 {
-    "__line": 247035,
+    "__line": 272100,
     "_ancestry": [
         "L_ 29426",
-        "B_ {#samArohaH#}"
+        "B_ {#vijanman#}"
     ],
-    "_banner": "{#samArohaH#}",
+    "_banner": "{#vijanman#}",
     "_bannerExp": [
         {
-            "Right": "samArohaH"
+            "Right": "vijanman"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Ascending, mounting.\n",
-        "{@--2@} Riding upon. ",
-        "{@--3@} Agreeing."
+        "or {%m.%} A bastard, one born illegitimately; <ls>Ms. 10. 23</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 272101,
+            "_ancestry": [
+                "L_ 29426",
+                "B_ {#vijanman#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vijanman#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Birth."
+            ]
+        }
     ]
 }

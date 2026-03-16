@@ -1,22 +1,45 @@
 {
-    "__line": 131585,
+    "__line": 136283,
     "_ancestry": [
         "L_ 15700",
-        "B_ {#doza, dozika, dozin#}"
+        "B_ {#juzwa#}"
     ],
-    "_banner": "{#doza, dozika, dozin#}",
+    "_banner": "{#juzwa#}",
     "_bannerExp": [
         {
-            "Right": "doza"
-        },
-        {
-            "Right": "dozika"
-        },
-        {
-            "Right": "dozin"
+            "Right": "juzwa"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#juz-karmaRi kta#}]"
+    ],
     "_meanings": [
-        "See under {#duz#}."
+        ".²1 Pleased, gratified.\n",
+        ".²2 Practised, resorted to, visited, suffered <ab>&c.</ab>; {#anAryajuzwamasvargyamakIrtikaramarjuna#} <ls>Bg. 2. 2</ls>.\n",
+        ".²3 Furnished or endowed with, possessed of; {#rAjapraBAvajuzwAM ca durvahAmajitendriyEH#} <ls>Rām. 2. 2. 9</ls>.\n",
+        ".²4 Liked, loved, agreeable.\n",
+        ".²5 Served, worshipped; {#sambanDaspfhaRIyatApramuditErjuzwe vasizwAdiBiH#} <ls>U. 6. 40</ls>.\n",
+        ".²6 Propitious, favourable.\n",
+        ".²7 Shared, partaken in; <ls>U. 6. 40</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 136291,
+            "_ancestry": [
+                "L_ 15700",
+                "B_ {#juzwa#}",
+                "M_ .{@{#-zwam#}@}"
+            ],
+            "_banner": ".{@{#-zwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "juzwam"
+                }
+            ],
+            "_meanings": [
+                "The remnants of meal ({#ucCizwa#})."
+            ]
+        }
     ]
 }

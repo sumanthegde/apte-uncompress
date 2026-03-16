@@ -1,21 +1,43 @@
 {
-    "__line": 200098,
+    "__line": 211712,
     "_ancestry": [
         "L_ 23710",
-        "B_ {#yarhi#}"
+        "B_ {#prasru#}"
     ],
-    "_banner": "{#yarhi#}",
+    "_banner": "{#prasru#}",
     "_bannerExp": [
         {
-            "Right": "yarhi"
+            "Right": "prasru"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}",
-        "[{#yad-rhil#}, <ab>cf.</ab> \n<ls>P. V. 3. 21</ls>]"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} When, while, whenever. ",
-        "{@--2@}\nBecause, as, since; (its proper \ncorrelative is {#tarhi#} or {#etarhi#}, but it is \nseldom used in classical literature)."
+        "²1 To flow forth or out, gush forth, ooze out.\n",
+        ".²2 To pour out, let flow. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 211714,
+            "_ancestry": [
+                "L_ 23710",
+                "B_ {#prasru#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "prasru"
+                }
+            ],
+            "_gram": [
+                "<ab>Ā.</ab>"
+            ],
+            "_meanings": [
+                "To make water."
+            ]
+        }
     ]
 }

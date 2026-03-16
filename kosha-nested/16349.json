@@ -1,58 +1,84 @@
 {
-    "__line": 137270,
+    "__line": 141626,
     "_ancestry": [
         "L_ 16349",
-        "B_ {#namata#}"
+        "B_ {#tApasa#}"
     ],
-    "_banner": "{#namata#}",
+    "_banner": "{#tApasa#}",
     "_bannerExp": [
         {
-            "Right": "namata"
+            "Right": "tApasa"
+        },
+        {
+            "Right": "tApasI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#nam-atac#}]"
+        "{%a.%}",
+        "({#-sI#}|{%f.%})"
     ],
     "_meanings": [
-        "Bent, bowed,\ncrooked, curved. "
+        ".²1 Relating to religious penance or to an ascetic; {#tApasezveva viprezu#}\n {#yAtrikaM BEkzamAharet#} <ls>Ms. 6. 27</ls>.\n",
+        ".²2 Devout.\n"
     ],
     "_morphisms": [
         {
-            "__line": 137271,
+            "__line": 141630,
             "_ancestry": [
                 "L_ 16349",
-                "B_ {#namata#}",
-                "M_ {#--taH#}"
+                "B_ {#tApasa#}",
+                "M_ .{@{#-saH#}@}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": ".{@{#-saH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "namataH"
+                    "Right": "tApasaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} An actor.\n",
-                "{@--2@} Smoke. ",
-                "{@--3@} A master, lord. ",
-                "{@--4@} A\ncloud. "
+                ".({@{#-sI#}@} {%f.%}) A hermit, devotee, an ascetic.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 141633,
+            "_ancestry": [
+                "L_ 16349",
+                "B_ {#tApasa#}",
+                "S_ .{@{#-izwA, -priyA#}@}"
+            ],
+            "_banner": ".{@{#-izwA, -priyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tApasezwA"
+                },
+                {
+                    "Right": "tApasapriyA"
+                }
+            ],
+            "_meanings": [
+                "a grape.\n"
             ]
         },
         {
-            "__line": 137273,
+            "__line": 141634,
             "_ancestry": [
                 "L_ 16349",
-                "B_ {#namata#}",
-                "M_ {#--taM#}"
+                "B_ {#tApasa#}",
+                "S_ .{@{#-taruH, drumaH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-taruH, drumaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "namataM"
+                    "Right": "tApasataruH"
+                },
+                {
+                    "Right": "tApasadrumaH"
                 }
             ],
             "_meanings": [
-                "Woollen stuff."
+                "the tree of ascetics, also called {#iNgudI#}."
             ]
         }
     ]

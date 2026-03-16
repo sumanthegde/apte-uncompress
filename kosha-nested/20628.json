@@ -1,21 +1,76 @@
 {
-    "__line": 171352,
+    "__line": 184887,
     "_ancestry": [
         "L_ 20628",
-        "B_ {#praruc#}"
+        "B_ {#pari(rI)hAsaH#}"
     ],
-    "_banner": "{#praruc#}",
+    "_banner": "{#pari(rI)hAsaH#}",
     "_bannerExp": [
         {
-            "Right": "praruc"
+            "Right": "parihAsaH"
+        },
+        {
+            "Right": "parIhAsaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
-    ],
     "_meanings": [
-        "{@--1@} To shine very much.\n",
-        "{@--2@} To be liked."
+        ".²1 Joking, jesting, jest, mirth; merriment; {#tvarAprastAvo'yaM na Kalu#}\n {#parihAsasya vizayaH#} <ls>Māl. 9. 44</ls>; {#parihAsapUrvam#} ‘jokingly’ or ‘in\n jest’ <ls>R. 6. 82</ls>; {#parihAsavijalpitam#} <ls>Ś. 2. 18</ls> ‘uttered in jest’; {#parIhAsAScitrAH#}\n {#satatamaBavan yena BavataH#} <ls>Ve. 3. 14</ls>; <ls>Ku. 7. 19</ls>; <ls>R. 9. 8</ls>; <ls>Śi. 10. 12</ls>.\n",
+        ".²2 Ridiculing, deriding.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 184894,
+            "_ancestry": [
+                "L_ 20628",
+                "B_ {#pari(rI)hAsaH#}",
+                "S_ .{@{#-kaTA#}@}"
+            ],
+            "_banner": ".{@{#-kaTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parihAsakaTA"
+                }
+            ],
+            "_meanings": [
+                "an amusing story.\n"
+            ]
+        },
+        {
+            "__line": 184895,
+            "_ancestry": [
+                "L_ 20628",
+                "B_ {#pari(rI)hAsaH#}",
+                "S_ .{@{#-vastu#}@}"
+            ],
+            "_banner": ".{@{#-vastu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parihAsavastu"
+                }
+            ],
+            "_meanings": [
+                "an object of jest.\n"
+            ]
+        },
+        {
+            "__line": 184896,
+            "_ancestry": [
+                "L_ 20628",
+                "B_ {#pari(rI)hAsaH#}",
+                "S_ .{@{#-vedin#}@}"
+            ],
+            "_banner": ".{@{#-vedin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parihAsavedin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a buffoon, jester, a witty person."
+            ]
+        }
     ]
 }

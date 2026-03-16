@@ -1,23 +1,42 @@
 {
-    "__line": 203312,
+    "__line": 214336,
     "_ancestry": [
         "L_ 24024",
-        "B_ {#ramatiH#}"
+        "B_ {#prAveSana#}"
     ],
-    "_banner": "{#ramatiH#}",
+    "_banner": "{#prAveSana#}",
     "_bannerExp": [
         {
-            "Right": "ramatiH"
+            "Right": "prAveSana"
+        },
+        {
+            "Right": "prAveSanA"
         }
     ],
     "_gram": [
-        "[{#ram-atic#}]"
+        "{%a.%}",
+        "({#-nA#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} The god of\nlove. ",
-        "{@--2@} A lover. ",
-        "{@--3@} Heaven. ",
-        "{@--4@}\nTime. ",
-        "{@--5@} A crow."
+        "To be given or done on entering.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 214338,
+            "_ancestry": [
+                "L_ 24024",
+                "B_ {#prAveSana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAveSanam"
+                }
+            ],
+            "_meanings": [
+                "A workshop, manufactory."
+            ]
+        }
     ]
 }

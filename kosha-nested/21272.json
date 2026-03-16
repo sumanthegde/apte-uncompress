@@ -1,25 +1,92 @@
 {
-    "__line": 175911,
+    "__line": 190372,
     "_ancestry": [
         "L_ 21272",
-        "B_ {#prAsAdika#}"
+        "B_ {#pAvana#}"
     ],
-    "_banner": "{#prAsAdika#}",
+    "_banner": "{#pAvana#}",
     "_bannerExp": [
         {
-            "Right": "prAsAdikI"
+            "Right": "pAvana"
         },
         {
-            "Right": "prAsAdika"
+            "Right": "pAvanI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#pU-Ric lyu#}]"
     ],
     "_meanings": [
-        "{@--1@} Given as\na favour. ",
-        "{@--2@} Kind, friendly, \namiable; <ls>U. 6. 20.</ls> ",
-        "{@--3@} Beautiful, lovely."
+        ".²1 Purifying, freeing from sin, purificatory, sanctifying; {#pAdAstAmaBito#}\n {#nizaRRahariRA gOrIguroH pAvanAH#} <ls>Ś. 6. 17</ls>; <ls>R. 15. 101</ls>, <ls n=\"R.\">19. 53</ls>; {#yajYo#}\n {#dAnaM tapaScEva pAvanAni manIziRAm#} <ls>Bg. 18. 5</ls>; <ls>Ms. 2. 26</ls>; <ls>Y. 3. 307</ls>.\n",
+        ".²2 Sacred, holy, pure, purified; {#tapovanaM tacca baBUva pAvanam#} <ls>Ku. 5. 17</ls>.\n",
+        ".²3 One living on wind (a Sādhu); {#kutaH kzIraM vanasTAnAM munInAM girivAsinAm .#}\n {#pAvanAnAM vanASAnAM vanASramanivAsinAm ..#} <ls>Mb. 13. 14. 124</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 190380,
+            "_ancestry": [
+                "L_ 21272",
+                "B_ {#pAvana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAvanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Fire.\n",
+                ".²2 Incense.\n",
+                ".²3 A kind of demi-god or Siddha.\n",
+                ".²4 <ab>N.</ab> of the poet Vyāsa.\n",
+                ".²5 <ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 190386,
+            "_ancestry": [
+                "L_ 21272",
+                "B_ {#pAvana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAvanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Purifying, purification; {#vizRorBUtAni lokAnAM pAvanAya caranti hi#}\n <ls>Bhāg. 11. 2. 28</ls>; {#padanaKanIrajanitajanapAvana#} <ls>Gīt. 1</ls>; <ls>Mv. 1. 26</ls>; <ls>Ms. 11. 85</ls>.\n",
+                ".²2 Penance.\n",
+                ".²3 Water.\n",
+                ".²4 Cow-dung.\n",
+                ".²5 A sectarial mark.\n",
+                ".²6 Any means of purification; {#utpattiparipUtAyAH kimasyAH pAvanAntarEH#} <ls>U. 1. 13</ls>.\n",
+                ".²7 Atonement, expiation.\n",
+                ".²8 Incense ({#sihvaka#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 190397,
+            "_ancestry": [
+                "L_ 21272",
+                "B_ {#pAvana#}",
+                "S_ .{@{#-DvaniH#}@}"
+            ],
+            "_banner": ".{@{#-DvaniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAvanaDvaniH"
+                }
+            ],
+            "_meanings": [
+                "a conch-shell."
+            ]
+        }
     ]
 }

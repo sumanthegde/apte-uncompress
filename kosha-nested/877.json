@@ -1,20 +1,103 @@
 {
-    "__line": 10107,
+    "__line": 8357,
     "_ancestry": [
         "L_ 877",
-        "B_ {#admara#}"
+        "B_ {#atra#}"
     ],
-    "_banner": "{#admara#}",
+    "_banner": "{#atra#}",
     "_bannerExp": [
         {
-            "Right": "admara"
+            "Right": "atra"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#attuM SIlamasya; ad-kartari#} \n{#kmarac#}]"
-    ],
     "_meanings": [
-        "Voracious, gluttonous."
+        "({#atrA#} <ab>Ved.</ab>) {%ind.%} [{#asmin etAsmin vA, idaM-etad vA saptamyAH#}\n {#tral prakfteH aSBAvaSca#} <ls>Tv.</ls>]\n",
+        ".²1 In this place, here; {#api saMnihito'tra kulapatiH#} <ls>Ś. 1</ls>; {#atra#}\n {#gfhyate atra gfhyate#} <ls>K. 119</ls> here-here {%<ab>i. e.</ab>%} just now.\n",
+        ".²2 In this respect, matter, or case; as to this, (serving the purpose\n of {#asmin vizaye#} or of the forms {#asmin#} or {#etasmin, asyAm#}, <ab>&c.</ab>\n with a substantive or adjectival force); {#ahiMsA paramo Darma ityatra#}\n {#ekamatyam#} <ls>H. 1</ls>; {#alaM prayatnena tavAtra#} <ls>R. 3. 50</ls>; {#BavantamevAtra#}\n {#gurulAGavaM pfcCAmi#} <ls>Ś. 5</ls>; {#tadatra parigatArTaM kftvA#} <ls>Ś. 6</ls> informing\n him of this matter.\n",
+        ".²3 There, in that direction.\n",
+        ".²4 Then, at that time (<ab>Ved.</ab>); {#kaH ko'tra BoH#} who is there? which of\n the servants is in attendance? who waits there? (used in calling out to\n oneʼs servants <ab>&c.</ab>; <ab>cf.</ab> Hindustāni {%<ns>Kaun hai</ns>%}).\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 8372,
+            "_ancestry": [
+                "L_ 877",
+                "B_ {#atra#}",
+                "S_ .{@{#-antare#}@}"
+            ],
+            "_banner": ".{@{#-antare#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atrAntare"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "in the meanwhile, meantime. {#atrAntare SravaRakAtaratAM#}\n {#gato'smi#} <ls>Ś. 3. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 8374,
+            "_ancestry": [
+                "L_ 877",
+                "B_ {#atra#}",
+                "S_ .{@{#-daGna#}@}"
+            ],
+            "_banner": ".{@{#-daGna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atradaGna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-GnI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "reaching so far up; as tall as this.\n"
+            ]
+        },
+        {
+            "__line": 8375,
+            "_ancestry": [
+                "L_ 877",
+                "B_ {#atra#}",
+                "S_ .{@{#-Bavat#}@}"
+            ],
+            "_banner": ".{@{#-Bavat#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atraBavat"
+                }
+            ],
+            "_gram": [
+                "({%m.%}|{@{#BavAn#}@})"
+            ],
+            "_meanings": [
+                "an honorific epithet meaning ‘worthy’,\n ‘revered’, ‘honourable’, ‘your or his honour’, and referring to a person\n that is present or near the speaker, (<ab>opp.</ab> {#tatraBavat#}); "
+            ],
+            "_samasas": [
+                {
+                    "__line": 8377,
+                    "_ancestry": [
+                        "L_ 877",
+                        "B_ {#atra#}",
+                        "S_ .{@{#-Bavat#}@}",
+                        "S_S_ {#˚BavatI#}"
+                    ],
+                    "_banner": "{#˚BavatI#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "atraBavadBavatI"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%f.%} ‘your or her lady-ship’ ({#pUjye tatraBavAnatraBavAMSca BagavAnapi#});\n {#atraBavAn prakftimApannaH#} <ls>Ś. 2</ls>; {#vfkzasecanAdeva pariSrAntAmatraBavatIM#}\n {#lakzaye#} <ls>Ś. 1</ls>."
+                    ]
+                }
+            ]
+        }
     ]
 }

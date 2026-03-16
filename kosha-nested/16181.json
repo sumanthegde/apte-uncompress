@@ -1,44 +1,427 @@
 {
-    "__line": 135873,
+    "__line": 140339,
     "_ancestry": [
         "L_ 16181",
-        "B_ {#DOreya#}"
+        "B_ {#tamas#}"
     ],
-    "_banner": "{#DOreya#}",
+    "_banner": "{#tamas#}",
     "_bannerExp": [
         {
-            "Right": "DOreyI"
-        },
-        {
-            "Right": "DOreya"
+            "Right": "tamas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#yI#}|{%<ab>f.</ab>%})",
-        "[{#DuraM vahati Qak#}]"
+        "{%n.%}",
+        "[{#tam-asun#}]"
     ],
     "_meanings": [
-        "Fit\nfor a burden. "
+        ".²1 Darkness; {#kiM vA'BavizyadaruRastamasAM viBettA taM cetsahasrakiraRo#}\n {#Duri nAkarizyat#} <ls>Ś. 7. 4</ls>; <ls>V. 1. 7</ls>; <ls>Me. 39</ls>.\n",
+        ".²2 The gloom or darkness of hell; {#DarmeRa hi sahAyena tamastarati dustaram#} <ls>Ms. 4. 242</ls>.\n",
+        ".²3 Mental darkness, ignorance, illusion, error; {#munisutApraRayasmftiroDinA#}\n {#mama ca muktamidaM tamasA manaH#} <ls>Ś. 6. 8</ls>.\n",
+        ".²4 (In <ab>Sāṅ. phil.</ab>) Darkness or ignorance, as one of the three qualities\n or constitutents of every thing in nature (the other two being {#sattva#}\n and {#rajas#}); {#antargatamapAstaM me rajaso'pi paraM tamaH#} <ls>Ku. 6. 60</ls>; <ls>Ms. 12. 24</ls>.\n",
+        ".²5 Grief, sorrow; <ls>Bhāg. 5. 14. 33</ls>.\n",
+        ".²6 Sin; <ls>Bhāg. 10. 15. 5</ls>.\n",
+        ".²7 Stupefaction, swoon; {#tayA BinnatanutrARaH prAviSadvipulaM tamaH#}\n <ls>Rām. 7. 8. 14</ls>.\n",
+        ".²8 Anger; <ls>Bhāg. 10. 59. 42</ls>. --{%m., n.%} An epithet of Rāhu; {#tamaScandramasIvedamuparajyAvaBAsate#}\n <ls>Bhāg. 4. 29. 70</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 135874,
+            "__line": 140355,
             "_ancestry": [
                 "L_ 16181",
-                "B_ {#DOreya#}",
-                "M_ {#--yaH#}"
+                "B_ {#tamas#}",
+                "S_ .{@{#-apaha#}@}"
             ],
-            "_banner": "{#--yaH#}",
+            "_banner": ".{@{#-apaha#}@}",
             "_bannerExp": [
                 {
-                    "Right": "DOreyaH"
+                    "Right": "tamo'paha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "removing darkness or ignorance, illumining, enlightening;\n {#AgamAdiva tamopahAditaH saMBavanti matayo BavacCidaH#} <ls>Ki. 5. 22</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 140357,
+                    "_ancestry": [
+                        "L_ 16181",
+                        "B_ {#tamas#}",
+                        "S_ .{@{#-apaha#}@}",
+                        "S_M_ ({@{#-haH#}@})"
+                    ],
+                    "_banner": "({@{#-haH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "tamo'pahaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the sun.\n",
+                        ".²2 the moon.\n",
+                        ".²3 fire.\n",
+                        ".²4 a Buddha.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 140362,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-ariH#}@}"
+            ],
+            "_banner": ".{@{#-ariH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamo'riH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A beast of burden \n\n",
-                "{@--2@} A horse. ",
-                "{@--3@} A chief, leader."
+                ".²1 the sun.\n",
+                ".²2 the moon.\n",
+                ".²3 fire.\n"
+            ]
+        },
+        {
+            "__line": 140366,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-kARqaH, -Rqam#}@}"
+            ],
+            "_banner": ".{@{#-kARqaH, -Rqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamaskARqaH"
+                },
+                {
+                    "Right": "tamaHRqam"
+                }
+            ],
+            "_meanings": [
+                "great or spreading darkness.\n"
+            ]
+        },
+        {
+            "__line": 140367,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-guH#}@}"
+            ],
+            "_banner": ".{@{#-guH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamoguH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Rāhu.\n"
+            ]
+        },
+        {
+            "__line": 140368,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-guRaH#}@}"
+            ],
+            "_banner": ".{@{#-guRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamoguRaH"
+                }
+            ],
+            "_meanings": [
+                "see {#tamas#} above (4).\n"
+            ]
+        },
+        {
+            "__line": 140369,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-GnaH#}@}"
+            ],
+            "_banner": ".{@{#-GnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamoGnaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the sun.\n",
+                ".²2 the moon\n",
+                ".²3 fire.\n",
+                ".²4 Viṣṇu.\n",
+                ".²5 Śiva.\n",
+                ".²6 Knowledge.\n",
+                ".²7 a Buddha.\n"
+            ]
+        },
+        {
+            "__line": 140377,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-jyotis#}@}"
+            ],
+            "_banner": ".{@{#-jyotis#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamojyotis"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a fire-fly.\n"
+            ]
+        },
+        {
+            "__line": 140378,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-tatiH#}@}"
+            ],
+            "_banner": ".{@{#-tatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamastatiH"
+                }
+            ],
+            "_meanings": [
+                "spreading darkness.\n"
+            ]
+        },
+        {
+            "__line": 140379,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-nizWa#}@}"
+            ],
+            "_banner": ".{@{#-nizWa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamonizWa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "taking to hell ({#narakaprada#}); <ls>Ms. 12. 95</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140380,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-nud#}@}"
+            ],
+            "_banner": ".{@{#-nud#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamonud"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{#‘tamonudo'gnicandrArkA’ iti viSvaH#}"
+            ],
+            "_meanings": [
+                ";\n",
+                ".²1 a shining body.\n",
+                ".²2 the sun.\n",
+                ".²3 the moon; {#narendrakanyAstamavApya satpatiM tamonudaM dakzasutA ivAbaBuH#} <ls>R. 3. 33</ls>.\n",
+                ".²4 fire.\n",
+                ".²5 a lamp, light.\n"
+            ]
+        },
+        {
+            "__line": 140386,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-nudaH#}@}"
+            ],
+            "_banner": ".{@{#-nudaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamonudaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the sun.\n",
+                ".²2 the moon.\n",
+                ".²3 the Supreme Being.\n"
+            ]
+        },
+        {
+            "__line": 140390,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-praBA#}@}"
+            ],
+            "_banner": ".{@{#-praBA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamaspraBA"
+                }
+            ],
+            "_meanings": [
+                "a sort of hell.\n"
+            ]
+        },
+        {
+            "__line": 140391,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-praveSaH#}@}"
+            ],
+            "_banner": ".{@{#-praveSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamaspraveSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 groping in the dark.\n",
+                ".²2 mental gloom.\n"
+            ]
+        },
+        {
+            "__line": 140394,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-Bid, -maRiH#}@}"
+            ],
+            "_banner": ".{@{#-Bid, -maRiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamoBid"
+                },
+                {
+                    "Right": "tamomaRiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a fire-fly.\n",
+                ".²2 a\n\n sapphire.\n",
+                ".²3 a star.\n",
+                ".²4 the moon; {#tamomaRistu Kadyote nIlamaRyAmuqO SaSO#} <ls>Nm.</ls>\n"
+            ]
+        },
+        {
+            "__line": 140401,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamorAjaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of sugar; <ls>L. D. B.</ls>\n"
+            ]
+        },
+        {
+            "__line": 140402,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-vikAraH#}@}"
+            ],
+            "_banner": ".{@{#-vikAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamovikAraH"
+                }
+            ],
+            "_meanings": [
+                "sickness, disease.\n"
+            ]
+        },
+        {
+            "__line": 140403,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-viSAla#}@}"
+            ],
+            "_banner": ".{@{#-viSAla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamoviSAla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "abounding in gloom; {#tamoviSAlaSca mUlataH sargaH#} <ls>Sāṅ. K. 54</ls>.\n"
+            ]
+        },
+        {
+            "__line": 140404,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-vfta#}@}"
+            ],
+            "_banner": ".{@{#-vfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamovfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 obscured, clouded.\n",
+                ".²2 affected with anger, fear <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 140407,
+            "_ancestry": [
+                "L_ 16181",
+                "B_ {#tamas#}",
+                "S_ .{@{#-han, -hara#}@}"
+            ],
+            "_banner": ".{@{#-han, -hara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tamohan"
+                },
+                {
+                    "Right": "tamohara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dispersing darkness. --({%m.%})\n",
+                ".²1 the sun.\n",
+                ".²2 the moon."
             ]
         }
     ]

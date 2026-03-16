@@ -1,19 +1,55 @@
 {
-    "__line": 61295,
+    "__line": 59776,
     "_ancestry": [
         "L_ 7106",
-        "B_ {#AzAQin#}"
+        "B_ {#ApiSala#}"
     ],
-    "_banner": "{#AzAQin#}",
+    "_banner": "{#ApiSala#}",
     "_bannerExp": [
         {
-            "Right": "AzAQin"
+            "Right": "ApiSala"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Bearing a Palāśa\nstaff; <ls>K. 21.</ls>"
+        "Originating from {#ApiSali#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 59777,
+            "_ancestry": [
+                "L_ 7106",
+                "B_ {#ApiSala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApiSalaH"
+                }
+            ],
+            "_meanings": [
+                "A pupil of {#ApiSali#}.\n"
+            ]
+        },
+        {
+            "__line": 59778,
+            "_ancestry": [
+                "L_ 7106",
+                "B_ {#ApiSala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApiSalA"
+                }
+            ],
+            "_meanings": [
+                "A female pupil; {#ApiSalamaDIte ApiSalA brAhmaRI#} <ls>Mbh.</ls> on <ls>P. IV. 1. 14</ls>."
+            ]
+        }
     ]
 }

@@ -1,21 +1,124 @@
 {
-    "__line": 112385,
+    "__line": 114061,
     "_ancestry": [
         "L_ 13372",
-        "B_ {#cil#}"
+        "B_ {#kzipra#}"
     ],
-    "_banner": "{#cil#}",
+    "_banner": "{#kzipra#}",
     "_bannerExp": [
         {
-            "Right": "cil"
+            "Right": "kzipra"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#cilati#})"
+        "{%a.%}",
+        "[{#kzip-rak#}]"
     ],
     "_meanings": [
-        "To put on\nclothes."
+        "(<ab>compar.</ab> {#kzepIyas#}; <ab>superl.</ab> {#kzepizWa#})\n",
+        ".²1 Elastic (as a bow); {#ftajyena kzipreRa brahmaRaspatiH#} <ls>Rv. 2. 24. 8</ls>.\n",
+        ".²2 Quick, speedy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 114064,
+            "_ancestry": [
+                "L_ 13372",
+                "B_ {#kzipra#}",
+                "M_ .{@{#-pram#}@}"
+            ],
+            "_banner": ".{@{#-pram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzipram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A measure of time = ¹⁄₁₅ of a Muhūrta.\n",
+                ".²2 The part of the hand between the thumb and the forefinger and the corresponding\n part of the foot.\n"
+            ]
+        },
+        {
+            "__line": 114068,
+            "_ancestry": [
+                "L_ 13372",
+                "B_ {#kzipra#}",
+                "M_ .{@{#-pram#}@}"
+            ],
+            "_banner": ".{@{#-pram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzipram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Quickly, speedily, immediately; {#vinASaM vrajati#}\n {#kzipramAmapAtramivAmBasi#} <ls>Ms. 3. 179</ls>; <ls>Śānti. 3. 6</ls>; <ls>Bk. 2. 44</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 114071,
+            "_ancestry": [
+                "L_ 13372",
+                "B_ {#kzipra#}",
+                "S_ .{@{#-kArin#}@}"
+            ],
+            "_banner": ".{@{#-kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziprakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "acting quickly, prompt.\n"
+            ]
+        },
+        {
+            "__line": 114072,
+            "_ancestry": [
+                "L_ 13372",
+                "B_ {#kzipra#}",
+                "S_ .{@{#-niScaya#}@}"
+            ],
+            "_banner": ".{@{#-niScaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzipraniScaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who decides or resolves quickly; {#AyatyAM#}\n {#guRadozajYastadAtve kzipraniScayaH#} <ls>Ms. 7. 179</ls>.\n"
+            ]
+        },
+        {
+            "__line": 114074,
+            "_ancestry": [
+                "L_ 13372",
+                "B_ {#kzipra#}",
+                "S_ .{@{#-sanDiH#}@}"
+            ],
+            "_banner": ".{@{#-sanDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kziprasanDiH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a kind of {#sanDi#} produced by changing the first\n of two concurrent vowels to its semi-vowel."
+            ]
+        }
     ]
 }

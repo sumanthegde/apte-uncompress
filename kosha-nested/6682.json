@@ -1,39 +1,220 @@
 {
-    "__line": 58001,
+    "__line": 56110,
     "_ancestry": [
         "L_ 6682",
-        "B_ {#Ayuzya#}"
+        "B_ {#AjYA#}"
     ],
-    "_banner": "{#Ayuzya#}",
+    "_banner": "{#AjYA#}",
     "_bannerExp": [
         {
-            "Right": "Ayuzya"
+            "Right": "AjYA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#AyuH prayojanamasya, yat#}]"
+        "[{#A-jYA-aq#}]",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Promoting long life, vital, \npreservative of life; {#idaM#} \n{#yaSasyamAyuzyamidaM niHSreyasaM paraM#} <ls>Ms. 1. 106</ls>, <ls n=\"Ms.\">3. 106</ls>,\n<ls n=\"Ms.\">4. 13</ls>; <ls>M. 4. 4</ls> <ab>v. l.</ab>; <ls>Dk. 158.</ls>\n"
+        "{#AtaScopasarge#} <ls>P. III. 3. 106</ls>.\n",
+        ".²1 An order, command; {#taTeti SezAmiva BarturAjYAm#} <ls>Ku. 3. 22</ls>.\n",
+        ".²2 Permission, allowance.\n",
+        ".²3 Power of arrangement; {#nEvArTena ca kAmena vikrameRa na cAjYayA . SakyA#}\n {#dEvagatirloke nivartayitumudyatA ..#} <ls>Rām. 6. 110. 25</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 58006,
+            "__line": 56116,
             "_ancestry": [
                 "L_ 6682",
-                "B_ {#Ayuzya#}",
-                "M_ {#--zyaM#}"
+                "B_ {#AjYA#}",
+                "S_ .{@{#-anuga, -anugAmin, -anuyAyin, -anuvartin, -anusArin, -saMpAdaka, -vaha#}@}"
             ],
-            "_banner": "{#--zyaM#}",
+            "_banner": ".{@{#-anuga, -anugAmin, -anuyAyin, -anuvartin, -anusArin, -saMpAdaka, -vaha#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AyuzyaM"
+                    "Right": "AjYAnuga"
+                },
+                {
+                    "Right": "AjYAnugAmin"
+                },
+                {
+                    "Right": "AjYAnuyAyin"
+                },
+                {
+                    "Right": "AjYAnuvartin"
+                },
+                {
+                    "Right": "AjYAnusArin"
+                },
+                {
+                    "Left": "S error: midAlign saMpAdaka anusaMpAdaka"
+                },
+                {
+                    "Right": "AjYAvaha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "obedient, submissive.\n"
+            ]
+        },
+        {
+            "__line": 56118,
+            "_ancestry": [
+                "L_ 6682",
+                "B_ {#AjYA#}",
+                "S_ .{@{#-kara, -kArin#}@}"
+            ],
+            "_banner": ".{@{#-kara, -kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjYAkara"
+                },
+                {
+                    "Right": "AjYAkArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "obeying or executing orders, obedient.\n\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 56120,
+                    "_ancestry": [
+                        "L_ 6682",
+                        "B_ {#AjYA#}",
+                        "S_ .{@{#-kara, -kArin#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "AjYAkaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a servant; {#˚karatvamaDigamya#} <ls>V. 3. 19</ls> being the obedient\n servant; {#kAryARAM gatayo viDerapi nayantyAjYAkaratvaM cirAt#} <ls>Mu. 7. 16</ls> subjection.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 56122,
+            "_ancestry": [
+                "L_ 6682",
+                "B_ {#AjYA#}",
+                "S_ .{@{#-karaRam, -pAlanam#}@}"
+            ],
+            "_banner": ".{@{#-karaRam, -pAlanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjYAkaraRam"
+                },
+                {
+                    "Right": "AjYApAlanam"
                 }
             ],
             "_meanings": [
-                "{@--1@} Vital power, abundance of\nlife or vigour. ",
-                "{@--2@} <ab>N.</ab> of a ceremony\nperformed after the birth of a\nchild."
+                "obedience, execution of commands.\n"
+            ]
+        },
+        {
+            "__line": 56123,
+            "_ancestry": [
+                "L_ 6682",
+                "B_ {#AjYA#}",
+                "S_ .{@{#-cakram#}@}"
+            ],
+            "_banner": ".{@{#-cakram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjYAcakram"
+                }
+            ],
+            "_meanings": [
+                "a mystical circle or diagram; one of the six described in Tantras.\n"
+            ]
+        },
+        {
+            "__line": 56124,
+            "_ancestry": [
+                "L_ 6682",
+                "B_ {#AjYA#}",
+                "S_ .{@{#-patram#}@}"
+            ],
+            "_banner": ".{@{#-patram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjYApatram"
+                }
+            ],
+            "_meanings": [
+                "an edict, written order.\n"
+            ]
+        },
+        {
+            "__line": 56125,
+            "_ancestry": [
+                "L_ 6682",
+                "B_ {#AjYA#}",
+                "S_ .{@{#-pratiGAtaH, -BaNgaH#}@}"
+            ],
+            "_banner": ".{@{#-pratiGAtaH, -BaNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjYApratiGAtaH"
+                },
+                {
+                    "Right": "AjYABaNgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 disobedience, insubordination; {#nAjYABaNgaM sahante nfvara nfpatayastvAdfSAH#}\n {#sArvaBOmAH#} <ls>Mu. 3. 22</ls>.\n",
+                ".²2 rebellion, disloyalty.\n"
+            ]
+        },
+        {
+            "__line": 56129,
+            "_ancestry": [
+                "L_ 6682",
+                "B_ {#AjYA#}",
+                "S_ .{@{#-viDeya#}@}"
+            ],
+            "_banner": ".{@{#-viDeya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjYAviDeya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "obedient to commands.\n"
+            ]
+        },
+        {
+            "__line": 56130,
+            "_ancestry": [
+                "L_ 6682",
+                "B_ {#AjYA#}",
+                "S_ .{@{#-SataM prApayitA#}@}"
+            ],
+            "_banner": ".{@{#-SataM prApayitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjYASatam"
+                },
+                {
+                    "Right": "AjYAprApayitA"
+                }
+            ],
+            "_meanings": [
+                "An officer charged with carrying the kingʼs orders\n into effect. <ls>EI. XII. p. 65</ls>, <ls n=\"EI.\">XIX. p. 118 f.</ls>"
             ]
         }
     ]

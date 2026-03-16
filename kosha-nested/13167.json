@@ -1,25 +1,38 @@
 {
-    "__line": 110670,
+    "__line": 112221,
     "_ancestry": [
         "L_ 13167",
-        "B_ {#carv#}"
+        "B_ {#krItaka#}"
     ],
-    "_banner": "{#carv#}",
+    "_banner": "{#krItaka#}",
     "_bannerExp": [
         {
-            "Right": "carv"
+            "Right": "krItaka"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#carvati, carbayati-te#},\n{#carvita#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To chew, chop, eat, browse,\nbite; {#lAMgUlaM gAQataraM carvitumArabDavAn#}\n<ls>Pt. 4</ls>; {#yasyEtacca na kukkurEraharaharjaMGAMtaraM#}\n{#carvyate#} <ls>Mk. 2. 11.</ls> ",
-        "{@--2@} To suck up.\n",
-        "{@--3@} To relish, taste. "
+        "Got by purchase.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 112222,
+            "_ancestry": [
+                "L_ 13167",
+                "B_ {#krItaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "krItakaH"
+                }
+            ],
+            "_meanings": [
+                "A son bought from his parents and adopted; {#krIRIyAdyastvapatyArTaM#}\n {#mAtApitroryamantikAt . sa krItakaH sutastasya sadfSo'sadfSo'pi vA ..#}\n <ls>Ms. 9. 174</ls>; <ab>cf.</ab> {#krIta#} above."
+            ]
+        }
     ]
 }

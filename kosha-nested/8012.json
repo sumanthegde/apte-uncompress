@@ -1,16 +1,86 @@
 {
-    "__line": 68968,
+    "__line": 66866,
     "_ancestry": [
         "L_ 8012",
-        "B_ {#udIcI#}"
+        "B_ {#Ahata#}"
     ],
-    "_banner": "{#udIcI#}",
+    "_banner": "{#Ahata#}",
     "_bannerExp": [
         {
-            "Right": "udIcI"
+            "Right": "Ahata"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "The north; {#tenodIcIM#} \n{#diSamanusareH#} <ls>Me. 57.</ls>"
+        ".²1 Struck, beaten (as a drum <ab>&c.</ab>); {#hfdaye digDaSarErivAhataH#} <ls>Ku. 4. 25</ls>, <ls n=\"Ku. 4.\">30</ls>;\n <ls>R. 4. 23</ls>, <ls n=\"R.\">12. 77</ls>.\n",
+        ".²2 Trodden; {#pAdAhataM yadutTAya mUrDAnamaDirohati#} <ls>Śi. 2. 46</ls>; {#gajadantAhatA vfkzAH#} <ls>Rām.</ls>\n",
+        ".²3 Injured, killed.\n",
+        ".²4 Dispelled, destroyed, removed.\n",
+        ".²5 Multiplied (in <ab>Math.</ab>) {#sUryAbDisaMKyayA dvitrisAgarErayutAhatEH#}\n <ls>Sūrya S.</ls>; {#ekEkamabdezu navAhatezu#} <ls>Bṛ. S. 8. 22</ls>.\n",
+        ".²5 Known, understood.\n",
+        ".²6 Rolled (as dice).\n",
+        ".²7 Uttered falsely.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 66877,
+            "_ancestry": [
+                "L_ 8012",
+                "B_ {#Ahata#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhataH"
+                }
+            ],
+            "_meanings": [
+                "A drum.\n"
+            ]
+        },
+        {
+            "__line": 66878,
+            "_ancestry": [
+                "L_ 8012",
+                "B_ {#Ahata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ahatam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A new cloth or garment.\n",
+                ".²2 An old garment.\n",
+                ".²3 A nonsensical or meaningless speech, an assertion of impossibility;\n {%<ab>e. g.</ab>%} {#eza vanDyAsuto yAti#} <ls>Subhāṣ.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 66884,
+            "_ancestry": [
+                "L_ 8012",
+                "B_ {#Ahata#}",
+                "S_ .{@{#-lakzaRa#}@}"
+            ],
+            "_banner": ".{@{#-lakzaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AhatalakzaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "= {#AhitalakzaRa#} <ab>q. v.</ab> under {#ADA#}."
+            ]
+        }
     ]
 }

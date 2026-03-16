@@ -1,41 +1,96 @@
 {
-    "__line": 232490,
+    "__line": 254880,
     "_ancestry": [
         "L_ 27615",
-        "B_ {#Sabdana#}"
+        "B_ {#retas#}"
     ],
-    "_banner": "{#Sabdana#}",
+    "_banner": "{#retas#}",
     "_bannerExp": [
         {
-            "Right": "Sabdana"
+            "Right": "retas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#Sabd lyu lyuw vA#}]"
+        "[{#rI-asun tuw ca#} <ls>Uṇ. 4. 209</ls>]"
     ],
     "_meanings": [
-        "Sounding,\nmaking a sound. "
+        ".²1 Semen virile, seed.\n",
+        ".²2 <ab>Ved.</ab> A flow, current.\n",
+        ".²3 Progeny, offspring.\n",
+        ".²4 Quicksilver.\n",
+        ".²5 Sin (mostly <ab>Ved.</ab> in the last sense.).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 232491,
+            "__line": 254887,
             "_ancestry": [
                 "L_ 27615",
-                "B_ {#Sabdana#}",
-                "M_ {#--naM#}"
+                "B_ {#retas#}",
+                "S_ .{@{#-DAH#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-DAH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SabdanaM"
+                    "Right": "retoDAH"
+                }
+            ],
+            "_gram": [
+                "[<ls>Uṇ. 4. 238</ls>]",
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a father; {#retoDAH putro nayati naradeva#}\n {#yamakzayAt#} <ls>Bhāg. 9. 20. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 254889,
+            "_ancestry": [
+                "L_ 27615",
+                "B_ {#retas#}",
+                "S_ .{@{#-mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "retomArgaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Sounding,\nmaking a noise, uttering a sound\n",
-                "{@--2@} A sound, noise. ",
-                "{@--3@} Calling out,\ncalling. ",
-                "{@--4@} Naming."
+                "the seminal duct or canal.\n"
+            ]
+        },
+        {
+            "__line": 254890,
+            "_ancestry": [
+                "L_ 27615",
+                "B_ {#retas#}",
+                "S_ .{@{#-sekaH#}@}"
+            ],
+            "_banner": ".{@{#-sekaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "retaHsekaH"
+                }
+            ],
+            "_meanings": [
+                "sexual intercourse; {#retaHsekaH svayonIzu … … gurutalpasamaM#}\n {#viduH#} <ls>Ms. 11. 58</ls>.\n"
+            ]
+        },
+        {
+            "__line": 254892,
+            "_ancestry": [
+                "L_ 27615",
+                "B_ {#retas#}",
+                "S_ .{@{#-sKalanam#}@}"
+            ],
+            "_banner": ".{@{#-sKalanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "retaHsKalanam"
+                }
+            ],
+            "_meanings": [
+                "effusion of semen."
             ]
         }
     ]

@@ -1,19 +1,101 @@
 {
-    "__line": 29082,
+    "__line": 26262,
     "_ancestry": [
         "L_ 3025",
-        "B_ {#aBigaMtf#}"
+        "B_ {#apUrRa#}"
     ],
-    "_banner": "{#aBigaMtf#}",
+    "_banner": "{#apUrRa#}",
     "_bannerExp": [
         {
-            "Right": "aBigaMtf"
+            "Right": "apUrRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "One who approaches or\nhas intercourse (with a woman);\none who understands &c."
+        "Not full or completed, incomplete, deficient, imperfect;\n {#apUrRamekena SatakratUnAm#} <ls>R. 3. 38</ls>; {#apUrRa eva paYcarAtre dohadasya#} <ls>M. 3</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 26264,
+            "_ancestry": [
+                "L_ 3025",
+                "B_ {#apUrRa#}",
+                "M_ .{@{#-rRam#}@}"
+            ],
+            "_banner": ".{@{#-rRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrRam"
+                }
+            ],
+            "_meanings": [
+                "Incomplete number or fraction.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 26266,
+            "_ancestry": [
+                "L_ 3025",
+                "B_ {#apUrRa#}",
+                "S_ .{@{#-kAla#}@}"
+            ],
+            "_banner": ".{@{#-kAla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apUrRakAla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "premature, untimely.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 26267,
+                    "_ancestry": [
+                        "L_ 3025",
+                        "B_ {#apUrRa#}",
+                        "S_ .{@{#-kAla#}@}",
+                        "S_M_ ({@{#-laH#}@})"
+                    ],
+                    "_banner": "({@{#-laH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "apUrRakAlaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "premature or incomplete time; "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 26267,
+                            "_ancestry": [
+                                "L_ 3025",
+                                "B_ {#apUrRa#}",
+                                "S_ .{@{#-kAla#}@}",
+                                "S_M_ ({@{#-laH#}@})",
+                                "S_M_S_ {#˚ja#}"
+                            ],
+                            "_banner": "{#˚ja#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "apUrRakAlaja"
+                                }
+                            ],
+                            "_meanings": [
+                                "abortive."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }

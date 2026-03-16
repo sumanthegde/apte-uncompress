@@ -1,22 +1,139 @@
 {
-    "__line": 157886,
+    "__line": 168052,
     "_ancestry": [
         "L_ 18884",
-        "B_ {#pASin#}"
+        "B_ {#nimna#}"
     ],
-    "_banner": "{#pASin#}",
+    "_banner": "{#nimna#}",
     "_bannerExp": [
         {
-            "Right": "pASin"
+            "Right": "nimna"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "[{#pASo'styasya ini#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} An\nepithet of Varuṇa. ",
-        "{@--2@} Of Yama.\n",
-        "{@--3@} A deer-catcher, fowler, trapper."
+        ".²1 Deep (<ab>lit.</ab> and <ab>fig.</ab>); {#cakitahariRIprekzaRA nimnanABiH#} <ls>Me. 84</ls>;\n <ls>Ṛs. 5. 12</ls>; <ls>Śi. 10. 58</ls>.\n",
+        ".²2 Low, depressed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 168056,
+            "_ancestry": [
+                "L_ 18884",
+                "B_ {#nimna#}",
+                "M_ .{@{#-mna#}@}"
+            ],
+            "_banner": ".{@{#-mna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nimna"
+                }
+            ],
+            "_meanings": [
+                ".²1 Depth, low ground, low land; ({#kaH#}) {@{#payaSca#}@}\n\n {#nimnABimuKaM pratIpayet#} <ls>Ku. 5. 5</ls>; {#na ca nimnAdiva salilaM nivartate#}\n {#me tato hfdayam#} <ls>Ś. 3. 2</ls> (<ab>v. l.</ab>); <ls>Y. 2. 151</ls>; <ls>Ṛs. 2. 13</ls>.\n",
+                ".²2 A slope, declivity.\n",
+                ".²3 A gap, chasm in the ground; {#yo neminimnErakarocCAyAM Dnan sapta vAriDIn#}\n <ls>Bhāg. 5. 1. 39</ls>.\n",
+                ".²4 A depression, low part; {#jalanibiqitavastravyaktanimnonnatABiH#} <ls>Māl. 4. 10</ls>.\n",
+                ".²5 A mean act ({#hInakarma#}); {#nimnezvIhAM karizyanti hetuvAdavimohitAH#}\n <ls>Mb. 3. 190. 26</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 168068,
+            "_ancestry": [
+                "L_ 18884",
+                "B_ {#nimna#}",
+                "S_ .{@{#-aBimuKa#}@}"
+            ],
+            "_banner": ".{@{#-aBimuKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nimnABimuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "flowing downwards; {#ka IpsitArTasTiraniScayaM#}\n {#manaH payaSca nimnABimuKaM pratIpayet#} <ls>Ku. 5. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 168070,
+            "_ancestry": [
+                "L_ 18884",
+                "B_ {#nimna#}",
+                "S_ .{@{#-unnata#}@}"
+            ],
+            "_banner": ".{@{#-unnata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nimnonnata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "low and high, depressed and elevated, uneven.\n"
+            ]
+        },
+        {
+            "__line": 168071,
+            "_ancestry": [
+                "L_ 18884",
+                "B_ {#nimna#}",
+                "S_ .{@{#-gatam#}@}"
+            ],
+            "_banner": ".{@{#-gatam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nimnagatam"
+                }
+            ],
+            "_meanings": [
+                "a low place.\n"
+            ]
+        },
+        {
+            "__line": 168072,
+            "_ancestry": [
+                "L_ 18884",
+                "B_ {#nimna#}",
+                "S_ .{@{#-gA#}@}"
+            ],
+            "_banner": ".{@{#-gA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nimnagA"
+                }
+            ],
+            "_meanings": [
+                "a river, a mountain-stream; {#udaGeriva nimnagASatezvaBavannAsya#}\n {#vimAnanA kvacit#} <ls>R. 8. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 168074,
+            "_ancestry": [
+                "L_ 18884",
+                "B_ {#nimna#}",
+                "S_ .{@{#-nABi#}@}"
+            ],
+            "_banner": ".{@{#-nABi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nimnanABi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slender, thin."
+            ]
+        }
     ]
 }

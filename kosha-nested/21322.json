@@ -1,40 +1,55 @@
 {
-    "__line": 176420,
+    "__line": 190787,
     "_ancestry": [
         "L_ 21322",
-        "B_ {#preMK#}"
+        "B_ {#piccawa#}"
     ],
-    "_banner": "{#preMK#}",
+    "_banner": "{#piccawa#}",
     "_bannerExp": [
         {
-            "Right": "preMK"
+            "Right": "piccawa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To vibrate, shake,\ntremble, swing to and fro, oscillate.\n"
+        "Pressed flat.\n"
     ],
     "_morphisms": [
         {
-            "__line": 176422,
+            "__line": 190788,
             "_ancestry": [
                 "L_ 21322",
-                "B_ {#preMK#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#piccawa#}",
+                "M_ .{@{#-waH#}@}"
             ],
+            "_banner": ".{@{#-waH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "preMK"
+                    "Right": "piccawaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "Inflammation of the eyes, ophthalmia.\n"
+            ]
+        },
+        {
+            "__line": 190789,
+            "_ancestry": [
+                "L_ 21322",
+                "B_ {#piccawa#}",
+                "M_ .{@{#-wam#}@}"
+            ],
+            "_banner": ".{@{#-wam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "piccawam"
+                }
             ],
             "_meanings": [
-                "To shake, swing, rock to\nand fro."
+                ".²1 Tin.\n",
+                ".²2 Lead."
             ]
         }
     ]

@@ -1,16 +1,38 @@
 {
-    "__line": 217212,
+    "__line": 232773,
     "_ancestry": [
         "L_ 25670",
-        "B_ {#vikramaRaM#}"
+        "B_ {#maDyamaka#}"
     ],
-    "_banner": "{#vikramaRaM#}",
+    "_banner": "{#maDyamaka#}",
     "_bannerExp": [
         {
-            "Right": "vikramaRaM"
+            "Right": "maDyamaka"
+        },
+        {
+            "Left": "fFromGramCore error: maDyamaka  mikA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-mikA#}|{%f.%})"
+    ],
     "_meanings": [
-        "A stride (of Viṣṇu);  \n{#Calayasi vikramaRe balimadButavAmana#} <ls>Gīt. 1.</ls>"
+        ".²1 Middle, middle-most.\n",
+        ".²2 Common (property <ab>&c.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 232776,
+            "_ancestry": [
+                "L_ 25670",
+                "B_ {#maDyamaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_meanings": [
+                "The interior of anything."
+            ]
+        }
     ]
 }

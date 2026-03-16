@@ -1,22 +1,77 @@
 {
-    "__line": 56617,
+    "__line": 54577,
     "_ancestry": [
         "L_ 6489",
-        "B_ {#ABA#}"
+        "B_ {#AKewaka#}"
     ],
-    "_banner": "{#ABA#}",
+    "_banner": "{#AKewaka#}",
     "_bannerExp": [
         {
-            "Right": "ABA"
+            "Right": "AKewaka"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To shine, blaze;\n{#sutarAM ratnamABAti cAmIkaraniyojitaM#} \n<ls>Subhāṣ.</ls>; <ls>R. 3. 33.</ls> ",
-        "{@--2@} To appear, look\nlike; {#ABAsi tIrTapratipAditardDiH#}  \n<ls>R. 5. 15</ls>, <ls n=\"R. 5.\">70</ls>, <ls n=\"R.\">13. 14</ls>; <ls>Bk. 7. 8</ls>, <ls n=\"Bk. 7.\">66.</ls> ",
-        "{@--3@} To\noutshine."
+        "Hunting, frightening (as beasts of prey <ab>&c.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 54578,
+            "_ancestry": [
+                "L_ 6489",
+                "B_ {#AKewaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AKewakaH"
+                }
+            ],
+            "_meanings": [
+                "A hunter; {#AKewakasya DarmeRa viBavAH syurvaSe nfRAm#} <ls>Pt. 1. 129</ls>, <ls n=\"Pt. 1.\">388</ls>.\n"
+            ]
+        },
+        {
+            "__line": 54579,
+            "_ancestry": [
+                "L_ 6489",
+                "B_ {#AKewaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AKewakam"
+                }
+            ],
+            "_meanings": [
+                "Hunting.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 54581,
+            "_ancestry": [
+                "L_ 6489",
+                "B_ {#AKewaka#}",
+                "S_ .{@{#-awavI#}@}"
+            ],
+            "_banner": ".{@{#-awavI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AKewakAwavI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A hunting forest."
+            ]
+        }
     ]
 }

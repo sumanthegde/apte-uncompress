@@ -1,40 +1,76 @@
 {
-    "__line": 169312,
+    "__line": 182883,
     "_ancestry": [
         "L_ 20338",
-        "B_ {#pradyut#}"
+        "B_ {#paripluta#}"
     ],
-    "_banner": "{#pradyut#}",
+    "_banner": "{#paripluta#}",
     "_bannerExp": [
         {
-            "Right": "pradyut"
+            "Right": "paripluta"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "To shine forth.\n"
+        ".²1 Flooded, inundated.\n",
+        ".²2 Overwhelmed; as in {#Soka˚#}.\n",
+        ".²3 Wetted, bathed.\n"
     ],
     "_morphisms": [
         {
-            "__line": 169313,
+            "__line": 182887,
             "_ancestry": [
                 "L_ 20338",
-                "B_ {#pradyut#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#paripluta#}",
+                "M_ .{@{#-tam#}@}"
             ],
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pradyut"
+                    "Right": "pariplutam"
+                }
+            ],
+            "_meanings": [
+                "A spring, jump.\n"
+            ]
+        },
+        {
+            "__line": 182888,
+            "_ancestry": [
+                "L_ 20338",
+                "B_ {#paripluta#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pariplutA"
+                }
+            ],
+            "_meanings": [
+                "Spirituous liquor.\n"
+            ]
+        },
+        {
+            "__line": 182889,
+            "_ancestry": [
+                "L_ 20338",
+                "B_ {#paripluta#}",
+                "M_ .{@{#-ti#}@}"
+            ],
+            "_banner": ".{@{#-ti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paripluti"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%f.%}"
             ],
             "_meanings": [
-                "To illumine, irradiate,\nlight up."
+                "Over-abundance {#puraBidA gamitastvamadfSyatAM trinayanatvapariplutiSaNkayA#} <ls>N. 4. 76</ls>."
             ]
         }
     ]

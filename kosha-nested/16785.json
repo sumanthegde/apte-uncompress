@@ -1,20 +1,37 @@
 {
-    "__line": 140724,
+    "__line": 145518,
     "_ancestry": [
         "L_ 16785",
-        "B_ {#nipuRatA --tvaM#}"
+        "B_ {#tokmaH#}"
     ],
-    "_banner": "{#nipuRatA --tvaM#}",
+    "_banner": "{#tokmaH#}",
     "_bannerExp": [
         {
-            "Right": "nipuRatA"
-        },
-        {
-            "Right": "nipuRatvaM"
+            "Right": "tokmaH"
         }
     ],
     "_meanings": [
-        "{@--1@} Skilfulness, \ncleverness. ",
-        "{@--2@} Carefulness, accuracy."
+        ".²1 A young green blade of corn, green barley; <ls>Bhāg. 4. 21. 2</ls>.\n",
+        ".²2 Green colour.\n",
+        ".²3 A cloud.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145522,
+            "_ancestry": [
+                "L_ 16785",
+                "B_ {#tokmaH#}",
+                "M_ .{@{#-kmam#}@}"
+            ],
+            "_banner": ".{@{#-kmam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tokmam"
+                }
+            ],
+            "_meanings": [
+                "The wax of the ear."
+            ]
+        }
     ]
 }

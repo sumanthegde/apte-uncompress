@@ -1,19 +1,84 @@
 {
-    "__line": 151788,
+    "__line": 159565,
     "_ancestry": [
         "L_ 17980",
-        "B_ {#parijri#}"
+        "B_ {#DAraRA#}"
     ],
-    "_banner": "{#parijri#}",
+    "_banner": "{#DAraRA#}",
     "_bannerExp": [
         {
-            "Right": "parijri"
+            "Right": "DAraRA"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Running round."
+        ".²1 The act of holding, bearing, supporting, preserving, <ab>&c.</ab>\n",
+        ".²2 The faculty of retaining in the mind, a good or retentive memory; {#DIrDAraRAvatI meDA#} <ls>Ak.</ls>\n",
+        ".²3 Memory in general.\n",
+        ".²4 Keeping the mind collected, holding the breath suspended, steady abstraction\n of mind; {#paricetumupAMSu DAraRAm#} <ls>R. 8. 18</ls>; <ls>Ms. 6. 72</ls>; <ls>Y. 3. 201</ls> ({#DAraRetyucyate#}\n {#ceyaM DAryate yanmano tayA#}).\n",
+        ".²5 Fortitude, firmness, steadiness.\n",
+        ".²6 A fixed precept or injunction, a settled rule, conclusion; {#iti Darmasya#}\n {#DAraRA#} <ls>Ms. 8. 184</ls>, <ls n=\"Ms.\">4. 38</ls>, <ls n=\"Ms.\">9. 124</ls>.\n",
+        ".²7 Understanding, intellect; <ls>Y. 3. 73</ls>.\n",
+        ".²8 Continuance in rectitude, propriety, decorum.\n",
+        ".²9 Conviction or abstraction.\n",
+        ".²10 A kind of {#yogANga#}; {#deSabanDaScittasya DAraRA#} <ls>Yogadarśana.</ls>\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 159580,
+            "_ancestry": [
+                "L_ 17980",
+                "B_ {#DAraRA#}",
+                "S_ .{@{#-Atmaka#}@}"
+            ],
+            "_banner": ".{@{#-Atmaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DAraRAtmaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who easily composes himself.\n"
+            ]
+        },
+        {
+            "__line": 159581,
+            "_ancestry": [
+                "L_ 17980",
+                "B_ {#DAraRA#}",
+                "S_ .{@{#-yogaH#}@}"
+            ],
+            "_banner": ".{@{#-yogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DAraRAyogaH"
+                }
+            ],
+            "_meanings": [
+                "deep devotion.\n"
+            ]
+        },
+        {
+            "__line": 159582,
+            "_ancestry": [
+                "L_ 17980",
+                "B_ {#DAraRA#}",
+                "S_ .{@{#-SaktiH#}@}"
+            ],
+            "_banner": ".{@{#-SaktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DAraRASaktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a retentive memory."
+            ]
+        }
     ]
 }

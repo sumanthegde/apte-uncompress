@@ -1,20 +1,85 @@
 {
-    "__line": 190443,
+    "__line": 203647,
     "_ancestry": [
         "L_ 22701",
-        "B_ {#manyA#}"
+        "B_ {#pratisara#}"
     ],
-    "_banner": "{#manyA#}",
+    "_banner": "{#pratisara#}",
     "_bannerExp": [
         {
-            "Right": "manyA"
+            "Right": "pratisara"
         }
     ],
     "_gram": [
-        "[{#manyate'nayA manyA galapArSvaSirA#}\n<ls>P. III. 3. 59</ls> <ls>Sk.</ls>]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} The nape or\nback of the neck. ",
-        "{@--2@} Knowledge."
+        "Dependent, subject.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 203648,
+            "_ancestry": [
+                "L_ 22701",
+                "B_ {#pratisara#}",
+                "M_ .{@{#-raH, -ram#}@}"
+            ],
+            "_banner": ".{@{#-raH, -ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratisaraH"
+                },
+                {
+                    "Right": "pratisaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cord or ribbon worn round the wrist or neck as an amulet.\n",
+                ".²2 An ornament.\n",
+                ".²3 A watch, guard.\n",
+                ".²4 Assailing, an attack.\n"
+            ]
+        },
+        {
+            "__line": 203653,
+            "_ancestry": [
+                "L_ 22701",
+                "B_ {#pratisara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratisaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A servant, follower; {#vijaye tvaryatAM leKaH pratisarAya#} <ls>Pratijñā.</ls>\n",
+                ".²2 A bracelet, marriage-string; {#srastoragapratisareRa kareRa pARiH#}\n ({#agfhyata#}) <ls>Ki. 5. 33</ls>; (= {#kOtukasUtra#}); <ls>Māl. 5. 18</ls>.\n",
+                ".²3 A garland, wreath.\n",
+                ".²4 Day-break.\n",
+                ".²5 The rear of an army.\n",
+                ".²6 A form of incantation.\n",
+                ".²7 Healing or dressing a wound.\n"
+            ]
+        },
+        {
+            "__line": 203662,
+            "_ancestry": [
+                "L_ 22701",
+                "B_ {#pratisara#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratisarA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A female servant.\n",
+                ".²2 A thread, fillet; {#pratisarayA turagARAM BallAtakaSAlikuRWasidDArTaM#}\n {#kaRWezu nivaDnIyAt#}."
+            ]
+        }
     ]
 }

@@ -1,20 +1,64 @@
 {
-    "__line": 67234,
+    "__line": 65249,
     "_ancestry": [
         "L_ 7823",
-        "B_ {#uttamatA --tvaM#}"
+        "B_ {#AScarya#}"
     ],
-    "_banner": "{#uttamatA --tvaM#}",
+    "_banner": "{#AScarya#}",
     "_bannerExp": [
         {
-            "Right": "uttamatA"
-        },
-        {
-            "Right": "uttamatvaM"
+            "Right": "AScarya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#A-car-Ryat suw AScaryamAnetye#} <ls>P. VI. 1. 147</ls>]"
+    ],
     "_meanings": [
-        "{@--1@} Excellence. ",
-        "{@--2@} \nGoodness, good quality."
+        "Marvellous, wonderful, extraordinary, astonishing, strange, curious {#AScaryo#}\n {#gavAM doho'gopena#} <ls>Sk.</ls>; {#tadanu vavfzuH puzpamAScaryameGAH#} <ls>R. 16. 87</ls>;\n {#˚darSano manuzyalokaH#} <ls>Ś. 7</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 65253,
+            "_ancestry": [
+                "L_ 7823",
+                "B_ {#AScarya#}",
+                "M_ .{@{#-ryam#}@}"
+            ],
+            "_banner": ".{@{#-ryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AScaryam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wonder, miracle, marvel; {#kimAScaryaM kzAradeSe prARadA yamadUtikA#}\n <ls>Udb.</ls> {#karmAScaryARi#} <ls>U. 1</ls> wonderful deeds; <ls>K. 65</ls>; <ls>Mv. 1</ls>; <ls>Bg. 11. 6</ls>, <ls n=\"Bg.\">2. 29</ls>.\n",
+                ".²2 Surprise, wonder, astonishment; {#˚maya#} <ls>Bg. 11. 11</ls>.\n",
+                ".²3 A strange appearance, prodigy.\n",
+                ".²4 (Used as an exclamation) A wonder, how strange or curious; {#AScaryaM#}\n {#paripIqito'Biramate yaccAtakastfzRayA#}\n\n <ls>Chāt. 2. 4</ls>; usually with {#yacca, yatra#} or {#yadi#} with a following\n potential or future.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 65264,
+            "_ancestry": [
+                "L_ 7823",
+                "B_ {#AScarya#}",
+                "S_ .{@{#-BUta#}@}"
+            ],
+            "_banner": ".{@{#-BUta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AScaryaBUta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wonderful, being an object of wonder; <ls>K. 8</ls>."
+            ]
+        }
     ]
 }

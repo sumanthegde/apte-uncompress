@@ -1,20 +1,75 @@
 {
-    "__line": 67970,
+    "__line": 65939,
     "_ancestry": [
         "L_ 7894",
-        "B_ {#utpatAka#}"
+        "B_ {#Asakta#}"
     ],
-    "_banner": "{#utpatAka#}",
+    "_banner": "{#Asakta#}",
     "_bannerExp": [
         {
-            "Right": "utpatAka"
+            "Right": "Asakta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#uttolitA patAkA yatra#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "With uplifted banners, where flags\nare hoisted; {#puraMdaraSrIH puramutpatAkaM#}  \n<ls>R. 2. 74.</ls>"
+        ".²1 Strongly attached to, intent on, devoted or addicted to, (usually with\n <ab>loc.</ab> or in <ab>comp.</ab>) {#dyUta˚, mfgayA˚#}.\n",
+        ".²2 Absorbed or engaged in, zealously following or pursuing.\n",
+        ".²3 Fixed on, directed towards, joined or attached to, placed or resting\n on; {#manmuKAsaktadfzwiH#} <ls>K. 158</ls>; {#yadAsaktaM saKyaM jane#} <ls>Mv. 5. 58</ls>\n formed; {#SiKarAsaktameGAH#} <ls>Ku. 6. 40</ls> resting on; {#˚bAhulatayA#} <ls n=\"Ku.\">8</ls>.\n",
+        ".²4 Surrounded, encircled.\n",
+        ".²5 Continuous, perpetual, eternal.\n",
+        ".²6 Trusting to, confiding in.\n",
+        ".²7 Obstructed, checked; {#kArtavIryamujAsaktaM tajjalaM prApya nirmalam#}\n <ls>Rām. 7. 32. 5</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 65951,
+            "_ancestry": [
+                "L_ 7894",
+                "B_ {#Asakta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Asaktam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Eternally, perpetually.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 65953,
+            "_ancestry": [
+                "L_ 7894",
+                "B_ {#Asakta#}",
+                "S_ .{@{#-citta, -cetas, -manas#}@}"
+            ],
+            "_banner": ".{@{#-citta, -cetas, -manas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Asaktacitta"
+                },
+                {
+                    "Right": "Asaktacetas"
+                },
+                {
+                    "Right": "Asaktamanas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the mind fixed on any object."
+            ]
+        }
     ]
 }

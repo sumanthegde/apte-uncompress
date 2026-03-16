@@ -1,61 +1,178 @@
 {
-    "__line": 84567,
+    "__line": 83866,
     "_ancestry": [
         "L_ 10068",
-        "B_ {#kaWora#}"
+        "B_ {#upasTa#}"
     ],
-    "_banner": "{#kaWora#}",
+    "_banner": "{#upasTa#}",
     "_bannerExp": [
         {
-            "Right": "kaWora"
+            "Right": "upasTa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Hard(<ab>fig.</ab> also),\nsolid, stiff; {#kaWorAsTigrAMTi#}  \n<ls>Māl. 5. 34.</ls> ",
-        "{@--2@} Cruel, hard-hearted, ruthless;\n{#ayi kaWora yaSaH kila te priyaM#}  \n<ls>U. 3. 27</ls>; so {#°hfdaya, °citta#}. ",
-        "{@--3@} Sharp,\npiercing; {#°aMkuSa#} <ls>Śānti. 1. 22.</ls> ",
-        "{@--4@}\nFull, developed, complete, \nfullgrown, of mature age; {#kaWoragarBAM#} \n{#jAnakIM vimucya#} <ls>U. 1</ls>, <ls n=\"U.\">1. 49</ls>, <ls n=\"U.\">6. 25</ls>;\n<ls>Māl. 6. 19</ls>; so {#kaWoratArADipalAMCanacCaviH#}\n<ls>Śi. 1. 20</ls>; so {#a°#} new, young;  \n<ls>Māl. 1. 2.</ls> ",
-        "{@--5@} (Fig.) Matured, \n\nrefined: {#kalAkalApAlocanakaWAremAtiBiH#}\n<ls>K. 7</ls>; {#°rIBUtaH divasaH#} <ls>U. 2</ls> it\nis noon-time. "
+        "Near, approximate.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 84582,
+            "__line": 83867,
             "_ancestry": [
                 "L_ 10068",
-                "B_ {#kaWora#}",
-                "S_  {#--garBa#}"
+                "B_ {#upasTa#}",
+                "M_ .{@{#-sTaH#}@}"
             ],
-            "_banner": " {#--garBa#}",
+            "_banner": ".{@{#-sTaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kaWoragarBa"
+                    "Right": "upasTaH"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "far advanced in pregnancy;  \n<ls>U. 1. 49.</ls> "
+                ".²1 The lap; {#upasTaM kf#} to make a lap; {#˚sTe kf#} to take on the lap.\n",
+                ".²2 The middle part in general. {#tasminnirmanuje'raRye pippalopasTa AsTitaH#}\n <ls>Bhāg. 1. 6. 16</ls>.\n"
             ]
         },
         {
-            "__line": 84584,
+            "__line": 83871,
             "_ancestry": [
                 "L_ 10068",
-                "B_ {#kaWora#}",
-                "S_ {#--girimAhAtmyaM#}"
+                "B_ {#upasTa#}",
+                "M_ .{@{#-sTaH, -sTam#}@}"
             ],
-            "_banner": "{#--girimAhAtmyaM#}",
+            "_banner": ".{@{#-sTaH, -sTam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kaWoragirimAhAtmyaM"
+                    "Right": "upasTaH"
+                },
+                {
+                    "Right": "upasTam"
                 }
             ],
             "_meanings": [
-                "a portion of\nthe Brahmāṇḍa Purāṇa."
+                ".²1 The organ of generation (of men and women, particularly\n of the latter); {#snAnaM mOnopavAsejyAsvADyAyopasTanigrahAH#} <ls>Y. 3. 313</ls>\n (male); {#sTUlopasTasTalIzu#} <ls>Bh. 1. 37</ls> (female); {#hastO pAyurupasTaSca#}\n <ls>Y. 3. 92</ls> (where the word is used in both senses).\n",
+                ".²2 The anus.\n",
+                ".²3 The haunch or hip.\n",
+                ".²4 A sheltered place, seat. {#evamuktvA'rjunaH saMKye raTopasTa upAviSat#} <ls>Bg. 1. 47</ls>.\n",
+                ".²5 Surface, ground; {#taM SayAnaM DaropasTe#} <ls>Bhāg. 7. 13. 12</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 83880,
+            "_ancestry": [
+                "L_ 10068",
+                "B_ {#upasTa#}",
+                "S_ .{@{#-daGna#}@}"
+            ],
+            "_banner": ".{@{#-daGna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasTadaGna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "reaching to the lap.\n\n"
+            ]
+        },
+        {
+            "__line": 83882,
+            "_ancestry": [
+                "L_ 10068",
+                "B_ {#upasTa#}",
+                "S_ .{@{#-nigrahaH#}@}"
+            ],
+            "_banner": ".{@{#-nigrahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasTanigrahaH"
+                }
+            ],
+            "_meanings": [
+                "restraint of sensual passions, continence; {#snAnaM#}\n {#mOnopavAsejyAsvADyAyopasTanigrahAH#} <ls>Y. 3. 313</ls>.\n"
+            ]
+        },
+        {
+            "__line": 83884,
+            "_ancestry": [
+                "L_ 10068",
+                "B_ {#upasTa#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasTapatraH"
+                }
+            ],
+            "_meanings": [
+                ", {@{#-dalaH#}@}\n the Indian fig-tree (so called because its leaves resemble\n in shape the female organ of generation).\n"
+            ]
+        },
+        {
+            "__line": 83887,
+            "_ancestry": [
+                "L_ 10068",
+                "B_ {#upasTa#}",
+                "S_ .{@{#-padA#}@}"
+            ],
+            "_banner": ".{@{#-padA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasTapadA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A particular artery leading to the generative organs\n (of a male); Sāyaṇa on <ls>Ait. Br. 3. 37. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 83889,
+            "_ancestry": [
+                "L_ 10068",
+                "B_ {#upasTa#}",
+                "S_ .{@{#-pAda#}@}"
+            ],
+            "_banner": ".{@{#-pAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasTapAda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Sitting with the legs bent down so as to form a lap;\n <ls>Sāṅ. Gṛ. Sūtras 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 83891,
+            "_ancestry": [
+                "L_ 10068",
+                "B_ {#upasTa#}",
+                "S_ .{@{#-sad#}@}"
+            ],
+            "_banner": ".{@{#-sad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upasTasad"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sitting in the lap. {#prezWaH SrezWa upasTasat#} <ls>Rv. 10. 156. 5</ls>."
             ]
         }
     ]

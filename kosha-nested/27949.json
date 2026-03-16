@@ -1,38 +1,36 @@
 {
-    "__line": 235037,
+    "__line": 258028,
     "_ancestry": [
         "L_ 27949",
-        "B_ {#SiMjita#}"
+        "B_ {#lAlaka#}"
     ],
-    "_banner": "{#SiMjita#}",
+    "_banner": "{#lAlaka#}",
     "_bannerExp": [
         {
-            "Right": "SiMjita"
+            "Right": "lAlaka"
+        },
+        {
+            "Left": "fFromGramCore error: lAlaka  likA"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-likA#}|{%f.%})"
     ],
     "_meanings": [
-        "Tinkling, jingling.\n"
+        "Fondling, coaxing.\n"
     ],
     "_morphisms": [
         {
-            "__line": 235038,
+            "__line": 258030,
             "_ancestry": [
                 "L_ 27949",
-                "B_ {#SiMjita#}",
-                "M_ {#--taM#}"
+                "B_ {#lAlaka#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--taM#}",
-            "_bannerExp": [
-                {
-                    "Right": "SiMjitaM"
-                }
-            ],
+            "_banner": ".{@{#-kaH#}@}",
             "_meanings": [
-                "{@--1@} Tinkling, jingling (of anklets\n&c.); {#kUjitaM rAjahaMsAnAM nedaM#} \n{#nUpuraSiMjitaM#} <ls>V. 4. 14.</ls> ",
-                "{@--2@} Clanking (of\nchains)."
+                "A kingʼs jester."
             ]
         }
     ]

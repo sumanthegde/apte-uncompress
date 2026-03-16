@@ -1,31 +1,98 @@
 {
-    "__line": 228083,
+    "__line": 248253,
     "_ancestry": [
         "L_ 27073",
-        "B_ {#vEDa#}"
+        "B_ {#yugya#}"
     ],
-    "_banner": "{#vEDa#}",
+    "_banner": "{#yugya#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: vEDa  kI"
-        },
-        {
-            "Right": "vEDI"
-        },
-        {
-            "Right": "vEDa"
+            "Right": "yugya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#DI#}|{%<ab>f.</ab>%})",
-        "{#vEDika#}",
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#viDita AgataH aR Wak vA#}]"
+        "{%a.%}",
+        "[{#yugAya hitaH yat#}]"
     ],
     "_meanings": [
-        "{@--1@} \nConformable to rule, settled, fixed, ritual.\n",
-        "{@--2@} Legal, lawful."
+        ".²1 Fit to be yoked; {#SakawApaRaveSASca yAnayugyaM ca sarvaSaH#} <ls>Mb. 5. 151. 58</ls>.\n",
+        ".²2 Belonging to a yoke.\n",
+        ".²3 Yoked, harnessed.\n",
+        ".²4 Drawn by; as in {#aSvayugyo raTaH#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 248258,
+            "_ancestry": [
+                "L_ 27073",
+                "B_ {#yugya#}",
+                "M_ .{@{#-gyaH#}@}"
+            ],
+            "_banner": ".{@{#-gyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yugyaH"
+                }
+            ],
+            "_meanings": [
+                "Any yoked or draught animal, especially a chariot-horse;\n {#hariyugyaM raTaM tasmE prajiGAya puraMdaraH#} <ls>R. 12. 84</ls>.\n"
+            ]
+        },
+        {
+            "__line": 248260,
+            "_ancestry": [
+                "L_ 27073",
+                "B_ {#yugya#}",
+                "M_ .{@{#-gyam#}@}"
+            ],
+            "_banner": ".{@{#-gyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yugyam"
+                }
+            ],
+            "_meanings": [
+                "A vehicle, carriage.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 248262,
+            "_ancestry": [
+                "L_ 27073",
+                "B_ {#yugya#}",
+                "S_ .{@{#-vAhaH#}@}"
+            ],
+            "_banner": ".{@{#-vAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yugyavAhaH"
+                }
+            ],
+            "_meanings": [
+                "a coachman.\n"
+            ]
+        },
+        {
+            "__line": 248263,
+            "_ancestry": [
+                "L_ 27073",
+                "B_ {#yugya#}",
+                "S_ .{@{#-sTa#}@}"
+            ],
+            "_banner": ".{@{#-sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yugyasTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being in a carriage; {#yugyasTAH prAjake'nApte#} <ls>Ms. 8. 294</ls>."
+            ]
+        }
     ]
 }

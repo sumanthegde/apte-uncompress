@@ -1,19 +1,73 @@
 {
-    "__line": 253390,
+    "__line": 279607,
     "_ancestry": [
         "L_ 30314",
-        "B_ {#sima#}"
+        "B_ {#viS#}"
     ],
-    "_banner": "{#sima#}",
+    "_banner": "{#viS#}",
     "_bannerExp": [
         {
-            "Right": "sima"
+            "Right": "viS"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€6",
+        "<ab>P.</ab>",
+        "({#viSati, viveSa, avikzat vekzyati, vezwum, vizwa#})"
     ],
     "_meanings": [
-        "Every, all, whole, entire."
+        ".²1 To enter, go or enter into; {#yaTA pradIptaM jvalanaM pataNgA viSanti#}\n {#nASAya samfdDavegAH#} <ls>Bg. 11. 29</ls>; {#BoktumantaHpuraM viSet#} <ls>Ms. 7. 216</ls>;\n {#viveSa kaScijjawilastapovanam#} <ls>Ku. 5. 30</ls>; <ls>R. 6. 10</ls>; <ls>Me. 104</ls>; so {#dolAyamAnena#}\n {#cetasA cintAM viveSa#} <ls>K. 199</ls> ‘fell a-thinking’.\n",
+        ".²2 To go or come to, come into the possession of, fall\n\n to the share of; {#upadA viviSuH SaSvannotsekAH koSaleSvaram#} <ls>R. 4. 70</ls>.\n",
+        ".²3 To sit or settle down upon.\n",
+        ".²4 To penetrate, pervade.\n",
+        ".²5 To enter upon, undertake.\n",
+        ".²6 (In <ab>astr.</ab>) To come into conjunction with.\n",
+        ".²7 To appear on the stage.\n",
+        ".²8 To flow into (as a river or army); {#tatsenA naranATAnAM pftanABiH#}\n {#pade pade . kulApageva kulyABirviSantIBiravarData ..#} <ls>Rāj. T. 5. 140</ls>.\n",
+        ".²9 To befall (a death).\n",
+        ".²10 To belong to, exist for.\n",
+        ".²11 To mind, attend to (any business); <ls>Mb. 12</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 279624,
+            "_ancestry": [
+                "L_ 30314",
+                "B_ {#viS#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "viS"
+                }
+            ],
+            "_gram": [
+                "({#veSayati-te#})"
+            ],
+            "_meanings": [
+                "To cause to enter. "
+            ]
+        },
+        {
+            "__line": 279625,
+            "_ancestry": [
+                "L_ 30314",
+                "B_ {#viS#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "viS"
+                }
+            ],
+            "_gram": [
+                "({#vivikzati#})"
+            ],
+            "_meanings": [
+                "To wish to enter."
+            ]
+        }
     ]
 }

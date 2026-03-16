@@ -1,20 +1,235 @@
 {
-    "__line": 164635,
+    "__line": 176241,
     "_ancestry": [
         "L_ 19681",
-        "B_ {#pracCAdita#}"
+        "B_ {#pakzin#}"
     ],
-    "_banner": "{#pracCAdita#}",
+    "_banner": "{#pakzin#}",
     "_bannerExp": [
         {
-            "Right": "pracCAdita"
+            "Right": "pakzin"
+        },
+        {
+            "Right": "pakziRI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#pakza astyarTe ini#}]"
     ],
     "_meanings": [
-        "{@--1@} Covered, \nenveloped, clothed &c. ",
-        "{@--2@} Hidden, \nconcealed."
+        ".²1 Winged; {#ye pakziRaH praTamamambuniDiM gatAste#} <ls>Śi. 5. 31</ls>.\n",
+        ".²2 Furnished with wings.\n",
+        ".²3 Siding with, adhering to the party of. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 176245,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pakzin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A bird.\n",
+                ".²2 An arrow. ",
+                ".²3 An epithet of Śiva.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 176249,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-indraH, -pravaraH, -rAj#}@}"
+            ],
+            "_banner": ".{@{#-indraH, -pravaraH, -rAj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzIndraH"
+                },
+                {
+                    "Right": "pakzipravaraH"
+                },
+                {
+                    "Right": "pakzirAj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-rAjaH, -siMhaH, -svAmin#}@}",
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "epithets of Garuḍa.\n"
+            ]
+        },
+        {
+            "__line": 176251,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-kIwaH#}@}"
+            ],
+            "_banner": ".{@{#-kIwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzikIwaH"
+                }
+            ],
+            "_meanings": [
+                "an insignificant bird.\n"
+            ]
+        },
+        {
+            "__line": 176252,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-tIrTam#}@}"
+            ],
+            "_banner": ".{@{#-tIrTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzitIrTam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a sacred place in South India.\n"
+            ]
+        },
+        {
+            "__line": 176253,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzipatiH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Sampāti.\n"
+            ]
+        },
+        {
+            "__line": 176254,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-pAnIyaSAlikA#}@}"
+            ],
+            "_banner": ".{@{#-pAnIyaSAlikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzipAnIyaSAlikA"
+                }
+            ],
+            "_meanings": [
+                "a trough or reservoir for watering birds.\n"
+            ]
+        },
+        {
+            "__line": 176255,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-puNgavaH#}@}"
+            ],
+            "_banner": ".{@{#-puNgavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzipuNgavaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Jaṭāyu.\n",
+                ".²2 <ab>N.</ab> of Garuḍa.\n"
+            ]
+        },
+        {
+            "__line": 176257,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-bAlakaH, -SAvakaH#}@}"
+            ],
+            "_banner": ".{@{#-bAlakaH, -SAvakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzibAlakaH"
+                },
+                {
+                    "Right": "pakziSAvakaH"
+                }
+            ],
+            "_meanings": [
+                "a young bird.\n"
+            ]
+        },
+        {
+            "__line": 176258,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakzimArgaH"
+                }
+            ],
+            "_meanings": [
+                "the air.\n"
+            ]
+        },
+        {
+            "__line": 176259,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-SArdUlaH#}@}"
+            ],
+            "_banner": ".{@{#-SArdUlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakziSArdUlaH"
+                }
+            ],
+            "_meanings": [
+                "(in music) a kind of dance.\n"
+            ]
+        },
+        {
+            "__line": 176260,
+            "_ancestry": [
+                "L_ 19681",
+                "B_ {#pakzin#}",
+                "S_ .{@{#-SAlA#}@}"
+            ],
+            "_banner": ".{@{#-SAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pakziSAlA"
+                }
+            ],
+            "_meanings": [
+                ".²1 a nest.\n",
+                ".²2 an aviary."
+            ]
+        }
     ]
 }

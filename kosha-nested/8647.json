@@ -1,19 +1,65 @@
 {
-    "__line": 73893,
+    "__line": 72420,
     "_ancestry": [
         "L_ 8647",
-        "B_ {#upanAmuka#}"
+        "B_ {#utKAta#}"
     ],
-    "_banner": "{#upanAmuka#}",
+    "_banner": "{#utKAta#}",
     "_bannerExp": [
         {
-            "Right": "upanAmuka"
+            "Right": "utKAta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Bending towards."
+        ".²1 Excavated, dug up. {#utKAtaM niDiSaNkayA kzititalaM DmAtA girerGAtavaH#} <ls>Bh. 3. 4</ls>.\n",
+        ".²2 Extracted, drawn out; {#utKAtaM parityAgaSalyam#} <ls>U. 3</ls>.\n",
+        ".²3 Uprooted, plucked up by the roots (<ab>lit.</ab>); {#lIlA˚#} uprooted in sport\n <ls>U. 3. 16</ls>; <ls>Māl. 9. 34</ls>.\n",
+        ".²4 (<ab>fig.</ab>)\n",
+        ".³({%a%}) Eradicated, totally destroyed, annihilated; {#kimutKAtaM nandavaMSasya#}\n <ls>Mu. 1</ls>; {#˚lavaRo maDureSvaraH prAptaH#} <ls>U. 7</ls>.\n",
+        ".³({%b%}) Deposed, deprived of power or authority; {#PalEH saMvarDayAmAsurutKAtapratiropitAH#}\n <ls>R. 4. 37</ls> (where {#utKAta#} means ‘uprooted’ also).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 72430,
+            "_ancestry": [
+                "L_ 8647",
+                "B_ {#utKAta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "utKAtam"
+                }
+            ],
+            "_meanings": [
+                "A hole, cavity, hollow, uneven ground; {#anutKAtastimita#}\n not stopped by uneven ground; <ls>Ś. 7. 33</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 72433,
+            "_ancestry": [
+                "L_ 8647",
+                "B_ {#utKAta#}",
+                "S_ .{@{#-keliH#}@}"
+            ],
+            "_banner": ".{@{#-keliH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "utKAtakeliH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "digging out earth in sport (by means of horns, tusks\n <ab>&c.</ab>); {#utKAtakeliH SfNgAdyErvaprakIqA nigadyate#}."
+            ]
+        }
     ]
 }

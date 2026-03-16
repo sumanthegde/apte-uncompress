@@ -1,20 +1,41 @@
 {
-    "__line": 42614,
+    "__line": 40414,
     "_ancestry": [
         "L_ 4725",
-        "B_ {#avaratiH#}"
+        "B_ {#aleSa#}"
     ],
-    "_banner": "{#avaratiH#}",
+    "_banner": "{#aleSa#}",
     "_bannerExp": [
         {
-            "Right": "avaratiH"
+            "Right": "aleSa"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Stopping, ceasing,\ncessation. ",
-        "{@--2@} Repose, relaxation,\nrest."
+        "Not little, much, large.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 40415,
+            "_ancestry": [
+                "L_ 4725",
+                "B_ {#aleSa#}",
+                "M_ .{@{#-Sam#}@}"
+            ],
+            "_banner": ".{@{#-Sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aleSam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Not at all."
+            ]
+        }
     ]
 }

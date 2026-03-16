@@ -1,16 +1,104 @@
 {
-    "__line": 40020,
+    "__line": 36426,
     "_ancestry": [
         "L_ 4349",
-        "B_ {#avakarzaRaM#}"
+        "B_ {#ayuga#}, {#-gala#}"
     ],
-    "_banner": "{#avakarzaRaM#}",
+    "_banner": "{#ayuga#}, {#-gala#}",
     "_bannerExp": [
         {
-            "Right": "avakarzaRaM"
+            "Right": "ayuga"
+        },
+        {
+            "Right": "ayugala"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Drawing with strength,\nremoving a thing from one place to\nanother."
+        ".²1 Separate, single.\n",
+        ".²2 Odd, uneven.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 36429,
+            "_ancestry": [
+                "L_ 4349",
+                "B_ {#ayuga#}, {#-gala#}",
+                "M_ .{@{#-gam#}@}"
+            ],
+            "_banner": ".{@{#-gam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayugam"
+                }
+            ],
+            "_meanings": [
+                "Pre-yuga period, before cosmogonic time; {#AdO kftayuge'yuge#}\n <ls>Bhāg. 11. 24. 2</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 36432,
+            "_ancestry": [
+                "L_ 4349",
+                "B_ {#ayuga#}, {#-gala#}",
+                "S_ .{@{#-arcis#}@}"
+            ],
+            "_banner": ".{@{#-arcis#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayugArcis"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "Fire.\n"
+            ]
+        },
+        {
+            "__line": 36433,
+            "_ancestry": [
+                "L_ 4349",
+                "B_ {#ayuga#}, {#-gala#}",
+                "S_ .{@{#-netraH, -nayanaH, -SaraH#}@}"
+            ],
+            "_banner": ".{@{#-netraH, -nayanaH, -SaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayuganetraH"
+                },
+                {
+                    "Right": "ayuganayanaH"
+                },
+                {
+                    "Right": "ayugaSaraH"
+                }
+            ],
+            "_meanings": [
+                "See under {#ayugma#}.\n"
+            ]
+        },
+        {
+            "__line": 36434,
+            "_ancestry": [
+                "L_ 4349",
+                "B_ {#ayuga#}, {#-gala#}",
+                "S_ .{@{#-saptiH#}@}"
+            ],
+            "_banner": ".{@{#-saptiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayugasaptiH"
+                }
+            ],
+            "_meanings": [
+                "having seven horses; {#yugapadayugasaptistulyasaMKyErmayUKEH#} <ls>Śi. 11. 61</ls>."
+            ]
+        }
     ]
 }

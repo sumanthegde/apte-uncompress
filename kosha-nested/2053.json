@@ -1,20 +1,42 @@
 {
-    "__line": 19969,
+    "__line": 17627,
     "_ancestry": [
         "L_ 2053",
-        "B_ {#anUzara#}"
+        "B_ {#anurahasa#}"
     ],
-    "_banner": "{#anUzara#}",
+    "_banner": "{#anurahasa#}",
     "_bannerExp": [
         {
-            "Right": "anUzara"
+            "Right": "anurahasa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#anugatam rahaH#}]"
     ],
     "_meanings": [
-        "{@--1@} Saline, the same as\n{#Uzara#}; <ab>cf.</ab> {#uttama#} and {#anuttama#}. ",
-        "{@--2@} Not\nsaline."
+        "Secret, solitary, private.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 17628,
+            "_ancestry": [
+                "L_ 2053",
+                "B_ {#anurahasa#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anurahasam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "In secret, apart, privately; {#anurahasamanAyi nAyakena#} <ls>Śi. 7. 50</ls>."
+            ]
+        }
     ]
 }

@@ -1,44 +1,381 @@
 {
-    "__line": 237826,
+    "__line": 261210,
     "_ancestry": [
         "L_ 28288",
-        "B_ {#SOMqikaH, SOMqin#}"
+        "B_ {#vacanam#}"
     ],
-    "_banner": "{#SOMqikaH, SOMqin#}",
+    "_banner": "{#vacanam#}",
     "_bannerExp": [
         {
-            "Right": "SOMqikaH"
-        },
-        {
-            "Right": "SOMqin"
+            "Right": "vacanam"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "[{#SuMqA surA paRyamasya#}\n{#Wak ini vA#}]"
+        "[{#vac-lyuw#}]"
     ],
     "_meanings": [
-        "A distiller and seller of\nspirituous liquors, a vintner. "
+        ".²1 The act of speaking, uttering. saying.\n",
+        ".²2 Speech, an utterance, words (spoken), sentence; {#nanu vaktfviSezaniHspfhA#}\n {#guRagfhyA vacane vipaScitaH#} <ls>Ki. 2. 5</ls>; {#prItaH prItipramuKavacanaM svAgataM#}\n {#vyAjahAra#} <ls>Me. 4</ls>.\n",
+        ".²3 Repeating, recitation.\n",
+        ".²4 A text, dictum, rule, precept, a passage of a sacred book; {#SAstravacanam#},\n {#Srutivacanam, smftivacanam#} <ab>&c.</ab>\n",
+        ".²5 An order, a command, direction; {#SuSrUzAM gOravaM cEva pramARaM vacanakriyAm#}\n ({#kuryAt#}) <ls>Rām. 2. 12. 26</ls>; {#madvacanAt#} ‘in my name’, ‘by my order’.\n",
+        ".²6 Advice, counsel, instruction.\n",
+        ".²7 Declaration, affirmation.\n",
+        ".²8 Pronunciation (of a letter) (in <ab>gram.</ab>).\n",
+        ".²9 The signification or meaning of a word; {#atra payoDaraSabdaH meGavacanaH#}.\n",
+        ".²10 Number (in <ab>gram.</ab>); (there are three numbers, singular, dual and plural). ",
+        ".²11 Dry ginger.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 237828,
+            "__line": 261226,
             "_ancestry": [
                 "L_ 28288",
-                "B_ {#SOMqikaH, SOMqin#}",
-                "M_ {#--kI#}"
+                "B_ {#vacanam#}",
+                "S_ .{@{#-avakzepaH#}@}"
             ],
-            "_banner": "{#--kI#}",
+            "_banner": ".{@{#-avakzepaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SOMqikI"
+                    "Right": "vacanAvakzepaH"
+                }
+            ],
+            "_meanings": [
+                "abusive speech.\n"
+            ]
+        },
+        {
+            "__line": 261227,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-upakramaH#}@}"
+            ],
+            "_banner": ".{@{#-upakramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanopakramaH"
+                }
+            ],
+            "_meanings": [
+                "introduction, exordium.\n"
+            ]
+        },
+        {
+            "__line": 261228,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-upanyAsaH#}@}"
+            ],
+            "_banner": ".{@{#-upanyAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanopanyAsaH"
+                }
+            ],
+            "_meanings": [
+                "suggestive speech, insinuation.\n"
+            ]
+        },
+        {
+            "__line": 261229,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanakara"
                 }
             ],
             "_gram": [
-                "{#--nI#}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "A female vintner; {#payopi#} \n{#SOMqikIhaste vAruRItyaBiDIyate#} <ls>H. 3. 11.</ls>"
+                "obedient, doing what is ordered.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 261230,
+                    "_ancestry": [
+                        "L_ 28288",
+                        "B_ {#vacanam#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "vacanakaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the author or enunciator of a rule or precept.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 261231,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-kArin#}@}"
+            ],
+            "_banner": ".{@{#-kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "obeying orders, obedient.\n"
+            ]
+        },
+        {
+            "__line": 261232,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-kramaH#}@}"
+            ],
+            "_banner": ".{@{#-kramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanakramaH"
+                }
+            ],
+            "_meanings": [
+                "discourse.\n"
+            ]
+        },
+        {
+            "__line": 261233,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-kriyA#}@}"
+            ],
+            "_banner": ".{@{#-kriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanakriyA"
+                }
+            ],
+            "_meanings": [
+                "obedience; {#yaTA pitari SuSrUzA tasya vA vacanakriyA#}\n <ls>Rām. 2. 19. 22</ls>, <ls n=\"Rām.\">2. 12. 26</ls>.\n\n"
+            ]
+        },
+        {
+            "__line": 261236,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-gocara#}@}"
+            ],
+            "_banner": ".{@{#-gocara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanagocara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "forming a subject of conversation.\n"
+            ]
+        },
+        {
+            "__line": 261237,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-gOravam#}@}"
+            ],
+            "_banner": ".{@{#-gOravam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanagOravam"
+                }
+            ],
+            "_meanings": [
+                "deference to a command.\n"
+            ]
+        },
+        {
+            "__line": 261238,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-grAhin#}@}"
+            ],
+            "_banner": ".{@{#-grAhin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanagrAhin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "obedient, compliant, submissive.\n"
+            ]
+        },
+        {
+            "__line": 261239,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-pawu#}@}"
+            ],
+            "_banner": ".{@{#-pawu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanapawu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eloquent.\n"
+            ]
+        },
+        {
+            "__line": 261240,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-mAtram#}@}"
+            ],
+            "_banner": ".{@{#-mAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanamAtram"
+                }
+            ],
+            "_meanings": [
+                "mere words, unsupported assertion.\n"
+            ]
+        },
+        {
+            "__line": 261241,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-viroDaH#}@}"
+            ],
+            "_banner": ".{@{#-viroDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanaviroDaH"
+                }
+            ],
+            "_meanings": [
+                "inconsistency of precepts, contradiction or incongruity of texts.\n"
+            ]
+        },
+        {
+            "__line": 261242,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-vyaktiH#}@}"
+            ],
+            "_banner": ".{@{#-vyaktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanavyaktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 The exact implication of a statement ({%<ab>i. e.</ab>%}\n the exact specification of its {#uddeSapada#} and {#viDeyapada#}); {#anyA#}\n {#hi vacanavyaktirviDIyamAnasya, anyA guRena saMbaDyamAnasya#} <ls>ŚB. on MS. 3. 1. 12</ls>.\n "
+            ],
+            "_samasas": [
+                {
+                    "__line": 261245,
+                    "_ancestry": [
+                        "L_ 28288",
+                        "B_ {#vacanam#}",
+                        "S_ .{@{#-vyaktiH#}@}",
+                        "S_S_ {#˚BedaH#}"
+                    ],
+                    "_banner": "{#˚BedaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "vacanavyaktiBedaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "divergence in the implication of the statement; {#na#}\n {#ca viDerviDinEkavAkyaBAvo Bavati . vacanavyaktiBedAt#} <ls>ŚB. on MS. 6. 1. 5</ls>.\n",
+                        ".²2 interpretation; {#yadA anuvAdapakzastadA AhitAgneH . yadA viDipakzaH#}\n {#tadA anAhitAgneH . uBayaTA vacanavyaktiH pratIyate#} <ls>ŚB. on MS. 6. 8. 8</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 261249,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-Satam#}@}"
+            ],
+            "_banner": ".{@{#-Satam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanaSatam"
+                }
+            ],
+            "_meanings": [
+                "a hundred speeches, {%<ab>i. e.</ab>%} repeated declaration, reiterated assertion.\n"
+            ]
+        },
+        {
+            "__line": 261250,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-sahAyaH#}@}"
+            ],
+            "_banner": ".{@{#-sahAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanasahAyaH"
+                }
+            ],
+            "_meanings": [
+                "a companion in conversation.\n"
+            ]
+        },
+        {
+            "__line": 261251,
+            "_ancestry": [
+                "L_ 28288",
+                "B_ {#vacanam#}",
+                "S_ .{@{#-sTita#}@}"
+            ],
+            "_banner": ".{@{#-sTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vacanasTita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "({#vacanesTita#} also) obedient, compliant."
             ]
         }
     ]

@@ -1,44 +1,95 @@
 {
-    "__line": 57741,
+    "__line": 55932,
     "_ancestry": [
         "L_ 6654",
-        "B_ {#Ayas#}"
+        "B_ {#AjAnaH#}"
     ],
-    "_banner": "{#Ayas#}",
+    "_banner": "{#AjAnaH#}",
     "_bannerExp": [
         {
-            "Right": "Ayas"
+            "Right": "AjAnaH"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "[{#A-jan-GaY#}]"
     ],
     "_meanings": [
-        "{@--1@} To exert \noneself; {#piMqArTamAyasyataH#} <ls>Mu. 3. 14.</ls> ",
-        "{@--2@} To\nweary oneself, become exhausted or\nfatigued; {#nAyasyasi tapasyaMtI#} <ls>Bk. 6. 69</ls>,\n<ls n=\"Bk.\">14. 104</ls>, <ls n=\"Bk.\">15. 54.</ls> "
+        ".²1 Birth, origin.\n",
+        ".²2 Generating cause (said to be {%n.%} also in these two senses).\n"
     ],
     "_morphisms": [
         {
-            "__line": 57745,
+            "__line": 55935,
             "_ancestry": [
                 "L_ 6654",
-                "B_ {#Ayas#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#AjAnaH#}",
+                "M_ .{@{#-nam#}@}"
             ],
+            "_banner": ".{@{#-nam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "Ayas"
+                    "Right": "AjAnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Birth-place.\n",
+                ".²2 Birth, descent, species (<ab>Ved.</ab>). "
+            ]
+        },
+        {
+            "__line": 55937,
+            "_ancestry": [
+                "L_ 6654",
+                "B_ {#AjAnaH#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#AjAnaH#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "From the time of the creation.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 55939,
+            "_ancestry": [
+                "L_ 6654",
+                "B_ {#AjAnaH#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjAnaja"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To\ntrouble, afflict; {#AyAsayati mAM#} \n{#jalABilAzaH#} <ls>K. 35</ls>; <ls>Mu. 7. 8</ls>; <ls>V. 2.</ls> ",
-                "{@--2@}\nTo weary, tire out, worry. ",
-                "{@--3@} To\ninjure, affect; lessen, diminish;  \n<ls>Bk. 8. 61.</ls> ",
-                "{@--4@} To string (as a bow);\n{#anAyAsitakArmukaH#} <ls>Pt. 1. 385.</ls>"
+                "born since the creation (as gods <ab>&c.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 55940,
+            "_ancestry": [
+                "L_ 6654",
+                "B_ {#AjAnaH#}",
+                "S_ .{@{#-devaH#}@}"
+            ],
+            "_banner": ".{@{#-devaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AjAnadevaH"
+                }
+            ],
+            "_meanings": [
+                "a god from the very creation; {#ye SataM karmadevAnAmAnandAH#}\n {#sa eka AjAnadevAnAmAnandaH#} <ls>Bṛ. Up. 4. 3. 33</ls>."
             ]
         }
     ]

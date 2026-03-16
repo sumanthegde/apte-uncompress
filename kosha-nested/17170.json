@@ -1,35 +1,64 @@
 {
-    "__line": 144309,
+    "__line": 149789,
     "_ancestry": [
         "L_ 17170",
-        "B_ {#nizadvaraH#}"
+        "B_ {#deya#}"
     ],
-    "_banner": "{#nizadvaraH#}",
+    "_banner": "{#deya#}",
     "_bannerExp": [
         {
-            "Right": "nizadvaraH"
+            "Right": "deya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#dA karmaRi yat#}]"
+    ],
     "_meanings": [
-        "{@--1@} Mud, mire. ",
-        "{@--2@} The god\nof love. "
+        ".²1 To be given, offered or presented; <ls>R. 3. 16</ls>; (see {#adeya#}).\n",
+        ".²2 Fit to be given, proper for a gift.\n",
+        ".²3 To be returned; or restored; {#viBAvitEkadeSena deyaM yadaBiyujyate#}\n <ls>V. 4. 33</ls>; <ls>Ms. 8. 139</ls>, <ls n=\"Ms. 8.\">185</ls>.\n",
+        ".²4 To be shown.\n",
+        ".²5 To be given in marriage.\n",
+        ".²6 To be paid (as a debt <ab>&c.</ab>).\n",
+        ".²7 To be placed, put, applied, laid, <ab>&c.</ab>; see {#dA#} above.\n",
+        ".²8 To be ceded (road); {#panTA deyo varasya ca#} <ls>Ms. 2. 138</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 144310,
+            "__line": 149799,
             "_ancestry": [
                 "L_ 17170",
-                "B_ {#nizadvaraH#}",
-                "M_ {#--rI#}"
+                "B_ {#deya#}",
+                "M_ .{@{#-yam#}@}"
             ],
-            "_banner": "{#--rI#}",
+            "_banner": ".{@{#-yam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nizadvarI"
+                    "Right": "deyam"
                 }
             ],
             "_meanings": [
-                "Night."
+                "A gift, donation,\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 149801,
+            "_ancestry": [
+                "L_ 17170",
+                "B_ {#deya#}",
+                "S_ .{@{#-DarmaH#}@}"
+            ],
+            "_banner": ".{@{#-DarmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "deyaDarmaH"
+                }
+            ],
+            "_meanings": [
+                "Charity; Buddha."
             ]
         }
     ]

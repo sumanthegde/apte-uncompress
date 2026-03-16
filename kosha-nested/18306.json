@@ -1,19 +1,88 @@
 {
-    "__line": 153764,
+    "__line": 162796,
     "_ancestry": [
         "L_ 18306",
-        "B_ {#parizvakta#}"
+        "B_ {#nandin#}"
     ],
-    "_banner": "{#parizvakta#}",
+    "_banner": "{#nandin#}",
     "_bannerExp": [
         {
-            "Right": "parizvakta"
+            "Right": "nandin"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#nand-Rini#}]"
     ],
     "_meanings": [
-        "Clasped, embraced."
+        ".²1 Happy, pleased, glad, delighted.\n",
+        ".²2 Making happy, gladdening, giving delight; {#adyApyAnandayati mAM tvaM#}\n {#punaH kvAsi nandinI#} <ls>U. 3. 14</ls>.\n",
+        ".²3 Delighting in, liking. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 162800,
+            "_ancestry": [
+                "L_ 18306",
+                "B_ {#nandin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#naMdin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A son.\n",
+                ".²2 The speaker of a prelude or benediction in a drama.\n",
+                ".²3 <ab>N.</ab> of the door-keeper of Śiva, his chief attendant, or of the bull\n which he rides; {#latAgfhadvAragato'Ta nandI#} <ls>Ku. 3. 41</ls>; <ls>Māl. 1. 1</ls>.\n",
+                ".²4 An epithet of Viṣṇu. ",
+                ".²5 The Indian fig-tree.\n"
+            ]
+        },
+        {
+            "__line": 162806,
+            "_ancestry": [
+                "L_ 18306",
+                "B_ {#nandin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nandinI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A daughter; {#tezAM kule tvamasi nandini pArTivAnAm#} <ls>U. 1. 9</ls>.\n",
+                ".²2 A husbandʼs sister.\n",
+                ".²3 A fabulous cow, daughter of {%Surabhi%}, yielding all desires ({#kAmaDenu#})\n and in the possession of the sage Vasisṭha; {#anindyA nandinI nAma DenurAvavfte#}\n {#vanAt#} <ls>R. 1. 82</ls>, <ls n=\"R.\">2. 69</ls>.\n",
+                ".²4 An epithet of the Ganges; {#nandinI nalinI sItA mAlatI ca malApahA .#}\n {#vizRupAdAbjasaMBUtA gaNgA tripaTagAminI ..#}\n",
+                ".²5 The holy basil.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 162816,
+            "_ancestry": [
+                "L_ 18306",
+                "B_ {#nandin#}",
+                "S_ .{@{#-tanayaH, sutaH#}@}"
+            ],
+            "_banner": ".{@{#-tanayaH, sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nanditanayaH"
+                },
+                {
+                    "Right": "nandisutaH"
+                }
+            ],
+            "_meanings": [
+                "the sage Vyāḍi."
+            ]
+        }
     ]
 }

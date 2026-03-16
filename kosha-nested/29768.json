@@ -1,35 +1,63 @@
 {
-    "__line": 249203,
+    "__line": 274932,
     "_ancestry": [
         "L_ 29768",
-        "B_ {#saMmAnaH#}"
+        "B_ {#vinihita#}"
     ],
-    "_banner": "{#saMmAnaH#}",
+    "_banner": "{#vinihita#}",
     "_bannerExp": [
         {
-            "Right": "saMmAnaH"
+            "Right": "vinihita"
         }
     ],
-    "_meanings": [
-        "Honour, respect. "
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#vi + ni + DA#}]"
     ],
-    "_morphisms": [
+    "_meanings": [
+        ".²1 Put down, laid down.\n",
+        ".²2 Appointed.\n",
+        ".²3 Separated.\n"
+    ],
+    "_samasas": [
         {
-            "__line": 249203,
+            "__line": 274937,
             "_ancestry": [
                 "L_ 29768",
-                "B_ {#saMmAnaH#}",
-                "M_ {#--naM#}"
+                "B_ {#vinihita#}",
+                "S_ .{@{#-dfzwi#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-dfzwi#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMmAnaM"
+                    "Right": "vinihitadfzwi"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "{@--1@}\nA measure. ",
-                "{@--2@} Comparing."
+                "one who has the eyes fixed upon, eagerly looking at.\n"
+            ]
+        },
+        {
+            "__line": 274938,
+            "_ancestry": [
+                "L_ 29768",
+                "B_ {#vinihita#}",
+                "S_ .{@{#-manas#}@}"
+            ],
+            "_banner": ".{@{#-manas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinihitamanas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "intent upon, devoted to."
             ]
         }
     ]

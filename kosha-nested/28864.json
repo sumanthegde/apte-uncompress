@@ -1,22 +1,39 @@
 {
-    "__line": 242367,
+    "__line": 267176,
     "_ancestry": [
         "L_ 28864",
-        "B_ {#saMkfz#}"
+        "B_ {#vAjasaneyin#}"
     ],
-    "_banner": "{#saMkfz#}",
+    "_banner": "{#vAjasaneyin#}",
     "_bannerExp": [
         {
-            "Right": "saMkfz"
+            "Right": "vAjasaneyin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%m.%}"
     ],
     "_meanings": [
-        "{@--1@} To drag along or\naway. ",
-        "{@--2@} To contract. ",
-        "{@--3@} To \ntighten, tie fast."
+        ".²1 <ab>N.</ab> of the sage Yājñavalkya, the author and founder of the white or\n Śukla Yajurveda.\n",
+        ".²2 A follower of the white Yajurveda, one belonging to the sect of the Vājasaneyins.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 267180,
+            "_ancestry": [
+                "L_ 28864",
+                "B_ {#vAjasaneyin#}",
+                "M_ .{@{#-saMhitA#}@}"
+            ],
+            "_banner": ".{@{#-saMhitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAjasaMhitA"
+                }
+            ],
+            "_meanings": [
+                "the text of the {#Suklayajurveda#}, ascribed to the Ṛṣi Yājñavalkya."
+            ]
+        }
     ]
 }

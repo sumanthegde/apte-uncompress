@@ -58,6 +58,46 @@
             return result;
         }
 
+        // Function to convert anusvara (ं) to nasal consonants (inverse of anusvarafy)
+        function anunasikafy(text) {
+            if (!text) return '';
+
+            const groups = {
+                'ङ': ['क', 'ख', 'ग', 'घ'],
+                'ञ': ['च', 'छ', 'ज', 'झ'],
+                'ण': ['ट', 'ठ', 'ड', 'ढ'],
+                'न': ['त', 'थ', 'द', 'ध'],
+                'म': ['प', 'फ', 'ब', 'भ', 'म']
+            };
+
+            let result = '';
+
+            for (let i = 0; i < text.length; i++) {
+                const currentChar = text[i];
+                const nextChar = i < text.length - 1 ? text[i + 1] : '';
+
+                if (currentChar === 'ं' && nextChar) {
+                    let nasal = null;
+                    for (const groupNasal in groups) {
+                        if (groups[groupNasal].includes(nextChar)) {
+                            nasal = groupNasal;
+                            break;
+                        }
+                    }
+                    
+                    if (nasal) {
+                        result += nasal;
+                    } else {
+                        result += currentChar;
+                    }
+                } else {
+                    result += currentChar;
+                }
+            }
+
+            return result;
+        }
+
         // Function to convert Devanagari to intermediate form
         function devanagariToIntermediate(text) {
             // Result buffer

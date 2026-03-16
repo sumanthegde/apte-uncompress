@@ -1,19 +1,38 @@
 {
-    "__line": 151115,
+    "__line": 158209,
     "_ancestry": [
         "L_ 17883",
-        "B_ {#parikriyA#}"
+        "B_ {#DanU#}"
     ],
-    "_banner": "{#parikriyA#}",
+    "_banner": "{#DanU#}",
     "_bannerExp": [
         {
-            "Right": "parikriyA"
+            "Right": "DanU"
         }
     ],
+    "_gram": [
+        "{%f.%}"
+    ],
     "_meanings": [
-        "{@--1@} Enclosing with a fence\nor ditch, intrenching. ",
-        "{@--2@} \nEncircling or surrounding in general.\n",
-        "{@--3@} (In dramaturgy) = {#parikara#} (7) \n\n<ab>q. v.</ab> ",
-        "{@--4@} Attention."
+        "A bow. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 158209,
+            "_ancestry": [
+                "L_ 17883",
+                "B_ {#DanU#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#DanU#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A store of grain."
+            ]
+        }
     ]
 }

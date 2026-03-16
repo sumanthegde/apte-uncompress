@@ -1,19 +1,141 @@
 {
-    "__line": 259674,
+    "__line": 285977,
     "_ancestry": [
         "L_ 30966",
-        "B_ {#spfhaRaM#}"
+        "B_ {#vEdya#}"
     ],
-    "_banner": "{#spfhaRaM#}",
+    "_banner": "{#vEdya#}",
     "_bannerExp": [
         {
-            "Right": "spfhaRaM"
+            "Right": "vEdya"
+        },
+        {
+            "Right": "vEdyI"
         }
     ],
     "_gram": [
-        "[{#spfh-lyuw#}]"
+        "{%a.%}",
+        "({#-dyI#}|{%f.%})"
     ],
     "_meanings": [
-        "The act of\ndesiring or wishing, longing for."
+        ".²1 Relating to the Vedas, spiritual.\n",
+        ".²2 Relating to medicine, medical.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 285980,
+            "_ancestry": [
+                "L_ 30966",
+                "B_ {#vEdya#}",
+                "M_ .{@{#-dyaH#}@}"
+            ],
+            "_banner": ".{@{#-dyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyaH"
+                }
+            ],
+            "_gram": [
+                "[{#vidyA astyasya aR#}]"
+            ],
+            "_meanings": [
+                ".²1 A learned man, scholar, doctor.\n",
+                ".²2 A medical man, physician; {#vEdyayatnapariBAvinaM gadaM na pradIpa#}\n {#iva vAyumatyagAt#} <ls>R. 19. 53</ls>; {#vEdyAnAmAturaH SreyAn#} <ls>Subhāṣ.</ls>\n",
+                ".²3 A man of the medical caste, supposed to be one of the mixed classes;\n (the offspring of a Brāhmaṇa by a Vaiśya woman). <ab>Cf.</ab> <ls>Mb. 13. 49. 9</ls>.\n",
+                ".²4 A man of a lower mixed tribe (the offspring of a Śūdra father by\n Vaiśya mother).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 285989,
+            "_ancestry": [
+                "L_ 30966",
+                "B_ {#vEdya#}",
+                "S_ .{@{#-kriyA#}@}"
+            ],
+            "_banner": ".{@{#-kriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyakriyA"
+                }
+            ],
+            "_meanings": [
+                "a doctorʼs profession, practice of medicine.\n"
+            ]
+        },
+        {
+            "__line": 285990,
+            "_ancestry": [
+                "L_ 30966",
+                "B_ {#vEdya#}",
+                "S_ .{@{#-nATaH#}@}"
+            ],
+            "_banner": ".{@{#-nATaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyanATaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Dhanvantari.\n",
+                ".²2 of Śiva.\n",
+                ".²3 <ab>N.</ab> of a country.\n"
+            ]
+        },
+        {
+            "__line": 285994,
+            "_ancestry": [
+                "L_ 30966",
+                "B_ {#vEdya#}",
+                "S_ .{@{#-banDuH#}@}"
+            ],
+            "_banner": ".{@{#-banDuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyabanDuH"
+                }
+            ],
+            "_meanings": [
+                "Cassia Fistula (<lang>Mar.</lang> <ns>{#bAhavA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 285995,
+            "_ancestry": [
+                "L_ 30966",
+                "B_ {#vEdya#}",
+                "S_ .{@{#-mAtf, -siMhA#}@}"
+            ],
+            "_banner": ".{@{#-mAtf, -siMhA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyamAtf"
+                },
+                {
+                    "Right": "vEdyasiMhA"
+                }
+            ],
+            "_meanings": [
+                "Gendarussa Vulgaris (<lang>Mar.</lang> <ns>{#aqULasA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 285996,
+            "_ancestry": [
+                "L_ 30966",
+                "B_ {#vEdya#}",
+                "S_ .{@{#-vidyA#}@}"
+            ],
+            "_banner": ".{@{#-vidyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdyavidyA"
+                }
+            ],
+            "_meanings": [
+                "the science of medicine; also {#vEdyaSAstram#}."
+            ]
+        }
     ]
 }

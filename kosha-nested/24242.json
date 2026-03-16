@@ -1,22 +1,175 @@
 {
-    "__line": 205552,
+    "__line": 216119,
     "_ancestry": [
         "L_ 24242",
-        "B_ {#ruS#}"
+        "B_ {#plava#}"
     ],
-    "_banner": "{#ruS#}",
+    "_banner": "{#plava#}",
     "_bannerExp": [
         {
-            "Right": "ruS"
+            "Right": "plava"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>",
-        "({#ruSati#})"
+        "{%a.%}",
+        "[{#plu ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To hurt, kill,\ndestroy. ",
-        "{@--2@} To tease, vex."
+        ".²1 Swimming, floating.\n",
+        ".²2 Jumping, leaping. ",
+        ".²3 <ab>Ved.</ab> Superior, excellent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 216122,
+            "_ancestry": [
+                "L_ 24242",
+                "B_ {#plava#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "plavaH"
+                }
+            ],
+            "_meanings": [
+                "Swimming, floating.\n",
+                ".²2 Flood, swelling of a river.\n",
+                ".²3 A jump, leap; going by leaps or jumps; {#te raTErdevaDizRyABErhayESca#}\n {#taralaplavEH#} <ls>Bhāg. 10. 82. 7</ls>.\n",
+                ".²4 A raft, float, canoe, small boat; {#nAvaScAruruhustvanye plavEsterustaTApare#}\n <ls>Rām. 2. 89. 20</ls> (<ab>com.</ab> {#plavA veRutfRAdinirmitAH#}); {#nASayecca SanEH#}\n {#paScAt plavaM salilapUravat#} <ls>Pt. 2. 42</ls>; {#sarvaM jYAnaplavenEva vfjinaM#}\n {#saMtarizyasi#} <ls>Bg. 4. 36</ls>; <ls>Ms. 4. 194</ls>, <ls n=\"Ms.\">11. 19</ls>; <ls>Ve. 3. 25</ls>.\n",
+                ".²5 A frog; {#haMsakrOYcaplavAkIrRaM sArasEH saMprasAditam#} <ls>Rām. 3. 35. 18</ls>.\n",
+                ".²6 A monkey; {#daDi hftvA bakaScApi plavo matsyAnasaMskftAn#} <ls>Mb. 13. 111. 99</ls>.\n",
+                ".²7 A declivity, slope.\n",
+                ".²8 An enemy.\n",
+                ".²9 A sheep.\n",
+                ".²10 A man of a low tribe, a Chāṇḍāla.\n",
+                ".²11 A net or snare for catching fish.\n",
+                ".²12 The fig-tree.\n",
+                ".²13 The Kāraṇḍava bird, a kind of duck.\n",
+                ".²14 Five or more stanzas syntactically connected (= {#kulaka#} <ab>q. v.</ab>).\n",
+                ".²15 The prolated utterance of a vowel.\n",
+                ".²16 Returning, return.\n",
+                ".²17 Urging on, inciting.\n",
+                ".²18 Sound; <ls>L. D. B.</ls>\n",
+                ".²19 A kind of aquatic bird; <ls>Ms. 5. 12</ls>.\n",
+                ".²20 <ab>N.</ab> of a {#saMvatsara#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 216147,
+            "_ancestry": [
+                "L_ 24242",
+                "B_ {#plava#}",
+                "S_ .{@{#-kumBaH#}@}"
+            ],
+            "_banner": ".{@{#-kumBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "plavakumBaH"
+                }
+            ],
+            "_meanings": [
+                "a pitcher used as a support in swimming; {#smarayOvanayoH Kalu#}\n\n {#dvayoH plavakumBO BavataH kucAvuBO#} <ls>N. 2. 31</ls>.\n"
+            ]
+        },
+        {
+            "__line": 216150,
+            "_ancestry": [
+                "L_ 24242",
+                "B_ {#plava#}",
+                "S_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "plavagaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a monkey; {#sa setuM banDayAmAsa plavagErlavaRAmBasi#} <ls>R. 12. 70</ls>.\n",
+                ".²2 a frog.\n",
+                ".²3 an aquatic bird, the diver.\n",
+                ".²4 the {#SirIza#} tree.\n",
+                ".²5 <ab>N.</ab> of the sunʼs charioteer. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 216157,
+                    "_ancestry": [
+                        "L_ 24242",
+                        "B_ {#plava#}",
+                        "S_ .{@{#-gaH#}@}",
+                        "S_M_ ({@{#-gA#}@})"
+                    ],
+                    "_banner": "({@{#-gA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "plavagA"
+                        }
+                    ],
+                    "_meanings": [
+                        "the sign of the zodiac called {%Virgo%}.\n"
+                    ]
+                }
+            ],
+            "_samasas": [
+                {
+                    "__line": 216155,
+                    "_ancestry": [
+                        "L_ 24242",
+                        "B_ {#plava#}",
+                        "S_ .{@{#-gaH#}@}",
+                        "S_S_ {#˚indraH#}"
+                    ],
+                    "_banner": "{#˚indraH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "plavagendraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "Hanumat; <ls>Bhāg.</ls> "
+                    ]
+                },
+                {
+                    "__line": 216155,
+                    "_ancestry": [
+                        "L_ 24242",
+                        "B_ {#plava#}",
+                        "S_ .{@{#-gaH#}@}",
+                        "S_S_ {#˚rAjaH#}"
+                    ],
+                    "_banner": "{#˚rAjaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "plavagarAjaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "The monkey chief Sugrīva; {#rAGavaplavagarAjayoriva prema yuktamitaretarASrayam#} <ls>Ki. 13. 57</ls>.\n."
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 216158,
+            "_ancestry": [
+                "L_ 24242",
+                "B_ {#plava#}",
+                "S_ .{@{#-gatiH#}@}"
+            ],
+            "_banner": ".{@{#-gatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "plavagatiH"
+                }
+            ],
+            "_meanings": [
+                "a frog."
+            ]
+        }
     ]
 }

@@ -1,41 +1,57 @@
 {
-    "__line": 45793,
+    "__line": 43921,
     "_ancestry": [
         "L_ 5201",
-        "B_ {#avyAja#}"
+        "B_ {#avarohin#}"
     ],
-    "_banner": "{#avyAja#}",
+    "_banner": "{#avarohin#}",
     "_bannerExp": [
         {
-            "Right": "avyAja"
+            "Right": "avarohin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Free from guile or\nfraud. "
+        "Descending. "
     ],
     "_morphisms": [
         {
-            "__line": 45794,
+            "__line": 43921,
             "_ancestry": [
                 "L_ 5201",
-                "B_ {#avyAja#}",
-                "M_ {#--jaH, --jaM#}"
+                "B_ {#avarohin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--jaH, --jaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "avyAjaH"
-                },
+                    "Left": "Parser error: {#avarohin#} M_ --{%m.%}"
+                }
+            ],
+            "_gram": [
+                "({@{#-hI#}@})"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the Indian\n fig-tree ({#vawa#}).\n"
+            ]
+        },
+        {
+            "__line": 43923,
+            "_ancestry": [
+                "L_ 5201",
+                "B_ {#avarohin#}",
+                "M_ .{@{#-RI#}@}"
+            ],
+            "_banner": ".{@{#-RI#}@}",
+            "_bannerExp": [
                 {
-                    "Right": "avyAjaM"
+                    "Right": "avarohiRI"
                 }
             ],
             "_meanings": [
-                "{@--1@} Absence of\nguile or fraud, honesty. ",
-                "{@--2@} \nSimplicity, artlessness; <ab>oft.</ab> in <ab>comp.</ab>\nwith {#suMdara, manohara#} &c. in the sense\nof ‘artlessly’, ‘naturally’; {#idaM#} \n{#kilAvyAjamanoharaM vapuH#} <ls>Ś. 1. 18</ls>; <ls>M. 2. 14</ls>;\n{#°ramaRIyaM prema#} <ls>K. 175.</ls>"
+                "A particular condition ({#daSA#}) brought about by a particular\n position of the stars {#uccANgapaYcamasTasya daSA syAdavarohiRI . tasyAmalpamavApnoti#}\n {#PalaM kleSAcCuBaM naraH ..#}. <ls>Jyotiṣa.</ls>"
             ]
         }
     ]

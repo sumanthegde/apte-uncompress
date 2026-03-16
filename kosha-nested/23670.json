@@ -1,16 +1,43 @@
 {
-    "__line": 199248,
+    "__line": 211391,
     "_ancestry": [
         "L_ 23670",
-        "B_ {#yatinI#}"
+        "B_ {#prastu#}"
     ],
-    "_banner": "{#yatinI#}",
+    "_banner": "{#prastu#}",
     "_bannerExp": [
         {
-            "Right": "yatinI"
+            "Right": "prastu"
         }
     ],
+    "_gram": [
+        "€2",
+        "<ab>U.</ab>"
+    ],
     "_meanings": [
-        "A widow."
+        "²1 To praise.\n",
+        ".²2 To begin, commence; {#prApayan manasastulyA yatra tat prastutaM raRam#}\n <ls>Rām. 7. 22. 8</ls>; {#prastUyatAM vivAdavastu#} <ls>M. 1</ls>.\n",
+        ".²3 To cause, produce; {#yatrAlokapaTAvatAriRi ratiM prastOti netrotsavaH#} <ls>Mv. 2. 45</ls>; also <ls>Māl. 5. 9</ls>.\n",
+        ".²4 To say, relate, propound. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 211396,
+            "_ancestry": [
+                "L_ 23670",
+                "B_ {#prastu#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "prastu"
+                }
+            ],
+            "_meanings": [
+                ".²1 To relate, allude to, tell; {#SAkuntalAdInitihAsavAdAn prastAvitAnanyaparErvacoBiH#}\n <ls>Māl. 3. 3</ls>; {#aTApfcCadfzistatra kaScit prastAvayan kaTAH#} <ls>Mb. 1. 1. 6</ls>.\n",
+                ".²2 To begin, commence."
+            ]
+        }
     ]
 }

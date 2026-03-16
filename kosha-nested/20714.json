@@ -1,16 +1,107 @@
 {
-    "__line": 171903,
+    "__line": 185553,
     "_ancestry": [
         "L_ 20714",
-        "B_ {#pravAkaH#}"
+        "B_ {#paryanta#}"
     ],
-    "_banner": "{#pravAkaH#}",
+    "_banner": "{#paryanta#}",
     "_bannerExp": [
         {
-            "Right": "pravAkaH"
+            "Right": "paryanta"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A proclaimer."
+        ".²1 Bounded by, extending as far as; {#samudraparyantA pfTvI#} ‘the ocean-bounded earth’.\n",
+        ".²2 Adjoining, neighbouring; {#sa vE vizayaparyante tava rAjan mahAtapAH#}\n <ls>Rām. 7. 74. 26</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 185557,
+            "_ancestry": [
+                "L_ 20714",
+                "B_ {#paryanta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryantaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Circuit, circumference.\n",
+                ".²2 Skirt, edge, border, extremity, boundary; {#kzuraparyantaM#} ({#cakram#})\n <ls>Mb. 1. 33. 2</ls>; {#uwajaparyantacAriRI#} <ls>Ś. 4</ls>; {#paryantavanam#} <ls>R. 13. 38</ls>; <ls>Rs. 3. 3</ls>.\n",
+                ".²3 Side, flank; {#paryantASrayiBirnijasya sadfSaM nAmnaH kirAtEH kftam#}\n <ls>Ratn. 2. 3</ls>; <ls>R. 18. 43</ls>.\n",
+                ".²4 End, conclusion, termination; {#sahasrayugaparyantamaharyadbrahmaRo#}\n {#viduH#} <ls>Bg. 8. 17</ls>; {#yadAdimaDyaparyantam#} <ls>Mb. 14. 44. 1</ls>; {#laByante#}\n {#BUmiparyantaH#} <ls>Pt. 1. 125</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 185567,
+            "_ancestry": [
+                "L_ 20714",
+                "B_ {#paryanta#}",
+                "S_ .{@{#-deSaH, -BUH, BUmiH#}@}"
+            ],
+            "_banner": ".{@{#-deSaH, -BUH, BUmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryantadeSaH"
+                },
+                {
+                    "Left": "S error: 1 syl deSaH BUH"
+                },
+                {
+                    "Right": "paryantaBUmiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "an adjoining district or region.\n"
+            ]
+        },
+        {
+            "__line": 185568,
+            "_ancestry": [
+                "L_ 20714",
+                "B_ {#paryanta#}",
+                "S_ .{@{#-parvataH#}@}"
+            ],
+            "_banner": ".{@{#-parvataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryantaparvataH"
+                }
+            ],
+            "_meanings": [
+                "an adjoining hill.\n"
+            ]
+        },
+        {
+            "__line": 185569,
+            "_ancestry": [
+                "L_ 20714",
+                "B_ {#paryanta#}",
+                "S_ .{@{#-sTita#}@}"
+            ],
+            "_banner": ".{@{#-sTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryantasTita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "limitative, confining."
+            ]
+        }
     ]
 }

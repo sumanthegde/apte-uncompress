@@ -1,21 +1,41 @@
 {
-    "__line": 32410,
+    "__line": 29689,
     "_ancestry": [
         "L_ 3478",
-        "B_ {#aBisvf#}"
+        "B_ {#aBinizpad#}"
     ],
-    "_banner": "{#aBisvf#}",
+    "_banner": "{#aBinizpad#}",
     "_bannerExp": [
         {
-            "Right": "aBisvf"
+            "Right": "aBinizpad"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "€4",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "{@--1@} To assent or\nagree to, approve of. ",
-        "{@--2@} To praise,\ninvoke."
+        "²1 To go or come to.\n",
+        ".²2 To enter into, become.\n",
+        ".²3 To appear, become visible. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 29692,
+            "_ancestry": [
+                "L_ 3478",
+                "B_ {#aBinizpad#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "aBinizpad"
+                }
+            ],
+            "_meanings": [
+                "To bring to, help to."
+            ]
+        }
     ]
 }

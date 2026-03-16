@@ -1,19 +1,63 @@
 {
-    "__line": 55486,
+    "__line": 53072,
     "_ancestry": [
         "L_ 6324",
-        "B_ {#AnuraktiH#}"
+        "B_ {#ahuta#}"
     ],
-    "_banner": "{#AnuraktiH#}",
+    "_banner": "{#ahuta#}",
     "_bannerExp": [
         {
-            "Right": "AnuraktiH"
+            "Right": "ahuta"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Passion, affection."
+        ".²1 Not sacrificed or offered (as an oblation); {#avaSyaM yAti tiryaktvaM#}\n {#jagDvA cEvAhutaM haviH#}.\n",
+        ".²2 Wrongly sacrificed; {#na cAhutamaBUttatra#} <ls>Rām. 1. 14. 40</ls>.\n",
+        ".²3 One who has not yet received any oblation.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 53077,
+            "_ancestry": [
+                "L_ 6324",
+                "B_ {#ahuta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahutaH"
+                }
+            ],
+            "_meanings": [
+                "Religious meditation, prayer, and the study of the Vedas\n (considered as one of the five great Yajñas and necessary duties); {#ahutaM#}\n {#ca hutaM cEva taTA prahutameva ca . brAhmaM hutaM prASitaM ca paYca yajYAn#}\n {#pracakzate ..#} <ls>Ms. 3. 73. 74</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 53082,
+            "_ancestry": [
+                "L_ 6324",
+                "B_ {#ahuta#}",
+                "S_ .{@{#-ada#}@}"
+            ],
+            "_banner": ".{@{#-ada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ahutAda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 not eating of a sacrifice.\n",
+                ".²2 not allowed to partake of a sacrifice."
+            ]
+        }
     ]
 }

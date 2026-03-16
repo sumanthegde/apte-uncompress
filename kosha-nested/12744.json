@@ -1,22 +1,39 @@
 {
-    "__line": 106887,
+    "__line": 108062,
     "_ancestry": [
         "L_ 12744",
-        "B_ {#gORika#}"
+        "B_ {#kUlakaH#}, {#-kam#}"
     ],
-    "_banner": "{#gORika#}",
+    "_banner": "{#kUlakaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "gORika"
+            "Right": "kUlakaH"
+        },
+        {
+            "Right": "kUlakam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Relating to the three\nqualities ({#sattva, rajas#} and {#tamas#}). ",
-        "{@--2@}\nHaving qualities. ",
-        "{@--3@} Subordinate.\n",
-        "{@--4@} Resembling a sack."
+        ".²1 Bank, shore.\n",
+        ".²2 A heap, mound.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 108065,
+            "_ancestry": [
+                "L_ 12744",
+                "B_ {#kUlakaH#}, {#-kam#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUlakaH"
+                }
+            ],
+            "_meanings": [
+                "An ant-hill."
+            ]
+        }
     ]
 }

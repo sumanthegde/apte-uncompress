@@ -1,27 +1,42 @@
 {
-    "__line": 53264,
+    "__line": 50797,
     "_ancestry": [
         "L_ 6069",
-        "B_ {#Atan#}"
+        "B_ {#asaMpatti#}"
     ],
-    "_banner": "{#Atan#}",
+    "_banner": "{#asaMpatti#}",
     "_bannerExp": [
         {
-            "Right": "Atan"
+            "Right": "asampatti"
         }
     ],
     "_gram": [
-        "{c8c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To extend, stretch\nover, overspread, cover;  \n{#nizAdivakzaHsTalamAtanoti#} <ls>Ki. 16. 15</ls> pervade,\npenetrate; <ls>Ki. 7. 25.</ls> ",
-        "{@--2@} To spread,\ndiffuse. ",
-        "{@--3@} To cause, produce;  \n{#AnaMdanena jaqatAM punarAtanoti#} <ls>U. 3. 12</ls>;\n<ls>Ki. 6. 18</ls>, <ls n=\"Ki.\">7. 39</ls>; <ls>K. 176</ls>; <ls>Māl. 5. 9</ls>;\n<ls>Mv. 4. 31.</ls> ",
-        "{@--4@} To bring to pass,\neffect, accomplish, do, perform;\n{#suratamAtatAna#} <ls>K. 57</ls>; {#saparyAM#} <ls n=\"K.\">64.</ls> ",
-        "{@--5@} To\nilluminate. ",
-        "{@--6@} To take hold of;\nseek to attain. ",
-        "{@--7@} To assume a \n\nhostile attitude. ",
-        "{@--8@} To stretch (as\na bow)."
+        "Unlucky, poor, miserable.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 50798,
+            "_ancestry": [
+                "L_ 6069",
+                "B_ {#asaMpatti#}",
+                "M_ .{@{#-ttiH#}@}"
+            ],
+            "_banner": ".{@{#-ttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asampattiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 Ill-luck, want of success or wealth.\n",
+                ".²2 Non-accomplishment, failure; {#na ca SocatyasaMpattO#} <ls>Ms. 12. 36</ls>."
+            ]
+        }
     ]
 }

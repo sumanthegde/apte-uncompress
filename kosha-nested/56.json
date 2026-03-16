@@ -1,21 +1,40 @@
 {
-    "__line": 1374,
+    "__line": 534,
     "_ancestry": [
         "L_ 56",
-        "B_ {#akalya#}"
+        "B_ {#akalka#}"
     ],
-    "_banner": "{#akalya#}",
+    "_banner": "{#akalka#}",
     "_bannerExp": [
         {
-            "Right": "akalya"
+            "Right": "akalka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#kalAsu sADuH kalyaH#} \n{#nirAmayaH na#}. {#ta#}.]"
+        "{%a.%}",
+        "[{#nAsti kalko yatra#}]"
     ],
     "_meanings": [
-        "{@--1@} Unwell, ill, \nindisposed. ",
-        "{@--2@} [{#kalyate iti kal-yat kalyaM#} \n{#miTyABUtaM; na#}. {#ta#}.] True; ({#taM#}) \n{#anInayadakalyasaMDo baMDanAgAraM#} <ls>Dk. 31.</ls>"
+        ".²1 Free from sediment, pure.\n",
+        ".²2 sinless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 537,
+            "_ancestry": [
+                "L_ 56",
+                "B_ {#akalka#}",
+                "M_ .{@{#-lkA#}@}"
+            ],
+            "_banner": ".{@{#-lkA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "akalkA"
+                }
+            ],
+            "_meanings": [
+                "Moonlight."
+            ]
+        }
     ]
 }

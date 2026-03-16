@@ -1,16 +1,38 @@
 {
-    "__line": 95867,
+    "__line": 95534,
     "_ancestry": [
         "L_ 11425",
-        "B_ {#kfmilikA#}"
+        "B_ {#kandin#}"
     ],
-    "_banner": "{#kfmilikA#}",
+    "_banner": "{#kandin#}",
     "_bannerExp": [
         {
-            "Right": "kfmilikA"
+            "Right": "kandin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Linen cloth dyed with\nred colour."
+        "Having a bulbous root. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 95534,
+            "_ancestry": [
+                "L_ 11425",
+                "B_ {#kandin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kaMdin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An esculent root."
+            ]
+        }
     ]
 }

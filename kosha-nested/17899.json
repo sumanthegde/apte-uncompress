@@ -1,20 +1,56 @@
 {
-    "__line": 151204,
+    "__line": 158353,
     "_ancestry": [
         "L_ 17899",
-        "B_ {#parikzit#}"
+        "B_ {#Damana#}"
     ],
-    "_banner": "{#parikzit#}",
+    "_banner": "{#Damana#}",
     "_bannerExp": [
         {
-            "Right": "parikzit"
+            "Right": "Damana"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of a king, son\nof Abhimanyu and father of \nJanamejaya. ",
-        "{@--2@} An epithet of Agni. "
+        ".²1 A Blowing.\n",
+        ".²2 Cruel.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 158356,
+            "_ancestry": [
+                "L_ 17899",
+                "B_ {#Damana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DamanaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of reed.\n"
+            ]
+        },
+        {
+            "__line": 158357,
+            "_ancestry": [
+                "L_ 17899",
+                "B_ {#Damana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Damanam"
+                }
+            ],
+            "_meanings": [
+                "Melting."
+            ]
+        }
     ]
 }

@@ -1,20 +1,41 @@
 {
-    "__line": 208040,
+    "__line": 219364,
     "_ancestry": [
         "L_ 24536",
-        "B_ {#lasta#}"
+        "B_ {#bahutiTa#}"
     ],
-    "_banner": "{#lasta#}",
+    "_banner": "{#bahutiTa#}",
     "_bannerExp": [
         {
-            "Right": "lasta"
+            "Right": "bahutiTa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Embraced, clasped. ",
-        "{@--2@}\nSkilful, skilled."
+        "Much, long, many; {#kAle gate bahutiTe#} <ls>Ś. 5. 3</ls>;\n {#tasya Buvi bahutiTAstiTayaH#} <ls>Ki. 12. 2</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 219366,
+            "_ancestry": [
+                "L_ 24536",
+                "B_ {#bahutiTa#}",
+                "M_ .{@{#-Tam#}@}"
+            ],
+            "_banner": ".{@{#-Tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahutiTam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Greatly, in a high degree."
+            ]
+        }
     ]
 }

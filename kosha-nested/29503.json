@@ -1,25 +1,43 @@
 {
-    "__line": 247501,
+    "__line": 272696,
     "_ancestry": [
         "L_ 29503",
-        "B_ {#samIr#}"
+        "B_ {#viqambita#}"
     ],
-    "_banner": "{#samIr#}",
+    "_banner": "{#viqambita#}",
     "_bannerExp": [
         {
-            "Right": "samIr"
+            "Right": "viqambita"
         }
     ],
     "_gram": [
-        "{%<ab>caus.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To shake, move, \n\nagitate, stir up, set in motion. ",
-        "{@--2@} To\nexcite, rouse. ",
-        "{@--3@} ({%a%}) To send forth,\nemit; ({%b%}) To speak, utter;  \n<ls>Ku. 2. 16.</ls> ",
-        "{@--4@} To cast, throw, toss. ",
-        "{@--5@}\nTo raise or lift up. ",
-        "{@--6@} To \naccomplish, bring about. ",
-        "{@--7@} To bestow on,\nendow with."
+        ".²1 Imitated, copied.\n",
+        ".²2 Mocked, ridiculed.\n",
+        ".²3 Deceived.\n",
+        ".²4 Vexed, mortified.\n",
+        ".²5 Frustrated.\n",
+        ".²6 Low, abject, poor.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 272703,
+            "_ancestry": [
+                "L_ 29503",
+                "B_ {#viqambita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viqambitam"
+                }
+            ],
+            "_meanings": [
+                "An object of ridicule."
+            ]
+        }
     ]
 }

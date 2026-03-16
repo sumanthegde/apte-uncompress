@@ -1,37 +1,112 @@
 {
-    "__line": 216958,
+    "__line": 232092,
     "_ancestry": [
         "L_ 25640",
-        "B_ {#vikASi(si)n#}"
+        "B_ {#madraH#}"
     ],
-    "_banner": "{#vikASi(si)n#}",
+    "_banner": "{#madraH#}",
     "_bannerExp": [
         {
-            "Right": "vikASin"
-        },
-        {
-            "Right": "vikASinI"
-        },
-        {
-            "Right": "vikAsin"
-        },
-        {
-            "Right": "vikAsinI"
-        },
-        {
-            "Right": "vikAzin"
-        },
-        {
-            "Right": "vikAzinI"
+            "Right": "madraH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})"
+        "[{#mad-rak#} <ls>Uṇ. 2. 13</ls>]"
     ],
     "_meanings": [
-        "{@--1@}\nBecoming visible, shining forth. ",
-        "{@--2@}\nExpanding, opening, blowing. ",
-        "{@--3@}\nShining, resplendent; <ls>Pt. 3. 147.</ls>"
+        ".²1 <ab>N.</ab> of a country; {#virAwapARqyayormaDye pUrvadakzakrameRa ca . madradeSaH#}\n {#samAKyAtaH … …#}\n",
+        ".²2 A ruler of that country.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 232096,
+            "_ancestry": [
+                "L_ 25640",
+                "B_ {#madraH#}",
+                "M_ .{@{#-drAH#}@}"
+            ],
+            "_banner": ".{@{#-drAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madrAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) The inhabitants of Madra.\n"
+            ]
+        },
+        {
+            "__line": 232097,
+            "_ancestry": [
+                "L_ 25640",
+                "B_ {#madraH#}",
+                "M_ .{@{#-dram#}@}"
+            ],
+            "_banner": ".{@{#-dram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madram"
+                }
+            ],
+            "_meanings": [
+                "Joy, happiness. ({#madrAkf#} = {#BadrAkf#} ‘to shave or shear’).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 232099,
+            "_ancestry": [
+                "L_ 25640",
+                "B_ {#madraH#}",
+                "S_ .{@{#-kAra#}@}"
+            ],
+            "_banner": ".{@{#-kAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madrakAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "(also {#madraMkAra#}) producing delight.\n"
+            ]
+        },
+        {
+            "__line": 232100,
+            "_ancestry": [
+                "L_ 25640",
+                "B_ {#madraH#}",
+                "S_ .{@{#-nABaH#}@}"
+            ],
+            "_banner": ".{@{#-nABaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madranABaH"
+                }
+            ],
+            "_meanings": [
+                "a particular mixed caste; <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 232101,
+            "_ancestry": [
+                "L_ 25640",
+                "B_ {#madraH#}",
+                "S_ .{@{#-sutA#}@}"
+            ],
+            "_banner": ".{@{#-sutA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madrasutA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Mādrī, second wife of Pāṇḍu."
+            ]
+        }
     ]
 }

@@ -1,70 +1,138 @@
 {
-    "__line": 239112,
+    "__line": 262867,
     "_ancestry": [
         "L_ 28446",
-        "B_ {#Sliz#}"
+        "B_ {#vanya#}"
     ],
-    "_banner": "{#Sliz#}",
+    "_banner": "{#vanya#}",
     "_bannerExp": [
         {
-            "Right": "Sliz"
+            "Right": "vanya"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#Slezati#})"
+        "{%a.%}",
+        "[{#vane-BavaH yat#}]"
     ],
     "_meanings": [
-        "To burn.\n"
+        ".²1 Belonging to, growing or produced in, woods, wild; {#kalpavit kalpayAmAsa#}\n {#vanyAmevAsya saMviDAm#} <ls>R. 1. 94</ls>; {#vanyAnAM mArgaSAKinAm#} <ls n=\"R. 1.\">45</ls>, <ls n=\"R. 1.\">88</ls>.\n",
+        ".²2 Savage, not tamed or domesticated; {#vanyAn vinezyanniva duzwasattvAn#}\n <ls>R. 2. 8</ls>, <ls n=\"R. 2.\">37</ls>, <ls n=\"R.\">5. 43</ls>.\n",
+        ".²3 Wooden.\n"
     ],
     "_morphisms": [
         {
-            "__line": 239113,
+            "__line": 262873,
             "_ancestry": [
                 "L_ 28446",
-                "B_ {#Sliz#}",
-                "M_ {vII.v}"
+                "B_ {#vanya#}",
+                "M_ .{@{#-nyaH#}@}"
             ],
+            "_banner": ".{@{#-nyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "Sliz"
+                    "Right": "vanyaH"
                 }
             ],
-            "_gram": [
-                "{vII.v}",
-                "{c4c}",
-                "<ab>P.</ab>",
-                "({#Slizyati, Slizwa#})"
-            ],
             "_meanings": [
-                "{@--1@} To em\nbrace; {#Slizyati cuMvati jalaDarakalpaM#} \n\n{#harirupagata iti timiramanalpaM#}  \n<ls>Gīt. 6.</ls> ",
-                "{@--2@} To stick, cling or adhere\nto. ",
-                "{@--3@} To unite, join. ",
-                "{@--4@} To\ngrasp, take, understand; {#aSlezi na#}\n{#SlezakaverBavatyAH SlokadvayArTaH suDiyA mayA#}\n{#kiM#} <ls>N. 3. 69.</ls> "
+                ".²1 A wild animal.\n",
+                ".²2 A wild plant.\n",
+                ".²3 A monkey; {#SataSo nErftAn vanyA jaDnurvanyAMSca nErftAH . nErftAstatra#}\n {#vaDyante prAyeRa na tu vAnarAH ..#} <ls>Rām. 3. 287. 29</ls>.\n"
             ]
         },
         {
-            "__line": 239121,
+            "__line": 262878,
             "_ancestry": [
                 "L_ 28446",
-                "B_ {#Sliz#}",
-                "M_ {vIII.v}"
+                "B_ {#vanya#}",
+                "M_ .{@{#-nyam#}@}"
             ],
+            "_banner": ".{@{#-nyam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "Sliz"
+                    "Right": "vanyam"
+                }
+            ],
+            "_meanings": [
+                "Forest-produce (such as fruits, roots, <ab>&c.</ab>); {#rAmo'pi saha#}\n {#vEdehyA vane vanyena vartayan#} <ls>R. 12. 20</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 262881,
+            "_ancestry": [
+                "L_ 28446",
+                "B_ {#vanya#}",
+                "S_ .{@{#-ASramaH#}@}"
+            ],
+            "_banner": ".{@{#-ASramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vanyASramaH"
+                }
+            ],
+            "_meanings": [
+                "= {#vAnaprasTASramaH#} <ab>q. v.</ab>; {#lokamuKyezu satkAraM#}\n {#liNgimuKyezu cAsakft . kurvatastasya kOnteya vanyASramapadaM Bavet ..#} <ls>Mb. 12. 66. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 262883,
+            "_ancestry": [
+                "L_ 28446",
+                "B_ {#vanya#}",
+                "S_ .{@{#-itara#}@}"
+            ],
+            "_banner": ".{@{#-itara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vanyetara"
                 }
             ],
             "_gram": [
-                "{vIII.v}",
-                "{c10c}",
-                "<ab>U.</ab>",
-                "( \n{#Slezayatite#})"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To unite, join, connect."
+                "tame, domesticated.\n"
+            ]
+        },
+        {
+            "__line": 262884,
+            "_ancestry": [
+                "L_ 28446",
+                "B_ {#vanya#}",
+                "S_ .{@{#-gajaH, -dvipaH#}@}"
+            ],
+            "_banner": ".{@{#-gajaH, -dvipaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vanyagajaH"
+                },
+                {
+                    "Right": "vanyadvipaH"
+                }
+            ],
+            "_meanings": [
+                "a wild elephant.\n"
+            ]
+        },
+        {
+            "__line": 262885,
+            "_ancestry": [
+                "L_ 28446",
+                "B_ {#vanya#}",
+                "S_ .{@{#-vftti#}@}"
+            ],
+            "_banner": ".{@{#-vftti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vanyavftti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "living on forest-food."
             ]
         }
     ]

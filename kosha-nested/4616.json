@@ -1,19 +1,39 @@
 {
-    "__line": 41850,
+    "__line": 39523,
     "_ancestry": [
         "L_ 4616",
-        "B_ {#avanAmaka#}"
+        "B_ {#arvAvat#}"
     ],
-    "_banner": "{#avanAmaka#}",
+    "_banner": "{#arvAvat#}",
     "_bannerExp": [
         {
-            "Right": "avanAmaka"
+            "Right": "arvAvat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#avarakAlo'styasya matup pfzo˚#}]"
     ],
     "_meanings": [
-        "What depresses or\ncauses to bend or bow."
+        "Later, modern.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 39524,
+            "_ancestry": [
+                "L_ 4616",
+                "B_ {#arvAvat#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#arvAvat#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "Proximity."
+            ]
+        }
     ]
 }

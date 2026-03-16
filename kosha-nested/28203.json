@@ -1,25 +1,100 @@
 {
-    "__line": 237244,
+    "__line": 260273,
     "_ancestry": [
         "L_ 28203",
-        "B_ {#SePAliH --lI, SePAlikA#}"
+        "B_ {#lozwaH#}, {#-zwam#}"
     ],
-    "_banner": "{#SePAliH --lI, SePAlikA#}",
+    "_banner": "{#lozwaH#}, {#-zwam#}",
     "_bannerExp": [
         {
-            "Right": "SePAlI"
+            "Right": "lozwaH"
         },
         {
-            "Right": "SePAliH"
-        },
-        {
-            "Right": "SePAlikA"
+            "Right": "lozwam"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "[{#luz-tan#} <ls>Uṇ. 3. 93</ls>]"
     ],
     "_meanings": [
-        "A\nkind of plant;  \n{#SePAlikAkusumagaMDamanoharARi#} <ls>Rs. 3. 14.</ls>"
+        "A clod, a lump of earth; {#paradravyezu#}\n {#lozwavat yaH paSyati sa paSyati#}; {#samalozwakAYcanaH#} <ls>R. 8. 21</ls>; {#sa lozwaGAtaM hataH#} <ls>Mu. 2</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 260276,
+            "_ancestry": [
+                "L_ 28203",
+                "B_ {#lozwaH#}, {#-zwam#}",
+                "M_ .{@{#-zwam#}@}"
+            ],
+            "_banner": ".{@{#-zwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lozwam"
+                }
+            ],
+            "_meanings": [
+                "Rust of iron.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 260278,
+            "_ancestry": [
+                "L_ 28203",
+                "B_ {#lozwaH#}, {#-zwam#}",
+                "S_ .{@{#-guwikA#}@}"
+            ],
+            "_banner": ".{@{#-guwikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lozwaguwikA"
+                }
+            ],
+            "_meanings": [
+                "a pellet of clay.\n"
+            ]
+        },
+        {
+            "__line": 260279,
+            "_ancestry": [
+                "L_ 28203",
+                "B_ {#lozwaH#}, {#-zwam#}",
+                "S_ .{@{#-GAtaH#}@}"
+            ],
+            "_banner": ".{@{#-GAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lozwaGAtaH"
+                }
+            ],
+            "_meanings": [
+                "a blow with clod.\n"
+            ]
+        },
+        {
+            "__line": 260280,
+            "_ancestry": [
+                "L_ 28203",
+                "B_ {#lozwaH#}, {#-zwam#}",
+                "S_ .{@{#-GnaH, -BedanaH, -nam#}@}"
+            ],
+            "_banner": ".{@{#-GnaH, -BedanaH, -nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lozwaGnaH"
+                },
+                {
+                    "Right": "lozwaBedanaH"
+                },
+                {
+                    "Right": "lozwaBedanam"
+                }
+            ],
+            "_meanings": [
+                "an instrument for breaking clods, a harrow."
+            ]
+        }
     ]
 }

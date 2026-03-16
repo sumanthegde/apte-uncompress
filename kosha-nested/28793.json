@@ -1,20 +1,38 @@
 {
-    "__line": 241908,
+    "__line": 266268,
     "_ancestry": [
         "L_ 28793",
-        "B_ {#saMhAraka#}"
+        "B_ {#vasnika#}"
     ],
-    "_banner": "{#saMhAraka#}",
+    "_banner": "{#vasnika#}",
     "_bannerExp": [
         {
-            "Right": "saMhAraka"
+            "Right": "vasnika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Destructive. ",
-        "{@--2@} \nCompressing, contracting, closing."
+        "Mercenary, hireling.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 266269,
+            "_ancestry": [
+                "L_ 28793",
+                "B_ {#vasnika#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vasnikA"
+                }
+            ],
+            "_meanings": [
+                "A valuable deposit."
+            ]
+        }
     ]
 }

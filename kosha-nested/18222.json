@@ -1,21 +1,137 @@
 {
-    "__line": 153262,
+    "__line": 161893,
     "_ancestry": [
         "L_ 18222",
-        "B_ {#pariviz#}"
+        "B_ {#naktam#}"
     ],
-    "_banner": "{#pariviz#}",
+    "_banner": "{#naktam#}",
     "_bannerExp": [
         {
-            "Right": "pariviz"
+            "Right": "naktam"
         }
     ],
     "_gram": [
-        "{%<ab>Caus.</ab>%}"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@} To surround.\n",
-        "{@--2@} To present or offer food. ",
-        "{@--3@} To\nattend, wait upon."
+        "At night, by night; {#gacCantInAM ramaRavasatiM yozitAM#}\n {#tatra naktam#} <ls>Me. 39</ls>; <ls>Ms. 6. 19</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 161896,
+            "_ancestry": [
+                "L_ 18222",
+                "B_ {#naktam#}",
+                "S_ .{@{#-caraH#}@}"
+            ],
+            "_banner": ".{@{#-caraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naktacaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 any animal that goes about at night.\n",
+                ".²2 a fiend, demon, goblin. {#sAsitURaDanurbARapARiM naktaMcarAntakam#}\n <ls>Rāmarakṣā 3</ls>.\n",
+                ".²3 a thief.\n"
+            ]
+        },
+        {
+            "__line": 161901,
+            "_ancestry": [
+                "L_ 18222",
+                "B_ {#naktam#}",
+                "S_ .{@{#-caryA#}@}"
+            ],
+            "_banner": ".{@{#-caryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naktacaryA"
+                }
+            ],
+            "_meanings": [
+                "wandering by night. {#naktaMcaryAM divAsvapnam AlasyaM#}\n {#pESunaM madam . atiyogamayogaM ca Sreyaso'TIM parityajet ..#} <ls>Mb.</ls>\n"
+            ]
+        },
+        {
+            "__line": 161903,
+            "_ancestry": [
+                "L_ 18222",
+                "B_ {#naktam#}",
+                "S_ .{@{#-cArin#}@}"
+            ],
+            "_banner": ".{@{#-cArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naktacArin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "= {#naktacArin#} <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 161904,
+            "_ancestry": [
+                "L_ 18222",
+                "B_ {#naktam#}",
+                "S_ .{@{#-tana#}@}"
+            ],
+            "_banner": ".{@{#-tana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naktatana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "nocturnal; {#idaM naktaMtanaM dAma pOzpametad divAtanam#} <ls>Bk. 6. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 161905,
+            "_ancestry": [
+                "L_ 18222",
+                "B_ {#naktam#}",
+                "S_ .{@{#-dinam#}@}"
+            ],
+            "_banner": ".{@{#-dinam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naktadinam"
+                }
+            ],
+            "_meanings": [
+                "night and day.\n"
+            ]
+        },
+        {
+            "__line": 161906,
+            "_ancestry": [
+                "L_ 18222",
+                "B_ {#naktam#}",
+                "S_ .{@{#-dinam, -divam#}@}"
+            ],
+            "_banner": ".{@{#-dinam, -divam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naktadinam"
+                },
+                {
+                    "Right": "naktadivam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "night and day. {#naktaMdinaM viBujyoBO#}\n {#SItozRakiraRAviva#}."
+            ]
+        }
     ]
 }

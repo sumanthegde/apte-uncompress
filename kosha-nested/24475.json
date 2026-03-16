@@ -1,38 +1,78 @@
 {
-    "__line": 207552,
+    "__line": 218565,
     "_ancestry": [
         "L_ 24475",
-        "B_ {#laMpawa#}"
+        "B_ {#balavat#}"
     ],
-    "_banner": "{#laMpawa#}",
+    "_banner": "{#balavat#}",
     "_bannerExp": [
         {
-            "Right": "laMpawa"
+            "Right": "balavat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Greedy, covetous,\nhankering after; {#daDiBaktalaMpawa iva#}\n<ls>Ratn. 2.</ls> ",
-        "{@--2@} Lustful, libidinous,\ndissolute, addicted to licentious\npleasures. "
+        ".²1 Strong, powerful, mighty; {#viDiraho balavAniti me matiH#} <ls>Bh. 2. 91</ls>.\n",
+        ".²2 Stout, robust; {#balavAnapi nistejAH kasya nABiBavAspadam#} <ls>H. 2. 132</ls>.\n",
+        ".²3 Dense, thick (as darkness, <ab>&c.</ab>)\n",
+        ".²4 Getting the upper hand, predominant, prevailing; {#balavAnindriyagrAmo#}\n {#vidvAMsamapi karzati#} <ls>Ms. 2. 215</ls>.\n",
+        ".²5 More important, of greater weight; {#lokApavAdo balavAn mato me#} <ls>R. 14. 40</ls>.\n",
+        ".²6 Accompained by an army. "
     ],
     "_morphisms": [
         {
-            "__line": 207556,
+            "__line": 218572,
             "_ancestry": [
                 "L_ 24475",
-                "B_ {#laMpawa#}",
-                "M_ {#--waH#}"
+                "B_ {#balavat#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--waH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "laMpawaH"
+                    "Left": "Parser error: {#balavat#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "A libertine, \nprofligate, rake; ({#laMpAka#} in the same\nsense)."
+                ".²1 <ab>N.</ab> of the 8th Muhūrta.\n",
+                ".²2 Phlegm; <ls>Gīrvāṇa.</ls>\n"
+            ]
+        },
+        {
+            "__line": 218575,
+            "_ancestry": [
+                "L_ 24475",
+                "B_ {#balavat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "balavatI"
+                }
+            ],
+            "_meanings": [
+                "Small cardamoms. "
+            ]
+        },
+        {
+            "__line": 218575,
+            "_ancestry": [
+                "L_ 24475",
+                "B_ {#balavat#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#balavat#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Strongly, powerfully, forcibly; {#punarvaSitvAdbalavannigfhya#} <ls>Ku. 3. 69</ls>.\n",
+                ".²2 Very much, excessively, in a high degree; {#balavattarpitaScAhaM balavAn#}\n {#BagavaMstvayA#} <ls>Rām. 2. 92. 5</ls>; {#balavadapi SikzitAnAmAtmanyapratyayaM#}\n {#cetaH#} <ls>Ś. 1. 2</ls>; {#SItArti balavadupeyuzeva nIrEH#} <ls>Śi. 8. 62</ls>; <ls>Ś. 5. 31</ls>."
             ]
         }
     ]

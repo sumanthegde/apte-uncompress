@@ -1,19 +1,53 @@
 {
-    "__line": 112935,
+    "__line": 114958,
     "_ancestry": [
         "L_ 13472",
-        "B_ {#cUrI --cUrikA#}"
+        "B_ {#kzOram#}"
     ],
-    "_banner": "{#cUrI --cUrikA#}",
+    "_banner": "{#kzOram#}",
     "_bannerExp": [
         {
-            "Right": "cUrI"
-        },
-        {
-            "Right": "cUrikA"
+            "Right": "kzOram"
         }
     ],
     "_meanings": [
-        "A small well."
+        "Shaving.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 114959,
+            "_ancestry": [
+                "L_ 13472",
+                "B_ {#kzOram#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kzOrI"
+                }
+            ],
+            "_meanings": [
+                "A razor. "
+            ]
+        },
+        {
+            "__line": 114959,
+            "_ancestry": [
+                "L_ 13472",
+                "B_ {#kzOram#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kzOraM#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Performed with a razor.\n",
+                ".²2 Very sharp."
+            ]
+        }
     ]
 }

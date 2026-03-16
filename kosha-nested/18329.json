@@ -1,20 +1,59 @@
 {
-    "__line": 153918,
+    "__line": 163032,
     "_ancestry": [
         "L_ 18329",
-        "B_ {#parisPuwa#}"
+        "B_ {#namata#}"
     ],
-    "_banner": "{#parisPuwa#}",
+    "_banner": "{#namata#}",
     "_bannerExp": [
         {
-            "Right": "parisPuwa"
+            "Right": "namata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#nam-atac#}]"
     ],
     "_meanings": [
-        "{@--1@} Quite plain, \nmanifest, distinctly visible. ",
-        "{@--2@} Fully\ndeveloped, blown or grown."
+        "Bent, bowed, crooked, curved.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 163033,
+            "_ancestry": [
+                "L_ 18329",
+                "B_ {#namata#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "namataH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An actor.\n",
+                ".²2 Smoke.\n",
+                ".²3 A master, lord.\n",
+                ".²4 A cloud.\n"
+            ]
+        },
+        {
+            "__line": 163038,
+            "_ancestry": [
+                "L_ 18329",
+                "B_ {#namata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "namatam"
+                }
+            ],
+            "_meanings": [
+                "Woollen stuff."
+            ]
+        }
     ]
 }

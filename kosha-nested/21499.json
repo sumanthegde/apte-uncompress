@@ -1,38 +1,56 @@
 {
-    "__line": 177709,
+    "__line": 192562,
     "_ancestry": [
         "L_ 21499",
-        "B_ {#PAlgunaH#}"
+        "B_ {#pukkaSa#} "
     ],
-    "_banner": "{#PAlgunaH#}",
+    "_banner": "{#pukkaSa#} ",
     "_bannerExp": [
         {
-            "Right": "PAlgunaH"
+            "Right": "pukkaSa"
+        },
+        {
+            "Right": "pukkaSI"
+        },
+        {
+            "Left": "fFromGramCore error: pukkaSa  sI"
         }
     ],
-    "_meanings": [
-        "{@--1@} <ab>N.</ab> of a Hindu\nmonth (corresponding to February,\nMarch). ",
-        "{@--2@} An epithet of Arjuna;\n<ls>Mb.</ls> thus explains the epithet:  \n--{#uttarAByAM PalgunIByAM nakzatrAByAmahaM divA .#} \n{#jato himavataH pfzWe tena mAM PAlgunaM viduH ..#} ",
-        "{@--3@}\n<ab>N.</ab> of a tree, also called {#arjuna#}.\n"
+    "_gram": [
+        "{%a.%}",
+        "({#-SI#}|{%f.%})",
+        "{#pukkasa#}",
+        "{%a.%}",
+        "({#-sI#}|{%f.%})"
     ],
-    "_samasas": [
+    "_meanings": [
+        "¦\n Low, vile.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 177716,
+            "__line": 192564,
             "_ancestry": [
                 "L_ 21499",
-                "B_ {#PAlgunaH#}",
-                "S_  {#--anujaH#}"
+                "B_ {#pukkaSa#} ",
+                "M_ .{@{#-SaH, -zaH, -saH#}@}"
             ],
-            "_banner": " {#--anujaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "PAlgunAnujaH"
-                }
-            ],
+            "_banner": ".{@{#-SaH, -zaH, -saH#}@}",
             "_meanings": [
-                "{1} the month \nChaitra. ",
-                "{2} the vernal season ({#vasaMtakAla#}).\n",
-                "{3} an epithet of {#nakula#} and {#sahadeva#}."
+                "<ab>N.</ab> of a degraded mixed caste, the offspring of\n a Niṣāda by a Śūdra woman; {#jAto nizAdAcCUdrAyAM jAtyA Bavati pukkasaH#} <ls>Ms. 10. 18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 192566,
+            "_ancestry": [
+                "L_ 21499",
+                "B_ {#pukkaSa#} ",
+                "M_ .{@{#-SI, -sI#}@}"
+            ],
+            "_banner": ".{@{#-SI, -sI#}@}",
+            "_meanings": [
+                ".²1 A bud.\n",
+                ".²2 The Indigo plant.\n",
+                ".²3 A woman of the Pukkasa caste."
             ]
         }
     ]

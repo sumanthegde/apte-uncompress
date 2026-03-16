@@ -1,17 +1,57 @@
 {
-    "__line": 242294,
+    "__line": 267034,
     "_ancestry": [
         "L_ 28853",
-        "B_ {#saMkAraH#}"
+        "B_ {#vAcA#}"
     ],
-    "_banner": "{#saMkAraH#}",
+    "_banner": "{#vAcA#}",
     "_bannerExp": [
         {
-            "Right": "saMkAraH"
+            "Right": "vAcA"
         }
     ],
     "_meanings": [
-        "{@--1@} Dust, sweepings. ",
-        "{@--2@}\nThe crackling of flames."
+        ".²1 Speech.\n",
+        ".²2 A sacred text, a text or aphorism.\n",
+        ".²3 An oath.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 267039,
+            "_ancestry": [
+                "L_ 28853",
+                "B_ {#vAcA#}",
+                "S_ .{@{#-virudDa#}@}"
+            ],
+            "_banner": ".{@{#-virudDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAcAvirudDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not describable with words.\n"
+            ]
+        },
+        {
+            "__line": 267040,
+            "_ancestry": [
+                "L_ 28853",
+                "B_ {#vAcA#}",
+                "S_ .{@{#-sahAyaH#}@}"
+            ],
+            "_banner": ".{@{#-sahAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAcAsahAyaH"
+                }
+            ],
+            "_meanings": [
+                "a sociable companion."
+            ]
+        }
     ]
 }

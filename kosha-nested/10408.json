@@ -1,20 +1,40 @@
 {
-    "__line": 87419,
+    "__line": 86568,
     "_ancestry": [
         "L_ 10408",
-        "B_ {#kartrikA --kartrI#}"
+        "B_ {#uzita#}"
     ],
-    "_banner": "{#kartrikA --kartrI#}",
+    "_banner": "{#uzita#}",
     "_bannerExp": [
         {
-            "Right": "kartrI"
-        },
-        {
-            "Right": "kartrikA"
+            "Right": "uzita"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Knife. ",
-        "{@--2@} Scissors."
+        ".²1 Burnt, consumed.\n",
+        ".²2 (<ab>fr.</ab> {#vas#}) Dwelt, fixed, remaining in or on; stale.\n",
+        ".²3 Quick, expeditious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 86572,
+            "_ancestry": [
+                "L_ 10408",
+                "B_ {#uzita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uzitam"
+                }
+            ],
+            "_meanings": [
+                "Habitation. {#˚gavIna#} (= {#ASitaMgavIna#})."
+            ]
+        }
     ]
 }

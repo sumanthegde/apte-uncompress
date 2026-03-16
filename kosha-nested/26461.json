@@ -1,16 +1,85 @@
 {
-    "__line": 223086,
+    "__line": 241774,
     "_ancestry": [
         "L_ 26461",
-        "B_ {#vilva#}"
+        "B_ {#muzita#}"
     ],
-    "_banner": "{#vilva#}",
+    "_banner": "{#muzita#}",
     "_bannerExp": [
         {
-            "Right": "vilva"
+            "Right": "muzita"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#muz-kta#}]"
+    ],
     "_meanings": [
-        "See {#bilva#}."
+        ".²1 Robbed, stolen, plundered.\n",
+        ".²2 Taken away, carried off, ravished.\n",
+        ".²3 Deprived of, free from.\n",
+        ".²4 Cheated, deceived.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 241780,
+            "_ancestry": [
+                "L_ 26461",
+                "B_ {#muzita#}",
+                "S_ .{@{#-cetas#}@}"
+            ],
+            "_banner": ".{@{#-cetas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "muzitacetas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deprived of consciousness.\n"
+            ]
+        },
+        {
+            "__line": 241781,
+            "_ancestry": [
+                "L_ 26461",
+                "B_ {#muzita#}",
+                "S_ .{@{#-trapa#}@}"
+            ],
+            "_banner": ".{@{#-trapa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "muzitatrapa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "shameless.\n"
+            ]
+        },
+        {
+            "__line": 241782,
+            "_ancestry": [
+                "L_ 26461",
+                "B_ {#muzita#}",
+                "S_ .{@{#-smfti#}@}"
+            ],
+            "_banner": ".{@{#-smfti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "muzitasmfti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bereft of memory."
+            ]
+        }
     ]
 }

@@ -1,16 +1,55 @@
 {
-    "__line": 172610,
+    "__line": 186403,
     "_ancestry": [
         "L_ 20824",
-        "B_ {#praSAKikA#}"
+        "B_ {#palAlaH#}, {#-lam#}"
     ],
-    "_banner": "{#praSAKikA#}",
+    "_banner": "{#palAlaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "praSAKikA"
+            "Right": "palAlaH"
+        },
+        {
+            "Right": "palAlam"
         }
     ],
     "_meanings": [
-        "A small branch."
+        "Straw, husk; <ls>Mb. 13. 79. 17</ls>; <ls>Ms. 5. 122</ls>; {#palAlajAlEH pihitaH#}\n {#svayaM hi prakASamAsAdayatIkzuqimBaH#} <ls>N. 8. 2</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 186407,
+            "_ancestry": [
+                "L_ 20824",
+                "B_ {#palAlaH#}, {#-lam#}",
+                "S_ .{@{#-dohadaH#}@}"
+            ],
+            "_banner": ".{@{#-dohadaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palAladohadaH"
+                }
+            ],
+            "_meanings": [
+                "the mango tree (the fruit of which is ripened in straw).\n"
+            ]
+        },
+        {
+            "__line": 186408,
+            "_ancestry": [
+                "L_ 20824",
+                "B_ {#palAlaH#}, {#-lam#}",
+                "S_ .{@{#-BArakaH#}@}"
+            ],
+            "_banner": ".{@{#-BArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palAlaBArakaH"
+                }
+            ],
+            "_meanings": [
+                "a load of straw; <ls>Ms. 11. 133</ls>."
+            ]
+        }
     ]
 }

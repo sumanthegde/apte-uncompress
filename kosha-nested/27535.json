@@ -1,20 +1,142 @@
 {
-    "__line": 231574,
+    "__line": 254054,
     "_ancestry": [
         "L_ 27535",
-        "B_ {#Saktu#}"
+        "B_ {#ruj, rujA#}"
     ],
-    "_banner": "{#Saktu#}",
+    "_banner": "{#ruj, rujA#}",
     "_bannerExp": [
         {
-            "Right": "Saktu"
+            "Right": "ruj"
+        },
+        {
+            "Right": "rujA"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "{%<ab>n.</ab>%}"
+        "{%f.%}",
+        "[{#ruj-kvip vA wAp#}]"
     ],
     "_meanings": [
-        "The flour or meal of\nbarley, barley-meal; see {#saktu#}."
+        ".²1 Breaking, fracture.\n",
+        ".²2 Pain, torment, pang, anguish; {#aniSamapi makaraketurmanaso rujamAvahannaBimato#}\n {#me#} <ls>Ś. 3. 4</ls>; {#kva rujA hfdayapramATinI#} <ls>M. 3. 2</ls>; {#caraRaM rujAparItam#} <ls n=\"M.\">4. 3</ls>.\n",
+        ".²3 Sickness, malady, disease; {#ityadarSitarujo'sya mantriRaH#} <ls>R. 19. 52</ls>.\n",
+        ".²4 Fatigue, toil, effort, trouble.\n",
+        ".²5 A ewe.\n",
+        ".²6 Leprosy.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 254063,
+            "_ancestry": [
+                "L_ 27535",
+                "B_ {#ruj, rujA#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rukkara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "causing pain, sickening.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 254064,
+                    "_ancestry": [
+                        "L_ 27535",
+                        "B_ {#ruj, rujA#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: rukkara ({@{#-raH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a disease, sickness, illness. "
+                    ]
+                },
+                {
+                    "__line": 254064,
+                    "_ancestry": [
+                        "L_ 27535",
+                        "B_ {#ruj, rujA#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-jaH#}@})"
+                    ],
+                    "_banner": "({@{#-jaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: rukkara ({@{#-jaH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "{@{#kftyA#}@}\n trouble; {#brAhmaRasya rujaHkftyA GrAtiraGreyamadyayoH#} <ls>Ms. 11. 67</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 254066,
+            "_ancestry": [
+                "L_ 27535",
+                "B_ {#ruj, rujA#}",
+                "S_ .{@{#-pratikriyA#}@}"
+            ],
+            "_banner": ".{@{#-pratikriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rukpratikriyA"
+                }
+            ],
+            "_meanings": [
+                "counteraction or treatment of disease, curing, practice of medicine.\n"
+            ]
+        },
+        {
+            "__line": 254067,
+            "_ancestry": [
+                "L_ 27535",
+                "B_ {#ruj, rujA#}",
+                "S_ .{@{#-Bezajam#}@}"
+            ],
+            "_banner": ".{@{#-Bezajam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rugBezajam"
+                }
+            ],
+            "_meanings": [
+                "a medicine.\n"
+            ]
+        },
+        {
+            "__line": 254068,
+            "_ancestry": [
+                "L_ 27535",
+                "B_ {#ruj, rujA#}",
+                "S_ .{@{#-sadman#}@}"
+            ],
+            "_banner": ".{@{#-sadman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ruksadman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "feces, excrement."
+            ]
+        }
     ]
 }

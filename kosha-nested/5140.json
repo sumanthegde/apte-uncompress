@@ -1,21 +1,39 @@
 {
-    "__line": 45332,
+    "__line": 43414,
     "_ancestry": [
         "L_ 5140",
-        "B_ {#avfDa#}"
+        "B_ {#avamanTa#}"
     ],
-    "_banner": "{#avfDa#}",
+    "_banner": "{#avamanTa#}",
     "_bannerExp": [
         {
-            "Right": "avfDa"
+            "Right": "avamanTa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#avamaTnAti ava-manT-ac#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Not increasing.\n",
-        "{@--2@} Not promoting, not honouring."
+        "Producing swellings.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 43415,
+            "_ancestry": [
+                "L_ 5140",
+                "B_ {#avamanTa#}",
+                "M_ .{@{#-TaH#}@}"
+            ],
+            "_banner": ".{@{#-TaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avamanTaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of disease, swellings caused by boils or contusions."
+            ]
+        }
     ]
 }

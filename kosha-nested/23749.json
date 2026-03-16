@@ -1,22 +1,68 @@
 {
-    "__line": 200476,
+    "__line": 211995,
     "_ancestry": [
         "L_ 23749",
-        "B_ {#yAcYA#}"
+        "B_ {#prahita#}"
     ],
-    "_banner": "{#yAcYA#}",
+    "_banner": "{#prahita#}",
     "_bannerExp": [
         {
-            "Right": "yAcYA"
+            "Right": "prahita"
         }
     ],
     "_gram": [
-        "[{#yAc-naN#}]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Begging,\nasking. ",
-        "{@--2@} Mendicancy. ",
-        "{@--3@} Request,\nsolicitation, entreaty; {#yAcYA moGA#}\n{#varamaDiguRe nADame labDakAmA#} <ls>Me. 6.</ls> ",
-        "{@--4@}\nMaking an offer of marriage."
+        ".²1 Placed, put forth.\n",
+        ".²2 Extended, stretched out.\n",
+        ".²3 Sent, despatched, directed; {#vicAramArgaprahitena cetasA#} <ls>Ku. 5. 42</ls>.\n",
+        ".²4 Discharged, shot (as an arrow).\n",
+        ".²5 Appointed.\n",
+        ".²6 Appropriate, suitable.\n\n",
+        ".²7 Imbedded (as nails).\n",
+        ".²8 Turned towards, cast upon (as eyes, mind).\n",
+        ".²9 Sent away, expelled; {#iyamadya niSA pUrvA sOmitre prahitA vanam#}\n <ls>Rām. 2. 46. 2</ls> (<ab>com.</ab> gives {#prahitA#} = {#prAptA#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 212007,
+            "_ancestry": [
+                "L_ 23749",
+                "B_ {#prahita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prahitam"
+                }
+            ],
+            "_meanings": [
+                "A sauce, condiment.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 212009,
+            "_ancestry": [
+                "L_ 23749",
+                "B_ {#prahita#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prahitAtman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "resolute."
+            ]
+        }
     ]
 }

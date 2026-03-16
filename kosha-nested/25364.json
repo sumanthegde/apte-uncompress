@@ -1,19 +1,107 @@
 {
-    "__line": 214973,
+    "__line": 229198,
     "_ancestry": [
         "L_ 25364",
-        "B_ {#vAjIkara#}"
+        "B_ {#BOta#}"
     ],
-    "_banner": "{#vAjIkara#}",
+    "_banner": "{#BOta#}",
     "_bannerExp": [
         {
-            "Right": "vAjIkara"
+            "Right": "BOta"
+        },
+        {
+            "Right": "BOtI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-tI#}|{%f.%})",
+        "[{#BUtAni prARino'Dikftya pravfttaH#},\n {#tAni devatA vA asya aR#}]"
     ],
     "_meanings": [
-        "Stimulating amorous\ndesires."
+        ".²1 Relating to living beings.\n",
+        ".²2 Elemental, material.\n",
+        ".²3 Demoniacal.\n",
+        ".²4 Mad, crazy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 229204,
+            "_ancestry": [
+                "L_ 25364",
+                "B_ {#BOta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A worshipper of demons and spirits.\n",
+                ".²2 An attendant upon an idol ({#devala#}).\n",
+                ".²3 One of the five daily Yajñas to be performed by a householder (also\n called {#BUtayajYa#}, <ab>q. v.</ab>); {#homo dEvo balirBOto nfyajYo'tiTipUjanam#} <ls>Ms. 3. 70</ls>.\n"
+            ]
+        },
+        {
+            "__line": 229209,
+            "_ancestry": [
+                "L_ 25364",
+                "B_ {#BOta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtam"
+                }
+            ],
+            "_meanings": [
+                "A collection of evil spirits.\n"
+            ]
+        },
+        {
+            "__line": 229210,
+            "_ancestry": [
+                "L_ 25364",
+                "B_ {#BOta#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtI"
+                }
+            ],
+            "_meanings": [
+                "Night.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 229212,
+            "_ancestry": [
+                "L_ 25364",
+                "B_ {#BOta#}",
+                "S_ .{@{#-tulya, -priya#}@}"
+            ],
+            "_banner": ".{@{#-tulya, -priya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BOtatulya"
+                },
+                {
+                    "Right": "BOtapriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "imbecile, deranged, like an idiot."
+            ]
+        }
     ]
 }

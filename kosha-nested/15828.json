@@ -1,16 +1,82 @@
 {
-    "__line": 132409,
+    "__line": 137364,
     "_ancestry": [
         "L_ 15828",
-        "B_ {#drumiRI#}"
+        "B_ {#jvalana#}"
     ],
-    "_banner": "{#drumiRI#}",
+    "_banner": "{#jvalana#}",
     "_bannerExp": [
         {
-            "Right": "drumiRI"
+            "Right": "jvalana"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#jval-yuc#}]"
+    ],
     "_meanings": [
-        "An assemblage of trees."
+        ".²1 Flaming, shining.\n",
+        ".²2 Combustible.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 137367,
+            "_ancestry": [
+                "L_ 15828",
+                "B_ {#jvalana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvalanaH"
+                }
+            ],
+            "_meanings": [
+                "Fire; {#tadanu jvalanaM madarpitaM tvarayerdakziRavAtabIjanEH#}\n <ls>Ku. 4. 36</ls>, <ls n=\"Ku. 4.\">32</ls>; <ls>Bg. 11. 29</ls>.\n",
+                ".²2 Corrosive alkali.\n",
+                ".²3 The number ‘three’.\n",
+                ".²4 Plumbago Zeylanica or its root; <ls>Mātaṅga L. 11. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 137372,
+            "_ancestry": [
+                "L_ 15828",
+                "B_ {#jvalana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvalanam"
+                }
+            ],
+            "_meanings": [
+                "Burning, blazing, shining.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 137374,
+            "_ancestry": [
+                "L_ 15828",
+                "B_ {#jvalana#}",
+                "S_ .{@{#-aSman#}@}"
+            ],
+            "_banner": ".{@{#-aSman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jvalanASman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the sun-stone."
+            ]
+        }
     ]
 }

@@ -1,24 +1,105 @@
 {
-    "__line": 40911,
+    "__line": 37690,
     "_ancestry": [
         "L_ 4490",
-        "B_ {#avacCid#}"
+        "B_ {#arus#}"
     ],
-    "_banner": "{#avacCid#}",
+    "_banner": "{#arus#}",
     "_bannerExp": [
         {
-            "Right": "avacCid"
+            "Right": "arus"
         }
     ],
     "_gram": [
-        "{c7c}",
-        "<ab>U.</ab>"
+        "[{#f-us#} <ls>Uṇ. 2. 116</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To cut off, \nseparate, tear in pieces, break \nasunder. ",
-        "{@--2@} To discriminate, distinguish,\ncharacterize. ",
-        "{@--3@} To define, limit,\nmodify (as by time, space &c.,) used\nin Nyāya; see {#avacCinna#} below. ",
-        "{@--4@}\nTo detach, excerpt. ",
-        "{@--5@} To interrupt."
+        "Wounded, sore. {%m.%}\n.({@{#-ruH#}@})\n",
+        ".²1 The Arka tree.\n",
+        ".²2 Red {%Khadira%}. {%n.%}\n",
+        ".²1 A vital part.\n",
+        ".²2 A wound, sore ({%m.%} also).\n",
+        ".²3 An eye.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 37698,
+            "_ancestry": [
+                "L_ 4490",
+                "B_ {#arus#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aruzkara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#arus-kf-waH#} <ls>P. III. 2. 21</ls>]"
+            ],
+            "_meanings": [
+                "causing or inflicting\n wounds, wounding. {#aruzkaro GAtuke ca vraRakArye …#}\n <ls>Nm.</ls>\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 37701,
+                    "_ancestry": [
+                        "L_ 4490",
+                        "B_ {#arus#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: aruzkara ({@{#-raH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of a tree {#aruzka#} <ab>q. v.</ab>\n."
+                    ]
+                },
+                {
+                    "__line": 37702,
+                    "_ancestry": [
+                        "L_ 4490",
+                        "B_ {#arus#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-ram#}@})"
+                    ],
+                    "_banner": "({@{#-ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: aruzkara ({@{#-raM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "the nut of this tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 37703,
+            "_ancestry": [
+                "L_ 4490",
+                "B_ {#arus#}",
+                "S_ .{@{#-kfta#}@}"
+            ],
+            "_banner": ".{@{#-kfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aruzkfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wounded, hurt."
+            ]
+        }
     ]
 }

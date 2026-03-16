@@ -1,16 +1,59 @@
 {
-    "__line": 256458,
+    "__line": 282258,
     "_ancestry": [
         "L_ 30589",
-        "B_ {#sonahaH#}"
+        "B_ {#visvara#}"
     ],
-    "_banner": "{#sonahaH#}",
+    "_banner": "{#visvara#}",
     "_bannerExp": [
         {
-            "Right": "sonahaH"
+            "Right": "visvara"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Garlic."
+        ".²1 Discordant.\n",
+        ".²2 Having no sound.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 282261,
+            "_ancestry": [
+                "L_ 30589",
+                "B_ {#visvara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visvaraH"
+                }
+            ],
+            "_meanings": [
+                "Discord.\n"
+            ]
+        },
+        {
+            "__line": 282262,
+            "_ancestry": [
+                "L_ 30589",
+                "B_ {#visvara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visvaram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Pronounced with a wrong accent."
+            ]
+        }
     ]
 }

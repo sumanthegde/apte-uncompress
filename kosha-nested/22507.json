@@ -1,19 +1,44 @@
 {
-    "__line": 187824,
+    "__line": 202295,
     "_ancestry": [
         "L_ 22507",
-        "B_ {#maMjiman#}"
+        "B_ {#pratibanDaka#}"
     ],
-    "_banner": "{#maMjiman#}",
+    "_banner": "{#pratibanDaka#}",
     "_bannerExp": [
         {
-            "Right": "maMjiman"
+            "Right": "pratibanDaka"
+        },
+        {
+            "Right": "pratibanDikA"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "({#-nDikA#}|{%f.%})"
     ],
     "_meanings": [
-        "Beauty, loveliness."
+        ".²1 Binding, fastening.\n",
+        ".²2 Impeding, obstructing, hindering.\n",
+        ".²3 Resisting, opposing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 202299,
+            "_ancestry": [
+                "L_ 22507",
+                "B_ {#pratibanDaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratibanDakaH"
+                }
+            ],
+            "_meanings": [
+                "A branch, shoot."
+            ]
+        }
     ]
 }

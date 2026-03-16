@@ -1,22 +1,83 @@
 {
-    "__line": 208220,
+    "__line": 219623,
     "_ancestry": [
         "L_ 24563",
-        "B_ {#lAMC#}"
+        "B_ {#bAdara#}"
     ],
-    "_banner": "{#lAMC#}",
+    "_banner": "{#bAdara#}",
     "_bannerExp": [
         {
-            "Right": "lAMC"
+            "Right": "bAdara"
+        },
+        {
+            "Right": "bAdarI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#lAMCati#})"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#badara-aR#}]"
     ],
     "_meanings": [
-        "{@--1@} To \ndistinguish, mark, characterize. ",
-        "{@--2@} To\ndeck, decorate."
+        ".²1 Belonging to or coming from the jujube tree.\n",
+        ".²2 Made of cotton.\n",
+        ".²3 Coarse (<ab>opp.</ab> to {#sUkzma#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 219628,
+            "_ancestry": [
+                "L_ 24563",
+                "B_ {#bAdara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAdaraH"
+                }
+            ],
+            "_meanings": [
+                "The cotton shrub.\n"
+            ]
+        },
+        {
+            "__line": 219629,
+            "_ancestry": [
+                "L_ 24563",
+                "B_ {#bAdara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAdaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The jujube.\n",
+                ".²2 Silk.\n",
+                ".²3 Water.\n",
+                ".²4 A garment of cotton.\n",
+                ".²5 A conch-shell winding from left to right.\n"
+            ]
+        },
+        {
+            "__line": 219635,
+            "_ancestry": [
+                "L_ 24563",
+                "B_ {#bAdara#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAdarA"
+                }
+            ],
+            "_meanings": [
+                "The cotton shrub."
+            ]
+        }
     ]
 }

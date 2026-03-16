@@ -1,19 +1,105 @@
 {
-    "__line": 205048,
+    "__line": 215632,
     "_ancestry": [
         "L_ 24173",
-        "B_ {#riBvan#}"
+        "B_ {#prota#}"
     ],
-    "_banner": "{#riBvan#}",
+    "_banner": "{#prota#}",
     "_bannerExp": [
         {
-            "Right": "riBvan"
+            "Right": "prota"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#pra-ve-syUtO-kta saMprasAraRam#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> A thief."
+        ".²1 Sewn, stitched; {#tawABiGAtAdiva lagnapaNke Dunvan muhuH protaGane#}\n {#vizARe#} <ls>Ku. 7. 49</ls>.\n",
+        ".²2 Extended lengthwise or perpendicularly (<ab>opp.</ab> {#ota#}).\n",
+        ".²3 Tied, bound, fastened; {#prAsaprotapravorolbaRaruDiraparA … …#} <ls>Mv. 6. 33</ls>.\n",
+        ".²4 Pierced, transfixed; {#SUle protaH purARarziracOraScOraSaNkayA#} <ls>Mb. 1. 63. 92</ls>;\n {#SalyaprotaM prekzya sakumBaM muniputraM tApAdantaHSalya#}\n {#ivAsIt kzitipo'pi ..#} <ls>R. 9. 75</ls>.\n",
+        ".²5 Passed or come through; {#tarucCidraprotAn#} {%<ab>i. e.</ab>%} ({#candrakiraRAn#})\n {#bisamiti karI saMkalayati#} <ls>K. P. 19</ls>.\n",
+        ".²6 Set, inlaid; <ls>Mv. 1. 35</ls>.\n",
+        ".²7 Joined, connected; {#mayi sarvamidaM protaM sUtre maRigaRA iva#} <ls>Bg. 7. 7</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 215644,
+            "_ancestry": [
+                "L_ 24173",
+                "B_ {#prota#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "protam"
+                }
+            ],
+            "_meanings": [
+                "A garment, woven cloth.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 215646,
+            "_ancestry": [
+                "L_ 24173",
+                "B_ {#prota#}",
+                "S_ .{@{#-utsAdanam#}@}"
+            ],
+            "_banner": ".{@{#-utsAdanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prototsAdanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 an umbrella.\n",
+                ".²2 a cloth house, tent.\n"
+            ]
+        },
+        {
+            "__line": 215649,
+            "_ancestry": [
+                "L_ 24173",
+                "B_ {#prota#}",
+                "S_ .{@{#-Gana#}@}"
+            ],
+            "_banner": ".{@{#-Gana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "protaGana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "immersed in clouds.\n"
+            ]
+        },
+        {
+            "__line": 215650,
+            "_ancestry": [
+                "L_ 24173",
+                "B_ {#prota#}",
+                "S_ .{@{#-SUla#}@}"
+            ],
+            "_banner": ".{@{#-SUla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "protaSUla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "put on a spit, impaled."
+            ]
+        }
     ]
 }

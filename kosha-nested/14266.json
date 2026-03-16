@@ -1,21 +1,63 @@
 {
-    "__line": 118834,
+    "__line": 122505,
     "_ancestry": [
         "L_ 14266",
-        "B_ {#qval#}"
+        "B_ {#gErika#}"
     ],
-    "_banner": "{#qval#}",
+    "_banner": "{#gErika#}",
     "_bannerExp": [
         {
-            "Right": "qval"
+            "Right": "gErika"
+        },
+        {
+            "Right": "gErikI"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#qvAlayati-te#})"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#girO BavaH WaY#}]"
     ],
     "_meanings": [
-        "To mix. "
+        "Mountain-born.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 122507,
+            "_ancestry": [
+                "L_ 14266",
+                "B_ {#gErika#}",
+                "M_ .{@{#-kaH, -kam#}@}"
+            ],
+            "_banner": ".{@{#-kaH, -kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gErikaH"
+                },
+                {
+                    "Right": "gErikam"
+                }
+            ],
+            "_meanings": [
+                "Red chalk; {#saMsarpiBiH payasi gErikareRurAgEH#} <ls>Śi. 5. 39</ls>.\n"
+            ]
+        },
+        {
+            "__line": 122508,
+            "_ancestry": [
+                "L_ 14266",
+                "B_ {#gErika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gErikam"
+                }
+            ],
+            "_meanings": [
+                "Gold."
+            ]
+        }
     ]
 }

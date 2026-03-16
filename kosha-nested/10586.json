@@ -1,20 +1,42 @@
 {
-    "__line": 89003,
+    "__line": 88326,
     "_ancestry": [
         "L_ 10586",
-        "B_ {#kazAyita#}"
+        "B_ {#ftviya#}, {#-ftvya#}"
     ],
-    "_banner": "{#kazAyita#}",
+    "_banner": "{#ftviya#}, {#-ftvya#}",
     "_bannerExp": [
         {
-            "Right": "kazAyita"
+            "Right": "ftviya"
+        },
+        {
+            "Right": "ftvya"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Tinged, reddened,\ncoloured; {#amunEva kazAyitastanI#}  \n<ls>Ku. 4. 34</ls>; <ls>Śi. 7. 11.</ls> ",
-        "{@--2@} Affected."
+        "(<ab>cf.</ab> <ls>P. VI. 4. 175.</ls>) {%a.%}\n",
+        ".²1 Due, regular. {#ayaM te yonirftviyaH#} <ls>Jābāla Up. 4</ls>; <ls>Mbh.</ls> on <ls>P. I. 4. 1</ls>, <ls n=\"P.\">VI. 1. 127</ls>.\n",
+        ".²2 Conforming to, or familiar with, ceremonial rules.\n",
+        ".²3 Menstruating.\n",
+        ".²4 Being in the period most favourable to conception. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 88330,
+            "_ancestry": [
+                "L_ 10586",
+                "B_ {#ftviya#}, {#-ftvya#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#ftviya#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "Menstruation."
+            ]
+        }
     ]
 }

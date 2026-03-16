@@ -1,23 +1,43 @@
 {
-    "__line": 174890,
+    "__line": 189209,
     "_ancestry": [
         "L_ 21111",
-        "B_ {#prAtikUlika#}"
+        "B_ {#pAradeSya#}"
     ],
-    "_banner": "{#prAtikUlika#}",
+    "_banner": "{#pAradeSya#}",
     "_bannerExp": [
         {
-            "Right": "prAtikUlikI"
+            "Right": "pAradeSya"
         },
         {
-            "Right": "prAtikUlika"
+            "Right": "pAradeSyI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "({#-SyI#}|{%f.%})"
     ],
     "_meanings": [
-        "Opposed, opposing, contrary; {#AH#} \n{#prAtikUlikaH saMvfttaH#} <ls>Mv. 5.</ls>"
+        "Belonging to a foreign country, foreign.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 189211,
+            "_ancestry": [
+                "L_ 21111",
+                "B_ {#pAradeSya#}",
+                "M_ .{@{#-SyaH#}@}"
+            ],
+            "_banner": ".{@{#-SyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAradeSyaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A foreigner.\n",
+                ".²2 A traveller."
+            ]
+        }
     ]
 }

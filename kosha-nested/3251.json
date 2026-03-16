@@ -1,29 +1,74 @@
 {
-    "__line": 30922,
+    "__line": 27877,
     "_ancestry": [
         "L_ 3251",
-        "B_ {#aBimarSaka --rzaMka, --marSin --rzin#}"
+        "B_ {#abIja#} "
     ],
-    "_banner": "{#aBimarSaka --rzaMka, --marSin --rzin#}",
+    "_banner": "{#abIja#} ",
     "_bannerExp": [
         {
-            "Right": "aBimarSaka"
-        },
-        {
-            "Right": "aBimarSin"
-        },
-        {
-            "Right": "aBimarzaka"
-        },
-        {
-            "Right": "aBimarzin"
+            "Right": "abIja"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "({#-jaka#})"
     ],
     "_meanings": [
-        "{@--1@}\nTouching, coming in contact with.\n",
-        "{@--2@} Outraging, assaulting;  \n{#tvatkalatrABimarzI vErAspadaM DanamitraH#} <ls>Dk. 63.</ls>"
+        "¦\n {%a.%}\n",
+        ".²1 Impotent, seedless; <ls>Ms. 9. 79</ls>.\n",
+        ".²2 Causeless;\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 27881,
+            "_ancestry": [
+                "L_ 3251",
+                "B_ {#abIja#} ",
+                "M_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "abIjaH"
+                }
+            ],
+            "_meanings": [
+                "Victory over the mind;\n"
+            ]
+        },
+        {
+            "__line": 27882,
+            "_ancestry": [
+                "L_ 3251",
+                "B_ {#abIja#} ",
+                "M_ .{@{#-jA#}@}"
+            ],
+            "_banner": ".{@{#-jA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "abIjA"
+                }
+            ],
+            "_meanings": [
+                "a kind of grape (<lang>Mar.</lang> <ns>{#bedARA#}</ns>)\n"
+            ]
+        },
+        {
+            "__line": 27883,
+            "_ancestry": [
+                "L_ 3251",
+                "B_ {#abIja#} ",
+                "M_ .{@{#-jam#}@}"
+            ],
+            "_banner": ".{@{#-jam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "abIjam"
+                }
+            ],
+            "_meanings": [
+                "An unproductive seed; {#abIjavikrayI#} <ls>Ms. 9. 291</ls>."
+            ]
+        }
     ]
 }

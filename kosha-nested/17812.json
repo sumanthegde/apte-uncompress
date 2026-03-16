@@ -1,18 +1,167 @@
 {
-    "__line": 150664,
+    "__line": 157544,
     "_ancestry": [
         "L_ 17812",
-        "B_ {#parAMjaH#}"
+        "B_ {#dvis#}"
     ],
-    "_banner": "{#parAMjaH#}",
+    "_banner": "{#dvis#}",
     "_bannerExp": [
         {
-            "Right": "parAMjaH"
+            "Right": "dvis"
         }
     ],
+    "_gram": [
+        "{%ind.%}"
+    ],
     "_meanings": [
-        "{@--1@} An oil-mill. ",
-        "{@--2@} Foam.\n",
-        "{@--3@} The blade of a sword or knife."
+        "Twice; {#dviriva pratiSabdena vyAjahAra himAlayaH#}\n <ls>Ku. 6. 64</ls>; <ls>Ms. 2. 60</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 157547,
+            "_ancestry": [
+                "L_ 17812",
+                "B_ {#dvis#}",
+                "S_ .{@{#-Agamanam#}@}"
+            ],
+            "_banner": ".{@{#-Agamanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvirAgamanam"
+                }
+            ],
+            "_gram": [
+                "({@{#dvirAgamanam#}@})"
+            ],
+            "_meanings": [
+                "the ceremony of the second entrance\n of the bride into her husbandʼs house.\n"
+            ]
+        },
+        {
+            "__line": 157549,
+            "_ancestry": [
+                "L_ 17812",
+                "B_ {#dvis#}",
+                "S_ .{@{#-ApaH#}@}"
+            ],
+            "_banner": ".{@{#-ApaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvirApaH"
+                }
+            ],
+            "_gram": [
+                "({@{#dvirApaH#}@})"
+            ],
+            "_meanings": [
+                "an elephant.\n"
+            ]
+        },
+        {
+            "__line": 157550,
+            "_ancestry": [
+                "L_ 17812",
+                "B_ {#dvis#}",
+                "S_ .{@{#-ukta#}@}"
+            ],
+            "_banner": ".{@{#-ukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvirukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#dvirukta#})"
+            ],
+            "_meanings": [
+                ".²1 spoken twice, repeated.\n",
+                ".²2 said in two ways.\n",
+                ".²3 redundant, tautologous, superfluous.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 157554,
+                    "_ancestry": [
+                        "L_ 17812",
+                        "B_ {#dvis#}",
+                        "S_ .{@{#-ukta#}@}",
+                        "S_M_ ({@{#-ktam#}@})"
+                    ],
+                    "_banner": "({@{#-ktam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "dviruktam"
+                        }
+                    ],
+                    "_meanings": [
+                        "repetition.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 157555,
+            "_ancestry": [
+                "L_ 17812",
+                "B_ {#dvis#}",
+                "S_ .{@{#-uktiH#}@}"
+            ],
+            "_banner": ".{@{#-uktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dviruktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "({#dviruktiH#})"
+            ],
+            "_meanings": [
+                ".²1 repetition, tautology.\n",
+                ".²2 superfluity, uselessness.\n",
+                ".²3 twofold way of narration.\n"
+            ]
+        },
+        {
+            "__line": 157559,
+            "_ancestry": [
+                "L_ 17812",
+                "B_ {#dvis#}",
+                "S_ .{@{#-UQA#}@}"
+            ],
+            "_banner": ".{@{#-UQA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvirUQA"
+                }
+            ],
+            "_gram": [
+                "({#dvirUQA#})"
+            ],
+            "_meanings": [
+                "a woman married twice.\n"
+            ]
+        },
+        {
+            "__line": 157560,
+            "_ancestry": [
+                "L_ 17812",
+                "B_ {#dvis#}",
+                "S_ .{@{#-BAvaH, -vacanam#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH, -vacanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvirBAvaH"
+                },
+                {
+                    "Left": "S error: midAlign vacanaM BAvacanaM"
+                }
+            ],
+            "_meanings": [
+                "reduplication."
+            ]
+        }
     ]
 }

@@ -1,21 +1,352 @@
 {
-    "__line": 239311,
+    "__line": 263156,
     "_ancestry": [
         "L_ 28478",
-        "B_ {#Svall#}"
+        "B_ {#vayas#}"
     ],
-    "_banner": "{#Svall#}",
+    "_banner": "{#vayas#}",
     "_bannerExp": [
         {
-            "Right": "Svall"
+            "Right": "vayas"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#Svallati#})"
+        "{%n.%}",
+        "[{#aj-asun vIBAvaH#}]"
     ],
     "_meanings": [
-        "To run; see\n{#Sval#}."
+        ".²1 Age, any time or period of life; {#guRAH pUjAsTAnaM guRizu na ca liNgaM#}\n {#na ca vayaH#} <ls>U. 4. 11</ls>; {#navaM vayaH#} <ls>R. 2. 47</ls>; {#paScime vayasi#} <ls n=\"R.\">19. 1</ls>;\n {#na Kalu vayastejaso hetuH#} <ls>Bh. 2. 38</ls>; {#tejasAM hi na vayaH samIkzyate#}\n <ls>R. 11. 1</ls>; <ls>Ku. 5. 16</ls>; <ls>Bhāg. 10. 26. 4</ls>.\n",
+        ".²2 Youth, the prime of life; {#vayasi gate kaH kAmavikAraH#} <ls>Charpaṭa. S. 10</ls>;\n <ls>Bhāg. 8. 15. 17</ls>; {#vayogate kiM vanitAvilAsaH#} <ls>Subhāṣ.</ls>; so\n {#atikrAntavayAH#}.\n",
+        ".²3 A bird in general; {#smaraRIyAH samaye vayaM vayaH#} <ls>N. 2. 62</ls>; {#mfgavayogavayopacitaM#}\n {#vanam#} <ls>R. 9. 53</ls>, <ls n=\"R.\">2. 9</ls>; <ls>Śi. 3. 55</ls>, <ls n=\"Śi.\">11. 47</ls>.\n",
+        ".²4 A crow; {#vayAMsi kiM na kurvanti caYcvA svodarapUraRam#} <ls>Pt. 1. 23</ls>\n (here it may mean ‘a bird’ also.).\n",
+        ".²5 <ab>Ved.</ab> Sacrificial food or oblation.\n",
+        ".²6 Energy, strength.\n",
+        ".²7 Health, soundness of constitution.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 263172,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-atiga, -atIta#}@}"
+            ],
+            "_banner": ".{@{#-atiga, -atIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayo'tiga"
+                },
+                {
+                    "Right": "vayo'tIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "({#vayotiga#} <ab>&c.</ab>) advanced in age, aged, decrepit.\n"
+            ]
+        },
+        {
+            "__line": 263173,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-aDika#}@}"
+            ],
+            "_banner": ".{@{#-aDika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayo'Dika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#vayoDika#})"
+            ],
+            "_meanings": [
+                "older in age, senior.\n"
+            ]
+        },
+        {
+            "__line": 263174,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-avasTA#}@}"
+            ],
+            "_banner": ".{@{#-avasTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayo'vasTA"
+                }
+            ],
+            "_gram": [
+                "({#vayovasTA#})"
+            ],
+            "_meanings": [
+                "stage or period of life, measure of\n age; {#vayo'vasTAM tasyAH SruRuta#} <ls>Māl. 9. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 263176,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayaskara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "causing health and vigour of life, prolonging life.\n"
+            ]
+        },
+        {
+            "__line": 263177,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayogata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 come of age.\n",
+                ".²2 advanced in years; {#ayamitara AtmA kftakftyo vayogataH prEti#} <ls>Ait. Up. 2. 4</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 263180,
+                    "_ancestry": [
+                        "L_ 28478",
+                        "B_ {#vayas#}",
+                        "S_ .{@{#-gata#}@}",
+                        "S_M_ ({@{#-tam#}@})"
+                    ],
+                    "_banner": "({@{#-tam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "vayogatam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the departure of youth.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 263181,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-pariRatiH, -pariRAmaH#}@}"
+            ],
+            "_banner": ".{@{#-pariRatiH, -pariRAmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayaspariRatiH"
+                },
+                {
+                    "Right": "vayaspariRAmaH"
+                }
+            ],
+            "_meanings": [
+                "ripeness of age; advanced or old age.\n"
+            ]
+        },
+        {
+            "__line": 263182,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-pramARam#}@}"
+            ],
+            "_banner": ".{@{#-pramARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayaspramARam"
+                }
+            ],
+            "_meanings": [
+                ".²1 measure or length of life.\n",
+                ".²2 duration of life.\n"
+            ]
+        },
+        {
+            "__line": 263185,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-bAla#}@}"
+            ],
+            "_banner": ".{@{#-bAla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayobAla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "young in years.\n"
+            ]
+        },
+        {
+            "__line": 263186,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-vfdDa#}@}"
+            ],
+            "_banner": ".{@{#-vfdDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayovfdDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#vayovfdDa#})"
+            ],
+            "_meanings": [
+                "old, advanced in years.\n"
+            ]
+        },
+        {
+            "__line": 263187,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-saMDiH#}@}"
+            ],
+            "_banner": ".{@{#-saMDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayaHsanDiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 transition from one period of life to another; {#trayo vayaHsaMDayaH#}.\n",
+                ".²2 puberty, maturity (period of coming of age).\n"
+            ]
+        },
+        {
+            "__line": 263190,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-sTa#}@}"
+            ],
+            "_banner": ".{@{#-sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayaHsTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#vayaHsTa#}|{#vayasTa#})"
+            ],
+            "_meanings": [
+                ".²1 youthful; {#nAnAvarRaviBaktAnAM vayaHsTAnAM taTEva ca#} <ls>Rām. 1. 53. 20</ls>.\n",
+                ".²2 grown up, mature.\n",
+                ".²3 strong, powerful.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 263194,
+                    "_ancestry": [
+                        "L_ 28478",
+                        "B_ {#vayas#}",
+                        "S_ .{@{#-sTa#}@}",
+                        "S_M_ ({@{#-sTaH#}@})"
+                    ],
+                    "_banner": "({@{#-sTaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "vayaHsTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a friend; contemporary.\n."
+                    ]
+                },
+                {
+                    "__line": 263195,
+                    "_ancestry": [
+                        "L_ 28478",
+                        "B_ {#vayas#}",
+                        "S_ .{@{#-sTa#}@}",
+                        "S_M_ ({@{#-sTA#}@})"
+                    ],
+                    "_banner": "({@{#-sTA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "vayaHsTA"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a female companion.\n",
+                        ".²2 the yellow myrobalan tree.\n",
+                        ".²3 small cardamoms.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 263199,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayaHsTAnam"
+                }
+            ],
+            "_meanings": [
+                "firmness of youth.\n"
+            ]
+        },
+        {
+            "__line": 263200,
+            "_ancestry": [
+                "L_ 28478",
+                "B_ {#vayas#}",
+                "S_ .{@{#-hAniH#}@}"
+            ],
+            "_banner": ".{@{#-hAniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vayohAniH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "({@{#vayohAniH#}@})"
+            ],
+            "_meanings": [
+                ".²1 loss or decline of youth.\n",
+                ".²2 loss of youthful vigour."
+            ]
+        }
     ]
 }

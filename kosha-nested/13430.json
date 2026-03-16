@@ -1,37 +1,47 @@
 {
-    "__line": 112717,
+    "__line": 114549,
     "_ancestry": [
         "L_ 13430",
-        "B_ {#copana#}"
+        "B_ {#kzuB#}"
     ],
-    "_banner": "{#copana#}",
+    "_banner": "{#kzuB#}",
     "_bannerExp": [
         {
-            "Right": "copana"
+            "Right": "kzuB"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>Ā.</ab>",
+        "€4",
+        "€9",
+        "<ab>P.</ab>",
+        "({#kzoBate, kzuByati, kzuBnAti, kzuBita-kzubDa#})"
     ],
     "_meanings": [
-        "Moving, stirring. "
+        ".²1 To shake, tremble, to be agitated or disturbed; {#mahAhrada iva kzuByan#}\n <ls>Bk. 9. 118</ls>; <ls>R. 4. 21</ls>; <ls>Śi. 8. 24</ls>.\n",
+        ".²2 To be unsteady.\n",
+        ".²3 To stumble (<ab>fig.</ab> also). "
     ],
     "_morphisms": [
         {
-            "__line": 112717,
+            "__line": 114553,
             "_ancestry": [
                 "L_ 13430",
-                "B_ {#copana#}",
-                "M_ {#--naM#}"
+                "B_ {#kzuB#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "copanaM"
+                    "Right": "kzuB"
                 }
             ],
+            "_gram": [
+                "({#kzoBayati#})"
+            ],
             "_meanings": [
-                "Moving slowly."
+                "To agitate,\n stir up, excite, perturb."
             ]
         }
     ]

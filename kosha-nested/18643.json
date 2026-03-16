@@ -1,46 +1,69 @@
 {
-    "__line": 156194,
+    "__line": 166083,
     "_ancestry": [
         "L_ 18643",
-        "B_ {#pAtuka#}"
+        "B_ {#nikfti#}"
     ],
-    "_banner": "{#pAtuka#}",
+    "_banner": "{#nikfti#}",
     "_bannerExp": [
         {
-            "Right": "pAtukI"
-        },
-        {
-            "Right": "pAtuka"
+            "Right": "nikfti"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#pat-ukaY#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@}\nFalling habitually or frequently. ",
-        "{@--2@}\nApt or disposed to fall. ",
-        "{@--3@} Losing\none's caste. ",
-        "{@--4@} Going to hell. "
+        "Base, dishonest, wicked.\n"
     ],
     "_morphisms": [
         {
-            "__line": 156197,
+            "__line": 166084,
             "_ancestry": [
                 "L_ 18643",
-                "B_ {#pAtuka#}",
-                "M_ {#--kaH#}"
+                "B_ {#nikfti#}",
+                "M_ .{@{#-tiH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-tiH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pAtukaH"
+                    "Right": "nikftiH"
                 }
             ],
+            "_gram": [
+                "{%f.%}"
+            ],
             "_meanings": [
-                "{@--1@} The declivity of a mountain, a\nprecipice. ",
-                "{@--2@} The water-elephant."
+                ".²1 Baseness, wickedness.\n",
+                ".²2 Dishonesty, fraud, deception; {#anikftinipuRaM te cezwitaM mAnaSORqa#}\n <ls>Ve. 5. 21</ls>; <ls>Ki. 1. 45</ls>. {#ayaM kOmAramAraBya nikftiprakftiH svayam#} <ls>Śiva B. 17. 21</ls>;\n {#antargatagurunikftiH#} <ls n=\"Śiva B.\">17. 26</ls>.\n",
+                ".²3 Insult, offence, humiliation; {#svAgrAsanApanayanAnnikftirna soQA#} <ls>Mu. 4. 11</ls>.\n",
+                ".²4 A buse, reproach.\n",
+                ".²5 Rejection, removal.\n",
+                ".²6 Poverty, indigence.\n",
+                ".²7 The earth.\n",
+                ".²8 <ab>N.</ab> of one of the eight Vasus.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 166096,
+            "_ancestry": [
+                "L_ 18643",
+                "B_ {#nikfti#}",
+                "S_ .{@{#-prajYa#}@}"
+            ],
+            "_banner": ".{@{#-prajYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nikftiprajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "evil minded, wicked."
             ]
         }
     ]

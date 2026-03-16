@@ -1,19 +1,84 @@
 {
-    "__line": 98677,
+    "__line": 99363,
     "_ancestry": [
         "L_ 11783",
-        "B_ {#klib#}"
+        "B_ {#kavacaH#}, {#-cam#}"
     ],
-    "_banner": "{#klib#}",
+    "_banner": "{#kavacaH#}, {#-cam#}",
     "_bannerExp": [
         {
-            "Right": "klib"
+            "Right": "kavacaH"
+        },
+        {
+            "Right": "kavacam"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "[<ab>cf.</ab> <ls>Uṇ. 4. 2</ls>]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> The created world."
+        ".²1 An armour, coat of mail, a mail.\n",
+        ".²2 An amulet, a charm, a mystical syllable ({@{#hum, hUm#}@}) considered\n as a preservative like armour.\n",
+        ".²3 A kettle-drum.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 99370,
+            "_ancestry": [
+                "L_ 11783",
+                "B_ {#kavacaH#}, {#-cam#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavacapatraH"
+                }
+            ],
+            "_meanings": [
+                "the birch tree.\n"
+            ]
+        },
+        {
+            "__line": 99371,
+            "_ancestry": [
+                "L_ 11783",
+                "B_ {#kavacaH#}, {#-cam#}",
+                "S_ .{@{#-hara#}@}"
+            ],
+            "_banner": ".{@{#-hara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kavacahara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 wearing armour.\n",
+                ".²2 old enough to wear an armour; {#kavacaharaH kumAraH#} <ls>Sk.</ls> on <ls>P. III. 2. 10</ls>.\n <ab>cf.</ab> {#varmahara#} in <ls>R. 8. 94</ls>. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 99374,
+                    "_ancestry": [
+                        "L_ 11783",
+                        "B_ {#kavacaH#}, {#-cam#}",
+                        "S_ .{@{#-hara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "kavacaharaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a boy, child."
+                    ]
+                }
+            ]
+        }
     ]
 }

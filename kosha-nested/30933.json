@@ -1,47 +1,78 @@
 {
-    "__line": 259416,
+    "__line": 285737,
     "_ancestry": [
         "L_ 30933",
-        "B_ {#snehin#}"
+        "B_ {#vERava#}"
     ],
-    "_banner": "{#snehin#}",
+    "_banner": "{#vERava#}",
     "_bannerExp": [
         {
-            "Right": "snehin"
+            "Right": "vERava"
         },
         {
-            "Right": "snehinI"
+            "Right": "vERavI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#sneha-Rini#}]"
+        "{%a.%}",
+        "({#-vI#}|{%f.%})",
+        "[{#veRu-aR#}]"
     ],
     "_meanings": [
-        "{@--1@}\nAttached, affectionate, friendly. ",
-        "{@--2@}\nOily, unctuous, fat. "
+        "Made of or produced from a bamboo;\n {#vERavIM DArayedyazwiM sodakaM ca kamaRqalum#} <ls>Ms. 4. 36</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 259418,
+            "__line": 285740,
             "_ancestry": [
                 "L_ 30933",
-                "B_ {#snehin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#vERava#}",
+                "M_ .{@{#-vaH#}@}"
             ],
+            "_banner": ".{@{#-vaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "snehin"
+                    "Right": "vERavaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                ".²1 A bamboo-staff.\n",
+                ".²2 A worker in bamboo or wicker-work.\n",
+                ".²3 A flute.\n"
+            ]
+        },
+        {
+            "__line": 285744,
+            "_ancestry": [
+                "L_ 30933",
+                "B_ {#vERava#}",
+                "M_ .{@{#-vI#}@}"
+            ],
+            "_banner": ".{@{#-vI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vERavI"
+                }
             ],
             "_meanings": [
-                "{@--1@} A\nfriend. ",
-                "{@--2@} An anointer, a smearer.\n",
-                "{@--3@} A painter."
+                "Bamboo-manna.\n"
+            ]
+        },
+        {
+            "__line": 285745,
+            "_ancestry": [
+                "L_ 30933",
+                "B_ {#vERava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vERavam"
+                }
+            ],
+            "_meanings": [
+                "The seed or fruit of the bamboo."
             ]
         }
     ]

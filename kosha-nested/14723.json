@@ -1,22 +1,130 @@
 {
-    "__line": 122417,
+    "__line": 127698,
     "_ancestry": [
         "L_ 14723",
-        "B_ {#tIv#}"
+        "B_ {#carama#}"
     ],
-    "_banner": "{#tIv#}",
+    "_banner": "{#carama#}",
     "_bannerExp": [
         {
-            "Right": "tIv"
+            "Right": "carama"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#tIvati#})"
+        "{%a.%}",
+        "[{#car-amac#} <ls>Uṇ. 5. 69</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To be large\nor strong. ",
-        "{@--2@} To be fat or corpulent."
+        ".²1 Last, ultimate, final; {#caramA kriyA#} ‘the final or funeral ceremony’.\n",
+        ".²2 Posterior, back; {#pfzWaM tu caramaM tanoH#} <ls>Ak.</ls>\n",
+        ".²3 Old (as age).\n",
+        ".²4 Outermost.\n",
+        ".²5 Western, west.\n",
+        ".²6 Lowest, least.\n",
+        ".²7 Western; {#bfsIM caramaSErzikIm#} <ls>Rām. 13. 10. 30</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 127706,
+            "_ancestry": [
+                "L_ 14723",
+                "B_ {#carama#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caramam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "At last; at the end.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 127708,
+            "_ancestry": [
+                "L_ 14723",
+                "B_ {#carama#}",
+                "S_ .{@{#-acalaH, -adriH, -kzmABft#}@}"
+            ],
+            "_banner": ".{@{#-acalaH, -adriH, -kzmABft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caramAcalaH"
+                },
+                {
+                    "Right": "caramAdriH"
+                },
+                {
+                    "Right": "caramakzmABft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the western mountain behind which\n the sun and moon are supposed to set.\n"
+            ]
+        },
+        {
+            "__line": 127710,
+            "_ancestry": [
+                "L_ 14723",
+                "B_ {#carama#}",
+                "S_ .{@{#-avasTA#}@}"
+            ],
+            "_banner": ".{@{#-avasTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caramAvasTA"
+                }
+            ],
+            "_meanings": [
+                "the last state (old age).\n"
+            ]
+        },
+        {
+            "__line": 127711,
+            "_ancestry": [
+                "L_ 14723",
+                "B_ {#carama#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caramakAlaH"
+                }
+            ],
+            "_meanings": [
+                "the hour of death.\n"
+            ]
+        },
+        {
+            "__line": 127712,
+            "_ancestry": [
+                "L_ 14723",
+                "B_ {#carama#}",
+                "S_ .{@{#-vayas#}@}"
+            ],
+            "_banner": ".{@{#-vayas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caramavayas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "new, aged; <ls>Māl. 6. 2</ls>."
+            ]
+        }
     ]
 }

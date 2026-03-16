@@ -1,19 +1,57 @@
 {
-    "__line": 111124,
+    "__line": 112744,
     "_ancestry": [
         "L_ 13229",
-        "B_ {#cAtuzkAMqika#}"
+        "B_ {#kledana#}"
     ],
-    "_banner": "{#cAtuzkAMqika#}",
+    "_banner": "{#kledana#}",
     "_bannerExp": [
         {
-            "Right": "cAtuzkAMqika"
+            "Right": "kledana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#klid Ric-lyuw#}]"
     ],
     "_meanings": [
-        "Divided into\nfour parts."
+        "Wetting, making wet.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 112745,
+            "_ancestry": [
+                "L_ 13229",
+                "B_ {#kledana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kledanaH"
+                }
+            ],
+            "_meanings": [
+                "Phlegm.\n"
+            ]
+        },
+        {
+            "__line": 112746,
+            "_ancestry": [
+                "L_ 13229",
+                "B_ {#kledana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kledanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Wetting, moistening.\n",
+                ".²2 Trickling, oozing."
+            ]
+        }
     ]
 }

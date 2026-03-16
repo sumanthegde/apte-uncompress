@@ -1,26 +1,58 @@
 {
-    "__line": 213854,
+    "__line": 228023,
     "_ancestry": [
         "L_ 25253",
-        "B_ {#vaSA#}"
+        "B_ {#BUr#}"
     ],
-    "_banner": "{#vaSA#}",
+    "_banner": "{#BUr#}",
     "_bannerExp": [
         {
-            "Right": "vaSA"
+            "Right": "BUr"
         }
     ],
     "_gram": [
-        "[{#vaS-ac#}]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "{@--1@} A woman. ",
-        "{@--2@} A\nwife. ",
-        "{@--3@} A daughter. ",
-        "{@--4@} A husband's\nsister. ",
-        "{@--5@} A cow. ",
-        "{@--6@} A barren \nwoman. ",
-        "{@--7@} A barren cow. ",
-        "{@--8@} A \nfemale elephant; {#strIratnezu#} \n{#mamorvaSIpriyatamA yUTe taveyaM vaSA#} <ls>V. 4. 25.</ls>"
+        ".²1 One of the three Vyāhṛtis.\n",
+        ".²2 The lowest of the seven lower worlds.\n",
+        ".²3 A spiritual son of Brahman.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 228028,
+            "_ancestry": [
+                "L_ 25253",
+                "B_ {#BUr#}",
+                "S_ .{@{#-BuvaH#}@}"
+            ],
+            "_banner": ".{@{#-BuvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrBuvaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of one of the mind-born sons of Brahman.\n"
+            ]
+        },
+        {
+            "__line": 228029,
+            "_ancestry": [
+                "L_ 25253",
+                "B_ {#BUr#}",
+                "S_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BUrlokaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the terrestrial world, earth. ",
+                ".²2 the country south of the equator."
+            ]
+        }
     ]
 }

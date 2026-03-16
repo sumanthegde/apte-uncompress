@@ -1,22 +1,78 @@
 {
-    "__line": 121379,
+    "__line": 126354,
     "_ancestry": [
         "L_ 14595",
-        "B_ {#tAy#}"
+        "B_ {#cakzuzya#}"
     ],
-    "_banner": "{#tAy#}",
+    "_banner": "{#cakzuzya#}",
     "_bannerExp": [
         {
-            "Right": "tAy"
+            "Right": "cakzuzya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#tAyate, tAyita#})"
+        "{%a.%}",
+        "[{#cakzute hitaH yat#}]"
     ],
     "_meanings": [
-        "{@--1@} To\nspread, extend, proceed in a \ncontinuous line. ",
-        "{@--2@} To protect, preserve.\n--WITH {#vi#} to spread, create;  \n<ls>Bk. 16. 105.</ls>"
+        ".²1 Good looking, agreeable to the sight, pleasing, beautiful; <ls>Śi. 8. 57</ls>.\n",
+        ".²2 Good for the eyes.\n",
+        ".²3 Produced from the eye; {#devatAnAM pitFRAM ca cakzuzyaM cAtmanAM viBo#}\n <ls>Mb. 13. 68. 28</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 126359,
+            "_ancestry": [
+                "L_ 14595",
+                "B_ {#cakzuzya#}",
+                "M_ .{@{#-zyaH, -zyA#}@}"
+            ],
+            "_banner": ".{@{#-zyaH, -zyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cakzuzyaH"
+                },
+                {
+                    "Right": "cakzuzyA"
+                }
+            ],
+            "_meanings": [
+                "A collyrium or application to the eyes.\n"
+            ]
+        },
+        {
+            "__line": 126360,
+            "_ancestry": [
+                "L_ 14595",
+                "B_ {#cakzuzya#}",
+                "M_ .{@{#-zyA#}@}"
+            ],
+            "_banner": ".{@{#-zyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cakzuzyA"
+                }
+            ],
+            "_meanings": [
+                "A pleasing or agreeable woman.\n"
+            ]
+        },
+        {
+            "__line": 126361,
+            "_ancestry": [
+                "L_ 14595",
+                "B_ {#cakzuzya#}",
+                "M_ .{@{#-zyam#}@}"
+            ],
+            "_banner": ".{@{#-zyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cakzuzyam"
+                }
+            ],
+            "_meanings": [
+                "An ointment for the eyes (<lang>Mar.</lang> <ns>{#suramA ?#}</ns>); {#tArkzyaSElaM#}\n {#SiKigrIvaM cakzuzyaM yAmunaM punaH#} <ls>Śiva B. 30. 18</ls>."
+            ]
+        }
     ]
 }

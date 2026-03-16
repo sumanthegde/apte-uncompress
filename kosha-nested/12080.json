@@ -1,19 +1,80 @@
 {
-    "__line": 100900,
+    "__line": 101988,
     "_ancestry": [
         "L_ 12080",
-        "B_ {#KanitrakaM --trikA#}"
+        "B_ {#kArtika#}"
     ],
-    "_banner": "{#KanitrakaM --trikA#}",
+    "_banner": "{#kArtika#}",
     "_bannerExp": [
         {
-            "Right": "KanitrakaM"
+            "Right": "kArtika"
         },
         {
-            "Right": "KanitrikA"
+            "Right": "kArtikI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#kfttikA-aR#}]"
+    ],
     "_meanings": [
-        "A small shovel."
+        "Belonging to\n the month of Kārtika; {#kArtikIzu savitAnaharmyaBAk#} <ls>R. 19. 39</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 101990,
+            "_ancestry": [
+                "L_ 12080",
+                "B_ {#kArtika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArtikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of the month in which the full moon is near the {#kfttikA#} or Pleiades\n (corresponding to October-November).\n",
+                ".²2 An epithet of Skanda.\n"
+            ]
+        },
+        {
+            "__line": 101994,
+            "_ancestry": [
+                "L_ 12080",
+                "B_ {#kArtika#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArtikI"
+                }
+            ],
+            "_meanings": [
+                "The full moon day in the month of Kārtika (<lang>Mar.</lang> <ns>{#tripurI pOrRimA#}</ns>).\n {#kArtikyAH praBfti AgrahAyaRI mAse#} <ls>Mbh.</ls> on <ls>P. II. 3. 28</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 101997,
+            "_ancestry": [
+                "L_ 12080",
+                "B_ {#kArtika#}",
+                "S_ .{@{#-utsavaH#}@}"
+            ],
+            "_banner": ".{@{#-utsavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArtikotsavaH"
+                }
+            ],
+            "_meanings": [
+                "a festival on the full-moon day of the month of {#kArtika#}."
+            ]
+        }
     ]
 }

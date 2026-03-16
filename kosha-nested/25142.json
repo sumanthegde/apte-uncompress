@@ -1,19 +1,58 @@
 {
-    "__line": 213087,
+    "__line": 226178,
     "_ancestry": [
         "L_ 25142",
-        "B_ {#vartI(rti)raH#}"
+        "B_ {#BAsvat#}"
     ],
-    "_banner": "{#vartI(rti)raH#}",
+    "_banner": "{#BAsvat#}",
     "_bannerExp": [
         {
-            "Right": "vartIraH"
-        },
-        {
-            "Right": "vartiraH"
+            "Right": "BAsvat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A kind of quail."
+        "Bright, shining, luminous, resplendent; {#BAsvanti#}\n {#ratnAni mahOzaDISca pfTUpadizwAM duduhurDaritrIm#} <ls>Ku. 1. 2</ls>, <ls n=\"Ku.\">6. 60</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 226179,
+            "_ancestry": [
+                "L_ 25142",
+                "B_ {#BAsvat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BAsvat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The sun; {#BAsvAnudezyati hasizyati cakravAlam#} <ls>Subhāṣ.</ls>; <ls>R. 16. 44</ls>.\n",
+                ".²2 Light, lustre, splendour.\n",
+                ".²3 A hero.\n",
+                ".²4 <ab>Ved.</ab> Dawn.\n"
+            ]
+        },
+        {
+            "__line": 226184,
+            "_ancestry": [
+                "L_ 25142",
+                "B_ {#BAsvat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAsvatI"
+                }
+            ],
+            "_meanings": [
+                "The city of the sun."
+            ]
+        }
     ]
 }

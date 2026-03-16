@@ -1,22 +1,56 @@
 {
-    "__line": 74424,
+    "__line": 73170,
     "_ancestry": [
         "L_ 8708",
-        "B_ {#upapArSvaH --rSvaM#}"
+        "B_ {#uttAraRa#}"
     ],
-    "_banner": "{#upapArSvaH --rSvaM#}",
+    "_banner": "{#uttAraRa#}",
     "_bannerExp": [
         {
-            "Right": "upapArSvaH"
-        },
-        {
-            "Right": "upapArSvaM"
+            "Right": "uttAraRa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A shoulder. ",
-        "{@--2@}\nA flank, side. ",
-        "{@--3@} The opposite side.\n",
-        "{@--4@} The lesser ribs."
+        "Transporting or bringing over, conveying; rescuing, delivering.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 73171,
+            "_ancestry": [
+                "L_ 8708",
+                "B_ {#uttAraRa#}",
+                "M_ .{@{#-RaH#}@}"
+            ],
+            "_banner": ".{@{#-RaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uttAraRaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 73172,
+            "_ancestry": [
+                "L_ 8708",
+                "B_ {#uttAraRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uttAraRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The act of landing, delivering or rescuing.\n",
+                ".²2 Transportation, conveying across."
+            ]
+        }
     ]
 }

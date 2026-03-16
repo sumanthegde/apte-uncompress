@@ -1,16 +1,82 @@
 {
-    "__line": 101359,
+    "__line": 103052,
     "_ancestry": [
         "L_ 12165",
-        "B_ {#KAlatyaM#}"
+        "B_ {#kASaH, -SakaH, -Sam#}"
     ],
-    "_banner": "{#KAlatyaM#}",
+    "_banner": "{#kASaH, -SakaH, -Sam#}",
     "_bannerExp": [
         {
-            "Right": "KAlatyaM"
+            "Right": "kASaH"
+        },
+        {
+            "Right": "kASakaH"
+        },
+        {
+            "Right": "kASam"
         }
     ],
+    "_gram": [
+        "[{#kAS-ac#}]"
+    ],
     "_meanings": [
-        "Morbid baldness."
+        "A kind of grass used for mats, roofs, <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 103054,
+            "_ancestry": [
+                "L_ 12165",
+                "B_ {#kASaH, -SakaH, -Sam#}",
+                "M_ .{@{#-Sam#}@}"
+            ],
+            "_banner": ".{@{#-Sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kASam"
+                }
+            ],
+            "_meanings": [
+                "A flower of that grass; <ls>Ku. 7. 11</ls>; <ls>R. 4. 17</ls>; <ls>Rs. 3. 1</ls>, <ls n=\"Rs. 3.\">2</ls>, <ls n=\"Rs. 3.\">28</ls>.\n {#carati pulinezu haMsI kASAMSukavAsinI susaMhfzwA#} <ls>Pratimā 1. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 103056,
+            "_ancestry": [
+                "L_ 12165",
+                "B_ {#kASaH, -SakaH, -Sam#}",
+                "M_ .{@{#-SaH#}@}"
+            ],
+            "_banner": ".{@{#-SaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kASaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 = {#kAsa#} <ab>q. v.</ab>\n",
+                ".²2 Appearance.\n",
+                ".²3 Splendour. {#yanmAyayApi vibuDA muhyanti jYAnakASayA#} <ls>Bhāg. 12. 10. 2</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 103061,
+            "_ancestry": [
+                "L_ 12165",
+                "B_ {#kASaH, -SakaH, -Sam#}",
+                "S_ .{@{#-kftsnaH#}@}"
+            ],
+            "_banner": ".{@{#-kftsnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kASakftsnaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a Grammarian."
+            ]
+        }
     ]
 }

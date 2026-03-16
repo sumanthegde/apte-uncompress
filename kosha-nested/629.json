@@ -1,20 +1,67 @@
 {
-    "__line": 7971,
+    "__line": 6628,
     "_ancestry": [
         "L_ 629",
-        "B_ {#atimAya#}"
+        "B_ {#atitIvra, -tIkzRa#}"
     ],
-    "_banner": "{#atimAya#}",
+    "_banner": "{#atitIvra, -tIkzRa#}",
     "_bannerExp": [
         {
-            "Right": "atimAya"
+            "Right": "atitIvra"
+        },
+        {
+            "Right": "atitIkzRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#mAyAmatikrAMtaH#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Finally liberated, emancipated from the\nMāyā or illusion of the world."
+        "Very sharp, pungent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 6630,
+            "_ancestry": [
+                "L_ 629",
+                "B_ {#atitIvra, -tIkzRa#}",
+                "M_ .{@{#-kzRaH#}@}"
+            ],
+            "_banner": ".{@{#-kzRaH#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "<ab>N.</ab> of the plant {#SoBAYjana#}.\n"
+            ]
+        },
+        {
+            "__line": 6631,
+            "_ancestry": [
+                "L_ 629",
+                "B_ {#atitIvra, -tIkzRa#}",
+                "M_ .{@{#-kzRA#}@}"
+            ],
+            "_banner": ".{@{#-kzRA#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "(<lang>Mar.</lang> <ns>{#moharI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 6632,
+            "_ancestry": [
+                "L_ 629",
+                "B_ {#atitIvra, -tIkzRa#}",
+                "M_ .{@{#-vrA#}@}"
+            ],
+            "_banner": ".{@{#-vrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "atitIvrA"
+                }
+            ],
+            "_meanings": [
+                "dūb grass."
+            ]
+        }
     ]
 }

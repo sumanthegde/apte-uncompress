@@ -1,29 +1,39 @@
 {
-    "__line": 200674,
+    "__line": 212220,
     "_ancestry": [
         "L_ 23779",
-        "B_ {#yAdfkza#}"
+        "B_ {#prahlAd#}"
     ],
-    "_banner": "{#yAdfkza#}",
+    "_banner": "{#prahlAd#}",
     "_bannerExp": [
         {
-            "Left": "fFromGramCore error: yAdfkza  SI"
-        },
-        {
-            "Right": "yAdfkzI"
-        },
-        {
-            "Right": "yAdfkza"
+            "Right": "prahlAd"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kzI#}|{%<ab>f.</ab>%})",
-        "{#yAdfS, yAdfSa#}",
-        "{%<ab>a.</ab>%}",
-        "({#SI#}|{%<ab>f.</ab>%})"
+        "€1",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "What like, of which sort\nor nature; <ls>Ms. 1. 42</ls>; <ls>Bg. 13. 3.</ls>"
+        "To be greatly delighted, rejoice. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 212220,
+            "_ancestry": [
+                "L_ 23779",
+                "B_ {#prahlAd#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "prahlAd"
+                }
+            ],
+            "_meanings": [
+                "To\n delight, exhilarate, gladden."
+            ]
+        }
     ]
 }

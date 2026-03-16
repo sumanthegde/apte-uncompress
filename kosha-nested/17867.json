@@ -1,42 +1,801 @@
 {
-    "__line": 151020,
+    "__line": 157966,
     "_ancestry": [
         "L_ 17867",
-        "B_ {#parikfz#}"
+        "B_ {#Danam#}"
     ],
-    "_banner": "{#parikfz#}",
+    "_banner": "{#Danam#}",
     "_bannerExp": [
         {
-            "Right": "parikfz"
+            "Right": "Danam"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "[{#Dan-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To draw, pull,\ndrag. ",
-        "{@--2@} To lead (as an army).\n",
-        "{@--3@} To ponder, reflect constantly\nupon. "
+        ".²1 Property, wealth, riches, treasure, money (gold, chattels <ab>&c.</ab>); {#DanaM#}\n {#tAvadasulaBam#} <ls>H. 1</ls>; (<ab>fig.</ab> also) as in {#tapoDana, vidyADana#}, <ab>&c.</ab>\n",
+        ".²2\n",
+        ".³({%a%}) Any valued possession, an object of affection or endearment,\n dearest treasure; {#kazwaM janaH kulaDanEranuraYjanIyaH#} <ls>U. 1. 14</ls>; {#gurorapIdaM#}\n {#DanamAhitAgneH#} <ls>R. 2. 44</ls>; {#mAnaDana, aBimAna˚#} <ab>&c.</ab>\n",
+        ".³({%b%}) A valuable article; <ls>Ms. 8. 201</ls>, <ls n=\"Ms. 8.\">202</ls>.\n",
+        ".²3 Capital (<ab>opp.</ab> {#vfdDi#} or interest).\n",
+        ".²4 A booty, prey, spoil.\n",
+        ".²5 The reward given to a victor in a combat, the prize won in a game.\n",
+        ".²6 A contest for prizes, a match.\n",
+        ".²7 The lunar mansion called {#DanizWA#}.\n",
+        ".²8 Surplus, residue.\n",
+        ".²9 (In <ab>math.</ab>) The affirmative quantity or plus (<ab>opp.</ab> {#fRa#}).\n",
+        ".²10 A sound.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 151023,
+            "__line": 157983,
             "_ancestry": [
                 "L_ 17867",
-                "B_ {#parikfz#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#Danam#}",
+                "S_ .{@{#-aDikAraH#}@}"
             ],
+            "_banner": ".{@{#-aDikAraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "parikfz"
+                    "Right": "DanADikAraH"
+                }
+            ],
+            "_meanings": [
+                "right to property, right of inheriting property.\n"
+            ]
+        },
+        {
+            "__line": 157984,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-aDikArin#}@}"
+            ],
+            "_banner": ".{@{#-aDikArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanADikArin"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%m.%}",
+                "{@{#-aDikftaH#}@}"
             ],
             "_meanings": [
-                "To torment, trouble."
+                ".²1 a treasurer.\n",
+                ".²2 an heir.\n"
+            ]
+        },
+        {
+            "__line": 157987,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-aDigoptf#}@}"
+            ],
+            "_banner": ".{@{#-aDigoptf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanADigoptf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-aDipaH, -aDipatiH, -aDyakzaH#}@}"
+            ],
+            "_meanings": [
+                ".²1 an epithet of Kubera; {#anucareRa DanADipate raTo nagavilokanavismitamAnasaH#}\n ({#sa jagade#}) <ls>Ki. 5. 16</ls>. {#DanADipena vidDasya anuhrAdasya saMyuge#}\n <ls>Hariv.</ls>; {#yadasmAkaM DanADyakzaH praBUtaM DanamAharat#} <ls>Mb. 179. 18</ls>.\n",
+                ".²2 a treasurer.\n"
+            ]
+        },
+        {
+            "__line": 157992,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-apahAraH#}@}"
+            ],
+            "_banner": ".{@{#-apahAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanApahAraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 fine.\n",
+                ".²2 plunder.\n"
+            ]
+        },
+        {
+            "__line": 157995,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-arcita#}@}"
+            ],
+            "_banner": ".{@{#-arcita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanArcita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 honoured with gifts of wealth, kept contented by valuable presents;\n {#mAnaDanA DanArcitAH#} <ls>Ki. 1. 19</ls>.\n",
+                ".²2 wealthy, opulent.\n"
+            ]
+        },
+        {
+            "__line": 157999,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-arTin#}@}"
+            ],
+            "_banner": ".{@{#-arTin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanArTin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "desiring or seeking for wealth, covetous, miserly.\n"
+            ]
+        },
+        {
+            "__line": 158000,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-AQadya#}@}"
+            ],
+            "_banner": ".{@{#-AQadya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanAQadya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "opulent, rich.\n"
+            ]
+        },
+        {
+            "__line": 158001,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-AdAnam#}@}"
+            ],
+            "_banner": ".{@{#-AdAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanAdAnam"
+                }
+            ],
+            "_meanings": [
+                "acceptance of money; <ls>Ms. 11. 69</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158002,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-ADAraH#}@}"
+            ],
+            "_banner": ".{@{#-ADAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanADAraH"
+                }
+            ],
+            "_meanings": [
+                "a treasury.\n"
+            ]
+        },
+        {
+            "__line": 158003,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-ASA#}@}"
+            ],
+            "_banner": ".{@{#-ASA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanASA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Desire for wealth; {#DanASA jIvitASA ca jIryato'pi#}\n {#na jIryati#} <ls>Subhāṣ.</ls>\n"
+            ]
+        },
+        {
+            "__line": 158005,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-ISaH, -ISvaraH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH, -ISvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DaneSaH"
+                },
+                {
+                    "Right": "DaneSvaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a treasurer.\n",
+                ".²2 an epithet of Kubera.\n"
+            ]
+        },
+        {
+            "__line": 158008,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-uzman#}@}"
+            ],
+            "_banner": ".{@{#-uzman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danozman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 warmth of wealth; <ab>cf.</ab> {#arTozman#};\n",
+                ".²2 burning desire for wealth; <ls>Ms. 9. 231</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158011,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-ezin#}@}"
+            ],
+            "_banner": ".{@{#-ezin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanEzin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a creditor who claims his money.\n"
+            ]
+        },
+        {
+            "__line": 158012,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-kAma, -kAmya#}@}"
+            ],
+            "_banner": ".{@{#-kAma, -kAmya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanakAma"
+                },
+                {
+                    "Right": "DanakAmya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "covetous, greedy.\n"
+            ]
+        },
+        {
+            "__line": 158013,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-keliH#}@}"
+            ],
+            "_banner": ".{@{#-keliH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanakeliH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Kubera.\n"
+            ]
+        },
+        {
+            "__line": 158014,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-kzayaH#}@}"
+            ],
+            "_banner": ".{@{#-kzayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanakzayaH"
+                }
+            ],
+            "_meanings": [
+                "loss of wealth; {#Danakzaye varDati jAWarAgniH#} <ls>Pt. 2. 178</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158015,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-garva, -garvita#}@}"
+            ],
+            "_banner": ".{@{#-garva, -garvita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danagarva"
+                },
+                {
+                    "Right": "Danagarvita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "purse-proud.\n"
+            ]
+        },
+        {
+            "__line": 158016,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-CUH#}@}"
+            ],
+            "_banner": ".{@{#-CUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanacCUH"
+                }
+            ],
+            "_meanings": [
+                "the numidian crane.\n"
+            ]
+        },
+        {
+            "__line": 158017,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-jAtam#}@}"
+            ],
+            "_banner": ".{@{#-jAtam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanajAtam"
+                }
+            ],
+            "_meanings": [
+                "all kinds of valuable\n\n possessions, aggregate property; {#sarvezAM DanajAtAnAmAdadItAgryamagrajaH#} <ls>Ms. 9. 114</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158020,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "liberal.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 158021,
+                    "_ancestry": [
+                        "L_ 17867",
+                        "B_ {#Danam#}",
+                        "S_ .{@{#-da#}@}",
+                        "S_M_ ({@{#-daH#}@})"
+                    ],
+                    "_banner": "({@{#-daH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "DanadaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a liberal or munificent man.\n",
+                        ".²2 an epithet of Kubera; {#jigamizurDanadADyuzitAM diSam#} <ls>R. 9. 25</ls>, <ls n=\"R.\">17. 80</ls>.\n",
+                        ".²3 <ab>N.</ab> of fire.\n",
+                        ".²4 = {#DanaYjaya#} (4) <ab>q. v.</ab> "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 158025,
+                            "_ancestry": [
+                                "L_ 17867",
+                                "B_ {#Danam#}",
+                                "S_ .{@{#-da#}@}",
+                                "S_M_ ({@{#-daH#}@})",
+                                "S_M_S_ {#˚anujaH#}"
+                            ],
+                            "_banner": "{#˚anujaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "DanadAnujaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "an epithet of Rāvaṇa; <ls>R. 12. 52</ls>, <ls n=\"R. 12.\">88</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 158026,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-daRqaH#}@}"
+            ],
+            "_banner": ".{@{#-daRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanadaRqaH"
+                }
+            ],
+            "_meanings": [
+                "punishment in the shape of a fine.\n"
+            ]
+        },
+        {
+            "__line": 158027,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-dAyin#}@}"
+            ],
+            "_banner": ".{@{#-dAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanadAyin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "fire.\n"
+            ]
+        },
+        {
+            "__line": 158028,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-DAnI#}@}"
+            ],
+            "_banner": ".{@{#-DAnI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanaDAnI"
+                }
+            ],
+            "_meanings": [
+                "treasury.\n"
+            ]
+        },
+        {
+            "__line": 158029,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-DAnyam#}@}"
+            ],
+            "_banner": ".{@{#-DAnyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanaDAnyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 money and grain.\n",
+                ".²2 a spell for restraining certain magical weapons.\n"
+            ]
+        },
+        {
+            "__line": 158032,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanapatiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Kubera; {#tatrAgAraM DanapatigfhAnuttareRAsmadIyam#} <ls>Me. 77</ls>, <ls n=\"Me.\">7</ls>.\n",
+                ".²2 a treasurer.\n",
+                ".²3 = {#DanaYjaya#} (4) <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 158036,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-pAlaH#}@}"
+            ],
+            "_banner": ".{@{#-pAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanapAlaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a treasurer.\n",
+                ".²2 an epithet of Kubera.\n"
+            ]
+        },
+        {
+            "__line": 158039,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-piSAcikA, -piSAcI#}@}"
+            ],
+            "_banner": ".{@{#-piSAcikA, -piSAcI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanapiSAcikA"
+                },
+                {
+                    "Right": "DanapiSAcI"
+                }
+            ],
+            "_meanings": [
+                "‘the demon of wealth’, an avaricious desire\n of wealth, greed, avarice.\n"
+            ]
+        },
+        {
+            "__line": 158041,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-prayogaH#}@}"
+            ],
+            "_banner": ".{@{#-prayogaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanaprayogaH"
+                }
+            ],
+            "_meanings": [
+                "usury.\n"
+            ]
+        },
+        {
+            "__line": 158042,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-mada#}@}"
+            ],
+            "_banner": ".{@{#-mada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danamada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "purse-proud.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 158043,
+                    "_ancestry": [
+                        "L_ 17867",
+                        "B_ {#Danam#}",
+                        "S_ .{@{#-mada#}@}",
+                        "S_M_ ({@{#-daH#}@})"
+                    ],
+                    "_banner": "({@{#-daH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "DanamadaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "pride of wealth.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 158044,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-mUlam#}@}"
+            ],
+            "_banner": ".{@{#-mUlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanamUlam"
+                }
+            ],
+            "_meanings": [
+                "principal, capital.\n"
+            ]
+        },
+        {
+            "__line": 158045,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-loBaH#}@}"
+            ],
+            "_banner": ".{@{#-loBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanaloBaH"
+                }
+            ],
+            "_meanings": [
+                "avarice, cupidity.\n"
+            ]
+        },
+        {
+            "__line": 158046,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-vyayaH#}@}"
+            ],
+            "_banner": ".{@{#-vyayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanavyayaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 expenditure.\n",
+                ".²2 extravagance.\n"
+            ]
+        },
+        {
+            "__line": 158049,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-sUH#}@}"
+            ],
+            "_banner": ".{@{#-sUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanasUH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 mother of daughters; <ls>L. D. B.</ls>\n",
+                ".²2 {%m.%} the fork-tailed shrike.\n"
+            ]
+        },
+        {
+            "__line": 158052,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanasTAnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a treasury.\n",
+                ".²2 the second mansion from {#lagna#} in a horoscope.\n"
+            ]
+        },
+        {
+            "__line": 158055,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-haraH#}@}"
+            ],
+            "_banner": ".{@{#-haraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanaharaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an heir.\n",
+                ".²2 a thief.\n",
+                ".²3 a kind of perfume.\n"
+            ]
+        },
+        {
+            "__line": 158059,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-hArya#}@}"
+            ],
+            "_banner": ".{@{#-hArya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanahArya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "to be won over by wealth; {#vahasi hi DanahAryaM#}\n {#paRyaBUtaM SarIram#} <ls>Mk. 1. 31</ls>, <ls n=\"Mk.\">5. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158061,
+            "_ancestry": [
+                "L_ 17867",
+                "B_ {#Danam#}",
+                "S_ .{@{#-hIna#}@}"
+            ],
+            "_banner": ".{@{#-hIna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanahIna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "deprived of wealth, poor."
             ]
         }
     ]

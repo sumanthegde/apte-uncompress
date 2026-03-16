@@ -1,22 +1,55 @@
 {
-    "__line": 241742,
+    "__line": 266085,
     "_ancestry": [
         "L_ 28778",
-        "B_ {#saMsravaH, saMsrAvaH#}"
+        "B_ {#vastam#}"
     ],
-    "_banner": "{#saMsravaH, saMsrAvaH#}",
+    "_banner": "{#vastam#}",
     "_bannerExp": [
         {
-            "Right": "saMsrAvaH"
-        },
-        {
-            "Right": "saMsravaH"
+            "Right": "vastam"
         }
     ],
     "_meanings": [
-        "{@--1@} Flowing, \ntrickling, oozing. ",
-        "{@--2@} A stream. ",
-        "{@--3@} The\nremains of a libation. ",
-        "{@--4@} A kind of\noffering or libation."
+        ".²1 An abode.\n",
+        ".²2 A house.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 266088,
+            "_ancestry": [
+                "L_ 28778",
+                "B_ {#vastam#}",
+                "M_ .{@{#-staH#}@}"
+            ],
+            "_banner": ".{@{#-staH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vastaH"
+                }
+            ],
+            "_meanings": [
+                "A goat; see {#basta#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 266090,
+            "_ancestry": [
+                "L_ 28778",
+                "B_ {#vastam#}",
+                "S_ .{@{#-antrI#}@}"
+            ],
+            "_banner": ".{@{#-antrI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vastAntrI"
+                }
+            ],
+            "_meanings": [
+                "benzoin."
+            ]
+        }
     ]
 }

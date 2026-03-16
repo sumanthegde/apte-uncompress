@@ -1,22 +1,66 @@
 {
-    "__line": 29330,
+    "__line": 26638,
     "_ancestry": [
         "L_ 3066",
-        "B_ {#aBijanaH#}"
+        "B_ {#apnaH, -apnas#}"
     ],
-    "_banner": "{#aBijanaH#}",
+    "_banner": "{#apnaH, -apnas#}",
     "_bannerExp": [
         {
-            "Right": "aBijanaH"
+            "Right": "apnaH"
+        },
+        {
+            "Right": "apnas"
         }
     ],
+    "_gram": [
+        "{%n.%}",
+        "[{#Ap-asun nuw hrasvaSca#}, <ls>Uṇ. 4. 207</ls>]"
+    ],
     "_meanings": [
-        "{@--1@} ({%a%}) A family, race, \nlineage; {#kalahaMsakAdaBijanaM jYAtvA#} <ls>Māl. 8</ls>;  \n{#nABijanamIkzate#} <ls>K. 104</ls>; <ls>Mu. 6. 6</ls>;  \n<ls>Ms. 4. 18</ls>; <ls>Dk. 135</ls>, <ls n=\"Dk.\">170</ls>; <ls>U. 4.</ls> ({%b%}) Birth,\nextraction, descent; {#tulyABajinezu#} \n{#BUmiBarezu (Darezu?) rAjYAM vfttiH#} <ls>M. 1</ls>;  \n<ls>Ms. 1. 100</ls>; <ls>Y. 1. 123.</ls> ",
-        "{@--2@} High or\nnoble descent, noble birth or \nfamily; {#stutaM tanmAhAtmyaM yadaBijanato yacca#}\n{#guRataH#} <ls>Māl. 2. 13</ls>; {#SIlaM#} \n{#SOlatawAtpatatvaBijanaH saMdahyatAM vahninA#} <ls>Bh. 2. 39</ls>;\n<ls>M. 5.</ls> ",
-        "{@--3@} Forefathers, ancestors;\n{#aBijanAH pUrve bAMDavAH#} Kāśī. on  \n<ls>P. IV. 3. 90</ls>; also descendants. ",
-        "{@--4@} Native\ncountry, motherland, ancestral\nabode (<ab>opp.</ab> {#nivAsa#}); <ab>cf.</ab> <ls>Sk.</ls> on \n<ls>P. IV. 3. 90</ls>: --{#yatra svayaM vasati sa nivAsaH#}\n({#yatra saMprati uzyate#} <ls>Mbh.</ls>); {#yatra pUrvEruzitaM#}\n{#so'BijanaH iti vivekaH#}. ",
-        "{@--5@} Fame, \ncelebrity. ",
-        "{@--6@} The head or ornament of a\nfamily; {#yadvidvAnapi tAdfSepyaBijane#} \n{#DarmyAtpaTo vicyutaH#} <ls>Mv. 1. 33.</ls> ",
-        "{@--7@} \nAttendants, retinue (= {#parijana#} <ab>q. v.</ab>)."
+        ".²1 Possession, property.\n",
+        ".²2 Work, sacrificial act or rite,\n\n any act.\n",
+        ".²3 Offspring.\n",
+        ".²4 Form, shape.\n",
+        ".²5 To be obtained (used actively); [<ab>cf.</ab> <lang>L.</lang> {%ops%}].\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 26648,
+            "_ancestry": [
+                "L_ 3066",
+                "B_ {#apnaH, -apnas#}",
+                "S_ .{@{#-sTa#}@}"
+            ],
+            "_banner": ".{@{#-sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apnasTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "superintending work ({#karmaRyaDikfta#}); (or {%m.%})\n proprietor of an estate.\n"
+            ]
+        },
+        {
+            "__line": 26650,
+            "_ancestry": [
+                "L_ 3066",
+                "B_ {#apnaH, -apnas#}",
+                "S_ .{@{#-rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apnarAjaH"
+                }
+            ],
+            "_meanings": [
+                "lord of wealth or property, illustrious by means of works;\n directing works to be done ({#karmapreraka#})."
+            ]
+        }
     ]
 }

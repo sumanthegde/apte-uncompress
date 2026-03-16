@@ -1,19 +1,58 @@
 {
-    "__line": 166194,
+    "__line": 178240,
     "_ancestry": [
         "L_ 19850",
-        "B_ {#praticArita#}"
+        "B_ {#patAkin#}"
     ],
-    "_banner": "{#praticArita#}",
+    "_banner": "{#patAkin#}",
     "_bannerExp": [
         {
-            "Right": "praticArita"
+            "Right": "patAkin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Proclaimed, \npublished."
+        "Having or carrying a banner, adorned with flags. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 178240,
+            "_ancestry": [
+                "L_ 19850",
+                "B_ {#patAkin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#patAkin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An ensign, standard-bearer.\n",
+                ".²2 A flag.\n",
+                ".²3 A scheme or figure for casting a nativity.\n",
+                ".²4 A chariot; {#kzitireRuketuvasanAH patAkinaH#} <ls>Śi. 13. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 178245,
+            "_ancestry": [
+                "L_ 19850",
+                "B_ {#patAkin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "patAkinI"
+                }
+            ],
+            "_meanings": [
+                "An army; ({#na prasehe#}) {#raTavartmarajo'pyasya kuta eva#}\n {#patAkinIm#} <ls>R. 4. 82</ls>; <ls>Ki. 14. 27</ls>."
+            ]
+        }
     ]
 }

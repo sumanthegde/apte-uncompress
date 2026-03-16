@@ -1,22 +1,40 @@
 {
-    "__line": 9379,
+    "__line": 7772,
     "_ancestry": [
         "L_ 799",
-        "B_ {#aTarya --ryu#}"
+        "B_ {#atisf#}"
     ],
-    "_banner": "{#aTarya --ryu#}",
+    "_banner": "{#atisf#}",
     "_bannerExp": [
         {
-            "Right": "aTarya"
-        },
-        {
-            "Right": "aTaryu"
+            "Right": "atisf"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Moving \nconstantly, tremulous ({#gamanaSIla#})  \n<ls>Rv. 7. 1. 1</ls>; pointed like a lance, lambent (?)"
+        "<ab>Ved.</ab> To extend.\n."
+    ],
+    "_morphisms": [
+        {
+            "__line": 7773,
+            "_ancestry": [
+                "L_ 799",
+                "B_ {#atisf#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "atisf"
+                }
+            ],
+            "_meanings": [
+                ".²1 To extend.\n",
+                ".²2 To exert oneself to drive out (as a fluid)."
+            ]
+        }
     ]
 }

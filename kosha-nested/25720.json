@@ -1,21 +1,149 @@
 {
-    "__line": 217535,
+    "__line": 233549,
     "_ancestry": [
         "L_ 25720",
-        "B_ {#vigarh#}"
+        "B_ {#mantrin#}"
     ],
-    "_banner": "{#vigarh#}",
+    "_banner": "{#mantrin#}",
     "_bannerExp": [
         {
-            "Right": "vigarh"
+            "Right": "mantrin"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>"
+        "{%a.%}",
+        "[{#mantrayate mantr Rini#}]"
     ],
     "_meanings": [
-        "{@--1@} To blame, censure,\nreproach; {#taM vigaMrhati sADavaH#}  \n<ls>Ms. 9. 68</ls>; <ls n=\"Ms.\">3. 46</ls>; <ls n=\"Ms.\">11. 53.</ls> ",
-        "{@--2@} To despise,\ncontemn."
+        ".²1 Wise, clever in counsel.\n",
+        ".²2 Familiar with sacred texts or spells. ",
+        ".²3 <ab>Ved.</ab> Eloquent. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 233551,
+            "_ancestry": [
+                "L_ 25720",
+                "B_ {#mantrin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#maMtrin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A minister, counsellor, a kingʼs minister; {#ajitADigamAya mantriBiryuyuje#}\n {#nItiviSAradErajaH#} <ls>R. 8. 17</ls>; <ls>Ms. 8. 1</ls>.\n",
+                ".²2 A conjurer, an enchanter.\n",
+                ".²3 (In chess) The queen.\n",
+                ".²4 (In <ab>astrol.</ab>) The 12th mansion.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 233558,
+            "_ancestry": [
+                "L_ 25720",
+                "B_ {#mantrin#}",
+                "S_ .{@{#-Dura#}@}"
+            ],
+            "_banner": ".{@{#-Dura#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mantriDura"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "able to bear the burden of a ministerʼs office; {#susaMvfto#}\n {#mantriDurEramAtyEH SAstrakovidEH#} <ls>Rām. 2. 100. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 233560,
+            "_ancestry": [
+                "L_ 25720",
+                "B_ {#mantrin#}",
+                "S_ .{@{#-patiH, -praDAnaH, -pramuKaH, -muKyaH, -varaH, -SrezWaH#}@}"
+            ],
+            "_banner": ".{@{#-patiH, -praDAnaH, -pramuKaH, -muKyaH, -varaH, -SrezWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mantripatiH"
+                },
+                {
+                    "Right": "mantripraDAnaH"
+                },
+                {
+                    "Right": "mantripramuKaH"
+                },
+                {
+                    "Left": "S error: midAlign muKyaH pramuKyaH"
+                },
+                {
+                    "Right": "mantrivaraH"
+                },
+                {
+                    "Right": "mantriSrezWaH"
+                }
+            ],
+            "_meanings": [
+                "the prime\n minister, premier.\n"
+            ]
+        },
+        {
+            "__line": 233562,
+            "_ancestry": [
+                "L_ 25720",
+                "B_ {#mantrin#}",
+                "S_ .{@{#-parizad#}@}"
+            ],
+            "_banner": ".{@{#-parizad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mantriparizad"
+                }
+            ],
+            "_meanings": [
+                "a council of ministers; {#indrasya hi mantriparizad fzIRAM#}\n {#sahasram#} <ls>Kau. A. 1. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 233564,
+            "_ancestry": [
+                "L_ 25720",
+                "B_ {#mantrin#}",
+                "S_ .{@{#-prakARqaH#}@}"
+            ],
+            "_banner": ".{@{#-prakARqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mantriprakARqaH"
+                }
+            ],
+            "_meanings": [
+                "an excellent or eminent minister.\n"
+            ]
+        },
+        {
+            "__line": 233565,
+            "_ancestry": [
+                "L_ 25720",
+                "B_ {#mantrin#}",
+                "S_ .{@{#-SrotriyaH#}@}"
+            ],
+            "_banner": ".{@{#-SrotriyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mantriSrotriyaH"
+                }
+            ],
+            "_meanings": [
+                "a minister conversant with the Vedas."
+            ]
+        }
     ]
 }

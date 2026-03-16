@@ -1,19 +1,673 @@
 {
-    "__line": 135297,
+    "__line": 139530,
     "_ancestry": [
         "L_ 16113",
-        "B_ {#DUpa(pi)kaH#}"
+        "B_ {#tanu#}"
     ],
-    "_banner": "{#DUpa(pi)kaH#}",
+    "_banner": "{#tanu#}",
     "_bannerExp": [
         {
-            "Right": "DUpakaH"
+            "Right": "tanu"
         },
         {
-            "Right": "DUpikaH"
+            "Right": "tanvI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nu, -nvI#}|{%f.%})",
+        "[{#tan-un#}]"
+    ],
     "_meanings": [
-        "A perfumer."
+        ".²1 Thin, lean, emaciated; {#vItapraBAvatanurapyatanupraBAvaH#} <ls>Ki. 16. 64</ls>.\n",
+        ".²2 Delicate, slender, slim (as a limb, as a mark of beauty); {#tanuvfttamaDyaH#}\n <ls>R. 6. 32</ls>; <ab>cf.</ab> {#tanvaNgI#}\n",
+        ".²3 Fine, delicate (as cloth); {#stanezu tanvaMSukamunnatastanA#} <ls>Ṛs. 1. 7</ls>.\n",
+        ".²4 Small, little, tiny, scanty, few, limited; {#tanuvAgviBavo'pi san#}\n <ls>R. 1. 9</ls>, <ls n=\"R.\">3. 2</ls>; {#tanutyAgo bahugrahaH#} <ls>H. 2. 89</ls> ‘giving little’ <ab>&c.</ab>\n",
+        ".²5 Trifling, unimportant, little; <ls>Amaru. 28</ls>.\n",
+        ".²6 Shallow (as a river). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 139539,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tanu#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The body, the person.\n",
+                ".²2 Outward form, manifestation; {#pratyakzABiH prapannastanuBiravatu vastABirazwABirISaH#}\n <ls>Ś. 1. 1</ls>; <ls>M. 1. 1</ls>.\n",
+                ".²3 Nature, the form or character of anything; {#tIkzRAM tanuM yaH praTamaM#}\n {#jahAti so'nantyamApnotyaBayaM prajAByaH#} <ls>Mb. 12. 245. 26</ls>.\n",
+                ".²4 Skin. [<ab>cf.</ab> <lang>L.</lang> {%tenuis%}, <lang>Eng.</lang> {%thin%}.]\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 139547,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanvaNga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having slender limbs, delicate.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 139548,
+                    "_ancestry": [
+                        "L_ 16113",
+                        "B_ {#tanu#}",
+                        "S_ .{@{#-aNga#}@}",
+                        "S_M_ ({@{#-NgI#}@})"
+                    ],
+                    "_banner": "({@{#-NgI#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "tanvaNgI"
+                        }
+                    ],
+                    "_meanings": [
+                        "a delicate woman.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 139549,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-UnaH#}@}"
+            ],
+            "_banner": ".{@{#-UnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanUnaH"
+                }
+            ],
+            "_meanings": [
+                "the wind.\n"
+            ]
+        },
+        {
+            "__line": 139550,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-kUpaH#}@}"
+            ],
+            "_banner": ".{@{#-kUpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanukUpaH"
+                }
+            ],
+            "_meanings": [
+                "a pore of the skin.\n"
+            ]
+        },
+        {
+            "__line": 139551,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-gfham, -sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-gfham, -sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanugfham"
+                },
+                {
+                    "Right": "tanusTAnam"
+                }
+            ],
+            "_meanings": [
+                "The first lunar mansion.\n"
+            ]
+        },
+        {
+            "__line": 139552,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-Cad#}@}"
+            ],
+            "_banner": ".{@{#-Cad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanucCad"
+                }
+            ],
+            "_gram": [
+                ".({@{#-da#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "protecting, clothing.\n"
+            ]
+        },
+        {
+            "__line": 139554,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-CadaH#}@}"
+            ],
+            "_banner": ".{@{#-CadaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanucCadaH"
+                }
+            ],
+            "_meanings": [
+                "an armour; {#tatastu drupadAnIkaM SarESCinnatanucCadam#}\n <ls>Mb. 7. 168. 26</ls>; {#tarupalASasavarRatanucCadaH#} <ls>R. 9. 51</ls>, <ls n=\"R.\">12. 86</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139556,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born from the body; {#vAYCEva sUcayati pUrvataraM BavizyaM#}\n {#puMsAM yadanyatanujaM tvaSuBaM SuBaM vA#} <ls>Pt. 2. 80</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 139558,
+                    "_ancestry": [
+                        "L_ 16113",
+                        "B_ {#tanu#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jaH#}@})"
+                    ],
+                    "_banner": "({@{#-jaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "tanujaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a son; <ls>Bhāg. 5. 9. 6</ls>.\n",
+                        ".²2 the hair on the body; {#snigDaharyakzatanujaSmaSrupravaramUrdDajam#}\n <ls>Rām. 1. 16. 12</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 139562,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-jA#}@}"
+            ],
+            "_banner": ".{@{#-jA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanujA"
+                }
+            ],
+            "_meanings": [
+                "a daughter.\n"
+            ]
+        },
+        {
+            "__line": 139563,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-tyaj#}@}"
+            ],
+            "_banner": ".{@{#-tyaj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanutyaj"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 risking oneʼs life.\n",
+                ".²2 giving up oneʼs person, dying; {#yogenAnte tanutyajAm#} <ls>R. 1. 8</ls>.\n",
+                ".²3 rash, desperate, fool-hardy.\n"
+            ]
+        },
+        {
+            "__line": 139567,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-tyAga#}@}"
+            ],
+            "_banner": ".{@{#-tyAga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanutyAga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "spending little, sparing, niggardly.\n"
+            ]
+        },
+        {
+            "__line": 139568,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-tram, -trARam#}@}"
+            ],
+            "_banner": ".{@{#-tram, -trARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanutram"
+                },
+                {
+                    "Right": "tanutrARam"
+                }
+            ],
+            "_meanings": [
+                ", an armour; {#rakzan viprAMstanutravAn#} <ls>Bk.</ls>; <ls>Bhāg. 8. 10. 37</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139569,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanudAnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 offering the body (for sexual intercourse).\n",
+                ".²2 {%a.%} scanty gift.\n"
+            ]
+        },
+        {
+            "__line": 139572,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "little-minded.\n"
+            ]
+        },
+        {
+            "__line": 139573,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-prakASa#}@}"
+            ],
+            "_banner": ".{@{#-prakASa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuprakASa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of dim lustre; {#tanuprakASena viceyatArakA#}; <ls>R. 3. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139574,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-bIjaH#}@}"
+            ],
+            "_banner": ".{@{#-bIjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanubIjaH"
+                }
+            ],
+            "_meanings": [
+                "the jujube.\n"
+            ]
+        },
+        {
+            "__line": 139575,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-BavaH#}@}"
+            ],
+            "_banner": ".{@{#-BavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuBavaH"
+                }
+            ],
+            "_meanings": [
+                "a son.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 139576,
+                    "_ancestry": [
+                        "L_ 16113",
+                        "B_ {#tanu#}",
+                        "S_ .{@{#-BavaH#}@}",
+                        "S_M_ ({@{#-vA#}@})"
+                    ],
+                    "_banner": "({@{#-vA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "tanuBavA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a daughter.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 139577,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-BastrA#}@}"
+            ],
+            "_banner": ".{@{#-BastrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuBastrA"
+                }
+            ],
+            "_meanings": [
+                "the nose.\n"
+            ]
+        },
+        {
+            "__line": 139578,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "any being furnished with a body, a living being; particularly\n a human being; {#kalpaM sTitaM tanuBftAM tanuBistataH kim#} <ls>Bh. 3. 73</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139580,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-maDya#}@}"
+            ],
+            "_banner": ".{@{#-maDya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanumaDya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a slender waist.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 139581,
+                    "_ancestry": [
+                        "L_ 16113",
+                        "B_ {#tanu#}",
+                        "S_ .{@{#-maDya#}@}",
+                        "S_M_ ({@{#-Dyam#}@})"
+                    ],
+                    "_banner": "({@{#-Dyam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "tanumaDyam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the waist.\n."
+                    ]
+                },
+                {
+                    "__line": 139582,
+                    "_ancestry": [
+                        "L_ 16113",
+                        "B_ {#tanu#}",
+                        "S_ .{@{#-maDya#}@}",
+                        "S_M_ ({@{#-DyA#}@})"
+                    ],
+                    "_banner": "({@{#-DyA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "tanumaDyA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a metre.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 139583,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-rasaH#}@}"
+            ],
+            "_banner": ".{@{#-rasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanurasaH"
+                }
+            ],
+            "_meanings": [
+                "perspiration.\n"
+            ]
+        },
+        {
+            "__line": 139584,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-ruh#}@}"
+            ],
+            "_banner": ".{@{#-ruh#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuruh"
+                }
+            ],
+            "_gram": [
+                "{%n.%}",
+                "{@{#-ruham#}@}"
+            ],
+            "_meanings": [
+                ".²1 the hair of the body.\n",
+                ".²2 {%a.%} feather; {#tanuruhARi puro vijitaDvaneH#} <ls>Śi. 6. 45</ls>; <ls>Mv. 6. 33</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139587,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-latA#}@}"
+            ],
+            "_banner": ".{@{#-latA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanulatA"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slender body; {#eRIdfSastanulatA tanute mudaM naH#} <ls>P. R. 2. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139588,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-vAtaH#}@}"
+            ],
+            "_banner": ".{@{#-vAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuvAtaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of hell; Jain.\n"
+            ]
+        },
+        {
+            "__line": 139589,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-vAram#}@}"
+            ],
+            "_banner": ".{@{#-vAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuvAram"
+                }
+            ],
+            "_meanings": [
+                "an armour; {#tanuvAraBaso BAsvAnaDIro'vinatorasA#} <ls>Ki. 15. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 139590,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-vraRaH#}@}"
+            ],
+            "_banner": ".{@{#-vraRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuvraRaH"
+                }
+            ],
+            "_meanings": [
+                "a pimple.\n"
+            ]
+        },
+        {
+            "__line": 139591,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-saMcAriRI#}@}"
+            ],
+            "_banner": ".{@{#-saMcAriRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanusaYcAriRI"
+                }
+            ],
+            "_meanings": [
+                "a young woman, a girl ten years old.\n"
+            ]
+        },
+        {
+            "__line": 139592,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-saraH#}@}"
+            ],
+            "_banner": ".{@{#-saraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanusaraH"
+                }
+            ],
+            "_meanings": [
+                "perspiration.\n"
+            ]
+        },
+        {
+            "__line": 139593,
+            "_ancestry": [
+                "L_ 16113",
+                "B_ {#tanu#}",
+                "S_ .{@{#-hradaH#}@}"
+            ],
+            "_banner": ".{@{#-hradaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tanuhradaH"
+                }
+            ],
+            "_meanings": [
+                "the anus."
+            ]
+        }
     ]
 }

@@ -1,16 +1,116 @@
 {
-    "__line": 207963,
+    "__line": 218923,
     "_ancestry": [
         "L_ 24520",
-        "B_ {#lavalI#}"
+        "B_ {#bahala#}"
     ],
-    "_banner": "{#lavalI#}",
+    "_banner": "{#bahala#}",
     "_bannerExp": [
         {
-            "Right": "lavalI"
+            "Right": "bahala"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#baMh-kalac nalopaSca#}]"
+    ],
     "_meanings": [
-        "A kind of creeper; {#mayA#}\n{#labDaH pARirlalitalavalIkaMdalAniBaH#}  \n<ls>U. 3. 40.</ls>"
+        ".²1 Very much, copious, abundant, plentiful, manifold, great, strong; {#asAvasyAH#}\n {#sparSo vapuzi bahalaScandanarasaH#} <ls>U. 1. 38</ls>, <ls n=\"U.\">3. 23</ls>; <ls>Śi. 9. 8</ls>; <ls>Bv. 4. 27</ls>;\n {#prahArErudgacCaddahanavahalodgAraguruBiH#} <ls>Bh. 1. 36</ls>.\n",
+        ".²2 Thick, dense.\n",
+        ".²3 Shaggy (as a tail); {#bahalottuNgalANgUla#} <ls>Māl. 3</ls>.\n",
+        ".²4 Hard, firm, compact.\n",
+        ".²5 Harsh (as a sound).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 218931,
+            "_ancestry": [
+                "L_ 24520",
+                "B_ {#bahala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahalaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of sugar-cane.\n"
+            ]
+        },
+        {
+            "__line": 218932,
+            "_ancestry": [
+                "L_ 24520",
+                "B_ {#bahala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahalA"
+                }
+            ],
+            "_meanings": [
+                "Large cardamoms.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 218934,
+            "_ancestry": [
+                "L_ 24520",
+                "B_ {#bahala#}",
+                "S_ .{@{#-ganDaH#}@}"
+            ],
+            "_banner": ".{@{#-ganDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahalaganDaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of sandal.\n"
+            ]
+        },
+        {
+            "__line": 218935,
+            "_ancestry": [
+                "L_ 24520",
+                "B_ {#bahala#}",
+                "S_ .{@{#-tvacaH#}@}"
+            ],
+            "_banner": ".{@{#-tvacaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahalatvacaH"
+                }
+            ],
+            "_meanings": [
+                "the white flowering {%lodhra%}.\n"
+            ]
+        },
+        {
+            "__line": 218936,
+            "_ancestry": [
+                "L_ 24520",
+                "B_ {#bahala#}",
+                "S_ .{@{#-vartman#}@}"
+            ],
+            "_banner": ".{@{#-vartman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bahalavartman"
+                }
+            ],
+            "_gram": [
+                "{%m., n.%}"
+            ],
+            "_meanings": [
+                "a disease of the eyes (as swollen eyelid)."
+            ]
+        }
     ]
 }

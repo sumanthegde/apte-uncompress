@@ -1,37 +1,485 @@
 {
-    "__line": 71650,
+    "__line": 70098,
     "_ancestry": [
         "L_ 8355",
-        "B_ {#unnABa#}"
+        "B_ {#Izat#}"
     ],
-    "_banner": "{#unnABa#}",
+    "_banner": "{#Izat#}",
     "_bannerExp": [
         {
-            "Right": "unnABa"
+            "Right": "Izat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%ind.%}",
+        "[{#Iz-ati#}]"
     ],
     "_meanings": [
-        "Having a \nprojecting navel, corpulent. "
+        ".²1 Slightly, to some extent, a little;\n {#Izat cumbitAni#} <ls>Ś. 1. 4</ls>; {#Izacca kurute sevAm#} <ls>Pt. 1. 141</ls>. Easily\n done, with very little exertion; {#IzatkAryamidaM kAryaM kftamAsInna saMSayaH#}\n <ls>Rām. 5. 55. 10</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 71651,
+            "__line": 70103,
             "_ancestry": [
                 "L_ 8355",
-                "B_ {#unnABa#}",
-                "M_ {#--BaH#}"
+                "B_ {#Izat#}",
+                "S_ .{@{#-uzRa#}@}"
             ],
-            "_banner": "{#--BaH#}",
+            "_banner": ".{@{#-uzRa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "unnABaH"
+                    "Right": "IzaduzRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "tepid,\n\n slightly warm.\n"
+            ]
+        },
+        {
+            "__line": 70106,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-Una#}@}"
+            ],
+            "_banner": ".{@{#-Una#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzadUna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not quite complete, a little less than; {#IzadUnArDe kalpap#}.\n"
+            ]
+        },
+        {
+            "__line": 70107,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Izatkara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 doing little.\n",
+                ".²2 easy to be accomplished; <ls>Mv. 4</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 70110,
+                    "_ancestry": [
+                        "L_ 8355",
+                        "B_ {#Izat#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-ram#}@})"
+                    ],
+                    "_banner": "({@{#-ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "Izatkaram"
+                        }
+                    ],
+                    "_meanings": [
+                        "very little.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 70111,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-kArya#}@}"
+            ],
+            "_banner": ".{@{#-kArya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzatkArya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "very easy, connected with slight effort; {#IzatkAryo#}\n {#vaDastasya#} <ls>Mb. 5. 74. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 70113,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-guRa#}@}"
+            ],
+            "_banner": ".{@{#-guRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzadguRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of little merit.\n"
+            ]
+        },
+        {
+            "__line": 70114,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-jalam#}@}"
+            ],
+            "_banner": ".{@{#-jalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Izajjalam"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab> of a\nking of the Solar race."
+                "shallow water, a little water.\n"
+            ]
+        },
+        {
+            "__line": 70115,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-darSanam#}@}"
+            ],
+            "_banner": ".{@{#-darSanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzaddarSanam"
+                }
+            ],
+            "_meanings": [
+                "a glance, sight, view, glimpse.\n"
+            ]
+        },
+        {
+            "__line": 70116,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-dIrGaH#}@}"
+            ],
+            "_banner": ".{@{#-dIrGaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzaddIrGaH"
+                }
+            ],
+            "_meanings": [
+                "An almond.\n"
+            ]
+        },
+        {
+            "__line": 70117,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-nAda#}@}"
+            ],
+            "_banner": ".{@{#-nAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzannAda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slightly sounding (a term applied to unaspirated\n soft consonants).\n"
+            ]
+        },
+        {
+            "__line": 70119,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-nimaya#}@}"
+            ],
+            "_banner": ".{@{#-nimaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Izannimaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "exchanged for a little.\n"
+            ]
+        },
+        {
+            "__line": 70120,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-pARqu#}@}"
+            ],
+            "_banner": ".{@{#-pARqu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzatpARqu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "a little white or pale, whitish.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 70121,
+                    "_ancestry": [
+                        "L_ 8355",
+                        "B_ {#Izat#}",
+                        "S_ .{@{#-pARqu#}@}",
+                        "S_M_ ({@{#-RquH#}@})"
+                    ],
+                    "_banner": "({@{#-RquH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "IzatpARquH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a pale or light-brown colour.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 70122,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-pAna#}@}"
+            ],
+            "_banner": ".{@{#-pAna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzatpAna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "that of which a little is drunk. {#IzatpAnaH somo#}\n {#BavatA#} <ls>Sk.</ls> {#Anoyuc#} <ls>P. III. 3. 128</ls>. ({@{#nam#}@}) a small draught.\n"
+            ]
+        },
+        {
+            "__line": 70124,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-puruzaH#}@}"
+            ],
+            "_banner": ".{@{#-puruzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzatpuruzaH"
+                }
+            ],
+            "_meanings": [
+                "a mean or contemptible person.\n"
+            ]
+        },
+        {
+            "__line": 70125,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-bIjA#}@}"
+            ],
+            "_banner": ".{@{#-bIjA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzadbIjA"
+                }
+            ],
+            "_meanings": [
+                "Quince-seed, Dyrus Cydonia (<lang>Mar.</lang> <ns>{#bedARA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 70126,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-rakta#}@}"
+            ],
+            "_banner": ".{@{#-rakta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Izadrakta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pale red.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 70127,
+                    "_ancestry": [
+                        "L_ 8355",
+                        "B_ {#Izat#}",
+                        "S_ .{@{#-rakta#}@}",
+                        "S_M_ ({@{#-ktaH#}@})"
+                    ],
+                    "_banner": "({@{#-ktaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "IzadraktaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 pale-red colour.\n",
+                        ".²2 undistinguishable colour.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 70130,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-laBa, -pralABa#}@}"
+            ],
+            "_banner": ".{@{#-laBa, -pralABa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzallaBa"
+                },
+                {
+                    "Right": "IzatpralABa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "to be got for little.\n"
+            ]
+        },
+        {
+            "__line": 70131,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-vivfta#}@}"
+            ],
+            "_banner": ".{@{#-vivfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Izadvivfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slightly open.\n"
+            ]
+        },
+        {
+            "__line": 70132,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-vIryaH#}@}"
+            ],
+            "_banner": ".{@{#-vIryaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzadvIryaH"
+                }
+            ],
+            "_meanings": [
+                "Almond tree.\n"
+            ]
+        },
+        {
+            "__line": 70133,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-SvAsa#}@}"
+            ],
+            "_banner": ".{@{#-SvAsa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzacCvAsa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slightly resounding.\n"
+            ]
+        },
+        {
+            "__line": 70134,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-spfzwa#}@}"
+            ],
+            "_banner": ".{@{#-spfzwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Izatspfzwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slightly touched (applied to the semivowels) {#IzatspfzwamantasTAnam#} <ls>Sk.</ls>\n"
+            ]
+        },
+        {
+            "__line": 70135,
+            "_ancestry": [
+                "L_ 8355",
+                "B_ {#Izat#}",
+                "S_ .{@{#-hAsaH#}@}"
+            ],
+            "_banner": ".{@{#-hAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzadDAsaH"
+                }
+            ],
+            "_meanings": [
+                "slight laughter, a smile."
             ]
         }
     ]

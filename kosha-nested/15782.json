@@ -1,18 +1,45 @@
 {
-    "__line": 132075,
+    "__line": 136958,
     "_ancestry": [
         "L_ 15782",
-        "B_ {#dravasyati#}"
+        "B_ {#jYAnin#}"
     ],
-    "_banner": "{#dravasyati#}",
+    "_banner": "{#jYAnin#}",
     "_bannerExp": [
         {
-            "Right": "dravasyati"
+            "Right": "jYAnin"
+        },
+        {
+            "Right": "jYAninI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#jYAnamastyasya ini#}]"
+    ],
     "_meanings": [
-        "<ab>Den.</ab> <ab>P.</ab> ",
-        "{@--1@} To trouble or\nafflict oneself. ",
-        "{@--2@} To serve or wait\nupon a person."
+        "Intelligent, wise. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 136959,
+            "_ancestry": [
+                "L_ 15782",
+                "B_ {#jYAnin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#jYAnin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An astrologer, fortune-teller; {#yaduvAcAgnidAhAdi sa jYAnI BAvi pfcCatAm#} <ls>Ks. 19. 77</ls>.\n",
+                ".²2 A sage, one possessed of spiritual knowledge; {#Arto jijYAsurarTATIM#}\n {#jYAnI ca BaratarzaBa#} <ls>Bg. 7. 16</ls>.\n",
+                ".²3 Planet mercury; {#jYAnI sarvajYasOmyayoH .#} <ls>Nm.</ls>"
+            ]
+        }
     ]
 }

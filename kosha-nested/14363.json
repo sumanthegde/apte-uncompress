@@ -1,19 +1,60 @@
 {
-    "__line": 119786,
+    "__line": 124027,
     "_ancestry": [
         "L_ 14363",
-        "B_ {#tanula#}"
+        "B_ {#grahaRiH#}, {#-RI#}"
     ],
-    "_banner": "{#tanula#}",
+    "_banner": "{#grahaRiH#}, {#-RI#}",
     "_bannerExp": [
         {
-            "Right": "tanula"
+            "Right": "grahaRiH"
+        },
+        {
+            "Right": "grahaRI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "Spread, expanded."
+        ".²1 An imaginary organ supposed to lie between the stomach and the intestines.\n",
+        ".²2 The small intestines or that part of the alimentary canal where the\n bile assists digestion and from which vital warmth is diffused.\n",
+        ".²3 Diarrhoea, dysentery.\n\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 124034,
+            "_ancestry": [
+                "L_ 14363",
+                "B_ {#grahaRiH#}, {#-RI#}",
+                "S_ .{@{#-kapAwaH#}@}"
+            ],
+            "_banner": ".{@{#-kapAwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "grahaRikapAwaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of mixture (for curing diarrhoea <ab>&c.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 124035,
+            "_ancestry": [
+                "L_ 14363",
+                "B_ {#grahaRiH#}, {#-RI#}",
+                "S_ .{@{#-haram#}@}"
+            ],
+            "_banner": ".{@{#-haram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "grahaRiharam"
+                }
+            ],
+            "_meanings": [
+                "cloves."
+            ]
+        }
     ]
 }

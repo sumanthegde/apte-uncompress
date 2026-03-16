@@ -1,19 +1,47 @@
 {
-    "__line": 188803,
+    "__line": 202889,
     "_ancestry": [
         "L_ 22585",
-        "B_ {#madayaMtikA, madayaMtI#}"
+        "B_ {#pratiroDaka, pratiroDin, -dDf#}"
     ],
-    "_banner": "{#madayaMtikA, madayaMtI#}",
+    "_banner": "{#pratiroDaka, pratiroDin, -dDf#}",
     "_bannerExp": [
         {
-            "Right": "madayaMtI"
+            "Right": "pratiroDaka"
         },
         {
-            "Right": "madayaMtikA"
+            "Right": "pratiroDin"
+        },
+        {
+            "Right": "pratirodDf"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A kind of \njasmine (Arabian)."
+        ".²1 Obstructing.\n",
+        ".²2 Besieging. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 202891,
+            "_ancestry": [
+                "L_ 22585",
+                "B_ {#pratiroDaka, pratiroDin, -dDf#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pratiroDaka#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An opponent.\n",
+                ".²2 A robber, thief; {#kodaRqapARi ninadatpratiroDakAnAmApAtaduzprasahamAviraBUdanIkam#}\n <ls>M. 5. 10</ls>; <ls>Śi. 1. 32</ls>.\n",
+                ".²3 An obstacle."
+            ]
+        }
     ]
 }

@@ -1,18 +1,61 @@
 {
-    "__line": 168636,
+    "__line": 182234,
     "_ancestry": [
         "L_ 20240",
-        "B_ {#pratyAharaRaM#}"
+        "B_ {#parityakta#}"
     ],
-    "_banner": "{#pratyAharaRaM#}",
+    "_banner": "{#parityakta#}",
     "_bannerExp": [
         {
-            "Right": "pratyAharaRaM"
+            "Right": "parityakta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Bringing or taking\nback, recovery. ",
-        "{@--2@} Withholding.\n",
-        "{@--3@} Restraining the organs of\nsense."
+        ".²1 Left, quitted, abandoned.\n",
+        ".²2 Deprived or bereft of (with <ab>instr.</ab>).\n",
+        ".²3 Let go, discharged (as an arrow).\n",
+        ".²4 Wanting.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 182239,
+            "_ancestry": [
+                "L_ 20240",
+                "B_ {#parityakta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parityaktam"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "Anything to spare. "
+            ]
+        },
+        {
+            "__line": 182239,
+            "_ancestry": [
+                "L_ 20240",
+                "B_ {#parityakta#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#parityakta#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Without."
+            ]
+        }
     ]
 }

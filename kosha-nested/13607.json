@@ -1,19 +1,38 @@
 {
-    "__line": 113788,
+    "__line": 116178,
     "_ancestry": [
         "L_ 13607",
-        "B_ {#CAMdasIya#}"
+        "B_ {#Kalin#}"
     ],
-    "_banner": "{#CAMdasIya#}",
+    "_banner": "{#Kalin#}",
     "_bannerExp": [
         {
-            "Right": "CAMdasIya"
+            "Right": "Kalin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Metrical, familiar with\nmetres."
+        "Having sediment. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 116178,
+            "_ancestry": [
+                "L_ 13607",
+                "B_ {#Kalin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Kalin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śiva."
+            ]
+        }
     ]
 }

@@ -1,20 +1,45 @@
 {
-    "__line": 139261,
+    "__line": 143702,
     "_ancestry": [
         "L_ 16570",
-        "B_ {#niHkzipta#}"
+        "B_ {#tumula#}"
     ],
-    "_banner": "{#niHkzipta#}",
+    "_banner": "{#tumula#}",
     "_bannerExp": [
         {
-            "Right": "niHkzipta"
+            "Right": "tumula"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Thrown or sent\naway. ",
-        "{@--2@} Passed, spent (as time)."
+        "Tumultuous, noisy; <ls>Māl. 9. 3</ls>; {#sa Sabdastumulo 'Bavat#} <ls>Bg. 1. 13</ls>, <ls n=\"Bg. 1.\">19</ls>.\n",
+        ".²2 Fierce, raging; {#baBUva yudDaM tumulam#} <ls>R. 3. 57</ls>.\n",
+        ".²3 Excited.\n",
+        ".²4 Perplexed, confused; {#senAniveSaM tumulaM cakAra#} <ls>R. 5. 49</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 143706,
+            "_ancestry": [
+                "L_ 16570",
+                "B_ {#tumula#}",
+                "M_ .{@{#-laH, -lam#}@}"
+            ],
+            "_banner": ".{@{#-laH, -lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tumulaH"
+                },
+                {
+                    "Right": "tumulam"
+                }
+            ],
+            "_meanings": [
+                ".²1 An uproar, a tumult, clang.\n",
+                ".²2 A confused combat, melee; (also {#tumura#})."
+            ]
+        }
     ]
 }

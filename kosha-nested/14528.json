@@ -1,62 +1,542 @@
 {
-    "__line": 120947,
+    "__line": 125567,
     "_ancestry": [
         "L_ 14528",
-        "B_ {#taviza#}"
+        "B_ {#Gfta#}"
     ],
-    "_banner": "{#taviza#}",
+    "_banner": "{#Gfta#}",
     "_bannerExp": [
         {
-            "Right": "taviza"
+            "Right": "Gfta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#Gf-kta#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Old. ",
-        "{@--2@} Strong,\npowerful, bold, courageous. "
+        ".²1 Sprinkled.\n",
+        ".²2 Illumined.\n"
     ],
     "_morphisms": [
         {
-            "__line": 120948,
+            "__line": 125570,
             "_ancestry": [
                 "L_ 14528",
-                "B_ {#taviza#}",
-                "M_ {#--zaH#}"
+                "B_ {#Gfta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--zaH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tavizaH"
+                    "Right": "Gftam"
                 }
             ],
             "_meanings": [
-                "{@--1@} The ocean. ",
-                "{@--2@} Heaven. ",
-                "{@--3@}\nStrength. ",
-                "{@--4@} Business ({#vyavasAya#}).\n"
+                ".²1 Ghee, clarified butter; ({#sarpirvilInamAjyaM syAd GanIBUtaM GftaM Bavet#} <ls>Sāy.</ls>).\n",
+                ".²2 Butter.\n",
+                ".²3 Water.\n",
+                ".²4 Spirit, energy ({#tejas#}); {#maDucyuto GftapfktA viSokAste nAntavantaH#}\n {#pratipAlayanti#} <ls>Mb. 1. 92. 15</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 125577,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-akta#}@}"
+            ],
+            "_banner": ".{@{#-akta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftAkta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "annointed with ghee. {#viDavAyAM niyuktastu GftAkto#}\n {#vAgyato niSi . ekamutpAdayetputraM … ..#} <ls>Ms. 9. 60</ls>.\n"
             ]
         },
         {
-            "__line": 120951,
+            "__line": 125579,
             "_ancestry": [
                 "L_ 14528",
-                "B_ {#taviza#}",
-                "M_ {#--zI#}"
+                "B_ {#Gfta#}",
+                "S_ .{@{#-annaH, -arcis#}@}"
             ],
-            "_banner": "{#--zI#}",
+            "_banner": ".{@{#-annaH, -arcis#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tavizI"
+                    "Right": "GftAnnaH"
+                },
+                {
+                    "Right": "GftArcis"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "blazing fire; {#SuciSravA#}\n\n {#hfzIkeSo GftArcirhaMsa ucyate#} <ls>Mb. 12. 43. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125582,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-avaniH#}@}"
+            ],
+            "_banner": ".{@{#-avaniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftAvaniH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Power. ",
-                "{@--2@} The earth. ",
-                "{@--3@} A\nriver. ",
-                "{@--4@} <ab>N.</ab> of a daughter of\nIndra."
+                "the spot on the sacrificial post which is smeared with ghee.\n"
+            ]
+        },
+        {
+            "__line": 125583,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-AhavanaH#}@}"
+            ],
+            "_banner": ".{@{#-AhavanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftAhavanaH"
+                }
+            ],
+            "_meanings": [
+                "fire.\n"
+            ]
+        },
+        {
+            "__line": 125584,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-AhutiH#}@}"
+            ],
+            "_banner": ".{@{#-AhutiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftAhutiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "an oblation of ghee.\n"
+            ]
+        },
+        {
+            "__line": 125585,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-AhvaH#}@}"
+            ],
+            "_banner": ".{@{#-AhvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftAhvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the Sarala tree.\n",
+                ".²2 turpentine.\n"
+            ]
+        },
+        {
+            "__line": 125588,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-udaH#}@}"
+            ],
+            "_banner": ".{@{#-udaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftodaH"
+                }
+            ],
+            "_meanings": [
+                "‘ocean of ghee’ one of the seven oceans.\n"
+            ]
+        },
+        {
+            "__line": 125589,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-odanaH#}@}"
+            ],
+            "_banner": ".{@{#-odanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftOdanaH"
+                }
+            ],
+            "_meanings": [
+                "boiled rice mixed with ghee.\n"
+            ]
+        },
+        {
+            "__line": 125590,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-kumArikA, -kumArI#}@}"
+            ],
+            "_banner": ".{@{#-kumArikA, -kumArI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftakumArikA"
+                },
+                {
+                    "Right": "GftakumArI"
+                }
+            ],
+            "_meanings": [
+                "Aloe Indica (<lang>Mar.</lang> <ns>{#koraPaqa#}</ns>); <ls>Bhāva P. 5. 3. 282</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125591,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-kulyA#}@}"
+            ],
+            "_banner": ".{@{#-kulyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftakulyA"
+                }
+            ],
+            "_meanings": [
+                "a stream of ghee.\n"
+            ]
+        },
+        {
+            "__line": 125592,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-keSaH#}@}"
+            ],
+            "_banner": ".{@{#-keSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftakeSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 fire.\n",
+                ".²2 one whose locks are unctuous; {#Urjo napAtaM GftakeSamImahe#} <ls>Rv. 8. 60. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125595,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-ganDaH#}@}"
+            ],
+            "_banner": ".{@{#-ganDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftaganDaH"
+                }
+            ],
+            "_meanings": [
+                "a horse having the smell of ghee; {#GftaganDo BavedvESyo … .#}\n <ls>Śālihotra Appendix II, 17</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125597,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-dIDitiH#}@}"
+            ],
+            "_banner": ".{@{#-dIDitiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftadIDitiH"
+                }
+            ],
+            "_meanings": [
+                "fire.\n"
+            ]
+        },
+        {
+            "__line": 125598,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-GArA#}@}"
+            ],
+            "_banner": ".{@{#-GArA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftaGArA"
+                }
+            ],
+            "_meanings": [
+                "a continuous stream of ghee.\n"
+            ]
+        },
+        {
+            "__line": 125599,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-DenuH#}@}"
+            ],
+            "_banner": ".{@{#-DenuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftaDenuH"
+                }
+            ],
+            "_meanings": [
+                "ghee in the shape of milch-cow.\n"
+            ]
+        },
+        {
+            "__line": 125600,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-nirRij#}@}"
+            ],
+            "_banner": ".{@{#-nirRij#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftanirRij"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "shining. --({%m.%}) fire.\n"
+            ]
+        },
+        {
+            "__line": 125601,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-padI#}@}"
+            ],
+            "_banner": ".{@{#-padI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftapadI"
+                }
+            ],
+            "_meanings": [
+                "an epithet of the goddess Ilā; (whose foot drops with ghee);\n {#iLA devI GftapadI juzanta#} <ls>Rv. 10. 70. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125603,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-paSuH#}@}"
+            ],
+            "_banner": ".{@{#-paSuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftapaSuH"
+                }
+            ],
+            "_meanings": [
+                "a sacrificial victim represented by ghee; {#kuryAd GftapaSuM#}\n {#saMge#} <ls>Ms. 5. 37</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125605,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-pUraH, -varaH#}@}"
+            ],
+            "_banner": ".{@{#-pUraH, -varaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftapUraH"
+                },
+                {
+                    "Right": "GftavaraH"
+                }
+            ],
+            "_meanings": [
+                "a kind of sweetmeat; also {@{#˚pUrvakaH#}. {#-pfc#}@}\n {%a.%} accompanied with ghee; {#Gftena dyAvApfTivI aBIvfte GftaSriyA GftapfcA#}\n {#GftAvfDA#} <ls>Rv. 6. 70. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125608,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-pfzWa#}@}"
+            ],
+            "_banner": ".{@{#-pfzWa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftapfzWa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a shining body.\n"
+            ]
+        },
+        {
+            "__line": 125609,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-pratIkaH, -prayasH#}@}"
+            ],
+            "_banner": ".{@{#-pratIkaH, -prayasH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftapratIkaH"
+                },
+                {
+                    "Right": "GftaprayasH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-prasatta#}@}"
+            ],
+            "_meanings": [
+                "fire; {#GftapratIko GftapfzWo agne#} <ls>Av. 2. 13. 1</ls>; {#GftaprayA#}\n {#saDamAde maDUnAm#} <ls>Rv. 3. 43. 3</ls>; {#Gftaprasatto asuraH suSevaH#} <ls n=\"Rv.\">5. 15. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125612,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-prASaH, -prASanam#}@}"
+            ],
+            "_banner": ".{@{#-prASaH, -prASanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftaprASaH"
+                },
+                {
+                    "Right": "GftaprASanam"
+                }
+            ],
+            "_meanings": [
+                "swallowing ghee; <ls>Ms. 11. 143</ls>, <ls n=\"Ms.\">5. 144</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125613,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-pluta#}@}"
+            ],
+            "_banner": ".{@{#-pluta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Gftapluta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sprinkled with ghee; {#agnOkarizyannAdAya pfcCatyannaM#}\n {#Gftaplutam#} <ls>Y. 1. 236</ls>; <ls>Bhāg. 3. 16. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125615,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-maRqaH#}@}"
+            ],
+            "_banner": ".{@{#-maRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftamaRqaH"
+                }
+            ],
+            "_meanings": [
+                "the scum of melted butter.\n"
+            ]
+        },
+        {
+            "__line": 125616,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-yoniH#}@}"
+            ],
+            "_banner": ".{@{#-yoniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftayoniH"
+                }
+            ],
+            "_meanings": [
+                "fire; {#tanUnapAd GftayoniM viDantam#} <ls>Rv. 3. 4. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 125617,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-leKanI#}@}"
+            ],
+            "_banner": ".{@{#-leKanI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftaleKanI"
+                }
+            ],
+            "_meanings": [
+                "a ladle for ghee.\n"
+            ]
+        },
+        {
+            "__line": 125618,
+            "_ancestry": [
+                "L_ 14528",
+                "B_ {#Gfta#}",
+                "S_ .{@{#-hetuH#}@}"
+            ],
+            "_banner": ".{@{#-hetuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GftahetuH"
+                }
+            ],
+            "_meanings": [
+                "butter."
             ]
         }
     ]

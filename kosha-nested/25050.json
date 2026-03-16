@@ -1,16 +1,38 @@
 {
-    "__line": 212375,
+    "__line": 225146,
     "_ancestry": [
         "L_ 25050",
-        "B_ {#varaMqAluH#}"
+        "B_ {#BARqakaH#}, {#-kam#}"
     ],
-    "_banner": "{#varaMqAluH#}",
+    "_banner": "{#BARqakaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "varaMqAluH"
+            "Right": "BARqakaH"
+        },
+        {
+            "Right": "BARqakam"
         }
     ],
     "_meanings": [
-        "The castor-oil tree."
+        "A small vessel, cup.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 225148,
+            "_ancestry": [
+                "L_ 25050",
+                "B_ {#BARqakaH#}, {#-kam#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BARqakam"
+                }
+            ],
+            "_meanings": [
+                "Goods, merchandise, wares."
+            ]
+        }
     ]
 }

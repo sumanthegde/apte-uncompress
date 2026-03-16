@@ -1,61 +1,116 @@
 {
-    "__line": 264734,
+    "__line": 290677,
     "_ancestry": [
         "L_ 31546",
-        "B_ {#hEmavata#}"
+        "B_ {#SakunaH#}"
     ],
-    "_banner": "{#hEmavata#}",
+    "_banner": "{#SakunaH#}",
     "_bannerExp": [
         {
-            "Right": "hEmavatI"
-        },
-        {
-            "Right": "hEmavata"
+            "Right": "SakunaH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tI#}|{%<ab>f.</ab>%})",
-        "[{#himavato#} \n{#adUraBavo deSaH tasyedaM vA aR#}]"
+        "[{#Sak-unan#} <ls>Uṇ. 3. 49</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Snowy. ",
-        "{@--2@}\nFlowing from the snowy, {%<ab>i. e.</ab>%} \nHimālaya, mountain; <ls>R. 16. 44.</ls> ",
-        "{@--3@}\nBred in, belonging to, or situated\non, the Himālaya mountain;  \n<ls>Ku. 3. 23</ls>, <ls n=\"Ku.\">2. 67.</ls> "
+        ".²1 A bird (in general); {#kenedfSI jAtu parA hi dfzwA vAgucyamAnA Sakunena#}\n {#saMskftA#} <ls>Mb. 3. 197. 11</ls>; {#SakunocCizwam#} <ls>Y. 1. 168</ls>.\n",
+        ".²2 A kind of bird, a vulture or kite.\n",
+        ".²3 A kind of song (sung at festivals).\n"
     ],
     "_morphisms": [
         {
-            "__line": 264740,
+            "__line": 290682,
             "_ancestry": [
                 "L_ 31546",
-                "B_ {#hEmavata#}",
-                "M_ {#--taH#}"
+                "B_ {#SakunaH#}",
+                "M_ .{@{#-nam#}@}"
             ],
-            "_banner": "{#--taH#}",
+            "_banner": ".{@{#-nam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "hEmavataH"
+                    "Right": "Sakunam"
                 }
             ],
             "_meanings": [
-                "A kind of \npoison. "
+                ".²1 An omen, a prognostic, any omen presaging good or evil; {#aSakunena#}\n {#sKalitaH kiletaro'pi#} <ls>Śi. 9. 83</ls>.\n",
+                ".²2 An auspicious omen.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 290687,
+            "_ancestry": [
+                "L_ 31546",
+                "B_ {#SakunaH#}",
+                "S_ .{@{#-jYa#}@}"
+            ],
+            "_banner": ".{@{#-jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakunajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "knowing omens.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 290688,
+                    "_ancestry": [
+                        "L_ 31546",
+                        "B_ {#SakunaH#}",
+                        "S_ .{@{#-jYa#}@}",
+                        "S_M_ ({@{#-jYA#}@})"
+                    ],
+                    "_banner": "({@{#-jYA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "SakunajYA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a small house-lizard.\n"
+                    ]
+                }
             ]
         },
         {
-            "__line": 264741,
+            "__line": 290689,
             "_ancestry": [
                 "L_ 31546",
-                "B_ {#hEmavata#}",
-                "M_ {#--taM#}"
+                "B_ {#SakunaH#}",
+                "S_ .{@{#-jYAnam#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-jYAnam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "hEmavataM"
+                    "Right": "SakunajYAnam"
                 }
             ],
             "_meanings": [
-                "Bhāratavarṣa or India."
+                "knowledge of omens, augury.\n"
+            ]
+        },
+        {
+            "__line": 290690,
+            "_ancestry": [
+                "L_ 31546",
+                "B_ {#SakunaH#}",
+                "S_ .{@{#-SAstram#}@}"
+            ],
+            "_banner": ".{@{#-SAstram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SakunaSAstram"
+                }
+            ],
+            "_meanings": [
+                "‘the science of omens’, <ab>N.</ab> of a work."
             ]
         }
     ]

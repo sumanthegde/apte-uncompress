@@ -1,38 +1,203 @@
 {
-    "__line": 78655,
+    "__line": 78179,
     "_ancestry": [
         "L_ 9310",
-        "B_ {#uzaRaM#}"
+        "B_ {#unmatta#}"
     ],
-    "_banner": "{#uzaRaM#}",
+    "_banner": "{#unmatta#}",
     "_bannerExp": [
         {
-            "Right": "uzaRaM"
+            "Right": "unmatta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Black pepper ",
-        "{@--2@} Ginger.\n",
-        "{@--3@} The root Piper Longum. "
+        ".²1 drunk, intoxicated.\n",
+        ".²2 Insane, frantic, mad; {#dvAvatronmattO#} <ls>V. 2</ls>; {#aho unmattAsmi saMvfttA#}\n <ls>U. 3</ls>, <ls n=\"U.\">5. 30</ls>; <ls>Ś. 6</ls>; <ls>Ms. 9. 79</ls>.\n",
+        ".²3\n",
+        ".³({%a%}) Puffed, elevated.\n",
+        ".³({%b%}) Furious, wild; {#madonmattasya BUpasya kuYjarasya ca gacCataH#}\n <ls>Pt. 1. 161</ls>; <ls>U. 2</ls>; <ls>Śi. 6. 31</ls>.\n",
+        ".²4 Possessed by a ghost or an evil-spirit; <ls>Y. 2. 32</ls>; <ls>Ms. 3. 161</ls> ({#vAtapittaSlezmasaMnipAtagrahasaMBavenopasfzwaH#} <ls>Mit.</ls>).\n",
+        ".²5 Very great, abnormal. {#unmattavegAH plavagA maDumattASca hfzwavat#}\n <ls>Rām. 5. 62. 12</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 78656,
+            "__line": 78190,
             "_ancestry": [
                 "L_ 9310",
-                "B_ {#uzaRaM#}",
-                "M_ {#--RA#}"
+                "B_ {#unmatta#}",
+                "M_ .{@{#-ttaH#}@}"
             ],
-            "_banner": "{#--RA#}",
+            "_banner": ".{@{#-ttaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "uzaRA"
+                    "Right": "unmattaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Piper Longum. ",
-                "{@--2@} Piper Chaba\n({#cavika#}). ",
-                "{@--3@} Dried ginger."
+                ".²1 the thorn apple ({#DattUra#}); <ab>N.</ab> of another tree ({#mucakunda#}).\n",
+                ".²2 <ab>N.</ab> of one of the eight forms of Bhairava.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 78194,
+            "_ancestry": [
+                "L_ 9310",
+                "B_ {#unmatta#}",
+                "S_ .{@{#-kIrtiH, -veSaH#}@}"
+            ],
+            "_banner": ".{@{#-kIrtiH, -veSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmattakIrtiH"
+                },
+                {
+                    "Right": "unmattaveSaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 78195,
+            "_ancestry": [
+                "L_ 9310",
+                "B_ {#unmatta#}",
+                "S_ .{@{#-gaNgam#}@}"
+            ],
+            "_banner": ".{@{#-gaNgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmattagaNgam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a country (where the Gaṅgā roars furiously along).\n"
+            ]
+        },
+        {
+            "__line": 78196,
+            "_ancestry": [
+                "L_ 9310",
+                "B_ {#unmatta#}",
+                "S_ .{@{#-darSana, -rUpa#}@}"
+            ],
+            "_banner": ".{@{#-darSana, -rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmattadarSana"
+                },
+                {
+                    "Left": "S error: midAlign rUpa darUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "maniac-like, mad in appearance.\n"
+            ]
+        },
+        {
+            "__line": 78197,
+            "_ancestry": [
+                "L_ 9310",
+                "B_ {#unmatta#}",
+                "S_ .{@{#-pralapita#}@}"
+            ],
+            "_banner": ".{@{#-pralapita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmattapralapita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "spoken in drunkenness or madness.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 78198,
+                    "_ancestry": [
+                        "L_ 9310",
+                        "B_ {#unmatta#}",
+                        "S_ .{@{#-pralapita#}@}",
+                        "S_M_ ({@{#-tam#}@})"
+                    ],
+                    "_banner": "({@{#-tam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: unmattapralapita ({@{#-taM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "the words of a madman.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 78199,
+            "_ancestry": [
+                "L_ 9310",
+                "B_ {#unmatta#}",
+                "S_ .{@{#-BEravaH#}@}"
+            ],
+            "_banner": ".{@{#-BEravaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmattaBEravaH"
+                }
+            ],
+            "_meanings": [
+                "A form of Bhairava. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 78199,
+                    "_ancestry": [
+                        "L_ 9310",
+                        "B_ {#unmatta#}",
+                        "S_ .{@{#-BEravaH#}@}",
+                        "S_S_ {#˚vI#}"
+                    ],
+                    "_banner": "{#˚vI#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "unmattaBEravavI"
+                        }
+                    ],
+                    "_meanings": [
+                        "A form of Durgā.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 78200,
+            "_ancestry": [
+                "L_ 9310",
+                "B_ {#unmatta#}",
+                "S_ .{@{#-liNgin#}@}"
+            ],
+            "_banner": ".{@{#-liNgin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmattaliNgin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pretending to be mad."
             ]
         }
     ]

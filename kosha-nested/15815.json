@@ -1,21 +1,60 @@
 {
-    "__line": 132286,
+    "__line": 137252,
     "_ancestry": [
         "L_ 15815",
-        "B_ {#drAh#}"
+        "B_ {#jyotizmat#}"
     ],
-    "_banner": "{#drAh#}",
+    "_banner": "{#jyotizmat#}",
     "_bannerExp": [
         {
-            "Right": "drAh"
+            "Right": "jyotizmat"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#drAhate#})"
+        "{%a.%}",
+        "[{#jyotirastyasya matup#}]"
     ],
     "_meanings": [
-        "To wake."
+        ".²1 Luminous, bright, shining, possessed of luminous bodies; {#nakzatratArAgrahasaNkulApi#}\n {#jyotizmatI candramasEva rAtriH#} <ls>R. 6. 22</ls>.\n",
+        ".²2 Celestial. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 137255,
+            "_ancestry": [
+                "L_ 15815",
+                "B_ {#jyotizmat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#jyotizmat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 The sun.\n",
+                ".²2 <ab>N.</ab> of the third foot of Brahmā.\n",
+                ".²3 <ab>N.</ab> of one of the seven suns appearing at the destruction of the world.\n"
+            ]
+        },
+        {
+            "__line": 137259,
+            "_ancestry": [
+                "L_ 15815",
+                "B_ {#jyotizmat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jyotizmatI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The night (as illuminated by the stars).\n",
+                ".²2 (In <ab>phil.</ab>) A state of mind pervaded by {#sattvaguRa#} {%<ab>i. e.</ab>%} a tranquil state of mind."
+            ]
+        }
     ]
 }

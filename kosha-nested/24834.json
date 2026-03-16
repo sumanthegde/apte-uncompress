@@ -1,20 +1,58 @@
 {
-    "__line": 210549,
+    "__line": 222971,
     "_ancestry": [
         "L_ 24834",
-        "B_ {#vakrIkf#}"
+        "B_ {#Bakzita#}"
     ],
-    "_banner": "{#vakrIkf#}",
+    "_banner": "{#Bakzita#}",
     "_bannerExp": [
         {
-            "Right": "vakrIkf"
+            "Right": "Bakzita"
         }
     ],
     "_gram": [
-        "{c8c}",
-        "<ab>U.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "To make crooked,\nbend."
+        ".²1 Eaten, devoured.\n",
+        ".²2 Slurred over.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 222974,
+            "_ancestry": [
+                "L_ 24834",
+                "B_ {#Bakzita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bakzitam"
+                }
+            ],
+            "_meanings": [
+                "Food.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 222976,
+            "_ancestry": [
+                "L_ 24834",
+                "B_ {#Bakzita#}",
+                "S_ .{@{#-SezaH#}@}"
+            ],
+            "_banner": ".{@{#-SezaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BakzitaSezaH"
+                }
+            ],
+            "_meanings": [
+                "leavings, remnants of food."
+            ]
+        }
     ]
 }

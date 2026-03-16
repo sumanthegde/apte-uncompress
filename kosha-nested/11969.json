@@ -1,44 +1,50 @@
 {
-    "__line": 100073,
+    "__line": 100869,
     "_ancestry": [
         "L_ 11969",
-        "B_ {#kzullaka#}"
+        "B_ {#kApawa, kApawika#}"
     ],
-    "_banner": "{#kzullaka#}",
+    "_banner": "{#kApawa, kApawika#}",
     "_bannerExp": [
         {
-            "Right": "kzullaka"
+            "Right": "kApawa"
+        },
+        {
+            "Right": "kApawika"
+        },
+        {
+            "Right": "kI"
+        },
+        {
+            "Right": "kApawikI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#kapawa-Wak#}]"
     ],
     "_meanings": [
-        "{@--1@} Little, minute. ",
-        "{@--2@} Low,\nvile. ",
-        "{@--3@} Insignificant. ",
-        "{@--4@} Wicked,\nmalicious. ",
-        "{@--5@} Poor. ",
-        "{@--6@} Pained, \ndistressed. ",
-        "{@--7@} Hard ",
-        "{@--8@} Young. "
+        ".²1 Fraudulent, dishonest.\n",
+        ".²2 Wicked, perverse.\n"
     ],
     "_morphisms": [
         {
-            "__line": 100076,
+            "__line": 100873,
             "_ancestry": [
                 "L_ 11969",
-                "B_ {#kzullaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#kApawa, kApawika#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kzullakaH"
+                    "Right": "kaH"
                 }
             ],
             "_meanings": [
-                "A\nsmall shell."
+                ".²1 A flatterer, parasite.\n",
+                ".²2 A student, scholar."
             ]
         }
     ]

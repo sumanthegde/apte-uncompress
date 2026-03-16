@@ -1,46 +1,59 @@
 {
-    "__line": 264369,
+    "__line": 290268,
     "_ancestry": [
         "L_ 31499",
-        "B_ {#hfz#}"
+        "B_ {#vraScanaH#}"
     ],
-    "_banner": "{#hfz#}",
+    "_banner": "{#vraScanaH#}",
     "_bannerExp": [
         {
-            "Right": "hfz"
+            "Right": "vraScanaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "{c4c}",
-        "<ab>P.</ab>",
-        "({#harzati, hfzyati, hfzwa#} or\n{#hfzita#})"
-    ],
     "_meanings": [
-        "{@--1@} To be delighted or rejoiced,\nbe pleased or glad, to exult, rejoice;\n{#advitIyaM rucAtmAnaM matvA kiM caMdra hfzyasi#}\n<ls>Bv. 2. 54.</ls> ",
-        "{@--2@} To bristle or stand\nerect, stand on end (as the hair of\nthe body); {#hfzitAstanUruhAH#} <ls>Dk.</ls>;  \n{#hfzyaMti romakUpAni#} <ls>Mb.</ls> ",
-        "{@--3@} To become erect\n(said of other things, {%<ab>e. g.</ab>%} the penis).\n",
-        "{@--4@} To lie, tell a lie. "
+        ".²1 A small saw.\n",
+        ".²2 A fine file used by goldsmiths.\n",
+        ".²3 The juice trickling from an incision in a tree.\n"
     ],
     "_morphisms": [
         {
-            "__line": 264378,
+            "__line": 290272,
             "_ancestry": [
                 "L_ 31499",
-                "B_ {#hfz#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#vraScanaH#}",
+                "M_ .{@{#-nam#}@}"
             ],
+            "_banner": ".{@{#-nam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "hfz"
+                    "Right": "vraScanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Cutting, tearing, wounding.\n",
+                ".²2 A cut, an incision.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 290276,
+            "_ancestry": [
+                "L_ 31499",
+                "B_ {#vraScanaH#}",
+                "S_ .{@{#-praBava#}@}"
+            ],
+            "_banner": ".{@{#-praBava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vraScanapraBava"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#harzayati-te#})"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To please, delight, fill with\npleasure."
+                "flowing from an incision; {#lohitAn vfkzaniryAsAn#}\n {#vraScanapraBavAMstaTA#} ({#vivarjayet#}) <ls>Ms. 5. 6</ls>."
             ]
         }
     ]

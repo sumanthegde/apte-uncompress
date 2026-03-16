@@ -1,23 +1,70 @@
 {
-    "__line": 208280,
+    "__line": 219690,
     "_ancestry": [
         "L_ 24569",
-        "B_ {#lAq#}"
+        "B_ {#bADaH#}, {#-DA#}"
     ],
-    "_banner": "{#lAq#}",
+    "_banner": "{#bADaH#}, {#-DA#}",
     "_bannerExp": [
         {
-            "Right": "lAq"
+            "Right": "bADaH"
+        },
+        {
+            "Right": "bADA"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#lAqayati-te#})"
+        "[{#bAD-BAve GaY#}]"
     ],
     "_meanings": [
-        "{@--1@} To\nfondle, caress. ",
-        "{@--2@} To blame, censure.\n",
-        "{@--3@} To throw, toss; <ab>cf.</ab> {#laq#}."
+        ".²1 Pain, suffering, affliction, torment; {#rajanyA saha jfmBate madanabADA#} <ls>V. 3</ls>.\n",
+        ".²2 Disturbance, molestation, annoyance; {#iti BramarabADAM nirUpayati#} <ls>Ś. 1</ls>.\n",
+        ".²3 Harm, injury, damage, hurt; {#caraRasya bADA#} <ls>M. 4</ls>; {#na nizeDyo'lpabADastu#}\n {#setuH kalyARakArakaH#} <ls>Y. 2. 156</ls>.\n",
+        ".²4 Danger, peril; {#nEvAsO veda saMhAraM prARabADa upasTite#} <ls>Bhāg. 1. 7. 27</ls>.\n",
+        ".²5 Resistance, opposition.\n",
+        ".²6 An objection.\n",
+        ".²7 Contradiction, refutation.\n",
+        ".²8 Suspension, annulment.\n",
+        ".²9 A flaw in a syllogism, one of the five forms of {#hetvABAsa#} or\n\n fallacious middle term; see {#bADita#} below.\n",
+        ".²10 Violation, infraction.\n",
+        ".²11 Sublation; {#bADo nAma yadevedamiti niScitaM vijYAnaM kAraRAntareRa#}\n {#miTyeti kaTyate#} <ls>ŚB. on MS. 10. 1. 1</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 219707,
+            "_ancestry": [
+                "L_ 24569",
+                "B_ {#bADaH#}, {#-DA#}",
+                "M_ .{@{#-DA#}@}"
+            ],
+            "_banner": ".{@{#-DA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bADA"
+                }
+            ],
+            "_meanings": [
+                "Refutation.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 219709,
+            "_ancestry": [
+                "L_ 24569",
+                "B_ {#bADaH#}, {#-DA#}",
+                "S_ .{@{#-apavAdaH#}@}"
+            ],
+            "_banner": ".{@{#-apavAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bADApavAdaH"
+                }
+            ],
+            "_meanings": [
+                "denial of an exception."
+            ]
+        }
     ]
 }

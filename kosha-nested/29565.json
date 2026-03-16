@@ -1,25 +1,80 @@
 {
-    "__line": 247854,
+    "__line": 273188,
     "_ancestry": [
         "L_ 29565",
-        "B_ {#samudDfta#}"
+        "B_ {#vidita#}"
     ],
-    "_banner": "{#samudDfta#}",
+    "_banner": "{#vidita#}",
     "_bannerExp": [
         {
-            "Right": "samudDfta"
+            "Right": "vidita"
         }
     ],
     "_gram": [
         "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Lifted up. ",
-        "{@--2@} \nDelivered, saved, rescued. ",
-        "{@--3@} \nVomited. ",
-        "{@--4@} Removed. ",
-        "{@--5@} Set apart, \ndivided. ",
-        "{@--6@} Seized; possessed. ",
-        "{@--7@}\nIll-behaved, rude."
+        ".²1 Known, understood, learnt; {#aviditagatayAmA rAtrireva vyaraMsIt#} <ls>U. 1. 27</ls>.\n",
+        ".²2 Informed.\n",
+        ".²3 Renowned, celebrated, well-known; {#Buvanavidite vaMSe#} <ls>Me. 6</ls>.\n",
+        ".²4 Promised, agreed to.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 273193,
+            "_ancestry": [
+                "L_ 29565",
+                "B_ {#vidita#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viditaH"
+                }
+            ],
+            "_meanings": [
+                "A learned man, scholar.\n"
+            ]
+        },
+        {
+            "__line": 273194,
+            "_ancestry": [
+                "L_ 29565",
+                "B_ {#vidita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viditam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Knowledge, information.\n",
+                ".²2 Celebrity, fame. ",
+                ".²3 Acquisition, gaining.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 273198,
+            "_ancestry": [
+                "L_ 29565",
+                "B_ {#vidita#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viditAtman"
+                }
+            ],
+            "_meanings": [
+                ".²1 Celebrated; {#tasya cintayato nityaM DarmeRa viditAtmanaH#} <ls>Rām. 1. 42. 7</ls>.\n",
+                ".²2 One who knows oneself; {#tato nityAnugastezAM viditAtmA mahAmatiH#}\n <ls>Rām. 2. 103. 22</ls>. --{%m.%} the almighty ({#parameSvara#}); {#sarvamArzaM#}\n {#hi manyante vyAhftaM viditAtmanaH#} <ls>Mb. 12. 268. 10</ls>."
+            ]
+        }
     ]
 }

@@ -1,16 +1,82 @@
 {
-    "__line": 131821,
+    "__line": 136626,
     "_ancestry": [
         "L_ 15747",
-        "B_ {#dOhfdinI#}"
+        "B_ {#jEtra#}"
     ],
-    "_banner": "{#dOhfdinI#}",
+    "_banner": "{#jEtra#}",
     "_bannerExp": [
         {
-            "Right": "dOhfdinI"
+            "Right": "jEtra"
+        },
+        {
+            "Right": "jEtrI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-trI#}|{%f.%})",
+        "[{#jetf-aR#}]"
+    ],
     "_meanings": [
-        "A pregnant woman."
+        ".²1 Victorious, successful, leading to victory; {#jEtraM yaM te anumadAma#}\n {#saNgame#} <ls>Rv. 1. 102. 3</ls>; {#idamiha madanasya jEtramastraM viPalaguRAtiSayaM#}\n {#BavizyatIti#} <ls>Māl. 2. 6</ls>; {#DanurjEtraM raGurdaDO#} <ls>R. 4. 16</ls>, <ls n=\"R.\">16. 72</ls>;\n {#AkArayajjayIjEtraprayARapawahasvanam#} <ls>Śiva B. 29. 64</ls>.\n",
+        ".²2 Superior.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 136633,
+            "_ancestry": [
+                "L_ 15747",
+                "B_ {#jEtra#}",
+                "M_ .{@{#-traH#}@}"
+            ],
+            "_banner": ".{@{#-traH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jEtraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A victor, conqueror.\n",
+                ".²2 Quick-silver.\n"
+            ]
+        },
+        {
+            "__line": 136636,
+            "_ancestry": [
+                "L_ 15747",
+                "B_ {#jEtra#}",
+                "M_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jEtram"
+                }
+            ],
+            "_meanings": [
+                "A Victory, triumph; {#jEtrayAtrAparEH sadyaH parEH sa pariBUyate#}\n <ls>Śiva B. 16. 41</ls>.\n",
+                ".²3 Superiority.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 136640,
+            "_ancestry": [
+                "L_ 15747",
+                "B_ {#jEtra#}",
+                "S_ .{@{#-raTaH#}@}"
+            ],
+            "_banner": ".{@{#-raTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jEtraraTaH"
+                }
+            ],
+            "_meanings": [
+                "a victor."
+            ]
+        }
     ]
 }

@@ -1,22 +1,44 @@
 {
-    "__line": 51244,
+    "__line": 48061,
     "_ancestry": [
         "L_ 5799",
-        "B_ {#AkrAMtiH#}"
+        "B_ {#aSAstra#}"
     ],
-    "_banner": "{#AkrAMtiH#}",
+    "_banner": "{#aSAstra#}",
     "_bannerExp": [
         {
-            "Right": "AkrAMtiH"
+            "Right": "aSAstra"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Placing upon, \noccupying; stepping or treading upon;\n{#AkrAMtisaMBAvitapAdapIWaM#} <ls>Ku. 3. 11.</ls> ",
-        "{@--2@}\nOvercoming, pressing upon, \nloading; <ls>Mu. 3. 10.</ls> ",
-        "{@--3@} Ascending, \nrising. ",
-        "{@--4@} Might, valour, force;  \n<ls>Śi. 5. 41.</ls>"
+        "Not conformable to sacred authority, not scriptural, heterodox.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 48063,
+            "_ancestry": [
+                "L_ 5799",
+                "B_ {#aSAstra#}",
+                "S_ .{@{#-vihita, -sidDa#}@}"
+            ],
+            "_banner": ".{@{#-vihita, -sidDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSAstravihita"
+                },
+                {
+                    "Right": "aSAstrasidDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not sanctioned or enjoined by scriptures."
+            ]
+        }
     ]
 }

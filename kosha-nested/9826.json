@@ -1,42 +1,482 @@
 {
-    "__line": 82875,
+    "__line": 82082,
     "_ancestry": [
         "L_ 9826",
-        "B_ {#OpaniDika#}"
+        "B_ {#upari#}"
     ],
-    "_banner": "{#OpaniDika#}",
+    "_banner": "{#upari#}",
     "_bannerExp": [
         {
-            "Right": "OpaniDikI"
-        },
-        {
-            "Right": "OpaniDika"
+            "Right": "upari"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#upaniDi-Wak#}]"
+        "{%ind.%}"
     ],
     "_meanings": [
-        "Forming, or relating to, a deposit.\n"
+        ".²1 As a separable preposition (usually with <ab>gen.</ab>, rarely with <ab>acc.</ab> or <ab>loc.</ab>) it means\n",
+        ".³({%a%}) Above, over, upon, on, towards; (<ab>opp.</ab> {#aDaH#}) (with <ab>gen.</ab>);\n {#gatamupari GanAnAm#} <ls>Ś. 7. 7</ls>; {#avANmuKasyopari vfzwiH papAta#} <ls>R. 2. 60</ls>;\n {#arkasyopari#} <ls>Ś. 2. 9</ls>; {#prAsAdAnAm#} <ls>Māl. 7. 5</ls>; <ls>U. 5. 2</ls>; <ls>Śi. 16. 9</ls>, <ls n=\"Śi.\">12. 37</ls>;\n so {#˚sTApanam, ˚sTita#} <ab>&c.</ab>; with <ab>loc.</ab> {#uparyeva sa laNkAyAm#}\n <ls>Rām.</ls>; or <ab>acc.</ab> {#yantrARyupari yantrARi#} {%<ab>ibid.</ab>%}; <ab>oft.</ab> at the end of\n <ab>comp.</ab>; {#raTa˚, taruvara˚, tad˚#}.\n",
+        ".³({%b%}) At the end of, at the head of; {#sarvAnandAnAmupari vartamAnA#} <ls>K. 158</ls>.\n",
+        ".³({%c%}) Beyond, in addition to; {#paRasyopari saMsTApya vyayam#} <ls>Y. 2. 253</ls>;\n {#Buktasyopari#} <ls>Suśr.</ls>\n",
+        ".³({%d%}) In connection with, with regard to, towards, upon; {#parasparasyopari#}\n {#paryacIyata#} <ls>R. 3. 24</ls>; <ls>Śānti. 3. 23</ls>; {#tasyopari krudDaH, mamopari duzwabudDiH#}\n <ab>&c.</ab>; {#tavopari prAyopaveSanaM karizyAmi#} on your account.\n",
+        ".³({%e%}) After; {#muhUrtAdupari upADyAyaScedAgacCet#} <ls>P. III. 3. 9. Sk.</ls>\n {#upari#} joined to {#upari#} (with <ab>acc.</ab> or <ab>gen.</ab> or by itself) means\n",
+        ".³({%a%}) Just above; {#lokAnuparyuparyAste mADavaH#} <ls>Vop.</ls>\n",
+        ".³({%b%}) higher and higher, far high, high above; {#uparyupari sarvezAmAditya#}\n {#iva tejasA#} <ls>Mb.</ls>\n",
+        ".²2 (As a separable adverb) It means\n",
+        ".³({%a%}) high above, upon, towards the upper side of (<ab>opp.</ab> {#aDaH#});\n {#tridaSAnvinihatyASu svayaM sTAsyAmyaTopari#} <ls>Rām. 7. 29. 6</ls>. {#uparyupari#}\n {#paSyantaH sarvam eva daridrati#} <ls>H. 2. 2</ls>; so {#upari yA#}; {#˚sTApana, ˚sTita#}\n\n <ab>&c.</ab>; <ab>oft.</ab> in <ab>comp.</ab> {#svamudroparicihnitam#} <ls>Y. 1. 319</ls>.\n",
+        ".³({%b%}) Besides, in addition, further, more; {#SatAnyupari cEvAzwO taTA#}\n {#BUyaSca saptatiH#} <ls>Mb.</ls>\n",
+        ".³({%c%}) Afterwards; {#yadA pUrvaM nAsIdupari ca tayA nEva BavitA#} <ls>Śānti. 2. 7</ls>;\n {#sarpiH pItvopari payaH pibet#} <ls>Suśr.</ls>; {#uparyupari#} more and\n more, repeatedly, continuously. [<ab>cf.</ab> <lang>Zend.</lang> {%upairi, upara%}; <lang>Gr.</lang> {%huper%};\n <lang>L.</lang> {%super%}; <lang>Old Germ.</lang> {%obar%}; <lang>Germ.</lang> {%uber%}; <lang>Eng.</lang> {%over%};\n <lang>Hind.</lang> {%upar%}].\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 82877,
+            "__line": 82115,
             "_ancestry": [
                 "L_ 9826",
-                "B_ {#OpaniDika#}",
-                "M_ {#--kaM#}"
+                "B_ {#upari#}",
+                "S_ .{@{#-Asanam#}@}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": ".{@{#-Asanam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "OpaniDikaM"
+                    "Right": "uparyAsanam"
                 }
             ],
             "_meanings": [
-                "A deposit or pledge; \nanything pledged or deposited;  \n<ls>Y. 2. 65.</ls>"
+                "sitting on high.\n"
+            ]
+        },
+        {
+            "__line": 82116,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-karaH#}@}"
+            ],
+            "_banner": ".{@{#-karaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparikaraH"
+                }
+            ],
+            "_meanings": [
+                "A tax paid by temporary tenants.\n"
+            ]
+        },
+        {
+            "__line": 82117,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-kARqam#}@}"
+            ],
+            "_banner": ".{@{#-kARqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparikARqam"
+                }
+            ],
+            "_meanings": [
+                "The third division of the Maitrāyaṇī Saṃhitā.\n"
+            ]
+        },
+        {
+            "__line": 82118,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparigata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "gone up, ascended.\n"
+            ]
+        },
+        {
+            "__line": 82119,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-cara#}@}"
+            ],
+            "_banner": ".{@{#-cara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparicara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "moving above (as a bird).\n"
+            ]
+        },
+        {
+            "__line": 82120,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upariraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the king Vasu.\n"
+            ]
+        },
+        {
+            "__line": 82121,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-cita#}@}"
+            ],
+            "_banner": ".{@{#-cita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparicita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "piled over or above.\n"
+            ]
+        },
+        {
+            "__line": 82122,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparija"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "produced above, elevated, high.\n"
+            ]
+        },
+        {
+            "__line": 82123,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-tana, sTa#}@}"
+            ],
+            "_banner": ".{@{#-tana, sTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparitana"
+                },
+                {
+                    "Left": "S error: 1 syl tana sTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "upper, higher.\n"
+            ]
+        },
+        {
+            "__line": 82124,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-talam#}@}"
+            ],
+            "_banner": ".{@{#-talam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparitalam"
+                }
+            ],
+            "_meanings": [
+                "Upper part; {#uparitalanipAtitezwakaH#} <ls>Mk. 3. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 82125,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-pruta#}@}"
+            ],
+            "_banner": ".{@{#-pruta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparipruta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> coming from above; <ls>Vāj. 7. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 82126,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-buDna#}@}"
+            ],
+            "_banner": ".{@{#-buDna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparibuDna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> raised above the ground; <ls>Rv. 10. 73. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 82127,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-bfhatI#}@}"
+            ],
+            "_banner": ".{@{#-bfhatI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparibfhatI"
+                }
+            ],
+            "_meanings": [
+                "A variety of {#bfhatI#} metre.\n"
+            ]
+        },
+        {
+            "__line": 82128,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-BAgaH#}@}"
+            ],
+            "_banner": ".{@{#-BAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upariBAgaH"
+                }
+            ],
+            "_meanings": [
+                "the upper portion or side.\n"
+            ]
+        },
+        {
+            "__line": 82129,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upariBAvaH"
+                }
+            ],
+            "_meanings": [
+                "being above or higher.\n"
+            ]
+        },
+        {
+            "__line": 82130,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-BUmiH#}@}"
+            ],
+            "_banner": ".{@{#-BUmiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upariBUmiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "the ground above.\n"
+            ]
+        },
+        {
+            "__line": 82131,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-martyam#}@}"
+            ],
+            "_banner": ".{@{#-martyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparimartyam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> above men; {#avo devamuparimartyaM kfDi#} <ls>Rv. 8. 19. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 82132,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-Sayanam#}@}"
+            ],
+            "_banner": ".{@{#-Sayanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upariSayanam"
+                }
+            ],
+            "_meanings": [
+                "a place of rest. {#yadupariSayanamAharanti svargameva#}\n {#tena lokamavarundDe#} <ls>Av. 9. 6. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 82134,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-SreRika#}@}"
+            ],
+            "_banner": ".{@{#-SreRika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "upariSreRika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "being in the upper line or series.\n"
+            ]
+        },
+        {
+            "__line": 82135,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-zWaH#}@}"
+            ],
+            "_banner": ".{@{#-zWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparizWaH"
+                }
+            ],
+            "_gram": [
+                "({@{#-sTa#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Above, staying up; {#parvatasyoparizWasya#}\n {#karmedaM kasyacidBavet#} <ls>Rām. 7. 16. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 82137,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-sad#}@}"
+            ],
+            "_banner": ".{@{#-sad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparisad"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "lying or sitting above; <ls>Vāj. 9. 35</ls>. ({%m.%}) a class of gods.\n"
+            ]
+        },
+        {
+            "__line": 82138,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-sadyam#}@}"
+            ],
+            "_banner": ".{@{#-sadyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparisadyam"
+                }
+            ],
+            "_meanings": [
+                "sitting above.\n"
+            ]
+        },
+        {
+            "__line": 82139,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-sTAyin#}@}"
+            ],
+            "_banner": ".{@{#-sTAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparisTAyin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Standing higher, prominent.\n"
+            ]
+        },
+        {
+            "__line": 82140,
+            "_ancestry": [
+                "L_ 9826",
+                "B_ {#upari#}",
+                "S_ .{@{#-spfS#}@}"
+            ],
+            "_banner": ".{@{#-spfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "uparispfS"
+                }
+            ],
+            "_meanings": [
+                "Reaching above, elevated; {#vasavo rudrA AdityA uparispfSam#}\n <ls>Rv. 10. 128. 9</ls>. {@{#kaH#}@} A provincial governor."
             ]
         }
     ]

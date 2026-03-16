@@ -1,19 +1,57 @@
 {
-    "__line": 30883,
+    "__line": 27838,
     "_ancestry": [
         "L_ 3245",
-        "B_ {#aBimUrCita#}"
+        "B_ {#abADa#}"
     ],
-    "_banner": "{#aBimUrCita#}",
+    "_banner": "{#abADa#}",
     "_bannerExp": [
         {
-            "Right": "aBimUrCita"
+            "Right": "abADa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Utterly confused,\nbewildered."
+        "Unrestrained, unobstructed.\n",
+        ".²2 Free from pain.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 27840,
+            "_ancestry": [
+                "L_ 3245",
+                "B_ {#abADa#}",
+                "M_ .{@{#-DA#}@}"
+            ],
+            "_banner": ".{@{#-DA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "abADA"
+                }
+            ],
+            "_meanings": [
+                "The segment of the base of a triangle.\n"
+            ]
+        },
+        {
+            "__line": 27841,
+            "_ancestry": [
+                "L_ 3245",
+                "B_ {#abADa#}",
+                "M_ .{@{#-DaH#}@}"
+            ],
+            "_banner": ".{@{#-DaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "abADaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Non-obstruction.\n",
+                ".²2 Non-refutation."
+            ]
+        }
     ]
 }

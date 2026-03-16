@@ -1,16 +1,63 @@
 {
-    "__line": 183013,
+    "__line": 197704,
     "_ancestry": [
         "L_ 22009",
-        "B_ {#BallakaH#}"
+        "B_ {#prakASita#}"
     ],
-    "_banner": "{#BallakaH#}",
+    "_banner": "{#prakASita#}",
     "_bannerExp": [
         {
-            "Right": "BallakaH"
+            "Right": "prakASita"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "A bear."
+        ".²1 Made clear or manifested, displayed, manifested.\n",
+        ".²2 Published; brought out (as a book).\n",
+        ".²3 Illuminated, irradiated, enlightened.\n",
+        ".²4 Visible, evident, apparent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 197709,
+            "_ancestry": [
+                "L_ 22009",
+                "B_ {#prakASita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakASitam"
+                }
+            ],
+            "_meanings": [
+                "Light, clearness.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 197711,
+            "_ancestry": [
+                "L_ 22009",
+                "B_ {#prakASita#}",
+                "S_ .{@{#-virudDatA, -tvam#}@}"
+            ],
+            "_banner": ".{@{#-virudDatA, -tvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakASitavirudDatA"
+                },
+                {
+                    "Left": "S error: 1 syl virudDatA tvaM"
+                }
+            ],
+            "_meanings": [
+                "(in <ab>Rhet.</ab>) a particular awkwardness in expression."
+            ]
+        }
     ]
 }

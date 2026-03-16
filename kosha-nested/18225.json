@@ -1,16 +1,132 @@
 {
-    "__line": 153284,
+    "__line": 161920,
     "_ancestry": [
         "L_ 18225",
-        "B_ {#parivezakaH#}"
+        "B_ {#nakraH#}"
     ],
-    "_banner": "{#parivezakaH#}",
+    "_banner": "{#nakraH#}",
     "_bannerExp": [
         {
-            "Right": "parivezakaH"
+            "Right": "nakraH"
         }
     ],
+    "_gram": [
+        "[{#na krAmatIti#}]"
+    ],
     "_meanings": [
-        "A waiter at meals."
+        ".²1 A crocodile, an alligator; {#nakraH svasTAnamAsAdya gajendramapi karzati#}\n <ls>Pt. 3. 46</ls>; <ls>R. 7. 30</ls>, <ls n=\"R.\">16. 55</ls>.\n",
+        ".²2 The sign Scorpio of the zodiac.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 161924,
+            "_ancestry": [
+                "L_ 18225",
+                "B_ {#nakraH#}",
+                "M_ .{@{#-kram#}@}"
+            ],
+            "_banner": ".{@{#-kram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nakram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The upper timber of a door.\n",
+                ".²2 The nose.\n"
+            ]
+        },
+        {
+            "__line": 161927,
+            "_ancestry": [
+                "L_ 18225",
+                "B_ {#nakraH#}",
+                "M_ .{@{#-krA#}@}"
+            ],
+            "_banner": ".{@{#-krA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nakrA"
+                }
+            ],
+            "_meanings": [
+                ".²1 The nose.\n",
+                ".²2 A swarm of bees or wasps.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 161931,
+            "_ancestry": [
+                "L_ 18225",
+                "B_ {#nakraH#}",
+                "S_ .{@{#-ketanaH#}@}"
+            ],
+            "_banner": ".{@{#-ketanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nakraketanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the god of love.\n"
+            ]
+        },
+        {
+            "__line": 161932,
+            "_ancestry": [
+                "L_ 18225",
+                "B_ {#nakraH#}",
+                "S_ .{@{#-naKaram#}@}"
+            ],
+            "_banner": ".{@{#-naKaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nakranaKaram"
+                }
+            ],
+            "_meanings": [
+                "a fragrant medicinal root (<lang>Mar.</lang> <ns>{#nAgaramoTA#}</ns>; cyperus\n pertenuis); {#katakaM nakranaKaraM naladaM nAgakesaram#} <ls>Śiva B. 30. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 161934,
+            "_ancestry": [
+                "L_ 18225",
+                "B_ {#nakraH#}",
+                "S_ .{@{#-makzikA#}@}"
+            ],
+            "_banner": ".{@{#-makzikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nakramakzikA"
+                }
+            ],
+            "_meanings": [
+                "a fly that enters the nostrils and hums or an aquatic fly.\n"
+            ]
+        },
+        {
+            "__line": 161935,
+            "_ancestry": [
+                "L_ 18225",
+                "B_ {#nakraH#}",
+                "S_ .{@{#-rAj#}@}"
+            ],
+            "_banner": ".{@{#-rAj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nakrarAj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "{@{#-rAjaH, -hArakaH#}@}"
+            ],
+            "_meanings": [
+                "a shark or any other large sea-animal."
+            ]
+        }
     ]
 }

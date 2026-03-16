@@ -1,19 +1,40 @@
 {
-    "__line": 183659,
+    "__line": 198497,
     "_ancestry": [
         "L_ 22092",
-        "B_ {#BAMqikaH --laH#}"
+        "B_ {#praKyA#}"
     ],
-    "_banner": "{#BAMqikaH --laH#}",
+    "_banner": "{#praKyA#}",
     "_bannerExp": [
         {
-            "Right": "BAMqikaH"
-        },
-        {
-            "Right": "BAMqilaH"
+            "Right": "praKyA"
         }
     ],
+    "_gram": [
+        "€2",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "A barber."
+        "²1 To report, announce, declare.\n",
+        ".²2 To praise, celebrate. --{%<ab>Pass.</ab>%} To be well-known or celebrated, be\n famous. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 198500,
+            "_ancestry": [
+                "L_ 22092",
+                "B_ {#praKyA#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "praKyA"
+                }
+            ],
+            "_meanings": [
+                "To celebrate, proclaim, announce, declare publicly, publish."
+            ]
+        }
     ]
 }

@@ -1,16 +1,44 @@
 {
-    "__line": 255990,
+    "__line": 281704,
     "_ancestry": [
         "L_ 30523",
-        "B_ {#sektraM#}"
+        "B_ {#visArin#}"
     ],
-    "_banner": "{#sektraM#}",
+    "_banner": "{#visArin#}",
     "_bannerExp": [
         {
-            "Right": "sektraM"
+            "Right": "visArin"
+        },
+        {
+            "Right": "visAriRI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-RI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A bucket, watering-pot."
+        ".²1 Spreading, diffusing.\n",
+        ".²2 Creeping, gliding.\n",
+        ".²3 Expanded ({#vistfta#}); {#visAriBiH puzpavilocanErlatAH#} <ls>Ki. 8. 11</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 281708,
+            "_ancestry": [
+                "L_ 30523",
+                "B_ {#visArin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#visArin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A fish."
+            ]
+        }
     ]
 }

@@ -1,19 +1,42 @@
 {
-    "__line": 186702,
+    "__line": 201128,
     "_ancestry": [
         "L_ 22354",
-        "B_ {#BowIya#}"
+        "B_ {#pratikartf#}"
     ],
-    "_banner": "{#BowIya#}",
+    "_banner": "{#pratikartf#}",
     "_bannerExp": [
         {
-            "Right": "BowIya"
+            "Right": "pratikartf"
+        },
+        {
+            "Right": "pratikartrI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-rtrI#}|{%f.%})"
     ],
     "_meanings": [
-        "Tibetan."
+        "Requiting, recompensing. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 201129,
+            "_ancestry": [
+                "L_ 22354",
+                "B_ {#pratikartf#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pratikartf#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An opponent, adversary."
+            ]
+        }
     ]
 }

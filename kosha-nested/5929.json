@@ -1,22 +1,118 @@
 {
-    "__line": 52255,
+    "__line": 49625,
     "_ancestry": [
         "L_ 5929",
-        "B_ {#AGrA#}"
+        "B_ {#azwama#}"
     ],
-    "_banner": "{#AGrA#}",
+    "_banner": "{#azwama#}",
     "_bannerExp": [
         {
-            "Right": "AGrA"
+            "Right": "azwama"
+        },
+        {
+            "Right": "azwamI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-mI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} To smell, smell at;\n{#gaMDamAGrAya#} <ls>Me. 21.</ls> ",
-        "{@--2@} To kiss, touch\n(with the nose) as the head;  \n<ls>Bk. 14. 12.</ls> ",
-        "{@--3@} (Fig.) To attack, \ndevour, seize upon; {#mAmAGrAtumAgatavAn#}\n<ls>Dk. 6</ls>; {#kAmAGrAtayA anayA#} <ls n=\"Dk.\">116</ls>\nsmitten, affected; <ls>Māl. 5. 29</ls>;  \n<ls>Bh. 3. 104.</ls>"
+        "Eighth; {#garBAzwame'bde kurvIta brAhmaRasyopanAyanam#} <ls>Ms. 2. 36</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 49627,
+            "_ancestry": [
+                "L_ 5929",
+                "B_ {#azwama#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "azwamaH"
+                }
+            ],
+            "_meanings": [
+                "The eighth part.\n"
+            ]
+        },
+        {
+            "__line": 49628,
+            "_ancestry": [
+                "L_ 5929",
+                "B_ {#azwama#}",
+                "M_ .{@{#-mI#}@}"
+            ],
+            "_banner": ".{@{#-mI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "azwamI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The eighth day in a lunar half month; <ls>Ms. 4. 128</ls>; {#caturdaSyazwamI#}\n {#cEva amAvAsyA ca pUrRimA . parvARyetAni rAjendra ravisaMkrAntireva ca .#}\n <ls>V. P.</ls>\n",
+                ".²2 <ab>N.</ab> of a medical plant ({#kowAlatA#}; <lang>Mar.</lang> <ns>{#kzIrakAkoLI#}</ns>).\n",
+                ".²3 {#azwakA#} Śrāddha; {#azwamI yajYaparatA cAturmAsyanizevaRam#} <ls>Mb. 13. 142. 15</ls>.\n [<ab>cf.</ab> <lang>L.</lang> {%octavus%}; <lang>Zend.</lang> {%astemo%}.]\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 49636,
+            "_ancestry": [
+                "L_ 5929",
+                "B_ {#azwama#}",
+                "S_ .{@{#-aMSaH#}@}"
+            ],
+            "_banner": ".{@{#-aMSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "azwamAMSaH"
+                }
+            ],
+            "_meanings": [
+                "an 8th part.\n"
+            ]
+        },
+        {
+            "__line": 49637,
+            "_ancestry": [
+                "L_ 5929",
+                "B_ {#azwama#}",
+                "S_ .{@{#-kAlika#}@}"
+            ],
+            "_banner": ".{@{#-kAlika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "azwamakAlika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#azwamaH kAlaH Bojane'styasya Wan#}]"
+            ],
+            "_meanings": [
+                "one who\n omits seven meal times ({%<ab>i. e.</ab>%} full three days and the morning of the\n fourth) and partakes only of the 8th; {#naktaM cAnnaM samaSnIyAddivA#}\n {#vA'hftya SaktitaH . caturTakAliko vAsyAtsyAdvA'pyazwamakAlikaH ..#} <ls>Ms. 6. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 49641,
+            "_ancestry": [
+                "L_ 5929",
+                "B_ {#azwama#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "azwamaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "the eighth condition or position (in <ab>Astr.</ab>)."
+            ]
+        }
     ]
 }

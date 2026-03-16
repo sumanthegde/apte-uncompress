@@ -1,16 +1,41 @@
 {
-    "__line": 237659,
+    "__line": 261003,
     "_ancestry": [
         "L_ 28260",
-        "B_ {#SoDanI#}"
+        "B_ {#vakzaRam#}"
     ],
-    "_banner": "{#SoDanI#}",
+    "_banner": "{#vakzaRam#}",
     "_bannerExp": [
         {
-            "Right": "SoDanI"
+            "Right": "vakzaRam"
         }
     ],
     "_meanings": [
-        "A broom."
+        ".²1 The breast.\n",
+        ".²2 Refreshment.\n",
+        ".²3 Fire. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 261006,
+            "_ancestry": [
+                "L_ 28260",
+                "B_ {#vakzaRam#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vakzaRaM#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>pl.</ab>\n",
+                ".²1 The stomach or abdomen.\n",
+                ".²2 The sides, flank.\n",
+                ".²3 The bed of a river.\n",
+                ".²4 A river."
+            ]
+        }
     ]
 }

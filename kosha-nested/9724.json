@@ -1,19 +1,43 @@
 {
-    "__line": 82272,
+    "__line": 81316,
     "_ancestry": [
         "L_ 9724",
-        "B_ {#oDas#}"
+        "B_ {#upaplu#}"
     ],
-    "_banner": "{#oDas#}",
+    "_banner": "{#upaplu#}",
     "_bannerExp": [
         {
-            "Right": "oDas"
+            "Right": "upaplu"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "€1",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "An udder."
+        "²1 To float, swim; {#yadupaplavate tallaGu#} <ls>Sk.</ls>\n",
+        ".²2 To overwhelm, cover with; {#upaplutamaGOGena#} <ls>Rām.</ls>\n",
+        ".²3 To assault violently, assail; to trouble, oppress, distress; {#pOlastyopaplutA#}\n {#harim#} <ls>R. 10. 5</ls>, <ls n=\"R.\">14. 64</ls>; <ls>Ms. 4. 118</ls>.\n",
+        ".²4 To jump or spring upon.\n",
+        ".²5 To depart from. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 81322,
+            "_ancestry": [
+                "L_ 9724",
+                "B_ {#upaplu#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "upaplu"
+                }
+            ],
+            "_meanings": [
+                "To water."
+            ]
+        }
     ]
 }

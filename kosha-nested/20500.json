@@ -1,20 +1,42 @@
 {
-    "__line": 170410,
+    "__line": 183993,
     "_ancestry": [
         "L_ 20500",
-        "B_ {#praButA, --tvaM#}"
+        "B_ {#parivfta#}"
     ],
-    "_banner": "{#praButA, --tvaM#}",
+    "_banner": "{#parivfta#}",
     "_bannerExp": [
         {
-            "Right": "praButA"
-        },
-        {
-            "Right": "praButvaM"
+            "Right": "parivfta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Lordship, supremacy,\nmastery, ascendancy, authority;  \n<ls>Ś. 5. 26</ls>; <ls>V. 4. 12</ls>; <ls>Ś. 7. 32.</ls> ",
-        "{@--2@} \nOwnership."
+        ".²1 Surrounded, encompassed, encircled, attended.\n",
+        ".²2 Hidden, concealed.\n",
+        ".²3 Pervaded, overspread\n",
+        ".²4 Known.\n",
+        ".²5 Completely gained.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 183999,
+            "_ancestry": [
+                "L_ 20500",
+                "B_ {#parivfta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parivftam"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> An enclosed space for a sacrifice."
+            ]
+        }
     ]
 }

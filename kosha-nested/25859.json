@@ -1,39 +1,201 @@
 {
-    "__line": 218536,
+    "__line": 234980,
     "_ancestry": [
         "L_ 25859",
-        "B_ {#viwapin#}"
+        "B_ {#malayaH#}"
     ],
-    "_banner": "{#viwapin#}",
+    "_banner": "{#malayaH#}",
     "_bannerExp": [
         {
-            "Right": "viwapin"
+            "Right": "malayaH"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}",
-        "[{#viwapa-astyarTe ini#}]"
-    ],
     "_meanings": [
-        "{@--1@}\nA tree; {#parito dfzwASca viwapinaH sarve#}  \n\n<ls>Bv. 1. 21</ls>, <ls n=\"Bv. 1.\">29.</ls> ",
-        "{@--2@} The fig-tree. "
+        ".²1 <ab>N.</ab> of a mountain range in the south of India, abounding in sandal trees;\n (poets usually represent the breeze from the Malaya mountain as wafting\n the odour of sandal trees and other plants growing thereon, which peculiarly\n affects persons who are smit with love); {#stanAviva diSastasyAH SElO#}\n {#malayadardurO#} <ls>R. 4. 51</ls>, <ls n=\"R.\">9. 25</ls>, <ls n=\"R.\">13. 2</ls>; {#vinA malayamanyatra candanaM#}\n {#na prarohati#} <ls>Pt. 1. 41</ls>; {#malaye BillapuranDrI candanatarukAzWaminDanaM#}\n {#kurute#} <ls>Subhāṣ.</ls>\n",
+        ".²2 <ab>N.</ab> of the country lying to the east of the Malaya range, Malabar.\n",
+        ".²3 A garden.\n",
+        ".²4 The garden of Indra.\n",
+        ".²5 The side of a mountain.\n",
+        ".²6 (In music) A kind of measure.\n"
     ],
     "_samasas": [
         {
-            "__line": 218539,
+            "__line": 234994,
             "_ancestry": [
                 "L_ 25859",
-                "B_ {#viwapin#}",
-                "S_ \n{#--mfgaH#}"
+                "B_ {#malayaH#}",
+                "S_ .{@{#-acalaH, -adriH, -giriH, -parvataH#}@}"
             ],
-            "_banner": "\n{#--mfgaH#}",
+            "_banner": ".{@{#-acalaH, -adriH, -giriH, -parvataH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "viwapimfgaH"
+                    "Right": "malayAcalaH"
+                },
+                {
+                    "Right": "malayAdriH"
+                },
+                {
+                    "Right": "malayagiriH"
+                },
+                {
+                    "Right": "malayaparvataH"
                 }
             ],
             "_meanings": [
-                "a monkey, an ape."
+                "<ab>&c.</ab> the Malaya mountain.\n"
+            ]
+        },
+        {
+            "__line": 234995,
+            "_ancestry": [
+                "L_ 25859",
+                "B_ {#malayaH#}",
+                "S_ .{@{#-anilaH, -vAtaH, -samIraH#}@}"
+            ],
+            "_banner": ".{@{#-anilaH, -vAtaH, -samIraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "malayAnilaH"
+                },
+                {
+                    "Right": "malayavAtaH"
+                },
+                {
+                    "Right": "malayasamIraH"
+                }
+            ],
+            "_meanings": [
+                "the wind blowing from the Malaya mountain,\n south-wind; {#lalitalavaNgalatApariSIlanakomalamalayasamIre#} <ls>Gīt. 1</ls>;\n <ab>cf.</ab> {#apagatadAkziRya dakziRAnilahataka pUrRAste manoraTAH kftaM kartavyaM#}\n {#vahedAnIM yaTezwam#} <ls>K.</ls>; <ls>Dk. 1. 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 234999,
+            "_ancestry": [
+                "L_ 25859",
+                "B_ {#malayaH#}",
+                "S_ .{@{#-udBavam#}@}"
+            ],
+            "_banner": ".{@{#-udBavam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "malayodBavam"
+                }
+            ],
+            "_meanings": [
+                "sandal-wood.\n"
+            ]
+        },
+        {
+            "__line": 235000,
+            "_ancestry": [
+                "L_ 25859",
+                "B_ {#malayaH#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "malayajaH"
+                }
+            ],
+            "_meanings": [
+                "a sandal tree; {#ayi malayaja mahimAyaM kasya girAmastu vizayaste#} <ls>Bv. 1. 11</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 235001,
+                    "_ancestry": [
+                        "L_ 25859",
+                        "B_ {#malayaH#}",
+                        "S_ .{@{#-jaH#}@}",
+                        "S_M_ ({@{#-jaH, -jam#}@})"
+                    ],
+                    "_banner": "({@{#-jaH, -jam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "malayajaH"
+                        },
+                        {
+                            "Right": "malayajam"
+                        }
+                    ],
+                    "_meanings": [
+                        "sandal-wood.\n."
+                    ]
+                },
+                {
+                    "__line": 235002,
+                    "_ancestry": [
+                        "L_ 25859",
+                        "B_ {#malayaH#}",
+                        "S_ .{@{#-jaH#}@}",
+                        "S_M_ ({@{#-jam#}@})"
+                    ],
+                    "_banner": "({@{#-jam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "malayajam"
+                        }
+                    ],
+                    "_meanings": [
+                        "an epithet of Rāhu. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 235002,
+                            "_ancestry": [
+                                "L_ 25859",
+                                "B_ {#malayaH#}",
+                                "S_ .{@{#-jaH#}@}",
+                                "S_M_ ({@{#-jam#}@})",
+                                "S_M_S_ {#˚rajas#}"
+                            ],
+                            "_banner": "{#˚rajas#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "malayajarajas"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%n.%} the dust of sandal.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 235003,
+            "_ancestry": [
+                "L_ 25859",
+                "B_ {#malayaH#}",
+                "S_ .{@{#-drumaH#}@}"
+            ],
+            "_banner": ".{@{#-drumaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "malayadrumaH"
+                }
+            ],
+            "_meanings": [
+                "a sandal tree.\n"
+            ]
+        },
+        {
+            "__line": 235004,
+            "_ancestry": [
+                "L_ 25859",
+                "B_ {#malayaH#}",
+                "S_ .{@{#-vAsinI#}@}"
+            ],
+            "_banner": ".{@{#-vAsinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "malayavAsinI"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Durgā."
             ]
         }
     ]

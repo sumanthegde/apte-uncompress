@@ -1,52 +1,94 @@
 {
-    "__line": 219418,
+    "__line": 237197,
     "_ancestry": [
         "L_ 25976",
-        "B_ {#vidvezaRaH#}"
+        "B_ {#mAkara#}"
     ],
-    "_banner": "{#vidvezaRaH#}",
+    "_banner": "{#mAkara#}",
     "_bannerExp": [
         {
-            "Right": "vidvezaRaH"
+            "Right": "mAkara"
+        },
+        {
+            "Right": "mAkarI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-rI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A hater, an enemy. "
+        "Belonging to the sea-monster, Makara <ab>q. v.</ab>\n"
     ],
     "_morphisms": [
         {
-            "__line": 219418,
+            "__line": 237199,
             "_ancestry": [
                 "L_ 25976",
-                "B_ {#vidvezaRaH#}",
-                "M_ {#--RI#}"
+                "B_ {#mAkara#}",
+                "M_ .{@{#-rI#}@}"
             ],
-            "_banner": "{#--RI#}",
+            "_banner": ".{@{#-rI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vidvezaRI"
+                    "Right": "mAkarI"
                 }
             ],
             "_meanings": [
-                "A woman of a resentful temper.\n"
+                "<ab>N.</ab> of the seventh day in the bright half of Māgha; {#tanme#}\n {#rogaM ca SokaM ca mAkarI hantu saptamI#} <ls>Tithyādi.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 237202,
+            "_ancestry": [
+                "L_ 25976",
+                "B_ {#mAkara#}",
+                "S_ .{@{#-AkaraH#}@}"
+            ],
+            "_banner": ".{@{#-AkaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAkarAkaraH"
+                }
+            ],
+            "_meanings": [
+                "the sea.\n"
             ]
         },
         {
-            "__line": 219420,
+            "__line": 237203,
             "_ancestry": [
                 "L_ 25976",
-                "B_ {#vidvezaRaH#}",
-                "M_ {#--RaM#}"
+                "B_ {#mAkara#}",
+                "S_ .{@{#-Asanam#}@}"
             ],
-            "_banner": "{#--RaM#}",
+            "_banner": ".{@{#-Asanam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vidvezaRaM"
+                    "Right": "mAkarAsanam"
                 }
             ],
             "_meanings": [
-                "{@--1@} Causing hatred or enmity. ",
-                "{@--2@}\nEnmity, hatred."
+                "a particular posture in sitting.\n"
+            ]
+        },
+        {
+            "__line": 237204,
+            "_ancestry": [
+                "L_ 25976",
+                "B_ {#mAkara#}",
+                "S_ .{@{#-vyUhaH#}@}"
+            ],
+            "_banner": ".{@{#-vyUhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAkaravyUhaH"
+                }
+            ],
+            "_meanings": [
+                "a particular form of military array."
             ]
         }
     ]

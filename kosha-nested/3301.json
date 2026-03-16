@@ -1,21 +1,65 @@
 {
-    "__line": 31296,
+    "__line": 28314,
     "_ancestry": [
         "L_ 3301",
-        "B_ {#aBilaz#}"
+        "B_ {#aBAva#}"
     ],
-    "_banner": "{#aBilaz#}",
+    "_banner": "{#aBAva#}",
     "_bannerExp": [
         {
-            "Right": "aBilaz"
+            "Right": "aBAva"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "{c4c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[<sab>{#na˚ ba˚#}</sab>]"
     ],
     "_meanings": [
-        "To desire or\nwish for, long for, covet, crave or\nyearn after; {#tena dattamaBilezuraMganAH#}  \n<ls>R. 19. 12</ls>; {#mAnuzAnaBilazyaMtI#} <ls>Bk. 4. 22.</ls>"
+        ".²1 Without love or affection. {#kaccinnABihato'BAvEH SabdAdiBiramaNgalEH#} <ls>Bhāg. 1. 14. 40</ls>.\n",
+        ".²2 Non-existent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 28316,
+            "_ancestry": [
+                "L_ 3301",
+                "B_ {#aBAva#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBAvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Not being or existing, non-existence; {#gato BAvo'BAvam#} <ls>Mk. 1</ls> has disappeared.\n",
+                ".²2 Absence, want, failure; {#sarvezAmapyaBAve tu brAhmaRA rikTaBAginaH#}\n <ls>Ms. 9. 188</ls>; mostly in <ab>comp.</ab>; {#sarvABAve harennfpaH#} <ls n=\"Ms.\">189</ls> in the absence\n of all, failing all; {#toya˚, anna˚, AhAra˚#} <ab>&c.</ab>\n",
+                ".²3 Annihilation, death, destruction; ({#vaco … paTyamuktam#}) {#rAkzasAnAmaBAvAya#}\n {#tvaM vA na pratipadyase#} <ls>Rām. 5. 21. 10</ls> non-entity; {#nABAva upalabDeH#}\n <ls>Ś. B.</ls>; {#kzaRamAtraBavAmaBAvakAle#} <ls>Śi. 20. 64</ls>; <ls>Ki. 18. 10</ls>.\n",
+                ".²4 (In <ab>phil.</ab>) Privation, non-existence, nullity or negation, supposed\n to be the seventh category or {#padArTa#} in the system of Kaṇāda. [Strictly\n speaking {#aBAva#} is not a separate predicament, like {#dravya, guRa#},\n but is only a negative arrangement of those predicaments; all nameable\n things being divided into positive ({#BAva#}) and negative ({#aBAva#}),\n the first division including {#dravya, guRa, karma, sAmAnya, viSeza#}\n and {#samavAya#}; and the second only one {#aBAva#}; <ab>cf.</ab> {#atra saptamasyABAvakaTanAdeva#}\n {#zaRRAM BAvatvaM prAptaM tena BAvatvena pfTagupanyAso na kftaH#} <ls>Muktā.</ls>].\n {#aBAva#} is defined as {#BAvaBinno'BAvaH#} ({#pratiyogijYAnADInavizayatvam#})\n that whose knowledge is dependent on the knowledge of its {#pratiyogI#}.\n It is of two principal kinds {#saMsargABAva#} and {#anyonyABAva#}; the\n first comprising three varieties {#prAgaBAva, praDvaMsABAva#},\n\n and {#atyantABAva#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 28339,
+            "_ancestry": [
+                "L_ 3301",
+                "B_ {#aBAva#}",
+                "S_ .{@{#-saMpattiH#}@}"
+            ],
+            "_banner": ".{@{#-saMpattiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBAvasampattiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "false attribution (= {#aDyAsa#} <ab>q. v.</ab>)"
+            ]
+        }
     ]
 }

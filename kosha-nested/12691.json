@@ -1,21 +1,77 @@
 {
-    "__line": 106142,
+    "__line": 107537,
     "_ancestry": [
         "L_ 12691",
-        "B_ {#gep#}"
+        "B_ {#kuhana#}"
     ],
-    "_banner": "{#gep#}",
+    "_banner": "{#kuhana#}",
     "_bannerExp": [
         {
-            "Right": "gep"
+            "Right": "kuhana"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#gepate#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To shake, \ntremble."
+        ".²1 Envious.\n",
+        ".²2 Hypocritical.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 107540,
+            "_ancestry": [
+                "L_ 12691",
+                "B_ {#kuhana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuhanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A mouse\n",
+                ".²2 A snake.\n"
+            ]
+        },
+        {
+            "__line": 107543,
+            "_ancestry": [
+                "L_ 12691",
+                "B_ {#kuhana#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuhanA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Hypocrisy; {#‘kuhanA damBacaryAyAmIrzyAlO kuhanastrizu’#} <ls>Med.</ls>; <ls>Viś. Guṇā. 388</ls>.\n",
+                ".²2 Assumed and false sanctity.\n",
+                ".²3 The interested performance of religious austerities, hypocrisy.\n"
+            ]
+        },
+        {
+            "__line": 107547,
+            "_ancestry": [
+                "L_ 12691",
+                "B_ {#kuhana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuhanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A small earthen vessel; {#‘kuhanaM mfttikABARqaviSeze kAcaBAjane’#} <ls>Med.</ls>\n",
+                ".²2 A glass vessel."
+            ]
+        }
     ]
 }

@@ -1,24 +1,42 @@
 {
-    "__line": 83154,
+    "__line": 82534,
     "_ancestry": [
         "L_ 9879",
-        "B_ {#OrDvakAlika#}"
+        "B_ {#upavas#}"
     ],
-    "_banner": "{#OrDvakAlika#}",
+    "_banner": "{#upavas#}",
     "_bannerExp": [
         {
-            "Right": "OrDvakAlikI"
-        },
-        {
-            "Right": "OrDvakAlika"
+            "Right": "upavas"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[ \n{#UrDvakAla-zWaY#}]"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Relating to subsequent or\nlater time."
+        "²1 To dwell in or at, inhabit (with <ab>acc.</ab>); {#tapaHSradDe ye hyupavasantyaraRye#}\n <ls>Muṇḍ. 1. 2. 11</ls>. {#vEkuRWam upavasati#} <ls>Sk.</ls>\n",
+        ".²2 To be in a state of abstinence, abstain from food, fast; {#upavaseddinam#}\n <ls>Ms. 2. 220</ls>, <ls n=\"Ms.\">5. 20</ls>; <ls>Y. 3. 292</ls>, <ls n=\"Y. 3.\">64</ls>; (<ab>fig.</ab> also); {#upozitAByAmiva netrAByAM#}\n {#pibantI#} <ls>Dk. 4</ls>.\n",
+        ".²3 To go to (a master).\n",
+        ".²4 To enter upon, learn, take to, begin. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 82541,
+            "_ancestry": [
+                "L_ 9879",
+                "B_ {#upavas#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "upavas"
+                }
+            ],
+            "_meanings": [
+                "To cause to fast."
+            ]
+        }
     ]
 }

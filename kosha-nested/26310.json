@@ -1,20 +1,61 @@
 {
-    "__line": 221976,
+    "__line": 240214,
     "_ancestry": [
         "L_ 26310",
-        "B_ {#viyuta#}"
+        "B_ {#miSraka#}"
     ],
-    "_banner": "{#viyuta#}",
+    "_banner": "{#miSraka#}",
     "_bannerExp": [
         {
-            "Right": "viyuta"
+            "Right": "miSraka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#miSr-Rvul#}]"
     ],
     "_meanings": [
-        "{@--1@} Deprived of, \nseparated from; <ls>V. 4. 18.</ls> ",
-        "{@--2@} Without, \ndevoid of."
+        ".²1 Mixed, mingled.\n",
+        ".²2 Mixing, adulterating.\n",
+        ".²3 Miscellaneous.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 240218,
+            "_ancestry": [
+                "L_ 26310",
+                "B_ {#miSraka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSrakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A compounder.\n",
+                ".²2 An adulterator of mercantile goods; {#AtirekyaM tu miSrakaH#} <ls>Ms. 11. 50</ls>.\n"
+            ]
+        },
+        {
+            "__line": 240221,
+            "_ancestry": [
+                "L_ 26310",
+                "B_ {#miSraka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "miSrakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Salt produced from salt soil.\n",
+                ".²2 The garden of Indra, (also {#miSrakAvaRam#}).\n",
+                ".²3 Singing out of tune."
+            ]
+        }
     ]
 }

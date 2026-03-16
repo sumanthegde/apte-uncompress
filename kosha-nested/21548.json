@@ -1,19 +1,60 @@
 {
-    "__line": 178027,
+    "__line": 193116,
     "_ancestry": [
         "L_ 21548",
-        "B_ {#baDira#}"
+        "B_ {#putrin#}"
     ],
-    "_banner": "{#baDira#}",
+    "_banner": "{#putrin#}",
     "_bannerExp": [
         {
-            "Right": "baDira"
+            "Right": "putrin"
+        },
+        {
+            "Right": "putriRI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})"
     ],
     "_meanings": [
-        "Deaf; {#DvaniBirja nasya#} \n{#baDirIkftaSruteH#} <ls>Śi. 13. 3</ls>; <ls>Ms. 7. 149.</ls>"
+        "Having a son or sons; {#aviDnamastu te sTeyAH piteva#}\n {#Duri putriRAm#} <ls>R. 1. 91</ls>; <ls>V. 5. 14</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 193118,
+            "_ancestry": [
+                "L_ 21548",
+                "B_ {#putrin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#putrin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The father of a son.\n"
+            ]
+        },
+        {
+            "__line": 193119,
+            "_ancestry": [
+                "L_ 21548",
+                "B_ {#putrin#}",
+                "M_ .{@{#-RI#}@}"
+            ],
+            "_banner": ".{@{#-RI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "putriRI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The mother of a son.\n",
+                ".²2 A parasitical plant."
+            ]
+        }
     ]
 }

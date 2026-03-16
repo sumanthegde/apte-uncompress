@@ -1,43 +1,244 @@
 {
-    "__line": 139826,
+    "__line": 144435,
     "_ancestry": [
         "L_ 16660",
-        "B_ {#nigUQa#}"
+        "B_ {#tUlaH#}, {#-lam#}"
     ],
-    "_banner": "{#nigUQa#}",
+    "_banner": "{#tUlaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "nigUQa"
+            "Right": "tUlaH"
+        },
+        {
+            "Right": "tUlam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#tal-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} Hidden, concealed;\n<ls>Śi. 13. 59.</ls> ",
-        "{@--2@} Secret, private. ",
-        "{@--3@}\nMysterious, obscure. ",
-        "{@--4@} \nInscrutable. "
+        "Cotton.\n"
     ],
     "_morphisms": [
         {
-            "__line": 139829,
+            "__line": 144437,
             "_ancestry": [
                 "L_ 16660",
-                "B_ {#nigUQa#}",
-                "M_ {#--QaM#}"
+                "B_ {#tUlaH#}, {#-lam#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": "{#--QaM#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nigUQaM"
+                    "Right": "tUlam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The atmosphere, sky, air.\n",
+                ".²2 A tuft of grass.\n",
+                ".²3 The mulberry.\n",
+                ".²4 The panicle of a flower or plant.\n",
+                ".²5 The thorn-apple.\n"
+            ]
+        },
+        {
+            "__line": 144443,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlA"
+                }
+            ],
+            "_meanings": [
+                ".²1 The cotton tree.\n",
+                ".²2 The wick of a lamp.\n"
+            ]
+        },
+        {
+            "__line": 144446,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlI"
+                }
+            ],
+            "_meanings": [
+                ".²1 Cotton.\n",
+                ".²2 The wick of a lamp.\n",
+                ".²3 A weaverʼs fibrous stick or brush.\n",
+                ".²4 A painterʼs brush.\n",
+                ".²5 The Indigo plant.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 144453,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-kArmukam, -cApaH, -Danus#}@}"
+            ],
+            "_banner": ".{@{#-kArmukam, -cApaH, -Danus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlakArmukam"
+                },
+                {
+                    "Right": "tUlacApaH"
+                },
+                {
+                    "Right": "tUlaDanus"
                 }
             ],
             "_gram": [
-                "{%<ab>ind.</ab>%}"
+                "{%n.%}"
             ],
             "_meanings": [
-                "Secretly, privately."
+                "a cotton-bow, {%<ab>i. e.</ab>%} a bow\n used for cleaning cotton.\n"
+            ]
+        },
+        {
+            "__line": 144455,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-dAham#}@}"
+            ],
+            "_banner": ".{@{#-dAham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUladAham"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Like cotton (consuming by fire); {#tUladAhaM puraM#}\n {#laNkAM dahatEva hanUmatA#} <ls>Mv. 6. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 144457,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-nAlI#}@}"
+            ],
+            "_banner": ".{@{#-nAlI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlanAlI"
+                }
+            ],
+            "_gram": [
+                "({@{#liH#}@})",
+                "{%f.%}",
+                "{@{#-nAlikA#}@}"
+            ],
+            "_meanings": [
+                "a thick roll of cotton drawn out in spinning.\n"
+            ]
+        },
+        {
+            "__line": 144459,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-pawikA, pawI#}@}"
+            ],
+            "_banner": ".{@{#-pawikA, pawI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlapawikA"
+                },
+                {
+                    "Right": "tUlapawI"
+                }
+            ],
+            "_meanings": [
+                "a cotton quilt.\n"
+            ]
+        },
+        {
+            "__line": 144460,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-picuH#}@}"
+            ],
+            "_banner": ".{@{#-picuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlapicuH"
+                }
+            ],
+            "_meanings": [
+                "cotton.\n"
+            ]
+        },
+        {
+            "__line": 144461,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-pIWI, -lAsikA#}@}"
+            ],
+            "_banner": ".{@{#-pIWI, -lAsikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlapIWI"
+                },
+                {
+                    "Right": "tUlalAsikA"
+                }
+            ],
+            "_meanings": [
+                "spindle.\n"
+            ]
+        },
+        {
+            "__line": 144462,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-SarkarA#}@}"
+            ],
+            "_banner": ".{@{#-SarkarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlaSarkarA"
+                }
+            ],
+            "_meanings": [
+                "a seed of the cotton plant.\n"
+            ]
+        },
+        {
+            "__line": 144463,
+            "_ancestry": [
+                "L_ 16660",
+                "B_ {#tUlaH#}, {#-lam#}",
+                "S_ .{@{#-secanam#}@}"
+            ],
+            "_banner": ".{@{#-secanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tUlasecanam"
+                }
+            ],
+            "_meanings": [
+                "the act of spinning."
             ]
         }
     ]

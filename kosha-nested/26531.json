@@ -1,19 +1,77 @@
 {
-    "__line": 223651,
+    "__line": 242556,
     "_ancestry": [
         "L_ 26531",
-        "B_ {#viSastra#}"
+        "B_ {#mUlika#}"
     ],
-    "_banner": "{#viSastra#}",
+    "_banner": "{#mUlika#}",
     "_bannerExp": [
         {
-            "Right": "viSastra"
+            "Right": "mUlika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Weaponless, unarmed,\ndefenceless."
+        ".²1 Radical, original.\n",
+        ".²2 Primary, principal.\n",
+        ".²3 Living on roots.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 242560,
+            "_ancestry": [
+                "L_ 26531",
+                "B_ {#mUlika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUlikaH"
+                }
+            ],
+            "_meanings": [
+                "A devotee, an ascetic.\n"
+            ]
+        },
+        {
+            "__line": 242561,
+            "_ancestry": [
+                "L_ 26531",
+                "B_ {#mUlika#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUlikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A root.\n",
+                ".²2 A collection of roots.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 242565,
+            "_ancestry": [
+                "L_ 26531",
+                "B_ {#mUlika#}",
+                "S_ .{@{#-arTaH#}@}"
+            ],
+            "_banner": ".{@{#-arTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mUlikArTaH"
+                }
+            ],
+            "_meanings": [
+                "a radical fact."
+            ]
+        }
     ]
 }

@@ -1,16 +1,89 @@
 {
-    "__line": 113758,
+    "__line": 116101,
     "_ancestry": [
         "L_ 13601",
-        "B_ {#CAtrakaM#}"
+        "B_ {#Karva(rba)#}"
     ],
-    "_banner": "{#CAtrakaM#}",
+    "_banner": "{#Karva(rba)#}",
     "_bannerExp": [
         {
-            "Right": "CAtrakaM"
+            "Right": "Karva"
+        },
+        {
+            "Right": "Karba"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#Karv-ac#}]"
+    ],
     "_meanings": [
-        "Honey in the comb or\nhive."
+        ".²1 Mutilated, crippled, imperfect; <ls>Yv. Ts. 2. 5. 1. 7</ls>.\n",
+        ".²2 Dwarfish, low, short in stature.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 116104,
+            "_ancestry": [
+                "L_ 13601",
+                "B_ {#Karva(rba)#}",
+                "M_ .{@{#-rvaH, -rvam#}@}"
+            ],
+            "_banner": ".{@{#-rvaH, -rvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarvaH"
+                },
+                {
+                    "Right": "Karvam"
+                }
+            ],
+            "_meanings": [
+                "A large number (10,000,000,000).\n",
+                ".²3 <ab>N.</ab> of one of the treasures of Kubera.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 116107,
+            "_ancestry": [
+                "L_ 13601",
+                "B_ {#Karva(rba)#}",
+                "S_ .{@{#-itara#}@}"
+            ],
+            "_banner": ".{@{#-itara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Karvetara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not small, great; {#pramuditahfdaH sarve KarvetarasmayasaMgatAH#}\n <ls>Śiva B. 22. 71</ls>.\n"
+            ]
+        },
+        {
+            "__line": 116109,
+            "_ancestry": [
+                "L_ 13601",
+                "B_ {#Karva(rba)#}",
+                "S_ .{@{#-SAKa#}@}"
+            ],
+            "_banner": ".{@{#-SAKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarvaSAKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dwarfish, small, short."
+            ]
+        }
     ]
 }

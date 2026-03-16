@@ -1,19 +1,41 @@
 {
-    "__line": 217875,
+    "__line": 234073,
     "_ancestry": [
         "L_ 25765",
-        "B_ {#vicAraRA#}"
+        "B_ {#manyumat#}"
     ],
-    "_banner": "{#vicAraRA#}",
+    "_banner": "{#manyumat#}",
     "_bannerExp": [
         {
-            "Right": "vicAraRA"
+            "Right": "manyumat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Examination, \ndiscussion, investigation. ",
-        "{@--2@} Reflection,\nconsideration, thought. ",
-        "{@--3@} \nHesitation, doubt. ",
-        "{@--4@} The Mīmāṃsā \nsystem of philosophy."
+        ".²1 Angry, wrathful.\n",
+        ".²2 Sorrowful, distressed.\n",
+        ".²3 Spirited, energetic; {#yaSasvinI manyumatI kule jAtA viBAvarI#} <ls>Mb. 5. 133. 2</ls>.\n",
+        ".²4 Vehement, passionate. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 234077,
+            "_ancestry": [
+                "L_ 25765",
+                "B_ {#manyumat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#manyumat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An epithet of Agni."
+            ]
+        }
     ]
 }

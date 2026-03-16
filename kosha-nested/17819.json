@@ -1,45 +1,54 @@
 {
-    "__line": 150694,
+    "__line": 157609,
     "_ancestry": [
         "L_ 17819",
-        "B_ {#parApat#}"
+        "B_ {#dvezaRa#}"
     ],
-    "_banner": "{#parApat#}",
+    "_banner": "{#dvezaRa#}",
     "_bannerExp": [
         {
-            "Right": "parApat"
+            "Right": "dvezaRa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To arrive, draw\nnear, approach. ",
-        "{@--2@} To return. ",
-        "{@--3@}\nTo escape. ",
-        "{@--4@} To depart. ",
-        "{@--5@} To fall\nout. ",
-        "{@--6@} To fail. "
+        "Hating, disliking.\n"
     ],
     "_morphisms": [
         {
-            "__line": 150697,
+            "__line": 157610,
             "_ancestry": [
                 "L_ 17819",
-                "B_ {#parApat#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#dvezaRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "parApat"
+                    "Right": "dvezaRaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "An enemy.\n"
+            ]
+        },
+        {
+            "__line": 157611,
+            "_ancestry": [
+                "L_ 17819",
+                "B_ {#dvezaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dvezaRam"
+                }
             ],
             "_meanings": [
-                "To chase or\ndrive away."
+                "Hate, hatred, enmity, dislike."
             ]
         }
     ]

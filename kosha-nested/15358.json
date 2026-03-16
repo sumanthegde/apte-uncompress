@@ -1,16 +1,105 @@
 {
-    "__line": 127571,
+    "__line": 132847,
     "_ancestry": [
         "L_ 15358",
-        "B_ {#dAmA#}"
+        "B_ {#jaqa#}"
     ],
-    "_banner": "{#dAmA#}",
+    "_banner": "{#jaqa#}",
     "_bannerExp": [
         {
-            "Right": "dAmA"
+            "Right": "jaqa"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#jalati GanIBavati jal ac lasya qaH#} <ls>Tv.</ls>]"
+    ],
     "_meanings": [
-        "A string, cord."
+        ".²1 Cold, frigid, chilly; <ls>Māl. 9. 13</ls>; <ls>U. 6. 13</ls>.\n",
+        ".²2 Dull, paralysed, motionless, benumbed; {#cintAjaqaM darSanam#} <ls>Ś. 4. 5</ls>;\n <ls>U. 3. 41</ls>, <ls n=\"U.\">6. 28</ls>, <ls n=\"U.\">6. 39</ls>; {#parAmfSan harzajaqena pARinA#} <ls>R. 3. 68</ls>, <ls n=\"R.\">2. 42</ls>.\n",
+        ".²3 Dull, senseless, stupid, irrational, dull-witted; {#jaqAnanDAn paNgUna … trAtum#}\n <ls>G. L. 15</ls>, so {#jaqaDI, jaqamati#} <ab>&c.</ab> <ls>Y. 2. 25</ls>; <ls>Ms. 2. 110</ls>; {#jaqabudDiH#},\n {#jaqaprakftiH#}, <ls>Ratn. 2</ls> (between verses 12 and 13); also {#jaqASayaH#}\n <ls>Ks. 6. 58</ls>, <ls n=\"Ks. 6.\">132</ls>.\n",
+        ".²4 Dulled made senseless or apathetic, devoid of appreciation or taste;\n {#vedAByAsajaqaH kaTaM nu vizayavyAvfttakOtUhalaH#} <ls>V. 1. 9</ls>.\n",
+        ".²5 Stunning, benumbing, stupefying.\n",
+        ".²6 Dumb.\n",
+        ".²7 Unable to learn the Vedas (Dāyabhāga).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 132860,
+            "_ancestry": [
+                "L_ 15358",
+                "B_ {#jaqa#}",
+                "M_ .{@{#-qaH#}@}"
+            ],
+            "_banner": ".{@{#-qaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaqaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Cold, frost, winter.\n",
+                ".²2 Idiocy, stupidity.\n",
+                ".²3 Dulness, apathy, sluggishness.\n"
+            ]
+        },
+        {
+            "__line": 132864,
+            "_ancestry": [
+                "L_ 15358",
+                "B_ {#jaqa#}",
+                "M_ .{@{#-qam#}@}"
+            ],
+            "_banner": ".{@{#-qam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaqam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Water.\n",
+                ".²2 Lead.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 132868,
+            "_ancestry": [
+                "L_ 15358",
+                "B_ {#jaqa#}",
+                "S_ .{@{#-kriya#}@}"
+            ],
+            "_banner": ".{@{#-kriya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaqakriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slow, dilatory.\n"
+            ]
+        },
+        {
+            "__line": 132869,
+            "_ancestry": [
+                "L_ 15358",
+                "B_ {#jaqa#}",
+                "S_ .{@{#-BarataH#}@}"
+            ],
+            "_banner": ".{@{#-BarataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaqaBarataH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an idiot.\n",
+                ".²2 <ab>N.</ab> of a man simulating stupidity; <ls>Jābāla Up.</ls>"
+            ]
+        }
     ]
 }

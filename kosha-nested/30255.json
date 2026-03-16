@@ -1,19 +1,64 @@
 {
-    "__line": 252852,
+    "__line": 279029,
     "_ancestry": [
         "L_ 30255",
-        "B_ {#sAhAyakaM#}"
+        "B_ {#vivakzita#}"
     ],
-    "_banner": "{#sAhAyakaM#}",
+    "_banner": "{#vivakzita#}",
     "_bannerExp": [
         {
-            "Right": "sAhAyakaM"
+            "Right": "vivakzita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Assistance, help \n\naid; {#sa kulocitamiMdrasya#} \n{#sAhAyakamupoyivAn#} <ls>R. 17. 4.</ls> ",
-        "{@--2@} Fellowship, \nalliance, friendship. ",
-        "{@--3@} A number of\ncompanions or associates. ",
-        "{@--4@} \nAuxiliary troops."
+        ".²1 Intended to be said or spoken; {#vivakzitaM hyanuktamanutApaM janayati#} <ls>Ś. 3</ls>.\n",
+        ".²2 Meant, intended, purposed.\n",
+        ".²3 Wished, desired.\n",
+        ".²4 Favourite.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 279034,
+            "_ancestry": [
+                "L_ 30255",
+                "B_ {#vivakzita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivakzitam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Purpose, intention.\n",
+                ".²2 Sense, meaning.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 279038,
+            "_ancestry": [
+                "L_ 30255",
+                "B_ {#vivakzita#}",
+                "S_ .{@{#-vacana#}@}"
+            ],
+            "_banner": ".{@{#-vacana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vivakzitavacana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "meant to express some sense, meant to be useful\n by expressing their sense; {#kiM vivakzitavacanA mantrA utAvivakzitavacanAH#}\n <ls>ŚB. on MS. 1. 2. 31</ls>."
+            ]
+        }
     ]
 }

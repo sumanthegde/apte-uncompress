@@ -1,21 +1,48 @@
 {
-    "__line": 193457,
+    "__line": 205790,
     "_ancestry": [
         "L_ 22976",
-        "B_ {#mADyasTaM, mADyasTyaM#}"
+        "B_ {#pradfS#}"
     ],
-    "_banner": "{#mADyasTaM, mADyasTyaM#}",
+    "_banner": "{#pradfS#}",
     "_bannerExp": [
         {
-            "Right": "mADyasTaM"
-        },
-        {
-            "Right": "mADyasTyaM"
+            "Right": "pradfS"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "{@--1@} Impartiality. \n\n",
-        "{@--2@} Indifference, unconcern;  \n{#aByarTanABaMgaBayena sADurmADyasTyamizwe'pyavalaMbaterTe#}\n<ls>Ku. 1. 52.</ls> ",
-        "{@--3@} Intercession, \nmediation."
+        "²1 To see, behold.\n",
+        ".²2 To look at, regard.\n",
+        ".²3 To foresee.\n",
+        ".²4 To observe, perceive, discern.\n",
+        ".²5 To be intelligent.\n",
+        ".²6 To think, have an opinion.\n",
+        ".²7 To look at, look upon. --{%<ab>Pass.</ab>%}\n",
+        ".²1 To become visible.\n",
+        ".²2 To look, appear. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 205799,
+            "_ancestry": [
+                "L_ 22976",
+                "B_ {#pradfS#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pradfS"
+                }
+            ],
+            "_meanings": [
+                ".²1 To show, point out, discover, exhibit.\n",
+                ".²2 To make clear, prove, demonstrate, explain."
+            ]
+        }
     ]
 }

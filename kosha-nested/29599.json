@@ -1,22 +1,56 @@
 {
-    "__line": 248050,
+    "__line": 273486,
     "_ancestry": [
         "L_ 29599",
-        "B_ {#samullas#}"
+        "B_ {#vidAraRaH#}"
     ],
-    "_banner": "{#samullas#}",
+    "_banner": "{#vidAraRaH#}",
     "_bannerExp": [
         {
-            "Right": "samullas"
+            "Right": "vidAraRaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
-    ],
     "_meanings": [
-        "{@--1@} To shine forth,\ngleam. ",
-        "{@--2@} To break forth, appear.\n",
-        "{@--3@} To sport, be wanton, dally."
+        ".²1 A tree or rock in the middle of a stream (to which a boat is fastened).\n",
+        ".²2 War, battle.\n",
+        ".²3 The Karṇikāra tree.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 273490,
+            "_ancestry": [
+                "L_ 29599",
+                "B_ {#vidAraRaH#}",
+                "M_ .{@{#-RA#}@}"
+            ],
+            "_banner": ".{@{#-RA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vidAraRA"
+                }
+            ],
+            "_meanings": [
+                "War, battle.\n"
+            ]
+        },
+        {
+            "__line": 273491,
+            "_ancestry": [
+                "L_ 29599",
+                "B_ {#vidAraRaH#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vidAraRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Rending, splitting, tearing, ripping up, breaking, (often with the\n force of an <ab>adj.</ab> at the end of <ab>comp.</ab>); {#SrutaM saKe SravaRavidAraRaM vacaH#}\n <ls>Mu. 5. 6</ls>; {#yuvajanahfdayavidAraRamanasijanaKarucikiMSukajAle#} <ls>Gīt. 1</ls>; <ls>Ki. 14. 54</ls>.\n",
+                ".²2 Afflicting, tormenting.\n",
+                ".²3 Killing, slaughter."
+            ]
+        }
     ]
 }

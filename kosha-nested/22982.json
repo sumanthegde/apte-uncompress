@@ -1,27 +1,39 @@
 {
-    "__line": 193494,
+    "__line": 205847,
     "_ancestry": [
         "L_ 22982",
-        "B_ {#mAn#}"
+        "B_ {#pradyut#}"
     ],
-    "_banner": "{#mAn#}",
+    "_banner": "{#pradyut#}",
     "_bannerExp": [
         {
-            "Right": "mAn"
+            "Right": "pradyut"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#mImAMsate#} = <ab>desid.</ab> of\n{#man#} <ab>q. v.</ab>)",
-        "{vII.v}",
-        "{c1c}",
-        "<ab>P.</ab>",
-        "{c10c}",
-        "<ab>U.</ab>"
+        "€1",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "= {%<ab>Caus.</ab>%}\nof {#man#} <ab>q. v.</ab>"
+        "To shine forth. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 205847,
+            "_ancestry": [
+                "L_ 22982",
+                "B_ {#pradyut#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pradyut"
+                }
+            ],
+            "_meanings": [
+                "To illumine, irradiate, light up."
+            ]
+        }
     ]
 }

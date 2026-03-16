@@ -1,22 +1,67 @@
 {
-    "__line": 120758,
+    "__line": 125342,
     "_ancestry": [
         "L_ 14493",
-        "B_ {#tardu-rdU#}"
+        "B_ {#GuRaH#}"
     ],
-    "_banner": "{#tardu-rdU#}",
+    "_banner": "{#GuRaH#}",
     "_bannerExp": [
         {
-            "Right": "tardU"
-        },
-        {
-            "Right": "tardu"
+            "Right": "GuRaH"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "[{#GuR-ka#}]"
     ],
     "_meanings": [
-        "A wooden ladle."
+        "A particular kind of insect found in timber.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 125344,
+            "_ancestry": [
+                "L_ 14493",
+                "B_ {#GuRaH#}",
+                "S_ .{@{#-akzaram, -lipiH#}@}"
+            ],
+            "_banner": ".{@{#-akzaram, -lipiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GuRAkzaram"
+                },
+                {
+                    "Right": "GuRalipiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "an incision in wood or in the leaf of\n a book made by an insect or worm and resembling somewhat the form of a\n letter; {#sakfjjayamarervIrA manyante hi GuRAkzaram#} <ls>Rāj. T. 4. 167</ls>.\n.{@{#˚nyAyaH#}@} see under {#nyAya#}; {#GuRAkzaranyAyena nirmitaM tasyA vapuH#} <ls>Dk.</ls>\n"
+            ]
+        },
+        {
+            "__line": 125348,
+            "_ancestry": [
+                "L_ 14493",
+                "B_ {#GuRaH#}",
+                "S_ .{@{#-kzata, -jagDa#}@}"
+            ],
+            "_banner": ".{@{#-kzata, -jagDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "GuRakzata"
+                },
+                {
+                    "Right": "GuRajagDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "worm-eaten; {#GuRajagDaM kAzWamiva rAjakulaM#}\n {#Bajyeta#} <ls>Kau. A. 1. 17</ls>; {#SrInirmitiprAptaGuRakzatEkavarRopamAvAcyamalaM#}\n {#mamArja#} <ls>Śi. 3. 58</ls>."
+            ]
+        }
     ]
 }

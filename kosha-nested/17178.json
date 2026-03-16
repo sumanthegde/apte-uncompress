@@ -1,17 +1,51 @@
 {
-    "__line": 144373,
+    "__line": 149854,
     "_ancestry": [
         "L_ 17178",
-        "B_ {#nizecanaM#}"
+        "B_ {#dAkziRa#}"
     ],
-    "_banner": "{#nizecanaM#}",
+    "_banner": "{#dAkziRa#}",
     "_bannerExp": [
         {
-            "Right": "nizecanaM"
+            "Right": "dAkziRa"
+        },
+        {
+            "Left": "fFromGramCore error: dAkziRa  rRA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-rRA#}|{%f.%})",
+        "[{#dakziRA prayojanamasya-aR#}]"
+    ],
     "_meanings": [
-        "{@--1@} Sprinkling, pouring out.\n",
-        "{@--2@} Watering, irrigation."
+        ".²1 Relating to a sacrificial gift or to a gift in general.\n",
+        ".²2 Relating to the south.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 149858,
+            "_ancestry": [
+                "L_ 17178",
+                "B_ {#dAkziRa#}",
+                "M_ .{@{#-RA#}@}"
+            ],
+            "_banner": ".{@{#-RA#}@}",
+            "_meanings": [
+                "The southern country {%<ab>i. e.</ab>%} the Deccan.\n"
+            ]
+        },
+        {
+            "__line": 149859,
+            "_ancestry": [
+                "L_ 17178",
+                "B_ {#dAkziRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_meanings": [
+                "A collection of sacrificial gifts."
+            ]
+        }
     ]
 }

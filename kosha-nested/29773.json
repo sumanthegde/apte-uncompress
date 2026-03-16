@@ -1,26 +1,90 @@
 {
-    "__line": 249223,
+    "__line": 275013,
     "_ancestry": [
         "L_ 29773",
-        "B_ {#saMmA#}"
+        "B_ {#vinIta#}"
     ],
-    "_banner": "{#saMmA#}",
+    "_banner": "{#vinIta#}",
     "_bannerExp": [
         {
-            "Right": "saMmA"
+            "Right": "vinIta"
         }
     ],
     "_gram": [
-        "{c3c}",
-        "<ab>A.</ab>",
-        "{c2c}",
-        "<ab>P.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To measure. ",
-        "{@--2@}\nTo make equal, equalize; see  \n{#saMmita#}. ",
-        "{@--3@} To liken, compare. ",
-        "{@--4@} To be\ncomprised or contained in;  \n{#mfRAlasUtramapi te na saMmAti stanAMtare#} <ls>Subhāṣ.</ls> ",
-        "{@--5@} \n\nTo distribute, grant, bestow (<ab>Ved.</ab>)"
+        ".²1 Taken away, removed.\n",
+        ".²2 Well-trained, educated, disciplined.\n",
+        ".²3 Refined, well-behaved.\n",
+        ".²4 Modest, humble, meek, gentle.\n",
+        ".²5 Decent, decorous, gentlemanly.\n",
+        ".²6 Sent away, dismissed.\n",
+        ".²7 Tamed, broken in.\n",
+        ".²8 Plain, simple (as a dress).\n",
+        ".²9 Having the passions under control, self-subdued.\n",
+        ".²10 Chastised, punished.\n",
+        ".²11 Tractable, governable.\n",
+        ".²12 Lovely, handsome.\n",
+        ".²13 Stretched, spread; {#SazpabfsyAM vinItAyAmicCAmyahamupAsitum#} <ls>Rām. 3. 43. 20</ls>.\n (See {#nI#} with {#vi#} also).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 275028,
+            "_ancestry": [
+                "L_ 29773",
+                "B_ {#vinIta#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinItaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A trained horse.\n",
+                ".²2 A trader.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 275032,
+            "_ancestry": [
+                "L_ 29773",
+                "B_ {#vinIta#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinItAtman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "humble, lowly; {#vinItAtmA hi nfpatirna vinaSyati#}\n {#karhicit#} <ls>Ms. 7. 39</ls>.\n"
+            ]
+        },
+        {
+            "__line": 275034,
+            "_ancestry": [
+                "L_ 29773",
+                "B_ {#vinIta#}",
+                "S_ .{@{#-vezaH#}@}"
+            ],
+            "_banner": ".{@{#-vezaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vinItavezaH"
+                }
+            ],
+            "_meanings": [
+                "plain dress; {#vinItavezeRa pravezwavyAni tapovanAni#} <ls>Ś. 1. 15-16</ls>."
+            ]
+        }
     ]
 }

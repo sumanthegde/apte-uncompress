@@ -1,47 +1,71 @@
 {
-    "__line": 172784,
+    "__line": 186632,
     "_ancestry": [
         "L_ 20854",
-        "B_ {#prasakta#}"
+        "B_ {#palvalam#}"
     ],
-    "_banner": "{#prasakta#}",
+    "_banner": "{#palvalam#}",
     "_bannerExp": [
         {
-            "Right": "prasakta"
+            "Right": "palvalam"
         }
     ],
-    "_gram": [
-        "{%<ab>p. p.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Attached to, \nconnected with. ",
-        "{@--2@} Excessively \nattached or fond; <ls>Pt. 1. 193.</ls> ",
-        "{@--3@}\nAdhering or sticking to. ",
-        "{@--4@} Fixed\nor intent upon, devoted or addicted\nto, engaged in, applied to;  \n<ls>Śi. 9. 63</ls>; so {#dyUta°, nidrA°#} &c. ",
-        "{@--5@} \nContiguous, near. ",
-        "{@--6@} Constant, \nincessant, uninterrupted; <ls>Ki. 4. 18</ls>;  \n<ls>R. 13. 40</ls>; <ls>Māl. 4. 6</ls>; <ls>M. 3. 1.</ls> ",
-        "{@--7@}\nGot, obtained, gained. ",
-        "{@--8@} Expanded,\nopened. "
+        "A small pool or pond, a puddle, tank ({#alpaM saraH#});\n {#sa palvalajale'DunA … kaTaM vartatAm#} <ls>Bv. 1. 3</ls>; <ls>R. 2. 17</ls>, <ls n=\"R.\">3. 3</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 172795,
+            "__line": 186635,
             "_ancestry": [
                 "L_ 20854",
-                "B_ {#prasakta#}",
-                "M_ {#--ktaM#}"
+                "B_ {#palvalam#}",
+                "S_ .{@{#-AvAsaH#}@}"
             ],
-            "_banner": "{#--ktaM#}",
+            "_banner": ".{@{#-AvAsaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "prasaktaM"
+                    "Right": "palvalAvAsaH"
+                }
+            ],
+            "_meanings": [
+                "a tortoise.\n"
+            ]
+        },
+        {
+            "__line": 186636,
+            "_ancestry": [
+                "L_ 20854",
+                "B_ {#palvalam#}",
+                "S_ .{@{#-karzaka#}@}"
+            ],
+            "_banner": ".{@{#-karzaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palvalakarzaka"
                 }
             ],
             "_gram": [
-                "{%<ab>ind.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "Incessantly, \ncontinuously; <ls>Ki. 16. 55.</ls>"
+                "ploughing a pool.\n"
+            ]
+        },
+        {
+            "__line": 186637,
+            "_ancestry": [
+                "L_ 20854",
+                "B_ {#palvalam#}",
+                "S_ .{@{#-paNkaH#}@}"
+            ],
+            "_banner": ".{@{#-paNkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palvalapaNkaH"
+                }
+            ],
+            "_meanings": [
+                "the mud of a pool."
             ]
         }
     ]

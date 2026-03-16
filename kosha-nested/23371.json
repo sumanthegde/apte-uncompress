@@ -1,19 +1,40 @@
 {
-    "__line": 196879,
+    "__line": 208997,
     "_ancestry": [
         "L_ 23371",
-        "B_ {#mUlin#}"
+        "B_ {#pravatsyat#}"
     ],
-    "_banner": "{#mUlin#}",
+    "_banner": "{#pravatsyat#}",
     "_bannerExp": [
         {
-            "Right": "mUlin"
+            "Right": "pravatsyat"
+        },
+        {
+            "Right": "pravatsyatI"
+        },
+        {
+            "Left": "fFromGramCore error: pravatsyat  ntI"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "({#-tI, -ntI#}|{%f.%})"
     ],
     "_meanings": [
-        "A tree."
+        "About to go on a journey.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 209000,
+            "_ancestry": [
+                "L_ 23371",
+                "B_ {#pravatsyat#}",
+                "S_ .{@{#-patikA#}@}"
+            ],
+            "_banner": ".{@{#-patikA#}@}",
+            "_meanings": [
+                "the wife of one who intends to go on a journey (one of\n the 8 Nāyikās in erotic poetry); {#yasyAH patiragrimakzaRe deSAntaraM#}\n {#yAsyatyeva sA pravatsyatpatikA#} <ls>Ras. M.</ls>"
+            ]
+        }
     ]
 }

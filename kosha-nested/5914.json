@@ -1,21 +1,58 @@
 {
-    "__line": 52176,
+    "__line": 49249,
     "_ancestry": [
         "L_ 5914",
-        "B_ {#AGaww#}"
+        "B_ {#aSvya#}"
     ],
-    "_banner": "{#AGaww#}",
+    "_banner": "{#aSvya#}",
     "_bannerExp": [
         {
-            "Right": "AGaww"
+            "Right": "aSvya"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#aSva-yat#}]"
     ],
     "_meanings": [
-        "{@--1@} To strike against,\ntouch; {#AGawwayAmAsa gatAgatAByAM#}  \n<ls>Ki. 17. 38.</ls> ",
-        "{@--2@} To move."
+        ".²1 Belonging to a horse.\n",
+        ".²2 Consisting of horses.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 49252,
+            "_ancestry": [
+                "L_ 5914",
+                "B_ {#aSvya#}",
+                "M_ .{@{#-Svyam#}@}"
+            ],
+            "_banner": ".{@{#-Svyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSvyam"
+                }
+            ],
+            "_meanings": [
+                "A number of horses.\n",
+                ".²3 Possession of horses.\n"
+            ]
+        },
+        {
+            "__line": 49254,
+            "_ancestry": [
+                "L_ 5914",
+                "B_ {#aSvya#}",
+                "M_ .{@{#-SvyaH#}@}"
+            ],
+            "_banner": ".{@{#-SvyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSvyaH"
+                }
+            ],
+            "_meanings": [
+                "‘son of Aśva’, <ab>N.</ab> of Vaśa; {#yABirvaSamaSvyaM preRimAvatam#}\n <ls>Rv. 1. 112. 10</ls>."
+            ]
+        }
     ]
 }

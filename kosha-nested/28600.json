@@ -1,21 +1,41 @@
 {
-    "__line": 240358,
+    "__line": 264491,
     "_ancestry": [
         "L_ 28600",
-        "B_ {#saMlap#}"
+        "B_ {#vartita#}"
     ],
-    "_banner": "{#saMlap#}",
+    "_banner": "{#vartita#}",
     "_bannerExp": [
         {
-            "Right": "saMlap"
+            "Right": "vartita"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To talk, converse;\n{#saMlapato janasamAjAt#} <ls>Dk.</ls> ",
-        "{@--2@} To name,\ncall."
+        ".²1 Turned, rolled.\n",
+        ".²2 Caused to be or exist.\n",
+        ".²3 Brought about, accomplished.\n",
+        ".²4 Spent, passed (as time or life).\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 264497,
+            "_ancestry": [
+                "L_ 28600",
+                "B_ {#vartita#}",
+                "S_ .{@{#-janman#}@}"
+            ],
+            "_banner": ".{@{#-janman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vartitajanman"
+                }
+            ],
+            "_meanings": [
+                "begotten, procreated."
+            ]
+        }
     ]
 }

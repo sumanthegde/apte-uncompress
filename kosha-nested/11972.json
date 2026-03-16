@@ -1,44 +1,78 @@
 {
-    "__line": 100148,
+    "__line": 100889,
     "_ancestry": [
         "L_ 11972",
-        "B_ {#kzetrin#}"
+        "B_ {#kApAla, kApAlika#}"
     ],
-    "_banner": "{#kzetrin#}",
+    "_banner": "{#kApAla, kApAlika#}",
     "_bannerExp": [
         {
-            "Right": "kzetrin"
+            "Right": "kApAla"
+        },
+        {
+            "Right": "kApAlika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#kzetra-ini#}]"
+        "{%a.%}",
+        "[{#kapAla-aR-Wak-vA#}]"
     ],
     "_meanings": [
-        "{@--1@} Owning a\nfield; cultivating land. ",
-        "{@--2@} \nAgricultural. "
+        ".²1 Relating to skulls; {#kaNkAlaM musalaM GoraM kApAlamaTa kiNkiRIm#}\n <ls>Rām. 1. 27. 12</ls>.\n",
+        ".²2 like a beggar; of a beggar {#kApAlIM nfpa pApizWAM vfttimAsAdya jIvitaH#} <ls>Mb. 12. 8. 7</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 100150,
+            "__line": 100893,
             "_ancestry": [
                 "L_ 11972",
-                "B_ {#kzetrin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#kApAla, kApAlika#}",
+                "M_ .{@{#-laH, -likaH#}@}"
             ],
+            "_banner": ".{@{#-laH, -likaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kzetrin"
+                    "Right": "kApAlaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                "A follower of a certain Śaiva sect (the left-hand\n order) characterized by carrying skulls of men in the form of garlands\n and eating and drinking from them; {#BasmAsTiSakalakIrRA kApAlamiva vrataM#}\n {#Datte#} <ls>Pt. 1. 212</ls>.\n"
+            ]
+        },
+        {
+            "__line": 100897,
+            "_ancestry": [
+                "L_ 11972",
+                "B_ {#kApAla, kApAlika#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kApAlam"
+                }
             ],
             "_meanings": [
-                "{@--1@} An agriculturist, a\ncultivator; <ls>Y. 2. 161.</ls> ",
-                "{@--2@} A \n(nominal) husband; <ls>Ś. 5.</ls> ",
-                "{@--3@} The soul.\n",
-                "{@--4@} The Supreme soul; <ls>Bg. 13. 33.</ls>"
+                "A kind of leprosy.\n"
+            ]
+        },
+        {
+            "__line": 100898,
+            "_ancestry": [
+                "L_ 11972",
+                "B_ {#kApAla, kApAlika#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kApAlI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wreath of skulls; {#kApAlImudvahantI srajamiva DavalAM kOmudIm#} <ls>Mu. 3. 20</ls>.\n",
+                ".²2 A clever woman.\n",
+                ".²3 The Embelia Ribes (<lang>Mar.</lang> <ns>{#vAvaqiMga#}</ns>)."
             ]
         }
     ]

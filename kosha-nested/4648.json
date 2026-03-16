@@ -1,19 +1,84 @@
 {
-    "__line": 42070,
+    "__line": 39831,
     "_ancestry": [
         "L_ 4648",
-        "B_ {#avapAlita#}"
+        "B_ {#alaGu#}"
     ],
-    "_banner": "{#avapAlita#}",
+    "_banner": "{#alaGu#}",
     "_bannerExp": [
         {
-            "Right": "avapAlita"
+            "Right": "alaGu"
+        },
+        {
+            "Right": "alaGvI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "({#-Gu, -GvI#}|{%f.%})"
     ],
     "_meanings": [
-        "Unprotected, \nneglected."
+        ".²1 Not light, heavy, big, weighty (as breasts, hips <ab>&c.</ab>); {#AyAsAdalaGutarastanEH#}\n <ls>Śi. 8. 1</ls>, <ls n=\"Śi.\">7. 5</ls>.\n",
+        ".²2 Not short, long (in prosody).\n",
+        ".²3 Serious, solemn.\n",
+        ".²4 Intense, violent, very great.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 39838,
+            "_ancestry": [
+                "L_ 4648",
+                "B_ {#alaGu#}",
+                "S_ .{@{#-upalaH#}@}"
+            ],
+            "_banner": ".{@{#-upalaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alaGUpalaH"
+                }
+            ],
+            "_meanings": [
+                "a rock.\n"
+            ]
+        },
+        {
+            "__line": 39839,
+            "_ancestry": [
+                "L_ 4648",
+                "B_ {#alaGu#}",
+                "S_ .{@{#-Uzman#}@}"
+            ],
+            "_banner": ".{@{#-Uzman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alaGUzman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "intense heat.\n"
+            ]
+        },
+        {
+            "__line": 39840,
+            "_ancestry": [
+                "L_ 4648",
+                "B_ {#alaGu#}",
+                "S_ .{@{#-pratijYa#}@}"
+            ],
+            "_banner": ".{@{#-pratijYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alaGupratijYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "solemnly pledged or promised."
+            ]
+        }
     ]
 }

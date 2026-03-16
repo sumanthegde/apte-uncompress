@@ -1,19 +1,79 @@
 {
-    "__line": 126177,
+    "__line": 131422,
     "_ancestry": [
         "L_ 15185",
-        "B_ {#daMtula#}"
+        "B_ {#CagalaH#}"
     ],
-    "_banner": "{#daMtula#}",
+    "_banner": "{#CagalaH#}",
     "_bannerExp": [
         {
-            "Right": "daMtula"
+            "Right": "CagalaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "Having or furnished with\nteeth."
+        ".²1 A goat.\n",
+        ".²2 <ab>N.</ab> of the sage Atri.\n",
+        ".²3 <ab>N.</ab> of a country.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 131426,
+            "_ancestry": [
+                "L_ 15185",
+                "B_ {#CagalaH#}",
+                "M_ .{@{#-lA, -lI#}@}"
+            ],
+            "_banner": ".{@{#-lA, -lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CagalA"
+                },
+                {
+                    "Right": "CagalI"
+                }
+            ],
+            "_meanings": [
+                "A she-goat.\n"
+            ]
+        },
+        {
+            "__line": 131427,
+            "_ancestry": [
+                "L_ 15185",
+                "B_ {#CagalaH#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Cagalam"
+                }
+            ],
+            "_meanings": [
+                "A blue cloth.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 131429,
+            "_ancestry": [
+                "L_ 15185",
+                "B_ {#CagalaH#}",
+                "S_ .{@{#-antrikA, -antriH#}@}"
+            ],
+            "_banner": ".{@{#-antrikA, -antriH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CagalAntrikA"
+                },
+                {
+                    "Right": "CagalAntriH"
+                }
+            ],
+            "_meanings": [
+                "a wolf."
+            ]
+        }
     ]
 }

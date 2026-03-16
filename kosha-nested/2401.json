@@ -1,19 +1,917 @@
 {
-    "__line": 24446,
+    "__line": 21415,
     "_ancestry": [
         "L_ 2401",
-        "B_ {#apabarhis#}"
+        "B_ {#anya#}"
     ],
-    "_banner": "{#apabarhis#}",
+    "_banner": "{#anya#}",
     "_bannerExp": [
         {
-            "Right": "apabarhis"
+            "Right": "anya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#an aGnyAdi˚ ya#}; {#anyaH, nyasmE, ˚smAt#}; {%n.%} {#anyat#} <ab>&c.</ab>]"
     ],
     "_meanings": [
-        "Not having the\nuse of {%Barhis%} ({#barhirhomarAhita#}.)"
+        ".²1 Another, different, other ({#Binna#}); another, other (generally);\n {#sa eva tvanyaH kzaRena BavatIti vicitrametat#} <ls>Bh. 2. 40</ls>; {#anyadeva#}\n {#BAgaDeyamete nirvapanti#} <ls>Ś. 2</ls>; {#sarvamanyat#} everything else; {#kimutAnyahiMsrAH#}\n <ls>R. 2. 62</ls>; changed, altered; {#saMpratyanye vayam#} <ls>Bh. 3. 66</ls> quite different\n persons; <ab>oft.</ab> in <ab>comp.</ab> {#anyasaNgAt, ananyaparAyaRa, ananyasADAraRa#} <ab>&c.</ab>\n",
+        ".²2 Other than, different from, else than (with <ab>abl.</ab> or as last member\n of <ab>comp.</ab>); {#nAsti jIvitAdanyadaBimatataramiha sarvajantUnAm#}\n\n <ls>K. 35</ls>; {#ko'sti Danyo madanyaH#} <ls>Bv. 4. 37</ls>; {#utTitaM dadfSe'nyacca kabanDeByo#}\n {#na kiMcana#} <ls>R. 12. 49</ls>; {#kimanyadasyAH parizadaH SrutiprasAdanataH#}\n <ls>Ś. 1</ls>; <ab>oft.</ab> used in addition to {#fte#} or {#vinA#}; {#fte samudrAdanyaH ko#}\n {#biBarti vaqavAnalam#} <ls>Pt. 5. 35</ls>; {#kiM nu Kalu me priyAdarSanAdfte SaraRamanyat#} <ls>Ś. 3</ls>.\n",
+        ".²3 Another person, one different from self (<ab>opp.</ab> {#sva, AtmIya#}); {#vAsaSca#}\n {#DftamanyErna DArayet#} <ls>Ms. 4. 66</ls>.\n",
+        ".²4 Strange, unusual, extraordinary; {#anya eva sa prakAraH#} <ls>K. 168</ls>; {#anyA#}\n {#jagadDitamayI manasaH pravfttiH#} <ls>Bv. 1. 69</ls>; {#DanyA mfdanyEva sA#} <ls>S. D.</ls>\n",
+        ".²5 Ordinary, any one; {#nirAtaNkaH kanyAmanyo'pi yAcate#} <ls>Mv. 1. 31</ls>; <ab>cf.</ab> {#itara#}.\n",
+        ".²6 Additional, new, more; {#anyAn daSasuvarRAnprayacCa#} <ls>Mk. 2</ls> another\n ten (coins); {#anyadanyannalinadalaSayanam#} <ls>K. 157</ls> new and new (changing\n every now and then); {#anyasmin divase#} another day; one of a number\n (with <ab>gen.</ab>); {#anyacca#} moreover, besides, and again (used to connect\n sentences together); {#eka--anya#} the one--the other; {#ekaH saKyAstava#}\n {#saha mayA vAmapAdABilAzI . kANkzantyanyo vadanamadirAM dOhfdacCadmanAsyAH#}\n <ls>Me. 80</ls>; see under {#eka#} also; {#anya--anya#} one-another; {#anyaH karoti#}\n {#anyo BuNkte#} one does, another suffers; {#anyanmuKe anyannirvahaRe#}\n <ls>Mu. 5</ls>; {#anyaduptaM jAtamanyat#} <ls>Ms. 9. 40</ls>, <ls n=\"Ms. 9.\">99</ls>, <ls n=\"Ms.\">8. 204</ls>; {#karRe lagati#}\n {#cAnyasya prAREranyo viyujyate#} <ls>Pt. 1. 305</ls>; {#anyaducCfNKalaM sattvamanyacCAstraniyantritam#}\n <ls>Śi. 2. 62</ls>; {#anya--anya--anya#} <ab>&c.</ab> one, another, third, fourth <ab>&c.</ab>,\n {#jalpanti sArDamanyena paSyantyanyaM saviBramAH . hfdgataM cintayantyanyaM#}\n {#priyaH ko nAma yozitAm#} <ls>Pt. 1. 135</ls>; {#manasyanyadvavacasyanyat kAryamanyad#}\n {#durAtmanAm#} <ls>H. 1. 97</ls>; (in <ab>pl.</ab>) {#kecit--anye#} some--others; {#eke--anye--taTAnye#}\n ({#bIjameke praSaMsanti kzetramanye manIziRaH . bIjakzetre taTEvAnye tatreyaM#}\n {#tu vyavasTitiH ..#}) <ls>Ms. 10. 70</ls>, <ls n=\"Ms.\">4. 9</ls>, <ls n=\"Ms.\">12. 123</ls>. [<ab>cf.</ab> <lang>L.</lang> {%alius%}; <lang>Gr.</lang> {%allos%}\n for {%aljos%}, <lang>Zend.</lang> {%anya%}].\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 21451,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a different meaning, sense, or purpose.\n"
+            ]
+        },
+        {
+            "__line": 21452,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-asADAraRa#}@}"
+            ],
+            "_banner": ".{@{#-asADAraRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyAsADAraRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not common to others, peculiar.\n"
+            ]
+        },
+        {
+            "__line": 21453,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-ASrayaRa#}@}"
+            ],
+            "_banner": ".{@{#-ASrayaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyASrayaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going or passing over to another.\n"
+            ]
+        },
+        {
+            "__line": 21454,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-udarya#}@}"
+            ],
+            "_banner": ".{@{#-udarya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyodarya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born from another; {#nahi graBAyAraRaH suSevo'nyodaryo#}\n {#manasA mantavA u#} <ls>Rv. 7. 4. 8</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 21456,
+                    "_ancestry": [
+                        "L_ 2401",
+                        "B_ {#anya#}",
+                        "S_ .{@{#-udarya#}@}",
+                        "S_M_ ({@{#-ryaH#}@})"
+                    ],
+                    "_banner": "({@{#-ryaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "anyodaryaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a step-motherʼs son, a half brother.\n."
+                    ]
+                },
+                {
+                    "__line": 21457,
+                    "_ancestry": [
+                        "L_ 2401",
+                        "B_ {#anya#}",
+                        "S_ .{@{#-udarya#}@}",
+                        "S_M_ ({@{#-ryA#}@})"
+                    ],
+                    "_banner": "({@{#-ryA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "anyodaryA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a half sister.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 21458,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-UQA#}@}"
+            ],
+            "_banner": ".{@{#-UQA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyoQA"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "married to another; anotherʼs wife.\n"
+            ]
+        },
+        {
+            "__line": 21459,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-kArukA#}@}"
+            ],
+            "_banner": ".{@{#-kArukA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyakArukA"
+                }
+            ],
+            "_meanings": [
+                "a worm bred in excrement ({#SakftkIwaH#}).\n"
+            ]
+        },
+        {
+            "__line": 21460,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-kzetram#}@}"
+            ],
+            "_banner": ".{@{#-kzetram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyakzetram"
+                }
+            ],
+            "_meanings": [
+                ".²1 another field.\n",
+                ".²2 another or foreign territory. {#anyakzetre kftaM pApaM puRyakzetre#}\n {#vinaSyati . puRyakzetre kftaM pApaM vajralepo Bavizyati ..#}\n",
+                ".²3 anotherʼs wife.\n"
+            ]
+        },
+        {
+            "__line": 21465,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-ga, -gAmin#}@}"
+            ],
+            "_banner": ".{@{#-ga, -gAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaga"
+                },
+                {
+                    "Right": "anyagAmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 going to another.\n",
+                ".²2 adulterous, unchaste; {#vaRijAM tu kulastrIva sTirA lakzmIrananyagA#}\n <ls>Ks. 21. 56</ls>, <ls n=\"Ks.\">19. 27</ls>.\n"
+            ]
+        },
+        {
+            "__line": 21469,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-gotra#}@}"
+            ],
+            "_banner": ".{@{#-gotra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyagotra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of a different family or lineage.\n"
+            ]
+        },
+        {
+            "__line": 21470,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-citta#}@}"
+            ],
+            "_banner": ".{@{#-citta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyacitta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the mind fixed on something or some one else;\n see {#˚manas#}.\n"
+            ]
+        },
+        {
+            "__line": 21472,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-ja, -jAta#}@}"
+            ],
+            "_banner": ".{@{#-ja, -jAta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaja"
+                },
+                {
+                    "Right": "anyajAta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of a different origin.\n"
+            ]
+        },
+        {
+            "__line": 21473,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-janman#}@}"
+            ],
+            "_banner": ".{@{#-janman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyajanman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "another life or existence, regeneration, metempsychosis.\n"
+            ]
+        },
+        {
+            "__line": 21474,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-durvaha#}@}"
+            ],
+            "_banner": ".{@{#-durvaha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadurvaha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "difficult to be borne by others.\n"
+            ]
+        },
+        {
+            "__line": 21475,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-devata, -tya, -dEvatya#}@}"
+            ],
+            "_banner": ".{@{#-devata, -tya, -dEvatya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadevata"
+                },
+                {
+                    "Left": "S error: 1 syl devata tya"
+                },
+                {
+                    "Right": "anyadEvatya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "addressed or referring to another\n deity (as a Vedic Mantra).\n"
+            ]
+        },
+        {
+            "__line": 21477,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-Darman#}@}"
+            ],
+            "_banner": ".{@{#-Darman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaDarman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having another or different property.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 21478,
+                    "_ancestry": [
+                        "L_ 2401",
+                        "B_ {#anya#}",
+                        "S_ .{@{#-Darman#}@}",
+                        "S_M_ ({@{#-rmaH#}@})"
+                    ],
+                    "_banner": "({@{#-rmaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "anyaDarmaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "different property or characteristic.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 21479,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaDI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "whose mind is turned away from God.\n"
+            ]
+        },
+        {
+            "__line": 21480,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-nABi#}@}"
+            ],
+            "_banner": ".{@{#-nABi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyanABi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to another family.\n"
+            ]
+        },
+        {
+            "__line": 21481,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-padArTaH#}@}"
+            ],
+            "_banner": ".{@{#-padArTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyapadArTaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 another substance.\n",
+                ".²2 the sense of another word; {#˚praDAno bahuvrIhiH#} the Bahuvrīhi compound\n essentially depends on the sense of another word.\n"
+            ]
+        },
+        {
+            "__line": 21485,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-para#}@}"
+            ],
+            "_banner": ".{@{#-para#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyapara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 devoted to another or something else.\n",
+                ".²2 expressing or referring to something\n\n else.\n"
+            ]
+        },
+        {
+            "__line": 21490,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-puzwA, -BftA#}@}"
+            ],
+            "_banner": ".{@{#-puzwA, -BftA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyapuzwA"
+                },
+                {
+                    "Right": "anyaBftA"
+                }
+            ],
+            "_meanings": [
+                "‘reared by another’, epithet of the cuckoo, which\n is supposed to be reared by the crow (called {#anyaBft#}); {#apyanyapuzwA#}\n {#pratikUlaSabdA#} <ls>Ku. 1. 45</ls>; {#kalamanyaBftAsu BAzitam#} <ls>R. 8. 59</ls>.\n"
+            ]
+        },
+        {
+            "__line": 21493,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-pUrvA#}@}"
+            ],
+            "_banner": ".{@{#-pUrvA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyapUrvA"
+                }
+            ],
+            "_gram": [
+                "[{#anyaH patiH pUrvo yasyAH#}]"
+            ],
+            "_meanings": [
+                ".²1 a woman already promised or betrothed to another.\n",
+                ".²2 a remarried widow ({#punarBU#}) see {#ananyapUrva#}.\n"
+            ]
+        },
+        {
+            "__line": 21496,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-bIja, -bIjasamudBava, -samutpanna#}@}"
+            ],
+            "_banner": ".{@{#-bIja, -bIjasamudBava, -samutpanna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyabIja"
+                },
+                {
+                    "Right": "anyabIjasamudBava"
+                },
+                {
+                    "Left": "S error: midAlign samutpanna bIjasamutpanna"
+                }
+            ],
+            "_meanings": [
+                "an adopted son (born from other\n parents), one who may be adopted as a son for want of legitimate issue.\n"
+            ]
+        },
+        {
+            "__line": 21498,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a crow (rearing another, it being supposed to sit\n on the eggs of the cuckoo and to rear its young ones), <ab>cf.</ab> <ls>Ś. 5. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 21500,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-manas, -manaska, -mAnasa#}@}"
+            ],
+            "_banner": ".{@{#-manas, -manaska, -mAnasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyamanas"
+                },
+                {
+                    "Right": "anyamanaska"
+                },
+                {
+                    "Right": "anyamAnasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having the mind fixed on something else; inattentive.\n",
+                ".²2 fickle, versatile, unsteady; {#anyamanasaH striyaH#} <ls>H. 1. 111</ls> absent-minded;\n possessed by a demon.\n"
+            ]
+        },
+        {
+            "__line": 21504,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-mAtfjaH#}@}"
+            ],
+            "_banner": ".{@{#-mAtfjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyamAtfjaH"
+                }
+            ],
+            "_meanings": [
+                "a half-brother (born of another mother) {#asaMsfzwyapi#}\n {#vA''dadyAtsaMsfzwo nAnyamAtfjaH#} <ls>Y. 2. 139</ls>.\n"
+            ]
+        },
+        {
+            "__line": 21506,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-raNgaH#}@}"
+            ],
+            "_banner": ".{@{#-raNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaraNgaH"
+                }
+            ],
+            "_meanings": [
+                "the second court or theatre or a compound; <ls>Māna. 21. 144</ls>.\n"
+            ]
+        },
+        {
+            "__line": 21507,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-rAjan, -rAzwrIya#}@}"
+            ],
+            "_banner": ".{@{#-rAjan, -rAzwrIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyarAjan"
+                },
+                {
+                    "Right": "anyarAzwrIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "subject to another king or kingdom (<ab>Ved.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 21508,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyarUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having another form, changed, altered; {#padminIM#}\n {#vAnyarUpAm#} <ls>Me. 85</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 21510,
+                    "_ancestry": [
+                        "L_ 2401",
+                        "B_ {#anya#}",
+                        "S_ .{@{#-rUpa#}@}",
+                        "S_M_ ({@{#-pam#}@})"
+                    ],
+                    "_banner": "({@{#-pam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "anyarUpam"
+                        }
+                    ],
+                    "_meanings": [
+                        "another or changed form; "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 21510,
+                            "_ancestry": [
+                                "L_ 2401",
+                                "B_ {#anya#}",
+                                "S_ .{@{#-rUpa#}@}",
+                                "S_M_ ({@{#-pam#}@})",
+                                "S_M_S_ {#˚peRa#}"
+                            ],
+                            "_banner": "{#˚peRa#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "anyarUpapeRa"
+                                }
+                            ],
+                            "_meanings": [
+                                "in another form.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 21511,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-liNga, -Ngaka#}@}"
+            ],
+            "_banner": ".{@{#-liNga, -Ngaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaliNga"
+                },
+                {
+                    "Right": "anyaNgaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following the gender of another word (<ab>i. e.</ab>\n the substantive), an adjective; {#UzavAnUzaro dvAvapyanyaliNgO#} <ls>Ak.</ls>\n"
+            ]
+        },
+        {
+            "__line": 21513,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyavAdin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 giving false evidence.\n",
+                ".²2 a defendant in general.\n"
+            ]
+        },
+        {
+            "__line": 21516,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-vApaH#}@}"
+            ],
+            "_banner": ".{@{#-vApaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyavApaH"
+                }
+            ],
+            "_meanings": [
+                "the cuckoo leaving the eggs in the nests of other birds.\n"
+            ]
+        },
+        {
+            "__line": 21517,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-vivarDita#}@}"
+            ],
+            "_banner": ".{@{#-vivarDita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyavivarDita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "= {#puzwa#} a cuckoo.\n"
+            ]
+        },
+        {
+            "__line": 21518,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-vrata#}@}"
+            ],
+            "_banner": ".{@{#-vrata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyavrata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following other (than Vedic) observances, devoted\n to other gods, infidel.\n"
+            ]
+        },
+        {
+            "__line": 21520,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-SAKaH, -KakaH#}@}"
+            ],
+            "_banner": ".{@{#-SAKaH, -KakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyaSAKaH"
+                },
+                {
+                    "Left": "S error: midAlign KakaH SAKakaH"
+                }
+            ],
+            "_meanings": [
+                "a Brāhmaṇa who has gone over to another school\n (of religion <ab>&c.</ab>); an apostate.\n"
+            ]
+        },
+        {
+            "__line": 21522,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-saMkrAnta#}@}"
+            ],
+            "_banner": ".{@{#-saMkrAnta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyasaNkrAnta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fixed on or transferred to another (woman); {#˚hfdayaH#}\n {#AryaputraH#} <ls>M. 3</ls>, <ls n=\"M.\">4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 21524,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-saMgamaH#}@}"
+            ],
+            "_banner": ".{@{#-saMgamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyasaNgamaH"
+                }
+            ],
+            "_meanings": [
+                "intercourse with another; illicit intercourse.\n"
+            ]
+        },
+        {
+            "__line": 21525,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-sADAraRa#}@}"
+            ],
+            "_banner": ".{@{#-sADAraRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyasADAraRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "common to many others.\n"
+            ]
+        },
+        {
+            "__line": 21526,
+            "_ancestry": [
+                "L_ 2401",
+                "B_ {#anya#}",
+                "S_ .{@{#-strI#}@}"
+            ],
+            "_banner": ".{@{#-strI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyastrI"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs wife, a woman not oneʼs own. [In Rhetoric she\n is considered as one of three chief female characters in a poetical composition,\n the other two being {#svIyA#} and {#sADAraRI strI#}. {#anyA#} may be either\n a damsel or anotherʼs wife. The ‘damsel’ is one not yet married, who is\n bashful and arrived at the age of puberty. As \"anotherʼs wife\" she is\n fond of festivals and similar occasions of amusement, who is a disgrace\n to her family and utterly destitute of modesty, see <ls>S. D. 108-110</ls>]. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 21532,
+                    "_ancestry": [
+                        "L_ 2401",
+                        "B_ {#anya#}",
+                        "S_ .{@{#-strI#}@}",
+                        "S_S_ {#˚gaH#}"
+                    ],
+                    "_banner": "{#˚gaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "anyastrIgaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an adulterer. {#yasya stenaH pure nAsti nAnyastrIgo na duzwavAk …#}\n {#sa rAjA SakralokaBAk#}; <ls>Ms. 8. 386</ls>. [Note: Some compounds under {#anya#}\n will be found under {#ananya#}.]"
+                    ]
+                }
+            ]
+        }
     ]
 }

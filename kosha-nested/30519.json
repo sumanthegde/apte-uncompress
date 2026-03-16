@@ -1,21 +1,35 @@
 {
-    "__line": 255968,
+    "__line": 281671,
     "_ancestry": [
         "L_ 30519",
-        "B_ {#sek#}"
+        "B_ {#visUritam#}"
     ],
-    "_banner": "{#sek#}",
+    "_banner": "{#visUritam#}",
     "_bannerExp": [
         {
-            "Right": "sek"
+            "Right": "visUritam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#sekate#})"
-    ],
     "_meanings": [
-        "To go, move."
+        "Repentance, distress.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 281672,
+            "_ancestry": [
+                "L_ 30519",
+                "B_ {#visUritam#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visUritA"
+                }
+            ],
+            "_meanings": [
+                "Fever."
+            ]
+        }
     ]
 }

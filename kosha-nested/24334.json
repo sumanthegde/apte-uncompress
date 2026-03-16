@@ -1,60 +1,141 @@
 {
-    "__line": 206206,
+    "__line": 217065,
     "_ancestry": [
         "L_ 24334",
-        "B_ {#roDas#}"
+        "B_ {#PAlaH#}, {#-lam#}"
     ],
-    "_banner": "{#roDas#}",
+    "_banner": "{#PAlaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "roDas"
+            "Right": "PAlaH"
+        },
+        {
+            "Right": "PAlam"
         }
     ],
-    "_gram": [
-        "{%<ab>n.</ab>%}",
-        "[{#ruD-asun#}]"
-    ],
     "_meanings": [
-        "{@--1@} A bank, an\nembankment, a dam; {#gaMgA#} \n{#roDaHpatanakaluzA gfhRatIva prasAdaM#} <ls>V. 1. 8</ls>;  \n<ls>R. 5. 42</ls>; <ls>Me. 41.</ls> ",
-        "{@--2@} A shore, high\nbank; <ls>R. 8. 33.</ls> "
+        ".²1 A ploughshare; <ls>Ms. 6. 16</ls>.\n",
+        ".²2 Separation of the hair on each side of the head ({#sImantaBAga#});\n {#dviPAlabadDAScikurAH SiraHsTitam#} <ls>N. 1. 16</ls>.\n",
+        ".²3 A sort of spade.\n",
+        ".²4 A bundle.\n",
+        ".²5 The forehead (for {#BAla#}).\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 206210,
+            "__line": 217072,
             "_ancestry": [
                 "L_ 24334",
-                "B_ {#roDas#}",
-                "S_  {#--vakrA, --vatI#}"
+                "B_ {#PAlaH#}, {#-lam#}",
+                "M_ .{@{#-laH#}@}"
             ],
-            "_banner": " {#--vakrA, --vatI#}",
+            "_banner": ".{@{#-laH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "roDovakrA"
-                },
-                {
-                    "Right": "roDovatI"
+                    "Right": "PAlaH"
                 }
             ],
             "_meanings": [
-                "{1} a river. ",
-                "{2} a rapid river. "
+                ".²1 An epithet of Balarāma.\n",
+                ".²2 Of Śiva.\n",
+                ".²3 The citron tree.\n"
             ]
         },
         {
-            "__line": 206211,
+            "__line": 217076,
             "_ancestry": [
                 "L_ 24334",
-                "B_ {#roDas#}",
-                "S_ {#--vapraH#}"
+                "B_ {#PAlaH#}, {#-lam#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": "{#--vapraH#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "roDovapraH"
+                    "Right": "PAlam"
                 }
             ],
             "_meanings": [
-                "a\nrapid river."
+                ".²1 A garment of cotton.\n",
+                ".²2 A ploughed fleld.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 217080,
+            "_ancestry": [
+                "L_ 24334",
+                "B_ {#PAlaH#}, {#-lam#}",
+                "S_ .{@{#-Ahata#}@}"
+            ],
+            "_banner": ".{@{#-Ahata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PAlAhata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ploughed, tilled.\n"
+            ]
+        },
+        {
+            "__line": 217081,
+            "_ancestry": [
+                "L_ 24334",
+                "B_ {#PAlaH#}, {#-lam#}",
+                "S_ .{@{#-kfzwa#}@}"
+            ],
+            "_banner": ".{@{#-kfzwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PAlakfzwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 tilled.\n",
+                ".²2 produced by cultivation; {#na PAlakfzwamaSrIyAt#} <ls>Ms. 6. 16</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 217084,
+                    "_ancestry": [
+                        "L_ 24334",
+                        "B_ {#PAlaH#}, {#-lam#}",
+                        "S_ .{@{#-kfzwa#}@}",
+                        "S_M_ ({@{#-zwam#}@})"
+                    ],
+                    "_banner": "({@{#-zwam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "PAlakfzwam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a ploughed field.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 217085,
+            "_ancestry": [
+                "L_ 24334",
+                "B_ {#PAlaH#}, {#-lam#}",
+                "S_ .{@{#-guptaH#}@}"
+            ],
+            "_banner": ".{@{#-guptaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PAlaguptaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Balarāma."
             ]
         }
     ]

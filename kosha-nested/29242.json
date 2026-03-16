@@ -1,21 +1,65 @@
 {
-    "__line": 245503,
+    "__line": 270636,
     "_ancestry": [
         "L_ 29242",
-        "B_ {#saMnivftta#}"
+        "B_ {#vikeSa#}"
     ],
-    "_banner": "{#saMnivftta#}",
+    "_banner": "{#vikeSa#}",
     "_bannerExp": [
         {
-            "Right": "saMnivftta"
+            "Right": "vikeSa"
+        },
+        {
+            "Right": "vikeSI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-SI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Returned. ",
-        "{@--2@}\nStopped, ceased. ",
-        "{@--3@} Withdrawing,\nshrinking from."
+        ".²1 Having loose hair.\n",
+        ".²2 Having no hair, bald (as head).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 270639,
+            "_ancestry": [
+                "L_ 29242",
+                "B_ {#vikeSa#}",
+                "M_ .{@{#-SI#}@}"
+            ],
+            "_banner": ".{@{#-SI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikeSI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A woman with loose hair.\n",
+                ".²2 A woman without hair.\n",
+                ".²3 A small tress of hair tied up separately and then collected into the\n larger braid or {%Veṇi%}.\n",
+                ".²4 <ab>N.</ab> of the wife of Śiva in the form of the Earth (one of the 8 forms\n of Śiva; <ab>cf.</ab> {#yAmAhuH sarvaBUtaprakftiH#} <ls>Ś. 1. 1.</ls>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 270647,
+            "_ancestry": [
+                "L_ 29242",
+                "B_ {#vikeSa#}",
+                "S_ .{@{#-tArakA#}@}"
+            ],
+            "_banner": ".{@{#-tArakA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vikeSatArakA"
+                }
+            ],
+            "_meanings": [
+                "a comet."
+            ]
+        }
     ]
 }

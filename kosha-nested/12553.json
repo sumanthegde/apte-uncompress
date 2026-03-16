@@ -1,17 +1,61 @@
 {
-    "__line": 104792,
+    "__line": 106389,
     "_ancestry": [
         "L_ 12553",
-        "B_ {#guqAkA#}"
+        "B_ {#kuravaH(baH), kurava(ba)kaH#}"
     ],
-    "_banner": "{#guqAkA#}",
+    "_banner": "{#kuravaH(baH), kurava(ba)kaH#}",
     "_bannerExp": [
         {
-            "Right": "guqAkA"
+            "Right": "kuravaH"
+        },
+        {
+            "Right": "kurabaH"
+        },
+        {
+            "Right": "kuravakaH"
+        },
+        {
+            "Right": "kurabakaH"
         }
     ],
     "_meanings": [
-        "{@--1@} Sloth. ",
-        "{@--2@} Sleep."
+        "A species of amaranth; [Barlaria Prionitis\n Linn] It is a handsome shrub. Kālidāsa describes the plant as {#kAntAmuKadyuti#}\n (<ab>cf.</ab> <ls>Ṛs. 6. 18</ls>). Modern scientists describe it as a lipped flower referring\n to the form of its petals. {#kuravakA ravakAraRatAM yayuH#} <ls>R. 9. 29</ls>; <ls>Me. 80</ls>; <ls>Ṛs. 6. 18</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 106393,
+            "_ancestry": [
+                "L_ 12553",
+                "B_ {#kuravaH(baH), kurava(ba)kaH#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kuravam"
+                }
+            ],
+            "_gram": [
+                "({@{#-bam#}@})"
+            ]
+        },
+        {
+            "__line": 106393,
+            "_ancestry": [
+                "L_ 12553",
+                "B_ {#kuravaH(baH), kurava(ba)kaH#}",
+                "M_ {@{#-va(ba)kam#}@}"
+            ],
+            "_banner": "{@{#-va(ba)kam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kuravaH#} M_ {@{#-va(ba)kaM#}@}"
+                }
+            ],
+            "_meanings": [
+                "The flower of this tree; {#cUqApASe#}\n {#navakuravakam#} <ls>Me. 67</ls>; {#pratyAKyAtaviSezakaM kuravakaM SyAmAvadAtAruRam#} <ls>M. 3. 5</ls>."
+            ]
+        }
     ]
 }

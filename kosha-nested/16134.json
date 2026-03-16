@@ -1,101 +1,76 @@
 {
-    "__line": 135447,
+    "__line": 139836,
     "_ancestry": [
         "L_ 16134",
-        "B_ {#DUliH#}"
+        "B_ {#tantrin#}"
     ],
-    "_banner": "{#DUliH#}",
+    "_banner": "{#tantrin#}",
     "_bannerExp": [
         {
-            "Right": "DUliH"
+            "Right": "tantrin"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "{%<ab>f.</ab>%}",
-        "{#DUMlI#}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Dust; {#anItvA#}\n{#paMkatAM DUlimudakaM nAvatizWate#} <ls>Śi. 2. 34.</ls>\n",
-        "{@--2@} Powder. "
+        ".²1 Having threads, made of threads.\n",
+        ".²2 Having chords or wires (as a lute).\n",
+        ".²3 Having a Tantra, or following one. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 139839,
+            "_ancestry": [
+                "L_ 16134",
+                "B_ {#tantrin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#taMtrin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A musician.\n",
+                ".²2 A soldier. "
+            ]
+        },
+        {
+            "__line": 139841,
+            "_ancestry": [
+                "L_ 16134",
+                "B_ {#tantrin#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#taMtrin#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "An act having a group of subsidiaries common with\n some other act, a main act ({#praDAnakarma#}); {#tantrIRi praDAnAni .#}\n <ls>ŚB. on MS. 12. 1. 1</ls>.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 135449,
+            "__line": 139845,
             "_ancestry": [
                 "L_ 16134",
-                "B_ {#DUliH#}",
-                "S_  {#--kuwwimaM, --kedAraH#}"
+                "B_ {#tantrin#}",
+                "S_ .{@{#-samavAyaH#}@}"
             ],
-            "_banner": " {#--kuwwimaM, --kedAraH#}",
+            "_banner": ".{@{#-samavAyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "DUlikedAraH"
-                },
-                {
-                    "Right": "DUlikuwwimaM"
+                    "Right": "tantrisamavAyaH"
                 }
             ],
             "_meanings": [
-                "{1} a mound, rampart of earth.\n",
-                "{2} a ploughed field. "
-            ]
-        },
-        {
-            "__line": 135451,
-            "_ancestry": [
-                "L_ 16134",
-                "B_ {#DUliH#}",
-                "S_ {#--DvajaH#}"
-            ],
-            "_banner": "{#--DvajaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "DUliDvajaH"
-                }
-            ],
-            "_meanings": [
-                "wind.\n"
-            ]
-        },
-        {
-            "__line": 135452,
-            "_ancestry": [
-                "L_ 16134",
-                "B_ {#DUliH#}",
-                "S_ {#--pawalaH --laM#}"
-            ],
-            "_banner": "{#--pawalaH --laM#}",
-            "_bannerExp": [
-                {
-                    "Right": "DUlipawalaH"
-                },
-                {
-                    "Right": "DUlipawalaM"
-                }
-            ],
-            "_meanings": [
-                "a cloud of dust. "
-            ]
-        },
-        {
-            "__line": 135452,
-            "_ancestry": [
-                "L_ 16134",
-                "B_ {#DUliH#}",
-                "S_ {#--puzpikA#},\n{#--puzpI#}"
-            ],
-            "_banner": "{#--puzpikA#},\n{#--puzpI#}",
-            "_bannerExp": [
-                {
-                    "Right": "DUlipuzpI"
-                },
-                {
-                    "Right": "DUlipuzpikA"
-                }
-            ],
-            "_meanings": [
-                "the Ketaka plant."
+                "Simultaneity of (several) main acts; {#tantrisamavAye#}\n {#codanAtaH samAnAnAmEkatantryam˚#} <ls>MS. 12. 1. 1</ls>."
             ]
         }
     ]

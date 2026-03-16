@@ -1,60 +1,1376 @@
 {
-    "__line": 42756,
+    "__line": 40532,
     "_ancestry": [
         "L_ 4742",
-        "B_ {#avarohaH#}"
+        "B_ {#alpa#}"
     ],
-    "_banner": "{#avarohaH#}",
+    "_banner": "{#alpa#}",
     "_bannerExp": [
         {
-            "Right": "avarohaH"
+            "Right": "alpa"
         }
     ],
-    "_meanings": [
-        "{@--1@} Descent, going or \ncoming down. ",
-        "{@--2@} A creeping plant\nwinding itself round a tree from the\nbottom to the top (such as the {#guqUcI#}\ncreeper). ",
-        "{@--3@} Heaven ({#tasmAdDi#} \n{#BogAvasAne sarve'varohaMti#}). ",
-        "{@--4@} Mounting, \nascending. ",
-        "{@--5@} A shoot sent out by a plant,\na pendent branch, one that strikes\nfresh roots into the earth, as of the\nfig-tree ({#vawa#}); {#avarohaSatAkIrRaM#} \n{#vawamAsAdya tasTatuH#} <ls>Rām.</ls> ",
-        "{@--6@} The growth of a\nplant or vine. ",
-        "{@--7@} (In music) The\ndescending scale of notes. "
+    "_gram": [
+        "{%a.%}",
+        "[{#al-pa#}]"
     ],
-    "_samasas": [
+    "_meanings": [
+        ".²1 Trifling, unimportant, insignificant (<ab>opp.</ab> {#mahat#} or {#guru#});\n {#alpavidyaH#} <ls>Ms. 11. 36</ls>.\n",
+        ".²2 Small, little, minute, scanty (<ab>opp.</ab> {#bahu#}); {#alpasya hetorbahu#}\n {#hAtumicCan#} <ls>R. 2. 47</ls>, <ls n=\"R.\">1. 2</ls>; {#alpakucAntarA#} <ls>V. 4. 49</ls>.\n",
+        ".²3 Mortal, of short existence; {#aTa yadalpaM tanmartyam#} <ls>Ch. Up.</ls>\n",
+        ".²4 Young.\n",
+        ".²5 Seldom, rare.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 42768,
+            "__line": 40540,
             "_ancestry": [
                 "L_ 4742",
-                "B_ {#avarohaH#}",
-                "S_ \n{#--SAyin#}"
+                "B_ {#alpa#}",
+                "M_ .{@{#-lpaH#}@}"
             ],
-            "_banner": "\n{#--SAyin#}",
+            "_banner": ".{@{#-lpaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avarohaSAyin"
+                    "Right": "alpaH"
                 }
             ],
             "_meanings": [
-                "the Indian fig-tree; so\n"
+                "A class of buildings; <ls>Kāmikāgama 45. 53-54</ls>.\n"
             ]
         },
         {
-            "__line": 42770,
+            "__line": 40541,
             "_ancestry": [
                 "L_ 4742",
-                "B_ {#avarohaH#}",
-                "S_ {#--SAKaH, --SAKin#}"
+                "B_ {#alpa#}",
+                "M_ .{@{#-lpam#}@}"
             ],
-            "_banner": "{#--SAKaH, --SAKin#}",
+            "_banner": ".{@{#-lpam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avarohaSAKaH"
-                },
-                {
-                    "Right": "avarohaSAKin"
+                    "Right": "alpam"
                 }
             ],
             "_meanings": [
-                "."
+                "Very little.\n"
+            ]
+        },
+        {
+            "__line": 40542,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "M_ .{@{#-lpam, -lpena, -lpAt#}@}"
+            ],
+            "_banner": ".{@{#-lpam, -lpena, -lpAt#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpam"
+                },
+                {
+                    "Right": "alpena"
+                },
+                {
+                    "Right": "alpAt"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                ".²1 A little.\n",
+                ".²2 For a slight reason; {#prItiralpena Bidyate#} <ls>Rām. 4. 32. 7</ls>.\n",
+                ".²3 Easily, without much trouble or difficulty.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 40547,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-actara#}@}"
+            ],
+            "_banner": ".{@{#-actara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpActara"
+                }
+            ],
+            "_meanings": [
+                "(comparative) A word consisting of a smaller number of\n syllables (than another) {#alpActaram#} <ls>P. II. 2. 34</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40549,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-alpa#}@}"
+            ],
+            "_banner": ".{@{#-alpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpAlpa"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "very little or minute, little by little; {#taTAlpAlpo#}\n {#grahItavyo rAzwrAdAjYA''bdikaH karaH#} <ls>Ms. 7. 129</ls>; {#˚BAsam#} <ls>Me. 83</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40551,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-asu#}@}"
+            ],
+            "_banner": ".{@{#-asu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpAsu"
+                }
+            ],
+            "_meanings": [
+                "= {#˚prARa#} <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 40552,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-AkANkzin#}@}"
+            ],
+            "_banner": ".{@{#-AkANkzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpAkANkzin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "desiring little, contented or satisfied with little.\n"
+            ]
+        },
+        {
+            "__line": 40553,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-Ayus#}@}"
+            ],
+            "_banner": ".{@{#-Ayus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpAyus"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "shortlived; <ls>Ms. 4. 157</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40554,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-Ayus#}@}",
+                        "S_M_ ({@{#-yuH#}@})"
+                    ],
+                    "_banner": "({@{#-yuH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpAyuH"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%m.%}\n",
+                        ".²1 a young one, cub.\n",
+                        ".²2 a goat.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40557,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-AramBaH#}@}"
+            ],
+            "_banner": ".{@{#-AramBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpAramBaH"
+                }
+            ],
+            "_meanings": [
+                "a small or gradual beginning; {#alpAramBaH kzemakaraH#}.\n"
+            ]
+        },
+        {
+            "__line": 40558,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-AhAra, -AhArin#}@}"
+            ],
+            "_banner": ".{@{#-AhAra, -AhArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpAhAra"
+                },
+                {
+                    "Right": "alpAhArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eating little, moderate in diet, abstemious.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40559,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-AhAra, -AhArin#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpAhAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "taking little food, moderation, abstinence in food.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40560,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-icCu#}@}"
+            ],
+            "_banner": ".{@{#-icCu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpecCu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "moderate in wishes, seeking little.\n"
+            ]
+        },
+        {
+            "__line": 40561,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-itara#}@}"
+            ],
+            "_banner": ".{@{#-itara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpetara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 other than small, large.\n",
+                ".²2 other than few, many; as {#˚rAH kalpanAH#} many or various ideas.\n"
+            ]
+        },
+        {
+            "__line": 40564,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-ISAKya#}@}"
+            ],
+            "_banner": ".{@{#-ISAKya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpeSAKya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Named after an insignificant chief or master, of low origin.\n"
+            ]
+        },
+        {
+            "__line": 40565,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-Una#}@}"
+            ],
+            "_banner": ".{@{#-Una#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpona"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slightly defective, not quite complete.\n"
+            ]
+        },
+        {
+            "__line": 40566,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-upAyaH#}@}"
+            ],
+            "_banner": ".{@{#-upAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpopAyaH"
+                }
+            ],
+            "_meanings": [
+                "small means.\n"
+            ]
+        },
+        {
+            "__line": 40567,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-kAryam#}@}"
+            ],
+            "_banner": ".{@{#-kAryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpakAryam"
+                }
+            ],
+            "_meanings": [
+                "a small matter.\n"
+            ]
+        },
+        {
+            "__line": 40568,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-keSI#}@}"
+            ],
+            "_banner": ".{@{#-keSI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpakeSI"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a plant ({#BUtakeSI#}; <lang>Mar.</lang> <ns>{#jawAmAMsI, nirguqI#}</ns>).\n",
+                ".²2 the root of a sweet flag.\n"
+            ]
+        },
+        {
+            "__line": 40571,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-krIta#}@}"
+            ],
+            "_banner": ".{@{#-krIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpakrIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bought for a small sum, cheap.\n"
+            ]
+        },
+        {
+            "__line": 40572,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-goDUmaH#}@}"
+            ],
+            "_banner": ".{@{#-goDUmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpagoDUmaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of wheat (<lang>Mar.</lang> <ns>{#joqagahU#}</ns> or <ns>{#KapalyA gahU#}</ns>)\n"
+            ]
+        },
+        {
+            "__line": 40573,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-ganDa#}@}"
+            ],
+            "_banner": ".{@{#-ganDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaganDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having little scent or odour.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40574,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-ganDa#}@}",
+                        "S_M_ ({@{#-nDam#}@})"
+                    ],
+                    "_banner": "({@{#-nDam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpaganDam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a red lotus.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40575,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-cezwita#}@}"
+            ],
+            "_banner": ".{@{#-cezwita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpacezwita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inert.\n"
+            ]
+        },
+        {
+            "__line": 40576,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-cCada, -cCAda#}@}"
+            ],
+            "_banner": ".{@{#-cCada, -cCAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpacCada"
+                },
+                {
+                    "Right": "alpacCAda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "scantily clad; {#dUrAdeva mahAjanasya viharatyalpacCado#}\n {#lajjayA#} <ls>Mk. 1. 37</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40578,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-jYa#}@}"
+            ],
+            "_banner": ".{@{#-jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "knowing little, shallow, superficial.\n"
+            ]
+        },
+        {
+            "__line": 40579,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-tanu#}@}"
+            ],
+            "_banner": ".{@{#-tanu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpatanu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 of short stature, dwarfish, short.\n",
+                ".²2 weak, thin.\n",
+                ".²3 having small bones.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40583,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-tanu#}@}",
+                        "S_M_ ({@{#-nuH#}@})"
+                    ],
+                    "_banner": "({@{#-nuH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpatanuH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a kind of tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40584,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-dakziRa#}@}"
+            ],
+            "_banner": ".{@{#-dakziRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpadakziRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "defective in presents (as a ceremony), not liberal\n in sacrificial gifts; {#na tvalpadakziREryajYEryajeteha kaTaMcana#};\n\n {#hantyalpadakziRo yajYaH#} <ls>Ms. 11. 39. 40</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40588,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-dfzwi#}@}"
+            ],
+            "_banner": ".{@{#-dfzwi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpadfzwi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "narrow-minded, short-sighted.\n"
+            ]
+        },
+        {
+            "__line": 40589,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-Dana#}@}"
+            ],
+            "_banner": ".{@{#-Dana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaDana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of little wealth, not affluent or rich, poor; <ls>Ms. 3. 66</ls>;\n {#nAlpaDano yajet#} <ls n=\"Ms.\">11. 40</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40591,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-DI#}@}"
+            ],
+            "_banner": ".{@{#-DI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaDI"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "weak-minded, having little, sense, foolish.\n"
+            ]
+        },
+        {
+            "__line": 40592,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-nAsikaH#}@}"
+            ],
+            "_banner": ".{@{#-nAsikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpanAsikaH"
+                }
+            ],
+            "_meanings": [
+                "A small vestibule; <ls>Māna. 34. 106</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40593,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpapatraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a plant (a species of the Tulsi).\n",
+                ".²2 a tree having a few leaves. (<lang>Mar.</lang> <ns>{#SopA, musaLI#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 40596,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-padmam#}@}"
+            ],
+            "_banner": ".{@{#-padmam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpapadmam"
+                }
+            ],
+            "_meanings": [
+                "a red lotus.\n"
+            ]
+        },
+        {
+            "__line": 40597,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-paSu#}@}"
+            ],
+            "_banner": ".{@{#-paSu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpapaSu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> having a small number of cattle. {#anapatyamalpapaSuM#}\n {#vaSA kfRoti puruzam#} <ls>Av. 12. 4. 25</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40599,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-puRya#}@}"
+            ],
+            "_banner": ".{@{#-puRya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpapuRya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Whose religious merit is small; <ls>Rām.</ls>; <ls>Mbh.</ls>\n"
+            ]
+        },
+        {
+            "__line": 40600,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-puzpikA#}@}"
+            ],
+            "_banner": ".{@{#-puzpikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpapuzpikA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a flower-plant (<lang>Mar.</lang> <ns>{#pivaLI kaRhera#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 40601,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-prajas#}@}"
+            ],
+            "_banner": ".{@{#-prajas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaprajas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having few descendants or subjects. {#nityamasic#}\n {#prajAmeDayoH#} <ls>P. V. 4. 122</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40603,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-praBAva#}@}"
+            ],
+            "_banner": ".{@{#-praBAva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpapraBAva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of small weight or consequence, insignificant,\n unimportant; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 40604,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-praBAva#}@}",
+                        "S_S_ {#˚tvam#}"
+                    ],
+                    "_banner": "{#˚tvam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpapraBAvatvam"
+                        }
+                    ],
+                    "_meanings": [
+                        "insignificance.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40605,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-pramARa, -pramARaka#}@}"
+            ],
+            "_banner": ".{@{#-pramARa, -pramARaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpapramARa"
+                },
+                {
+                    "Right": "alpapramARaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 of little weight or measure.\n",
+                ".²2 of little authority, resting on little evidence.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40608,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-pramARa, -pramARaka#}@}",
+                        "S_M_ ({@{#-RaH, -RakaH#}@})"
+                    ],
+                    "_banner": "({@{#-RaH, -RakaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpapramARaH"
+                        },
+                        {
+                            "Right": "alpapramARakaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "common cucumber.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40609,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-prayoga#}@}"
+            ],
+            "_banner": ".{@{#-prayoga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaprayoga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of rare application or use, rarely used.\n"
+            ]
+        },
+        {
+            "__line": 40610,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-prARa, -asu#}@}"
+            ],
+            "_banner": ".{@{#-prARa, -asu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaprARa"
+                },
+                {
+                    "Right": "alpAsu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having little power or strength, having short\n breath, asthmatic; {#˚RaSca kriyAsu Bavati#} <ls>Suśr.</ls>\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40612,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-prARa, -asu#}@}",
+                        "S_M_ ({@{#-RaH#}@})"
+                    ],
+                    "_banner": "({@{#-RaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpaprARaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 slight breathing or weak aspiration.\n",
+                        ".²2 (in <ab>gram.</ab>) a name given to the unaspirated letters of the alphabet\n (in pronouncing which little effort is required); {#ayugmA vargayamagA#}\n {#yaRaScAlpAsavaH smftAH#} <ls>Sk.</ls> {%<ab>i. e.</ab>%} the vowels, semivowels, nasals and\n the letters {#k c w t p g j q d b#}.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40618,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-bala#}@}"
+            ],
+            "_banner": ".{@{#-bala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpabala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "weak, feeble, having little strength.\n"
+            ]
+        },
+        {
+            "__line": 40619,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-bADa#}@}"
+            ],
+            "_banner": ".{@{#-bADa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpabADa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "causing little annoyance or inconvenience, not very\n harmful; {#na nizeDyo'lpabADastu#} <ls>Y. 2. 156</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40621,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-budDi, -mati#}@}"
+            ],
+            "_banner": ".{@{#-budDi, -mati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpabudDi"
+                },
+                {
+                    "Right": "alpamati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "weak-minded, unwise, silly, ignorant; <ls>Ms. 12. 74</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40622,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-BAgya#}@}"
+            ],
+            "_banner": ".{@{#-BAgya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaBAgya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unfortunate.\n"
+            ]
+        },
+        {
+            "__line": 40623,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-BAzin#}@}"
+            ],
+            "_banner": ".{@{#-BAzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaBAzin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "speaking little, taciturn.\n"
+            ]
+        },
+        {
+            "__line": 40624,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-maDyama#}@}"
+            ],
+            "_banner": ".{@{#-maDyama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpamaDyama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "slender-waisted.\n"
+            ]
+        },
+        {
+            "__line": 40625,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-mAtram#}@}"
+            ],
+            "_banner": ".{@{#-mAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpamAtram"
+                }
+            ],
+            "_meanings": [
+                ".²1 a little, a little merely. ",
+                ".²2 a short time, a few moments.\n"
+            ]
+        },
+        {
+            "__line": 40627,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-mArizaH#}@}"
+            ],
+            "_banner": ".{@{#-mArizaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpamArizaH"
+                }
+            ],
+            "_gram": [
+                "[{#alpaH mArizaH SAka˚ karmaDA˚#}]"
+            ],
+            "_meanings": [
+                "a kind of amaranth\n ({#SAka#}) Amaranthus Polygamus (<lang>Mar.</lang> <ns>{#tAMduLajA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 40629,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-mUrti#}@}"
+            ],
+            "_banner": ".{@{#-mUrti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpamUrti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "small-bodied, diminutive, dwarfish.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 40630,
+                    "_ancestry": [
+                        "L_ 4742",
+                        "B_ {#alpa#}",
+                        "S_ .{@{#-mUrti#}@}",
+                        "S_M_ ({@{#-rtiH#}@}"
+                    ],
+                    "_banner": "({@{#-rtiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "alpamUrtiH"
+                        }
+                    ],
+                    "_gram": [
+                        "{%f.%})"
+                    ],
+                    "_meanings": [
+                        "a small figure or object.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 40631,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-mUlya#}@}"
+            ],
+            "_banner": ".{@{#-mUlya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpamUlya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of small value, cheap.\n"
+            ]
+        },
+        {
+            "__line": 40632,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-meDas#}@}"
+            ],
+            "_banner": ".{@{#-meDas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpameDas"
+                }
+            ],
+            "_meanings": [
+                "(see <ls>Kāśi.</ls> on <ls>P. V. 4. 122.</ls>) {%a.%} of little understanding,\n ignorant, silly. {#puruzasyAlpameDasaH#} <ls>Kaṭh. 1. 8</ls>; {#tadBavatyalpameDasAm#} <ls>Bg. 7. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40634,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-vayas#}@}"
+            ],
+            "_banner": ".{@{#-vayas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpavayas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "young in age, youthful.\n"
+            ]
+        },
+        {
+            "__line": 40635,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-vartikA#}@}"
+            ],
+            "_banner": ".{@{#-vartikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpavartikA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a bird (<lang>Mar.</lang> <ns>{#gAMjIRa#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 40636,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpavAdin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "speaking little, taciturn.\n"
+            ]
+        },
+        {
+            "__line": 40637,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-vidya#}@}"
+            ],
+            "_banner": ".{@{#-vidya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpavidya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "ignorant, ill-taught, uneducated; <ls>Ms. 11. 36</ls>.\n"
+            ]
+        },
+        {
+            "__line": 40638,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-vizaya#}@}"
+            ],
+            "_banner": ".{@{#-vizaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpavizaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 of limited range or capacity; {#kva cAlpavizayA#}\n {#matiH#} <ls>R. 1. 2</ls>.\n",
+                ".²2 engaged in trifling matters.\n"
+            ]
+        },
+        {
+            "__line": 40641,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-Sakti#}@}"
+            ],
+            "_banner": ".{@{#-Sakti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaSakti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of little strength, weak, feeble.\n"
+            ]
+        },
+        {
+            "__line": 40642,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-SamI#}@}"
+            ],
+            "_banner": ".{@{#-SamI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpaSamI"
+                }
+            ],
+            "_meanings": [
+                "a small tree like {#SamI#}.\n"
+            ]
+        },
+        {
+            "__line": 40643,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-sattva#}@}"
+            ],
+            "_banner": ".{@{#-sattva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpasattva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Having little strength or courage; <ls>Ks.</ls>\n"
+            ]
+        },
+        {
+            "__line": 40644,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-saras#}@}"
+            ],
+            "_banner": ".{@{#-saras#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpasaras"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a basin, a small pond (one which is shallow or dry\n in hot seasons).\n"
+            ]
+        },
+        {
+            "__line": 40646,
+            "_ancestry": [
+                "L_ 4742",
+                "B_ {#alpa#}",
+                "S_ .{@{#-sAra#}@}"
+            ],
+            "_banner": ".{@{#-sAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alpasAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Of little value; {#dravyARAmalpasArARAM steyam#} <ls>Ms. 11. 164</ls>."
             ]
         }
     ]

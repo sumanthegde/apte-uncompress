@@ -1,38 +1,260 @@
 {
-    "__line": 153605,
+    "__line": 162417,
     "_ancestry": [
         "L_ 18275",
-        "B_ {#pariSuzka#}"
+        "B_ {#nata#}"
     ],
-    "_banner": "{#pariSuzka#}",
+    "_banner": "{#nata#}",
     "_bannerExp": [
         {
-            "Right": "pariSuzka"
+            "Right": "nata"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#nam-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Thoroughly\ndried, completely dried or parched\nup; {#tfzA mahatyA pariSuzkatAlavaH#}  \n<ls>Rs. 1. 11.</ls> ",
-        "{@--2@} Withered, shrivelled, hollow\n(as cheeks). "
+        ".²1 Bent, bowed, stooping, inclined.\n",
+        ".²2 Sunk, depressed.\n",
+        ".²3 Crooked, curved.\n",
+        ".²4 Bowing to, saluting; {#suvismitaM kftyamajaM nato'smi tam#} <ls>Bhāg. 5. 18. 4</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 153609,
+            "__line": 162422,
             "_ancestry": [
                 "L_ 18275",
-                "B_ {#pariSuzka#}",
-                "M_ {#--zkaM#}"
+                "B_ {#nata#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--zkaM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pariSuzkaM"
+                    "Right": "natam"
                 }
             ],
             "_meanings": [
-                "A kind of fried\nmeat."
+                ".²1 The distance of any planet from the meridian.\n",
+                ".²2 The zenith distance at a meridian transit.\n",
+                ".²3 Inclination.\n",
+                ".²4 The buttocks (<ab>cf.</ab> {#natatawe#}); <ls>L. D. B.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 162428,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-aMSaH#}@}"
+            ],
+            "_banner": ".{@{#-aMSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natAMSaH"
+                }
+            ],
+            "_meanings": [
+                "zenith distance.\n"
+            ]
+        },
+        {
+            "__line": 162429,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-aNga#}@}"
+            ],
+            "_banner": ".{@{#-aNga#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natANga"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 bending the body.\n",
+                ".²2 stooping, bowed.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 162432,
+                    "_ancestry": [
+                        "L_ 18275",
+                        "B_ {#nata#}",
+                        "S_ .{@{#-aNga#}@}",
+                        "S_M_ ({@{#-NgI#}@})"
+                    ],
+                    "_banner": "({@{#-NgI#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "natANgI"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a woman with stooping limbs; {#natANgI mAtaNgI ruciragatiBaNgI BagavatI .#}\n {#satI SamBoramBoruhacawulacakzurvijayate ..#} <ls>Ā. L. 4</ls>.\n",
+                        ".²2 a woman in general; {#tAmIzatpracalavilocanAM natANgImAliNganpavana#}\n {#mama spfSANgamaNgam#} <ls>Māl. 1. 38</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 162437,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-unnata#}@}"
+            ],
+            "_banner": ".{@{#-unnata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natonnata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "high and low; {#asminnalakzitanatonnataBUmiBAge#}\n {#mArge padAni Kalu te vizamIBavanti#} <ls>Ś. 4. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 162439,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-kAlaH, -GawikA#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH, -GawikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natakAlaH"
+                },
+                {
+                    "Right": "nataGawikA"
+                }
+            ],
+            "_meanings": [
+                "an hour-angle; distance in time from meridian.\n"
+            ]
+        },
+        {
+            "__line": 162440,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-jyA#}@}"
+            ],
+            "_banner": ".{@{#-jyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natajyA"
+                }
+            ],
+            "_meanings": [
+                "the sine of the hour-angle.\n"
+            ]
+        },
+        {
+            "__line": 162441,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-nAqI, -nAqikA#}@}"
+            ],
+            "_banner": ".{@{#-nAqI, -nAqikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natanAqI"
+                },
+                {
+                    "Right": "natanAqikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the distance in time of any planet from the meridian.\n",
+                ".²2 any hour of birth after noon or before midnight.\n"
+            ]
+        },
+        {
+            "__line": 162444,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-nABi#}@}"
+            ],
+            "_banner": ".{@{#-nABi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natanABi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "thin, slender; {#tasyAH pravizwA natanABiranDraM#}\n {#rarAja tanvI navalomarAjiH#} <ls>Ku. 1. 38</ls>.\n"
+            ]
+        },
+        {
+            "__line": 162446,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-nAsika#}@}"
+            ],
+            "_banner": ".{@{#-nAsika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "natanAsika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "flat-nosed.\n"
+            ]
+        },
+        {
+            "__line": 162447,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-parvan#}@}"
+            ],
+            "_banner": ".{@{#-parvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nataparvan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "flat-jointed.\n"
+            ]
+        },
+        {
+            "__line": 162448,
+            "_ancestry": [
+                "L_ 18275",
+                "B_ {#nata#}",
+                "S_ .{@{#-BrUH#}@}"
+            ],
+            "_banner": ".{@{#-BrUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nataBrUH"
+                }
+            ],
+            "_meanings": [
+                "a woman with curved eye-brows; {#yadi haMsa gata 'na te#}\n {#nataBrUH saraso roDasi dfkpaTaM priyA me#} <ls>V. 4. 32</ls>."
             ]
         }
     ]

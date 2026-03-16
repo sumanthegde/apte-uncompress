@@ -1,20 +1,84 @@
 {
-    "__line": 250388,
+    "__line": 276386,
     "_ancestry": [
         "L_ 29941",
-        "B_ {#sahizRutA --tvaM#}"
+        "B_ {#viBakta#}"
     ],
-    "_banner": "{#sahizRutA --tvaM#}",
+    "_banner": "{#viBakta#}",
     "_bannerExp": [
         {
-            "Right": "sahizRutA"
-        },
-        {
-            "Right": "sahizRutvaM"
+            "Right": "viBakta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "{@--1@} Power to bear or\nsupport. ",
-        "{@--2@} Patience, resignation."
+        ".²1 Divided, partitioned (as property <ab>&c.</ab>).\n",
+        ".²2 Divided, separated in interest, as in {#viBaktA BrAtaraH#}; {#viBaktAH#}\n {#sahajIvanto viBajeran punaryadi#} <ls>Ms. 9. 210</ls>.\n",
+        ".²3 Parted, separated, made distinct; <ls>Śi. 1. 3</ls>; {#vAyavIyErvigaRyante#}\n {#viBaktAH paramARavaH#} <ls>Y. 3. 104</ls>.\n",
+        ".²4 Different, multifarious.\n",
+        ".²5 Retired, secluded.\n",
+        ".²6 Regular, symmetrical.\n",
+        ".²7 Ornamented.\n",
+        ".²8 Measured.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 276397,
+            "_ancestry": [
+                "L_ 29941",
+                "B_ {#viBakta#}",
+                "M_ .{@{#-ktaH#}@}"
+            ],
+            "_banner": ".{@{#-ktaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viBaktaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Kārtikeya.\n"
+            ]
+        },
+        {
+            "__line": 276398,
+            "_ancestry": [
+                "L_ 29941",
+                "B_ {#viBakta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viBaktam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Solitude, retirement.\n",
+                ".²2 A share.\n",
+                ".²3 Property (divided).\n",
+                ".²4 Separation.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 276404,
+            "_ancestry": [
+                "L_ 29941",
+                "B_ {#viBakta#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viBaktajaH"
+                }
+            ],
+            "_meanings": [
+                "a son born after partition of the family-property (between\n his parents and brothers)."
+            ]
+        }
     ]
 }

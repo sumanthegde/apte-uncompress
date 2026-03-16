@@ -1,43 +1,91 @@
 {
-    "__line": 211821,
+    "__line": 224536,
     "_ancestry": [
         "L_ 24988",
-        "B_ {#vanus#}"
+        "B_ {#Bavizya#}"
     ],
-    "_banner": "{#vanus#}",
+    "_banner": "{#Bavizya#}",
     "_bannerExp": [
         {
-            "Right": "vanus"
+            "Right": "Bavizya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Eager, anxious for. \n\n",
-        "{@--2@} Devoted or attached to. ",
-        "{@--3@} A\nworshipper, one who honours. "
+        ".²1 Future; {#nEtadanye karizyanti BavizyA vasuDADipAH#} <ls>Mb. 14. 87. 21</ls>.\n",
+        ".²2 Imminent, impending; {#SrutvA sAMgrAmikIM vArtAM BavizyAM svAminaM#}\n {#prati#} <ls>Pt. 1. 91</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 211824,
+            "__line": 224540,
             "_ancestry": [
                 "L_ 24988",
-                "B_ {#vanus#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#Bavizya#}",
+                "M_ .{@{#-zyam#}@}"
             ],
+            "_banner": ".{@{#-zyam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vanus"
+                    "Right": "Bavizyam"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                "The future, futurity.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 224542,
+            "_ancestry": [
+                "L_ 24988",
+                "B_ {#Bavizya#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BavizyakAlaH"
+                }
             ],
             "_meanings": [
-                "{@--1@} A plotter, an enemy ({#hiMsaka#}). ",
-                "{@--2@}\nPossessing, enjoying, using."
+                "the future tense.\n"
+            ]
+        },
+        {
+            "__line": 224543,
+            "_ancestry": [
+                "L_ 24988",
+                "B_ {#Bavizya#}",
+                "S_ .{@{#-jYAnam#}@}"
+            ],
+            "_banner": ".{@{#-jYAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BavizyajYAnam"
+                }
+            ],
+            "_meanings": [
+                "knowledge of futurity.\n"
+            ]
+        },
+        {
+            "__line": 224544,
+            "_ancestry": [
+                "L_ 24988",
+                "B_ {#Bavizya#}",
+                "S_ .{@{#-purARam#}@}"
+            ],
+            "_banner": ".{@{#-purARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BavizyapurARam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of one of the 18 Purāṇas."
             ]
         }
     ]

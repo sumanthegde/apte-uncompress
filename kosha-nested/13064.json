@@ -1,60 +1,195 @@
 {
-    "__line": 109797,
+    "__line": 111218,
     "_ancestry": [
         "L_ 13064",
-        "B_ {#catura#}"
+        "B_ {#kOmAra#}"
     ],
-    "_banner": "{#catura#}",
+    "_banner": "{#kOmAra#}",
     "_bannerExp": [
         {
-            "Right": "catura"
+            "Right": "kOmAra"
+        },
+        {
+            "Right": "kOmArI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#cat-urac#}]"
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#kumAra-aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Clever,\nskilful, ingenious, sharp-witted;\n{#sarvAtmanA ratikaTAcatureva dUtI#} <ls>Mu. 3. 9</ls>;\n<ls>Amaru. 15</ls>, <ls n=\"Amaru.\">44</ls>; {#mfgayA JAra catureva#}\n{#kAminI#} <ls>R. 9. 69</ls>; <ls n=\"R.\">18. 15.</ls> ",
-        "{@--2@} Quick,\nswift. ",
-        "{@--3@} Charming, beautiful, \nlovely, agreeable; {#na punareti gataM caturaM vayaH#}\n<ls>R. 9. 47</ls>; <ls>Ku. 1. 47</ls>; <ls n=\"Ku.\">3. 5</ls>; <ls n=\"Ku.\">5. 49.</ls>\n"
+        ".²1 Juvenile, youthful, virgin, maidenly (of men and women); {#kOmAraH#}\n {#patiH#} a man who marries a virgin; {#kOmArI BAryA#} a virgin wife; <ab>cf.</ab>\n <ls>Mbh.</ls> on <ls>P. IV. 2. 13</ls>.\n",
+        ".²2 Soft, tender.\n",
+        ".²3 Belonging to the god of war; <ls>Māl. 1. 1</ls>.\n",
+        ".²4 Of principal incarnation; {#sa eva praTamaM devaH kOmAraM sargamAsTitaH#}\n <ls>Bhāg. 1. 3. 6</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 109805,
+            "__line": 111226,
             "_ancestry": [
                 "L_ 13064",
-                "B_ {#catura#}",
-                "M_ {#--raH#}"
+                "B_ {#kOmAra#}",
+                "M_ .{@{#-rI#}@}"
             ],
-            "_banner": "{#--raH#}",
+            "_banner": ".{@{#-rI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "caturaH"
+                    "Right": "kOmArI"
                 }
             ],
             "_meanings": [
-                "{@--1@} A round pillow. ",
-                "{@--2@} Crooked\ngait. ",
-                "{@--3@} An elephant's stable. "
+                ".²1 The wife of one who has not married another wife.\n",
+                ".²2 The Śakti (power) of Kārtikeya.\n"
             ]
         },
         {
-            "__line": 109806,
+            "__line": 111229,
             "_ancestry": [
                 "L_ 13064",
-                "B_ {#catura#}",
-                "M_ {#--raM#}"
+                "B_ {#kOmAra#}",
+                "M_ .{@{#-ram#}@}"
             ],
-            "_banner": "{#--raM#}",
+            "_banner": ".{@{#-ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "caturaM"
+                    "Right": "kOmAram"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nCleverness, ingenuity. ",
-                "{@--2@} An \nelephant's stable."
+                ".²1 Childhood (to the age of five).\n",
+                ".²2 Maidenhood (to the age of sixteen), virginity; {#pitA rakzati kOmAre#}\n {#BartA rakzati yOvane#} <ls>Ms. 9. 3</ls>; {#dehino'smin yaTA dehe kOmAraM yOvanaM#}\n {#jarA#} <ls>Bg. 2. 13</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 111235,
+            "_ancestry": [
+                "L_ 13064",
+                "B_ {#kOmAra#}",
+                "S_ .{@{#-(brahma)cArin#}@}"
+            ],
+            "_banner": ".{@{#-(brahma)cArin#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kOmAra#} S_ .{@{#-(brahma)cArin#}@}"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "abstinent, chaste; <ls>Ks. 66. 155</ls>.\n"
+            ]
+        },
+        {
+            "__line": 111236,
+            "_ancestry": [
+                "L_ 13064",
+                "B_ {#kOmAra#}",
+                "S_ .{@{#-tantram#}@}"
+            ],
+            "_banner": ".{@{#-tantram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOmAratantram"
+                }
+            ],
+            "_meanings": [
+                "the section of a medical work, treating of the rearing\n or education of children.\n"
+            ]
+        },
+        {
+            "__line": 111238,
+            "_ancestry": [
+                "L_ 13064",
+                "B_ {#kOmAra#}",
+                "S_ .{@{#-banDakI#}@}"
+            ],
+            "_banner": ".{@{#-banDakI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOmArabanDakI"
+                }
+            ],
+            "_meanings": [
+                "a harlot; <ls>Māl. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 111239,
+            "_ancestry": [
+                "L_ 13064",
+                "B_ {#kOmAra#}",
+                "S_ .{@{#-Bftyam#}@}"
+            ],
+            "_banner": ".{@{#-Bftyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOmAraBftyam"
+                }
+            ],
+            "_meanings": [
+                "the rearing and general treatment of children.\n"
+            ]
+        },
+        {
+            "__line": 111240,
+            "_ancestry": [
+                "L_ 13064",
+                "B_ {#kOmAra#}",
+                "S_ .{@{#-rAjyam#}@}"
+            ],
+            "_banner": ".{@{#-rAjyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOmArarAjyam"
+                }
+            ],
+            "_meanings": [
+                "the position of an heir-apparent; {#kOmAra#} (<ab>v. l.</ab> {#kumAra#})\n {#rAjye jIvasva#} <ls>Rām. 2. 58. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 111242,
+            "_ancestry": [
+                "L_ 13064",
+                "B_ {#kOmAra#}",
+                "S_ .{@{#-vrataH#}@}"
+            ],
+            "_banner": ".{@{#-vrataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOmAravrataH"
+                }
+            ],
+            "_gram": [
+                "({@{#tam#}@})"
+            ],
+            "_meanings": [
+                "a vow of abstinence.\n"
+            ]
+        },
+        {
+            "__line": 111243,
+            "_ancestry": [
+                "L_ 13064",
+                "B_ {#kOmAra#}",
+                "S_ .{@{#-hara#}@}"
+            ],
+            "_banner": ".{@{#-hara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOmArahara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 marrying or gaining a woman as a girl.\n",
+                ".²2 devirginating; {#yaH kOmAraharaH sa eva hi varaH#} <ls>K. P. 1</ls>."
             ]
         }
     ]

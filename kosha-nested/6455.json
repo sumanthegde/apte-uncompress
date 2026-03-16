@@ -1,21 +1,60 @@
 {
-    "__line": 56401,
+    "__line": 54279,
     "_ancestry": [
         "L_ 6455",
-        "B_ {#ApfcCA#}"
+        "B_ {#AkzapAda#}"
     ],
-    "_banner": "{#ApfcCA#}",
+    "_banner": "{#AkzapAda#}",
     "_bannerExp": [
         {
-            "Right": "ApfcCA"
+            "Right": "AkzapAda"
+        },
+        {
+            "Right": "AkzapAdI"
         }
     ],
     "_gram": [
-        "[{#pracC-aN#}]"
+        "{%a.%}",
+        "({#-dI#}|{%f.%})",
+        "[{#akzapAda-aR#}]"
     ],
     "_meanings": [
-        "{@--1@} \nConversation. ",
-        "{@--2@} Bidding farewell. ",
-        "{@--3@}\nCuriosity."
+        "Taught by Akṣapāda or Gautama.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 54281,
+            "_ancestry": [
+                "L_ 6455",
+                "B_ {#AkzapAda#}",
+                "M_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AkzapAdaH"
+                }
+            ],
+            "_meanings": [
+                "A follower of the Nyāya system of philosophy, a logician.\n"
+            ]
+        },
+        {
+            "__line": 54282,
+            "_ancestry": [
+                "L_ 6455",
+                "B_ {#AkzapAda#}",
+                "M_ .{@{#-dam#}@}"
+            ],
+            "_banner": ".{@{#-dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AkzapAdam"
+                }
+            ],
+            "_meanings": [
+                "The Nyāya system of philosophy."
+            ]
+        }
     ]
 }

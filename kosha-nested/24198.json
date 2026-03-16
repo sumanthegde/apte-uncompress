@@ -1,22 +1,41 @@
 {
-    "__line": 205171,
+    "__line": 215785,
     "_ancestry": [
         "L_ 24198",
-        "B_ {#rIv#}"
+        "B_ {#prodGuz#}"
     ],
-    "_banner": "{#rIv#}",
+    "_banner": "{#prodGuz#}",
     "_bannerExp": [
         {
-            "Right": "rIv"
+            "Right": "prodGuz"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>",
-        "({#raviti-te#})"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} To take.\n",
-        "{@--2@} To cover."
+        "²1 To sound forth.\n",
+        ".²2 To fill with sounds or cries. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 215787,
+            "_ancestry": [
+                "L_ 24198",
+                "B_ {#prodGuz#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "prodGuz"
+                }
+            ],
+            "_meanings": [
+                ".²1 To cause to resound.\n",
+                ".²2 To proclaim loudly."
+            ]
+        }
     ]
 }

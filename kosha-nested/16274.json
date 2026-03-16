@@ -1,19 +1,66 @@
 {
-    "__line": 136660,
+    "__line": 141122,
     "_ancestry": [
         "L_ 16274",
-        "B_ {#naciketas#}"
+        "B_ {#talina#}"
     ],
-    "_banner": "{#naciketas#}",
+    "_banner": "{#talina#}",
     "_bannerExp": [
         {
-            "Right": "naciketas"
+            "Right": "talina"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "[{#tal-inan#} <ls>Uṇ. 2. 53</ls>]"
     ],
     "_meanings": [
-        "An epithet of Agni."
+        ".²1 Thin, meagre, spare.\n",
+        ".²2 Small, little.\n",
+        ".²3 Clear, clean.\n",
+        ".²4 Situated under or beneath.\n",
+        ".²5 Weak.\n",
+        ".²6 Separate.\n",
+        ".²7 Fine, very thin; {#kzoRIkAntamfRAlatantutalinAstAmyanti tArApateH#} <ls>Vikr. 11. 80</ls>.\n",
+        ".²8 Covered with; <ls>Vikr. 14. 61</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 141131,
+            "_ancestry": [
+                "L_ 16274",
+                "B_ {#talina#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "talinam"
+                }
+            ],
+            "_meanings": [
+                "A bed, couch.\n"
+            ]
+        },
+        {
+            "__line": 141132,
+            "_ancestry": [
+                "L_ 16274",
+                "B_ {#talina#}",
+                "M_ .{@{#-udarI#}@}"
+            ],
+            "_banner": ".{@{#-udarI#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: talina udarI"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "a slender-waisted woman; {#snAnAvasAne talinodarIRAmakftrimaM#}\n {#maRqanamAvirAsIt#} <ls>Vikr. 10. 88</ls>."
+            ]
+        }
     ]
 }

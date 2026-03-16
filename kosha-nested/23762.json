@@ -1,38 +1,64 @@
 {
-    "__line": 200542,
+    "__line": 212098,
     "_ancestry": [
         "L_ 23762",
-        "B_ {#yAjYiya#}"
+        "B_ {#prahAraH#}"
     ],
-    "_banner": "{#yAjYiya#}",
+    "_banner": "{#prahAraH#}",
     "_bannerExp": [
         {
-            "Right": "yAjYiya"
+            "Right": "prahAraH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Sacrificial. ",
-        "{@--2@} Fit for\na sacrifice. "
+        ".²1 Striking, beating, hitting; {#matakalpaH prahArArto jIvannapi viSudDapati#} <ls>Y. 3. 248</ls>.\n",
+        ".²2 Wounding, killing.\n",
+        ".²3 A stroke, blow, hit, knock, thump; {#prahAramUrcCapagame raTasTAH#}\n <ls>R. 7. 44</ls>; {#muzwiprahAra, talaprahAra#} <ab>&c.</ab>\n",
+        ".²4 A cut or thrust, as in {#KaqgaprahAra#}.\n",
+        ".²5 A kick; as in {#pAdaprahAra#}; {#lattAprahAra#}.\n",
+        ".²6 Shooting.\n",
+        ".²7 A battle ({#raRa#}); {#prahAre ca parAkAntaH SUraH paYcatvamAgataH#}\n\n <ls>Rām. 4. 23. 12</ls>.\n",
+        ".²8 A Necklace.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 200543,
+            "__line": 212111,
             "_ancestry": [
                 "L_ 23762",
-                "B_ {#yAjYiya#}",
-                "M_ {#--yaH#}"
+                "B_ {#prahAraH#}",
+                "S_ .{@{#-Arta#}@}"
             ],
-            "_banner": "{#--yaH#}",
+            "_banner": ".{@{#-Arta#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yAjYiyaH"
+                    "Right": "prahArArta"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "One skilled in \n\nsaerificial rites."
+                "wounded by a blow.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 212112,
+                    "_ancestry": [
+                        "L_ 23762",
+                        "B_ {#prahAraH#}",
+                        "S_ .{@{#-Arta#}@}",
+                        "S_M_ ({@{#-rtam#}@})"
+                    ],
+                    "_banner": "({@{#-rtam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "prahArArtam"
+                        }
+                    ],
+                    "_meanings": [
+                        "acute pain caused by a wound."
+                    ]
+                }
             ]
         }
     ]

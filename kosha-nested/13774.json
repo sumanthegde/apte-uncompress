@@ -1,16 +1,42 @@
 {
-    "__line": 115162,
+    "__line": 117590,
     "_ancestry": [
         "L_ 13774",
-        "B_ {#jaMBanaM#}"
+        "B_ {#gaRin#}"
     ],
-    "_banner": "{#jaMBanaM#}",
+    "_banner": "{#gaRin#}",
     "_bannerExp": [
         {
-            "Right": "jaMBanaM"
+            "Right": "gaRin"
+        },
+        {
+            "Right": "gaRinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
+    ],
     "_meanings": [
-        "Sexual intercourse."
+        "Having a flock or troop (of anything);\n {#SvagaRin#} ‘having a pack of hounds’; <ls>R. 9. 53</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 117591,
+            "_ancestry": [
+                "L_ 13774",
+                "B_ {#gaRin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gaRin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A teacher (having\n a class of pupils)."
+            ]
+        }
     ]
 }

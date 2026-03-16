@@ -1,18 +1,85 @@
 {
-    "__line": 218718,
+    "__line": 235278,
     "_ancestry": [
         "L_ 25890",
-        "B_ {#vitap#}"
+        "B_ {#maSakaH#}"
     ],
-    "_banner": "{#vitap#}",
+    "_banner": "{#maSakaH#}",
     "_bannerExp": [
         {
-            "Right": "vitap"
+            "Right": "maSakaH"
         }
     ],
+    "_gram": [
+        "[{#maS-vun#}]"
+    ],
     "_meanings": [
-        "{@--1@} <ab>A.</ab> To shine;  \n{#ravirbitapate'tyarTaM#} <ls>Bk. 8. 14.</ls> ",
-        "{@--2@} To warm,\nheat. ",
-        "{@--3@} To warm oneself."
+        ".²1 A mosquito, gnat; {#sarvaM Kalasya caritaM maSakaH karoti#} <ls>H. 1. 78</ls>; <ls>Ms. 1. 45</ls>.\n",
+        ".²2 A particular disease of the skin.\n",
+        ".²3 A leather water-bag.\n",
+        ".²4 <ab>N.</ab> of a district in Śākadvīpa inhabited by Kṣatriyas.\n",
+        ".²5 Gadfly, any fly that stings ({#daMSamaSaka#}); <ls>Mb. 3. 141. 27</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 235284,
+            "_ancestry": [
+                "L_ 25890",
+                "B_ {#maSakaH#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maSakI"
+                }
+            ],
+            "_meanings": [
+                "A female mosquito; {#madgehe maSakIva mUzakavaDUH … …#} <ls>Sūkti. 5. 19</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 235286,
+            "_ancestry": [
+                "L_ 25890",
+                "B_ {#maSakaH#}",
+                "S_ .{@{#-kuwiH, -wI#}@}"
+            ],
+            "_banner": ".{@{#-kuwiH, -wI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maSakakuwiH"
+                },
+                {
+                    "Right": "maSakakuwI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-varaRam#}@}"
+            ],
+            "_meanings": [
+                "a whisk for scaring away mosquitos.\n"
+            ]
+        },
+        {
+            "__line": 235288,
+            "_ancestry": [
+                "L_ 25890",
+                "B_ {#maSakaH#}",
+                "S_ .{@{#-harI#}@}"
+            ],
+            "_banner": ".{@{#-harI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "maSakaharI"
+                }
+            ],
+            "_meanings": [
+                "a mosquito-curtain."
+            ]
+        }
     ]
 }

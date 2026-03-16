@@ -1,53 +1,58 @@
 {
-    "__line": 88103,
+    "__line": 87214,
     "_ancestry": [
         "L_ 10480",
-        "B_ {#kalaSaH, --saH#}"
+        "B_ {#UrRu#}"
     ],
-    "_banner": "{#kalaSaH, --saH#}",
+    "_banner": "{#UrRu#}",
     "_bannerExp": [
         {
-            "Right": "kalaSaH"
-        },
-        {
-            "Right": "kalaSaM"
-        },
-        {
-            "Right": "kalasaH"
-        },
-        {
-            "Right": "kalasaM"
+            "Right": "UrRu"
         }
     ],
     "_gram": [
-        "({#SaM, --saM#})",
-        "[{#kena#}\n{#jalena laSa-sa-ti#} <ls>Tv.</ls>]"
+        "€2",
+        "<ab>U.</ab>",
+        "[{#UrRo(rRO)ti, UrRute, OrRot-OrRuta, UrRunAva-nuve#},\n {#OrRa(rRA)(rRu)vIt, UrRa(rRu)vizyati-te, UrRa(rRu)vitum, UrRita#}]"
     ],
     "_meanings": [
-        "{@--1@} A pitcher,\nwater pot, a jar, dish; {#statO mAMsagraTI#}\n{#kanakakalaSAvityupamitO#} <ls>Bh. 3. 20</ls>, <ls n=\"Bh.\">1. 97</ls>;\n{#stanakalasa#} <ls>Amaru. 54.</ls> {#°janman#}, \n{#°udBavaH#} <ab>N.</ab> of Agastya. ",
-        "{@--2@} A churn. ",
-        "{@--3@}\nA kind of measure. ",
-        "{@--4@} A rounded\npinnacle on the top of a temple.\n"
+        ".²1 To cover, surround, hide; {#UrRunAva sa SastrOGErvAnarARAmanIkinIm#}\n <ls>Bk. 14. 103</ls>, <ls n=\"Bk.\">3. 47</ls>; <ls>Śi. 20. 14</ls>.\n",
+        ".²2 To cover oneself. "
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 88111,
+            "__line": 87218,
             "_ancestry": [
                 "L_ 10480",
-                "B_ {#kalaSaH, --saH#}",
-                "S_  {#--udaDiH#}"
+                "B_ {#UrRu#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": " {#--udaDiH#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "kalaSodaDiH"
-                },
-                {
-                    "Right": "kalasodaDiH"
+                    "Right": "UrRu"
                 }
             ],
-            "_meanings": [
-                "the ocean."
+            "_gram": [
+                "{#UrRAvayati#}"
+            ]
+        },
+        {
+            "__line": 87218,
+            "_ancestry": [
+                "L_ 10480",
+                "B_ {#UrRu#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "UrRu"
+                }
+            ],
+            "_gram": [
+                "{#UrRunUzati#}",
+                "{#UrRuna(nu)vizati#}"
             ]
         }
     ]

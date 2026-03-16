@@ -1,21 +1,80 @@
 {
-    "__line": 17818,
+    "__line": 15745,
     "_ancestry": [
         "L_ 1784",
-        "B_ {#anuBAvin#}"
+        "B_ {#anutpattiH#}"
     ],
-    "_banner": "{#anuBAvin#}",
+    "_banner": "{#anutpattiH#}",
     "_bannerExp": [
         {
-            "Right": "anuBAvin"
+            "Right": "anutpattiH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} Perceiving, \nknowing, showing signs of feeling. ",
-        "{@--2@}\nAn eye-witness; {#anuBAvI tu yaH#} \n{#kaScitkuryAtsAkzyaM vivAdinAM#} <ls>Ms. 8. 69.</ls>\n",
-        "{@--3@} Being or coming after."
+        "Failure, non-production.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 15746,
+            "_ancestry": [
+                "L_ 1784",
+                "B_ {#anutpattiH#}",
+                "M_ .{@{#-ttika#}@}"
+            ],
+            "_banner": ".{@{#-ttika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anutpattika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Not yet produced.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 15748,
+            "_ancestry": [
+                "L_ 1784",
+                "B_ {#anutpattiH#}",
+                "S_ .{@{#-DarmakzAntiH#}@}"
+            ],
+            "_banner": ".{@{#-DarmakzAntiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anutpattiDarmakzAntiH"
+                }
+            ],
+            "_meanings": [
+                "preparation for a future state, acquiescence in\n the state and moral condition which is yet to come.\n"
+            ]
+        },
+        {
+            "__line": 15750,
+            "_ancestry": [
+                "L_ 1784",
+                "B_ {#anutpattiH#}",
+                "S_ .{@{#-samaH, -mA#}@}"
+            ],
+            "_banner": ".{@{#-samaH, -mA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anutpattisamaH"
+                },
+                {
+                    "Right": "anutpattisamA"
+                }
+            ],
+            "_meanings": [
+                "a method of arguing against a thing by attempting\n to prove that nothing exists from which it could spring."
+            ]
+        }
     ]
 }

@@ -1,41 +1,96 @@
 {
-    "__line": 241080,
+    "__line": 265342,
     "_ancestry": [
         "L_ 28701",
-        "B_ {#saMSru#}"
+        "B_ {#valgu#}"
     ],
-    "_banner": "{#saMSru#}",
+    "_banner": "{#valgu#}",
     "_bannerExp": [
         {
-            "Right": "saMSru"
+            "Right": "valgu"
         }
     ],
     "_gram": [
-        "{c5c}",
-        "<ab>U.</ab>"
+        "{%a.%}",
+        "[{#val saMbaraRe u guk ca#} <ls>Uṇ. 1. 19</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To listen to;  \n{#saMSfRoti na coktani#} <ls>Bk. 5. 19</ls>; <ls n=\"Bk.\">6. 5</ls>;\n(but <ab>Atm.</ab> when used \nintransitively); {#hitAnna yaH saMSfRute sa kiMpraBuH#}\n<ls>Ki. 1. 5.</ls> ",
-        "{@--2@} To promise. "
+        ".²1 Lovely, beautiful, handsome, attractive; {#tadvalgunA yugapadunmizitena#}\n {#tAvat#} <ls>R. 5. 68</ls>; {#jalamaqqukavAdyavalguvalgat …#} <ls>Śi. 5. 29</ls>; <ls>Ki. 18. 11</ls>.\n",
+        ".²2 Sweet; {#Anamya valguvacanErvinivArite'pi#} <ls>Bv. 2. 136</ls>.\n",
+        ".²3 Precious. --"
     ],
     "_morphisms": [
         {
-            "__line": 241084,
+            "__line": 265346,
             "_ancestry": [
                 "L_ 28701",
-                "B_ {#saMSru#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#valgu#}",
+                "M_ {%<ab>adv.</ab>%}"
             ],
+            "_banner": "{%<ab>adv.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "saMSru"
+                    "Right": "valgu"
+                }
+            ],
+            "_meanings": [
+                "Beautifully, splendidly; {#hfdi vAci taTAnyezAM#}\n {#valgu valganti sUktayaH#} <ls>Pt. 1. 62</ls>.\n"
+            ]
+        },
+        {
+            "__line": 265348,
+            "_ancestry": [
+                "L_ 28701",
+                "B_ {#valgu#}",
+                "M_ .{@{#-lguH#}@}"
+            ],
+            "_banner": ".{@{#-lguH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "valguH"
+                }
+            ],
+            "_meanings": [
+                "A goat.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 265350,
+            "_ancestry": [
+                "L_ 28701",
+                "B_ {#valgu#}",
+                "S_ .{@{#-nAda#}@}"
+            ],
+            "_banner": ".{@{#-nAda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "valgunAda"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To tell, narrate, report."
+                "singing sweetly.\n"
+            ]
+        },
+        {
+            "__line": 265351,
+            "_ancestry": [
+                "L_ 28701",
+                "B_ {#valgu#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "valgupatraH"
+                }
+            ],
+            "_meanings": [
+                "a kind of wild pulse."
             ]
         }
     ]

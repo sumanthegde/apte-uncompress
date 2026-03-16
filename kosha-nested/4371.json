@@ -1,23 +1,149 @@
 {
-    "__line": 40164,
+    "__line": 36619,
     "_ancestry": [
         "L_ 4371",
-        "B_ {#avakF#}"
+        "B_ {#ayoni#}"
     ],
-    "_banner": "{#avakF#}",
+    "_banner": "{#ayoni#}",
     "_bannerExp": [
         {
-            "Right": "avakF"
+            "Right": "ayoni"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To bestow, pour\nupon, to shower upon, cover with,\nfill; <ls>Śi. 11. 62</ls>; {#(taM) avAkiran#}\n{#bAlalatAH prasUnEH#} <ls>R. 2. 10</ls>, <ls n=\"R.\">4. 27</ls>; \n\n{#lAjAMjaliBiravakIryamARaH#} <ls>K. 86</ls>;  \n<ls>Ki. 6. 2</ls>; {#avakIryottarIyARi#} <ls>Mb.</ls> \nspreading on the ground; {#tIrTAni avakIrRAni#}\n{#tapasviBiH#} <ls>Mb.</ls> filled with; <ls>Y. 3. 281</ls>;\n<ls>Me. 54.</ls> ",
-        "{@--2@} To pour out, throw out\n<ls>Ms. 6. 48.</ls> ",
-        "{@--3@} To shake off, throw\noff, leave. ",
-        "{@--4@} (<ab>Atm.</ab>) (Used \nreflexively) ({%a%}) To extend, spread itself;\n{#avakirate hastI svayameva#} <ls>Sk.</ls> ({%b%}) To fall\nasunder. ({%c%}) To pass away, fall off.\n({%d%}) To become faithless or untrue."
+        ".²1 Without origin or source, eternal; {#jagadyonirayonistvam#} <ls>Ku. 2. 9</ls>.\n",
+        ".²2 Not born from the womb; born in a manner not approved by law or religion.\n",
+        ".²3 Of unknown family; {#ayoniM ca viyoniM ca na gacCeta vicakzaRaH#} <ls>Mb. 13. 104. 33</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 36623,
+            "_ancestry": [
+                "L_ 4371",
+                "B_ {#ayoni#}",
+                "M_ .{@{#-niH#}@}"
+            ],
+            "_banner": ".{@{#-niH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayoniH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 Not the womb; {#ayonO gacCato yozAM puruzam#} <ls>Y. 2. 293</ls>; <ls>Ms. 11. 174</ls>.\n",
+                ".²2 Not a particular verse of the Sāmaveda.\n"
+            ]
+        },
+        {
+            "__line": 36626,
+            "_ancestry": [
+                "L_ 4371",
+                "B_ {#ayoni#}",
+                "M_ .{@{#-niH#}@}"
+            ],
+            "_banner": ".{@{#-niH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayoniH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Brahmā and Śiva.\n",
+                ".²2 A pestle.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 36630,
+            "_ancestry": [
+                "L_ 4371",
+                "B_ {#ayoni#}",
+                "S_ .{@{#-ja, -janman#}@}"
+            ],
+            "_banner": ".{@{#-ja, -janman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayonija"
+                },
+                {
+                    "Right": "ayonijanman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not born from the womb, not produced in the\n ordinary course of generation; {#SarIraM dviviDaM yonijamayonijaM ceti#}\n <ls>T. S.</ls>; {#tanayAm ayonijAm#} <ls>R. 11. 47</ls>, <ls n=\"R. 11.\">48</ls>; {#kanyAratnamayonijanma BavatAmAste#} <ls>Mv. 1. 30</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 36633,
+                    "_ancestry": [
+                        "L_ 4371",
+                        "B_ {#ayoni#}",
+                        "S_ .{@{#-ja, -janman#}@}",
+                        "S_M_ ({@{#-jaH#}@})"
+                    ],
+                    "_banner": "({@{#-jaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ayonijaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Viṣṇu. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 36633,
+                            "_ancestry": [
+                                "L_ 4371",
+                                "B_ {#ayoni#}",
+                                "S_ .{@{#-ja, -janman#}@}",
+                                "S_M_ ({@{#-jaH#}@})",
+                                "S_M_S_ {#˚ISaH, ISvaraH#}"
+                            ],
+                            "_banner": "{#˚ISaH, ISvaraH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "ayonijeSaH"
+                                },
+                                {
+                                    "Right": "ayonijeSvaraH"
+                                }
+                            ],
+                            "_meanings": [
+                                "<ab>N.</ab> of Śiva.\n."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__line": 36634,
+                    "_ancestry": [
+                        "L_ 4371",
+                        "B_ {#ayoni#}",
+                        "S_ .{@{#-ja, -janman#}@}",
+                        "S_M_ ({@{#-jA#}@})"
+                    ],
+                    "_banner": "({@{#-jA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ayonijA"
+                        }
+                    ],
+                    "_meanings": [
+                        ", {@{#-saMBavA#}@}\n <ab>N.</ab> of Sītā, daughter of Janaka, who was born from a\n furrow in a field; {#rAGavAya tanayAmayonijAM pArTivaH Sriyamiva nyavedayat#}\n <ls>R. 11. 47</ls>; <ls>Mv. 1. 30</ls>."
+                    ]
+                }
+            ]
+        }
     ]
 }

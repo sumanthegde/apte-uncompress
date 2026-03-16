@@ -1,16 +1,65 @@
 {
-    "__line": 235271,
+    "__line": 258232,
     "_ancestry": [
         "L_ 27977",
-        "B_ {#SiraskA#}"
+        "B_ {#lAsaka#}"
     ],
-    "_banner": "{#SiraskA#}",
+    "_banner": "{#lAsaka#}",
     "_bannerExp": [
         {
-            "Right": "SiraskA"
+            "Right": "lAsaka"
+        },
+        {
+            "Right": "lAsikA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-sikA#}|{%f.%})",
+        "[{#las-Rvul#}]"
+    ],
     "_meanings": [
-        "A palanquin."
+        ".²1 Playing, frolicking, sporting.\n",
+        ".²2 Moving hither and thither.\n",
+        ".²3 Causing to dance; {#lAsakaH pAdapAnAM … naBasvAn#} <ls>Ṛs. 2. 26</ls>\n (the commentator Amarakīrti, however, says, {#“lAsakaH saMsargavAn”#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 258238,
+            "_ancestry": [
+                "L_ 27977",
+                "B_ {#lAsaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAsakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A dancer.\n",
+                ".²2 A peacock.\n",
+                ".²3 Embracing.\n",
+                ".²4 <ab>N.</ab> of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 258243,
+            "_ancestry": [
+                "L_ 27977",
+                "B_ {#lAsaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lAsakam"
+                }
+            ],
+            "_meanings": [
+                "A room on the top of a building, turret."
+            ]
+        }
     ]
 }

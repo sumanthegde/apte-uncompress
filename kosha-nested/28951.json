@@ -1,40 +1,125 @@
 {
-    "__line": 243115,
+    "__line": 267992,
     "_ancestry": [
         "L_ 28951",
-        "B_ {#sacakita#}"
+        "B_ {#vAnaraH#}"
     ],
-    "_banner": "{#sacakita#}",
+    "_banner": "{#vAnaraH#}",
     "_bannerExp": [
         {
-            "Right": "sacakita"
+            "Right": "vAnaraH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#vAnaM vanasaMbanDi PalAdikaM rAti-gfhRAti rA-ka#}; {#vA vikalpena naro vA#}]"
     ],
     "_meanings": [
-        "Startled, timid.\n"
+        ".²1 A monkey, an ape.\n",
+        ".²2 A kind of incense.\n"
     ],
     "_morphisms": [
         {
-            "__line": 243116,
+            "__line": 267995,
             "_ancestry": [
                 "L_ 28951",
-                "B_ {#sacakita#}",
-                "M_ {#--taM#}"
+                "B_ {#vAnaraH#}",
+                "M_ .{@{#-rI#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-rI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sacakitaM"
+                    "Right": "vAnarI"
                 }
             ],
-            "_gram": [
-                "{%<ab>ind.</ab>%}"
+            "_meanings": [
+                "A female monkey. "
+            ]
+        },
+        {
+            "__line": 267995,
+            "_ancestry": [
+                "L_ 28951",
+                "B_ {#vAnaraH#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#vAnaraH#} M_ --{%a.%}"
+                }
             ],
             "_meanings": [
-                "Tremblingly, in an \nalarmed or startled manner."
+                "Belonging or relating to monkey;\n {#anyAM yoniM samApannO SArgAlIM vAnarIM taTA#} <ls>Mb. 13. 9. 9</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 267998,
+            "_ancestry": [
+                "L_ 28951",
+                "B_ {#vAnaraH#}",
+                "S_ .{@{#-akzaH#}@}"
+            ],
+            "_banner": ".{@{#-akzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAnarAkzaH"
+                }
+            ],
+            "_meanings": [
+                "a wild goat.\n"
+            ]
+        },
+        {
+            "__line": 267999,
+            "_ancestry": [
+                "L_ 28951",
+                "B_ {#vAnaraH#}",
+                "S_ .{@{#-AGAtaH#}@}"
+            ],
+            "_banner": ".{@{#-AGAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAnarAGAtaH"
+                }
+            ],
+            "_meanings": [
+                "the tree called Lodhra.\n"
+            ]
+        },
+        {
+            "__line": 268000,
+            "_ancestry": [
+                "L_ 28951",
+                "B_ {#vAnaraH#}",
+                "S_ .{@{#-indraH#}@}"
+            ],
+            "_banner": ".{@{#-indraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAnarendraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Sugrīva or of Hanumat.\n"
+            ]
+        },
+        {
+            "__line": 268001,
+            "_ancestry": [
+                "L_ 28951",
+                "B_ {#vAnaraH#}",
+                "S_ .{@{#-priyaH#}@}"
+            ],
+            "_banner": ".{@{#-priyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAnarapriyaH"
+                }
+            ],
+            "_meanings": [
+                "the tree called {#kzIrin#} (<lang>Mar.</lang> <ns>{#KiraRI#}</ns>)."
             ]
         }
     ]

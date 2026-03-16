@@ -1,22 +1,38 @@
 {
-    "__line": 143082,
+    "__line": 148086,
     "_ancestry": [
         "L_ 17010",
-        "B_ {#niryat#}"
+        "B_ {#daDa#}"
     ],
-    "_banner": "{#niryat#}",
+    "_banner": "{#daDa#}",
     "_bannerExp": [
         {
-            "Right": "niryat"
+            "Right": "daDa"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To return, restore;\n{#niryAtaya hastanyAsaM#} <ls>V. 5</ls>; <ls>Ms. 11. 164.</ls>\n",
-        "{@--2@} To requite, repay, retaliate;  \n{#rAmalakzmaRayorvEraM svayaM niryAtayAmi vE#} <ls>Rām.</ls> ",
-        "{@--3@}\nTo forgive, pardon."
+        "Holding, possessing, giving <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 148086,
+            "_ancestry": [
+                "L_ 17010",
+                "B_ {#daDa#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#daDa#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "share, portion;\n {#daDaSabdo BAgaDeyavacanaH . tadyaTA kaRwakAya daDaM nApitAya daDamiti .#}\n {#devadaDAni devaBAgA ityarTaH .#} <ls>ŚB. on MS. 10. 8. 32</ls>."
+            ]
+        }
     ]
 }

@@ -1,59 +1,76 @@
 {
-    "__line": 244246,
+    "__line": 269273,
     "_ancestry": [
         "L_ 29084",
-        "B_ {#sadas#}"
+        "B_ {#vASra#}"
     ],
-    "_banner": "{#sadas#}",
+    "_banner": "{#vASra#}",
     "_bannerExp": [
         {
-            "Right": "sadas"
+            "Right": "vASra"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}",
-        "[{#sIdatyasyAM sad-asi#}]"
+        "{%a.%}",
+        "[{#vAS-rak#} <ls>Uṇ. 2. 13</ls>]"
     ],
     "_meanings": [
-        "{@--1@}\nSeat, abode, residence, dwelling. ",
-        "{@--2@}\nAn assembly; {#paMkErvinA saro BAti#}\n{#sadaH KalajanErvinA#} <ls>Bv. 1. 116</ls>; <ls>Bh. 2. 63.</ls>\n"
+        "<ab>Ved.</ab> Roaring, bellowing.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 244250,
+            "__line": 269274,
             "_ancestry": [
                 "L_ 29084",
-                "B_ {#sadas#}",
-                "S_  {#--gata#}"
+                "B_ {#vASra#}",
+                "M_ .{@{#-SraH#}@}"
             ],
-            "_banner": " {#--gata#}",
+            "_banner": ".{@{#-SraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sadogata"
+                    "Right": "vASraH"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "seated in an \nassembly; <ls>R. 3. 66.</ls> "
+                ".²1 A day.\n",
+                ".²2 A bull.\n"
             ]
         },
         {
-            "__line": 244251,
+            "__line": 269277,
             "_ancestry": [
                 "L_ 29084",
-                "B_ {#sadas#}",
-                "S_ {#--gfhaM#}"
+                "B_ {#vASra#}",
+                "M_ .{@{#-SrA#}@}"
             ],
-            "_banner": "{#--gfhaM#}",
+            "_banner": ".{@{#-SrA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sadogfhaM"
+                    "Right": "vASrA"
                 }
             ],
             "_meanings": [
-                "an \nassembly-hall, council-room; <ls>R. 3. 67.</ls>"
+                ".²1 A cow with a calf; {#vASreva vatsakamanugrahakAtaro'smAn#} <ls>Bhāg. 4. 9. 17</ls>, <ls n=\"Bhāg.\">10. 46. 9</ls>.\n",
+                ".²2 A mother.\n"
+            ]
+        },
+        {
+            "__line": 269280,
+            "_ancestry": [
+                "L_ 29084",
+                "B_ {#vASra#}",
+                "M_ .{@{#-Sram#}@}"
+            ],
+            "_banner": ".{@{#-Sram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vASram"
+                }
+            ],
+            "_meanings": [
+                ".²1 A dwelling, house.\n",
+                ".²2 A place where four roads meet.\n",
+                ".²3 Dung."
             ]
         }
     ]

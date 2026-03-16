@@ -1,37 +1,82 @@
 {
-    "__line": 113354,
+    "__line": 115612,
     "_ancestry": [
         "L_ 13542",
-        "B_ {#cyAvana#}"
+        "B_ {#KaRqaka#}"
     ],
-    "_banner": "{#cyAvana#}",
+    "_banner": "{#KaRqaka#}",
     "_bannerExp": [
         {
-            "Right": "cyAvana"
+            "Right": "KaRqaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#KaRq-Rvul#}]"
     ],
     "_meanings": [
-        "Causing to fall. "
+        "Destroying, tearing, breaking to pieces, removing, <ab>&c.</ab>\n"
     ],
     "_morphisms": [
         {
-            "__line": 113354,
+            "__line": 115613,
             "_ancestry": [
                 "L_ 13542",
-                "B_ {#cyAvana#}",
-                "M_ {#--naM#}"
+                "B_ {#KaRqaka#}",
+                "M_ .{@{#-kaH, -kam#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-kaH, -kam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "cyAvanaM"
+                    "Right": "KaRqakaH"
+                },
+                {
+                    "Right": "KaRqakam"
                 }
             ],
             "_meanings": [
-                "Expulsion, driving away."
+                "A fragment, part or piece; {#vfttaH pArSvacarErAttakAzWaKaRqakalAYCanEH#} <ls>Ks. 24. 121</ls>.\n",
+                ".²2 A term in an equation.\n"
+            ]
+        },
+        {
+            "__line": 115615,
+            "_ancestry": [
+                "L_ 13542",
+                "B_ {#KaRqaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaRqakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Candied sugar.\n",
+                ".²2 One who has no nails.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 115619,
+            "_ancestry": [
+                "L_ 13542",
+                "B_ {#KaRqaka#}",
+                "S_ .{@{#-Alu#}@}"
+            ],
+            "_banner": ".{@{#-Alu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaRqakAlu"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "sweet potato."
             ]
         }
     ]

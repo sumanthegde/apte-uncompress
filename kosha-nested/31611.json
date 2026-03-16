@@ -1,23 +1,40 @@
 {
-    "__line": 265091,
+    "__line": 291603,
     "_ancestry": [
         "L_ 31611",
-        "B_ {#hrIRa, hrIta#}"
+        "B_ {#Sataka#}"
     ],
-    "_banner": "{#hrIRa, hrIta#}",
+    "_banner": "{#Sataka#}",
     "_bannerExp": [
         {
-            "Right": "hrIRa"
-        },
-        {
-            "Right": "hrIta"
+            "Right": "Sataka"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Ashamed;  \n<ls>Ve. 2. 11.</ls> ",
-        "{@--2@} Bashful, modest;  \n<ls>N. 3. 67</ls>."
+        ".²1 A hundred.\n",
+        ".²2 Containing a hundred.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 291606,
+            "_ancestry": [
+                "L_ 31611",
+                "B_ {#Sataka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Satakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A century.\n",
+                ".²2 A collection of one hundred stanzas; as in {#nIti˚, vErAgya˚, SfNgAra˚#}\n ‘a collection of one hundred stanzas on Nīti’ <ab>&c.</ab>"
+            ]
+        }
     ]
 }

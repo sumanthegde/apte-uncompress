@@ -1,19 +1,104 @@
 {
-    "__line": 41187,
+    "__line": 38082,
     "_ancestry": [
         "L_ 4530",
-        "B_ {#avataraM#}"
+        "B_ {#arc#}"
     ],
-    "_banner": "{#avataraM#}",
+    "_banner": "{#arc#}",
     "_bannerExp": [
         {
-            "Right": "avataraM"
+            "Right": "arc"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "€1",
+        "<ab>U.</ab>",
+        "({#arcati-te, Anarca, AcIMt, arcituma, arcita#})"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Farther away,\nmore distantly."
+        ".²1\n",
+        ".³({%a%}) To adore worship, salute, welcome with respect; {#praRamya cAnarca#}\n {#viSAlamasyAH SfNgAntaraM dvAramivArTasidDeH#} <ls>R. 2. 21</ls>, <ls n=\"R.\">1. 6</ls>, <ls n=\"R. 1.\">90</ls>, <ls n=\"R.\">4. 84</ls>, <ls n=\"R.\">12. 89</ls>;\n\n <ls>Ms. 3. 93</ls>; {#ArcId dvijAtIn paramArTavindAn#}\n <ls>Bk. 1. 15</ls>, <ls n=\"Bk.\">14. 63</ls>, <ls n=\"Bk.\">17. 5</ls>; {#yasyArcatyasO SAsanam#} <ls>Mv. 1. 29</ls> honours,\n respectfully obeys.\n",
+        ".³({%b%}) To honour, {%<ab>i. e.</ab>%} decorate, adorn; {#svakusumErarcanti godAvarIm#} <ls>U. 2. 9</ls>.\n",
+        ".²2 To praise (<ab>Ved.</ab>) ",
+        ".²3 To shine. €10 <ab>P.</ab> or {%<ab>Caus.</ab>%}\n",
+        ".²1 To honour, adore, worship; {#svargOkasAmarcitamarcayitvA#} <ls>Ku. 1. 59</ls>.\n",
+        ".²2 To praise.\n",
+        ".²3 To cause to shine; {#haryannuzasamarcayaH#} <ls>Rv. 3. 44. 2</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 38094,
+            "_ancestry": [
+                "L_ 4530",
+                "B_ {#arc#}",
+                "M_ --{%<ab>Desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "arc"
+                }
+            ],
+            "_gram": [
+                "[{#arcicizati#}]"
+            ],
+            "_meanings": [
+                "To wish to worship; ",
+                "--{%With%} {@{#anu#}@} to congratulate, hail with joy.\n"
+            ]
+        },
+        {
+            "__line": 38096,
+            "_ancestry": [
+                "L_ 4530",
+                "B_ {#arc#}",
+                "M_ .{@{#-pra#}@}"
+            ],
+            "_banner": ".{@{#-pra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prArc"
+                }
+            ],
+            "_meanings": [
+                ".²1 to praise, sing praises of.\n",
+                ".²2 To honour, worship; {#prAnarcurarcyA jagadarcanIyam#} <ls>Bk. 2. 20</ls>; "
+            ]
+        },
+        {
+            "__line": 38098,
+            "_ancestry": [
+                "L_ 4530",
+                "B_ {#arc#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "arc"
+                }
+            ],
+            "_meanings": [
+                "to honour.\n"
+            ]
+        },
+        {
+            "__line": 38099,
+            "_ancestry": [
+                "L_ 4530",
+                "B_ {#arc#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "samarc"
+                }
+            ],
+            "_meanings": [
+                ".²1 to worship, adore.\n",
+                ".²2 to fix, settle, establish."
+            ]
+        }
     ]
 }

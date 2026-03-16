@@ -1,16 +1,412 @@
 {
-    "__line": 227886,
+    "__line": 247868,
     "_ancestry": [
         "L_ 27042",
-        "B_ {#vERaH#}"
+        "B_ {#yAvat#}"
     ],
-    "_banner": "{#vERaH#}",
+    "_banner": "{#yAvat#}",
     "_bannerExp": [
         {
-            "Right": "vERaH"
+            "Right": "yAvat"
+        },
+        {
+            "Right": "yAvatI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-tI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A maker of bamboo-work. "
+        "(As a correlative of {#tAvat#})\n",
+        ".²1 As much as, as many as, ({#yAvat#} standing for ‘as’ and {#tAvat#}\n for ‘as much’ or ‘as many’); {#pure tAvantamevAsya tanoti ravirAtapam .#}\n {#dIrGikAkamalonmezo yAvanmAtreRa sADyate#} <ls>Ku. 2. 33</ls>; {#te tu yAvanta evAjO#}\n {#tAvAMSca dadfSe sa tEH#} <ls>R. 12. 45</ls>, <ls n=\"R.\">17. 17</ls>.\n",
+        ".²2 As great, as large, how great or large; {#yAvAnarTa udapAne sarvataH#}\n {#saMplutodake . tAvAn sarvezu vedezu brAhmaRasya vijAnataH ..#} <ls>Bg. 2. 46</ls>, <ls n=\"Bg.\">18. 55</ls>.\n",
+        ".²3 All, whole (where the two together have the sense of totality or {#sAkalya#});\n {#yAvad dattaM tAvad Buktam#} <ls>G. M.</ls> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 247877,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#yAvat#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Used by itself {#yAvat#} has the following senses:\n",
+                ".³({%a%}) as far as, for, up to, till; (with <ab>acc.</ab>); {#stanyatyAgaM yAvat#}\n {#putrayoravekzasva#} <ls>U. 7</ls>; {#kiyantamavaDiM yAvadasmaccaritaM citrakAreRAliKitam#}\n <ls>U. 1</ls>; {#sarpakowaraM yAvat#} <ls>Pt. 1</ls>.\n",
+                ".³({%b%}) just, then, in the meantime (denoting an action intended to be\n done immediately); {#tad yAvat gfhiRImAhUya saMgItakamanutizWAmi#} <ls>Ś. 1</ls>;\n {#yAvadimAM CAyAmASritya pratipAlayAmi#} <ls>Ś. 3</ls>.\n",
+                ".³({%c%}) As much as.\n",
+                ".³({%d%}) That, in order that\n",
+                ".³({%e%}) Even, just.\n",
+                ".²2 Used correlatively {#yAvat#} and {#tAvat#} have these senses:\n",
+                ".³({%a%}) as long as, so long as; {#yAvad vittopArjanaSaktastAvannijaparivAro#}\n {#raktaH#} <ls>Moha M. 8</ls>.\n",
+                ".³({%b%}) as soon as, scarcely when, no sooner--than; {#ekasya duHKasya#}\n {#na yAvadantaM gacCAmi … tAvad dvitIyaM samupasTitaM me#} <ls>H. 1. 177</ls>;\n <ls>Me. 107</ls>; <ls>Ku. 3. 72</ls>.\n",
+                ".³({%c%}) while, by the time; {#ASramavAsino yAvadavekzyAhamupAvarte tAvadArdrapfzWAH#}\n {#kriyantAM vAjinaH#} <ls>Ś. 1</ls>; often with {#na#} when {#yAvanna#} is translated\n by ‘before’; {#yAvadete saraso notpatanti tAvadeteByaH pravfttiravagamayitavyA#} <ls>V. 4</ls>.\n",
+                ".³({%d%}) when, as (= {#yadA#}); {#yAvadutTAya nirIkzate tAvad haMso'valokitaH#} <ls>H. 3</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 247899,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-aDyayanam#}@}"
+            ],
+            "_banner": ".{@{#-aDyayanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadaDyayanam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "during the recitation; {#anuvrajyA ca SuSrUzA#}\n {#yAvadaDyayanaM guroH#} <ls>Ms. 2. 241</ls>.\n"
+            ]
+        },
+        {
+            "__line": 247901,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-antam, -antAya#}@}"
+            ],
+            "_banner": ".{@{#-antam, -antAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadantam"
+                },
+                {
+                    "Right": "yAvadantAya"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "upto the end, to the last.\n"
+            ]
+        },
+        {
+            "__line": 247902,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-antya#}@}"
+            ],
+            "_banner": ".{@{#-antya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadantya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "life-long.\n"
+            ]
+        },
+        {
+            "__line": 247903,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-aBIkzam#}@}"
+            ],
+            "_banner": ".{@{#-aBIkzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadaBIkzam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "for a momentʼs duration.\n"
+            ]
+        },
+        {
+            "__line": 247904,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadarTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "corresponding to requirement, as many as may be required\n to convey the meaning (said of words); {#na prItiyuktA yAvadarTASca loke#}\n <ls>Bhāg. 5. 5. 3</ls>; {#yAvadarTapadAM vAcamevamAdAya mADavaH virarAma#} <ls>Śi. 2. 13</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 247907,
+                    "_ancestry": [
+                        "L_ 27042",
+                        "B_ {#yAvat#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-rTam#}@})"
+                    ],
+                    "_banner": "({@{#-rTam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "yAvadarTam"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%}\n",
+                        ".²1 as much as useful.\n",
+                        ".²2 in all senses; {#vayamapi ca girAmISmahe yAvadarTam#} <ls>Bh. 3. 30</ls> <ab>v. l.</ab>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 247910,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-izwam, -Ipsitam#}@}"
+            ],
+            "_banner": ".{@{#-izwam, -Ipsitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadizwam"
+                },
+                {
+                    "Right": "yAvadIpsitam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "as much as is desired.\n"
+            ]
+        },
+        {
+            "__line": 247911,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-itTam#}@}"
+            ],
+            "_banner": ".{@{#-itTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvaditTam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "as much as is necessary.\n"
+            ]
+        },
+        {
+            "__line": 247912,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-kAlam#}@}"
+            ],
+            "_banner": ".{@{#-kAlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvatkAlam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "as long as.\n"
+            ]
+        },
+        {
+            "__line": 247913,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-gamam#}@}"
+            ],
+            "_banner": ".{@{#-gamam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadgamam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "as fast as one can go; {#yAvadgamaM rudraBayAd#}\n {#yaTA kaH#} <ls>Bhāg. 1. 7. 18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 247915,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-janma, -jIvam, -jIvane#}@}"
+            ],
+            "_banner": ".{@{#-janma, -jIvam, -jIvane#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvajjanma"
+                },
+                {
+                    "Right": "yAvajjIvam"
+                },
+                {
+                    "Right": "yAvajjIvane"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "for life, throughout life, for\n the rest of oneʼs life; {#yAvajjIvaM trayo vandyA vedAnto gururISvaraH#}\n <ls>Subhāṣ.</ls>; {#yAvajjIvaM suKaM jIvet#} <ls>Subhāṣ.</ls>\n\n"
+            ]
+        },
+        {
+            "__line": 247919,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-pramARa#}@}"
+            ],
+            "_banner": ".{@{#-pramARa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvatpramARa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "as great or big.\n"
+            ]
+        },
+        {
+            "__line": 247920,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-balam#}@}"
+            ],
+            "_banner": ".{@{#-balam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadbalam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "to the best of oneʼs power.\n"
+            ]
+        },
+        {
+            "__line": 247921,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-BAzita#}@}"
+            ],
+            "_banner": ".{@{#-BAzita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvadBAzita"
+                }
+            ],
+            "_meanings": [
+                "or {@{#ukta#}@} {%a.%} as much as said.\n"
+            ]
+        },
+        {
+            "__line": 247922,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-mAtra#}@}"
+            ],
+            "_banner": ".{@{#-mAtra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvanmAtra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 as large, extending as far, of which size or extent; {#dIrDikAkamalonmezo#}\n {#yAvanmAtreRa sADyate#} <ls>Ku. 2. 33</ls>.\n",
+                ".²2 insignificant, trifling, little.\n"
+            ]
+        },
+        {
+            "__line": 247926,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-Sakyam, -Sakti#}@}"
+            ],
+            "_banner": ".{@{#-Sakyam, -Sakti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvacCakyam"
+                },
+                {
+                    "Right": "yAvacCakti"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "as far as possible, to the best of oneʼs\n power; so {#yAvatsattvam#}.\n"
+            ]
+        },
+        {
+            "__line": 247928,
+            "_ancestry": [
+                "L_ 27042",
+                "B_ {#yAvat#}",
+                "S_ .{@{#-saMpAtam#}@}"
+            ],
+            "_banner": ".{@{#-saMpAtam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAvatsampAtam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "as long as possible."
+            ]
+        }
     ]
 }

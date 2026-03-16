@@ -1,20 +1,3380 @@
 {
-    "__line": 166759,
+    "__line": 179379,
     "_ancestry": [
         "L_ 19937",
-        "B_ {#pratiPalita#}"
+        "B_ {#para#}"
     ],
-    "_banner": "{#pratiPalita#}",
+    "_banner": "{#para#}",
     "_bannerExp": [
         {
-            "Right": "pratiPalita"
+            "Right": "para"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#pF-BAve-ap, kartari ac-vA#}]"
     ],
     "_meanings": [
-        "{@--1@} Reflected. ",
-        "{@--2@} \nReturned, requited."
+        "(Declined optionally\n like a pronoun in <ab>nom.</ab> <ab>voc.</ab> <ab>pl.</ab>, and <ab>abl.</ab> and <ab>loc.</ab> <ab>sing.</ab> when it denotes\n relative position)\n",
+        ".²1 Other, different, another; see {#para#} {%m.%} also.\n",
+        ".²2 Distant, removed, remote; {#aparaM Bavato janma paraM janma vivasvataH#} <ls>Bg. 4. 4</ls>.\n",
+        ".²3 Beyond, further, on the other side of; {#mlecCadeSastataH paraH#} <ls>Ms. 2. 23</ls>, <ls n=\"Ms.\">7 158</ls>.\n",
+        ".²4 Subsequent, following, next to, future, after (usually with <ab>abl.</ab>);\n {#bAlyAt parAmiva daSAM madano'DyuvAsa#} <ls>R. 5. 63</ls>; <ls>Ku. 1. 31</ls>.\n",
+        ".²5 Higher, superior; {#sikatAtvAdapi parAM prapede paramARutAm#} <ls>R. 15. 22</ls>;\n {#indriyARi parARyAhurindriyeByaH paraM manaH . manasastu parA budDiryo#}\n {#budDeH paratastu saH ..#} <ls>Bg. 3. 42</ls>.\n",
+        ".²9 Highest, greatest, most distinguished, pre-eminent, chief, best, principal;\n {#kzatrAt paraM nAsti#} <ls>Bṛ. Up. 1. 4. 11</ls>. {#na tvayA drazwavyAnAM paraM#}\n {#dfzwam#} <ls>Ś. 2</ls>; <ls>Ki. 5. 18</ls>; {#parato'pi paraH#} <ls>Ku. 2. 14</ls>\n ‘higher than the highest’; <ls n=\"Ku.\">6. 19</ls>; <ls>Ś. 7. 27</ls>.\n",
+        ".²7 Having as a following letter or sound, followed by (in <ab>comp.</ab>).\n",
+        ".²8 Alien, estranged, stranger.\n",
+        ".²9 Hostile, inimical, adverse,\n",
+        ".²10 Exceeding, having a surplus or remainder, left over; as in {#paraM#}\n {#Satam#} exceeding or more than a hundred.\n",
+        ".²11 Final, last.\n",
+        ".²12 (At the end of <ab>comp.</ab>) Having anything as the highest\n object, absorbed or engrossed in, intent on, solely devoted to, wholly\n engaged or occupied in; {#paricaryAparaH#} <ls>R. 1. 91</ls>; so {#DyAnapara, Sokapara#},\n {#dEvapara, cintApara#} <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 179404,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Another person, a stranger, foreigner; <ab>oft.</ab> in <ab>pl.</ab> in this sense; {#yataH#}\n {#parezAM guRagrahItAsi#} <ls>Bv. 1. 9</ls>; <ls>Śi. 20. 74</ls>; see {#eka, anya#} also.\n",
+                ".²2 A foe, an enemy, adversary; {#uttizWamAnastu paro nopekzyaH paTyamicCatA#}\n <ls>Śi. 2. 10</ls>; <ls>Pt. 2. 158</ls>; <ls>R. 3. 21</ls>.\n",
+                ".²3 The Almighty; {#tAvadaDyAsate lokaM parasya paracintakAH#} <ls>Bhāg. 3. 32. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179410,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "param"
+                }
+            ],
+            "_meanings": [
+                ".²1 The highest point or pitch, culminating point.\n",
+                ".²2 The Supreme Spirit; {#tezAmAdityavajjYAnaM prakASayati tat param#} <ls>Bg. 5. 16</ls>.\n",
+                ".²3 Final beatitude; {#asakto hyAcaran karma paramApnoti pUruzaH#} <ls>Bg. 3. 19</ls>.\n",
+                ".²4 The secondary meaning of a word.\n",
+                ".²5 (In logic) One of the two kinds of {#sAmAnya#} or generality of notion;\n more extensive kind, (comprehending more objects); {%<ab>e. g.</ab>%} ({#pfTvI#}\n is {#para#} with respect to a {#Gawa#}).\n",
+                ".²6 The other or future world; {#parAsakte ca vastasmin kaTamAsInmanastadA#}\n <ls>Mb. 6. 14. 55</ls>. {%Note%}:-- The <ab>acc.</ab>, <ab>instr.</ab> and <ab>loc.</ab> singulars of {#para#}\n are used adverbially; {%<ab>e. g.</ab>%}\n",
+                ".³({%a%}) {#param#}\n",
+                ".²1 beyond, over, out of (with <ab>abl.</ab>); {#vartmanaH param#} <ls>R. 1. 17</ls>.\n",
+                ".²2 after (with <ab>abl.</ab>); {#asmAt param#} <ls>Ś. 6. 24</ls>; <ls>R. 1. 66</ls>, <ls n=\"R.\">3. 39</ls>; <ls>Me. 102</ls>;\n {#BAgyAyattamataH param#} <ls>Ś. 4. 17</ls>; {#tataH param#} <ab>&c.</ab>\n",
+                ".²3 thereupon, thereafter.\n",
+                ".²4 but, however.\n",
+                ".²5 otherwise.\n",
+                ".²6 in a high degree, excessively, very much, completely, quite; {#paraM#}\n {#duHKito'smi#} <ab>&c.</ab>\n",
+                ".²7 most willingly.\n",
+                ".²8 only.\n",
+                ".²9 at the utmost.\n",
+                ".³({%b%}) {#pareRa#}\n",
+                ".²1 farther, beyond, more than; {#kiM vA mftyoH pareRa viDAsyati#} <ls>Māl. 2. 2</ls>.\n",
+                ".²2 afterwards; {#mayi tu kftaniDAne kiM vidaDyAH pareRa#}\n\n <ls>Mv. 2. 49</ls>.\n",
+                ".²3 after (with <ab>abl.</ab>) {#stanyatyAgAt pareRa#} <ls>U. 2. 7</ls>.\n",
+                ".³({%c%}) {#pare#}\n",
+                ".²1 afterwards, thereupon; {#aTa tena daSAhataH pare#} <ls>R. 8. 73</ls>.\n",
+                ".²2 in future.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 179443,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-aNgam#}@}"
+            ],
+            "_banner": ".{@{#-aNgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parANgam"
+                }
+            ],
+            "_meanings": [
+                "the hinder part of the body.\n"
+            ]
+        },
+        {
+            "__line": 179444,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-aNgadaH#}@}"
+            ],
+            "_banner": ".{@{#-aNgadaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parANgadaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 179445,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-aRuH#}@}"
+            ],
+            "_banner": ".{@{#-aRuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parARuH"
+                }
+            ],
+            "_meanings": [
+                "See {#paramARu#}; <ls>Bhāg. 10. 14. 11</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179446,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-adanaH#}@}"
+            ],
+            "_banner": ".{@{#-adanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAdanaH"
+                }
+            ],
+            "_meanings": [
+                "a horse found in the country of Persia or Arabia.\n"
+            ]
+        },
+        {
+            "__line": 179447,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-aDikAracarcA#}@}"
+            ],
+            "_banner": ".{@{#-aDikAracarcA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parADikAracarcA"
+                }
+            ],
+            "_meanings": [
+                "officiousness, meddlesomeness.\n"
+            ]
+        },
+        {
+            "__line": 179448,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-aDIna#}@}"
+            ],
+            "_banner": ".{@{#-aDIna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parADIna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dependent on another, subject, subservient; {#annamezAM#}\n {#parADInaM deyaM syAdBinnaBAjane#} <ls>Ms. 10. 54</ls>, <ls n=\"Ms. 10.\">83</ls>; <ls>H. 1. 119</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179450,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-antaH#}@}"
+            ],
+            "_banner": ".{@{#-antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAntaH"
+                }
+            ],
+            "_meanings": [
+                "final death.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179451,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-antaH#}@}",
+                        "S_M_ ({@{#-tAH#}@})"
+                    ],
+                    "_banner": "({@{#-tAH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parAntAH"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%m.%} (<ab>pl.</ab>) <ab>N.</ab> of a people.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179452,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-antakaH#}@}"
+            ],
+            "_banner": ".{@{#-antakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAntakaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n",
+                ".²2 a frontier.\n"
+            ]
+        },
+        {
+            "__line": 179454,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-antakAlaH#}@}"
+            ],
+            "_banner": ".{@{#-antakAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAntakAlaH"
+                }
+            ],
+            "_meanings": [
+                "the time of death; {#te brahmalokezu parAntakAle parAmftAH#}\n {#parimucyanti sarve#} <ls>Muṇḍ. 3. 2. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179456,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-anna#}@}"
+            ],
+            "_banner": ".{@{#-anna#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAnna"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "living or subsisting on anotherʼs food.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179457,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-anna#}@}",
+                        "S_M_ ({@{#-nnam#}@})"
+                    ],
+                    "_banner": "({@{#-nnam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parAnnam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the food of another; {#paragfhalalitAH parAnnapuzwAH#}\n <ls>Mk. 4. 28</ls>. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 179458,
+                            "_ancestry": [
+                                "L_ 19937",
+                                "B_ {#para#}",
+                                "S_ .{@{#-anna#}@}",
+                                "S_M_ ({@{#-nnam#}@})",
+                                "S_M_S_ {#˚paripuzwatA#}"
+                            ],
+                            "_banner": "{#˚paripuzwatA#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "parAnnaparipuzwatA"
+                                }
+                            ],
+                            "_meanings": [
+                                "being fed with the food of others; <ls>Y. 3. 241</ls>.\n "
+                            ]
+                        },
+                        {
+                            "__line": 179459,
+                            "_ancestry": [
+                                "L_ 19937",
+                                "B_ {#para#}",
+                                "S_ .{@{#-anna#}@}",
+                                "S_M_ ({@{#-nnam#}@})",
+                                "S_M_S_ {#˚Bojin#}"
+                            ],
+                            "_banner": "{#˚Bojin#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "parAnnaBojin"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%a.%} subsisting on the food of others; {#rogI cirapravAsI#}\n {#parAnnaBojI parAvasaTaSAyI . yajjIvati tanmaraRaM yanmaraRaM so'sya viSrAmaH ..#}\n <ls>H. 1. 120</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179462,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-apara#}@}"
+            ],
+            "_banner": ".{@{#-apara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parApara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 far and near, remote and proximate.\n",
+                ".²2 prior and posterior.\n",
+                ".²3 before and beyond, earlier and later.\n",
+                ".²4 higher and lower, best and worst.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179467,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-apara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: parApara ({@{#-raH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a {%Guru%} of an intermediate class.\n."
+                    ]
+                },
+                {
+                    "__line": 179468,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-apara#}@}",
+                        "S_M_ ({@{#-ram#}@})"
+                    ],
+                    "_banner": "({@{#-ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: parApara ({@{#-raM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "(in logic) a property intermediate between the greatest\n and smallest numbers, a species (as existing between the genus and individual);\n {%<ab>e. g.</ab>%} {#pfTvI#} which is {#para#} with respect to a {#Gawa#} is {#apara#}\n with respect to {#dravya#}; {#dravyatvAdikajAtistu parAparatayocyate#} <ls>Bhāṣā P. 8</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179472,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-aBiDyAnam#}@}"
+            ],
+            "_banner": ".{@{#-aBiDyAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parABiDyAnam"
+                }
+            ],
+            "_meanings": [
+                "self-conceit; high opinion for self or body ({#dehABimAna#});\n {#svayaM parABiDyAnena viBraMSitasmftiH#} <ls>Bhāg. 5. 14. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179474,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-amftam#}@}"
+            ],
+            "_banner": ".{@{#-amftam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAmftam"
+                }
+            ],
+            "_meanings": [
+                "rain.\n"
+            ]
+        },
+        {
+            "__line": 179475,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-ayaRa#}@}"
+            ],
+            "_banner": ".{@{#-ayaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAyaRa"
+                }
+            ],
+            "_gram": [
+                "({@{#ayana#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 attached or devoted to, adhering to.\n",
+                ".²2 depending on, subject to.\n",
+                ".²3 intent on, solely devoted to or absorbed in (at the end of <ab>comp.</ab>);\n {#praBurDanaparAyaRaH#} <ls>Bh. 2. 56</ls>; so {#moha˚#}; {#aTa mohaparAyaRA satI vivaSA#}\n {#kAmavaDUrviboDitA#} <ls>Ku. 4. 1</ls>; {#agnihotra˚#} <ab>&c.</ab>\n",
+                ".²4 connected with.\n",
+                ".²5 being a protector ({#trAtA#}); {#abarhAScaraRErhInAH pUrvezAM vaH parAyaRAH#} <ls>Mb. 1. 230. 4</ls>.\n",
+                ".²6 leading or conducive to.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179484,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-ayaRa#}@}",
+                        "S_M_ ({@{#-Ram#}@})"
+                    ],
+                    "_banner": "({@{#-Ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parAyaRam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the principal or highest object, chief aim, best or last resort; {#etat#}\n {#parAyaRam#} <ls>Praśna. Up. 1. 10</ls>; {#tapasaSca parAyaRam#} <ls>Rām. 1. 21. 10</ls>;\n <ls>Mb. 12. 179. 12</ls>.\n",
+                        ".²2 essence, sum.\n",
+                        ".²3 <ab>Ved.</ab> going away, departure, exit.\n",
+                        ".²4 firm devotion.\n",
+                        ".²5 a universal medicine, panacea.\n",
+                        ".²6 a religious order.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179493,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having another aim or meaning.\n",
+                ".²2 intended or designed for another, done for another.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179496,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-rTaH#}@})"
+                    ],
+                    "_banner": "({@{#-rTaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parArTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the highest interest or advantage.\n",
+                        ".²2 the interest of another (<ab>opp.</ab> {#svArTa#}); {#svArTo yasya parArTa eva#}\n {#sa pumAnekaH satAmagraRIH#} <ls>Subhāṣ.</ls>; <ls>R. 1. 29</ls>.\n",
+                        ".²3 the chief or highest meaning.\n",
+                        ".²4 the highest object ({%<ab>i. e.</ab>%} sexual intercourse).\n",
+                        ".²5 the supreme good ({#mokza#}); {#jYAtvA prajahi kAlena parArTamanudfSya#}\n {#ca#} <ls>Mb. 12. 288. 9</ls>.\n",
+                        ".²6 Something else. Hence {#parArTatA#} or {#parArTatva#} means ‘being\n subsidiary to something else’; {#parArTatA hi guRaBAvaH#} <ls>ŚB. on MS. 4. 3</ls>.\n",
+                        ".²7 an object which is meant for anotherʼs use (<ab>Sāṅ. Phil.</ab>); {#saNGAtaparArTatvAt#}\n {#triguRAdiviparyayAdaDizWAnAt#} <ls>Sāṅ. K. 17</ls>. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 179507,
+                            "_ancestry": [
+                                "L_ 19937",
+                                "B_ {#para#}",
+                                "S_ .{@{#-arTa#}@}",
+                                "S_M_ ({@{#-rTaH#}@})",
+                                "S_M_S_ {#˚vAdin#}"
+                            ],
+                            "_banner": "{#˚vAdin#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "parArTavAdin"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%a.%} speaking\n for another; mediator, substitute.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179509,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-arTin#}@}"
+            ],
+            "_banner": ".{@{#-arTin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parArTin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "striving for the supreme good.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179510,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-arTin#}@}",
+                        "S_M_ ({@{#-rTam, -rTe#}@})"
+                    ],
+                    "_banner": "({@{#-rTam, -rTe#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parArTam"
+                        },
+                        {
+                            "Right": "parArTe"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%ind.%} for the sake of another.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179513,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-arDam#}@}"
+            ],
+            "_banner": ".{@{#-arDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parArDam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the other part (<ab>opp.</ab> {#pUrvArDa#}); the latter half; {#dinasya pUrvArDaparArDaBinnA#}\n {#CAyeva mEtrI KalasajjanAnAm#} <ls>Bh. 2. 60</ls>.\n",
+                ".²2 a particular high number; {%<ab>i. e.</ab>%} 100,000,000,000,000,000; {#ekatvAdiparArDaparyantA saMKyA#} <ls>T. S.</ls>\n"
+            ]
+        },
+        {
+            "__line": 179517,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-arDaka#}@}"
+            ],
+            "_banner": ".{@{#-arDaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parArDaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One half of anything.\n"
+            ]
+        },
+        {
+            "__line": 179518,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-arDya#}@}"
+            ],
+            "_banner": ".{@{#-arDya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parArDya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 being on the farther side or half.\n",
+                ".²2 most distant in number; {#hemanto vasantAt parArDyaH#} <ls>Śat. Br.</ls>\n",
+                ".²3 most excellent, best, most exalted, highly esteemed, highest, supreme;\n <ls>R. 3. 27</ls>, <ls n=\"R.\">8. 27</ls>, <ls n=\"R.\">10. 64</ls>, <ls n=\"R.\">16. 39</ls>; {#AbadDapracuraparArDyakiMkiRIkaH#} <ls>Śi. 8. 45</ls>.\n",
+                ".²4 most costly; <ls>Śi. 4. 11</ls>; {#SriyaM parArDyAM vidaDad viDAtfBiH#} <ls>Bu. Ch. 1. 1</ls>.\n",
+                ".²5 most beautiful or lovely, finest; <ls>R. 6. 4</ls>; {#parasparasparDiparArDyarUpAH#}\n {#pOrastriyo yatra viDAya veDAH#} <ls>Śi. 3. 58</ls>.\n",
+                ".²6 Divine: {#asAvAwIt saNKye parArDyavat#} <ls>Bk. 9. 64</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179527,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-arDya#}@}",
+                        "S_M_ ({@{#-rDyam#}@})"
+                    ],
+                    "_banner": "({@{#-rDyam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parArDyam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a maximum.\n",
+                        ".²2 an infinite number.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179530,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-avara#}@}"
+            ],
+            "_banner": ".{@{#-avara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAvara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 far and near; {#parAvarARAM srazwAraM purARaM paramavyayam#} <ls>Mb. 1. 1. 23</ls>.\n",
+                ".²2 earlier and later.\n",
+                ".²3 prior and posterior or subsequent.\n",
+                ".²4 higher and lower.\n",
+                ".²5 traditional; {#punAti paNktiM vaMSyAMSca sapta sapta parAvarAn#} <ls>Ms. 1. 105</ls>.\n",
+                ".²6 all-including; {#parAvarajYo'si parAvarastvam#} <ls>Mb. 3. 232. 18</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179537,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-avara#}@}",
+                        "S_M_ ({@{#-rA#}@})"
+                    ],
+                    "_banner": "({@{#-rA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: parAvara ({@{#-rA#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "descendants.\n."
+                    ]
+                },
+                {
+                    "__line": 179538,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-avara#}@}",
+                        "S_M_ ({@{#-ram#}@})"
+                    ],
+                    "_banner": "({@{#-ram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: parAvara ({@{#-raM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 cause and effect.\n",
+                        ".²2 the whole extent of an idea.\n",
+                        ".²3 the universe.\n",
+                        ".²4 totality. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 179542,
+                            "_ancestry": [
+                                "L_ 19937",
+                                "B_ {#para#}",
+                                "S_ .{@{#-avara#}@}",
+                                "S_M_ ({@{#-ram#}@})",
+                                "S_M_S_ {#˚jYa, ˚dfS#}"
+                            ],
+                            "_banner": "{#˚jYa, ˚dfS#}",
+                            "_meanings": [
+                                "{%a.%} knowing both the past and the future;\n {#parAvarajYo brahmarziH#} <ls>Mb. 1. 60. 5</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179544,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-avasaTaSAyin#}@}"
+            ],
+            "_banner": ".{@{#-avasaTaSAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAvasaTaSAyin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sleeping in anotherʼs house; <ls>H. 1. 120</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179545,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-ahaH#}@}"
+            ],
+            "_banner": ".{@{#-ahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAhaH"
+                }
+            ],
+            "_meanings": [
+                "the next day.\n"
+            ]
+        },
+        {
+            "__line": 179546,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-ahRaH#}@}"
+            ],
+            "_banner": ".{@{#-ahRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAhRaH"
+                }
+            ],
+            "_meanings": [
+                "the afternoon, the latter part of the day.\n"
+            ]
+        },
+        {
+            "__line": 179547,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-AgamaH#}@}"
+            ],
+            "_banner": ".{@{#-AgamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAgamaH"
+                }
+            ],
+            "_meanings": [
+                "attack of an enemy.\n"
+            ]
+        },
+        {
+            "__line": 179548,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Acita#}@}"
+            ],
+            "_banner": ".{@{#-Acita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAcita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fostered or brought up by another.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179549,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-Acita#}@}",
+                        "S_M_ ({@{#-taH#}@})"
+                    ],
+                    "_banner": "({@{#-taH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parAcitaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a slave.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179550,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAtman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the Supreme Spirit.\n"
+            ]
+        },
+        {
+            "__line": 179551,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Ayatta#}@}"
+            ],
+            "_banner": ".{@{#-Ayatta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAyatta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 dependent on another, subject, subservient; {#parAyattaH prIteH kaTamiva#}\n {#rasaM vettu puruzaH#} <ls>Mu. 3. 4</ls>.\n",
+                ".²2 Wholly subdued or overwhelmed by.\n"
+            ]
+        },
+        {
+            "__line": 179555,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Ayus#}@}"
+            ],
+            "_banner": ".{@{#-Ayus#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAyus"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Brahman; {#nAhaM parAyurfzayo na marIcimuKyA#}\n {#jAnanti yadviracitaM Kalu sattvasargAH#} <ls>Bhāg. 8. 10. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179557,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-AvidDaH#}@}"
+            ],
+            "_banner": ".{@{#-AvidDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAvidDaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Kubera.\n",
+                ".²2 of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 179560,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-ASraya#}@}"
+            ],
+            "_banner": ".{@{#-ASraya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parASraya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dependent upon another.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179561,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-ASraya#}@}",
+                        "S_M_ ({@{#-yaH#}@})"
+                    ],
+                    "_banner": "({@{#-yaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parASrayaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 dependence upon another.\n",
+                        ".²2 the retreat of enemies.\n."
+                    ]
+                },
+                {
+                    "__line": 179564,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-ASraya#}@}",
+                        "S_M_ ({@{#-yA#}@})"
+                    ],
+                    "_banner": "({@{#-yA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parASrayA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a plant growing on another tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179565,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-AsaNgaH#}@}"
+            ],
+            "_banner": ".{@{#-AsaNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAsaNgaH"
+                }
+            ],
+            "_meanings": [
+                "dependence upon another.\n"
+            ]
+        },
+        {
+            "__line": 179566,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Askandin#}@}"
+            ],
+            "_banner": ".{@{#-Askandin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAskandin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a thief, robber.\n"
+            ]
+        },
+        {
+            "__line": 179567,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-itara#}@}"
+            ],
+            "_banner": ".{@{#-itara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paretara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 other than inimical, {%<ab>i. e.</ab>%} friendly, kind.\n",
+                ".²2 oneʼs own; {#viDAya rakzAn paritaH paretarAn#} <ls>Ki. 1. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179570,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-ISaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pareSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Brahman.\n",
+                ".²2 of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 179573,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-izwiH#}@}"
+            ],
+            "_banner": ".{@{#-izwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parezwiH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Brahman.\n"
+            ]
+        },
+        {
+            "__line": 179574,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-izwukA#}@}"
+            ],
+            "_banner": ".{@{#-izwukA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parezwukA"
+                }
+            ],
+            "_meanings": [
+                "a cow which has often calved.\n"
+            ]
+        },
+        {
+            "__line": 179575,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-utkarzaH#}@}"
+            ],
+            "_banner": ".{@{#-utkarzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parotkarzaH"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs prosperity.\n"
+            ]
+        },
+        {
+            "__line": 179576,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-udvahaH#}@}"
+            ],
+            "_banner": ".{@{#-udvahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parodvahaH"
+                }
+            ],
+            "_meanings": [
+                "the Indian cuckoo.\n"
+            ]
+        },
+        {
+            "__line": 179577,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-upakAraH#}@}"
+            ],
+            "_banner": ".{@{#-upakAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paropakAraH"
+                }
+            ],
+            "_meanings": [
+                "doing good to others, benevolence, beneficence, charity;\n {#paropakAraH puRyAya pApAya parapIqanam#}.\n"
+            ]
+        },
+        {
+            "__line": 179579,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-upakArin#}@}"
+            ],
+            "_banner": ".{@{#-upakArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paropakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "benevolent, kind to others.\n"
+            ]
+        },
+        {
+            "__line": 179580,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-upajApaH#}@}"
+            ],
+            "_banner": ".{@{#-upajApaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paropajApaH"
+                }
+            ],
+            "_meanings": [
+                "causing dissension among enemies; {#paropajApAt saMrakzet#}\n {#praDAnAn kzudrakAn api#} <ls>Kau. A. 1. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179582,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-upadeSaH#}@}"
+            ],
+            "_banner": ".{@{#-upadeSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paropadeSaH"
+                }
+            ],
+            "_meanings": [
+                "advising others; {#paropadeSe pARqityam#}.\n"
+            ]
+        },
+        {
+            "__line": 179583,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-uparudDa#}@}"
+            ],
+            "_banner": ".{@{#-uparudDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paroparudDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "besieged by an enemy.\n"
+            ]
+        },
+        {
+            "__line": 179584,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-upasarpaRam#}@}"
+            ],
+            "_banner": ".{@{#-upasarpaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paropasarpaRam"
+                }
+            ],
+            "_meanings": [
+                "approaching another; begging.\n"
+            ]
+        },
+        {
+            "__line": 179585,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-UQA#}@}"
+            ],
+            "_banner": ".{@{#-UQA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paroQA"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs wife.\n"
+            ]
+        },
+        {
+            "__line": 179586,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-eDita#}@}"
+            ],
+            "_banner": ".{@{#-eDita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parEDita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fostered or brought up by another.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179587,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-eDita#}@}",
+                        "S_M_ ({@{#-taH#}@})"
+                    ],
+                    "_banner": "({@{#-taH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parEDitaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a servant.\n",
+                        ".²2 the (Indian) cuckoo.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179590,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "service for another. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179590,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-karman#}@}",
+                        "S_S_ {#˚nirataH#}"
+                    ],
+                    "_banner": "{#˚nirataH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parakarmanirataH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a servant.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179591,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kalatram#}@}"
+            ],
+            "_banner": ".{@{#-kalatram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakalatram"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs wife. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179591,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-kalatram#}@}",
+                        "S_S_ {#˚aBigamanam#}"
+                    ],
+                    "_banner": "{#˚aBigamanam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parakalatrABigamanam"
+                        }
+                    ],
+                    "_meanings": [
+                        "adultery; {#varaM klEbyaM#}\n {#pusAM na ca parakalatrABigamanam#} <ls>H. 1. 116</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179593,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kAyapraveSanam#}@}"
+            ],
+            "_banner": ".{@{#-kAyapraveSanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakAyapraveSanam"
+                }
+            ],
+            "_meanings": [
+                "entering\n\n anotherʼs body (a supernatural art).\n"
+            ]
+        },
+        {
+            "__line": 179596,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kAraH#}@}"
+            ],
+            "_banner": ".{@{#-kAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakAraH"
+                }
+            ],
+            "_meanings": [
+                "The deeds of the enemy; {#rAjYaH samIpe parakAramAha prajYApanEzA#}\n {#viviDopadizwA#} <ls>Kau. A. 2. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179598,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kAryam#}@}"
+            ],
+            "_banner": ".{@{#-kAryam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakAryam"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs business or work. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179598,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-kAryam#}@}",
+                        "S_S_ {#˚nirataH#}"
+                    ],
+                    "_banner": "{#˚nirataH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parakAryanirataH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a benevolent man.\n",
+                        ".²2 a slave, servant.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179601,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kAla#}@}"
+            ],
+            "_banner": ".{@{#-kAla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakAla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "relating to a later time, mentioned later.\n"
+            ]
+        },
+        {
+            "__line": 179602,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kftiH#}@}"
+            ],
+            "_banner": ".{@{#-kftiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakftiH"
+                }
+            ],
+            "_meanings": [
+                "an example or precedent, a passage descriptive of the doings\n of men; <ls>MS. 6. 7. 26</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179604,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kramaH#}@}"
+            ],
+            "_banner": ".{@{#-kramaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakramaH"
+                }
+            ],
+            "_meanings": [
+                "doubling the second letter of a conjunction of consonants.\n"
+            ]
+        },
+        {
+            "__line": 179605,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-krAntiH#}@}"
+            ],
+            "_banner": ".{@{#-krAntiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakrAntiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "inclination of the ecliptic.\n"
+            ]
+        },
+        {
+            "__line": 179606,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-kzetram#}@}"
+            ],
+            "_banner": ".{@{#-kzetram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parakzetram"
+                }
+            ],
+            "_meanings": [
+                ".²1 anotherʼs body.\n",
+                ".²2 anotherʼs field; {#ye'kzetriRo bIjavantaH parakzetrapravApiRaH . te#}\n {#vE sasyasya jAtasya na laBante PalaM kvacit ..#} <ls>Ms. 9. 49</ls>.\n",
+                ".²3 anotherʼs wife; {#tO tu jAtO parakzetre#} <ls>Ms. 3. 175</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179611,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-gAmin#}@}"
+            ],
+            "_banner": ".{@{#-gAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paragAmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 being with another.\n",
+                ".²2 relating to another.\n",
+                ".²3 beneficial to another.\n"
+            ]
+        },
+        {
+            "__line": 179615,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-guRa#}@}"
+            ],
+            "_banner": ".{@{#-guRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraguRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "beneficial to another.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179616,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-guRa#}@}",
+                        "S_M_ ({@{#-RaH#}@})"
+                    ],
+                    "_banner": "({@{#-RaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "paraguRaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the virtue of another; {#paraguRaparamARUn parvatIkftya#}\n {#nityam#} <ls>Bh. 2. 78</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179618,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-granTiH#}@}"
+            ],
+            "_banner": ".{@{#-granTiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paragranTiH"
+                }
+            ],
+            "_meanings": [
+                "joint (as of a finger); an articulation.\n"
+            ]
+        },
+        {
+            "__line": 179619,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-glAniH#}@}"
+            ],
+            "_banner": ".{@{#-glAniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraglAniH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "subjugation of an enemy; {#AtmodayaH paraglAnirdvayaM#}\n {#nItiritIyatI#} <ls>Śi. 2. 30</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179621,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-cakram#}@}"
+            ],
+            "_banner": ".{@{#-cakram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paracakram"
+                }
+            ],
+            "_meanings": [
+                ".²1 the army of an enemy.\n",
+                ".²2 invasion by an enemy, one of the six {%itis%} <ab>q. v.</ab>\n",
+                ".²3 a hostile prince.\n"
+            ]
+        },
+        {
+            "__line": 179625,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Canda#}@}"
+            ],
+            "_banner": ".{@{#-Canda#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paracCanda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dependent.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179626,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-Canda#}@}",
+                        "S_M_ ({@{#-daH#}@})"
+                    ],
+                    "_banner": "({@{#-daH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "paracCandaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the will of another.\n",
+                        ".²2 dependence. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 179628,
+                            "_ancestry": [
+                                "L_ 19937",
+                                "B_ {#para#}",
+                                "S_ .{@{#-Canda#}@}",
+                                "S_M_ ({@{#-daH#}@})",
+                                "S_M_S_ {#˚anuvartanam#}"
+                            ],
+                            "_banner": "{#˚anuvartanam#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "paracCandAnuvartanam"
+                                }
+                            ],
+                            "_meanings": [
+                                "following the will of another.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179629,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Cidram#}@}"
+            ],
+            "_banner": ".{@{#-Cidram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paracCidram"
+                }
+            ],
+            "_meanings": [
+                "a weak or vulnerable point of another, a defect in another.\n"
+            ]
+        },
+        {
+            "__line": 179630,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 stranger.\n",
+                ".²2 coming from a foe.\n",
+                ".²3 inferior.\n"
+            ]
+        },
+        {
+            "__line": 179634,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parajanaH"
+                }
+            ],
+            "_meanings": [
+                "a stranger (<ab>opp.</ab> {#svajana#}); {#SaktaH parajane dAtA#} <ls>Ms. 11. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179635,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-janman#}@}"
+            ],
+            "_banner": ".{@{#-janman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parajanman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a future birth.\n"
+            ]
+        },
+        {
+            "__line": 179636,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-jAta#}@}"
+            ],
+            "_banner": ".{@{#-jAta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parajAta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 born of another.\n",
+                ".²2 dependent on another for livelihood.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179639,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-jAta#}@}",
+                        "S_M_ ({@{#-taH#}@})"
+                    ],
+                    "_banner": "({@{#-taH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parajAtaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a servant.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179640,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-jita#}@}"
+            ],
+            "_banner": ".{@{#-jita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parajita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 conquered by another.\n",
+                ".²2 maintained by another.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179643,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-jita#}@}",
+                        "S_M_ ({@{#-taH#}@})"
+                    ],
+                    "_banner": "({@{#-taH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parajitaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the (Indian) cuckoo.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179644,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-tantra#}@}"
+            ],
+            "_banner": ".{@{#-tantra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paratantra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dependent on another, dependent, subservient.\n"
+            ]
+        },
+        {
+            "__line": 179645,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-tantram#}@}"
+            ],
+            "_banner": ".{@{#-tantram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paratantram"
+                }
+            ],
+            "_meanings": [
+                "(a common group of) subsidiaries belonging to another;\n {#jEmineH paratantrApatteH svatantrapratizeDaH syAt#} <ls>MS. 12. 1. 8</ls> (see {#tantram#}).\n"
+            ]
+        },
+        {
+            "__line": 179647,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-tarkakaH#}@}"
+            ],
+            "_banner": ".{@{#-tarkakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paratarkakaH"
+                }
+            ],
+            "_meanings": [
+                "a suppliant, beggar; <ls>Dānasāgara, Bibliotheca Indica, 274, Fascicule 1, p. 15</ls>;\n also {#paratarkuka#}.\n"
+            ]
+        },
+        {
+            "__line": 179649,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-talpagAmin#}@}"
+            ],
+            "_banner": ".{@{#-talpagAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paratalpagAmin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "One who approaches another manʼs wife.\n"
+            ]
+        },
+        {
+            "__line": 179650,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-tIrTikaH#}@}"
+            ],
+            "_banner": ".{@{#-tIrTikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paratIrTikaH"
+                }
+            ],
+            "_meanings": [
+                "The adherent of another sect.\n"
+            ]
+        },
+        {
+            "__line": 179651,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-dArAH#}@}"
+            ],
+            "_banner": ".{@{#-dArAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paradArAH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) anotherʼs wife; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179651,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-dArAH#}@}",
+                        "S_S_ {#˚aBigamanam, ˚aBimarzaH#}"
+                    ],
+                    "_banner": "{#˚aBigamanam, ˚aBimarzaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "paradArABigamanam"
+                        },
+                        {
+                            "Right": "paradArABimarzaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "Adultery.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179652,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-dArin#}@}"
+            ],
+            "_banner": ".{@{#-dArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paradArin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an adulterer.\n"
+            ]
+        },
+        {
+            "__line": 179653,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-duHKam#}@}"
+            ],
+            "_banner": ".{@{#-duHKam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraduHKam"
+                }
+            ],
+            "_meanings": [
+                "the sorrow or grief of another; {#viralaH paraduHKaduHKito#}\n {#janaH#}; {#mahadapi paraduHKaM SItalaM samyagAhuH#} <ls>V. 4. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179655,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-devatA#}@}"
+            ],
+            "_banner": ".{@{#-devatA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paradevatA"
+                }
+            ],
+            "_meanings": [
+                "the Supreme Being.\n"
+            ]
+        },
+        {
+            "__line": 179656,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-deSaH#}@}"
+            ],
+            "_banner": ".{@{#-deSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paradeSaH"
+                }
+            ],
+            "_meanings": [
+                "a hostile or foreign country.\n"
+            ]
+        },
+        {
+            "__line": 179657,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-deSin#}@}"
+            ],
+            "_banner": ".{@{#-deSin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paradeSin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a foreigner.\n"
+            ]
+        },
+        {
+            "__line": 179658,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-drohin, -dvezin#}@}"
+            ],
+            "_banner": ".{@{#-drohin, -dvezin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paradrohin"
+                },
+                {
+                    "Right": "paradvezin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "hating others, hostile, inimical.\n"
+            ]
+        },
+        {
+            "__line": 179659,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Danam#}@}"
+            ],
+            "_banner": ".{@{#-Danam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraDanam"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs property.\n"
+            ]
+        },
+        {
+            "__line": 179660,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-DarmaH#}@}"
+            ],
+            "_banner": ".{@{#-DarmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraDarmaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the religion of another; {#svaDarme niDanaM SreyaH paraDarmo BayAvahaH#} <ls>Bg. 3. 35</ls>.\n",
+                ".²2 anotherʼs duty or business.\n",
+                ".²3 the duties of another caste; {#paraDarmeRa jIvan hi sadyaH patati jAtitaH#} <ls>Ms. 10. 97</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179664,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-DyAnam#}@}"
+            ],
+            "_banner": ".{@{#-DyAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraDyAnam"
+                }
+            ],
+            "_meanings": [
+                "absolute meditation or contemplation; {#Dyeye mano niScalatAM#}\n {#yAti DyeyaM vicintayat . yat tad DyAnaM paraM proktaM muniBirDyAnacintakEH ..#}\n <ls>Garuḍa P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 179667,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-nipAtaH#}@}"
+            ],
+            "_banner": ".{@{#-nipAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paranipAtaH"
+                }
+            ],
+            "_meanings": [
+                "the irregular posteriority of a word in a compound; {%<ab>i. e.</ab>%}\n {#BUtapUrvaH#} where the sense is {#pUrvaM BUtaH#}; so {#rAjadantaH#},\n {#agnyAhitaH#} <ab>&c.</ab>\n"
+            ]
+        },
+        {
+            "__line": 179670,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-nirvARam#}@}"
+            ],
+            "_banner": ".{@{#-nirvARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paranirvARam"
+                }
+            ],
+            "_meanings": [
+                "the highest {#nirvARa#}; (<ls>Buddh.</ls>).\n"
+            ]
+        },
+        {
+            "__line": 179671,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-pakzaH#}@}"
+            ],
+            "_banner": ".{@{#-pakzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapakzaH"
+                }
+            ],
+            "_meanings": [
+                "the side or party of an enemy.\n"
+            ]
+        },
+        {
+            "__line": 179672,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-padam#}@}"
+            ],
+            "_banner": ".{@{#-padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapadam"
+                }
+            ],
+            "_meanings": [
+                ".²1 the highest position, eminence.\n",
+                ".²2 final beatitude.\n"
+            ]
+        },
+        {
+            "__line": 179675,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-parigraha#}@}"
+            ],
+            "_banner": ".{@{#-parigraha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraparigraha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "see {#parADIna#}; {#svavIryavijaye yuktA nEte para#}-\n\n {#-parigrahAH#} <ls>Mb. 7. 144. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179678,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-haH#}@}"
+            ],
+            "_banner": ".{@{#-haH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parahaH"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs property (as wife <ab>&c.</ab>); {#yaTA bIjaM na vaptavyaM#}\n {#puMsA paraparigrahe#} <ls>Ms. 9. 42-3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179680,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-pariBavaH#}@}"
+            ],
+            "_banner": ".{@{#-pariBavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapariBavaH"
+                }
+            ],
+            "_meanings": [
+                "humiliation or injury suffered from others.\n"
+            ]
+        },
+        {
+            "__line": 179681,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-pAkanivftta#}@}"
+            ],
+            "_banner": ".{@{#-pAkanivftta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapAkanivftta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "One who does not depend on others for his\n sustenance and performs the {#paYcayajYa#}s faultlessly and takes food\n in his own house.\n"
+            ]
+        },
+        {
+            "__line": 179684,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-pAkarata#}@}"
+            ],
+            "_banner": ".{@{#-pAkarata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapAkarata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who depends upon others for his sustenance\n but performs the usual ceremonies before cooking; {#paYcayajYAn svayaM#}\n {#kftvA parAnnamupajIvati . satataM prAtarutTAya parapAkaratastu saH ..#}\n"
+            ]
+        },
+        {
+            "__line": 179687,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-pAkaruciH#}@}"
+            ],
+            "_banner": ".{@{#-pAkaruciH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapAkaruciH"
+                }
+            ],
+            "_meanings": [
+                "having a liking for othersʼ food; {#parapAkarucirna#}\n {#syAdanindyAmantraRAdfte#} <ls>Y. 1. 112</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179689,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-piRqaH#}@}"
+            ],
+            "_banner": ".{@{#-piRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapiRqaH"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs food, food given by another. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179689,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-piRqaH#}@}",
+                        "S_S_ {#˚ad#}"
+                    ],
+                    "_banner": "{#˚ad#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parapiRqAd"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%a.%},\n "
+                    ]
+                },
+                {
+                    "__line": 179690,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-piRqaH#}@}",
+                        "S_S_ {#˚Bakzaka#}"
+                    ],
+                    "_banner": "{#˚Bakzaka#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parapiRqaBakzaka"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%a.%} one who eats anotherʼs food or one who feeds at the\n cost of another; {#yAdfSo'haM parapiRqaBakzako BUtaH#} <ls>Mk. 8. 25/26</ls>. --({%m.%})\n a servant. "
+                    ]
+                },
+                {
+                    "__line": 179692,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-piRqaH#}@}",
+                        "S_S_ {#˚rata#}"
+                    ],
+                    "_banner": "{#˚rata#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parapiRqarata"
+                        }
+                    ],
+                    "_meanings": [
+                        "{%a.%} feeding upon anotherʼs food; {#parapiRqaratA manuzyAH#} <ls>Bh.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179693,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-puraYjayaH#}@}"
+            ],
+            "_banner": ".{@{#-puraYjayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapuraYjayaH"
+                }
+            ],
+            "_meanings": [
+                "a conqueror, hero.\n"
+            ]
+        },
+        {
+            "__line": 179694,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-puruzaH#}@}"
+            ],
+            "_banner": ".{@{#-puruzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapuruzaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 another man, a stranger.\n",
+                ".²2 the Supreme Spirit, Viṣṇu.\n",
+                ".²3 the husband of another woman.\n"
+            ]
+        },
+        {
+            "__line": 179698,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-puzwa#}@}"
+            ],
+            "_banner": ".{@{#-puzwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapuzwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 fed or nourished by another.\n",
+                ".²2 Stranger.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 179701,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-puzwa#}@}",
+                        "S_M_ ({@{#-zwaH#}@})"
+                    ],
+                    "_banner": "({@{#-zwaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parapuzwaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the (Indian) cuckoo. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 179701,
+                            "_ancestry": [
+                                "L_ 19937",
+                                "B_ {#para#}",
+                                "S_ .{@{#-puzwa#}@}",
+                                "S_M_ ({@{#-zwaH#}@})",
+                                "S_M_S_ {#˚mahotsavaH#}"
+                            ],
+                            "_banner": "{#˚mahotsavaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "parapuzwamahotsavaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "the mango tree.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179702,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-puzwA#}@}"
+            ],
+            "_banner": ".{@{#-puzwA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapuzwA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the (Indian) cuckoo.\n",
+                ".²2 a parasitical plant.\n",
+                ".²3 a harlot, prostitute.\n"
+            ]
+        },
+        {
+            "__line": 179706,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-pUrvA#}@}"
+            ],
+            "_banner": ".{@{#-pUrvA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapUrvA"
+                }
+            ],
+            "_meanings": [
+                "a woman who has or had a former husband; <ls>Ms. 3. 166</ls>; {#patiM#}\n {#hitvA'pakfzwaM svamutkfzwaM yA nizevate . nindyEva sA Bavelloke parapUrveti#}\n {#cocyate#} <ls>Ms. 5. 163</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179709,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-pratinaptf#}@}"
+            ],
+            "_banner": ".{@{#-pratinaptf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parapratinaptf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "son of the great grand son.\n"
+            ]
+        },
+        {
+            "__line": 179710,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-prapOtraH#}@}"
+            ],
+            "_banner": ".{@{#-prapOtraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraprapOtraH"
+                }
+            ],
+            "_meanings": [
+                "(see {#pratinaptf#}).\n"
+            ]
+        },
+        {
+            "__line": 179711,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-prezyaH#}@}"
+            ],
+            "_banner": ".{@{#-prezyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraprezyaH"
+                }
+            ],
+            "_meanings": [
+                "a servant, menial, slave.\n"
+            ]
+        },
+        {
+            "__line": 179712,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-brahman#}@}"
+            ],
+            "_banner": ".{@{#-brahman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parabrahman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the Supreme Spirit; <ab>cf.</ab> {#lIne pare brahmaRi#}\n <ls>Bh.</ls> {#pare brahmaRi ko'pi na lagnaH#} <ls>Śaṅkara. (Carpaṭapañjarikā 7)</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179714,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-BAgaH#}@}"
+            ],
+            "_banner": ".{@{#-BAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBAgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 anotherʼs share.\n",
+                ".²2 superior merit.\n",
+                ".²3 good fortune, prosperity.\n",
+                ".²4\n",
+                ".³({%a%}) excellence, superiority, supremacy; {#duraDigamaH paraBAgo yAvat#}\n {#puruzeRa pOruzaM na kftam#} <ls>Pt. 1. 330</ls>, <ls n=\"Pt.\">5. 34</ls>.\n",
+                ".³({%b%}) excess, abundance, height; {#sTalakamalagaYjanaM mama hfdayaraYjanam#}\n {#janitaratiraNgaparaBAgam#} <ls>Gīt. 10</ls>; {#ABAti labDaparaBAgatayADarozWe#}\n <ls>R. 5. 70</ls>; <ls>Ku. 7. 17</ls>; <ls>Ki. 5. 30</ls>, <ls n=\"Ki.\">8. 42</ls>; <ls>Śi. 7. 33</ls>, <ls n=\"Śi.\">8. 51</ls>, <ls n=\"Śi.\">10. 86</ls>, <ls n=\"Śi.\">12. 15</ls>.\n",
+                ".²5 the last part, remainder.\n"
+            ]
+        },
+        {
+            "__line": 179725,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-BAva#}@}"
+            ],
+            "_banner": ".{@{#-BAva#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBAva"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "loving another.\n"
+            ]
+        },
+        {
+            "__line": 179726,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBAvaH"
+                }
+            ],
+            "_meanings": [
+                "the being second member in a compound.\n"
+            ]
+        },
+        {
+            "__line": 179727,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-BAzA#}@}"
+            ],
+            "_banner": ".{@{#-BAzA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBAzA"
+                }
+            ],
+            "_meanings": [
+                "a foreign tongue.\n"
+            ]
+        },
+        {
+            "__line": 179728,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Bukta#}@}"
+            ],
+            "_banner": ".{@{#-Bukta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBukta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "enjoyed or used by another; {#paraBuktAM ca kAntAM#}\n {#ca yo BuNkte sa narADamaH . sa pacyate kAlasUtre yAvaccandradivAkarO ..#} <ls>Brav. P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 179730,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-BUta#}@}"
+            ],
+            "_banner": ".{@{#-BUta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBUta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following, subsequent (as words).\n"
+            ]
+        },
+        {
+            "__line": 179731,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Bft#}@}"
+            ],
+            "_banner": ".{@{#-Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a crow (said to nourish the cuckoo).\n"
+            ]
+        },
+        {
+            "__line": 179732,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Bfta#}@}"
+            ],
+            "_banner": ".{@{#-Bfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "nourished by another.\n"
+            ]
+        },
+        {
+            "__line": 179733,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-BftaH, -tA#}@}"
+            ],
+            "_banner": ".{@{#-BftaH, -tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraBftaH"
+                },
+                {
+                    "Right": "paraBftA"
+                }
+            ],
+            "_meanings": [
+                "the (Indian) cuckoo; (so called because she is nourished\n by another {%<ab>i. e.</ab>%} by a crow); {#prAgantarikzagamanAtsvamapatyajAtamanyErdvijEH#}\n {#paraBftAH Kalu pozayanti#} <ls>Ś. 5. 22</ls>; <ls>Ku. 6. 2</ls>; <ls>R. 9. 43</ls>; <ls>Ś. 4. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179736,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-matam#}@}"
+            ],
+            "_banner": ".{@{#-matam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paramatam"
+                }
+            ],
+            "_meanings": [
+                ".²1 anotherʼs opinion.\n",
+                ".²2 different opinion or doctrine; heterodoxy.\n"
+            ]
+        },
+        {
+            "__line": 179739,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-marmajYa#}@}"
+            ],
+            "_banner": ".{@{#-marmajYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paramarmajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "knowing the secrets of another.\n"
+            ]
+        },
+        {
+            "__line": 179740,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-mftyuH#}@}"
+            ],
+            "_banner": ".{@{#-mftyuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paramftyuH"
+                }
+            ],
+            "_meanings": [
+                "a crow.\n"
+            ]
+        },
+        {
+            "__line": 179741,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-ramaRaH#}@}"
+            ],
+            "_banner": ".{@{#-ramaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pararamaRaH"
+                }
+            ],
+            "_meanings": [
+                "a married womanʼs gallant or paramour; {#svADIne pararamaRe#}\n {#DanyAstAruRyaPalaBAjaH#} <ls>Pt. 1. 180</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179743,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paralokaH"
+                }
+            ],
+            "_meanings": [
+                "the next (or future) world; {#paralokanavapravAsinaH pratipatsye#}\n {#padavImahaM tava#} <ls>Ku. 4. 10</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179744,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-lokaH#}@}",
+                        "S_S_ {#˚gamaH, ˚yAnam#}"
+                    ],
+                    "_banner": "{#˚gamaH, ˚yAnam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "paralokagamaH"
+                        },
+                        {
+                            "Right": "paralokayAnam"
+                        }
+                    ],
+                    "_meanings": [
+                        "death. "
+                    ]
+                },
+                {
+                    "__line": 179744,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-lokaH#}@}",
+                        "S_S_ {#˚viDi#}"
+                    ],
+                    "_banner": "{#˚viDi#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "paralokaviDi"
+                        }
+                    ],
+                    "_meanings": [
+                        "funeral\n rites; {#paralokaviDO ca mADava smaramuddiSya#} ({#nivapeH sahakAramaYjarIH#}) <ls>Ku. 4. 38</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179746,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-vaSa, -vaSya#}@}"
+            ],
+            "_banner": ".{@{#-vaSa, -vaSya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paravaSa"
+                },
+                {
+                    "Right": "paravaSya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "subject to another, dependent, dependent\n on others; {#sarvaM paravaSaM duHKaM sarvamAtmavaSaM suKam#}.\n"
+            ]
+        },
+        {
+            "__line": 179748,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-vAcyam#}@}"
+            ],
+            "_banner": ".{@{#-vAcyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paravAcyam"
+                }
+            ],
+            "_meanings": [
+                "a fault or a defect of another; {#prakawAnyapi nEpuRaM mahat#}\n\n {#paravAcyAni cirAya gopitum#} <ls>Śi. 16. 30</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179751,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-vARiH#}@}"
+            ],
+            "_banner": ".{@{#-vARiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paravARiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a judge.\n",
+                ".²2 a year.\n",
+                ".²3 <ab>N.</ab> of the peacock of Kārtikeya.\n"
+            ]
+        },
+        {
+            "__line": 179755,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-vAdaH#}@}"
+            ],
+            "_banner": ".{@{#-vAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paravAdaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 rumour, report.\n",
+                ".²2 objection, controversy.\n"
+            ]
+        },
+        {
+            "__line": 179758,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paravAdin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a disputant, controversialist.\n"
+            ]
+        },
+        {
+            "__line": 179759,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-veSman#}@}"
+            ],
+            "_banner": ".{@{#-veSman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraveSman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the abode of the Supreme Being.\n"
+            ]
+        },
+        {
+            "__line": 179760,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-vrataH#}@}"
+            ],
+            "_banner": ".{@{#-vrataH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paravrataH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Dhṛtarāṣṭra.\n"
+            ]
+        },
+        {
+            "__line": 179761,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-SabdaH#}@}"
+            ],
+            "_banner": ".{@{#-SabdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraSabdaH"
+                }
+            ],
+            "_meanings": [
+                "a word expressive of something else; {#paraSabdasya paratra#}\n {#vfttO tadvad BAvo gamyate#} <ls>ŚB. on MS. 7. 2 1</ls>.\n"
+            ]
+        },
+        {
+            "__line": 179763,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-Svas#}@}"
+            ],
+            "_banner": ".{@{#-Svas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paraSvas"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "the day after tomorrow.\n"
+            ]
+        },
+        {
+            "__line": 179764,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-saMgata#}@}"
+            ],
+            "_banner": ".{@{#-saMgata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parasaNgata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 associated with another.\n",
+                ".²2 fighting with another.\n"
+            ]
+        },
+        {
+            "__line": 179767,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-saMjYakaH#}@}"
+            ],
+            "_banner": ".{@{#-saMjYakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parasaYjYakaH"
+                }
+            ],
+            "_meanings": [
+                "the soul.\n"
+            ]
+        },
+        {
+            "__line": 179768,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-savarRa#}@}"
+            ],
+            "_banner": ".{@{#-savarRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parasavarRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "homogeneous with a following letter (in <ab>gram.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 179769,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-sAt#}@}"
+            ],
+            "_banner": ".{@{#-sAt#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parasAt"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "into the hands of another. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179769,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-sAt#}@}",
+                        "S_S_ {#˚kftA#}"
+                    ],
+                    "_banner": "{#˚kftA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parasAtkftA"
+                        }
+                    ],
+                    "_meanings": [
+                        "a woman given in marriage.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179770,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-sevA#}@}"
+            ],
+            "_banner": ".{@{#-sevA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parasevA"
+                }
+            ],
+            "_meanings": [
+                "service of another.\n"
+            ]
+        },
+        {
+            "__line": 179771,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-strI#}@}"
+            ],
+            "_banner": ".{@{#-strI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parastrI"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs wife.\n"
+            ]
+        },
+        {
+            "__line": 179772,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-svam#}@}"
+            ],
+            "_banner": ".{@{#-svam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parasvam"
+                }
+            ],
+            "_meanings": [
+                "anotherʼs property; {#vyAvftA yat parasveByaH SrutO taskaratA#}\n {#sTitA#} <ls>R. 1. 27</ls>; <ls>Ms. 7. 123</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 179773,
+                    "_ancestry": [
+                        "L_ 19937",
+                        "B_ {#para#}",
+                        "S_ .{@{#-svam#}@}",
+                        "S_S_ {#˚haraRam#}"
+                    ],
+                    "_banner": "{#˚haraRam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "parasvaharaRam"
+                        }
+                    ],
+                    "_meanings": [
+                        "seizing anotherʼs property.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 179774,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-han#}@}"
+            ],
+            "_banner": ".{@{#-han#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parahan"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "killing enemies.\n"
+            ]
+        },
+        {
+            "__line": 179775,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-hita#}@}"
+            ],
+            "_banner": ".{@{#-hita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parahita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 benevolent.\n",
+                ".²2 profitable to another.\n"
+            ]
+        },
+        {
+            "__line": 179778,
+            "_ancestry": [
+                "L_ 19937",
+                "B_ {#para#}",
+                "S_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paratam"
+                }
+            ],
+            "_meanings": [
+                "the welfare of another; {#santaH svayaM parahitABihitABiyogAH#} <ls>Bh.</ls>"
+            ]
+        }
     ]
 }

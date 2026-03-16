@@ -1,41 +1,81 @@
 {
-    "__line": 56744,
+    "__line": 54739,
     "_ancestry": [
         "L_ 6507",
-        "B_ {#ABiDAnika#}"
+        "B_ {#Agata#}"
     ],
-    "_banner": "{#ABiDAnika#}",
+    "_banner": "{#Agata#}",
     "_bannerExp": [
         {
-            "Right": "ABiDAnikI"
-        },
-        {
-            "Right": "ABiDAnika"
+            "Right": "Agata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Contained in a dictionary. "
+        ".²1 Come, arrived; {#mama sADarmyamAgatAH#} <ls>Bg. 14. 2</ls>.\n",
+        ".²2 Occurred, happened. {#vijYApyaM tu mamEtadDi yadvadAmyAgataspfhaH#}\n <ls>Rām. 7. 36. 54</ls>; <ls>Ms. 2. 152</ls>.\n",
+        ".²3 Obtained, got; {#nyAyAgataDanam#} <ls>Y. 3. 205</ls>; {#˚sADvasa#} afraid; {#˚kzoBa#}\n perplexed; {#anvaya˚#} hereditary; {#˚manyu#} angry; {#˚vismaya#} surprised.\n",
+        ".²4 Reduced to, fallen into (a particular state); {#dAsatvam, paYcatvam#},\n {#saMdeham, vismayam#} <ab>&c.</ab>\n",
+        ".²5 Living or residing in.\n"
     ],
     "_morphisms": [
         {
-            "__line": 56745,
+            "__line": 54748,
             "_ancestry": [
                 "L_ 6507",
-                "B_ {#ABiDAnika#}",
-                "M_ {#--kaH#}"
+                "B_ {#Agata#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ABiDAnikaH"
+                    "Right": "Agatam"
                 }
             ],
             "_meanings": [
-                "A \nlexicographer."
+                ".²1 Coming, arrival; {#kaTaM nu Kalvadya Bavetsugatam#} <ls>Rām. 5. 41. 8</ls>; <ls>Bg. 9. 21</ls>.\n",
+                ".²2 Occurrence, event.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 54752,
+            "_ancestry": [
+                "L_ 6507",
+                "B_ {#Agata#}",
+                "S_ .{@{#-tvam#}@}"
+            ],
+            "_banner": ".{@{#-tvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Agatatvam"
+                }
+            ],
+            "_meanings": [
+                "Origin.\n"
+            ]
+        },
+        {
+            "__line": 54753,
+            "_ancestry": [
+                "L_ 6507",
+                "B_ {#Agata#}",
+                "S_ .{@{#-sADvasa#}@}"
+            ],
+            "_banner": ".{@{#-sADvasa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AgatasADvasa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Terrified."
             ]
         }
     ]

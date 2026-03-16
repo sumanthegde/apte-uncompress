@@ -1,18 +1,61 @@
 {
-    "__line": 236420,
+    "__line": 259232,
     "_ancestry": [
         "L_ 28097",
-        "B_ {#SunakaH#}"
+        "B_ {#leKakaH#}"
     ],
-    "_banner": "{#SunakaH#}",
+    "_banner": "{#leKakaH#}",
     "_bannerExp": [
         {
-            "Right": "SunakaH"
+            "Right": "leKakaH"
         }
     ],
+    "_gram": [
+        "[{#liK-Rvul#}]"
+    ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of a sage, \ndescendant of Bhṛgu. ",
-        "{@--2@} A dog. ",
-        "{@--3@} A\nyoung dog."
+        ".²1 A writer, scribe, copyist.\n",
+        ".²2 A painter.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 259235,
+            "_ancestry": [
+                "L_ 28097",
+                "B_ {#leKakaH#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "leKakam"
+                }
+            ],
+            "_meanings": [
+                "Writing down, transcribing.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 259237,
+            "_ancestry": [
+                "L_ 28097",
+                "B_ {#leKakaH#}",
+                "S_ .{@{#-dozaH, -pramAdaH#}@}"
+            ],
+            "_banner": ".{@{#-dozaH, -pramAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "leKakadozaH"
+                },
+                {
+                    "Right": "leKakapramAdaH"
+                }
+            ],
+            "_meanings": [
+                "a slip of the scribe, copyistʼs mistake."
+            ]
+        }
     ]
 }

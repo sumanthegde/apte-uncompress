@@ -1,29 +1,131 @@
 {
-    "__line": 172965,
+    "__line": 186736,
     "_ancestry": [
         "L_ 20864",
-        "B_ {#prasAdaka, prasAdin#}"
+        "B_ {#pavitra#}"
     ],
-    "_banner": "{#prasAdaka, prasAdin#}",
+    "_banner": "{#pavitra#}",
     "_bannerExp": [
         {
-            "Right": "prasAdaka"
-        },
-        {
-            "Right": "prasAdikA"
-        },
-        {
-            "Right": "prasAdin"
+            "Right": "pavitra"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#dikA#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "[{#pU-karaRe itra#}]"
     ],
     "_meanings": [
-        "{@--1@}\nPurifying, clearing, making pellucid.\n",
-        "{@--2@} Soothing, calming. ",
-        "{@--3@} \nGladdening, cheering. ",
-        "{@--4@} Courting favour,\npropitiating."
+        ".²1 Sacred, holy, sinless, sanctified (persons or things); {#trIRi SrAdDe#}\n {#pavitrARi dOhitraH kutapastilAH#} <ls>Ms. 3. 235</ls>; {#pavitro naraH, pavitraM sTAnam#} <ab>&c.</ab>\n",
+        ".²2 Purified by the performance of ceremonial acts (such as sacrifices <ab>&c.</ab>).\n",
+        ".²4 Purifying, removing sin.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 186741,
+            "_ancestry": [
+                "L_ 20864",
+                "B_ {#pavitra#}",
+                "M_ .{@{#-tram#}@}"
+            ],
+            "_banner": ".{@{#-tram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pavitram"
+                }
+            ],
+            "_meanings": [
+                ".²1 An instrument for cleansing or purifying, such as a sieve or strainer <ab>&c.</ab>\n",
+                ".²2 Two blades of Kuśa grass used at sacrifices in purifying and sprinkling\n ghee; <ls>N. 17. 188</ls>.\n",
+                ".²3 A ring of Kuśa grass worn on the fourth finger on certain religious\n occasions; {#DOtANGripARirAcamya sapavitra udaNmuKaH#} <ls>Bhāg. 6. 8. 4</ls>.\n",
+                ".²4 The sacred thread worn by members of the first three castes of the Hindus.\n",
+                ".²5 Copper.\n",
+                ".²6 Rain.\n",
+                ".²7 Water.\n",
+                ".²8 Rubbing, cleansing.\n",
+                ".²9 A vessel in which the {%arghya%} is presented.\n",
+                ".²10 Clarified butter.\n",
+                ".²11 Honey.\n",
+                ".²12 A purifying prayer.\n",
+                ".²13 A\n\n means of purifying the mind.\n",
+                ".²14 A cloth for straining Soma juice; {#vAyuH pUtaH pavitreRa pratyaN#}\n {#somo'tidrutaH#} <ls>Ts. 1. 8. 21</ls>.\n"
+            ]
+        },
+        {
+            "__line": 186761,
+            "_ancestry": [
+                "L_ 20864",
+                "B_ {#pavitra#}",
+                "M_ .{@{#-trA#}@}"
+            ],
+            "_banner": ".{@{#-trA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pavitrA"
+                }
+            ],
+            "_meanings": [
+                ".²1 The holy basil.\n",
+                ".²2 Turmeric ({#pavitrIkf#} ‘to purify, sanctify’; {#pavitrIBU#} ‘to become\n pure or holy’).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 186766,
+            "_ancestry": [
+                "L_ 20864",
+                "B_ {#pavitra#}",
+                "S_ .{@{#-AropaRam, ArohaRam#}@}"
+            ],
+            "_banner": ".{@{#-AropaRam, ArohaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pavitrAropaRam"
+                },
+                {
+                    "Right": "pavitrArohaRam"
+                }
+            ],
+            "_meanings": [
+                "investiture with the sacred thread.\n"
+            ]
+        },
+        {
+            "__line": 186767,
+            "_ancestry": [
+                "L_ 20864",
+                "B_ {#pavitra#}",
+                "S_ .{@{#-DAnyam#}@}"
+            ],
+            "_banner": ".{@{#-DAnyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pavitraDAnyam"
+                }
+            ],
+            "_meanings": [
+                "barley.\n"
+            ]
+        },
+        {
+            "__line": 186768,
+            "_ancestry": [
+                "L_ 20864",
+                "B_ {#pavitra#}",
+                "S_ .{@{#-pARi#}@}"
+            ],
+            "_banner": ".{@{#-pARi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pavitrapARi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "holding {%Darbha%} grass in the hand."
+            ]
+        }
     ]
 }

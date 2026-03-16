@@ -1,41 +1,104 @@
 {
-    "__line": 49557,
+    "__line": 46773,
     "_ancestry": [
         "L_ 5618",
-        "B_ {#asnigDa#}"
+        "B_ {#aviSeza#}"
     ],
-    "_banner": "{#asnigDa#}",
+    "_banner": "{#aviSeza#}",
     "_bannerExp": [
         {
-            "Right": "asnigDa"
+            "Right": "aviSeza"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Not smooth, hard,\ndry. ",
-        "{@--2@} Unkind. "
+        "Without any difference, alike, similar, uniform.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 49558,
+            "__line": 46774,
             "_ancestry": [
                 "L_ 5618",
-                "B_ {#asnigDa#}",
-                "S_  {#--dAru#}"
+                "B_ {#aviSeza#}",
+                "M_ .{@{#-zaH, -zam#}@}"
             ],
-            "_banner": " {#--dAru#}",
+            "_banner": ".{@{#-zaH, -zam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "asnigDadAru"
+                    "Right": "aviSezaH"
+                },
+                {
+                    "Right": "aviSezam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Absence of difference, uniformity, similarity.\n",
+                ".²2 Identity, sameness.\n",
+                ".²3 The subtle elements; {#tanmAtrARyaviSezAH#} <ls>Sāṅ. K. 38</ls>.\n"
+            ]
+        },
+        {
+            "__line": 46778,
+            "_ancestry": [
+                "L_ 5618",
+                "B_ {#aviSeza#}",
+                "M_ .{@{#-ka#}@}"
+            ],
+            "_banner": ".{@{#-ka#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: aviSeza ka"
                 }
             ],
             "_gram": [
-                "{%<ab>n.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "a\nkind of pine tree."
+                "Inconclusive, not leading to any definite conclusion;\n {#api cEkena saMniDAnamaviSezako hetuH#} <ls>Ms. 11. 1. 64</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 46781,
+            "_ancestry": [
+                "L_ 5618",
+                "B_ {#aviSeza#}",
+                "S_ .{@{#-jYa#}@}"
+            ],
+            "_banner": ".{@{#-jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aviSezajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not knowing the difference (in things), undiscriminating.\n"
+            ]
+        },
+        {
+            "__line": 46782,
+            "_ancestry": [
+                "L_ 5618",
+                "B_ {#aviSeza#}",
+                "S_ .{@{#-vacana#}@}"
+            ],
+            "_banner": ".{@{#-vacana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aviSezavacana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Not expressive of any particular detail or aspect\n of a matter; {#aviSezavacanaH Sabdo na viSeze vyavasTApito Bavizyati#}\n <ls>ŚB. on MS. 4. 3. 15</ls>."
             ]
         }
     ]

@@ -1,23 +1,74 @@
 {
-    "__line": 142699,
+    "__line": 147292,
     "_ancestry": [
         "L_ 16949",
-        "B_ {#nirRud#}"
+        "B_ {#da#}"
     ],
-    "_banner": "{#nirRud#}",
+    "_banner": "{#da#}",
     "_bannerExp": [
         {
-            "Right": "nirRud"
+            "Right": "da"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To throw back, \nreject; {#DAnA matsyAnpayo mAMsaM SAkaM cEva#}\n{#na nirRudet#} <ls>Ms. 4. 250.</ls> ",
-        "{@--2@} To remove,\ndispel. ",
-        "{@--3@} To drive away, expel. ",
-        "{@--4@}\nTo repudiate."
+        "(At the end of <ab>comp.</ab>) Giving, granting, producing, causing,\n cutting off, destroying, removing; as {#Danada, annada, garada, toyada, analada#} <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 147294,
+            "_ancestry": [
+                "L_ 16949",
+                "B_ {#da#}",
+                "M_ .{@{#-daH#}@}"
+            ],
+            "_banner": ".{@{#-daH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A gift, donation.\n",
+                ".²2 A mountain.\n"
+            ]
+        },
+        {
+            "__line": 147297,
+            "_ancestry": [
+                "L_ 16949",
+                "B_ {#da#}",
+                "M_ .{@{#-dam#}@}"
+            ],
+            "_banner": ".{@{#-dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dam"
+                }
+            ],
+            "_meanings": [
+                "A wife.\n"
+            ]
+        },
+        {
+            "__line": 147298,
+            "_ancestry": [
+                "L_ 16949",
+                "B_ {#da#}",
+                "M_ .{@{#-dA#}@}"
+            ],
+            "_banner": ".{@{#-dA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Heat.\n",
+                ".²2 Repentance."
+            ]
+        }
     ]
 }

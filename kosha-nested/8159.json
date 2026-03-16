@@ -1,21 +1,79 @@
 {
-    "__line": 70249,
+    "__line": 68136,
     "_ancestry": [
         "L_ 8159",
-        "B_ {#uddizwa#}"
+        "B_ {#ina#}"
     ],
-    "_banner": "{#uddizwa#}",
+    "_banner": "{#ina#}",
     "_bannerExp": [
         {
-            "Right": "uddizwa"
+            "Right": "ina"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Mentioned, \nparticularized, specially told. ",
-        "{@--2@} Desired,\nwished for. ",
-        "{@--3@} Explained, taught &c."
+        ".²1 Able, strong, powerful, mighty.\n",
+        ".²2 Bold, determined.\n",
+        ".²3 Glorious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 68140,
+            "_ancestry": [
+                "L_ 8159",
+                "B_ {#ina#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "inaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A lord, master. {#loke BavAYjagadinaH kalayAvatIrRaH#} <ls>Bhāg. 10. 70. 27</ls>.\n",
+                ".²2 The sun; {#tapatvinaH#} <ls>Śi. 2. 65</ls>. {#Bajati kalpaminaH pratipadyayam#}\n <ls>Rām. Ch. 4. 21</ls>. (<ab>cf.</ab> {#ino BAgo DAmaniDiraMSumAlyabjinIpatiH#} <ls>Ak.</ls>)\n",
+                ".²3 A king; {#na na mahInamahInaparAkamam#} <ls>R. 9. 5</ls>.\n",
+                ".²4 The lunar mansion Hasta.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 68147,
+            "_ancestry": [
+                "L_ 8159",
+                "B_ {#ina#}",
+                "S_ .{@{#-kAntaH#}@}"
+            ],
+            "_banner": ".{@{#-kAntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "inakAntaH"
+                }
+            ],
+            "_meanings": [
+                "sun-stone ({#sUryakAnta#}); <ls>Bh. 2. 37</ls>. {#yadacetano'pi#}\n {#pAdEH spfzwaH prajvalati saviturinakAntaH#}.\n"
+            ]
+        },
+        {
+            "__line": 68149,
+            "_ancestry": [
+                "L_ 8159",
+                "B_ {#ina#}",
+                "S_ .{@{#-saBam#}@}"
+            ],
+            "_banner": ".{@{#-saBam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "inasaBam"
+                }
+            ],
+            "_meanings": [
+                "a royal court or assembly. <ls>P. II. 4. 23</ls>."
+            ]
+        }
     ]
 }

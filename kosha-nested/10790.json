@@ -1,29 +1,88 @@
 {
-    "__line": 90681,
+    "__line": 90563,
     "_ancestry": [
         "L_ 10790",
-        "B_ {#kArdama#}"
+        "B_ {#Endra#}"
     ],
-    "_banner": "{#kArdama#}",
+    "_banner": "{#Endra#}",
     "_bannerExp": [
         {
-            "Right": "kArdamI"
+            "Right": "Endra"
         },
         {
-            "Right": "kArdama"
-        },
-        {
-            "Right": "kI"
+            "Right": "EndrI"
         }
     ],
     "_gram": [
-        "({#mI#}|{%<ab>f.</ab>%})",
-        "{#kArdama(mi)ka#}",
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#kardama-aR-Wak vA#}]"
+        "{%a.%}",
+        "({#-ndrI#}|{%f.%})",
+        "[{#indra-aR#}]"
     ],
     "_meanings": [
-        "Muddy,\nsoiled or covered with mud."
+        "Belonging or sacred to Indra; {#fdDaM#}\n {#hi rAjyaM padamEndramAhuH#} <ls>R. 2. 50</ls>: 6. 27.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 90566,
+            "_ancestry": [
+                "L_ 10790",
+                "B_ {#Endra#}",
+                "M_ .{@{#-ndraH#}@}"
+            ],
+            "_banner": ".{@{#-ndraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "EndraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of Arjuna and of Vāli (who are regarded as sons of {#indra#}).\n",
+                ".²2 <ab>N.</ab> of a Saṃvatsara.\n",
+                ".²3 The part of a sacrifice offered to Indra.\n"
+            ]
+        },
+        {
+            "__line": 90570,
+            "_ancestry": [
+                "L_ 10790",
+                "B_ {#Endra#}",
+                "M_ .{@{#-ndrI#}@}"
+            ],
+            "_banner": ".{@{#-ndrI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "EndrI"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a {%Ṛik%} addressed to Indra; {#ityAdikA kAcidEndrI samAmnAtA#} <ls>J. N. V.</ls>\n",
+                ".²2 The east, eastern direction (presided over by Indra); {#ayamEndrImuKaM#}\n {#paSya raktaScumbati candramAH#} <ls>Chandr. 5. 58</ls>; <ls>Ki. 9. 18</ls>.\n",
+                ".²3 The eighteenth lunar mansion.\n",
+                ".²4 The eighth day in the second half of the months of {#mArgaSIrza#} and {#pOza#}.\n",
+                ".²5 Indraʼs energy (personified as his wife Śachī).\n",
+                ".²6 Misfortune, misery.\n",
+                ".²7 A kind of cucumber.\n",
+                ".²8 An epithet of Durgā.\n",
+                ".²9 Small cardamom; {#yazwapAhvamEndrInalinAni dUrvA#} <ls>Charaka.</ls>\n"
+            ]
+        },
+        {
+            "__line": 90581,
+            "_ancestry": [
+                "L_ 10790",
+                "B_ {#Endra#}",
+                "M_ .{@{#-ndram#}@}"
+            ],
+            "_banner": ".{@{#-ndram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Endram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The eighteenth lunar mansion ({#jyezWA#}).\n",
+                ".²2 Wild ginger."
+            ]
+        }
     ]
 }

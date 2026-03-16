@@ -1,19 +1,38 @@
 {
-    "__line": 43893,
+    "__line": 41697,
     "_ancestry": [
         "L_ 4901",
-        "B_ {#avastra#}"
+        "B_ {#avacAra#}"
     ],
-    "_banner": "{#avastra#}",
+    "_banner": "{#avacAra#}",
     "_bannerExp": [
         {
-            "Right": "avastra"
+            "Right": "avacAra"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Without clothes, naked."
+        "Going or moving down in or upon.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 41698,
+            "_ancestry": [
+                "L_ 4901",
+                "B_ {#avacAra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avacAraH"
+                }
+            ],
+            "_meanings": [
+                "A place of descent, road; field of action."
+            ]
+        }
     ]
 }

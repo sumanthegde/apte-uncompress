@@ -1,19 +1,71 @@
 {
-    "__line": 60787,
+    "__line": 59286,
     "_ancestry": [
         "L_ 7051",
-        "B_ {#ASekuwin#}"
+        "B_ {#Ap#}"
     ],
-    "_banner": "{#ASekuwin#}",
+    "_banner": "{#Ap#}",
     "_bannerExp": [
         {
-            "Right": "ASekuwin"
+            "Right": "Ap"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "€5",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "A mountain."
+        "rarely €1 <ab>P.</ab> ({#Apnoti#} or {#Apati, Apa, Apat, Apsyati, Aptum, Apta#})\n",
+        ".²1 To obtain, attain, get; {#sa SAntimApnoti na kAmakAmI#} <ls>Bg. 2. 70</ls>, <ls n=\"Bg.\">3. 2</ls>, <ls n=\"Bg.\">3. 19</ls>.\n {#putramevaMguRopetaM cakavartinamApnuhi#} <ls>Ś. 1. 12</ls>; {#anudyogena#}\n {#tElAni tileByo nAptumarhati#} <ls>H. Pr. 25</ls>; {#SataM katUnAmapaviDnamApa saH#}\n <ls>R. 3. 38</ls>; so {#Palam, kIrtim, suKam#} <ab>&c.</ab>\n",
+        ".²2 To reach, go to; overtake, meet, fall in with; {#SabarImApaturvane#} <ls>Bk. 6. 59</ls>.\n",
+        ".²3 To pervade, occupy, enter into.\n",
+        ".²4 To undergo, suffer, meet with; {#dizwAntamApsyati BavAn#} <ls>R. 9. 79</ls>; <ls>Ms. 8. 188</ls>.\n",
+        ".²5 To equal. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 59294,
+            "_ancestry": [
+                "L_ 7051",
+                "B_ {#Ap#}",
+                "M_ --{%<ab>pass.</ab>%}"
+            ],
+            "_banner": "--{%<ab>pass.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "Ap"
+                }
+            ],
+            "_gram": [
+                "({#Apyate#})"
+            ],
+            "_meanings": [
+                ".²1 To be reached, found, met with, obtained <ab>&c.</ab>\n",
+                ".²2 To arrive at oneʼs end or aim.\n",
+                ".²3 To become filled. "
+            ]
+        },
+        {
+            "__line": 59297,
+            "_ancestry": [
+                "L_ 7051",
+                "B_ {#Ap#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "Ap"
+                }
+            ],
+            "_gram": [
+                "({#Apayati#})"
+            ],
+            "_meanings": [
+                ".²1 To cause to reach or obtain.\n",
+                ".²2 To cause any one to feel or perceive.\n",
+                ".²3 To hit."
+            ]
+        }
     ]
 }

@@ -1,18 +1,63 @@
 {
-    "__line": 73453,
+    "__line": 72001,
     "_ancestry": [
         "L_ 8591",
-        "B_ {#upadehaH#}"
+        "B_ {#utkUla#}"
     ],
-    "_banner": "{#upadehaH#}",
+    "_banner": "{#utkUla#}",
     "_bannerExp": [
         {
-            "Right": "upadehaH"
+            "Right": "utkUla"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#utkrAntaH kUlAt#}]"
+    ],
     "_meanings": [
-        "{@--1@} An ointment, liniment.\n",
-        "{@--2@} A cover. ",
-        "{@--3@} A minor or \nsecondary body (such as that which \n\ngrows on diseased parts of the\nbody)."
+        ".²1 Going up-hill (as rivers) (<ab>Ved.</ab>).\n",
+        ".²2 Reaching the bank.\n",
+        ".²3 Overflowing the bank; <ls>K. 303</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 72005,
+            "_ancestry": [
+                "L_ 8591",
+                "B_ {#utkUla#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "utkUlam"
+                }
+            ],
+            "_meanings": [
+                "into up-hill; <ls>Av. 19. 25. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 72007,
+            "_ancestry": [
+                "L_ 8591",
+                "B_ {#utkUla#}",
+                "S_ .{@{#-nikUla#}@}"
+            ],
+            "_banner": ".{@{#-nikUla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "utkUlanikUla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going up and down."
+            ]
+        }
     ]
 }

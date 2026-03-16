@@ -1,19 +1,82 @@
 {
-    "__line": 200457,
+    "__line": 211966,
     "_ancestry": [
         "L_ 23745",
-        "B_ {#yAcizRu#}"
+        "B_ {#prahIRa#}"
     ],
-    "_banner": "{#yAcizRu#}",
+    "_banner": "{#prahIRa#}",
     "_bannerExp": [
         {
-            "Right": "yAcizRu"
+            "Right": "prahIRa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Disposed to beg, \nhabitually begging or soliciting."
+        ".²1 Left, quitted, abandoned; {#DanaM prahIRamAjahnuH#} <ls>Bhāg. 1. 12. 33</ls>.\n",
+        ".²2 Cast off, worn out (as a garment).\n",
+        ".²3 Ceased, vanquished.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 211970,
+            "_ancestry": [
+                "L_ 23745",
+                "B_ {#prahIRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prahIRam"
+                }
+            ],
+            "_meanings": [
+                "Destruction, removal, loss.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 211972,
+            "_ancestry": [
+                "L_ 23745",
+                "B_ {#prahIRa#}",
+                "S_ .{@{#-jIvita#}@}"
+            ],
+            "_banner": ".{@{#-jIvita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prahIRajIvita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dead, slain.\n"
+            ]
+        },
+        {
+            "__line": 211973,
+            "_ancestry": [
+                "L_ 23745",
+                "B_ {#prahIRa#}",
+                "S_ .{@{#-doza#}@}"
+            ],
+            "_banner": ".{@{#-doza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prahIRadoza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sinless."
+            ]
+        }
     ]
 }

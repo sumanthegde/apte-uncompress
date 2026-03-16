@@ -1,17 +1,51 @@
 {
-    "__line": 31788,
+    "__line": 28872,
     "_ancestry": [
         "L_ 3383",
-        "B_ {#aBiSocanaM#}"
+        "B_ {#aBicAraka#}, {#-cArin#}"
     ],
-    "_banner": "{#aBiSocanaM#}",
+    "_banner": "{#aBicAraka#}, {#-cArin#}",
     "_bannerExp": [
         {
-            "Right": "aBiSocanaM"
+            "Right": "aBicAraka"
+        },
+        {
+            "Right": "aBicArin"
+        },
+        {
+            "Right": "aBicArikI"
+        },
+        {
+            "Right": "aBicAriRI"
         }
     ],
+    "_gram": [
+        "({#˚rikI, ˚riRI#}|{%f.%})",
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Intense grief or\npain, torment. ",
-        "{@--2@} That which \ntorments; a spirit or demon."
+        "Conjuring, enchanting,\n using magical spells for evil purposes; magical. <ls>Ki. 3. 56</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 28875,
+            "_ancestry": [
+                "L_ 3383",
+                "B_ {#aBicAraka#}, {#-cArin#}",
+                "M_ .{@{#-kaH, -rI#}@}"
+            ],
+            "_banner": ".{@{#-kaH, -rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBicArakaH"
+                },
+                {
+                    "Right": "aBicArI"
+                }
+            ],
+            "_meanings": [
+                "A conjurer, magician."
+            ]
+        }
     ]
 }

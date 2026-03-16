@@ -1,16 +1,62 @@
 {
-    "__line": 38346,
+    "__line": 34599,
     "_ancestry": [
         "L_ 4167",
-        "B_ {#arTApaya#}"
+        "B_ {#amAMsa#}"
     ],
-    "_banner": "{#arTApaya#}",
+    "_banner": "{#amAMsa#}",
     "_bannerExp": [
         {
-            "Right": "arTApaya"
+            "Right": "amAMsa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "= {#arT#}."
+        ".²1 Without flesh, not containing flesh.\n",
+        ".²2 Lean, thin, weak, enfeebled.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34602,
+            "_ancestry": [
+                "L_ 4167",
+                "B_ {#amAMsa#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amAMsam"
+                }
+            ],
+            "_meanings": [
+                "Not flesh, anything but flesh.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 34604,
+            "_ancestry": [
+                "L_ 4167",
+                "B_ {#amAMsa#}",
+                "S_ .{@{#-odanika#}@}"
+            ],
+            "_banner": ".{@{#-odanika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amAMsOdanika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-kI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "Not relating to a preparation of rice with meat."
+            ]
+        }
     ]
 }

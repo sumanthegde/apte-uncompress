@@ -1,24 +1,43 @@
 {
-    "__line": 217789,
+    "__line": 233976,
     "_ancestry": [
         "L_ 25755",
-        "B_ {#vic#}"
+        "B_ {#mandra#}"
     ],
-    "_banner": "{#vic#}",
+    "_banner": "{#mandra#}",
     "_bannerExp": [
         {
-            "Right": "vic"
+            "Right": "mandra"
         }
     ],
     "_gram": [
-        "{c3c}",
-        "{c7c}",
-        "<ab>U.</ab>",
-        "({#vevokti, vevikte#}, \n{#vinakti, viMkte, vikta#})"
+        "{%a.%}",
+        "[{#mand rak#} <ls>Uṇ. 2. 13</ls>]"
     ],
     "_meanings": [
-        "{@--1@} To separate, divide,\nsever. ",
-        "{@--2@} To discriminate, \ndistinguish, discern. ",
-        "{@--3@} To deprive of, \nremove from (with <ab>instr.</ab>); {#SaSAsa sa#}\n{#bahUnyoDAn jIvitena viveca ca#}  \n<ls>Bk. 14. 103.</ls>"
+        "Low, deep, grave, hollow,\n rumbling (as sound); {#payodamandraDvaninA DaritrI#}\n\n <ls>Ki. 16. 3</ls>, <ls n=\"Ki.\">7. 22</ls>; <ls>Me. 101</ls>; <ls>R. 6. 56</ls>.\n",
+        ".²2 <ab>Ved.</ab> Delightful, pleasing, pleasant; {#evaM bruvARe vEkuRWe BfgustanmandrayA#}\n {#girA#} <ls>Bhāg. 10. 89. 13</ls>.\n",
+        ".²3 Praiseworthy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 233983,
+            "_ancestry": [
+                "L_ 25755",
+                "B_ {#mandra#}",
+                "M_ .{@{#-ndraH#}@}"
+            ],
+            "_banner": ".{@{#-ndraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mandraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A deep sound, low tone.\n",
+                ".²2 A kind of drum.\n",
+                ".²3 A kind of elephant; {#‘BadrA mandrA mfgASceti vijYeyAstriviDA gajAH’#};\n <ab>cf.</ab> <ls>Rām. 1. 6. 25</ls>."
+            ]
+        }
     ]
 }

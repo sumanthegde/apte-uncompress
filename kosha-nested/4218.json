@@ -1,39 +1,78 @@
 {
-    "__line": 38953,
+    "__line": 34952,
     "_ancestry": [
         "L_ 4218",
-        "B_ {#arSasAna#}"
+        "B_ {#amuzya#}"
     ],
-    "_banner": "{#arSasAna#}",
+    "_banner": "{#amuzya#}",
     "_bannerExp": [
         {
-            "Right": "arSasAna"
+            "Right": "amuzya"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#fS-asAnuc suwca#}]"
-    ],
     "_meanings": [
-        "Striving to hurt, malicious. "
+        "(<ab>gen.</ab> of {#adas#}) Of such a one (in <ab>comp.</ab> only).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 38954,
+            "__line": 34954,
             "_ancestry": [
                 "L_ 4218",
-                "B_ {#arSasAna#}",
-                "M_ {#--naH#}"
+                "B_ {#amuzya#}",
+                "S_ .{@{#-kula#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-kula#}@}",
             "_bannerExp": [
                 {
-                    "Right": "arSasAnaH"
+                    "Right": "amuzyakula"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#aluk sa#}.]"
+            ],
+            "_meanings": [
+                "belonging to the family of such a one.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 34955,
+                    "_ancestry": [
+                        "L_ 4218",
+                        "B_ {#amuzya#}",
+                        "S_ .{@{#-kula#}@}",
+                        "S_M_ ({@{#-lam#}@})"
+                    ],
+                    "_banner": "({@{#-lam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "amuzyakulam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a well-known family.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 34956,
+            "_ancestry": [
+                "L_ 4218",
+                "B_ {#amuzya#}",
+                "S_ .{@{#-putraH, -trI#}@}"
+            ],
+            "_banner": ".{@{#-putraH, -trI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amuzyaputraH"
+                },
+                {
+                    "Right": "amuzyaputrI"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nFire. ",
-                "{@--2@} <ab>N.</ab> of a demon."
+                "the son or daughter of such a one or of a good or\n well-known family or origin; see {#AmuzyAyaRa#}."
             ]
         }
     ]

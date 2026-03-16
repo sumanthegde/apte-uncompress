@@ -1,39 +1,73 @@
 {
-    "__line": 194499,
+    "__line": 206694,
     "_ancestry": [
         "L_ 23101",
-        "B_ {#mAzya#}"
+        "B_ {#prabanDaH#}"
     ],
-    "_banner": "{#mAzya#}",
+    "_banner": "{#prabanDaH#}",
     "_bannerExp": [
         {
-            "Right": "mAzya"
+            "Right": "prabanDaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#mAza-yat#}]"
-    ],
     "_meanings": [
-        "{@--1@} Fit for\nbeans. ",
-        "{@--2@} Worth a particular \nnumber of Māṣas. "
+        ".²1 A bond, tie.\n",
+        ".²2 Uninterruptedness, continuance, continuity, uninterrupted series or\n succession; {#vicCedamApa Buvi yastu kaTAprabanDaH#} <ls>K. 239</ls>; {#kriyAprabanDAdayamaDvarARAm#}\n <ls>R. 6. 23</ls>, <ls n=\"R.\">3. 58</ls>; <ls>Māl. 6. 3</ls>.\n",
+        ".²3 A continued or connected narrative or discourse; {#anujJitArTasaMbanDaH#}\n {#prabanDo durudAharaH#} <ls>Śi. 2. 73</ls>.\n",
+        ".²4 Any literary work or composition; {#praTitayaSasAM BAsakavisOmillakavimiSrAdInAM#}\n {#prabanDAnatikramya#} <ls>M. 1</ls>; {#pratyakzaraSlezamayaprabanDa#} <ab>&c.</ab> <ls>Vās.</ls>\n",
+        ".²6 Arrangement, plan, scheme; as in {#kapawaprabanDaH#}\n",
+        ".²6 A commentary.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 194501,
+            "__line": 206706,
             "_ancestry": [
                 "L_ 23101",
-                "B_ {#mAzya#}",
-                "M_ {#--zyaM#}"
+                "B_ {#prabanDaH#}",
+                "S_ .{@{#-arTaH#}@}"
             ],
-            "_banner": "{#--zyaM#}",
+            "_banner": ".{@{#-arTaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "mAzyaM"
+                    "Right": "prabanDArTaH"
                 }
             ],
             "_meanings": [
-                "A field of\nbeans."
+                "the subject-matter of a composition or treatise.\n"
+            ]
+        },
+        {
+            "__line": 206707,
+            "_ancestry": [
+                "L_ 23101",
+                "B_ {#prabanDaH#}",
+                "S_ .{@{#-kalpanA#}@}"
+            ],
+            "_banner": ".{@{#-kalpanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prabanDakalpanA"
+                }
+            ],
+            "_meanings": [
+                "a feigned story, a work of imagination founded on a substratum\n of fact; {#prabanDakalpanAM stokasatyAM prAjYAH kaTAM viduH#}\n"
+            ]
+        },
+        {
+            "__line": 206709,
+            "_ancestry": [
+                "L_ 23101",
+                "B_ {#prabanDaH#}",
+                "S_ .{@{#-varzaH#}@}"
+            ],
+            "_banner": ".{@{#-varzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prabanDavarzaH"
+                }
+            ],
+            "_meanings": [
+                "continuous or incessant rain."
             ]
         }
     ]

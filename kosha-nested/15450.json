@@ -1,44 +1,42 @@
 {
-    "__line": 128413,
+    "__line": 133793,
     "_ancestry": [
         "L_ 15450",
-        "B_ {#digDa#}"
+        "B_ {#jarin#}"
     ],
-    "_banner": "{#digDa#}",
+    "_banner": "{#jarin#}",
     "_bannerExp": [
         {
-            "Right": "digDa"
+            "Right": "jarin"
+        },
+        {
+            "Right": "jariRI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#dih-kta#}]"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#jarA astyasya ini#}]"
     ],
     "_meanings": [
-        "{@--1@} Smeared,\nanointed, daubed; {#hastAvasfgdigDO#}  \n<ls>Ms. 3. 132</ls>; <ls>R. 16. 15</ls>; {#digDo'mftena ca#}\n{#vizeRa ca pakzmalAkzyA gAQaM niKAta iva me#}\n{#hfdaye kawAkzaH#} <ls>Māl. 1. 29.</ls> ",
-        "{@--2@} Soiled,\ndefiled, polluted. ",
-        "{@--3@} Poisoned, \nenvenomed; <ls>Ku. 4. 25.</ls> "
+        "Old, aged. "
     ],
     "_morphisms": [
         {
-            "__line": 128419,
+            "__line": 133794,
             "_ancestry": [
                 "L_ 15450",
-                "B_ {#digDa#}",
-                "M_ {#--gDaH#}"
+                "B_ {#jarin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--gDaH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "digDaH"
+                    "Left": "Parser error: {#jarin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} Oil,\nointment. ",
-                "{@--2@} Any oily substance\nor unguent. ",
-                "{@--3@} Fire. ",
-                "{@--4@} A \npoisoned arrow. ",
-                "{@--5@} A story (true or\nfictitious.)"
+                "An old man."
             ]
         }
     ]

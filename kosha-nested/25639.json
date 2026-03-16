@@ -1,17 +1,307 @@
 {
-    "__line": 216952,
+    "__line": 232064,
     "_ancestry": [
         "L_ 25639",
-        "B_ {#vikASanaM#}"
+        "B_ {#madya#}"
     ],
-    "_banner": "{#vikASanaM#}",
+    "_banner": "{#madya#}",
     "_bannerExp": [
         {
-            "Right": "vikASanaM"
+            "Right": "madya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#mAdyatyanena karaRe yat#}]"
+    ],
     "_meanings": [
-        "{@--1@} Manifestation, display, \n\nexhibition. ",
-        "{@--2@} Blowing, expanding\n(of flowers &c.)."
+        ".²1 Intoxicating.\n",
+        ".²2 Gladdening, exhilarating.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 232067,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "M_ .{@{#-dyam#}@}"
+            ],
+            "_banner": ".{@{#-dyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyam"
+                }
+            ],
+            "_meanings": [
+                "Spirituous liquor, wine, any intoxicating drink; {#raRakzitiH#}\n {#SoRitamadyakulyA#} <ls>R. 7. 49</ls>; <ls>Ms. 5. 56</ls>, <ls n=\"Ms.\">9. 84</ls>, <ls n=\"Ms.\">10. 89</ls>; {#Bikzo mAMsanizevaRaM#}\n {#prakuruze kiM tena madyaM vinA#} <ls>S. D. 525</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 232071,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-AkzepaH#}@}"
+            ],
+            "_banner": ".{@{#-AkzepaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyAkzepaH"
+                }
+            ],
+            "_meanings": [
+                "addiction to drink.\n"
+            ]
+        },
+        {
+            "__line": 232072,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-AmodaH, -ganDaH, -dohadaH#}@}"
+            ],
+            "_banner": ".{@{#-AmodaH, -ganDaH, -dohadaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyAmodaH"
+                },
+                {
+                    "Right": "madyaganDaH"
+                },
+                {
+                    "Right": "madyadohadaH"
+                }
+            ],
+            "_meanings": [
+                "the {%Bakula%} tree.\n"
+            ]
+        },
+        {
+            "__line": 232073,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-kIwaH#}@}"
+            ],
+            "_banner": ".{@{#-kIwaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyakIwaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of insect.\n"
+            ]
+        },
+        {
+            "__line": 232074,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-kumBaH#}@}"
+            ],
+            "_banner": ".{@{#-kumBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyakumBaH"
+                }
+            ],
+            "_meanings": [
+                "a brandy-jar.\n"
+            ]
+        },
+        {
+            "__line": 232075,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-drumaH#}@}"
+            ],
+            "_banner": ".{@{#-drumaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyadrumaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of tree ({#mAqavfkza#}).\n"
+            ]
+        },
+        {
+            "__line": 232076,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyapaH"
+                }
+            ],
+            "_meanings": [
+                "a drunkard, tippler, sot.\n"
+            ]
+        },
+        {
+            "__line": 232077,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-paNkaH#}@}"
+            ],
+            "_banner": ".{@{#-paNkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyapaNkaH"
+                }
+            ],
+            "_meanings": [
+                "mash.\n"
+            ]
+        },
+        {
+            "__line": 232078,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-pAnam#}@}"
+            ],
+            "_banner": ".{@{#-pAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyapAnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 drinking intoxicating liquor.\n",
+                ".²2 any intoxicating drink.\n"
+            ]
+        },
+        {
+            "__line": 232081,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-pIta#}@}"
+            ],
+            "_banner": ".{@{#-pIta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyapIta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "intoxicated with drink.\n"
+            ]
+        },
+        {
+            "__line": 232082,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-puzpA#}@}"
+            ],
+            "_banner": ".{@{#-puzpA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyapuzpA"
+                }
+            ],
+            "_meanings": [
+                "the plant called Dhātakī.\n"
+            ]
+        },
+        {
+            "__line": 232083,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-bI(vI)jam#}@}"
+            ],
+            "_banner": ".{@{#-bI(vI)jam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#madya#} S_ .{@{#-bI(vI)jaM#}@}"
+                }
+            ],
+            "_meanings": [
+                "a drug used to cause fermentation, leaven.\n"
+            ]
+        },
+        {
+            "__line": 232084,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-BAjanam#}@}"
+            ],
+            "_banner": ".{@{#-BAjanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyaBAjanam"
+                }
+            ],
+            "_meanings": [
+                "a wineglass; so {#madyaBARqam#}.\n"
+            ]
+        },
+        {
+            "__line": 232085,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-maRqaH#}@}"
+            ],
+            "_banner": ".{@{#-maRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyamaRqaH"
+                }
+            ],
+            "_meanings": [
+                "barm, yeast.\n"
+            ]
+        },
+        {
+            "__line": 232086,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-vAsinI#}@}"
+            ],
+            "_banner": ".{@{#-vAsinI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyavAsinI"
+                }
+            ],
+            "_meanings": [
+                "the plant called {#DAtakI#}.\n"
+            ]
+        },
+        {
+            "__line": 232087,
+            "_ancestry": [
+                "L_ 25639",
+                "B_ {#madya#}",
+                "S_ .{@{#-saMDAnam#}@}"
+            ],
+            "_banner": ".{@{#-saMDAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madyasanDAnam"
+                }
+            ],
+            "_meanings": [
+                "distillation of spirit; {#krayaM vA vikrayaM vA'pi madyasaMDAnameva#}\n {#ca#} <ls>Śukra. 1. 303</ls>."
+            ]
+        }
     ]
 }

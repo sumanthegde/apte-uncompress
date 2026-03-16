@@ -1,21 +1,63 @@
 {
-    "__line": 128649,
+    "__line": 134250,
     "_ancestry": [
         "L_ 15474",
-        "B_ {#dIpin#}"
+        "B_ {#jalAza#}"
     ],
-    "_banner": "{#dIpin#}",
+    "_banner": "{#jalAza#}",
     "_bannerExp": [
         {
-            "Right": "dIpin"
+            "Right": "jalAza"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Inflaming, kindling.\n",
-        "{@--2@} Illuminating. ",
-        "{@--3@} Shining, bright."
+        "<ab>Ved.</ab>\n",
+        ".²1 Mitigating, pacifying.\n",
+        ".²2 Healing, comforting, soothing (as a medicine); <ls>Rv. 2. 33. 7</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 134253,
+            "_ancestry": [
+                "L_ 15474",
+                "B_ {#jalAza#}",
+                "M_ .{@{#-zam#}@}"
+            ],
+            "_banner": ".{@{#-zam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jalAzam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Water.\n",
+                ".²2 Happiness, comfort.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 134257,
+            "_ancestry": [
+                "L_ 15474",
+                "B_ {#jalAza#}",
+                "S_ .{@{#-Bezaja#}@}"
+            ],
+            "_banner": ".{@{#-Bezaja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jalAzaBezaja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "possessed of healing medicines; {#rudraM jalAzaBezajam#} <ls>Rv. 1. 43. 4</ls>."
+            ]
+        }
     ]
 }

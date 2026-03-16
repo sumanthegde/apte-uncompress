@@ -1,21 +1,70 @@
 {
-    "__line": 153962,
+    "__line": 163121,
     "_ancestry": [
         "L_ 18339",
-        "B_ {#parihas#}"
+        "B_ {#namra#}"
     ],
-    "_banner": "{#parihas#}",
+    "_banner": "{#namra#}",
     "_bannerExp": [
         {
-            "Right": "parihas"
+            "Right": "namra"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#nam-ra#}]"
     ],
     "_meanings": [
-        "{@--1@} To jest, joke. ",
-        "{@--2@}\nTo laugh at, ridicule: (hence) to\nsurpass, excel; {#janAnAmAnaMdaH#} \n{#parihasati nirvARapadavIM#} <ls>G. L. 5.</ls>"
+        ".²1 Bowing, bowing down, bent, inclined, hanging down; {#Bavanti namrAstaravaH#}\n {#PalAgamEH#} <ls>Ś. 5. 12</ls>. {#stokanamrA stanAByAm#} <ls>Me. 84</ls>; <ls>Pt. 1. 106</ls>; <ls>Ratn. 1. 19</ls>.\n",
+        ".²2 Bowing down, making a low obeisance; {#aBUt ca namraH praRipAtaSikzayA#}\n <ls>R. 3. 25</ls>; {#ityucyate tABirumA sma namrA#} <ls>Ku. 7. 28</ls>.\n",
+        ".²3 Lowly, submissive, humble, reverential; as in {#BaktinamraH#} <ls>Me. 57</ls>.\n",
+        ".²4 Crooked, curved.\n",
+        ".²5 Worshipping.\n",
+        ".²6 Devoted or attached to.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 163131,
+            "_ancestry": [
+                "L_ 18339",
+                "B_ {#namra#}",
+                "S_ .{@{#-aNga, -mUrti#}@}"
+            ],
+            "_banner": ".{@{#-aNga, -mUrti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "namrANga"
+                },
+                {
+                    "Right": "namramUrti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bent, stooping.\n"
+            ]
+        },
+        {
+            "__line": 163132,
+            "_ancestry": [
+                "L_ 18339",
+                "B_ {#namra#}",
+                "S_ .{@{#-nAsika#}@}"
+            ],
+            "_banner": ".{@{#-nAsika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "namranAsika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "flat-nosed."
+            ]
+        }
     ]
 }

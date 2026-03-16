@@ -1,24 +1,45 @@
 {
-    "__line": 12104,
+    "__line": 10317,
     "_ancestry": [
         "L_ 1064",
-        "B_ {#aDunAtana#}"
+        "B_ {#aDijya#}"
     ],
-    "_banner": "{#aDunAtana#}",
+    "_banner": "{#aDijya#}",
     "_bannerExp": [
         {
-            "Right": "aDunAtanI"
-        },
-        {
-            "Right": "aDunAtana"
+            "Right": "aDijya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#aDunA BavArTe#} \n{#wyul tuwca#}]"
+        "{%a.%}",
+        "[{#aDyArUQA jyA yatra, aDigataM jyAM vA#}]"
     ],
     "_meanings": [
-        "Belonging to the present\ntimes, modern."
+        "Having the\n bow-string stretched, well strung (as a bow).\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 10320,
+            "_ancestry": [
+                "L_ 1064",
+                "B_ {#aDijya#}",
+                "S_ .{@{#-Danvan, -kArmuka#}@}"
+            ],
+            "_banner": ".{@{#-Danvan, -kArmuka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aDijyaDanvan"
+                },
+                {
+                    "Right": "aDijyakArmuka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the bow strung; {#aDijyaDanvA#}\n {#vicacAra dAvam#} <ls>R. 2. 8</ls>. {#tvayi cADijyakArmuke#} <ls>Ś. 1. 6</ls>."
+            ]
+        }
     ]
 }

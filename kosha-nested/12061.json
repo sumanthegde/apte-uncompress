@@ -1,81 +1,123 @@
 {
-    "__line": 100777,
+    "__line": 101847,
     "_ancestry": [
         "L_ 12061",
-        "B_ {#KaMqaka#}"
+        "B_ {#kAru#}"
     ],
-    "_banner": "{#KaMqaka#}",
+    "_banner": "{#kAru#}",
     "_bannerExp": [
         {
-            "Right": "KaMqaka"
+            "Right": "kAru"
+        },
+        {
+            "Right": "kArU"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#KaMq-Rvul#}]"
+        "{%a.%}",
+        "({#-rU#}|{%f.%})",
+        "[{#kf-uR#} <ls>Uṇ. 1. 1</ls>]"
     ],
     "_meanings": [
-        "Destroying,\ntearing, breaking to pieces, removing,\n&c. "
+        ".²1 A maker, doer, an agent, servant; {#rAGavasya tataH kAryaM kArurvAnarapuNgavaH#} <ls>Bk. 7. 28</ls>.\n",
+        ".²2 An artisan, mechanic, artist; {#kAruBiH kAritaM tena kftrimaM svapnahetave#}\n <ls>Vb. 1. 13</ls>; {#iti sma sA kArutareRa leKitaM nalasya ca svasya ca saKyamIkzate#}\n <ls>N. 1. 38</ls>; <ls>Y. 2. 249</ls>, <ls n=\"Y.\">1. 187</ls>; <ls>Ms. 5. 129</ls>, <ls n=\"Ms.\">10. 12</ls>. (They are:-- {#takzA ca#}\n {#tantravAyaSca nApito rajakastaTA . paYcamaScarmakAraSca kAravaH Silpino matAH ..#})\n",
+        ".²3 Terrible, horrible; {#jareti kzayamAhurvE dAruRaM kArusaMjYitam#} <ls>Mb. 1. 40. 3</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 100779,
+            "__line": 101854,
             "_ancestry": [
                 "L_ 12061",
-                "B_ {#KaMqaka#}",
-                "M_ {#--kaH, --kaM#}"
+                "B_ {#kAru#}",
+                "M_ .{@{#-ruH#}@}"
             ],
-            "_banner": "{#--kaH, --kaM#}",
+            "_banner": ".{@{#-ruH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "KaMqakaH"
-                },
-                {
-                    "Right": "KaMqakaM"
+                    "Right": "kAruH"
                 }
             ],
             "_meanings": [
-                "A fragment, part or\npiece. "
-            ]
-        },
-        {
-            "__line": 100780,
-            "_ancestry": [
-                "L_ 12061",
-                "B_ {#KaMqaka#}",
-                "M_ {#--kaH#}"
-            ],
-            "_banner": "{#--kaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "KaMqakaH"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} Candied sugar. ",
-                "{@--2@} One\nwho has no nails. "
+                ".²1 An epithet of {#viSvakarman#} the\n\n architect of the gods.\n",
+                ".²2 An art, a science.\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 100781,
+            "__line": 101860,
             "_ancestry": [
                 "L_ 12061",
-                "B_ {#KaMqaka#}",
-                "S_  {#--Alu#}"
+                "B_ {#kAru#}",
+                "S_ .{@{#-cOraH#}@}"
             ],
-            "_banner": " {#--Alu#}",
+            "_banner": ".{@{#-cOraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "KaMqakAlu"
+                    "Right": "kArucOraH"
+                }
+            ],
+            "_meanings": [
+                "one who commits burglary, a dacoit.\n"
+            ]
+        },
+        {
+            "__line": 101861,
+            "_ancestry": [
+                "L_ 12061",
+                "B_ {#kAru#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kArujaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a piece of mechanism, any product of manufacture.\n",
+                ".²2 a young elephant.\n",
+                ".²3 a hillock, an ant-hill.\n",
+                ".²4 froth.\n",
+                ".²5 sesamum growing spontaneously.\n",
+                ".²6 red orpiment.\n"
+            ]
+        },
+        {
+            "__line": 101868,
+            "_ancestry": [
+                "L_ 12061",
+                "B_ {#kAru#}",
+                "S_ .{@{#-SilpigaRaH#}@}"
+            ],
+            "_banner": ".{@{#-SilpigaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAruSilpigaRaH"
                 }
             ],
             "_gram": [
-                "{%<ab>n.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "sweet potato."
+                "corporation of artisans and handicrafts-men; <ls>Kau. A. 2. 6</ls>.\n"
+            ]
+        },
+        {
+            "__line": 101869,
+            "_ancestry": [
+                "L_ 12061",
+                "B_ {#kAru#}",
+                "S_ .{@{#-hastaH#}@}"
+            ],
+            "_banner": ".{@{#-hastaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAruhastaH"
+                }
+            ],
+            "_meanings": [
+                "the hand of an artisan; {#nityaM SudDaH kAruhastaH#} <ls>Ms. 5. 129</ls>."
             ]
         }
     ]

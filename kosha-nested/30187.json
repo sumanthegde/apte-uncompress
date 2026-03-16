@@ -1,23 +1,62 @@
 {
-    "__line": 252334,
+    "__line": 278506,
     "_ancestry": [
         "L_ 30187",
-        "B_ {#sArvakAmika#}"
+        "B_ {#vilambita#}"
     ],
-    "_banner": "{#sArvakAmika#}",
+    "_banner": "{#vilambita#}",
     "_bannerExp": [
         {
-            "Right": "sArvakAmikI"
-        },
-        {
-            "Right": "sArvakAmika"
+            "Right": "vilambita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Satisfying every desire, granting all \nwishes; <ls>Ki. 18. 25.</ls>"
+        ".²1 Hanging, depending.\n",
+        ".²2 Pendent, pendulous.\n",
+        ".²3 Depending on, closely connected with.\n",
+        ".²4 Tardy, delayed, retarded.\n",
+        ".²5 Slow (as time in music <ab>opp.</ab> to {#druta#}).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 278512,
+            "_ancestry": [
+                "L_ 30187",
+                "B_ {#vilambita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilambitam"
+                }
+            ],
+            "_meanings": [
+                "Delay.\n"
+            ]
+        },
+        {
+            "__line": 278513,
+            "_ancestry": [
+                "L_ 30187",
+                "B_ {#vilambita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vilambitam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Slowly, tardily."
+            ]
+        }
     ]
 }

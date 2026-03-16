@@ -1,25 +1,77 @@
 {
-    "__line": 113699,
+    "__line": 116040,
     "_ancestry": [
         "L_ 13592",
-        "B_ {#CalliH, --llI#}"
+        "B_ {#KarjUraH#}"
     ],
-    "_banner": "{#CalliH, --llI#}",
+    "_banner": "{#KarjUraH#}",
     "_bannerExp": [
         {
-            "Right": "CallI"
-        },
-        {
-            "Right": "CalliH"
+            "Right": "KarjUraH"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#Cad-kvip tAM lAti#}\n{#lA-ka gOrA° qIz#}]"
+        "[<ls>Uṇ. 4. 90</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Bark, rind. ",
-        "{@--2@} A\nspreading creeper. ",
-        "{@--3@} Offspring,\nprogeny, posterity."
+        ".²1 Date tree.\n",
+        ".²2 A scorpion.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 116043,
+            "_ancestry": [
+                "L_ 13592",
+                "B_ {#KarjUraH#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarjUram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Silver; {#vizaM suDAMSorapi cUrRapUrRaM jAnAmi KarjUramayaM karaRqam#}\n <ls>Rām. Ch. 6. 60</ls>.\n",
+                ".²2 Yellow orpiment.\n",
+                ".²3 The fruit of the date-tree.\n"
+            ]
+        },
+        {
+            "__line": 116048,
+            "_ancestry": [
+                "L_ 13592",
+                "B_ {#KarjUraH#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarjUrI"
+                }
+            ],
+            "_meanings": [
+                "The date-tree; <ls>R. 4. 57</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 116050,
+            "_ancestry": [
+                "L_ 13592",
+                "B_ {#KarjUraH#}",
+                "S_ .{@{#-rasaH#}@}"
+            ],
+            "_banner": ".{@{#-rasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KarjUrarasaH"
+                }
+            ],
+            "_meanings": [
+                "the juice of the wild date (<lang>Mar.</lang> <ns>{#tAqI#}</ns>); also {#KarjUrIrasaH#}.\n.{@{#˚jaH#}@} a kind of sugar."
+            ]
+        }
     ]
 }

@@ -1,22 +1,37 @@
 {
-    "__line": 163664,
+    "__line": 175012,
     "_ancestry": [
         "L_ 19532",
-        "B_ {#prakarzaH#}"
+        "B_ {#nEkawika#}"
     ],
-    "_banner": "{#prakarzaH#}",
+    "_banner": "{#nEkawika#}",
     "_bannerExp": [
         {
-            "Right": "prakarzaH"
+            "Right": "nEkawika"
+        },
+        {
+            "Left": "fFromGramCore error: nEkawika  krI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-krI#}|{%f.%})"
+    ],
     "_meanings": [
-        "{@--1@} Excellence, eminence, \nsuperiority; {#vapuHprakarzAdajayadguruM raGuH#}  \n<ls>R. 3. 34</ls>; {#varRaprakarze sati#} <ls>Ku. 3. 28.</ls> ",
-        "{@--2@}\nIntensity, high degree, excess;  \n{#prakarzagatena SokasaMtAnena#} <ls>U. 3.</ls> ",
-        "{@--3@}\nStrength, power. ",
-        "{@--4@} Absoluteness. ",
-        "{@--5@}\nLength, protraction. ",
-        "{@--6@} Speciality.\n",
-        "{@--7@} Universality. ({#prakarzeRa#} and {#prakarzAt#}\nare used adverbially in the sense of\n‘exceedingly’, ‘pre-eminently’, ‘in\na high degree’)."
+        "Adjacent, near, contiguous.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 175014,
+            "_ancestry": [
+                "L_ 19532",
+                "B_ {#nEkawika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_meanings": [
+                "An ascetic or Bhikṣu; ({%vide%} commentary {#‘grAmasyAntike#}\n {#kroSamAnaM tyaktvA yatayo Bikzavo ye nivasanti te nEkawikAH’#}, on {#parzadbalAn#}\n {#mahAbrahmErAwa nEkawikASramAn#} <ls>Bk. 4. 12.</ls>)"
+            ]
+        }
     ]
 }

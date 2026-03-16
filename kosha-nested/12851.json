@@ -1,42 +1,70 @@
 {
-    "__line": 107963,
+    "__line": 109492,
     "_ancestry": [
         "L_ 12851",
-        "B_ {#Gawaka#}"
+        "B_ {#kekara#}"
     ],
-    "_banner": "{#Gawaka#}",
+    "_banner": "{#kekara#}",
     "_bannerExp": [
         {
-            "Right": "Gawaka"
+            "Right": "kekara"
+        },
+        {
+            "Right": "kekarI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#Gawayati Gaw-Ric Rvul#}]"
+        "{%a.%}",
+        "({#rI#}|{%f.%})",
+        "[{#ke mUrDni karItuM netratArAM#}\n {#SIlamasya, kF-ac aluk#} <ls>Tv.</ls>]"
     ],
     "_meanings": [
-        "{@--1@}\nExerting oneself, striving for; {#ete#}\n{#satpuruzAH parArTaGawakAH svArTaM parityajya#}\n{#ye#} <ls>Bh. 2. 74.</ls> ",
-        "{@--2@} Bringing about,\naccomplishing. ",
-        "{@--3@} Forming a\nconstituent part, constituent, \ncomponent. "
+        "Squint-eyed; <ls>Māl. 2. 5</ls>, <ls n=\"Māl.\">4. 2</ls>; {#SaWa! bAnDavaniHsneha#}\n {#kAka! kekara! piNgala!#} <ls>Dūtavākyam 1. 38</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 107969,
+            "__line": 109495,
             "_ancestry": [
                 "L_ 12851",
-                "B_ {#Gawaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#kekara#}",
+                "M_ .{@{#-ram#}@}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": ".{@{#-ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "GawakaH"
+                    "Right": "kekaram"
                 }
             ],
             "_meanings": [
-                "{@--1@} A tree that\nproduces fruit without apparent\nflowers. ",
-                "{@--2@} A match-maker, an\nagent who ascertains genealogies\nand negotiates matrimonial \nalliances. ",
-                "{@--3@} A genealogist."
+                "A squint eye; <ab>cf.</ab> {#Akekara#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 109497,
+            "_ancestry": [
+                "L_ 12851",
+                "B_ {#kekara#}",
+                "S_ .{@{#-akza, -netra, -locana#}@}"
+            ],
+            "_banner": ".{@{#-akza, -netra, -locana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kekarAkza"
+                },
+                {
+                    "Right": "kekaranetra"
+                },
+                {
+                    "Right": "kekaralocana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "squint-eyed; <ls>Bṛ. Up. 5. 68. 65</ls>."
             ]
         }
     ]

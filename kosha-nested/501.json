@@ -1,42 +1,59 @@
 {
-    "__line": 6959,
+    "__line": 5632,
     "_ancestry": [
         "L_ 501",
-        "B_ {#atapta#}"
+        "B_ {#aw#}"
     ],
-    "_banner": "{#atapta#}",
+    "_banner": "{#aw#}",
     "_bannerExp": [
         {
-            "Right": "atapta"
+            "Right": "aw"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "(rarely <ab>Ā.</ab>)"
     ],
     "_meanings": [
-        "Not heated &c. "
+        "({#awati, Awa, awitum, awita#}). To wander or\n roam about (with <ab>loc.</ab>); roam over (sometimes with <ab>acc.</ab>); {#Bo vawo BikzAmawa#}\n <ls>Sk.</ls> go to beg alms; {#Awa nEkawikASramAn#} <ls>Bk. 4. 12</ls>; {#mahImawan#} <ls>Dk. 38</ls>\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 6959,
+            "__line": 5635,
             "_ancestry": [
                 "L_ 501",
-                "B_ {#atapta#}",
-                "S_ \n{#--tanu#}"
+                "B_ {#aw#}",
+                "M_ --{%<ab>desid.</ab>%}"
             ],
-            "_banner": "\n{#--tanu#}",
+            "_banner": "--{%<ab>desid.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "ataptatanu"
+                    "Right": "aw"
                 }
             ],
             "_gram": [
-                "{%<ab>a.</ab>%}"
+                "{#awiwizati#}"
+            ]
+        },
+        {
+            "__line": 5635,
+            "_ancestry": [
+                "L_ 501",
+                "B_ {#aw#}",
+                "M_ --{%<ab>freq.</ab>%}"
+            ],
+            "_banner": "--{%<ab>freq.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "aw"
+                }
+            ],
+            "_gram": [
+                "{#awAwyate#}"
             ],
             "_meanings": [
-                "{1} One whose body is not\nmarked (with red mudrās &c.). ",
-                "{2}\nwho has not fully mortified his\nbody by penance. ",
-                "{3} whose body\nor mass is cool (?)"
+                "to wander about\n habitually, as a religious mendicant."
             ]
         }
     ]

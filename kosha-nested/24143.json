@@ -1,21 +1,145 @@
 {
-    "__line": 204827,
+    "__line": 215443,
     "_ancestry": [
         "L_ 24143",
-        "B_ {#rAs#}"
+        "B_ {#prezya#}"
     ],
-    "_banner": "{#rAs#}",
+    "_banner": "{#prezya#}",
     "_bannerExp": [
         {
-            "Right": "rAs"
+            "Right": "prezya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#rAsate#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To cry, scream,\nyell, sound, howl."
+        "To be ordered, sent, despatched <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 215444,
+            "_ancestry": [
+                "L_ 24143",
+                "B_ {#prezya#}",
+                "M_ .{@{#-zyaH#}@}"
+            ],
+            "_banner": ".{@{#-zyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezyaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A servant, menial, slave; {#prezyaH pratIpoDikftaH pramAdI tyAjyA amI#}\n {#yaSca kftaM na vetti#} <ls>Pt. 1. 424</ls>.\n",
+                ".²2 A messenger.\n"
+            ]
+        },
+        {
+            "__line": 215448,
+            "_ancestry": [
+                "L_ 24143",
+                "B_ {#prezya#}",
+                "M_ .{@{#-zyA#}@}"
+            ],
+            "_banner": ".{@{#-zyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezyA"
+                }
+            ],
+            "_meanings": [
+                "A female servant, hand-maid.\n"
+            ]
+        },
+        {
+            "__line": 215449,
+            "_ancestry": [
+                "L_ 24143",
+                "B_ {#prezya#}",
+                "M_ .{@{#-zyam#}@}"
+            ],
+            "_banner": ".{@{#-zyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Sending on a mission.\n",
+                ".²2 Servitude.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 215453,
+            "_ancestry": [
+                "L_ 24143",
+                "B_ {#prezya#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezyajanaH"
+                }
+            ],
+            "_meanings": [
+                "servants taken collectively.\n"
+            ]
+        },
+        {
+            "__line": 215454,
+            "_ancestry": [
+                "L_ 24143",
+                "B_ {#prezya#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezyaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "capacity of a servant, servitude, bondage; {#prezyaBAvena#}\n {#nAmeyaM devISabdakzamA satI#} <ls>M. 5. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 215456,
+            "_ancestry": [
+                "L_ 24143",
+                "B_ {#prezya#}",
+                "S_ .{@{#-vaDUH#}@}"
+            ],
+            "_banner": ".{@{#-vaDUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezyavaDUH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the wife of a servant.\n",
+                ".²2 a female servant, handmaid.\n"
+            ]
+        },
+        {
+            "__line": 215459,
+            "_ancestry": [
+                "L_ 24143",
+                "B_ {#prezya#}",
+                "S_ .{@{#-vargaH#}@}"
+            ],
+            "_banner": ".{@{#-vargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prezyavargaH"
+                }
+            ],
+            "_meanings": [
+                "the body of servants, suite, train."
+            ]
+        }
     ]
 }

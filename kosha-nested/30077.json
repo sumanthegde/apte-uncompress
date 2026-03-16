@@ -1,35 +1,39 @@
 {
-    "__line": 251514,
+    "__line": 277552,
     "_ancestry": [
         "L_ 30077",
-        "B_ {#sAMtvaH, sAMtvanaM --nA#}"
+        "B_ {#viyogin#}"
     ],
-    "_banner": "{#sAMtvaH, sAMtvanaM --nA#}",
+    "_banner": "{#viyogin#}",
     "_bannerExp": [
         {
-            "Right": "sAMtvA"
-        },
-        {
-            "Right": "sAMtvaH"
-        },
-        {
-            "Right": "sAMtvaM"
-        },
-        {
-            "Right": "sAMtvanA"
-        },
-        {
-            "Right": "sAMtvanaM"
+            "Right": "viyogin"
         }
     ],
     "_gram": [
-        "[{#sAMtv ac lyuw#}\n{#vA#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Appeasing, pacification, \nconsolation. ",
-        "{@--2@} Conciliation, mild or\ngentle means; <ls>Pt. 3. 27.</ls> ",
-        "{@--3@} Kind\nor conciliatory words. ",
-        "{@--4@} Mildness.\n",
-        "{@--5@} Friendly salutation and inquiry."
+        ".²1 Separated.\n",
+        ".²2 Absent, apart. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 277554,
+            "_ancestry": [
+                "L_ 30077",
+                "B_ {#viyogin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#viyogin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "The ruddy goose."
+            ]
+        }
     ]
 }

@@ -1,23 +1,41 @@
 {
-    "__line": 250885,
+    "__line": 276957,
     "_ancestry": [
         "L_ 30004",
-        "B_ {#sAMkzepika#}"
+        "B_ {#vimad#}"
     ],
-    "_banner": "{#sAMkzepika#}",
+    "_banner": "{#vimad#}",
     "_bannerExp": [
         {
-            "Right": "sAMkzepikI"
-        },
-        {
-            "Right": "sAMkzepika"
+            "Right": "vimad"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "€4",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Abridged,\nshort, concise."
+        "²1 To become perplexed or confused.\n",
+        ".²2 To be intoxicated or mad. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 276959,
+            "_ancestry": [
+                "L_ 30004",
+                "B_ {#vimad#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vimad"
+                }
+            ],
+            "_meanings": [
+                ".²1 To confound, perplex.\n",
+                ".²2 To intoxicate, madden."
+            ]
+        }
     ]
 }

@@ -1,20 +1,57 @@
 {
-    "__line": 166436,
+    "__line": 178925,
     "_ancestry": [
         "L_ 19897",
-        "B_ {#pratinirjita#}"
+        "B_ {#padika#}"
     ],
-    "_banner": "{#pratinirjita#}",
+    "_banner": "{#padika#}",
     "_bannerExp": [
         {
-            "Right": "pratinirjita"
+            "Right": "padika"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Vanquished,\nsubdued. ",
-        "{@--2@} Rescinded."
+        ".²1 Going on foot, pedestrian.\n",
+        ".²2 One {%Pada%} long.\n",
+        ".²3 Containing only one division.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 178929,
+            "_ancestry": [
+                "L_ 19897",
+                "B_ {#padika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "padikaH"
+                }
+            ],
+            "_meanings": [
+                "A footman.\n"
+            ]
+        },
+        {
+            "__line": 178930,
+            "_ancestry": [
+                "L_ 19897",
+                "B_ {#padika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "padikam"
+                }
+            ],
+            "_meanings": [
+                "The point of the foot."
+            ]
+        }
     ]
 }

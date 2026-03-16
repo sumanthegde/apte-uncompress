@@ -1,16 +1,38 @@
 {
-    "__line": 212192,
+    "__line": 225048,
     "_ancestry": [
         "L_ 25040",
-        "B_ {#vayoraMgaM#}"
+        "B_ {#BAjita#}"
     ],
-    "_banner": "{#vayoraMgaM#}",
+    "_banner": "{#BAjita#}",
     "_bannerExp": [
         {
-            "Right": "vayoraMgaM"
+            "Right": "BAjita"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Lead."
+        "Shared, divided.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 225049,
+            "_ancestry": [
+                "L_ 25040",
+                "B_ {#BAjita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAjitam"
+                }
+            ],
+            "_meanings": [
+                "A share, portion."
+            ]
+        }
     ]
 }

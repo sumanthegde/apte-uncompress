@@ -1,19 +1,64 @@
 {
-    "__line": 33390,
+    "__line": 30835,
     "_ancestry": [
         "L_ 3627",
-        "B_ {#aByastamita#}"
+        "B_ {#aBirUpa#}"
     ],
-    "_banner": "{#aByastamita#}",
+    "_banner": "{#aBirUpa#}",
     "_bannerExp": [
         {
-            "Right": "aByastamita"
+            "Right": "aBirUpa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#aBigato rUpam#}]"
     ],
     "_meanings": [
-        "One on whom the\nsun has set while asleep."
+        ".²1 Corresponding with, conformable or suitable to, congruous; {#aBirUpamasyA#}\n {#vayaso valkalam#} <ls>Ś. 1</ls>, <ab>v. l.</ab>\n",
+        ".²2 Pleasing, delightful, handsome, charming, beautiful, well-formed; {#aBirUpeRApi#}\n {#svadArasaMtuzwena#} <ls>K. 51</ls>; {#utkfzwAyABirUpAya varAya sadfSAya ca#} ({#kanyAM#}\n {#dadyAt#}) <ls>Ms. 9. 88</ls>.\n",
+        ".²3 Dear to, beloved or liked by, favourite; {#yo yaH pradeSaH saKyA me'BirUpaH#} <ls>Ś. 6</ls>.\n",
+        ".²4 Learned, wise, enlightened; {#aBirUpaBUyizWA parizadiyam#} <ls>Ś. 1</ls>; <ls>K. 78</ls>;\n <ls>Ms. 3. 144</ls>. <ab>cf.</ab> {#prAptarUpABirUpO dvO vidvAMse sundare'pi ca#} <ls>Nm.</ls>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 30844,
+            "_ancestry": [
+                "L_ 3627",
+                "B_ {#aBirUpa#}",
+                "M_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBirUpaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The moon.\n",
+                ".²2 Śiva.\n",
+                ".²3 Viṣṇu.\n",
+                ".²4 Cupid,\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 30849,
+            "_ancestry": [
+                "L_ 3627",
+                "B_ {#aBirUpa#}",
+                "S_ {@{#˚patiH#}@}"
+            ],
+            "_banner": "{@{#˚patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#aBirUpa#} S_ {@{#˚patiH#}@}"
+                }
+            ],
+            "_meanings": [
+                "‘having an agreeable husband’, <ab>N.</ab> of a fast or rite\n performed to secure a good husband in the next world; <ls>Mk. 1</ls>."
+            ]
+        }
     ]
 }

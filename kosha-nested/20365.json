@@ -1,18 +1,60 @@
 {
-    "__line": 169529,
+    "__line": 183096,
     "_ancestry": [
         "L_ 20365",
-        "B_ {#praDarzaH#}"
+        "B_ {#pari(rI)BavaH#}"
     ],
-    "_banner": "{#praDarzaH#}",
+    "_banner": "{#pari(rI)BavaH#}",
     "_bannerExp": [
         {
-            "Right": "praDarzaH"
+            "Right": "pariBavaH"
+        },
+        {
+            "Right": "parIBavaH"
         }
     ],
     "_meanings": [
-        "{@--1@} Assaulting, attacking;\nan attack, assault. ",
-        "{@--2@} Violation,\noutrage. ",
-        "{@--3@} Ill-treatment."
+        ".²1 Insult, injury, humiliation, disrespect, degradation, disgrace; {#parAkramaH#}\n {#pariBave vEyAtyaM suratezviva#} ({#BUzaRam#}) <ls>Śi. 2. 44</ls>; <ls>R. 12. 37</ls>;\n <ls>Ve. 1. 25</ls>; <ls>U. 4. 23</ls>; <ls>Mu. 3. 4</ls>; <ls>Mv. 1. 40</ls>, <ls n=\"Mv.\">3. 17</ls>.\n",
+        ".²2 Defeat, discomfiture.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 183102,
+            "_ancestry": [
+                "L_ 20365",
+                "B_ {#pari(rI)BavaH#}",
+                "S_ .{@{#-Aspadam, -padam#}@}"
+            ],
+            "_banner": ".{@{#-Aspadam, -padam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pariBavAspadam"
+                },
+                {
+                    "Left": "S error: midAlign padaM AspadaM"
+                }
+            ],
+            "_meanings": [
+                ".²1 an object of contempt; {#adurgo vizayaH kasya nAreH pariBavAspadam#} <ls>H. 3. 51</ls>.\n",
+                ".²2 a disgrace or disgraceful situation.\n"
+            ]
+        },
+        {
+            "__line": 183105,
+            "_ancestry": [
+                "L_ 20365",
+                "B_ {#pari(rI)BavaH#}",
+                "S_ .{@{#-viDiH#}@}"
+            ],
+            "_banner": ".{@{#-viDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pariBavaviDiH"
+                }
+            ],
+            "_meanings": [
+                "humiliation; {#prAyo mUrKaH pariBavaviDO nABimAnaM tanoti#} <ls>Ś. Til. 16</ls>."
+            ]
+        }
     ]
 }

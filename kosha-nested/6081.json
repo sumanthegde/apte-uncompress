@@ -1,19 +1,38 @@
 {
-    "__line": 53368,
+    "__line": 50892,
     "_ancestry": [
         "L_ 6081",
-        "B_ {#AtapIya#}"
+        "B_ {#asaMBAvanIya#}, {#-asaMBAvya#}"
     ],
-    "_banner": "{#AtapIya#}",
+    "_banner": "{#asaMBAvanIya#}, {#-asaMBAvya#}",
     "_bannerExp": [
         {
-            "Right": "AtapIya"
+            "Right": "asamBAvanIya"
+        },
+        {
+            "Right": "asamBAvya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Sunny."
+        ".²1 Impossible.\n",
+        ".²2 Inconceivable, incomprehensible.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 50895,
+            "_ancestry": [
+                "L_ 6081",
+                "B_ {#asaMBAvanIya#}, {#-asaMBAvya#}",
+                "M_ .{@{#-vyam#}@}"
+            ],
+            "_banner": ".{@{#-vyam#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "= {#asaMBavyam#} <ab>q. v.</ab>"
+            ]
+        }
     ]
 }

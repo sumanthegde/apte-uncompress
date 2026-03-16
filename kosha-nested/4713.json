@@ -1,22 +1,86 @@
 {
-    "__line": 42505,
+    "__line": 40339,
     "_ancestry": [
         "L_ 4713",
-        "B_ {#avayA, --yAta#}"
+        "B_ {#alIka#}"
     ],
-    "_banner": "{#avayA, --yAta#}",
+    "_banner": "{#alIka#}",
     "_bannerExp": [
         {
-            "Right": "avayA"
-        },
-        {
-            "Right": "avayAta"
+            "Right": "alIka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#al-bIkan#} <ls>Uṇ. 4. 25</ls> {#nipAtaH#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Giving way,\ndesisting, ceasing; {#°heLaH#} <ab>Ved.</ab> one\nwhose anger is appeased."
+        ".²1 Unpleasing, disagreeable; {#A me SfRutAsitA alIkAH#} <ls>Av. 5. 13. 5</ls>.\n",
+        ".²2 Untrue, false, pretended; {#˚mugDaH#} <ls>K. 84</ls>; {#alIkakopakAntena#} <ls>K. 147</ls>;\n {#˚vacana#} <ls>Amaru. 27</ls>, <ls n=\"Amaru.\">37</ls>, <ls n=\"Amaru.\">48</ls>. ",
+        ".²3 Little, not much, few.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 40343,
+            "_ancestry": [
+                "L_ 4713",
+                "B_ {#alIka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alIkam"
+                }
+            ],
+            "_meanings": [
+                "The forehead; {#diSAmalIkAlakaBaNgatAM gataH#} <ls>K. 4</ls>.\n",
+                ".²2 Anything displeasing; {#yadyaTA sa mahArAjo nAlIkamaDigacCati#} <ls>Rām. 2. 52. 26</ls>.\n falsehood, untruth. {#guroScAlIkanirbanDaH samAni brahmahatyayA#}\n <ls>Ms. 11. 55</ls>. {#sajjanasya hfdayaM navanItaM yad vadanti kavayastadalIkam .#}\n {#anyadehavilasatparitApAt sajjano dravati no navanItam ..#} <ls>Subhāṣ.</ls>\n",
+                ".²3 Heaven.\n",
+                ".²4 Sorrow; {#alIkaM mAnasaM tvekaM hfdayaM mama#} <ls>Rām. 2. 19. 6</ls>. {#alIkaM#}\n {#tvapriye svarge saNGe'nftalalAwayoH#}\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 40352,
+            "_ancestry": [
+                "L_ 4713",
+                "B_ {#alIka#}",
+                "S_ .{@{#-matsya#}@}"
+            ],
+            "_banner": ".{@{#-matsya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alIkamatsya"
+                }
+            ],
+            "_meanings": [
+                "a kind of dish resembling the taste of fish (‘mock-fish’).\n"
+            ]
+        },
+        {
+            "__line": 40353,
+            "_ancestry": [
+                "L_ 4713",
+                "B_ {#alIka#}",
+                "S_ .{@{#-supta, suptaka#}@}"
+            ],
+            "_banner": ".{@{#-supta, suptaka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "alIkasupta"
+                },
+                {
+                    "Right": "alIkasuptaka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pretended sleep; <ls>Ks.</ls>"
+            ]
+        }
     ]
 }

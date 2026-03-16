@@ -1,16 +1,138 @@
 {
-    "__line": 139002,
+    "__line": 143424,
     "_ancestry": [
         "L_ 16528",
-        "B_ {#nAryaMgaH#}"
+        "B_ {#tucCa#}"
     ],
-    "_banner": "{#nAryaMgaH#}",
+    "_banner": "{#tucCa#}",
     "_bannerExp": [
         {
-            "Right": "nAryaMgaH"
+            "Right": "tucCa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The orange tree."
+        ".²1 Empty, void, vain, light.\n",
+        ".²2 Small, little, trifling.\n",
+        ".²3 Abandoned, deserted.\n",
+        ".²4 Low, mean, insignificant, contemptible, worthless.\n",
+        ".²5 Poor, miserable, wretched.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 143430,
+            "_ancestry": [
+                "L_ 16528",
+                "B_ {#tucCa#}",
+                "M_ .{@{#-cCA#}@}"
+            ],
+            "_banner": ".{@{#-cCA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tucCA"
+                }
+            ],
+            "_meanings": [
+                "The 14th lunar day.\n"
+            ]
+        },
+        {
+            "__line": 143431,
+            "_ancestry": [
+                "L_ 16528",
+                "B_ {#tucCa#}",
+                "M_ .{@{#-cCam#}@}"
+            ],
+            "_banner": ".{@{#-cCam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tucCam"
+                }
+            ],
+            "_meanings": [
+                "Chaff.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 143433,
+            "_ancestry": [
+                "L_ 16528",
+                "B_ {#tucCa#}",
+                "S_ .{@{#-daya#}@}"
+            ],
+            "_banner": ".{@{#-daya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tucCadaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unmerciful; {#pAdO kiyaddUramimO prayAse niDitsate#}\n {#tucCadayaM manaste#} <ls>N. 8. 24</ls>.\n"
+            ]
+        },
+        {
+            "__line": 143435,
+            "_ancestry": [
+                "L_ 16528",
+                "B_ {#tucCa#}",
+                "S_ .{@{#-druH#}@}"
+            ],
+            "_banner": ".{@{#-druH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tucCadruH"
+                }
+            ],
+            "_meanings": [
+                "the castor-oil tree.\n"
+            ]
+        },
+        {
+            "__line": 143436,
+            "_ancestry": [
+                "L_ 16528",
+                "B_ {#tucCa#}",
+                "S_ .{@{#-DAnyaH, -DAnyakaH#}@}"
+            ],
+            "_banner": ".{@{#-DAnyaH, -DAnyakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tucCaDAnyaH"
+                },
+                {
+                    "Right": "tucCaDAnyakaH"
+                }
+            ],
+            "_meanings": [
+                "straw, chaff.\n"
+            ]
+        },
+        {
+            "__line": 143437,
+            "_ancestry": [
+                "L_ 16528",
+                "B_ {#tucCa#}",
+                "S_ .{@{#-prAya#}@}"
+            ],
+            "_banner": ".{@{#-prAya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tucCaprAya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "unimportant."
+            ]
+        }
     ]
 }

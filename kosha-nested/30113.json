@@ -1,41 +1,83 @@
 {
-    "__line": 251764,
+    "__line": 277863,
     "_ancestry": [
         "L_ 30113",
-        "B_ {#sAmayAcArika#}"
+        "B_ {#virAj#}"
     ],
-    "_banner": "{#sAmayAcArika#}",
+    "_banner": "{#virAj#}",
     "_bannerExp": [
         {
-            "Right": "sAmayAcArikI"
-        },
-        {
-            "Right": "sAmayAcArika"
+            "Right": "virAj"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Relating to conventional practice or\nusage ({#samayAcAra#}). "
+        ".²1 Splendid, excellent; {#mftyurBojapatervirAqaviduzAM tattvaM paraM yoginAm#}\n <ls>Bhāg. 10. 43. 17</ls>.\n",
+        ".²2 A ruler, chief. "
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 251767,
+            "__line": 277866,
             "_ancestry": [
                 "L_ 30113",
-                "B_ {#sAmayAcArika#}",
-                "S_  {#--sUtraM#}"
+                "B_ {#virAj#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": " {#--sUtraM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "sAmayAcArikasUtraM"
+                    "Left": "Parser error: {#virAj#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab>\nof certain Sūtras, treating of \nconventional customs and rites \nsanctioned by the common agreement\nand practice of virtuous men."
+                ".²1 Beauty, splendour.\n",
+                ".²2 A man of the Kṣatriya or warrior tribe; {#virAqAyuzo'rDamaTAtyagAt#}\n <ls>Bhāg. 4. 27. 6</ls>.\n",
+                ".²3 The first progeny of Brahman; <ab>cf.</ab> <ls>Ms. 1. 32</ls>; {#tasmAt virAqajAyata#}\n <ls>Rv. 10. 90. 5</ls> (where {#virAj#} is represented as born from {%Puruṣa%}).\n",
+                ".²4 The body.\n",
+                ".²5 (In Vedānta <ab>phil.</ab>) <ab>N.</ab> of ‘intellect’ considered as ruling over the\n aggregate of bodies.\n",
+                ".²6 The universe ({#brahmARqa#}); {#nAnAvIryAH pfTagBUtA virAjaM janayanti#}\n {#hi#} <ls>Bhāg. 10. 3. 15</ls>. "
+            ]
+        },
+        {
+            "__line": 277876,
+            "_ancestry": [
+                "L_ 30113",
+                "B_ {#virAj#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#virAj#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a Vedic metre.\n",
+                ".²2 Excellence, dignity.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 277880,
+            "_ancestry": [
+                "L_ 30113",
+                "B_ {#virAj#}",
+                "S_ .{@{#-sutaH#}@}"
+            ],
+            "_banner": ".{@{#-sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "virAwsutaH"
+                }
+            ],
+            "_gram": [
+                "({@{#virAwsutaH#}@})"
+            ],
+            "_meanings": [
+                "a class of deceased ancestors; {#virAwsutAH#}\n {#somasadaH sADyAnAM pitaraH smftAH#} <ls>Ms. 3. 195</ls>."
             ]
         }
     ]

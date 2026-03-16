@@ -1,20 +1,38 @@
 {
-    "__line": 34218,
+    "__line": 31650,
     "_ancestry": [
         "L_ 3755",
-        "B_ {#amada#}"
+        "B_ {#aBizuta#}"
     ],
-    "_banner": "{#amada#}",
+    "_banner": "{#aBizuta#}",
     "_bannerExp": [
         {
-            "Right": "amada"
+            "Right": "aBizuta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Free from \nintoxication, grave, serious. ",
-        "{@--2@} Sorrowful."
+        "Extracted, pressed out, as Soma juice.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 31651,
+            "_ancestry": [
+                "L_ 3755",
+                "B_ {#aBizuta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBizutam"
+                }
+            ],
+            "_meanings": [
+                "Sour gruel."
+            ]
+        }
     ]
 }

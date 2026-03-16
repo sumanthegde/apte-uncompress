@@ -1,23 +1,132 @@
 {
-    "__line": 180355,
+    "__line": 195944,
     "_ancestry": [
         "L_ 21767",
-        "B_ {#bil#}"
+        "B_ {#pfSni#} "
     ],
-    "_banner": "{#bil#}",
+    "_banner": "{#pfSni#} ",
     "_bannerExp": [
         {
-            "Right": "bil"
+            "Right": "pfSni"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>",
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#bilati, belayati-te#})"
+        "({#-zRi#})"
     ],
     "_meanings": [
-        "To split, cleave, break, divide."
+        "¦ {%a.%}\n [{#spfS ni˚ kicca pfzo˚ salopaH#}; <ls>Uṇ. 4. 52</ls>]\n",
+        ".²1 Short, small, dwarfish.\n",
+        ".²2 Delicate, feeble.\n",
+        ".²3 Diversified, spotted.\n",
+        ".²4 Various, diverse (<ab>Ved.</ab>).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 195950,
+            "_ancestry": [
+                "L_ 21767",
+                "B_ {#pfSni#} ",
+                "M_ .{@{#-SniH#}@}"
+            ],
+            "_banner": ".{@{#-SniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfSniH"
+                }
+            ],
+            "_meanings": [
+                "A dwarf.\n"
+            ]
+        },
+        {
+            "__line": 195951,
+            "_ancestry": [
+                "L_ 21767",
+                "B_ {#pfSni#} ",
+                "M_ .{@{#-Sni#}@}"
+            ],
+            "_banner": ".{@{#-Sni#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfSni"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 A ray of light.\n",
+                ".²2 The earth.\n",
+                ".²3 The starry sky.\n",
+                ".²4 <ab>N.</ab> of Devakī, mother of Kṛṣṇa.\n",
+                ".²5 A cloud.\n",
+                ".²6 Milk.\n",
+                ".²7 A dappled cow.\n",
+                ".²8 The earth.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 195961,
+            "_ancestry": [
+                "L_ 21767",
+                "B_ {#pfSni#} ",
+                "S_ .{@{#-garBaH, -DaraH, -BadraH#}@}"
+            ],
+            "_banner": ".{@{#-garBaH, -DaraH, -BadraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfSnigarBaH"
+                },
+                {
+                    "Right": "pfSniDaraH"
+                },
+                {
+                    "Right": "pfSniBadraH"
+                }
+            ],
+            "_meanings": [
+                "epithets of Viṣṇu-Kṛṣṇa.\n"
+            ]
+        },
+        {
+            "__line": 195962,
+            "_ancestry": [
+                "L_ 21767",
+                "B_ {#pfSni#} ",
+                "S_ .{@{#-parRikA, -parRI#}@}"
+            ],
+            "_banner": ".{@{#-parRikA, -parRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfSniparRikA"
+                },
+                {
+                    "Right": "pfSniparRI"
+                }
+            ],
+            "_meanings": [
+                "Hermionitis Cordifolia (<lang>Mar.</lang> <ns>{#piWavaRa#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 195963,
+            "_ancestry": [
+                "L_ 21767",
+                "B_ {#pfSni#} ",
+                "S_ .{@{#-SfNgaH#}@}"
+            ],
+            "_banner": ".{@{#-SfNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pfSniSfNgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 an epithet of Kṛṣṇa.\n",
+                ".²2 of Gaṇeśa."
+            ]
+        }
     ]
 }

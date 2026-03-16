@@ -1,37 +1,79 @@
 {
-    "__line": 119695,
+    "__line": 123737,
     "_ancestry": [
         "L_ 14352",
-        "B_ {#tanaH#}"
+        "B_ {#grasta#}"
     ],
-    "_banner": "{#tanaH#}",
+    "_banner": "{#grasta#}",
     "_bannerExp": [
         {
-            "Right": "tanaH"
+            "Right": "grasta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}",
+        "[{#gras karmaRi kta#}]"
+    ],
     "_meanings": [
-        "<ab>Ved.</ab> A descendant. "
+        ".²1 Eaten, devoured.\n",
+        ".²2 Seized, stricken, affected, possessed; {#graha˚, vipad˚, jarA˚#} <ls>U. 6. 39</ls>.\n",
+        ".²3 Slurred; {#˚muktam#} <ls>U. 5. 13</ls>; {#˚Amizam#} <ls>Pt. 1. 193</ls>.\n",
+        ".²4 Eclipsed.\n",
+        ".²5 Taken, seized.\n",
+        ".²6 Tormented, afflicted; <ls>Y. 3. 245</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 119695,
+            "__line": 123744,
             "_ancestry": [
                 "L_ 14352",
-                "B_ {#tanaH#}",
-                "M_ {#--nA --naM#}"
+                "B_ {#grasta#}",
+                "M_ .{@{#-stam#}@}"
             ],
-            "_banner": "{#--nA --naM#}",
+            "_banner": ".{@{#-stam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tanA"
-                },
-                {
-                    "Right": "tanaM"
+                    "Right": "grastam"
                 }
             ],
             "_meanings": [
-                "Offspring."
+                "A word or sentence half-uttered or slurred over.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 123746,
+            "_ancestry": [
+                "L_ 14352",
+                "B_ {#grasta#}",
+                "S_ .{@{#-astam#}@}"
+            ],
+            "_banner": ".{@{#-astam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "grastAstam"
+                }
+            ],
+            "_meanings": [
+                "the setting of the sun or moon while eclipsed.\n"
+            ]
+        },
+        {
+            "__line": 123747,
+            "_ancestry": [
+                "L_ 14352",
+                "B_ {#grasta#}",
+                "S_ .{@{#-udayaH#}@}"
+            ],
+            "_banner": ".{@{#-udayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "grastodayaH"
+                }
+            ],
+            "_meanings": [
+                "rising of the sun or moon while eclipsed."
             ]
         }
     ]

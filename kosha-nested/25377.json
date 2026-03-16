@@ -1,21 +1,40 @@
 {
-    "__line": 215046,
+    "__line": 229311,
     "_ancestry": [
         "L_ 25377",
-        "B_ {#vAq#}"
+        "B_ {#Byas#}"
     ],
-    "_banner": "{#vAq#}",
+    "_banner": "{#Byas#}",
     "_bannerExp": [
         {
-            "Right": "vAq"
+            "Right": "Byas"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#vAqate#})"
+        "€1",
+        "<ab>Ā.</ab>",
+        "({#Byasate#})"
     ],
     "_meanings": [
-        "To bathe, dive. "
+        "To fear. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 229311,
+            "_ancestry": [
+                "L_ 25377",
+                "B_ {#Byas#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "Byas"
+                }
+            ],
+            "_meanings": [
+                "To frighten."
+            ]
+        }
     ]
 }

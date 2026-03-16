@@ -1,20 +1,80 @@
 {
-    "__line": 132269,
+    "__line": 137228,
     "_ancestry": [
         "L_ 15812",
-        "B_ {#drAvya#}"
+        "B_ {#jyotiza#}"
     ],
-    "_banner": "{#drAvya#}",
+    "_banner": "{#jyotiza#}",
     "_bannerExp": [
         {
-            "Right": "drAvya"
+            "Right": "jyotiza"
+        },
+        {
+            "Right": "jyotizI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-zI#}|{%f.%})",
+        "[{#jyotiH sUryAdigatyAdikaM pratipAdyatayA 'styasya#}\n {#ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To be made to run or\nput to flight. ",
-        "{@--2@} Fusible."
+        ".²1 Astronomical or astrological.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 137231,
+            "_ancestry": [
+                "L_ 15812",
+                "B_ {#jyotiza#}",
+                "M_ .{@{#-zaH#}@}"
+            ],
+            "_banner": ".{@{#-zaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jyotizaH"
+                }
+            ],
+            "_meanings": [
+                "An astronomer or astrologer.\n"
+            ]
+        },
+        {
+            "__line": 137232,
+            "_ancestry": [
+                "L_ 15812",
+                "B_ {#jyotiza#}",
+                "M_ .{@{#-zam#}@}"
+            ],
+            "_banner": ".{@{#-zam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jyotizam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Astronomy, astrology, the science of the course of the heavenly bodies\n and divisions of time resting thereon; {#kalAmAtrAviSezajYAY jyotize#}\n {#ca paraM gatAn#} <ls>Rām. 7. 94. 7</ls>.\n",
+                ".²2 One of the six Vedāṅgas (being a short tract on astronomy).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 137238,
+            "_ancestry": [
+                "L_ 15812",
+                "B_ {#jyotiza#}",
+                "S_ .{@{#-vidyA#}@}"
+            ],
+            "_banner": ".{@{#-vidyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jyotizavidyA"
+                }
+            ],
+            "_meanings": [
+                "astronomical or astrological science."
+            ]
+        }
     ]
 }

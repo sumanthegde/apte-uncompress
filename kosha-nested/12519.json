@@ -1,38 +1,79 @@
 {
-    "__line": 104551,
+    "__line": 106038,
     "_ancestry": [
         "L_ 12519",
-        "B_ {#girikaH#}"
+        "B_ {#kumArikA, kumArI#}"
     ],
-    "_banner": "{#girikaH#}",
+    "_banner": "{#kumArikA, kumArI#}",
     "_bannerExp": [
         {
-            "Right": "girikaH"
+            "Right": "kumArikA"
+        },
+        {
+            "Right": "kumArI"
         }
     ],
-    "_gram": [
-        "[{#girO kAyati kE-ka#}]"
-    ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab>\nof Śiva. ",
-        "{@--2@} A ball for playing.\n"
+        ".²1 A young girl, one from 10 to 12 years old.\n",
+        ".²2 A maiden, virgin; {#trIRi varzARyudIkzeta kumAryftumatI satI#} <ls>Ms. 9. 90</ls>, <ls n=\"Ms.\">11. 59</ls>;\n {#vyAvartatAnyopagamAtkumArI#} <ls>R. 6. 69</ls>.\n",
+        ".²3 A girl or daughter in general.\n",
+        ".²4 <ab>N.</ab> of Durgā.\n",
+        ".²5 <ab>N.</ab> of several plants (<lang>Mar.</lang> <ns>{#koraPaqa, karwolI, kAMweSevaMtI, bawamogarA i#}</ns>).\n",
+        ".²6 <ab>N.</ab> of Sītā.\n",
+        ".²7 Large cardamoms.\n",
+        ".²8 The southern extremity of the Indian peninsula (<ab>cf.</ab> the modern name Cape Comorin).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 104553,
+            "__line": 106049,
             "_ancestry": [
                 "L_ 12519",
-                "B_ {#girikaH#}",
-                "M_ {#--kA#}"
+                "B_ {#kumArikA, kumArI#}",
+                "S_ .{@{#-putraH#}@}"
             ],
-            "_banner": "{#--kA#}",
+            "_banner": ".{@{#-putraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "girikA"
+                    "Right": "kumArIputraH"
                 }
             ],
             "_meanings": [
-                "A small mouse."
+                ".²1 the son of an unmarried woman.\n",
+                ".²2 <ab>N.</ab> of Karṇa.\n"
+            ]
+        },
+        {
+            "__line": 106052,
+            "_ancestry": [
+                "L_ 12519",
+                "B_ {#kumArikA, kumArI#}",
+                "S_ .{@{#-puram#}@}"
+            ],
+            "_banner": ".{@{#-puram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kumArIpuram"
+                }
+            ],
+            "_meanings": [
+                "a gymansium or a girlʼs apartment. {#apuMstvamapyasya niSamya#}\n {#ca sTiraM tataH kumArIpuramutsasarja tam#} <ls>Mb. 4. 11. 12</ls>; <ls>Kau. A.</ls> {#yadi#}\n {#kumArIpurapraveSAByupAyaM nAvabuDyase#} <ls>Dk. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 106055,
+            "_ancestry": [
+                "L_ 12519",
+                "B_ {#kumArikA, kumArI#}",
+                "S_ .{@{#-SvaSuraH#}@}"
+            ],
+            "_banner": ".{@{#-SvaSuraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kumArISvaSuraH"
+                }
+            ],
+            "_meanings": [
+                "the father-in-law of a girl defiled before marriage."
             ]
         }
     ]

@@ -1,20 +1,45 @@
 {
-    "__line": 243159,
+    "__line": 268074,
     "_ancestry": [
         "L_ 28961",
-        "B_ {#sacCidra#}"
+        "B_ {#vAnti#}"
     ],
-    "_banner": "{#sacCidra#}",
+    "_banner": "{#vAnti#}",
     "_bannerExp": [
         {
-            "Right": "sacCidra"
+            "Right": "vAnti"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} Having holes. ",
-        "{@--2@}\nDefective, faulty."
+        ".²1 Vomiting.\n",
+        ".²2 Ejecting, emitting.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 268078,
+            "_ancestry": [
+                "L_ 28961",
+                "B_ {#vAnti#}",
+                "S_ .{@{#-kft, -da#}@}"
+            ],
+            "_banner": ".{@{#-kft, -da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAntikft"
+                },
+                {
+                    "Left": "S error: 1 syl kft da"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "emetic."
+            ]
+        }
     ]
 }

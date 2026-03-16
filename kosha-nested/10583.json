@@ -1,19 +1,41 @@
 {
-    "__line": 88969,
+    "__line": 88303,
     "_ancestry": [
         "L_ 10583",
-        "B_ {#kazita#}"
+        "B_ {#ftumat#}"
     ],
-    "_banner": "{#kazita#}",
+    "_banner": "{#ftumat#}",
     "_bannerExp": [
         {
-            "Right": "kazita"
+            "Right": "ftumat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Hurt, injured."
+        "<ab>Ved.</ab>\n",
+        ".²1 Coming regularly; {#agnizvAttAnftumato havAmahe#} <ls>Vāj. 19. 61</ls>.\n",
+        ".²2 Enjoying the seasons.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 88306,
+            "_ancestry": [
+                "L_ 10583",
+                "B_ {#ftumat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ftumatI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A woman during her courses.\n",
+                ".²2 A girl at the age of puberty, marriagable girl; {#kAmamAmaraRAttizWed#}\n {#gfhe kanyartumatyapi#} <ls>Ms. 9. 89 ff.</ls>"
+            ]
+        }
     ]
 }

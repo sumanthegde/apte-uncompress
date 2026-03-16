@@ -1,19 +1,110 @@
 {
-    "__line": 125471,
+    "__line": 130994,
     "_ancestry": [
         "L_ 15130",
-        "B_ {#dazwa#}"
+        "B_ {#celam#}"
     ],
-    "_banner": "{#dazwa#}",
+    "_banner": "{#celam#}",
     "_bannerExp": [
         {
-            "Right": "dazwa"
+            "Right": "celam"
         }
     ],
-    "_gram": [
-        "{%<ab>p. p.</ab>%}"
-    ],
     "_meanings": [
-        "Bitten, stung; see\n{#daMS#}."
+        ".²1 A garment; {#kusumBAruRaM cAru celaM vasAnA#} <ls>Jag.</ls>\n",
+        ".²2 (At the end of <ab>comp.</ab>) Bad, wicked, vile; {#BAryAcelam#} ‘a bad wife’.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 130998,
+            "_ancestry": [
+                "L_ 15130",
+                "B_ {#celam#}",
+                "S_ .{@{#-ASakaH#}@}"
+            ],
+            "_banner": ".{@{#-ASakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "celASakaH"
+                }
+            ],
+            "_meanings": [
+                "a moth.\n"
+            ]
+        },
+        {
+            "__line": 130999,
+            "_ancestry": [
+                "L_ 15130",
+                "B_ {#celam#}",
+                "S_ .{@{#-knopam#}@}"
+            ],
+            "_banner": ".{@{#-knopam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "celaknopam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "So as to wet the clothes (rain) <ls>P. III. 4. 33</ls>.\n"
+            ]
+        },
+        {
+            "__line": 131000,
+            "_ancestry": [
+                "L_ 15130",
+                "B_ {#celam#}",
+                "S_ .{@{#-gaNgA#}@}"
+            ],
+            "_banner": ".{@{#-gaNgA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "celagaNgA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a river near Gokarṇa.\n"
+            ]
+        },
+        {
+            "__line": 131001,
+            "_ancestry": [
+                "L_ 15130",
+                "B_ {#celam#}",
+                "S_ .{@{#-cIrA#}@}"
+            ],
+            "_banner": ".{@{#-cIrA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "celacIrA"
+                }
+            ],
+            "_meanings": [
+                "a piece torn off from a garment; {#vipannaM galamudbaDya#}\n {#dfQayA celacIrayA#} <ls>Rāj. T. 4. 574</ls>.\n"
+            ]
+        },
+        {
+            "__line": 131003,
+            "_ancestry": [
+                "L_ 15130",
+                "B_ {#celam#}",
+                "S_ .{@{#-nirRejakaH, -prakzAlakaH#}@}"
+            ],
+            "_banner": ".{@{#-nirRejakaH, -prakzAlakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "celanirRejakaH"
+                },
+                {
+                    "Right": "celaprakzAlakaH"
+                }
+            ],
+            "_meanings": [
+                "a washerman; {#SvavatAM SORqikAnAM ca#}\n {#celanirRejakasya ca#} <ls>Ms. 4. 216</ls>."
+            ]
+        }
     ]
 }

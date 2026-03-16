@@ -1,16 +1,74 @@
 {
-    "__line": 233099,
+    "__line": 255371,
     "_ancestry": [
         "L_ 27678",
-        "B_ {#SarkarajA#}"
+        "B_ {#romakaH#}"
     ],
-    "_banner": "{#SarkarajA#}",
+    "_banner": "{#romakaH#}",
     "_bannerExp": [
         {
-            "Right": "SarkarajA"
+            "Right": "romakaH"
         }
     ],
     "_meanings": [
-        "Candied sugar."
+        ".²1 The city of Rome.\n",
+        ".²2 A Roman, an inhabitant of Rome (usually in <ab>pl.</ab>); <ls>Mb. 2. 51. 17</ls>.\n",
+        ".²3 <ab>N.</ab> of an astronomer.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255375,
+            "_ancestry": [
+                "L_ 27678",
+                "B_ {#romakaH#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of salt ({#pAMSulavaRa#}).\n",
+                ".²2 A kind of magnet.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 255379,
+            "_ancestry": [
+                "L_ 27678",
+                "B_ {#romakaH#}",
+                "S_ .{@{#-pattanam#}@}"
+            ],
+            "_banner": ".{@{#-pattanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romakapattanam"
+                }
+            ],
+            "_meanings": [
+                "the city of Rome.\n"
+            ]
+        },
+        {
+            "__line": 255380,
+            "_ancestry": [
+                "L_ 27678",
+                "B_ {#romakaH#}",
+                "S_ .{@{#-sidDAntaH#}@}"
+            ],
+            "_banner": ".{@{#-sidDAntaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "romakasidDAntaH"
+                }
+            ],
+            "_meanings": [
+                "one of the five chief Siddhāntas (so called because\n it was probably derived from the {%Romans%})."
+            ]
+        }
     ]
 }

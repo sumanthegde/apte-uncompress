@@ -1,19 +1,41 @@
 {
-    "__line": 166600,
+    "__line": 179132,
     "_ancestry": [
         "L_ 19908",
-        "B_ {#pratipadA --dI#}"
+        "B_ {#padmin#}"
     ],
-    "_banner": "{#pratipadA --dI#}",
+    "_banner": "{#padmin#}",
     "_bannerExp": [
         {
-            "Right": "pratipadA"
-        },
-        {
-            "Right": "pratipadI"
+            "Right": "padmin"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#padma-ini#}]"
+    ],
     "_meanings": [
-        "The first day of a lunar\nfortnight. "
+        ".²1 Possessing lotuses.\n",
+        ".²2 Spotted; {#SataM gajAnAmapi padminAM taTA#} <ls>Mb. 1. 198. 16</ls>. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 179134,
+            "_ancestry": [
+                "L_ 19908",
+                "B_ {#padmin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#padmin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An elephant; {#padmISanATEH pariSIlanIyA lakzmIva saMBAti narendra#}\n {#te saBA#} <ls>Sūkti. 5. 30</ls>.\n",
+                ".²2 An epithet of Viṣṇu."
+            ]
+        }
     ]
 }

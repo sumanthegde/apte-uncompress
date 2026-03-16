@@ -1,16 +1,38 @@
 {
-    "__line": 198011,
+    "__line": 210043,
     "_ancestry": [
         "L_ 23518",
-        "B_ {#mETunikA#}"
+        "B_ {#praSaMsaka, praSaMsin#}"
     ],
-    "_banner": "{#mETunikA#}",
+    "_banner": "{#praSaMsaka, praSaMsin#}",
     "_bannerExp": [
         {
-            "Right": "mETunikA"
+            "Right": "praSaMsaka"
+        },
+        {
+            "Right": "praSaMsin"
         }
     ],
     "_meanings": [
-        "Union by marriage, \nmatrimonial alliance."
+        "Praising, laudatory, eulogistic. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 210043,
+            "_ancestry": [
+                "L_ 23518",
+                "B_ {#praSaMsaka, praSaMsin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#praSaMsaka#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A panegyrist."
+            ]
+        }
     ]
 }

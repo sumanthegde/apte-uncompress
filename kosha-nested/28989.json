@@ -1,19 +1,43 @@
 {
-    "__line": 243335,
+    "__line": 268334,
     "_ancestry": [
         "L_ 28989",
-        "B_ {#saMcala#}"
+        "B_ {#vAyava#}"
     ],
-    "_banner": "{#saMcala#}",
+    "_banner": "{#vAyava#}",
     "_bannerExp": [
         {
-            "Right": "saMcala"
+            "Right": "vAyava"
+        },
+        {
+            "Right": "vAyavI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}",
+        ".({@{#-vI#}@}|{%f.%})"
     ],
     "_meanings": [
-        "Trembling, quivering."
+        ".²1 Relating to or given by the wind or Vāyu.\n",
+        ".²2 Aerial.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 268338,
+            "_ancestry": [
+                "L_ 28989",
+                "B_ {#vAyava#}",
+                "M_ .{@{#-vI#}@}"
+            ],
+            "_banner": ".{@{#-vI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAyavI"
+                }
+            ],
+            "_meanings": [
+                "The north-west quarter (presided over by Vāyu)."
+            ]
+        }
     ]
 }

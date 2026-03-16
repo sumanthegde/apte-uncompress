@@ -1,40 +1,98 @@
 {
-    "__line": 105857,
+    "__line": 107352,
     "_ancestry": [
         "L_ 12669",
-        "B_ {#gfDU#}"
+        "B_ {#kusI(si)da#}"
     ],
-    "_banner": "{#gfDU#}",
+    "_banner": "{#kusI(si)da#}",
     "_bannerExp": [
         {
-            "Right": "gfDU"
+            "Right": "kusIda"
+        },
+        {
+            "Right": "kusida"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Bad, wicked. "
+        "Lazy, slothful.\n"
     ],
     "_morphisms": [
         {
-            "__line": 105857,
+            "__line": 107353,
             "_ancestry": [
                 "L_ 12669",
-                "B_ {#gfDU#}",
-                "M_ {%--<ab>f.</ab>%}"
+                "B_ {#kusI(si)da#}",
+                "M_ .{@{#-daH#}@}"
             ],
+            "_banner": ".{@{#-daH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gfDU"
+                    "Right": "kusIdaH"
+                }
+            ],
+            "_meanings": [
+                "(also written as {#kuSI(zI)da#}) A money-lender, usurer; <ls>Mbh. 4. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 107354,
+            "_ancestry": [
+                "L_ 12669",
+                "B_ {#kusI(si)da#}",
+                "M_ .{@{#-dam#}@}"
+            ],
+            "_banner": ".{@{#-dam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kusIdam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Any loan or thing lent to be repaid with interest.\n",
+                ".²2 Lending money, usury, the profession of usury; {#kusIdAd dAridryaM#}\n {#parakaragatagranTiSamanAt#} <ls>Pt. 1. 11</ls>; <ls>Ms. 1. 90</ls>, <ls n=\"Ms.\">8. 410</ls>; <ls>Y. 1. 119</ls>.\n",
+                ".²3 Red sandalwood.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 107360,
+            "_ancestry": [
+                "L_ 12669",
+                "B_ {#kusI(si)da#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kusIdapaTaH"
+                }
+            ],
+            "_meanings": [
+                "usury, usurious interest; any interest exceeding 5 per\n cent; {#kftAnusArAdaDikA vyatiriktA na siDyati kusIdapaTamAhustam#} ({#paYcakaM#}\n {#Satamarhati#}) <ls>Ms. 8. 152</ls>.\n"
+            ]
+        },
+        {
+            "__line": 107363,
+            "_ancestry": [
+                "L_ 12669",
+                "B_ {#kusI(si)da#}",
+                "S_ .{@{#-vfdDiH#}@}"
+            ],
+            "_banner": ".{@{#-vfdDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kusIdavfdDiH"
                 }
             ],
             "_gram": [
-                "{%--<ab>f.</ab>%}"
+                "{%f.%}"
             ],
             "_meanings": [
-                "{@--1@} The\nwind escaping at the anus ({#apAna#}).\n",
-                "{@--2@} Understanding, reason, \nintellect."
+                "interest on money; {#kusIdavfdDirdvEguRyaM nAtyeti#}\n {#sakfdAhftA#} <ls>Ms. 8. 151</ls>."
             ]
         }
     ]

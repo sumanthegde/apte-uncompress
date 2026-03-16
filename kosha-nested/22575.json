@@ -1,86 +1,44 @@
 {
-    "__line": 188553,
+    "__line": 202813,
     "_ancestry": [
         "L_ 22575",
-        "B_ {#maTana#}"
+        "B_ {#pratiyogin#}"
     ],
-    "_banner": "{#maTana#}",
+    "_banner": "{#pratiyogin#}",
     "_bannerExp": [
         {
-            "Right": "maTanI"
-        },
-        {
-            "Right": "maTana"
+            "Right": "pratiyogin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})",
-        "[{#maT lyu lyuw vA#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@}\nChurning, stirring up. ",
-        "{@--2@} Hurting,\ninjuring. ",
-        "{@--3@} Killing, destroying, a\ndestroyer; {#mugDe maDumaTanamanugatamanusara#}\n{#rADike#} <ls>Gīt. 2.</ls> ",
-        "{@--4@} Rubbing. "
+        ".²1 Opposing, counteracting, impeding.\n",
+        ".²2 Related or corresponding to, being or forming a counter-part of (anything);\n often used in works on Nyāya; as a {#Gawa#} is the {#pratiyogI#} of {#GawABAva#};\n ({#yasyABAvo vivakzyate sa pratiyogI#}).\n",
+        ".²3 Co-operating with.\n",
+        ".²4 Equally matched. "
     ],
     "_morphisms": [
         {
-            "__line": 188557,
+            "__line": 202819,
             "_ancestry": [
                 "L_ 22575",
-                "B_ {#maTana#}",
-                "M_ {#--naH#}"
+                "B_ {#pratiyogin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "maTanaH"
+                    "Left": "Parser error: {#pratiyogin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab>\nof a tree ({#gaRikArikA#}, used in \nproducing fire by attrition). "
-            ]
-        },
-        {
-            "__line": 188559,
-            "_ancestry": [
-                "L_ 22575",
-                "B_ {#maTana#}",
-                "M_ {#--naM#}"
-            ],
-            "_banner": "{#--naM#}",
-            "_bannerExp": [
-                {
-                    "Right": "maTanaM"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} \nChurning, stirring round, agitating. ",
-                "{@--2@}\nRubbing, friction. ",
-                "{@--3@} Injury, \nhurting. destruction. "
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 188562,
-            "_ancestry": [
-                "L_ 22575",
-                "B_ {#maTana#}",
-                "S_  {#--acalaH#},\n{#--parvataH#}"
-            ],
-            "_banner": " {#--acalaH#},\n{#--parvataH#}",
-            "_bannerExp": [
-                {
-                    "Right": "maTanAcalaH"
-                },
-                {
-                    "Right": "maTanaparvataH"
-                }
-            ],
-            "_meanings": [
-                "the mountain Mandara used\nas a churning-stick."
+                ".²1 An adversary, opponent, enemy; {#ArTo viroDaH Saktena jAto naH pratiyoginA#}\n <ls>Mv. 2. 7</ls>; {#dahatyaSezaM pratiyogigarvam#} <ls>Vikr. 1. 117</ls>.\n",
+                ".²2 A counter-part, match.\n",
+                ".²3 A partner, an associate.\n",
+                ".²4 An object dependent upon another.\n",
+                ".²5 A counter-part, counter-entity; {#pratiyogijYAnADInajYAnavizayatvamaBAvalakzaRam#}."
             ]
         }
     ]

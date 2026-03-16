@@ -1,25 +1,138 @@
 {
-    "__line": 140298,
+    "__line": 145002,
     "_ancestry": [
         "L_ 16725",
-        "B_ {#nidfS#}"
+        "B_ {#taraRi#}"
     ],
-    "_banner": "{#nidfS#}",
+    "_banner": "{#taraRi#}",
     "_bannerExp": [
         {
-            "Right": "nidfS"
+            "Right": "taraRi"
         }
     ],
     "_gram": [
-        "{%<ab>Caus.</ab>%}"
+        "{%a.%}",
+        "[{#tF-ani#}]"
     ],
     "_meanings": [
-        "{@--1@} To show, point\nout; <ls>R. 6. 31.</ls> ",
-        "{@--2@} To prove, \nestablish, demonstrate. ",
-        "{@--3@} To consider,\ntreat of, discuss (as in a book).\n",
-        "{@--4@} To teach, explain. ",
-        "{@--5@} To \nillustrate by an example; <ab>cf.</ab> {#nidarSanA#}.\n",
-        "{@--6@} To introduce, cause to enter. \n\n",
-        "{@--7@} To show oneself to (a person.)"
+        "<ab>Ved.</ab>\n",
+        ".²1 Passing through, pervading (as the sun).\n",
+        ".²2 Quick, energetic, unremitting; {#vipaScitaM taraRiM BrAjamAnam#} <ls>Av. 13. 2. 4</ls>.\n",
+        ".²3 Saving, carrying over, benevolent.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145006,
+            "_ancestry": [
+                "L_ 16725",
+                "B_ {#taraRi#}",
+                "M_ .{@{#-RiH#}@}"
+            ],
+            "_banner": ".{@{#-RiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 The sun; {#‘taraRirdyumaRO puMsi kumArInOkayoH striyAm’#} <ls>Med.</ls>\n",
+                ".²2 A ray of light.\n",
+                ".²3 The {%Arka%} plant.\n",
+                ".²4 Copper.\n"
+            ]
+        },
+        {
+            "__line": 145011,
+            "_ancestry": [
+                "L_ 16725",
+                "B_ {#taraRi#}",
+                "M_ .{@{#-RiH, -RI#}@}"
+            ],
+            "_banner": ".{@{#-RiH, -RI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRiH"
+                },
+                {
+                    "Right": "taraRI"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A raft, boat.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 145013,
+            "_ancestry": [
+                "L_ 16725",
+                "B_ {#taraRi#}",
+                "S_ .{@{#-tanayA#}@}"
+            ],
+            "_banner": ".{@{#-tanayA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRitanayA"
+                }
+            ],
+            "_meanings": [
+                "the river Yamunā; {#pariSrAntasyAyaM taraRitanayAtIranilayaH#} <ls>Bv. 4. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 145014,
+            "_ancestry": [
+                "L_ 16725",
+                "B_ {#taraRi#}",
+                "S_ .{@{#-DanyaH#}@}"
+            ],
+            "_banner": ".{@{#-DanyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRiDanyaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 145015,
+            "_ancestry": [
+                "L_ 16725",
+                "B_ {#taraRi#}",
+                "S_ .{@{#-pewakaH#}@}"
+            ],
+            "_banner": ".{@{#-pewakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRipewakaH"
+                }
+            ],
+            "_meanings": [
+                "an oval bowl of wood for baling a boat.\n"
+            ]
+        },
+        {
+            "__line": 145016,
+            "_ancestry": [
+                "L_ 16725",
+                "B_ {#taraRi#}",
+                "S_ .{@{#-ratnam#}@}"
+            ],
+            "_banner": ".{@{#-ratnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "taraRiratnam"
+                }
+            ],
+            "_meanings": [
+                "a ruby."
+            ]
+        }
     ]
 }

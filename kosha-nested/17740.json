@@ -1,79 +1,147 @@
 {
-    "__line": 149733,
+    "__line": 156548,
     "_ancestry": [
         "L_ 17740",
-        "B_ {#padya#}"
+        "B_ {#druta#}"
     ],
-    "_banner": "{#padya#}",
+    "_banner": "{#druta#}",
     "_bannerExp": [
         {
-            "Right": "padya"
+            "Right": "druta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#dru-kta#}]"
     ],
     "_meanings": [
-        "{@--1@} Consisting of Padas or\nlines. ",
-        "{@--2@} Measuring a {%pada%}. ",
-        "{@--3@}\nBelonging to the foot. ",
-        "{@--4@} Marked\nwith footsteps. ",
-        "{@--5@} Belonging to a\nword. ",
-        "{@--6@} Final. "
+        ".²1 Quick, swift, speedy.\n",
+        ".²2 Flown, run away, escaped.\n",
+        ".²3 Melted, liquid, dissolved; {#jAtAnurAgo drutacitta uccEH#} <ls>Bhāg. 11. 2. 40</ls>.\n",
+        ".²4 Scattered, diffused.\n",
+        ".²5 Indistinct.\n",
+        ".²6 Moved, softened; {#drutaM karuRayA#} <ls>Māl. 5. 28</ls>; see {#dru#}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 149737,
+            "__line": 156555,
             "_ancestry": [
                 "L_ 17740",
-                "B_ {#padya#}",
-                "M_ {#--dyaH#}"
+                "B_ {#druta#}",
+                "M_ .{@{#-taH#}@}"
             ],
-            "_banner": "{#--dyaH#}",
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "padyaH"
+                    "Right": "drutaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} A Śūdra.\n",
-                "{@--2@} A part of a word. "
+                ".²1 A scorpion.\n",
+                ".²2 A tree.\n",
+                ".²3 A cat.\n"
             ]
         },
         {
-            "__line": 149738,
+            "__line": 156559,
             "_ancestry": [
                 "L_ 17740",
-                "B_ {#padya#}",
-                "M_ {#--dyA#}"
+                "B_ {#druta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--dyA#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "padyA"
+                    "Right": "drutam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A \nfootpath, path, way. ",
-                "{@--2@} Sugar. "
+                ".²1 the act of running; {#alaM drutena vaH SUrA iti droRo'ByaBAzata#} <ls>Mb. 7. 16. 18</ls>.\n",
+                ".²2 A particular faulty pronunciation of vowels.\n"
             ]
         },
         {
-            "__line": 149739,
+            "__line": 156562,
             "_ancestry": [
                 "L_ 17740",
-                "B_ {#padya#}",
-                "M_ {#--dyaM#}"
+                "B_ {#druta#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--dyaM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "padyaM"
+                    "Right": "drutam"
                 }
             ],
+            "_gram": [
+                "{%ind.%}"
+            ],
             "_meanings": [
-                "{@--1@}\nA stanza or verse (consisting of four\nlines); {#madIyapadyaratnAnAM maMjUzEzA mayA#} \n\n{#kftA#} <ls>Bv. 4. 45</ls>; {#padyaM catuzpadI tacca#}\n{#vfttaM jAtiriti dviDA#} Cand. <ls>M. 2.</ls> ",
-                "{@--2@}\nPraise, panegyric ({#stuti#})."
+                "Quickly, swiftly, speedily, immediately.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 156564,
+            "_ancestry": [
+                "L_ 17740",
+                "B_ {#druta#}",
+                "S_ .{@{#-gati#}@}"
+            ],
+            "_banner": ".{@{#-gati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "drutagati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going quickly, hastening.\n"
+            ]
+        },
+        {
+            "__line": 156565,
+            "_ancestry": [
+                "L_ 17740",
+                "B_ {#druta#}",
+                "S_ .{@{#-pada#}@}"
+            ],
+            "_banner": ".{@{#-pada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "drutapada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 going quickly.\n",
+                ".²2 a form of metre.\n"
+            ]
+        },
+        {
+            "__line": 156568,
+            "_ancestry": [
+                "L_ 17740",
+                "B_ {#druta#}",
+                "S_ .{@{#-maDyA#}@}"
+            ],
+            "_banner": ".{@{#-maDyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "drutamaDyA"
+                }
+            ],
+            "_gram": [
+                "{%<ab>ibid.</ab>%}",
+                ".{@{#-vilambitam#}@}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre; see <ls>App. I.</ls>"
             ]
         }
     ]

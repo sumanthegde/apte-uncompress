@@ -1,72 +1,38 @@
 {
-    "__line": 238315,
+    "__line": 261960,
     "_ancestry": [
         "L_ 28362",
-        "B_ {#SramaRa#}"
+        "B_ {#vatUH#}"
     ],
-    "_banner": "{#SramaRa#}",
+    "_banner": "{#vatUH#}",
     "_bannerExp": [
         {
-            "Right": "SramaRA"
-        },
-        {
-            "Right": "SramaRI"
-        },
-        {
-            "Right": "SramaRa"
+            "Right": "vatUH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#RA --RI#}|{%<ab>f.</ab>%})",
-        "[{#Sram-yuc#}]"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} Labouring, toiling. ",
-        "{@--2@} Low, base,\nvile. "
+        "A river of heaven. "
     ],
     "_morphisms": [
         {
-            "__line": 238317,
+            "__line": 261960,
             "_ancestry": [
                 "L_ 28362",
-                "B_ {#SramaRa#}",
-                "M_ {#--RaH#}"
+                "B_ {#vatUH#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--RaH#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "SramaRaH"
+                    "Left": "Parser error: {#vatUH#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} An ascetic, a devotee,\nreligious mendicant in general. ",
-                "{@--2@}\nA Buddhist ascetic. ",
-                "{@--3@} A beggar.\n"
-            ]
-        },
-        {
-            "__line": 238320,
-            "_ancestry": [
-                "L_ 28362",
-                "B_ {#SramaRa#}",
-                "M_ {#--RA-RI#}"
-            ],
-            "_banner": "{#--RA-RI#}",
-            "_bannerExp": [
-                {
-                    "Right": "SramaRA"
-                },
-                {
-                    "Right": "SramaRI"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} A female devotee or\nmendicant. ",
-                "{@--2@} A lovely woman. ",
-                "{@--3@}\nA woman of low caste. ",
-                "{@--4@} Bengal\nmadder. ",
-                "{@--5@} The spikenard."
+                ".²1 A road.\n",
+                ".²2 A disease of the eyes."
             ]
         }
     ]

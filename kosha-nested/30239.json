@@ -1,16 +1,41 @@
 {
-    "__line": 252733,
+    "__line": 278900,
     "_ancestry": [
         "L_ 30239",
-        "B_ {#sASUkaH#}"
+        "B_ {#vilul#}"
     ],
-    "_banner": "{#sASUkaH#}",
+    "_banner": "{#vilul#}",
     "_bannerExp": [
         {
-            "Right": "sASUkaH"
+            "Right": "vilul"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>P.</ab>"
+    ],
     "_meanings": [
-        "A blanket."
+        "²1 To move to and fro.\n",
+        ".²2 To shake, make tremulous.\n",
+        ".²3 To disorder, derange, dishevel (as hair). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 278903,
+            "_ancestry": [
+                "L_ 30239",
+                "B_ {#vilul#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vilul"
+                }
+            ],
+            "_meanings": [
+                "To agitate, stir, disturb."
+            ]
+        }
     ]
 }

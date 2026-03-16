@@ -1,16 +1,116 @@
 {
-    "__line": 233262,
+    "__line": 255652,
     "_ancestry": [
         "L_ 27707",
-        "B_ {#SalAluH#}"
+        "B_ {#rOdra#}"
     ],
-    "_banner": "{#SalAluH#}",
+    "_banner": "{#rOdra#}",
     "_bannerExp": [
         {
-            "Right": "SalAluH"
+            "Right": "rOdra"
+        },
+        {
+            "Right": "rOdrA"
+        },
+        {
+            "Right": "rOdrI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-drA, -drI#}|{%f.%})",
+        "[{#rudra-aR#}]"
+    ],
     "_meanings": [
-        "A kind of perfume."
+        ".²1 ‘Rudra-like’, violent, irascible, wrathful.\n",
+        ".²2 Fierce, savage, terrible, wild.\n",
+        ".²3 Addressed to Rudra (as a hymn).\n",
+        ".²4 Bringing misfortune, calamitous.\n",
+        ".²5 Relating to Rudra; {#rOdraM vrataM samAsTAya niyato niyatendriyaH#}\n <ls>Rām. 7. 13. 21</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255660,
+            "_ancestry": [
+                "L_ 27707",
+                "B_ {#rOdra#}",
+                "M_ .{@{#-draH#}@}"
+            ],
+            "_banner": ".{@{#-draH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rOdraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A worshipper of Rudra.\n",
+                ".²2 Heat, ardour, warmth, passion, wrath.\n",
+                ".²3 The sentiment of wrath or furiousness; {#rOdraH#}\n\n {#kroDasTAyiBAvo rakto rudrADidEvataH#} <ls>S. D. 232</ls> or <ls>K. P. 4</ls>.\n",
+                ".²4 <ab>N.</ab> of Yama.\n",
+                ".²5 Winter.\n",
+                ".²6 <ab>N.</ab> of a {#saMvatsara#}.\n"
+            ]
+        },
+        {
+            "__line": 255669,
+            "_ancestry": [
+                "L_ 27707",
+                "B_ {#rOdra#}",
+                "M_ .{@{#-dram#}@}"
+            ],
+            "_banner": ".{@{#-dram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rOdram"
+                }
+            ],
+            "_meanings": [
+                ".²1 Wrath, rage.\n",
+                ".²2 Formidableness, fierceness, savageness.\n",
+                ".²3 Heat, warmth; solar heat.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 255674,
+            "_ancestry": [
+                "L_ 27707",
+                "B_ {#rOdra#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rOdrakarman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "doing dreadful acts. --({%n.%}) a terrible magic rite.\n"
+            ]
+        },
+        {
+            "__line": 255675,
+            "_ancestry": [
+                "L_ 27707",
+                "B_ {#rOdra#}",
+                "S_ .{@{#-darSana#}@}"
+            ],
+            "_banner": ".{@{#-darSana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rOdradarSana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "frightful-looking, terrific."
+            ]
+        }
     ]
 }

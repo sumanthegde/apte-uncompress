@@ -1,39 +1,54 @@
 {
-    "__line": 232790,
+    "__line": 255149,
     "_ancestry": [
         "L_ 27649",
-        "B_ {#Sayita#}"
+        "B_ {#rogin#}"
     ],
-    "_banner": "{#Sayita#}",
+    "_banner": "{#rogin#}",
     "_bannerExp": [
         {
-            "Right": "Sayita"
+            "Right": "rogin"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#SI-kartari kta#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} \nSleeping, reposed, asleep. ",
-        "{@--2@} Lying down.\n"
+        "Sickly, ill, diseased.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 232792,
+            "__line": 255151,
             "_ancestry": [
                 "L_ 27649",
-                "B_ {#Sayita#}",
-                "M_ {#--taM#}"
+                "B_ {#rogin#}",
+                "S_ .{@{#-taruH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-taruH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SayitaM"
+                    "Right": "rogitaruH"
                 }
             ],
             "_meanings": [
-                "Sleep, sleeping."
+                "the Aśoka tree.\n"
+            ]
+        },
+        {
+            "__line": 255152,
+            "_ancestry": [
+                "L_ 27649",
+                "B_ {#rogin#}",
+                "S_ .{@{#-vallaBam#}@}"
+            ],
+            "_banner": ".{@{#-vallaBam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rogivallaBam"
+                }
+            ],
+            "_meanings": [
+                "medicine, a drug."
             ]
         }
     ]

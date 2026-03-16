@@ -1,38 +1,42 @@
 {
-    "__line": 92403,
+    "__line": 91873,
     "_ancestry": [
         "L_ 10984",
-        "B_ {#kuH#}"
+        "B_ {#OpaniDika#}"
     ],
-    "_banner": "{#kuH#}",
+    "_banner": "{#OpaniDika#}",
     "_bannerExp": [
         {
-            "Right": "kuH"
+            "Right": "OpaniDika"
+        },
+        {
+            "Right": "OpaniDikI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#upaniDi Wak#}]"
     ],
     "_meanings": [
-        "{@--1@} The earth. ",
-        "{@--2@} The base\nof a triangle or any plane figure.\n"
+        "Forming or relating to, a deposit; <ls>Kau. A. 3</ls>.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 92405,
+            "__line": 91875,
             "_ancestry": [
                 "L_ 10984",
-                "B_ {#kuH#}",
-                "S_  {#--putraH#}"
+                "B_ {#OpaniDika#}",
+                "M_ .{@{#-kam#}@}"
             ],
-            "_banner": " {#--putraH#}",
+            "_banner": ".{@{#-kam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kuputraH"
+                    "Right": "OpaniDikam"
                 }
             ],
             "_meanings": [
-                "Mars."
+                "A deposit or pledge; anything pledged or deposited; {#vAsanasTamanAKyAya#}\n {#haste'nyasya yadarpyate . dravyaM tadOpaniDikaM pratideyaM taTEva tat .#}\n <ls>Y. 2. 65</ls>; <ls>Śukra. 2. 316</ls>."
             ]
         }
     ]

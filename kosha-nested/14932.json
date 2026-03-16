@@ -1,24 +1,216 @@
 {
-    "__line": 123793,
+    "__line": 129342,
     "_ancestry": [
         "L_ 14932",
-        "B_ {#tIrRa#}"
+        "B_ {#cit#}"
     ],
-    "_banner": "{#tIrRa#}",
+    "_banner": "{#cit#}",
     "_bannerExp": [
         {
-            "Right": "tIrRa"
+            "Right": "cit"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#tF-kta#}]"
+        "{%f.%}",
+        "[{#cit-saMpadA˚ BAve kvip#}]"
     ],
     "_meanings": [
-        "{@--1@} Crossed, passed\nover. ",
-        "{@--2@} Spread, expanded. ",
-        "{@--3@} \nSurpassed, excelled. ",
-        "{@--4@} Gone down to\nbathe, bathed. ",
-        "{@--5@} Defeated, \nconquered, overcome; see {#tF#}."
+        ".²1 Thought, preception.\n",
+        ".²2 Intelligence, intellect, understanding; <ls>Bh. 2. 1</ls>, <ls n=\"Bh.\">3. 1</ls>.\n",
+        ".²3 The heart, mind; {#muktAPalEScidullAsEH#} <ls>Bhāg. 9. 11. 33</ls>.\n",
+        ".²4 The soul, spirit, the animating principle of life.\n",
+        ".²5 Brahman.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 129349,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cidAtman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the thinking principle or faculty.\n",
+                ".²2 pure intelligence, the Supreme Spirit.\n"
+            ]
+        },
+        {
+            "__line": 129352,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-Atmakam#}@}"
+            ],
+            "_banner": ".{@{#-Atmakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cidAtmakam"
+                }
+            ],
+            "_meanings": [
+                "consciousness.\n"
+            ]
+        },
+        {
+            "__line": 129353,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-ABAsaH#}@}"
+            ],
+            "_banner": ".{@{#-ABAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cidABAsaH"
+                }
+            ],
+            "_meanings": [
+                "the individual soul ({#jIva#}) (which still sticks to\n worldly defilements).\n"
+            ]
+        },
+        {
+            "__line": 129355,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-ullAsaH#}@}"
+            ],
+            "_banner": ".{@{#-ullAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cidullAsaH"
+                }
+            ],
+            "_meanings": [
+                "gladdening the heart or spirit.\n"
+            ]
+        },
+        {
+            "__line": 129356,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-GanaH#}@}"
+            ],
+            "_banner": ".{@{#-GanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cidGanaH"
+                }
+            ],
+            "_meanings": [
+                "the Supreme Spirit or Brahman.\n"
+            ]
+        },
+        {
+            "__line": 129357,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-pravfttiH#}@}"
+            ],
+            "_banner": ".{@{#-pravfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "citpravfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "reflection, thinking.\n"
+            ]
+        },
+        {
+            "__line": 129358,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cidrUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 consisting of intelligence.\n",
+                ".²2 wise, intelligent, of a liberal mind.\n",
+                ".²3 amiable, good-hearted. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 129361,
+                    "_ancestry": [
+                        "L_ 14932",
+                        "B_ {#cit#}",
+                        "S_ .{@{#-rUpa#}@}",
+                        "S_M_ ({@{#-pam#}@})"
+                    ],
+                    "_banner": "({@{#-pam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "cidrUpam"
+                        }
+                    ],
+                    "_meanings": [
+                        "pure intelligence, the Supreme Being.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 129362,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-SaktiH#}@}"
+            ],
+            "_banner": ".{@{#-SaktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cicCaktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "mental power, intellectual capacity.\n"
+            ]
+        },
+        {
+            "__line": 129363,
+            "_ancestry": [
+                "L_ 14932",
+                "B_ {#cit#}",
+                "S_ .{@{#-svarUpam#}@}"
+            ],
+            "_banner": ".{@{#-svarUpam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "citsvarUpam"
+                }
+            ],
+            "_meanings": [
+                "the Supreme Spirit. --{%ind.%}\n",
+                ".²1 A particle added to {#kim#} and its derivatives (such as {#kad, kaTam#},\n {#kva, kadA, kutra, kutaH#} <ab>&c.</ab>) to impart to them an indefinite sense;\n {#kutracit#} somewhere; {#kecit#} some <ab>&c.</ab>\n",
+                ".²2 The sound {#cit#}."
+            ]
+        }
     ]
 }

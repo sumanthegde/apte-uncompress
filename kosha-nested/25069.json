@@ -1,21 +1,134 @@
 {
-    "__line": 212496,
+    "__line": 225241,
     "_ancestry": [
         "L_ 25069",
-        "B_ {#variman#}"
+        "B_ {#BAnuH#}"
     ],
-    "_banner": "{#variman#}",
+    "_banner": "{#BAnuH#}",
     "_bannerExp": [
         {
-            "Right": "variman"
+            "Right": "BAnuH"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "[{#BA-nu#} <ls>Uṇ. 3. 32</ls>]"
     ],
     "_meanings": [
-        "{@--1@} Excellence, \n\nsuperiority, pre-eminence. ",
-        "{@--2@} <ab>Ved.</ab> \nCircuit, compass. ",
-        "{@--3@} Breadth, extent."
+        ".²1 Light, lustre, brightness.\n",
+        ".²2 A ray of light; {#maRqitAKiladikprAntAScaRqAMSoH pAntu BAnavaH#} <ls>Bv. 1. 129</ls>;\n <ls>Śi. 2. 53</ls>; <ls>Ms. 8. 132</ls>.\n",
+        ".²3 The sun; {#BAnuH sakfdyuktaturaNga eva#} <ls>Ś. 5. 4</ls>; {#BImaBAnO nidAGe#} <ls>Bv. 1. 30</ls>.\n",
+        ".²4 Beauty.\n",
+        ".²5 A day.\n",
+        ".²6 A king, prince, sovereign.\n",
+        ".²7 An epithet of Śiva or Viṣṇu; {#amftAMSUdBavo BAnuH#} <ls>V. Sah.</ls> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 225249,
+            "_ancestry": [
+                "L_ 25069",
+                "B_ {#BAnuH#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BAnuH#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "A handsome woman.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 225252,
+            "_ancestry": [
+                "L_ 25069",
+                "B_ {#BAnuH#}",
+                "S_ .{@{#-keSa(sa)raH#}@}"
+            ],
+            "_banner": ".{@{#-keSa(sa)raH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#BAnuH#} S_ .{@{#-keSa(sa)raH#}@}"
+                }
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 225253,
+            "_ancestry": [
+                "L_ 25069",
+                "B_ {#BAnuH#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAnujaH"
+                }
+            ],
+            "_meanings": [
+                "the planet Saturn.\n"
+            ]
+        },
+        {
+            "__line": 225254,
+            "_ancestry": [
+                "L_ 25069",
+                "B_ {#BAnuH#}",
+                "S_ .{@{#-dinam, -vAraH#}@}"
+            ],
+            "_banner": ".{@{#-dinam, -vAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAnudinam"
+                },
+                {
+                    "Right": "BAnuvAraH"
+                }
+            ],
+            "_meanings": [
+                "Sunday.\n"
+            ]
+        },
+        {
+            "__line": 225255,
+            "_ancestry": [
+                "L_ 25069",
+                "B_ {#BAnuH#}",
+                "S_ .{@{#-PalA#}@}"
+            ],
+            "_banner": ".{@{#-PalA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAnuPalA"
+                }
+            ],
+            "_meanings": [
+                "Musa Sapientum (<lang>Mar.</lang> <ns>{#keLa#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 225256,
+            "_ancestry": [
+                "L_ 25069",
+                "B_ {#BAnuH#}",
+                "S_ .{@{#-BUH#}@}"
+            ],
+            "_banner": ".{@{#-BUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAnuBUH"
+                }
+            ],
+            "_meanings": [
+                "daughter of the sun, the Yamunā river; {#ahni BAnuBuvi dASadArikAm#} <ls>N. 18. 25</ls>."
+            ]
+        }
     ]
 }

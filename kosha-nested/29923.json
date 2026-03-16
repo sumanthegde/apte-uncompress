@@ -1,21 +1,57 @@
 {
-    "__line": 250267,
+    "__line": 276246,
     "_ancestry": [
         "L_ 29923",
-        "B_ {#sas#}"
+        "B_ {#viPala#}"
     ],
-    "_banner": "{#sas#}",
+    "_banner": "{#viPala#}",
     "_bannerExp": [
         {
-            "Right": "sas"
+            "Right": "viPala"
         }
     ],
     "_gram": [
-        "{c2c}",
-        "<ab>P.</ab>",
-        "({#sasti#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To sleep."
+        ".²1 Fruitless, useless, vain, ineffectual, unprofitable; {#mama viPalametadanurUpamapi#}\n {#yOvanam#} <ls>Gīt. 7</ls>; {#jagatA vA viPalena kiM Palam#} <ls>R. G.</ls>; <ls>Śi. 9. 6</ls>;\n <ls>Ku. 7. 66</ls>; <ls>Me. 70</ls>.\n",
+        ".²2 Idle,\n\n unmeaning.\n",
+        ".²3 Having no testicles.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 276254,
+            "_ancestry": [
+                "L_ 29923",
+                "B_ {#viPala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viPalA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant ({#ketakI#}).\n"
+            ]
+        },
+        {
+            "__line": 276255,
+            "_ancestry": [
+                "L_ 29923",
+                "B_ {#viPala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viPalam"
+                }
+            ],
+            "_meanings": [
+                "Fruitlessness, unprofitableness; {#nAvamaH karmakalpo'pi#}\n {#viPalAyeSvarArpitaH#} <ls>Bhāg. 8. 5. 48</ls>."
+            ]
+        }
     ]
 }

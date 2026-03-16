@@ -1,26 +1,77 @@
 {
-    "__line": 166355,
+    "__line": 178565,
     "_ancestry": [
         "L_ 19880",
-        "B_ {#pratiDA#}"
+        "B_ {#paTikaH#}"
     ],
-    "_banner": "{#pratiDA#}",
+    "_banner": "{#paTikaH#}",
     "_bannerExp": [
         {
-            "Right": "pratiDA"
+            "Right": "paTikaH"
         }
     ],
-    "_gram": [
-        "{c3c}",
-        "<ab>U.</ab>"
-    ],
     "_meanings": [
-        "{@--1@} To place or lay on.\n",
-        "{@--2@} To return, restore. ",
-        "{@--3@} To fix\n(as an arrow). ",
-        "{@--4@} To offer, \npresent. ",
-        "{@--5@} To use, employ. ",
-        "{@--6@} To \nbegin, commence. ",
-        "{@--7@} To draw near,\napproach (as the night); (mostly\nVedic in these senses)."
+        ".²1 A traveller, way-farer; {#paTikavanitAH#} <ls>Me. 8</ls>; {#tAmASAM paTikastaTApi#}\n {#kimapi DyAyan punarvIkzate#} <ls>Amaru. 99</ls>.\n",
+        ".²2 A guide.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 178570,
+            "_ancestry": [
+                "L_ 19880",
+                "B_ {#paTikaH#}",
+                "S_ .{@{#-ASrayaH#}@}"
+            ],
+            "_banner": ".{@{#-ASrayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paTikASrayaH"
+                }
+            ],
+            "_meanings": [
+                "an asylum for travellers, inn.\n"
+            ]
+        },
+        {
+            "__line": 178571,
+            "_ancestry": [
+                "L_ 19880",
+                "B_ {#paTikaH#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paTikajanaH"
+                }
+            ],
+            "_meanings": [
+                "a traveller or travellers; {#CAyASvAsitapaTikasamUho nyagroDapAdapaH#} <ls>Pt. 2. 1/2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 178572,
+            "_ancestry": [
+                "L_ 19880",
+                "B_ {#paTikaH#}",
+                "S_ .{@{#-saMtatiH, -saMhatiH#}@}"
+            ],
+            "_banner": ".{@{#-saMtatiH, -saMhatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paTikasantatiH"
+                },
+                {
+                    "Right": "paTikasaMhatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}",
+                "{@{#-sArTaH#}@}"
+            ],
+            "_meanings": [
+                "a company of travellers, a caravan."
+            ]
+        }
     ]
 }

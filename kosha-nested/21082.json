@@ -1,62 +1,84 @@
 {
-    "__line": 174565,
+    "__line": 188954,
     "_ancestry": [
         "L_ 21082",
-        "B_ {#prAjApatya#}"
+        "B_ {#pAyasa#}"
     ],
-    "_banner": "{#prAjApatya#}",
+    "_banner": "{#pAyasa#}",
     "_bannerExp": [
         {
-            "Right": "prAjApatya"
+            "Right": "pAyasa"
+        },
+        {
+            "Right": "pAyasI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#prajApatirdevatA'sya yak#}]"
+        "{%a.%}",
+        "({#-sI#}|{%f.%})",
+        "[{#payaso vikAraH aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Sacred to Prajāpati. ",
-        "{@--2@} Born of\nPrajāpati (Brahmā); <ls>Ku. 6. 34.</ls> ",
-        "{@--3@}\nBelonging to Prajāpati; <ls>R. 10. 52.</ls>\n"
+        "Made of water or milk.\n"
     ],
     "_morphisms": [
         {
-            "__line": 174569,
+            "__line": 188956,
             "_ancestry": [
                 "L_ 21082",
-                "B_ {#prAjApatya#}",
-                "M_ {#--tyaH#}"
+                "B_ {#pAyasa#}",
+                "M_ .{@{#-saH, -sam#}@}"
             ],
-            "_banner": "{#--tyaH#}",
+            "_banner": ".{@{#-saH, -sam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "prAjApatyaH"
+                    "Right": "pAyasaH"
+                },
+                {
+                    "Right": "pAyasam"
                 }
             ],
             "_meanings": [
-                "{@--1@} One of the eight forms of\nmarriage in Hindu law, in which\nthe father gives his daughter to\nthe bridegroom without receiving\nany present from him in order that\nthe two may live happily and \nfaithfully together; {#sahoBO caratAM Darmamiti#}\n{#vAcAnuBAzya ca . kanyApradAnamaByarcyaM prAjApatyo#}\n{#viDiH smftaH ..#} <ls>Ms. 3. 30</ls>; or {#ityuktvA#} \n{#caratAM DarmaM saha yA dIyate'rTine . sa kAyaH#} ({%<ab>i. e.</ab>%}\n{#prAjApatyaH#}) {#pAvayettajjaH zaw#} \n{#zaqvaMSyAnsahAtmanA#} <ls>Y. 1. 60.</ls> ",
-                "{@--2@} <ab>N.</ab> of the \nconfluence of the Ganges and Yamunā\n({#prayAga#}); (also {%<ab>n.</ab>%}). ",
-                "{@--3@} (with {#tiTi#})\nThe eighth day in the dark half\nof the month of Pauṣa. ",
-                "{@--4@} N of\nViṣṇu. ",
-                "{@--5@} A kind of fast or \npenance; {#tryahaM prAtastryahaM sAyaM#} \n{#tryahamadyAdayAcitam . tryahaM paraM ca na SnayIt#} \n{#prAjApatpamiti smftam ..#}. ",
-                "{@--6@} The heaven of the\nManes ({#pitfloka#}). "
+                ".²1 Rice boiled in milk with sugar; <ls>Ms. 3. 271</ls>, <ls n=\"Ms.\">5. 7</ls>; <ls>Y. 1. 173</ls>; {#ataptataRqulo#}\n {#DOtaH parimfzwo Gftena ca . KaRqayuktena dugDena pAcitaH pAyaso Bavet .#}\n Pākarājeśvara.\n",
+                ".²2 Turpentine.\n",
+                ".²3 An oblation of milk, rice, and sugar.\n"
             ]
         },
         {
-            "__line": 174589,
+            "__line": 188962,
             "_ancestry": [
                 "L_ 21082",
-                "B_ {#prAjApatya#}",
-                "M_ {#--tyaM#}"
+                "B_ {#pAyasa#}",
+                "M_ .{@{#-sam#}@}"
             ],
-            "_banner": "{#--tyaM#}",
+            "_banner": ".{@{#-sam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "prAjApatyaM"
+                    "Right": "pAyasam"
                 }
             ],
             "_meanings": [
-                "Giving\naway the whole of one's property\nbefore entering upon the life of an\nascetic."
+                ".²1 Milk.\n",
+                ".²2 Ambrosia, nectar.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 188966,
+            "_ancestry": [
+                "L_ 21082",
+                "B_ {#pAyasa#}",
+                "S_ .{@{#-piRqArakaH#}@}"
+            ],
+            "_banner": ".{@{#-piRqArakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pAyasapiRqArakaH"
+                }
+            ],
+            "_meanings": [
+                "a pāyasa-eater; {#uttvaramAReneva pAyasapiRqArakeRAdya#}\n {#mayAtmEva nirnASitaH#} <ls>Mk. 9</ls>."
             ]
         }
     ]

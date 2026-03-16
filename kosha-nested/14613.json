@@ -1,20 +1,59 @@
 {
-    "__line": 121545,
+    "__line": 126499,
     "_ancestry": [
         "L_ 14613",
-        "B_ {#tArkikaH#}"
+        "B_ {#cawakA, cawikA#}"
     ],
-    "_banner": "{#tArkikaH#}",
+    "_banner": "{#cawakA, cawikA#}",
     "_bannerExp": [
         {
-            "Right": "tArkikaH"
+            "Right": "cawakA"
+        },
+        {
+            "Right": "cawikA"
         }
     ],
-    "_gram": [
-        "[{#tarkaM vetti tacCAstramaDIte vA#}\n{#WaY#}]"
-    ],
     "_meanings": [
-        "{@--1@} A dialectician, logician.\n",
-        "{@--2@} A philosopher."
+        ".²1 A hen-sparrow.\n",
+        ".²2 The root of long pepper.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 126503,
+            "_ancestry": [
+                "L_ 14613",
+                "B_ {#cawakA, cawikA#}",
+                "S_ .{@{#-muKaH#}@}"
+            ],
+            "_banner": ".{@{#-muKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cawakAmuKaH"
+                }
+            ],
+            "_meanings": [
+                "A particular type of arrow; {#kzuraprEScawakAmuKEH#} <ls>Mb. 8. 49. 36</ls>.\n"
+            ]
+        },
+        {
+            "__line": 126504,
+            "_ancestry": [
+                "L_ 14613",
+                "B_ {#cawakA, cawikA#}",
+                "S_ .{@{#-Siras#}@}"
+            ],
+            "_banner": ".{@{#-Siras#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cawakASiras"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "The root of long pepper."
+            ]
+        }
     ]
 }

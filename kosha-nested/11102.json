@@ -1,24 +1,59 @@
 {
-    "__line": 93171,
+    "__line": 92696,
     "_ancestry": [
         "L_ 11102",
-        "B_ {#kutas#}"
+        "B_ {#kakudmat#}"
     ],
-    "_banner": "{#kutas#}",
+    "_banner": "{#kakudmat#}",
     "_bannerExp": [
         {
-            "Right": "kutas"
+            "Right": "kakudmat"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "[{#astyarTe matup#}]"
     ],
     "_meanings": [
-        "{@--1@} From where,\nwhence; {#kasya tvaM vA kuta AyAtaH#} Moha\n<ls>M. 3.</ls> ",
-        "{@--2@} Where, where else, in\nwhat (other) place &c.; {#IdfgvinodaH kutaH#}\n<ls>Ś. 2. 5.</ls> ",
-        "{@--3@} Why, wherefore, from\nwhat cause or motive; {#kuta idamucyate#}\n<ls>Ś. 5.</ls> ",
-        "{@--4@} How, in what manner;\n{#sPurati ca bAhuH kutaH PalamihAsya#}  \n<ls>Ś. 1. 15.</ls> ",
-        "{@--5@} Much more, much less; {#na#}\n{#tvatsamostyaByaDikaH kuto'nyaH#}  \n<ls>Bg. 11. 43</ls>, <ls n=\"Bg.\">4. 31</ls>; {#na me steno janapade na#} \n{#kadaryo…#} .{#na svErI svEriRI kutaH#} <ls>Ch. Up.</ls>\n",
-        "{@--6@} Because, for; <ls>Ś. 1.</ls> {#kutas#} is\nsometimes used merely for the <ab>abl.</ab>\nof {#kim#}; {#kutaH kAlAtsamutpannaM#} <ls>V. P.</ls>\n(= {#kasmAt kAlAt#} &c.). {#kutaH#} becomes\nindefinite when connected with the\nparticles {#cid, cana#}, or {#api#}."
+        ".²1 Furnished with a hump; {#araMhata padyABiH kakudmAn#} <ls>Rv. 10. 102. 7</ls>; <ls>Pt. 1</ls>.\n",
+        ".²2 Running high (as a wave). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 92698,
+            "_ancestry": [
+                "L_ 11102",
+                "B_ {#kakudmat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kakudmat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A mountain (having peaks).\n",
+                ".²2 A buffalo; {#madodagrAH kakudmantaH#} <ls>R. 4. 22</ls>; a humped bull; <ls n=\"R.\">13. 47</ls>;\n {#tuzArasaMGAtaSilAH KurAgrEH samulliKan darpakalaH kakudmAn#} <ls>Ku. 1. 56</ls>.\n",
+                ".²3 <ab>N.</ab> of a medicinal plant ({#fzaBa#}).\n"
+            ]
+        },
+        {
+            "__line": 92703,
+            "_ancestry": [
+                "L_ 11102",
+                "B_ {#kakudmat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kakudmatI"
+                }
+            ],
+            "_meanings": [
+                "The hip and the loins."
+            ]
+        }
     ]
 }

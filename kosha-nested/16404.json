@@ -1,77 +1,76 @@
 {
-    "__line": 137798,
+    "__line": 142213,
     "_ancestry": [
         "L_ 16404",
-        "B_ {#nalinI#}"
+        "B_ {#tAlakam#}"
     ],
-    "_banner": "{#nalinI#}",
+    "_banner": "{#tAlakam#}",
     "_bannerExp": [
         {
-            "Right": "nalinI"
+            "Right": "tAlakam"
         }
     ],
     "_meanings": [
-        "{@--1@} A lotus-plant; {#na parvatAgre#}\n{#nalinI prarohati#} <ls>Mk. 4. 17</ls>;  \n\n{#nalinIdalagatajalamatitaralaM#} <ls>Moha M. 5</ls>;  \n<ls>Ku. 4 6.</ls> ",
-        "{@--2@} An assemblage of lotuses. ",
-        "{@--3@}\nA pond or place abounding in \nlotuses. ",
-        "{@--4@} A lotus or the stalk of it.\n",
-        "{@--5@} The celestial Ganges. ",
-        "{@--6@} The \nintoxicating juice of the cocoa-nut.\n"
+        ".²1 Yellow orpiment.\n",
+        ".²2 A fragrant earth.\n",
+        ".²3 A bolt, latch.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 142217,
+            "_ancestry": [
+                "L_ 16404",
+                "B_ {#tAlakam#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tAlakI"
+                }
+            ],
+            "_meanings": [
+                "The vinous exudation of the palm, {%toddy%}.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 137807,
+            "__line": 142219,
             "_ancestry": [
                 "L_ 16404",
-                "B_ {#nalinI#}",
-                "S_  {#--KaMqaM, --zaMqaM#}"
+                "B_ {#tAlakam#}",
+                "S_ .{@{#-ABa#}@}"
             ],
-            "_banner": " {#--KaMqaM, --zaMqaM#}",
+            "_banner": ".{@{#-ABa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nalinIKaMqaM"
-                },
-                {
-                    "Right": "nalinIzaMqaM"
+                    "Right": "tAlakABa"
                 }
             ],
-            "_meanings": [
-                "a group or \nassemblage of lotuses. "
-            ]
-        },
-        {
-            "__line": 137808,
-            "_ancestry": [
-                "L_ 16404",
-                "B_ {#nalinI#}",
-                "S_ {#--ruhaH#}"
-            ],
-            "_banner": "{#--ruhaH#}",
-            "_bannerExp": [
-                {
-                    "Right": "nalinIruhaH"
-                }
+            "_gram": [
+                "{%a.%}"
             ],
             "_meanings": [
-                "an epithet\nof Brahmā. "
+                "green.\n."
             ],
             "_morphisms": [
                 {
-                    "__line": 137809,
+                    "__line": 142220,
                     "_ancestry": [
                         "L_ 16404",
-                        "B_ {#nalinI#}",
-                        "S_ {#--ruhaH#}",
-                        "S_M_ ({#--haM#}"
+                        "B_ {#tAlakam#}",
+                        "S_ .{@{#-ABa#}@}",
+                        "S_M_ ({@{#-BaH#}@})"
                     ],
-                    "_banner": "({#--haM#}",
+                    "_banner": "({@{#-BaH#}@})",
                     "_bannerExp": [
                         {
-                            "Right": "nalinIruhaM"
+                            "Right": "tAlakABaH"
                         }
                     ],
                     "_meanings": [
-                        "a lotus-stalk, the\nfibres of a lotus."
+                        "the green colour."
                     ]
                 }
             ]

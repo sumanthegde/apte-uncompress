@@ -1,20 +1,62 @@
 {
-    "__line": 153761,
+    "__line": 162781,
     "_ancestry": [
         "L_ 18305",
-        "B_ {#parizvaMj#}"
+        "B_ {#nandikaH#}"
     ],
-    "_banner": "{#parizvaMj#}",
+    "_banner": "{#nandikaH#}",
     "_bannerExp": [
         {
-            "Right": "parizvaMj"
+            "Right": "nandikaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
-    ],
     "_meanings": [
-        "To embrace."
+        ".²1 Joy, pleasure.\n",
+        ".²2 A small water-jar.\n",
+        ".²3 An attendant of Śiva.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 162785,
+            "_ancestry": [
+                "L_ 18305",
+                "B_ {#nandikaH#}",
+                "M_ .{@{#-kA#}@}"
+            ],
+            "_banner": ".{@{#-kA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nandikA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A small water-jar.\n",
+                ".²2 = {#nandA#} (5) above.\n",
+                ".²3 <ab>N.</ab> of Indraʼs pleasure-ground\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 162790,
+            "_ancestry": [
+                "L_ 18305",
+                "B_ {#nandikaH#}",
+                "S_ .{@{#-ISaH, -ISvaraH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH, -ISvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nandikeSaH"
+                },
+                {
+                    "Right": "nandikeSvaraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of one of Śivaʼs chief attendants.\n",
+                ".²2 <ab>N.</ab> of Śiva."
+            ]
+        }
     ]
 }

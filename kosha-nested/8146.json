@@ -1,18 +1,163 @@
 {
-    "__line": 70142,
+    "__line": 68036,
     "_ancestry": [
         "L_ 8146",
-        "B_ {#uddaMSaH#}"
+        "B_ {#idam#}"
     ],
-    "_banner": "{#uddaMSaH#}",
+    "_banner": "{#idam#}",
     "_bannerExp": [
         {
-            "Right": "uddaMSaH"
+            "Right": "idam"
         }
     ],
+    "_gram": [
+        "{%<ab>pron. a.</ab>%}",
+        "[{#ayam#} {%m.%}, {#iyam#} {%f.%}, {#idam#} {%n.%}]"
+    ],
     "_meanings": [
-        "{@--1@} A bug. ",
-        "{@--2@} A louse. ",
-        "{@--3@}\nA mosquito, gadfly."
+        ".²1 This, here, referring to something near the speaker; [{#idamastu saMnikfzwaM#}\n {#rUpam#}]; {#idaM tat … iti yaducyate#} <ls>Ś. 5</ls> here is the truth of the saying.\n",
+        ".²2 Present, seen; the nominative forms are used with verbs in the sense\n of ‘here’; {#iyamasmi#} here am I; so {#ime smaH#}; {#ayamAgacCAmi#} here I come.\n",
+        ".²3 It often refers to something immediately following, while {#etad#}\n refers to what precedes; {#anukalpastvayaM jYeyaH sadA sadBiranuzWitaH#}\n <ls>Ms. 3. 147</ls> ({#ayam#} = {#vakzyamARaH#} <ls>Kull.</ls>); {#SrutvEtadidamUcuH#}\n",
+        ".²4 It occurs connected with {#yat, tat, etad, adas, kim#} or a personal\n pronoun, either to point out anything more distinctly and emphatically,\n or sometimes pleonastically; {#ko'yamAcaratyavinayam#} <ls>Ś. 1. 25</ls>; {#seyam#},\n {#so'yam#}, this here; so {#imAstAH#}; {#ayamahaM BoH#} <ls>Ś. 4</ls> ho, here am I. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 68047,
+            "_ancestry": [
+                "L_ 8146",
+                "B_ {#idam#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#idaM#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 Here, to this place.\n",
+                ".²2 Now.\n",
+                ".²3 There.\n",
+                ".²4 With these words, herewith.\n",
+                ".²5 In this manner; {#nEtadOpayikaM rAma yadidaM paritapyase#} <ls>Rām. 2. 53. 30</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 68054,
+            "_ancestry": [
+                "L_ 8146",
+                "B_ {#idam#}",
+                "S_ .{@{#-kAryA#}@}"
+            ],
+            "_banner": ".{@{#-kAryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idakAryA"
+                }
+            ],
+            "_meanings": [
+                "The plant Hedysarum Alhagi (<lang>Mar.</lang> <ns>{#kAMwe DamAsA, yavAsA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 68055,
+            "_ancestry": [
+                "L_ 8146",
+                "B_ {#idam#}",
+                "S_ .{@{#-praTama#}@}"
+            ],
+            "_banner": ".{@{#-praTama#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idapraTama"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "doing anything for the first time.\n"
+            ]
+        },
+        {
+            "__line": 68056,
+            "_ancestry": [
+                "L_ 8146",
+                "B_ {#idam#}",
+                "S_ .{@{#-prakAram#}@}"
+            ],
+            "_banner": ".{@{#-prakAram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idaprakAram"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "in this manner.\n"
+            ]
+        },
+        {
+            "__line": 68057,
+            "_ancestry": [
+                "L_ 8146",
+                "B_ {#idam#}",
+                "S_ .{@{#-yugam#}@}"
+            ],
+            "_banner": ".{@{#-yugam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idayugam"
+                }
+            ],
+            "_meanings": [
+                "the present Yuga.\n"
+            ]
+        },
+        {
+            "__line": 68058,
+            "_ancestry": [
+                "L_ 8146",
+                "B_ {#idam#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idarUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of this shape.\n"
+            ]
+        },
+        {
+            "__line": 68059,
+            "_ancestry": [
+                "L_ 8146",
+                "B_ {#idam#}",
+                "S_ .{@{#-vasu#}@}"
+            ],
+            "_banner": ".{@{#-vasu#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "idavasu"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> rich in this and that."
+            ]
+        }
     ]
 }

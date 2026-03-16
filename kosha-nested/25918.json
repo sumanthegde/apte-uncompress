@@ -1,21 +1,49 @@
 {
-    "__line": 218905,
+    "__line": 235468,
     "_ancestry": [
         "L_ 25918",
-        "B_ {#viT#}"
+        "B_ {#masj#}"
     ],
-    "_banner": "{#viT#}",
+    "_banner": "{#masj#}",
     "_bannerExp": [
         {
-            "Right": "viT"
+            "Right": "masj"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#veTate#})"
+        "€6",
+        "<ab>P.</ab>",
+        "({#majjati, magna#}; {%<ab>caus.</ab>%} {#majjayati#}; {%<ab>desid.</ab>%}\n {#mimaNkzati#})"
     ],
     "_meanings": [
-        "To beg, ask."
+        ".²1 To bathe, plunge, dip or throw oneself into water; {#yadgopratarakalpo'BUt#}\n {#saMmardastatra majjatAm#} <ls>R. 15. 101</ls>; <ls>Bv. 2. 95</ls>.\n",
+        ".²2 To sink, sink into or down, sink under, plunge (with <ab>loc.</ab> or <ab>acc.</ab>);\n {#sIdannanDe tamasi viDuro majjatIvAntarAtmA#} <ls>U. 3. 38</ls>; <ls>Māl. 9. 20</ls>;\n {#so'saMvftaM nAma tamaH saha tenEva majjati#} <ls>Ms. 4. 81</ls>; <ls>R. 16. 72</ls>.\n",
+        ".²3 To be drowned, perish (in water).\n",
+        ".²4 To sink into misfortune.\n",
+        ".²5 To despond, be discouraged or disheartened. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 235477,
+            "_ancestry": [
+                "L_ 25918",
+                "B_ {#masj#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "masj"
+                }
+            ],
+            "_gram": [
+                "({#majjayati#})"
+            ],
+            "_meanings": [
+                ".²1 To cause to sink, immerse, dip, drown.\n",
+                ".²2 To deluge, inundate, overwhelm.\n",
+                ".²3 To thrust, to pass into; {#tato marmasu marmajYo majjayan niSitAn SarAn#}\n <ls>Rām. 6. 45. 15</ls>."
+            ]
+        }
     ]
 }

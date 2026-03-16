@@ -1,16 +1,62 @@
 {
-    "__line": 145353,
+    "__line": 150623,
     "_ancestry": [
         "L_ 17281",
-        "B_ {#nihavaH#}"
+        "B_ {#ditiH#}"
     ],
-    "_banner": "{#nihavaH#}",
+    "_banner": "{#ditiH#}",
     "_bannerExp": [
         {
-            "Right": "nihavaH"
+            "Right": "ditiH"
         }
     ],
+    "_gram": [
+        "{%f.%}"
+    ],
     "_meanings": [
-        "Invocation, summoning,\ncalling."
+        ".²1 Cutting, splitting, dividing.\n",
+        ".²2 Liberality.\n",
+        ".²3 <ab>N.</ab> of a daughter of Dakṣa, wife of Kaśyapa and mother of the demons\n or {%daityas%}. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 150627,
+            "_ancestry": [
+                "L_ 17281",
+                "B_ {#ditiH#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#ditiH#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A king.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 150629,
+            "_ancestry": [
+                "L_ 17281",
+                "B_ {#ditiH#}",
+                "S_ .{@{#-jaH, -tanayaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH, -tanayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ditijaH"
+                },
+                {
+                    "Right": "dititanayaH"
+                }
+            ],
+            "_meanings": [
+                "a demon, a Rākṣasa."
+            ]
+        }
     ]
 }

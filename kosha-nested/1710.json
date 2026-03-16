@@ -1,22 +1,71 @@
 {
-    "__line": 17174,
+    "__line": 15198,
     "_ancestry": [
         "L_ 1710",
-        "B_ {#anupaskfta#}"
+        "B_ {#anugata#}"
     ],
-    "_banner": "{#anupaskfta#}",
+    "_banner": "{#anugata#}",
     "_bannerExp": [
         {
-            "Right": "anupaskfta"
+            "Right": "anugata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Unpolished, (as \n\nsilver). ",
-        "{@--2@} Genuine, blameless. ",
-        "{@--3@}\nNot cooked or dressed (as food).\n",
-        "{@--4@} Not requiring any evident object."
+        ".²1 (Used passively)\n",
+        ".³({%a%}) Followed (<ab>lit.</ab> & <ab>fig.</ab>), attended; {#anugatamalivfndErgaRqaBittIrvihAya#}\n <ls>R. 12. 102</ls>; <ls>M. 3. 9</ls>; {#madyAnugataBojanaM malAvaham#} <ls>Ms. 11. 70</ls>.\n",
+        ".³({%b%}) Full of, filled with; {#dAridryeRABiBUtena tvatsnehAnugatena#}\n {#ca#} <ls>Mk. 4. 5</ls>; {#varzaDarakalamUkAnugatena parijanena#} <ls>K. 159</ls> consisting\n or made up of; {#cintAnugatasarvAtman#} <ls>Mb.</ls>\n",
+        ".³({%c%}) Covered, as by a dress hanging behind; {#SivamivAnugataM gajacarmaRA#}\n <ls>Ki. 5. 2</ls> ({#paScAdvyAptam#}).\n",
+        ".³({%d%}) Extinguished <ab>&c.</ab>\n",
+        ".³({%e%}) Acquired, obtained.\n",
+        ".³({%f%}) Overtakan; {#kAlenAnugato hyasi#} <ls>Rām. 7. 68. 6</ls>.\n",
+        ".²2 (Used actively)\n",
+        ".³({%a%}) Following, obeying; observing; {#svamatamanugataH#} <ls>Mu. 5. 19</ls>;\n {#viBavAnugatA BAryA#} <ls>Mk. 3. 28</ls>; {#digvijayaprasaNgenAnugato BUmimimAm#}\n <ls>K. 191</ls> come to; <ls>Ms. 9. 267</ls>; <ls>K. 166</ls>; <ls>Mu. 6. 5</ls>; <ls>H. 2. 55</ls>; <ls>R. 15. 9</ls>.\n",
+        ".³({%b%}) Corresponding or tallying with, adapted or answering to, in harmony\n with; {#sUtreRAnugataM Bavati#} <ls>Ś. B.</ls>; {#pAdanyAso layamanugataH#} <ls>M. 2. 8</ls>\n in accompaniment to the musical time; {#mfdaNga ˚taH saNgItamaDuraH#}\n <ls>Ratn. 1</ls>; {#˚vIREH#} <ls>Śi. 11. 10</ls>.\n",
+        ".³({%c%}) Adequate or suitable to, fit for; {#prastAvAnugataM pfzwaH#} <ls>Pt. 5</ls>.\n",
+        ".³({%d%}) Imitating; {#parituzwo'smi yatpitaramanugato vatsaH#} <ls>M. 5</ls>. I\n am glad that the boy takes after his father.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 15221,
+            "_ancestry": [
+                "L_ 1710",
+                "B_ {#anugata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anugatam"
+                }
+            ],
+            "_meanings": [
+                "Moderate time im music.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 15223,
+            "_ancestry": [
+                "L_ 1710",
+                "B_ {#anugata#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anugatArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having a corresponding or easily discoverable sense."
+            ]
+        }
     ]
 }

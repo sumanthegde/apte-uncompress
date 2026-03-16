@@ -1,19 +1,41 @@
 {
-    "__line": 11368,
+    "__line": 9245,
     "_ancestry": [
         "L_ 974",
-        "B_ {#aDipAMSula#}"
+        "B_ {#adman#}"
     ],
-    "_banner": "{#aDipAMSula#}",
+    "_banner": "{#adman#}",
     "_bannerExp": [
         {
-            "Right": "aDipAMSula"
+            "Right": "adman"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}"
     ],
     "_meanings": [
-        "Dusty from above."
+        "<ab>Ved.</ab> Eating, a meal; a house (?) {#A svamadma yuvamAno#}\n {#ajarastfzvavizyannatasezu tizwati#} <ls>Rv. 1. 58. 2</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 9247,
+            "_ancestry": [
+                "L_ 974",
+                "B_ {#adman#}",
+                "M_ .{@{#-sad#}@}"
+            ],
+            "_banner": ".{@{#-sad#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: adman sad"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(also {@{#-sadvan#}@}) {%a.%}\n companion at a meal; {#admA hi sUno admasadvA#} <ls>Rv. VI. 4. 4</ls>."
+            ]
+        }
     ]
 }

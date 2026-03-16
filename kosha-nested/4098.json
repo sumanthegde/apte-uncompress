@@ -1,19 +1,58 @@
 {
-    "__line": 37299,
+    "__line": 33985,
     "_ancestry": [
         "L_ 4098",
-        "B_ {#arUpaka#}"
+        "B_ {#aBrakam#}"
     ],
-    "_banner": "{#arUpaka#}",
+    "_banner": "{#aBrakam#}",
     "_bannerExp": [
         {
-            "Right": "arUpaka"
+            "Right": "aBrakam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#svArTe kan#}]"
     ],
     "_meanings": [
-        "Without any figure\nor metaphor, not figurative, literal."
+        "Talc, mica; said to be produced from Pārvatīʼs\n menstrual discharge.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 33988,
+            "_ancestry": [
+                "L_ 4098",
+                "B_ {#aBrakam#}",
+                "S_ .{@{#-Basman#}@}"
+            ],
+            "_banner": ".{@{#-Basman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBrakaBasman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "calx of talc.\n"
+            ]
+        },
+        {
+            "__line": 33989,
+            "_ancestry": [
+                "L_ 4098",
+                "B_ {#aBrakam#}",
+                "S_ .{@{#-sattvam#}@}"
+            ],
+            "_banner": ".{@{#-sattvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBrakasattvam"
+                }
+            ],
+            "_meanings": [
+                "steel."
+            ]
+        }
     ]
 }

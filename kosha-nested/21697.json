@@ -1,24 +1,113 @@
 {
-    "__line": 179733,
+    "__line": 194920,
     "_ancestry": [
         "L_ 21697",
-        "B_ {#bArhiRa#}"
+        "B_ {#pUyaH#}, {#-yam#}"
     ],
-    "_banner": "{#bArhiRa#}",
+    "_banner": "{#pUyaH#}, {#-yam#}",
     "_bannerExp": [
         {
-            "Right": "bArhiRI"
+            "Right": "pUyaH"
         },
         {
-            "Right": "bArhiRa"
+            "Right": "pUyam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#RI#}|{%<ab>f.</ab>%})",
-        "[{#barhin-aR#}]"
-    ],
     "_meanings": [
-        "Derived from or relating to a \npeacock."
+        "Pus, discharge from an ulcer or wound, suppuration, matter;\n {#Bizaje pUyaSoRitam#} <ls>Ms. 3. 180</ls>; {#pUyaM trikitsakasyAnnam#} <ls n=\"Ms.\">4. 220</ls>, <ls n=\"Ms.\">12. 72</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 194924,
+            "_ancestry": [
+                "L_ 21697",
+                "B_ {#pUyaH#}, {#-yam#}",
+                "S_ .{@{#-ariH#}@}"
+            ],
+            "_banner": ".{@{#-ariH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pUyAriH"
+                }
+            ],
+            "_meanings": [
+                "the Nimba tree.\n"
+            ]
+        },
+        {
+            "__line": 194925,
+            "_ancestry": [
+                "L_ 21697",
+                "B_ {#pUyaH#}, {#-yam#}",
+                "S_ .{@{#-alasaH#}@}"
+            ],
+            "_banner": ".{@{#-alasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pUyAlasaH"
+                }
+            ],
+            "_meanings": [
+                "suppuration at the joints, white swelling.\n"
+            ]
+        },
+        {
+            "__line": 194926,
+            "_ancestry": [
+                "L_ 21697",
+                "B_ {#pUyaH#}, {#-yam#}",
+                "S_ .{@{#-udaH, -vahaH#}@}"
+            ],
+            "_banner": ".{@{#-udaH, -vahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pUyodaH"
+                },
+                {
+                    "Right": "pUyavahaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a particular hell; <ls>Bhāg. 5. 26. 7</ls>.\n"
+            ]
+        },
+        {
+            "__line": 194927,
+            "_ancestry": [
+                "L_ 21697",
+                "B_ {#pUyaH#}, {#-yam#}",
+                "S_ .{@{#-raktaH#}@}"
+            ],
+            "_banner": ".{@{#-raktaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pUyaraktaH"
+                }
+            ],
+            "_meanings": [
+                "a kind of disease of the nose (wherein purulent blood\n or sanies flow out).\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 194929,
+                    "_ancestry": [
+                        "L_ 21697",
+                        "B_ {#pUyaH#}, {#-yam#}",
+                        "S_ .{@{#-raktaH#}@}",
+                        "S_M_ ({@{#-ktam#}@})"
+                    ],
+                    "_banner": "({@{#-ktam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "pUyaraktam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 ichor, sanies.\n",
+                        ".²2 discharge of sanies from the nostrils; {#dozErvidagDEraTavApi jantorlalAwadeSe'Bihatasya#}\n {#tEstu . nAsA sravet pUyamasfgvimiSraM taM pUyaraktaM pravadanti rogam ..#} <ls>Suśr.</ls>"
+                    ]
+                }
+            ]
+        }
     ]
 }

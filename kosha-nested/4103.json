@@ -1,21 +1,56 @@
 {
-    "__line": 37326,
+    "__line": 34019,
     "_ancestry": [
         "L_ 4103",
-        "B_ {#arepas#}"
+        "B_ {#aBriya#}"
     ],
-    "_banner": "{#arepas#}",
+    "_banner": "{#aBriya#}",
     "_bannerExp": [
         {
-            "Right": "arepas"
+            "Right": "aBriya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#nAsti repaH pApaM yasya#}]"
+        "{%a.%}",
+        "[{#aBre BavaH GaY#}]"
     ],
     "_meanings": [
-        "{@--1@}\nSinless, spotless. ",
-        "{@--2@} Clear, pure,\nbright."
+        "Belonging to or produced from clouds, sky\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34020,
+            "_ancestry": [
+                "L_ 4103",
+                "B_ {#aBriya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBriyaH"
+                }
+            ],
+            "_meanings": [
+                "Lightning.\n"
+            ]
+        },
+        {
+            "__line": 34021,
+            "_ancestry": [
+                "L_ 4103",
+                "B_ {#aBriya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBriyam"
+                }
+            ],
+            "_meanings": [
+                "A mass of thunder-clouds."
+            ]
+        }
     ]
 }

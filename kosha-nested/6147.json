@@ -1,38 +1,137 @@
 {
-    "__line": 54109,
+    "__line": 51496,
     "_ancestry": [
         "L_ 6147",
-        "B_ {#AdAnaM#}"
+        "B_ {#asuKa#}"
     ],
-    "_banner": "{#AdAnaM#}",
+    "_banner": "{#asuKa#}",
     "_bannerExp": [
         {
-            "Right": "AdAnaM"
+            "Right": "asuKa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Taking, receiving, \naccepting, seizing;  \n{#kuSAMkurAdAnaparikzatAMguliH#} <ls>Ku. 5. 11</ls>; {#AdAnaM hi visargAya#}\n{#satAM vArimucAmiva#} <ls>R. 4. 86.</ls> ",
-        "{@--2@} \nEarning, getting. ",
-        "{@--3@} A symptom (of a\ndisease). ",
-        "{@--4@} Binding, fettering\n(from {#AdA#} {c2c} <ab>P.</ab>). ",
-        "{@--5@} A horse's\ntrappings. "
+        ".²1 Unhappy, sorrowful. {#anityamasuKaM lokam#} <ls>Bg. 9. 33</ls>\n",
+        ".²2 Not easy (to obtain), difficult {#SreyAMsi labDumasuKAni vinAntarAyEH#} <ls>Ki. 5. 49</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 54116,
+            "__line": 51499,
             "_ancestry": [
                 "L_ 6147",
-                "B_ {#AdAnaM#}",
-                "M_ {#--nI#}"
+                "B_ {#asuKa#}",
+                "M_ .{@{#-Kam#}@}"
             ],
-            "_banner": "{#--nI#}",
+            "_banner": ".{@{#-Kam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AdAnI"
+                    "Right": "asuKam"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab> of a plant {#hastiGozA#}."
+                "Sorrow, pain, affliction; {#asuKaM darSitaM vikAreRa#} <ls>M. 4</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 51501,
+            "_ancestry": [
+                "L_ 6147",
+                "B_ {#asuKa#}",
+                "S_ .{@{#-Avaha#}@}"
+            ],
+            "_banner": ".{@{#-Avaha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asuKAvaha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pained with grief.\n"
+            ]
+        },
+        {
+            "__line": 51502,
+            "_ancestry": [
+                "L_ 6147",
+                "B_ {#asuKa#}",
+                "S_ .{@{#-Avizwa#}@}"
+            ],
+            "_banner": ".{@{#-Avizwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asuKAvizwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "afflicted with grief or pain, causing great pain.\n"
+            ]
+        },
+        {
+            "__line": 51503,
+            "_ancestry": [
+                "L_ 6147",
+                "B_ {#asuKa#}",
+                "S_ .{@{#-udaya#}@}"
+            ],
+            "_banner": ".{@{#-udaya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asuKodaya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "causing or ending in unhappiness; {#na karma nizPalaM#}\n {#kuryAnnAyatyAmasuKodayam#} <ls>Ms. 4. 70</ls>.\n"
+            ]
+        },
+        {
+            "__line": 51505,
+            "_ancestry": [
+                "L_ 6147",
+                "B_ {#asuKa#}",
+                "S_ .{@{#-udarka#}@}"
+            ],
+            "_banner": ".{@{#-udarka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asuKodarka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "productive of or ending in unhappiness; {#tadBavatyasuKodarkaM#}\n {#jIvataSca mftasya ca#} <ls>Ms. 11. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 51507,
+            "_ancestry": [
+                "L_ 6147",
+                "B_ {#asuKa#}",
+                "S_ .{@{#-jIvikA#}@}"
+            ],
+            "_banner": ".{@{#-jIvikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asuKajIvikA"
+                }
+            ],
+            "_meanings": [
+                "an unhappy life."
             ]
         }
     ]

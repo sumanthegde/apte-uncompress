@@ -1,20 +1,44 @@
 {
-    "__line": 153456,
+    "__line": 162231,
     "_ancestry": [
         "L_ 18249",
-        "B_ {#parivarDita#}"
+        "B_ {#nagnaka#}"
     ],
-    "_banner": "{#parivarDita#}",
+    "_banner": "{#nagnaka#}",
     "_bannerExp": [
         {
-            "Right": "parivarDita"
+            "Right": "nagnaka"
+        },
+        {
+            "Right": "nagnikA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-gnikA#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Increased. ",
-        "{@--2@} Cut,\nexcavated."
+        "Naked, nude.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 162233,
+            "_ancestry": [
+                "L_ 18249",
+                "B_ {#nagnaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nagnakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A naked mendicant.\n",
+                ".²2 A Jaina or Buddhist mendicant (of the {#digambara#} class).\n",
+                ".²3 A bard."
+            ]
+        }
     ]
 }

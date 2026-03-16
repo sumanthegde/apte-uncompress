@@ -1,38 +1,141 @@
 {
-    "__line": 61093,
+    "__line": 59604,
     "_ancestry": [
         "L_ 7079",
-        "B_ {#ASruta#}"
+        "B_ {#Apad#}"
     ],
-    "_banner": "{#ASruta#}",
+    "_banner": "{#Apad#}",
     "_bannerExp": [
         {
-            "Right": "ASruta"
+            "Right": "Apad"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%f.%}",
+        "[{#A-pad-kvip#}]"
     ],
     "_meanings": [
-        "{@--1@} Heard. ",
-        "{@--2@} \nPromised, agreed, accepted. "
+        "A calamity, misfortune, danger, distress,\n adversity; {#dEvInAM mAnuzIRAM ca pratihartA tvamApadAm#} <ls>R. 1. 60</ls>; {#avivekaH#}\n {#paramApadAM padam#} <ls>Ki. 2. 30</ls>, <ls n=\"Ki. 2.\">14</ls>; {#prAyo gacCati yatra BAgyarahitastatrEva#}\n {#yAntyApadaH#} <ls>Bh. 2. 90</ls>; {@{#Apadi sTA, ApadaM prAp#}@} to fall into difficulty.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 61094,
+            "__line": 59609,
             "_ancestry": [
                 "L_ 7079",
-                "B_ {#ASruta#}",
-                "M_ {#--taM#}"
+                "B_ {#Apad#}",
+                "S_ .{@{#-kalpaH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-kalpaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ASrutaM"
+                    "Right": "ApatkalpaH"
                 }
             ],
             "_meanings": [
-                "Calling so as to make one listen."
+                "an alternative to be used in times of difficulty;\n"
+            ]
+        },
+        {
+            "__line": 59610,
+            "_ancestry": [
+                "L_ 7079",
+                "B_ {#Apad#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApatkAlaH"
+                }
+            ],
+            "_meanings": [
+                "days of adversity, time of distress, hour of danger; {#abrAhmaRAdaDyayanamApatkAle#}\n {#viDIyate#} <ls>Ms. 2. 241</ls>, <ls n=\"Ms.\">11. 28</ls>.\n"
+            ]
+        },
+        {
+            "__line": 59612,
+            "_ancestry": [
+                "L_ 7079",
+                "B_ {#Apad#}",
+                "S_ .{@{#-kAlika#}@}"
+            ],
+            "_banner": ".{@{#-kAlika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApatkAlika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-kA, -kI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "occurring in time of difficulty.\n"
+            ]
+        },
+        {
+            "__line": 59613,
+            "_ancestry": [
+                "L_ 7079",
+                "B_ {#Apad#}",
+                "S_ .{@{#-gata, -grasta, -prApta#}@}"
+            ],
+            "_banner": ".{@{#-gata, -grasta, -prApta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Apadgata"
+                },
+                {
+                    "Right": "Apadgrasta"
+                },
+                {
+                    "Right": "ApatprApta"
+                }
+            ],
+            "_meanings": [
+                ".²1 fallen into misfortune, involved in difficulties.\n",
+                ".²2 unfortunate, unhappy, distressed.\n"
+            ]
+        },
+        {
+            "__line": 59616,
+            "_ancestry": [
+                "L_ 7079",
+                "B_ {#Apad#}",
+                "S_ .{@{#-DarmaH#}@}"
+            ],
+            "_banner": ".{@{#-DarmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ApadDarmaH"
+                }
+            ],
+            "_gram": [
+                "[{#Apadi kartavyo DarmaH#}]"
+            ],
+            "_meanings": [
+                "a practice, profession, or\n course of procedure, not usually proper for a caste, but allowable in\n timess of extreme distress or calamity; <ls>Ms. 1. 116</ls>, {#ete caturRAM varRAnAmApadDarmAH#}\n {#prakIrtitAH#} <ls n=\"Ms.\">10. 130</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 59620,
+                    "_ancestry": [
+                        "L_ 7079",
+                        "B_ {#Apad#}",
+                        "S_ .{@{#-DarmaH#}@}",
+                        "S_M_ ({@{#-mam#}@})"
+                    ],
+                    "_banner": "({@{#-mam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ApadDarmam"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 <ab>N.</ab> of a {#parva#} in Bhārata.\n",
+                        ".²2 A series of calamities; {#pIqA cApadakAlaSca#} <ls>Mb. 12. 59. 47</ls>."
+                    ]
+                }
             ]
         }
     ]

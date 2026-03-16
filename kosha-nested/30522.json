@@ -1,45 +1,54 @@
 {
-    "__line": 255985,
+    "__line": 281693,
     "_ancestry": [
         "L_ 30522",
-        "B_ {#sektf#}"
+        "B_ {#visAraH#}"
     ],
-    "_banner": "{#sektf#}",
+    "_banner": "{#visAraH#}",
     "_bannerExp": [
         {
-            "Right": "sektf"
-        },
-        {
-            "Right": "sektrI"
+            "Right": "visAraH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#ktrI#}|{%<ab>f.</ab>%})"
-    ],
     "_meanings": [
-        "One who sprinkles\n&c. "
+        ".²1 Spreading out, expansion, diffusion.\n",
+        ".²2 Creeping, gliding.\n",
+        ".²3 A fish.\n"
     ],
     "_morphisms": [
         {
-            "__line": 255986,
+            "__line": 281697,
             "_ancestry": [
                 "L_ 30522",
-                "B_ {#sektf#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#visAraH#}",
+                "M_ .{@{#-ram#}@}"
             ],
+            "_banner": ".{@{#-ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "sektf"
+                    "Right": "visAram"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                ".²1 Wood.\n",
+                ".²2 Timber.\n"
+            ]
+        },
+        {
+            "__line": 281700,
+            "_ancestry": [
+                "L_ 30522",
+                "B_ {#visAraH#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "visArI"
+                }
             ],
             "_meanings": [
-                "{@--1@} A sprinkler. ",
-                "{@--2@} A\nhusband. ",
-                "{@--3@} A water-bearer."
+                "The region of the winds."
             ]
         }
     ]

@@ -1,24 +1,45 @@
 {
-    "__line": 132364,
+    "__line": 137339,
     "_ancestry": [
         "L_ 15825",
-        "B_ {#druRiH --RI#}"
+        "B_ {#jval#}"
     ],
-    "_banner": "{#druRiH --RI#}",
+    "_banner": "{#jval#}",
     "_bannerExp": [
         {
-            "Right": "druRI"
-        },
-        {
-            "Right": "druRiH"
+            "Right": "jval"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "({#jvalati, jvalita#})"
     ],
     "_meanings": [
-        "{@--1@} A small or female\ntortoise. ",
-        "{@--2@} A bucket. ",
-        "{@--3@} A \ncentipede."
+        ".²1 To burn brightly, blaze, glow, shine; {#jvalati calitenDano'gniH#}\n <ls>Ś. 6. 30</ls>; <ls>Ku. 5. 30</ls>.\n",
+        ".²2 To be burnt up, be consumed or afflicted (as by fire) {#amftamaDuramfdutaravacanena#}\n {#jvalati na sA malayajapavanena#} <ls>Gīt. 7</ls>.\n",
+        ".²3 To be ardent; {#jajvAla lokasTitaye sa rAjA#} <ls>Bk. 1. 4</ls>.\n",
+        ".²4 To burn (as a wound). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 137345,
+            "_ancestry": [
+                "L_ 15825",
+                "B_ {#jval#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "jval"
+                }
+            ],
+            "_meanings": [
+                "({#jvalayati-te, jvAlayati-te#},\n but {#prajvalayati#})\n",
+                ".²1 To set on fire, light, kindle.\n",
+                ".²2 To irradiate, illuminate, brighten."
+            ]
+        }
     ]
 }

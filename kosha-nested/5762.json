@@ -1,20 +1,115 @@
 {
-    "__line": 50877,
+    "__line": 47809,
     "_ancestry": [
         "L_ 5762",
-        "B_ {#AkulIBU#}"
+        "B_ {#aSana#}"
     ],
-    "_banner": "{#AkulIBU#}",
+    "_banner": "{#aSana#}",
     "_bannerExp": [
         {
-            "Right": "AkulIBU"
+            "Right": "aSana"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "[{#aS-lyuw#}]",
+        "{%a.%}"
     ],
     "_meanings": [
-        "To be perplexed\nor agitated; {#iti pratipAditamAkulIBavet#}\n<ls>Ś. B.</ls> this conclusion would be\nshaken."
+        "Reaching, reaching across.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 47810,
+            "_ancestry": [
+                "L_ 5762",
+                "B_ {#aSana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a tree = {#asana#} <ab>q. v.</ab> (<lang>Mar.</lang> <ns>{#AsaRA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 47811,
+            "_ancestry": [
+                "L_ 5762",
+                "B_ {#aSana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Pervasion, penetration.\n",
+                ".²2 The act of eating, feeding.\n",
+                ".²3 Tasting, enjoying.\n",
+                ".²4 Food; {#aSanaM DAtrA marutkalpitaM vyAlAnAm#} <ls>Bh. 3. 10</ls>; {#BAMsASanaM#}\n {#ca nASnIyuH#} <ls>Ms. 5. 73</ls>; {#yajYaSizwa˚#} <ls n=\"Ms.\">3. 118</ls>;\n\n {#PalamUlASanEH#} <ls n=\"Ms.\">5. 54</ls>; <ab>oft.</ab> at the end of adjective <ab>comp.</ab> in\n the sense of ‘eating’, ‘one whose food is’ <ab>&c.</ab>; {#PalamUlASana, hutASana#},\n {#pavanASana#} <ab>&c.</ab>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 47822,
+            "_ancestry": [
+                "L_ 5762",
+                "B_ {#aSana#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSanakft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> preparing food; {#yadaSanakftaM hvayanti havizkftameva#}\n {#tadDvayanti#} <ls>Av. 9. 6. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 47824,
+            "_ancestry": [
+                "L_ 5762",
+                "B_ {#aSana#}",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSanapatiH"
+                }
+            ],
+            "_meanings": [
+                "lord of food.\n"
+            ]
+        },
+        {
+            "__line": 47825,
+            "_ancestry": [
+                "L_ 5762",
+                "B_ {#aSana#}",
+                "S_ .{@{#-parRI#}@}"
+            ],
+            "_banner": ".{@{#-parRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSanaparRI"
+                }
+            ],
+            "_meanings": [
+                "a kind of tree. (<lang>Mar.</lang> <ns>{#gokarRI#}</ns> ?)"
+            ]
+        }
     ]
 }

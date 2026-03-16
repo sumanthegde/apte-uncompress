@@ -1,40 +1,79 @@
 {
-    "__line": 135741,
+    "__line": 140142,
     "_ancestry": [
         "L_ 16159",
-        "B_ {#DenaH#}"
+        "B_ {#tapasvin#}"
     ],
-    "_banner": "{#DenaH#}",
+    "_banner": "{#tapasvin#}",
     "_bannerExp": [
         {
-            "Right": "DenaH"
+            "Right": "tapasvin"
         }
     ],
     "_gram": [
-        "[{#DayaMti enaM De-nan iccaM#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} The\nocean. ",
-        "{@--2@} A male river ({#nada#}). "
+        ".²1 Practising penance, devout.\n",
+        ".²2 Poor, miserable, helpless, pitiable; {#sA tapasvinI nirvftA Bavatu#}\n <ls>Ś. 4</ls>; <ls>Māl. 3</ls>; <ls>N. 1. 135</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 135742,
+            "__line": 140145,
             "_ancestry": [
                 "L_ 16159",
-                "B_ {#DenaH#}",
-                "M_ {#--nA#}"
+                "B_ {#tapasvin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--nA#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "DenA"
+                    "Left": "Parser error: {#tapasvin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} A river. ",
-                "{@--2@} Speech. ",
-                "{@--3@} A milch\ncow (<ab>Ved.</ab>)."
+                ".²1 An ascetic; {#tapasvisAmAnyamavekzaRIyA#} <ls>R. 14. 67</ls>.\n",
+                ".²2 A mendicant, pauper.\n",
+                ".²3 An epithet of Nārada.\n",
+                ".²4 A sparrow.\n",
+                ".²5 A mango-fish; (see {#tapaskara#}).\n"
+            ]
+        },
+        {
+            "__line": 140151,
+            "_ancestry": [
+                "L_ 16159",
+                "B_ {#tapasvin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapasvinI"
+                }
+            ],
+            "_meanings": [
+                ".²1 female ascetic.\n",
+                ".²2 A poor or wretched woman.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 140155,
+            "_ancestry": [
+                "L_ 16159",
+                "B_ {#tapasvin#}",
+                "S_ .{@{#-patraH#}@}"
+            ],
+            "_banner": ".{@{#-patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tapasvipatraH"
+                }
+            ],
+            "_meanings": [
+                "the sun-flower."
             ]
         }
     ]

@@ -1,21 +1,96 @@
 {
-    "__line": 258000,
+    "__line": 284603,
     "_ancestry": [
         "L_ 30796",
-        "B_ {#steyaM#}"
+        "B_ {#vetasaH#}"
     ],
-    "_banner": "{#steyaM#}",
+    "_banner": "{#vetasaH#}",
     "_bannerExp": [
         {
-            "Right": "steyaM"
+            "Right": "vetasaH"
         }
     ],
     "_gram": [
-        "[{#stenasya BAvaH yat nalopaH#}]"
+        "[{#aj-asun tukca vIBAvaH#} <ls>Uṇ. 3. 118</ls>]"
     ],
     "_meanings": [
-        "{@--1@}\nTheft, robbery; <ls>Ku. 2. 35.</ls> ",
-        "{@--2@} \nAnything stolen or liable to be stolen.\n",
-        "{@--3@} Anything private or secret."
+        ".²1 The ratan, reed, cane; {#yadvetasaH kubjalIlAM viqambayati sa kimAtmanaH#}\n {#praBAveRa nanu nadIvegasya#} <ls>Ś. 2</ls>; {#avilambitameDi vetasastaruvanmADava#}\n {#mA sma BajyaTAH#} <ls>Śi. 16. 53</ls>; <ls>R. 9. 75</ls>.\n",
+        ".²2 The citron.\n",
+        ".²3 <ab>N.</ab> of Agni.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 284609,
+            "_ancestry": [
+                "L_ 30796",
+                "B_ {#vetasaH#}",
+                "M_ .{@{#-amlaH#}@}"
+            ],
+            "_banner": ".{@{#-amlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: vetasaH amlaH"
+                }
+            ],
+            "_meanings": [
+                "Rumex Vesicarius (<lang>Mar.</lang> <ns>{#cukA#}</ns>).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 284611,
+            "_ancestry": [
+                "L_ 30796",
+                "B_ {#vetasaH#}",
+                "S_ .{@{#-gfham#}@}"
+            ],
+            "_banner": ".{@{#-gfham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vetasagfham"
+                }
+            ],
+            "_meanings": [
+                "an arbour formed of reeds.\n"
+            ]
+        },
+        {
+            "__line": 284612,
+            "_ancestry": [
+                "L_ 30796",
+                "B_ {#vetasaH#}",
+                "S_ .{@{#-patram#}@}"
+            ],
+            "_banner": ".{@{#-patram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vetasapatram"
+                }
+            ],
+            "_meanings": [
+                "a lancet; also {#vetasam#}; <ls>Suśr.</ls>\n"
+            ]
+        },
+        {
+            "__line": 284613,
+            "_ancestry": [
+                "L_ 30796",
+                "B_ {#vetasaH#}",
+                "S_ .{@{#-vftti#}@}"
+            ],
+            "_banner": ".{@{#-vftti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vetasavftti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pliant like a reed."
+            ]
+        }
     ]
 }

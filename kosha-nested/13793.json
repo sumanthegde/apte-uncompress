@@ -1,44 +1,77 @@
 {
-    "__line": 115349,
+    "__line": 117761,
     "_ancestry": [
         "L_ 13793",
-        "B_ {#jarin#}"
+        "B_ {#gaRqUH#}"
     ],
-    "_banner": "{#jarin#}",
+    "_banner": "{#gaRqUH#}",
     "_bannerExp": [
         {
-            "Right": "jariRI"
-        },
-        {
-            "Right": "jarin"
+            "Right": "gaRqUH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#RI#}|{%<ab>f.</ab>%})",
-        "[{#jarA astyasya ini#}]"
+        "{%f.%}"
     ],
     "_meanings": [
-        "Old, aged. "
+        ".²1 A joint, knot.\n",
+        ".²2 A bone.\n",
+        ".²3 A pillow.\n",
+        ".²4 Oil.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 115350,
+            "__line": 117767,
             "_ancestry": [
                 "L_ 13793",
-                "B_ {#jarin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#gaRqUH#}",
+                "S_ .{@{#-padaH#}@}"
             ],
+            "_banner": ".{@{#-padaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "jarin"
+                    "Right": "gaRqUpadaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                "a kind of worm. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 117767,
+                    "_ancestry": [
+                        "L_ 13793",
+                        "B_ {#gaRqUH#}",
+                        "S_ .{@{#-padaH#}@}",
+                        "S_S_ {#˚Bavam#}"
+                    ],
+                    "_banner": "{#˚Bavam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "gaRqUpadaBavam"
+                        }
+                    ],
+                    "_meanings": [
+                        "lead.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 117768,
+            "_ancestry": [
+                "L_ 13793",
+                "B_ {#gaRqUH#}",
+                "S_ .{@{#-padI#}@}"
+            ],
+            "_banner": ".{@{#-padI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gaRqUpadI"
+                }
             ],
             "_meanings": [
-                "An old man."
+                "a small {#gaRqUpada#}."
             ]
         }
     ]

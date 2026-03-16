@@ -1,75 +1,45 @@
 {
-    "__line": 122651,
+    "__line": 128021,
     "_ancestry": [
         "L_ 14760",
-        "B_ {#tutTaH#}"
+        "B_ {#carmin#}"
     ],
-    "_banner": "{#tutTaH#}",
+    "_banner": "{#carmin#}",
     "_bannerExp": [
         {
-            "Right": "tutTaH"
+            "Right": "carmin"
+        },
+        {
+            "Right": "carmiRI"
         }
     ],
     "_gram": [
-        "[{#tud-Tak#}]"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#carma-ini#}]"
     ],
     "_meanings": [
-        "{@--1@} Fire. ",
-        "{@--2@} A\nstone. "
+        ".²1 Armed with a shield.\n",
+        ".²2 Leathern. "
     ],
     "_morphisms": [
         {
-            "__line": 122652,
+            "__line": 128023,
             "_ancestry": [
                 "L_ 14760",
-                "B_ {#tutTaH#}",
-                "M_ {#--tTaM#}"
+                "B_ {#carmin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--tTaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "tutTaM"
+                    "Left": "Parser error: {#carmin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "Sulphate of copper, \nusually applied to the eyes as a sort\nof collyrium or medical ointment.\n"
-            ]
-        },
-        {
-            "__line": 122655,
-            "_ancestry": [
-                "L_ 14760",
-                "B_ {#tutTaH#}",
-                "M_ {#--tTA#}"
-            ],
-            "_banner": "{#--tTA#}",
-            "_bannerExp": [
-                {
-                    "Right": "tutTA"
-                }
-            ],
-            "_meanings": [
-                "{@--1@} Small cardamoms. ",
-                "{@--2@} The\nindigo plant. "
-            ]
-        }
-    ],
-    "_samasas": [
-        {
-            "__line": 122656,
-            "_ancestry": [
-                "L_ 14760",
-                "B_ {#tutTaH#}",
-                "S_  {#--aMjanaM#}"
-            ],
-            "_banner": " {#--aMjanaM#}",
-            "_bannerExp": [
-                {
-                    "Right": "tutTAMjanaM"
-                }
-            ],
-            "_meanings": [
-                "blue\nvitriol applied to the eyes as a \nmedical ointment."
+                ".²1 A soldier armed with a shield.\n",
+                ".²2 Plantain.\n",
+                ".²3 The Bhūrja tree."
             ]
         }
     ]

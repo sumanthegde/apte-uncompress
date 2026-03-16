@@ -1,24 +1,38 @@
 {
-    "__line": 138973,
+    "__line": 143397,
     "_ancestry": [
         "L_ 16524",
-        "B_ {#nArika#}"
+        "B_ {#tuNgin#}"
     ],
-    "_banner": "{#nArika#}",
+    "_banner": "{#tuNgin#}",
     "_bannerExp": [
         {
-            "Right": "nArikI"
-        },
-        {
-            "Right": "nArika"
+            "Right": "tuNgin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Watery,\naqueous. ",
-        "{@--2@} Spiritual."
+        "High, lofty. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 143397,
+            "_ancestry": [
+                "L_ 16524",
+                "B_ {#tuNgin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tuMgin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A planet at the apex of its orbit."
+            ]
+        }
     ]
 }

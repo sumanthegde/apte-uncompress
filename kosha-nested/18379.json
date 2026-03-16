@@ -1,19 +1,290 @@
 {
-    "__line": 154260,
+    "__line": 163580,
     "_ancestry": [
         "L_ 18379",
-        "B_ {#paromAtra#}"
+        "B_ {#narman#}"
     ],
-    "_banner": "{#paromAtra#}",
+    "_banner": "{#narman#}",
     "_bannerExp": [
         {
-            "Right": "paromAtra"
+            "Right": "narman"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%n.%}",
+        "[{#nF-manin#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Immense, vast."
+        ".²1 Sport, amusement, diversion, merriment, pleasure, amorous pastime or\n sport; {#jitakamale vimale parikarmaya narmajanakamalakaM muKe#} <ls>Gīt. 12</ls>\n ({#kOtukajanaka#}); <ls>R. 19. 28</ls>.\n",
+        ".²2 Jest, joke, humour, wit; {#suhftprayuktA iva narmavAdAH#} <ls>Ki. 17. 33</ls>.\n {#narmaprAyABiH kaTABiH#} <ls>K. 70</ls>; ‘jocular, humorous’.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 163587,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-AlApaH#}@}"
+            ],
+            "_banner": ".{@{#-AlApaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmAlApaH"
+                }
+            ],
+            "_meanings": [
+                "a jocular conversation.\n"
+            ]
+        },
+        {
+            "__line": 163588,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-uktiH#}@}"
+            ],
+            "_banner": ".{@{#-uktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmoktiH"
+                }
+            ],
+            "_meanings": [
+                "a facetious expression.\n"
+            ]
+        },
+        {
+            "__line": 163589,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-kIlaH#}@}"
+            ],
+            "_banner": ".{@{#-kIlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmakIlaH"
+                }
+            ],
+            "_meanings": [
+                "a husband.\n"
+            ]
+        },
+        {
+            "__line": 163590,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-garBa#}@}"
+            ],
+            "_banner": ".{@{#-garBa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmagarBa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "humorous, full of humour, witty.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 163591,
+                    "_ancestry": [
+                        "L_ 18379",
+                        "B_ {#narman#}",
+                        "S_ .{@{#-garBa#}@}",
+                        "S_M_ ({@{#-rBaH#}@})"
+                    ],
+                    "_banner": "({@{#-rBaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "narmagarBaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a secret lover.\n",
+                        ".²2 an action of the hero in an unrecognizable form.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 163594,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-da#}@}"
+            ],
+            "_banner": ".{@{#-da#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "delighting, making happy; {#nandasUnuranaGe tava vatso#}\n {#narmadaH praRayinAM vijahAra#} <ls>Bhāg. 10. 35. 20</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 163596,
+                    "_ancestry": [
+                        "L_ 18379",
+                        "B_ {#narman#}",
+                        "S_ .{@{#-da#}@}",
+                        "S_M_ ({@{#-daH#}@})"
+                    ],
+                    "_banner": "({@{#-daH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "narmadaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a jester (= {#narmasaciva#} <ab>q. v.</ab>).\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 163597,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-dA#}@}"
+            ],
+            "_banner": ".{@{#-dA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmadA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a river which rises in the Vindhya mountain, and falls\n into the gulf of Cambay.\n"
+            ]
+        },
+        {
+            "__line": 163599,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-dyuti#}@}"
+            ],
+            "_banner": ".{@{#-dyuti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmadyuti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "bright with joy, cheerful, merry.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 163600,
+                    "_ancestry": [
+                        "L_ 18379",
+                        "B_ {#narman#}",
+                        "S_ .{@{#-dyuti#}@}",
+                        "S_M_ ({@{#-tiH#}@}"
+                    ],
+                    "_banner": "({@{#-tiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "narmadyutiH"
+                        }
+                    ],
+                    "_gram": [
+                        "{%f.%})"
+                    ],
+                    "_meanings": [
+                        "enjoyment of a joke.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 163601,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-sacivaH, -suhfd#}@}"
+            ],
+            "_banner": ".{@{#-sacivaH, -suhfd#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmasacivaH"
+                },
+                {
+                    "Right": "narmasuhfd"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "‘a pleasure-companion’, an associate of\n the amusements of a prince or a man of rank; {#na narmasacivEH sArDaM#}\n {#kiYcidapyapriyaM vadet#} <ls>Kām.</ls> {#idaM tvEdaMparyaM yaduta nfpaternarmasacivaH#}\n {#sutAdAnAnmitraM Bavatu#} <ls>Māl. 2. 7</ls>; {#tAM yAcate narapaternarmasuhfnnandano#}\n {#nfpamuKena#} <ls n=\"Māl.\">1. 11</ls>; <ls>Śi. 1. 59</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163606,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-sAcivyam#}@}"
+            ],
+            "_banner": ".{@{#-sAcivyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmasAcivyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 amusement; flattery.\n",
+                ".²2 Superintendence of a princeʼs amusements.\n"
+            ]
+        },
+        {
+            "__line": 163609,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-sPUrjaH#}@}"
+            ],
+            "_banner": ".{@{#-sPUrjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmasPUrjaH"
+                }
+            ],
+            "_meanings": [
+                "(in drama) the first meeting of lovers beginning with\n joy but ending in alarm.\n"
+            ]
+        },
+        {
+            "__line": 163611,
+            "_ancestry": [
+                "L_ 18379",
+                "B_ {#narman#}",
+                "S_ .{@{#-sPowaH#}@}"
+            ],
+            "_banner": ".{@{#-sPowaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narmasPowaH"
+                }
+            ],
+            "_meanings": [
+                "the first symptoms of love."
+            ]
+        }
     ]
 }

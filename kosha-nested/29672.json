@@ -1,20 +1,104 @@
 {
-    "__line": 248543,
+    "__line": 274271,
     "_ancestry": [
         "L_ 29672",
-        "B_ {#saMpraBinna#}"
+        "B_ {#viDUta#}"
     ],
-    "_banner": "{#saMpraBinna#}",
+    "_banner": "{#viDUta#}",
     "_bannerExp": [
         {
-            "Right": "saMpraBinna"
+            "Right": "viDUta"
         }
     ],
     "_gram": [
         "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Split open, cleft.\n",
-        "{@--2@} In rut."
+        ".²1 Shaken or tossed about, waved.\n",
+        ".²2 Tremulous.\n",
+        ".²3 Shaken off, dispelled, removed.\n",
+        ".²4 Unsteady.\n",
+        ".²5 Abandoned.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 274277,
+            "_ancestry": [
+                "L_ 29672",
+                "B_ {#viDUta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viDUtam"
+                }
+            ],
+            "_meanings": [
+                "Repugnance.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 274279,
+            "_ancestry": [
+                "L_ 29672",
+                "B_ {#viDUta#}",
+                "S_ .{@{#-kalmaza#}@}"
+            ],
+            "_banner": ".{@{#-kalmaza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viDUtakalmaza"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "free from sin.\n"
+            ]
+        },
+        {
+            "__line": 274280,
+            "_ancestry": [
+                "L_ 29672",
+                "B_ {#viDUta#}",
+                "S_ .{@{#-keSa#}@}"
+            ],
+            "_banner": ".{@{#-keSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viDUtakeSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who has tossed about the hair; {#viDUtakeSAH#}\n {#parilolitasrajaH#} <ls>Ki. 8. 33</ls>.\n"
+            ]
+        },
+        {
+            "__line": 274282,
+            "_ancestry": [
+                "L_ 29672",
+                "B_ {#viDUta#}",
+                "S_ .{@{#-nidra#}@}"
+            ],
+            "_banner": ".{@{#-nidra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "viDUtanidra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "awakened."
+            ]
+        }
     ]
 }

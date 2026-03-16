@@ -1,19 +1,170 @@
 {
-    "__line": 24454,
+    "__line": 21543,
     "_ancestry": [
         "L_ 2403",
-        "B_ {#apaBaya#}"
+        "B_ {#anyat#}"
     ],
-    "_banner": "{#apaBaya#}",
+    "_banner": "{#anyat#}",
     "_bannerExp": [
         {
-            "Right": "apaBaya"
+            "Right": "anyat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#anya#}|{%n.%})"
     ],
     "_meanings": [
-        "Free from fear, \nfearless, undaunted; {#tataH prahasyApaBayaH#} \n{#puraMdaraM punarbaBAze turagasya rakzitA#} <ls>R. 3. 51.</ls>"
+        "Another <ab>&c.</ab> {#nEvAsti liKitAdanyat#}\n {#smArakaM vyavahAriRAm#} <ls>Sulhā.</ls> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 21544,
+            "_ancestry": [
+                "L_ 2403",
+                "B_ {#anyat#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#anyat#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Again, moreover, besides <ab>&c.</ab>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 21546,
+            "_ancestry": [
+                "L_ 2403",
+                "B_ {#anyat#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadarTa"
+                }
+            ],
+            "_meanings": [
+                ".²1 having a different meaning.\n",
+                ".²2 referring to or expressing another sense.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 21549,
+                    "_ancestry": [
+                        "L_ 2403",
+                        "B_ {#anyat#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-rTaH#}@})"
+                    ],
+                    "_banner": "({@{#-rTaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "anyadarTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a different meaning.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 21550,
+            "_ancestry": [
+                "L_ 2403",
+                "B_ {#anyat#}",
+                "S_ .{@{#-ASA#}@}"
+            ],
+            "_banner": ".{@{#-ASA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadASA"
+                }
+            ],
+            "_meanings": [
+                "desire of something else.\n"
+            ]
+        },
+        {
+            "__line": 21551,
+            "_ancestry": [
+                "L_ 2403",
+                "B_ {#anyat#}",
+                "S_ .{@{#-ASis#}@}"
+            ],
+            "_banner": ".{@{#-ASis#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadASis"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "anotherʼs blessing.\n"
+            ]
+        },
+        {
+            "__line": 21552,
+            "_ancestry": [
+                "L_ 2403",
+                "B_ {#anyat#}",
+                "S_ .{@{#-AsTA#}@}"
+            ],
+            "_banner": ".{@{#-AsTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadAsTA"
+                }
+            ],
+            "_meanings": [
+                "devotion or attachment to another.\n"
+            ]
+        },
+        {
+            "__line": 21553,
+            "_ancestry": [
+                "L_ 2403",
+                "B_ {#anyat#}",
+                "S_ .{@{#-utsuka#}@}"
+            ],
+            "_banner": ".{@{#-utsuka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadutsuka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "longing for another.\n"
+            ]
+        },
+        {
+            "__line": 21554,
+            "_ancestry": [
+                "L_ 2403",
+                "B_ {#anyat#}",
+                "S_ .{@{#-rAgaH#}@}"
+            ],
+            "_banner": ".{@{#-rAgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyadrAgaH"
+                }
+            ],
+            "_meanings": [
+                "attachment to another."
+            ]
+        }
     ]
 }

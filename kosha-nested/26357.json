@@ -1,18 +1,61 @@
 {
-    "__line": 222327,
+    "__line": 240606,
     "_ancestry": [
         "L_ 26357",
-        "B_ {#viriMciH#}"
+        "B_ {#mukulaH#}, {#-lam#}"
     ],
-    "_banner": "{#viriMciH#}",
+    "_banner": "{#mukulaH#}, {#-lam#}",
     "_bannerExp": [
         {
-            "Right": "viriMciH"
+            "Right": "mukulaH"
+        },
+        {
+            "Right": "mukulam"
         }
     ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of Brahman;  \n<ls>Vikr. 1. 46</ls>; <ls>N. 3. 44</ls>; <ls>Śi. 9. 9.</ls> ",
-        "{@--2@} Of\nViṣṇu. ",
-        "{@--3@} Of Śiva. "
+        ".²1 A bud; {#AvirBUtapraTamamukulAH kandalIScAnukacCam#} <ls>Me. 21</ls>; <ls>R. 9. 31</ls>, <ls n=\"R.\">15. 99</ls>.\n",
+        ".²2 Anything like a bud; {#AlakzyadantamukulAn#} ({#tanayAn#}) <ls>Ś. 7. 17</ls>.\n",
+        ".²3 The body.\n",
+        ".²4 The soul or spirit\n",
+        ".²5 A bud-like junction of the fingers. ({#mukulIkf#} means ‘to close in\n the form of a bud’; {#aTAgrahaste mukulIkftANgulO#} <ls>Ku. 5. 63.</ls>). "
+    ],
+    "_morphisms": [
+        {
+            "__line": 240612,
+            "_ancestry": [
+                "L_ 26357",
+                "B_ {#mukulaH#}, {#-lam#}",
+                "M_ --{%a.%}"
+            ],
+            "_banner": "--{%a.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#mukulaH#} M_ --{%a.%}"
+                }
+            ],
+            "_meanings": [
+                "Closed (as eyes).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 240615,
+            "_ancestry": [
+                "L_ 26357",
+                "B_ {#mukulaH#}, {#-lam#}",
+                "S_ .{@{#-agram#}@}"
+            ],
+            "_banner": ".{@{#-agram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mukulAgram"
+                }
+            ],
+            "_meanings": [
+                "a surgical instrument with a bud-like point."
+            ]
+        }
     ]
 }

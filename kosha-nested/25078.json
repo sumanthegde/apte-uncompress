@@ -1,19 +1,39 @@
 {
-    "__line": 212547,
+    "__line": 225361,
     "_ancestry": [
         "L_ 25078",
-        "B_ {#varI(lI)vardaH#}"
+        "B_ {#BAraka#}"
     ],
-    "_banner": "{#varI(lI)vardaH#}",
+    "_banner": "{#BAraka#}",
     "_bannerExp": [
         {
-            "Right": "valIvardaH"
-        },
-        {
-            "Right": "varIvardaH"
+            "Right": "BAraka"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "An ox, a bull,"
+        "(At the end of <ab>comp.</ab>) Loaded with.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 225362,
+            "_ancestry": [
+                "L_ 25078",
+                "B_ {#BAraka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BArakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A load, burden, weight.\n",
+                ".²2 A particular weight."
+            ]
+        }
     ]
 }

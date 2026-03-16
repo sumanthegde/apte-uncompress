@@ -1,22 +1,68 @@
 {
-    "__line": 113650,
+    "__line": 115982,
     "_ancestry": [
         "L_ 13584",
-        "B_ {#Cardis#}"
+        "B_ {#Karu#}"
     ],
-    "_banner": "{#Cardis#}",
+    "_banner": "{#Karu#}",
     "_bannerExp": [
         {
-            "Right": "Cardis"
+            "Right": "Karu"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}",
-        "[{#Card-BAve isi#}]"
+        "{%a.%}",
+        "[{#Kan-ku raSrAntAdeSaH#}]"
     ],
     "_meanings": [
-        "{@--1@} \nVomiting. ",
-        "{@--2@} A secure place or residence.\n",
-        "{@--3@} A house."
+        ".²1 White.\n",
+        ".²2 Foolish, stupid.\n",
+        ".²3 Cruel.\n",
+        ".²4 Desirous of prohibited things.\n\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 115988,
+            "_ancestry": [
+                "L_ 13584",
+                "B_ {#Karu#}",
+                "M_ .{@{#-ruH#}@}"
+            ],
+            "_banner": ".{@{#-ruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaruH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A horse.\n",
+                ".²2 A tooth.\n",
+                ".²3 Pride.\n",
+                ".²4 Cupid, the god of love.\n",
+                ".²5 Śiva.\n",
+                ".²6 Likeness for prohibited things.\n",
+                ".²7 The white colour.\n"
+            ]
+        },
+        {
+            "__line": 115996,
+            "_ancestry": [
+                "L_ 13584",
+                "B_ {#Karu#}",
+                "M_ .{@{#-ruH#}@}"
+            ],
+            "_banner": ".{@{#-ruH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaruH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "A girl who chooses her own husband ({#KaruH patiMvarA kanyA#} <ls>Sk.</ls>)."
+            ]
+        }
     ]
 }

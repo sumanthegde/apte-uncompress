@@ -1,24 +1,43 @@
 {
-    "__line": 217289,
+    "__line": 232875,
     "_ancestry": [
         "L_ 25681",
-        "B_ {#vikruS#}"
+        "B_ {#mantuH#}"
     ],
-    "_banner": "{#vikruS#}",
+    "_banner": "{#mantuH#}",
     "_bannerExp": [
         {
-            "Right": "vikruS"
+            "Right": "mantuH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
-    ],
     "_meanings": [
-        "{@--1@} To call aloud,\ncry out loudly; {#AkroSa vikroSa#} \n{#lapADicaMqaM#} <ls>Mk. 1. 41</ls>; <ls>Bk. 14. 42</ls>;  \n<ls n=\"Bk.\">16. 32.</ls> ",
-        "{@--2@} To utter (with <ab>acc.</ab>). ",
-        "{@--3@} To\ncall out to (with <ab>acc.</ab>). ",
-        "{@--4@} To \nresound. ",
-        "{@--5@} To abuse, revile, censure."
+        ".²1 A fault, an offence; {#muDEva mantuM parikalpya#} <ls>Bv. 2. 13</ls>; {#anena#}\n {#hetunA hyasya mantavaH SataSo mayA#} ({#kzAntAH#}) <ls>Śiva B. 15. 12</ls>; {#BavatA#}\n {#SivaBUpasya bahavo mantavaH kftAH#} <ls>Śiva B. 31. 6</ls>; <ls>N. 6. 110</ls>.\n",
+        ".²2 Man, mankind.\n",
+        ".²3 Lord of men ({#prajApati#}).\n",
+        ".²4 <ab>Ved.</ab> An adviser.\n",
+        ".²5 A manager, director.\n",
+        ".²6 Advice, counsel.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 232884,
+            "_ancestry": [
+                "L_ 25681",
+                "B_ {#mantuH#}",
+                "M_ .{@{#-ntuH#}@}"
+            ],
+            "_banner": ".{@{#-ntuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mantuH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Understanding, intellect."
+            ]
+        }
     ]
 }

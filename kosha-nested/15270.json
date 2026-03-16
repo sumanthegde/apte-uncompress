@@ -1,23 +1,44 @@
 {
-    "__line": 126867,
+    "__line": 132137,
     "_ancestry": [
         "L_ 15270",
-        "B_ {#daSamin#}"
+        "B_ {#Cedana#}"
     ],
-    "_banner": "{#daSamin#}",
+    "_banner": "{#Cedana#}",
     "_bannerExp": [
         {
-            "Right": "daSamin"
-        },
-        {
-            "Right": "daSaminI"
+            "Right": "Cedana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "[{#Cid BAve lyuw#}]"
     ],
     "_meanings": [
-        "Very old."
+        ".²1 Cutting asunder, dividing splitting. ",
+        ".²2 Destroying, solving, removing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 132139,
+            "_ancestry": [
+                "L_ 15270",
+                "B_ {#Cedana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Cedanam"
+                }
+            ],
+            "_meanings": [
+                "Cutting, tearing, cutting off, splitting, dividing; <ls>Ms. 8. 280</ls>, <ls n=\"Ms. 8.\">292</ls>, <ls n=\"Ms. 8.\">322</ls>.\n",
+                ".²2 A section, portion, bit, part.\n",
+                ".²3 Destruction, removal.\n",
+                ".²4 Division.\n",
+                ".²5 A medicine for removing the humours of the body."
+            ]
+        }
     ]
 }

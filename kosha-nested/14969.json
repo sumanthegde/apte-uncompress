@@ -1,36 +1,86 @@
 {
-    "__line": 124032,
+    "__line": 129906,
     "_ancestry": [
         "L_ 14969",
-        "B_ {#tokmaH#}"
+        "B_ {#cipiwaH#}"
     ],
-    "_banner": "{#tokmaH#}",
+    "_banner": "{#cipiwaH#}",
     "_bannerExp": [
         {
-            "Right": "tokmaH"
+            "Right": "cipiwaH"
         }
     ],
-    "_meanings": [
-        "{@--1@} A young green blade of\ncorn, green barley. ",
-        "{@--2@} Green colour.\n",
-        "{@--3@} A cloud. "
+    "_gram": [
+        "{%a.%}"
     ],
-    "_morphisms": [
+    "_meanings": [
+        "See {#cipawa#}.\n"
+    ],
+    "_samasas": [
         {
-            "__line": 124034,
+            "__line": 129908,
             "_ancestry": [
                 "L_ 14969",
-                "B_ {#tokmaH#}",
-                "M_ {#--kmaM#}"
+                "B_ {#cipiwaH#}",
+                "S_ .{@{#-grIva#}@}"
             ],
-            "_banner": "{#--kmaM#}",
+            "_banner": ".{@{#-grIva#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tokmaM"
+                    "Right": "cipiwagrIva"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "The wax of the ear."
+                "short-necked\n"
+            ]
+        },
+        {
+            "__line": 129909,
+            "_ancestry": [
+                "L_ 14969",
+                "B_ {#cipiwaH#}",
+                "S_ .{@{#-GnARa, -nAsa, -nAsika#}@}"
+            ],
+            "_banner": ".{@{#-GnARa, -nAsa, -nAsika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cipiwaGnARa"
+                },
+                {
+                    "Left": "S error: midAlign nAsa GnAsa"
+                },
+                {
+                    "Right": "cipiwanAsika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "flat-nosed; {#sa BAryAM cipiwaGrARAm#}\n <ls>Ks. 61. 15</ls>; {#strImftyuH syAccipiwanAsaH#} <ls>Bṛ. S. 68. 61</ls>; {#miladBruvaM#}\n {#kAcarAkzIM nyaYcaccipiwanAsikAm#} <ls>Ks. 20. 108</ls>.\n"
+            ]
+        },
+        {
+            "__line": 129912,
+            "_ancestry": [
+                "L_ 14969",
+                "B_ {#cipiwaH#}",
+                "S_ .{@{#-nAsika#}@}"
+            ],
+            "_banner": ".{@{#-nAsika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cipiwanAsika"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) <ab>N.</ab> of a country in the north of ancient India;\n {#keSaDaracipiwanAsikadAserakavAwaDAnaSaraDAnAH#} <ls>Bṛ. S. 14. 26</ls>."
             ]
         }
     ]

@@ -1,21 +1,141 @@
 {
-    "__line": 230080,
+    "__line": 251923,
     "_ancestry": [
         "L_ 27351",
-        "B_ {#vyAdA#}"
+        "B_ {#rahasya#}"
     ],
-    "_banner": "{#vyAdA#}",
+    "_banner": "{#rahasya#}",
     "_bannerExp": [
         {
-            "Right": "vyAdA"
+            "Right": "rahasya"
         }
     ],
     "_gram": [
-        "{c3c}",
-        "<ab>U.</ab>"
+        "{%a.%}",
+        "[{#rahasi-BavaH yat#}]"
     ],
     "_meanings": [
-        "{@--1@} To open, break\nopen; {#na vyAdadAtyAnanamatra mftyuH#}  \n<ls>Ki. 16. 16</ls>; {#nadI kUlaM vyAdada ti#}, or {#vyAdadate#} \n{#pipIlikAH pataMgasya muKaM#} <ls>Mbh.</ls> ",
-        "{@--2@} To make\nlarge, broaden."
+        ".²1 Secret, private, clandestine; {#rahasyaM ca prakASaM ca yad vfttaM#}\n {#tasya DImataH#} ({#kaTaya#}) <ls>Rām. 1. 2. 33</ls>; {#romARi ca rahasyAni sarvARyeva#}\n {#vivarjayet#} <ls>Ms. 4. 144</ls>.\n",
+        ".²2 Mysterious.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 251928,
+            "_ancestry": [
+                "L_ 27351",
+                "B_ {#rahasya#}",
+                "M_ .{@{#-syam#}@}"
+            ],
+            "_banner": ".{@{#-syam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahasyam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A secret (<ab>fig.</ab> also); {#svayaM rahasyaBedaH kftaH#} <ls>V. 2</ls>.\n",
+                ".²2 A mystic spell or incantation, the mystery (of a missile); {#sarahasyAni#}\n {#jfmBakAstrARi#} <ls>U. 1</ls>.\n",
+                ".²3 The mystery or secret of conduct, mystery; {#rahasyaM sADUnAmanupaDi#}\n {#viSudDaM vijayate#} <ls>U. 2. 2</ls>; {#sarahasyo DanurvedaH#} <ls>Bhāg. 1. 7. 44</ls>.\n",
+                ".²4 A secret or esoteric teaching, a mystic doctrine; {#Bakto'si me saKA#}\n {#ceti rahasyaM hyetaduttamam#} <ls>Bg. 4. 3</ls>; {#sANgopANgopanizadaH sarahasyaH#}\n {#pradIyatAm#} <ls>Rām. 1. 55. 16</ls>.\n",
+                ".²5 An Upaniṣad; {#caturByaH sarahasyeByo vedeByo hyaDikaM yadA#} <ls>Mb. 1. 1. 272</ls>;\n <ls>Ms. 2. 165</ls>.\n"
+            ]
+        },
+        {
+            "__line": 251939,
+            "_ancestry": [
+                "L_ 27351",
+                "B_ {#rahasya#}",
+                "M_ .{@{#-syam#}@}"
+            ],
+            "_banner": ".{@{#-syam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahasyam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Secretly, privately; {#anaBiKyAtadozastu rahasyaM#}\n {#vratamAcaret#} <ls>Y. 3. 300</ls> (where it may be taken as an <ab>adj.</ab> also).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 251942,
+            "_ancestry": [
+                "L_ 27351",
+                "B_ {#rahasya#}",
+                "S_ .{@{#-AKyAyin#}@}"
+            ],
+            "_banner": ".{@{#-AKyAyin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahasyAKyAyin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "telling a secret; {#rahasyAKyAyIva svanasi mfdu#}\n {#karRAntikacaraH#} <ls>Ś. 1. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 251944,
+            "_ancestry": [
+                "L_ 27351",
+                "B_ {#rahasya#}",
+                "S_ .{@{#-trayam#}@}"
+            ],
+            "_banner": ".{@{#-trayam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahasyatrayam"
+                }
+            ],
+            "_meanings": [
+                "the three categories of Rāmānuja school {#-ISvara, cit#}\n and {#acit#} composing the universe.\n"
+            ]
+        },
+        {
+            "__line": 251946,
+            "_ancestry": [
+                "L_ 27351",
+                "B_ {#rahasya#}",
+                "S_ .{@{#-BedaH, viBedaH#}@}"
+            ],
+            "_banner": ".{@{#-BedaH, viBedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahasyaBedaH"
+                },
+                {
+                    "Right": "rahasyaviBedaH"
+                }
+            ],
+            "_meanings": [
+                "disclosure of a secret or mystery.\n"
+            ]
+        },
+        {
+            "__line": 251947,
+            "_ancestry": [
+                "L_ 27351",
+                "B_ {#rahasya#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rahasyavratam"
+                }
+            ],
+            "_meanings": [
+                ".²1 a secret vow or penance.\n",
+                ".²2 the mystic science of obtaining command over magical weapons."
+            ]
+        }
     ]
 }

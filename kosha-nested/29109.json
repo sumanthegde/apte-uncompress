@@ -1,19 +1,67 @@
 {
-    "__line": 244427,
+    "__line": 269548,
     "_ancestry": [
         "L_ 29109",
-        "B_ {#sanaya#}"
+        "B_ {#vAsi(Si)zWa#}"
     ],
-    "_banner": "{#sanaya#}",
+    "_banner": "{#vAsi(Si)zWa#}",
     "_bannerExp": [
         {
-            "Right": "sanaya"
+            "Right": "vAsizWa"
+        },
+        {
+            "Right": "vASizWa"
+        },
+        {
+            "Right": "vAsizWI"
+        },
+        {
+            "Right": "vASizWI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-zWI#}|{%f.%})",
+        "[{#vasi(Si)zWa-aR#}]"
     ],
     "_meanings": [
-        "Ancient, old (<ab>Ved.</ab>). "
+        "Belonging to or composed by\n (rather revealed to) Vasiṣṭha, as a Maṇḍala of the Ṛgveda.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 269551,
+            "_ancestry": [
+                "L_ 29109",
+                "B_ {#vAsi(Si)zWa#}",
+                "M_ .{@{#-zWaH#}@}"
+            ],
+            "_banner": ".{@{#-zWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsizWaH"
+                }
+            ],
+            "_meanings": [
+                "A descendant of Vasiṣṭha.\n"
+            ]
+        },
+        {
+            "__line": 269552,
+            "_ancestry": [
+                "L_ 29109",
+                "B_ {#vAsi(Si)zWa#}",
+                "M_ .{@{#-zWI#}@}"
+            ],
+            "_banner": ".{@{#-zWI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAsizWI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The Gomatī river.\n",
+                ".²2 The north; {#kAzWAM cAsAdya vAsizWIm#} <ls>Mb. 5. 109. 16</ls>."
+            ]
+        }
     ]
 }

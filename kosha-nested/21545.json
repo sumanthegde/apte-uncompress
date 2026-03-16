@@ -1,19 +1,102 @@
 {
-    "__line": 178003,
+    "__line": 193077,
     "_ancestry": [
         "L_ 21545",
-        "B_ {#badariH#}"
+        "B_ {#putrakA#}, {#-putrikA#}"
     ],
-    "_banner": "{#badariH#}",
+    "_banner": "{#putrakA#}, {#-putrikA#}",
     "_bannerExp": [
         {
-            "Right": "badariH"
+            "Right": "putrakA"
+        },
+        {
+            "Right": "putrikA"
         }
     ],
-    "_gram": [
-        "{%<ab>f.</ab>%}"
-    ],
     "_meanings": [
-        "The jujube tree."
+        ".²1 A daughter.\n",
+        ".²2 A doll, puppet.\n",
+        ".²3 A daughter appointed to raise male issue for a father who has no sons;\n {#aputrA'nena viDinA sutAM kurvIta putrikAm . yadapatyaM BavedasyAM tanmama#}\n {#syAt svaDAkaram ..#} <ls>Ms. 9. 127</ls>.\n",
+        ".²4 The cotton or down of the tamarisk.\n",
+        ".²5 A small statue; {#tadDAmnA'BUdajastUzRIM pUrdevyantIva putrikA#} <ls>Bhāg. 10. 13. 56</ls>.\n",
+        ".²6 (At the end of <ab>comp.</ab>) Anything little or small of its kind; as in {#asiputrikA#},\n {#KaqgaputrikA#} <ab>&c.</ab>\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 193088,
+            "_ancestry": [
+                "L_ 21545",
+                "B_ {#putrakA#}, {#-putrikA#}",
+                "S_ .{@{#-DarmaH#}@}"
+            ],
+            "_banner": ".{@{#-DarmaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "putrakADarmaH"
+                }
+            ],
+            "_meanings": [
+                "bestowing a daughter in marriage so as to raise issue\n for her father (see {#putrikA#} 3); {#AkUtiM rucaye prAdAdapi BrAtfmatIM#}\n {#nfpaH . putrikADarmamASritya#} <ls>Bhāg. 4. 1. 2</ls>. See next word.\n"
+            ]
+        },
+        {
+            "__line": 193091,
+            "_ancestry": [
+                "L_ 21545",
+                "B_ {#putrakA#}, {#-putrikA#}",
+                "S_ .{@{#-putraH, -sutaH#}@}"
+            ],
+            "_banner": ".{@{#-putraH, -sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "putrakAputraH"
+                },
+                {
+                    "Right": "putrakAsutaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a daughterʼs son who by agreement becomes the son of her father; see\n <ls>Ms. 9. 127</ls>; {#aBrAtfkAM pradAsyAmi tuByaM kanyAmalaMkftAm . asyAM yo jAyate#}\n {#putraH sa me putro Bavediti ..#} <ls>Vasiṣṭhasmṛti.</ls>\n",
+                ".²2 a daughter who, being regarded as a son, returns to her fatherʼs house;\n ({#putrikEva putraH#}; {#aTavA putrikEva sutaH putrikAsutaH so'pyOrasasama#}\n {#eva#} <ls>Mit.</ls> on <ls>Y. 2. 128</ls>).\n",
+                ".²3 a grandson\n"
+            ]
+        },
+        {
+            "__line": 193099,
+            "_ancestry": [
+                "L_ 21545",
+                "B_ {#putrakA#}, {#-putrikA#}",
+                "S_ .{@{#-prasUH#}@}"
+            ],
+            "_banner": ".{@{#-prasUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "putrakAprasUH"
+                }
+            ],
+            "_meanings": [
+                "a mother\n\n of daughters.\n"
+            ]
+        },
+        {
+            "__line": 193102,
+            "_ancestry": [
+                "L_ 21545",
+                "B_ {#putrakA#}, {#-putrikA#}",
+                "S_ .{@{#-Bartf#}@}"
+            ],
+            "_banner": ".{@{#-Bartf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "putrakABartf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "‘a daughterʼs husband’, a son-in-law."
+            ]
+        }
     ]
 }

@@ -1,21 +1,57 @@
 {
-    "__line": 233275,
+    "__line": 255690,
     "_ancestry": [
         "L_ 27710",
-        "B_ {#SalB#}"
+        "B_ {#rOpya#}"
     ],
-    "_banner": "{#SalB#}",
+    "_banner": "{#rOpya#}",
     "_bannerExp": [
         {
-            "Right": "SalB"
+            "Right": "rOpya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#SalBate#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To praise."
+        "Made of silver, silver, like silver.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 255691,
+            "_ancestry": [
+                "L_ 27710",
+                "B_ {#rOpya#}",
+                "M_ .{@{#-pyam#}@}"
+            ],
+            "_banner": ".{@{#-pyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rOpyam"
+                }
+            ],
+            "_meanings": [
+                "Silver.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 255693,
+            "_ancestry": [
+                "L_ 27710",
+                "B_ {#rOpya#}",
+                "S_ .{@{#-mAzakaH#}@}"
+            ],
+            "_banner": ".{@{#-mAzakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rOpyamAzakaH"
+                }
+            ],
+            "_meanings": [
+                "a particular weight; {#dve kfzRale samaDfte vijYeyo rOpyamAzakaH#} <ls>Ms. 8. 135</ls>."
+            ]
+        }
     ]
 }

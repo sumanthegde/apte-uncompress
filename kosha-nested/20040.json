@@ -1,19 +1,60 @@
 {
-    "__line": 167380,
+    "__line": 180664,
     "_ancestry": [
         "L_ 20040",
-        "B_ {#prativezwita#}"
+        "B_ {#parAhata#}"
     ],
-    "_banner": "{#prativezwita#}",
+    "_banner": "{#parAhata#}",
     "_bannerExp": [
         {
-            "Right": "prativezwita"
+            "Right": "parAhata"
         }
     ],
     "_gram": [
         "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Rolled back, \nreverted."
+        ".²1 Struck down or back.\n",
+        ".²2 Driven back, repelled, repulsed.\n",
+        ".²3 Assailed, attacked.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 180668,
+            "_ancestry": [
+                "L_ 20040",
+                "B_ {#parAhata#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAhatam"
+                }
+            ],
+            "_meanings": [
+                "A stroke.\n"
+            ]
+        },
+        {
+            "__line": 180669,
+            "_ancestry": [
+                "L_ 20040",
+                "B_ {#parAhata#}",
+                "M_ .{@{#-tiH#}@}"
+            ],
+            "_banner": ".{@{#-tiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAhatiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Contradiction."
+            ]
+        }
     ]
 }

@@ -1,25 +1,84 @@
 {
-    "__line": 249484,
+    "__line": 275400,
     "_ancestry": [
         "L_ 29815",
-        "B_ {#saraRiH, --RI#}"
+        "B_ {#vipanna#}"
     ],
-    "_banner": "{#saraRiH, --RI#}",
+    "_banner": "{#vipanna#}",
     "_bannerExp": [
         {
-            "Right": "saraRI"
-        },
-        {
-            "Right": "saraRiH"
+            "Right": "vipanna"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} A path, way,\nroad, course; <ls>G. L. 18.</ls> ",
-        "{@--2@} \nArrangement, mode. ",
-        "{@--3@} A straight or \ncontinuous line. ",
-        "{@--4@} A disease of the\nthroat."
+        ".²1 Dead.\n",
+        ".²2 Lost, destroyed.\n",
+        ".²3 Unfortunate, afflicted, distressed, fallen into adversity.\n",
+        ".²4 Declined.\n",
+        ".²5 Disabled, incapacitated; {#baliM vipannamAdAya astaM girimupAgaman#}\n <ls>Bhāg. 8. 12. 46</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 275407,
+            "_ancestry": [
+                "L_ 29815",
+                "B_ {#vipanna#}",
+                "M_ .{@{#-nnaH#}@}"
+            ],
+            "_banner": ".{@{#-nnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipannaH"
+                }
+            ],
+            "_meanings": [
+                "A snake.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 275409,
+            "_ancestry": [
+                "L_ 29815",
+                "B_ {#vipanna#}",
+                "S_ .{@{#-dIDiti#}@}"
+            ],
+            "_banner": ".{@{#-dIDiti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipannadIDiti"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose splendour is gone.\n"
+            ]
+        },
+        {
+            "__line": 275410,
+            "_ancestry": [
+                "L_ 29815",
+                "B_ {#vipanna#}",
+                "S_ .{@{#-deha#}@}"
+            ],
+            "_banner": ".{@{#-deha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vipannadeha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "dead, defunct; {#vipannadehe mayi mandaBAgye mameti#}\n {#cintA kva gamizyasi tvam#} <ls>Mk. 1. 38</ls>."
+            ]
+        }
     ]
 }

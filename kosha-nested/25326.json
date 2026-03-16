@@ -1,42 +1,182 @@
 {
-    "__line": 214526,
+    "__line": 228759,
     "_ancestry": [
         "L_ 25326",
-        "B_ {#vAMSa#}"
+        "B_ {#BEkza#}"
     ],
-    "_banner": "{#vAMSa#}",
+    "_banner": "{#BEkza#}",
     "_bannerExp": [
         {
-            "Right": "vAMSI"
+            "Right": "BEkza"
         },
         {
-            "Right": "vAMSa"
+            "Right": "BEkzI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#SI#}|{%<ab>f.</ab>%})",
-        "[{#vaMSa-aR#}]"
+        "{%a.%}",
+        "({#-kzI#}|{%f.%})",
+        "[{#BikzEva tatsamUho vA aR#}]"
     ],
     "_meanings": [
-        "Made\nof bamboo. "
+        "Living on alms.\n"
     ],
     "_morphisms": [
         {
-            "__line": 214527,
+            "__line": 228761,
             "_ancestry": [
                 "L_ 25326",
-                "B_ {#vAMSa#}",
-                "M_ {#--SI#}"
+                "B_ {#BEkza#}",
+                "M_ .{@{#-kzam#}@}"
             ],
-            "_banner": "{#--SI#}",
+            "_banner": ".{@{#-kzam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vAMSI"
+                    "Right": "BEkzam"
                 }
             ],
             "_meanings": [
-                "Bamboo-manna."
+                ".²1 Begging, mendicancy; {#BavatpUrvaM cared BEkzamupanIto dvijottamaH#}\n <ls>Ms. 2. 49</ls>; {#ekakAlaM cared BEkzaM na prasajjeta vistare#} <ls>Ms. 6. 55</ls>; <ls>Y. 3. 42</ls>.\n",
+                ".²2 Anything got by begging, alms, charity; {#BEkzeRa vartayennityam#}\n <ls>Ms. 2. 188</ls>, <ls n=\"Ms.\">4. 5</ls>; {#gorakzaRe#}\n\n {#saMniyukto guruRA BEkzaBojanaH#} <ls>Bm. 1. 32</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 228769,
+            "_ancestry": [
+                "L_ 25326",
+                "B_ {#BEkza#}",
+                "S_ .{@{#-annam#}@}"
+            ],
+            "_banner": ".{@{#-annam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BEkzAnnam"
+                }
+            ],
+            "_meanings": [
+                "alms, food obtained by begging.\n"
+            ]
+        },
+        {
+            "__line": 228770,
+            "_ancestry": [
+                "L_ 25326",
+                "B_ {#BEkza#}",
+                "S_ .{@{#-ASin#}@}"
+            ],
+            "_banner": ".{@{#-ASin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BEkzASin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eating food obtained by begging. --({%m.%}) a beggar,\n mendicant; <ls>Ms. 11. 72</ls>.\n"
+            ]
+        },
+        {
+            "__line": 228772,
+            "_ancestry": [
+                "L_ 25326",
+                "B_ {#BEkza#}",
+                "S_ .{@{#-AhAraH#}@}"
+            ],
+            "_banner": ".{@{#-AhAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BEkzAhAraH"
+                }
+            ],
+            "_meanings": [
+                "a beggar; {#BEkzAhAro viSudDyati#} <ls>Ms. 11. 257</ls>.\n"
+            ]
+        },
+        {
+            "__line": 228773,
+            "_ancestry": [
+                "L_ 25326",
+                "B_ {#BEkza#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BEkzakAlaH"
+                }
+            ],
+            "_meanings": [
+                "the time for begging.\n"
+            ]
+        },
+        {
+            "__line": 228774,
+            "_ancestry": [
+                "L_ 25326",
+                "B_ {#BEkza#}",
+                "S_ .{@{#-caraRam, -caryam, -caryA#}@}"
+            ],
+            "_banner": ".{@{#-caraRam, -caryam, -caryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BEkzacaraRam"
+                },
+                {
+                    "Right": "BEkzacaryam"
+                },
+                {
+                    "Right": "BEkzacaryA"
+                }
+            ],
+            "_meanings": [
+                "going about begging, begging, collecting alms.\n"
+            ]
+        },
+        {
+            "__line": 228775,
+            "_ancestry": [
+                "L_ 25326",
+                "B_ {#BEkza#}",
+                "S_ .{@{#-jIvikA, -vfttiH#}@}"
+            ],
+            "_banner": ".{@{#-jIvikA, -vfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BEkzajIvikA"
+                },
+                {
+                    "Left": "S error: midAlign vfttiH jIvfttiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "mendicancy.\n"
+            ]
+        },
+        {
+            "__line": 228776,
+            "_ancestry": [
+                "L_ 25326",
+                "B_ {#BEkza#}",
+                "S_ .{@{#-Buj#}@}"
+            ],
+            "_banner": ".{@{#-Buj#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BEkzaBuj"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a beggar, mendicant."
             ]
         }
     ]

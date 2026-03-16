@@ -1,21 +1,36 @@
 {
-    "__line": 218297,
+    "__line": 234606,
     "_ancestry": [
         "L_ 25825",
-        "B_ {#vijayin#}"
+        "B_ {#marjUH#}"
     ],
-    "_banner": "{#vijayin#}",
+    "_banner": "{#marjUH#}",
     "_bannerExp": [
         {
-            "Right": "vijayin"
+            "Right": "marjUH"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}"
-    ],
     "_meanings": [
-        "A conqueror, victor.\n{#vijigIzA#} ",
-        "{@--1@} Desire to conquer or \n\novercome. ",
-        "{@--2@} Desire to surpass\nemulation, competition, ambition."
+        ".²1 A washerman.\n",
+        ".²2 A catamite. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 234608,
+            "_ancestry": [
+                "L_ 25825",
+                "B_ {#marjUH#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#marjUH#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "Cleansing, washing, purification."
+            ]
+        }
     ]
 }

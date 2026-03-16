@@ -1,20 +1,41 @@
 {
-    "__line": 27609,
+    "__line": 24765,
     "_ancestry": [
         "L_ 2818",
-        "B_ {#apratipakza#}"
+        "B_ {#apaSaNka#}"
     ],
-    "_banner": "{#apratipakza#}",
+    "_banner": "{#apaSaNka#}",
     "_bannerExp": [
         {
-            "Right": "apratipakza"
+            "Right": "apaSaNka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Without a rival\nor opponent. ",
-        "{@--2@} Unlike."
+        "Free from fear or hesitation, fearless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 24766,
+            "_ancestry": [
+                "L_ 2818",
+                "B_ {#apaSaNka#}",
+                "M_ .{@{#-Nkam#}@}"
+            ],
+            "_banner": ".{@{#-Nkam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apaSaNkam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "Fearlessly."
+            ]
+        }
     ]
 }

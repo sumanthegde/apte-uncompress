@@ -1,21 +1,86 @@
 {
-    "__line": 200853,
+    "__line": 212451,
     "_ancestry": [
         "L_ 23807",
-        "B_ {#yAyin#}"
+        "B_ {#prAktana#}"
     ],
-    "_banner": "{#yAyin#}",
+    "_banner": "{#prAktana#}",
     "_bannerExp": [
         {
-            "Right": "yAyin"
+            "Right": "prAktana"
+        },
+        {
+            "Right": "prAktanI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Going, moving, \ntravelling (at the end of <ab>comp.</ab>). ",
-        "{@--2@}\nDriving in, riding or going in. ",
-        "{@--3@}\nLeading to; {#vitrakUwayAyini vartmani#}\n<ls>U. 1.</ls>"
+        ".²1 Former, previous, antecedent; {#prapedire prAktanajanmavidyAH#} <ls>Ku. 1. 30</ls>.\n",
+        ".²2 Old, ancient, early.\n",
+        ".²3 Relating to a former life or acts in a former life; {#saMskArAH prAktanA#}\n {#iva#} <ls>R. 1. 20</ls>; <ls>Ku. 6. 10</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 212456,
+            "_ancestry": [
+                "L_ 23807",
+                "B_ {#prAktana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAktanam"
+                }
+            ],
+            "_meanings": [
+                "(or {@{#prAktanakarman#}@}) {%n.%} Fate, destiny.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 212458,
+            "_ancestry": [
+                "L_ 23807",
+                "B_ {#prAktana#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAktanakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "any act formerly done, or done in a former state of existence.\n"
+            ]
+        },
+        {
+            "__line": 212459,
+            "_ancestry": [
+                "L_ 23807",
+                "B_ {#prAktana#}",
+                "S_ .{@{#-janman#}@}"
+            ],
+            "_banner": ".{@{#-janman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prAktanajanman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a former birth."
+            ]
+        }
     ]
 }

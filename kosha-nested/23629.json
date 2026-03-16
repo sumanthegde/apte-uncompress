@@ -1,72 +1,98 @@
 {
-    "__line": 198757,
+    "__line": 211020,
     "_ancestry": [
         "L_ 23629",
-        "B_ {#yakft#}"
+        "B_ {#prasUna#}"
     ],
-    "_banner": "{#yakft#}",
+    "_banner": "{#prasUna#}",
     "_bannerExp": [
         {
-            "Right": "yakft"
+            "Right": "prasUna"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}",
-        "[{#yaMsaMyamaM karoti kf kvip tuk#}\n{#ca#} <ls>Tv.</ls>]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "The liver or any affection\nof it. "
+        "Produced, born.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 211021,
+            "_ancestry": [
+                "L_ 23629",
+                "B_ {#prasUna#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prasUnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A flower; {#latAyAM pUrvalUnAyAM prasUnasyAgamaH kutaH#} <ls>U. 5. 20</ls>; <ls>R. 2. 10</ls>.\n",
+                ".²2 A bud, blossom.\n",
+                ".²3 A fruit.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 198759,
+            "__line": 211026,
             "_ancestry": [
                 "L_ 23629",
-                "B_ {#yakft#}",
-                "S_  {#--AtmikA#}"
+                "B_ {#prasUna#}",
+                "S_ .{@{#-aYjali#}@}"
             ],
-            "_banner": " {#--AtmikA#}",
+            "_banner": ".{@{#-aYjali#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yakfdAtmikA"
+                    "Right": "prasUnAYjali"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "a kind of\ncock-roach. "
+                "= {#puzpAYjali#}. {@{#-izuH, -bARaH, -vARaH#}@}\n epithets of the god of love; {#prasUnabARAdvayavAdinI sA kApi dvijenopanizatapikena#}.\n"
             ]
         },
         {
-            "__line": 198760,
+            "__line": 211028,
             "_ancestry": [
                 "L_ 23629",
-                "B_ {#yakft#}",
-                "S_ {#--udaraM#}"
+                "B_ {#prasUna#}",
+                "S_ .{@{#-rasasaMBavA#}@}"
             ],
-            "_banner": "{#--udaraM#}",
+            "_banner": ".{@{#-rasasaMBavA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yakfdudaraM"
+                    "Right": "prasUnarasasamBavA"
                 }
             ],
+            "_gram": [
+                "{%f.%}"
+            ],
             "_meanings": [
-                "enlargement of\nthe liver. "
+                "the sugar prepared from flowers.\n"
             ]
         },
         {
-            "__line": 198761,
+            "__line": 211029,
             "_ancestry": [
                 "L_ 23629",
-                "B_ {#yakft#}",
-                "S_ {#--kozaH#}"
+                "B_ {#prasUna#}",
+                "S_ .{@{#-varzaH#}@}"
             ],
-            "_banner": "{#--kozaH#}",
+            "_banner": ".{@{#-varzaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "yakftkozaH"
+                    "Right": "prasUnavarzaH"
                 }
             ],
             "_meanings": [
-                "the membrane\nenveloping the liver."
+                "a shower of flowers (rained from heaven)."
             ]
         }
     ]

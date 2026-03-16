@@ -1,19 +1,57 @@
 {
-    "__line": 186441,
+    "__line": 200488,
     "_ancestry": [
         "L_ 22333",
-        "B_ {#BEmaseniH --nyaH#}"
+        "B_ {#pratApana#}"
     ],
-    "_banner": "{#BEmaseniH --nyaH#}",
+    "_banner": "{#pratApana#}",
     "_bannerExp": [
         {
-            "Right": "BEmaseniH"
-        },
-        {
-            "Right": "BEmasenyaH"
+            "Right": "pratApana"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A son of Bhīmasena."
+        ".²1 Warming.\n",
+        ".²2 Distressing.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 200491,
+            "_ancestry": [
+                "L_ 22333",
+                "B_ {#pratApana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratApanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Burning, heating, warming.\n",
+                ".²2 Paining, tormenting, inflicting punishment.\n"
+            ]
+        },
+        {
+            "__line": 200494,
+            "_ancestry": [
+                "L_ 22333",
+                "B_ {#pratApana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pratApanaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a hell."
+            ]
+        }
     ]
 }

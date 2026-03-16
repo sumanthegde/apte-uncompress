@@ -1,41 +1,37 @@
 {
-    "__line": 238032,
+    "__line": 261693,
     "_ancestry": [
         "L_ 28324",
-        "B_ {#SyAna#}"
+        "B_ {#vawin#}"
     ],
-    "_banner": "{#SyAna#}",
+    "_banner": "{#vawin#}",
     "_bannerExp": [
         {
-            "Right": "SyAna"
+            "Right": "vawin"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#SyE kta#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Gone. ",
-        "{@--2@}\nCoagulated, congealed. ",
-        "{@--3@} Thick,\nsticky, viscous. ",
-        "{@--4@} Shrunk, dry;  \n{#Saradi saritaH SyAnapulinAH#} <ls>Bh. 2. 44.</ls> "
+        "Stringed, circular. "
     ],
     "_morphisms": [
         {
-            "__line": 238035,
+            "__line": 261693,
             "_ancestry": [
                 "L_ 28324",
-                "B_ {#SyAna#}",
-                "M_ {#--naM#}"
+                "B_ {#vawin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "SyAnaM"
+                    "Left": "Parser error: {#vawin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "Smoke."
+                "= {#vawika#} <ab>q. v.</ab>"
             ]
         }
     ]

@@ -1,48 +1,198 @@
 {
-    "__line": 167084,
+    "__line": 180274,
     "_ancestry": [
         "L_ 19985",
-        "B_ {#pratimuc#}"
+        "B_ {#parAc, parAYc#}"
     ],
-    "_banner": "{#pratimuc#}",
+    "_banner": "{#parAc, parAYc#}",
     "_bannerExp": [
         {
-            "Right": "pratimuc"
+            "Right": "parAc"
+        },
+        {
+            "Right": "parAYc"
+        },
+        {
+            "Right": "parAcI"
+        },
+        {
+            "Right": "parAYcI"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-cI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} To free, liberate,\nrelease, set free; {#gfhItapratimuktasya#}  \n<ls>R. 4. 43</ls>; {#aptuM turaMgaM pratimoktusarhasi#}  \n<ls n=\"R.\">3. 46.</ls> ",
-        "{@--2@} To put on, wear, accoutre\nor arm oneself with. ",
-        "{@--3@} To quit,\nleave, abandon. ",
-        "{@--4@} To throw, cast,\nor discharge at. ",
-        "{@--5@} To pay off (a\ndebt.). ",
-        "{@--6@} To return, restore. ",
-        "{@--7@}\nTo fasten, bind. ",
-        "{@--8@} To assume a\nform. "
+        ".²1 Situated beyond or on the other side; {#ye cAmuzmAt parAYco lokAH#}\n <ls>Ch. Up.</ls>; {#digdeSakAlavacano hi parAkSabdo Bavati#} <ls>ŚB. on MS. 10. 5. 47</ls>.\n",
+        ".²2 Having the face turned away; {#AtmIyAste ye parAYcaH purastAt#} ({#parANmuKa#}); <ls>Śi. 18. 18</ls>.\n",
+        ".²3 Unfavourable, adverse; {#dEve parAci#} <ls>Bv. 1. 105</ls>; or {#dEve parAgvadanaSAlini#}\n {#hanta jAte#} <ls n=\"Bv.\">3. 1</ls>.\n",
+        ".²4 Distant.\n",
+        ".²5 Directed outwards; {#parAN paSyati nAntarAtman#}\n\n <ls>Kaṭh. 2. 1. 1</ls>; <ls>Bhāg. 8. 19. 9</ls>.\n",
+        ".²6 Turned away, averted.\n",
+        ".²7 Departing or returning from.\n",
+        ".²8 Inverted, reversed.\n",
+        ".²9 Not repeated; {#anaByAse parAkSabdasya tAdarTyAt#} <ls>MS. 10. 5. 45</ls>; {#anaByAse#}\n {#parAkSabdo vartate#} <ls>ŚB. on MS. 10. 5. 45</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 167093,
+            "__line": 180288,
             "_ancestry": [
                 "L_ 19985",
-                "B_ {#pratimuc#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#parAc, parAYc#}",
+                "M_ --{%n.%}"
             ],
+            "_banner": "--{%n.%}",
             "_bannerExp": [
                 {
-                    "Right": "pratimuc"
+                    "Left": "Parser error: {#parAc#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "The body; {#yadAtmAnaM#}\n {#parAggfhya paSuvadBUtavESasam#} <ls>Bhāg. 4. 11. 10</ls>. "
+            ]
+        },
+        {
+            "__line": 180289,
+            "_ancestry": [
+                "L_ 19985",
+                "B_ {#parAc, parAYc#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#parAc#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Away, off.\n",
+                ".²2 Outwards.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 180293,
+            "_ancestry": [
+                "L_ 19985",
+                "B_ {#parAc, parAYc#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAgdfS"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To liberate, release.\n",
-                "{@--2@} To rescue, save, deliver."
+                "having the eyes turned towards the outer world.\n"
+            ]
+        },
+        {
+            "__line": 180294,
+            "_ancestry": [
+                "L_ 19985",
+                "B_ {#parAc, parAYc#}",
+                "S_ .{@{#-puzpaH#}@}"
+            ],
+            "_banner": ".{@{#-puzpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAkpuzpaH"
+                }
+            ],
+            "_meanings": [
+                "The {#kadamba#} tree.\n"
+            ]
+        },
+        {
+            "__line": 180295,
+            "_ancestry": [
+                "L_ 19985",
+                "B_ {#parAc, parAYc#}",
+                "S_ .{@{#-puzpI#}@}"
+            ],
+            "_banner": ".{@{#-puzpI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAkpuzpI"
+                }
+            ],
+            "_meanings": [
+                "The {#apAmArga#}. tree (<lang>Mar.</lang> <ns>{#AGAqA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 180296,
+            "_ancestry": [
+                "L_ 19985",
+                "B_ {#parAc, parAYc#}",
+                "S_ .{@{#-muKa#}@}"
+            ],
+            "_banner": ".{@{#-muKa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parANmuKa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#parANmuKa#})"
+            ],
+            "_meanings": [
+                ".²1 having the face turned away or averted, turning the back upon; {#vigrahAcca#}\n {#Sayane parANmuKIrnAnunetumabalAH sa tatvare#} <ls>R. 19. 38</ls>; <ls>Amaru. 90</ls>; <ls>Ms. 2. 195</ls>, <ls n=\"Ms.\">10. 119</ls>.\n",
+                ".²2\n",
+                ".³({%a%}) averse from; {#mAturna kevalaM svasyAH Sriyo'pyAsIt parANmuKaH#} <ls>R. 12. 13</ls>.\n",
+                ".³({%b%}) not disposed towards, shunning, avoiding; {#pravfttiparANmuKo#}\n {#BAvaH#} <ls>V. 4. 20</ls>; <ls>Ś. 5. 28</ls>.\n",
+                ".²3 adverse, unfavourable; {#tanurapi na te dozo'smAkaM viDistu parANmuKaH#} <ls>Amaru. 30</ls>.\n",
+                ".²4 not caring about, regardless of; {#martyezvAsTAparANmuKaH#} <ls>R. 10. 43</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 180305,
+                    "_ancestry": [
+                        "L_ 19985",
+                        "B_ {#parAc, parAYc#}",
+                        "S_ .{@{#-muKa#}@}",
+                        "S_M_ ({@{#-KaH#}@})"
+                    ],
+                    "_banner": "({@{#-KaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "parANmuKaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a magical formula pronounced over weapons.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 180306,
+            "_ancestry": [
+                "L_ 19985",
+                "B_ {#parAc, parAYc#}",
+                "S_ .{@{#-Kam, -muKatA, -muKatvam#}@}"
+            ],
+            "_banner": ".{@{#-Kam, -muKatA, -muKatvam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parAkKam"
+                },
+                {
+                    "Right": "parANmuKatA"
+                },
+                {
+                    "Right": "parANmuKatvam"
+                }
+            ],
+            "_meanings": [
+                "Turning away, aversion."
             ]
         }
     ]

@@ -1,38 +1,565 @@
 {
-    "__line": 151105,
+    "__line": 158152,
     "_ancestry": [
         "L_ 17881",
-        "B_ {#parikrAMta#}"
+        "B_ {#Danus#}"
     ],
-    "_banner": "{#parikrAMta#}",
+    "_banner": "{#Danus#}",
     "_bannerExp": [
         {
-            "Right": "parikrAMta"
+            "Right": "Danus"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "[{#Dan Sabde-usi#}]"
     ],
     "_meanings": [
-        "Walked round. "
+        "Armed with a bow. "
     ],
     "_morphisms": [
         {
-            "__line": 151105,
+            "__line": 158152,
             "_ancestry": [
                 "L_ 17881",
-                "B_ {#parikrAMta#}",
-                "M_ {#--taM#}"
+                "B_ {#Danus#}",
+                "M_ --{%n.%}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": "--{%n.%}",
             "_bannerExp": [
                 {
-                    "Right": "parikrAMtaM"
+                    "Left": "Parser error: {#Danus#} M_ --{%n.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} The place on which any one has\nwalked about. ",
-                "{@--2@} A foot-step, \nfootprint."
+                ".²1 A bow; {#DanurvaMSaviSudDo'pi nirguRaH kiM karizyati#} <ls>Subhāṣ.</ls> {#DanuzyamoGaM#}\n {#samaDatta bARam#} <ls>Ku. 3. 66</ls>; so {#indraDanuH#} <ab>&c.</ab> (At the end of <ab>Bah. comp.</ab>\n {#Danus#} is changed to {#Danvan#}; {#aDijyaDanvA vicacAra dAvam#} <ls>R. 2. 8</ls>).\n",
+                ".²2 A measure of length equal to four {%hastas%}; {#DanuHSataM parIRAho#}\n {#grAme kzetrAntaraM Bavet#} <ls>Y. 2. 167</ls>; <ls>Ms. 8. 237</ls>.\n",
+                ".²3 An arc of a circle.\n",
+                ".²4 The sign Sagittarius of the zodiac.\n",
+                ".²5 A desert; <ab>cf.</ab> {#Danvan#}. "
+            ]
+        },
+        {
+            "__line": 158160,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Danus#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Śiva.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 158162,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-AkAra#}@}"
+            ],
+            "_banner": ".{@{#-AkAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurAkAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#DanurAkAra#})"
+            ],
+            "_meanings": [
+                "bow-shaped, curved, bent.\n"
+            ]
+        },
+        {
+            "__line": 158163,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-Asanam#}@}"
+            ],
+            "_banner": ".{@{#-Asanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurAsanam"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurAsanam#}@})"
+            ],
+            "_meanings": [
+                "a particular mode of sitting.\n"
+            ]
+        },
+        {
+            "__line": 158164,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danuzkara"
+                }
+            ],
+            "_gram": [
+                "({@{#Danuzkara#}@})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having or armed with a bow.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 158165,
+                    "_ancestry": [
+                        "L_ 17881",
+                        "B_ {#Danus#}",
+                        "S_ .{@{#-kara#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "DanuzkaraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a bow-maker.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 158166,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-kARqam#}@}"
+            ],
+            "_banner": ".{@{#-kARqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanuzkARqam"
+                }
+            ],
+            "_gram": [
+                "({@{#DanuzkARqam#}@})"
+            ],
+            "_meanings": [
+                "a bow and arrow.\n"
+            ]
+        },
+        {
+            "__line": 158167,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-KaRqam#}@}"
+            ],
+            "_banner": ".{@{#-KaRqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanuzKaRqam"
+                }
+            ],
+            "_gram": [
+                "({@{#DanuzKaRqam#}@})"
+            ],
+            "_meanings": [
+                "part of a bow; <ls>Me. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158168,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-guRaH#}@}"
+            ],
+            "_banner": ".{@{#-guRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurguRaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurguRaH#}@})"
+            ],
+            "_meanings": [
+                "a bow-string.\n"
+            ]
+        },
+        {
+            "__line": 158169,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-grahaH#}@}"
+            ],
+            "_banner": ".{@{#-grahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurgrahaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurgrahaH#}@})",
+                "{@{#-grAhaH#}@}"
+            ],
+            "_meanings": [
+                "an archer. {#Danurgrahavaro yasya bARaKaqgAstraBftsvayam#}\n <ls>Rām. 2. 44. 20</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158172,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-graham#}@}"
+            ],
+            "_banner": ".{@{#-graham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danurgraham"
+                }
+            ],
+            "_meanings": [
+                "a measure, a cubit of 27 aṅgulas; <ls>Māna. 2. 52</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158173,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-jyA#}@}"
+            ],
+            "_banner": ".{@{#-jyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurjyA"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurjyA#}@})"
+            ],
+            "_meanings": [
+                "a bow-string; {#anavarataDanurjyAsPAlanakrUrapUrvam#} <ls>Ś. 2. 4</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158174,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-durgam#}@}"
+            ],
+            "_banner": ".{@{#-durgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danurdurgam"
+                }
+            ],
+            "_gram": [
+                "({@{#Danurdurgam#}@})"
+            ],
+            "_meanings": [
+                "a place protected by a desert; <ls>Ms. 7. 70</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158175,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-drumaH#}@}"
+            ],
+            "_banner": ".{@{#-drumaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurdrumaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurdrumaH#}@})"
+            ],
+            "_meanings": [
+                "a bamboo.\n"
+            ]
+        },
+        {
+            "__line": 158176,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-DaraH, -Bft#}@}"
+            ],
+            "_banner": ".{@{#-DaraH, -Bft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurDaraH"
+                },
+                {
+                    "Right": "DanurBft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "({#DanurDaraH#} <ab>&c.</ab>)\n",
+                ".²1 an archer; {#DanurBfto'pyasya dayArdraBAvam#} <ls>R. 2. 11</ls>; {#DanurDaraH#}\n {#kesariRaM dadarSa#} <ls n=\"R.\">29</ls>, <ls n=\"R.\">3. 31</ls>, <ls n=\"R. 3.\">38</ls>, <ls n=\"R. 3.\">39</ls>, <ls n=\"R.\">9. 11</ls>, <ls n=\"R.\">12. 97</ls>, <ls n=\"R.\">16. 77</ls>.\n",
+                ".²2 an epithet of Viṣṇu.\n",
+                ".²3 the sign Sagittarius of the zodiac.\n"
+            ]
+        },
+        {
+            "__line": 158181,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-DArin#}@}"
+            ],
+            "_banner": ".{@{#-DArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurDArin"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurDArin#}@})",
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an archer.\n"
+            ]
+        },
+        {
+            "__line": 158182,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-pARi#}@}"
+            ],
+            "_banner": ".{@{#-pARi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanuzpARi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#DanuzpARi#})"
+            ],
+            "_meanings": [
+                "armed with a bow, with a bow in hand;\n {#ahameva DanuzpARiryodDA samaramUrDani#} <ls>Rām.</ls>\n"
+            ]
+        },
+        {
+            "__line": 158184,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-mArgaH#}@}"
+            ],
+            "_banner": ".{@{#-mArgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurmArgaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurmArgaH#}@})"
+            ],
+            "_meanings": [
+                "a line curved like a bow, a curve.\n"
+            ]
+        },
+        {
+            "__line": 158185,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-mAsaH#}@}"
+            ],
+            "_banner": ".{@{#-mAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurmAsaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurmAsaH#}@})"
+            ],
+            "_meanings": [
+                "The period during which the sun is\n in Sagittarius.\n"
+            ]
+        },
+        {
+            "__line": 158187,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-muzwiH#}@}"
+            ],
+            "_banner": ".{@{#-muzwiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurmuzwiH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurmuzwiH#}@})"
+            ],
+            "_meanings": [
+                "a measure, a cubit of 26 aṅgulas; <ls>Māna. 2. 51</ls>.\n"
+            ]
+        },
+        {
+            "__line": 158188,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-latA#}@}"
+            ],
+            "_banner": ".{@{#-latA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurlatA"
+                }
+            ],
+            "_meanings": [
+                ".²1 bow.\n",
+                ".²2 Soma creeper.\n"
+            ]
+        },
+        {
+            "__line": 158191,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-vAtaH#}@}"
+            ],
+            "_banner": ".{@{#-vAtaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurvAtaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurvAtaH#}@})"
+            ],
+            "_meanings": [
+                "a kind of disease.\n"
+            ]
+        },
+        {
+            "__line": 158192,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-vidyA#}@}"
+            ],
+            "_banner": ".{@{#-vidyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurvidyA"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurvidyA#}@})"
+            ],
+            "_meanings": [
+                "the science of archery.\n"
+            ]
+        },
+        {
+            "__line": 158193,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-vfkzaH#}@}"
+            ],
+            "_banner": ".{@{#-vfkzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurvfkzaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurvfkzaH#}@})"
+            ],
+            "_meanings": [
+                ".²1 a bamboo.\n",
+                ".²2 the {#aSvatTa#} tree.\n"
+            ]
+        },
+        {
+            "__line": 158196,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-vedaH#}@}"
+            ],
+            "_banner": ".{@{#-vedaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanurvedaH"
+                }
+            ],
+            "_gram": [
+                "({@{#DanurvedaH#}@})"
+            ],
+            "_meanings": [
+                "the science of archery, one of the\n four {%Upavedas%} <ab>q. v.</ab> {#catuzpAdaM DanurvedaM veda paYcaviDaM dvija .#}\n {#raTanAgASvapattInAM yoDAMScASritya kIrtitam .. yantramuktaM pARimuktaM#}\n {#muktasanDAritaM taTA . amuktaM bAhuyudDaM ca paYcaDA tat prakIrtitam ..#} <ls>Agni P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 158200,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-vedin#}@}"
+            ],
+            "_banner": ".{@{#-vedin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Danurvedin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 158201,
+            "_ancestry": [
+                "L_ 17881",
+                "B_ {#Danus#}",
+                "S_ .{@{#-stamBaH#}@}"
+            ],
+            "_banner": ".{@{#-stamBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "DanuHstamBaH"
+                }
+            ],
+            "_meanings": [
+                "Tetanus."
             ]
         }
     ]

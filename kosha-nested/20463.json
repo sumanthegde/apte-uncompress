@@ -1,16 +1,58 @@
 {
-    "__line": 170099,
+    "__line": 183748,
     "_ancestry": [
         "L_ 20463",
-        "B_ {#prabuDaH#}"
+        "B_ {#parivAdin#}"
     ],
-    "_banner": "{#prabuDaH#}",
+    "_banner": "{#parivAdin#}",
     "_bannerExp": [
         {
-            "Right": "prabuDaH"
+            "Right": "parivAdin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "A great sage."
+        ".²1 Reviling, censuring, abusing, slandering.\n",
+        ".²2 Accusing.\n",
+        ".²3 Screaming, crying aloud.\n",
+        ".²4 Censured, slandered. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 183752,
+            "_ancestry": [
+                "L_ 20463",
+                "B_ {#parivAdin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#parivAdin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An accuser, a plaintiff, complainant.\n"
+            ]
+        },
+        {
+            "__line": 183753,
+            "_ancestry": [
+                "L_ 20463",
+                "B_ {#parivAdin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "parivAdinI"
+                }
+            ],
+            "_meanings": [
+                "A lute ({#vIRA#}) of seven strings; <ls>Śi. 6. 9</ls>; <ls>R. 8. 35</ls>; <ls>N. 15. 44</ls>;\n {#mahatIM parivAdinIM ca kAMcid BujapASEstapanIyapArihAryEH#} <ls>Bu. Ch. 5. 54</ls>."
+            ]
+        }
     ]
 }

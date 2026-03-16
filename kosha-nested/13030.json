@@ -1,17 +1,121 @@
 {
-    "__line": 109406,
+    "__line": 110985,
     "_ancestry": [
         "L_ 13030",
-        "B_ {#cawanaM#}"
+        "B_ {#kOwa#}"
     ],
-    "_banner": "{#cawanaM#}",
+    "_banner": "{#kOwa#}",
     "_bannerExp": [
         {
-            "Right": "cawanaM"
+            "Right": "kOwa"
+        },
+        {
+            "Right": "kOwI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-wI#}|{%f.%})",
+        "[{#kUwa-aY#}]"
+    ],
     "_meanings": [
-        "{@--1@} Cracking, splitting. ",
-        "{@--2@}\nFalling off in small pieces."
+        ".²1 Living in oneʼs own house; hence, independent, free.\n",
+        ".²2 Domestic, homely, home-bred.\n",
+        ".²3 Fraudulent, dishonest.\n",
+        ".²4 Snared.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 110990,
+            "_ancestry": [
+                "L_ 13030",
+                "B_ {#kOwa#}",
+                "M_ .{@{#-waH#}@}"
+            ],
+            "_banner": ".{@{#-waH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOwaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Fraud, falsehood.\n",
+                ".²2 Giving false evidence.\n",
+                ".²3 A variety of gems; <ls>Kau. A. 2. 11</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 110995,
+            "_ancestry": [
+                "L_ 13030",
+                "B_ {#kOwa#}",
+                "S_ .{@{#-jaH#}@}"
+            ],
+            "_banner": ".{@{#-jaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOwajaH"
+                }
+            ],
+            "_meanings": [
+                "the Kuṭaja tree.\n"
+            ]
+        },
+        {
+            "__line": 110996,
+            "_ancestry": [
+                "L_ 13030",
+                "B_ {#kOwa#}",
+                "S_ .{@{#-takzaH#}@}"
+            ],
+            "_banner": ".{@{#-takzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOwatakzaH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>opp.</ab> {#grAmatakzaH#}) an independent carpenter, one who\n works at home on his own account and not for the village.\n"
+            ]
+        },
+        {
+            "__line": 110998,
+            "_ancestry": [
+                "L_ 13030",
+                "B_ {#kOwa#}",
+                "S_ .{@{#-sAkzin#}@}"
+            ],
+            "_banner": ".{@{#-sAkzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOwasAkzin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a false witness.\n"
+            ]
+        },
+        {
+            "__line": 110999,
+            "_ancestry": [
+                "L_ 13030",
+                "B_ {#kOwa#}",
+                "S_ .{@{#-sAkzyam#}@}"
+            ],
+            "_banner": ".{@{#-sAkzyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kOwasAkzyam"
+                }
+            ],
+            "_meanings": [
+                "false evidence, perjury; <ls>Ms. 8. 117</ls>, <ls n=\"Ms. 8.\">122-23</ls>, <ls n=\"Ms.\">11. 56</ls>."
+            ]
+        }
     ]
 }

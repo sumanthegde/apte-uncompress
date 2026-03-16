@@ -1,22 +1,187 @@
 {
-    "__line": 172458,
+    "__line": 186286,
     "_ancestry": [
         "L_ 20806",
-        "B_ {#praSaMs#}"
+        "B_ {#palaH#}"
     ],
-    "_banner": "{#praSaMs#}",
+    "_banner": "{#palaH#}",
     "_bannerExp": [
         {
-            "Right": "praSaMs"
+            "Right": "palaH"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "[{#pal-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} To praise, extol,\napprove, speak approvingly of, \ncommend; {#hariRA yuvatiH praSaSaMse#} <ls>Gīt. 1</ls>;\n{#yacca bAcA praSasyate#} <ls>Ms. 5. 127</ls>;  \n{#prASaMsIttaM niSAcaraH#} <ls>Bk. 15. 65</ls>; <ls>R. 5. 25</ls>;\n<ls n=\"R.\">17. 36.</ls> ",
-        "{@--2@} To esteem, value. ",
-        "{@--3@} To\ndeclare."
+        "Straw, husk.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 186287,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Flesh, meat.\n",
+                ".²2 A particular weight equal to four {%karṣas%}.\n",
+                ".²3 A particular measure of fluids.\n",
+                ".²4 A particular measure of time.\n",
+                ".²5 A small measure; {#lavaRapalamiva kziptamantarhradasya#} <ls>Nāg. 5. 24</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 186294,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-agniH#}@}"
+            ],
+            "_banner": ".{@{#-agniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palAgniH"
+                }
+            ],
+            "_meanings": [
+                "bile.\n"
+            ]
+        },
+        {
+            "__line": 186295,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-aNgaH#}@}"
+            ],
+            "_banner": ".{@{#-aNgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palANgaH"
+                }
+            ],
+            "_meanings": [
+                "a tortoise.\n"
+            ]
+        },
+        {
+            "__line": 186296,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-adaH, -aSaH, -aSanaH#}@}"
+            ],
+            "_banner": ".{@{#-adaH, -aSaH, -aSanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palAdaH"
+                },
+                {
+                    "Right": "palASaH"
+                },
+                {
+                    "Right": "palASanaH"
+                }
+            ],
+            "_meanings": [
+                "a demon, Rākṣasa; {#nirdagDuM niKilAH#}\n {#palASasamiDo meDyAdayoDyAraReH#} <ls>Rām.</ls> champū.\n"
+            ]
+        },
+        {
+            "__line": 186298,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-annam#}@}"
+            ],
+            "_banner": ".{@{#-annam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palAnnam"
+                }
+            ],
+            "_meanings": [
+                "rice with meat.\n"
+            ]
+        },
+        {
+            "__line": 186299,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-kzAraH#}@}"
+            ],
+            "_banner": ".{@{#-kzAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palakzAraH"
+                }
+            ],
+            "_meanings": [
+                "blood.\n"
+            ]
+        },
+        {
+            "__line": 186300,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-gaRqaH#}@}"
+            ],
+            "_banner": ".{@{#-gaRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palagaRqaH"
+                }
+            ],
+            "_meanings": [
+                "a plasterer, mason; {#takzARaH palagaRqASca … …#} <ls>Śiva B. 31. 18</ls>.\n"
+            ]
+        },
+        {
+            "__line": 186301,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-priyaH#}@}"
+            ],
+            "_banner": ".{@{#-priyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palapriyaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a demon.\n",
+                ".²2 a raven.\n"
+            ]
+        },
+        {
+            "__line": 186304,
+            "_ancestry": [
+                "L_ 20806",
+                "B_ {#palaH#}",
+                "S_ .{@{#-BA#}@}"
+            ],
+            "_banner": ".{@{#-BA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palaBA"
+                }
+            ],
+            "_meanings": [
+                "the equinoctial shadow at mid-day."
+            ]
+        }
     ]
 }

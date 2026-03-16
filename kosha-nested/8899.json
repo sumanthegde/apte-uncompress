@@ -1,43 +1,60 @@
 {
-    "__line": 75755,
+    "__line": 74896,
     "_ancestry": [
         "L_ 8899",
-        "B_ {#upaSam#}"
+        "B_ {#udanya#}"
     ],
-    "_banner": "{#upaSam#}",
+    "_banner": "{#udanya#}",
     "_bannerExp": [
         {
-            "Right": "upaSam"
+            "Right": "udanya"
         }
     ],
     "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To become calm\nor quiet, be assuaged; {#upaSAmyatu#}\n{#te budDiH#} <ls>Bk. 20. 5.</ls> ",
-        "{@--2@} To cease, stop;\n{#agniH, SabdaH, kopaH#} &c.; cease to\nspeak; <ls>K. 110.</ls> "
+        ".²1 Thirsty.\n",
+        ".²2 Watery. {#DArA udanyA iva#} <ls>Rv. 2. 7. 3</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 75759,
+            "__line": 74899,
             "_ancestry": [
                 "L_ 8899",
-                "B_ {#upaSam#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#udanya#}",
+                "M_ .{@{#-nyA#}@}"
             ],
+            "_banner": ".{@{#-nyA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "upaSam"
+                    "Right": "udanyA"
+                }
+            ],
+            "_meanings": [
+                "Thirst; {#nirvartyatAmudanyApratIkAraH#} <ls>Ve. 6</ls>; {#vyasyannudanyAM#}\n {#SiSirEH payoBiH#} <ls>Bk. 3. 40</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 74902,
+            "_ancestry": [
+                "L_ 8899",
+                "B_ {#udanya#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "udanyaja"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "{@--1@} To calm,\ntranquillize. ",
-                "{@--2@} To appease, pacify, \n\nassuage, mitigate. ",
-                "{@--3@} To extinguish,\nkill."
+                "<ab>Ved.</ab> born or living in water. {#udanyajeva jemanA maderU#}\n <ls>Rv. 10. 106. 6</ls>."
             ]
         }
     ]

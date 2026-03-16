@@ -1,22 +1,75 @@
 {
-    "__line": 3680,
+    "__line": 2013,
     "_ancestry": [
         "L_ 217",
-        "B_ {#agnimat, --vat#}"
+        "B_ {#agamyA#}"
     ],
-    "_banner": "{#agnimat, --vat#}",
+    "_banner": "{#agamyA#}",
     "_bannerExp": [
         {
-            "Right": "agnimat"
-        },
-        {
-            "Right": "agnivat"
+            "Right": "agamyA"
         }
     ],
     "_meanings": [
-        "<ab>Ved.</ab> {%<ab>a.</ab>%} [{#agniH astyasya#}\n{#matup, masya vaH#} <ls>P. VIII. 2. 15</ls>] ",
-        "{@--1@} \nHaving fire or enjoying it. ",
-        "{@--2@} \nMaintaining the sacrificial fire; {#pitfyajYaM tu#}\n{#nirvartya vipraScaMdrakzaye'gnimAn#} <ls>Ms. 3. 122.</ls>\n",
-        "{@--3@} Having a good digestion."
+        "A woman not deserving to be approached (for cohabitation),\n one of the low castes; {#˚myAM ca striyaM gatvA, ˚gamanaM cEva jAtiBraMSakarARi vA#} <ab>&c.</ab>\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 2016,
+            "_ancestry": [
+                "L_ 217",
+                "B_ {#agamyA#}",
+                "S_ .{@{#-gamanam#}@}"
+            ],
+            "_banner": ".{@{#-gamanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agamyAgamanam"
+                }
+            ],
+            "_meanings": [
+                "illicit intercourse.\n"
+            ]
+        },
+        {
+            "__line": 2017,
+            "_ancestry": [
+                "L_ 217",
+                "B_ {#agamyA#}",
+                "S_ .{@{#-gAmin#}@}"
+            ],
+            "_banner": ".{@{#-gAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agamyAgAmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "practising illicit intercourse.\n"
+            ]
+        },
+        {
+            "__line": 2018,
+            "_ancestry": [
+                "L_ 217",
+                "B_ {#agamyA#}",
+                "S_ .{@{#-gamanIya#}@}"
+            ],
+            "_banner": ".{@{#-gamanIya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "agamyAgamanIya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "relating to illicit intercourse; {#˚nIye tu#}\n ({#pApam#}) {#vratEreBirapAnudet#} <ls>Ms. 11. 169</ls>."
+            ]
+        }
     ]
 }

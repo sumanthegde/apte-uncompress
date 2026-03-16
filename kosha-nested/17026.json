@@ -1,44 +1,64 @@
 {
-    "__line": 143188,
+    "__line": 148328,
     "_ancestry": [
         "L_ 17026",
-        "B_ {#nirvapaRa#}"
+        "B_ {#dantya#}"
     ],
-    "_banner": "{#nirvapaRa#}",
+    "_banner": "{#dantya#}",
     "_bannerExp": [
         {
-            "Right": "nirvapaRa"
+            "Right": "dantya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#RI#})"
+        "{%a.%}",
+        "[{#dante dantamUle vA BavaH yat#}]"
     ],
     "_meanings": [
-        "{@--1@} Relating to \noblations. ",
-        "{@--2@} Pouring out, scattering.\n",
-        "{@--3@} Giving, bestowing. "
+        ".²1 Dental.\n",
+        ".²2 Suitable to the teeth.\n"
     ],
     "_morphisms": [
         {
-            "__line": 143190,
+            "__line": 148331,
             "_ancestry": [
                 "L_ 17026",
-                "B_ {#nirvapaRa#}",
-                "M_ {#--RaM#}"
+                "B_ {#dantya#}",
+                "M_ .{@{#-ntyaH#}@}"
             ],
-            "_banner": "{#--RaM#}",
+            "_banner": ".{@{#-ntyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "nirvapaRaM"
+                    "Right": "dantyaH"
                 }
             ],
+            "_gram": [
+                "({%<ab>i. e.</ab>%}|{#varRaH#})"
+            ],
             "_meanings": [
-                "{@--1@} \nPouring out, offering. ",
-                "{@--2@} Particularly,\nthe presentation of funeral \nofferings to the Manes, a libation;  \n\n<ls>Ms. 3. 248</ls>, <ls n=\"Ms. 3.\">260.</ls> ",
-                "{@--3@} Bestowing presents.\n",
-                "{@--4@} Gift, donation. ",
-                "{@--5@} A vessel\n(ladle &c.) for pouring."
+                "A letter of the dental class; see\n {#dantamUlIya#} above.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 148334,
+            "_ancestry": [
+                "L_ 17026",
+                "B_ {#dantya#}",
+                "S_ .{@{#-ozWadya#}@}"
+            ],
+            "_banner": ".{@{#-ozWadya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dantyOzWadya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "denti-labial."
             ]
         }
     ]

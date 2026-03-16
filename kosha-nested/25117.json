@@ -1,26 +1,61 @@
 {
-    "__line": 212898,
+    "__line": 225913,
     "_ancestry": [
         "L_ 25117",
-        "B_ {#varRanaM --nA#}"
+        "B_ {#BAvuka#}"
     ],
-    "_banner": "{#varRanaM --nA#}",
+    "_banner": "{#BAvuka#}",
     "_bannerExp": [
         {
-            "Right": "varRanA"
-        },
-        {
-            "Right": "varRanaM"
+            "Right": "BAvuka"
         }
     ],
     "_gram": [
-        "[{#varR-lyuw#}]"
+        "{%a.%}",
+        "[{#BU-ukaY#}]"
     ],
     "_meanings": [
-        "{@--1@} Painting.\n",
-        "{@--2@} Description, delineation, \nrepresentation; {#svaBAvoktistu qiMBAdeH#} \n{#svakriyArUpavarRanaM#} <ls>K. P. 10.</ls> ",
-        "{@--3@} Writing.\n",
-        "{@--4@} A statement, an assertion. ",
-        "{@--5@}\nPraise, commendation ({#--nA#} only in\nthis sense)."
+        ".²1 About to be or happen.\n",
+        ".²2 Becoming.\n",
+        ".²3 Prosperous, happy.\n",
+        ".²4 Auspicious, blessed.\n",
+        ".²5 Having a poetic taste, appreciative; {#muhuraho rasikA Buvi BAvukAH#}\n <ls>Bhāg. 1. 1. 3</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 225920,
+            "_ancestry": [
+                "L_ 25117",
+                "B_ {#BAvuka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAvukaH"
+                }
+            ],
+            "_meanings": [
+                "A sisterʼs husband (used chiefly in dramas); {#svakuwumbaviyogena#}\n {#kliSyate tava BAvukaH#} <ls>Gaṇeśa P.</ls> (The story of Pāṭaliputra).\n"
+            ]
+        },
+        {
+            "__line": 225922,
+            "_ancestry": [
+                "L_ 25117",
+                "B_ {#BAvuka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAvukam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Happiness, welfare, prosperity; {#sa rAtu vo duScyavano BAvukAnAM paraMparAm#}\n <ls>K. P. 7</ls> (given as an instance of the fault of composition called {#aprayuktatva#}).\n",
+                ".²2 Language full of love and passion."
+            ]
+        }
     ]
 }

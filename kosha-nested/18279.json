@@ -1,18 +1,47 @@
 {
-    "__line": 153625,
+    "__line": 162471,
     "_ancestry": [
         "L_ 18279",
-        "B_ {#pariSramaH#}"
+        "B_ {#nad#}"
     ],
-    "_banner": "{#pariSramaH#}",
+    "_banner": "{#nad#}",
     "_bannerExp": [
         {
-            "Right": "pariSramaH"
+            "Right": "nad"
         }
     ],
+    "_gram": [
+        "€1",
+        "<ab>P.</ab>",
+        "({#nadati, nadita#})"
+    ],
     "_meanings": [
-        "{@--1@} Fatigue, exhaustion,\ntrouble, pain; {#AtmA pariSramasya#} \n{#padamupanItaH#} <ls>Ś. 1</ls>; <ls>R. 1. 58</ls>; <ls n=\"R.\">11. 12.</ls> ",
-        "{@--2@}\nExertion, labour. ",
-        "{@--3@} (Hence)\nClose application to or study of, \nbeing constantly occupied with; {#Arye#}\n{#kftapariSramosmi catuHzazwyaMge jyotiHSAstre#}\n<ls>Mu. 1.</ls>"
+        ".²1 To sound, resound, thunder (as a cloud <ab>&c.</ab>); {#vAmaScAyaM nadati maDuraM#}\n {#cAtakaste saganDaH#} <ls>Me. 9</ls>;\n\n {#nadatyAkASagaNgAyAH srotasyuddAmadiggaje#} <ls>R. 1. 78</ls>; <ls>Śi. 5. 63</ls>; <ls>Bk. 2. 4</ls>.\n",
+        ".²2 To speak, shout, cry, roar (often with words like {#Sabda, Kana, nAda#}\n <ab>&c.</ab> as object); {#nanAda balavannAdam, SabdaM GorataraM nadanti#} <ls>Mb.</ls>\n",
+        ".²3 To vibrate. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 162478,
+            "_ancestry": [
+                "L_ 18279",
+                "B_ {#nad#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "nad"
+                }
+            ],
+            "_gram": [
+                "({#nAdayati-te#})"
+            ],
+            "_meanings": [
+                ".²1 To fill with noise, make noisy or resonant.\n",
+                ".²2 To cause to make a sound. ",
+                "--{%With%} {#ud#} to roar, cry (loudly), bellow\n (as a bull); {#asoQasiMhaDvanirunnanAda#} <ls>Ku. 1. 56</ls>."
+            ]
+        }
     ]
 }

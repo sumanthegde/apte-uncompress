@@ -1,20 +1,38 @@
 {
-    "__line": 38711,
+    "__line": 34719,
     "_ancestry": [
         "L_ 4185",
-        "B_ {#arDya#}"
+        "B_ {#amArga#}"
     ],
-    "_banner": "{#arDya#}",
+    "_banner": "{#amArga#}",
     "_bannerExp": [
         {
-            "Right": "arDya"
+            "Right": "amArga"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Belonging to the half\n(of anything). ",
-        "{@--2@} Fit to be \nincreased."
+        "Pathless.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34720,
+            "_ancestry": [
+                "L_ 4185",
+                "B_ {#amArga#}",
+                "M_ .{@{#-rgaH#}@}"
+            ],
+            "_banner": ".{@{#-rgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amArgaH"
+                }
+            ],
+            "_meanings": [
+                "Not a road, absence of road; a bad road."
+            ]
+        }
     ]
 }

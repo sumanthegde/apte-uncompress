@@ -1,21 +1,59 @@
 {
-    "__line": 240799,
+    "__line": 265075,
     "_ancestry": [
         "L_ 28663",
-        "B_ {#saMvftiH#}"
+        "B_ {#valita#}"
     ],
-    "_banner": "{#saMvftiH#}",
+    "_banner": "{#valita#}",
     "_bannerExp": [
         {
-            "Right": "saMvftiH"
+            "Right": "valita"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Covering, covering \n\nup. ",
-        "{@--2@} Concealment, suppression,\nhiding; <ls>Ki. 10. 44.</ls> ",
-        "{@--3@} Secret \npurpose, covert design."
+        ".²1 Moving.\n",
+        ".²2 Moved, turned round, bent round.\n",
+        ".²3 Surrounded, enclosed; {#samavalokya tamovalitaM janam#} <ls>Veda-Vyāsāṣṭaka 1</ls>.\n",
+        ".²4 Wrinkled; {#viSadaBrUyugacCannavalitApANgalocanaH#} <ls>Ki. 11. 4</ls>.\n",
+        ".²5 Cast, darted; {#valitalolakawAkzaparAhatam#} <ls>Māl. 8. 11</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 265081,
+            "_ancestry": [
+                "L_ 28663",
+                "B_ {#valita#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "valitaH"
+                }
+            ],
+            "_meanings": [
+                "A particular position of the hands in dancing.\n"
+            ]
+        },
+        {
+            "__line": 265082,
+            "_ancestry": [
+                "L_ 28663",
+                "B_ {#valita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "valitam"
+                }
+            ],
+            "_meanings": [
+                "Black pepper."
+            ]
+        }
     ]
 }

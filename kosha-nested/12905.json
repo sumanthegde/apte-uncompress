@@ -1,25 +1,66 @@
 {
-    "__line": 108430,
+    "__line": 110038,
     "_ancestry": [
         "L_ 12905",
-        "B_ {#GAtuka#}"
+        "B_ {#kesa(Sa)rin#}"
     ],
-    "_banner": "{#GAtuka#}",
+    "_banner": "{#kesa(Sa)rin#}",
     "_bannerExp": [
         {
-            "Right": "GAtukI"
+            "Right": "kesarin"
         },
         {
-            "Right": "GAtuka"
+            "Right": "keSarin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#han Ric ukaY#}]"
+        "{%m.%}",
+        "[{#kesa(Sa)ra-ini#}]"
     ],
     "_meanings": [
-        "{@--1@} Killing, destructive, mischievous,\nhurting. ",
-        "{@--2@} Cruel, savage, \nferocious."
+        ".²1 A lion; {#anuhuMkurute GanaDvaniM na hi gomAyurutAni kesarI#} <ls>Śi. 16. 25</ls>;\n {#DanurDaraH kesariRaM dadarSa#} <ls>R. 2. 29</ls>; <ls>Ś. 7. 3</ls>.\n",
+        ".²2 The best, excellent, or most prominent of a class (at the end of <ab>comp.</ab>);\n <ab>cf.</ab> {#kuYjara, siMha#} <ab>&c.</ab>\n",
+        ".²3 A horse; <ls>Mb. 12. 78. 4</ls>.\n",
+        ".²4 The citron plant.\n",
+        ".²5 The Punnāga tree.\n",
+        ".²6 <ab>N.</ab> of the father of Hanūmat.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 110047,
+            "_ancestry": [
+                "L_ 12905",
+                "B_ {#kesa(Sa)rin#}",
+                "M_ .{@{#-riRI#}@}"
+            ],
+            "_banner": ".{@{#-riRI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kesariRI"
+                }
+            ],
+            "_meanings": [
+                "A lioness; <ls>Ks. 70. 102</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 110049,
+            "_ancestry": [
+                "L_ 12905",
+                "B_ {#kesa(Sa)rin#}",
+                "S_ .{@{#-sutaH#}@}"
+            ],
+            "_banner": ".{@{#-sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kesarisutaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Hanūmat."
+            ]
+        }
     ]
 }

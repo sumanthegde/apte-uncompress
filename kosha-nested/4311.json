@@ -1,19 +1,103 @@
 {
-    "__line": 39679,
+    "__line": 36047,
     "_ancestry": [
         "L_ 4311",
-        "B_ {#alele#}"
+        "B_ {#ayatna#}"
     ],
-    "_banner": "{#alele#}",
+    "_banner": "{#ayatna#}",
     "_bannerExp": [
         {
-            "Right": "alele"
+            "Right": "ayatna"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Unmeaning words\nin the dialect of the\nPiśācas chiefly introduced in plays."
+        "Not requiring any effort; {#tadyoDavAraRAnAmayatnapawavAsatAm#}\n <ls>R. 4. 55</ls>. <ab>cf.</ab> also {#ayatnaSItalaM vAri suKaM ca svedavarjitam#} <ls>Udb.</ls>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 36049,
+            "_ancestry": [
+                "L_ 4311",
+                "B_ {#ayatna#}",
+                "M_ .{@{#-tnaH#}@}"
+            ],
+            "_banner": ".{@{#-tnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayatnaH"
+                }
+            ],
+            "_meanings": [
+                "Absence of effort or exertion; {@{#ayatnena, -tnAt, -tnataH#}@}\n without effort or exertion, easily, readily.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 36052,
+            "_ancestry": [
+                "L_ 4311",
+                "B_ {#ayatna#}",
+                "S_ .{@{#-kArin#}@}"
+            ],
+            "_banner": ".{@{#-kArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayatnakArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "making no effort or exertion, indifferent; idle.\n"
+            ]
+        },
+        {
+            "__line": 36053,
+            "_ancestry": [
+                "L_ 4311",
+                "B_ {#ayatna#}",
+                "S_ .{@{#-kfta, -ja#}@}"
+            ],
+            "_banner": ".{@{#-kfta, -ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayatnakfta"
+                },
+                {
+                    "Left": "S error: 1 syl kfta ja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "easily produced, spontaneous.\n"
+            ]
+        },
+        {
+            "__line": 36054,
+            "_ancestry": [
+                "L_ 4311",
+                "B_ {#ayatna#}",
+                "S_ .{@{#-laBya#}@}"
+            ],
+            "_banner": ".{@{#-laBya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayatnalaBya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "easily obtainable; {#hiMsASUnyamayatnalaByamaSanam#} <ls>Bh. 3. 10</ls>."
+            ]
+        }
     ]
 }

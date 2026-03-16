@@ -1,38 +1,548 @@
 {
-    "__line": 52870,
+    "__line": 50361,
     "_ancestry": [
         "L_ 6014",
-        "B_ {#AjIvaH, --vanaM#}"
+        "B_ {#asat#}"
     ],
-    "_banner": "{#AjIvaH, --vanaM#}",
+    "_banner": "{#asat#}",
     "_bannerExp": [
         {
-            "Right": "AjIvaH"
-        },
-        {
-            "Right": "AjIvanaM"
+            "Right": "asat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} Livelihood, \nsubsistence, maintenance; {#BavatyAjIvanaM#} \n{#tasmAt#} <ls>Pt. 1. 48</ls>; <ab>cf.</ab> words like  \n{#rUpAjIva, ajAjIva, SastrAjIva, stryAjIva#}\n&c.; {#AjIvanArTaH#} <ls>Ms. 10. 79</ls> means\nof livelihood. ",
-        "{@--2@} Profession, the\nmeans of maintaining oneself;  \n{#viSudDa idAnImAjIvaH#} <ls>Ś. 6.</ls> "
+        ".²1 Not being or existing; {#tadaBAve sadapyasat#} <ls>H. 3. 3</ls>; {#asati tvayi#}\n <ls>Ku. 4. 12</ls>; <ls>Ms. 9. 154</ls>.\n",
+        ".²2 Non-existent, unreal; {#Atmano brahmano'BedamasantaM kaH karizyati#}.\n",
+        ".²3 Bad (<ab>opp.</ab> {#sat#}); {#sadasadvyaktihetavaH#} <ls>R. 1. 10</ls>.\n",
+        ".²4 Wicked, vile, evil; {#˚vicAra#}.\n",
+        ".²5 Not manifest.\n",
+        ".²6 Wrong, improper, false, untrue; {#iti yaduktaM tadasat#} (<ab>oft.</ab> occurring\n in controversial works).\n",
+        ".²7 Not answering its purpose. {%m.%} ({#n#}) Indra. {%n.%} ({#t#})\n",
+        ".²1 Non-existence, non-entity; {#nAsadAsInno sadAsIt#} <ls>Rv. 10. 129. 1</ls>;\n {#asadvA idamagra AsIt tato vE sadajAyata#} <ls>T. Up. 2. 7. 1</ls>; {#nAsato#}\n {#vidyate BAvaH#} <ls>Bg. 2. 16</ls>; <ls>Ms. 12. 118</ls>, <ls n=\"Ms.\">1. 11</ls>, <ls n=\"Ms. 1.\">14</ls>, <ls n=\"Ms. 1.\">74</ls>.\n",
+        ".²2 An evil, a harm.\n",
+        ".²3 Untruth, falsehood.\n"
     ],
     "_morphisms": [
         {
-            "__line": 52877,
+            "__line": 50376,
             "_ancestry": [
                 "L_ 6014",
-                "B_ {#AjIvaH, --vanaM#}",
-                "M_ {#--vaH#}"
+                "B_ {#asat#}",
+                "M_ .{@{#-tI#}@}"
             ],
-            "_banner": "{#--vaH#}",
+            "_banner": ".{@{#-tI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AjIvaH"
+                    "Right": "asatI"
                 }
             ],
             "_meanings": [
-                "A Jaina\nbeggar. "
+                "An unchaste woman; {#asatI Bavati salajjA#} <ls>Pt. 1. 418</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 50378,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-aDyetf#}@}"
+            ],
+            "_banner": ".{@{#-aDyetf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadaDyetf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "a Brāhmaṇa who reads heterodox works, one who\n neglects his own Śākhā and studies another; also called\n\n {#SAKAraRqaH#}; {#svaSAKAM yaH parityajya anyatra kurute Sramam . SAKAraRqaH#}\n {#sa vijYeyo varjayettaM kriyAsu ca ..#}\n"
+            ]
+        },
+        {
+            "__line": 50383,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-AgamaH#}@}"
+            ],
+            "_banner": ".{@{#-AgamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadAgamaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a heterodox Śāstra or doctrine.\n",
+                ".²2 acquisition (of wealth) by unfair or foul means.\n",
+                ".²3 a foul means itself.\n"
+            ]
+        },
+        {
+            "__line": 50387,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-AcAra#}@}"
+            ],
+            "_banner": ".{@{#-AcAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadAcAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following evil practices, wicked.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 50388,
+                    "_ancestry": [
+                        "L_ 6014",
+                        "B_ {#asat#}",
+                        "S_ .{@{#-AcAra#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "asadAcAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "an evil practice.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 50389,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-AcArin#}@}"
+            ],
+            "_banner": ".{@{#-AcArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadAcArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who follows evil practices, wicked, vile.\n"
+            ]
+        },
+        {
+            "__line": 50390,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-karman, -kriyA#}@}"
+            ],
+            "_banner": ".{@{#-karman, -kriyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatkarman"
+                },
+                {
+                    "Right": "asatkriyA"
+                }
+            ],
+            "_meanings": [
+                "<ab>&c.</ab> See below.\n"
+            ]
+        },
+        {
+            "__line": 50391,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-kalpanA#}@}"
+            ],
+            "_banner": ".{@{#-kalpanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatkalpanA"
+                }
+            ],
+            "_meanings": [
+                ".²1 an untrue action, one which never took place.\n",
+                ".²2 fabrication of falsehood.\n"
+            ]
+        },
+        {
+            "__line": 50394,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-KyAtiH#}@}"
+            ],
+            "_banner": ".{@{#-KyAtiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatKyAtiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "wrong or improper perception or knowledge; {#AtmaKyAti#}\n {#rasaKyAtiraKyAtiH KyAtiranyaTA#} <ls>Sarva. S.</ls>\n"
+            ]
+        },
+        {
+            "__line": 50396,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-gra(grA)haH#}@}"
+            ],
+            "_banner": ".{@{#-gra(grA)haH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#asat#} S_ .{@{#-gra(grA)haH#}@}"
+                }
+            ],
+            "_meanings": [
+                ".²1 a bad trick.\n",
+                ".²2 a bad opinion, prejudice. {#mohAd gfhItvA'sadgrAhAnpravartante'SucivratAH#} <ls>Bg. 16. 10</ls>.\n",
+                ".²3 childish desire.\n"
+            ]
+        },
+        {
+            "__line": 50400,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-cezwitam#}@}"
+            ],
+            "_banner": ".{@{#-cezwitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asaccezwitam"
+                }
+            ],
+            "_meanings": [
+                "harm, injury; {#prARizvasaccezwitam#} <ls>Ś. 5. 9</ls>.\n"
+            ]
+        },
+        {
+            "__line": 50401,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asajjanaH"
+                }
+            ],
+            "_meanings": [
+                "a bad, wicked, or contemptible man.\n"
+            ]
+        },
+        {
+            "__line": 50402,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-dfS#}@}"
+            ],
+            "_banner": ".{@{#-dfS#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asaddfS"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "evil-eyed.\n"
+            ]
+        },
+        {
+            "__line": 50403,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-paTaH#}@}"
+            ],
+            "_banner": ".{@{#-paTaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatpaTaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a bad road (<ab>lit.</ab>).\n",
+                ".²2 evil practices or doctrines; {#nASo hanta satAmasatpaTajuzAmAyuH samAnAM#}\n {#Satam#} <ls>Bv. 4. 36</ls>.\n"
+            ]
+        },
+        {
+            "__line": 50407,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-parigrahaH#}@}"
+            ],
+            "_banner": ".{@{#-parigrahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatparigrahaH"
+                }
+            ],
+            "_meanings": [
+                "acceptance of unfit presents, receiving presents from\n improper persons; <ls>Ms. 12. 32</ls>.\n"
+            ]
+        },
+        {
+            "__line": 50409,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-putraH#}@}"
+            ],
+            "_banner": ".{@{#-putraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatputraH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a childless man; <ls>Ms. 9. 154</ls>.\n",
+                ".²2 a bad son or disreputable son.\n"
+            ]
+        },
+        {
+            "__line": 50412,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-pratigrahaH#}@}"
+            ],
+            "_banner": ".{@{#-pratigrahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatpratigrahaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 present of bad things; <ls>Ms. 11. 194</ls>.\n",
+                ".²2 receiving unfit presents (such as {#tila#}) or from improper persons.\n"
+            ]
+        },
+        {
+            "__line": 50415,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadBAvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 non-existence, absence.\n",
+                ".²2 a bad or wicked opinion.\n",
+                ".²3 an evil disposition.\n"
+            ]
+        },
+        {
+            "__line": 50419,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadvAdin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one who says that a matter (or idea) is non-existent,\n who negatives the existence or declares the non-existence of an idea or\n matter; {#asadvAdI hi vidyamAnamapi anupalaBya brUyAt .#} <ls>ŚB. on MS. 10. 8. 4</ls>.\n "
+            ],
+            "_samasas": [
+                {
+                    "__line": 50422,
+                    "_ancestry": [
+                        "L_ 6014",
+                        "B_ {#asat#}",
+                        "S_ .{@{#-vAdin#}@}",
+                        "S_S_ {#˚tvam#}"
+                    ],
+                    "_banner": "{#˚tvam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "asadvAditvam"
+                        }
+                    ],
+                    "_meanings": [
+                        "Being an {#asadvAdin#}; {#sadvAditvAcca pARinervacanaM#}\n {#pramARam . asadvAditvAnna kAtyAyanasya .#} <ls>ŚB. on MS. 10. 8. 4</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 50424,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-vftti, -vyavahAra#}@}"
+            ],
+            "_banner": ".{@{#-vftti, -vyavahAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadvftti"
+                },
+                {
+                    "Right": "asadvyavahAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following evil practices, wicked.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 50425,
+                    "_ancestry": [
+                        "L_ 6014",
+                        "B_ {#asat#}",
+                        "S_ .{@{#-vftti, -vyavahAra#}@}",
+                        "S_M_ ({@{#-ttiH#}@}"
+                    ],
+                    "_banner": "({@{#-ttiH#}@}",
+                    "_bannerExp": [
+                        {
+                            "Right": "asadvfttiH"
+                        }
+                    ],
+                    "_gram": [
+                        "{%f.%})"
+                    ],
+                    "_meanings": [
+                        ".²1 a low or degrading occupation.\n",
+                        ".²2 wickedness.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 50428,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-vyavahAra#}@}"
+            ],
+            "_banner": ".{@{#-vyavahAra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadvyavahAra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following evil practices.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 50429,
+                    "_ancestry": [
+                        "L_ 6014",
+                        "B_ {#asat#}",
+                        "S_ .{@{#-vyavahAra#}@}",
+                        "S_M_ ({@{#-raH#}@})"
+                    ],
+                    "_banner": "({@{#-raH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "asadvyavahAraH"
+                        }
+                    ],
+                    "_meanings": [
+                        "evil practice.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 50430,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-SAstram#}@}"
+            ],
+            "_banner": ".{@{#-SAstram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asacCAstram"
+                }
+            ],
+            "_meanings": [
+                ".²1 a wrong doctrine.\n",
+                ".²2 a heterodox doctrine (such as that of the Bauddhas); <ls>Ms. 11. 65</ls>.\n"
+            ]
+        },
+        {
+            "__line": 50433,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-saMsargaH#}@}"
+            ],
+            "_banner": ".{@{#-saMsargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asatsaMsargaH"
+                }
+            ],
+            "_meanings": [
+                "bad company.\n"
+            ]
+        },
+        {
+            "__line": 50434,
+            "_ancestry": [
+                "L_ 6014",
+                "B_ {#asat#}",
+                "S_ .{@{#-hetuH#}@}"
+            ],
+            "_banner": ".{@{#-hetuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asadDetuH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a statement having exceptions (in {#nyAya#}).\n",
+                ".²2 a bad or fallacious {%hetu%}; see {#hetvABAsa#}."
             ]
         }
     ]

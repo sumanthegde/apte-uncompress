@@ -1,16 +1,74 @@
 {
-    "__line": 150672,
+    "__line": 157572,
     "_ancestry": [
         "L_ 17814",
-        "B_ {#parAtparaH#}"
+        "B_ {#dviz#}"
     ],
-    "_banner": "{#parAtparaH#}",
+    "_banner": "{#dviz#}",
     "_bannerExp": [
         {
-            "Right": "parAtparaH"
+            "Right": "dviz"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The Supreme being."
+        "Hostile, hating, inimical. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 157572,
+            "_ancestry": [
+                "L_ 17814",
+                "B_ {#dviz#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#dviz#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "An enemy; {#ranDrAnvezaRadakzARAM#}\n {#dvizAmAmizatAM yayO#} <ls>R. 12. 11</ls>, <ls n=\"R.\">3. 45</ls>; <ls>Pt. 1. 70</ls>. "
+            ]
+        },
+        {
+            "__line": 157573,
+            "_ancestry": [
+                "L_ 17814",
+                "B_ {#dviz#}",
+                "M_ --{%f.%}"
+            ],
+            "_banner": "--{%f.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#dviz#} M_ --{%f.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> Hostility.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 157575,
+            "_ancestry": [
+                "L_ 17814",
+                "B_ {#dviz#}",
+                "S_ .{@{#-sevA#}@}"
+            ],
+            "_banner": ".{@{#-sevA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "dviwsevA"
+                }
+            ],
+            "_meanings": [
+                "treachery."
+            ]
+        }
     ]
 }

@@ -1,16 +1,131 @@
 {
-    "__line": 41768,
+    "__line": 39383,
     "_ancestry": [
         "L_ 4604",
-        "B_ {#avaDya#}"
+        "B_ {#arya#}"
     ],
-    "_banner": "{#avaDya#}",
+    "_banner": "{#arya#}",
     "_bannerExp": [
         {
-            "Right": "avaDya"
+            "Right": "arya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#f-yat#}]"
+    ],
     "_meanings": [
-        "See under {#avaDa#}."
+        ".²1 Excellent, best.\n",
+        ".²2 Respectable.\n",
+        ".²3 Attached, true, devoted.\n",
+        ".²4 Dear, kind; <ls>Rv. 1. 123. 1</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 39388,
+            "_ancestry": [
+                "L_ 4604",
+                "B_ {#arya#}",
+                "M_ .{@{#-ryaH#}@}"
+            ],
+            "_banner": ".{@{#-ryaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aryaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A master, lord; {#aryaH premRA no taTA vallaBasya#} <ls>Śi. 18. 52</ls>; <ls>Śānti. 1. 18</ls>;\n {#tena vahyena hantAsi tvamaryaM puruzASinam#} <ls>Bk. 6. 51</ls>.\n",
+                ".²2 A man of the third tribe, Vaiśya. <ab>cf.</ab> {#aryaH svAmivESyayoH#} <ls>P. III. 1. 103</ls>.\n <ab>cf.</ab> also {#… aryastu bAhuje#}, and {#syAdaryaH svAmivaRijoH#} <ls>Nm.</ls>\n"
+            ]
+        },
+        {
+            "__line": 39393,
+            "_ancestry": [
+                "L_ 4604",
+                "B_ {#arya#}",
+                "M_ .{@{#-ryA#}@}"
+            ],
+            "_banner": ".{@{#-ryA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aryA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A mistress.\n",
+                ".²2 A woman of the Vaiśya tribe.\n"
+            ]
+        },
+        {
+            "__line": 39396,
+            "_ancestry": [
+                "L_ 4604",
+                "B_ {#arya#}",
+                "M_ .{@{#-ryI#}@}"
+            ],
+            "_banner": ".{@{#-ryI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aryI"
+                }
+            ],
+            "_meanings": [
+                "The wife of a Vaiśya.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 39398,
+            "_ancestry": [
+                "L_ 4604",
+                "B_ {#arya#}",
+                "S_ .{@{#-jArA#}@}"
+            ],
+            "_banner": ".{@{#-jArA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aryajArA"
+                }
+            ],
+            "_meanings": [
+                "the mistress of an Ārya. {#SUdrA yadaryajArA na pozAya#}\n {#DanAyati#} <ls>Vāj. 23. 30</ls>.\n"
+            ]
+        },
+        {
+            "__line": 39400,
+            "_ancestry": [
+                "L_ 4604",
+                "B_ {#arya#}",
+                "S_ .{@{#-patnI#}@}"
+            ],
+            "_banner": ".{@{#-patnI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aryapatnI"
+                }
+            ],
+            "_meanings": [
+                "the wife of a true or legitimate husband; {#aryapatnIruzasaScakAra#}\n <ls>Rv. 7. 6. 5</ls>, <ls n=\"Rv.\">10. 43. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 39402,
+            "_ancestry": [
+                "L_ 4604",
+                "B_ {#arya#}",
+                "S_ .{@{#-varyaH#}@}"
+            ],
+            "_banner": ".{@{#-varyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aryavaryaH"
+                }
+            ],
+            "_meanings": [
+                "a Vaiśya of rank."
+            ]
+        }
     ]
 }

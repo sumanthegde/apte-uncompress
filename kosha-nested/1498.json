@@ -1,19 +1,81 @@
 {
-    "__line": 15625,
+    "__line": 13607,
     "_ancestry": [
         "L_ 1498",
-        "B_ {#anukaMpin#}"
+        "B_ {#anAyAsa#}"
     ],
-    "_banner": "{#anukaMpin#}",
+    "_banner": "{#anAyAsa#}",
     "_bannerExp": [
         {
-            "Right": "anukaMpin"
+            "Right": "anAyAsa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Pitying(in <ab>comp.</ab>);\nsympathizing with."
+        "Not troublesome or difficult, easy; {#mamApyekasmin#}\n {#˚se karmaRi tvayA sahAyena Bavitavyam#} <ls>Ś. 2</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 13609,
+            "_ancestry": [
+                "L_ 1498",
+                "B_ {#anAyAsa#}",
+                "M_ .{@{#-saH#}@}"
+            ],
+            "_banner": ".{@{#-saH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAyAsaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Facility, ease, absence of difficulty or exertion; {#SarIraM pIqyate#}\n {#yena SuBenApyaSuBena vA . atyantaM tanna kurvIta anAyAsaH sa ucyate ..#}\n",
+                ".²2 Idleness, neglect; {#˚sena#} easily, without difficulty, readily.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 13614,
+            "_ancestry": [
+                "L_ 1498",
+                "B_ {#anAyAsa#}",
+                "S_ .{@{#-kfta#}@}"
+            ],
+            "_banner": ".{@{#-kfta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAyAsakfta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "done easily or readily.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 13615,
+                    "_ancestry": [
+                        "L_ 1498",
+                        "B_ {#anAyAsa#}",
+                        "S_ .{@{#-kfta#}@}",
+                        "S_M_ ({@{#-tam#}@})"
+                    ],
+                    "_banner": "({@{#-tam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "anAyAsakftam"
+                        }
+                    ],
+                    "_meanings": [
+                        "an infusion prepared without effort or exertion (prepared\n extemporaneously) {#anAyAsakftaM PARwaM#} <ls>Ak. 2. 94</ls>. See {#PARwa#}."
+                    ]
+                }
+            ]
+        }
     ]
 }

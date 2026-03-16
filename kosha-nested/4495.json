@@ -1,37 +1,63 @@
 {
-    "__line": 40961,
+    "__line": 37724,
     "_ancestry": [
         "L_ 4495",
-        "B_ {#avacCurita#}"
+        "B_ {#arUpa#}"
     ],
-    "_banner": "{#avacCurita#}",
+    "_banner": "{#arUpa#}",
     "_bannerExp": [
         {
-            "Right": "avacCurita"
+            "Right": "arUpa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Mixed. "
+        ".²1 Formless, shapeless.\n",
+        ".²2 Ugly, deformed.\n",
+        ".²3 Dissimilar, unlike.\n"
     ],
     "_morphisms": [
         {
-            "__line": 40961,
+            "__line": 37728,
             "_ancestry": [
                 "L_ 4495",
-                "B_ {#avacCurita#}",
-                "M_ {#--taM#}"
+                "B_ {#arUpa#}",
+                "M_ .{@{#-pam#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-pam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avacCuritaM"
+                    "Right": "arUpam"
                 }
             ],
             "_meanings": [
-                "A\nhorse-laugh."
+                ".²1 A bad or ugly figure. {#tAmarUpAmasatIM BakzayizyAmi mAnuzIm#} <ls>Rām.</ls>\n",
+                ".²2 The Pradhāna\n\n of the Sāṅkhyas and Brahman of the Vedāntins.\n",
+                ".²4 Not possessed of {#dravya#} and {#devatA#}; {#arUpaH SabdaH SrUyamARaH#}\n <ab>&c.</ab> <ls>ŚB. on MS. 4. 4. 1</ls>. (It may be observed that {#dravya#} and {#devatA#}\n form the {#rUpa#} or form of a sacrifice).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 37737,
+            "_ancestry": [
+                "L_ 4495",
+                "B_ {#arUpa#}",
+                "S_ .{@{#-hArya#}@}"
+            ],
+            "_banner": ".{@{#-hArya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arUpahArya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "not to be attracted or won over by beauty; {#arUpahAryaM#}\n {#madanasya nigrahAt#} <ls>Ku. 5. 53</ls>."
             ]
         }
     ]

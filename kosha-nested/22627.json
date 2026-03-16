@@ -1,16 +1,39 @@
 {
-    "__line": 189432,
+    "__line": 203125,
     "_ancestry": [
         "L_ 22627",
-        "B_ {#maDvakaH#}"
+        "B_ {#prativeSaH#}"
     ],
-    "_banner": "{#maDvakaH#}",
+    "_banner": "{#prativeSaH#}",
     "_bannerExp": [
         {
-            "Right": "maDvakaH"
+            "Right": "prativeSaH"
         }
     ],
     "_meanings": [
-        "A bee."
+        ".²1 A neighbour.\n",
+        ".²2 The residences of a neighbour, neighbourhood.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 203129,
+            "_ancestry": [
+                "L_ 22627",
+                "B_ {#prativeSaH#}",
+                "S_ .{@{#-vAsin#}@}"
+            ],
+            "_banner": ".{@{#-vAsin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prativeSavAsin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "living in the neighbourhood. --({%m.%}) a neighbour."
+            ]
+        }
     ]
 }

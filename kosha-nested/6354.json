@@ -1,24 +1,38 @@
 {
-    "__line": 55662,
+    "__line": 53347,
     "_ancestry": [
         "L_ 6354",
-        "B_ {#AMtargaRika#}"
+        "B_ {#Akampana#}"
     ],
-    "_banner": "{#AMtargaRika#}",
+    "_banner": "{#Akampana#}",
     "_bannerExp": [
         {
-            "Right": "AMtargaRikI"
-        },
-        {
-            "Right": "AMtargaRika"
+            "Right": "Akampana"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})",
-        "[{#aMtargaRaM#}\n{#BavaH WaY#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Included, comprised (as\nin a class, troop &c)."
+        "Slightly shaking.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 53348,
+            "_ancestry": [
+                "L_ 6354",
+                "B_ {#Akampana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Akampanam"
+                }
+            ],
+            "_meanings": [
+                "Trembling motion, shaking."
+            ]
+        }
     ]
 }

@@ -1,52 +1,37 @@
 {
-    "__line": 148317,
+    "__line": 155521,
     "_ancestry": [
         "L_ 17608",
-        "B_ {#paMjiH, --jI#}"
+        "B_ {#dozas#}"
     ],
-    "_banner": "{#paMjiH, --jI#}",
+    "_banner": "{#dozas#}",
     "_bannerExp": [
         {
-            "Right": "paMjI"
-        },
-        {
-            "Right": "paMjiH"
+            "Right": "dozas"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} The ball of cotton\nfrom which thread is spun. ",
-        "{@--2@} A\nrecord, journal, register. ",
-        "{@--3@} A \ncalender, an almanac. "
+        "Night. "
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 148320,
+            "__line": 155521,
             "_ancestry": [
                 "L_ 17608",
-                "B_ {#paMjiH, --jI#}",
-                "S_  {#--kAraH#} \n{#--kArakaH#}"
+                "B_ {#dozas#}",
+                "M_ --{%n.%}"
             ],
-            "_banner": " {#--kAraH#} \n{#--kArakaH#}",
+            "_banner": "--{%n.%}",
             "_bannerExp": [
                 {
-                    "Right": "paMjIkAraH"
-                },
-                {
-                    "Right": "paMjIkArakaH"
-                },
-                {
-                    "Right": "paMjikAraH"
-                },
-                {
-                    "Right": "paMjikArakaH"
+                    "Left": "Parser error: {#dozas#} M_ --{%n.%}"
                 }
             ],
             "_meanings": [
-                "{1} a writer, scribe. ",
-                "{2} an \nalmanac-maker."
+                "Darkness."
             ]
         }
     ]

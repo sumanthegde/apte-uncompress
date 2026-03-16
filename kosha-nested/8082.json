@@ -1,17 +1,65 @@
 {
-    "__line": 69670,
+    "__line": 67446,
     "_ancestry": [
         "L_ 8082",
-        "B_ {#udIkzaRaM#}"
+        "B_ {#itvara#}"
     ],
-    "_banner": "{#udIkzaRaM#}",
+    "_banner": "{#itvara#}",
     "_bannerExp": [
         {
-            "Right": "udIkzaRaM"
+            "Right": "itvara"
+        },
+        {
+            "Right": "itvarI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-rI#}|{%f.%})",
+        "[{#i-kvarap#}]"
+    ],
     "_meanings": [
-        "{@--1@} Looking up to. ",
-        "{@--2@} \nSeeing, beholding, seeking."
+        ".²1 Going; <ls>Rv. 10. 88. 4</ls> travelling, a traveller.\n",
+        ".²2 Cruel, harsh, <ls>Śiva B. 14. 106</ls>.\n",
+        ".²3 Low, vile.\n",
+        ".²4 Despised, contemned.\n",
+        ".²5 Poor.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 67453,
+            "_ancestry": [
+                "L_ 8082",
+                "B_ {#itvara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "itvaraH"
+                }
+            ],
+            "_meanings": [
+                "A eunuch.\n"
+            ]
+        },
+        {
+            "__line": 67454,
+            "_ancestry": [
+                "L_ 8082",
+                "B_ {#itvara#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "itvarI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A disloyal or unchaste woman.\n",
+                ".²2 An abhisārikā <ab>q. v.</ab>"
+            ]
+        }
     ]
 }

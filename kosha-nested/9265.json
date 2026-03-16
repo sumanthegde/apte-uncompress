@@ -1,19 +1,59 @@
 {
-    "__line": 78377,
+    "__line": 77834,
     "_ancestry": [
         "L_ 9265",
-        "B_ {#ullaMbita#}"
+        "B_ {#und#}"
     ],
-    "_banner": "{#ullaMbita#}",
+    "_banner": "{#und#}",
     "_bannerExp": [
         {
-            "Right": "ullaMbita"
+            "Right": "und"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€7",
+        "<ab>P.</ab>",
+        "[{#unatti, undAYcakAra, OndIt, unditum, utta-unna#}; <ls>P. III. 3. 56</ls>]"
     ],
     "_meanings": [
-        "Erected, elevated."
+        ".²1 To wet, moisten, bathe; {#yAH pfTivIM#}\n\n {#payasondanti#}.\n",
+        ".²2 To flow or issue out, spring (as water).\n."
+    ],
+    "_morphisms": [
+        {
+            "__line": 77839,
+            "_ancestry": [
+                "L_ 9265",
+                "B_ {#und#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "und"
+                }
+            ],
+            "_meanings": [
+                "(<ab>aor.</ab> {#Ondidat#}) To wet. "
+            ]
+        },
+        {
+            "__line": 77839,
+            "_ancestry": [
+                "L_ 9265",
+                "B_ {#und#}",
+                "M_ --{%<ab>desid.</ab>%}"
+            ],
+            "_banner": "--{%<ab>desid.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "und"
+                }
+            ],
+            "_gram": [
+                "({#undidizati#})",
+                "[<ab>cf.</ab> <lang>L.</lang> {%unda%}]"
+            ]
+        }
     ]
 }

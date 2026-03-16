@@ -1,20 +1,837 @@
 {
-    "__line": 59111,
+    "__line": 57492,
     "_ancestry": [
         "L_ 6821",
-        "B_ {#Alakzya#}"
+        "B_ {#Adi#}"
     ],
-    "_banner": "{#Alakzya#}",
+    "_banner": "{#Adi#}",
     "_bannerExp": [
         {
-            "Right": "Alakzya"
+            "Right": "Adi"
         }
     ],
     "_gram": [
-        "{%<ab>pot. p.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Visible, \napparent; <ls>R. 13. 30.</ls> ",
-        "{@--2@} Slightly\nvisible; {#°daMtamukulAn#} <ls>Ś. 7. 17.</ls>"
+        ".²1 First, primary, primitive; {#nidAnaM tvAdikAraRam#} <ls>Ak.</ls>\n",
+        ".²2 Chief, first, principal, pre-eminent; <ab>oft.</ab> at the end of <ab>comp.</ab> in this\n sense; see below. ",
+        ".²3 First in time existing before.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 57496,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "M_ .{@{#-diH#}@}"
+            ],
+            "_banner": ".{@{#-diH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Beginning, commencement (<ab>opp.</ab> {#anta#}); {#apa eva sasarjAdO tAsu bIjamavAsfjat#}\n <ls>Ms. 1. 8</ls>; <ls>Bg. 3. 41</ls>; {#anAdi#} <ab>&c.</ab>; {#jagadAdiranAdistvam#} <ls>Ku. 2. 9</ls>;\n <ab>oft.</ab> at the end of <ab>comp.</ab> and translated by ‘beginning with’, ‘et caetera’,\n ‘and others’, ‘and so on’ (of the same nature or kind), ‘such like’; {#indrAdayo#}\n {#devAH#} the gods Indra and others ({#indraH AdiryezAM te#}); {#evamAdi#}\n this and the like; {#BvAdayo DAtavaH BU#} and others, or words beginning\n with {#BU#}, are called roots; <ab>oft.</ab> used by Pāṇini to denote classes\n or groups of grammatical words; {#adAdi, divAdi, svAdi#} <ab>&c.</ab>\n",
+                ".²2 First part or portion.\n",
+                ".²3 A firstling, first-fruits.\n",
+                ".²4 Prime cause.\n",
+                ".²5 Nearness.\n",
+                ".²6 One of the seven parts of Sāma; {#aTa saptaviDasya vAci saptaviDaM#}\n {#sAmopAsIta yatkiMca vAco humiti sa hiMkAro yatpreti sa prastAvo yadeti#}\n {#sa AdiH#} <ls>Ch. Up. 2. 8. 1</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 57513,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-anta#}@}"
+            ],
+            "_banner": ".{@{#-anta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Adyanta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 having beginning and end. ",
+                ".²2 first and last.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 57515,
+                    "_ancestry": [
+                        "L_ 6821",
+                        "B_ {#Adi#}",
+                        "S_ .{@{#-anta#}@}",
+                        "S_M_ ({@{#-tam#}@})"
+                    ],
+                    "_banner": "({@{#-tam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "Adyantam"
+                        }
+                    ],
+                    "_meanings": [
+                        "beginning and end.-- "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 57515,
+                            "_ancestry": [
+                                "L_ 6821",
+                                "B_ {#Adi#}",
+                                "S_ .{@{#-anta#}@}",
+                                "S_M_ ({@{#-tam#}@})",
+                                "S_M_S_ {#˚yamakam#}"
+                            ],
+                            "_banner": "{#˚yamakam#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "Adyantayamakam"
+                                }
+                            ],
+                            "_meanings": [
+                                "<ab>N.</ab> of a figure in poetry.\n <ab>cf.</ab> <ls>Bk. 10. 21</ls>. "
+                            ]
+                        },
+                        {
+                            "__line": 57516,
+                            "_ancestry": [
+                                "L_ 6821",
+                                "B_ {#Adi#}",
+                                "S_ .{@{#-anta#}@}",
+                                "S_M_ ({@{#-tam#}@})",
+                                "S_M_S_ {#˚vat#}"
+                            ],
+                            "_banner": "{#˚vat#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "Adyantavat"
+                                }
+                            ],
+                            "_meanings": [
+                                "having beginning and end, finite. "
+                            ]
+                        },
+                        {
+                            "__line": 57516,
+                            "_ancestry": [
+                                "L_ 6821",
+                                "B_ {#Adi#}",
+                                "S_ .{@{#-anta#}@}",
+                                "S_M_ ({@{#-tam#}@})",
+                                "S_M_S_ {#˚antaravartin#}"
+                            ],
+                            "_banner": "{#˚antaravartin#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "AdyantAntaravartin"
+                                }
+                            ],
+                            "_meanings": [
+                                "{%a.%} having a beginning, end and middle; being all-in-all.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 57518,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-udAtta#}@}"
+            ],
+            "_banner": ".{@{#-udAtta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdyudAtta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the acute accent on the first syllable.\n"
+            ]
+        },
+        {
+            "__line": 57519,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-upAntam#}@}"
+            ],
+            "_banner": ".{@{#-upAntam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdyupAntam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "from first to last.\n"
+            ]
+        },
+        {
+            "__line": 57520,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-karaH, -kartf, -kft#}@}"
+            ],
+            "_banner": ".{@{#-karaH, -kartf, -kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdikaraH"
+                },
+                {
+                    "Right": "Adikartf"
+                },
+                {
+                    "Right": "Adikft"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the creator, an epithet of Brahmā\n or Viṣṇu; {#garIyase brahmaRo'pyAdikartre#} <ls>Bg. 11. 37</ls>; {#viSezaRe dve#}\n {#ya ihAdikarturvadedaDItI sa hi kEyawIyaH#} <ls>Śab. Kau.</ls>\n"
+            ]
+        },
+        {
+            "__line": 57523,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Adikarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the beginning of an action.\n"
+            ]
+        },
+        {
+            "__line": 57524,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-kaviH#}@}"
+            ],
+            "_banner": ".{@{#-kaviH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdikaviH"
+                }
+            ],
+            "_meanings": [
+                "‘the first poet’, an epithet of Brahmā and of Vālmīki;\n the former is so called because he first produced and promulgated the Vedas;\n\n ({#tene brahma hfdA ya Adikavaye muhyanti yatsUrayaH#} <ls>Bhāg. 1. 1. 1.</ls>)\n and the latter, because he was the first to show to others ‘the path\n of poets’; when he beheld one of a pair of Krauñcha birds being killed\n by a fowler, he cursed the wretch, and his grief unconsciously took the\n form of a verse ({#SlokatvamApadyata yasya SokaH#}); he was subsequently\n told by Brahmā to compose the life of Rāma, and he thus gave to the\n world the first poem in Sanskrit, the Rāmāyaṇa; <ab>cf.</ab> <ls>U. 2 Viṣkambhaka</ls>.\n"
+            ]
+        },
+        {
+            "__line": 57534,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-kARqam#}@}"
+            ],
+            "_banner": ".{@{#-kARqam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdikARqam"
+                }
+            ],
+            "_meanings": [
+                "the first book of the Rāmāyaṇa.\n"
+            ]
+        },
+        {
+            "__line": 57535,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-kAraRam#}@}"
+            ],
+            "_banner": ".{@{#-kAraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdikAraRam"
+                }
+            ],
+            "_meanings": [
+                "the first or primary cause (of the universe), which,\n according to the Vedāntins, is Brahman; while, according to the Naiyāyikas\n and particularly the Vaiśeṣikas, atoms are the first or material cause\n of the universe, and not God.\n",
+                ".²2 analysis.\n",
+                ".²3 algebra.\n"
+            ]
+        },
+        {
+            "__line": 57541,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-kAvyam#}@}"
+            ],
+            "_banner": ".{@{#-kAvyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdikAvyam"
+                }
+            ],
+            "_meanings": [
+                "the first poem; {%<ab>i. e.</ab>%} the Rāmāyaṇa; see {#Adikavi#}.\n"
+            ]
+        },
+        {
+            "__line": 57542,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-keSavaH#}@}"
+            ],
+            "_banner": ".{@{#-keSavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdikeSavaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Viṣṇu.\n"
+            ]
+        },
+        {
+            "__line": 57543,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-jinaH#}@}"
+            ],
+            "_banner": ".{@{#-jinaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdijinaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Ṛṣabha, the first {#tIrTaMkara#}.\n"
+            ]
+        },
+        {
+            "__line": 57544,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-tAlaH#}@}"
+            ],
+            "_banner": ".{@{#-tAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AditAlaH"
+                }
+            ],
+            "_meanings": [
+                "a sort of musical time or {#tAla#}; {#eka eva laGuryatra AditAlaH sa kaTyate#}.\n"
+            ]
+        },
+        {
+            "__line": 57545,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-dIpakam#}@}"
+            ],
+            "_banner": ".{@{#-dIpakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdidIpakam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a figure in rhetoric (the verb standing at the\n beginning of the sentence). <ab>cf.</ab> <ls>Bk. 10. 23</ls>.\n"
+            ]
+        },
+        {
+            "__line": 57547,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-devaH#}@}"
+            ],
+            "_banner": ".{@{#-devaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdidevaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the first or Supreme God; {#puruzaM SASvataM divyam AdidevamajaM viBum#}\n <ls>Bg. 10. 12</ls>, <ls n=\"Bg.\">11. 38</ls>.\n",
+                ".²2 Nārāyaṇa or Viṣṇu.\n",
+                ".²3 Śiva.\n",
+                ".²4 Brahmā; <ls>Mb. 12. 188. 20</ls>.\n",
+                ".²5 the sun.\n"
+            ]
+        },
+        {
+            "__line": 57554,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-dEtyaH#}@}"
+            ],
+            "_banner": ".{@{#-dEtyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdidEtyaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Hiraṇyakaśipu.\n"
+            ]
+        },
+        {
+            "__line": 57555,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-nATaH#}@}"
+            ],
+            "_banner": ".{@{#-nATaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdinATaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Ādibuddha.\n"
+            ]
+        },
+        {
+            "__line": 57556,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-parvan#}@}"
+            ],
+            "_banner": ".{@{#-parvan#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Adiparvan"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "‘the first section or chapter’, <ab>N.</ab> of the first\n book of the Mahābhārata.\n"
+            ]
+        },
+        {
+            "__line": 57558,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-purARam#}@}"
+            ],
+            "_banner": ".{@{#-purARam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdipurARam"
+                }
+            ],
+            "_meanings": [
+                "the first Purāṇa, <ab>N.</ab> of the Brahma-Purāṇa. <ab>N.</ab> of\n a Jaina religious book.\n"
+            ]
+        },
+        {
+            "__line": 57560,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-pu(pU)ruzaH#}@}"
+            ],
+            "_banner": ".{@{#-pu(pU)ruzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Adi#} S_ .{@{#-pu(pU)ruzaH#}@}"
+                }
+            ],
+            "_meanings": [
+                ".²1 the first or primeval being, the lord of the creation.\n",
+                ".²2 Viṣṇu, Kṛṣṇa, or Nārāyaṇa; {#te ca prApurudanvantaM bubuDe#}\n {#cAdipUruzaH#} <ls>R. 10. 6</ls>; {#tamarDyamarDyAdikayAdipUruzaH#} <ls>Śi. 1. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 57564,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-balam#}@}"
+            ],
+            "_banner": ".{@{#-balam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Adibalam"
+                }
+            ],
+            "_meanings": [
+                "generative power; first vigour.\n"
+            ]
+        },
+        {
+            "__line": 57565,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-budDa#}@}"
+            ],
+            "_banner": ".{@{#-budDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdibudDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "perceived in the beginning.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 57566,
+                    "_ancestry": [
+                        "L_ 6821",
+                        "B_ {#Adi#}",
+                        "S_ .{@{#-budDa#}@}",
+                        "S_M_ ({@{#-dDaH#}@})"
+                    ],
+                    "_banner": "({@{#-dDaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "AdibudDaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the primitive Buddha.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 57567,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-Bava, -BUta#}@}"
+            ],
+            "_banner": ".{@{#-Bava, -BUta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdiBava"
+                },
+                {
+                    "Right": "AdiBUta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "produced at first.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 57568,
+                    "_ancestry": [
+                        "L_ 6821",
+                        "B_ {#Adi#}",
+                        "S_ .{@{#-Bava, -BUta#}@}",
+                        "S_M_ ({@{#-vaH, -taH#}@})"
+                    ],
+                    "_banner": "({@{#-vaH, -taH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "AdiBavaH"
+                        },
+                        {
+                            "Left": "S_M_ 1 error: AdiBava ({@{#-vaH, -taH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 ‘the first-born’, primeval being, an epithet of Brahmā; {#ityuktvAdiBavo#}\n {#devaH#} <ls>Bhāg. 7. 3. 22</ls>.\n",
+                        ".²2 also <ab>N.</ab> of Viṣṇu; {#rasAtalAdAdi#}. {#Bavena puMsA#} <ls>R. 13. 8</ls>.\n",
+                        ".²3 an elder brother.\n."
+                    ]
+                },
+                {
+                    "__line": 57573,
+                    "_ancestry": [
+                        "L_ 6821",
+                        "B_ {#Adi#}",
+                        "S_ .{@{#-Bava, -BUta#}@}",
+                        "S_M_ ({@{#-tam#}@})"
+                    ],
+                    "_banner": "({@{#-tam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: AdiBava ({@{#-taM#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "minute five elements ({#paYcamahABUtAni#}); {#nazwe loke#}\n {#dviparArDAvasAne mahABUtezvAdiBUtaM gatezu#} <ls>Bhāg. 10. 3. 25</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 57575,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-mUlam#}@}"
+            ],
+            "_banner": ".{@{#-mUlam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdimUlam"
+                }
+            ],
+            "_meanings": [
+                "first foundation, primeval cause.\n"
+            ]
+        },
+        {
+            "__line": 57576,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-yogAcAryaH#}@}"
+            ],
+            "_banner": ".{@{#-yogAcAryaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdiyogAcAryaH"
+                }
+            ],
+            "_meanings": [
+                "‘the first teacher of devotion’, an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 57577,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-rasaH#}@}"
+            ],
+            "_banner": ".{@{#-rasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdirasaH"
+                }
+            ],
+            "_meanings": [
+                "the first of the 8 Rasas, {%<ab>i. e.</ab>%} {#SfNgAra#} or love.\n"
+            ]
+        },
+        {
+            "__line": 57578,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-rAjaH#}@}"
+            ],
+            "_banner": ".{@{#-rAjaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdirAjaH"
+                }
+            ],
+            "_meanings": [
+                "the first king {#pfTu#}; an epithet of Manu.\n"
+            ]
+        },
+        {
+            "__line": 57579,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-rUpam#}@}"
+            ],
+            "_banner": ".{@{#-rUpam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdirUpam"
+                }
+            ],
+            "_meanings": [
+                "Symptom (of disease).\n"
+            ]
+        },
+        {
+            "__line": 57580,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-vaMSaH#}@}"
+            ],
+            "_banner": ".{@{#-vaMSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdivaMSaH"
+                }
+            ],
+            "_meanings": [
+                "primeval race, primitive family.\n"
+            ]
+        },
+        {
+            "__line": 57581,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-varAhaH#}@}"
+            ],
+            "_banner": ".{@{#-varAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdivarAhaH"
+                }
+            ],
+            "_meanings": [
+                "‘the first boar’, an epithet of Visṇu, alluding to his\n third or boar-incarnation.\n"
+            ]
+        },
+        {
+            "__line": 57583,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-vidvas#}@}"
+            ],
+            "_banner": ".{@{#-vidvas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Adividvas"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the first learned man; {#kapila#}.\n"
+            ]
+        },
+        {
+            "__line": 57584,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-vipulA#}@}"
+            ],
+            "_banner": ".{@{#-vipulA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdivipulA"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an Āryā metre.\n"
+            ]
+        },
+        {
+            "__line": 57585,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-vfkzaH#}@}"
+            ],
+            "_banner": ".{@{#-vfkzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdivfkzaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant (<lang>Mar.</lang> <ns>{#ApawA#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 57586,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-SaktiH#}@}"
+            ],
+            "_banner": ".{@{#-SaktiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdiSaktiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 the power of {#mAyA#} or illusion. ",
+                ".²2 an epithet of Durgā.\n"
+            ]
+        },
+        {
+            "__line": 57588,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-SarIram#}@}"
+            ],
+            "_banner": ".{@{#-SarIram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdiSarIram"
+                }
+            ],
+            "_meanings": [
+                ".²1. the primitive body.\n",
+                ".²2 ignorance.\n",
+                ".²3 the subtle body.\n"
+            ]
+        },
+        {
+            "__line": 57591,
+            "_ancestry": [
+                "L_ 6821",
+                "B_ {#Adi#}",
+                "S_ .{@{#-sargaH#}@}"
+            ],
+            "_banner": ".{@{#-sargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AdisargaH"
+                }
+            ],
+            "_meanings": [
+                "the first creation."
+            ]
+        }
     ]
 }

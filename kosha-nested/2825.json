@@ -1,19 +1,38 @@
 {
-    "__line": 27650,
+    "__line": 24806,
     "_ancestry": [
         "L_ 2825",
-        "B_ {#apratima#}"
+        "B_ {#apaSuc#}"
     ],
-    "_banner": "{#apratima#}",
+    "_banner": "{#apaSuc#}",
     "_bannerExp": [
         {
-            "Right": "apratima"
+            "Right": "apaSuc"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Without an equal or\nparallel, incomparable, matchless,\nunrivalled; so {#apratimAna; °namojaH#}  \n<ls>Mv. 1. 62</ls>; {#°rUpatvaM; °vIrya, °budDi#} &c."
+        "Without sorrow. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 24806,
+            "_ancestry": [
+                "L_ 2825",
+                "B_ {#apaSuc#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#apaSuc#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "(Without sorrow) The soul;\n {#ka uttamaH SlokaguRAnuvAdAt pumAn virajyeta vinApaSugGnAt#} <ls>Bhāg.</ls>"
+            ]
+        }
     ]
 }

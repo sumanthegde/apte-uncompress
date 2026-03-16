@@ -1,61 +1,150 @@
 {
-    "__line": 123196,
+    "__line": 128603,
     "_ancestry": [
         "L_ 14839",
-        "B_ {#tURaH#}"
+        "B_ {#cAndra#}"
     ],
-    "_banner": "{#tURaH#}",
+    "_banner": "{#cAndra#}",
     "_bannerExp": [
         {
-            "Right": "tURaH"
+            "Right": "cAndra"
+        },
+        {
+            "Right": "cAndrI"
         }
     ],
     "_gram": [
-        "[{#tUR-karmaRi Gaj#}]"
+        "{%a.%}",
+        "({#-ndrI#}|{%f.%})",
+        "[{#candrasyedam aR#}]"
     ],
     "_meanings": [
-        "A quiver;\n \n{#militaSilImuKapAwalipawalakftasmaratURavilAse#} <ls>Gīt. 1</ls>; <ls>R. 7. 57.</ls> "
+        "Relating\n to the moon, lunar; {#gurukAvyAnugAM biBraccAndrImaBinaBaH Sriyam#} <ls>Śi. 2. 2</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 123198,
+            "__line": 128605,
             "_ancestry": [
                 "L_ 14839",
-                "B_ {#tURaH#}",
-                "M_ {#--RI#}"
+                "B_ {#cAndra#}",
+                "M_ .{@{#-draH#}@}"
             ],
-            "_banner": "{#--RI#}",
+            "_banner": ".{@{#-draH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tURI"
+                    "Right": "cAndraH"
                 }
             ],
             "_meanings": [
-                "{@--1@} An\ninternal disease by which the anus\nand the bladder become painfully\naffected. ",
-                "{@--2@} The indigo plant. ",
-                "{@--3@} \n\nA quiver; <ls>R. 9. 56</ls>; <ls>U. 4. 20</ls>;  \n<ls>Mv. 1. 18.</ls> "
+                ".²1 A lunar month.\n",
+                ".²2 The bright fortnight ({#Suklapakza#}).\n",
+                ".²3 The moon-stone.\n"
+            ]
+        },
+        {
+            "__line": 128609,
+            "_ancestry": [
+                "L_ 14839",
+                "B_ {#cAndra#}",
+                "M_ .{@{#-dram#}@}"
+            ],
+            "_banner": ".{@{#-dram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAndram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The vow called {#cAndrAyaRa#} <ab>q. v.</ab>\n",
+                ".²2 Fresh ginger.\n",
+                ".²3 The lunar mansion called {#mfgaSIrza#}.\n"
+            ]
+        },
+        {
+            "__line": 128613,
+            "_ancestry": [
+                "L_ 14839",
+                "B_ {#cAndra#}",
+                "M_ .{@{#-drI#}@}"
+            ],
+            "_banner": ".{@{#-drI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAndrI"
+                }
+            ],
+            "_meanings": [
+                "Moonlight; <ab>cf.</ab> <ls>Śi. 2. 2</ls>.\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 123204,
+            "__line": 128615,
             "_ancestry": [
                 "L_ 14839",
-                "B_ {#tURaH#}",
-                "S_  {#--DaraH --DAraH#}"
+                "B_ {#cAndra#}",
+                "S_ .{@{#-AKyam#}@}"
             ],
-            "_banner": " {#--DaraH --DAraH#}",
+            "_banner": ".{@{#-AKyam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "tURaDAraH"
-                },
-                {
-                    "Right": "tURaDaraH"
+                    "Right": "cAndrAKyam"
                 }
             ],
             "_meanings": [
-                "an archer."
+                "fresh ginger.\n"
+            ]
+        },
+        {
+            "__line": 128616,
+            "_ancestry": [
+                "L_ 14839",
+                "B_ {#cAndra#}",
+                "S_ .{@{#-BAgA#}@}"
+            ],
+            "_banner": ".{@{#-BAgA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAndraBAgA"
+                }
+            ],
+            "_meanings": [
+                "the river Chandrabhāgā.\n"
+            ]
+        },
+        {
+            "__line": 128617,
+            "_ancestry": [
+                "L_ 14839",
+                "B_ {#cAndra#}",
+                "S_ .{@{#-mAsaH#}@}"
+            ],
+            "_banner": ".{@{#-mAsaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAndramAsaH"
+                }
+            ],
+            "_meanings": [
+                "a lunar month.\n"
+            ]
+        },
+        {
+            "__line": 128618,
+            "_ancestry": [
+                "L_ 14839",
+                "B_ {#cAndra#}",
+                "S_ .{@{#-vratikaH#}@}"
+            ],
+            "_banner": ".{@{#-vratikaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cAndravratikaH"
+                }
+            ],
+            "_meanings": [
+                "one who observes the {#cAndrAyaRa#} vow. <ab>q. v.</ab>"
             ]
         }
     ]

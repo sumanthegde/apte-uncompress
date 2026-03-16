@@ -1,37 +1,79 @@
 {
-    "__line": 16706,
+    "__line": 14698,
     "_ancestry": [
         "L_ 1646",
-        "B_ {#anudvega#}"
+        "B_ {#anISvara#}"
     ],
-    "_banner": "{#anudvega#}",
+    "_banner": "{#anISvara#}",
     "_bannerExp": [
         {
-            "Right": "anudvega"
+            "Right": "anISvara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Free from anxiety or\napprehension. "
+        ".²1 Having no superior, uncontrolled.\n",
+        ".²2 Unable; {#SayitA saviDepyanISvarA saPalIkartumaho manoraTAn#} <ls>Bv. 2. 182</ls>.\n",
+        ".²3 Not relating to God; {#DyAnenAnISvarAn guRAn#} ({#dahet#}) <ls>Ms. 6. 72</ls>.\n",
+        ".²4 Not acknowledging God, atheistical.\n"
     ],
     "_morphisms": [
         {
-            "__line": 16707,
+            "__line": 14703,
             "_ancestry": [
                 "L_ 1646",
-                "B_ {#anudvega#}",
-                "M_ {#--gaH#}"
+                "B_ {#anISvara#}",
+                "M_ .{@{#-ram#}@}"
             ],
-            "_banner": "{#--gaH#}",
+            "_banner": ".{@{#-ram#}@}",
             "_bannerExp": [
                 {
-                    "Right": "anudvegaH"
+                    "Right": "anISvaram"
                 }
             ],
             "_meanings": [
-                "Security or \nfreedom from fear."
+                "The godless one (with Sāṅkhyas), epithet of the world;\n {#jagadAhuranISvaram#}.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 14706,
+            "_ancestry": [
+                "L_ 1646",
+                "B_ {#anISvara#}",
+                "S_ .{@{#-vAdaH#}@}"
+            ],
+            "_banner": ".{@{#-vAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anISvaravAdaH"
+                }
+            ],
+            "_meanings": [
+                "atheism, not acknowledging God as the Supreme Ruler.\n"
+            ]
+        },
+        {
+            "__line": 14707,
+            "_ancestry": [
+                "L_ 1646",
+                "B_ {#anISvara#}",
+                "S_ .{@{#-vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vAdin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anISvaravAdin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "one who maintains the doctrine of no god or atheism, an atheist."
             ]
         }
     ]

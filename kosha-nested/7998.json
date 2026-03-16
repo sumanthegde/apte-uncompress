@@ -1,23 +1,61 @@
 {
-    "__line": 68850,
+    "__line": 66768,
     "_ancestry": [
         "L_ 7998",
-        "B_ {#udaka(ki)la#}"
+        "B_ {#AsrAva#}"
     ],
-    "_banner": "{#udaka(ki)la#}",
+    "_banner": "{#AsrAva#}",
     "_bannerExp": [
         {
-            "Right": "udakala"
-        },
-        {
-            "Right": "udakila"
+            "Right": "AsrAva"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[<ab>cf.</ab> <ls>P. V. 2. 97</ls>]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Watery, containing water."
+        "Flowing, running.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 66769,
+            "_ancestry": [
+                "L_ 7998",
+                "B_ {#AsrAva#}",
+                "M_ .{@{#-vaH#}@}"
+            ],
+            "_banner": ".{@{#-vaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsrAvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wound; {#kaRwako hyapi ducCinna AsrAvaM janayecciram#} <ls>Mb. 1. 140. 9</ls>.\n",
+                ".²2 Flow, issue, discharge.\n",
+                ".²3 Spittle, saliva.\n",
+                ".²4 Pain, affliction.\n",
+                ".²5 A disease of the body; {#tadAsrAvasya BezajaM tadu rogamanInaSat#} <ls>Av. 2. 3. 3</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 66776,
+            "_ancestry": [
+                "L_ 7998",
+                "B_ {#AsrAva#}",
+                "S_ .{@{#-Bezajam#}@}"
+            ],
+            "_banner": ".{@{#-Bezajam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AsrAvaBezajam"
+                }
+            ],
+            "_meanings": [
+                "medicament, medicine; {#SrezWamAsrAvaBezajam#} <ls>Av. 6. 44. 2</ls>."
+            ]
+        }
     ]
 }

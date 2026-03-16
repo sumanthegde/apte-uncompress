@@ -1,24 +1,138 @@
 {
-    "__line": 101590,
+    "__line": 103373,
     "_ancestry": [
         "L_ 12206",
-        "B_ {#KeliH#}"
+        "B_ {#kAhala#}"
     ],
-    "_banner": "{#KeliH#}",
+    "_banner": "{#kAhala#}",
     "_bannerExp": [
         {
-            "Right": "KeliH"
+            "Right": "kAhala"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Sport, play. ",
-        "{@--2@} An\narrow. ",
-        "{@--3@} An animal. ",
-        "{@--4@} A bird.\n",
-        "{@--5@} The sun. ",
-        "{@--6@} A song or hymn."
+        ".²1 Dry, withered.\n",
+        ".²2 Mischievous.\n",
+        ".²3 Excessive, spacious, large.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 103377,
+            "_ancestry": [
+                "L_ 12206",
+                "B_ {#kAhala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAhalaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cat.\n",
+                ".²2 A cock.\n",
+                ".²3 A crow.\n",
+                ".²4 A sound in general.\n"
+            ]
+        },
+        {
+            "__line": 103382,
+            "_ancestry": [
+                "L_ 12206",
+                "B_ {#kAhala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAhalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Indistinct speech.\n",
+                ".²2 A kind of musical instrument; {#gAyantIBiH kAhalaM kAhalABiH#} <ls>Śi. 18. 54</ls>.\n"
+            ]
+        },
+        {
+            "__line": 103385,
+            "_ancestry": [
+                "L_ 12206",
+                "B_ {#kAhala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAhalam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Very much, excessively; <ls>Śi. 18. 54</ls>.\n"
+            ]
+        },
+        {
+            "__line": 103386,
+            "_ancestry": [
+                "L_ 12206",
+                "B_ {#kAhala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAhalA"
+                }
+            ],
+            "_meanings": [
+                "A large drum (military).\n"
+            ]
+        },
+        {
+            "__line": 103387,
+            "_ancestry": [
+                "L_ 12206",
+                "B_ {#kAhala#}",
+                "M_ .{@{#-lI#}@}"
+            ],
+            "_banner": ".{@{#-lI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAhalI"
+                }
+            ],
+            "_meanings": [
+                "A young woman.\n"
+            ]
+        },
+        {
+            "__line": 103388,
+            "_ancestry": [
+                "L_ 12206",
+                "B_ {#kAhala#}",
+                "M_ .{@{#-laH, -lA, -lam#}@}"
+            ],
+            "_banner": ".{@{#-laH, -lA, -lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAhalaH"
+                },
+                {
+                    "Right": "kAhalA"
+                },
+                {
+                    "Right": "kAhalam"
+                }
+            ],
+            "_meanings": [
+                "A horn."
+            ]
+        }
     ]
 }

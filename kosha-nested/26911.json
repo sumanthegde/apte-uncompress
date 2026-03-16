@@ -1,16 +1,63 @@
 {
-    "__line": 226982,
+    "__line": 246659,
     "_ancestry": [
         "L_ 26911",
-        "B_ {#veMkawaH#}"
+        "B_ {#yamana#}"
     ],
-    "_banner": "{#veMkawaH#}",
+    "_banner": "{#yamana#}",
     "_bannerExp": [
         {
-            "Right": "veMkawaH"
+            "Right": "yamana"
+        },
+        {
+            "Right": "yamanI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#yam lyu lyuw vA#}]"
+    ],
     "_meanings": [
-        "<ab>N.</ab> of a mountain."
+        "Restraining, curbing, governing <ab>&c.</ab>\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 246661,
+            "_ancestry": [
+                "L_ 26911",
+                "B_ {#yamana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yamanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The act of restraining, curbing or binding.\n",
+                ".²2 Stopping, ceasing.\n",
+                ".²3 Cessation, rest.\n",
+                ".²4 Governing, managing.\n"
+            ]
+        },
+        {
+            "__line": 246666,
+            "_ancestry": [
+                "L_ 26911",
+                "B_ {#yamana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yamanaH"
+                }
+            ],
+            "_meanings": [
+                "The god of death, Yama."
+            ]
+        }
     ]
 }

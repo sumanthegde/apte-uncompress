@@ -1,42 +1,82 @@
 {
-    "__line": 41806,
+    "__line": 39443,
     "_ancestry": [
         "L_ 4611",
-        "B_ {#avanam#}"
+        "B_ {#arvan#}"
     ],
-    "_banner": "{#avanam#}",
+    "_banner": "{#arvan#}",
     "_bannerExp": [
         {
-            "Right": "avanam"
+            "Right": "arvan"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "[{#f-vanip#}]"
     ],
     "_meanings": [
-        "{@--1@} To bow down, to\nbend down, stoop; <ls>Śi. 9. 74</ls> ",
-        "{@--2@} To\nbend oneself, hang down; {#tvayyAdAtuM#}\n{#jalamavanate#} <ls>Me. 46.</ls> See {#avanata#} also.\n"
+        ".²1 Going, moving, running.\n",
+        ".²2 Mean, unworthy, censurable ({#garhya#} <ls>Uṇ. 4. 112</ls>; {#kutsita#} <ls n=\"Uṇ.\">5. 54</ls>).\n {%m.%} ({#arvA, arvantO, arvantaH#} <ab>&c.</ab>)\n",
+        ".²1 A horse; {#citraDvajapatAkAgrEraBendrasyandanArvaBiH#} <ls>Bhāg. 10. 75. 11</ls>;\n {#arvAsurAn#} <ls>Bṛ. Up. 1. 1. 2</ls>. {#SlaTIkftapragrahamarvatAM vrajAH#} <ls>Śi. 12. 31</ls>.\n",
+        ".²2 An epithet of a horse or its driver.\n",
+        ".²3 One of the ten horses of the moon.\n",
+        ".²4 Indra.\n",
+        ".²5 A short span ({#gokarRaparimARa#}).\n"
     ],
     "_morphisms": [
         {
-            "__line": 41810,
+            "__line": 39453,
             "_ancestry": [
                 "L_ 4611",
-                "B_ {#avanam#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#arvan#}",
+                "M_ .{@{#-tI#}@}"
             ],
+            "_banner": ".{@{#-tI#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avanam"
+                    "Left": "1Align error: arvan tI"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#avana-nA-mayati#})"
+            "_meanings": [
+                ".²1 A mare.\n",
+                ".²2 A bawd, procuress.\n",
+                ".²3 A nymph.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 39458,
+            "_ancestry": [
+                "L_ 4611",
+                "B_ {#arvan#}",
+                "S_ .{@{#-vasuH#}@}"
+            ],
+            "_banner": ".{@{#-vasuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvavasuH"
+                }
             ],
             "_meanings": [
-                "To bend down,\nbend; {#avanamaMya dvizatAM SirAMsi#} <ls>K. 109</ls>;\n{#SvapucCamavanAmitam#} <ls>Pt. 4.</ls>"
+                "one of the principal seven rays of the Sun.\n"
+            ]
+        },
+        {
+            "__line": 39459,
+            "_ancestry": [
+                "L_ 4611",
+                "B_ {#arvan#}",
+                "S_ .{@{#-vAhaH#}@}"
+            ],
+            "_banner": ".{@{#-vAhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "arvavAhaH"
+                }
+            ],
+            "_meanings": [
+                "A horseman; {#AgacCan gurutaragarvamarvavAhEH#} <ls>Śiva B. 24. 64</ls> and <ls n=\"Śiva B.\">25. 9</ls>."
             ]
         }
     ]

@@ -1,19 +1,100 @@
 {
-    "__line": 71655,
+    "__line": 70139,
     "_ancestry": [
         "L_ 8356",
-        "B_ {#unnAla#}"
+        "B_ {#IzA#}"
     ],
-    "_banner": "{#unnAla#}",
+    "_banner": "{#IzA#}",
     "_bannerExp": [
         {
-            "Right": "unnAla"
+            "Right": "IzA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#Iz-ka#}]"
     ],
     "_meanings": [
-        "With the stalk \nprominently appearing; <ls>Māl. 9. 13.</ls>"
+        ".²1 The pole or shafts of a carriage or a plough. {#IzA cakAdisaMniDAne#}\n {#cedakzamAnayetyucyate tadA yAnAkzamaDikftya brUte iti gamyate .#} <ls>ŚB. on MS. 6. 8. 35</ls>.\n {#dvIzam#} ({#raTam#}) <ls>Bhāg. 4. 26. 1</ls>. {#‘IzA lANgaladaRqaH#}\n {#syAt’ ityamaraH#}\n",
+        ".²2 A part of a chariot.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 70145,
+            "_ancestry": [
+                "L_ 8356",
+                "B_ {#IzA#}",
+                "M_ .{@{#-ze#}@}"
+            ],
+            "_banner": ".{@{#-ze#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ize"
+                }
+            ],
+            "_meanings": [
+                "(<ab>du.</ab>) The double or fork-shaped pole.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 70147,
+            "_ancestry": [
+                "L_ 8356",
+                "B_ {#IzA#}",
+                "S_ .{@{#-daRqaH#}@}"
+            ],
+            "_banner": ".{@{#-daRqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzAdaRqaH"
+                }
+            ],
+            "_meanings": [
+                "the handle of a plough; {#IzAdaRqO mftyuSayyAtalasya#} <ls>Śi. 18. 43</ls>.\n"
+            ]
+        },
+        {
+            "__line": 70148,
+            "_ancestry": [
+                "L_ 8356",
+                "B_ {#IzA#}",
+                "S_ .{@{#-danta#}@}"
+            ],
+            "_banner": ".{@{#-danta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "IzAdanta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "with projecting teeth.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 70149,
+                    "_ancestry": [
+                        "L_ 8356",
+                        "B_ {#IzA#}",
+                        "S_ .{@{#-danta#}@}",
+                        "S_M_ ({@{#-ntaH#}@})"
+                    ],
+                    "_banner": "({@{#-ntaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "IzAdantaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 an elephant with a large tusk or tooth.\n",
+                        ".²2 the handle of a plough; {#IzAdantaH kuYjaraM SAtravIyam#} <ls>Śi. 18. 38</ls>.\n",
+                        ".²3 the tusk of an elephant."
+                    ]
+                }
+            ]
+        }
     ]
 }

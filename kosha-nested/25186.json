@@ -1,16 +1,81 @@
 {
-    "__line": 213413,
+    "__line": 226666,
     "_ancestry": [
         "L_ 25186",
-        "B_ {#varha#}"
+        "B_ {#BItiH#}"
     ],
-    "_banner": "{#varha#}",
+    "_banner": "{#BItiH#}",
     "_bannerExp": [
         {
-            "Right": "varha"
+            "Right": "BItiH"
         }
     ],
+    "_gram": [
+        "{%f.%}",
+        "[{#BI-ktin#}]"
+    ],
     "_meanings": [
-        "See {#barh, barha, barhaRa#},\n{#barhiRa, barhin, barhis#}."
+        ".²1 Fear, apprehension, dread, terror; {#na Bejire BImavizeRa BItim#} <ls>Bh. 2. 80</ls>.\n",
+        ".²2 Shaking, tremour.\n",
+        ".²3 Danger, risk.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 226671,
+            "_ancestry": [
+                "L_ 25186",
+                "B_ {#BItiH#}",
+                "S_ .{@{#-kft#}@}"
+            ],
+            "_banner": ".{@{#-kft#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItikft"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "causing or exciting fear.\n"
+            ]
+        },
+        {
+            "__line": 226672,
+            "_ancestry": [
+                "L_ 25186",
+                "B_ {#BItiH#}",
+                "S_ .{@{#-Cid#}@}"
+            ],
+            "_banner": ".{@{#-Cid#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BIticCid"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "keeping away fear.\n"
+            ]
+        },
+        {
+            "__line": 226673,
+            "_ancestry": [
+                "L_ 25186",
+                "B_ {#BItiH#}",
+                "S_ .{@{#-nAwitakam#}@}"
+            ],
+            "_banner": ".{@{#-nAwitakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BItinAwitakam"
+                }
+            ],
+            "_meanings": [
+                "a gesticulation or representation of fear."
+            ]
+        }
     ]
 }

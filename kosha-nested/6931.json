@@ -1,20 +1,46 @@
 {
-    "__line": 59857,
+    "__line": 58465,
     "_ancestry": [
         "L_ 6931",
-        "B_ {#AvahamAna#}"
+        "B_ {#ADvarika#}"
     ],
-    "_banner": "{#AvahamAna#}",
+    "_banner": "{#ADvarika#}",
     "_bannerExp": [
         {
-            "Right": "AvahamAna"
+            "Right": "ADvarika"
+        },
+        {
+            "Right": "ADvarikI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#aDvara-Wak#}]"
     ],
     "_meanings": [
-        "{@--1@} Bringing near. ",
-        "{@--2@}\nFollowed or succeeded by."
+        "One who knows or has studied works\n relating to the (Soma) sacrifice.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 58468,
+            "_ancestry": [
+                "L_ 6931",
+                "B_ {#ADvarika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ADvarikaH"
+                }
+            ],
+            "_gram": [
+                "[{#aDvarasya vyAKyAno granTaH#}]"
+            ],
+            "_meanings": [
+                "A work which treats of (Soma) sacrifice."
+            ]
+        }
     ]
 }

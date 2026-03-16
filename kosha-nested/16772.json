@@ -1,22 +1,58 @@
 {
-    "__line": 140644,
+    "__line": 145418,
     "_ancestry": [
         "L_ 16772",
-        "B_ {#nipAtita#}"
+        "B_ {#tErTika#}"
     ],
-    "_banner": "{#nipAtita#}",
+    "_banner": "{#tErTika#}",
     "_bannerExp": [
         {
-            "Right": "nipAtita"
+            "Right": "tErTika"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Thrown or put down,\nfelled. ",
-        "{@--2@} Killed, destroyed. ",
-        "{@--3@}\nBeaten down. ",
-        "{@--4@} Irregular."
+        ".²1 Sacred, holy.\n",
+        ".²2 Coming from a sacred place; <ls>Mb. 13. 127. 12</ls>.\n",
+        ".²3 Frequenting sacred places or shrines.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 145422,
+            "_ancestry": [
+                "L_ 16772",
+                "B_ {#tErTika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tErTikaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An ascetic.\n",
+                ".²2 One who propounds a new religious or philosophical doctrine.\n"
+            ]
+        },
+        {
+            "__line": 145425,
+            "_ancestry": [
+                "L_ 16772",
+                "B_ {#tErTika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tErTikam"
+                }
+            ],
+            "_meanings": [
+                "Holy water (such as that brought from a sacred bathingplace)."
+            ]
+        }
     ]
 }

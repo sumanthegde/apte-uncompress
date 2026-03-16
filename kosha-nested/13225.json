@@ -1,38 +1,82 @@
 {
-    "__line": 111104,
+    "__line": 112715,
     "_ancestry": [
         "L_ 13225",
-        "B_ {#cAturvidya#}"
+        "B_ {#klinna#}"
     ],
-    "_banner": "{#cAturvidya#}",
+    "_banner": "{#klinna#}",
     "_bannerExp": [
         {
-            "Right": "cAturvidya"
+            "Right": "klinna"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#dyI#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Knowing the\nfour Vedas. "
+        ".²1 Wet, moistened; running (as an eye).\n",
+        ".²2 Rotted, putrified; <ls>Charaka. 1. 11</ls>, <ls n=\"Charaka. 1.\">27</ls>.\n",
+        ".²3 Soft, moved (as heart); {#klinnaDiyaM ca mAtaram#} <ls>Bhāg. 4. 3. 10</ls>, <ls n=\"Bhāg.\">9. 11. 5</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 111105,
+            "__line": 112720,
             "_ancestry": [
                 "L_ 13225",
-                "B_ {#cAturvidya#}",
-                "M_ {#--dyaM#}"
+                "B_ {#klinna#}",
+                "S_ .{@{#-akza#}@}"
             ],
-            "_banner": "{#--dyaM#}",
+            "_banner": ".{@{#-akza#}@}",
             "_bannerExp": [
                 {
-                    "Right": "cAturvidyaM"
+                    "Right": "klinnAkza"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "The four Vedas;\nalso {#cAturvEdya#}."
+                "blear-eyed.\n"
+            ]
+        },
+        {
+            "__line": 112721,
+            "_ancestry": [
+                "L_ 13225",
+                "B_ {#klinna#}",
+                "S_ .{@{#-vartman#}@}"
+            ],
+            "_banner": ".{@{#-vartman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "klinnavartman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "watering of the eyes.\n"
+            ]
+        },
+        {
+            "__line": 112722,
+            "_ancestry": [
+                "L_ 13225",
+                "B_ {#klinna#}",
+                "S_ .{@{#-hfd#}@}"
+            ],
+            "_banner": ".{@{#-hfd#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "klinnahfd"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "tender-hearted."
             ]
         }
     ]

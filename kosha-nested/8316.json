@@ -1,40 +1,54 @@
 {
-    "__line": 71380,
+    "__line": 69752,
     "_ancestry": [
         "L_ 8316",
-        "B_ {#udvarta#}"
+        "B_ {#Ipsita#}"
     ],
-    "_banner": "{#udvarta#}",
+    "_banner": "{#Ipsita#}",
     "_bannerExp": [
         {
-            "Right": "udvarta"
+            "Right": "Ipsita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Superfluous, \nredundant, plentiful. ",
-        "{@--2@} Left over as a\nremainder, surplus. "
+        "Desired, wished for, dear to; {#apIpsitaM kzatrakulANganAnAm#}\n <ls>R. 14. 4</ls>; <ls>Ś. 3. 14</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 71382,
+            "__line": 69754,
             "_ancestry": [
                 "L_ 8316",
-                "B_ {#udvarta#}",
-                "M_ {#--rtaH#}"
+                "B_ {#Ipsita#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--rtaH#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "udvartaH"
+                    "Right": "Ipsitam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A \nremainder, surplus. ",
-                "{@--2@} Excess, \n\npreponderance. ",
-                "{@--3@} Rubbing or \nsmearing the body with perfumes."
+                "Desire, wish.\n"
+            ]
+        },
+        {
+            "__line": 69755,
+            "_ancestry": [
+                "L_ 8316",
+                "B_ {#Ipsita#}",
+                "M_ .{@{#-Palam#}@}"
+            ],
+            "_banner": ".{@{#-Palam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: Ipsita PalaM"
+                }
+            ],
+            "_meanings": [
+                "A kind of sweet Cocoanut (<lang>Mar.</lang> <ns>{#mohAcA nAraLa#}</ns>)."
             ]
         }
     ]

@@ -1,20 +1,41 @@
 {
-    "__line": 248079,
+    "__line": 273528,
     "_ancestry": [
         "L_ 29604",
-        "B_ {#samUh#}"
+        "B_ {#videSin, videSIya#}"
     ],
-    "_banner": "{#samUh#}",
+    "_banner": "{#videSin, videSIya#}",
     "_bannerExp": [
         {
-            "Right": "samUh"
+            "Right": "videSin"
+        },
+        {
+            "Right": "videSIya"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To gather, assemble,\ncollect."
+        "Foreign, exotic. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 273528,
+            "_ancestry": [
+                "L_ 29604",
+                "B_ {#videSin, videSIya#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#videSin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A foreigner."
+            ]
+        }
     ]
 }

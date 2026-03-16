@@ -1,20 +1,98 @@
 {
-    "__line": 221138,
+    "__line": 239239,
     "_ancestry": [
         "L_ 26195",
-        "B_ {#vibadDa#}"
+        "B_ {#mAlavaH#}"
     ],
-    "_banner": "{#vibadDa#}",
+    "_banner": "{#mAlavaH#}",
     "_bannerExp": [
         {
-            "Right": "vibadDa"
+            "Right": "mAlavaH"
         }
     ],
-    "_gram": [
-        "{%<ab>p. p.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Fastened, tied. ",
-        "{@--2@}\nObstructed, stopped."
+        ".²1 <ab>N.</ab> of a country, the modern Mālvā in central India.\n",
+        ".²2 <ab>N.</ab> of a Rāga or musical mode.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 239242,
+            "_ancestry": [
+                "L_ 26195",
+                "B_ {#mAlavaH#}",
+                "M_ .{@{#-vAH#}@}"
+            ],
+            "_banner": ".{@{#-vAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAlavAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) The people of Mālvā.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 239244,
+            "_ancestry": [
+                "L_ 26195",
+                "B_ {#mAlavaH#}",
+                "S_ .{@{#-aDISaH, -indraH, -nfpatiH#}@}"
+            ],
+            "_banner": ".{@{#-aDISaH, -indraH, -nfpatiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAlavADISaH"
+                },
+                {
+                    "Right": "mAlavendraH"
+                },
+                {
+                    "Right": "mAlavanfpatiH"
+                }
+            ],
+            "_meanings": [
+                "a king of Mālvā.\n"
+            ]
+        },
+        {
+            "__line": 239245,
+            "_ancestry": [
+                "L_ 26195",
+                "B_ {#mAlavaH#}",
+                "S_ .{@{#-gOqaH#}@}"
+            ],
+            "_banner": ".{@{#-gOqaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAlavagOqaH"
+                }
+            ],
+            "_meanings": [
+                "(in music) a particular Rāga.\n"
+            ]
+        },
+        {
+            "__line": 239246,
+            "_ancestry": [
+                "L_ 26195",
+                "B_ {#mAlavaH#}",
+                "S_ .{@{#-deSaH, -vizayaH#}@}"
+            ],
+            "_banner": ".{@{#-deSaH, -vizayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAlavadeSaH"
+                },
+                {
+                    "Right": "mAlavavizayaH"
+                }
+            ],
+            "_meanings": [
+                "the country of Mālvā."
+            ]
+        }
     ]
 }

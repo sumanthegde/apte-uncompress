@@ -1,19 +1,62 @@
 {
-    "__line": 14019,
+    "__line": 12044,
     "_ancestry": [
         "L_ 1291",
-        "B_ {#anAkAra#}"
+        "B_ {#anaDigata#}"
     ],
-    "_banner": "{#anAkAra#}",
+    "_banner": "{#anaDigata#}",
     "_bannerExp": [
         {
-            "Right": "anAkAra"
+            "Right": "anaDigata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[<sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "Formless, shapeless,\nepithet of the Supreme Being."
+        "Not obtained, acquired or studied.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 12046,
+            "_ancestry": [
+                "L_ 1291",
+                "B_ {#anaDigata#}",
+                "S_ .{@{#-manoraTa#}@}"
+            ],
+            "_banner": ".{@{#-manoraTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anaDigatamanoraTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "foiled in oneʼs expectations.\n"
+            ]
+        },
+        {
+            "__line": 12047,
+            "_ancestry": [
+                "L_ 1291",
+                "B_ {#anaDigata#}",
+                "S_ .{@{#-SAstra#}@}"
+            ],
+            "_banner": ".{@{#-SAstra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anaDigataSAstra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "who has not learnt the Śāstras."
+            ]
+        }
     ]
 }

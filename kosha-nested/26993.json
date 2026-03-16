@@ -1,41 +1,91 @@
 {
-    "__line": 227613,
+    "__line": 247419,
     "_ancestry": [
         "L_ 26993",
-        "B_ {#vezwakaH#}"
+        "B_ {#yAtuH#}"
     ],
-    "_banner": "{#vezwakaH#}",
+    "_banner": "{#yAtuH#}",
     "_bannerExp": [
         {
-            "Right": "vezwakaH"
+            "Right": "yAtuH"
         }
     ],
-    "_gram": [
-        "[{#vezw-Rvul#}]"
-    ],
     "_meanings": [
-        "{@--1@} An enclosure,\na fence. ",
-        "{@--2@} A pumpkin-gourd. "
+        ".²1 A traveller, a way-farer.\n",
+        ".²2 Wind.\n",
+        ".²3 Time.\n",
+        ".²4 An evil spirit, a demon, Rākṣasa. "
     ],
     "_morphisms": [
         {
-            "__line": 227614,
+            "__line": 247423,
             "_ancestry": [
                 "L_ 26993",
-                "B_ {#vezwakaH#}",
-                "M_ {#--kaM#}"
+                "B_ {#yAtuH#}",
+                "M_ --{%n.%}"
             ],
-            "_banner": "{#--kaM#}",
+            "_banner": "--{%n.%}",
             "_bannerExp": [
                 {
-                    "Right": "vezwakaM"
+                    "Left": "Parser error: {#yAtuH#} M_ --{%n.%}"
                 }
             ],
             "_meanings": [
-                "{@--1@} A turban. ",
-                "{@--2@} A wrapper, \nmantle. ",
-                "{@--3@} Gum, exudation. ",
-                "{@--4@} \nTurpentine."
+                ".²1 An evil spirit, a demon.\n",
+                ".²2 A weapon.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 247427,
+            "_ancestry": [
+                "L_ 26993",
+                "B_ {#yAtuH#}",
+                "S_ .{@{#-GnaH#}@}"
+            ],
+            "_banner": ".{@{#-GnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAtuGnaH"
+                }
+            ],
+            "_meanings": [
+                "Bdellium.\n"
+            ]
+        },
+        {
+            "__line": 247428,
+            "_ancestry": [
+                "L_ 26993",
+                "B_ {#yAtuH#}",
+                "S_ .{@{#-DAnaH#}@}"
+            ],
+            "_banner": ".{@{#-DAnaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAtuDAnaH"
+                }
+            ],
+            "_meanings": [
+                "an evil spirit, a demon; {#niGAtayizyan yuDi yAtuDAnAn#}\n <ls>Bk. 2. 21</ls>; <ls>R. 12. 45</ls>.\n"
+            ]
+        },
+        {
+            "__line": 247430,
+            "_ancestry": [
+                "L_ 26993",
+                "B_ {#yAtuH#}",
+                "S_ .{@{#-nArI#}@}"
+            ],
+            "_banner": ".{@{#-nArI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yAtunArI"
+                }
+            ],
+            "_meanings": [
+                "a female demon; {#baBrAma trijagati yA tu yAtunArI#} <ls>Rām. Ch. 7. 10</ls>."
             ]
         }
     ]

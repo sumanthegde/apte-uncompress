@@ -1,20 +1,41 @@
 {
-    "__line": 34601,
+    "__line": 31940,
     "_ancestry": [
         "L_ 3801",
-        "B_ {#amAnava#}"
+        "B_ {#aBisaMpad#}"
     ],
-    "_banner": "{#amAnava#}",
+    "_banner": "{#aBisaMpad#}",
     "_bannerExp": [
         {
-            "Right": "amAnava"
+            "Right": "aBisampad"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€4",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Not human; animal.\n",
-        "{@--2@} Superhuman."
+        "²1 To become (anything); to be changed to, be similar to, assume the state\n of; {#brahmalokamaBisaMpadyate#} <ls>Ch. Up. 8. 15. 1</ls>. {#izwakAmagniraBisaMpadyate#} <ls>Śat. Br.</ls>\n\n {#Srotre hIme sarve vedA aBisaMpannAH#} {%<ab>ibid.</ab>%}\n",
+        ".²2 To come or go, arrive at.\n",
+        ".²3 To get, to obtain. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 31946,
+            "_ancestry": [
+                "L_ 3801",
+                "B_ {#aBisaMpad#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "aBisampad"
+                }
+            ],
+            "_meanings": [
+                "To make similar to, change into."
+            ]
+        }
     ]
 }

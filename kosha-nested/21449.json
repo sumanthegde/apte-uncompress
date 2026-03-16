@@ -1,20 +1,40 @@
 {
-    "__line": 177193,
+    "__line": 191962,
     "_ancestry": [
         "L_ 21449",
-        "B_ {#psura#}"
+        "B_ {#pizwakaH#}, {#-kam#}"
     ],
-    "_banner": "{#psura#}",
+    "_banner": "{#pizwakaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "psura"
+            "Right": "pizwakaH"
+        },
+        {
+            "Right": "pizwakam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Lovely, beautiful. ",
-        "{@--2@}\nHaving a shape or form. "
+        ".²1 A cake made of the flour of any grain.\n",
+        ".²2 A baked cake, bread.\n",
+        ".²3 A disease of the eye, opacity of the cornea.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 191966,
+            "_ancestry": [
+                "L_ 21449",
+                "B_ {#pizwakaH#}, {#-kam#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pizwakam"
+                }
+            ],
+            "_meanings": [
+                "Pounded sesamum-seeds."
+            ]
+        }
     ]
 }

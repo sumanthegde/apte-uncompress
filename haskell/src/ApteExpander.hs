@@ -15,7 +15,7 @@ import qualified Data.Map as M
 import qualified Data.List.Split as LS
 import qualified Data.List as L
 import Text.ParserCombinators.ReadP as R
-import Control.Lens ( (&), (^..), (^.), _Just, _Right )
+import Control.Lens ( (&), (^..), (^.), (^?), _Just, _Right, to, filtered, _head, _tail, _init, has, hasn't)
 import Data.Either
 import Control.Monad
 import System.FilePath
@@ -104,10 +104,10 @@ surjectivishJoin prev parentOpts selfOpts = let
 parserError msg = pure $ [Left $ "Parser error: "++ msg]
 
 hypSlps' :: String -> R.ReadP [String]
-hypSlps' alt = lit "{#"
-             *> (lit "--" <++ lit alt)
+hypSlps' alt = (lit ".{@{#" <++ lit "{@{#")
+             *> (lit "-" <++ lit alt)
              *> chainMaximal1 (slpStr1 : repeat (manyGreedy1 (satisfy (`elem` ",- ")) *> slpStr1))
-             <* lit "#}"
+             <* lit "#}@}"
 
 -- To catch {#--parikri-zkri-yA#} etc
 hypSlpsHyp :: String -> Bool
@@ -126,20 +126,20 @@ unvibhakti cs
   | last cs == 'M' = init cs
   | otherwise = cs
 
--- Caution: For syllable related work, it's better to leave the trailing anusvara as-is.
-anunasikafy :: String -> String
-anunasikafy = go where
-  anuMap = zip "kKgGNcCjJYwWqQRtTdDnpPbBm" "NNNNNYYYYYRRRRRnnnnnmmmmm"
-  go ('M':c:rest) = fromMaybe 'M' (lookup c anuMap): c: go rest
-  go "M" = "m"
-  go (c:rest) = c: go rest
-  go [] = []
-
-anusvarafy :: String -> String
-anusvarafy = reverse . go "" where
-  go ac "m" = 'M':ac
-  go ac (c1:c2:rest) = go ((if c1/=c2 && anunasikafy ['M',c2] == [c1,c2] then 'M' else c1):ac) (c2:rest)
-  go ac xs = reverse xs ++ ac
+-- -- Caution: For syllable related work, it's better to leave the trailing anusvara as-is.
+-- anunasikafy :: String -> String
+-- anunasikafy = go where
+--   anuMap = zip "kKgGNcCjJYwWqQRtTdDnpPbBm" "NNNNNYYYYYRRRRRnnnnnmmmmm"
+--   go ('M':c:rest) = fromMaybe 'M' (lookup c anuMap): c: go rest
+--   go "M" = "m"
+--   go (c:rest) = c: go rest
+--   go [] = []
+--
+-- anusvarafy :: String -> String
+-- anusvarafy = reverse . go "" where
+--   go ac "m" = 'M':ac
+--   go ac (c1:c2:rest) = go ((if c1/=c2 && anunasikafy ['M',c2] == [c1,c2] then 'M' else c1):ac) (c2:rest)
+--   go ac xs = reverse xs ++ ac
 
 -- | todo(?) Move special cases to Envt config
 sandhiE :: String -> String -> String
@@ -190,6 +190,10 @@ data ExpEnv = ExpEnv
 --  , mwDict :: M.Map String String
   , unparenMap :: M.Map String [String]
   , preservingSM :: [[Location]]
+  , preserveMakara :: [String]
+  , purvapadaOverrides :: M.Map [Location] [String]
+  , erasedViramas :: [[Location]]
+  , expansionOverrides :: M.Map [Location] [String]
   }
 
 -- | Expands feminine forms that are enclosed in 'gram' attribute. (Recall: gram is a list)
@@ -203,23 +207,40 @@ fFromGramCore expandedBanners fSuffix = let
   getF1Align expandedBanner = sylReplaceOn1Align expandedBanner cleanSuf
   sylReplaceNee expandedBanner = fromRight Nothing (Just <$> sylReplaceOnCompatUptoNatvaYantva expandedBanner cleanSuf)
   getFNee expandedBanner = case reverse <$> syllabize cleanSuf of ['I':_] -> sylReplaceNee expandedBanner; _-> Nothing
-  getF b = getF1Align b <|> getFNee b
+  getF b = getF1Align b <|> getF1Align (anunasikafy b) <|> getFNee b <|> getFNee (anunasikafy b) -- gaMtf trI, skAMda ndI, paMgu  NgvI
   allFs = catMaybes $ getF <$> expandedBanners
   in if null allFs then [Left $ "fFromGramCore error: " ++ L.intercalate "/" expandedBanners ++ "  " ++ fSuffix] else Right <$> allFs
 
 fFromGram :: ExpEnv -> [String] -> [Either String String]
 fFromGram expEnv expandedBanners = let
   gs = thisTerm expEnv ^. gram . _Just
-  getFSufExpr g = case LS.splitOn "#}|{%<ab>f.</ab>%})" g of (f:_:_) -> (Just . reverse . takeWhile (/='#') . reverse) f; _->Nothing
-  separateSufs = filter (not.null) . LS.splitWhen (`elem` " ,-")
+  getFSufExpr g = case LS.splitOn "|{%f.%})" g of (f:_:_) -> (Just . reverse . takeWhile (/='#') . drop 1 . dropWhile (/='#') . reverse) f; _->Nothing
+  separateSufs = filter (not.null) . LS.splitWhen (`elem` " ,-˚") -- ˚ for aBicAraka ˚rikI etc
   expandedFs = concatMap (fFromGramCore expandedBanners) $ concat $ separateSufs <$> catMaybes (getFSufExpr <$> gs)
   in expandedFs
+
+do1890 :: ExpEnv -> String -> String
+do1890 expEnv cs
+  | cs `elem` preserveMakara expEnv = anusvarafy (init cs) ++ [last cs]
+  | otherwise = anusvarafy cs
+
+undo1890 cs = anunasikafy cs
+
+viramaFix :: ExpEnv -> String -> String
+viramaFix expEnv cs
+  | (thisTerm expEnv ^. ancestry . _Just) `notElem` erasedViramas expEnv = cs
+  | otherwise = go cs where
+    go ('a':'m':'a':'#':xs) = "am#" ++ go xs
+    go ('a':'m':'a':',':xs) = "am," ++ go xs
+    go (c:xs) = c : go xs
+    go [] = []
 
 appender :: ExpEnv -> String -> Location -> ExceptT String [] String
 appender _ prev (L_ _) = pure prev
 
 -- | 1Align <|> Lookup <|> if fem (1Align + if I CompatEnd)
-appender expEnv prev (B_ b) = do
+appender expEnv prev' (B_ b') = do
+  let [prev,b] = do1890 expEnv <$> [prev',b']
   let (slp0: slps) = filter (not.null) $ LS.splitOneOf "{#}-,; " [if isSpace c then ' ' else c | c <- b]
   let maybeSlp0 = if any ('(' `elem`) (slp0:slps) then Nothing else Just slp0
   let [alignFailMsg,lookupFailMsg] = Left . (++prev++" "++b) <$> ["align based expansion error: ", "lookup based expansion error: "]
@@ -227,14 +248,15 @@ appender expEnv prev (B_ b) = do
   let lookupBasedExpansion = maybe lookupFailMsg (Right . (anusvarafy <$>)) ((unparenMap expEnv M.!? (anunasikafy . topK1) expEnv))
   let alignedUnionLookedup = sequence $ alignBasedExpansion <|> lookupBasedExpansion
   let femininesFromGram = fFromGram expEnv (rights alignedUnionLookedup)
-  ExceptT $ uniq $ alignedUnionLookedup ++ femininesFromGram
+  ExceptT $ fmap (fmap undo1890) $ L.nub $ alignedUnionLookedup ++ femininesFromGram
 
 -- | if n:n CompatEnd <|> if n:1 (1Align <|> CompatEnd) <|> (CompatEnds <|> 1Align)
 --   n:n aDvanIna, aDvanya --naH, --nyaH
 --   default 1Align? kAyaka --kA
-appender expEnv prev (M_ m) = do
+appender expEnv prev' (M_ m') = do
+  let [prev,m] = do1890 expEnv <$> [prev', viramaFix expEnv m']
   let underDhatu = or $ (==) <$> padiStrings <*> (parentTerm expEnv ^. gram . _Just)
-  let isDhatuMorph = not $ or $ (==) <$> nonroots <*> (thisTerm expEnv ^. gram . _Just)
+  let isDhatuMorph = not $ or $ (==) <$> adjEtc <*> (thisTerm expEnv ^. gram . _Just)
   let sandhi' x y = s2e $ e2s (anunasikafy x) `sandhiApte` e2s y -- sandhiApte coz prAdus+as, not sandhiE coz no unvibhaktify
   let dhatuUpaJoin dha upa = sandhi' upa dha
   let parentBanners = (parentTerm expEnv ^. bannerExp . _Just) ^.. traverse . _Right -- Prone to false positives later
@@ -250,8 +272,8 @@ appender expEnv prev (M_ m) = do
         | length parentBanners > 1 = surjectivishJoin prev parentBanners ownBanners
         | otherwise = fmap (sylReplaceOnCompatOr1Align prev) ownBanners
   let ignore = (>> pure [Right prev]) -- e.g {%--<ab>Caus.</ab>%}
-  let mParser = fmap expand (hypSlps' "--" <*eof) <++ ignore (abbrhyp<++romanNumbering) <++ parserError ("{#"++prev++"#}" ++ " M_ " ++m)
-  ExceptT $ uniq $ parse' mParser m
+  let mParser = fmap expand (hypSlps' "" <*eof) <++ ignore (foldl1 (<++) (lit <$> advEtc)<++romanNumbering) <++ parserError ("{#"++prev++"#}" ++ " M_ " ++m)
+  ExceptT $ fmap (fmap undo1890) $ L.nub $ parse' mParser m
 
 
 -- | Main work: join purvapada (B_) with this (S_) using sandhi
@@ -261,7 +283,8 @@ appender expEnv prev (M_ m) = do
 --     Other cases: discard.
 --   Step 3: Sandhi. नलोप etc are handled in custom Sandhi function.
 --     णत्व is also applied (if hinted by Apte). todo (?) षत्व 
-appender expEnv prev (S_ s) = do
+appender expEnv prev' (S_ s') = do
+  let [prev,s] = do1890 expEnv <$> [prev',viramaFix expEnv s']
   let com = lit "," <++ lit "" -- Ending with "," possible due to loose parsing in parsing stage.
   let hypSlpsNoHSH a = aheadSatisfy (not . hypSlpsHyp) >> hypSlps' a
   let hypSlpss = fmap concat $ skipSpaces >> chainMaximal1 (hypSlpsNoHSH "--": repeat (com *> skipSpaces *> hypSlpsNoHSH "")) <* com <* eof
@@ -274,20 +297,21 @@ appender expEnv prev (S_ s) = do
   let sParser = (markLeftRight <$> hypSlpss) <++ parserError ("{#"++prev++"#} S_ " ++ s)
   let z = (parse' sParser s) :: [Either String String]
   uttara <- ExceptT z
-  let natvaHintInGram g = case LS.splitOn "({#" g of [_,w] -> 'R' `elem` w; _-> False; -- hack for rAma+ayana=rAmAyaRa etc
+  let natvaHintInGram g = case LS.splitOn "({" g of [_,w] -> 'R' `elem` w; _-> False; --- agra nI ({@{#-RIH; agra hAyanaH ({#RaH#}) -- hack for rAma+ayana=rAmAyaRa etc
   let natvaHinted = any natvaHintInGram (thisTerm expEnv ^.. gram . _Just . traverse)
   let natvafy xs = uncurry (++) $ second (('R':).tail) (break (=='n') xs)
   let uttaraWithNatva = if ('n' `elem` uttara && natvaNext (e2s prev) && natvaHinted) then natvafy uttara else uttara
   let samasta = sandhiE prev uttaraWithNatva
-  return samasta
+  return $ undo1890 samasta
 
 -- | Simple slp parsing suffices
-appender _ prev (S_S_ s) = do
+appender expEnv prev' (S_S_ s') = do
+  let [prev,s] = do1890 expEnv <$> [prev',viramaFix expEnv s']
   let nonSlps = munch1 (`notElem` slpCharSet)
   let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
   uttara <- ExceptT $ Right <$> (parse' slpss s)
   let samasta = sandhiE prev uttara
-  return samasta
+  return $ undo1890 $ samasta
 
 -- | S_M_ values are of two kinds.
 --   For the `<ab>f.</ab>` kind, the final word is the upstream value (S_) itself.
@@ -296,33 +320,42 @@ appender _ prev (S_S_ s) = do
 --   pass not the final word but the "forepart" of the prospective comound.
 --   The forepart is usually the S_ value itself (e.g. गो-त्र-(त्रा)-कर्तृ),
 --   unless S_M_ is in preservingSM (e.g. क्षण-(द)-दा-करः)
-appender expEnv prev l@(S_M_ m)
+appender expEnv prev' l@(S_M_ m')
   | any (`L.isPrefixOf` (thisTerm expEnv ^. ancestry . _Just)) (preservingSM expEnv)
     || l == last (thisTerm expEnv ^. ancestry . _Just) = do
-         let nonSlps = munch1 (`elem` "({#--° ,}")
+         let [prev,m] = do1890 expEnv <$> [prev',viramaFix expEnv m']
+         let nonSlps = munch1 (`elem` "({#--˚ ,}@")
          let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
          let gramVariant = abbrhyp *> return [prev]
          let err i = Left $ "S_M_ " ++ show i ++ " error: " ++ prev ++ " " ++ m
          let errorOnEmpty ts = if null ts then [err 0] else Right <$> (fst . head $ ts)
          cur <- ExceptT $ errorOnEmpty (parse (slpss <++ gramVariant) m)
          let ans = maybe (err 1) Right (sylReplaceOn1Align' prev cur) -- todo: try 1Align <|> CompatEnd (e.g. jalaja)
-         ExceptT [ans]
-  | otherwise = return prev
+         ExceptT [fmap undo1890 ans]
+  | otherwise = return prev'
 
 -- | Same as for S_S_
-appender _ prev (S_M_S_ s) = do
+appender expEnv prev' (S_M_S_ s') = do
+  let [prev,s] = do1890 expEnv <$> [prev',viramaFix expEnv s']
   let nonSlps = munch1 (`notElem` slpCharSet)
   let slpss = nonSlps *> manyGreedy1 (slpStr1 <* nonSlps)
   uttara <- ExceptT $ Right <$> (parse' slpss s)
   let samasta = sandhiE prev uttara
-  return samasta
+  return $ undo1890 samasta
 
 appender _ prev cur = ExceptT [Left $ "Default Folder error: " ++ prev ++ " " ++ show cur]
 
+
+
 folder :: ExpEnv -> [Either String String] -> Location -> [Either String String]
 folder expEnv prevs cur = runExceptT $ do
-  prev <- ExceptT prevs
-  appender expEnv prev cur
+  let pOverrides = purvapadaOverrides expEnv M.!? (parentTerm expEnv ^. ancestry . _Just)
+  let getUnlessM_ = case cur of (M_ _) -> const Nothing; _ -> id -- ideally M_, S_M_
+  prev <- ExceptT $ maybe (take 1 prevs) (fmap Right) (getUnlessM_ pOverrides)
+  let eOverrides = expansionOverrides expEnv M.!? (thisTerm expEnv ^. ancestry . _Just)
+  case eOverrides of
+    Just expansions -> ExceptT $ Right <$> expansions
+    _ -> appender expEnv prev cur
 
 morphismFolder :: ExpEnv -> Term -> [Either String String]
 morphismFolder expEnv t = let
@@ -372,7 +405,7 @@ morphismFolder expEnv t = let
 traverseTerm :: ExpEnv -> Term -> IO Term
 traverseTerm e t = do
     let expandedBanners = morphismFolder (e {thisTerm = t}) t
-    let tb = t {_bannerExp = Just $ uniq expandedBanners}
+    let tb = t {_bannerExp = Just $ L.nub expandedBanners}
     if any isLeft expandedBanners then return tb else do
       let e' = e {parentTerm = tb}
       let samsFirst = case (last (t^. ancestry . _Just)) of S_ _ -> True; _->False;
@@ -422,6 +455,32 @@ getDsalBoth = do
 --  return $ zip allK1s (repeat "")
 
 ------ ghci helpers -------
+esToSignatureMap :: FilePath -> Int -> FilePath -> IO ()
+esToSignatureMap fPath n outPath = do
+  es <- take n <$> load fPath []
+  let flates = (mconcat $ tToList <$> es)
+  let ancestries = flates ^.. traverse . ancestry . _Just
+  let ancestriesStr = fmap showLocs ancestries
+  let almostAlpha = filter (\c -> isAlpha c || c == ' ' || c == '/' || c == ',' || c == '_' || c== '-')
+  let dedupHyp ('-':'-':cs) = '-':dedupHyp cs; dedupHyp (c:cs) = c: dedupHyp cs; dedupHyp [] = []
+  let normalize = anunasikafy . dedupHyp . almostAlpha
+  let sigMap = M.fromList $ zip (normalize <$> ancestriesStr) flates
+  case outPath of
+    "-" -> printu sigMap
+    _ -> store outPath sigMap
+
+sigMapDiff :: M.Map String Term -> M.Map String Term -> M.Map String (Maybe [Either String String])
+sigMapDiff sig1 sig2 = let
+  symdiff a b = (a L.\\ b) -- (a `L.union` b) L.\\ (a `L.intersect` b)
+  endmfix cs = if not (null cs) && last cs == 'M' then (init cs ++ "m") else cs
+  norm = (anunasikafy . endmfix)
+  normbi = fmap (fmap (bimap norm norm))
+  lval e = reverse $ take 7 $ reverse $ ("0000000"++) $ drop 3 $ showLoc $ head $ fromJust $ e ^. ancestry
+  sigsymdiffValL = M.intersectionWith (\e1 e2 -> (lval e1, lval e2, symdiff <$> normbi (e1 ^. bannerExp) <*> normbi (e2 ^. bannerExp))) sig1 sig2
+  sigsymdiffKeyL = M.fromList $ [(l2 ++ ":" ++ anc, exps) | (anc,(l1,l2,exps)) <- M.toList sigsymdiffValL]
+  sigdiff1 = M.filter (\v -> case v of Just (x:xs)-> True; _ -> False) sigsymdiffKeyL
+  in sigdiff1
+
 samasaLexOrderCheck :: [String] -> Term -> [(Int, String, String, String)]
 samasaLexOrderCheck lexExceptions t = let
   t's = t^. samasas . _Just
@@ -438,6 +497,10 @@ run start len = do
   d <- getDsalBoth
   rs <- load (apteOutput</>"0.json") recordMNil
   pSM <- load (apteDir </> "preserve_S_M.json") ([]::[[Location]])
+  pMakara <- load (apteDir </> "preserve_makara.json") ([]::[String])
+  pOverrides <- load (apteDir </> "purvapada_overrides.json") (M.empty :: M.Map [Location] [String])
+  eViramas <- load (apteDir </> "end_virama_erased.json") ([]::[[Location]])
+  eOverrides <- load (apteDir </> "expansion_overrides.json") (M.empty :: M.Map [Location] [String])
   let tks = (\r -> (r ^. term & fromJust, r^. k1 . _Just)) <$> M.elems rs -- rs ^.. traverse . term . _Just
   let tks1 = L.sortOn (\(t,k) -> let (L_ l:_) = t^. ancestry . _Just in (read l:: Float)) tks
   let ts1 = map fst tks1
@@ -454,6 +517,10 @@ run start len = do
         , thisTerm = t
         , unparenMap = d
         , preservingSM = pSM
+        , preserveMakara = pMakara
+        , purvapadaOverrides = pOverrides
+        , erasedViramas = eViramas
+        , expansionOverrides = eOverrides
         }
   let traverseTermE (t,k) = traverseTerm (expEnv t k) t
   forM (take len $ drop start tks1) traverseTermE
@@ -466,7 +533,7 @@ shardAndStore es = do
     store (koshaNestedPath </> (numL ++ ".json")) e
 
 expanderMain :: IO [Term]
-expanderMain = run 0 33333
+expanderMain = run 0 37000
 
 stableUndup :: Eq a => [a] -> [a]
 stableUndup = go where
@@ -579,47 +646,42 @@ koshaFormContent t = let
   stripAndSqueeze = unwords . words . unwords . lines
   concatBannerGramMeaning t = stripAndSqueeze $ unwords ((t ^. banner . _Just):(t ^. gram . _Just) ++ (t ^. meanings . _Just))
   concatMorphisms t = stripAndSqueeze $ unwords $ concatBannerGramMeaning <$> (t ^. morphisms . _Just)
-  in braceHashToDevanagari $ unwords [concatBannerGramMeaning t, concatMorphisms t]
+  unresolvedSamasas t = t ^.. samasas . _Just . traverse . filtered (hasn't (bannerExp . _Just . traverse . _Right))
+  concatUnresSamasas t = stripAndSqueeze $ unwords $ concatBannerGramMeaning <$> unresolvedSamasas t
+  in braceHashToDevanagari $ unwords [concatBannerGramMeaning t, concatMorphisms t, concatUnresSamasas t]
 
-pratipadikafy :: String -> String
-pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
-
-koshaFormJsonReady :: M.Map Int String -> [Term] -> [[(String, String, String, String)]]
-koshaFormJsonReady pageMarkMap es = let
-  pratipadikafys e = pratipadikafy <$> rights (e ^. bannerExp . _Just)
+koshaFormJsonReady :: [String] -> M.Map Int String -> [Term] -> [[(String, String, String, String, [String], [String])]]
+koshaFormJsonReady makarantas pageMarkMap es = let
+  anusvarafyEnd w = if last w == 'm' && w `notElem` makarantas then init w ++ "M" else w
+  pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
+  pratipadikafys e = pratipadikafy . anusvarafyEnd <$> rights (e ^. bannerExp . _Just)
   getL e = (loc . head) (e ^. ancestry . _Just)
   getPnum e = maybe ("-") snd $ M.lookupLE (fromJust $ __line e) pageMarkMap
-  koshaFormObjectsDirect e =  [((uncanon . e2s) w, getL e, getPnum e, koshaFormContent e) | w <- pratipadikafys e]
+  nonMorphic l = case l of (M_ _) -> False; (S_M_ _) -> False; (S_S_M_ _) -> False; (S_M_S_M_ _) -> False; _ -> True
+  closeParen cs = case reverse (filter (`elem` "()") cs) of ('(':_) -> cs ++ ")"; _ -> cs
+  unclutter = (closeParen . filter (`notElem` ".{@#} ") . uncanon . e2s' . dropWhile (not . isSpace))
+  getUnder e = e ^.. ancestry . _Just . _tail . _init . traverse . filtered nonMorphic . to showLoc . to unclutter
+  getCleanBanner e = e ^. banner . _Just . to (filter (`notElem` ".{@#}")) . to e2s' . to uncanon
+  getCleanBannerExps e = pratipadikafys e ^.. traverse . to e2s . to uncanon
+  getCompTitles e = [getCleanBanner s ++ " (" ++ L.intercalate "," (getCleanBannerExps s) ++ ")" | s <- samasas_both_S_and_M_S e]
+  koshaFormObjectsDirect u e =  [((uncanon . e2s) w, getL e, getPnum e, koshaFormContent e, u, getCompTitles e) | w <- pratipadikafys e]
   samasas_both_S_and_M_S e = (e ^. samasas . _Just) ++ (e ^. morphisms . _Just . traverse . samasas . _Just)
-  koshaFormObjects e = koshaFormObjectsDirect e ++ concat [koshaFormObjects s | s <- samasas_both_S_and_M_S e]
-  koshaFormObjectss = L.groupBy ((==) `on` fst4) (L.sortOn fst4 . concat $ koshaFormObjects <$> es)
+  koshaFormObjects u e = koshaFormObjectsDirect u e ++ concat [koshaFormObjects [uncanon $ e2s $ head $ pratipadikafys e] s | s <- samasas_both_S_and_M_S e]
+  koshaFormObjectss = L.groupBy ((==) `on` fst6) (L.sortOn fst6 . concat $ koshaFormObjects [] <$> es)
   in koshaFormObjectss
 
 koshaFormShardAndStore :: [Term] -> IO ()
 koshaFormShardAndStore es = do
   pageMarkMap <- M.mapKeys read <$> load pageMarkPath M.empty :: IO (M.Map Int String)
+  makarantas <- load (apteDir </> "preserve_makara.json") ([]::[String])
   createDirectoryIfMissing True koshaFlatPath
-  forM_ (koshaFormJsonReady pageMarkMap es) $ \wepcs -> do
-    let objKeys = ["word", "eid", "pagenum", "content"]
-        mapify (w,e,p,c) = object $ zip (fromString <$> objKeys) (toJSON <$> [w,e,p,c])
-        obj = mapify <$> wepcs 
-        w = fst4 (head wepcs)
+  forM_ (koshaFormJsonReady makarantas pageMarkMap es) $ \wepcucs -> do
+    let objKeys = ["word", "eid", "pagenum", "content", "under", "comp"]
+        mapify (w,e,p,cont,u,comp) = object $ zip (fromString <$> objKeys) [toJSON w, toJSON e, toJSON p, toJSON cont, toJSON u, toJSON comp]
+        obj = mapify <$> wepcucs
+        w = fst6 (head wepcucs)
         wpath = koshaFlatPath </> (w ++ ".json")
         keyConfig = defConfig { confCompare = keyOrder (DS.fromString <$> objKeys)}
         jsonOutput = encodePretty' keyConfig obj
     BL.writeFile wpath jsonOutput
 
-tabSimple :: [Term] -> FilePath -> IO ()
-tabSimple es k1ReverseMapPath = do
-  k1ReverseMap <- load k1ReverseMapPath (M.empty :: M.Map String String)
-  let esFlat = concat $ tToList <$> es
-      --showAncestry e = unwords.lines $ showLocs (e ^. ancestry . _Just)
---      toDevanagari = uncanon . e2s'
-      stripAndSqueeze = unwords . words . unwords . lines
-      isDevanagari c = ord c >= 0x0900 && ord c <= 0x097F
-      eToExps e = (fmap (uncanon . e2s') . rights) (e ^.. bannerExp . _Just . traverse)
-      eToAncestor e = ((takeWhile isDevanagari . removeParenthesized . braceHashToDevanagari) (loc ((e ^. ancestry . _Just)!!1)))
-      overrideK1 k = maybe k (uncanon.e2s) (k1ReverseMap M.!? (s2e.canon) k)
-      eToRows e = [[exp, a] | exp <- eToExps e, let a = (overrideK1 . eToAncestor) e]
-      table = concat $ eToRows <$> esFlat
-  store (apteOutput</>"simpleTable.json") table

@@ -1,55 +1,83 @@
 {
-    "__line": 242717,
+    "__line": 267642,
     "_ancestry": [
         "L_ 28905",
-        "B_ {#saMKyAta#}"
+        "B_ {#vAtala#}"
     ],
-    "_banner": "{#saMKyAta#}",
+    "_banner": "{#vAtala#}",
     "_bannerExp": [
         {
-            "Right": "saMKyAta"
+            "Right": "vAtala"
+        },
+        {
+            "Right": "vAtalI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%a.%}",
+        "({#-lI#}|{%f.%})",
+        "[{#vAtaM rogaBedaM lAti lA-ka#}]"
     ],
     "_meanings": [
-        "{@--1@} Enumerated. ",
-        "{@--2@}\nCalculated, reckoned up. "
+        ".²1 Stormy, windy.\n",
+        ".²2 Flatulent.\n"
     ],
     "_morphisms": [
         {
-            "__line": 242718,
+            "__line": 267646,
             "_ancestry": [
                 "L_ 28905",
-                "B_ {#saMKyAta#}",
-                "M_ {#--taM#}"
+                "B_ {#vAtala#}",
+                "M_ .{@{#-laH#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-laH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMKyAtaM"
+                    "Right": "vAtalaH"
                 }
             ],
             "_meanings": [
-                "A\nnumber. "
+                ".²1 Wind.\n",
+                ".²2 The chick-pea ({#caRaka#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 267650,
+            "_ancestry": [
+                "L_ 28905",
+                "B_ {#vAtala#}",
+                "S_ .{@{#-maRqalI#}@}"
+            ],
+            "_banner": ".{@{#-maRqalI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAtalamaRqalI"
+                }
+            ],
+            "_meanings": [
+                "A whirl-wind.\n"
             ]
         },
         {
-            "__line": 242719,
+            "__line": 267651,
             "_ancestry": [
                 "L_ 28905",
-                "B_ {#saMKyAta#}",
-                "M_ {#--tA#}"
+                "B_ {#vAtala#}",
+                "S_ .{@{#-yoniH#}@}"
             ],
-            "_banner": "{#--tA#}",
+            "_banner": ".{@{#-yoniH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMKyAtA"
+                    "Right": "vAtalayoniH"
                 }
             ],
+            "_gram": [
+                "({#vAtalAyoniH#})"
+            ],
             "_meanings": [
-                "A kind of riddle."
+                "a morbid state of the uterus."
             ]
         }
     ]

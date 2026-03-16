@@ -1,43 +1,54 @@
 {
-    "__line": 60686,
+    "__line": 59233,
     "_ancestry": [
         "L_ 7043",
-        "B_ {#ASI#}"
+        "B_ {#AnDra#}"
     ],
-    "_banner": "{#ASI#}",
+    "_banner": "{#AnDra#}",
     "_bannerExp": [
         {
-            "Right": "ASI"
+            "Right": "AnDra"
         }
     ],
     "_gram": [
-        "[{#ASIryate'nayA, A-SF-kvip pf°#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} A serpent's fang. ",
-        "{@--2@} A kind of\nvenom. ",
-        "{@--3@} A blessing, benediction.\n"
+        "Belonging to Āndhra (as language).\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 60689,
+            "__line": 59234,
             "_ancestry": [
                 "L_ 7043",
-                "B_ {#ASI#}",
-                "S_  {#--vizaH#}"
+                "B_ {#AnDra#}",
+                "M_ .{@{#-DraH#}@}"
             ],
-            "_banner": " {#--vizaH#}",
+            "_banner": ".{@{#-DraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ASIvizaH"
+                    "Right": "AnDraH"
                 }
             ],
-            "_gram": [
-                "[{#ASyAM vizamasya#}]"
+            "_meanings": [
+                "(<ab>pl.</ab>) The Telagu country, modern Telangana; see {#anDra#}.\n"
+            ]
+        },
+        {
+            "__line": 59235,
+            "_ancestry": [
+                "L_ 7043",
+                "B_ {#AnDra#}",
+                "M_ .{@{#-nDrI#}@}"
+            ],
+            "_banner": ".{@{#-nDrI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nDrI"
+                }
             ],
             "_meanings": [
-                "{1} a\nsnake; {#garutmadASIvizaBImadarSanEH#} <ls>R. 3. 57.</ls>\n",
-                "{2} a particular kind of snake;  \n{#karRASIvizaBoginipraSamite#} <ls>Ve. 6. 1.</ls>"
+                "An Āndhra wife."
             ]
         }
     ]

@@ -1,20 +1,68 @@
 {
-    "__line": 130092,
+    "__line": 134977,
     "_ancestry": [
         "L_ 15562",
-        "B_ {#dUrataH#}"
+        "B_ {#jAmi#}"
     ],
-    "_banner": "{#dUrataH#}",
+    "_banner": "{#jAmi#}",
     "_bannerExp": [
         {
-            "Right": "dUrataH"
+            "Right": "jAmi"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%a.%}",
+        "[{#jam-in ni˚ vfdDiH#}]"
     ],
     "_meanings": [
-        "{@--1@} From afar, from a\ndistance; {#tadrAjyaM dUratastyajet#} <ls>Pt. 5. 69</ls>;\n{#vahati ca parItApaM dozaM vimuMcati dUrataH#}\n<ls>Gīt. 2.</ls> ",
-        "{@--2@} Far away, to a distance;\n<ls>Pt. 1. 9.</ls>"
+        ".²1 Customary, usual.\n",
+        ".²2 Peculiar, or belonging to.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 134980,
+            "_ancestry": [
+                "L_ 15562",
+                "B_ {#jAmi#}",
+                "M_ .{@{#-miH#}@}"
+            ],
+            "_banner": ".{@{#-miH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jAmiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                ".²1 A sister; {#tad gadatu me jAmi devadatto'nnikAmimAm#} <ls>Gaṇeśa P.</ls>\n",
+                ".²2 A daughter.\n",
+                ".²3 A daughter-in-law.\n",
+                ".²4 A near female relative ({#sannihitasapiRqastrI#} <ls>Kull.</ls>); <ls>Ms. 3. 57-58</ls>.\n",
+                ".²5 A virtuous and respectable woman.\n",
+                ".²6 <ab>Ved.</ab> A finger.\n",
+                ".²7 Water. "
+            ]
+        },
+        {
+            "__line": 134987,
+            "_ancestry": [
+                "L_ 15562",
+                "B_ {#jAmi#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#jAmi#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 Blood-relationship, relation of sister and brother.\n",
+                ".²2 Relation (in general), descent.\n",
+                ".²3 Tautology."
+            ]
+        }
     ]
 }

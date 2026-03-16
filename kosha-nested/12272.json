@@ -1,38 +1,59 @@
 {
-    "__line": 102337,
+    "__line": 103983,
     "_ancestry": [
         "L_ 12272",
-        "B_ {#gaMqakI#}"
+        "B_ {#kilAsa#}"
     ],
-    "_banner": "{#gaMqakI#}",
+    "_banner": "{#kilAsa#}",
     "_bannerExp": [
         {
-            "Right": "gaMqakI"
+            "Right": "kilAsa"
         }
     ],
-    "_meanings": [
-        "{@--1@} <ab>N.</ab> of a river flowing into\nthe Ganges. ",
-        "{@--2@} A female rhinoceros.\n"
+    "_gram": [
+        "{%a.%}"
     ],
-    "_samasas": [
+    "_meanings": [
+        "<ab>Ved.</ab> Leprous; {#candramase kilAsam#} <ls>Vāj. 30. 21</ls>.\n"
+    ],
+    "_morphisms": [
         {
-            "__line": 102339,
+            "__line": 103984,
             "_ancestry": [
                 "L_ 12272",
-                "B_ {#gaMqakI#}",
-                "S_  {#--putraH, --SilA#}"
+                "B_ {#kilAsa#}",
+                "M_ .{@{#-sam#}@}"
             ],
-            "_banner": " {#--putraH, --SilA#}",
+            "_banner": ".{@{#-sam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "gaMqakISilA"
-                },
-                {
-                    "Right": "gaMqakIputraH"
+                    "Right": "kilAsam"
                 }
             ],
             "_meanings": [
-                "the \nŚāligrāma stone."
+                ".²1 A white leprous spot; {#idaM rajani rajaya kilAsaM palitaM ca yat#} <ls>Av. 1. 23. 1</ls>.\n",
+                ".²2 A blotch, scab.\n",
+                ".²3 A kind of leprosy.\n"
+            ]
+        },
+        {
+            "__line": 103988,
+            "_ancestry": [
+                "L_ 12272",
+                "B_ {#kilAsa#}",
+                "M_ .{@{#-sin#}@}"
+            ],
+            "_banner": ".{@{#-sin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kilAsin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Leprous; <ls>P. V. 2. 128</ls>."
             ]
         }
     ]

@@ -1,20 +1,58 @@
 {
-    "__line": 42953,
+    "__line": 40813,
     "_ancestry": [
         "L_ 4767",
-        "B_ {#avalaMbitavya#}"
+        "B_ {#avakA#}"
     ],
-    "_banner": "{#avalaMbitavya#}",
+    "_banner": "{#avakA#}",
     "_bannerExp": [
         {
-            "Right": "avalaMbitavya"
+            "Right": "avakA"
         }
     ],
-    "_gram": [
-        "{%<ab>pot. p.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} To be caught\nhold of or grasped. ",
-        "{@--2@} Expeditious,\nquick."
+        "A grassy plant ({#SEvAla#}) growing in marshy land.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 40815,
+            "_ancestry": [
+                "L_ 4767",
+                "B_ {#avakA#}",
+                "S_ .{@{#-ada#}@}"
+            ],
+            "_banner": ".{@{#-ada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avakAda"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "eating moss.\n"
+            ]
+        },
+        {
+            "__line": 40816,
+            "_ancestry": [
+                "L_ 4767",
+                "B_ {#avakA#}",
+                "S_ .{@{#-ulba#}@}"
+            ],
+            "_banner": ".{@{#-ulba#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avakolba"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "covered or surrounded with {#avakA#} plants."
+            ]
+        }
     ]
 }

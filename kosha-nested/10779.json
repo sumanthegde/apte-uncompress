@@ -1,19 +1,95 @@
 {
-    "__line": 90570,
+    "__line": 90488,
     "_ancestry": [
         "L_ 10779",
-        "B_ {#kArkaSyaM#}"
+        "B_ {#Etareya#}"
     ],
-    "_banner": "{#kArkaSyaM#}",
+    "_banner": "{#Etareya#}",
     "_bannerExp": [
         {
-            "Right": "kArkaSyaM"
+            "Right": "Etareya"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#itarA-Wak#}]"
+    ],
     "_meanings": [
-        "{@--1@} Hardness, roughness.\n",
-        "{@--2@} Firmness. ",
-        "{@--3@} Solidity; <ls>Śi. 2. 17</ls>;\n<ls>Pt. 1. 190.</ls> ",
-        "{@--4@} Hard-heartedness,\nsternness, cruelty; {#kArkaSyaM gamite'pi#}\n{#cetasi#} <ls>Amaru. 24.</ls>"
+        "Originating from Aitareya.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 90489,
+            "_ancestry": [
+                "L_ 10779",
+                "B_ {#Etareya#}",
+                "M_ .{@{#-yaH, -yam#}@}"
+            ],
+            "_banner": ".{@{#-yaH, -yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "EtareyaH"
+                },
+                {
+                    "Right": "Etareyam"
+                }
+            ],
+            "_meanings": [
+                "A descendant of Itarā (or Itara, a sage) to whom the\n Aitareya Brāhmaṇa and Āraṇyaka were revealed.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 90491,
+            "_ancestry": [
+                "L_ 10779",
+                "B_ {#Etareya#}",
+                "S_ {@{#˚AraRyakam#}@}"
+            ],
+            "_banner": "{@{#˚AraRyakam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Etareya#} S_ {@{#˚AraRyakaM#}@}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the Āraṇyaka composed by Aitareya.\n"
+            ]
+        },
+        {
+            "__line": 90492,
+            "_ancestry": [
+                "L_ 10779",
+                "B_ {#Etareya#}",
+                "S_ .{@{#-upanizad#}@}"
+            ],
+            "_banner": ".{@{#-upanizad#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Etareyopanizad"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an Upaniṣad.\n"
+            ]
+        },
+        {
+            "__line": 90493,
+            "_ancestry": [
+                "L_ 10779",
+                "B_ {#Etareya#}",
+                "S_ .{@{#-brAhmaRam#}@}"
+            ],
+            "_banner": ".{@{#-brAhmaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "EtareyabrAhmaRam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the Brāhmaṇa composed by Aitareya (attached\n to the Ṛgveda and prescribing the duties of the Hotṛ priest) It is\n divided into forty Adhyāyas or eight Pañchikās."
+            ]
+        }
     ]
 }

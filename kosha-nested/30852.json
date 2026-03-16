@@ -1,21 +1,40 @@
 {
-    "__line": 258586,
+    "__line": 285147,
     "_ancestry": [
         "L_ 30852",
-        "B_ {#sTAnatas#}"
+        "B_ {#vellita#}"
     ],
-    "_banner": "{#sTAnatas#}",
+    "_banner": "{#vellita#}",
     "_bannerExp": [
         {
-            "Right": "sTAnatas"
+            "Right": "vellita"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} According to one's\nplace or position. ",
-        "{@--2@} From one's\nproper place. ",
-        "{@--3@} With reference to\nthe organ of utterance."
+        ".²1 Trembling, tremulous, shaken.\n",
+        ".²2 Crooked.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 285150,
+            "_ancestry": [
+                "L_ 30852",
+                "B_ {#vellita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vellitam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Going, moving.\n",
+                ".²2 Shaking."
+            ]
+        }
     ]
 }

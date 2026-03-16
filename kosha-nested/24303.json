@@ -1,16 +1,57 @@
 {
-    "__line": 206026,
+    "__line": 216867,
     "_ancestry": [
         "L_ 24303",
-        "B_ {#revataH#}"
+        "B_ {#Palavat#}"
     ],
-    "_banner": "{#revataH#}",
+    "_banner": "{#Palavat#}",
     "_bannerExp": [
         {
-            "Right": "revataH"
+            "Right": "Palavat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "The citron tree."
+        ".²1 Fruitful, fruit-bearing; {#apuzpAH Palavanto ye te vanaspatayaH smftAH#} <ls>Ms. 1. 47</ls>.\n",
+        ".²2 Producing or yielding results, successful, profitable.\n",
+        ".²3 Containing the result or end of a plot. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 216870,
+            "_ancestry": [
+                "L_ 24303",
+                "B_ {#Palavat#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Palavat#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A fruit-tree.\n"
+            ]
+        },
+        {
+            "__line": 216871,
+            "_ancestry": [
+                "L_ 24303",
+                "B_ {#Palavat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "PalavatI"
+                }
+            ],
+            "_meanings": [
+                "The plant called {#priyaNgu#}."
+            ]
+        }
     ]
 }

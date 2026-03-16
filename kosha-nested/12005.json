@@ -1,20 +1,170 @@
 {
-    "__line": 100341,
+    "__line": 101375,
     "_ancestry": [
         "L_ 12005",
-        "B_ {#kzviRRa#}"
+        "B_ {#kAmya#}"
     ],
-    "_banner": "{#kzviRRa#}",
+    "_banner": "{#kAmya#}",
     "_bannerExp": [
         {
-            "Right": "kzviRRa"
+            "Right": "kAmya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#kam-Ryat#}]"
     ],
     "_meanings": [
-        "{@--1@} Sounded inarticulately.\n",
-        "{@--2@} Soft, unctuous, oily."
+        ".²1 To be desired, desirable; {#suDA vizWA ca kAmyASanam#} <ls>Śānti. 2. 8</ls>.\n",
+        ".²2 Optional, performed for some particular object (<ab>opp.</ab> {#nitya#}); {#ante#}\n {#kAmyasya karmaRaH#} <ls>R. 10. 50</ls>; <ls>Ms. 2. 2</ls>, <ls n=\"Ms.\">12. 89</ls>; <ls>Bg. 18. 2</ls>.\n",
+        ".²3 Beautiful, lovely, charming, handsome; {#nAsO na kAmyaH#} <ls>R. 6. 30</ls>; <ls>U. 5. 12</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 101380,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "M_ .{@{#-myam#}@}"
+            ],
+            "_banner": ".{@{#-myam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyam"
+                }
+            ],
+            "_meanings": [
+                "A class of buildings (<ls>Māna. 31. 2. 3</ls>).\n"
+            ]
+        },
+        {
+            "__line": 101381,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "M_ .{@{#-myA#}@}"
+            ],
+            "_banner": ".{@{#-myA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wish, desire, intention, request; {#brAhmaRakAmyA#} <ls>Mk. 3</ls>; <ls>R. 1. 35</ls>; <ls>Bg. 10. 1</ls>.\n",
+                ".²2 A cow; <ls>ŚB. on MS. 10. 3. 49</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 101385,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "S_ .{@{#-aBiprAyaH#}@}"
+            ],
+            "_banner": ".{@{#-aBiprAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyABiprAyaH"
+                }
+            ],
+            "_meanings": [
+                "a self-interested motive or purpose.\n"
+            ]
+        },
+        {
+            "__line": 101386,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyakarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "a rite performed for some paticular object and\n with a view to future fruition.\n"
+            ]
+        },
+        {
+            "__line": 101388,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "S_ .{@{#-gir#}@}"
+            ],
+            "_banner": ".{@{#-gir#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyagir"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "sweet-voiced, having a pleasing voice; {#priyasaKIsadfSaM#}\n {#pratiboDitAH kimapi kAmyagirA parapuzwayA#} <ls>Śi. 6. 8</ls>. --({%f.%}) an agreeable speech.\n"
+            ]
+        },
+        {
+            "__line": 101390,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "S_ .{@{#-dAnam#}@}"
+            ],
+            "_banner": ".{@{#-dAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyadAnam"
+                }
+            ],
+            "_meanings": [
+                ".²1 an acceptable gift.\n",
+                ".²2 a free-will offering; voluntary gift.\n"
+            ]
+        },
+        {
+            "__line": 101393,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "S_ .{@{#-maraRam#}@}"
+            ],
+            "_banner": ".{@{#-maraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyamaraRam"
+                }
+            ],
+            "_meanings": [
+                "voluntary death, suicide.\n"
+            ]
+        },
+        {
+            "__line": 101394,
+            "_ancestry": [
+                "L_ 12005",
+                "B_ {#kAmya#}",
+                "S_ .{@{#-vfttam#}@}"
+            ],
+            "_banner": ".{@{#-vfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAmyavfttam"
+                }
+            ],
+            "_meanings": [
+                "voluntary vow."
+            ]
+        }
     ]
 }

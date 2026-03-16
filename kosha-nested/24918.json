@@ -1,22 +1,534 @@
 {
-    "__line": 211169,
+    "__line": 223855,
     "_ancestry": [
         "L_ 24918",
-        "B_ {#vaMWaraH#}"
+        "B_ {#Bayam#}"
     ],
-    "_banner": "{#vaMWaraH#}",
+    "_banner": "{#Bayam#}",
     "_bannerExp": [
         {
-            "Right": "vaMWaraH"
+            "Right": "Bayam"
         }
     ],
+    "_gram": [
+        "[{#biBetyasmAt, BI-apAdAne ac#}]"
+    ],
     "_meanings": [
-        "{@--1@} The sheath that \nenvelops the young bamboo. ",
-        "{@--2@} The new\nshoot of the palm tree. ",
-        "{@--3@} A rope\nfor tying (a goat &c.). ",
-        "{@--4@} A dog.\n",
-        "{@--5@} The tail of a dog. ",
-        "{@--6@} A cloud.\n",
-        "{@--7@} The female breast."
+        ".²1 Fear, alarm, dread, apprehension, (<ab>oft.</ab> with <ab>abl.</ab>); {#Boge rogaBayaM#}\n {#kule cyutiBayaM vitte nfpAlAdBayam#} <ls>Bh. 3. 35</ls>; {#yadi samaramapAsya nAsti#}\n\n {#mftyorBayam#} <ls>Ve. 3. 4</ls>.\n",
+        ".²2 Fright, terror; {#jagadBayam#} <ab>&c.</ab>\n",
+        ".²3 A danger, risk, hazard; {#tAvadBayasya BetavyaM yAvadBayamanAgatam .#}\n {#AgataM tu BayaM vIkzya naraH kuryAdyaTocitam#} <ls>H. 1. 54</ls>.\n",
+        ".²4 The sentiment of fear; see {#BayAnaka#} below; {#rOdraSaktyA tu janitaM#}\n {#cittavEkalyajaM Bayam#} <ls>S. D. 6</ls>.\n",
+        ".²5 The blossom of Trapa Bispinosa (<lang>Mar.</lang> <ns>{#SiMgAqA#}</ns>)\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 223866,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayaH"
+                }
+            ],
+            "_meanings": [
+                "Sickness, disease.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 223868,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-anvita, -AkrAnta#}@}"
+            ],
+            "_banner": ".{@{#-anvita, -AkrAnta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayAnvita"
+                },
+                {
+                    "Right": "BayAkrAnta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "overcome with fear.\n"
+            ]
+        },
+        {
+            "__line": 223869,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-apaha#}@}"
+            ],
+            "_banner": ".{@{#-apaha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayApaha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "warding off or removing fear.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 223870,
+                    "_ancestry": [
+                        "L_ 24918",
+                        "B_ {#Bayam#}",
+                        "S_ .{@{#-apaha#}@}",
+                        "S_M_ ({@{#-haH#}@})"
+                    ],
+                    "_banner": "({@{#-haH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "BayApahaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 <ab>N.</ab> of Viṣṇu.\n",
+                        ".²2 a king.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 223873,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-Atura, -Arta#}@}"
+            ],
+            "_banner": ".{@{#-Atura, -Arta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayAtura"
+                },
+                {
+                    "Right": "BayArta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "afraid, alarmed, frightened.\n"
+            ]
+        },
+        {
+            "__line": 223874,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-Avaha#}@}"
+            ],
+            "_banner": ".{@{#-Avaha#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayAvaha"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 causing fear, formidable.\n",
+                ".²2 risky; {#svaGarme niDanaM SreyaH paraDarmo BayAvahaH#} <ls>Bg. 3. 35</ls>.\n"
+            ]
+        },
+        {
+            "__line": 223877,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-uttara#}@}"
+            ],
+            "_banner": ".{@{#-uttara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bayottara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "attended with or succeeded by fear.\n"
+            ]
+        },
+        {
+            "__line": 223878,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-ekapravaRa#}@}"
+            ],
+            "_banner": ".{@{#-ekapravaRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayEkapravaRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wholly overpowered by fear.\n"
+            ]
+        },
+        {
+            "__line": 223879,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-kampaH#}@}"
+            ],
+            "_banner": ".{@{#-kampaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayakampaH"
+                }
+            ],
+            "_meanings": [
+                "tremour of fear.\n"
+            ]
+        },
+        {
+            "__line": 223880,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bayakara"
+                }
+            ],
+            "_meanings": [
+                "(also {#BayaMkara#}) {%a.%}\n",
+                ".²1 frightening, terrible, fearful.\n",
+                ".²2 dangerous, perilous; so {@{#BayakAraka, -Bayakft#}. {#-kft#}@} {%m.%}\n <ab>N.</ab> of Viṣṇu; {#Bayakfd BayanASanaH#} <ls>V. Sah.</ls>\n"
+            ]
+        },
+        {
+            "__line": 223884,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-qiRqimaH#}@}"
+            ],
+            "_banner": ".{@{#-qiRqimaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayaqiRqimaH"
+                }
+            ],
+            "_meanings": [
+                "a drum used in battle.\n"
+            ]
+        },
+        {
+            "__line": 223885,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-trAtf#}@}"
+            ],
+            "_banner": ".{@{#-trAtf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayatrAtf"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "a deliverer from fear.\n"
+            ]
+        },
+        {
+            "__line": 223886,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-darSin#}@}"
+            ],
+            "_banner": ".{@{#-darSin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayadarSin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 fearful.\n",
+                ".²2 intimidating.\n"
+            ]
+        },
+        {
+            "__line": 223889,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-druta#}@}"
+            ],
+            "_banner": ".{@{#-druta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bayadruta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fleeing from fear, routed, put to flight.\n"
+            ]
+        },
+        {
+            "__line": 223890,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-nASana#}@}"
+            ],
+            "_banner": ".{@{#-nASana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayanASana"
+                }
+            ],
+            "_meanings": [
+                "removing fear.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 223891,
+                    "_ancestry": [
+                        "L_ 24918",
+                        "B_ {#Bayam#}",
+                        "S_ .{@{#-nASana#}@}",
+                        "S_M_ ({@{#-naH#}@})"
+                    ],
+                    "_banner": "({@{#-naH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: BayanASana ({@{#-naH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Viṣṇu; {#Bayakfd BayanASanaH#} <ls>V. Sah.</ls>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 223892,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-pratIkAraH#}@}"
+            ],
+            "_banner": ".{@{#-pratIkAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayapratIkAraH"
+                }
+            ],
+            "_meanings": [
+                "warding off or removal of fears.\n"
+            ]
+        },
+        {
+            "__line": 223893,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-prada#}@}"
+            ],
+            "_banner": ".{@{#-prada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bayaprada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inspiring fear, fearful, terrible.\n"
+            ]
+        },
+        {
+            "__line": 223894,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-prastAvaH#}@}"
+            ],
+            "_banner": ".{@{#-prastAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayaprastAvaH"
+                }
+            ],
+            "_meanings": [
+                "an occasion of fear.\n"
+            ]
+        },
+        {
+            "__line": 223895,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-brAhmaRaH#}@}"
+            ],
+            "_banner": ".{@{#-brAhmaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayabrAhmaRaH"
+                }
+            ],
+            "_meanings": [
+                "a timid Brāhmaṇa, a Brāhmaṇa who, to save himself\n from danger, declares his caste relying on the inviolability of a Brāhmaṇa.\n"
+            ]
+        },
+        {
+            "__line": 223897,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-Brazwa#}@}"
+            ],
+            "_banner": ".{@{#-Brazwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayaBrazwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "put to flight.\n"
+            ]
+        },
+        {
+            "__line": 223898,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-vipluta#}@}"
+            ],
+            "_banner": ".{@{#-vipluta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bayavipluta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "panic-struck.\n"
+            ]
+        },
+        {
+            "__line": 223899,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-vyUhaH#}@}"
+            ],
+            "_banner": ".{@{#-vyUhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayavyUhaH"
+                }
+            ],
+            "_meanings": [
+                "a particular array of troops when they are threatened\n with danger; {#sarvataH sarvatoBadraM BayavyUhaM prakalpayet#} <ls>Kām.</ls>\n"
+            ]
+        },
+        {
+            "__line": 223901,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-SIla#}@}"
+            ],
+            "_banner": ".{@{#-SIla#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayaSIla"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "timid.\n"
+            ]
+        },
+        {
+            "__line": 223902,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-sTAnam, -hetuH#}@}"
+            ],
+            "_banner": ".{@{#-sTAnam, -hetuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BayasTAnam"
+                },
+                {
+                    "Right": "BayahetuH"
+                }
+            ],
+            "_meanings": [
+                "a cause of fear; {#harzasTAnasahasrARi BayasTAnaSatAni#}\n {#ca#} <ls>Mb. 18. 5. 61</ls>.\n"
+            ]
+        },
+        {
+            "__line": 223904,
+            "_ancestry": [
+                "L_ 24918",
+                "B_ {#Bayam#}",
+                "S_ .{@{#-hartf, hArin#}@}"
+            ],
+            "_banner": ".{@{#-hartf, hArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bayahartf"
+                },
+                {
+                    "Right": "BayahArin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "removing fear, dispelling alarm."
+            ]
+        }
     ]
 }

@@ -1,43 +1,62 @@
 {
-    "__line": 66111,
+    "__line": 63979,
     "_ancestry": [
         "L_ 7665",
-        "B_ {#ujji#}"
+        "B_ {#AvaSyaka#}"
     ],
-    "_banner": "{#ujji#}",
+    "_banner": "{#AvaSyaka#}",
     "_bannerExp": [
         {
-            "Right": "ujji"
+            "Right": "AvaSyaka"
+        },
+        {
+            "Right": "AvaSyakI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#avaSya vuY#}]"
     ],
     "_meanings": [
-        "{@--1@} To win, acquire by\nconquest, conquer. ",
-        "{@--2@} To be \nvictorious, triumph. "
+        "Inevitable, necessary; {#EtazvAvaSyakastvasO#}\n <ls>Bhāṣā P. 22</ls>, <ls n=\"Bhāṣā P.\">20</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 66113,
+            "__line": 63982,
             "_ancestry": [
                 "L_ 7665",
-                "B_ {#ujji#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#AvaSyaka#}",
+                "M_ .{@{#-kam#}@}"
             ],
+            "_banner": ".{@{#-kam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "ujji"
+                    "Right": "AvaSyakam"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}",
-                "({#jApayati#})"
+            "_meanings": [
+                ".²1 Necessity,\n\n inevitable act or duty. {#˚kf#} to do what nature compels one to do; {#utTAyAvaSyakaM#}\n {#kftvA#} <ls>Ms. 4. 93</ls>; <ls>Bhāg. 9. 4. 37</ls>.\n",
+                ".²2 An inevitable conclusion.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 63989,
+            "_ancestry": [
+                "L_ 7665",
+                "B_ {#AvaSyaka#}",
+                "S_ .{@{#-bfhadvfttam#}@}"
+            ],
+            "_banner": ".{@{#-bfhadvfttam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AvaSyakabfhadvfttam"
+                }
             ],
             "_meanings": [
-                "{@--1@} To cause to conquer. ",
-                "{@--2@} To\nhelp one in winning."
+                "<ab>N.</ab> of a Jaina work."
             ]
         }
     ]

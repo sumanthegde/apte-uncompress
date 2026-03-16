@@ -1,16 +1,80 @@
 {
-    "__line": 266786,
+    "__line": 296780,
     "_ancestry": [
         "L_ 32134",
-        "B_ {#dvArakA#}"
+        "B_ {#SIkaraH#}"
     ],
-    "_banner": "{#dvArakA#}",
+    "_banner": "{#SIkaraH#}",
     "_bannerExp": [
         {
-            "Right": "dvArakA"
+            "Right": "SIkaraH"
         }
     ],
+    "_gram": [
+        "[{#SIk-aran#}]"
+    ],
     "_meanings": [
-        "See under {#sOrAzwr#}."
+        ".²1 Spray, thin rain, drizzle, mist; ({#sIkara#} is seen used for {#SIkara#});\n {#BAgiraTInirJarasIkarARAM#} <ls>Ku. 1. 15</ls>, <ls n=\"Ku.\">2. 42</ls>; <ls>R. 5. 42</ls>; {#AcacAma sa#}\n {#tuzAraSIkaro Binnapallavapuro vanAnilaH#} <ls n=\"R.\">9. 68</ls>; <ls>Ki. 5. 15</ls>.\n",
+        ".²2 A drop of water or rain; {#gatamupari GanAnAM vArigarBodarARAM piSunayati raTaste#}\n\n {#SIkaraklinnanemiH#} <ls>Ś. 7. 7</ls>; <ls>R. 16. 62</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 296787,
+            "_ancestry": [
+                "L_ 32134",
+                "B_ {#SIkaraH#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SIkaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The {%Saralā%} tree.\n",
+                ".²2 The resin of this tree.\n",
+                ".²3 Wind.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 296792,
+            "_ancestry": [
+                "L_ 32134",
+                "B_ {#SIkaraH#}",
+                "S_ .{@{#-kaRaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SIkarakaRaH"
+                }
+            ],
+            "_meanings": [
+                "a drop of rain or water.\n"
+            ]
+        },
+        {
+            "__line": 296793,
+            "_ancestry": [
+                "L_ 32134",
+                "B_ {#SIkaraH#}",
+                "S_ .{@{#-varzin#}@}"
+            ],
+            "_banner": ".{@{#-varzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SIkaravarzin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "drizzling."
+            ]
+        }
     ]
 }

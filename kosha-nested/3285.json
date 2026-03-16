@@ -1,19 +1,39 @@
 {
-    "__line": 31198,
+    "__line": 28169,
     "_ancestry": [
         "L_ 3285",
-        "B_ {#aBirAdDa#}"
+        "B_ {#aBakzya#}"
     ],
-    "_banner": "{#aBirAdDa#}",
+    "_banner": "{#aBakzya#}",
     "_bannerExp": [
         {
-            "Right": "aBirAdDa"
+            "Right": "aBakzya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Propitiated, pleased\n<ls>Śi. 1. 71.</ls>"
+        ".²1 Not to be eaten.\n",
+        ".²2 Prohibited from eating.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 28172,
+            "_ancestry": [
+                "L_ 3285",
+                "B_ {#aBakzya#}",
+                "M_ .{@{#-kzyam#}@}"
+            ],
+            "_banner": ".{@{#-kzyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBakzyam"
+                }
+            ],
+            "_meanings": [
+                "A prohibited article of food."
+            ]
+        }
     ]
 }

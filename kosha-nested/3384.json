@@ -1,19 +1,41 @@
 {
-    "__line": 31793,
+    "__line": 28879,
     "_ancestry": [
         "L_ 3384",
-        "B_ {#aBiSocayizRu#}"
+        "B_ {#aBicCAya#}"
     ],
-    "_banner": "{#aBiSocayizRu#}",
+    "_banner": "{#aBicCAya#}",
     "_bannerExp": [
         {
-            "Right": "aBiSocayizRu"
+            "Right": "aBicCAya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Tormenting."
+        "Being in shade or turned towards the shade.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 28880,
+            "_ancestry": [
+                "L_ 3384",
+                "B_ {#aBicCAya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aBicCAyam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "In shade or darkness."
+            ]
+        }
     ]
 }

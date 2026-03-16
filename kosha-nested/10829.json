@@ -1,19 +1,66 @@
 {
-    "__line": 91220,
+    "__line": 90836,
     "_ancestry": [
         "L_ 10829",
-        "B_ {#kAlIyaM#}"
+        "B_ {#Ehika#}"
     ],
-    "_banner": "{#kAlIyaM#}",
+    "_banner": "{#Ehika#}",
     "_bannerExp": [
         {
-            "Right": "kAlIyaM"
+            "Right": "Ehika"
+        },
+        {
+            "Right": "EhikI"
         }
     ],
     "_gram": [
-        "[{#kAla-Ca#}]"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#iha-WaY#}]"
     ],
     "_meanings": [
-        "A kind of \nsandal-wood; also {#kAlIyaka#}. "
+        ".²1 Of this world or place, temporal, secular, worldly.\n",
+        ".²2 Local, of this place.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 90840,
+            "_ancestry": [
+                "L_ 10829",
+                "B_ {#Ehika#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Ehikam"
+                }
+            ],
+            "_meanings": [
+                "Business (of this world).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 90842,
+            "_ancestry": [
+                "L_ 10829",
+                "B_ {#Ehika#}",
+                "S_ .{@{#-darSin#}@}"
+            ],
+            "_banner": ".{@{#-darSin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "EhikadarSin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "worldly-minded."
+            ]
+        }
     ]
 }

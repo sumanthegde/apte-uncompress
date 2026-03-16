@@ -1,17 +1,66 @@
 {
-    "__line": 14337,
+    "__line": 12464,
     "_ancestry": [
         "L_ 1335",
-        "B_ {#anAnupUrvyaM#}"
+        "B_ {#anapekza#}, {#-kzin#}"
     ],
-    "_banner": "{#anAnupUrvyaM#}",
+    "_banner": "{#anapekza#}, {#-kzin#}",
     "_bannerExp": [
         {
-            "Right": "anAnupUrvyaM"
+            "Right": "anapekza"
+        },
+        {
+            "Right": "anapekzin"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[<sab>{#na˚ ta˚#}</sab>]"
+    ],
     "_meanings": [
-        "{@--1@} Separation of the\ndifferent members of compounds by\nthe intervention of others. ",
-        "{@--2@} Not\ncoming in regular order."
+        ".²1 Regardless.\n",
+        ".²2 Careless, not minding or heeding, indifferent.\n",
+        ".²3 Independent or irrespective (of another), not requiring any other thing.\n",
+        ".²4 Impartial.\n",
+        ".²5 Irrelevant, unconnected, unconcerned.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 12471,
+            "_ancestry": [
+                "L_ 1335",
+                "B_ {#anapekza#}, {#-kzin#}",
+                "M_ .{@{#-kzA#}@}"
+            ],
+            "_banner": ".{@{#-kzA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anapekzA"
+                }
+            ],
+            "_meanings": [
+                "Disregard, indifference, carelessness.\n"
+            ]
+        },
+        {
+            "__line": 12472,
+            "_ancestry": [
+                "L_ 1335",
+                "B_ {#anapekza#}, {#-kzin#}",
+                "M_ .{@{#-kzam#}@}"
+            ],
+            "_banner": ".{@{#-kzam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anapekzam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "Without regard to, independently or irrespectively\n of; carelessly, accidentally; {#˚tvAt#} since it has no reference to."
+            ]
+        }
     ]
 }

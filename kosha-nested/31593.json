@@ -1,20 +1,70 @@
 {
-    "__line": 264983,
+    "__line": 291276,
     "_ancestry": [
         "L_ 31593",
-        "B_ {#hrasita#}"
+        "B_ {#SaciH#}, {#-cI#}"
     ],
-    "_banner": "{#hrasita#}",
+    "_banner": "{#SaciH#}, {#-cI#}",
     "_bannerExp": [
         {
-            "Right": "hrasita"
+            "Right": "SaciH"
+        },
+        {
+            "Right": "SacI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "{@--1@} Sounded. ",
-        "{@--2@}\nShortened, curtailed."
+        "<ab>N.</ab> of the wife of Indra; {#asUta putraM samaye SacIsamA#} <ls>R. 3. 13</ls>, <ls n=\"R. 3.\">23</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 291278,
+            "_ancestry": [
+                "L_ 31593",
+                "B_ {#SaciH#}, {#-cI#}",
+                "M_ .{@{#-cI#}@}"
+            ],
+            "_banner": ".{@{#-cI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SacI"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab>\n",
+                ".²1 Speech, eloquence.\n",
+                ".²2 Activity, energy.\n",
+                ".²3 Power, strength.\n",
+                ".²4 A holy or pious act; devotion.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 291284,
+            "_ancestry": [
+                "L_ 31593",
+                "B_ {#SaciH#}, {#-cI#}",
+                "S_ .{@{#-patiH, -Bartf#}@}"
+            ],
+            "_banner": ".{@{#-patiH, -Bartf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SacipatiH"
+                },
+                {
+                    "Right": "SaciBartf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "epithets of Indra."
+            ]
+        }
     ]
 }

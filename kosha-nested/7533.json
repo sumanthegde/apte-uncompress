@@ -1,19 +1,141 @@
 {
-    "__line": 65072,
+    "__line": 62953,
     "_ancestry": [
         "L_ 7533",
-        "B_ {#ISvaratA, --tvaM#}"
+        "B_ {#ArDa#}"
     ],
-    "_banner": "{#ISvaratA, --tvaM#}",
+    "_banner": "{#ArDa#}",
     "_bannerExp": [
         {
-            "Right": "ISvaratA"
-        },
-        {
-            "Right": "ISvaratvaM"
+            "Right": "ArDa"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Superiority, supremacy."
+        "(Only used at the beginning of <ab>comp.</ab>) Half.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 62955,
+            "_ancestry": [
+                "L_ 7533",
+                "B_ {#ArDa#}",
+                "S_ .{@{#-DAtuka#}@}"
+            ],
+            "_banner": ".{@{#-DAtuka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArDaDAtuka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-kI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "(In <ab>gram.</ab>) applicable to half the root or to the\n shorter form of the verbal base.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 62958,
+                    "_ancestry": [
+                        "L_ 7533",
+                        "B_ {#ArDa#}",
+                        "S_ .{@{#-DAtuka#}@}",
+                        "S_M_ ({@{#-kam#}@})"
+                    ],
+                    "_banner": "({@{#-kam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ArDaDAtukam"
+                        }
+                    ],
+                    "_meanings": [
+                        "a name given to those terminations and affixes which belong\n to the six non-conjugational or general tenses (<ab>opp.</ab> {#sArva#}. {#DAtuka#});\n <ab>cf.</ab> <ls>P. III. 4. 114</ls>, <ls n=\"P.\">I. 1. 4</ls>, <ls n=\"P.\">II. 4. 35</ls>, <ls n=\"P.\">VII. 2. 35</ls> <ab>&c.</ab>\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 62961,
+            "_ancestry": [
+                "L_ 7533",
+                "B_ {#ArDa#}",
+                "S_ .{@{#-nArISvaram#}@}"
+            ],
+            "_banner": ".{@{#-nArISvaram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArDanArISvaram"
+                }
+            ],
+            "_meanings": [
+                "The story of the lord Śiva in his form as {#arDanArISvara#}.\n"
+            ]
+        },
+        {
+            "__line": 62962,
+            "_ancestry": [
+                "L_ 7533",
+                "B_ {#ArDa#}",
+                "S_ .{@{#-prasTika, -kaMsika#}@}"
+            ],
+            "_banner": ".{@{#-prasTika, -kaMsika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArDaprasTika"
+                },
+                {
+                    "Left": "S error: midAlign kaMsika prasTikaMsika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-kI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "bought with half a Prastha or Kaṃsa.\n"
+            ]
+        },
+        {
+            "__line": 62964,
+            "_ancestry": [
+                "L_ 7533",
+                "B_ {#ArDa#}",
+                "S_ .{@{#-mAsika#}@}"
+            ],
+            "_banner": ".{@{#-mAsika#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArDamAsika"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "({#-kI#}|{%f.%})"
+            ],
+            "_meanings": [
+                "lasting for half a month, observing or practising\n (penance <ab>&c.</ab>) for a fortnight.\n"
+            ]
+        },
+        {
+            "__line": 62967,
+            "_ancestry": [
+                "L_ 7533",
+                "B_ {#ArDa#}",
+                "S_ .{@{#-rAtrikAH#}@}"
+            ],
+            "_banner": ".{@{#-rAtrikAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ArDarAtrikAH"
+                }
+            ],
+            "_meanings": [
+                "(<ab>pl.</ab>) <ab>N.</ab> of an astronomical school who reckoned the\n beginning of the motions of the planets from midnight."
+            ]
+        }
     ]
 }

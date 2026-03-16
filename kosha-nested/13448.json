@@ -1,23 +1,43 @@
 {
-    "__line": 112805,
+    "__line": 114759,
     "_ancestry": [
         "L_ 13448",
-        "B_ {#cul#}"
+        "B_ {#kzetrin#}"
     ],
-    "_banner": "{#cul#}",
+    "_banner": "{#kzetrin#}",
     "_bannerExp": [
         {
-            "Right": "cul"
+            "Right": "kzetrin"
         }
     ],
     "_gram": [
-        "{c10c}",
-        "<ab>P.</ab>",
-        "({#colayati#})"
+        "{%a.%}",
+        "[{#kzetra-ini#}]"
     ],
     "_meanings": [
-        "{@--1@} To raise or\nelevate. ",
-        "{@--2@} To rise, increase. ",
-        "{@--3@} To\ndip, dive or plunge into."
+        ".²1 Owing a field; cultivating land.\n",
+        ".²2 Agricultural. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 114761,
+            "_ancestry": [
+                "L_ 13448",
+                "B_ {#kzetrin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kzetrin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 An agriculturist, a cultivator; {#yAvatsasyaM vinaSyettu tAvatsyAtkzetriRaH#}\n {#Palam#} <ls>Y. 2. 161</ls>.\n",
+                ".²2 A (nominal) husband; {#AhurutpAdakaM kecidapare kzetriRaM viduH#} <ls>Ms. 9. 32</ls>; <ls>Ś. 5</ls>.\n",
+                ".²3 The soul.\n",
+                ".²4 The Supreme Soul; {#kzetraM kzetrI taTA kftsnaM prakASayati BArata#} <ls>Bg. 13. 33</ls>."
+            ]
+        }
     ]
 }

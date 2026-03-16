@@ -1,16 +1,141 @@
 {
-    "__line": 101240,
+    "__line": 102833,
     "_ancestry": [
         "L_ 12139",
-        "B_ {#KasatilaH#}"
+        "B_ {#kAlinda#}"
     ],
-    "_banner": "{#KasatilaH#}",
+    "_banner": "{#kAlinda#}",
     "_bannerExp": [
         {
-            "Right": "KasatilaH"
+            "Right": "kAlinda"
+        },
+        {
+            "Right": "kAlindI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-ndI#}|{%f.%})",
+        "[{#kalinda-aR#}]"
+    ],
     "_meanings": [
-        "Poppy."
+        "Connected with\n or coming from the mountain Kalinda or the river Yamunā.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 102835,
+            "_ancestry": [
+                "L_ 12139",
+                "B_ {#kAlinda#}",
+                "M_ .{@{#-ndI#}@}"
+            ],
+            "_banner": ".{@{#-ndI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAlindI"
+                }
+            ],
+            "_meanings": [
+                ".²1 The river Yamunā; {#kAlindyAH pulinezu kelikupitAm#} <ls>Ve. 1. 2</ls>; <ls>R. 15. 28</ls>;\n <ls>Śānti. 4. 13</ls>.\n",
+                ".²2 A sort of vessel.\n",
+                ".²3 <ab>N.</ab> of a wife of Kṛṣṇa (a daughter of Sūrya).\n"
+            ]
+        },
+        {
+            "__line": 102840,
+            "_ancestry": [
+                "L_ 12139",
+                "B_ {#kAlinda#}",
+                "M_ .{@{#-ndam#}@}"
+            ],
+            "_banner": ".{@{#-ndam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAlindam"
+                }
+            ],
+            "_meanings": [
+                "A water melon.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 102842,
+            "_ancestry": [
+                "L_ 12139",
+                "B_ {#kAlinda#}",
+                "S_ .{@{#-karzaRaH, -BedanaH#}@}"
+            ],
+            "_banner": ".{@{#-karzaRaH, -BedanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAlindakarzaRaH"
+                },
+                {
+                    "Right": "kAlindaBedanaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Balarāma <ab>q. v.</ab>\n"
+            ]
+        },
+        {
+            "__line": 102843,
+            "_ancestry": [
+                "L_ 12139",
+                "B_ {#kAlinda#}",
+                "S_ .{@{#-sUH#}@}"
+            ],
+            "_banner": ".{@{#-sUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAlindasUH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Saṃjñā "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 102843,
+                    "_ancestry": [
+                        "L_ 12139",
+                        "B_ {#kAlinda#}",
+                        "S_ .{@{#-sUH#}@}",
+                        "S_M_ ({@{#-saMjYA#}@})"
+                    ],
+                    "_banner": "({@{#-saMjYA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "kAlindasaYjYA"
+                        }
+                    ],
+                    "_meanings": [
+                        ", a wife of the sun. --({%m.%}) the sun.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 102844,
+            "_ancestry": [
+                "L_ 12139",
+                "B_ {#kAlinda#}",
+                "S_ .{@{#-sodaraH#}@}"
+            ],
+            "_banner": ".{@{#-sodaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kAlindasodaraH"
+                }
+            ],
+            "_meanings": [
+                "Yama, the god of death."
+            ]
+        }
     ]
 }

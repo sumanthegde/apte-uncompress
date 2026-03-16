@@ -1,19 +1,41 @@
 {
-    "__line": 49529,
+    "__line": 46742,
     "_ancestry": [
         "L_ 5612",
-        "B_ {#asTita#}"
+        "B_ {#avivenat#}"
     ],
-    "_banner": "{#asTita#}",
+    "_banner": "{#avivenat#}",
     "_bannerExp": [
         {
-            "Right": "asTita"
+            "Right": "avivenat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Not firm or fixed."
+        "<ab>Ved.</ab> Not disaffected, favourable; {#saDrIcInena#}\n {#manasAvivenat#} <ls>Rv. 4. 24. 6</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 46744,
+            "_ancestry": [
+                "L_ 5612",
+                "B_ {#avivenat#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avivenam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Not disaffectedly, favourably."
+            ]
+        }
     ]
 }

@@ -1,22 +1,64 @@
 {
-    "__line": 197748,
+    "__line": 209710,
     "_ancestry": [
         "L_ 23476",
-        "B_ {#medura#}"
+        "B_ {#pravartaka#}"
     ],
-    "_banner": "{#medura#}",
+    "_banner": "{#pravartaka#}",
     "_bannerExp": [
         {
-            "Right": "medura"
+            "Right": "pravartaka"
+        },
+        {
+            "Right": "pravartikA"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#mid-Gurac#}]"
+        "{%a.%}",
+        "({#-rtikA#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} Fat. ",
-        "{@--2@}\nSmooth, unctuous, soft. ",
-        "{@--3@} Thick,\ndense; <ls>Māl. 8. 11</ls>; thick with, full\nof, covered with (usually with <ab>instr.</ab>\nor at the end of <ab>comp.</ab>); {#meGErmeduramaMvaraM#}\n<ls>Gīt. 1</ls>; {#makaraMdasuMdaragalanmaMdAkinImeduraM#}\n({#padAraviMdaM#}) {7}"
+        ".²1 Setting on foot, founding.\n",
+        ".²2 Advancing, promoting, furthering.\n",
+        ".²3 Producing, causing,\n {#… kftisADyatAjYAnaM vA pravartakamiti jarannEyAyikAH#}.\n",
+        ".²4 Prompting, urging, inducing, instigating (in a bad sense).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 209716,
+            "_ancestry": [
+                "L_ 23476",
+                "B_ {#pravartaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravartakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 An originator, founder, author.\n",
+                ".²2 A prompter, instigator.\n",
+                ".²3 An arbiter, umpire.\n"
+            ]
+        },
+        {
+            "__line": 209720,
+            "_ancestry": [
+                "L_ 23476",
+                "B_ {#pravartaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pravartakam"
+                }
+            ],
+            "_meanings": [
+                "The entrance of a character on the stage."
+            ]
+        }
     ]
 }

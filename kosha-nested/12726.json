@@ -1,16 +1,106 @@
 {
-    "__line": 106760,
+    "__line": 107898,
     "_ancestry": [
         "L_ 12726",
-        "B_ {#goDikA#}"
+        "B_ {#kUba(va)ra#}"
     ],
-    "_banner": "{#goDikA#}",
+    "_banner": "{#kUba(va)ra#}",
     "_bannerExp": [
         {
-            "Right": "goDikA"
+            "Right": "kUbara"
+        },
+        {
+            "Right": "kUvara"
+        },
+        {
+            "Right": "kUbarI"
+        },
+        {
+            "Right": "kUvarI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-rI#}|{%f.%})"
+    ],
     "_meanings": [
-        "A kind of lizard."
+        ".²1 Beautiful, agreeable.\n",
+        ".²2 Hump-backed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 107901,
+            "_ancestry": [
+                "L_ 12726",
+                "B_ {#kUba(va)ra#}",
+                "M_ .{@{#-raH, -ram#}@}"
+            ],
+            "_banner": ".{@{#-raH, -ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUbaraH"
+                },
+                {
+                    "Right": "kUbaram"
+                }
+            ],
+            "_meanings": [
+                "The pole of a carriage to which the yoke is fixed;\n {#tataH sa maTitAzwASvaM raTaM BagnAkzakUbaram#}\n\n <ls>Rām. 5. 46. 28</ls>. ({#dvikUbaram#}) <ls>Bhāg. 4. 26. 2</ls>.\n"
+            ]
+        },
+        {
+            "__line": 107905,
+            "_ancestry": [
+                "L_ 12726",
+                "B_ {#kUba(va)ra#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUbaraH"
+                }
+            ],
+            "_meanings": [
+                "A hump-backed man.\n"
+            ]
+        },
+        {
+            "__line": 107906,
+            "_ancestry": [
+                "L_ 12726",
+                "B_ {#kUba(va)ra#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUbarI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A carriage covered with a cloth or blanket.\n",
+                ".²2 The pole of a carriage to which the yoke is fixed; <ls>Ve. 4</ls>; {#aMsena#}\n {#saMSlizya ca kUbarAgram#} <ls>Bu. Ch. 3. 60</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 107911,
+            "_ancestry": [
+                "L_ 12726",
+                "B_ {#kUba(va)ra#}",
+                "S_ .{@{#-sTAnam#}@}"
+            ],
+            "_banner": ".{@{#-sTAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kUbarasTAnam"
+                }
+            ],
+            "_meanings": [
+                "the seat on a carriage."
+            ]
+        }
     ]
 }

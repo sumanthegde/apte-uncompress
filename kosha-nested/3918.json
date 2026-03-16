@@ -1,19 +1,41 @@
 {
-    "__line": 35760,
+    "__line": 32726,
     "_ancestry": [
         "L_ 3918",
-        "B_ {#ayajuzka#}"
+        "B_ {#aBojya#}"
     ],
-    "_banner": "{#ayajuzka#}",
+    "_banner": "{#aBojya#}",
     "_bannerExp": [
         {
-            "Right": "ayajuzka"
+            "Right": "aBojya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Without a sacrificial\nformula or verse."
+        "Not to be eaten, prohibited as food, impure, unholy;\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 32727,
+            "_ancestry": [
+                "L_ 3918",
+                "B_ {#aBojya#}",
+                "M_ .{@{#˚anna#}@}"
+            ],
+            "_banner": ".{@{#˚anna#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#aBojya#} M_ .{@{#˚anna#}@}"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one whose food is prohibited from being eaten by\n others; {#ya ete'nye tvaBojyAnnAH kramaSaH parikIrtitAH#} <ls>Ms. 4. 221</ls>."
+            ]
+        }
     ]
 }

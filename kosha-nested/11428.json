@@ -1,42 +1,93 @@
 {
-    "__line": 95878,
+    "__line": 95546,
     "_ancestry": [
         "L_ 11428",
-        "B_ {#kfS#}"
+        "B_ {#kandaraH#}, {#-ram#}"
     ],
-    "_banner": "{#kfS#}",
+    "_banner": "{#kandaraH#}, {#-ram#}",
     "_bannerExp": [
         {
-            "Right": "kfS"
+            "Right": "kandaraH"
+        },
+        {
+            "Right": "kandaram"
         }
     ],
-    "_gram": [
-        "{c4c}",
-        "<ab>P.</ab>",
-        "({#kfSyati, kfSa#})"
-    ],
     "_meanings": [
-        "{@--1@} To\nbecome lean or emaciated. ",
-        "{@--2@} To\nwane (as the moon). "
+        "A cave, a valley; {#nagamiva cArukandaram#} ({#aBigamya#})\n <ls>Rām. 5. 7. 15</ls>; {#kiM kandAH kandareByaH pralayamupagatAH#} <ls>Bh. 3. 69</ls>;\n {#vasuDADarakandarABisarpI#} <ls>V. 1. 18</ls>; <ls>Me. 58</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 95880,
+            "__line": 95550,
             "_ancestry": [
                 "L_ 11428",
-                "B_ {#kfS#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#kandaraH#}, {#-ram#}",
+                "M_ .{@{#-raH#}@}"
             ],
+            "_banner": ".{@{#-raH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kfS"
+                    "Right": "kandaraH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "A hook for driving an elephant.\n"
+            ]
+        },
+        {
+            "__line": 95551,
+            "_ancestry": [
+                "L_ 11428",
+                "B_ {#kandaraH#}, {#-ram#}",
+                "M_ .{@{#-rA, -rIM#}@}"
+            ],
+            "_banner": ".{@{#-rA, -rIM#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kandarA"
+                },
+                {
+                    "Right": "kandarIm"
+                }
             ],
             "_meanings": [
-                "To\nemaciate."
+                "A cave, valley, hollow.\n"
+            ]
+        },
+        {
+            "__line": 95552,
+            "_ancestry": [
+                "L_ 11428",
+                "B_ {#kandaraH#}, {#-ram#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kandaram"
+                }
+            ],
+            "_meanings": [
+                "Dry ginger.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 95554,
+            "_ancestry": [
+                "L_ 11428",
+                "B_ {#kandaraH#}, {#-ram#}",
+                "S_ .{@{#-AkaraH#}@}"
+            ],
+            "_banner": ".{@{#-AkaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kandarAkaraH"
+                }
+            ],
+            "_meanings": [
+                "a mountain."
             ]
         }
     ]

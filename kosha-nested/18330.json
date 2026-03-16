@@ -1,20 +1,40 @@
 {
-    "__line": 153923,
+    "__line": 163042,
     "_ancestry": [
         "L_ 18330",
-        "B_ {#parisPur#}"
+        "B_ {#namanam#}"
     ],
-    "_banner": "{#parisPur#}",
+    "_banner": "{#namanam#}",
     "_bannerExp": [
         {
-            "Right": "parisPur"
+            "Right": "namanam"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "[{#nam-lyuw#}]"
     ],
     "_meanings": [
-        "To throb, quiver,\npalpitate; {#tasyAH#} \n{#parisPuritagarBaBarAlasAyAH#} <ls>U. 3. 28.</ls>"
+        ".²1 Bowing down, bending, stooping.\n",
+        ".²2 Sinking. ",
+        ".²3 A bow, salutation, obeisance.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 163045,
+            "_ancestry": [
+                "L_ 18330",
+                "B_ {#namanam#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "namanaH"
+                }
+            ],
+            "_meanings": [
+                "One who causes to bend or bow; {#namayati sma vanAni manasvinIjanamano#}\n {#namano GanamArutaH#} <ls>Śi. 6. 30</ls>."
+            ]
+        }
     ]
 }

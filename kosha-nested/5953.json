@@ -1,37 +1,145 @@
 {
-    "__line": 52417,
+    "__line": 49973,
     "_ancestry": [
         "L_ 5953",
-        "B_ {#AcAmya#}"
+        "B_ {#asti#}"
     ],
-    "_banner": "{#AcAmya#}",
+    "_banner": "{#asti#}",
     "_bannerExp": [
         {
-            "Right": "AcAmya"
+            "Right": "asti"
         }
     ],
     "_gram": [
-        "{%<ab>pot. p.</ab>%}"
+        "{%ind.%}",
+        "[{#as-Satip#}]"
     ],
     "_meanings": [
-        "To be rinsed.\n"
+        ".²1 Being, existent, present; as in {#astikzIrA, ˚kAyaH#}\n",
+        ".²2 Often used at the commencement of a tale or narrative in the sense\n of ‘so it is’, ‘there’, or merely as an expletive; {#asti siMhaH prativasati#}\n {#sma#} <ls>Pt. 4</ls>; {#astyatra nagare … trayaH puruzA devasya SriyaM na sahante#} <ls>Mu. 1</ls>, <ls n=\"Mu.\">5</ls>;\n\n {#asti pUrvamahaM vyomacArI vidyADaro'Bavam#} <ls>Ks. 22. 56</ls>, <ls n=\"Ks.\">1. 27</ls>;\n {#asti tatraBavAn vfzalaM yAjayizyati#} <ls>P. III. 3. 146</ls> is it that <ab>&c.</ab>\n"
     ],
     "_morphisms": [
         {
-            "__line": 52418,
+            "__line": 49981,
             "_ancestry": [
                 "L_ 5953",
-                "B_ {#AcAmya#}",
-                "M_ {#--myaM#}"
+                "B_ {#asti#}",
+                "M_ .{@{#-stiH#}@}"
             ],
-            "_banner": "{#--myaM#}",
+            "_banner": ".{@{#-stiH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AcAmyaM"
+                    "Right": "astiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a sister of Prāpti, daughter of Jarāsandha\n and wife of Kaṃsa.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 49984,
+            "_ancestry": [
+                "L_ 5953",
+                "B_ {#asti#}",
+                "S_ .{@{#-kAyaH#}@}"
+            ],
+            "_banner": ".{@{#-kAyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "astikAyaH"
+                }
+            ],
+            "_gram": [
+                "[{#asti kAyaH svarUpaM yasya#}]"
+            ],
+            "_meanings": [
+                "a category or predicament\n (with the Jainas); these categories are 5; {#-jIva˚, pudgala˚, Darma˚#},\n {#aDarma˚#}, and {#AkASa˚#}.\n"
+            ]
+        },
+        {
+            "__line": 49987,
+            "_ancestry": [
+                "L_ 5953",
+                "B_ {#asti#}",
+                "S_ .{@{#-kzIra#}@}"
+            ],
+            "_banner": ".{@{#-kzIra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "astikzIra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#asti kzIraM yasya#} <ls>P. II. 2. 24. Vārt.</ls>]"
+            ],
+            "_meanings": [
+                "having milk.\n"
+            ]
+        },
+        {
+            "__line": 49988,
+            "_ancestry": [
+                "L_ 5953",
+                "B_ {#asti#}",
+                "S_ .{@{#-nAsti#}@}"
+            ],
+            "_banner": ".{@{#-nAsti#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "astinAsti"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "doubtful, partly true and partly not; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 49988,
+                    "_ancestry": [
+                        "L_ 5953",
+                        "B_ {#asti#}",
+                        "S_ .{@{#-nAsti#}@}",
+                        "S_S_ {#˚tvam#},\n {#˚tA#}"
+                    ],
+                    "_banner": "{#˚tvam#},\n {#˚tA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "astinAstitvam"
+                        },
+                        {
+                            "Right": "astinAstitA"
+                        }
+                    ],
+                    "_meanings": [
+                        "doubtful or partial existence.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 49990,
+            "_ancestry": [
+                "L_ 5953",
+                "B_ {#asti#}",
+                "S_ .{@{#-˚pravAdaH#}@}"
+            ],
+            "_banner": ".{@{#-˚pravAdaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#asti#} S_ .{@{#-˚pravAdaH#}@}"
                 }
             ],
             "_meanings": [
-                "Water used for rinsing."
+                "<ab>N.</ab> of the fourth of the fourteen Pūrvas or older writings of the Jainas."
             ]
         }
     ]

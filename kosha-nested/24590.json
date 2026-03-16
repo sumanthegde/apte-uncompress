@@ -1,16 +1,128 @@
 {
-    "__line": 208401,
+    "__line": 220008,
     "_ancestry": [
         "L_ 24590",
-        "B_ {#lAlAwI#}"
+        "B_ {#bAlaka#}"
     ],
-    "_banner": "{#lAlAwI#}",
+    "_banner": "{#bAlaka#}",
     "_bannerExp": [
         {
-            "Right": "lAlAwI"
+            "Right": "bAlaka"
+        },
+        {
+            "Right": "bAlikA"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-likA#}|{%f.%})",
+        "[{#bAla svArTe ka#}]"
+    ],
     "_meanings": [
-        "The forehead."
+        ".²1 Child-like, young, not yet full-grown.\n",
+        ".²2 Ignorant.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 220012,
+            "_ancestry": [
+                "L_ 24590",
+                "B_ {#bAlaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAlakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A child, boy.\n",
+                ".²2 A minor (in law).\n",
+                ".²3 A finger-ring.\n",
+                ".²4 A fool or blockhead.\n",
+                ".²5 A bracelet.\n",
+                ".²6 The tail of a horse or elephant\n",
+                ".²7 Hair.\n",
+                ".²8 A young elephant (five years old); {#nirDUtavItamapi bAlakamullalantam#}\n <ls>Śi. 5. 47</ls>. See {#bAla#} (8).\n"
+            ]
+        },
+        {
+            "__line": 220022,
+            "_ancestry": [
+                "L_ 24590",
+                "B_ {#bAlaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAlakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A finger-ring.\n",
+                ".²2 A bracelet.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 220026,
+            "_ancestry": [
+                "L_ 24590",
+                "B_ {#bAlaka#}",
+                "S_ .{@{#-priya#}@}"
+            ],
+            "_banner": ".{@{#-priya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAlakapriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fond of children.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 220027,
+                    "_ancestry": [
+                        "L_ 24590",
+                        "B_ {#bAlaka#}",
+                        "S_ .{@{#-priya#}@}",
+                        "S_M_ ({@{#-yA#}@})"
+                    ],
+                    "_banner": "({@{#-yA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "bAlakapriyA"
+                        }
+                    ],
+                    "_meanings": [
+                        "colocynth or plantain.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 220028,
+            "_ancestry": [
+                "L_ 24590",
+                "B_ {#bAlaka#}",
+                "S_ .{@{#-hatyA#}@}"
+            ],
+            "_banner": ".{@{#-hatyA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAlakahatyA"
+                }
+            ],
+            "_meanings": [
+                "infanticide."
+            ]
+        }
     ]
 }

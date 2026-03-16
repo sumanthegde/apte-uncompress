@@ -1,20 +1,87 @@
 {
-    "__line": 37653,
+    "__line": 34277,
     "_ancestry": [
         "L_ 4137",
-        "B_ {#arcA#}"
+        "B_ {#amantra#}, {#-ntraka#}"
     ],
-    "_banner": "{#arcA#}",
+    "_banner": "{#amantra#}, {#-ntraka#}",
     "_bannerExp": [
         {
-            "Right": "arcA"
+            "Right": "amantra"
+        },
+        {
+            "Right": "amantraka"
         }
     ],
     "_gram": [
-        "[{#arc-aN#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Worship, \nadoration. ",
-        "{@--2@} An idol or image \nintended to be worshipped;  \n{#mOryErhiraRyArTiBirarcAH prakalpitAH#} <ls>Mbh.</ls> (there is some\ndispute among scholars as to the\nprecise meaning of this passage). "
+        ".²1 Not accompanied by Vedic verses, not requiring the repetition of Vedic\n texts, as a ceremony <ab>&c.</ab>; {#sAyaM tvannasya sidDasya patnyamantraM baliM#}\n {#haret#} <ls>Ms. 3. 121</ls>, <ls n=\"Ms.\">2. 66</ls>.\n",
+        ".²2 Not entitled to Vedic verses, such as a Śūdra, a female <ab>&c.</ab>; {#nirindriyA#}\n {#hyamantrASca striyo'nftamiti sTitiH#} <ls>Ms. 9. 18</ls>.\n",
+        ".²3 Not knowing Vedic texts; {#avratAnAmamantrARAm#} <ls>Ms. 12. 114</ls>.\n",
+        ".²4 Not accompanied by the use of spells or incantations, as a cure <ab>&c.</ab>;\n {#anayA kaTamanyaTAvalIQA na hi jIvanti janA manAgamantrAH#} <ls>Bv. 1. 111</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 34287,
+            "_ancestry": [
+                "L_ 4137",
+                "B_ {#amantra#}, {#-ntraka#}",
+                "S_ .{@{#-jYa#}@}"
+            ],
+            "_banner": ".{@{#-jYa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amantrajYa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Not knowing Vedic texts or hymns; <ls>Ms. 3. 129</ls>.\n"
+            ]
+        },
+        {
+            "__line": 34288,
+            "_ancestry": [
+                "L_ 4137",
+                "B_ {#amantra#}, {#-ntraka#}",
+                "S_ .{@{#-tantra#}@}"
+            ],
+            "_banner": ".{@{#-tantra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amantratantra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Without the use of spells or the magical feats\n attendant on them, without the use of magical arts; {#amantratantraM vaSIkaraRam#} <ls>Pt. 1. 70</ls>.\n"
+            ]
+        },
+        {
+            "__line": 34290,
+            "_ancestry": [
+                "L_ 4137",
+                "B_ {#amantra#}, {#-ntraka#}",
+                "S_ .{@{#-vid#}@}"
+            ],
+            "_banner": ".{@{#-vid#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amantravid"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Not knowing Vedic hymns."
+            ]
+        }
     ]
 }

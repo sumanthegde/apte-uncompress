@@ -1,21 +1,46 @@
 {
-    "__line": 256128,
+    "__line": 281896,
     "_ancestry": [
         "L_ 30542",
-        "B_ {#sel#}"
+        "B_ {#vistf#}"
     ],
-    "_banner": "{#sel#}",
+    "_banner": "{#vistf#}",
     "_bannerExp": [
         {
-            "Right": "sel"
+            "Right": "vistf"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#selati#})"
+        "€5",
+        "<ab>U.</ab>"
     ],
     "_meanings": [
-        "To go, move."
+        "{#vistF#} €9 <ab>U.</ab>\n",
+        ".²1 To spread, diffuse.\n",
+        ".²2 To cover, fill.\n",
+        ".²3 To extend, expand.\n",
+        ".²4 To strew or scatter about. ",
+        ".²5 To speak diffusively about. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 281900,
+            "_ancestry": [
+                "L_ 30542",
+                "B_ {#vistf#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "vistf"
+                }
+            ],
+            "_meanings": [
+                ".²1 To cause to spread or expand; as in {#payoDaravistArayitfkaM yOvanam#} <ls>Ś. 1</ls>.\n",
+                ".²2 To increase; {#vistAritaH kuYjarakarRatAlEH#} ({#reRuH#}) <ls>R. 7. 39</ls>.\n",
+                ".²3 To stretch, extend."
+            ]
+        }
     ]
 }

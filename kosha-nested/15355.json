@@ -1,19 +1,142 @@
 {
-    "__line": 127551,
+    "__line": 132814,
     "_ancestry": [
         "L_ 15355",
-        "B_ {#dApana, dApita#}"
+        "B_ {#jaWara#}"
     ],
-    "_banner": "{#dApana, dApita#}",
+    "_banner": "{#jaWara#}",
     "_bannerExp": [
         {
-            "Right": "dApana"
-        },
-        {
-            "Right": "dApita"
+            "Right": "jaWara"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[{#jAyate janturgarBo vAsmin jan-ara WAnta deSaH#} <ls>Tv.</ls>]"
+    ],
     "_meanings": [
-        "See under {#dA#}."
+        ".²1 Hard, stiff, firm.\n",
+        ".²2 Old. ",
+        ".²3 Bound, tied.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 132817,
+            "_ancestry": [
+                "L_ 15355",
+                "B_ {#jaWara#}",
+                "M_ .{@{#-raH, -ram#}@}"
+            ],
+            "_banner": ".{@{#-raH, -ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaWaraH"
+                },
+                {
+                    "Right": "jaWaram"
+                }
+            ],
+            "_meanings": [
+                ".²1 The stomach, belly, abdomen; {#jaWaraM ko na biBarti kevalam#} <ls>Pt. 1. 22</ls>.\n",
+                ".²2 The womb.\n",
+                ".²3 A hole, cavity.\n",
+                ".²4 The interior of anything.\n",
+                ".²5 The bosom.\n",
+                ".²6 Morbid affection of the bowels.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 132825,
+            "_ancestry": [
+                "L_ 15355",
+                "B_ {#jaWara#}",
+                "S_ .{@{#-agniH#}@}"
+            ],
+            "_banner": ".{@{#-agniH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaWarAgniH"
+                }
+            ],
+            "_meanings": [
+                "the digestive fire of the stomach, the gastric fluid; {#paYcAgnestasya#}\n {#cAnyO dvAvaDikaM jvalataH#}\n\n {#kzuDA . jaWarAgnI saBAryasya daridrasya prajADanEH#} <ls>Ks. 73. 58</ls>.\n"
+            ]
+        },
+        {
+            "__line": 132829,
+            "_ancestry": [
+                "L_ 15355",
+                "B_ {#jaWara#}",
+                "S_ .{@{#-AmayaH#}@}"
+            ],
+            "_banner": ".{@{#-AmayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaWarAmayaH"
+                }
+            ],
+            "_meanings": [
+                "dropsy.\n"
+            ]
+        },
+        {
+            "__line": 132830,
+            "_ancestry": [
+                "L_ 15355",
+                "B_ {#jaWara#}",
+                "S_ .{@{#-jvalanam#}@}"
+            ],
+            "_banner": ".{@{#-jvalanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaWarajvalanam"
+                }
+            ],
+            "_meanings": [
+                "‘stomach heat’, hunger; {#jaWarajvalanajvalatA … kariRAmariRA#} <ls>Bv. 1. 50</ls>.\n"
+            ]
+        },
+        {
+            "__line": 132831,
+            "_ancestry": [
+                "L_ 15355",
+                "B_ {#jaWara#}",
+                "S_ .{@{#-jvAlA, -vyaTA#}@}"
+            ],
+            "_banner": ".{@{#-jvAlA, -vyaTA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaWarajvAlA"
+                },
+                {
+                    "Right": "jaWaravyaTA"
+                }
+            ],
+            "_meanings": [
+                "belly-ache, colic.\n"
+            ]
+        },
+        {
+            "__line": 132832,
+            "_ancestry": [
+                "L_ 15355",
+                "B_ {#jaWara#}",
+                "S_ .{@{#-yantraRA, -yAtanA#}@}"
+            ],
+            "_banner": ".{@{#-yantraRA, -yAtanA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jaWarayantraRA"
+                },
+                {
+                    "Right": "jaWarayAtanA"
+                }
+            ],
+            "_meanings": [
+                "pain endured by the child in the womb."
+            ]
+        }
     ]
 }

@@ -1,22 +1,55 @@
 {
-    "__line": 116232,
+    "__line": 119033,
     "_ancestry": [
         "L_ 13893",
-        "B_ {#jAmAtf#}"
+        "B_ {#garBita#}"
     ],
-    "_banner": "{#jAmAtf#}",
+    "_banner": "{#garBita#}",
     "_bannerExp": [
         {
-            "Right": "jAmAtf"
+            "Right": "garBita"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}",
-        "[{#jAyAM mAti minoti#} \n{#mimIte vA ni°#}; <ab>cf.</ab> <ls>Uṇ. 2. 94</ls>]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} A \nsonin-law; {#jAmAtfyajYena vayaM nirudDAH#}  \n<ls>U. 1. 11</ls>; {#jAmAtA daSamo grahaH#} <ls>Subhāṣ.</ls>\n",
-        "{@--2@} A lord, master. ",
-        "{@--3@} The \nsunflower."
+        "Pregnant, filled with.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 119034,
+            "_ancestry": [
+                "L_ 13893",
+                "B_ {#garBita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garBitam"
+                }
+            ],
+            "_meanings": [
+                "A defect in poetical composition.\n"
+            ]
+        },
+        {
+            "__line": 119035,
+            "_ancestry": [
+                "L_ 13893",
+                "B_ {#garBita#}",
+                "M_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "garBitA"
+                }
+            ],
+            "_meanings": [
+                "(in <ab>Rhet.</ab>) Insertion of one phrase within another."
+            ]
+        }
     ]
 }

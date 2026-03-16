@@ -1,61 +1,71 @@
 {
-    "__line": 219158,
+    "__line": 236828,
     "_ancestry": [
         "L_ 25946",
-        "B_ {#vidF#}"
+        "B_ {#mahi#}"
     ],
-    "_banner": "{#vidF#}",
+    "_banner": "{#mahi#}",
     "_bannerExp": [
         {
-            "Right": "vidF"
+            "Right": "mahi"
         }
     ],
     "_gram": [
-        "{c9c}",
-        "<ab>P.</ab>"
+        "{%m., n.%}"
     ],
     "_meanings": [
-        "or {c10c} <ab>U.</ab> ",
-        "{@--1@} To split,\ntear asunder, divide, cut to pieces;\n{#EMdriH kila naKEstasyA vidadAra stanO dvija#}\n<ls>R. 12. 22</ls>; {#na vidIrye kaWinAH Kalu striyaH#}\n<ls>Ku. 4. 5</ls>; <ls>R. 15. 33.</ls> ",
-        "{@--2@} To rend\n(<ab>fig.</ab>); {#cittaM vidArayati kasya na#} \n{#kovidAraH#} <ls>Rs. 3. 6.</ls> {#sa Gozo DArtarAzwrARAM#}\n{#hfdayAni vyadArayat#} <ls>Bg. 1. 19.</ls> "
+        "Greatness; {#sarvAtmanA mahi gfRAmi yaTAmanIzam#}\n <ls>Bhāg. 7. 9. 12</ls>. "
     ],
     "_morphisms": [
         {
-            "__line": 219165,
+            "__line": 236829,
             "_ancestry": [
                 "L_ 25946",
-                "B_ {#vidF#}",
-                "M_ {%--<ab>Pass.</ab>%}"
+                "B_ {#mahi#}",
+                "M_ --{%m.%}"
             ],
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "vidF"
+                    "Left": "Parser error: {#mahi#} M_ --{%m.%}"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Pass.</ab>%}"
-            ],
             "_meanings": [
-                "To be rent or torn (with grief &c.)\n"
+                "Intellect. "
             ]
         },
         {
-            "__line": 219168,
+            "__line": 236829,
             "_ancestry": [
                 "L_ 25946",
-                "B_ {#vidF#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#mahi#}",
+                "M_ --{%f.%}"
             ],
+            "_banner": "--{%f.%}",
             "_bannerExp": [
                 {
-                    "Right": "vidF"
+                    "Left": "Parser error: {#mahi#} M_ --{%f.%}"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "= {#mahI#} The earth. "
+            ]
+        },
+        {
+            "__line": 236829,
+            "_ancestry": [
+                "L_ 25946",
+                "B_ {#mahi#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#mahi#} M_ --{%iMd.%}"
+                }
             ],
             "_meanings": [
-                "To rend, tear in pieces,\ntear or rip up; <ls>Māl. 5. 15</ls>; <ls n=\"Māl.\">10. 1.</ls>"
+                "Greatly, very much."
             ]
         }
     ]

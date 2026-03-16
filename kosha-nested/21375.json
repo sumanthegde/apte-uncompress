@@ -1,19 +1,40 @@
 {
-    "__line": 176741,
+    "__line": 191268,
     "_ancestry": [
         "L_ 21375",
-        "B_ {#protkaMWa#}"
+        "B_ {#piRqin#}"
     ],
-    "_banner": "{#protkaMWa#}",
+    "_banner": "{#piRqin#}",
     "_bannerExp": [
         {
-            "Right": "protkaMWa"
+            "Right": "piRqin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Lifting up or \nstretching out the neck."
+        ".²1 Receiving the funeral rice-balls (as ancestors).\n",
+        ".²2 Having a body. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 191270,
+            "_ancestry": [
+                "L_ 21375",
+                "B_ {#piRqin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#piMqin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A beggar.\n",
+                ".²2 One who offers funeral rice-balls to the manes."
+            ]
+        }
     ]
 }

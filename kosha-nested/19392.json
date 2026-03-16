@@ -1,20 +1,46 @@
 {
-    "__line": 162644,
+    "__line": 173590,
     "_ancestry": [
         "L_ 19392",
-        "B_ {#potana#}"
+        "B_ {#nistF#}"
     ],
-    "_banner": "{#potana#}",
+    "_banner": "{#nistF#}",
     "_bannerExp": [
         {
-            "Right": "potana"
+            "Right": "nistF"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "{@--1@} Sacred, holy. ",
-        "{@--2@} \nPurifying."
+        "²1 To pass through, cross over (<ab>fig.</ab> also); {#nistIrRA pratijYAsarit#}\n <ls>Mu. 1</ls>; <ls>Bh. 3. 4</ls>; <ls>Ve. 6. 36</ls>.\n",
+        ".²2 To fulfil, accomplish.\n",
+        ".²3 To pass or get over, surmount, overcome; {#DanErApadaM mAnavA nistaranti#}\n <ls>Subhāṣ.</ls>; <ls>R. 3. 7</ls>.\n",
+        ".²4 To complete, go to the end of; {#piturniyogAdvanavAsamevaM nistIrya#}\n {#rAmaH pratipannarAjyaH#} <ls>R. 14. 21</ls>.\n",
+        ".²5 To pass or spend (as a time).\n",
+        ".²6 To expiate, atone for.\n",
+        ".²7 To get out of, escape, be saved from. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 173600,
+            "_ancestry": [
+                "L_ 19392",
+                "B_ {#nistF#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "nistF"
+                }
+            ],
+            "_meanings": [
+                ".²1 To deliver, rescue; save; {#nistArayati durgAcca mahataScEva kilbizAt#} <ls>Ms. 3. 98</ls>.\n",
+                ".²2 To overcome, surmount."
+            ]
+        }
     ]
 }

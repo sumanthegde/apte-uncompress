@@ -1,34 +1,65 @@
 {
-    "__line": 158054,
+    "__line": 168346,
     "_ancestry": [
         "L_ 18908",
-        "B_ {#picaM(ciM)qin -(ka, --la)#}"
+        "B_ {#niyukta#}"
     ],
-    "_banner": "{#picaM(ciM)qin -(ka, --la)#}",
+    "_banner": "{#niyukta#}",
     "_bannerExp": [
         {
-            "Right": "picaMqika"
-        },
-        {
-            "Right": "picaMqila"
-        },
-        {
-            "Right": "picaMqin"
-        },
-        {
-            "Right": "piciMqika"
-        },
-        {
-            "Right": "piciMqila"
-        },
-        {
-            "Right": "piciMqin"
+            "Right": "niyukta"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "Bigbellied, corpulent."
+        ".²1 Directed, ordered, instructed, commanded.\n",
+        ".²2 Authorised, appointed; {#niyuktaH kzatriyo dravye KaqgaM darSayate#}\n {#Druvam#} <ls>H. 2. 95</ls>.\n",
+        ".²3 Permitted to raise issue; see {#niyoga#} (7) below.\n",
+        ".²4 Attached to.\n",
+        ".²5 Fastened to.\n",
+        ".²6 Ascertained.\n",
+        ".²7 Prompted, incited.\n",
+        ".²8 Used, employed; {#niyuktO havyakavyayoH#} <ls>Ms. 5. 16</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 168356,
+            "_ancestry": [
+                "L_ 18908",
+                "B_ {#niyukta#}",
+                "M_ .{@{#-ktaH#}@}"
+            ],
+            "_banner": ".{@{#-ktaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyuktaH"
+                }
+            ],
+            "_meanings": [
+                "A functionary, an officer, any one charged with some business.\n"
+            ]
+        },
+        {
+            "__line": 168357,
+            "_ancestry": [
+                "L_ 18908",
+                "B_ {#niyukta#}",
+                "M_ .{@{#-ktam#}@}"
+            ],
+            "_banner": ".{@{#-ktam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "niyuktam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "By all means, necessarily."
+            ]
+        }
     ]
 }

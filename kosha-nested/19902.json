@@ -1,20 +1,127 @@
 {
-    "__line": 166465,
+    "__line": 178951,
     "_ancestry": [
         "L_ 19902",
-        "B_ {#pratinud#}"
+        "B_ {#panna#}"
     ],
-    "_banner": "{#pratinud#}",
+    "_banner": "{#panna#}",
     "_bannerExp": [
         {
-            "Right": "pratinud"
+            "Right": "panna"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>U.</ab>"
+        "{%<ab>p. p.</ab>%}",
+        "[{#pad-kta#}]"
     ],
     "_meanings": [
-        "To ward off, repel,\nrepulse."
+        ".²1 Fallen, sunk, gone down, descended.\n",
+        ".²2 Gone; see {#pad#}.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 178954,
+            "_ancestry": [
+                "L_ 19902",
+                "B_ {#panna#}",
+                "M_ .{@{#-nnam#}@}"
+            ],
+            "_banner": ".{@{#-nnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pannam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Downward motion; descent, fall.\n",
+                ".²2 Creeping on the ground.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 178958,
+            "_ancestry": [
+                "L_ 19902",
+                "B_ {#panna#}",
+                "S_ .{@{#-gaH#}@}"
+            ],
+            "_banner": ".{@{#-gaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pannagaH"
+                }
+            ],
+            "_meanings": [
+                "a snake, serpent; {#viprakftaH pannagaH PaRAM kurute#} <ls>Ś. 6. 31</ls>.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 178959,
+                    "_ancestry": [
+                        "L_ 19902",
+                        "B_ {#panna#}",
+                        "S_ .{@{#-gaH#}@}",
+                        "S_M_ ({@{#-gam#}@})"
+                    ],
+                    "_banner": "({@{#-gam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "pannagam"
+                        }
+                    ],
+                    "_meanings": [
+                        "lead. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 178959,
+                            "_ancestry": [
+                                "L_ 19902",
+                                "B_ {#panna#}",
+                                "S_ .{@{#-gaH#}@}",
+                                "S_M_ ({@{#-gam#}@})",
+                                "S_M_S_ {#˚ariH, ˚aSanaH, ˚nASanaH#}"
+                            ],
+                            "_banner": "{#˚ariH, ˚aSanaH, ˚nASanaH#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "pannagAriH"
+                                },
+                                {
+                                    "Right": "pannagASanaH"
+                                },
+                                {
+                                    "Right": "pannaganASanaH"
+                                }
+                            ],
+                            "_meanings": [
+                                "epithets of Garuḍa.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 178960,
+            "_ancestry": [
+                "L_ 19902",
+                "B_ {#panna#}",
+                "S_ .{@{#-rUpa#}@}"
+            ],
+            "_banner": ".{@{#-rUpa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pannarUpa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pale."
+            ]
+        }
     ]
 }

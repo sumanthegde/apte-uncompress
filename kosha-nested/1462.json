@@ -1,20 +1,105 @@
 {
-    "__line": 15264,
+    "__line": 13385,
     "_ancestry": [
         "L_ 1462",
-        "B_ {#anivartin#}"
+        "B_ {#anAdi#}"
     ],
-    "_banner": "{#anivartin#}",
+    "_banner": "{#anAdi#}",
     "_bannerExp": [
         {
-            "Right": "anivartin"
+            "Right": "anAdi"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#AdiH kAraRaM pUrvakAlo vA nAsti yasya saH#}]"
     ],
     "_meanings": [
-        "{@--1@} Brave, not \nretreating; also an epithet of Viṣṇu and\nthe Almighty God. ",
-        "{@--2@} Not returning;\n{#yOvanamanivarti yAtaM tu#} <ls>K. P. 10.</ls>"
+        "Having\n no beginning, eternal, existing from eternity, epithet of {#parameSvara#};\n {#jagadAdiranAdistvam#} <ls>Ku. 2. 9</ls>; {#anAdirAdirgovindaH sarvakAraRakAraRam#};\n also of {#hiraRyagarBa#}.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 13390,
+            "_ancestry": [
+                "L_ 1462",
+                "B_ {#anAdi#}",
+                "S_ .{@{#-ananta, -anta#}@}"
+            ],
+            "_banner": ".{@{#-ananta, -anta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAdyananta"
+                },
+                {
+                    "Right": "anAdyanta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "without beginning and end; eternal.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 13391,
+                    "_ancestry": [
+                        "L_ 1462",
+                        "B_ {#anAdi#}",
+                        "S_ .{@{#-ananta, -anta#}@}",
+                        "S_M_ ({@{#-antaH#}@})"
+                    ],
+                    "_banner": "({@{#-antaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: anAdyanaMta ({@{#-aMtaH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of Śiva.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 13392,
+            "_ancestry": [
+                "L_ 1462",
+                "B_ {#anAdi#}",
+                "S_ .{@{#-niDana#}@}"
+            ],
+            "_banner": ".{@{#-niDana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAdiniDana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having neither beginning nor end, eternal.\n"
+            ]
+        },
+        {
+            "__line": 13393,
+            "_ancestry": [
+                "L_ 1462",
+                "B_ {#anAdi#}",
+                "S_ .{@{#-maDyAnta#}@}"
+            ],
+            "_banner": ".{@{#-maDyAnta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAdimaDyAnta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having no beginning, middle or end; eternal."
+            ]
+        }
     ]
 }

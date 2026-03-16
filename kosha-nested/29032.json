@@ -1,45 +1,198 @@
 {
-    "__line": 243623,
+    "__line": 268891,
     "_ancestry": [
         "L_ 29032",
-        "B_ {#saw#}"
+        "B_ {#vArttA#} "
     ],
-    "_banner": "{#saw#}",
+    "_banner": "{#vArttA#} ",
     "_bannerExp": [
         {
-            "Right": "saw"
+            "Right": "vArttA"
         }
     ],
     "_gram": [
-        "{vI.v}",
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#sawati#})"
+        "[written also as {#vArtA#}]"
     ],
     "_meanings": [
-        "To form a\npart. "
+        "¦\n",
+        ".²1 Staying, abiding.\n",
+        ".²2 Tidings, news, intelligence; {#sAgarikAyAH kA vArtA#} <ls>Ratn. 4</ls>; {#asmin#}\n {#mahAmohamaye kawAhe sUryAgninA rAtridinenDanena . mAsartudarvIpariGawwanena#}\n {#BUtAni kAlaH pacatIti vArtA ..#} <ls>Mb.</ls>\n",
+        ".²3 Livelihood, profession.\n",
+        ".²4 Agriculture, the occupation of a Vaiśya; {#kfzipASupAlye vARijyA ca#}\n {#vArtA#} <ls>Kau. A. 1. 4</ls>; {#yaTA vArtAdayo hyarTA yogasyArTaM na biBrati#}\n <ls>Bhāg. 7. 15. 29</ls>; <ls>R. 16. 2</ls>; <ls>Ms. 10. 80</ls>; <ls>Y. 1. 311</ls>.\n",
+        ".²5 The egg-plant.\n",
+        ".²6 <ab>N.</ab> of Durgā.\n",
+        ".²7 (In <ab>Rhet.</ab>) The mere mention of facts without any rhetorical embellishment.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 243624,
+            "__line": 268904,
             "_ancestry": [
                 "L_ 29032",
-                "B_ {#saw#}",
-                "M_ {vII.v}"
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-anukarzakaH, -ayanaH#}@}"
             ],
+            "_banner": ".{@{#-anukarzakaH, -ayanaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saw"
+                    "Right": "vArttAnukarzakaH"
+                },
+                {
+                    "Right": "vArttAyanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a spy.\n",
+                ".²2 an emissary.\n",
+                ".²3 a news-bearer.\n"
+            ]
+        },
+        {
+            "__line": 268908,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-avaSeza#}@}"
+            ],
+            "_banner": ".{@{#-avaSeza#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttAvaSeza"
                 }
             ],
             "_gram": [
-                "{vII.v}",
-                "{c10c}",
-                "<ab>U.</ab>",
-                "({#sAwayati-te#})"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To\nshow, display, manifest."
+                "dead, gone.\n"
+            ]
+        },
+        {
+            "__line": 268909,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-AramBaH#}@}"
+            ],
+            "_banner": ".{@{#-AramBaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttAramBaH"
+                }
+            ],
+            "_meanings": [
+                "a commercial undertaking or business; <ls>Ms. 7. 43</ls>.\n"
+            ]
+        },
+        {
+            "__line": 268910,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttAkarman"
+                }
+            ],
+            "_gram": [
+                "{%n.%}"
+            ],
+            "_meanings": [
+                "the practice of agriculture and keeping cattle;\n {#vArtAkarmEva vESyasya#} <ls>Ms. 10. 80</ls>.\n"
+            ]
+        },
+        {
+            "__line": 268912,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-patiH#}@}"
+            ],
+            "_banner": ".{@{#-patiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttApatiH"
+                }
+            ],
+            "_meanings": [
+                "an employer.\n"
+            ]
+        },
+        {
+            "__line": 268913,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-mAtram#}@}"
+            ],
+            "_banner": ".{@{#-mAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttAmAtram"
+                }
+            ],
+            "_meanings": [
+                ".²1 mere report.\n",
+                ".²2 superficial acquaintance with any subject, shallow knowledge.\n"
+            ]
+        },
+        {
+            "__line": 268916,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-vahaH, haraH#}@}"
+            ],
+            "_banner": ".{@{#-vahaH, haraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttAvahaH"
+                },
+                {
+                    "Left": "S error: midAlign haraH vaharaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a messenger.\n",
+                ".²2 a chandler.\n"
+            ]
+        },
+        {
+            "__line": 268919,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-vfttiH#}@}"
+            ],
+            "_banner": ".{@{#-vfttiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttAvfttiH"
+                }
+            ],
+            "_meanings": [
+                ".²1 one who lives on agriculture.\n",
+                ".²2 a house-holder.\n",
+                ".²3 a Vaiśya.\n"
+            ]
+        },
+        {
+            "__line": 268923,
+            "_ancestry": [
+                "L_ 29032",
+                "B_ {#vArttA#} ",
+                "S_ .{@{#-vyatikaraH#}@}"
+            ],
+            "_banner": ".{@{#-vyatikaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vArttAvyatikaraH"
+                }
+            ],
+            "_meanings": [
+                "general or common report."
             ]
         }
     ]

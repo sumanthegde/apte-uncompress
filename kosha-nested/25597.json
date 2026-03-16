@@ -1,23 +1,97 @@
 {
-    "__line": 216688,
+    "__line": 231416,
     "_ancestry": [
         "L_ 25597",
-        "B_ {#viMSaka#}"
+        "B_ {#matkuRaH#}"
     ],
-    "_banner": "{#viMSaka#}",
+    "_banner": "{#matkuRaH#}",
     "_bannerExp": [
         {
-            "Right": "viMSakI"
-        },
-        {
-            "Right": "viMSaka"
+            "Right": "matkuRaH"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#kI#}|{%<ab>f.</ab>%})"
-    ],
     "_meanings": [
-        "Twenty."
+        ".²1 A bug; {#matkuRAviva purA pariplavO#} <ls>Śi. 14. 68</ls>.\n",
+        ".²2 An elephant without tusks.\n",
+        ".²3 A small elephant.\n",
+        ".²4 A beardless man.\n",
+        ".²5 A buffalo.\n",
+        ".²6 The cocoa-nut tree.\n",
+        ".²7 A flea.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 231424,
+            "_ancestry": [
+                "L_ 25597",
+                "B_ {#matkuRaH#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "matkuRam"
+                }
+            ],
+            "_meanings": [
+                "An armour for the legs or the thighs.\n"
+            ]
+        },
+        {
+            "__line": 231425,
+            "_ancestry": [
+                "L_ 25597",
+                "B_ {#matkuRaH#}",
+                "M_ .{@{#-RI#}@}"
+            ],
+            "_banner": ".{@{#-RI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "matkuRI"
+                }
+            ],
+            "_meanings": [
+                "Pudendum (of a young girl, {#ajAtalomA#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 231427,
+            "_ancestry": [
+                "L_ 25597",
+                "B_ {#matkuRaH#}",
+                "S_ .{@{#-ariH#}@}"
+            ],
+            "_banner": ".{@{#-ariH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "matkuRAriH"
+                }
+            ],
+            "_meanings": [
+                "hemp.\n"
+            ]
+        },
+        {
+            "__line": 231428,
+            "_ancestry": [
+                "L_ 25597",
+                "B_ {#matkuRaH#}",
+                "S_ .{@{#-ganDa#}@}"
+            ],
+            "_banner": ".{@{#-ganDa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "matkuRaganDa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the smell of a bug."
+            ]
+        }
     ]
 }

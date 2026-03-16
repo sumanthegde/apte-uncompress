@@ -1,20 +1,41 @@
 {
-    "__line": 116688,
+    "__line": 119475,
     "_ancestry": [
         "L_ 13945",
-        "B_ {#jiGatsu#}"
+        "B_ {#gavequH#}, {#-DuH, -DukA#}"
     ],
-    "_banner": "{#jiGatsu#}",
+    "_banner": "{#gavequH#}, {#-DuH, -DukA#}",
     "_bannerExp": [
         {
-            "Right": "jiGatsu"
+            "Right": "gavequH"
+        },
+        {
+            "Right": "gaveDuH"
+        },
+        {
+            "Right": "gaveDukA"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#ad san GasAdeSe u#}]"
-    ],
     "_meanings": [
-        "Hungry."
+        "A kind of grass eaten by cattle; <ls>Ki. 12. 51</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 119477,
+            "_ancestry": [
+                "L_ 13945",
+                "B_ {#gavequH#}, {#-DuH, -DukA#}",
+                "M_ .{@{#-quH#}@}"
+            ],
+            "_banner": ".{@{#-quH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "gavequH"
+                }
+            ],
+            "_meanings": [
+                "A cloud."
+            ]
+        }
     ]
 }

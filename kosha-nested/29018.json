@@ -1,43 +1,141 @@
 {
-    "__line": 243487,
+    "__line": 268770,
     "_ancestry": [
         "L_ 29018",
-        "B_ {#saMjIv#}"
+        "B_ {#vAruRa#}"
     ],
-    "_banner": "{#saMjIv#}",
+    "_banner": "{#vAruRa#}",
     "_bannerExp": [
         {
-            "Right": "saMjIv"
+            "Right": "vAruRa"
+        },
+        {
+            "Right": "vAruRI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-RI#}|{%f.%})",
+        "[{#varuRasyedam aR#}]"
     ],
     "_meanings": [
-        "{@--1@} To live together.\n",
-        "{@--2@} To live, exist (by any profession).\n",
-        "{@--3@} To be restored to life. "
+        ".²1 Belonging to Varuṇa; {#sAkzye'nftaM vadan pASErbaDyate vAruRErBfSam#}\n <ls>Ms. 8. 82</ls>; <ls>Bhāg. 10. 50. 32</ls>.\n",
+        ".²2 Dedicated or sacred to Varuṇa.\n",
+        ".²3 Given to Varuṇa.\n",
+        ".²4 Watery, marine; {#jAnAmi vAruRA~llokAn#} <ls>Rām. 4. 58. 13</ls>; {#pfTivI#}\n {#parvatA meGA mUrtimantaSca ye pare . sarvaM tadvAruRaM jYeyamApastastamBire#}\n {#yataH ..#} <ls>Mb. 12. 183. 4</ls>.\n",
+        ".²5 Western.\n"
     ],
     "_morphisms": [
         {
-            "__line": 243489,
+            "__line": 268780,
             "_ancestry": [
                 "L_ 29018",
-                "B_ {#saMjIv#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#vAruRa#}",
+                "M_ .{@{#-RaH#}@}"
             ],
+            "_banner": ".{@{#-RaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMjIv"
+                    "Right": "vAruRaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of one of the nine divisions of Bharatavarṣa\n",
+                ".²2 An aquatic animal.\n"
+            ]
+        },
+        {
+            "__line": 268783,
+            "_ancestry": [
+                "L_ 29018",
+                "B_ {#vAruRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAruRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Water.\n",
+                ".²2 The {#SataBizaj#} constellation; {#nakzatre vAruRe kurvan BizaksidDimavApnuyAt#}\n <ls>Mb. 13. 89. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 268787,
+            "_ancestry": [
+                "L_ 29018",
+                "B_ {#vAruRa#}",
+                "M_ .{@{#-RaH, -Ram#}@}"
+            ],
+            "_banner": ".{@{#-RaH, -Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAruRaH"
+                },
+                {
+                    "Right": "vAruRam"
+                }
+            ],
+            "_meanings": [
+                "The west.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 268789,
+            "_ancestry": [
+                "L_ 29018",
+                "B_ {#vAruRa#}",
+                "S_ .{@{#-karman#}@}"
+            ],
+            "_banner": ".{@{#-karman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAruRakarman"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%n.%}"
             ],
             "_meanings": [
-                "{@--1@} To revive, restore or bring to life,\nreanimate. ",
-                "{@--2@} To maintain, nourish."
+                "any work connected with the supply of water.\n"
+            ]
+        },
+        {
+            "__line": 268790,
+            "_ancestry": [
+                "L_ 29018",
+                "B_ {#vAruRa#}",
+                "S_ .{@{#-pASakaH#}@}"
+            ],
+            "_banner": ".{@{#-pASakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAruRapASakaH"
+                }
+            ],
+            "_meanings": [
+                "a sea-monster.\n"
+            ]
+        },
+        {
+            "__line": 268791,
+            "_ancestry": [
+                "L_ 29018",
+                "B_ {#vAruRa#}",
+                "S_ .{@{#-vratam#}@}"
+            ],
+            "_banner": ".{@{#-vratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAruRavratam"
+                }
+            ],
+            "_meanings": [
+                "summary or immediate action; <ab>cf.</ab> {#taTA pApAnnigfhRIyAd#}\n {#vratametadDi vAruRam#} <ls>Ms. 9. 308</ls>."
             ]
         }
     ]

@@ -1,19 +1,38 @@
 {
-    "__line": 14931,
+    "__line": 13062,
     "_ancestry": [
         "L_ 1421",
-        "B_ {#anipadyamAna#}"
+        "B_ {#anaSva#}"
     ],
-    "_banner": "{#anipadyamAna#}",
+    "_banner": "{#anaSva#}",
     "_bannerExp": [
         {
-            "Right": "anipadyamAna"
+            "Right": "anaSva"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Not falling down\n(to sleep), untiring."
+        "Having no horse or horses.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 13063,
+            "_ancestry": [
+                "L_ 1421",
+                "B_ {#anaSva#}",
+                "M_ .{@{#-SvaH#}@}"
+            ],
+            "_banner": ".{@{#-SvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anaSvaH"
+                }
+            ],
+            "_meanings": [
+                "Something that is not a horse."
+            ]
+        }
     ]
 }

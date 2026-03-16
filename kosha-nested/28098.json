@@ -1,20 +1,123 @@
 {
-    "__line": 236425,
+    "__line": 259241,
     "_ancestry": [
         "L_ 28098",
-        "B_ {#SunASI(sI)raH#}"
+        "B_ {#leKana#}"
     ],
-    "_banner": "{#SunASI(sI)raH#}",
+    "_banner": "{#leKana#}",
     "_bannerExp": [
         {
-            "Right": "SunASIraH"
+            "Right": "leKana"
         },
         {
-            "Right": "SunAsIraH"
+            "Right": "leKanI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#liK-lyu lyuw vA#}]"
+    ],
     "_meanings": [
-        "{@--1@} An epithet\nof Indra. ",
-        "{@--2@} An owl."
+        ".²1 Writing, painting, scratching <ab>&c.</ab>\n",
+        ".²2 Exciting, stimulating.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 259245,
+            "_ancestry": [
+                "L_ 28098",
+                "B_ {#leKana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "leKanaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of reed of which pens are made.\n"
+            ]
+        },
+        {
+            "__line": 259246,
+            "_ancestry": [
+                "L_ 28098",
+                "B_ {#leKana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "leKanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Writing, transcribing.\n",
+                ".²2 Scratching, scraping.\n",
+                ".²3 Grazing, touching.\n",
+                ".²4 Attenuating, making thin or emaciated.\n",
+                ".²5 Cutting or making incisions (in surgery).\n",
+                ".²6 Scripture.\n",
+                ".²7 An instrument for scraping.\n",
+                ".²8 A kind of birch-tree.\n",
+                ".²9 A palm-leaf (for writing upon).\n"
+            ]
+        },
+        {
+            "__line": 259256,
+            "_ancestry": [
+                "L_ 28098",
+                "B_ {#leKana#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "leKanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 A pen, writing-reed, reed-pen; {#surataruvaraSAKA leKanI patramurvI#}\n <ls>Śivamahimna 32</ls>.\n",
+                ".²2 A spoon.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 259261,
+            "_ancestry": [
+                "L_ 28098",
+                "B_ {#leKana#}",
+                "S_ .{@{#-vastiH#}@}"
+            ],
+            "_banner": ".{@{#-vastiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "leKanavastiH"
+                }
+            ],
+            "_meanings": [
+                "a kind of enema for reducing corpulency.\n"
+            ]
+        },
+        {
+            "__line": 259262,
+            "_ancestry": [
+                "L_ 28098",
+                "B_ {#leKana#}",
+                "S_ .{@{#-sADanam#}@}"
+            ],
+            "_banner": ".{@{#-sADanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "leKanasADanam"
+                }
+            ],
+            "_meanings": [
+                "writing materials or apparatus."
+            ]
+        }
     ]
 }

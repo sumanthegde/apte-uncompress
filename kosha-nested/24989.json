@@ -1,23 +1,79 @@
 {
-    "__line": 211829,
+    "__line": 224548,
     "_ancestry": [
         "L_ 24989",
-        "B_ {#vaMd#}"
+        "B_ {#Bavizyat#}"
     ],
-    "_banner": "{#vaMd#}",
+    "_banner": "{#Bavizyat#}",
     "_bannerExp": [
         {
-            "Right": "vaMd"
+            "Right": "Bavizyat"
+        },
+        {
+            "Left": "fFromGramCore error: Bavizyat  ntI"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#vaMdate, vaMdita#})"
+        "{%a.%}",
+        "({#-tI#}|{#-ntI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} To\nsalute, greet respectfully, pay\nhomage to; {#jagataH pitarO vade#} \n{#pArvatIparameSvarO#} <ls>R. 1. 1</ls>, <ls n=\"R.\">13. 77</ls>; <ls n=\"R.\">14. 5.</ls> ",
-        "{@--2@}\nTo adore, worship. ",
-        "{@--3@} To praise,\nextol. --WITH {#aBi#} to salute,\ngreet respectfully; <ls>R. 16. 81.</ls>"
+        "About to be, become or come to pass, future. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 224549,
+            "_ancestry": [
+                "L_ 24989",
+                "B_ {#Bavizyat#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_meanings": [
+                "The future time.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 224552,
+            "_ancestry": [
+                "L_ 24989",
+                "B_ {#Bavizyat#}",
+                "S_ .{@{#-AkzepaH#}@}"
+            ],
+            "_banner": ".{@{#-AkzepaH#}@}",
+            "_meanings": [
+                ".²1 denying the occurrence of a possible future event.\n",
+                ".²2 a kind of Alaṅkāra or figure of speech; {#so'yaM BavizyadAkzepaH#}\n {#prAgevAtimanasvinI . kadAcidaparADo'sya BAvItyevamarundDa yat ..#} <ls>Kāv. 2. 126</ls>.\n"
+            ]
+        },
+        {
+            "__line": 224556,
+            "_ancestry": [
+                "L_ 24989",
+                "B_ {#Bavizyat#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_meanings": [
+                "futurity.\n"
+            ]
+        },
+        {
+            "__line": 224557,
+            "_ancestry": [
+                "L_ 24989",
+                "B_ {#Bavizyat#}",
+                "S_ .{@{#-vaktf, -vAdin#}@}"
+            ],
+            "_banner": ".{@{#-vaktf, -vAdin#}@}",
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "predicting future events, prophesying."
+            ]
+        }
     ]
 }

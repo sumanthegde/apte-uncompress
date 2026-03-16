@@ -1,25 +1,122 @@
 {
-    "__line": 78840,
+    "__line": 78347,
     "_ancestry": [
         "L_ 9334",
-        "B_ {#uzRIzaH, --zaM#}"
+        "B_ {#unmArga#}"
     ],
-    "_banner": "{#uzRIzaH, --zaM#}",
+    "_banner": "{#unmArga#}",
     "_bannerExp": [
         {
-            "Right": "uzRIzaH"
-        },
-        {
-            "Right": "uzRIzaM"
+            "Right": "unmArga"
         }
     ],
     "_gram": [
-        "[{#uzRamIzate hinasti#} \n{#Iz-ka#} <ls>Tv.</ls>]"
+        "{%a.%}",
+        "[{#utkAntaH mArgAt#}]"
     ],
     "_meanings": [
-        "{@--1@} Anything wound round\nthe head. ",
-        "{@--2@} Hence, a turban, diadem, \n\ncrownet; {#balAkApAMqurozRIzaM#} <ls>Mk. 5. 19</ls>;\n{#°pawwa#} <ls>K. 106</ls>; <ls>Ratn. 1. 4.</ls> ",
-        "{@--3@} A \ndistinguishing mark. ",
-        "{@--4@} A \ncharacteristic mark (of hair) on the head of a\nBuddha which indicates his future\nsanctity."
+        "Going to a wrong path.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 78348,
+            "_ancestry": [
+                "L_ 9334",
+                "B_ {#unmArga#}",
+                "M_ .{@{#-rgaH#}@}"
+            ],
+            "_banner": ".{@{#-rgaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmArgaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A wrong road, deviation from the right road (<ab>fig.</ab> also); {#nityamunmArgagAminAm#} <ls>Pt. 1</ls>.\n",
+                ".²2 An improper conduct, evil course, moral turpitude; {#unmArgaprasTitAni#}\n {#indriyARi#} <ls>K. 155</ls>; {#˚pravartakaH#} <ls n=\"K.\">103</ls>.\n"
+            ]
+        },
+        {
+            "__line": 78352,
+            "_ancestry": [
+                "L_ 9334",
+                "B_ {#unmArga#}",
+                "M_ .{@{#-rgam#}@}"
+            ],
+            "_banner": ".{@{#-rgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmArgam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Astray, by a wrong way; {#unmArgaM gacCataH madonmattasya#}\n {#BUpasya#} <ls>Pt. 1. 161</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 78355,
+            "_ancestry": [
+                "L_ 9334",
+                "B_ {#unmArga#}",
+                "S_ .{@{#-gata#}@}"
+            ],
+            "_banner": ".{@{#-gata#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmArgagata"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going wrong.\n"
+            ]
+        },
+        {
+            "__line": 78356,
+            "_ancestry": [
+                "L_ 9334",
+                "B_ {#unmArga#}",
+                "S_ .{@{#-gamanam#}@}"
+            ],
+            "_banner": ".{@{#-gamanam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmArgagamanam"
+                }
+            ],
+            "_meanings": [
+                "following evil courses.\n"
+            ]
+        },
+        {
+            "__line": 78357,
+            "_ancestry": [
+                "L_ 9334",
+                "B_ {#unmArga#}",
+                "S_ .{@{#-gAmin, -vartin#}@}"
+            ],
+            "_banner": ".{@{#-gAmin, -vartin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "unmArgagAmin"
+                },
+                {
+                    "Right": "unmArgavartin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "going wrong, erring, taking a wrong road."
+            ]
+        }
     ]
 }

@@ -1,41 +1,145 @@
 {
-    "__line": 93583,
+    "__line": 93219,
     "_ancestry": [
         "L_ 11160",
-        "B_ {#kumud#}"
+        "B_ {#kacCaH#}, {#-cCam#}"
     ],
-    "_banner": "{#kumud#}",
+    "_banner": "{#kacCaH#}, {#-cCam#}",
     "_bannerExp": [
         {
-            "Right": "kumud"
+            "Right": "kacCaH"
+        },
+        {
+            "Right": "kacCam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Unkind, unfriendly.\n",
-        "{@--2@} Avaricious. "
+        ".²1 Bank, margin, skirt, bordering region (whether near water or not);\n {#yamunAkacCamavatIrRaH#} <ls>Pt. 1</ls>; {#ganDamAdanakacCo'DyAsitaH#} <ls>V. 5</ls>; <ls>Śi. 3. 80</ls>;\n <ls>Māl. 9. 16</ls>.\n",
+        ".²2 A marsh, morass, fen. {#‘jalaprAyamanUpaM syAtpuMsi kacCastaTAviDaH’#} <ls>Nm.</ls>\n",
+        ".²3 The hem of the lower garment tucked into\n\n the waist-band; see {#kakzA#}.\n",
+        ".²4 A part of boat.\n",
+        ".²5 A particular part of a tortoise (in {#kacCapa#}).\n",
+        ".²6 A tree, the timber of which is used for making furniture of ({#tunna#},\n <lang>Mar.</lang> <ns>{#nAMdurakI#}</ns>); <ls>Mb. 1. 70. 21</ls>.\n",
+        ".²7 A populous region.\n"
     ],
     "_morphisms": [
         {
-            "__line": 93584,
+            "__line": 93232,
             "_ancestry": [
                 "L_ 11160",
-                "B_ {#kumud#}",
-                "M_ {%--<ab>n.</ab>%}"
+                "B_ {#kacCaH#}, {#-cCam#}",
+                "M_ .{@{#-cCA#}@}"
             ],
+            "_banner": ".{@{#-cCA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kumud"
+                    "Right": "kacCA"
+                }
+            ],
+            "_meanings": [
+                ".²1 A cricket.\n",
+                ".²2 The plant Lycopodium Imbricatum ({#vArAhI#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 93236,
+            "_ancestry": [
+                "L_ 11160",
+                "B_ {#kacCaH#}, {#-cCam#}",
+                "S_ .{@{#-antaH#}@}"
+            ],
+            "_banner": ".{@{#-antaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kacCAntaH"
+                }
+            ],
+            "_meanings": [
+                "the border of a lake or stream; marshy place; <ls>Ki. 7. 39</ls>;\n {#kacCAnte surasarito niDAya senAm#} <ls n=\"Ki.\">12. 54</ls>.\n"
+            ]
+        },
+        {
+            "__line": 93238,
+            "_ancestry": [
+                "L_ 11160",
+                "B_ {#kacCaH#}, {#-cCam#}",
+                "S_ .{@{#-deSaH#}@}"
+            ],
+            "_banner": ".{@{#-deSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kacCadeSaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a place in the South. {@{#paH#}@} ({#-pI#} {%f.%})\n",
+                ".²1 a turtle, tortoise; {#keSava DftakacCaparUpa jaya jagadISa hare#} <ls>Gīt. 1</ls>;\n <ls>Ms. 1. 44</ls>, <ls n=\"Ms.\">12. 42</ls> (thus explained by Durga; {#kacCam Atmano muKasaMpuwaM#}\n {#pAti sa hi kiMcit dfzwvA SarIra eva muKasaMpuwaM praveSayati#}).\n",
+                ".²2 a tumour on the palate.\n",
+                ".²3 an apparatus used in the distillation of spirituous liquor.\n",
+                ".²4 an attitude in wrestling.\n",
+                ".²5 the tree Cedrela Toona (<lang>Mar.</lang> <ns>{#nAMdurakI#}</ns>)\n",
+                ".²6 one of the nine treasures of Kubera.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 93247,
+                    "_ancestry": [
+                        "L_ 11160",
+                        "B_ {#kacCaH#}, {#-cCam#}",
+                        "S_ .{@{#-deSaH#}@}",
+                        "S_M_ ({@{#-pI#}@})"
+                    ],
+                    "_banner": "({@{#-pI#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: kacCadeSaH ({@{#-pI#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 a female tortoise.\n",
+                        ".²2 a cutaneous disease, wart or blotch.\n",
+                        ".²3 a kind of lute; also the lute of Sarasvatī.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 93251,
+            "_ancestry": [
+                "L_ 11160",
+                "B_ {#kacCaH#}, {#-cCam#}",
+                "S_ .{@{#-BUH#}@}"
+            ],
+            "_banner": ".{@{#-BUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kacCaBUH"
                 }
             ],
             "_gram": [
-                "{%--<ab>n.</ab>%}"
+                "{%f.%}"
             ],
             "_meanings": [
-                "{@--1@} The white\nwater-lily. ",
-                "{@--2@} The red lotus."
+                "marshy ground, morass.\n"
+            ]
+        },
+        {
+            "__line": 93252,
+            "_ancestry": [
+                "L_ 11160",
+                "B_ {#kacCaH#}, {#-cCam#}",
+                "S_ .{@{#-ruhA#}@}"
+            ],
+            "_banner": ".{@{#-ruhA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kacCaruhA"
+                }
+            ],
+            "_meanings": [
+                "a kind of grass ({#dUrvA#})."
             ]
         }
     ]

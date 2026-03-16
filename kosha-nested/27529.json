@@ -1,25 +1,153 @@
 {
-    "__line": 231450,
+    "__line": 253961,
     "_ancestry": [
         "L_ 27529",
-        "B_ {#Sakta#}"
+        "B_ {#ruciH#}"
     ],
-    "_banner": "{#Sakta#}",
+    "_banner": "{#ruciH#}",
     "_bannerExp": [
         {
-            "Right": "Sakta"
+            "Right": "ruciH"
+        },
+        {
+            "Right": "rucI"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#Sak-kta#}]"
+        "({#-cI#}|{%f.%})",
+        "[{#ruc-ki vA NIp#}]"
     ],
     "_meanings": [
-        "{@--1@} Able, \ncapable, competent (with <ab>gen.</ab> or <ab>loc.</ab> or\n<ab>inf.</ab>); {#bahavo'sya karmaRaH SaktAH#} <ls>Ve. 3</ls>;\n{#tasyopakAre SaktastvaM kiM jIvan#} \n{#kimutAnyaTA#} {%<ab>ibid.</ab>%} ",
-        "{@--2@} Strong, mighty, \npowerful. ",
-        "{@--3@} Rich, opulent; <ls>Ms. 11. 9.</ls>\n",
-        "{@--4@} Significant, expressive, \nconveying a meaning by denotation ( \n{#aBiDA#} or {#Sakti#}) and not by indication\n({#lakzaRA#}) (as a word). ",
-        "{@--5@} Clever, \nintelligent. ",
-        "{@--6@} Speaking kindly or\nagreeably."
+        ".²1 Light, lustre, splendour, brightness; {#viyadvyApI tArAgaRaguRitaPenodgamaruciH#}\n <ls>Śivamahimna 17</ls>; {#rucimindudale karotyajaH paripUrRendurucirmahIpatiH#}\n <ls>Śi. 16. 71</ls>; <ls>R. 5. 67</ls>; <ls>Me. 15</ls>.\n",
+        ".²2 A ray of light; as in {#ruciBartf#} <ab>q. v.</ab>\n",
+        ".²3 Appearance, colour, beauty (usually at the end of <ab>comp.</ab>); {#pawalaM#}\n {#bahirbahalapaNkaruci#} <ls>Śi. 9. 19</ls>; {#sindUrEH kftarucayaH sahemakakzyAH#} <ls>Ki. 7. 8</ls>.\n",
+        ".²4 Taste, relish; as in {#rucikara#}.\n",
+        ".²5 Zest, hunger, appetite.\n",
+        ".²6 Wish, desire, pleasure; {#svarucyA#} ‘at will or pleasure’.\n",
+        ".²7 Liking, taste; {#vimArgagAyASca ruciH svakAnte#} <ls>Bv. 1. 125</ls> ‘liking or love’;\n\n {#na sa kzitISo rucaye baBUva#}; <ls>R. 6. 44</ls>; {#Binnarucirhi lokaH#} <ls n=\"R. 6.\">30</ls>;\n {#nAWyaM Binnarucerjanasya bahuDApyekaM samArADanam#} <ls>M. 1. 4</ls>; <ab>oft.</ab> in\n <ab>comp.</ab> in the sense of ‘indulging in’, ‘devoted or addicted to’; {#hiMsAruceH#}\n <ls>Māl. 5. 29</ls>; {#arTaruceH#} <ls>Mu. 1</ls>.\n",
+        ".²8 Passion, close application to any object.\n",
+        ".²9 A kind of yellow pigment ({#gorocanA#}).\n",
+        ".²10 A kind of coitus. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 253980,
+            "_ancestry": [
+                "L_ 27529",
+                "B_ {#ruciH#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#ruciH#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a {#prajApati#}; {#jAto rucerajanayatasuyamAn#}\n {#suyajYaH#} <ls>Bhāg. 2. 7. 2</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 253983,
+            "_ancestry": [
+                "L_ 27529",
+                "B_ {#ruciH#}",
+                "S_ .{@{#-kara#}@}"
+            ],
+            "_banner": ".{@{#-kara#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rucikara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 tasteful, savoury, palatable.\n",
+                ".²2 exciting desire; {#rucikaramapi nArTavad baBUva#} <ls>Ki. 10. 62</ls>.\n",
+                ".²3 stomachic, tonic.\n"
+            ]
+        },
+        {
+            "__line": 253987,
+            "_ancestry": [
+                "L_ 27529",
+                "B_ {#ruciH#}",
+                "S_ .{@{#-DAman#}@}"
+            ],
+            "_banner": ".{@{#-DAman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ruciDAman"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the sun.\n"
+            ]
+        },
+        {
+            "__line": 253988,
+            "_ancestry": [
+                "L_ 27529",
+                "B_ {#ruciH#}",
+                "S_ .{@{#-prada#}@}"
+            ],
+            "_banner": ".{@{#-prada#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ruciprada"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "appetizing.\n"
+            ]
+        },
+        {
+            "__line": 253989,
+            "_ancestry": [
+                "L_ 27529",
+                "B_ {#ruciH#}",
+                "S_ .{@{#-Palam#}@}"
+            ],
+            "_banner": ".{@{#-Palam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ruciPalam"
+                }
+            ],
+            "_meanings": [
+                "a pear.\n"
+            ]
+        },
+        {
+            "__line": 253990,
+            "_ancestry": [
+                "L_ 27529",
+                "B_ {#ruciH#}",
+                "S_ .{@{#-Bartf#}@}"
+            ],
+            "_banner": ".{@{#-Bartf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ruciBartf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 the sun; {#ruciBarturasya virahADigamAt#} <ls>Śi. 9. 17</ls>.\n",
+                ".²2 a husband."
+            ]
+        }
     ]
 }

@@ -1,16 +1,61 @@
 {
-    "__line": 259594,
+    "__line": 285891,
     "_ancestry": [
         "L_ 30956",
-        "B_ {#spazwayati#}"
+        "B_ {#vEdala#}"
     ],
-    "_banner": "{#spazwayati#}",
+    "_banner": "{#vEdala#}",
     "_bannerExp": [
         {
-            "Right": "spazwayati"
+            "Right": "vEdala"
+        },
+        {
+            "Right": "vEdalI"
         }
     ],
+    "_gram": [
+        "({#-lI#}|{%f.%})",
+        "[{#vidalasya vikAraH aR#}]"
+    ],
     "_meanings": [
-        "<ab>Den.</ab> <ab>P.</ab> To make clear,\nexplain, elucidate."
+        "Made of wicker or cane.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 285893,
+            "_ancestry": [
+                "L_ 30956",
+                "B_ {#vEdala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdalaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A kind of cake.\n",
+                ".²2 Any leguminous vegetable or grain.\n"
+            ]
+        },
+        {
+            "__line": 285896,
+            "_ancestry": [
+                "L_ 30956",
+                "B_ {#vEdala#}",
+                "M_ .{@{#-lam#}@}"
+            ],
+            "_banner": ".{@{#-lam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vEdalam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A shallow cup of a religious mendicant.\n",
+                ".²2 Any seat or vessel of wickerwork; {#celavaccarmaRAM SudDirvEdalAnAM#}\n {#taTEva ca#} <ls>Ms. 5. 119</ls>, <ls n=\"Ms.\">6. 54</ls>."
+            ]
+        }
     ]
 }

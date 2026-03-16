@@ -1,38 +1,67 @@
 {
-    "__line": 177601,
+    "__line": 192317,
     "_ancestry": [
         "L_ 21480",
-        "B_ {#Palina#}"
+        "B_ {#pIna#}"
     ],
-    "_banner": "{#Palina#}",
+    "_banner": "{#pIna#}",
     "_bannerExp": [
         {
-            "Right": "Palina"
+            "Right": "pIna"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#Pala-inac#}]"
+        "{%a.%}",
+        "[{#pyAy-kta-saMprasAraRe dIrGaH#}]"
     ],
     "_meanings": [
-        "Fruitful,\nbearing fruit; <ls>Māl. 6. 19.</ls> "
+        ".²1 Fat, fleshy, corpulent, <ls>U. 6. 13</ls>; ‘strong’.\n",
+        ".²2 Plump, large, thick; as in {#pInastanI#}.\n",
+        ".²3 Full, round.\n",
+        ".²4 Swollen, large, big.\n",
+        ".²5 Brawny.\n",
+        ".²6 Profuse, excessive.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 177602,
+            "__line": 192325,
             "_ancestry": [
                 "L_ 21480",
-                "B_ {#Palina#}",
-                "M_ {#--naH#}"
+                "B_ {#pIna#}",
+                "S_ .{@{#-UDas#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-UDas#}@}",
             "_bannerExp": [
                 {
-                    "Right": "PalinaH"
+                    "Right": "pInoDas"
                 }
             ],
+            "_gram": [
+                "{%f.%}",
+                "({#pInoDnI#})"
+            ],
             "_meanings": [
-                "The\nbread-fruit tree."
+                "a cow with full udders.\n"
+            ]
+        },
+        {
+            "__line": 192326,
+            "_ancestry": [
+                "L_ 21480",
+                "B_ {#pIna#}",
+                "S_ .{@{#-vakzas#}@}"
+            ],
+            "_banner": ".{@{#-vakzas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pInavakzas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "full-chested, having a full bosom."
             ]
         }
     ]

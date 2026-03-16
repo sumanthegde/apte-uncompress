@@ -1,21 +1,35 @@
 {
-    "__line": 239959,
+    "__line": 263895,
     "_ancestry": [
         "L_ 28548",
-        "B_ {#zvakk, zvask --zk#}"
+        "B_ {#varowaH#}"
     ],
-    "_banner": "{#zvakk, zvask --zk#}",
+    "_banner": "{#varowaH#}",
     "_bannerExp": [
         {
-            "Left": "lookup based expansion error:  {#zvakk, zvask --zk#}"
+            "Right": "varowaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>",
-        "({#zvakkate#}, \n{#zvaskazkate#})"
-    ],
     "_meanings": [
-        "To go, move. "
+        "The Marubaka plant.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 263896,
+            "_ancestry": [
+                "L_ 28548",
+                "B_ {#varowaH#}",
+                "M_ .{@{#-wam#}@}"
+            ],
+            "_banner": ".{@{#-wam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varowam"
+                }
+            ],
+            "_meanings": [
+                "Its flower."
+            ]
+        }
     ]
 }

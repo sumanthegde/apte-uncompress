@@ -1,23 +1,46 @@
 {
-    "__line": 126604,
+    "__line": 131865,
     "_ancestry": [
         "L_ 15243",
-        "B_ {#darvaH#}"
+        "B_ {#CAndasa#}"
     ],
-    "_banner": "{#darvaH#}",
+    "_banner": "{#CAndasa#}",
     "_bannerExp": [
         {
-            "Right": "darvaH"
+            "Right": "CAndasa"
+        },
+        {
+            "Right": "CAndasI"
         }
     ],
     "_gram": [
-        "[{#dF-va#}]"
+        "{%a.%}",
+        "({#-sI#}|{%f.%})",
+        "[{#CandaH aDIte vetti vA pakze aR#}]"
     ],
     "_meanings": [
-        "{@--1@} A mischievous or \n\nharmful person ({#hiMsra#}). ",
-        "{@--2@} A \ndemon, goblin. ",
-        "{@--3@} A ladle. ",
-        "{@--4@} \nInjury, hurt. ",
-        "{@--5@} The hood of a snake."
+        ".²1 Vedic, peculiar to the Vedas; as {#CAndasaH prayogaH#}.\n",
+        ".²2 Studying or familiar with the Vedas.\n",
+        ".²3 Metrical.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 131869,
+            "_ancestry": [
+                "L_ 15243",
+                "B_ {#CAndasa#}",
+                "M_ .{@{#-saH#}@}"
+            ],
+            "_banner": ".{@{#-saH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "CAndasaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A Brāhmaṇa versed in the Vedas.\n",
+                ".²2 The Vedas; {#manye tvAM vizaye vAcAM snAtamanyatra CAndasAt#} <ls>Bhāg.</ls>"
+            ]
+        }
     ]
 }

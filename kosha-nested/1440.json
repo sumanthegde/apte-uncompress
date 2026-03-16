@@ -1,38 +1,141 @@
 {
-    "__line": 15073,
+    "__line": 13207,
     "_ancestry": [
         "L_ 1440",
-        "B_ {#anirukta#}"
+        "B_ {#anAgata#}"
     ],
-    "_banner": "{#anirukta#}",
+    "_banner": "{#anAgata#}",
     "_bannerExp": [
         {
-            "Right": "anirukta"
+            "Right": "anAgata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#na AgataH#}, <sab>{#na˚ ta˚#}</sab>]"
     ],
     "_meanings": [
-        "{@--1@} Not articulated or\nclearly spoken. ",
-        "{@--2@} Not clearly stated\nor explained, vague, not plain or\nwell-defined; {#°ktaprAtaHsavanaH praTamaH#}\n<ls>Kāty.</ls>; {#etasminnadfSye'nAtmye'nirukte#}  \n<ls>Ait. Br.</ls> "
+        ".²1 Not come or arrived; {#tAvadBayasya BetavyaM yAvadBayamanAgatam#} <ls>H. 1. 54</ls>.\n",
+        ".²2 Not got or obtained; {#varDizRumASrayamanAgatamaByupEti#} <ls>Śi. 5. 14</ls>;\n so {#˚Artava#}.\n",
+        ".²3 Future, to come; see compounds below.\n",
+        ".²4 Not learnt or attained, unknown.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 15078,
+            "__line": 13213,
             "_ancestry": [
                 "L_ 1440",
-                "B_ {#anirukta#}",
-                "S_  {#--gAnaM#}"
+                "B_ {#anAgata#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": " {#--gAnaM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "aniruktagAnaM"
+                    "Right": "anAgatam"
                 }
             ],
             "_meanings": [
-                "indistinct singing\nor humming, a particular mode of\nchanting the {#sAmaveda#}. "
+                "The future time, future; {#˚taM yaH kurute sa SoBate#} <ls>Pt. 3. 164</ls>\n he shines (thrives, prospers) who provides for the future; {#anAgatavatIM#}\n {#cintAmasaMBAvyAM karoti yaH#} <ls>Pt. 5. 71</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 13217,
+            "_ancestry": [
+                "L_ 1440",
+                "B_ {#anAgata#}",
+                "S_ .{@{#-avekzaRam#}@}"
+            ],
+            "_banner": ".{@{#-avekzaRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAgatAvekzaRam"
+                }
+            ],
+            "_meanings": [
+                "looking to the future, provident thought, foresight.\n"
+            ]
+        },
+        {
+            "__line": 13218,
+            "_ancestry": [
+                "L_ 1440",
+                "B_ {#anAgata#}",
+                "S_ .{@{#-AbADaH#}@}"
+            ],
+            "_banner": ".{@{#-AbADaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAgatAbADaH"
+                }
+            ],
+            "_gram": [
+                "[{#anAgataH AbADaH duHKam#}]"
+            ],
+            "_meanings": [
+                "future (physical) trouble\n or calamities, illness <ab>&c.</ab> affecting the body in times to come; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 13219,
+                    "_ancestry": [
+                        "L_ 1440",
+                        "B_ {#anAgata#}",
+                        "S_ .{@{#-AbADaH#}@}",
+                        "S_S_ {#˚pratizeDanIyam#}"
+                    ],
+                    "_banner": "{#˚pratizeDanIyam#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "anAgatAbADapratizeDanIyam"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of chapter 24 of the {#cikitsAsTAna#} in Suśruta.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 13221,
+            "_ancestry": [
+                "L_ 1440",
+                "B_ {#anAgata#}",
+                "S_ .{@{#-ArtavA#}@}"
+            ],
+            "_banner": ".{@{#-ArtavA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAgatArtavA"
+                }
+            ],
+            "_gram": [
+                "[{#strIpuzpavikAsanam Artavam, na AgatamArtavaM yasyAH#}]"
+            ],
+            "_meanings": [
+                "a maiden who has not yet arrived at puberty.\n"
+            ]
+        },
+        {
+            "__line": 13223,
+            "_ancestry": [
+                "L_ 1440",
+                "B_ {#anAgata#}",
+                "S_ .{@{#-viDAtf#}@}"
+            ],
+            "_banner": ".{@{#-viDAtf#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAgataviDAtf"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "[{#anAgatam uddiSya vidaDAti#}]"
+            ],
+            "_meanings": [
+                "one who provides\n for the future, provident, prudent (used as the name of a fish in <ls>Pt. 1. 318</ls>;\n <ls>H. 4. 6</ls>); {#anAgataviDAtA ca pratyutpannamatistaTA . dvAvetO suKameDete#}\n {#yadBavizyo vinaSyati ..#} (where <ls>Dr. Peterson</ls> translates the three names\n by ‘<ab>Mr.</ab> Provider-against-a-future-evil’, ‘<ab>Mr.</ab> Cool-head’, and ‘<ab>Mr.</ab> what-will-be-will-be’)."
             ]
         }
     ]

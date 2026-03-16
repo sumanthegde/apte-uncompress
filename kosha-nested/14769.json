@@ -1,19 +1,295 @@
 {
-    "__line": 122707,
+    "__line": 128109,
     "_ancestry": [
         "L_ 14769",
-        "B_ {#tuMdavat#}"
+        "B_ {#cala#}"
     ],
-    "_banner": "{#tuMdavat#}",
+    "_banner": "{#cala#}",
     "_bannerExp": [
         {
-            "Right": "tuMdavat"
+            "Right": "cala"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#cal-ac#}]"
     ],
     "_meanings": [
-        "Corpulent, fat."
+        ".²1\n",
+        ".³({%a%}) Moving trembling, shaking, tremulous, rolling (as eyes <ab>&c.</ab>);\n {#calApANgAM dfzwiM spfSasi#} <ls>Ś. 1. 24</ls>; {#calakAkapakzakEramAtyaputrEH#}\n <ls>R. 3. 28</ls> waving; <ls>Bh. 1. 16</ls>.\n",
+        ".³({%b%}) Movable (<ab>opp.</ab> {#sTira#}), moving; {#cale lakzye#} <ls>Ś. 2. 5</ls>; {#paricayaM#}\n {#calalakzyanipAtane#} <ls>R. 9. 49</ls>.\n",
+        ".²2 Unsteady, fickle, inconstant, loose, unfixed; {#dayitAKanavasTitaM#}\n {#nfRAM na Kalu prema calaM suhfjjane#} <ls>Ku. 4. 28</ls>; {#prAyaScalaM gOravamASritezu#} <ls n=\"Ku.\">3. 1</ls>.\n",
+        ".²3 Frail, transitory, perishable; {#calA lakzmIScalAH prARAScalaM jIvitayOvanam#} <ls>Bh. 3. 128</ls>.\n",
+        ".²4 Confused.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 128120,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "M_ .{@{#-laH#}@}"
+            ],
+            "_banner": ".{@{#-laH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 Trembling, shaking, agitation.\n",
+                ".²2 Wind.\n",
+                ".²3 Quicksilver.\n",
+                ".²4 The supreme being.\n"
+            ]
+        },
+        {
+            "__line": 128125,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "M_ .{@{#-lA#}@}"
+            ],
+            "_banner": ".{@{#-lA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Lakṣmī, the goddess of wealth.\n",
+                ".²2 Lightning.\n\n",
+                ".²3 A kind of perfume.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 128131,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-acala#}@}"
+            ],
+            "_banner": ".{@{#-acala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calAcala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 movable and immovable.\n",
+                ".²2 fickle, unsteady, very transitory (= {#aticala#}); {#calAcale ca saMsAre#}\n {#Darma eko hi niScalaH#} <ls>Bh. 3. 128</ls>; {#lakzmImiva calAcalAm#} <ls>Ki. 11. 30</ls>\n ({#calAcalA#} = {#caYcalA#} <ls>Malli.</ls>); {#kasya na Bavati calAcalaM Danam#} <ls>Mk. 2. 14</ls>;\n <ls>N. 1. 60</ls>; {#calAcalEranupadamAhatAH KurEH#} <ls>Śi.</ls> "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 128136,
+                    "_ancestry": [
+                        "L_ 14769",
+                        "B_ {#cala#}",
+                        "S_ .{@{#-acala#}@}",
+                        "S_M_ ({@{#-laH#}@})"
+                    ],
+                    "_banner": "({@{#-laH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: calAcala ({@{#-laH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a crow.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 128137,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-AtaNkaH#}@}"
+            ],
+            "_banner": ".{@{#-AtaNkaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calAtaNkaH"
+                }
+            ],
+            "_meanings": [
+                "rheumatism.\n"
+            ]
+        },
+        {
+            "__line": 128138,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-Atman#}@}"
+            ],
+            "_banner": ".{@{#-Atman#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calAtman"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "inconstant, fickle-minded.\n"
+            ]
+        },
+        {
+            "__line": 128139,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-indriya#}@}"
+            ],
+            "_banner": ".{@{#-indriya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calendriya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                ".²1 sensitive.\n",
+                ".²2 sensual.\n"
+            ]
+        },
+        {
+            "__line": 128142,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-izuH#}@}"
+            ],
+            "_banner": ".{@{#-izuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calezuH"
+                }
+            ],
+            "_meanings": [
+                "one whose arrow flies unsteadily or misses the mark, a bad archer.\n"
+            ]
+        },
+        {
+            "__line": 128143,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-karRaH#}@}"
+            ],
+            "_banner": ".{@{#-karRaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calakarRaH"
+                }
+            ],
+            "_meanings": [
+                "the true distance of a planet from the earth.\n"
+            ]
+        },
+        {
+            "__line": 128144,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-caYcuH#}@}"
+            ],
+            "_banner": ".{@{#-caYcuH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calacaYcuH"
+                }
+            ],
+            "_meanings": [
+                "the Chakora bird.\n"
+            ]
+        },
+        {
+            "__line": 128145,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-citta#}@}"
+            ],
+            "_banner": ".{@{#-citta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calacitta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "fickle-minded.\n"
+            ]
+        },
+        {
+            "__line": 128146,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-dalaH, -patraH#}@}"
+            ],
+            "_banner": ".{@{#-dalaH, -patraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "caladalaH"
+                },
+                {
+                    "Right": "calapatraH"
+                }
+            ],
+            "_meanings": [
+                "the Aśvattha tree; {#bilvEScaladalErapi#} <ls>Parṇāl. 4. 62</ls>;\n {#lIlAcalAcalaM BAle hEmaM caladalacCadam#} (<lang>Mar.</lang> <ns>{#piMpaLapAna#}</ns>)\n <ls>Śiva B. 6. 83</ls>. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 128148,
+                    "_ancestry": [
+                        "L_ 14769",
+                        "B_ {#cala#}",
+                        "S_ .{@{#-dalaH, -patraH#}@}",
+                        "S_S_ {#˚cCadaH#}"
+                    ],
+                    "_banner": "{#˚cCadaH#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "caladalacCadaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "An ornament worn on the forehead, having\n the shape of the leaf of the Aśvattha tree.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 128150,
+            "_ancestry": [
+                "L_ 14769",
+                "B_ {#cala#}",
+                "S_ .{@{#-sanDiH#}@}"
+            ],
+            "_banner": ".{@{#-sanDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "calasanDiH"
+                }
+            ],
+            "_meanings": [
+                "movable articulation of the bones."
+            ]
+        }
     ]
 }

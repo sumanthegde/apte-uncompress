@@ -1,19 +1,42 @@
 {
-    "__line": 51374,
+    "__line": 48229,
     "_ancestry": [
         "L_ 5822",
-        "B_ {#Akzit#}"
+        "B_ {#aSudDi#}"
     ],
-    "_banner": "{#Akzit#}",
+    "_banner": "{#aSudDi#}",
     "_bannerExp": [
         {
-            "Right": "Akzit"
+            "Right": "aSudDi"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Abiding, dwelling."
+        ".²1 Impure, foul.\n",
+        ".²2 Wicked.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 48232,
+            "_ancestry": [
+                "L_ 5822",
+                "B_ {#aSudDi#}",
+                "M_ .{@{#-dDiH#}@}"
+            ],
+            "_banner": ".{@{#-dDiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aSudDiH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "Impurity, foulness."
+            ]
+        }
     ]
 }

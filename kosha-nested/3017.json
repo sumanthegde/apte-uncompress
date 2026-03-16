@@ -1,21 +1,73 @@
 {
-    "__line": 29015,
+    "__line": 26208,
     "_ancestry": [
         "L_ 3017",
-        "B_ {#aBikzip#}"
+        "B_ {#apuzpa#}"
     ],
-    "_banner": "{#aBikzip#}",
+    "_banner": "{#apuzpa#}",
     "_bannerExp": [
         {
-            "Right": "aBikzip"
+            "Right": "apuzpa"
         }
     ],
     "_gram": [
-        "{c6c}",
-        "<ab>P.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To throw or\nfling at (as the lash of a whip at\na horse); to insult. ",
-        "{@--2@} To excel;\n<ls>Bk. 8. 51.</ls>"
+        "Flowerless, not flowering.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 26209,
+            "_ancestry": [
+                "L_ 3017",
+                "B_ {#apuzpa#}",
+                "M_ .{@{#-zpaH#}@}"
+            ],
+            "_banner": ".{@{#-zpaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apuzpaH"
+                }
+            ],
+            "_meanings": [
+                "The glomerous fig-tree.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 26211,
+            "_ancestry": [
+                "L_ 3017",
+                "B_ {#apuzpa#}",
+                "S_ .{@{#-Pala, ˚da#}@}"
+            ],
+            "_banner": ".{@{#-Pala, ˚da#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#apuzpa#} S_ .{@{#-Pala, ˚da#}@}"
+                }
+            ],
+            "_meanings": [
+                "bearing having neither fruits nor flowers; fruits without flowering.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 26212,
+                    "_ancestry": [
+                        "L_ 3017",
+                        "B_ {#apuzpa#}",
+                        "S_ .{@{#-Pala, ˚da#}@}",
+                        "S_M_ ({@{#-laH, -daH#}@})"
+                    ],
+                    "_banner": "({@{#-laH, -daH#}@})",
+                    "_meanings": [
+                        ".²1 the jack tree (<lang>Mar.</lang> <ns>{#PaRasa#}</ns>). Artocarpus Integrifolia.\n",
+                        ".²2 the glomerous fig-tree ({#udumbara#})."
+                    ]
+                }
+            ]
+        }
     ]
 }

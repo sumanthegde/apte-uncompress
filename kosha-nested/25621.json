@@ -1,145 +1,816 @@
 {
-    "__line": 216831,
+    "__line": 231853,
     "_ancestry": [
         "L_ 25621",
-        "B_ {#vikala#}"
+        "B_ {#madana#}"
     ],
-    "_banner": "{#vikala#}",
+    "_banner": "{#madana#}",
     "_bannerExp": [
         {
-            "Right": "vikala"
+            "Right": "madana"
+        },
+        {
+            "Right": "madanI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#mAdyati anena, mad-karaRe lyuw#}]"
     ],
     "_meanings": [
-        "{@--1@} Deprived of a part or\nmember, defective, imperfect, \nmaimed, mutilated; {#kUwakfdvikaleMdriyAH#}  \n<ls>Y. 2. 70</ls>; <ls>Ms. 8. 66</ls>; <ls>U. 4. 24.</ls>\n",
-        "{@--2@} Frightened, alarmed;  \n<ls>Māl. 5. 20.</ls> ",
-        "{@--3@} Devoid or destitute of (in\n<ab>comp.</ab>); {#ArAmADipatirvivekavikalaH#}  \n<ls>Bv. 1. 31</ls>; {#prasUti°#} <ls>Ś. 6. 24</ls>; <ls>Pt. 5. 8</ls>;\n<ls>Mk. 5. 41.</ls> ",
-        "{@--4@} Agitated, weakened,\ndispirited, unnerved, drooping, \nsinking, languid; {#kimiti vizIdasi rodizi#}\n{#vikalA vihasati yuvatisaBA tava sakalA#}\n<ls>Gīt. 9</ls>; {#viraheRa vikalahfdayA#} <ls>Bv. 2. 71</ls>,\n<ls n=\"Bv. 2.\">164</ls>; {#Srutiyugale pikarutavikale#} <ls>Gīt. 12</ls>;\n{#vahati vikalaH kAyo mohaM na muMcati cetanAM#}\n<ls>U. 3. 31</ls>; <ls>Māl. 7. 1</ls>, <ls n=\"Māl.\">9. 12.</ls> ",
-        "{@--5@} \nIneffective, useless; <ls>Pt. 5. 9.</ls> ",
-        "{@--6@} \nWanting, failing. ",
-        "{@--7@} Withered, decayed.\n"
+        ".²1 Intoxicating, maddening.\n",
+        ".²2 Delighting, exhilarating.\n"
     ],
     "_morphisms": [
         {
-            "__line": 216849,
+            "__line": 231856,
             "_ancestry": [
                 "L_ 25621",
-                "B_ {#vikala#}",
-                "M_ {#--lA --lI#}"
+                "B_ {#madana#}",
+                "M_ .{@{#-naH#}@}"
             ],
-            "_banner": "{#--lA --lI#}",
+            "_banner": ".{@{#-naH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vikalA"
-                },
-                {
-                    "Right": "vikalI"
+                    "Right": "madanaH"
                 }
             ],
             "_meanings": [
-                "A woman during her\ncourses. "
+                ".²1 The god of love, Cupid; {#vyApAraroDi madanasya nizevitavyam#} <ls>Ś. 1. 27</ls>;\n {#hatamapi nihantyeva madanaH#} <ls>Bh. 3. 18</ls>.\n",
+                ".²2 Love, passion, sexual love, lust; {#vinayavAritavfttiratastayA na vivfto#}\n {#madano na ca saMvftaH#} <ls>Ś. 2. 11</ls>; {#satantrigItaM madanasya dIpakam#}\n <ls>Ṛs. 1. 3</ls>; <ls>R. 5. 63</ls>; so {#madanAtura, madanapIqita#} <ab>&c.</ab>\n",
+                ".²3 The spring season.\n",
+                ".²4 A bee.\n",
+                ".²5 Beesʼ-wax.\n",
+                ".²6 A kind of embrace.\n",
+                ".²7 The Dhattūra plant.\n",
+                ".²8 The Khadira tree.\n",
+                ".²9 The Bakula tree.\n",
+                ".²10 <ab>N.</ab> of the 7th mansion (in <ab>astrol.</ab>).\n",
+                ".²11 A kind of measure (in music).\n"
+            ]
+        },
+        {
+            "__line": 231871,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "M_ .{@{#-nA, -nI#}@}"
+            ],
+            "_banner": ".{@{#-nA, -nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanA"
+                },
+                {
+                    "Right": "madanI"
+                }
+            ],
+            "_meanings": [
+                ".²1 Spirituous liquor.\n",
+                ".²2 Musk.\n",
+                ".²3 The {%atimukta%} creeper. ({#nI#} only in these two senses).\n"
+            ]
+        },
+        {
+            "__line": 231875,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Intoxicating.\n",
+                ".²2 Gladdening, delighting.\n"
             ]
         }
     ],
     "_samasas": [
         {
-            "__line": 216850,
+            "__line": 231879,
             "_ancestry": [
                 "L_ 25621",
-                "B_ {#vikala#}",
-                "S_  {#--aMga#}"
+                "B_ {#madana#}",
+                "S_ .{@{#-agrakaH#}@}"
             ],
-            "_banner": " {#--aMga#}",
+            "_banner": ".{@{#-agrakaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vikalAMga"
+                    "Right": "madanAgrakaH"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "having a\nredundant or deficient limb. "
+                "a species of grain ({#kodrava#}).\n"
             ]
         },
         {
-            "__line": 216851,
+            "__line": 231880,
             "_ancestry": [
                 "L_ 25621",
-                "B_ {#vikala#}",
-                "S_ {#--iMdriya#}"
+                "B_ {#madana#}",
+                "S_ .{@{#-aNkuSaH#}@}"
             ],
-            "_banner": "{#--iMdriya#}",
+            "_banner": ".{@{#-aNkuSaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vikaleMdriya"
+                    "Right": "madanANkuSaH"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "having impaired or defective \norgans of sense. "
+                ".²1 the penis.\n",
+                ".²2 a finger-nail, or a wound inflicted by it in cohabitation.\n"
             ]
         },
         {
-            "__line": 216853,
+            "__line": 231883,
             "_ancestry": [
                 "L_ 25621",
-                "B_ {#vikala#}",
-                "S_ {#--karaRa#}"
+                "B_ {#madana#}",
+                "S_ .{@{#-atyayaH#}@}"
             ],
-            "_banner": "{#--karaRa#}",
+            "_banner": ".{@{#-atyayaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vikalakaraRa"
+                    "Right": "madanAtyayaH"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "with \ndrooping limbs, languid; <ls>U. 3. 22.</ls>  \n"
+                "excess of intoxication; {#madyena Kalu jAyante madAtyayamuKA#}\n {#gadAH#} <ls>Bhāva P.</ls>\n"
             ]
         },
         {
-            "__line": 216855,
+            "__line": 231885,
             "_ancestry": [
                 "L_ 25621",
-                "B_ {#vikala#}",
-                "S_ {#--karuRa#}"
+                "B_ {#madana#}",
+                "S_ .{@{#-antakaH, -ariH, -damanaH, -dahanaH, -nASanaH, -ripuH#}@}"
             ],
-            "_banner": "{#--karuRa#}",
+            "_banner": ".{@{#-antakaH, -ariH, -damanaH, -dahanaH, -nASanaH, -ripuH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vikalakaruRa"
+                    "Right": "madanAntakaH"
+                },
+                {
+                    "Right": "madanAriH"
+                },
+                {
+                    "Right": "madanadamanaH"
+                },
+                {
+                    "Right": "madanadahanaH"
+                },
+                {
+                    "Left": "S error: midAlign nASanaH dahanASanaH"
+                },
+                {
+                    "Right": "madanaripuH"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "helpless, piteous; <ls>Māl. 9. 11</ls>;\n<ls>U. 1. 28.</ls> "
+                "epithets of Śiva.\n"
             ]
         },
         {
-            "__line": 216856,
+            "__line": 231886,
             "_ancestry": [
                 "L_ 25621",
-                "B_ {#vikala#}",
-                "S_ {#--pARikaH#}"
+                "B_ {#madana#}",
+                "S_ .{@{#-avasTa#}@}"
             ],
-            "_banner": "{#--pARikaH#}",
+            "_banner": ".{@{#-avasTa#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vikalapARikaH"
+                    "Right": "madanAvasTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "in love, enamoured.\n"
+            ]
+        },
+        {
+            "__line": 231887,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-Atapatram#}@}"
+            ],
+            "_banner": ".{@{#-Atapatram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanAtapatram"
                 }
             ],
             "_meanings": [
-                "a cripple."
+                "the vulva.\n"
+            ]
+        },
+        {
+            "__line": 231888,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-Atura, -Arta, -klizwa, -pIqita#}@}"
+            ],
+            "_banner": ".{@{#-Atura, -Arta, -klizwa, -pIqita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanAtura"
+                },
+                {
+                    "Right": "madanArta"
+                },
+                {
+                    "Right": "madanaklizwa"
+                },
+                {
+                    "Right": "madanapIqita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "afflicted by love, smit\n with love, love-sick; {#rAvaRAvarajA tatra rAGavaM madanAturA#} ({#aBipede#})\n <ls>R. 12. 32</ls>; <ls>Ś. 3. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231891,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-AyuDam#}@}"
+            ],
+            "_banner": ".{@{#-AyuDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanAyuDam"
+                }
+            ],
+            "_meanings": [
+                ".²1 pudendum muliebre.\n",
+                ".²2 ‘Cupidʼs missile’, said of a very lovely woman.\n"
+            ]
+        },
+        {
+            "__line": 231894,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-AlayaH, -yam#}@}"
+            ],
+            "_banner": ".{@{#-AlayaH, -yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanAlayaH"
+                },
+                {
+                    "Right": "madanAlayam"
+                }
+            ],
+            "_meanings": [
+                ".²1 pudendum muliebre.\n",
+                ".²2 a lotus.\n",
+                ".²3 a king.\n"
+            ]
+        },
+        {
+            "__line": 231898,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-ASayaH#}@}"
+            ],
+            "_banner": ".{@{#-ASayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanASayaH"
+                }
+            ],
+            "_meanings": [
+                "sexual desire.\n"
+            ]
+        },
+        {
+            "__line": 231899,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-icCAPalam#}@}"
+            ],
+            "_banner": ".{@{#-icCAPalam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanecCAPalam"
+                }
+            ],
+            "_meanings": [
+                "a kind of mango.\n"
+            ]
+        },
+        {
+            "__line": 231900,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-utsavaH#}@}"
+            ],
+            "_banner": ".{@{#-utsavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanotsavaH"
+                }
+            ],
+            "_meanings": [
+                "the vernal festival celebrated in honour of Cupid. "
+            ],
+            "_morphisms": [
+                {
+                    "__line": 231900,
+                    "_ancestry": [
+                        "L_ 25621",
+                        "B_ {#madana#}",
+                        "S_ .{@{#-utsavaH#}@}",
+                        "S_M_ ({@{#-vA#}@})"
+                    ],
+                    "_banner": "({@{#-vA#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "madanotsavA"
+                        }
+                    ],
+                    "_meanings": [
+                        "an {%apsaras%}.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 231902,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-utsuka#}@}"
+            ],
+            "_banner": ".{@{#-utsuka#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanotsuka"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "pining or languid with love.\n"
+            ]
+        },
+        {
+            "__line": 231903,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-udyAnam#}@}"
+            ],
+            "_banner": ".{@{#-udyAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanodyAnam"
+                }
+            ],
+            "_meanings": [
+                "‘a pleasure-garden’, <ab>N.</ab> of a garden.\n"
+            ]
+        },
+        {
+            "__line": 231904,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-kaRwakaH#}@}"
+            ],
+            "_banner": ".{@{#-kaRwakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanakaRwakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 erection of hair caused by the feeling of love.\n",
+                ".²2 <ab>N.</ab> of a tree.\n"
+            ]
+        },
+        {
+            "__line": 231907,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-kalahaH#}@}"
+            ],
+            "_banner": ".{@{#-kalahaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanakalahaH"
+                }
+            ],
+            "_meanings": [
+                "‘loveʼs quarrel’, sexual union; {#˚CedasulaBAm#} <ls>Māl. 2. 12</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231908,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-kAkuravaH#}@}"
+            ],
+            "_banner": ".{@{#-kAkuravaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanakAkuravaH"
+                }
+            ],
+            "_meanings": [
+                "a dove or pigeon.\n"
+            ]
+        },
+        {
+            "__line": 231909,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-gfham#}@}"
+            ],
+            "_banner": ".{@{#-gfham#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanagfham"
+                }
+            ],
+            "_meanings": [
+                "pudendum muliebre.\n"
+            ]
+        },
+        {
+            "__line": 231910,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-gopAlaH#}@}"
+            ],
+            "_banner": ".{@{#-gopAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanagopAlaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Kṛṣṇa.\n"
+            ]
+        },
+        {
+            "__line": 231911,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-caturdaSI#}@}"
+            ],
+            "_banner": ".{@{#-caturdaSI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanacaturdaSI"
+                }
+            ],
+            "_meanings": [
+                "the fourteenth day in the bright half of Chaitra, or\n the festival celebrated on that day in honour of Cupid.\n"
+            ]
+        },
+        {
+            "__line": 231913,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-tantram#}@}"
+            ],
+            "_banner": ".{@{#-tantram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanatantram"
+                }
+            ],
+            "_meanings": [
+                "the science of sexual love.\n"
+            ]
+        },
+        {
+            "__line": 231914,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-trayodaSI#}@}"
+            ],
+            "_banner": ".{@{#-trayodaSI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanatrayodaSI"
+                }
+            ],
+            "_meanings": [
+                "the thirteenth day in the bright half of Chaitra, or\n the festival celebrated on that day in honour of Cupid.\n"
+            ]
+        },
+        {
+            "__line": 231916,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-dvAdaSI#}@}"
+            ],
+            "_banner": ".{@{#-dvAdaSI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanadvAdaSI"
+                }
+            ],
+            "_meanings": [
+                "a festival in honour of Cupid on the 12th day of the\n bright half of Chaitra.\n"
+            ]
+        },
+        {
+            "__line": 231918,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-DvajA#}@}"
+            ],
+            "_banner": ".{@{#-DvajA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanaDvajA"
+                }
+            ],
+            "_meanings": [
+                "the {#pOrRimA#} day of Chaitra month.\n"
+            ]
+        },
+        {
+            "__line": 231919,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-nAlikA#}@}"
+            ],
+            "_banner": ".{@{#-nAlikA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madananAlikA"
+                }
+            ],
+            "_meanings": [
+                "a faithless wife.\n"
+            ]
+        },
+        {
+            "__line": 231920,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-pakzin#}@}"
+            ],
+            "_banner": ".{@{#-pakzin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanapakzin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                "the Khañjana bird.\n"
+            ]
+        },
+        {
+            "__line": 231921,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-pAWakaH#}@}"
+            ],
+            "_banner": ".{@{#-pAWakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanapAWakaH"
+                }
+            ],
+            "_meanings": [
+                "the cuckoo.\n"
+            ]
+        },
+        {
+            "__line": 231922,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-pIqA, -bADA#}@}"
+            ],
+            "_banner": ".{@{#-pIqA, -bADA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanapIqA"
+                },
+                {
+                    "Right": "madanabADA"
+                }
+            ],
+            "_meanings": [
+                "pangs or torments of love.\n"
+            ]
+        },
+        {
+            "__line": 231923,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-mahaH, -mahotsavaH#}@}"
+            ],
+            "_banner": ".{@{#-mahaH, -mahotsavaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanamahaH"
+                },
+                {
+                    "Right": "madanamahotsavaH"
+                }
+            ],
+            "_meanings": [
+                "a festival celebrated in honour of Cupid;\n {#madanamahotsavAya rasikamanAMsi samullAsayan#} <ls>Dk. 2. 5</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231925,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-mohanaH#}@}"
+            ],
+            "_banner": ".{@{#-mohanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanamohanaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Kṛṣṇa.\n"
+            ]
+        },
+        {
+            "__line": 231926,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-rasaH#}@}"
+            ],
+            "_banner": ".{@{#-rasaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanarasaH"
+                }
+            ],
+            "_meanings": [
+                "poison; {#madanarasayogenAtisanDAya apaharet#} <ls>Kau. A. 1. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 231927,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-lalitam#}@}"
+            ],
+            "_banner": ".{@{#-lalitam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanalalitam"
+                }
+            ],
+            "_meanings": [
+                "amorous sport or dalliance.\n"
+            ]
+        },
+        {
+            "__line": 231928,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-lalitA#}@}"
+            ],
+            "_banner": ".{@{#-lalitA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanalalitA"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre; {#vedANgANgErmadanalalitA mo Bo namalasAH#}\n <ls>V. Ratn.</ls> (<ab>com.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 231930,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-leKaH#}@}"
+            ],
+            "_banner": ".{@{#-leKaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanaleKaH"
+                }
+            ],
+            "_meanings": [
+                "a love-letter.\n"
+            ]
+        },
+        {
+            "__line": 231931,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-vaSa#}@}"
+            ],
+            "_banner": ".{@{#-vaSa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanavaSa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "influenced by love, enamoured.\n"
+            ]
+        },
+        {
+            "__line": 231932,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-vinodaH#}@}"
+            ],
+            "_banner": ".{@{#-vinodaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanavinodaH"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a medical vocabulary attributed to {#madanapAla#}.\n"
+            ]
+        },
+        {
+            "__line": 231933,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-SalAkA#}@}"
+            ],
+            "_banner": ".{@{#-SalAkA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanaSalAkA"
+                }
+            ],
+            "_meanings": [
+                ".²1 the female of the cuckoo.\n",
+                ".²2 an aphrodisiac.\n",
+                ".²3 the female parrot (also {#madanasArikA#}).\n"
+            ]
+        },
+        {
+            "__line": 231937,
+            "_ancestry": [
+                "L_ 25621",
+                "B_ {#madana#}",
+                "S_ .{@{#-saMdeSaH#}@}"
+            ],
+            "_banner": ".{@{#-saMdeSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "madanasandeSaH"
+                }
+            ],
+            "_meanings": [
+                "a message of love."
             ]
         }
     ]

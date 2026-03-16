@@ -1,19 +1,96 @@
 {
-    "__line": 226972,
+    "__line": 246635,
     "_ancestry": [
         "L_ 26909",
-        "B_ {#vegita#}"
+        "B_ {#yamaka#}"
     ],
-    "_banner": "{#vegita#}",
+    "_banner": "{#yamaka#}",
     "_bannerExp": [
         {
-            "Right": "vegita"
+            "Right": "yamaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#yama-svArTe ka#}]"
     ],
     "_meanings": [
-        "Quickened, expedited,\nhastened."
+        ".²1 Twin-born, twin.\n",
+        ".²2 Two-fold, double.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 246638,
+            "_ancestry": [
+                "L_ 26909",
+                "B_ {#yamaka#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yamakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A restraint, check.\n",
+                ".²2 A twin; one of a pair, a fellow.\n",
+                ".²3 A great moral or religious duty; see {#yama#} (4).\n"
+            ]
+        },
+        {
+            "__line": 246642,
+            "_ancestry": [
+                "L_ 26909",
+                "B_ {#yamaka#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yamakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A double bandage.\n",
+                ".²2 (In <ab>Rhet.</ab>) Repetition in the same stanza (in any part of it) of words\n or syllables similar in sound, but different in meaning, a kind of rhyme,\n (of which various kinds are enumerated; see <ls>Kāv. 3. 2-52</ls>); {#saBA nalaSrIyamakEryamAdyErnalaM#}\n {#vinABUd DftadivyaratnEH#} <ls>N. 10. 24</ls>; {#AvfttiM varRasaMGAtagocarAM yamakaM#}\n {#viduH#} <ls>Kāv. 1. 61</ls>, <ls n=\"Kāv.\">3. 1</ls>; <ls>S. D. 640</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 246650,
+            "_ancestry": [
+                "L_ 26909",
+                "B_ {#yamaka#}",
+                "S_ .{@{#-kAvyam#}@}"
+            ],
+            "_banner": ".{@{#-kAvyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yamakakAvyam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of an artificial poem (ascribed to {#Gawakarpara#}).\n"
+            ]
+        },
+        {
+            "__line": 246651,
+            "_ancestry": [
+                "L_ 26909",
+                "B_ {#yamaka#}",
+                "S_ .{@{#-BAratam#}@}"
+            ],
+            "_banner": ".{@{#-BAratam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yamakaBAratam"
+                }
+            ],
+            "_meanings": [
+                "a summary of the Mahā-Bhārata made by {#AnandatIrTa#}."
+            ]
+        }
     ]
 }

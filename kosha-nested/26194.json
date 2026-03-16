@@ -1,21 +1,61 @@
 {
-    "__line": 221133,
+    "__line": 239230,
     "_ancestry": [
         "L_ 26194",
-        "B_ {#vibaMD#}"
+        "B_ {#mAlaya#}"
     ],
-    "_banner": "{#vibaMD#}",
+    "_banner": "{#mAlaya#}",
     "_bannerExp": [
         {
-            "Right": "vibaMD"
+            "Right": "mAlaya"
+        },
+        {
+            "Right": "mAlayI"
         }
     ],
     "_gram": [
-        "{c9c}",
-        "<ab>P.</ab>"
+        "{%a.%}",
+        "({#-yI#}|{%f.%})",
+        "[{#malaye BavaH aR#}]"
     ],
     "_meanings": [
-        "{@--1@} To bind or fasten\n(on different sides). ",
-        "{@--2@} To stretch\nout, extend."
+        "Coming from the Malaya mountain.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 239232,
+            "_ancestry": [
+                "L_ 26194",
+                "B_ {#mAlaya#}",
+                "M_ .{@{#-yaH#}@}"
+            ],
+            "_banner": ".{@{#-yaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAlayaH"
+                }
+            ],
+            "_meanings": [
+                "Sandal-wood.\n"
+            ]
+        },
+        {
+            "__line": 239233,
+            "_ancestry": [
+                "L_ 26194",
+                "B_ {#mAlaya#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mAlayam"
+                }
+            ],
+            "_meanings": [
+                ".²1 caravansary.\n",
+                ".²2 the unguent prepared from sandal."
+            ]
+        }
     ]
 }

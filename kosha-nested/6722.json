@@ -1,19 +1,151 @@
 {
-    "__line": 58293,
+    "__line": 56415,
     "_ancestry": [
         "L_ 6722",
-        "B_ {#ArAtiH#}"
+        "B_ {#ARqa#}"
     ],
-    "_banner": "{#ArAtiH#}",
+    "_banner": "{#ARqa#}",
     "_bannerExp": [
         {
-            "Right": "ArAtiH"
+            "Right": "ARqa"
         }
     ],
     "_gram": [
-        "[{#A-rAktic#}]"
+        "{%a.%}",
+        "[{#aRqe BavaH aR#}]"
     ],
     "_meanings": [
-        "An enemy."
+        "Born from an egg (as a bird).\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 56416,
+            "_ancestry": [
+                "L_ 6722",
+                "B_ {#ARqa#}",
+                "M_ .{@{#-qaH#}@}"
+            ],
+            "_banner": ".{@{#-qaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ARqaH"
+                }
+            ],
+            "_meanings": [
+                "An epithet of Hiraṇyagarbha or Brahmā.\n"
+            ]
+        },
+        {
+            "__line": 56417,
+            "_ancestry": [
+                "L_ 6722",
+                "B_ {#ARqa#}",
+                "M_ .{@{#-qam#}@}"
+            ],
+            "_banner": ".{@{#-qam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ARqam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A multitude of eggs, brood.\n",
+                ".²2 Scrotum.\n"
+            ]
+        },
+        {
+            "__line": 56420,
+            "_ancestry": [
+                "L_ 6722",
+                "B_ {#ARqa#}",
+                "M_ .{@{#-qO#}@}"
+            ],
+            "_banner": ".{@{#-qO#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ARqO"
+                }
+            ],
+            "_meanings": [
+                "(<ab>Ved.</ab>) The testicles. {#kroDo vfkkO manyurARqO prajA SepaH#} <ls>Av. 9. 7. 13</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 56422,
+            "_ancestry": [
+                "L_ 6722",
+                "B_ {#ARqa#}",
+                "S_ .{@{#-koSaH#}@}"
+            ],
+            "_banner": ".{@{#-koSaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ARqakoSaH"
+                }
+            ],
+            "_meanings": [
+                "An egg.\n"
+            ]
+        },
+        {
+            "__line": 56423,
+            "_ancestry": [
+                "L_ 6722",
+                "B_ {#ARqa#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ARqaja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born from eggs.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 56424,
+                    "_ancestry": [
+                        "L_ 6722",
+                        "B_ {#ARqa#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jaH#}@})"
+                    ],
+                    "_banner": "({@{#-jaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ARqajaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "a bird or a serpent.\n."
+                    ]
+                },
+                {
+                    "__line": 56425,
+                    "_ancestry": [
+                        "L_ 6722",
+                        "B_ {#ARqa#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jam#}@})"
+                    ],
+                    "_banner": "({@{#-jam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "ARqajam"
+                        }
+                    ],
+                    "_meanings": [
+                        "the body of a bird; {#ARqajaM jIvajamudBijjam#} <ls>Ch. Up. 6. 3. 1</ls>."
+                    ]
+                }
+            ]
+        }
     ]
 }

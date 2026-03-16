@@ -1,16 +1,72 @@
 {
-    "__line": 92927,
+    "__line": 92312,
     "_ancestry": [
         "L_ 11058",
-        "B_ {#kuwmala#}"
+        "B_ {#OSana, OSanasa#}"
     ],
-    "_banner": "{#kuwmala#}",
+    "_banner": "{#OSana, OSanasa#}",
     "_bannerExp": [
         {
-            "Right": "kuwmala"
+            "Right": "OSana"
+        },
+        {
+            "Right": "OSanasa"
+        },
+        {
+            "Right": "OSanI"
+        },
+        {
+            "Right": "OSanasI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI, -sI#}|{%f.%})",
+        "[{#uSanas-aR#}]"
+    ],
     "_meanings": [
-        "= {#kuqmala#} <ab>q. v.</ab>"
+        "Belonging or peculiar to Uśanas; originating from Uśanas, or taught\n by him; {#pitAmahAdvaraM leBe sarvamOSanasaM Danam#} <ls>Rām. 4. 51. 13</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 92315,
+            "_ancestry": [
+                "L_ 11058",
+                "B_ {#OSana, OSanasa#}",
+                "M_ .{@{#-sam#}@}"
+            ],
+            "_banner": ".{@{#-sam#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                ".²1 The law-book of {#uSanas#} (a treatise on civil polity).\n",
+                ".²2 <ab>N.</ab> of an Upapurāṇa.\n"
+            ]
+        },
+        {
+            "__line": 92318,
+            "_ancestry": [
+                "L_ 11058",
+                "B_ {#OSana, OSanasa#}",
+                "M_ .{@{#-sAH#}@}"
+            ],
+            "_banner": ".{@{#-sAH#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "<ab>N.</ab> of a school of writers on the science of government mentioned\n by Kauṭilya; <ls>Kau. A. 1. 15</ls>.\n"
+            ]
+        },
+        {
+            "__line": 92320,
+            "_ancestry": [
+                "L_ 11058",
+                "B_ {#OSana, OSanasa#}",
+                "M_ .{@{#-sI#}@}"
+            ],
+            "_banner": ".{@{#-sI#}@}",
+            "_bannerExp": [],
+            "_meanings": [
+                "<ab>N.</ab> of Devayanī; {#taM vIramAhOSanasI premanirBarayA girA#}\n <ls>Bhāg. 9. 18. 20</ls>."
+            ]
+        }
     ]
 }

@@ -1,37 +1,44 @@
 {
-    "__line": 131467,
+    "__line": 136143,
     "_ancestry": [
         "L_ 15678",
-        "B_ {#dEvatya#}"
+        "B_ {#jIvin#}"
     ],
-    "_banner": "{#dEvatya#}",
+    "_banner": "{#jIvin#}",
     "_bannerExp": [
         {
-            "Right": "dEvatya"
+            "Right": "jIvin"
+        },
+        {
+            "Right": "jIvinI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#jIv-Rini, jIva-ini vA#}]"
     ],
     "_meanings": [
-        "Addressed or sacred to\na deity; <ls>Y. 1. 99</ls>; <ls>Ms. 2. 18</ls> <ls n=\"Ms. 2.\">9</ls>;  \n<ls n=\"Ms.\">4. 124.</ls> "
+        "(Generally at the end of <ab>comp.</ab>)\n",
+        ".²1 Living, alive, existing; <ls>R. 1. 63</ls>.\n",
+        ".²2 Living upon or by; {#SastrajIvin, AyuDajIvin#} <ab>&c.</ab> "
     ],
     "_morphisms": [
         {
-            "__line": 131469,
+            "__line": 136146,
             "_ancestry": [
                 "L_ 15678",
-                "B_ {#dEvatya#}",
-                "M_ {#--tyaM#}"
+                "B_ {#jIvin#}",
+                "M_ --{%m.%}"
             ],
-            "_banner": "{#--tyaM#}",
+            "_banner": "--{%m.%}",
             "_bannerExp": [
                 {
-                    "Right": "dEvatyaM"
+                    "Left": "Parser error: {#jIvin#} M_ --{%m.%}"
                 }
             ],
             "_meanings": [
-                "A deity."
+                "A living being."
             ]
         }
     ]

@@ -1,41 +1,104 @@
 {
-    "__line": 40036,
+    "__line": 36450,
     "_ancestry": [
         "L_ 4352",
-        "B_ {#avakAS#}"
+        "B_ {#ayugma#}"
     ],
-    "_banner": "{#avakAS#}",
+    "_banner": "{#ayugma#}",
     "_bannerExp": [
         {
-            "Right": "avakAS"
+            "Right": "ayugma"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "{c4c}",
-        "<ab>A.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "To be visible,\nto be manifest. "
+        ".²1 Not in pairs or couples; single, separate.\n",
+        ".²2 Odd, uneven (as a number) {#ayugmAsu rAtrizu#} <ls>Ms. 3. 48</ls> {#kamanIyavigrahamayugmalocanam#}\n ({#puruzaM#}) {#dadfSuH#} <ls>Ki. 12. 19</ls>.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 40037,
+            "__line": 36455,
             "_ancestry": [
                 "L_ 4352",
-                "B_ {#avakAS#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#ayugma#}",
+                "S_ .{@{#-CadaH, -patraH#}@}"
             ],
+            "_banner": ".{@{#-CadaH, -patraH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avakAS"
+                    "Right": "ayugmacCadaH"
+                },
+                {
+                    "Right": "ayugmapatraH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+            "_meanings": [
+                "having an odd ({%<ab>i. e.</ab>%} 7) number of leaves;\n the {#saptaparRa#} tree; (<lang>Mar.</lang> <ns>{#sAtavIRa#}</ns>); {#nayatyayugmacCadaganDirArdratAm#} <ls>Ki. 1. 16</ls>.\n"
+            ]
+        },
+        {
+            "__line": 36457,
+            "_ancestry": [
+                "L_ 4352",
+                "B_ {#ayugma#}",
+                "S_ .{@{#-nayanaH, netraH, -locanaH#}@}"
+            ],
+            "_banner": ".{@{#-nayanaH, netraH, -locanaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayugmanayanaH"
+                },
+                {
+                    "Right": "ayugmanetraH"
+                },
+                {
+                    "Right": "ayugmalocanaH"
+                }
             ],
             "_meanings": [
-                "To cause to\nlook at."
+                "having odd (3) eyes, <ab>N.</ab> of Śiva; {#arDendriyakzoBamayugmanetraH#} <ls>Ku. 3. 51</ls>, <ls n=\"Ku. 3.\">69</ls>.\n"
+            ]
+        },
+        {
+            "__line": 36458,
+            "_ancestry": [
+                "L_ 4352",
+                "B_ {#ayugma#}",
+                "S_ .{@{#-bARaH, -SaraH#}@}"
+            ],
+            "_banner": ".{@{#-bARaH, -SaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayugmabARaH"
+                },
+                {
+                    "Right": "ayugmaSaraH"
+                }
+            ],
+            "_meanings": [
+                "<ab>&c.</ab> having odd (5) arrows; <ab>N.</ab> of Cupid.\n"
+            ]
+        },
+        {
+            "__line": 36459,
+            "_ancestry": [
+                "L_ 4352",
+                "B_ {#ayugma#}",
+                "S_ .{@{#-vAhaH, -saptiH#}@}"
+            ],
+            "_banner": ".{@{#-vAhaH, -saptiH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ayugmavAhaH"
+                },
+                {
+                    "Right": "ayugmasaptiH"
+                }
+            ],
+            "_meanings": [
+                "having seven horses, the sun."
             ]
         }
     ]

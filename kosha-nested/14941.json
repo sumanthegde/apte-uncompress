@@ -1,16 +1,85 @@
 {
-    "__line": 123883,
+    "__line": 129496,
     "_ancestry": [
         "L_ 14941",
-        "B_ {#tenaH#}"
+        "B_ {#cetana#}"
     ],
-    "_banner": "{#tenaH#}",
+    "_banner": "{#cetana#}",
     "_bannerExp": [
         {
-            "Right": "tenaH"
+            "Right": "cetana"
+        },
+        {
+            "Right": "cetanI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#-nI#}|{%f.%})",
+        "[{#cit-lyu#}]"
+    ],
     "_meanings": [
-        "A note introductory to a\nsong."
+        ".²1 Animate, alive, living, sentient, feeling; {#cetanAcetanezu#} <ls>Me. 5</ls>\n animate and inanimate.\n",
+        ".²2 Visible, conspicuous, distinguished.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 129501,
+            "_ancestry": [
+                "L_ 14941",
+                "B_ {#cetana#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cetanaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A sentient being, a man.\n",
+                ".²2 Soul, mind.\n",
+                ".²3 The supreme soul.\n",
+                ".²4 An animal in general.\n"
+            ]
+        },
+        {
+            "__line": 129506,
+            "_ancestry": [
+                "L_ 14941",
+                "B_ {#cetana#}",
+                "M_ .{@{#-nA#}@}"
+            ],
+            "_banner": ".{@{#-nA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cetanA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Sense, consciousness; {#culukayati madIyAM cetanAM caYcarIkaH#} <ls>R. G.</ls>;\n <ls>U. 3. 31</ls>; <ls>Māl. 9. 12</ls>; <ls>R. 12. 74</ls>; {#cetanAM pratipadyate#} regains\n oneʼs consciousness;\n",
+                ".²2 Understanding, intelligence; {#paScimAdyAminIyAmAtprasAdamiva cetanA#}\n <ls>R. 17. 1</ls>; {#… SAstAKAno'lpacetanaH#} <ls>Śiva B. 29. 9</ls>.\n",
+                ".²3 Life, vitality, animation; <ls>Bg. 13. 6</ls>.\n",
+                ".²4 Wisdom, reflection.\n"
+            ]
+        },
+        {
+            "__line": 129514,
+            "_ancestry": [
+                "L_ 14941",
+                "B_ {#cetana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cetanam"
+                }
+            ],
+            "_meanings": [
+                "Appearance.\n",
+                ".²2 The thinking principle, the mind; {#acyutacetanaH#} <ls>Bhāg. 9. 15. 41</ls>."
+            ]
+        }
     ]
 }

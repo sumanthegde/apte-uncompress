@@ -1,19 +1,60 @@
 {
-    "__line": 218521,
+    "__line": 234968,
     "_ancestry": [
         "L_ 25857",
-        "B_ {#viwaMkita#}"
+        "B_ {#malavat#}"
     ],
-    "_banner": "{#viwaMkita#}",
+    "_banner": "{#malavat#}",
     "_bannerExp": [
         {
-            "Right": "viwaMkita"
+            "Right": "malavat"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Marked, stamped."
+        "Dirty, foul, filthy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 234969,
+            "_ancestry": [
+                "L_ 25857",
+                "B_ {#malavat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "malavatI"
+                }
+            ],
+            "_meanings": [
+                "A menstruous woman.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 234971,
+            "_ancestry": [
+                "L_ 25857",
+                "B_ {#malavat#}",
+                "S_ .{@{#-vAsas#}@}"
+            ],
+            "_banner": ".{@{#-vAsas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "malavadvAsas"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "a menstruous woman; {#prAgaparoDAnmalavadvAsasaH#} <ls>MS. 3. 4. 18</ls>."
+            ]
+        }
     ]
 }

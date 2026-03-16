@@ -1,16 +1,63 @@
 {
-    "__line": 53915,
+    "__line": 51201,
     "_ancestry": [
         "L_ 6125",
-        "B_ {#AtmavattA#}"
+        "B_ {#asAmi#}"
     ],
-    "_banner": "{#AtmavattA#}",
+    "_banner": "{#asAmi#}",
     "_bannerExp": [
         {
-            "Right": "AtmavattA"
+            "Right": "asAmi"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "Self-possession, \nselfcontrol, prudence, wisdom;  \n{#prakftizvAtmajamAtmavattayA#} <ls>R. 8. 10</ls>, <ls n=\"R. 8.\">84</ls>;  \n<ls>Ms. 11. 87.</ls>"
+        "<ab>Ved.</ab> Not half, whole, complete.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 51202,
+            "_ancestry": [
+                "L_ 6125",
+                "B_ {#asAmi#}",
+                "M_ .{@{#-mi#}@}"
+            ],
+            "_banner": ".{@{#-mi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asAmi"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Completely, fully.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 51204,
+            "_ancestry": [
+                "L_ 6125",
+                "B_ {#asAmi#}",
+                "S_ .{@{#-Savas#}@}"
+            ],
+            "_banner": ".{@{#-Savas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "asAmiSavas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Having complete strength; {#arhanto ye sudAnavo#}\n {#naro asAmiSavasaH#} <ls>Rv. 5. 52. 5</ls>."
+            ]
+        }
     ]
 }

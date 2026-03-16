@@ -1,20 +1,97 @@
 {
-    "__line": 67700,
+    "__line": 65656,
     "_ancestry": [
         "L_ 7863",
-        "B_ {#uttoraRa#}"
+        "B_ {#ASvina#}"
     ],
-    "_banner": "{#uttoraRa#}",
+    "_banner": "{#ASvina#}",
     "_bannerExp": [
         {
-            "Right": "uttoraRa"
+            "Right": "ASvina"
+        },
+        {
+            "Right": "ASvinI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#unnataM toraRamatra#}]"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "Adorned with raised or upright arches;\n{#uttoraRaM rAjapaTaM prapede#} <ls>Ku. 7. 63</ls>;  \n<ls>R. 14. 10.</ls>"
+        ".²1 Belonging or sacred to the Aśvins ({#aSvinO devate asya#}).\n",
+        ".²2 Pervading.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 65659,
+            "_ancestry": [
+                "L_ 7863",
+                "B_ {#ASvina#}",
+                "M_ .{@{#-naH#}@}"
+            ],
+            "_banner": ".{@{#-naH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASvinaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of a month (in which the moon is near the constellation Aśvini).\n",
+                ".²2 A sacrifice or a weapon presided over by the Aśvins.\n",
+                ".²3 (<ab>du.</ab>) The Aśvins.\n"
+            ]
+        },
+        {
+            "__line": 65663,
+            "_ancestry": [
+                "L_ 7863",
+                "B_ {#ASvina#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASvinI"
+                }
+            ],
+            "_meanings": [
+                ".²1 <ab>N.</ab> of certain bricks.\n",
+                ".²2 A pile, stack ({#citiBedaH#}).\n"
+            ]
+        },
+        {
+            "__line": 65666,
+            "_ancestry": [
+                "L_ 7863",
+                "B_ {#ASvina#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ASvinam"
+                }
+            ],
+            "_meanings": [
+                "A dayʼs journey for a horse or rider (<ab>Ved.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 65667,
+            "_ancestry": [
+                "L_ 7863",
+                "B_ {#ASvina#}",
+                "M_ .{@{#-cihnitam#}@}"
+            ],
+            "_banner": ".{@{#-cihnitam#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "surjectivity error: ASvina/ASvinI cihnitaM"
+                }
+            ],
+            "_meanings": [
+                "The autumnal equinox."
+            ]
+        }
     ]
 }

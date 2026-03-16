@@ -1,22 +1,178 @@
 {
-    "__line": 15712,
+    "__line": 13690,
     "_ancestry": [
         "L_ 1508",
-        "B_ {#anukf#}"
+        "B_ {#anArya#}"
     ],
-    "_banner": "{#anukf#}",
+    "_banner": "{#anArya#}",
     "_bannerExp": [
         {
-            "Right": "anukf"
+            "Right": "anArya"
         }
     ],
     "_gram": [
-        "{c8c}",
-        "<ab>U.</ab>"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To do after or\nafterwards; follow; especially to\nimitate, do after or in imitation of,\nresemble, equal, copy (with <ab>gen.</ab>);\n{#tato'nukuryAdviSadasya tasyAH… smitasya#}\n<ls>Ku. 1. 44</ls>; {#SyAmatayA harerivAnukurvatIM#}  \n<ls>K. 10</ls>; {#anukaroti Bagavato nArAyaRasya#} <ls n=\"K.\">6</ls>, <ls n=\"K.\">282</ls>;\n{#nanu kalaBena yUTapateranukftam#} <ls>M. 5</ls>; (also\nwith <ab>acc.</ab>); {#sarvABiranyABiH#} \n{#kalABiranucakAra taM vESaMpAyanaH#} <ls>K. 76</ls>;  \n{#SElADipasyAnucakAra lakzmIM#} <ls>Bk. 2. 8</ls>; {#bahutaraM#} \n{#BavaMtamanukaroti#} <ls>V. 5</ls>; <ls>Ms. 2. 199.</ls> ",
-        "{@--2@} To\nrequite, recompense. ",
-        "{@--3@} To try on,\nadjust, adapt; {#baMDaM tato'nukurvIta#} <ls>Suśr.</ls>"
+        "Not respectable (not deserving to be styled {#Arya#}),\n not polite or decent; vulgar; not belonging to an Arya, unworthy, vile,\n base, mean, wretched; {#anAryAnAryaliNginaH#} <ls>Ms. 9. 260</ls>; {#anAryAyAM#}\n {#samutpanno brAhmaRAt#} <ls n=\"Ms.\">10. 66</ls>; <ls>H. 4. 22</ls>; {#kIkawA nAma deSo'nAryanivAsaH#}\n <ls>Nir.</ls> void of Āryas; {#SakuntalAyAmanAryamAcaritaM tena rAjYA#} <ls>Ś. 4</ls>\n the king has behaved basely or unworthily towards Śakuntalā; {#kadAcidasminnapyanAryo'nAryamAcarizyati#}\n <ls>Ve. 4</ls>. {#na mAM kAmezvanAryezu pracArayitumarhasi .#} <ls>Bu. Ch. 4. 96</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 13697,
+            "_ancestry": [
+                "L_ 1508",
+                "B_ {#anArya#}",
+                "M_ .{@{#-ryaH#}@}"
+            ],
+            "_banner": ".{@{#-ryaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAryaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 One who is not an Ārya.\n",
+                ".²2 A country not inhabited by the Āryas.\n",
+                ".²3 A Śūdra.\n",
+                ".²4 A Mleccha.\n",
+                ".²5 An ignoble person.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 13704,
+            "_ancestry": [
+                "L_ 1508",
+                "B_ {#anArya#}",
+                "S_ .{@{#-karmin#}@}"
+            ],
+            "_banner": ".{@{#-karmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAryakarmin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "doing work unbecoming an Ārya or becoming only a non-Ārya.\n"
+            ]
+        },
+        {
+            "__line": 13705,
+            "_ancestry": [
+                "L_ 1508",
+                "B_ {#anArya#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAryaja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of vile or base origin.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 13706,
+                    "_ancestry": [
+                        "L_ 1508",
+                        "B_ {#anArya#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jam#}@})"
+                    ],
+                    "_banner": "({@{#-jam#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "anAryajam"
+                        }
+                    ],
+                    "_meanings": [
+                        "[{#anAryadeSe jAtam#}] agallochum (being produced in the\n country of the Mlecchas <ab>&c.</ab>). (<lang>Mar.</lang> <ns>{#agaru#}</ns>)\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 13708,
+            "_ancestry": [
+                "L_ 1508",
+                "B_ {#anArya#}",
+                "S_ .{@{#-juzwa#}@}"
+            ],
+            "_banner": ".{@{#-juzwa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAryajuzwa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "discarded by the good, not practised or observed\n by the Āryas or respectable people.\n"
+            ]
+        },
+        {
+            "__line": 13710,
+            "_ancestry": [
+                "L_ 1508",
+                "B_ {#anArya#}",
+                "S_ .{@{#-tA#}@}"
+            ],
+            "_banner": ".{@{#-tA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAryatA"
+                }
+            ],
+            "_meanings": [
+                "Vileness, unworthiness; {#anAryatA nizwuratA krUratA nizkriyAtmatA .#}\n {#puruzaM vyaYjayantIha loke kaluzayonijam ..#} <ls>Ms. 10. 58</ls>.\n"
+            ]
+        },
+        {
+            "__line": 13712,
+            "_ancestry": [
+                "L_ 1508",
+                "B_ {#anArya#}",
+                "S_ .{@{#-tiktaH#}@}"
+            ],
+            "_banner": ".{@{#-tiktaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAryatiktaH"
+                }
+            ],
+            "_gram": [
+                "[{#anAryapriyaH tiktaH#} <sab>{#SAka˚ ta˚#}</sab>]"
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of the plant\n Gentiana Cherayta Rox. (<lang>Mar.</lang> <ns>{#kirAIta#}</ns>).\n"
+            ]
+        },
+        {
+            "__line": 13714,
+            "_ancestry": [
+                "L_ 1508",
+                "B_ {#anArya#}",
+                "S_ .{@{#-samAcAraH#}@}"
+            ],
+            "_banner": ".{@{#-samAcAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anAryasamAcAraH"
+                }
+            ],
+            "_meanings": [
+                "bad conduct; {#na cAnAryasamAcAraH kaScit tatra Bavizyati .#}\n <ls>Mb. 3. 239. 21</ls>."
+            ]
+        }
     ]
 }

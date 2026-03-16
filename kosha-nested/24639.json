@@ -1,16 +1,63 @@
 {
-    "__line": 208792,
+    "__line": 220459,
     "_ancestry": [
         "L_ 24639",
-        "B_ {#liptakaH#}"
+        "B_ {#bAhlakAH, bAhlikAH, -bAhlIkAH#}"
     ],
-    "_banner": "{#liptakaH#}",
+    "_banner": "{#bAhlakAH, bAhlikAH, -bAhlIkAH#}",
     "_bannerExp": [
         {
-            "Right": "liptakaH"
+            "Right": "bAhlakAH"
+        },
+        {
+            "Right": "bAhlikAH"
+        },
+        {
+            "Right": "bAhlIkAH"
         }
     ],
+    "_gram": [
+        "{%m.%}"
+    ],
     "_meanings": [
-        "A poisoned arrow."
+        "(<ab>pl.</ab>) <ab>N.</ab> of a people.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 220460,
+            "_ancestry": [
+                "L_ 24639",
+                "B_ {#bAhlakAH, bAhlikAH, -bAhlIkAH#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAhlakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 A king of the Bālhikas.\n",
+                ".²2 A horse of the Balkh breed; {#kAmbojavizaye jAtErbAhlIkESca hayottamEH#}\n <ls>Rām. 1. 6. 22</ls>.\n"
+            ]
+        },
+        {
+            "__line": 220464,
+            "_ancestry": [
+                "L_ 24639",
+                "B_ {#bAhlakAH, bAhlikAH, -bAhlIkAH#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAhlakam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Saffron; {#… priyANgasaMgavyAluptastanatawabAhlikaSriyo'pi dfSyante#}\n {#bahirabalAH#} <ls>Rām. Ch. 7. 64</ls>.\n",
+                ".²2 Asa Foetida; {#ajamodAM ca bAhlIkaM jIrakaM loDrakaM taTA#} <ls>Śiva B. 30. 18</ls>."
+            ]
+        }
     ]
 }

@@ -99,12 +99,16 @@ snd4 = (\(_,a,_,_)->a)
 trd4 = (\(_,_,a,_)->a)
 frh4 = (\(_,_,_,a)->a)
 
+fst5 = (\(a,_,_,_,_)->a)
+fst6 = (\(a,_,_,_,_,_)->a)
+
 takeEnd' k = reverse . take k . reverse
 
 apteDir = "apteDir.nosync"
-originalPath = apteDir </> "ap90/txt/ap90.txt"
-ap90 = apteDir </> "patches"
-initialEnvt = apteDir </> "envt.json"
+originalPath = apteDir </> "ap57/txt/ap.txt"
+ap90patches = apteDir </> "patches90"
+ap57patches = apteDir </> "patches57"
+initialEnvt = apteDir </> "envt57.json"
 apteOutput = apteDir </> "output"
 dsalDir = apteDir </> "dsal"
 inlineTxtPath = apteOutput </> "inline.txt"

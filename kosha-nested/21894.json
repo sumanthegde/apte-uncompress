@@ -1,19 +1,42 @@
 {
-    "__line": 182006,
+    "__line": 196853,
     "_ancestry": [
         "L_ 21894",
-        "B_ {#Baktila#}"
+        "B_ {#pozin, pozwf#}"
     ],
-    "_banner": "{#Baktila#}",
+    "_banner": "{#pozin, pozwf#}",
     "_bannerExp": [
         {
-            "Right": "Baktila"
+            "Right": "pozin"
+        },
+        {
+            "Right": "pozwf"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#puz-Rini tfc ca#}]"
     ],
     "_meanings": [
-        "Faithful, trusty (as a\nhorse)."
+        "One who feeds,\n nourishes <ab>&c.</ab> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 196854,
+            "_ancestry": [
+                "L_ 21894",
+                "B_ {#pozin, pozwf#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#pozin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A feeder, nourisher, protector."
+            ]
+        }
     ]
 }

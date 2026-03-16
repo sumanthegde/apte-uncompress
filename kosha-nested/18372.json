@@ -1,20 +1,56 @@
 {
-    "__line": 154199,
+    "__line": 163537,
     "_ancestry": [
         "L_ 18372",
-        "B_ {#parus#}"
+        "B_ {#nardita#}"
     ],
-    "_banner": "{#parus#}",
+    "_banner": "{#nardita#}",
     "_bannerExp": [
         {
-            "Right": "parus"
+            "Right": "nardita"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} A joint, knot. ",
-        "{@--2@} A\nlimb or member of the body."
+        ".²1 Sounded, bellowed.\n",
+        ".²2 Celebrated.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 163540,
+            "_ancestry": [
+                "L_ 18372",
+                "B_ {#nardita#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narditaH"
+                }
+            ],
+            "_meanings": [
+                "A kind of die or a throw at dice; {#narditadarSitamArgaH#}\n {#kawena vinipAtito yAmi#} <ls>Mk. 2. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 163542,
+            "_ancestry": [
+                "L_ 18372",
+                "B_ {#nardita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "narditam"
+                }
+            ],
+            "_meanings": [
+                "Sound, roar, bellowing."
+            ]
+        }
     ]
 }

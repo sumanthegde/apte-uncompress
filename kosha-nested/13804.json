@@ -1,17 +1,66 @@
 {
-    "__line": 115410,
+    "__line": 117856,
     "_ancestry": [
         "L_ 13804",
-        "B_ {#jartuH#}"
+        "B_ {#gadin#}"
     ],
-    "_banner": "{#jartuH#}",
+    "_banner": "{#gadin#}",
     "_bannerExp": [
         {
-            "Right": "jartuH"
+            "Right": "gadin"
+        },
+        {
+            "Right": "gadinI"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "({#nI#}|{%f.%})",
+        "[{#gada-ini#}]"
+    ],
     "_meanings": [
-        "{@--1@} The vulva. ",
-        "{@--2@} An elephant."
+        ".²1 Armed with a club; {#kirIwinaM gadinaM cakriRaM ca#} <ls>Bg. 11. 17</ls>.\n",
+        ".²2 Affected with sickness, diseased. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 117858,
+            "_ancestry": [
+                "L_ 13804",
+                "B_ {#gadin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gadin#} M_ --{%m.%}"
+                }
+            ],
+            "_gram": [
+                "[{#gadA astyasya ini#}]"
+            ],
+            "_meanings": [
+                "An\n epithet of Viṣṇu.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 117860,
+            "_ancestry": [
+                "L_ 13804",
+                "B_ {#gadin#}",
+                "S_ {@{#gadisiMhaH#}@}"
+            ],
+            "_banner": "{@{#gadisiMhaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#gadin#} S_ {@{#gadisiMhaH#}@}"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a grammarian."
+            ]
+        }
     ]
 }

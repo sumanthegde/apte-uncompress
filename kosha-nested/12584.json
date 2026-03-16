@@ -1,22 +1,42 @@
 {
-    "__line": 105197,
+    "__line": 106758,
     "_ancestry": [
         "L_ 12584",
-        "B_ {#gutsakaH#}"
+        "B_ {#kulin#}"
     ],
-    "_banner": "{#gutsakaH#}",
+    "_banner": "{#kulin#}",
     "_bannerExp": [
         {
-            "Right": "gutsakaH"
+            "Right": "kulin"
+        },
+        {
+            "Right": "kulinI"
         }
     ],
     "_gram": [
-        "[{#gutsa-svArTAdO kan#}]"
+        "{%a.%}",
+        "({#-nI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} A\nbundle, bunch. ",
-        "{@--2@} A nosegay. ",
-        "{@--3@} A\ncow-tail, chowrie. ",
-        "{@--4@} The section or\nchapter of a book."
+        "Of good family, high-born. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 106758,
+            "_ancestry": [
+                "L_ 12584",
+                "B_ {#kulin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#kulin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                "A mountain."
+            ]
+        }
     ]
 }

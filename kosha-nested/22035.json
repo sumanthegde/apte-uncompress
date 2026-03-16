@@ -1,22 +1,43 @@
 {
-    "__line": 183235,
+    "__line": 198054,
     "_ancestry": [
         "L_ 22035",
-        "B_ {#Baz#}"
+        "B_ {#prakarzaRa#}"
     ],
-    "_banner": "{#Baz#}",
+    "_banner": "{#prakarzaRa#}",
     "_bannerExp": [
         {
-            "Right": "Baz"
+            "Right": "prakarzaRa"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#Bazti#})"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} To bark,\ngrowl, bark at. ",
-        "{@--2@} To abuse, \nreproach, revile, rail at."
+        "Paining, harassing, troubling.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 198055,
+            "_ancestry": [
+                "L_ 22035",
+                "B_ {#prakarzaRa#}",
+                "M_ .{@{#-Ram#}@}"
+            ],
+            "_banner": ".{@{#-Ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakarzaRam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The act of drawing away; attracting.\n",
+                ".²2 Ploughing.\n",
+                ".²3 Duration, length, extension.\n",
+                ".²4 Excellence, superiority.\n",
+                ".²5 Distraction.\n",
+                ".²6 Realizing by the use of a pledge more than the interest of the money lent upon it."
+            ]
+        }
     ]
 }

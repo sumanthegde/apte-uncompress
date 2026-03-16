@@ -1,23 +1,55 @@
 {
-    "__line": 142576,
+    "__line": 147134,
     "_ancestry": [
         "L_ 16926",
-        "B_ {#nirji#}"
+        "B_ {#tvarita#}"
     ],
-    "_banner": "{#nirji#}",
+    "_banner": "{#tvarita#}",
     "_bannerExp": [
         {
-            "Right": "nirji"
+            "Right": "tvarita"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To conquer, \ndefeat; <ls>R. 3. 51</ls>; <ls>Bk. 2. 52</ls>; <ls n=\"Bk.\">7. 94</ls>;  \n<ls>Y. 3. 292.</ls> ",
-        "{@--2@} To win, acquire by \nconquest; <ls>Ms. 8. 154.</ls> ",
-        "{@--3@} To vanquish\nin a play. ",
-        "{@--4@} To surpass, excel."
+        "Quick, swift, speedy.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 147135,
+            "_ancestry": [
+                "L_ 16926",
+                "B_ {#tvarita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "tvaritam"
+                }
+            ],
+            "_meanings": [
+                "Despatch, haste. "
+            ]
+        },
+        {
+            "__line": 147135,
+            "_ancestry": [
+                "L_ 16926",
+                "B_ {#tvarita#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#tvarita#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Quickly, fast, speedily, hastily."
+            ]
+        }
     ]
 }

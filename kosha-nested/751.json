@@ -1,21 +1,58 @@
 {
-    "__line": 8907,
+    "__line": 7425,
     "_ancestry": [
         "L_ 751",
-        "B_ {#atnaH#}"
+        "B_ {#ativAhita#}"
     ],
-    "_banner": "{#atnaH#}",
+    "_banner": "{#ativAhita#}",
     "_bannerExp": [
         {
-            "Right": "atnaH"
+            "Right": "ativAhita"
         }
     ],
     "_gram": [
-        "[{#atatisatataM gacCati; at-na#}  \n<ls>Uṇ. 3. 6.</ls>]"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Wind. ",
-        "{@--2@} The sun. ",
-        "{@--3@} A\ntraveller. Written also as {#atnu#}."
+        "Spent, passed.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 7426,
+            "_ancestry": [
+                "L_ 751",
+                "B_ {#ativAhita#}",
+                "M_ .{@{#-taH#}@}"
+            ],
+            "_banner": ".{@{#-taH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ativAhitaH"
+                }
+            ],
+            "_meanings": [
+                "An inhabitant of the lower world.\n"
+            ]
+        },
+        {
+            "__line": 7427,
+            "_ancestry": [
+                "L_ 751",
+                "B_ {#ativAhita#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ativAhitam"
+                }
+            ],
+            "_gram": [
+                "({#sUkzmaSarIram#})"
+            ],
+            "_meanings": [
+                "= {#ativAha#}. <ab>q. v.</ab>"
+            ]
+        }
     ]
 }

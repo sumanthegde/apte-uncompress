@@ -1,21 +1,83 @@
 {
-    "__line": 230242,
+    "__line": 252194,
     "_ancestry": [
         "L_ 27373",
-        "B_ {#vyApattiH#}"
+        "B_ {#rANkava#}"
     ],
-    "_banner": "{#vyApattiH#}",
+    "_banner": "{#rANkava#}",
     "_bannerExp": [
         {
-            "Right": "vyApattiH"
+            "Right": "rANkava"
+        },
+        {
+            "Right": "rANkavI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}",
+        "({#-vI#}|{%f.%})",
+        "[{#raNkorayaM vikAro vA tallomajAtatvAt aR#}]"
     ],
     "_meanings": [
-        "{@--1@} Ruin, calamity,\nmisfortune; <ls>Mu. 6. 20</ls>; <ls>Mk. 6. 1.</ls>\n",
-        "{@--2@} Substitution of one thing for\nanother. ",
-        "{@--3@} Death; <ls>R. 12. 56.</ls>"
+        "Belonging\n to the species of deer called {%raṅku%}, or made from its hair; woollen;\n {#tAH kastUrIparimalamucaH pawwikA rANkavARAm#} <ls>Vikr. 18. 31</ls>; {#rANkavARi#}\n {#taTOrRAni#} <ls>Śiva B. 30. 21</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 252199,
+            "_ancestry": [
+                "L_ 27373",
+                "B_ {#rANkava#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rANkavam"
+                }
+            ],
+            "_meanings": [
+                ".²1 A woollen cloth made of deerʼs hair, a woollen garment; <ls>Mb. 12. 171. 20</ls>.\n",
+                ".²2 A blanket.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 252203,
+            "_ancestry": [
+                "L_ 27373",
+                "B_ {#rANkava#}",
+                "S_ .{@{#-ajinam#}@}"
+            ],
+            "_banner": ".{@{#-ajinam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rANkavAjinam"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "woollen skin.\n"
+            ]
+        },
+        {
+            "__line": 252204,
+            "_ancestry": [
+                "L_ 27373",
+                "B_ {#rANkava#}",
+                "S_ .{@{#-AstaraRam#}@}"
+            ],
+            "_banner": ".{@{#-AstaraRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "rANkavAstaraRam"
+                }
+            ],
+            "_meanings": [
+                "a woollen coverlet."
+            ]
+        }
     ]
 }

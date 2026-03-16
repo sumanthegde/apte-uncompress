@@ -1,68 +1,82 @@
 {
-    "__line": 113358,
+    "__line": 115624,
     "_ancestry": [
         "L_ 13543",
-        "B_ {#cyuta#}"
+        "B_ {#KaRqana#}"
     ],
-    "_banner": "{#cyuta#}",
+    "_banner": "{#KaRqana#}",
     "_bannerExp": [
         {
-            "Right": "cyuta"
+            "Right": "KaRqana"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#cyu-kta cyut-ka vA#}]"
+        "{%a.%}",
+        "[{#KaRq-lyuw#}]"
     ],
     "_meanings": [
-        "{@--1@}\nFallen down, slipped, fallen. ",
-        "{@--2@}\nRemoved, expelled. ",
-        "{@--3@} Strayed, \n\nerred, deviated from. ",
-        "{@--4@} Deprived.\n",
-        "{@--5@} Broken, disordered. ",
-        "{@--6@} Dropped,\noozed out. ",
-        "{@--7@} Lost, gone, perished;\n<ls>R. 3. 45.</ls> ",
-        "{@--8@} Moved, shaken.\n"
+        ".²1 Breaking, cutting, dividing.\n",
+        ".²2 Destroying, annihilating; {#smaragaralaKaRqanaM mama Sirasi maRqanam#}\n <ls>Gīt. 10</ls>; {#BavajvaraKaRqana#} <ls n=\"Gīt.\">12</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 115628,
+            "_ancestry": [
+                "L_ 13543",
+                "B_ {#KaRqana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "KaRqanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Breaking or cutting.\n",
+                ".²2 Biting; injuring, hurting; {#aDarozWaKaRqanam#} <ls>Pt. 1</ls>; {#Gawaya BujabanDanaM#}\n {#janaya radaKaRqanam#} <ls>Gīt. 10</ls>; <ls>Ch. P. 12</ls>; {#darSanena kftaKaRqanavyaTAH#} <ls>R. 19. 21</ls>.\n",
+                ".²3 Disappointing, frustrating (as in love).\n",
+                ".²4 Interrupting; {#rasaKaRqanavarjitam#} <ls>R. 9. 36</ls>.\n",
+                ".²5 Cheating, deceiving.\n",
+                ".²6 Refuting (in argument); <ls>N. 6. 113</ls>.\n",
+                ".²7 Rebellion, opposition.\n",
+                ".²8 Dismissal.\n"
+            ]
+        }
     ],
     "_samasas": [
         {
-            "__line": 113366,
+            "__line": 115639,
             "_ancestry": [
                 "L_ 13543",
-                "B_ {#cyuta#}",
-                "S_  {#--aDikAra#}"
+                "B_ {#KaRqana#}",
+                "S_ .{@{#-KaRqaKAdyam#}@}"
             ],
-            "_banner": " {#--aDikAra#}",
+            "_banner": ".{@{#-KaRqaKAdyam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "cyutADikAra"
+                    "Right": "KaRqanaKaRqaKAdyam"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "dismissed\nfrom office. "
+                "<ab>N.</ab> of a work on logic by Harṣa.\n"
             ]
         },
         {
-            "__line": 113367,
+            "__line": 115640,
             "_ancestry": [
                 "L_ 13543",
-                "B_ {#cyuta#}",
-                "S_ {#--Atman#}"
+                "B_ {#KaRqana#}",
+                "S_ .{@{#-ratam#}@}"
             ],
-            "_banner": "{#--Atman#}",
+            "_banner": ".{@{#-ratam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "cyutAtman"
+                    "Right": "KaRqanaratam"
                 }
             ],
-            "_gram": [
-                "{%<ab>a.</ab>%}"
-            ],
             "_meanings": [
-                "of a \ndepraved soul, evil-minded; <ls>Ku. 5. 81.</ls>"
+                "Skilful in cutting or destroying."
             ]
         }
     ]

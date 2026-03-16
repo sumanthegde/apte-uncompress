@@ -1,34 +1,83 @@
 {
-    "__line": 237456,
+    "__line": 260573,
     "_ancestry": [
         "L_ 28230",
-        "B_ {#SElUzikaH#}"
+        "B_ {#va#}"
     ],
-    "_banner": "{#SElUzikaH#}",
+    "_banner": "{#va#}",
     "_bannerExp": [
         {
-            "Right": "SElUzikaH"
+            "Right": "va"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "One who follows the \nprofession of an actor. "
+        "Powerful, strong.\n"
     ],
     "_morphisms": [
         {
-            "__line": 237457,
+            "__line": 260574,
             "_ancestry": [
                 "L_ 28230",
-                "B_ {#SElUzikaH#}",
-                "M_ {#--kI#}"
+                "B_ {#va#}",
+                "M_ .{@{#-vaH#}@}"
             ],
-            "_banner": "{#--kI#}",
+            "_banner": ".{@{#-vaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "SElUzikI"
+                    "Right": "vaH"
                 }
             ],
             "_meanings": [
-                "An actress."
+                ".²1 Air, wind.\n",
+                ".²2 The arm.\n",
+                ".²3 <ab>N.</ab> of Varuṇa.\n",
+                ".²4 Conciliation.\n",
+                ".²5 Addressing.\n",
+                ".²6 Auspiciousness.\n",
+                ".²7 Residence, dwelling.\n",
+                ".²8 The ocean.\n",
+                ".²9 A tiger.\n",
+                ".²10 Cloth.\n",
+                ".²11 Reverence.\n",
+                ".²12 <ab>N.</ab> of Rāhu.\n",
+                ".²13 The residence of Varuṇa. 14 the esculent root of the water-lily.\n"
+            ]
+        },
+        {
+            "__line": 260588,
+            "_ancestry": [
+                "L_ 28230",
+                "B_ {#va#}",
+                "M_ .{@{#-vam#}@}"
+            ],
+            "_banner": ".{@{#-vam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vam"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of Varuṇa (<ls>Med.</ls>). "
+            ]
+        },
+        {
+            "__line": 260588,
+            "_ancestry": [
+                "L_ 28230",
+                "B_ {#va#}",
+                "M_ --{%ind.%}"
+            ],
+            "_banner": "--{%ind.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#va#} M_ --{%iMd.%}"
+                }
+            ],
+            "_meanings": [
+                "Like, as; as in {#maRI#}\n {#vozwrasya lambete priyO vatsatarO mama#} <ls>Sk.</ls> (where the word may be {#va#}\n or {#vA#}); <ls>Mb. 12. 177. 12</ls> (<ab>com.</ab> {#vASabda ivArTe#})."
             ]
         }
     ]

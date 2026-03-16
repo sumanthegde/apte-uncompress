@@ -1,20 +1,35 @@
 {
-    "__line": 10340,
+    "__line": 8628,
     "_ancestry": [
         "L_ 900",
-        "B_ {#advezas#}"
+        "B_ {#aTarvARam#}"
     ],
-    "_banner": "{#advezas#}",
+    "_banner": "{#aTarvARam#}",
     "_bannerExp": [
         {
-            "Right": "advezas"
+            "Right": "aTarvARam"
         }
     ],
-    "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#dviza-asun#}. {#na#}. {#ta#}.]"
-    ],
     "_meanings": [
-        "Friendly, not hating."
+        "Ritual of the Atharvaveda.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 8629,
+            "_ancestry": [
+                "L_ 900",
+                "B_ {#aTarvARam#}",
+                "M_ .{@{#-RaH, -˚vid#}@}"
+            ],
+            "_banner": ".{@{#-RaH, -˚vid#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#aTarvARaM#} M_ .{@{#-RaH, -˚vid#}@}"
+                }
+            ],
+            "_meanings": [
+                "One studying or versed in this Veda or the ritual."
+            ]
+        }
     ]
 }

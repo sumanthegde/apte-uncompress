@@ -1,23 +1,39 @@
 {
-    "__line": 65325,
+    "__line": 63263,
     "_ancestry": [
         "L_ 7563",
-        "B_ {#ukzita#}"
+        "B_ {#AlApana#}"
     ],
-    "_banner": "{#ukzita#}",
+    "_banner": "{#AlApana#}",
     "_bannerExp": [
         {
-            "Right": "ukzita"
+            "Right": "AlApana"
         }
     ],
     "_gram": [
-        "{%<ab>p. p.</ab>%}",
-        "[{#ukz-kta#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Sprinkled,\nmoistened. ",
-        "{@--2@} Cleansed, perfumed.\n",
-        "{@--3@} Adult, of full growth. ",
-        "{@--4@} Old."
+        "Causing to speak or converse with.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 63264,
+            "_ancestry": [
+                "L_ 7563",
+                "B_ {#AlApana#}",
+                "M_ .{@{#-nam#}@}"
+            ],
+            "_banner": ".{@{#-nam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AlApanam"
+                }
+            ],
+            "_meanings": [
+                ".²1 Speaking to, conversation.\n",
+                ".²2 Congratulation ({#svastivAcanam#}); benediction; {#maNgalAlApanErhomEH#}\n {#SoBitAH kzOmavAsasaH#} <ls>Rām. 1. 77. 12</ls>."
+            ]
+        }
     ]
 }

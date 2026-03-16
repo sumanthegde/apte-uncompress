@@ -1,19 +1,63 @@
 {
-    "__line": 177785,
+    "__line": 192642,
     "_ancestry": [
         "L_ 21512",
-        "B_ {#PuMPuA#}"
+        "B_ {#puYjiH#}"
     ],
-    "_banner": "{#PuMPuA#}",
+    "_banner": "{#puYjiH#}",
     "_bannerExp": [
         {
-            "Right": "PuMPuA"
+            "Right": "puYjiH"
         }
     ],
     "_gram": [
-        "{%<ab>ind.</ab>%}"
+        "{%f.%}"
     ],
     "_meanings": [
-        "Imitation of the\nsound made by the crackling of fire."
+        "A heap, quantity, mass.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 192644,
+            "_ancestry": [
+                "L_ 21512",
+                "B_ {#puYjiH#}",
+                "S_ .{@{#-zWaH#}@}"
+            ],
+            "_banner": ".{@{#-zWaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "puYjizWaH"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "heaped.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 192645,
+                    "_ancestry": [
+                        "L_ 21512",
+                        "B_ {#puYjiH#}",
+                        "S_ .{@{#-zWaH#}@}",
+                        "S_M_ ({@{#-zWaH#}@})"
+                    ],
+                    "_banner": "({@{#-zWaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "puYjizWaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>Ved.</ab>\n",
+                        ".²1 a fisherman.\n",
+                        ".²2 a bird-catcher."
+                    ]
+                }
+            ]
+        }
     ]
 }

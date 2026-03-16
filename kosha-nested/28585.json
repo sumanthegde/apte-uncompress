@@ -1,25 +1,66 @@
 {
-    "__line": 240263,
+    "__line": 264315,
     "_ancestry": [
         "L_ 28585",
-        "B_ {#saMraMBin#}"
+        "B_ {#varRin#}"
     ],
-    "_banner": "{#saMraMBin#}",
+    "_banner": "{#varRin#}",
     "_bannerExp": [
         {
-            "Right": "saMraMBiRI"
-        },
-        {
-            "Right": "saMraMBin"
+            "Right": "varRin"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#RI#}|{%<ab>f.</ab>%})"
+        "{%a.%}",
+        "[{#varRo'styasya ini#}]"
     ],
     "_meanings": [
-        "{@--1@} Excited,\nagitated, flurried; <ls>Śi. 2. 67.</ls> ",
-        "{@--2@}\nAngry, furious, enraged. ",
-        "{@--3@} Proud,\narrogant."
+        "(at the end of <ab>comp.</ab>)\n",
+        ".²1 Having the colour or appearance of; {#etasyAstO sutO devyAH kumArO#}\n {#devavarRinO#} <ls>Rām. 2. 92. 24</ls>.\n",
+        ".²2 Belonging to the caste of. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 264318,
+            "_ancestry": [
+                "L_ 28585",
+                "B_ {#varRin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#varRin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A painter.\n",
+                ".²2 A scribe, writer; {#‘varRI syAlleKake citrakAre'pi brahmacAriRi’ iti#}\n {#medinI#}; <ls>Mb. 12. 69. 57</ls>.\n",
+                ".²3 A religious student, a Brahmachārin <ab>q. v.</ab>; {#aTAha varRI#} <ls>Ku. 5. 65</ls>, <ls n=\"Ku. 5.\">52</ls>;\n {#varRASramARAM gurave sa varRI vicakzaRaH prastutamAcacakze#} <ls>R. 5. 19</ls>.\n",
+                ".²4 A person of any one of the four principal castes.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 264326,
+            "_ancestry": [
+                "L_ 28585",
+                "B_ {#varRin#}",
+                "S_ .{@{#-liNgin#}@}"
+            ],
+            "_banner": ".{@{#-liNgin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varRiliNgin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "disguised as, or wearing the marks of, a religious\n student; {#sa varRiliNgI viditaH samAyayO yuDizWiraM dvEtavane vanecaraH#} <ls>Ki. 1. 1</ls>."
+            ]
+        }
     ]
 }

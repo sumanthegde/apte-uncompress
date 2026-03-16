@@ -1,16 +1,88 @@
 {
-    "__line": 183183,
+    "__line": 197877,
     "_ancestry": [
         "L_ 22028",
-        "B_ {#BavinaH#}"
+        "B_ {#prakfta#}"
     ],
-    "_banner": "{#BavinaH#}",
+    "_banner": "{#prakfta#}",
     "_bannerExp": [
         {
-            "Right": "BavinaH"
+            "Right": "prakfta"
         }
     ],
+    "_gram": [
+        "{%<ab>p. p.</ab>%}"
+    ],
     "_meanings": [
-        "A poet; also {#Bavinin#} {%<ab>m.</ab>%}"
+        ".²1 Accomplished, completed; {#prakftajapaviDInAmAsyamudraSmidantam#} <ls>Śi. 11. 42</ls>.\n",
+        ".²2 Commenced, begun.\n",
+        ".²3 Appointed, charged.\n",
+        ".²4 Genuine, real.\n",
+        ".²5 Forming the subject of discussion, that which is under consideration,\n the subject in hand (often used in works on Alaṃkāra for {#upameya#})\n {#saMBAvanamaTotprekzA prakftasya samena yat#} <ls>K. P. 10</ls>.\n",
+        ".²6 Important, interesting.\n",
+        ".²7 Wished, expected. ",
+        ".²8 Original.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 197887,
+            "_ancestry": [
+                "L_ 22028",
+                "B_ {#prakfta#}",
+                "M_ .{@{#-tam#}@}"
+            ],
+            "_banner": ".{@{#-tam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftam"
+                }
+            ],
+            "_meanings": [
+                "The original subject, the matter or subject in hand; {#yAtu#},\n {#kimanena, prakftameva anusarAmaH#} ‘come to the point’.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 197890,
+            "_ancestry": [
+                "L_ 22028",
+                "B_ {#prakfta#}",
+                "S_ .{@{#-arTa#}@}"
+            ],
+            "_banner": ".{@{#-arTa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "prakftArTa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "having the original sense.\n",
+                ".²2 true, real.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 197892,
+                    "_ancestry": [
+                        "L_ 22028",
+                        "B_ {#prakfta#}",
+                        "S_ .{@{#-arTa#}@}",
+                        "S_M_ ({@{#-rTaH#}@})"
+                    ],
+                    "_banner": "({@{#-rTaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "prakftArTaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the original sense."
+                    ]
+                }
+            ]
+        }
     ]
 }

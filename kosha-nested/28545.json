@@ -1,18 +1,60 @@
 {
-    "__line": 239947,
+    "__line": 263865,
     "_ancestry": [
         "L_ 28545",
-        "B_ {#zWiv#}"
+        "B_ {#varUTin#}"
     ],
-    "_banner": "{#zWiv#}",
+    "_banner": "{#varUTin#}",
     "_bannerExp": [
         {
-            "Right": "zWiv"
+            "Right": "varUTin"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{1} {c4c} <ab>P.</ab> ({#zWIvati, zWIvyati#}, \n{#zWyUta#}) ",
-        "{@--1@} To spit, eject saliva from the\nmouth. ",
-        "{@--2@} To sputter; <ls>Bk. 12. 18.</ls>"
+        ".²1 Wearing an armour, mailed.\n",
+        ".²2 Furnished with a fender or protecting plank; {#avanimekaraTena varUTinA#}\n {#jitavataH kila tasya DanurBftaH#} <ls>R. 9. 11</ls>.\n",
+        ".²3 Protecting, sheltering.\n",
+        ".²4 Surrounded by a troop.\n",
+        ".²5 Being or seated in a carriage. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 263871,
+            "_ancestry": [
+                "L_ 28545",
+                "B_ {#varUTin#}",
+                "M_ --{%m.%}"
+            ],
+            "_banner": "--{%m.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#varUTin#} M_ --{%m.%}"
+                }
+            ],
+            "_meanings": [
+                ".²1 A chariot; {#varUTinA vinizpatya vyacarat pftanAmuKe#} <ls>Mb. 7. 13. 23</ls>; <ls>Śi. 17. 23</ls>.\n",
+                ".²2 A guard, defender.\n"
+            ]
+        },
+        {
+            "__line": 263874,
+            "_ancestry": [
+                "L_ 28545",
+                "B_ {#varUTin#}",
+                "M_ .{@{#-nI#}@}"
+            ],
+            "_banner": ".{@{#-nI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "varUTinI"
+                }
+            ],
+            "_meanings": [
+                "An army; {#sKalitasalilAmullaNGyEnAM jagAma varUTinI#} <ls>Śi. 12. 77</ls>;\n <ls>R. 12. 50</ls>."
+            ]
+        }
     ]
 }

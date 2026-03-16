@@ -1,40 +1,90 @@
 {
-    "__line": 172491,
+    "__line": 186329,
     "_ancestry": [
         "L_ 20811",
-        "B_ {#praSasta#}"
+        "B_ {#palalaH#}"
     ],
-    "_banner": "{#praSasta#}",
+    "_banner": "{#palalaH#}",
     "_bannerExp": [
         {
-            "Right": "praSasta"
+            "Right": "palalaH"
         }
     ],
-    "_gram": [
-        "{%<ab>p. p.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Praised, lauded,\ncommended, eulogised. ",
-        "{@--2@} \nPraiseworthy, commendable. ",
-        "{@--3@} Best, \nexcellent. ",
-        "{@--4@} Blossed, happy, \nauspicious. "
+        "A demon, goblin, an evil spirit.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 172495,
+            "__line": 186330,
             "_ancestry": [
                 "L_ 20811",
-                "B_ {#praSasta#}",
-                "S_  {#--adriH#}"
+                "B_ {#palalaH#}",
+                "M_ .{@{#-lam#}@}"
             ],
-            "_banner": " {#--adriH#}",
+            "_banner": ".{@{#-lam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "praSastAdriH"
+                    "Right": "palalam"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab> of a \nmountain."
+                ".²1 Flesh.\n",
+                ".²2 Mire, mud.\n",
+                ".²3 A sweetmeat made of ground sesamum and sugar.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 186335,
+            "_ancestry": [
+                "L_ 20811",
+                "B_ {#palalaH#}",
+                "S_ .{@{#-ASayaH#}@}"
+            ],
+            "_banner": ".{@{#-ASayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palalASayaH"
+                }
+            ],
+            "_meanings": [
+                "swelled neck.\n"
+            ]
+        },
+        {
+            "__line": 186336,
+            "_ancestry": [
+                "L_ 20811",
+                "B_ {#palalaH#}",
+                "S_ .{@{#-jvaraH#}@}"
+            ],
+            "_banner": ".{@{#-jvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palalajvaraH"
+                }
+            ],
+            "_meanings": [
+                "gall, bile.\n"
+            ]
+        },
+        {
+            "__line": 186337,
+            "_ancestry": [
+                "L_ 20811",
+                "B_ {#palalaH#}",
+                "S_ .{@{#-priyaH#}@}"
+            ],
+            "_banner": ".{@{#-priyaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "palalapriyaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a raven.\n",
+                ".²2 a demon."
             ]
         }
     ]

@@ -1,60 +1,78 @@
 {
-    "__line": 244637,
+    "__line": 269755,
     "_ancestry": [
         "L_ 29136",
-        "B_ {#saMtApana#}"
+        "B_ {#vAhanam#}"
     ],
-    "_banner": "{#saMtApana#}",
+    "_banner": "{#vAhanam#}",
     "_bannerExp": [
         {
-            "Right": "saMtApanI"
-        },
-        {
-            "Right": "saMtApana"
+            "Right": "vAhanam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#nI#}|{%<ab>f.</ab>%})"
+        "[{#vAhayati vah-Ric lyu lyuw vA#}]"
     ],
     "_meanings": [
-        "Burning, \ninflaming. "
+        ".²1 Bearing, carrying, conveying.\n",
+        ".²2 Driving (as a horse).\n",
+        ".²3 A vehicle, conveyance of any kind; <ls>Ms. 7. 75</ls>; {#nijAnujenAtiTitAmupetaH#}\n {#prAcIpatervAhanavAraRena#} <ls>N. 22. 45</ls>.\n",
+        ".²4 An animal used in riding or draught, as a horse; {#sa duzprApayaSAH#}\n {#prApadASramaM SrAnta-vAhanaH#}\n\n <ls>R. 1. 48</ls>, <ls n=\"R.\">9. 25</ls>, <ls n=\"R. 9.\">60</ls>.\n",
+        ".²5 An elephant.\n",
+        ".²6 An oar; {#asya vAhanasaMyuktAM … nAvamupAhara#} <ls>Rām. 2. 52. 6</ls>.\n"
     ],
     "_morphisms": [
         {
-            "__line": 244638,
+            "__line": 269766,
             "_ancestry": [
                 "L_ 29136",
-                "B_ {#saMtApana#}",
-                "M_ {#--naH#}"
+                "B_ {#vAhanam#}",
+                "M_ .{@{#-nA#}@}"
             ],
-            "_banner": "{#--naH#}",
+            "_banner": ".{@{#-nA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMtApanaH"
+                    "Right": "vAhanA"
                 }
             ],
             "_meanings": [
-                "<ab>N.</ab> of one of the 5 \narrows of Cupid. "
+                "An army; {#vAhanAjani#} <ls>Śi. 19. 33</ls>.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 269768,
+            "_ancestry": [
+                "L_ 29136",
+                "B_ {#vAhanam#}",
+                "S_ .{@{#-paH#}@}"
+            ],
+            "_banner": ".{@{#-paH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vAhanapaH"
+                }
+            ],
+            "_meanings": [
+                "a groom.\n"
             ]
         },
         {
-            "__line": 244639,
+            "__line": 269769,
             "_ancestry": [
                 "L_ 29136",
-                "B_ {#saMtApana#}",
-                "M_ {#--naM#}"
+                "B_ {#vAhanam#}",
+                "S_ .{@{#-SrezWaH#}@}"
             ],
-            "_banner": "{#--naM#}",
+            "_banner": ".{@{#-SrezWaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "saMtApanaM"
+                    "Right": "vAhanaSrezWaH"
                 }
             ],
             "_meanings": [
-                "{@--1@} Burning,\nscorching. ",
-                "{@--2@} Paining, afflicting. ",
-                "{@--3@}\nExciting passion."
+                "a horse."
             ]
         }
     ]

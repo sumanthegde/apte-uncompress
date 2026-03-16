@@ -1,21 +1,99 @@
 {
-    "__line": 210930,
+    "__line": 223482,
     "_ancestry": [
         "L_ 24877",
-        "B_ {#vajrin#}"
+        "B_ {#BawaH#}"
     ],
-    "_banner": "{#vajrin#}",
+    "_banner": "{#BawaH#}",
     "_bannerExp": [
         {
-            "Right": "vajrin"
+            "Right": "BawaH"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "[{#Baw-ac#}]"
     ],
     "_meanings": [
-        "{@--1@} <ab>N.</ab> of Indra; {#nanu#} \n{#vajriRa eva vIryametadvijayaMte dvizato yadasya#}\n{#pakzyAH#} <ls>V. 1. 15</ls>; <ls>R. 9. 24.</ls> ",
-        "{@--2@} An\nowl. ",
-        "{@--3@} A Buddha saint."
+        ".²1 A warrior, soldier, combatant; {#dInaparijanakftASrujalo na BawIjanaH#}\n {#sTiramanA vicaklame#} <ls>Śi. 15. 93</ls>; {#tadBawacAturIturI#} <ls>N. 1. 12</ls>; {#vAditrasfzwirGawate#}\n {#Bawasya#} <ls n=\"N.\">22. 22</ls>; <ls>Bk. 14. 101</ls>.\n",
+        ".²2 A mercenary, hired soldier, hireling.\n",
+        ".²3 An outcast, a barbarian.\n",
+        ".²4 A demon.\n",
+        ".²5 <ab>N.</ab> of a degraded tribe.\n",
+        ".²6 A servant, slave.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 223491,
+            "_ancestry": [
+                "L_ 24877",
+                "B_ {#BawaH#}",
+                "M_ .{@{#-wA#}@}"
+            ],
+            "_banner": ".{@{#-wA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BawA"
+                }
+            ],
+            "_meanings": [
+                "Coloquintida ({#iMdravAruRI#}).\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 223493,
+            "_ancestry": [
+                "L_ 24877",
+                "B_ {#BawaH#}",
+                "S_ .{@{#-pewakam#}@}"
+            ],
+            "_banner": ".{@{#-pewakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Bawapewakam"
+                }
+            ],
+            "_meanings": [
+                "a troop of soldiers.\n"
+            ]
+        },
+        {
+            "__line": 223494,
+            "_ancestry": [
+                "L_ 24877",
+                "B_ {#BawaH#}",
+                "S_ .{@{#-balAgraH#}@}"
+            ],
+            "_banner": ".{@{#-balAgraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BawabalAgraH"
+                }
+            ],
+            "_meanings": [
+                "a hero; <ls>Buddh.</ls>\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 223495,
+                    "_ancestry": [
+                        "L_ 24877",
+                        "B_ {#BawaH#}",
+                        "S_ .{@{#-balAgraH#}@}",
+                        "S_M_ ({@{#-gram#}@})"
+                    ],
+                    "_banner": "({@{#-gram#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "BawabalAgram"
+                        }
+                    ],
+                    "_meanings": [
+                        "an army."
+                    ]
+                }
+            ]
+        }
     ]
 }

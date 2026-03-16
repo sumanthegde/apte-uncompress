@@ -1,21 +1,69 @@
 {
-    "__line": 234330,
+    "__line": 257320,
     "_ancestry": [
         "L_ 27860",
-        "B_ {#SArMgin#}"
+        "B_ {#lalAma#}"
     ],
-    "_banner": "{#SArMgin#}",
+    "_banner": "{#lalAma#}",
     "_bannerExp": [
         {
-            "Right": "SArMgin"
+            "Right": "lalAma"
+        },
+        {
+            "Right": "lalAmI"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "({#-mI#}|{%f.%})"
     ],
     "_meanings": [
-        "{@--1@} An archer, a bowman.\n",
-        "{@--2@} An epithet of Viṣṇu;  \n{#DarmasaMrakzaRArTEva pravfttirBuvi SAMrgiRaH#} <ls>R. 15. 4.</ls> <ls n=\"R.\">12. 70</ls>; \n<ls>Me. 46.</ls> ",
-        "{@--3@} Of Śiva."
+        ".²1 Beautiful, lovely, charming.\n",
+        ".²2 Having a mark on the forehead marked with a blaze.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 257323,
+            "_ancestry": [
+                "L_ 27860",
+                "B_ {#lalAma#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lalAmam"
+                }
+            ],
+            "_meanings": [
+                ".²1 An ornament for the forehead, an ornament or decoration in general;\n ({%m.%} also in this sense); {#sadyaH punAti sahacandralalAmalokAn#} <ls>Bhāg. 3. 16. 9</ls>;\n {#ahaM tu tAmASramalalAmaBUtAM SakuntalAmaDikftya bravImi#}\n <ls>Ś. 2</ls>; <ls>Śi. 4. 28</ls>.\n",
+                ".²2 Anything the best of its kind.\n",
+                ".²3 A mark on the forehead.\n",
+                ".²4 A sign, symbol, mark in general.\n",
+                ".²5 A banner, flag.\n",
+                ".²6 A row, series, line.\n",
+                ".²7 A tail.\n",
+                ".²8 A mane.\n\n",
+                ".²9 Eminence, dignity, beauty.\n",
+                ".²10 A horn.\n"
+            ]
+        },
+        {
+            "__line": 257338,
+            "_ancestry": [
+                "L_ 27860",
+                "B_ {#lalAma#}",
+                "M_ .{@{#-maH#}@}"
+            ],
+            "_banner": ".{@{#-maH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "lalAmaH"
+                }
+            ],
+            "_meanings": [
+                "A horse; <ls>Mb. 7. 23. 13</ls> (<ab>com.</ab> {#‘SvetaM lalAwamaDyasTaM tArArUpaM#}\n {#hayasya yat . lalAmaM cApi tatprAhurlalAmASvastadanvitaH ..’#})."
+            ]
+        }
     ]
 }

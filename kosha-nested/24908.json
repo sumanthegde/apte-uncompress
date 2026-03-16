@@ -1,17 +1,55 @@
 {
-    "__line": 211124,
+    "__line": 223780,
     "_ancestry": [
         "L_ 24908",
-        "B_ {#vaRijaH#}"
+        "B_ {#Badravat#}"
     ],
-    "_banner": "{#vaRijaH#}",
+    "_banner": "{#Badravat#}",
     "_bannerExp": [
         {
-            "Right": "vaRijaH"
+            "Right": "Badravat"
         }
     ],
+    "_gram": [
+        "{%a.%}"
+    ],
     "_meanings": [
-        "{@--1@} A merchant, trader. ",
-        "{@--2@}\nThe sign {%Libra%} of the zodiac."
+        "Auspicious. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 223780,
+            "_ancestry": [
+                "L_ 24908",
+                "B_ {#Badravat#}",
+                "M_ --{%n.%}"
+            ],
+            "_banner": "--{%n.%}",
+            "_bannerExp": [
+                {
+                    "Left": "Parser error: {#Badravat#} M_ --{%n.%}"
+                }
+            ],
+            "_meanings": [
+                "The Devadāru tree.\n"
+            ]
+        },
+        {
+            "__line": 223781,
+            "_ancestry": [
+                "L_ 24908",
+                "B_ {#Badravat#}",
+                "M_ .{@{#-tI#}@}"
+            ],
+            "_banner": ".{@{#-tI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BadravatI"
+                }
+            ],
+            "_meanings": [
+                "A wanton woman, courtezan."
+            ]
+        }
     ]
 }

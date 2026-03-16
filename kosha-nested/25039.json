@@ -1,43 +1,79 @@
 {
-    "__line": 212186,
+    "__line": 225028,
     "_ancestry": [
         "L_ 25039",
-        "B_ {#vayoDA#}"
+        "B_ {#BAjanam#}"
     ],
-    "_banner": "{#vayoDA#}",
+    "_banner": "{#BAjanam#}",
     "_bannerExp": [
         {
-            "Right": "vayoDA"
+            "Right": "BAjanam"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#BAjyate'nena BAj-lyuw#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> ",
-        "{@--1@} Powerful, \nvigorous. ",
-        "{@--2@} Giving strength or health.\n",
-        "{@--3@} Giving food. "
+        ".²1 Sharing, dividing.\n",
+        ".²2 Division (in <ab>arith.</ab>).\n",
+        ".²3 A vessel, pot, cup, plate; {#puzpaBAjanam#} <ls>Ś. 4</ls>; <ls>R. 5. 22</ls>.\n",
+        ".²4 (<ab>Fig.</ab>) A receptacle, recipient, repository; {#sa Sriyo BAjanaM naraH#}\n <ls>Pt. 1. 243</ls>; {#kalyARAnAM tvamasi mahatAM BAjanaM viSvamUrte#} <ls>Māl. 1. 3</ls>;\n {#Ehikasya suKasyABAjanamayaM janaH#} <ls>Dk.</ls>; <ls>U. 3. 15</ls>; <ls>M. 5. 8</ls>.\n",
+        ".²5 A fit or deserving person, a fit object or person; {#BavAdfSA eva Bavanti#}\n {#BAjanAnyupadeSAnAm#} <ls>K. 108</ls>; {#guruRA jYAnasarvasve santozAdBAjanIkftaH#} <ls>Bm. 1. 40</ls>.\n",
+        ".²6 Representation.\n",
+        ".²7 A measure equal to 64 {%palas%}.\n"
     ],
     "_morphisms": [
         {
-            "__line": 212188,
+            "__line": 225039,
             "_ancestry": [
                 "L_ 25039",
-                "B_ {#vayoDA#}",
-                "M_ {#--DAH#}"
+                "B_ {#BAjanam#}",
+                "M_ .{@{#-leKitam#}@}"
             ],
-            "_banner": "{#--DAH#}",
+            "_banner": ".{@{#-leKitam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vayoDAH"
+                    "Left": "1Align error: BAjanaM leKitaM"
                 }
             ],
-            "_gram": [
-                "{%<ab>f.</ab>%}"
+            "_meanings": [
+                "A variety of diamonds capable of scratching on the surface\n of vessels; <ls>Kau. A. 2. 11. 29</ls>.\n"
+            ]
+        },
+        {
+            "__line": 225041,
+            "_ancestry": [
+                "L_ 25039",
+                "B_ {#BAjanam#}",
+                "M_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Left": "1Align error: BAjanaM lokaH"
+                }
             ],
             "_meanings": [
-                "Strength,\npower."
+                "the world of inanimate things (<ab>opp.</ab> to {#sattvaloka#}); <ls>Buddh.</ls>\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 225043,
+            "_ancestry": [
+                "L_ 25039",
+                "B_ {#BAjanam#}",
+                "S_ .{@{#-vizamaH#}@}"
+            ],
+            "_banner": ".{@{#-vizamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BAjanavizamaH"
+                }
+            ],
+            "_meanings": [
+                "One of the ways of embezzlement, namely use of false\n cubic measures such as {#BAjana#}; <ls>Kau. A. 2. 8. 26</ls>."
             ]
         }
     ]

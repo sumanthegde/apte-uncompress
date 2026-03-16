@@ -1,19 +1,61 @@
 {
-    "__line": 143907,
+    "__line": 149164,
     "_ancestry": [
         "L_ 17114",
-        "B_ {#nivftiH#}"
+        "B_ {#daSama#}"
     ],
-    "_banner": "{#nivftiH#}",
+    "_banner": "{#daSama#}",
     "_bannerExp": [
         {
-            "Right": "nivftiH"
+            "Right": "daSama"
+        },
+        {
+            "Right": "daSamI"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%n.%}",
+        ".({@{#-mI#}@}|{%f.%})"
     ],
     "_meanings": [
-        "Covering, enclosing."
+        "Tenth.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 149166,
+            "_ancestry": [
+                "L_ 17114",
+                "B_ {#daSama#}",
+                "M_ .{@{#-mam#}@}"
+            ],
+            "_banner": ".{@{#-mam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSamam"
+                }
+            ],
+            "_meanings": [
+                "A tenth part\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 149168,
+            "_ancestry": [
+                "L_ 17114",
+                "B_ {#daSama#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "daSamaBAvaH"
+                }
+            ],
+            "_meanings": [
+                "the culminating point, the point in which the meridian\n crosses a given circle."
+            ]
+        }
     ]
 }

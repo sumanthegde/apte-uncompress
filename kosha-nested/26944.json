@@ -1,44 +1,56 @@
 {
-    "__line": 227312,
+    "__line": 246962,
     "_ancestry": [
         "L_ 26944",
-        "B_ {#vedin#}"
+        "B_ {#yavya#}"
     ],
-    "_banner": "{#vedin#}",
+    "_banner": "{#yavya#}",
     "_bannerExp": [
         {
-            "Right": "vedin"
+            "Right": "yavya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#vid-Rini#}]"
+        "{%a.%}",
+        "[{#yavAnAM kzetraM yava-yat#}]"
     ],
     "_meanings": [
-        "{@--1@} Knowing;\nas in {#kftavedin#}. ",
-        "{@--2@} Marrying. "
+        ".²1 Sown with or consisting of barley.\n",
+        ".²2 Suitable or fit for barley.\n"
     ],
     "_morphisms": [
         {
-            "__line": 227313,
+            "__line": 246965,
             "_ancestry": [
                 "L_ 26944",
-                "B_ {#vedin#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#yavya#}",
+                "M_ .{@{#-vyaH#}@}"
             ],
+            "_banner": ".{@{#-vyaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vedin"
+                    "Right": "yavyaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}"
+            "_meanings": [
+                "A month.\n"
+            ]
+        },
+        {
+            "__line": 246966,
+            "_ancestry": [
+                "L_ 26944",
+                "B_ {#yavya#}",
+                "M_ .{@{#-vyam#}@}"
+            ],
+            "_banner": ".{@{#-vyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "yavyam"
+                }
             ],
             "_meanings": [
-                "{@--1@}\nA knower. ",
-                "{@--2@} A teacher. ",
-                "{@--3@} A\nlearned Brāhmaṇa. ",
-                "{@--4@} An epithet\nof Brahman."
+                "A field of barley."
             ]
         }
     ]

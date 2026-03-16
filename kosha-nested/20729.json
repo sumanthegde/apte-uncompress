@@ -1,22 +1,43 @@
 {
-    "__line": 171971,
+    "__line": 185652,
     "_ancestry": [
         "L_ 20729",
-        "B_ {#pravicar#}"
+        "B_ {#paryavasita#}"
     ],
-    "_banner": "{#pravicar#}",
+    "_banner": "{#paryavasita#}",
     "_bannerExp": [
         {
-            "Right": "pravicar"
+            "Right": "paryavasita"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} To roam about. ",
-        "{@--2@}\nTo move onward, advance. ",
-        "{@--3@} To\nwander through."
+        ".²1 Finished, ended, completed.\n",
+        ".²2 Perished, lost.\n",
+        ".²3 Determined.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 185657,
+            "_ancestry": [
+                "L_ 20729",
+                "B_ {#paryavasita#}",
+                "S_ .{@{#-mati#}@}"
+            ],
+            "_banner": ".{@{#-mati#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "paryavasitamati"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "thoroughly acquainted."
+            ]
+        }
     ]
 }

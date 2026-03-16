@@ -1,19 +1,46 @@
 {
-    "__line": 208204,
+    "__line": 219533,
     "_ancestry": [
         "L_ 24560",
-        "B_ {#lAMgUlin#}"
+        "B_ {#bAQa#}"
     ],
-    "_banner": "{#lAMgUlin#}",
+    "_banner": "{#bAQa#}",
     "_bannerExp": [
         {
-            "Right": "lAMgUlin"
+            "Right": "bAQa"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "{%a.%}",
+        "({%<ab>compar.</ab>%}|{#sADIyas#}|{%<ab>superl.</ab>%}|{#sADizWa#})"
     ],
     "_meanings": [
-        "A monkey, an ape."
+        ".²1 Firm, strong.\n",
+        ".²2 Much, excessive.\n",
+        ".²3 Loud.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 219537,
+            "_ancestry": [
+                "L_ 24560",
+                "B_ {#bAQa#}",
+                "M_ .{@{#-Qam#}@}"
+            ],
+            "_banner": ".{@{#-Qam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "bAQam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                ".²1 Assuredly, certainly, surely, really; oh yes? (in answer\n\n to questions); {#tAM bAQamityupAmantrya praviSya gajasAhvayam#} <ls>Bhāg. 1. 8. 45</ls>;\n {#cARakyaH--candanadAsa eza te niScayaH . candana˚ -bAQam eza#}\n {#me sTiro niScayaH#} <ls>Mu. 1</ls>; {#bAQamezu divasezu pArTivaH karma sADayati#}\n {#putrajanmane#} <ls>R. 19. 52</ls>.\n",
+                ".²2 Very well, be it so, good; <ls>Māl. 1. 15</ls>, <ls n=\"Māl. 1.\">16</ls>.\n",
+                ".²3 Exceedingly, very much; {#vapurAdarAtiSayaSaMsi punaH pratipattimUQamapi#}\n {#bAQamaBUt#} <ls>Śi. 9. 77</ls>."
+            ]
+        }
     ]
 }

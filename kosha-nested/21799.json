@@ -1,23 +1,36 @@
 {
-    "__line": 180606,
+    "__line": 196249,
     "_ancestry": [
         "L_ 21799",
-        "B_ {#buw#}"
+        "B_ {#petvam#}"
     ],
-    "_banner": "{#buw#}",
+    "_banner": "{#petvam#}",
     "_bannerExp": [
         {
-            "Right": "buw"
+            "Right": "petvam"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "{c10c}",
-        "<ab>U.</ab>",
-        "({#bowati, bowayati-te#})"
-    ],
     "_meanings": [
-        "To hurt, injure, kill."
+        ".²1 Nectar.\n",
+        ".²2 Ghee.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 196252,
+            "_ancestry": [
+                "L_ 21799",
+                "B_ {#petvam#}",
+                "M_ .{@{#-tvaH#}@}"
+            ],
+            "_banner": ".{@{#-tvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "petvaH"
+                }
+            ],
+            "_meanings": [
+                "A ram (?)."
+            ]
+        }
     ]
 }

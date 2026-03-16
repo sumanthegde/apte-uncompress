@@ -1,21 +1,40 @@
 {
-    "__line": 190877,
+    "__line": 204160,
     "_ancestry": [
         "L_ 22765",
-        "B_ {#marb#}"
+        "B_ {#pratud#}"
     ],
-    "_banner": "{#marb#}",
+    "_banner": "{#pratud#}",
     "_bannerExp": [
         {
-            "Right": "marb"
+            "Right": "pratud"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#marbati#})"
+        "€6",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "To go, move."
+        "To strike, hurt, wound. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 204160,
+            "_ancestry": [
+                "L_ 22765",
+                "B_ {#pratud#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pratud"
+                }
+            ],
+            "_meanings": [
+                ".²1 To urge on, drive forward; (<ab>fig.</ab>) to press, urge repeatedly (to do\n a thing): {#praviSa gfhamiti pratodyamAnA na calati BAgyakftAM daSAmavekzya#} <ls>Mk. 1. 56</ls>.\n",
+                ".²2 To pierce, cut."
+            ]
+        }
     ]
 }

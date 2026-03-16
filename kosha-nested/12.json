@@ -1,63 +1,170 @@
 {
-    "__line": 1044,
+    "__line": 169,
     "_ancestry": [
         "L_ 12",
-        "B_ {#aMSumat#}"
+        "B_ {#aMSuH#}"
     ],
-    "_banner": "{#aMSumat#}",
+    "_banner": "{#aMSuH#}",
     "_bannerExp": [
         {
-            "Right": "aMSumat"
+            "Right": "aMSuH"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "[{#aMSu-astyarTe matup#}]"
+        "[{#aMS-mfga˚ ku#}.]"
     ],
     "_meanings": [
-        "{@--1@} \nLuminous, radiant; {#jyotizAM raviraMSumAn#}\n<ls>Bg. 10. 21.</ls> ",
-        "{@--2@} Pointed. ",
-        "{@--3@} Fibrous,\nabounding in filaments (<ab>Ved.</ab>).\n"
+        ".²1 A ray, beam of light; {#caRqa˚, Garma˚#} hot-rayed, the sun; {#sUryASuBirBinnamivArAvindam#}\n <ls>Ku. 1. 32</ls>; lustre, brilliance {#caRqAMSukiraRABASca hArAH#} <ls>Rām. 5. 9. 48</ls>;\n <ls>Śi. 1. 9</ls>. {#ratna˚, naKa˚#} <ab>&c.</ab>\n",
+        ".²2 A point or end.\n",
+        ".²3 A small or minute particle.\n",
+        ".²4 End of a thread.\n",
+        ".²5 A filament, especially of the Soma plant (<ab>Ved.</ab>)\n",
+        ".²6 Garment; decoration.\n",
+        ".²7 <ab>N.</ab> of a sage or of a prince.\n",
+        ".²8 Speed, velocity ({#vega#}).\n",
+        ".²9 Fine thread\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 1048,
+            "__line": 182,
             "_ancestry": [
                 "L_ 12",
-                "B_ {#aMSumat#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#aMSuH#}",
+                "S_ .{@{#-udakam#}@}"
             ],
+            "_banner": ".{@{#-udakam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "aMSumat"
+                    "Right": "aMSUdakam"
                 }
             ],
-            "_gram": [
-                "{%--<ab>m.</ab>%}",
-                "({#mAn#})"
-            ],
             "_meanings": [
-                "{@--1@} The sun;  \n{#vAlaKilyErivAMSumAn#} <ls>R. 15. 10</ls>, <ls>Ki. 11. 6</ls>,  \n<ls>Y. 3. 144</ls>; sometimes the moon also. ",
-                "{@--2@}\n<ab>N.</ab> of the grandson of Sagara, son\nof Asamañjasa and father of Dilīpa.\n",
-                "{@--3@} <ab>N.</ab> of a mountain; {#°matPalA#} <ab>N.</ab> of\na plant {#kadalI#} Musa Sapientum or \nParadisiaca. "
+                "dew-water.\n"
             ]
         },
         {
-            "__line": 1055,
+            "__line": 183,
             "_ancestry": [
                 "L_ 12",
-                "B_ {#aMSumat#}",
-                "M_ {#--tI#}"
+                "B_ {#aMSuH#}",
+                "S_ .{@{#-jAlam#}@}"
             ],
-            "_banner": "{#--tI#}",
+            "_banner": ".{@{#-jAlam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "aMSumatI"
+                    "Right": "aMSujAlam"
                 }
             ],
             "_meanings": [
-                "{@--1@} <ab>N.</ab> of a plant  \n{#sAlaparRI#} (<ab>Mar.</ab> {#qavalA, sAlavaRa#}) Hedysarum\nGangeticum. ",
-                "{@--2@} <ab>N.</ab> of the river\nYamunā."
+                "a collection of rays, a blaze or halo of light.\n"
+            ]
+        },
+        {
+            "__line": 184,
+            "_ancestry": [
+                "L_ 12",
+                "B_ {#aMSuH#}",
+                "S_ .{@{#-DaraH, -patiH, -Bft, -bARaH, -Brtf, -svAmin#}@}"
+            ],
+            "_banner": ".{@{#-DaraH, -patiH, -Bft, -bARaH, -Brtf, -svAmin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aMSuDaraH"
+                },
+                {
+                    "Right": "aMSupatiH"
+                },
+                {
+                    "Right": "aMSuBft"
+                },
+                {
+                    "Right": "aMSubARaH"
+                },
+                {
+                    "Left": "S error: 1 syl bARaH Brtf"
+                },
+                {
+                    "Right": "aMSusvAmin"
+                }
+            ],
+            "_meanings": [
+                "the sun, (bearer or lord of rays).\n"
+            ]
+        },
+        {
+            "__line": 185,
+            "_ancestry": [
+                "L_ 12",
+                "B_ {#aMSuH#}",
+                "S_ .{@{#-pawwam#}@}"
+            ],
+            "_banner": ".{@{#-pawwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aMSupawwam"
+                }
+            ],
+            "_meanings": [
+                "a kind of silken cloth ({#aMSunA sUkzmasUtreRayuktaM pawwam#});\n {#saSrIPalEraMSupawwam#} <ls>Y. 1. 186</ls>; {#SrIPalEraMSupawwAnAM#} <ls>Ms. 5. 120</ls>.\n"
+            ]
+        },
+        {
+            "__line": 187,
+            "_ancestry": [
+                "L_ 12",
+                "B_ {#aMSuH#}",
+                "S_ .{@{#-mAlA#}@}"
+            ],
+            "_banner": ".{@{#-mAlA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aMSumAlA"
+                }
+            ],
+            "_meanings": [
+                "a garland of light, halo.\n"
+            ]
+        },
+        {
+            "__line": 188,
+            "_ancestry": [
+                "L_ 12",
+                "B_ {#aMSuH#}",
+                "S_ .{@{#-mAlin#}@}"
+            ],
+            "_banner": ".{@{#-mAlin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aMSumAlin"
+                }
+            ],
+            "_gram": [
+                "{%m.%}",
+                "[{#aMSavo mAleva, tataH astyarTe ini#}]"
+            ],
+            "_meanings": [
+                ".²1 the sun (wreathed with, surrounded by, rays).\n",
+                ".²2 the number twelve.\n"
+            ]
+        },
+        {
+            "__line": 191,
+            "_ancestry": [
+                "L_ 12",
+                "B_ {#aMSuH#}",
+                "S_ .{@{#-hastaH#}@}"
+            ],
+            "_banner": ".{@{#-hastaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aMSuhastaH"
+                }
+            ],
+            "_gram": [
+                "[{#aMSuH hasta iva yasya#}]"
+            ],
+            "_meanings": [
+                "the sun (who draws up water\n from the earth by means of his 1000 hands in the form of rays)."
             ]
         }
     ]

@@ -1,21 +1,56 @@
 {
-    "__line": 211154,
+    "__line": 223837,
     "_ancestry": [
         "L_ 24915",
-        "B_ {#vaMwAlaH, --vaMqAlaH#}"
+        "B_ {#BaMBaH#}"
     ],
-    "_banner": "{#vaMwAlaH, --vaMqAlaH#}",
+    "_banner": "{#BaMBaH#}",
     "_bannerExp": [
         {
-            "Right": "vaMqAlaH"
-        },
-        {
-            "Right": "vaMwAlaH"
+            "Right": "BamBaH"
         }
     ],
     "_meanings": [
-        "{@--1@} A contest of \nheroes. ",
-        "{@--2@} A shovel, hoe. ",
-        "{@--3@} A boat."
+        ".²1 A fly.\n",
+        ".²2 Smoke.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 223840,
+            "_ancestry": [
+                "L_ 24915",
+                "B_ {#BaMBaH#}",
+                "M_ .{@{#-BaH, -Bam#}@}"
+            ],
+            "_banner": ".{@{#-BaH, -Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BamBaH"
+                },
+                {
+                    "Right": "BamBam"
+                }
+            ],
+            "_meanings": [
+                "The mouth of an oven or stove.\n"
+            ]
+        },
+        {
+            "__line": 223841,
+            "_ancestry": [
+                "L_ 24915",
+                "B_ {#BaMBaH#}",
+                "M_ .{@{#-BA#}@}"
+            ],
+            "_banner": ".{@{#-BA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "BamBA"
+                }
+            ],
+            "_meanings": [
+                "A kettle-drum."
+            ]
+        }
     ]
 }

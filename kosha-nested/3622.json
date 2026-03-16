@@ -1,19 +1,40 @@
 {
-    "__line": 33366,
+    "__line": 30806,
     "_ancestry": [
         "L_ 3622",
-        "B_ {#aByasUya#}"
+        "B_ {#aBiruc#}"
     ],
-    "_banner": "{#aByasUya#}",
+    "_banner": "{#aBiruc#}",
     "_bannerExp": [
         {
-            "Right": "aByasUya"
+            "Right": "aBiruc"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>Ā.</ab>"
     ],
     "_meanings": [
-        "Angry, jealous."
+        "²1 To shine, look finely; {#Darmo'Birocate yasmAdDarmarAjastataH smftaH#} <ls>Mārk. P.</ls>\n",
+        ".²2 To like, desire; {#yadaBirocate#} or {#aBirucitaM Bavate#} <ls>V. 2</ls> "
+    ],
+    "_morphisms": [
+        {
+            "__line": 30808,
+            "_ancestry": [
+                "L_ 3622",
+                "B_ {#aBiruc#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "aBiruc"
+                }
+            ],
+            "_meanings": [
+                "To be inclined to, have a taste or liking for, long, desire or wish for."
+            ]
+        }
     ]
 }

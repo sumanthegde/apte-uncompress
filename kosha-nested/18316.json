@@ -1,22 +1,72 @@
 {
-    "__line": 153842,
+    "__line": 162874,
     "_ancestry": [
         "L_ 18316",
-        "B_ {#parisamApanaM, parisamAptiH#}"
+        "B_ {#naBa#}"
     ],
-    "_banner": "{#parisamApanaM, parisamAptiH#}",
+    "_banner": "{#naBa#}",
     "_bannerExp": [
         {
-            "Right": "parisamApanaM"
-        },
-        {
-            "Right": "parisamAptiH"
+            "Right": "naBa"
         }
     ],
     "_gram": [
-        "{%<ab>f.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Finishing, completing."
+        "Killing, hurting.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 162875,
+            "_ancestry": [
+                "L_ 18316",
+                "B_ {#naBa#}",
+                "M_ .{@{#-BaH#}@}"
+            ],
+            "_banner": ".{@{#-BaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBaH"
+                }
+            ],
+            "_meanings": [
+                "The month Śrāvaṇa.\n"
+            ]
+        },
+        {
+            "__line": 162876,
+            "_ancestry": [
+                "L_ 18316",
+                "B_ {#naBa#}",
+                "M_ .{@{#-Bam#}@}"
+            ],
+            "_banner": ".{@{#-Bam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBam"
+                }
+            ],
+            "_meanings": [
+                "The sky, atmosphere.\n"
+            ]
+        },
+        {
+            "__line": 162877,
+            "_ancestry": [
+                "L_ 18316",
+                "B_ {#naBa#}",
+                "M_ .{@{#-BA#}@}"
+            ],
+            "_banner": ".{@{#-BA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "naBA"
+                }
+            ],
+            "_meanings": [
+                "A spitting-pot."
+            ]
+        }
     ]
 }

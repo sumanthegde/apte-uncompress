@@ -1,37 +1,61 @@
 {
-    "__line": 73531,
+    "__line": 72037,
     "_ancestry": [
         "L_ 8597",
-        "B_ {#upadeSaka#}"
+        "B_ {#utkfz#}"
     ],
-    "_banner": "{#upadeSaka#}",
+    "_banner": "{#utkfz#}",
     "_bannerExp": [
         {
-            "Right": "upadeSaka"
+            "Right": "utkfz"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Giving instruction,\nteaching. "
+        "²1 To draw or pull up, raise or lift up; {#udakarzi#} <ls>Śi. 13. 60</ls>; to\n draw or take out, extract, extricate; {#aNgadakowilagnaM prAlambamutkfzya#} <ls>R. 6. 14</ls>.\n",
+        ".²2 To draw, attract; <ls>Śi. 17. 42</ls>.\n",
+        ".²3 To pull or put off.\n",
+        ".²4 To increase, enhance (<ab>opp.</ab> {#apakfz#}).\n",
+        ".²5 To bend (as a bow).\n",
+        ".²6 To tear asunder. "
     ],
     "_morphisms": [
         {
-            "__line": 73532,
+            "__line": 72044,
             "_ancestry": [
                 "L_ 8597",
-                "B_ {#upadeSaka#}",
-                "M_ {#--kaH#}"
+                "B_ {#utkfz#}",
+                "M_ --{%<ab>Caus.</ab>%}"
             ],
-            "_banner": "{#--kaH#}",
+            "_banner": "--{%<ab>Caus.</ab>%}",
             "_bannerExp": [
                 {
-                    "Right": "upadeSakaH"
+                    "Right": "utkfz"
                 }
             ],
             "_meanings": [
-                "An instructor, a\nguide, preceptor."
+                "To elevate, raise, increase. "
+            ]
+        },
+        {
+            "__line": 72044,
+            "_ancestry": [
+                "L_ 8597",
+                "B_ {#utkfz#}",
+                "M_ --{%<ab>pass.</ab>%}"
+            ],
+            "_banner": "--{%<ab>pass.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "utkfz"
+                }
+            ],
+            "_meanings": [
+                ".²1 To be lifted, raised.\n",
+                ".²2 To rise, be supreme or eminent."
             ]
         }
     ]

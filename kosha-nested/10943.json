@@ -1,39 +1,51 @@
 {
-    "__line": 92141,
+    "__line": 91626,
     "_ancestry": [
         "L_ 10943",
-        "B_ {#kilAsa#}"
+        "B_ {#OdaSvita#}, {#-Sivatka#}"
     ],
-    "_banner": "{#kilAsa#}",
+    "_banner": "{#OdaSvita#}, {#-Sivatka#}",
     "_bannerExp": [
         {
-            "Right": "kilAsa"
+            "Right": "OdaSvita"
+        },
+        {
+            "Right": "OdaSivatka"
+        },
+        {
+            "Right": "OdaSvitI"
+        },
+        {
+            "Right": "OdaSivatI"
+        },
+        {
+            "Right": "OdaSivatkI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        ".({@{#-tI, kI#}@}|{%f.%})",
+        "[{#udaSvit aR Wak vA#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Leprous. "
+        "<ls>P. IV. 2. 19</ls>; and <ls n=\"P.\">VII. 3. 51</ls>.\n Made of, or seasoned with, butter-milk.\n"
     ],
     "_morphisms": [
         {
-            "__line": 92141,
+            "__line": 91629,
             "_ancestry": [
                 "L_ 10943",
-                "B_ {#kilAsa#}",
-                "M_ {#--saM#}"
+                "B_ {#OdaSvita#}, {#-Sivatka#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--saM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "kilAsaM"
+                    "Right": "OdaSvitam"
                 }
             ],
             "_meanings": [
-                "{@--1@}\nA white leprous spot. ",
-                "{@--2@} A blotch,\nscab. ",
-                "{@--3@} A kind of leprosy."
+                "Butter-milk with an equal proportion of water."
             ]
         }
     ]

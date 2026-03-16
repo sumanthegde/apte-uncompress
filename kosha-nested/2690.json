@@ -1,20 +1,777 @@
 {
-    "__line": 26712,
+    "__line": 23749,
     "_ancestry": [
         "L_ 2690",
-        "B_ {#apigIrRa#}"
+        "B_ {#apara#}"
     ],
-    "_banner": "{#apigIrRa#}",
+    "_banner": "{#apara#}",
     "_bannerExp": [
         {
-            "Right": "apigIrRa"
+            "Right": "apara"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Praised, \ncelebrated. ",
-        "{@--2@} Told, described."
+        "(treated as a pronoun in some senses)\n",
+        ".²1 Having nothing higher or superior, unrivalled. matchless; without rival\n or second ({#nAsti paro yasmAt#}); {#srIratnasfzwiraparA pratiBAti sA#}\n {#me#} <ls>Ś. 2. 10</ls>; <ab>cf.</ab> {#anuttama, anuttara#}.\n",
+        ".²2 [{#na pfRAti saMtozayati pF ac#}]\n",
+        ".³({%a%}) Another, other (used as <ab>adj.</ab> or <ab>subst.</ab>). {#vAsAMsi jIrRAni yaTA#}\n {#vihAya navAni gfhRIti naro'parARi#} <ls>Bg. 2. 22</ls>.\n",
+        ".³({%b%}) More, additional; {#kftadAro'parAn dArAn#} <ls>Ms. 11. 5</ls>.\n",
+        ".³({%c%}) Second, another <ls>Pt. 4. 37</ls>; {#KaM keSavo'para ivAkamituM pravfttaH#}\n <ls>Mk. 5. 2</ls> like another (rival) Keśava.\n",
+        ".³({%d%}) Different; other; {#anye kftayuge DarmAstretAyAM dvApare'pare#}\n <ls>Ms. 1. 85</ls>; <ls>Ks. 26. 235</ls>; <ls>Pt. 4. 6</ls> (with <ab>gen.</ab>).\n",
+        ".³({%e%}) Ordinary, of the middle sort ({#maDyama#}); {#paritapto'pyaparaH#}\n {#susaMvftiH#} <ls>Śi. 16. 23</ls>.\n",
+        ".²3 Belonging to another, not oneʼs own (<ab>opp.</ab> {#sva#}); {#yadi svAScAparAScEva#}\n {#vinderan yozito dvijAH#} <ls>Ms. 9. 85</ls> of another caste.\n",
+        ".²4 Hinder, posterior, latter, later, (in time space) (<ab>opp.</ab> {#pUrva#});\n the last; {#pUrvAM sanDyAM japaMstizWetsvakAle cAparAM ciram#} <ls>Ms. 4. 93</ls>;\n {#rAtreraparaH kAlaH#} <ls>Nir.</ls>; <ab>oft.</ab> used as first member of a genitive\n Tatpuruṣa <ab>comp.</ab> meaning ‘the hind part’, ‘latter part or half’; {#˚pakzaH#}\n the latter half of a month; {#˚hemantaH#} latter half of a winter; {#˚kAyaH#}\n hind part of the body <ab>&c.</ab>; {#˚varzA, ˚Sarad#} latter part of the rains, autumn <ab>&c.</ab>\n",
+        ".²5 Following, the next.\n",
+        ".²6 Western; {#payasi prapitsuraparAmbuniDeH#} <ls>Śi. 9. 1</ls>. {#pUrvAparO toyaniDI#}\n {#vagAhya#} <ls>Ku. 1. 1</ls>; <ls>Mu. 4. 21</ls>\n",
+        ".²7 Inferior, lower ({#nikfzwaH#}); {#apareyamitastvanyAM prakftiM vidDi#}\n {#me parAm#} <ls>Bg. 7. 5</ls>.\n",
+        ".²8 (In Nyāya) Non-extensive, not covering too much, one of the two kinds\n of {#sAmAnya#}, see <ls>Bhāṣā P. 8</ls>. ({#paraM#} = {#aDikavftti#} higher {#aparam#}\n = {#nyUnavftti#} lower or {#aDikadeSavfttitvaM paraM, alpadeSavfttitvaM#}\n {#aparam#} <ls>Muktā.</ls>)\n",
+        ".²9 Distant; opposite. When {#apara#} is used in the singular as a correlative\n to {#eka#} the one, former, it means the other, the latter; {#eko yayO#}\n {#cEtraraTapradeSAn sOrAjyaramyAnaparo vidarBAn#} <ls>R. 5. 60</ls>; when used in\n <ab>pl.</ab> it means ‘others’, ‘and others’, and the words generally used as its\n correlatives are {#eke, kecit-kAScit#} <ab>&c.</ab>, {#apare, anye#}; {#kecid raktapawIkftASca#}\n {#jawilAH kApAlikAScApare#} <ls>Pt. 4. 34</ls>; {#eke samUhurbalareRusaMhatiM SiroBirAjYAmapare#}\n {#mahIBftaH#} <ls>Śi. 12. 45</ls> some--others; {#SAKinaH kecidaDyazWurnyamANkzurapare'mbuDO . anye#}\n\n {#tvalaNGizuH SElAn guhAstvanye nyalezata .. kecidAsizata stabDA BayAtkecidaGUrRizuH .#}\n {#udatArizuramBoDiM vAnarAH setunApare#} <ls>Bk. 15. 31. 33</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 23790,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "M_ .{@{#-raH#}@}"
+            ],
+            "_banner": ".{@{#-raH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the hind foot of an elephant; {#badDAparARi parito nigaqAnyalAvIt#}\n <ls>Śi. 5. 48</ls> (<ls>Malli.</ls> {#caramapAdAgrARi#}).\n",
+                ".²2 An enemy ({#na pfRAti santozayati#}).\n"
+            ]
+        },
+        {
+            "__line": 23794,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "M_ .{@{#-rA#}@}"
+            ],
+            "_banner": ".{@{#-rA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparA"
+                }
+            ],
+            "_meanings": [
+                ".²1 Western direction, the west {#aparAM ca diSaM prApto vAlinA samaBidrutaH#}\n <ls>Rām. 4. 46. 18</ls>.\n",
+                ".²2 The hind part of an elephant.\n",
+                ".²3 Sacred learning, learning the four Vedas with the 6 Aṅgas.\n",
+                ".²4 The womb; the outer skin of the embryo.\n",
+                ".²5 Suppressed menstruation in pregnancy.\n"
+            ]
+        },
+        {
+            "__line": 23801,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "M_ .{@{#-rI#}@}"
+            ],
+            "_banner": ".{@{#-rI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparI"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> The future, future times; {#utAparIByo maGavA vijigye#} <ls>Rv. 1. 32. 13</ls>.\n"
+            ]
+        },
+        {
+            "__line": 23802,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparam"
+                }
+            ],
+            "_meanings": [
+                ".²1 The future, any thing to be done in future ({#kArya#}); {#tadetadbrahmApUrvamaparamanantam#}\n <ls>Bṛ. Ār. Up.</ls> ({#nAsti aparaM kAryaM yasya#}).\n",
+                ".²2 The hind quarter of an elephant.\n"
+            ]
+        },
+        {
+            "__line": 23806,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "M_ .{@{#-ram#}@}"
+            ],
+            "_banner": ".{@{#-ram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparam"
+                }
+            ],
+            "_gram": [
+                "{%<ab>adv.</ab>%}"
+            ],
+            "_meanings": [
+                "Again, moreover, in future, for the future; {#aparaM#}\n {#ca#} moreover; {#apareRa#} behind, west of, to the west of (with <ab>gen.</ab>\n or <ab>acc.</ab>). [<ab>cf.</ab> <lang>Goth.</lang> {%afar%}; <lang>Germ.</lang> {%aber%}, as in aberglauben].\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 23810,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-agni#}@}"
+            ],
+            "_banner": ".{@{#-agni#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparAgni"
+                }
+            ],
+            "_meanings": [
+                "({#agnI#} dual)\n",
+                ".²1 the southern and western fires ({#dakziRa#} and {#gArhapatya#}).\n",
+                ".²2 the last fire <ab>i. e.</ab> used at the funeral ceremony ({#˚gniH#}).\n"
+            ]
+        },
+        {
+            "__line": 23813,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-aNgam#}@}"
+            ],
+            "_banner": ".{@{#-aNgam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparANgam"
+                }
+            ],
+            "_meanings": [
+                "one of the 8 divisions of {#guRIBUtavyaNgya#} (the second\n kind of {#kAvya#}) mentioned in <ls>K. P. 5</ls>. In this the {#vyaNgya#} or suggested\n sense is subordinate to something else; {#agUQamaparasyANgam#}; {#aparasya#}\n {#rasAdervAcyasya vA#} ({#vAkyArTIBUtasya#}) {#aNgaM rasAdi anuraRanarUpaM#}\n {#vA#}; e. g. {#ayaM sa rasanotkarzI pInastanavimardanaH . nAByUrujaGanasparSI#}\n {#nIvivisraMsanaH karaH ..#} where {#SfNgAra#} is subordinate to {#karuRa#}.\n"
+            ]
+        },
+        {
+            "__line": 23819,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-anta#}@}"
+            ],
+            "_banner": ".{@{#-anta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparAnta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "living at the western borders.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 23820,
+                    "_ancestry": [
+                        "L_ 2690",
+                        "B_ {#apara#}",
+                        "S_ .{@{#-anta#}@}",
+                        "S_M_ ({@{#-ntaH#}@})"
+                    ],
+                    "_banner": "({@{#-ntaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "aparAntaH"
+                        }
+                    ],
+                    "_meanings": [
+                        ".²1 the western border or extremity, the extreme end or term; the western shore.\n",
+                        ".²2 (<ab>pl.</ab>) the country or inhabitants of the western borders near the Sahya\n mountain; {#aparAntajayodyatEH#} ({#anIkEH#}) <ls>R. 4. 53</ls> Western people.\n {#daSArRAScAparAntASca dvipAnAM maDyamA matAH#} <ls>Kau. A. 1. 2</ls>.\n",
+                        ".²3 the kings of this country.\n",
+                        ".²4 death, <ls>Pātañjala Yogadarśana 3. 22</ls>. "
+                    ],
+                    "_samasas": [
+                        {
+                            "__line": 23826,
+                            "_ancestry": [
+                                "L_ 2690",
+                                "B_ {#apara#}",
+                                "S_ .{@{#-anta#}@}",
+                                "S_M_ ({@{#-ntaH#}@})",
+                                "S_M_S_ {#˚jYAnam#}"
+                            ],
+                            "_banner": "{#˚jYAnam#}",
+                            "_bannerExp": [
+                                {
+                                    "Right": "aparAntajYAnam"
+                                }
+                            ],
+                            "_meanings": [
+                                "anticipation of oneʼs end.\n",
+                                ".²5 the hind foot of an elephant; {#mfducaladaparAntodIritAndUninAdam#}\n <ls>Śi. 11. 7</ls>, <ls n=\"Śi.\">18. 32</ls>.\n",
+                                ".²6 Islander, inhabitant of an island ({#dvIpavAsin#}) {#kowyAparAntAH#}\n {#sAmudrA ratnAnyupaharantu te#} <ls>Rām. 2. 82. 8</ls>.\n"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 23831,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-antakaH#}@}"
+            ],
+            "_banner": ".{@{#-antakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparAntakaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 = {#˚antaH#} <ab>pl.</ab>\n",
+                ".²2 <ab>N.</ab> of a song; {#aparAntakamullopyaM madrakaM prakarIM taTA . OveRakaM#}\n {#sarobindumuttaraM gItakAni ca ..#} <ls>Y. 3. 113</ls>; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 23834,
+                    "_ancestry": [
+                        "L_ 2690",
+                        "B_ {#apara#}",
+                        "S_ .{@{#-antakaH#}@}",
+                        "S_S_ {#˚antikA#}"
+                    ],
+                    "_banner": "{#˚antikA#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aparAntakAntikA"
+                        }
+                    ],
+                    "_meanings": [
+                        "<ab>N.</ab> of a metre\n consisting of 64 mātrās.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 23836,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-aparAH, -re, -rARi#}@}"
+            ],
+            "_banner": ".{@{#-aparAH, -re, -rARi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparAparAH"
+                },
+                {
+                    "Right": "aparApare"
+                },
+                {
+                    "Right": "apararARi"
+                }
+            ],
+            "_meanings": [
+                "another and another, several, various.\n"
+            ]
+        },
+        {
+            "__line": 23837,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-aparam#}@}"
+            ],
+            "_banner": ".{@{#-aparam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparAparam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "Further and further ({#uttarottaram#}); {#ahaM#}\n {#hi vacanaM tvattaH SuSrUzuraparAparam#} <ls>Mb. 5. 136. 14</ls>.\n"
+            ]
+        },
+        {
+            "__line": 23839,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-arDam#}@}"
+            ],
+            "_banner": ".{@{#-arDam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparArDam"
+                }
+            ],
+            "_meanings": [
+                "the latter or second half.\n"
+            ]
+        },
+        {
+            "__line": 23840,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-ahRa#}@}"
+            ],
+            "_banner": ".{@{#-ahRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparAhRa"
+                }
+            ],
+            "_gram": [
+                "[<ab>fr.</ab> {#ahan#} changed to {#ahna#} <ls>P. II. 4. 29</ls>, <ls n=\"P.\">V. 4. 88.</ls>]"
+            ],
+            "_meanings": [
+                "the latter part of the day, the afternoon, closing or last watch of the\n day; <ls>Ms. 3. 278</ls>; {#aparAhRaSItalatareRa SanEranilena#} <ls>Śi. 9. 4</ls>; "
+            ],
+            "_samasas": [
+                {
+                    "__line": 23842,
+                    "_ancestry": [
+                        "L_ 2690",
+                        "B_ {#apara#}",
+                        "S_ .{@{#-ahRa#}@}",
+                        "S_S_ {#˚tana#},\n {#˚hRetana#}"
+                    ],
+                    "_banner": "{#˚tana#},\n {#˚hRetana#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "aparAhRatana"
+                        },
+                        {
+                            "Right": "aparAhRahRetana"
+                        }
+                    ],
+                    "_meanings": [
+                        "belonging to this time; {#˚kftaM#} <ls>P. II. 1. 45</ls>.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 23844,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-itarA#}@}"
+            ],
+            "_banner": ".{@{#-itarA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparetarA"
+                }
+            ],
+            "_meanings": [
+                "the east.\n"
+            ]
+        },
+        {
+            "__line": 23845,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-kAnyakubja#}@}"
+            ],
+            "_banner": ".{@{#-kAnyakubja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparakAnyakubja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "situated in or belonging to the western part\n of Kānyakubja.\n"
+            ]
+        },
+        {
+            "__line": 23847,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparakAlaH"
+                }
+            ],
+            "_meanings": [
+                "later period.\n"
+            ]
+        },
+        {
+            "__line": 23848,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-gAtram#}@}"
+            ],
+            "_banner": ".{@{#-gAtram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparagAtram"
+                }
+            ],
+            "_meanings": [
+                "a minor limb (hand, foot <ab>etc.</ab>); {#kopaprasAdAparagAtrahastaH#}\n ({#suptaH kzitO#}) {#rAvaRaganDahastI#} <ls>Rām. 6. 109. 10</ls>.\n"
+            ]
+        },
+        {
+            "__line": 23850,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-godAnam#}@}"
+            ],
+            "_banner": ".{@{#-godAnam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparagodAnam"
+                }
+            ],
+            "_meanings": [
+                "(also {#goqani#} or {#goqAni#}) <ab>N.</ab> of a country to the\n west of Mahāmeru (according to Buddhistic ideas).\n"
+            ]
+        },
+        {
+            "__line": 23852,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-ja#}@}"
+            ],
+            "_banner": ".{@{#-ja#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparaja"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "born later or at\n\n the end of the world.\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 23855,
+                    "_ancestry": [
+                        "L_ 2690",
+                        "B_ {#apara#}",
+                        "S_ .{@{#-ja#}@}",
+                        "S_M_ ({@{#-jaH#}@})"
+                    ],
+                    "_banner": "({@{#-jaH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Right": "aparajaH"
+                        }
+                    ],
+                    "_meanings": [
+                        "the destroying fire.\n"
+                    ]
+                }
+            ]
+        },
+        {
+            "__line": 23856,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-janaH#}@}"
+            ],
+            "_banner": ".{@{#-janaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparajanaH"
+                }
+            ],
+            "_meanings": [
+                "an inhabitant of the west, the western people.\n"
+            ]
+        },
+        {
+            "__line": 23857,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-dakziRam#}@}"
+            ],
+            "_banner": ".{@{#-dakziRam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparadakziRam"
+                }
+            ],
+            "_gram": [
+                "{%ind.%}"
+            ],
+            "_meanings": [
+                "in the south-west (belonging to the {#tizWadgu#} class).\n"
+            ]
+        },
+        {
+            "__line": 23858,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-pakzaH#}@}"
+            ],
+            "_banner": ".{@{#-pakzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparapakzaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 the second or dark half of the month.\n",
+                ".²2 the other or opposite side; a defendant (in law).\n"
+            ]
+        },
+        {
+            "__line": 23861,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-paYcAlAH#}@}"
+            ],
+            "_banner": ".{@{#-paYcAlAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparapaYcAlAH"
+                }
+            ],
+            "_meanings": [
+                "the western Pañchālas.\n"
+            ]
+        },
+        {
+            "__line": 23862,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-para#}@}"
+            ],
+            "_banner": ".{@{#-para#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparapara"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "one and the other, several, various; {#aparaparAH#}\n {#sArTAH gacCanti#} <ls>P. VI. 1. 144. Sk.</ls> several caravans go; ({#apare ca#}\n {#pare ca sakfdeva gacCanti#}).\n"
+            ]
+        },
+        {
+            "__line": 23865,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-pARinIyAH#}@}"
+            ],
+            "_banner": ".{@{#-pARinIyAH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparapARinIyAH"
+                }
+            ],
+            "_meanings": [
+                "the pupils of Pāṇini living in the west.\n"
+            ]
+        },
+        {
+            "__line": 23866,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-praReya#}@}"
+            ],
+            "_banner": ".{@{#-praReya#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparapraReya"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "easily led or influenced by others, docile, tractable.\n"
+            ]
+        },
+        {
+            "__line": 23867,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-BAvaH#}@}"
+            ],
+            "_banner": ".{@{#-BAvaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparaBAvaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 being another or different, difference.\n",
+                ".²2 succession, continuation.\n"
+            ]
+        },
+        {
+            "__line": 23870,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-rAtraH#}@}"
+            ],
+            "_banner": ".{@{#-rAtraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "apararAtraH"
+                }
+            ],
+            "_gram": [
+                "[{#aparaM rAtreH#}]"
+            ],
+            "_meanings": [
+                "the latter or closing part of night,\n the last watch of night (<ls>P. V. 4. 87</ls>); {#utTAyApararAtrAnte prayatAH susamAhitAH#}\n <ls>Bhāg. 8. 4. 24</ls>. {#˚kftam#} <ls>P. II. 1. 45</ls>.\n"
+            ]
+        },
+        {
+            "__line": 23873,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-lokaH#}@}"
+            ],
+            "_banner": ".{@{#-lokaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparalokaH"
+                }
+            ],
+            "_meanings": [
+                "the other world, the next world. Paradise.\n"
+            ]
+        },
+        {
+            "__line": 23874,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-vaktrA, -ktram#}@}"
+            ],
+            "_banner": ".{@{#-vaktrA, -ktram#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparavaktrA"
+                },
+                {
+                    "Right": "aparavaktram"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a metre.\n"
+            ]
+        },
+        {
+            "__line": 23875,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-vErAgyam#}@}"
+            ],
+            "_banner": ".{@{#-vErAgyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparavErAgyam"
+                }
+            ],
+            "_meanings": [
+                "a kind of Vairāgya mentioned by Patañjali ({#duzwAnuSrAvikavizayavitfzRasya#}\n {#vaSIkArasaMjYaM vErAgyam#}).\n"
+            ]
+        },
+        {
+            "__line": 23877,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-sakTam#}@}"
+            ],
+            "_banner": ".{@{#-sakTam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparasakTam"
+                }
+            ],
+            "_meanings": [
+                "the hind thigh.\n"
+            ]
+        },
+        {
+            "__line": 23878,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-svastikam#}@}"
+            ],
+            "_banner": ".{@{#-svastikam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparasvastikam"
+                }
+            ],
+            "_meanings": [
+                "the western point in the horizon.\n"
+            ]
+        },
+        {
+            "__line": 23879,
+            "_ancestry": [
+                "L_ 2690",
+                "B_ {#apara#}",
+                "S_ .{@{#-hEmana#}@}"
+            ],
+            "_banner": ".{@{#-hEmana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "aparahEmana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "belonging to the latter half of winter (<ls>P. VII. 3. 11</ls>)."
+            ]
+        }
     ]
 }

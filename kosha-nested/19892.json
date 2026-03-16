@@ -1,19 +1,66 @@
 {
-    "__line": 166413,
+    "__line": 178891,
     "_ancestry": [
         "L_ 19892",
-        "B_ {#prati(tI)nAhaH#}"
+        "B_ {#padAjiH#}, {#-padAtaH, -padAtiH#}"
     ],
-    "_banner": "{#prati(tI)nAhaH#}",
+    "_banner": "{#padAjiH#}, {#-padAtaH, -padAtiH#}",
     "_bannerExp": [
         {
-            "Right": "pratInAhaH"
+            "Right": "padAjiH"
         },
         {
-            "Right": "pratinAhaH"
+            "Right": "padAtaH"
+        },
+        {
+            "Right": "padAtiH"
         }
     ],
+    "_gram": [
+        "[{#padByAmatati, at-ac#}]"
+    ],
     "_meanings": [
-        "A flag, banner."
+        ".²1 A foot-soldier; ‘{#padAtipattipadagapAdAtikapadAjayaH#}’ <ls>Ak.</ls>; <ls>R. 7. 37</ls>.\n",
+        ".²2 A pedestrian (walking on foot); <ls>U. 5. 12</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 178896,
+            "_ancestry": [
+                "L_ 19892",
+                "B_ {#padAjiH#}, {#-padAtaH, -padAtiH#}",
+                "S_ .{@{#-aDyakzaH#}@}"
+            ],
+            "_banner": ".{@{#-aDyakzaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "padAjyaDyakzaH"
+                }
+            ],
+            "_meanings": [
+                "the commander-in-chief of the infantry.\n"
+            ]
+        },
+        {
+            "__line": 178897,
+            "_ancestry": [
+                "L_ 19892",
+                "B_ {#padAjiH#}, {#-padAtaH, -padAtiH#}",
+                "S_ .{@{#-lava#}@}"
+            ],
+            "_banner": ".{@{#-lava#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "padAjilava"
+                }
+            ],
+            "_gram": [
+                "({#padAtilaba#})",
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "most humble."
+            ]
+        }
     ]
 }

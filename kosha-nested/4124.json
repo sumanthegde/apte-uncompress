@@ -1,22 +1,45 @@
 {
-    "__line": 37538,
+    "__line": 34190,
     "_ancestry": [
         "L_ 4124",
-        "B_ {#argalIya, --lya#}"
+        "B_ {#amatra#}"
     ],
-    "_banner": "{#argalIya, --lya#}",
+    "_banner": "{#amatra#}",
     "_bannerExp": [
         {
-            "Right": "argalIya"
-        },
-        {
-            "Right": "argalya"
+            "Right": "amatra"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Belonging to a\nbolt or pin."
+        "<ab>Ved.</ab> [{#am-atran#} <ls>Uṇ. 3. 105.</ls>] Overpowering (enemies),\n strong or disposed to march on ({#gamanaSIla#}); {#svariramatro vavakze#}\n {#raRAya#} <ls>Rv. 1. 61. 9</ls>.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 34193,
+            "_ancestry": [
+                "L_ 4124",
+                "B_ {#amatra#}",
+                "M_ .{@{#-trama, -trakam#}@}"
+            ],
+            "_banner": ".{@{#-trama, -trakam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "amatram"
+                },
+                {
+                    "Right": "amatrakam"
+                }
+            ],
+            "_gram": [
+                "[{#amati BuNkte annamatra, ADAre atran#}]"
+            ],
+            "_meanings": [
+                ".²1 A pot, vessel, utensil. {#uttArya gopI suSftaM payaH punaH praviSya#}\n {#saMdfSya ca daDyamatrakam#} <ls>Bhāg. 10. 9. 7</ls>. {#anyezAM cApyamatrARAM#}\n {#sOvarRAnAmanekaSaH#} <ls>Śiva B. 29. 59</ls>.\n",
+                ".²2 Strength, power."
+            ]
+        }
     ]
 }

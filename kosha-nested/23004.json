@@ -1,21 +1,44 @@
 {
-    "__line": 193739,
+    "__line": 206047,
     "_ancestry": [
         "L_ 23004",
-        "B_ {#mAMT#}"
+        "B_ {#praDAv#}"
     ],
-    "_banner": "{#mAMT#}",
+    "_banner": "{#praDAv#}",
     "_bannerExp": [
         {
-            "Right": "mAMT"
+            "Right": "praDAv"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>",
-        "({#mAMTati#})"
+        "€1",
+        "<ab>U.</ab>"
     ],
     "_meanings": [
-        "To hurt, in\njure."
+        "²1 To run forward, run away.\n",
+        ".²2 To set out, start.\n",
+        ".²3 To become spread or diffused.\n",
+        ".²4 To wash, cleanse.\n",
+        ".²5 To rub off, wipe out.\n",
+        ".²6 To pervade, permeate. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 206053,
+            "_ancestry": [
+                "L_ 23004",
+                "B_ {#praDAv#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "praDAv"
+                }
+            ],
+            "_meanings": [
+                "To cause to run away, drive away."
+            ]
+        }
     ]
 }

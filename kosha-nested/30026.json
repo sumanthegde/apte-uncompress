@@ -1,20 +1,80 @@
 {
-    "__line": 251062,
+    "__line": 277139,
     "_ancestry": [
         "L_ 30026",
-        "B_ {#sAtvat#}"
+        "B_ {#vimArgaH#}"
     ],
-    "_banner": "{#sAtvat#}",
+    "_banner": "{#vimArgaH#}",
     "_bannerExp": [
         {
-            "Right": "sAtvat"
+            "Right": "vimArgaH"
         }
     ],
-    "_gram": [
-        "{%<ab>m.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} A follower, \nworshipper (of Kṛṣṇa &c.). ",
-        "{@--2@} A man of\nthe Yādava tribe."
+        ".²1 A bad road.\n",
+        ".²2 A wrong road, evil conduct or course, immorality.\n",
+        ".²3 A broom.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 277144,
+            "_ancestry": [
+                "L_ 30026",
+                "B_ {#vimArgaH#}",
+                "S_ .{@{#-gA#}@}"
+            ],
+            "_banner": ".{@{#-gA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimArgagA"
+                }
+            ],
+            "_meanings": [
+                "an unchaste woman; {#vimArgagAyASca ruciH svakAnte#} <ls>Bv. 1. 125</ls>.\n"
+            ]
+        },
+        {
+            "__line": 277145,
+            "_ancestry": [
+                "L_ 30026",
+                "B_ {#vimArgaH#}",
+                "S_ .{@{#-gAmin, -prasTita#}@}"
+            ],
+            "_banner": ".{@{#-gAmin, -prasTita#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimArgagAmin"
+                },
+                {
+                    "Right": "vimArgaprasTita"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "following evil courses; {#niyamayasi#}\n {#vimArgaprasTitAnAttadaRqaH#} <ls>Ś. 5. 8</ls>.\n"
+            ]
+        },
+        {
+            "__line": 277147,
+            "_ancestry": [
+                "L_ 30026",
+                "B_ {#vimArgaH#}",
+                "S_ .{@{#-dfzwi#}@}"
+            ],
+            "_banner": ".{@{#-dfzwi#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "vimArgadfzwi"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "looking in a wrong direction; <ls>Suśr.</ls>"
+            ]
+        }
     ]
 }

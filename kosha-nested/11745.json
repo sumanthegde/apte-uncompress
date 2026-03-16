@@ -1,38 +1,91 @@
 {
-    "__line": 98406,
+    "__line": 98904,
     "_ancestry": [
         "L_ 11745",
-        "B_ {#krudDa#}"
+        "B_ {#kalindaH#}"
     ],
-    "_banner": "{#krudDa#}",
+    "_banner": "{#kalindaH#}",
     "_bannerExp": [
         {
-            "Right": "krudDa"
+            "Right": "kalindaH"
         }
     ],
-    "_gram": [
-        "{%<ab>p. p.</ab>%}"
-    ],
     "_meanings": [
-        "{@--1@} Angry, provoked.\n",
-        "{@--2@} Fierce; cruel. "
+        ".²1 <ab>N.</ab> of the mountain on which the Yamunā rises.\n",
+        ".²2 The sun.\n",
+        ".²3 The Bibhītaka plant.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 98407,
+            "__line": 98909,
             "_ancestry": [
                 "L_ 11745",
-                "B_ {#krudDa#}",
-                "M_ {#--dDaM#}"
+                "B_ {#kalindaH#}",
+                "S_ .{@{#-kanyA, -jA, -tanayA, -nandinI, -sutA#}@}"
             ],
-            "_banner": "{#--dDaM#}",
+            "_banner": ".{@{#-kanyA, -jA, -tanayA, -nandinI, -sutA#}@}",
             "_bannerExp": [
                 {
-                    "Right": "krudDaM"
+                    "Right": "kalindakanyA"
+                },
+                {
+                    "Left": "S error: 1 syl kanyA jA"
+                },
+                {
+                    "Right": "kalindatanayA"
+                },
+                {
+                    "Left": "S error: midAlign naMdinI tanaMdinI"
+                },
+                {
+                    "Right": "kalindasutA"
                 }
             ],
             "_meanings": [
-                "Anger."
+                "epithets of the river Yamunā;\n {#kalindakanyA maTurAM gatApi#} <ls>R. 6. 48</ls>; {#kalindajAnIra#} <ls>Bv. 2. 120</ls>; <ls>Gīt. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 98911,
+            "_ancestry": [
+                "L_ 11745",
+                "B_ {#kalindaH#}",
+                "S_ .{@{#-giriH#}@}"
+            ],
+            "_banner": ".{@{#-giriH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "kalindagiriH"
+                }
+            ],
+            "_meanings": [
+                "the Kalinda mountain. "
+            ],
+            "_samasas": [
+                {
+                    "__line": 98911,
+                    "_ancestry": [
+                        "L_ 11745",
+                        "B_ {#kalindaH#}",
+                        "S_ .{@{#-giriH#}@}",
+                        "S_S_ {#˚jA, ˚tanayA, ˚nandinI#}"
+                    ],
+                    "_banner": "{#˚jA, ˚tanayA, ˚nandinI#}",
+                    "_bannerExp": [
+                        {
+                            "Right": "kalindagirijA"
+                        },
+                        {
+                            "Right": "kalindagiritanayA"
+                        },
+                        {
+                            "Right": "kalindagirinandinI"
+                        }
+                    ],
+                    "_meanings": [
+                        "epithets\n of the river Yamunā; <ls>Bv. 4. 3</ls>, <ls n=\"Bv. 4.\">4</ls>."
+                    ]
+                }
             ]
         }
     ]

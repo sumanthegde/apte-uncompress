@@ -1,19 +1,106 @@
 {
-    "__line": 224483,
+    "__line": 243463,
     "_ancestry": [
         "L_ 26617",
-        "B_ {#vizAdin#}"
+        "B_ {#mfzwa#}"
     ],
-    "_banner": "{#vizAdin#}",
+    "_banner": "{#mfzwa#}",
     "_bannerExp": [
         {
-            "Right": "vizAdin"
+            "Right": "mfzwa"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}",
+        "[{#mfj mfS vA-kta#}]"
     ],
     "_meanings": [
-        "Dejected, dismayed,\nsad, disconsolate."
+        ".²1\n",
+        ".³({%a%}) Cleansed, purified; {#SaracCaSikarErmfzwaM mAnayan rajanImuKam#}\n <ls>Bhāg. 3. 2. 34</ls>.\n",
+        ".³({%b%}) Pure, clean; {#BakzayitvA PalAnyaTa . mUlAni ca sumfzwAni …#}\n <ls>Rām. 7. 93. 8</ls>.\n",
+        ".²2 Besmeared.\n",
+        ".²3 Dressed, cooked.\n",
+        ".²4 Touched; {#sTitapatitaM ca karoti mfzwamannam#} <ls>Bṛ. S.</ls>\n",
+        ".²5 Considered, deliberated.\n",
+        ".²6 Savoury, agreeable; {#mAMsAni ca sumfzwAni#} <ls>Rām. 7. 39. 26</ls>; {#grAsaM#}\n {#sumfzwaM virasaM mahAntaM stokameva vA . yadfcCayEvApatitaM grasedAjagaro'kriyaH ..#}\n <ls>Bhāg. 11. 8. 2</ls>.\n",
+        ".²7 Sprinkled.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 243477,
+            "_ancestry": [
+                "L_ 26617",
+                "B_ {#mfzwa#}",
+                "M_ .{@{#-zwam#}@}"
+            ],
+            "_banner": ".{@{#-zwam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzwam"
+                }
+            ],
+            "_meanings": [
+                "Pepper.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 243479,
+            "_ancestry": [
+                "L_ 26617",
+                "B_ {#mfzwa#}",
+                "S_ .{@{#-kuRqala#}@}"
+            ],
+            "_banner": ".{@{#-kuRqala#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzwakuRqala"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "wearing bright earrings.\n"
+            ]
+        },
+        {
+            "__line": 243480,
+            "_ancestry": [
+                "L_ 26617",
+                "B_ {#mfzwa#}",
+                "S_ .{@{#-ganDaH#}@}"
+            ],
+            "_banner": ".{@{#-ganDaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzwaganDaH"
+                }
+            ],
+            "_meanings": [
+                "a savoury or agreeable smell.\n"
+            ]
+        },
+        {
+            "__line": 243481,
+            "_ancestry": [
+                "L_ 26617",
+                "B_ {#mfzwa#}",
+                "S_ .{@{#-yaSas#}@}"
+            ],
+            "_banner": ".{@{#-yaSas#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mfzwayaSas"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "of pure glory."
+            ]
+        }
     ]
 }

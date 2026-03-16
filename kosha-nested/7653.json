@@ -1,16 +1,57 @@
 {
-    "__line": 66000,
+    "__line": 63915,
     "_ancestry": [
         "L_ 7653",
-        "B_ {#ucCvaMkaH#}"
+        "B_ {#AvayaH#}"
     ],
-    "_banner": "{#ucCvaMkaH#}",
+    "_banner": "{#AvayaH#}",
     "_bannerExp": [
         {
-            "Right": "ucCvaMkaH"
+            "Right": "AvayaH"
         }
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Gaping; cleaving\nopen."
+        ".²1 Coming.\n",
+        ".²2 One who comes.\n",
+        ".²3 <ab>N.</ab> of a country.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 63919,
+            "_ancestry": [
+                "L_ 7653",
+                "B_ {#AvayaH#}",
+                "M_ .{@{#-yaH, -yA#}@}"
+            ],
+            "_banner": ".{@{#-yaH, -yA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AvayaH"
+                },
+                {
+                    "Right": "AvayA"
+                }
+            ],
+            "_meanings": [
+                "Water (<ab>Ved.</ab>).\n"
+            ]
+        },
+        {
+            "__line": 63920,
+            "_ancestry": [
+                "L_ 7653",
+                "B_ {#AvayaH#}",
+                "M_ .{@{#-yam#}@}"
+            ],
+            "_banner": ".{@{#-yam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "Avayam"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> Non-conception, barrenness; {#aprajAstvaM mArtavatsamAd#}\n {#rodamaGamAvayam#} <ls>Av. 8. 6. 26</ls>."
+            ]
+        }
     ]
 }

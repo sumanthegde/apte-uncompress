@@ -1,21 +1,39 @@
 {
-    "__line": 123878,
+    "__line": 129489,
     "_ancestry": [
         "L_ 14940",
-        "B_ {#tejomaya#}"
+        "B_ {#cetaka#}"
     ],
-    "_banner": "{#tejomaya#}",
+    "_banner": "{#cetaka#}",
     "_bannerExp": [
         {
-            "Right": "tejomaya"
+            "Right": "cetaka"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Glorious. ",
-        "{@--2@} Bright,\nbrilliant, luminous; <ls>Bg. 11. 47.</ls> ",
-        "{@--3@}\nFull of energy, spirited."
+        ".²1 Causing to think.\n",
+        ".²2 What thinks or feels, sentient.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 129492,
+            "_ancestry": [
+                "L_ 14940",
+                "B_ {#cetaka#}",
+                "M_ .{@{#-kI#}@}"
+            ],
+            "_banner": ".{@{#-kI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cetakI"
+                }
+            ],
+            "_meanings": [
+                "<ab>N.</ab> of a plant ({#harItakI#})."
+            ]
+        }
     ]
 }

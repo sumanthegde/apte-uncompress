@@ -1,40 +1,48 @@
 {
-    "__line": 24483,
+    "__line": 21615,
     "_ancestry": [
         "L_ 2410",
-        "B_ {#apaBraMS#}"
+        "B_ {#anyatra#}"
     ],
-    "_banner": "{#apaBraMS#}",
+    "_banner": "{#anyatra#}",
     "_bannerExp": [
         {
-            "Right": "apaBraMS"
+            "Right": "anyatra"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>A.</ab>"
+        "{%<ab>adv.</ab>%}",
+        "[{#anya-tral#}]"
     ],
     "_meanings": [
-        "To fall away or off.\n"
+        "(<ab>oft.</ab> = {#anyasmin#} with a <ab>subst.</ab> or <ab>adj.</ab> force)\n",
+        ".²1 Elsewhere, in another place (with <ab>abl.</ab>); {#apatyADikArAdanyatra lOkikamapatyamAtraM#}\n {#gotram#} <ls>P. IV. 2. 39</ls> <ab>Com.</ab>; sometimes with {#vinA#}; {#vinA malayamanyatra#}\n {#candanaM na prarohati#} <ls>Pt. 1. 41</ls>; (with verbs of motion) to another place.\n",
+        ".²2 On another occasion, at another time than; <ab>oft.</ab> (in <ab>comp.</ab>); {#maDuparke#}\n {#ca yajYe ca piturdEvatakarmaRi . atrEva paSavo hiMsyAnnAnyatretyabravInmanuH#} <ls>Ms. 5. 41</ls>.\n",
+        ".²3 Except, without, other than; {#yaTA PalAnAM jAtAnAM nAnyatra patanAdBayam .#}\n {#evaM narasya jAtasya nAnyatra maraRAdBayam ..#} <ls>Rām. 2. 105. 17</ls>; <ls>Mv. 6. 8</ls>;\n <ls>R. 14. 32</ls>; <ls>Bg. 3. 9</ls>; <ls>Y. 1. 215</ls>; {#anyatra nEmizeyasatrAt#} <ls>V. 5</ls>,\n <ls>Ms. 4. 164</ls>; <ab>oft.</ab> with the force of the <ab>nom.</ab> case; {#devA anyatrEvASviByAM#}\n {#sattraM nizeduH#} <ls>Kauṣ. Br.</ls> ({#anyatra#} = {#anye#}).\n\n",
+        ".²4 Otherwise, in another way, in the other case, in the other sense; {#surAjYi#}\n {#deSe rAjanvAn syAttato'nyatra rAjavAn#} <ls>Ak.</ls>; {#rAjanvatI BUH, rAjavAn#}\n {#anyatra#}; {#carmaRvatI nadI carmavatI anyatra#} <ls>P. VIII. 2. 12, 14. Sk.</ls>\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 24484,
+            "__line": 21631,
             "_ancestry": [
                 "L_ 2410",
-                "B_ {#apaBraMS#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#anyatra#}",
+                "S_ .{@{#-manas, -citta#}@}"
             ],
+            "_banner": ".{@{#-manas, -citta#}@}",
             "_bannerExp": [
                 {
-                    "Right": "apaBraMS"
+                    "Right": "anyatramanas"
+                },
+                {
+                    "Right": "anyatracitta"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "To dismiss, discharge;  \n{#apaBraMSito'DikArAt cARakyahatakaH#} <ls>Mu. 4.</ls>"
+                "whose mind is directed to something else,\n inattentive. <ls>Śat. Br. 14</ls>."
             ]
         }
     ]

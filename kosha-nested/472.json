@@ -1,17 +1,59 @@
 {
-    "__line": 6714,
+    "__line": 5307,
     "_ancestry": [
         "L_ 472",
-        "B_ {#aR#}"
+        "B_ {#ajra#}"
     ],
-    "_banner": "{#aR#}",
+    "_banner": "{#ajra#}",
     "_bannerExp": [
         {
-            "Right": "aR"
+            "Right": "ajra"
         }
     ],
+    "_gram": [
+        "{%a.%}",
+        "[<ab>fr.</ab> {#aj#} to go]"
+    ],
     "_meanings": [
-        "{@--1@} <ab>P.</ab> To sound. ",
-        "{@--2@} ({c4c} <ab>A.</ab>) To\nbreathe, live (for {#an#})."
+        "<ab>Ved.</ab> Agile, quick.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 5308,
+            "_ancestry": [
+                "L_ 472",
+                "B_ {#ajra#}",
+                "M_ .{@{#-jraH#}@}"
+            ],
+            "_banner": ".{@{#-jraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ajraH"
+                }
+            ],
+            "_meanings": [
+                "A field, plain.\n"
+            ]
+        },
+        {
+            "__line": 5309,
+            "_ancestry": [
+                "L_ 472",
+                "B_ {#ajra#}",
+                "M_ .{@{#-jra#}@}"
+            ],
+            "_banner": ".{@{#-jra#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "ajra"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "Being in or connected with a field or plain; {#samajyA#}\n {#parvatyA vasUni#} <ls>Rv. 10. 69. 6</ls>. [<ab>cf.</ab> <lang>L.</lang> {%ager%}; <lang>Gr.</lang> {%agros%}.]"
+            ]
+        }
     ]
 }

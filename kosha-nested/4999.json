@@ -1,37 +1,86 @@
 {
-    "__line": 44516,
+    "__line": 42401,
     "_ancestry": [
         "L_ 4999",
-        "B_ {#avikriya#}"
+        "B_ {#avadya#}"
     ],
-    "_banner": "{#avikriya#}",
+    "_banner": "{#avadya#}",
     "_bannerExp": [
         {
-            "Right": "avikriya"
+            "Right": "avadya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}"
     ],
     "_meanings": [
-        "Unchangeable, \nimmutable. "
+        ".²1 Fit to be condemned, censurable, not to be praised; {#na cApi kAvyaM#}\n {#navamityavadyam#} <ls>M. 1. 2</ls>; {#kimavadyaH karikumBajo maRiH#} <ls>Śi. 16. 45</ls>.\n",
+        ".²2 Defective, faulty, blamable, disagreeable, disliked; {#udavahadanavadyAM#}\n {#tAmavadyAdapetaH#} <ls>R. 7. 70</ls>; see {#anavadya#} also.\n",
+        ".²3 Unfit to be told.\n",
+        ".²4 Low, inferior.\n",
+        ".²5 Sinful.\n"
     ],
     "_morphisms": [
         {
-            "__line": 44517,
+            "__line": 42409,
             "_ancestry": [
                 "L_ 4999",
-                "B_ {#avikriya#}",
-                "M_ {#--yaM#}"
+                "B_ {#avadya#}",
+                "M_ .{@{#-dyam#}@}"
             ],
-            "_banner": "{#--yaM#}",
+            "_banner": ".{@{#-dyam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "avikriyaM"
+                    "Right": "avadyam"
                 }
             ],
             "_meanings": [
-                "Brahma. "
+                ".²1 A fault, defect, imperfection; {#kiM na vocasyasadvftte AtmAvadyaM#}\n {#vadASu me#} <ls>Bhāg. 9. 14. 12</ls>.\n",
+                ".²2 Sin, vice; {#sAkzAtkftaM nemuravadyamfgyataH#} <ls>Bhāg. 10. 22. 20</ls>.\n",
+                ".²3 Blame, censure, reproach; {#udavahadanavadyAM tAmavadyAdapetaH#} <ls>R. 7. 70</ls>.\n",
+                ".²4 Shame.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 42416,
+            "_ancestry": [
+                "L_ 4999",
+                "B_ {#avadya#}",
+                "S_ .{@{#-gohana#}@}"
+            ],
+            "_banner": ".{@{#-gohana#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avadyagohana"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "concealing\n\n or keeping off want; {#samAne ahan triravadyagohanA#} <ls>Rv. 1. 33. 3</ls>.\n"
+            ]
+        },
+        {
+            "__line": 42419,
+            "_ancestry": [
+                "L_ 4999",
+                "B_ {#avadya#}",
+                "S_ .{@{#-BIH#}@}"
+            ],
+            "_banner": ".{@{#-BIH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avadyaBIH"
+                }
+            ],
+            "_gram": [
+                "{%f.%}"
+            ],
+            "_meanings": [
+                "fear of vices or sin; {#avadyaBiyA bahavaH pfRanti#}\n <ls>Rv. 10. 107. 3</ls>."
             ]
         }
     ]

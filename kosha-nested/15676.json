@@ -1,46 +1,203 @@
 {
-    "__line": 131446,
+    "__line": 136102,
     "_ancestry": [
         "L_ 15676",
-        "B_ {#dEvata#}"
+        "B_ {#jIvita#}"
     ],
-    "_banner": "{#dEvata#}",
+    "_banner": "{#jIvita#}",
     "_bannerExp": [
         {
-            "Right": "dEvatI"
-        },
-        {
-            "Right": "dEvata"
+            "Right": "jIvita"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#tI#}|{%<ab>f.</ab>%})",
-        "[{#devatA-aR#}]"
+        "{%<ab>p. p.</ab>%}",
+        "[{#jIv kartari kta#}]"
     ],
     "_meanings": [
-        "{@--1@}\nDivine. ",
-        "{@--2@} (At the end of an adj.\n<ab>comp.</ab>) Honouring or worshipping as\none's deity, as in {#sUryadEvatA janAH#}. "
+        ".²1 Living, existent, alive; <ls>R. 12. 75</ls>.\n",
+        ".²2 Returned to life, revived.\n",
+        ".²3 Animated, enlivened.\n",
+        ".²4 Lived through (as a period).\n"
     ],
     "_morphisms": [
         {
-            "__line": 131449,
+            "__line": 136107,
             "_ancestry": [
                 "L_ 15676",
-                "B_ {#dEvata#}",
-                "M_ {#--taM#}"
+                "B_ {#jIvita#}",
+                "M_ .{@{#-tam#}@}"
             ],
-            "_banner": "{#--taM#}",
+            "_banner": ".{@{#-tam#}@}",
             "_bannerExp": [
                 {
-                    "Right": "dEvataM"
+                    "Right": "jIvitam"
                 }
             ],
             "_meanings": [
-                "{@--1@} A\ngod, deity, divinity; {#mfdaM gA dEvataM vipra#}\n{#GftaM maDu catuzpadaM pradakziRAni kurvIta#}  \n<ls>Ms. 4. 39</ls>, <ls n=\"Ms. 4.\">153</ls>; <ls>U. 4. 4</ls>; <ls>Amaru. 3.</ls> ",
-                "{@--2@}\nA number of gods, the whole class\nof gods; <ls>Ve. 2.</ls> ",
-                "{@--3@} An idol. (The\nword is said to be {%<ab>m.</ab>%} also, but is \n\nrarely used in that gender. \nMammaṭa notices it as a fault called\n{#aprayuktatva#}; see {#aprayukta#}). ",
-                "{@--4@} <ab>N.</ab> of the\nthird Kāṇḍa of Yāska's Nirukta."
+                ".²1 Life, existence; {#tvaM jIvitaM tvamasi me hfdayaM dvitIyam#} <ls>U. 3. 26</ls>;\n {#kanyeyaM kulajIvitam#} <ls>Ku. 6. 63</ls>; <ls>Me. 83</ls>; {#nABinandeta maraRaM#}\n {#nABinandeta jIvitam#} <ls>Ms. 6. 45</ls>, <ls n=\"Ms.\">7. 111</ls>.\n",
+                ".²2 Duration of life.\n",
+                ".²3 Livelihood.\n",
+                ".²4 A living being.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 136115,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-antakaH#}@}"
+            ],
+            "_banner": ".{@{#-antakaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIvitAntakaH"
+                }
+            ],
+            "_meanings": [
+                "an epithet of Śiva.\n"
+            ]
+        },
+        {
+            "__line": 136116,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-ASA#}@}"
+            ],
+            "_banner": ".{@{#-ASA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIvitASA"
+                }
+            ],
+            "_meanings": [
+                "hope of life, love of life. {#nahi nahi tatra DanASA jIvita#}\n {#ASA'pi dussaho Bavati#} <ls>Subhāṣ.</ls>\n"
+            ]
+        },
+        {
+            "__line": 136118,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-ISaH#}@}"
+            ],
+            "_banner": ".{@{#-ISaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIviteSaH"
+                }
+            ],
+            "_meanings": [
+                ".²1 a lover, husband.\n",
+                ".²2 an epithet of Yama; {#jIviteSavasatiM jagAma sA#} <ls>R. 11. 20</ls> (where\n the word is used in sense 1 also).\n",
+                ".²3 the sun.\n",
+                ".²4 the moon.\n",
+                ".²5 a drug which is said to revive the dead.\n"
+            ]
+        },
+        {
+            "__line": 136125,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-ISvaraH#}@}"
+            ],
+            "_banner": ".{@{#-ISvaraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIviteSvaraH"
+                }
+            ],
+            "_meanings": [
+                "Śiva.\n"
+            ]
+        },
+        {
+            "__line": 136126,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-kAlaH#}@}"
+            ],
+            "_banner": ".{@{#-kAlaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIvitakAlaH"
+                }
+            ],
+            "_meanings": [
+                "duration of life.\n"
+            ]
+        },
+        {
+            "__line": 136127,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-jYA#}@}"
+            ],
+            "_banner": ".{@{#-jYA#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIvitajYA"
+                }
+            ],
+            "_meanings": [
+                "an artery.\n"
+            ]
+        },
+        {
+            "__line": 136128,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-nATaH#}@}"
+            ],
+            "_banner": ".{@{#-nATaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIvitanATaH"
+                }
+            ],
+            "_meanings": [
+                "a husband.\n"
+            ]
+        },
+        {
+            "__line": 136129,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-vyayaH#}@}"
+            ],
+            "_banner": ".{@{#-vyayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIvitavyayaH"
+                }
+            ],
+            "_meanings": [
+                "sacrifice of life.\n"
+            ]
+        },
+        {
+            "__line": 136130,
+            "_ancestry": [
+                "L_ 15676",
+                "B_ {#jIvita#}",
+                "S_ .{@{#-saMSayaH#}@}"
+            ],
+            "_banner": ".{@{#-saMSayaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "jIvitasaMSayaH"
+                }
+            ],
+            "_meanings": [
+                "risk of life, jeopardy, danger to life; {#sa Aturo jIvitasaMSaye#}\n {#vartate#} ‘he is dangerously ill’; <ls>Bv. 2. 20</ls>."
             ]
         }
     ]

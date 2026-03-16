@@ -1,19 +1,69 @@
 {
-    "__line": 123892,
+    "__line": 129524,
     "_ancestry": [
         "L_ 14943",
-        "B_ {#temaH#}"
+        "B_ {#cetas#}"
     ],
-    "_banner": "{#temaH#}",
+    "_banner": "{#cetas#}",
     "_bannerExp": [
         {
-            "Right": "temaH"
+            "Right": "cetas"
         }
     ],
     "_gram": [
-        "[{#tim-GaY#}]"
+        "{%n.%}",
+        "[{#cit karaRe asun#}]"
     ],
     "_meanings": [
-        "Becoming wet or\nmoist, moisture."
+        ".²1 Consciousness, sense.\n",
+        ".²2 Thinking soul; {#varaM varaya rAjarze kva te ceto nirUpyatAm#} <ls>Rām. 7. 57. 13</ls>;\n reasoning faculty; {#saMpramaTyendriyagrAmaM pranazwA saha#}\n {#cetasA#} <ls>Mb. 1. 125. 11</ls>; {#cetoBirAkUtiBirAtanoti#} <ls>Bhāg. 5. 11. 4</ls>.\n",
+        ".²3 The mind, heart, soul; {#cetaH prasAdayati#} <ls>Bh. 2. 23</ls>; {#gacCati puraH#}\n {#SarIraM DAvati paScAdasaMstutaM cetaH#} <ls>Ś. 1. 34</ls>.\n",
+        ".²4 Will.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 129533,
+            "_ancestry": [
+                "L_ 14943",
+                "B_ {#cetas#}",
+                "S_ .{@{#-janman, -BavaH, -BUH#}@}"
+            ],
+            "_banner": ".{@{#-janman, -BavaH, -BUH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cetojanman"
+                },
+                {
+                    "Right": "cetoBavaH"
+                },
+                {
+                    "Left": "S error: 1 syl BavaH BUH"
+                }
+            ],
+            "_gram": [
+                "{%m.%}"
+            ],
+            "_meanings": [
+                ".²1 love, passion.\n",
+                ".²2 the god of love. {#cetojanmaSaraprasUnamaDuBirvyAmiSratAmASrayat#} <ls>N.</ls>\n"
+            ]
+        },
+        {
+            "__line": 129536,
+            "_ancestry": [
+                "L_ 14943",
+                "B_ {#cetas#}",
+                "S_ .{@{#-vikAraH#}@}"
+            ],
+            "_banner": ".{@{#-vikAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "cetovikAraH"
+                }
+            ],
+            "_meanings": [
+                "disturbance of the mind, emotion, agitation."
+            ]
+        }
     ]
 }

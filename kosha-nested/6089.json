@@ -1,60 +1,61 @@
 {
-    "__line": 53399,
+    "__line": 50939,
     "_ancestry": [
         "L_ 6089",
-        "B_ {#AtiTeya#}"
+        "B_ {#asaMmata#}"
     ],
-    "_banner": "{#AtiTeya#}",
+    "_banner": "{#asaMmata#}",
     "_bannerExp": [
         {
-            "Right": "AtiTeyI"
-        },
-        {
-            "Right": "AtiTeya"
+            "Right": "asammata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}",
-        "({#yI#}|{%<ab>f.</ab>%})",
-        "[{#atiTizu sADuH#}\n{#QaY; atiTaye idaM Qak#}]"
+        "{%a.%}"
     ],
     "_meanings": [
-        "{@--1@} Attentive to\nguests, hospitable (as a man);  \n{#pratyujjagAmAtiTimAtiTeyaH#} <ls>R. 5. 2</ls>, <ls n=\"R.\">12. 25</ls>\n{#tamAtiTeyI bahumAnapUrvayA#} <ls>Ku. 5. 31.</ls> ",
-        "{@--2@}\nProper for, or suited to, a guest,\nintended for a guest; {#AtiTeyaH#} \n{#satkAraH#} <ls>Ś. 1.</ls> "
+        ".²1 Disapproved, not allowed or permitted, not consented to; {#asaMmataH#}\n {#kastava muktimArgam#} <ls>Ku. 3. 5</ls>.\n",
+        ".²2 Disliked, averse.\n",
+        ".²3 Dissentient, differing from.\n"
     ],
     "_morphisms": [
         {
-            "__line": 53406,
+            "__line": 50944,
             "_ancestry": [
                 "L_ 6089",
-                "B_ {#AtiTeya#}",
-                "M_ {#--yaM#}"
+                "B_ {#asaMmata#}",
+                "M_ .{@{#-taH#}@}"
             ],
-            "_banner": "{#--yaM#}",
+            "_banner": ".{@{#-taH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AtiTeyaM"
+                    "Right": "asammataH"
                 }
             ],
             "_meanings": [
-                "Hospitality;  \n{#AtiTeyamanivAritAtiTiH#} <ls>Śi. 14. 38</ls>;  \n<ls>Ms. 3. 18</ls>; {#sajjAtiTeyA vayaM#} <ls>Mv. 2. 50.</ls>\n"
+                "An enemy; {#dyatu dozErasaMmatAn#} <ls>K. P. 7</ls>.\n"
             ]
-        },
+        }
+    ],
+    "_samasas": [
         {
-            "__line": 53409,
+            "__line": 50946,
             "_ancestry": [
                 "L_ 6089",
-                "B_ {#AtiTeya#}",
-                "M_ {#--yI#}"
+                "B_ {#asaMmata#}",
+                "S_ .{@{#-AdAyin#}@}"
             ],
-            "_banner": "{#--yI#}",
+            "_banner": ".{@{#-AdAyin#}@}",
             "_bannerExp": [
                 {
-                    "Right": "AtiTeyI"
+                    "Right": "asammatAdAyin"
                 }
             ],
+            "_gram": [
+                "{%a.%}"
+            ],
             "_meanings": [
-                "Hospitality; <ls>Bv. 1. 85.</ls>"
+                "taking without the consent of the possessor, such\n as a thief. {#surApo'saMmatAdAyI BrURahA gurutalpagaH . tapasA tarate …#}\n <ls>Mb. 13. 122. 9</ls>."
             ]
         }
     ]

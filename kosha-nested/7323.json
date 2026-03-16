@@ -1,20 +1,43 @@
 {
-    "__line": 63043,
+    "__line": 61295,
     "_ancestry": [
         "L_ 7323",
-        "B_ {#iqAvat#}"
+        "B_ {#AmBasika#}"
     ],
-    "_banner": "{#iqAvat#}",
+    "_banner": "{#AmBasika#}",
     "_bannerExp": [
         {
-            "Right": "iqAvat"
+            "Right": "AmBasika"
+        },
+        {
+            "Right": "AmBasikI"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "({#-kI#}|{%f.%})",
+        "[{#amBasI vartate Wak#}]"
     ],
     "_meanings": [
-        "{@--1@} Possessed of \nsacrificial food. ",
-        "{@--2@} Refreshing."
+        "Acquatic.\n"
+    ],
+    "_morphisms": [
+        {
+            "__line": 61297,
+            "_ancestry": [
+                "L_ 7323",
+                "B_ {#AmBasika#}",
+                "M_ .{@{#-kaH#}@}"
+            ],
+            "_banner": ".{@{#-kaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "AmBasikaH"
+                }
+            ],
+            "_meanings": [
+                "A fish."
+            ]
+        }
     ]
 }

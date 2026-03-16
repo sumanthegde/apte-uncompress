@@ -1,20 +1,126 @@
 {
-    "__line": 24476,
+    "__line": 21587,
     "_ancestry": [
         "L_ 2408",
-        "B_ {#apaBU#}"
+        "B_ {#anyataH#}"
     ],
-    "_banner": "{#apaBU#}",
+    "_banner": "{#anyataH#}",
     "_bannerExp": [
         {
-            "Right": "apaBU"
+            "Right": "anyataH"
         }
     ],
     "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
+        "{%<ab>adv.</ab>%}"
     ],
     "_meanings": [
-        "To be away, be\nabsent."
+        ".²1 From another; {#na cAnyatastasya SarIrarakzA#} <ls>R. 2. 4</ls>; {#tIrTodakaM#}\n {#ca vahniSca nAnyataH SudDimarhataH#} <ls>U. 1. 13</ls>.\n",
+        ".²2 One one side; {#anyataH--anyataH, ekataH -anyataH#} on the one side,\n on the other side; {#tapanamaRqaladIpitamekataH satatanESatamovftamanyataH#}\n <ls>Ki. 5. 2</ls>; {#ekavastu sakalAni nimittAnyanyato hi manasaH pratipattiH#} <ls>Nīti.</ls>\n",
+        ".²3 To another place, towards some other person or direction; {#gantavyaM#}\n {#vA tato'nyataH#} <ls>Ms. 2. 200</ls>; {#anyato'pi nayane prerayantyA#} <ls>Ś. 2. 2</ls>;\n {#Arye vrajAmo'nyataH#} <ls>R. 6. 82</ls>.\n",
+        ".²4 From another ground or motive.\n",
+        ".²5 On the other side; on the contrary.\n",
+        ".²6 Otherwise; in another place, elsewhere.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 21600,
+            "_ancestry": [
+                "L_ 2408",
+                "B_ {#anyataH#}",
+                "S_ .{@{#-araRyam#}@}"
+            ],
+            "_banner": ".{@{#-araRyam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyatAraRyam"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> a land which is woody here and there. <ls>Vāj. 30. 19</ls>.\n"
+            ]
+        },
+        {
+            "__line": 21601,
+            "_ancestry": [
+                "L_ 2408",
+                "B_ {#anyataH#}",
+                "S_ .{@{#-eta, -etas, -enI#}@}"
+            ],
+            "_banner": ".{@{#-eta, -etas, -enI#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyatEta"
+                },
+                {
+                    "Right": "anyatEtas"
+                },
+                {
+                    "Right": "anyatEnI"
+                }
+            ],
+            "_meanings": [
+                "<ab>Ved.</ab> variegated or spotted on one side.\n"
+            ]
+        },
+        {
+            "__line": 21602,
+            "_ancestry": [
+                "L_ 2408",
+                "B_ {#anyataH#}",
+                "S_ .{@{#-GAtin#}@}"
+            ],
+            "_banner": ".{@{#-GAtin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyataGAtin"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "striking in one direction.\n"
+            ]
+        },
+        {
+            "__line": 21603,
+            "_ancestry": [
+                "L_ 2408",
+                "B_ {#anyataH#}",
+                "S_ .{@{#-vAta#}@}"
+            ],
+            "_banner": ".{@{#-vAta#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "anyatavAta"
+                }
+            ],
+            "_gram": [
+                "{%a.%}"
+            ],
+            "_meanings": [
+                "suffering occasional wind (rheumatism).\n."
+            ],
+            "_morphisms": [
+                {
+                    "__line": 21604,
+                    "_ancestry": [
+                        "L_ 2408",
+                        "B_ {#anyataH#}",
+                        "S_ .{@{#-vAta#}@}",
+                        "S_M_ ({@{#-taH#}@})"
+                    ],
+                    "_banner": "({@{#-taH#}@})",
+                    "_bannerExp": [
+                        {
+                            "Left": "S_M_ 1 error: anyatavAta ({@{#-taH#}@})"
+                        }
+                    ],
+                    "_meanings": [
+                        "a sort of eye-disease."
+                    ]
+                }
+            ]
+        }
     ]
 }

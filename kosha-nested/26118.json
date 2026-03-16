@@ -1,40 +1,57 @@
 {
-    "__line": 220553,
+    "__line": 238491,
     "_ancestry": [
         "L_ 26118",
-        "B_ {#vipariRam#}"
+        "B_ {#mApanam#}, {#-nA#}"
     ],
-    "_banner": "{#vipariRam#}",
+    "_banner": "{#mApanam#}, {#-nA#}",
     "_bannerExp": [
         {
-            "Right": "vipariRam"
+            "Right": "mApanam"
+        },
+        {
+            "Right": "mApanA"
         }
     ],
-    "_gram": [
-        "{%<ab>Caus.</ab>%}"
-    ],
     "_meanings": [
-        "To change or\ntransform into. "
+        ".²1 Measuring; {#yasmin deSe ca kAle ca mApaneyaM pravartitA#} <ls>Mb. 1. 51. 16</ls>.\n",
+        ".²2 Forming, making.\n"
     ],
     "_morphisms": [
         {
-            "__line": 220554,
+            "__line": 238494,
             "_ancestry": [
                 "L_ 26118",
-                "B_ {#vipariRam#}",
-                "M_ {%--<ab>Pass.</ab>%}"
+                "B_ {#mApanam#}, {#-nA#}",
+                "M_ .{@{#-naH#}@}"
             ],
+            "_banner": ".{@{#-naH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "vipariRam"
+                    "Right": "mApanaH"
                 }
             ],
-            "_gram": [
-                "{%--<ab>Pass.</ab>%}"
+            "_meanings": [
+                "A balance.\n"
+            ]
+        }
+    ],
+    "_samasas": [
+        {
+            "__line": 238496,
+            "_ancestry": [
+                "L_ 26118",
+                "B_ {#mApanam#}, {#-nA#}",
+                "S_ .{@{#-vizamaH#}@}"
+            ],
+            "_banner": ".{@{#-vizamaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "mApanavizamaH"
+                }
             ],
             "_meanings": [
-                "{@--1@} To be\nchanged into. ",
-                "{@--2@} To undergo a\nchange for the worse."
+                "one of the ways of embezzlement namely deception in counting\n articles; <ls>Kau. A. 2. 8. 26</ls>."
             ]
         }
     ]

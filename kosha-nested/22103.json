@@ -1,57 +1,44 @@
 {
-    "__line": 183718,
+    "__line": 198581,
     "_ancestry": [
         "L_ 22103",
-        "B_ {#BAnumat#}"
+        "B_ {#pragata#}"
     ],
-    "_banner": "{#BAnumat#}",
+    "_banner": "{#pragata#}",
     "_bannerExp": [
         {
-            "Right": "BAnumat"
+            "Right": "pragata"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%<ab>p. p.</ab>%}"
     ],
     "_meanings": [
-        "{@--1@} Luminous, bright,\nsplendid. ",
-        "{@--2@} Beautiful, handsome.\n"
+        ".²1 Gone forth or forward.\n",
+        ".²2 Separate, apart.\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 183720,
+            "__line": 198585,
             "_ancestry": [
                 "L_ 22103",
-                "B_ {#BAnumat#}",
-                "M_ {%--<ab>m.</ab>%}"
+                "B_ {#pragata#}",
+                "S_ .{@{#-jAnu, -jAnuka#}@}"
             ],
+            "_banner": ".{@{#-jAnu, -jAnuka#}@}",
             "_bannerExp": [
                 {
-                    "Right": "BAnumat"
+                    "Right": "pragatajAnu"
+                },
+                {
+                    "Right": "pragatajAnuka"
                 }
             ],
             "_gram": [
-                "{%--<ab>m.</ab>%}"
+                "{%a.%}"
             ],
             "_meanings": [
-                "The sun; <ls>Ku. 3. 65</ls>;  \n<ls>R. 6. 36</ls>; <ls>Rs. 5. 2.</ls> "
-            ]
-        },
-        {
-            "__line": 183721,
-            "_ancestry": [
-                "L_ 22103",
-                "B_ {#BAnumat#}",
-                "M_ {#--tI#}"
-            ],
-            "_banner": "{#--tI#}",
-            "_bannerExp": [
-                {
-                    "Right": "BAnumatI"
-                }
-            ],
-            "_meanings": [
-                "<ab>N.</ab> of the wife\nof Duryodhana."
+                "bandy-legged, bow-legged."
             ]
         }
     ]

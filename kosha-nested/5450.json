@@ -1,19 +1,64 @@
 {
-    "__line": 48274,
+    "__line": 45713,
     "_ancestry": [
         "L_ 5450",
-        "B_ {#asanna#}"
+        "B_ {#avAraH#}, {#-ram#}"
     ],
-    "_banner": "{#asanna#}",
+    "_banner": "{#avAraH#}, {#-ram#}",
     "_bannerExp": [
         {
-            "Right": "asanna"
+            "Right": "avAraH"
+        },
+        {
+            "Right": "avAram"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "[{#na vAryate jalena vf-karmaRi GaY#}]"
     ],
     "_meanings": [
-        "<ab>Ved.</ab> Without rest or\nrepose, untiring, restless."
+        ".²1 The near bank of a river; {#nAsya dvIpaH kutaH pAro nAvAraH saMpradfSyate#}\n <ls>Mb. 12. 224. 21</ls>.\n",
+        ".²2 This side; {#yo vE saMvatsarasyAvaraM pAraM ca veda#} <ls>Ait. Br.</ls> {#˚tas#}\n {%ind.%} to this side; {#payo duhAnA vratanIravArataH#} <ls>Rv. 10. 65. 6</ls>.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 45720,
+            "_ancestry": [
+                "L_ 5450",
+                "B_ {#avAraH#}, {#-ram#}",
+                "S_ .{@{#-pAraH#}@}"
+            ],
+            "_banner": ".{@{#-pAraH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avArapAraH"
+                }
+            ],
+            "_meanings": [
+                "The ocean ({#rAzwrAvArapArAdDaravO#} <ls>P. IV. 2. 93</ls>, {#avArapArAtyantAnukAmaM#}\n {#gAmI#} <ls>V. 2. 11.</ls>).\n"
+            ]
+        },
+        {
+            "__line": 45722,
+            "_ancestry": [
+                "L_ 5450",
+                "B_ {#avAraH#}, {#-ram#}",
+                "S_ .{@{#-pArIRa#}@}"
+            ],
+            "_banner": ".{@{#-pArIRa#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "avArapArIRa"
+                }
+            ],
+            "_gram": [
+                "{%a.%}",
+                "[{#avArapAre gacCati, Ka#} <ls>P. IV. 2. 93</ls>]"
+            ],
+            "_meanings": [
+                ".²1 belonging to the ocean.\n",
+                ".²2 crossing a river."
+            ]
+        }
     ]
 }

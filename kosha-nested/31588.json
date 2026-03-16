@@ -1,39 +1,55 @@
 {
-    "__line": 264956,
+    "__line": 291235,
     "_ancestry": [
         "L_ 31588",
-        "B_ {#hradaH#}"
+        "B_ {#SaNKakaH#}, {#-kam#}"
     ],
-    "_banner": "{#hradaH#}",
+    "_banner": "{#SaNKakaH#}, {#-kam#}",
     "_bannerExp": [
         {
-            "Right": "hradaH"
+            "Right": "SaNKakaH"
+        },
+        {
+            "Right": "SaNKakam"
         }
     ],
-    "_gram": [
-        "[{#hrAd --ac ni0#}]"
-    ],
     "_meanings": [
-        "{@--1@} A deep \n\nlake, a large and deep pool of\nwater; <ls>N. 3. 53.</ls> ",
-        "{@--2@} A deep hole\nor cavity; <ls>Śi. 5. 29.</ls> ",
-        "{@--3@} A ray of\nlight. "
+        "A conch-shell.\n"
     ],
-    "_samasas": [
+    "_morphisms": [
         {
-            "__line": 264961,
+            "__line": 291237,
             "_ancestry": [
                 "L_ 31588",
-                "B_ {#hradaH#}",
-                "S_  {#--grahaH#}"
+                "B_ {#SaNKakaH#}, {#-kam#}",
+                "M_ .{@{#-kaH#}@}"
             ],
-            "_banner": " {#--grahaH#}",
+            "_banner": ".{@{#-kaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "hradagrahaH"
+                    "Right": "SaNKakaH"
                 }
             ],
             "_meanings": [
-                "a crocodile."
+                ".²1 A disease of the head.\n",
+                ".²2 The temporal bone.\n"
+            ]
+        },
+        {
+            "__line": 291240,
+            "_ancestry": [
+                "L_ 31588",
+                "B_ {#SaNKakaH#}, {#-kam#}",
+                "M_ .{@{#-kam#}@}"
+            ],
+            "_banner": ".{@{#-kam#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "SaNKakam"
+                }
+            ],
+            "_meanings": [
+                "A bracelet (made of conch-shell); {#pracalatkalApikalaSaNKakasvanA#} <ls>Śi. 13. 41</ls>."
             ]
         }
     ]

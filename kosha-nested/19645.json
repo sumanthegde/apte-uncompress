@@ -1,46 +1,67 @@
 {
-    "__line": 164407,
+    "__line": 175772,
     "_ancestry": [
         "L_ 19645",
-        "B_ {#pracal#}"
+        "B_ {#nyAsaH#}"
     ],
-    "_banner": "{#pracal#}",
+    "_banner": "{#nyAsaH#}",
     "_bannerExp": [
         {
-            "Right": "pracal"
+            "Right": "nyAsaH"
         }
     ],
-    "_gram": [
-        "{c1c}",
-        "<ab>P.</ab>"
-    ],
     "_meanings": [
-        "{@--1@} To shake, move,\ntremble; <ls>Bh. 2. 4.</ls> ",
-        "{@--2@} To go, walk,\nmove on; set out, start off, depart.\n",
-        "{@--3@} To start up, spring up. ",
-        "{@--4@} To\nbe affected, disturbed or agitated. ",
-        "{@--5@}\nTo prevail, be current. ",
-        "{@--6@} To swerve,\ndeviate from (<ab>abl.</ab>). "
+        ".²1 Placing, putting down or upon, planting, {#tasyA KuranyAsapavitrapAMsum#}\n <ls>R. 2. 2</ls>; <ls>Ku. 6. 50</ls>; <ls>M. 2. 9</ls>; <ls>Māl. 5. 5</ls>; {#caraRanyAsa, aNganyAsa#} <ab>&c.</ab>;\n {#sEndUraM kriyate janena caraRanyAsEH punaH kuwwimam#} <ls>Ratn. 1. 10</ls>.\n",
+        ".²2 Hence, any impression, mark, stamp, print; {#atiSastranaKanyAsaH#}\n <ls>R. 12. 73</ls>; ‘where the nail-marks surpassed those of weapons’; {#dantanyAsaH#}.\n",
+        ".²3 Depositing.\n",
+        ".²4 A pledge, deposit; {#pratyarpitanyAsa ivAntarAtmA#} <ls>Ś. 4. 22</ls>; <ls>R. 12. 18</ls>;\n <ls>Y. 2. 67</ls>.\n",
+        ".²5 Entrusting, committing, giving over, delivering, consigning.\n",
+        ".²6 Painting, writing down.\n",
+        ".²7 Giving up, resigning, abandoning, relinquishing; {#Sastra˚#}; {#nyAso daRqasya#}\n {#BUtezu#} <ls>Bhāg. 7. 15. 8</ls>; {#kAmyAnAM karmaRAM nyAsaM saMnyAsaM kavayo#}\n {#viduH#} <ls>Bg. 18. 2</ls>.\n",
+        ".²8 Bringing forward, adducing.\n",
+        ".²9 Digging in, seizing (as with claws).\n",
+        ".²10 Assignment of the various parts of the body to different deities,\n which is usually accompanied with prayers and corresponding gesticulations.\n",
+        ".²11 Lowering the tone or voice.\n",
+        ".²12 {#saMnyAsa#} <ab>q. v.</ab>; {#evaM vasan gfhe kAlaM virakto nyAsamAsTitaH#}\n <ls>Bhāg. 9. 6. 53</ls>.\n",
+        ".²13 Written or literal text ({#yaTAnyAsam#}).\n",
+        ".²14 Bringing forward, introducing (<ab>cf.</ab> {#arTAntaranyAsa#}).\n"
     ],
-    "_morphisms": [
+    "_samasas": [
         {
-            "__line": 164413,
+            "__line": 175796,
             "_ancestry": [
                 "L_ 19645",
-                "B_ {#pracal#}",
-                "M_ {%--<ab>Caus.</ab>%}"
+                "B_ {#nyAsaH#}",
+                "S_ .{@{#-apahnavaH#}@}"
             ],
+            "_banner": ".{@{#-apahnavaH#}@}",
             "_bannerExp": [
                 {
-                    "Right": "pracal"
+                    "Right": "nyAsApahnavaH"
+                }
+            ],
+            "_meanings": [
+                "repudiation of a deposit.\n"
+            ]
+        },
+        {
+            "__line": 175797,
+            "_ancestry": [
+                "L_ 19645",
+                "B_ {#nyAsaH#}",
+                "S_ .{@{#-DArin#}@}"
+            ],
+            "_banner": ".{@{#-DArin#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "nyAsaDArin"
                 }
             ],
             "_gram": [
-                "{%--<ab>Caus.</ab>%}"
+                "{%m.%}"
             ],
             "_meanings": [
-                "{@--1@} ({#cAla°#})\nTo shake, stir up. ",
-                "{@--2@} ({#cala°#})\nTo move, set in motion."
+                "the holder of a deposit, a mortgagee."
             ]
         }
     ]

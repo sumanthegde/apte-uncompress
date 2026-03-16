@@ -1,19 +1,41 @@
 {
-    "__line": 168831,
+    "__line": 182484,
     "_ancestry": [
         "L_ 20275",
-        "B_ {#pratyUzas#}"
+        "B_ {#pariDAv#}"
     ],
-    "_banner": "{#pratyUzas#}",
+    "_banner": "{#pariDAv#}",
     "_bannerExp": [
         {
-            "Right": "pratyUzas"
+            "Right": "pariDAv"
         }
     ],
     "_gram": [
-        "{%<ab>n.</ab>%}"
+        "€1",
+        "<ab>P.</ab>"
     ],
     "_meanings": [
-        "Day-break, morning,\ndawn."
+        "²1 To flow or stream round.\n",
+        ".²2 To go about.\n",
+        ".²3 To run after, pursue. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 182487,
+            "_ancestry": [
+                "L_ 20275",
+                "B_ {#pariDAv#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "pariDAv"
+                }
+            ],
+            "_meanings": [
+                "To surround, encircle."
+            ]
+        }
     ]
 }

@@ -1,19 +1,44 @@
 {
-    "__line": 71261,
+    "__line": 69651,
     "_ancestry": [
         "L_ 8300",
-        "B_ {#udvoQf#}"
+        "B_ {#IK, -INK#}"
     ],
-    "_banner": "{#udvoQf#}",
+    "_banner": "{#IK, -INK#}",
     "_bannerExp": [
         {
-            "Right": "udvoQf"
+            "Right": "IK"
+        },
+        {
+            "Right": "INK"
         }
     ],
     "_gram": [
-        "{%<ab>m.</ab>%}"
+        "€1",
+        "<ab>P.</ab>",
+        "({#INKati, INKAYcake, INKitum, INKita#})"
     ],
     "_meanings": [
-        "A husband."
+        "To go, move,\n vacillate. "
+    ],
+    "_morphisms": [
+        {
+            "__line": 69653,
+            "_ancestry": [
+                "L_ 8300",
+                "B_ {#IK, -INK#}",
+                "M_ --{%<ab>Caus.</ab>%}"
+            ],
+            "_banner": "--{%<ab>Caus.</ab>%}",
+            "_bannerExp": [
+                {
+                    "Right": "IK"
+                }
+            ],
+            "_meanings": [
+                ".²1 To move backwards and forwards, swing, oscillate.\n",
+                ".²2 To shake, cause to tremble."
+            ]
+        }
     ]
 }

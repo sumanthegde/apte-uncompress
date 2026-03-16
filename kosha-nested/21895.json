@@ -1,20 +1,62 @@
 {
-    "__line": 182010,
+    "__line": 196858,
     "_ancestry": [
         "L_ 21895",
-        "B_ {#Baktf#}"
+        "B_ {#pozya#}"
     ],
-    "_banner": "{#Baktf#}",
+    "_banner": "{#pozya#}",
     "_bannerExp": [
         {
-            "Right": "Baktf"
+            "Right": "pozya"
         }
     ],
     "_gram": [
-        "{%<ab>a.</ab>%}"
+        "{%a.%}",
+        "[{#puz-karmaRi Ryat#}]"
     ],
     "_meanings": [
-        "{@--1@} An adorer, a worshipper.\n",
-        "{@--2@} Devoutly attached."
+        ".²1 To be fed, nourished or supported.\n",
+        ".²2 Well-fed, thriving.\n",
+        ".²3 Causing prosperity.\n",
+        ".²4 Abundant, copious.\n"
+    ],
+    "_samasas": [
+        {
+            "__line": 196864,
+            "_ancestry": [
+                "L_ 21895",
+                "B_ {#pozya#}",
+                "S_ .{@{#-putraH, -sutaH#}@}"
+            ],
+            "_banner": ".{@{#-putraH, -sutaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pozyaputraH"
+                },
+                {
+                    "Right": "pozyasutaH"
+                }
+            ],
+            "_meanings": [
+                "an adopted son; {#aDunA kfttikAdInAM zaRRAM yaH#}\n {#pozyaputrakaH . tannAma cakrustAH premRA kArtikaSceti kOtukAt ..#} <ls>Brav. P.</ls>\n"
+            ]
+        },
+        {
+            "__line": 196866,
+            "_ancestry": [
+                "L_ 21895",
+                "B_ {#pozya#}",
+                "S_ .{@{#-vargaH#}@}"
+            ],
+            "_banner": ".{@{#-vargaH#}@}",
+            "_bannerExp": [
+                {
+                    "Right": "pozyavargaH"
+                }
+            ],
+            "_meanings": [
+                "a class of relatives, who must be nourished and protected."
+            ]
+        }
     ]
 }
