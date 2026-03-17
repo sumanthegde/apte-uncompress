@@ -650,10 +650,12 @@ koshaFormContent t = let
   concatUnresSamasas t = stripAndSqueeze $ unwords $ concatBannerGramMeaning <$> unresolvedSamasas t
   in braceHashToDevanagari $ unwords [concatBannerGramMeaning t, concatMorphisms t, concatUnresSamasas t]
 
+pratipadikafy :: String -> String
+pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
+
 koshaFormJsonReady :: [String] -> M.Map Int String -> [Term] -> [[(String, String, String, String, [String], [String])]]
 koshaFormJsonReady makarantas pageMarkMap es = let
   anusvarafyEnd w = if last w == 'm' && w `notElem` makarantas then init w ++ "M" else w
-  pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
   pratipadikafys e = pratipadikafy . anusvarafyEnd <$> rights (e ^. bannerExp . _Just)
   getL e = (loc . head) (e ^. ancestry . _Just)
   getPnum e = maybe ("-") snd $ M.lookupLE (fromJust $ __line e) pageMarkMap
