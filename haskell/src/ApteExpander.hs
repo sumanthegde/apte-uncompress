@@ -630,16 +630,17 @@ sqliteStore es = do
 --   Morphism treatment | as separate entity (but combined during fetch due to pratipadika match) | as sub-json of its parent (why? coz verb's Desid. etc)
 --   Comp treatment | as unrelated separate entity | separate, but planning to add headword-only list in future
 --  sqliteKritDarshStore :: [Term] -> ([(Int,String),(Int,String)])
-sqliteKritDarshPrepare :: [Term] -> ([(Integer, String)], [(Integer, String)])
-sqliteKritDarshPrepare es = let
+sqliteKritDarshPrepare :: [String] -> [Term] -> ([(Integer, String)], [(Integer, String)])
+sqliteKritDarshPrepare makarantas es = let
+      anusvarafyEnd w = if last w == 'm' && w `notElem` makarantas then init w ++ "M" else w
       liftSamasas e = e {_samasas = Nothing} : case _samasas e of Nothing -> []; Just sams -> concatMap liftSamasas sams
       idxLiftedEs = zip [1..] (concatMap liftSamasas es) 
-      wordsTable = uniq $ concatMap (\(idx, e)->[(idx,(uncanon.e2s.anunasikafy.pratipadikafy) w) | w <- rights (e^.bannerExp._Just)]) idxLiftedEs
+      wordsTable = uniq $ concatMap (\(idx, e)->[(idx,(uncanon.e2s.anunasikafy.pratipadikafy.anusvarafyEnd) w) | w <- rights (e^.bannerExp._Just)]) idxLiftedEs
       jsonSerialize = BLU.toString . encode
   in (wordsTable, second jsonSerialize <$> idxLiftedEs)
 
-sqliteKritDarshStore :: [Term] -> IO ()
-sqliteKritDarshStore = uncurry bulkLoadFromTSVKritDarsh . sqliteKritDarshPrepare
+sqliteKritDarshStore :: [String] -> [Term] -> IO ()
+sqliteKritDarshStore makarantas = uncurry bulkLoadFromTSVKritDarsh . sqliteKritDarshPrepare makarantas
 
 koshaFormContent :: Term -> String
 koshaFormContent t = let
