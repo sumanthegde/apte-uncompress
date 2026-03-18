@@ -98,6 +98,14 @@
             return result;
         }
 
+        // table_new form is parasavarna'ed internally, but anusvara'ed at the end
+        function anusvarafyEnd(text){
+            if(text.endsWith('म')){
+                return text.slice(0, -1) + 'ं';
+            }
+            return text;
+        }
+
         // Function to convert Devanagari to intermediate form
         function devanagariToIntermediate(text) {
             // Result buffer

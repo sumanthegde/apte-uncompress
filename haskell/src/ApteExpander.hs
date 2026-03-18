@@ -582,7 +582,7 @@ tabulate es = do
       tablePath = apteOutput </> "table.txt"
       eToL e = (loc ((e ^. ancestry . _Just)!!0))
       eToTag e = last (e ^. ancestry . _Just)
-      eToExps_new e = (fmap e2s' . rights) (e ^.. bannerExp . _Just . traverse)
+      eToExps_new e = (fmap (e2s'.anusvarafyEnd []) . rights) (e ^.. bannerExp . _Just . traverse)
       eExpToRow_new e exp = (exp, eToTag e, eToL e)
       eToRows_new e = eExpToRow_new e <$> eToExps_new e
       calate_132 (exp,tag,l) = exp ++ ":" ++ l ++ ":" ++ (head . words . showLoc) tag
@@ -623,11 +623,14 @@ koshaFormContent t = let
   concatUnresSamasas t = stripAndSqueeze $ unwords $ concatBannerGramMeaning <$> unresolvedSamasas t
   in braceHashToDevanagari $ unwords [concatBannerGramMeaning t, concatMorphisms t, concatUnresSamasas t]
 
+anusvarafyEnd :: [String] -> String -> String
+anusvarafyEnd makarantas w = if last w == 'm' && w `notElem` makarantas then init w ++ "M" else w
+pratipadikafy :: String -> String
+pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
+
 koshaFormJsonReady :: [String] -> M.Map Int String -> [Term] -> [[(String, String, String, String, [String], [String])]]
 koshaFormJsonReady makarantas pageMarkMap es = let
-  anusvarafyEnd w = if last w == 'm' && w `notElem` makarantas then init w ++ "M" else w
-  pratipadikafy w = if flip any ["aM","aH","iH","IH","uH","UH"] (`L.isSuffixOf` w) then init w else w
-  pratipadikafys e = pratipadikafy . anusvarafyEnd <$> rights (e ^. bannerExp . _Just)
+  pratipadikafys e = pratipadikafy . anusvarafyEnd makarantas <$> rights (e ^. bannerExp . _Just)
   getL e = (loc . head) (e ^. ancestry . _Just)
   getPnum e = maybe ("-") snd $ M.lookupLE (fromJust $ __line e) pageMarkMap
   nonMorphic l = case l of (M_ _) -> False; (S_M_ _) -> False; (S_S_M_ _) -> False; (S_M_S_M_ _) -> False; _ -> True

@@ -429,7 +429,7 @@
                         let lookupKey = word.trim();
 
                         // Convert to intermediate form first, then apply anunasikafy
-                        const intermediateInput = anunasikafy(devanagariToIntermediate(lookupKey));
+                        const intermediateInput = anusvarafyEnd(anunasikafy(devanagariToIntermediate(lookupKey)));
 
 
                         // Use the intermediate form for lookup
