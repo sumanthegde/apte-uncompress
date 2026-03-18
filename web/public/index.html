@@ -429,7 +429,7 @@
                         let lookupKey = word.trim();
 
                         // Convert to intermediate form first, then apply anunasikafy
-                        const intermediateInput = anunasikafy(devanagariToIntermediate(lookupKey));
+                        const intermediateInput = anusvarafyEnd(anunasikafy(devanagariToIntermediate(lookupKey)));
 
 
                         // Use the intermediate form for lookup
@@ -892,9 +892,9 @@
                             // Try with visarga (ः) appended
                             const wordWithVisarga = wordToCheck + 'ः';
                             lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "H" : wordWithVisarga, true).catch(visargaError => {
-                                // Try with anusvara (ं) appended
-                                const wordWithAnusvara = wordToCheck + 'ं';
-                                lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "M" : wordWithAnusvara, true).catch(anusvaraError => {
+                                // Try with makara (म्) appended
+                                const wordWithMakaranta = wordToCheck + 'म्';
+                                lookupDevanagariWord(error.isSLP1Input ? error.originalWord + "m" : wordWithMakaranta, true).catch(anusvaraError => {
                                     // All attempts failed - now show the error message
                                     document.getElementById('error').style.display = 'block';
                                     document.getElementById('error').innerHTML = `Word "${displayWord}" not found in dictionary.`;

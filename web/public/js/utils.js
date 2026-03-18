@@ -146,21 +146,30 @@ function getSuggestions(input, filterLabel = null) {
     // Collect up to INITIAL_SUGGESTIONS_COUNT entries
     for (let i = startIndex; i < parsedTableData.length && initialSuggestions.length < INITIAL_SUGGESTIONS_COUNT; i++) {
         const entry = parsedTableData[i];
-        const intermediateText = entry[0];
+        let intermediateText = entry[0];
         const entryId = entry[1];
         const entryLabel = entry[2];
-
-        // Skip entries with labels ending with 'M_' unless it's an exact match
-        if (entryLabel && entryLabel.endsWith('M_') && intermediateInput !== intermediateText) {
-            continue;
-        }
 
         // Skip duplicates (check intermediate text to maintain order)
         if (seenIntermediateTexts.includes(intermediateText)) {
             continue;
         }
 
-        // Add to our collection and mark as seen
+        // If intermediateText ends with 'ः' or 'ं' or 'म्' strip that and skip if seenIntermediateTexts contains the stripped text
+        let strippedIntermediateText = intermediateText;
+        if (intermediateText.endsWith('ः') || intermediateText.endsWith('ं')) {
+            strippedIntermediateText = intermediateText.slice(0, -1);
+            if (seenIntermediateTexts.includes(strippedIntermediateText)) {
+                continue;
+            }
+        }
+
+        // If intermediateText ends with ं, replace that ं with म् (= म, in intermediate form)
+        if (intermediateText.endsWith('ं')) {
+            intermediateText = intermediateText.slice(0, -1) + "म";
+        }
+
+         // Add to our collection and mark as seen
         initialSuggestions.push({
             intermediateText,
             entryId,
