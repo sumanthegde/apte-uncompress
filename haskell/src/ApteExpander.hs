@@ -629,12 +629,23 @@ sqliteStore es = do
 --   Meanings granularity | split into rows | whole _meanings block in one row (as json)
 --   Morphism treatment | as separate entity (but combined during fetch due to pratipadika match) | as sub-json of its parent (why? coz verb's Desid. etc)
 --   Comp treatment | as unrelated separate entity | separate, but planning to add headword-only list in future
---  sqliteKritDarshStore :: [Term] -> ([(Int,String),(Int,String)])
+
+flattenForKritDarsh :: Term -> [Term]
+flattenForKritDarsh t = let
+  selfSamasas = concatMap flattenForKritDarsh (t ^. samasas . _Just)
+  dropAmAH cs = if any (`L.isSuffixOf` cs) ["am", "aH"] then init cs else cs
+  uniqueBanners m = L.nub $ m ^.. bannerExp . _Just . traverse . _Right . to dropAmAH
+  hasUniqueBanners m = not $ null $ (uniqueBanners t) L.\\ (uniqueBanners m)
+  morphismContribution m = (if hasUniqueBanners m then [m] else []) ++ concatMap flattenForKritDarsh (m ^. samasas . _Just)
+  morphismsContribution = concatMap morphismContribution (t ^. morphisms . _Just)
+  in t { _samasas = Nothing} : (morphismsContribution ++ selfSamasas)
+
 sqliteKritDarshPrepare :: [String] -> [Term] -> ([(Integer, String)], [(Integer, String)])
 sqliteKritDarshPrepare makarantas es = let
       anusvarafyEnd w = if last w == 'm' && w `notElem` makarantas then init w ++ "M" else w
       liftSamasas e = e {_samasas = Nothing} : case _samasas e of Nothing -> []; Just sams -> concatMap liftSamasas sams
-      idxLiftedEs = zip [1..] (concatMap liftSamasas es) 
+      blownUpEs = concatMap flattenForKritDarsh es -- (concatMap liftSamasas es)
+      idxLiftedEs = zip [1..] blownUpEs  
       wordsTable = uniq $ concatMap (\(idx, e)->[(idx,(uncanon.e2s.anunasikafy.pratipadikafy.anusvarafyEnd) w) | w <- rights (e^.bannerExp._Just)]) idxLiftedEs
       jsonSerialize = BLU.toString . encode
   in (wordsTable, second jsonSerialize <$> idxLiftedEs)
