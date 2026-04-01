@@ -163,8 +163,8 @@
 163	L_ 89 / B_ {#akuRWa#}	akuRWa
 164	L_ 90 / B_ {#akuRWita#}	akuRWita
 165	L_ 91 / B_ {#akutaH#}	akutaH
-166	L_ 91 / B_ {#akutaH#} / S_ .{@{#-calaH#}@}	akutacalaH
-167	L_ 91 / B_ {#akutaH#} / S_ .{@{#-Baya#}@}	akutaBaya
+166	L_ 91 / B_ {#akutaH#} / S_ .{@{#-calaH#}@}	akutaScalaH
+167	L_ 91 / B_ {#akutaH#} / S_ .{@{#-Baya#}@}	akutoBaya
 168	L_ 92 / B_ {#akuDryaYc#}	akuDryaYc
 169	L_ 93 / B_ {#akupyam#}	akupyam
 170	L_ 94 / B_ {#akula#}	akula
@@ -786,7 +786,7 @@
 786	L_ 255 / B_ {#agra#} / S_ .{@{#-hAyanaH#}@}	agrahAyaRaH
 787	L_ 255 / B_ {#agra#} / S_ .{@{#-hAraH#}@}	agrahAraH
 788	L_ 256 / B_ {#agrataH#}	agrataH
-789	L_ 256 / B_ {#agrataH#} / S_ .{@{#-sara#}@}	agratasara
+789	L_ 256 / B_ {#agrataH#} / S_ .{@{#-sara#}@}	agrataHsara
 790	L_ 256 / B_ {#agrataH#} / S_ .{@{#-sara#}@} / S_M_ ({@{#-raH#}@})	
 791	L_ 257 / B_ {#agrima#}	agrima
 792	L_ 257 / B_ {#agrima#} / M_ .{@{#-maH#}@}	agrimaH
@@ -4719,10 +4719,10 @@
 4719	L_ 2406 / B_ {#anyatarataH#}	anyatarataH
 4720	L_ 2407 / B_ {#anyataredyuH#}	anyataredyuH
 4721	L_ 2408 / B_ {#anyataH#}	anyataH
-4722	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-araRyam#}@}	anyatAraRyam
-4723	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-eta, -etas, -enI#}@}	anyatEta,anyatEtas,anyatEnI
-4724	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-GAtin#}@}	anyataGAtin
-4725	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-vAta#}@}	anyatavAta
+4722	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-araRyam#}@}	anyato'raRyam
+4723	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-eta, -etas, -enI#}@}	anyataeta,anyataetas,anyataenI
+4724	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-GAtin#}@}	anyatoGAtin
+4725	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-vAta#}@}	anyatovAta
 4726	L_ 2408 / B_ {#anyataH#} / S_ .{@{#-vAta#}@} / S_M_ ({@{#-taH#}@})	
 4727	L_ 2409 / B_ {#anyatastyaH#}	anyatastyaH
 4728	L_ 2409 / B_ {#anyatastyaH#} / S_ .{@{#-jayin#}@}	anyatastyajayin
@@ -18454,14 +18454,14 @@
 18454	L_ 10254 / B_ {#uBaya#} / S_ .{@{#-saMBavaH#}@}	uBayasamBavaH
 18455	L_ 10254 / B_ {#uBaya#} / S_ .{@{#-snAtaka#}@}	uBayasnAtaka
 18456	L_ 10255 / B_ {#uBayataH#}	uBayataH
-18457	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-kzRut#}@}	uBayatakzRut
-18458	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-dat, -danta#}@}	uBayatadat,uBayatadanta
-18459	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-pASa#}@}	uBayatapASa
-18460	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-prajYa#}@}	uBayataprajYa
-18461	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-BAza#}@}	uBayataBAza
-18462	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-muKa#}@}	uBayatamuKa
-18463	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-muKa#}@} / S_M_ ({@{#-KI#}@})	uBayatamuKI
-18464	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-hrasva#}@}	uBayatahrasva
+18457	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-kzRut#}@}	uBayataHkzRut
+18458	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-dat, -danta#}@}	uBayatodat,uBayatodanta
+18459	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-pASa#}@}	uBayataspASa
+18460	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-prajYa#}@}	uBayataHprajYa
+18461	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-BAza#}@}	uBayatoBAza
+18462	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-muKa#}@}	uBayatomuKa
+18463	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-muKa#}@} / S_M_ ({@{#-KI#}@})	uBayatomuKI
+18464	L_ 10255 / B_ {#uBayataH#} / S_ .{@{#-hrasva#}@}	uBayatohrasva
 18465	L_ 10256 / B_ {#uBayatra#}	uBayatra
 18466	L_ 10257 / B_ {#uBayaTA#}	uBayaTA
 18467	L_ 10258 / B_ {#uBayA#}	uBayA
@@ -78298,7 +78298,7 @@
 78298	L_ 34777 / B_ {#sAmAnya#} / S_ .{@{#-SAsanam#}@}	sAmAnyaSAsanam
 78299	L_ 34777 / B_ {#sAmAnya#} / S_ .{@{#-SAstram#}@}	sAmAnyaSAstram
 78300	L_ 34778 / B_ {#sAmAnyataH#}	sAmAnyataH
-78301	L_ 34778 / B_ {#sAmAnyataH#} / S_ .{@{#-dfzwam#}@}	sAmAnyatadfzwam
+78301	L_ 34778 / B_ {#sAmAnyataH#} / S_ .{@{#-dfzwam#}@}	sAmAnyatodfzwam
 78302	L_ 34778 / B_ {#sAmAnyataH#} / S_ .{@{#-dfzwam#}@} / S_S_ {#˚sambanDam#}	sAmAnyatadfzwasambanDam
 78303	L_ 34779 / B_ {#sAmAyikam#}	sAmAyikam
 78304	L_ 34780 / B_ {#sAmAsika#}	sAmAsika,sAmAsikI
