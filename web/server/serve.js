@@ -227,16 +227,27 @@ async function handleTextQuery(req, res) {
   }
   try {
     const query = `
-      SELECT metadata.id, expanded_banner, meaning as snippet, ancestry
+      SELECT metadata.id, expanded_banner, meaning as snippet, ancestry,
+             (SELECT rowid FROM mwes WHERE english = ? COLLATE NOCASE AND sanskrit COLLATE NOCASE IN (expanded_banner, expanded_banner || 'H', expanded_banner || 'M', expanded_banner || 'm') LIMIT 1) AS mwe_rowid
       FROM meanings 
       JOIN metadata ON meta_id = metadata.id 
       WHERE meaning LIKE ? COLLATE NOCASE
-      ORDER BY (instr(lower(meaning), lower(?)) > 0) DESC,
-                instr(lower(meaning), lower(?))
+      GROUP BY metadata.id
+      ORDER BY
+          mwe_rowid IS NOT NULL DESC,
+          mwe_rowid ASC
       LIMIT 50 OFFSET ?`;
 
     const searchPattern = `%${searchTerm}%`;
-    const results = await db.all(query, [searchPattern, searchTerm, searchTerm, offset]);
+    const params = [searchTerm, searchPattern, offset];
+    
+    // let logQuery = query;
+    // params.forEach(p => {
+    //   logQuery = logQuery.replace('?', typeof p === 'string' ? `'${p}'` : p);
+    // });
+    // console.log(`Executing query:\n${logQuery}`);
+
+    const results = await db.all(query, params);
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({

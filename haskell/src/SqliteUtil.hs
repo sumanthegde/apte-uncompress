@@ -60,6 +60,7 @@ databaseFile = U.apteOutput </> "apte_data.sqlite"
 bulkLoadFromTSV :: [(Integer, String, String)] -> [(Integer, String)] -> IO ()
 bulkLoadFromTSV metadataRows meaningsRows = do
   conn <- open databaseFile
+  createMwesTable False conn
   -- Clear existing data
   execute_ conn "DROP TABLE IF EXISTS meanings_fts"
   execute_ conn "DROP TABLE IF EXISTS meanings"
@@ -67,6 +68,7 @@ bulkLoadFromTSV metadataRows meaningsRows = do
   execute_ conn "CREATE TABLE IF NOT EXISTS metadata (id INTEGER PRIMARY KEY AUTOINCREMENT, ancestry TEXT, expanded_banner TEXT)"
   execute_ conn "CREATE TABLE IF NOT EXISTS meanings (meta_id INTEGER, meaning TEXT, FOREIGN KEY (meta_id) REFERENCES metadata(id))"
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_metadata_ancestry ON metadata (ancestry);"
+  execute_ conn "CREATE INDEX IF NOT EXISTS idx_metadata_expanded_banner ON metadata (expanded_banner);"
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_meanings_meta_id ON meanings (meta_id);"
   execute_ conn "CREATE INDEX IF NOT EXISTS idx_meanings_text_nocase ON meanings (meaning COLLATE NOCASE);"
   execute_ conn "BEGIN TRANSACTION"
@@ -78,3 +80,22 @@ bulkLoadFromTSV metadataRows meaningsRows = do
 
   close conn
   putStrLn $ "Successfully bulk loaded data into sqlite db using executeMany."
+
+createMwesTable :: Bool -> Connection -> IO ()
+createMwesTable shouldDrop conn = do
+  when shouldDrop $
+    execute_ conn "DROP TABLE IF EXISTS mwes"
+  execute_ conn "CREATE TABLE IF NOT EXISTS mwes (english TEXT, sanskrit TEXT)"
+  execute_ conn "CREATE INDEX IF NOT EXISTS idx_mwes_english ON mwes (english COLLATE NOCASE)"
+
+-- | Flattens the parsed MWE data into rows and loads them into the mwes table.
+loadMWES :: [(String, [String])] -> IO ()
+loadMWES mwesData = do
+  conn <- open databaseFile
+  createMwesTable True conn
+  execute_ conn "BEGIN TRANSACTION"
+  let flattened = [ (eng, san) | (eng, sans) <- mwesData, san <- sans ]
+  executeMany conn "INSERT INTO mwes (english, sanskrit) VALUES (?, ?)" flattened
+  execute_ conn "COMMIT"
+  close conn
+  putStrLn $ "Successfully loaded " ++ show (length flattened) ++ " rows into mwes table."
